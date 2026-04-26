@@ -40,15 +40,15 @@ const footerLinks = [
 export default function Footer() {
   return (
     <footer className="bg-navy text-gray-400 mt-auto">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
           {footerLinks.map((section) => (
             <div key={section.title}>
-              <h3 className="text-white text-sm font-bold mb-3">{section.title}</h3>
-              <ul className="space-y-2">
+              <h3 className="text-teal-500 text-sm font-bold mb-4">{section.title}</h3>
+              <ul className="space-y-2.5">
                 {section.links.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href} className="text-xs hover:text-teal-500 transition-colors">
+                    <Link href={link.href} className="text-xs text-gray-400 hover:text-white transition-colors">
                       {link.label}
                     </Link>
                   </li>
@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-xs">
+        <div className="border-t border-gray-700 mt-10 pt-8 text-center text-xs text-gray-500">
           <p>パーソナルジムびより - あなたに合ったパーソナルジムが見つかる</p>
           <p className="mt-1">&copy; 2026 パーソナルジムびより All Rights Reserved.</p>
         </div>

@@ -14,19 +14,23 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-navy text-white sticky top-0 z-50">
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       {/* Mobile PR bar */}
-      <div className="sm:hidden bg-gray-100 text-gray-500 text-xs text-center py-1">PRを含みます</div>
+      <div className="sm:hidden bg-gray-50 text-gray-400 text-xs text-center py-1">PRを含みます</div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-14">
+        <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <span className="text-teal-500 font-bold text-xl">パーソナルジムびより</span>
+            <span className="text-teal-500 font-bold text-xl tracking-tight">パーソナルジムびより</span>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden sm:flex items-center gap-6">
+          <nav className="hidden sm:flex items-center gap-8">
             {navLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="text-sm text-gray-300 hover:text-teal-500 transition-colors">
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm text-gray-600 hover:text-teal-500 transition-colors font-medium"
+              >
                 {link.label}
               </Link>
             ))}
@@ -41,21 +45,21 @@ export default function Header() {
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="メニュー"
           >
-            <span className={`block w-5 h-0.5 bg-white transition-transform ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
-            <span className={`block w-5 h-0.5 bg-white transition-opacity ${menuOpen ? 'opacity-0' : ''}`} />
-            <span className={`block w-5 h-0.5 bg-white transition-transform ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+            <span className={`block w-5 h-0.5 bg-gray-700 transition-transform ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+            <span className={`block w-5 h-0.5 bg-gray-700 transition-opacity ${menuOpen ? 'opacity-0' : ''}`} />
+            <span className={`block w-5 h-0.5 bg-gray-700 transition-transform ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
           </button>
         </div>
       </div>
 
       {/* Mobile menu */}
       {menuOpen && (
-        <nav className="sm:hidden bg-navy-light border-t border-gray-700">
+        <nav className="sm:hidden bg-white border-t border-gray-100">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="block px-6 py-3 text-sm text-gray-300 hover:text-teal-500 hover:bg-gray-800 transition-colors"
+              className="block px-6 py-3 text-sm text-gray-600 hover:text-teal-500 hover:bg-gray-50 transition-colors font-medium"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}

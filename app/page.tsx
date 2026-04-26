@@ -11,6 +11,7 @@ const services = [
     cons: ["店舗によって混雑する時間帯あり", "上級者向けプログラムが少ない"],
     recommend: "コスパ重視で、無理なく通い続けたい方におすすめ。",
     reviewPath: "/review/chicken-gym/",
+    comment: "初めてのパーソナルジムならここ！低価格で始めやすく、トレーナーの対応も丁寧です。",
   },
   {
     rank: 2,
@@ -22,6 +23,7 @@ const services = [
     cons: ["他社と比べて料金が高め", "食事制限が厳しいと感じる方も"],
     recommend: "本気で体を変えたい方、短期間で結果を出したい方向け。",
     reviewPath: "/review/rizap/",
+    comment: "本気で結果を出したいなら間違いなし。食事管理の徹底度が他社とは段違いです。",
   },
   {
     rank: 3,
@@ -33,6 +35,7 @@ const services = [
     cons: ["店舗数がやや少ない", "人気トレーナーは予約が取りにくい"],
     recommend: "食事を楽しみながらダイエットしたい方に最適。",
     reviewPath: "/review/247workout/",
+    comment: "食事を我慢したくない方にはベストな選択肢。リバウンドしにくいのも魅力的ですね。",
   },
   {
     rank: 4,
@@ -44,6 +47,7 @@ const services = [
     cons: ["店舗が都市部に集中", "プラン料金がやや複雑"],
     recommend: "見た目を変えたい方、ボディメイクにこだわりたい方向け。",
     reviewPath: "/review/beyond/",
+    comment: "筋肉をつけて見た目を変えたいなら、トレーナーの質が高いBEYONDが最適です。",
   },
   {
     rank: 5,
@@ -55,6 +59,7 @@ const services = [
     cons: ["フリーウェイトが少ない", "トレーナーとの関係が薄め"],
     recommend: "忙しくて時間がない方、効率重視の方におすすめ。",
     reviewPath: "/review/exercise-coach/",
+    comment: "忙しいビジネスパーソンには革命的。20分で効果が出るのは時間効率が最高ですね。",
   },
 ];
 
@@ -106,6 +111,36 @@ const faqJsonLd = {
   })),
 };
 
+function CharacterComment({
+  character,
+  comment,
+}: {
+  character: "mina" | "ken";
+  comment: string;
+}) {
+  const isMinaChar = character === "mina";
+  const imgSrc = isMinaChar ? "/chara-trainer.jpg" : "/chara-advisor.jpg";
+  const name = isMinaChar ? "ミナ" : "ケン";
+  const label = isMinaChar ? "ミナのコメント" : "ケンのコメント";
+  const bgColor = isMinaChar ? "bg-teal-50" : "bg-orange-50";
+  const borderColor = isMinaChar ? "border-teal-100" : "border-orange-100";
+  const labelColor = isMinaChar ? "text-teal-700" : "text-orange-700";
+
+  return (
+    <div className={`flex items-start gap-3 mt-3 p-3 rounded-lg ${bgColor} border ${borderColor}`}>
+      <img
+        src={imgSrc}
+        alt={name}
+        className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+      />
+      <div>
+        <span className={`text-xs font-bold ${labelColor}`}>{label}</span>
+        <p className="text-sm text-gray-600 mt-1">{comment}</p>
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <>
@@ -114,19 +149,24 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-navy to-navy-light text-white py-16 sm:py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6">
+      {/* Hero with background image */}
+      <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/hero-gym.jpg')" }}
+        />
+        <div className="absolute inset-0 bg-black/60" />
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center py-20">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-white">
             あなたに合った<br className="sm:hidden" />パーソナルジムが見つかる
           </h1>
-          <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-gray-200 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
             厳選15社のパーソナルジムを料金・口コミ・特徴から徹底比較。
             初心者からボディメイク志望まで、目的に合ったジム選びをサポートします。
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg transition-colors text-lg"
+            className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
           >
             ランキングを見る
           </Link>
@@ -134,7 +174,7 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-14 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {[
@@ -143,9 +183,9 @@ export default function Home() {
               { value: "料金", label: "徹底比較" },
               { value: "口コミ", label: "多数掲載" },
             ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <p className="text-2xl sm:text-3xl font-bold text-teal-600">{stat.value}</p>
-                <p className="text-sm text-gray-600 mt-1">{stat.label}</p>
+              <div key={stat.label} className="text-center p-4">
+                <p className="text-2xl sm:text-3xl font-bold text-teal-500">{stat.value}</p>
+                <p className="text-sm text-gray-500 mt-1.5">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -153,7 +193,7 @@ export default function Home() {
       </section>
 
       {/* Ranking */}
-      <section id="ranking" className="py-16">
+      <section id="ranking" className="py-16 bg-section-bg">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">
             パーソナルジムおすすめランキング
@@ -166,12 +206,12 @@ export default function Home() {
             {services.map((service) => (
               <article
                 key={service.rank}
-                className="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden"
+                className="card-base overflow-hidden"
               >
                 {/* Rank header */}
-                <div className="bg-teal-500 text-white px-6 py-3 flex items-center justify-between">
+                <div className="bg-teal-500 text-white px-6 py-3.5 flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <span className="bg-white text-teal-600 font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center">
+                    <span className="bg-white text-teal-600 font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shadow-sm">
                       {service.rank}
                     </span>
                     <h3 className="text-xl font-bold">{service.name}</h3>
@@ -184,12 +224,12 @@ export default function Home() {
                 <div className="p-6">
                   <p className="text-gray-600 mb-4">{service.tagline}</p>
 
-                  {/* Features */}
+                  {/* Features as pills */}
                   <div className="flex flex-wrap gap-2 mb-5">
                     {service.features.map((f) => (
                       <span
                         key={f}
-                        className="bg-teal-50 text-teal-700 text-xs font-medium px-3 py-1 rounded-full"
+                        className="bg-teal-50 text-teal-700 text-xs font-medium px-3 py-1.5 rounded-full border border-teal-100"
                       >
                         {f}
                       </span>
@@ -198,23 +238,23 @@ export default function Home() {
 
                   {/* Pros & Cons */}
                   <div className="grid sm:grid-cols-2 gap-4 mb-5">
-                    <div>
+                    <div className="bg-green-50 rounded-lg p-4">
                       <h4 className="text-sm font-bold text-green-700 mb-2">良い点</h4>
-                      <ul className="space-y-1">
+                      <ul className="space-y-1.5">
                         {service.pros.map((p) => (
                           <li key={p} className="text-sm text-gray-700 flex items-start gap-2">
-                            <span className="text-green-600 shrink-0 mt-0.5">[+]</span>
+                            <span className="text-green-600 shrink-0 mt-0.5 font-bold">+</span>
                             {p}
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <div>
+                    <div className="bg-red-50 rounded-lg p-4">
                       <h4 className="text-sm font-bold text-red-700 mb-2">注意点</h4>
-                      <ul className="space-y-1">
+                      <ul className="space-y-1.5">
                         {service.cons.map((c) => (
                           <li key={c} className="text-sm text-gray-700 flex items-start gap-2">
-                            <span className="text-red-500 shrink-0 mt-0.5">[-]</span>
+                            <span className="text-red-500 shrink-0 mt-0.5 font-bold">-</span>
                             {c}
                           </li>
                         ))}
@@ -230,12 +270,20 @@ export default function Home() {
                     </p>
                   </div>
 
-                  <Link
-                    href={service.reviewPath}
-                    className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm"
-                  >
-                    {service.name}の口コミ・詳細を見る
-                  </Link>
+                  {/* Character comment */}
+                  <CharacterComment
+                    character={service.rank <= 3 ? "mina" : "ken"}
+                    comment={service.comment}
+                  />
+
+                  <div className="mt-5">
+                    <Link
+                      href={service.reviewPath}
+                      className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm shadow-sm"
+                    >
+                      {service.name}の口コミ・詳細を見る
+                    </Link>
+                  </div>
                 </div>
               </article>
             ))}
@@ -244,7 +292,7 @@ export default function Home() {
       </section>
 
       {/* Area */}
-      <section id="area" className="py-16 bg-gray-50">
+      <section id="area" className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">エリア別で探す</h2>
           <p className="text-center text-gray-500 mb-8">お住まいの地域からパーソナルジムを探す</p>
@@ -252,10 +300,10 @@ export default function Home() {
             {["東京", "大阪", "名古屋", "福岡", "横浜", "札幌", "仙台", "広島"].map((area) => (
               <div
                 key={area}
-                className="bg-white border border-gray-200 rounded-lg p-4 text-center hover:border-teal-500 transition-colors cursor-pointer"
+                className="card-base p-5 text-center hover:border-teal-500 hover:shadow-md transition-all cursor-pointer"
               >
-                <p className="font-bold text-gray-800">{area}</p>
-                <p className="text-xs text-gray-500 mt-1">エリアの詳細</p>
+                <p className="font-bold text-gray-800 text-lg">{area}</p>
+                <p className="text-xs text-gray-500 mt-1.5">エリアの詳細</p>
               </div>
             ))}
           </div>
@@ -263,22 +311,25 @@ export default function Home() {
       </section>
 
       {/* Purpose */}
-      <section id="purpose" className="py-16">
+      <section id="purpose" className="py-16 bg-section-bg">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">目的別で探す</h2>
           <p className="text-center text-gray-500 mb-8">あなたの目的に合ったジムを見つけよう</p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {[
-              { title: "ダイエット", desc: "食事管理+運動で効率的に痩せたい方" },
-              { title: "ボディメイク", desc: "筋肉をつけて理想の体型を目指す方" },
-              { title: "健康維持", desc: "運動不足を解消し健康的な体づくり" },
+              { title: "ダイエット", desc: "食事管理+運動で効率的に痩せたい方", badge: "人気" },
+              { title: "ボディメイク", desc: "筋肉をつけて理想の体型を目指す方", badge: "注目" },
+              { title: "健康維持", desc: "運動不足を解消し健康的な体づくり", badge: "おすすめ" },
             ].map((purpose) => (
               <div
                 key={purpose.title}
-                className="bg-white border border-gray-200 rounded-lg p-6 hover:border-teal-500 transition-colors"
+                className="card-base p-6 hover:shadow-md transition-all"
               >
+                <span className="inline-block bg-teal-50 text-teal-700 text-xs font-bold px-2.5 py-1 rounded-full border border-teal-100 mb-3">
+                  {purpose.badge}
+                </span>
                 <h3 className="font-bold text-lg text-gray-800 mb-2">{purpose.title}</h3>
-                <p className="text-sm text-gray-600">{purpose.desc}</p>
+                <p className="text-sm text-gray-600 leading-relaxed">{purpose.desc}</p>
               </div>
             ))}
           </div>
@@ -286,23 +337,23 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">よくある質問</h2>
           <p className="text-center text-gray-500 mb-8">パーソナルジムに関する疑問にお答えします</p>
-          <div className="space-y-4">
+          <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details
                 key={i}
-                className="bg-white border border-gray-200 rounded-lg group"
+                className="card-base group"
               >
                 <summary className="px-6 py-4 cursor-pointer text-sm sm:text-base font-medium text-gray-800 flex items-center justify-between list-none">
                   <span>Q. {item.q}</span>
-                  <span className="text-gray-400 group-open:rotate-180 transition-transform ml-4 shrink-0">
+                  <span className="text-gray-400 group-open:rotate-180 transition-transform ml-4 shrink-0 text-xs">
                     &#9660;
                   </span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-gray-600 leading-relaxed">
+                <div className="px-6 pb-5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
                   A. {item.a}
                 </div>
               </details>
@@ -312,18 +363,18 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-teal-500 text-white">
+      <section className="py-16 bg-gradient-to-r from-teal-600 to-teal-500 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">
             まずは無料カウンセリングから始めよう
           </h2>
-          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto leading-relaxed">
             多くのパーソナルジムでは、無料カウンセリングや体験トレーニングを実施しています。
             気になるジムがあれば、まずは相談してみましょう。
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-white text-teal-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors text-lg"
+            className="inline-block bg-white text-teal-600 font-bold py-3.5 px-10 rounded-lg hover:bg-gray-50 transition-colors text-lg shadow-lg"
           >
             ランキングに戻る
           </Link>
