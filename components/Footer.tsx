@@ -1,0 +1,67 @@
+import Link from 'next/link';
+
+const footerLinks = [
+  {
+    title: '口コミ・レビュー',
+    links: [
+      { href: '/review/chicken-gym/', label: 'チキンジム' },
+      { href: '/review/rizap/', label: 'RIZAP' },
+      { href: '/review/247workout/', label: '24/7ワークアウト' },
+      { href: '/review/beyond/', label: 'BEYOND' },
+      { href: '/review/exercise-coach/', label: 'エクササイズコーチ' },
+    ],
+  },
+  {
+    title: 'エリア別',
+    links: [
+      { href: '/#area', label: '東京' },
+      { href: '/#area', label: '大阪' },
+      { href: '/#area', label: '名古屋' },
+      { href: '/#area', label: '福岡' },
+    ],
+  },
+  {
+    title: 'お役立ち',
+    links: [
+      { href: '/faq/', label: 'よくある質問' },
+      { href: '/#ranking', label: 'ランキング' },
+    ],
+  },
+  {
+    title: '法的情報',
+    links: [
+      { href: '/privacy/', label: 'プライバシーポリシー' },
+      { href: '/terms/', label: '利用規約' },
+      { href: '/disclaimer/', label: '免責事項' },
+    ],
+  },
+];
+
+export default function Footer() {
+  return (
+    <footer className="bg-navy text-gray-400 mt-auto">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
+          {footerLinks.map((section) => (
+            <div key={section.title}>
+              <h3 className="text-white text-sm font-bold mb-3">{section.title}</h3>
+              <ul className="space-y-2">
+                {section.links.map((link) => (
+                  <li key={link.label}>
+                    <Link href={link.href} className="text-xs hover:text-teal-500 transition-colors">
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-xs">
+          <p>パーソナルジムびより - あなたに合ったパーソナルジムが見つかる</p>
+          <p className="mt-1">&copy; 2026 パーソナルジムびより All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+}

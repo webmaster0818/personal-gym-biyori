@@ -1,0 +1,334 @@
+import Link from "next/link";
+
+const services = [
+  {
+    rank: 1,
+    name: "チキンジム",
+    tagline: "初心者でも続けやすいパーソナルジム",
+    price: "月額6,800円〜",
+    features: ["全国30店舗以上", "初心者向けプログラム", "手ぶらOK", "ウェア・シューズ無料レンタル"],
+    pros: ["業界最安クラスの料金設定", "駅近で通いやすい立地", "トレーナーの丁寧な指導が好評"],
+    cons: ["店舗によって混雑する時間帯あり", "上級者向けプログラムが少ない"],
+    recommend: "コスパ重視で、無理なく通い続けたい方におすすめ。",
+    reviewPath: "/review/chicken-gym/",
+  },
+  {
+    rank: 2,
+    name: "RIZAP",
+    tagline: "結果にコミットするパーソナルジム",
+    price: "月額9,900円〜",
+    features: ["結果にコミット", "食事指導付き", "30日間全額返金保証", "専属トレーナー制"],
+    pros: ["圧倒的な実績と知名度", "食事管理まで徹底サポート", "返金保証で安心して始められる"],
+    cons: ["他社と比べて料金が高め", "食事制限が厳しいと感じる方も"],
+    recommend: "本気で体を変えたい方、短期間で結果を出したい方向け。",
+    reviewPath: "/review/rizap/",
+  },
+  {
+    rank: 3,
+    name: "24/7ワークアウト",
+    tagline: "3食食べて痩せるダイエットジム",
+    price: "月額7,500円〜",
+    features: ["3食食べるダイエット", "深夜営業対応", "完全個室", "全額返金保証"],
+    pros: ["食事制限がゆるめで続けやすい", "深夜まで営業で仕事帰りもOK", "リバウンド率が低い"],
+    cons: ["店舗数がやや少ない", "人気トレーナーは予約が取りにくい"],
+    recommend: "食事を楽しみながらダイエットしたい方に最適。",
+    reviewPath: "/review/247workout/",
+  },
+  {
+    rank: 4,
+    name: "BEYOND",
+    tagline: "ボディメイク特化のパーソナルジム",
+    price: "月額8,250円〜",
+    features: ["ボディメイク特化", "コンテスト入賞トレーナー在籍", "糖質制限なし", "都市部中心展開"],
+    pros: ["トレーナーの質が非常に高い", "見た目の変化にこだわれる", "食事指導が柔軟"],
+    cons: ["店舗が都市部に集中", "プラン料金がやや複雑"],
+    recommend: "見た目を変えたい方、ボディメイクにこだわりたい方向け。",
+    reviewPath: "/review/beyond/",
+  },
+  {
+    rank: 5,
+    name: "エクササイズコーチ",
+    tagline: "AI搭載マシンで効率的なトレーニング",
+    price: "月額9,900円〜",
+    features: ["AI搭載マシン", "1回20分の時短トレーニング", "月4回からOK", "全国展開中"],
+    pros: ["1回20分で忙しい方にぴったり", "AIが最適な負荷を自動調整", "低価格で始めやすい"],
+    cons: ["フリーウェイトが少ない", "トレーナーとの関係が薄め"],
+    recommend: "忙しくて時間がない方、効率重視の方におすすめ。",
+    reviewPath: "/review/exercise-coach/",
+  },
+];
+
+const faqItems = [
+  {
+    q: "パーソナルジムの相場はいくらですか？",
+    a: "パーソナルジムの月額料金は、一般的に月額6,000円〜30,000円程度です。短期集中プランの場合は総額20万円〜40万円が相場となります。本サイトで紹介しているジムは月額6,800円〜9,900円と、比較的リーズナブルなプランを提供しています。",
+  },
+  {
+    q: "パーソナルジムは初心者でも大丈夫ですか？",
+    a: "はい、むしろ初心者にこそおすすめです。専属トレーナーが一人ひとりのレベルに合わせたメニューを作成するため、運動経験がなくても安心して始められます。正しいフォームも指導してもらえるため、怪我のリスクも低くなります。",
+  },
+  {
+    q: "パーソナルジムに通う頻度はどのくらいですか？",
+    a: "一般的には週2回のペースが推奨されています。筋肉の回復期間を考慮すると、2〜3日おきのトレーニングが効果的です。忙しい方は週1回からでも効果を実感できるジムもあります。",
+  },
+  {
+    q: "パーソナルジムの効果はいつ頃から出ますか？",
+    a: "個人差はありますが、多くの方が2〜3ヶ月で見た目の変化を実感しています。体重の変化は1ヶ月目から見られることもあります。食事管理を並行して行うことで、より早く効果を実感できます。",
+  },
+  {
+    q: "パーソナルジムと普通のジムの違いは？",
+    a: "パーソナルジムは専属トレーナーがマンツーマンで指導するため、効率的なトレーニングが可能です。一般的なジムは自由に器具を使えますが、正しいフォームや最適なメニューは自分で調べる必要があります。確実に結果を出したい方はパーソナルジムがおすすめです。",
+  },
+  {
+    q: "パーソナルジムの食事指導とは？",
+    a: "多くのパーソナルジムでは、トレーニングと併せて食事の指導を行います。毎食の食事内容を報告し、栄養バランスやカロリーのアドバイスを受けられます。LINEでの相談に対応しているジムも増えています。",
+  },
+  {
+    q: "パーソナルジムの返金保証とは？",
+    a: "一部のパーソナルジムでは、効果を感じられなかった場合に全額返金する保証制度を設けています。RIZAPの30日間全額返金保証や、24/7ワークアウトの全額返金制度などが代表的です。入会前に条件を確認しましょう。",
+  },
+  {
+    q: "パーソナルジムを選ぶポイントは？",
+    a: "重要なポイントは、料金体系・立地（通いやすさ）・トレーナーの質・プログラム内容・口コミ評価の5点です。無料カウンセリングや体験トレーニングを活用して、実際の雰囲気を確かめることをおすすめします。",
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+
+export default function Home() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-navy to-navy-light text-white py-16 sm:py-24">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6">
+            あなたに合った<br className="sm:hidden" />パーソナルジムが見つかる
+          </h1>
+          <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
+            厳選15社のパーソナルジムを料金・口コミ・特徴から徹底比較。
+            初心者からボディメイク志望まで、目的に合ったジム選びをサポートします。
+          </p>
+          <Link
+            href="#ranking"
+            className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg transition-colors text-lg"
+          >
+            ランキングを見る
+          </Link>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="py-12 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+            {[
+              { value: "15社", label: "厳選比較" },
+              { value: "全国", label: "対応エリア" },
+              { value: "料金", label: "徹底比較" },
+              { value: "口コミ", label: "多数掲載" },
+            ].map((stat) => (
+              <div key={stat.label} className="text-center">
+                <p className="text-2xl sm:text-3xl font-bold text-teal-600">{stat.value}</p>
+                <p className="text-sm text-gray-600 mt-1">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Ranking */}
+      <section id="ranking" className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">
+            パーソナルジムおすすめランキング
+          </h2>
+          <p className="text-center text-gray-500 mb-10">
+            料金・口コミ・サービス内容を総合的に評価
+          </p>
+
+          <div className="space-y-8">
+            {services.map((service) => (
+              <article
+                key={service.rank}
+                className="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden"
+              >
+                {/* Rank header */}
+                <div className="bg-teal-500 text-white px-6 py-3 flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <span className="bg-white text-teal-600 font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center">
+                      {service.rank}
+                    </span>
+                    <h3 className="text-xl font-bold">{service.name}</h3>
+                  </div>
+                  <span className="text-sm bg-white/20 px-3 py-1 rounded-full">
+                    {service.price}
+                  </span>
+                </div>
+
+                <div className="p-6">
+                  <p className="text-gray-600 mb-4">{service.tagline}</p>
+
+                  {/* Features */}
+                  <div className="flex flex-wrap gap-2 mb-5">
+                    {service.features.map((f) => (
+                      <span
+                        key={f}
+                        className="bg-teal-50 text-teal-700 text-xs font-medium px-3 py-1 rounded-full"
+                      >
+                        {f}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Pros & Cons */}
+                  <div className="grid sm:grid-cols-2 gap-4 mb-5">
+                    <div>
+                      <h4 className="text-sm font-bold text-green-700 mb-2">良い点</h4>
+                      <ul className="space-y-1">
+                        {service.pros.map((p) => (
+                          <li key={p} className="text-sm text-gray-700 flex items-start gap-2">
+                            <span className="text-green-600 shrink-0 mt-0.5">[+]</span>
+                            {p}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-red-700 mb-2">注意点</h4>
+                      <ul className="space-y-1">
+                        {service.cons.map((c) => (
+                          <li key={c} className="text-sm text-gray-700 flex items-start gap-2">
+                            <span className="text-red-500 shrink-0 mt-0.5">[-]</span>
+                            {c}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Recommend */}
+                  <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                    <p className="text-sm text-gray-700">
+                      <span className="font-bold text-teal-700">おすすめ：</span>
+                      {service.recommend}
+                    </p>
+                  </div>
+
+                  <Link
+                    href={service.reviewPath}
+                    className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm"
+                  >
+                    {service.name}の口コミ・詳細を見る
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Area */}
+      <section id="area" className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">エリア別で探す</h2>
+          <p className="text-center text-gray-500 mb-8">お住まいの地域からパーソナルジムを探す</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            {["東京", "大阪", "名古屋", "福岡", "横浜", "札幌", "仙台", "広島"].map((area) => (
+              <div
+                key={area}
+                className="bg-white border border-gray-200 rounded-lg p-4 text-center hover:border-teal-500 transition-colors cursor-pointer"
+              >
+                <p className="font-bold text-gray-800">{area}</p>
+                <p className="text-xs text-gray-500 mt-1">エリアの詳細</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Purpose */}
+      <section id="purpose" className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">目的別で探す</h2>
+          <p className="text-center text-gray-500 mb-8">あなたの目的に合ったジムを見つけよう</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {[
+              { title: "ダイエット", desc: "食事管理+運動で効率的に痩せたい方" },
+              { title: "ボディメイク", desc: "筋肉をつけて理想の体型を目指す方" },
+              { title: "健康維持", desc: "運動不足を解消し健康的な体づくり" },
+            ].map((purpose) => (
+              <div
+                key={purpose.title}
+                className="bg-white border border-gray-200 rounded-lg p-6 hover:border-teal-500 transition-colors"
+              >
+                <h3 className="font-bold text-lg text-gray-800 mb-2">{purpose.title}</h3>
+                <p className="text-sm text-gray-600">{purpose.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">よくある質問</h2>
+          <p className="text-center text-gray-500 mb-8">パーソナルジムに関する疑問にお答えします</p>
+          <div className="space-y-4">
+            {faqItems.map((item, i) => (
+              <details
+                key={i}
+                className="bg-white border border-gray-200 rounded-lg group"
+              >
+                <summary className="px-6 py-4 cursor-pointer text-sm sm:text-base font-medium text-gray-800 flex items-center justify-between list-none">
+                  <span>Q. {item.q}</span>
+                  <span className="text-gray-400 group-open:rotate-180 transition-transform ml-4 shrink-0">
+                    &#9660;
+                  </span>
+                </summary>
+                <div className="px-6 pb-4 text-sm text-gray-600 leading-relaxed">
+                  A. {item.a}
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-16 bg-teal-500 text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+            まずは無料カウンセリングから始めよう
+          </h2>
+          <p className="text-teal-100 mb-8 max-w-2xl mx-auto">
+            多くのパーソナルジムでは、無料カウンセリングや体験トレーニングを実施しています。
+            気になるジムがあれば、まずは相談してみましょう。
+          </p>
+          <Link
+            href="#ranking"
+            className="inline-block bg-white text-teal-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors text-lg"
+          >
+            ランキングに戻る
+          </Link>
+        </div>
+      </section>
+    </>
+  );
+}
