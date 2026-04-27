@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F9FAFB;
-  --foreground: #1a1a1a;
+  --background: #FFFFFF;
+  --foreground: #1A1A1A;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-noto-sans-jp);
-  --color-charcoal: #374151;
-  --color-charcoal-dark: #1F2937;
-  --color-charcoal-light: #4B5563;
-  --color-coral: #F43F5E;
-  --color-coral-dark: #E11D48;
-  --color-coral-light: #FFF1F2;
-  --color-coral-100: #FFE4E6;
-  --color-coral-50: #FFF1F2;
-  --color-coral-700: #BE123C;
+  --color-primary: #1A1A1A;
+  --color-primary-dark: #111827;
+  --color-primary-light: #374151;
+  --color-accent: #F97316;
+  --color-accent-dark: #EA580C;
+  --color-accent-light: #FFF7ED;
+  --color-accent-100: #FFEDD5;
+  --color-accent-50: #FFF7ED;
+  --color-accent-700: #C2410C;
   --color-section-bg: #F9FAFB;
 }
 
@@ -49,8 +49,8 @@ details summary::marker {
 /* Speech bubble */
 .speech-bubble {
   position: relative;
-  background: #FFF1F2;
-  border: 1px solid #FFE4E6;
+  background: #FFF7ED;
+  border: 1px solid #FFEDD5;
   border-radius: 0.75rem;
   padding: 0.75rem;
 }

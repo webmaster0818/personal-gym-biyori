@@ -14,13 +14,13 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-charcoal sticky top-0 z-50">
+    <header className="bg-primary sticky top-0 z-50">
       {/* Mobile PR bar */}
-      <div className="sm:hidden bg-charcoal-dark text-gray-400 text-xs text-center py-1">PRを含みます</div>
+      <div className="sm:hidden bg-primary-dark text-gray-400 text-xs text-center py-1">PRを含みます</div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <span className="text-coral font-bold text-xl tracking-tight">パーソナルジムびより</span>
+            <span className="text-accent font-bold text-xl tracking-tight">パーソナルジムびより</span>
           </Link>
 
           {/* Desktop nav */}
@@ -29,7 +29,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-gray-300 hover:text-coral transition-colors font-medium"
+                className="text-sm text-gray-300 hover:text-accent transition-colors font-medium"
               >
                 {link.label}
               </Link>
@@ -54,12 +54,12 @@ export default function Header() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <nav className="sm:hidden bg-charcoal-dark border-t border-gray-600">
+        <nav className="sm:hidden bg-primary-dark border-t border-gray-600">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="block px-6 py-3 text-sm text-gray-300 hover:text-coral hover:bg-charcoal transition-colors font-medium"
+              className="block px-6 py-3 text-sm text-gray-300 hover:text-accent hover:bg-primary transition-colors font-medium"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}

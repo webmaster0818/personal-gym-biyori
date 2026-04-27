@@ -39,12 +39,12 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-charcoal-dark text-gray-400 mt-auto">
+    <footer className="bg-primary text-gray-400 mt-auto">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
           {footerLinks.map((section) => (
             <div key={section.title}>
-              <h3 className="text-coral text-sm font-bold mb-4">{section.title}</h3>
+              <h3 className="text-accent text-sm font-bold mb-4">{section.title}</h3>
               <ul className="space-y-2.5">
                 {section.links.map((link) => (
                   <li key={link.label}>

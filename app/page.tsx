@@ -112,29 +112,19 @@ const faqJsonLd = {
 };
 
 function CharacterComment({
-  character,
   comment,
 }: {
-  character: "rina" | "ken";
   comment: string;
 }) {
-  const isRinaChar = character === "rina";
-  const imgSrc = isRinaChar ? "/chara-stylish.jpg" : "/chara-advisor.jpg";
-  const name = isRinaChar ? "リナ" : "ケン";
-  const label = isRinaChar ? "リナのコメント" : "ケンのコメント";
-  const bgColor = isRinaChar ? "bg-coral-50" : "bg-gray-50";
-  const borderColor = isRinaChar ? "border-coral-100" : "border-gray-200";
-  const labelColor = isRinaChar ? "text-coral-700" : "text-charcoal-light";
-
   return (
-    <div className={`flex items-start gap-3 mt-3 p-3 rounded-lg ${bgColor} border ${borderColor}`}>
+    <div className="flex items-start gap-3 mt-3 p-3 rounded-lg bg-accent-50 border border-accent-100">
       <img
-        src={imgSrc}
-        alt={name}
+        src="/chara-energy.jpg"
+        alt="タクヤ"
         className="w-10 h-10 rounded-full object-cover flex-shrink-0"
       />
       <div>
-        <span className={`text-xs font-bold ${labelColor}`}>{label}</span>
+        <span className="text-xs font-bold text-accent-700">タクヤのコメント</span>
         <p className="text-sm text-gray-600 mt-1">{comment}</p>
       </div>
     </div>
@@ -153,9 +143,9 @@ export default function Home() {
       <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/hero-stylish.jpg')" }}
+          style={{ backgroundImage: "url('/hero-energy.jpg')" }}
         />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center py-20">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-white">
             あなたに合った<br className="sm:hidden" />パーソナルジムが見つかる
@@ -166,7 +156,7 @@ export default function Home() {
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-coral hover:bg-coral-dark text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
+            className="inline-block bg-accent hover:bg-accent-dark text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
           >
             ランキングを見る
           </Link>
@@ -184,7 +174,7 @@ export default function Home() {
               { value: "口コミ", label: "多数掲載" },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-4">
-                <p className="text-2xl sm:text-3xl font-bold text-coral">{stat.value}</p>
+                <p className="text-2xl sm:text-3xl font-bold text-accent">{stat.value}</p>
                 <p className="text-sm text-gray-500 mt-1.5">{stat.label}</p>
               </div>
             ))}
@@ -209,9 +199,9 @@ export default function Home() {
                 className="card-base overflow-hidden"
               >
                 {/* Rank header */}
-                <div className="bg-charcoal text-white px-6 py-3.5 flex items-center justify-between">
+                <div className="bg-primary text-white px-6 py-3.5 flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <span className="bg-coral text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shadow-sm">
+                    <span className="bg-accent text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shadow-sm">
                       {service.rank}
                     </span>
                     <h3 className="text-xl font-bold">{service.name}</h3>
@@ -229,7 +219,7 @@ export default function Home() {
                     {service.features.map((f) => (
                       <span
                         key={f}
-                        className="bg-coral-50 text-coral-700 text-xs font-medium px-3 py-1.5 rounded-full border border-coral-100"
+                        className="bg-accent-50 text-accent-700 text-xs font-medium px-3 py-1.5 rounded-full border border-accent-100"
                       >
                         {f}
                       </span>
@@ -265,21 +255,20 @@ export default function Home() {
                   {/* Recommend */}
                   <div className="bg-gray-50 rounded-lg p-4 mb-4">
                     <p className="text-sm text-gray-700">
-                      <span className="font-bold text-coral">おすすめ：</span>
+                      <span className="font-bold text-accent">おすすめ：</span>
                       {service.recommend}
                     </p>
                   </div>
 
                   {/* Character comment */}
                   <CharacterComment
-                    character={service.rank <= 3 ? "rina" : "ken"}
                     comment={service.comment}
                   />
 
                   <div className="mt-5">
                     <Link
                       href={service.reviewPath}
-                      className="inline-block bg-coral hover:bg-coral-dark text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm shadow-sm"
+                      className="inline-block bg-accent hover:bg-accent-dark text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm shadow-sm"
                     >
                       {service.name}の口コミ・詳細を見る
                     </Link>
@@ -300,7 +289,7 @@ export default function Home() {
             {["東京", "大阪", "名古屋", "福岡", "横浜", "札幌", "仙台", "広島"].map((area) => (
               <div
                 key={area}
-                className="card-base p-5 text-center hover:border-coral hover:shadow-md transition-all cursor-pointer"
+                className="card-base p-5 text-center hover:border-accent hover:shadow-md transition-all cursor-pointer"
               >
                 <p className="font-bold text-gray-800 text-lg">{area}</p>
                 <p className="text-xs text-gray-500 mt-1.5">エリアの詳細</p>
@@ -325,7 +314,7 @@ export default function Home() {
                 key={purpose.title}
                 className="card-base p-6 hover:shadow-md transition-all"
               >
-                <span className="inline-block bg-coral-50 text-coral-700 text-xs font-bold px-2.5 py-1 rounded-full border border-coral-100 mb-3">
+                <span className="inline-block bg-accent-50 text-accent-700 text-xs font-bold px-2.5 py-1 rounded-full border border-accent-100 mb-3">
                   {purpose.badge}
                 </span>
                 <h3 className="font-bold text-lg text-gray-800 mb-2">{purpose.title}</h3>
@@ -363,7 +352,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-charcoal text-white">
+      <section className="py-16 bg-primary-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">
             まずは無料カウンセリングから始めよう
@@ -374,7 +363,7 @@ export default function Home() {
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-coral hover:bg-coral-dark text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
+            className="inline-block bg-accent hover:bg-accent-dark text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
           >
             ランキングに戻る
           </Link>
