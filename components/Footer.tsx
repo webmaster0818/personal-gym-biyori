@@ -28,11 +28,11 @@ const footerLinks = [
     ],
   },
   {
-    title: '法的情報',
+    title: 'サイト情報',
     links: [
-      { href: '/privacy/', label: 'プライバシーポリシー' },
       { href: '/terms/', label: '利用規約' },
-      { href: '/disclaimer/', label: '免責事項' },
+      { href: '/privacy/', label: 'プライバシーポリシー' },
+      { href: '/content-policy/', label: '記事制作ポリシー' },
     ],
   },
 ];
