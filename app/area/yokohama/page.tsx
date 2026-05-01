@@ -48,6 +48,7 @@ const gyms = [
     access: "横浜西口店・横浜東口店・関内店",
     point: "横浜エリアに3店舗展開。自宅や職場に近い店舗を選べます。",
     reviewed: true,
+    storeHref: "/review/rizap/yokohama/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +57,7 @@ const gyms = [
     access: "横浜店（横浜駅西口徒歩7分）",
     point: "食事制限が緩やかなため、無理なく続けやすいと横浜エリアでも人気です。",
     reviewed: true,
+    storeHref: "/review/247workout/yokohama/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +66,7 @@ const gyms = [
     access: "横浜店・横浜元町店",
     point: "入会金無料で始めやすい。本格的なボディメイクを目指す方に選ばれています。",
     reviewed: true,
+    storeHref: "/review/beyond/yokohama/",
   },
   {
     name: "エクササイズコーチ",
@@ -178,6 +181,7 @@ export default function YokohamaAreaPage() {
                 <div className="bg-gray-50 rounded p-3 mt-3">
                   <p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p>
                 </div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

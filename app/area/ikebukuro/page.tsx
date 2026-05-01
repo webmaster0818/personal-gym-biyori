@@ -40,6 +40,7 @@ const gyms = [
     access: "池袋店（池袋駅徒歩3分）",
     point: "池袋で低価格に始められる初心者向けジム。駅から近く通いやすい環境です。",
     reviewed: true,
+    storeHref: "/review/chicken-gym/ikebukuro/",
   },
   {
     name: "RIZAP（ライザップ）",
@@ -48,6 +49,7 @@ const gyms = [
     access: "池袋東口店・池袋西口店",
     point: "池袋に東口・西口の2店舗。通いやすい方を選べるのが魅力です。",
     reviewed: true,
+    storeHref: "/review/rizap/ikebukuro/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +58,7 @@ const gyms = [
     access: "池袋店（池袋駅徒歩5分）",
     point: "食事制限が緩やかで、池袋周辺のグルメを楽しみながらダイエットできると人気です。",
     reviewed: true,
+    storeHref: "/review/247workout/ikebukuro/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +67,7 @@ const gyms = [
     access: "池袋店（池袋駅徒歩5分）",
     point: "入会金無料で質の高いトレーニング。本格ボディメイクを目指す方に。",
     reviewed: true,
+    storeHref: "/review/beyond/ikebukuro/",
   },
   {
     name: "エクササイズコーチ",
@@ -160,6 +164,7 @@ export default function IkebukuroAreaPage() {
                 <ul className="text-sm text-gray-700 space-y-1 mb-3">{gym.features.map((f, j) => (<li key={j} className="flex items-start gap-2"><span className="text-teal-500 shrink-0 mt-0.5">--</span><span>{f}</span></li>))}</ul>
                 <p className="text-sm text-gray-600 mb-2">アクセス: {gym.access}</p>
                 <div className="bg-gray-50 rounded p-3 mt-3"><p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p></div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

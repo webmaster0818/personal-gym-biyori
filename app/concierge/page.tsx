@@ -737,6 +737,42 @@ const gyms: Gym[] = [
   },
 ];
 
+/* ---------- エリア別店舗リンクマッピング ---------- */
+const areaStoreLinks: Record<string, Record<string, { label: string; href: string }[]>> = {
+  '東京（新宿・渋谷・池袋）': {
+    'RIZAP': [{ label: '新宿店', href: '/review/rizap/shinjuku/' }, { label: '渋谷店', href: '/review/rizap/shibuya/' }, { label: '池袋店', href: '/review/rizap/ikebukuro/' }],
+    'BEYOND': [{ label: '新宿店', href: '/review/beyond/shinjuku/' }, { label: '渋谷店', href: '/review/beyond/shibuya/' }, { label: '池袋店', href: '/review/beyond/ikebukuro/' }],
+    '24/7ワークアウト': [{ label: '新宿店', href: '/review/247workout/shinjuku/' }, { label: '渋谷店', href: '/review/247workout/shibuya/' }, { label: '池袋店', href: '/review/247workout/ikebukuro/' }],
+    'チキンジム': [{ label: '池袋店', href: '/review/chicken-gym/ikebukuro/' }],
+    'エクササイズコーチ': [{ label: '新宿店', href: '/review/exercise-coach/shinjuku/' }, { label: '渋谷店', href: '/review/exercise-coach/shibuya/' }],
+  },
+  '東京（銀座・六本木・品川）': {
+    'RIZAP': [{ label: '銀座店', href: '/review/rizap/ginza/' }, { label: '六本木店', href: '/review/rizap/roppongi/' }, { label: '品川店', href: '/review/rizap/shinagawa/' }],
+    'BEYOND': [{ label: '銀座店', href: '/review/beyond/ginza/' }, { label: '六本木店', href: '/review/beyond/roppongi/' }],
+    '24/7ワークアウト': [{ label: '銀座店', href: '/review/247workout/ginza/' }, { label: '六本木店', href: '/review/247workout/roppongi/' }, { label: '品川店', href: '/review/247workout/shinagawa/' }],
+  },
+  '横浜・神奈川': {
+    'RIZAP': [{ label: '横浜店', href: '/review/rizap/yokohama/' }],
+    'BEYOND': [{ label: '横浜店', href: '/review/beyond/yokohama/' }],
+    '24/7ワークアウト': [{ label: '横浜店', href: '/review/247workout/yokohama/' }],
+  },
+  '大阪': {
+    'RIZAP': [{ label: '梅田店', href: '/review/rizap/umeda/' }, { label: 'なんば店', href: '/review/rizap/namba/' }],
+    'BEYOND': [{ label: '梅田店', href: '/review/beyond/umeda/' }, { label: 'なんば店', href: '/review/beyond/namba/' }],
+    '24/7ワークアウト': [{ label: 'なんば店', href: '/review/247workout/namba/' }, { label: '梅田店', href: '/review/247workout/umeda/' }],
+  },
+  '名古屋': {
+    'RIZAP': [{ label: '名古屋店', href: '/review/rizap/nagoya/' }],
+    'BEYOND': [{ label: '名古屋店', href: '/review/beyond/nagoya/' }],
+    '24/7ワークアウト': [{ label: '名古屋店', href: '/review/247workout/nagoya/' }],
+  },
+  '福岡': {
+    'RIZAP': [{ label: '天神店', href: '/review/rizap/fukuoka/' }],
+    'BEYOND': [{ label: '福岡天神店', href: '/review/beyond/fukuoka/' }],
+    '24/7ワークアウト': [{ label: '天神店', href: '/review/247workout/fukuoka/' }],
+  },
+};
+
 type Question = {
   title: string;
   subtitle: string;
@@ -967,6 +1003,24 @@ export default function ConciergePage() {
                       公式サイトへ
                     </a>
                   </div>
+
+                  {/* 近くの店舗リンク */}
+                  {answers[0] && areaStoreLinks[answers[0] as string]?.[gym.name] && (
+                    <div className="mt-4 pt-4 border-t border-gray-100">
+                      <p className="text-xs font-medium text-gray-500 mb-2">近くの店舗</p>
+                      <div className="flex flex-wrap gap-2">
+                        {areaStoreLinks[answers[0] as string][gym.name].map((store) => (
+                          <Link
+                            key={store.href}
+                            href={store.href}
+                            className="text-sm text-orange-500 hover:underline"
+                          >
+                            {store.label} →
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </article>
             ))}

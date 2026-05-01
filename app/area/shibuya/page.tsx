@@ -40,6 +40,7 @@ const gyms = [
     access: "渋谷店（渋谷駅徒歩5分）",
     point: "渋谷で低価格にパーソナルトレーニングを始めたい方に。手ぶらOKで仕事帰りも気軽。",
     reviewed: true,
+    storeHref: "",
   },
   {
     name: "RIZAP（ライザップ）",
@@ -48,6 +49,7 @@ const gyms = [
     access: "渋谷店（渋谷駅徒歩5分）",
     point: "渋谷で確実に結果を出したい方に。全額返金保証があるのも安心です。",
     reviewed: true,
+    storeHref: "/review/rizap/shibuya/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +58,7 @@ const gyms = [
     access: "渋谷店（渋谷駅徒歩5分）",
     point: "深夜まで営業しているため、IT企業勤務の方など夜型の方にも通いやすい環境です。",
     reviewed: true,
+    storeHref: "/review/247workout/shibuya/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +67,7 @@ const gyms = [
     access: "渋谷店（渋谷駅徒歩5分）",
     point: "入会金無料でハイクオリティなトレーニング。ボディメイクに本気の渋谷ワーカーに人気。",
     reviewed: true,
+    storeHref: "/review/beyond/shibuya/",
   },
   {
     name: "エクササイズコーチ",
@@ -72,6 +76,7 @@ const gyms = [
     access: "渋谷店（渋谷駅徒歩3分）",
     point: "渋谷駅から徒歩3分の好立地。ランチタイムに20分でトレーニングを済ませる人も。",
     reviewed: true,
+    storeHref: "/review/exercise-coach/shibuya/",
   },
   {
     name: "かたぎり塾",
@@ -168,6 +173,7 @@ export default function ShibuyaAreaPage() {
                 <ul className="text-sm text-gray-700 space-y-1 mb-3">{gym.features.map((f, j) => (<li key={j} className="flex items-start gap-2"><span className="text-teal-500 shrink-0 mt-0.5">--</span><span>{f}</span></li>))}</ul>
                 <p className="text-sm text-gray-600 mb-2">アクセス: {gym.access}</p>
                 <div className="bg-gray-50 rounded p-3 mt-3"><p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p></div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

@@ -40,6 +40,7 @@ const gyms = [
     access: "銀座店（銀座駅徒歩3分）",
     point: "銀座の一等地に立地。ラグジュアリーな空間で確実に結果を出したい方に。",
     reviewed: true,
+    storeHref: "/review/rizap/ginza/",
   },
   {
     name: "24/7ワークアウト",
@@ -48,6 +49,7 @@ const gyms = [
     access: "銀座店（銀座駅徒歩3分）",
     point: "銀座で食事を楽しみながらダイエットしたい方に。3食食べるメソッドが人気です。",
     reviewed: true,
+    storeHref: "/review/247workout/ginza/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -56,6 +58,7 @@ const gyms = [
     access: "銀座店（銀座駅徒歩5分）",
     point: "入会金無料。銀座で質の高いボディメイクトレーニングを受けたい方に。",
     reviewed: true,
+    storeHref: "/review/beyond/ginza/",
   },
   {
     name: "エクササイズコーチ",
@@ -152,6 +155,7 @@ export default function GinzaAreaPage() {
                 <ul className="text-sm text-gray-700 space-y-1 mb-3">{gym.features.map((f, j) => (<li key={j} className="flex items-start gap-2"><span className="text-teal-500 shrink-0 mt-0.5">--</span><span>{f}</span></li>))}</ul>
                 <p className="text-sm text-gray-600 mb-2">アクセス: {gym.access}</p>
                 <div className="bg-gray-50 rounded p-3 mt-3"><p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p></div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

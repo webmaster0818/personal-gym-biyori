@@ -48,6 +48,7 @@ const gyms = [
     access: "名駅南店・栄店・金山店",
     point: "名古屋エリアに複数店舗展開。確実に結果を出したい方に選ばれています。",
     reviewed: true,
+    storeHref: "/review/rizap/nagoya/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +57,7 @@ const gyms = [
     access: "名古屋栄店・名古屋久屋大通店",
     point: "栄エリアに2店舗。3食食べながらダイエットできる手法が名古屋でも人気です。",
     reviewed: true,
+    storeHref: "/review/247workout/nagoya/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +66,7 @@ const gyms = [
     access: "名古屋栄店・名古屋駅前店",
     point: "入会金無料で始めやすい。トレーナーの質が高く、ボディメイクに本気の方に好評です。",
     reviewed: true,
+    storeHref: "/review/beyond/nagoya/",
   },
   {
     name: "エクササイズコーチ",
@@ -173,6 +176,7 @@ export default function NagoyaAreaPage() {
                 <div className="bg-gray-50 rounded p-3 mt-3">
                   <p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p>
                 </div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

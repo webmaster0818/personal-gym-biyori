@@ -200,20 +200,22 @@ const faqJsonLd = {
 };
 
 /* ---------- 店舗一覧 ---------- */
-const storesByRegion = [
-  { region: "北海道", stores: "札幌店" },
-  { region: "宮城", stores: "仙台店" },
-  { region: "東京", stores: "新宿店、池袋店、町田店、渋谷店、吉祥寺店、北千住店、恵比寿店" },
-  { region: "神奈川", stores: "横浜みなとみらい店、川崎ドンキ店" },
-  { region: "埼玉", stores: "大宮店" },
-  { region: "千葉", stores: "船橋店" },
-  { region: "愛知", stores: "豊田店、名古屋栄店" },
-  { region: "大阪", stores: "心斎橋店、高槻店、堺東店" },
-  { region: "京都", stores: "京都河原町店" },
-  { region: "兵庫", stores: "神戸三宮店" },
-  { region: "広島", stores: "広島店" },
-  { region: "福岡", stores: "天神店、博多駅前店" },
-  { region: "沖縄", stores: "那覇店" },
+type StoreItem = { name: string; href?: string };
+const storesByRegion: { region: string; stores: StoreItem[] }[] = [
+  { region: "北海道", stores: [{ name: "札幌店" }] },
+  { region: "宮城", stores: [{ name: "仙台店" }] },
+  { region: "東京", stores: [{ name: "新宿店" }, { name: "池袋店", href: "/review/chicken-gym/ikebukuro/" }, { name: "町田店" }, { name: "渋谷店" }, { name: "吉祥寺店" }, { name: "北千住店" }, { name: "恵比寿店" }] },
+  { region: "神奈川", stores: [{ name: "横浜みなとみらい店" }, { name: "川崎ドンキ店" }] },
+  { region: "埼玉", stores: [{ name: "大宮店" }] },
+  { region: "千葉", stores: [{ name: "船橋店" }, { name: "流山おおたかの森店", href: "/review/chicken-gym/nagareyama/" }] },
+  { region: "愛知", stores: [{ name: "豊田店" }, { name: "名古屋栄店" }] },
+  { region: "大阪", stores: [{ name: "心斎橋店" }, { name: "高槻店" }, { name: "堺東店" }] },
+  { region: "京都", stores: [{ name: "京都河原町店" }] },
+  { region: "兵庫", stores: [{ name: "神戸三宮店" }] },
+  { region: "広島", stores: [{ name: "広島店" }] },
+  { region: "福岡", stores: [{ name: "天神店" }, { name: "博多駅前店" }] },
+  { region: "北九州", stores: [{ name: "北九州小倉店", href: "/review/chicken-gym/kitakyushu/" }] },
+  { region: "沖縄", stores: [{ name: "那覇店" }] },
 ];
 
 /* ---------- 関連ジム ---------- */
@@ -448,7 +450,14 @@ export default function ChickenGymReview() {
                 {storesByRegion.map((row) => (
                   <tr key={row.region} className="border-b border-gray-100">
                     <td className="px-4 py-3 font-medium text-gray-800 whitespace-nowrap">{row.region}</td>
-                    <td className="px-4 py-3 text-gray-700">{row.stores}</td>
+                    <td className="px-4 py-3 text-gray-700">
+                      {row.stores.map((s, i) => (
+                        <span key={s.name}>
+                          {i > 0 && "、"}
+                          {s.href ? <Link href={s.href} className="text-teal-600 hover:underline">{s.name}</Link> : s.name}
+                        </span>
+                      ))}
+                    </td>
                   </tr>
                 ))}
               </tbody>

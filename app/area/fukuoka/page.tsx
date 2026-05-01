@@ -48,6 +48,7 @@ const gyms = [
     access: "天神店・博多店・小倉店",
     point: "福岡県内に3店舗。短期集中で結果を出したい方に確かな実績があります。",
     reviewed: true,
+    storeHref: "/review/rizap/fukuoka/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +57,7 @@ const gyms = [
     access: "福岡天神店（天神駅徒歩5分）",
     point: "天神エリアで完全個室のマンツーマントレーニングを受けられます。",
     reviewed: true,
+    storeHref: "/review/247workout/fukuoka/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +66,7 @@ const gyms = [
     access: "福岡天神店・博多店",
     point: "入会金無料でハイクオリティなトレーニングを受けられる。ボディメイク志向の方に人気です。",
     reviewed: true,
+    storeHref: "/review/beyond/fukuoka/",
   },
   {
     name: "エクササイズコーチ",
@@ -164,6 +167,7 @@ export default function FukuokaAreaPage() {
                 <div className="bg-gray-50 rounded p-3 mt-3">
                   <p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p>
                 </div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

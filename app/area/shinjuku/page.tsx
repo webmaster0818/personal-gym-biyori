@@ -40,6 +40,7 @@ const gyms = [
     access: "新宿店（新宿駅徒歩3分）",
     point: "新宿駅近で低価格。初めてパーソナルジムを利用する方に特におすすめです。",
     reviewed: true,
+    storeHref: "",
   },
   {
     name: "RIZAP（ライザップ）",
@@ -48,6 +49,7 @@ const gyms = [
     access: "新宿店・新宿三丁目店",
     point: "新宿エリアに2店舗。結果重視で投資を惜しまない方に。",
     reviewed: true,
+    storeHref: "/review/rizap/shinjuku/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +58,7 @@ const gyms = [
     access: "新宿東口店・新宿西口店",
     point: "深夜24時まで営業。残業後でも通える環境が新宿のビジネスパーソンに支持されています。",
     reviewed: true,
+    storeHref: "/review/247workout/shinjuku/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +67,7 @@ const gyms = [
     access: "新宿店（新宿駅徒歩5分）",
     point: "入会金無料でハイクオリティ。新宿で本格ボディメイクを目指す方に人気です。",
     reviewed: true,
+    storeHref: "/review/beyond/shinjuku/",
   },
   {
     name: "エクササイズコーチ",
@@ -72,6 +76,7 @@ const gyms = [
     access: "新宿西口店（新宿駅西口徒歩3分）",
     point: "20分で完了するため、ランチタイムや隙間時間にも通えます。",
     reviewed: true,
+    storeHref: "/review/exercise-coach/shinjuku/",
   },
   {
     name: "かたぎり塾",
@@ -168,6 +173,7 @@ export default function ShinjukuAreaPage() {
                 <ul className="text-sm text-gray-700 space-y-1 mb-3">{gym.features.map((f, j) => (<li key={j} className="flex items-start gap-2"><span className="text-teal-500 shrink-0 mt-0.5">--</span><span>{f}</span></li>))}</ul>
                 <p className="text-sm text-gray-600 mb-2">アクセス: {gym.access}</p>
                 <div className="bg-gray-50 rounded p-3 mt-3"><p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p></div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

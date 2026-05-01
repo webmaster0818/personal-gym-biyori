@@ -199,19 +199,20 @@ const faqJsonLd = {
 };
 
 /* ---------- 店舗一覧 ---------- */
-const storesByRegion = [
-  { region: "北海道", stores: "札幌店" },
-  { region: "宮城", stores: "仙台店" },
-  { region: "東京", stores: "新宿店、池袋店、渋谷店、上野店、秋葉原店、銀座店、六本木店、赤坂店、北千住店、錦糸町店、町田店、立川店、八王子店、吉祥寺店、自由が丘店、恵比寿店、中目黒店、蒲田店、西葛西店、三軒茶屋店" },
-  { region: "神奈川", stores: "横浜店、川崎店、藤沢店、戸塚店、溝の口店、本厚木店" },
-  { region: "埼玉", stores: "大宮店、浦和店、川口店、所沢店、川越店" },
-  { region: "千葉", stores: "千葉店、船橋店、柏店、松戸店" },
-  { region: "愛知", stores: "名古屋栄店、名駅店、金山店、豊田店" },
-  { region: "大阪", stores: "梅田店、なんば店、天王寺店、心斎橋店、堺東店、高槻店" },
-  { region: "京都", stores: "京都河原町店" },
-  { region: "兵庫", stores: "神戸三宮店、西宮店" },
-  { region: "広島", stores: "広島店" },
-  { region: "福岡", stores: "天神店、博多店" },
+type StoreItem = { name: string; href?: string };
+const storesByRegion: { region: string; stores: StoreItem[] }[] = [
+  { region: "北海道", stores: [{ name: "札幌店", href: "/review/247workout/sapporo/" }] },
+  { region: "宮城", stores: [{ name: "仙台店" }] },
+  { region: "東京", stores: [{ name: "新宿店", href: "/review/247workout/shinjuku/" }, { name: "池袋店", href: "/review/247workout/ikebukuro/" }, { name: "渋谷店", href: "/review/247workout/shibuya/" }, { name: "上野店" }, { name: "秋葉原店" }, { name: "銀座店", href: "/review/247workout/ginza/" }, { name: "六本木店", href: "/review/247workout/roppongi/" }, { name: "赤坂店" }, { name: "北千住店" }, { name: "錦糸町店" }, { name: "町田店", href: "/review/247workout/machida/" }, { name: "立川店" }, { name: "八王子店" }, { name: "吉祥寺店" }, { name: "自由が丘店" }, { name: "恵比寿店" }, { name: "中目黒店" }, { name: "蒲田店" }, { name: "西葛西店" }, { name: "三軒茶屋店" }] },
+  { region: "神奈川", stores: [{ name: "横浜店", href: "/review/247workout/yokohama/" }, { name: "川崎店", href: "/review/247workout/kawasaki/" }, { name: "藤沢店" }, { name: "戸塚店" }, { name: "溝の口店" }, { name: "本厚木店" }] },
+  { region: "埼玉", stores: [{ name: "大宮店", href: "/review/247workout/saitama/" }, { name: "浦和店" }, { name: "川口店" }, { name: "所沢店" }, { name: "川越店" }] },
+  { region: "千葉", stores: [{ name: "千葉店" }, { name: "船橋店" }, { name: "柏店" }, { name: "松戸店" }] },
+  { region: "愛知", stores: [{ name: "名古屋栄店", href: "/review/247workout/nagoya/" }, { name: "名駅店" }, { name: "金山店" }, { name: "豊田店" }] },
+  { region: "大阪", stores: [{ name: "梅田店", href: "/review/247workout/umeda/" }, { name: "なんば店", href: "/review/247workout/namba/" }, { name: "天王寺店" }, { name: "心斎橋店" }, { name: "堺東店" }, { name: "高槻店" }] },
+  { region: "京都", stores: [{ name: "京都河原町店" }] },
+  { region: "兵庫", stores: [{ name: "神戸三宮店" }, { name: "西宮店" }] },
+  { region: "広島", stores: [{ name: "広島店" }] },
+  { region: "福岡", stores: [{ name: "天神店", href: "/review/247workout/fukuoka/" }, { name: "博多店" }] },
 ];
 
 /* ---------- 関連ジム ---------- */
@@ -446,7 +447,14 @@ export default function Workout247Review() {
                 {storesByRegion.map((row) => (
                   <tr key={row.region} className="border-b border-gray-100">
                     <td className="px-4 py-3 font-medium text-gray-800 whitespace-nowrap">{row.region}</td>
-                    <td className="px-4 py-3 text-gray-700">{row.stores}</td>
+                    <td className="px-4 py-3 text-gray-700">
+                      {row.stores.map((s, i) => (
+                        <span key={s.name}>
+                          {i > 0 && "、"}
+                          {s.href ? <Link href={s.href} className="text-teal-600 hover:underline">{s.name}</Link> : s.name}
+                        </span>
+                      ))}
+                    </td>
                   </tr>
                 ))}
               </tbody>

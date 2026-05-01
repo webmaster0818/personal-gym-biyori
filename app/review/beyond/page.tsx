@@ -200,18 +200,19 @@ const faqJsonLd = {
 };
 
 /* ---------- 店舗一覧 ---------- */
-const storesByRegion = [
-  { region: "北海道", stores: "札幌店、札幌大通店" },
-  { region: "宮城", stores: "仙台店" },
-  { region: "東京", stores: "新宿店、新宿ANNEX店、池袋店、渋谷店、渋谷宮益坂店、恵比寿店、表参道店、六本木店、銀座店、秋葉原店、上野店、北千住店、錦糸町店、町田店、立川店、吉祥寺店、自由が丘店、中目黒店、二子玉川店、蒲田店、赤羽店、練馬店、大井町店、府中店、調布店、八王子店、三軒茶屋店、下北沢店、荻窪店、西新井店" },
-  { region: "神奈川", stores: "横浜店、横浜元町店、川崎店、武蔵小杉店、藤沢店、戸塚店、溝の口店" },
-  { region: "埼玉", stores: "大宮店、浦和店、川口店、所沢店、川越店" },
-  { region: "千葉", stores: "千葉店、船橋店、柏店" },
-  { region: "愛知", stores: "名古屋栄店、名駅店、金山店" },
-  { region: "大阪", stores: "梅田店、心斎橋店、なんば店、天王寺店、北浜店" },
-  { region: "京都", stores: "京都四条店" },
-  { region: "兵庫", stores: "神戸三宮店" },
-  { region: "福岡", stores: "天神店、博多店" },
+type StoreItem = { name: string; href?: string };
+const storesByRegion: { region: string; stores: StoreItem[] }[] = [
+  { region: "北海道", stores: [{ name: "札幌店", href: "/review/beyond/sapporo/" }, { name: "札幌大通店" }] },
+  { region: "宮城", stores: [{ name: "仙台店", href: "/review/beyond/sendai/" }] },
+  { region: "東京", stores: [{ name: "新宿店", href: "/review/beyond/shinjuku/" }, { name: "新宿ANNEX店" }, { name: "池袋店", href: "/review/beyond/ikebukuro/" }, { name: "渋谷店", href: "/review/beyond/shibuya/" }, { name: "渋谷宮益坂店" }, { name: "恵比寿店", href: "/review/beyond/ebisu/" }, { name: "表参道店" }, { name: "六本木店", href: "/review/beyond/roppongi/" }, { name: "銀座店", href: "/review/beyond/ginza/" }, { name: "秋葉原店" }, { name: "上野店" }, { name: "北千住店" }, { name: "錦糸町店" }, { name: "町田店" }, { name: "立川店" }, { name: "吉祥寺店", href: "/review/beyond/kichijoji/" }, { name: "自由が丘店" }, { name: "中目黒店" }, { name: "二子玉川店" }, { name: "蒲田店" }, { name: "赤羽店" }, { name: "練馬店" }, { name: "大井町店", href: "/review/beyond/oimachi/" }, { name: "府中店" }, { name: "調布店" }, { name: "八王子店" }, { name: "三軒茶屋店" }, { name: "下北沢店" }, { name: "荻窪店" }, { name: "西新井店" }] },
+  { region: "神奈川", stores: [{ name: "横浜店", href: "/review/beyond/yokohama/" }, { name: "横浜元町店" }, { name: "川崎店" }, { name: "武蔵小杉店" }, { name: "藤沢店" }, { name: "戸塚店" }, { name: "溝の口店" }] },
+  { region: "埼玉", stores: [{ name: "大宮店" }, { name: "浦和店" }, { name: "川口店" }, { name: "所沢店" }, { name: "川越店" }] },
+  { region: "千葉", stores: [{ name: "千葉店" }, { name: "船橋店" }, { name: "柏店" }] },
+  { region: "愛知", stores: [{ name: "名古屋栄店", href: "/review/beyond/nagoya/" }, { name: "名駅店" }, { name: "金山店" }] },
+  { region: "大阪", stores: [{ name: "梅田店", href: "/review/beyond/umeda/" }, { name: "心斎橋店" }, { name: "なんば店", href: "/review/beyond/namba/" }, { name: "天王寺店" }, { name: "北浜店" }] },
+  { region: "京都", stores: [{ name: "京都四条店" }] },
+  { region: "兵庫", stores: [{ name: "神戸三宮店" }] },
+  { region: "福岡", stores: [{ name: "天神店", href: "/review/beyond/fukuoka/" }, { name: "博多店" }] },
 ];
 
 /* ---------- 関連ジム ---------- */
@@ -446,7 +447,14 @@ export default function BeyondReview() {
                 {storesByRegion.map((row) => (
                   <tr key={row.region} className="border-b border-gray-100">
                     <td className="px-4 py-3 font-medium text-gray-800 whitespace-nowrap">{row.region}</td>
-                    <td className="px-4 py-3 text-gray-700">{row.stores}</td>
+                    <td className="px-4 py-3 text-gray-700">
+                      {row.stores.map((s, i) => (
+                        <span key={s.name}>
+                          {i > 0 && "、"}
+                          {s.href ? <Link href={s.href} className="text-teal-600 hover:underline">{s.name}</Link> : s.name}
+                        </span>
+                      ))}
+                    </td>
                   </tr>
                 ))}
               </tbody>

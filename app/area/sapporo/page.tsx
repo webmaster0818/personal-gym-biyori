@@ -48,6 +48,7 @@ const gyms = [
     access: "札幌店（大通駅徒歩5分）",
     point: "北海道唯一の店舗。確実に結果を出したい方に選ばれています。",
     reviewed: true,
+    storeHref: "/review/rizap/sapporo/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +57,7 @@ const gyms = [
     access: "札幌店（大通駅徒歩3分）",
     point: "大通エリアでアクセス抜群。食事制限が緩やかで続けやすいと評判です。",
     reviewed: true,
+    storeHref: "/review/247workout/sapporo/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +66,7 @@ const gyms = [
     access: "札幌店（札幌駅徒歩5分）",
     point: "入会金無料で始めやすい。本格的なボディメイクを目指す方におすすめです。",
     reviewed: true,
+    storeHref: "/review/beyond/sapporo/",
   },
   {
     name: "ダイエットラボ",
@@ -155,6 +158,7 @@ export default function SapporoAreaPage() {
                 <div className="bg-gray-50 rounded p-3 mt-3">
                   <p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p>
                 </div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>

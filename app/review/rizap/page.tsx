@@ -200,19 +200,20 @@ const faqJsonLd = {
 };
 
 /* ---------- 店舗一覧 ---------- */
-const storesByRegion = [
-  { region: "北海道", stores: "札幌店" },
-  { region: "宮城", stores: "仙台店" },
-  { region: "東京", stores: "銀座店、新宿店、池袋西口店、池袋東口店、渋谷店、品川店、上野店、北千住店、立川店、町田店、吉祥寺店、八王子店、自由が丘店、恵比寿店、神楽坂店、六本木店、錦糸町店、聖蹟桜ヶ丘店、練馬店、蒲田店" },
-  { region: "神奈川", stores: "横浜東口店、横浜西口店、川崎店、藤沢店、戸塚店、本厚木店" },
-  { region: "埼玉", stores: "大宮西口店、浦和店、川口店、所沢店、春日部店" },
-  { region: "千葉", stores: "千葉店、船橋店、松戸店、柏店" },
-  { region: "愛知", stores: "名古屋栄店、名駅南店、金山店、豊田店、刈谷店" },
-  { region: "大阪", stores: "梅田店、なんば店、京橋店、天王寺店、堺東店、枚方店、高槻店" },
-  { region: "京都", stores: "京都河原町店、京都四条店" },
-  { region: "兵庫", stores: "神戸三宮店、西宮北口店、尼崎店、明石店" },
-  { region: "広島", stores: "広島店" },
-  { region: "福岡", stores: "天神店、博多店、小倉店" },
+type StoreItem = { name: string; href?: string };
+const storesByRegion: { region: string; stores: StoreItem[] }[] = [
+  { region: "北海道", stores: [{ name: "札幌店", href: "/review/rizap/sapporo/" }] },
+  { region: "宮城", stores: [{ name: "仙台店" }] },
+  { region: "東京", stores: [{ name: "銀座店", href: "/review/rizap/ginza/" }, { name: "新宿店", href: "/review/rizap/shinjuku/" }, { name: "池袋西口店", href: "/review/rizap/ikebukuro/" }, { name: "池袋東口店" }, { name: "渋谷店", href: "/review/rizap/shibuya/" }, { name: "品川店", href: "/review/rizap/shinagawa/" }, { name: "上野店" }, { name: "北千住店" }, { name: "立川店" }, { name: "町田店", href: "/review/rizap/machida/" }, { name: "吉祥寺店" }, { name: "八王子店" }, { name: "自由が丘店" }, { name: "恵比寿店", href: "/review/rizap/ebisu/" }, { name: "神楽坂店" }, { name: "六本木店", href: "/review/rizap/roppongi/" }, { name: "錦糸町店" }, { name: "聖蹟桜ヶ丘店" }, { name: "練馬店" }, { name: "蒲田店" }] },
+  { region: "神奈川", stores: [{ name: "横浜東口店", href: "/review/rizap/yokohama/" }, { name: "横浜西口店" }, { name: "川崎店", href: "/review/rizap/kawasaki/" }, { name: "藤沢店" }, { name: "戸塚店" }, { name: "本厚木店" }] },
+  { region: "埼玉", stores: [{ name: "大宮西口店" }, { name: "浦和店" }, { name: "川口店" }, { name: "所沢店" }, { name: "春日部店" }] },
+  { region: "千葉", stores: [{ name: "千葉店" }, { name: "船橋店" }, { name: "松戸店" }, { name: "柏店" }] },
+  { region: "愛知", stores: [{ name: "名古屋栄店", href: "/review/rizap/nagoya/" }, { name: "名駅南店" }, { name: "金山店" }, { name: "豊田店" }, { name: "刈谷店" }] },
+  { region: "大阪", stores: [{ name: "梅田店", href: "/review/rizap/umeda/" }, { name: "なんば店", href: "/review/rizap/namba/" }, { name: "京橋店" }, { name: "天王寺店" }, { name: "堺東店" }, { name: "枚方店" }, { name: "高槻店" }] },
+  { region: "京都", stores: [{ name: "京都河原町店" }, { name: "京都四条店" }] },
+  { region: "兵庫", stores: [{ name: "神戸三宮店" }, { name: "西宮北口店" }, { name: "尼崎店" }, { name: "明石店" }] },
+  { region: "広島", stores: [{ name: "広島店" }] },
+  { region: "福岡", stores: [{ name: "天神店", href: "/review/rizap/fukuoka/" }, { name: "博多店" }, { name: "小倉店" }] },
 ];
 
 /* ---------- 関連ジム ---------- */
@@ -447,7 +448,14 @@ export default function RizapReview() {
                 {storesByRegion.map((row) => (
                   <tr key={row.region} className="border-b border-gray-100">
                     <td className="px-4 py-3 font-medium text-gray-800 whitespace-nowrap">{row.region}</td>
-                    <td className="px-4 py-3 text-gray-700">{row.stores}</td>
+                    <td className="px-4 py-3 text-gray-700">
+                      {row.stores.map((s, i) => (
+                        <span key={s.name}>
+                          {i > 0 && "、"}
+                          {s.href ? <Link href={s.href} className="text-teal-600 hover:underline">{s.name}</Link> : s.name}
+                        </span>
+                      ))}
+                    </td>
                   </tr>
                 ))}
               </tbody>

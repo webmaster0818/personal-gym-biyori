@@ -48,6 +48,7 @@ const gyms = [
     access: "梅田店・なんば店・京橋店・天王寺店・堺東店ほか",
     point: "大阪府内に複数店舗を展開。確実に結果を出したい方に選ばれています。",
     reviewed: true,
+    storeHref: "/review/rizap/umeda/",
   },
   {
     name: "24/7ワークアウト",
@@ -56,6 +57,7 @@ const gyms = [
     access: "梅田店・心斎橋店・難波店・堺東店ほか",
     point: "深夜まで営業しているため、仕事が遅くなりがちな方にも通いやすい環境です。",
     reviewed: true,
+    storeHref: "/review/247workout/namba/",
   },
   {
     name: "BEYOND（ビヨンド）",
@@ -64,6 +66,7 @@ const gyms = [
     access: "心斎橋店・梅田店・天王寺店・京橋店",
     point: "トレーナーの質に定評があり、本格的なボディメイクを目指す方に支持されています。",
     reviewed: true,
+    storeHref: "/review/beyond/umeda/",
   },
   {
     name: "エクササイズコーチ",
@@ -200,6 +203,7 @@ export default function OsakaAreaPage() {
                 <div className="bg-gray-50 rounded p-3 mt-3">
                   <p className="text-sm text-gray-700"><span className="font-medium text-teal-700">おすすめポイント:</span> {gym.point}</p>
                 </div>
+                {gym.storeHref && <Link href={gym.storeHref} className="inline-block text-sm text-orange-500 hover:underline mt-3">店舗の詳細を見る →</Link>}
               </div>
             ))}
           </div>
