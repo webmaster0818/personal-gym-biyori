@@ -225,9 +225,14 @@ export default function LaststyleReview() {
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 className="text-xl font-bold mb-3">Laststyleが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料体験で、ボクシング×パーソナルトレーニングの楽しさを体感してみましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
-            ランキングに戻る
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
+              公式サイトへ
+            </a>
+            <Link href="/#ranking" className="inline-block border border-white text-white font-bold py-2.5 px-6 rounded-lg hover:bg-white/10 transition-colors text-sm">
+              ランキングに戻る
+            </Link>
+          </div>
         </section>
 
         {/* 関連ジム */}
