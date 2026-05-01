@@ -325,6 +325,101 @@ export default function Home() {
         </div>
       </section>
 
+      {/* All Gyms */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl font-bold text-center mb-2">全ジム一覧</h2>
+          <p className="text-gray-500 text-center text-sm mb-8">50社以上のパーソナルジムを徹底比較</p>
+
+          <h3 className="text-sm font-bold text-accent mb-3">主要パーソナルジム</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-6">
+            {[
+              { name: "チキンジム", slug: "chicken-gym" },
+              { name: "RIZAP", slug: "rizap" },
+              { name: "24/7ワークアウト", slug: "247workout" },
+              { name: "BEYOND", slug: "beyond" },
+              { name: "エクササイズコーチ", slug: "exercise-coach" },
+              { name: "chocoZAP", slug: "chocozap" },
+              { name: "カーブス", slug: "curves" },
+              { name: "Dr.トレーニング", slug: "dr-training" },
+              { name: "UNDEUX SUPERBODY", slug: "undeux" },
+              { name: "OUTLINE", slug: "outline" },
+            ].map((gym) => (
+              <Link key={gym.slug} href={`/review/${gym.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-orange-400 hover:text-orange-600 transition-colors">
+                {gym.name}
+              </Link>
+            ))}
+          </div>
+
+          <h3 className="text-sm font-bold text-accent mb-3">提携パーソナルジム</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-6">
+            {[
+              { name: "HABIT", slug: "habit" },
+              { name: "Laststyle", slug: "laststyle" },
+              { name: "プレズ", slug: "plez" },
+              { name: "CoCoDakara", slug: "cocodakara" },
+              { name: "ビーコンセプト", slug: "b-concept" },
+              { name: "ELEMENT", slug: "element" },
+              { name: "MIYAZAKI GYM", slug: "miyazaki-gym" },
+              { name: "ASPI", slug: "aspi" },
+              { name: "CALORIE TRADE", slug: "calorie-trade" },
+              { name: "RITA STYLE", slug: "rita-style" },
+            ].map((gym) => (
+              <Link key={gym.slug} href={`/review/${gym.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-orange-400 hover:text-orange-600 transition-colors">
+                {gym.name}
+              </Link>
+            ))}
+          </div>
+
+          <h3 className="text-sm font-bold text-accent mb-3">その他のパーソナルジム</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            {[
+              { name: "1to1", slug: "1to1" },
+              { name: "4F GYM", slug: "4f-gym" },
+              { name: "ACCEPT", slug: "accept" },
+              { name: "Alesco", slug: "alesco" },
+              { name: "ARISANFIT", slug: "arisanfit" },
+              { name: "ASmake", slug: "asmake" },
+              { name: "base BODY", slug: "base-body" },
+              { name: "BBB", slug: "bbb" },
+              { name: "BELION", slug: "belion" },
+              { name: "Bellpha", slug: "bellpha" },
+              { name: "Carat", slug: "carat" },
+              { name: "E9th PRIVATE GYM", slug: "e9th" },
+              { name: "fis.lady's", slug: "fis-ladys" },
+              { name: "FIT24", slug: "fit24" },
+              { name: "FURDI", slug: "furdi" },
+              { name: "ハコジム", slug: "hakogym" },
+              { name: "LALA FIT", slug: "lala-fit" },
+              { name: "LEADING", slug: "leading" },
+              { name: "レクサー", slug: "lexer" },
+              { name: "Lino U", slug: "lino-u" },
+              { name: "メルメイク", slug: "melmake" },
+              { name: "more fit", slug: "more-fit" },
+              { name: "Nexusジム", slug: "nexus" },
+              { name: "NINE", slug: "nine" },
+              { name: "PEACH GYM", slug: "peach-gym" },
+              { name: "PLUME", slug: "plume" },
+              { name: "RACINE", slug: "racine" },
+              { name: "Rat", slug: "rat" },
+              { name: "Rays GyM", slug: "rays-gym" },
+              { name: "リアルボディ", slug: "real-body" },
+              { name: "リプレシャス", slug: "reprecious" },
+              { name: "スターライト", slug: "starlight" },
+              { name: "STUDIO KOMPAS", slug: "studio-kompas" },
+              { name: "THE PERSONAL GYM", slug: "the-personal-gym" },
+              { name: "TOKIEL", slug: "tokiel" },
+              { name: "トリプルM", slug: "triple-m" },
+              { name: "UNDEUX LIFE", slug: "undeux-life" },
+            ].map((gym) => (
+              <Link key={gym.slug} href={`/review/${gym.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-orange-400 hover:text-orange-600 transition-colors">
+                {gym.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
