@@ -204,7 +204,7 @@ export default function Home() {
                     <span className="bg-accent text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shadow-sm">
                       {service.rank}
                     </span>
-                    <h3 className="text-xl font-bold">{service.name}</h3>
+                    <h3 className="text-xl font-bold"><Link href={service.reviewPath} className="hover:text-orange-500 transition-colors">{service.name}</Link></h3>
                   </div>
                   <span className="text-sm bg-white/20 px-3 py-1 rounded-full">
                     {service.price}
