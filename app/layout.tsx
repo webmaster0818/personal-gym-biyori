@@ -33,6 +33,7 @@ export default function RootLayout({
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
+        <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
       </head>
       <body className="min-h-full flex flex-col">
         <Header />
