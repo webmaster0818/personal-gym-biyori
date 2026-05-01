@@ -282,18 +282,47 @@ export default function Home() {
 
       {/* Area */}
       <section id="area" className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">エリア別で探す</h2>
           <p className="text-center text-gray-500 mb-8">お住まいの地域からパーソナルジムを探す</p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {["東京", "大阪", "名古屋", "福岡", "横浜", "札幌", "仙台", "広島"].map((area) => (
-              <div
-                key={area}
-                className="card-base p-5 text-center hover:border-accent hover:shadow-md transition-all cursor-pointer"
-              >
-                <p className="font-bold text-gray-800 text-lg">{area}</p>
-                <p className="text-xs text-gray-500 mt-1.5">エリアの詳細</p>
-              </div>
+          <h3 className="text-sm font-bold text-gray-600 mb-3">主要都市</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 mb-6">
+            {[
+              { name: "東京", slug: "tokyo" }, { name: "大阪", slug: "osaka" }, { name: "横浜", slug: "yokohama" },
+              { name: "名古屋", slug: "nagoya" }, { name: "福岡", slug: "fukuoka" }, { name: "札幌", slug: "sapporo" },
+              { name: "仙台", slug: "sendai" }, { name: "神戸", slug: "kobe" }, { name: "京都", slug: "kyoto" },
+              { name: "さいたま", slug: "saitama" },
+            ].map((area) => (
+              <Link key={area.slug} href={`/area/${area.slug}/`} className="block card-base p-4 text-center hover:border-accent hover:shadow-md transition-all">
+                <p className="font-bold text-gray-800">{area.name}</p>
+              </Link>
+            ))}
+          </div>
+          <h3 className="text-sm font-bold text-gray-600 mb-3">東京エリア</h3>
+          <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2 mb-6">
+            {[
+              { name: "新宿", slug: "shinjuku" }, { name: "渋谷", slug: "shibuya" }, { name: "池袋", slug: "ikebukuro" },
+              { name: "銀座", slug: "ginza" }, { name: "六本木", slug: "roppongi" }, { name: "恵比寿", slug: "ebisu" },
+              { name: "品川", slug: "shinagawa" }, { name: "上野", slug: "ueno" }, { name: "中目黒", slug: "nakameguro" },
+              { name: "自由が丘", slug: "jiyugaoka" }, { name: "町田", slug: "machida" }, { name: "立川", slug: "tachikawa" },
+              { name: "吉祥寺", slug: "kichijoji" }, { name: "麻布十番", slug: "azabu" }, { name: "赤坂", slug: "akasaka" },
+            ].map((area) => (
+              <Link key={area.slug} href={`/area/${area.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-2.5 text-center text-sm font-medium text-gray-700 hover:border-orange-400 hover:text-orange-600 transition-colors">
+                {area.name}
+              </Link>
+            ))}
+          </div>
+          <h3 className="text-sm font-bold text-gray-600 mb-3">その他のエリア</h3>
+          <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2">
+            {[
+              { name: "大宮", slug: "omiya" }, { name: "川崎", slug: "kawasaki" }, { name: "船橋", slug: "funabashi" },
+              { name: "広島", slug: "hiroshima" }, { name: "なんば", slug: "namba" }, { name: "梅田", slug: "umeda" },
+              { name: "高崎", slug: "takasaki" }, { name: "千葉", slug: "chiba" }, { name: "新潟", slug: "niigata" },
+              { name: "岡山", slug: "okayama" },
+            ].map((area) => (
+              <Link key={area.slug} href={`/area/${area.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-2.5 text-center text-sm font-medium text-gray-700 hover:border-orange-400 hover:text-orange-600 transition-colors">
+                {area.name}
+              </Link>
             ))}
           </div>
         </div>
