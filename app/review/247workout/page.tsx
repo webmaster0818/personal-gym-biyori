@@ -249,7 +249,6 @@ export default function Workout247Review() {
 
         <div className="mb-8 rounded-lg overflow-hidden">
           <Image
-            src="/review-247workout.jpg"
             alt="24/7ワークアウトのイメージ画像 - 夜景が見えるモダンなジム"
             width={1200}
             height={630}

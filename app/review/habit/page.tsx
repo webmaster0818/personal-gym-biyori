@@ -242,7 +242,6 @@ export default function HabitReview() {
 
         <div className="mb-8 rounded-lg overflow-hidden">
           <Image
-            src="/review-habit.jpg"
             alt="HABIT PERSONAL GYMのイメージ画像 - モダンなパーソナルトレーニングジムの内装"
             width={1200}
             height={630}

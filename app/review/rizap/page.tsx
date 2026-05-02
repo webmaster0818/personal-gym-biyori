@@ -250,7 +250,6 @@ export default function RizapReview() {
 
         <div className="mb-8 rounded-lg overflow-hidden">
           <Image
-            src="/review-rizap.jpg"
             alt="RIZAPのイメージ画像 - 高級感のあるパーソナルトレーニングジム"
             width={1200}
             height={630}

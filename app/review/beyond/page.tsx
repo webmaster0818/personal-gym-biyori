@@ -249,7 +249,6 @@ export default function BeyondReview() {
 
         <div className="mb-8 rounded-lg overflow-hidden">
           <Image
-            src="/review-beyond.jpg"
             alt="BEYONDのイメージ画像 - 本格的なボディメイクジムの内装"
             width={1200}
             height={630}

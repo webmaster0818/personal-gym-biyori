@@ -252,7 +252,6 @@ export default function ChickenGymReview() {
 
         <div className="mb-8 rounded-lg overflow-hidden">
           <Image
-            src="/review-chicken-gym.jpg"
             alt="チキンジムのイメージ画像 - モダンなフィットネスジムの内装"
             width={1200}
             height={630}

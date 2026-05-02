@@ -247,7 +247,6 @@ export default function ExerciseCoachReview() {
 
         <div className="mb-8 rounded-lg overflow-hidden">
           <Image
-            src="/review-exercise-coach.jpg"
             alt="エクササイズコーチのイメージ画像 - AIマシンを備えた近未来的なジム"
             width={1200}
             height={630}
