@@ -215,12 +215,19 @@ export default function CalorieTradeReview() {
           </div>
         </section>
 
+        {/* Banner Ad */}
+        <div className="flex justify-center my-6">
+          <a href="https://t.felmat.net/fmcl?ak=S9777P.1.F142081F.Q136169A" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://t.felmat.net/fmimg/S9777P.F142081F.Q136169A" width={300} height={250} alt="CALORIE TRADE JAPAN" className="rounded-lg shadow-sm" />
+          </a>
+        </div>
+
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 className="text-xl font-bold mb-3">CALORIE TRADE JAPANが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたのダイエット目標を相談してみましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
-            ランキングに戻る
-          </Link>
+          <a href="https://t.felmat.net/fmcl?ak=S9777P.1.F142081F.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
+            CALORIE TRADE JAPANの無料カウンセリングに申し込む
+          </a>
         </section>
 
         <section>
