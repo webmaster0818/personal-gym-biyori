@@ -256,6 +256,11 @@ export default function ExerciseCoachReview() {
           />
         </div>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-exercise-coach.jpg" alt="エクササイズコーチ 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <p className="text-gray-700 leading-relaxed mb-10">
           エクササイズコーチは「1回20分」の時短トレーニングとAIマシンによる自動負荷調整が特徴のパーソナルトレーニングジムです。全国40店舗以上を展開し、月額9,900円〜というパーソナルジムとしてはリーズナブルな料金設定で支持を集めています。忙しい方でもスキマ時間に通える手軽さと、テクノロジーを活用した効率的なトレーニングが魅力です。本記事では、エクササイズコーチの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>

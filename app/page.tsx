@@ -4,6 +4,7 @@ const services = [
   {
     rank: 1,
     name: "チキンジム",
+    slug: "chicken-gym",
     tagline: "初心者でも続けやすいパーソナルジム",
     price: "月額6,800円〜",
     features: ["全国30店舗以上", "初心者向けプログラム", "手ぶらOK", "ウェア・シューズ無料レンタル"],
@@ -16,6 +17,7 @@ const services = [
   {
     rank: 2,
     name: "RIZAP",
+    slug: "rizap",
     tagline: "結果にコミットするパーソナルジム",
     price: "月額9,900円〜",
     features: ["結果にコミット", "食事指導付き", "30日間全額返金保証", "専属トレーナー制"],
@@ -28,6 +30,7 @@ const services = [
   {
     rank: 3,
     name: "24/7ワークアウト",
+    slug: "247workout",
     tagline: "3食食べて痩せるダイエットジム",
     price: "月額7,500円〜",
     features: ["3食食べるダイエット", "深夜営業対応", "完全個室", "全額返金保証"],
@@ -40,6 +43,7 @@ const services = [
   {
     rank: 4,
     name: "BEYOND",
+    slug: "beyond",
     tagline: "ボディメイク特化のパーソナルジム",
     price: "月額8,250円〜",
     features: ["ボディメイク特化", "コンテスト入賞トレーナー在籍", "糖質制限なし", "都市部中心展開"],
@@ -52,6 +56,7 @@ const services = [
   {
     rank: 5,
     name: "エクササイズコーチ",
+    slug: "exercise-coach",
     tagline: "AI搭載マシンで効率的なトレーニング",
     price: "月額9,900円〜",
     features: ["AI搭載マシン", "1回20分の時短トレーニング", "月4回からOK", "全国展開中"],
@@ -213,6 +218,14 @@ export default function Home() {
 
                 <div className="p-6">
                   <p className="text-gray-600 mb-4">{service.tagline}</p>
+
+                  {/* Screenshot */}
+                  <Link href={service.reviewPath}>
+                    <div className="rounded-lg overflow-hidden border border-gray-200 mb-4">
+                      <img src={`/ss-${service.slug}.jpg`} alt={`${service.name} 公式サイト`} className="w-full h-auto" />
+                      <p className="text-[10px] text-gray-400 p-1 text-right">画像引用: 公式サイトより</p>
+                    </div>
+                  </Link>
 
                   {/* Features as pills */}
                   <div className="flex flex-wrap gap-2 mb-5">

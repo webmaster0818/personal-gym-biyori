@@ -259,6 +259,11 @@ export default function RizapReview() {
           />
         </div>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-rizap.jpg" alt="RIZAP 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <p className="text-gray-700 leading-relaxed mb-10">
           RIZAPは「結果にコミット」のキャッチフレーズで知られる、国内最大手のパーソナルトレーニングジムです。全国100店舗以上を展開し、16万人以上の利用実績を持ちます。専属トレーナーによるマンツーマン指導と管理栄養士による食事サポートの二本柱で、短期間での確実な体型変化を実現してきました。30日間全額返金保証も大きな特徴です。本記事では、RIZAPの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>

@@ -261,6 +261,11 @@ export default function ChickenGymReview() {
           />
         </div>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-chicken-gym.jpg" alt="チキンジム 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <p className="text-gray-700 leading-relaxed mb-10">
           チキンジムは全国34店舗を展開するパーソナルトレーニングジムです。「続けられるトレーニング」をコンセプトに掲げ、月々6,800円〜という業界最安級の料金設定と、ウェア・シューズの無料レンタルによる手軽さが特徴です。利用者の90%以上がトレーニング初心者とされており、運動に慣れていない方でも安心して始められる環境が整っています。本記事では、チキンジムの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
