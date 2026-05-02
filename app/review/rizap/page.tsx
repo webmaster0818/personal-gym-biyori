@@ -459,18 +459,28 @@ export default function RizapReview() {
           </p>
         </section>
 
+        {/* ---------- バナー広告 ---------- */}
+        <section className="mb-10 text-center">
+          <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://www20.a8.net/svt/bgt?aid=250920793872&wid=001&eno=01&mid=s00000015695001058000&mc=1" alt="RIZAP" width="300" height="250" className="mx-auto rounded-lg" />
+          </a>
+          <img src="https://www10.a8.net/0.gif?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" alt="" width="1" height="1" className="inline" />
+        </section>
+
         {/* ---------- CTA ---------- */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 className="text-xl font-bold mb-3">RIZAPが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">
             まずは無料カウンセリングで、あなたに合ったプログラムを相談してみましょう。
           </p>
-          <Link
-            href="/#ranking"
-            className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm"
-          >
-            ランキングに戻る
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
+              公式サイトへ
+            </a>
+            <Link href="/#ranking" className="inline-block border border-white text-white font-bold py-2.5 px-6 rounded-lg hover:bg-white/10 transition-colors text-sm">
+              ランキングに戻る
+            </Link>
+          </div>
         </section>
 
         {/* ---------- 関連ジム ---------- */}
