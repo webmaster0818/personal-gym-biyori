@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
@@ -246,16 +245,6 @@ export default function Workout247Review() {
           24/7ワークアウトの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
-
-        <div className="mb-8 rounded-lg overflow-hidden">
-          <Image
-            alt="24/7ワークアウトのイメージ画像 - 夜景が見えるモダンなジム"
-            width={1200}
-            height={630}
-            className="w-full h-auto"
-            priority
-          />
-        </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-247workout.jpg" alt="24/7ワークアウト 公式サイト" className="w-full h-auto" />
