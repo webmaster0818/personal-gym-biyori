@@ -108,6 +108,11 @@ export default function CocodakaraReview() {
           CoCoDakara Body Designの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=L10446X.1.C147837Q.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            CoCoDakara の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           CoCoDakara Body Design（ココダカラボディーデザイン）は、東京都港区麻布十番に位置する完全個室のパーソナルトレーニングジムです。隠れ家的な空間で、完全マンツーマンのオーダーメイドプログラムと食事指導を組み合わせた一体型のボディメイクサポートを提供しています。本記事では、CoCoDakara Body Designの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

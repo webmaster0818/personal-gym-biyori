@@ -238,6 +238,11 @@ export default function HabitReview() {
           HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            HABIT の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           HABIT PERSONAL GYM（ハビットパーソナルジム）は、東京・大阪を中心に全国16店舗を展開するパーソナルトレーニングジムです。業界最安級の料金設定と料金の透明性を強みに、オリジナルプロテインの提供や栄養・休養面のアドバイスなど、トレーニング以外のサポートも充実。利用者満足度95%と高い評価を得ています。本記事では、HABIT PERSONAL GYMの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。

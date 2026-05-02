@@ -109,6 +109,11 @@ export default function RexerReview() {
           ReXeR（レクサー）の口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            REXER の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           ReXeR PeRSoNaL GyM（レクサーパーソナルジム）は、高級フィットネスラウンジを母体とするパーソナルジムです。コンテスト優勝経験を持つトップトレーナーと管理栄養士が在籍し、医学的根拠に基づいたトレーニングと食事管理を提供。東京・大阪・兵庫に6店舗を展開し、効果実感率96.1%という高い満足度を誇ります。本記事では、ReXeRの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

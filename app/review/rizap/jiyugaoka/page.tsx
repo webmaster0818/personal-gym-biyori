@@ -47,6 +47,11 @@ export default function StorePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 自由が丘店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            RIZAP の公式サイトはこちら
+          </a>
+        </p>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">基本情報</h2>
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div>
@@ -71,8 +76,8 @@ export default function StorePage() {
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
             <p className="font-bold text-gray-800">RIZAPの詳しい口コミ・料金情報はこちら</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/review/rizap/" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">RIZAPの総合レビューを見る</Link>
-              <a href="https://www.rizap.jp/" target="_blank" rel="noopener noreferrer" className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">RIZAP公式サイト</a>
+              <Link href="/review/rizap/" className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">RIZAPの総合レビューを見る</Link>
+              <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">公式サイトへ</a>
             </div>
           </div>
         </section>

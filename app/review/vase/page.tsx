@@ -106,6 +106,11 @@ export default function VaseReview() {
           VASE（ベイス）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            VASE の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           VASE（ベイス）は一人ひとりに合わせたオーダーメイドのトレーニングプログラムを提供するパーソナルトレーニングジムです。初心者にも安心の丁寧な指導と食事管理サポートで、無理なく目標達成を目指せます。本記事では、VASEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

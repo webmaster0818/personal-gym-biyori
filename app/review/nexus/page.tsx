@@ -106,6 +106,11 @@ export default function NexusReview() {
           Nexusジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            Nexusジム の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           Nexusジムは月額19,800円〜の格安パーソナルジムです。月額制で始めやすく辞めやすい柔軟な料金体系と、完全個室でのマンツーマン指導が特徴。本記事では、Nexusジムの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

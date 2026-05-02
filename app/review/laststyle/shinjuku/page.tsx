@@ -59,6 +59,11 @@ export default function StorePage() {
           Laststyle 新宿店の口コミ・評判
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            Laststyle の公式サイトはこちら
+          </a>
+        </p>
 
         {/* ---------- 基本情報テーブル ---------- */}
         <section className="mb-10">
@@ -148,17 +153,17 @@ export default function StorePage() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
                 href="/review/laststyle/"
-                className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
+                className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors"
               >
                 Laststyleの総合レビューを見る
               </Link>
               <a
-                href="https://www.last-style.com/"
+                href="https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A"
                 target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors"
+                rel="noopener noreferrer nofollow"
+                className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
               >
-                Laststyle公式サイト
+                公式サイトへ
               </a>
             </div>
           </div>

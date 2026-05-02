@@ -108,6 +108,11 @@ export default function PlezReview() {
           プレズ（Plez）の口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            Plez の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           プレズ（Plez）はオンライン完結型のパーソナルトレーニングサービスです。ジム通い不要で、自宅にいながらプロのトレーナーから食事指導＋トレーニング指導が受けられます。月額約2万円台〜と業界平均の約1/3の価格が特徴。本記事では、プレズの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

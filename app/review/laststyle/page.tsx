@@ -106,6 +106,11 @@ export default function LaststyleReview() {
           Laststyleの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            Laststyle の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           Laststyle（ラストスタイル）はボクシングとパーソナルトレーニングを融合させた独自のフィットネスジムです。楽しみながら効率的に脂肪を燃焼させるプログラムが特徴で、ダイエットやストレス発散を求める方に支持されています。本記事では、Laststyleの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

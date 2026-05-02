@@ -106,6 +106,11 @@ export default function RitaStyleReview() {
           RITA STYLEの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=Q8343U.1.31275172.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            RITA STYLE の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           RITA STYLE（リタスタイル）は九州発の食事指導付き低価格パーソナルジムです。大手の半額以下で完全個室マンツーマン指導と食事サポートが受けられます。本記事では、RITA STYLEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

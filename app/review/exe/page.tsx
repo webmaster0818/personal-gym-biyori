@@ -106,6 +106,11 @@ export default function ExeReview() {
           EXE（エグゼ）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=H9594M.1.O142710U.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            EXE の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           EXE（エグゼ）は高級感のある完全個室で、経験豊富なトレーナーによるマンツーマン指導が受けられるパーソナルジムです。ラグジュアリーな空間と質の高いサービスで、ワンランク上のトレーニング体験を提供しています。本記事では、EXEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
