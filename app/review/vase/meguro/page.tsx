@@ -103,6 +103,13 @@ export default function StorePage() {
           </div>
         </section>
 
+        {/* ---------- バナー広告 ---------- */}
+        <section className="mb-10 text-center">
+          <a href="https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://t.felmat.net/fmimg/I94614.91387816.Q136169A" alt="VASE" width="300" height="250" className="mx-auto rounded-lg" />
+          </a>
+        </section>
+
         <section className="mb-10">
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
             <p className="font-bold text-gray-800">VASEの詳しい口コミ・料金情報はこちら</p>

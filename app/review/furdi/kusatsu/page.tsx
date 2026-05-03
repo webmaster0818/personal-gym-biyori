@@ -111,6 +111,13 @@ export default function StorePage() {
           </div>
         </section>
 
+        {/* ---------- バナー広告 ---------- */}
+        <section className="mb-10 text-center">
+          <a href="https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://t.felmat.net/fmimg/F6058J.T101150Z.Q136169A" alt="FURDI" width="300" height="250" className="mx-auto rounded-lg" />
+          </a>
+        </section>
+
         <section className="mb-10">
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
             <p className="font-bold text-gray-800">FURDIの詳しい口コミ・料金情報はこちら</p>
