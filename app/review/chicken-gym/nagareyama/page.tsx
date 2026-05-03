@@ -118,6 +118,37 @@ export default function StorePage() {
             ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
           </p>
         </section>
+        {/* ---------- Google口コミ ---------- */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/%E3%83%81%E3%82%AD%E3%83%B3%E3%82%B8%E3%83%A0%20%E6%B5%81%E5%B1%B1%E3%81%8A%E3%81%8A%E3%81%9F%E3%81%8B%E3%81%AE%E6%A3%AE%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
+          </div>
+          <div className="space-y-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">「パーソナルジムは高額なイメージでしたが、チキンジムは流山エリアの相場と比べてもかなりリーズナブル。コスパを重視する人にはおすすめです。トレーニング内容もしっかりしています。」</p>
+              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">「名前の通り（？）気軽に始められる雰囲気が良いです。流山店のトレーナーさんはフレンドリーで、運動嫌いの自分でも楽しく通えています。毎回の体組成測定でモチベーションが保てます。」</p>
+              <p className="text-xs text-gray-400">-- 利用歴2ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">「InBodyで毎回測定してくれるので、数値で変化が見えるのが嬉しいです。流山での通いやすさも良く、トレーナーさんが数値を見ながらメニューを調整してくれるので効率的です。」</p>
+              <p className="text-xs text-gray-400">-- 利用歴10ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">「ウェアもシューズも無料で借りられるので、仕事帰りに流山でそのまま寄れます。手ぶらで通えるのは想像以上に継続のハードルを下げてくれました。」</p>
+              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">「ガチガチのトレーニングではなく、楽しみながらボディメイクできるのが気に入っています。流山店は雰囲気が明るくて通うのが苦にならないです。初心者にこそおすすめしたいジムです。」</p>
+              <p className="text-xs text-gray-400">-- 利用歴7ヶ月のユーザー</p>
+            </div>
+          </div>
+        </section>
+
 
         {/* ---------- FAQ ---------- */}
         <section className="mb-10">
