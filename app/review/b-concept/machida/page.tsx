@@ -105,7 +105,6 @@ export default function StorePage() {
             <p className="font-bold text-gray-800">ビーコンセプトの詳しい口コミ・料金情報はこちら</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/review/b-concept/" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">ビーコンセプトの総合レビューを見る</Link>
-              <a href="https://b-concept.tokyo/" target="_blank" rel="noopener noreferrer" className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">ビーコンセプト公式サイト</a>
             </div>
           </div>
         </section>

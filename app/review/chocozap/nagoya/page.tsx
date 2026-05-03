@@ -105,7 +105,6 @@ export default function StorePage() {
             <p className="font-bold text-gray-800">chocoZAPの詳しい口コミ・料金情報はこちら</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/review/chocozap/" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">chocoZAPの総合レビューを見る</Link>
-              <a href="https://chocozap.jp/" target="_blank" rel="noopener noreferrer" className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">chocoZAP公式サイト</a>
             </div>
           </div>
         </section>
