@@ -70,6 +70,7 @@ const pricingPlans = [
   { name: "シェイプアッププログラム", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込" },
   { name: "美脚プログラム", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込" },
   { name: "マッスルゲインプログラム", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込" },
+  { name: "PRIMEプラン", duration: "月2回〜", price: "月額22,000円〜", note: "税込・月額制" },
 ];
 
 /* ---------- 口コミデータ ---------- */
