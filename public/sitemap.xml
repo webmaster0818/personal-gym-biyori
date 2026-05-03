@@ -52,6 +52,7 @@
   <url><loc>https://personal-gym-biyori.com/review/247workout/ginza/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/gotanda/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/hachioji/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/247workout/hakata/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/hiroshima/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/ikebukuro/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/kamata/</loc></url>
@@ -63,6 +64,7 @@
   <url><loc>https://personal-gym-biyori.com/review/247workout/kinshicho/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/kitasenju/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/kobe/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/247workout/kumamoto/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/kyoto/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/machida/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/meieki/</loc></url>
@@ -71,16 +73,21 @@
   <url><loc>https://personal-gym-biyori.com/review/247workout/nakameguro/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/namba/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/nerima/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/247workout/niigata/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/omiya/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/roppongi/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/saitama/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/sangenjaya/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/247workout/sannomiya/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/sendai/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/shibuya/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/shinagawa/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/shinjuku/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/247workout/shinsaibashi/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/soro/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/tachikawa/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/247workout/takasaki/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/247workout/tennoji/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/ueno/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/umeda/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/247workout/urawa/</loc></url>
@@ -315,9 +322,12 @@
   <url><loc>https://personal-gym-biyori.com/review/laststyle/shinjuku/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/leading/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/lexer/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/lexer/akasaka/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/lexer/gotanda/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/lexer/meguro/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/lexer/nishiazabu/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/lexer/shibuya/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/lexer/umeda-nakatsu/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/lino-u/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/melmake/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/miyazaki-gym/</loc></url>
@@ -349,9 +359,18 @@
   <url><loc>https://personal-gym-biyori.com/review/more-fit/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/nexus/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/nexus/akasaka/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/hakusan/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/nexus/ikebukuro/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/kiyosumishirakawa/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/mita/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/nerima/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/nishiogikubo/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/osaka-fukushima/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/nexus/shibuya/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/nexus/shinjuku/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/takanawadai/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/ueno/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/nexus/yokohama/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/nine/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/outline/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/outline/funabashi/</loc></url>
@@ -381,24 +400,30 @@
   <url><loc>https://personal-gym-biyori.com/review/rizap/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/akasaka/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/azabujuban/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/chiba/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/ebisu/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/fujisawa/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/fukuoka/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/funabashi/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/futakotamagawa/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/ginza/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/gotanda/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/hachioji/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/hiroshima/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/ikebukuro/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/ikebukuro-east/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/jiyugaoka/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/kamata/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/kawaguchi/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/kawasaki/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/kinshicho/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/kitasenju/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/kobe/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/kyoto/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/machida/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/musashikosugi/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/nagoya/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/nakameguro/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/namba/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/nerima/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/omiya/</loc></url>
@@ -412,8 +437,10 @@
   <url><loc>https://personal-gym-biyori.com/review/rizap/soro/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/tachikawa/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/takasaki/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/tokorozawa/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/ueno/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/umeda/</loc></url>
+  <url><loc>https://personal-gym-biyori.com/review/rizap/urawa/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/rizap/yokohama/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/starlight/</loc></url>
   <url><loc>https://personal-gym-biyori.com/review/studio-kompas/</loc></url>
