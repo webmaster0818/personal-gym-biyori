@@ -144,6 +144,14 @@ export default function StorePage() {
           </div>
         </section>
 
+
+        {/* ---------- バナー広告 ---------- */}
+        <section className="mb-10 text-center">
+          <a href="https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://t.felmat.net/fmimg/U99728.M157545O.Q136169A" alt="REXER" width="300" height="250" className="mx-auto rounded-lg" />
+          </a>
+        </section>
+
         {/* ---------- CTA ---------- */}
         <section className="mb-10">
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
