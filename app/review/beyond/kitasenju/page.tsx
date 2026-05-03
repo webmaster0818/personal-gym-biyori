@@ -86,6 +86,10 @@ export default function StorePage() {
             </table>
           </div>
         </section>
+        {/* CTA ボタン */}
+        <div className="mb-10 text-center">
+          <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-orange-600 transition-colors text-sm">無料カウンセリングを予約する</a>
+        </div>
 
         {/* ---------- Google Map エリア ---------- */}
         <section className="mb-10">

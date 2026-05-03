@@ -79,6 +79,10 @@ export default function StorePage() {
             </table>
           </div>
         </section>
+        {/* CTA ボタン */}
+        <div className="mb-10 text-center">
+          <a href="https://t.felmat.net/fmcl?ak=L10446X.1.C147837Q.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-orange-600 transition-colors text-sm">無料カウンセリングを予約する</a>
+        </div>
 
         {/* Google Map エリア */}
         <section className="mb-10">

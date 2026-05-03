@@ -80,6 +80,10 @@ export default function StorePage() {
             </table>
           </div>
         </section>
+        {/* CTA ボタン */}
+        <div className="mb-10 text-center">
+          <Link href="/review/aspi/" className="inline-block bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-sm">総合レビューを見る</Link>
+        </div>
 
         {/* ---------- Google Map エリア ---------- */}
         <section className="mb-10">
