@@ -89,7 +89,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI神戸店は、三宮駅から徒歩5分の女性専用AIフィットネスジムです。おしゃれな街・神戸で、美容や健康に意識の高い女性から支持を集めています。AIトレーナーがリアルタイムでフォーム指導を行い、効率的なサーキットトレーニングを提供。月額7,678円〜で通い放題、予約不要なので、神戸エリアで仕事や買い物の合間にトレーニングしたい女性に最適な環境です。
+            FURDI神戸店は、三宮駅から徒歩5分の女性専用AIフィットネスジムです。兵庫県の中心地・三宮エリアに位置し、神戸市内の女性を中心に利用されています。月額7,678円〜で通い放題のAIサーキットトレーニングが受けられます。おしゃれな街・神戸で気軽にフィットネスを始めたい女性に人気で、予約不要の手軽さも好評です。
           </p>
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>

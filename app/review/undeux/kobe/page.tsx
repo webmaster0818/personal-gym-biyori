@@ -3,24 +3,24 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "UNDEUX SUPERBODY 池袋店の口コミ・評判",
+  title: "UNDEUX SUPERBODY 神戸店の口コミ・評判",
   description:
-    "UNDEUX SUPERBODY 池袋店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "UNDEUX SUPERBODY 神戸店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
 };
 
 const basicInfo = [
-  { label: "店舗名", value: "UNDEUX SUPERBODY 池袋店" },
-  { label: "住所", value: "東京都豊島区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "池袋駅 徒歩約5分" },
+  { label: "店舗名", value: "UNDEUX SUPERBODY 神戸店" },
+  { label: "住所", value: "兵庫県神戸市（※最新情報は公式サイトでご確認ください）" },
+  { label: "最寄駅", value: "三宮駅 徒歩約5分" },
   { label: "営業時間", value: "8:00〜22:00（※最新情報は公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 const faqItems = [
-  { q: "UNDEUX SUPERBODY池袋店の料金はいくらですか？", a: "UNDEUX SUPERBODY池袋店の料金は、2ヶ月集中コースで215,600円（税込）〜が目安です。入会金は33,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY池袋店の営業時間は？", a: "8:00〜22:00です。最新情報は公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY池袋店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。" },
-  { q: "UNDEUX SUPERBODY池袋店のアクセスは？", a: "池袋駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY神戸店の料金はいくらですか？", a: "UNDEUX SUPERBODY神戸店の料金は、2ヶ月集中コースで215,600円（税込）〜が目安です。入会金は33,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY神戸店の営業時間は？", a: "8:00〜22:00です。最新情報は公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY神戸店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。" },
+  { q: "UNDEUX SUPERBODY神戸店のアクセスは？", a: "三宮駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -34,9 +34,9 @@ const faqJsonLd = {
 };
 
 const relatedStores = [
-  { name: "UNDEUX SUPERBODY 新宿店", href: "/review/undeux/shinjuku/" },
+  { name: "UNDEUX SUPERBODY 梅田店", href: "/review/undeux/umeda/" },
+  { name: "UNDEUX SUPERBODY 難波店", href: "/review/undeux/namba/" },
   { name: "UNDEUX SUPERBODY 渋谷店", href: "/review/undeux/shibuya/" },
-  { name: "UNDEUX SUPERBODY 銀座店", href: "/review/undeux/ginza/" },
 ];
 
 export default function StorePage() {
@@ -47,12 +47,12 @@ export default function StorePage() {
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
           { name: "UNDEUX SUPERBODY", href: "/review/undeux/" },
-          { name: "池袋店" },
+          { name: "神戸店" },
         ]}
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">UNDEUX SUPERBODY 池袋店の口コミ・評判</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">UNDEUX SUPERBODY 神戸店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
 
         <section className="mb-10">
@@ -74,14 +74,14 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
-            <p className="text-gray-600 mb-4">UNDEUX SUPERBODY 池袋店の所在地をGoogleマップで確認できます。</p>
-            <a href="https://www.google.com/maps/search/UNDEUX+SUPERBODY+池袋店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
+            <p className="text-gray-600 mb-4">UNDEUX SUPERBODY 神戸店の所在地をGoogleマップで確認できます。</p>
+            <a href="https://www.google.com/maps/search/UNDEUX+SUPERBODY+神戸店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
           </div>
         </section>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。トレーニングと食事宅配サービスがセットになったプログラムが特徴で、忙しい女性でも手軽にボディメイクに取り組めます。おしゃれで清潔感のある空間で、モチベーション高くトレーニングを続けられると好評です。</p>
+          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY神戸店は、三宮駅近くにある女性専用パーソナルジムです。神戸エリアで女性専用の本格パーソナルジムとして人気があり、洗練された空間でトレーニングに集中できます。管理栄養士監修の食事指導と宅配食サービスのセットプランが特徴で、トータルなボディメイクが可能です。</p>
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 

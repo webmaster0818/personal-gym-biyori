@@ -3,24 +3,24 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "UNDEUX SUPERBODY 池袋店の口コミ・評判",
+  title: "ビーコンセプト 船橋店の口コミ・評判",
   description:
-    "UNDEUX SUPERBODY 池袋店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "ビーコンセプト 船橋店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
 };
 
 const basicInfo = [
-  { label: "店舗名", value: "UNDEUX SUPERBODY 池袋店" },
-  { label: "住所", value: "東京都豊島区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "池袋駅 徒歩約5分" },
-  { label: "営業時間", value: "8:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "店舗名", value: "ビーコンセプト 船橋店" },
+  { label: "住所", value: "千葉県船橋市（※最新情報は公式サイトでご確認ください）" },
+  { label: "最寄駅", value: "船橋駅 徒歩約5分" },
+  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 const faqItems = [
-  { q: "UNDEUX SUPERBODY池袋店の料金はいくらですか？", a: "UNDEUX SUPERBODY池袋店の料金は、2ヶ月集中コースで215,600円（税込）〜が目安です。入会金は33,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY池袋店の営業時間は？", a: "8:00〜22:00です。最新情報は公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY池袋店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。" },
-  { q: "UNDEUX SUPERBODY池袋店のアクセスは？", a: "池袋駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "ビーコンセプト船橋店の料金はいくらですか？", a: "ビーコンセプト船橋店の料金は、2ヶ月コースで199,650円（税込）〜が目安です。入会金は38,500円（税込）です。最新の料金は公式サイトでご確認ください。" },
+  { q: "ビーコンセプト船橋店の営業時間は？", a: "7:00〜23:00です。最新情報は公式サイトでご確認ください。" },
+  { q: "ビーコンセプト船橋店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。" },
+  { q: "ビーコンセプト船橋店のアクセスは？", a: "船橋駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -34,9 +34,9 @@ const faqJsonLd = {
 };
 
 const relatedStores = [
-  { name: "UNDEUX SUPERBODY 新宿店", href: "/review/undeux/shinjuku/" },
-  { name: "UNDEUX SUPERBODY 渋谷店", href: "/review/undeux/shibuya/" },
-  { name: "UNDEUX SUPERBODY 銀座店", href: "/review/undeux/ginza/" },
+  { name: "ビーコンセプト 銀座店", href: "/review/b-concept/ginza/" },
+  { name: "ビーコンセプト 池袋店", href: "/review/b-concept/ikebukuro/" },
+  { name: "ビーコンセプト 渋谷店", href: "/review/b-concept/shibuya/" },
 ];
 
 export default function StorePage() {
@@ -46,13 +46,13 @@ export default function StorePage() {
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
-          { name: "UNDEUX SUPERBODY", href: "/review/undeux/" },
-          { name: "池袋店" },
+          { name: "ビーコンセプト", href: "/review/b-concept/" },
+          { name: "船橋店" },
         ]}
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">UNDEUX SUPERBODY 池袋店の口コミ・評判</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">ビーコンセプト 船橋店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
 
         <section className="mb-10">
@@ -74,14 +74,14 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
-            <p className="text-gray-600 mb-4">UNDEUX SUPERBODY 池袋店の所在地をGoogleマップで確認できます。</p>
-            <a href="https://www.google.com/maps/search/UNDEUX+SUPERBODY+池袋店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
+            <p className="text-gray-600 mb-4">ビーコンセプト 船橋店の所在地をGoogleマップで確認できます。</p>
+            <a href="https://www.google.com/maps/search/ビーコンセプト+船橋店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
           </div>
         </section>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。トレーニングと食事宅配サービスがセットになったプログラムが特徴で、忙しい女性でも手軽にボディメイクに取り組めます。おしゃれで清潔感のある空間で、モチベーション高くトレーニングを続けられると好評です。</p>
+          <p className="text-gray-700 leading-relaxed">ビーコンセプト船橋店は、船橋駅近くに位置する女性専用パーソナルジムです。下半身・脚痩せに特化した独自のトレーニングメソッドが特徴で、千葉エリアで本格的な脚痩せプログラムを受けられる貴重な店舗です。完全個室で人目を気にせずトレーニングでき、アフターフォローの充実度も高く評価されています。</p>
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
@@ -102,9 +102,9 @@ export default function StorePage() {
 
         <section className="mb-10">
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
-            <p className="font-bold text-gray-800">UNDEUX SUPERBODYの詳しい口コミ・料金情報はこちら</p>
+            <p className="font-bold text-gray-800">ビーコンセプトの詳しい口コミ・料金情報はこちら</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/review/undeux/" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">UNDEUX SUPERBODYの総合レビューを見る</Link>
+              <Link href="/review/b-concept/" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">ビーコンセプトの総合レビューを見る</Link>
             </div>
           </div>
         </section>

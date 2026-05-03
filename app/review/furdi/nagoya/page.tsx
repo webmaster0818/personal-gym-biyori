@@ -35,8 +35,8 @@ const faqJsonLd = {
 
 const relatedStores = [
   { name: "FURDI 梅田店", href: "/review/furdi/umeda/" },
-  { name: "FURDI なんば店", href: "/review/furdi/namba/" },
   { name: "FURDI 新宿店", href: "/review/furdi/shinjuku/" },
+  { name: "FURDI 横浜店", href: "/review/furdi/yokohama/" },
 ];
 
 const affiliateLink = "https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A";
@@ -89,7 +89,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI名古屋店は、名古屋駅から徒歩5分の女性専用AIフィットネスジムです。中部エリアの中心地で、仕事帰りやショッピングついでに通う女性に支持されています。AIが体力や目的に合わせたトレーニングメニューを自動提案し、画面の指示に沿って運動するだけで効果的なサーキットトレーニングが完了します。月額7,678円〜で通い放題、予約不要というシステムが名古屋の忙しい女性たちに好評です。
+            FURDI名古屋店は、名古屋駅から徒歩5分の女性専用AIフィットネスジムです。東海エリアの拠点店舗として、名古屋市内の女性を中心に利用されています。月額7,678円〜という低価格でAIサーキットトレーニングが通い放題。予約不要で好きな時間に通えるため、仕事帰りにも立ち寄りやすいと好評です。
           </p>
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>

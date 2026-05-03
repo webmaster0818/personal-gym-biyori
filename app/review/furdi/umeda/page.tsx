@@ -89,7 +89,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI梅田店は、梅田駅から徒歩5分の女性専用AIフィットネスジムです。大阪の中心・梅田エリアで、OLや学生など幅広い年代の女性に利用されています。AIトレーナーが個別メニューを提案してくれるため、パーソナルトレーニングのような指導を低価格で受けられるのが特徴です。月額7,678円〜で通い放題、予約不要なので、梅田での買い物帰りや通勤途中に気軽に立ち寄れます。
+            FURDI梅田店は、梅田駅から徒歩5分の女性専用AIフィットネスジムです。大阪の中心地・梅田エリアに位置し、関西圏の女性に人気。月額7,678円〜で通い放題のAIサーキットトレーニングを提供しています。ショッピングや通勤のついでに気軽に立ち寄れる立地で、予約不要の気軽さが支持されています。
           </p>
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
