@@ -367,6 +367,15 @@ export default function HabitReview() {
           </p>
         </section>
 
+        {/* 中間CTA */}
+        <section className="mb-12">
+          <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
+            <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
+            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <a href="https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
+          </div>
+        </section>
+
         {/* ---------- 口コミ分析 ---------- */}
         <section id="reviews" className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの口コミ分析</h2>

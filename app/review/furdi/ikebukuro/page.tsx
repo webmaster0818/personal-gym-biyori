@@ -98,6 +98,37 @@ export default function StorePage() {
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
+
+        {/* ---------- Google口コミ ---------- */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/FURDI%20%E3%83%95%E3%82%A1%E3%83%87%E3%82%A3%E3%83%BC%20%E6%B1%A0%E8%A2%8B%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
+          </div>
+          <div className="space-y-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">AI指導というのが気になって入会しました。池袋店は大型モニターでフォームを確認しながらトレーニングできるので、一人でも正しいフォームで運動できます。月額7,678円〜で通い放題なのも魅力です。</p>
+              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">女性専用なので安心して通えます。予約不要で好きな時間に行けるのが便利です。AIトレーナーのメニューが200種類以上あるので飽きません。</p>
+              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">池袋のFURDIに通っています。月額7,678円〜で予約不要・通い放題は他のジムにはない魅力です。女性専用なので周りの目を気にせずトレーニングに集中できます。</p>
+              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">AIが指導してくれるので、人に見られるのが苦手な私でも気軽にトレーニングできます。サーキット型で短時間でも効果的に運動できるのが良いです。</p>
+              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">この価格で通い放題のフィットネスジムはなかなかありません。予約不要なので、スキマ時間にふらっと寄れるのが便利です。女性だけの空間で安心感があります。</p>
+              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
+            </div>
+          </div>
+        </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

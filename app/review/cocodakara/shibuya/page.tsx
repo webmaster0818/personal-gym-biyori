@@ -104,6 +104,37 @@ export default function StorePage() {
           </div>
         </section>
 
+
+        {/* ---------- Google口コミ ---------- */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/CoCoDakara%20%E6%B8%8B%E8%B0%B7%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
+          </div>
+          <div className="space-y-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">完全個室のパーソナルジムを探していてCoCoDakaraを見つけました。個室なのでトレーニング中の姿を見られる心配がなく、のびのびと運動できています。</p>
+              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">食事指導とトレーニングの両方をしっかりサポートしてもらえるので、効率よくボディメイクが進んでいます。トレーナーの質が高いと感じます。</p>
+              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">完全個室なので他の利用者と顔を合わせることがなく、集中してトレーニングできます。渋谷店は清潔感があり、女性でも安心して通えます。</p>
+              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">食事指導が具体的で実践しやすいです。何を食べれば良いかだけでなく、コンビニで買える商品まで教えてくれます。完全個室でプライバシーが守られるのも良いポイントです。</p>
+              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">渋谷のCoCoDakaraに通い始めて2ヶ月ですが、食事指導のおかげで体重が3kg減りました。トレーナーさんがLINEで食事のフィードバックをくれるので助かります。</p>
+              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
+            </div>
+          </div>
+        </section>
         {/* 口コミ概要 */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">

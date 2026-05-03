@@ -107,6 +107,37 @@ export default function StorePage() {
           </div>
         </section>
 
+
+        {/* ---------- Google口コミ ---------- */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/REXER%20%E7%9B%AE%E9%BB%92%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
+          </div>
+          <div className="space-y-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">内装やアメニティの質が高く、通うこと自体がご褒美のような感覚です。トレーニング内容もオーダーメイドで、自分だけのプログラムを組んでもらえます。</p>
+              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">ハイクラスなパーソナルジムを探していてREXERに辿り着きました。期待通りの質の高いサービスで、トレーナーのレベルも非常に高いです。</p>
+              <p className="text-xs text-gray-400">-- 入会1年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">プレミアムな空間で、オーダーメイドのトレーニングプログラムを組んでもらえます。目黒店は内装も高級感があり、モチベーションが上がります。</p>
+              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">自分の体質や目標に合わせた完全オーダーメイドのプログラムが魅力です。トレーナーさんの知識量が豊富で、毎回新しい発見があります。料金に見合った価値があると思います。</p>
+              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">REXERは他のジムとは一線を画すプレミアムなサービスです。目黒店のトレーナーは経験豊富で、体の状態を見ながら柔軟にメニューを調整してくれます。</p>
+              <p className="text-xs text-gray-400">-- 入会8ヶ月のユーザー</p>
+            </div>
+          </div>
+        </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要

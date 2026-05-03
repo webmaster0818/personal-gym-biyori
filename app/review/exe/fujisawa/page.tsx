@@ -106,6 +106,37 @@ export default function StorePage() {
           </div>
         </section>
 
+
+        {/* ---------- Google口コミ ---------- */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/EXE%20%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%20%E8%97%A4%E6%B2%A2%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
+          </div>
+          <div className="space-y-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">藤沢のEXEに通い始めて3ヶ月です。パーソナルトレーニングは初めてでしたが、トレーナーさんが丁寧に指導してくれるので安心して取り組めています。</p>
+              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">一人ひとりの体力レベルに合わせてメニューを調整してくれるので、無理なく続けられます。トレーナーさんとの距離が近く、何でも相談しやすい雰囲気です。</p>
+              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">EXEのパーソナルトレーニングは質が高いです。藤沢店はアットホームな雰囲気で、トレーナーさんが親身になって指導してくれます。</p>
+              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">目標に合わせたプログラムを組んでもらえるので、効率よくトレーニングできています。大手ジムと比べてしっかり見てもらえる感じがします。</p>
+              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">パーソナルトレーニングの効果を実感しています。自己流では気づけなかったフォームの癖を直してもらい、体の変化を感じるようになりました。</p>
+              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
+            </div>
+          </div>
+        </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要

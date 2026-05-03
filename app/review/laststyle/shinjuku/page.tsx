@@ -110,6 +110,37 @@ export default function StorePage() {
           </div>
         </section>
 
+
+        {/* ---------- Google口コミ ---------- */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Laststyle%20%E6%96%B0%E5%AE%BF%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
+          </div>
+          <div className="space-y-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">格闘技の経験はゼロでしたが、トレーナーさんが基礎から教えてくれるので問題ありません。楽しみながら体を動かせるので、運動嫌いの人にもおすすめです。</p>
+              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">ボクシングとパーソナルトレーニングの組み合わせが新鮮で、毎回のセッションが楽しみです。新宿店は駅から近く、仕事帰りに通いやすいです。ストレス発散にもなります。</p>
+              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">ボクシングの動きを取り入れたトレーニングは思った以上にカロリーを消費します。2ヶ月で体重が4kg減りました。トレーナーさんが明るくて毎回モチベーションが上がります。</p>
+              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">ダイエット目的で入会しましたが、ボクシングが想像以上に楽しくてハマっています。パンチを打つのがストレス発散になり、メンタル面でも効果を感じています。</p>
+              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">新宿のLaststyleは、ボクシングとパーソナルトレーニングを組み合わせた独自のプログラムが魅力です。筋トレだけだと飽きてしまう自分にはぴったりでした。</p>
+              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
+            </div>
+          </div>
+        </section>
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">

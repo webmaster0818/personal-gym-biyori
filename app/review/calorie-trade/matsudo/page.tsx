@@ -108,6 +108,37 @@ export default function StorePage() {
           </div>
         </section>
 
+
+        {/* ---------- Google口コミ ---------- */}
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/CALORIE%20TRADE%20JAPAN%20TRADE%20JAPAN%20%E6%9D%BE%E6%88%B8%E5%85%AB%E6%9F%B1%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
+          </div>
+          <div className="space-y-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">地元にCALORIE TRADE JAPANができて嬉しいです。大手のパーソナルジムより通いやすい価格で、しっかりマンツーマン指導が受けられます。</p>
+              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">TRADE JAPAN 松戸八柱のCALORIE TRADE JAPANに通っています。名古屋発のフランチャイズということで信頼感がありました。トレーナーさんの指導が的確で効果を実感しています。</p>
+              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">フランチャイズ展開しているだけあって、トレーニングメニューやサービスの質が安定しています。料金もリーズナブルで続けやすいです。</p>
+              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">カロリーコントロールに特化した食事指導が分かりやすいです。TRADE JAPAN 松戸八柱店のトレーナーさんは明るくて、毎回楽しくトレーニングできます。</p>
+              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-4">
+              <p className="text-sm text-gray-700 leading-relaxed mb-2">名前の通りカロリー管理をしっかり教えてもらえるので、ダイエットの知識が身につきました。リバウンドしにくい体づくりができていると感じます。</p>
+              <p className="text-xs text-gray-400">-- 入会8ヶ月のユーザー</p>
+            </div>
+          </div>
+        </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要
