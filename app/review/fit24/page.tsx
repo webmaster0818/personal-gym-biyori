@@ -105,7 +105,12 @@ export default function Fit24Review() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           FIT24の口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            FIT24 の公式サイトはこちら
+          </a>
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           FIT24（フィット24）は快活CLUBグループが運営する24時間セルフフィットネスジムです。月額3,980円〜の低価格で、好きな時間にマシントレーニングが可能。本記事では、FIT24の料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
@@ -215,12 +220,24 @@ export default function Fit24Review() {
           </div>
         </section>
 
+        {/* バナー広告 */}
+        <section className="mb-10 text-center">
+          <a href="https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://t.felmat.net/fmimg/M11588F.Q159605W.Q136169A" alt="FIT24" width="300" height="250" className="mx-auto rounded-lg" />
+          </a>
+        </section>
+
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 className="text-xl font-bold mb-3">FIT24が気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずはお近くの店舗を見学して、設備や雰囲気を確認してみましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
-            ランキングに戻る
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
+              公式サイトへ
+            </a>
+            <Link href="/#ranking" className="inline-block border border-white text-white font-bold py-2.5 px-6 rounded-lg hover:bg-white/10 transition-colors text-sm">
+              ランキングに戻る
+            </Link>
+          </div>
         </section>
 
         <section>
