@@ -156,7 +156,7 @@ export default function Home() {
             あなたに合った<br className="sm:hidden" />パーソナルジムが見つかる
           </h1>
           <p className="text-gray-200 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
-            厳選15社のパーソナルジムを料金・口コミ・特徴から徹底比較。
+            厳選60社以上のパーソナルジムを料金・口コミ・特徴から徹底比較。
             初心者からボディメイク志望まで、目的に合ったジム選びをサポートします。
           </p>
           <Link
@@ -173,7 +173,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {[
-              { value: "15社", label: "厳選比較" },
+              { value: "60社+", label: "厳選比較" },
               { value: "全国", label: "対応エリア" },
               { value: "料金", label: "徹底比較" },
               { value: "口コミ", label: "多数掲載" },
@@ -371,7 +371,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl font-bold text-center mb-2">全ジム一覧</h2>
-          <p className="text-gray-500 text-center text-sm mb-8">50社以上のパーソナルジムを徹底比較</p>
+          <p className="text-gray-500 text-center text-sm mb-8">60社以上のパーソナルジムを徹底比較</p>
 
           <h3 className="text-sm font-bold text-accent mb-3">主要パーソナルジム</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-6">
