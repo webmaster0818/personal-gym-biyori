@@ -108,7 +108,7 @@ export default function UndeuxReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          UNDEUX SUPERBODY（アンドゥスーパーボディ）は女性専用のパーソナルジムです。ボディメイクに特化したトレーニングと充実の食事管理サービスで、理想の体型づくりをトータルサポート。本記事では、UNDEUX SUPERBODYの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          UNDEUX SUPERBODY（アンドゥスーパーボディ）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>のパーソナルジムです。ボディメイクに特化したトレーニングと充実の食事管理サービスで、理想の体型づくりをトータルサポート。本記事では、UNDEUX SUPERBODYの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

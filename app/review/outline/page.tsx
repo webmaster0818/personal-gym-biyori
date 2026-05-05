@@ -108,7 +108,7 @@ export default function OutlineReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          OUTLINE（アウトライン）は女性専用・完全個室のパーソナルジムです。最大の特徴は業界でも珍しい「生涯アフターフォロー」制度。コース卒業後もずっとサポートが続くため、リバウンドが心配な方にも安心です。本記事では、OUTLINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          OUTLINE（アウトライン）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>のパーソナルジムです。最大の特徴は業界でも珍しい「生涯アフターフォロー」制度。コース卒業後もずっとサポートが続くため、リバウンドが心配な方にも安心です。本記事では、OUTLINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

@@ -106,7 +106,7 @@ export default function ChocozapReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          chocoZAP（チョコザップ）はRIZAPが監修する月額3,278円のコンビニジムです。24時間365日利用可能で、着替え不要・1日5分からOKという手軽さが特徴。セルフエステや脱毛も追加料金なしで使えます。本記事では、chocoZAPの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          chocoZAP（チョコザップ）はRIZAPが監修する月額<span className="font-bold bg-yellow-100 px-0.5">3,278円</span>のコンビニジムです。24時間365日利用可能で、着替え不要・1日5分からOKという手軽さが特徴。セルフエステや脱毛も追加料金なしで使えます。本記事では、chocoZAPの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

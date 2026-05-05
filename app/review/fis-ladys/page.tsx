@@ -106,7 +106,7 @@ export default function FisLadysReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          fis.lady&apos;s（フィスレディース）は女性専用・ダイエット特化のパーソナルジムです。関西エリアを中心に展開し、食事指導込みの低価格な料金設定が特徴。本記事では、fis.lady&apos;sの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          fis.lady&apos;s（フィスレディース）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・ダイエット特化のパーソナルジムです。関西エリアを中心に展開し、<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>込みの低価格な料金設定が特徴。本記事では、fis.lady&apos;sの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

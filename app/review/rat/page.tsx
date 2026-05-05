@@ -108,7 +108,7 @@ export default function RatReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Rat（ラット）は完全個室・手ぶらOKの都内パーソナルジムです。低価格ながらシャワー完備やレンタル無料など、通いやすさを追求した環境が特徴。本記事では、Ratの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          Rat（ラット）は<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・手ぶらOKの都内パーソナルジムです。低価格ながらシャワー完備やレンタル無料など、通いやすさを追求した環境が特徴。本記事では、Ratの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

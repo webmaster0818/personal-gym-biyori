@@ -107,7 +107,7 @@ export default function CurvesReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          カーブス（Curves）は全国2,000店舗以上を展開する女性専用30分フィットネスです。予約不要・月額6,820円〜で通い放題という手軽さが魅力。本記事では、カーブスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          カーブス（Curves）は全国2,000店舗以上を展開する<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>30分フィットネスです。<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・月額<span className="font-bold bg-yellow-100 px-0.5">6,820円</span>〜で<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>という手軽さが魅力。本記事では、カーブスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

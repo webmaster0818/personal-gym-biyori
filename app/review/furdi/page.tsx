@@ -113,7 +113,7 @@ export default function FurdiReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          FURDI（ファディー）はAI技術を活用した女性専用サーキット型フィットネスジムです。月額7,678円〜の低価格で予約不要・通い放題。本記事では、FURDIの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          FURDI（ファディー）はAI技術を活用した<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>サーキット型フィットネスジムです。月額<span className="font-bold bg-yellow-100 px-0.5">7,678円</span>〜の低価格で<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>。本記事では、FURDIの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

@@ -106,7 +106,7 @@ export default function BbbReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          BBB（トリプルビー）はボディメイクに特化したパーソナルジムです。体組成分析による科学的なアプローチと、完全個室でのマンツーマン指導が特徴。本記事では、BBBの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          BBB（トリプルビー）はボディメイクに特化したパーソナルジムです。体組成分析による科学的なアプローチと、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、BBBの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

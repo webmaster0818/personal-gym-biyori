@@ -108,7 +108,7 @@ export default function ElementReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ELEMENT（エレメント）はマシンピラティスとパーソナルトレーニングを融合させた通い放題型のジムです。30分の短時間セッションで効率的にボディメイクができるため、忙しい方にも人気。本記事では、ELEMENTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ELEMENT（エレメント）はマシンピラティスとパーソナルトレーニングを融合させた<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>型のジムです。30分の短時間セッションで効率的にボディメイクができるため、忙しい方にも人気。本記事では、ELEMENTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

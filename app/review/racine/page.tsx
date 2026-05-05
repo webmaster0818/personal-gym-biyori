@@ -108,7 +108,7 @@ export default function RacineReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          RACINE（ラシーヌ）は女性専用・ボディメイク特化のパーソナルジムです。女性トレーナーによるマンツーマン指導と管理栄養士監修の食事プログラムで、美しいボディラインづくりをサポートしています。本記事では、RACINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          RACINE（ラシーヌ）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・ボディメイク特化のパーソナルジムです。女性トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士監修の食事プログラムで、美しいボディラインづくりをサポートしています。本記事では、RACINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         {/* 基本情報 */}

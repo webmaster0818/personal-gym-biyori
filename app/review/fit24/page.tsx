@@ -113,7 +113,7 @@ export default function Fit24Review() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          FIT24（フィット24）は快活CLUBグループが運営する24時間セルフフィットネスジムです。月額3,980円〜の低価格で、好きな時間にマシントレーニングが可能。本記事では、FIT24の料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          FIT24（フィット24）は快活CLUBグループが運営する24時間セルフフィットネスジムです。月額<span className="font-bold bg-yellow-100 px-0.5">3,980円</span>〜の低価格で、好きな時間にマシントレーニングが可能。本記事では、FIT24の料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

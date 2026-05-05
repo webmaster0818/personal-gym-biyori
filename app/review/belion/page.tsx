@@ -104,7 +104,7 @@ export default function BelionReview() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">BELIONの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
-        <p className="text-gray-700 leading-relaxed mb-10">BELION（ベリオン）は一人ひとりに最適化されたオーダーメイドプログラムが特徴のパーソナルトレーニングジムです。経験豊富なトレーナーによるマンツーマン指導で、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、BELIONの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">BELION（ベリオン）は一人ひとりに最適化されたオーダーメイドプログラムが特徴のパーソナルトレーニングジムです。経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>で、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、BELIONの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BELIONの基本情報</h2>

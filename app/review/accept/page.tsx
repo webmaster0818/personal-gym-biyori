@@ -108,7 +108,7 @@ export default function AcceptReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ACCEPT（アクセプト）は完全個室・月額制を特徴とするパーソナルジムです。一人ひとりの目標に合わせたオーダーメイドプログラムで、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、ACCEPTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ACCEPT（アクセプト）は<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・<span className="font-bold bg-yellow-100 px-0.5">月額制</span>を特徴とするパーソナルジムです。一人ひとりの目標に合わせたオーダーメイドプログラムで、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、ACCEPTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         {/* 基本情報 */}

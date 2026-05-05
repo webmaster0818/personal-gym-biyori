@@ -108,7 +108,7 @@ export default function AspiReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ASPI（アスピ）は全トレーナーが米国資格を保有する科学的アプローチのパーソナルジムです。月額7,600円からの低価格プランも用意されており、高品質な指導をリーズナブルに受けられます。本記事では、ASPIの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ASPI（アスピ）は全トレーナーが米国資格を保有する科学的アプローチのパーソナルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">7,600円</span>からの低価格プランも用意されており、高品質な指導をリーズナブルに受けられます。本記事では、ASPIの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

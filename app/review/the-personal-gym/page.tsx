@@ -108,7 +108,7 @@ export default function ThePersonalGymReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          THE PERSONAL GYM（ザ パーソナルジム）はダイエットとボディメイクに特化したパーソナルジムです。月額26,400円〜の低価格で、経験豊富なトレーナーから本格的な指導が受けられます。本記事では、THE PERSONAL GYMの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          THE PERSONAL GYM（ザ パーソナルジム）はダイエットとボディメイクに特化したパーソナルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">26,400円</span>〜の低価格で、経験豊富なトレーナーから本格的な指導が受けられます。本記事では、THE PERSONAL GYMの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

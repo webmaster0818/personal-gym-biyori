@@ -104,7 +104,7 @@ export default function BellphaReview() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">Bellphaの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
-        <p className="text-gray-700 leading-relaxed mb-10">Bellpha（ベルファ）は美しいボディラインの形成を重視したパーソナルトレーニングジムです。経験豊富なトレーナーによるマンツーマン指導と食事サポートで、見た目の変化を実感できるボディメイクを提供しています。本記事では、Bellphaの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">Bellpha（ベルファ）は美しいボディラインの形成を重視したパーソナルトレーニングジムです。経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と食事サポートで、見た目の変化を実感できるボディメイクを提供しています。本記事では、Bellphaの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
 
         <section className="mb-12"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Bellphaの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>
 

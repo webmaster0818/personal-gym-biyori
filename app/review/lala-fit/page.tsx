@@ -106,7 +106,7 @@ export default function LalaFitReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          LALA FIT（ララフィット）は女性向け・低価格を特徴とするパーソナルジムです。月額15,000円〜という手頃な価格で、短時間集中型のトレーニングプログラムを提供。本記事では、LALA FITの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          LALA FIT（ララフィット）は女性向け・低価格を特徴とするパーソナルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">15,000円</span>〜という手頃な価格で、短時間集中型のトレーニングプログラムを提供。本記事では、LALA FITの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

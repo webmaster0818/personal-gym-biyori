@@ -106,7 +106,7 @@ export default function NineReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          NINE（ナイン）はトレーニングと食事指導を一体化した総合パーソナルジムです。科学的根拠に基づいたトレーニングメソッドと本格的な食事管理で、リバウンドしにくい身体づくりを目指します。本記事では、NINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          NINE（ナイン）はトレーニングと<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>を一体化した総合パーソナルジムです。科学的根拠に基づいたトレーニングメソッドと本格的な食事管理で、リバウンドしにくい身体づくりを目指します。本記事では、NINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

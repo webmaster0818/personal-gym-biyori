@@ -108,7 +108,7 @@ export default function MelmakeReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          メルメイクは完全個室でボディメイクに特化したパーソナルジムです。一人ひとりの目標に合わせたオーダーメイドプログラムと食事指導で、理想の体型づくりをトータルサポートしています。本記事では、メルメイクの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          メルメイクは<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>でボディメイクに特化したパーソナルジムです。一人ひとりの目標に合わせたオーダーメイドプログラムと<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>で、理想の体型づくりをトータルサポートしています。本記事では、メルメイクの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

@@ -108,7 +108,7 @@ export default function RepreciousReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Reprecious（リプレシャス）は女性専用・低価格を実現したパーソナルジムです。業界最安級の料金ながら食事指導付きで、初めてパーソナルジムに通う女性に人気。本記事では、リプレシャスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          Reprecious（リプレシャス）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・低価格を実現したパーソナルジムです。業界最安級の料金ながら<span className="font-bold bg-yellow-100 px-0.5">食事指導付き</span>で、初めてパーソナルジムに通う女性に人気。本記事では、リプレシャスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

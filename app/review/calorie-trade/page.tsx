@@ -113,7 +113,7 @@ export default function CalorieTradeReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          CALORIE TRADE JAPAN（カロリートレードジャパン）はダイエットに特化したパーソナルジムです。カロリー管理に基づいた科学的なアプローチで確実な減量を目指します。全国30店舗以上、月額24,200円〜の低価格も魅力。本記事では、料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          CALORIE TRADE JAPAN（カロリートレードジャパン）はダイエットに特化したパーソナルジムです。カロリー管理に基づいた科学的なアプローチで確実な減量を目指します。全国30店舗以上、月額<span className="font-bold bg-yellow-100 px-0.5">24,200円</span>〜の低価格も魅力。本記事では、料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

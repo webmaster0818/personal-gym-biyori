@@ -108,7 +108,7 @@ export default function BConceptReview() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ビーコンセプト（B-CONCEPT）は下半身・脚痩せに特化した女性専用パーソナルジムです。骨盤矯正やストレッチを取り入れた独自メソッドで、太もも・ヒップのサイズダウンを目指します。本記事では、ビーコンセプトの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ビーコンセプト（B-CONCEPT）は下半身・脚痩せに特化した<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>パーソナルジムです。骨盤矯正やストレッチを取り入れた独自メソッドで、太もも・ヒップのサイズダウンを目指します。本記事では、ビーコンセプトの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
