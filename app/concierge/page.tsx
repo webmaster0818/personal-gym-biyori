@@ -39,6 +39,11 @@ const gymImages: Record<string, string> = {
   'Dr.トレーニング': '/ss-dr-training.jpg',
   'ASPI': '/ss-exercise-coach.jpg',
   'ビーコンセプト': '/ss-b-concept.jpg',
+  'REXER': '/ss-lexer.jpg',
+  'Laststyle': '/ss-laststyle.jpg',
+  'MIYAZAKI GYM': '/ss-miyazaki-gym.jpg',
+  'element': '/ss-element.jpg',
+  'chocozap': '/ss-chocozap.jpg',
 };
 
 /* --- helper to generate many stores for one brand ----------------------- */
@@ -62,6 +67,15 @@ const RIZAP_AFF = 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX';
 const FURDI_AFF = 'https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A';
 const HABIT_AFF = 'https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A';
 const NEXUS_AFF = 'https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L';
+const CALORIE_TRADE_AFF = 'https://t.felmat.net/fmcl?ak=S9777P.1.F142081F.Q136169A';
+const RITA_STYLE_AFF = 'https://t.felmat.net/fmcl?ak=Q8343U.1.31275172.Q136169A';
+const REXER_AFF = 'https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A';
+const EXE_AFF = 'https://t.felmat.net/fmcl?ak=H9594M.1.O142710U.Q136169A';
+const VASE_AFF = 'https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A';
+const COCODAKARA_AFF = 'https://t.felmat.net/fmcl?ak=L10446X.1.C147837Q.Q136169A';
+const LASTSTYLE_AFF = 'https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A';
+const PLEZ_AFF = 'https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A';
+const FIT24_AFF = 'https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A';
 
 const stores: Store[] = [
   /* ── BEYOND (affiliate, premium) ─────────────────────── */
@@ -312,6 +326,265 @@ const stores: Store[] = [
     ['大阪', '梅田', '/review/b-concept/umeda/'],
     ['愛知', '名古屋', '/review/b-concept/nagoya/'],
   ]),
+  /* ── CALORIE TRADE JAPAN (affiliate, mid) ────────────── */
+  ...mkStores('CALORIE TRADE JAPAN', {
+    price: '2ヶ月 約20万円〜',
+    priceCategory: 'mid',
+    hours: '9:00〜22:00',
+    lateNight: false,
+    features: ['食事指導特化', '名古屋中心に展開', 'ダイエット指導実績豊富', '管理栄養士監修'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: CALORIE_TRADE_AFF,
+  }, [
+    ['愛知', '名古屋瑞穂', '/review/calorie-trade-japan/mizuho/'],
+    ['愛知', '一宮', '/review/calorie-trade-japan/ichinomiya/'],
+    ['愛知', '名古屋緑', '/review/calorie-trade-japan/midori/'],
+    ['千葉', '松戸', '/review/calorie-trade-japan/matsudo/'],
+    ['宮城', '仙台', '/review/calorie-trade-japan/sendai/'],
+    ['大分', '別府', '/review/calorie-trade-japan/beppu/'],
+    ['沖縄', '宜野湾', '/review/calorie-trade-japan/ginowan/'],
+  ]),
+  /* ── RITA STYLE (affiliate, budget) ──────────────────── */
+  ...mkStores('RITA STYLE', {
+    price: '2ヶ月 約16万円〜',
+    priceCategory: 'budget',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['九州中心', '食事指導付き低価格', 'ダイエット特化', '完全個室'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
+    intensity: ['しっかり追い込みたい', 'まずは体験から'],
+    options: ['食事指導あり', '完全個室', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: RITA_STYLE_AFF,
+  }, [
+    ['福岡', '天神', '/review/rita-style/tenjin/'],
+    ['福岡', '小倉', '/review/rita-style/kokura/'],
+    ['熊本', '熊本', '/review/rita-style/kumamoto/'],
+    ['佐賀', '佐賀', '/review/rita-style/saga/'],
+    ['長崎', '長崎', '/review/rita-style/nagasaki/'],
+    ['岡山', '岡山', '/review/rita-style/okayama/'],
+  ]),
+  /* ── REXER (affiliate, luxury) ───────────────────────── */
+  ...mkStores('REXER', {
+    price: '月額15万円〜',
+    priceCategory: 'luxury',
+    hours: '7:00〜23:00',
+    lateNight: true,
+    features: ['プレミアム空間', 'オーダーメイドプログラム', '完全個室', 'トップトレーナー'],
+    purpose: ['筋肥大・ボディメイク', 'ダイエット・減量', 'ブライダル準備'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: REXER_AFF,
+  }, [
+    ['東京', '西麻布', '/review/rexer/nishiazabu/'],
+    ['東京', '渋谷', '/review/rexer/shibuya/'],
+    ['東京', '目黒', '/review/rexer/meguro/'],
+    ['東京', '赤坂', '/review/rexer/akasaka/'],
+    ['東京', '五反田', '/review/rexer/gotanda/'],
+    ['大阪', '梅田中津', '/review/rexer/umeda-nakatsu/'],
+  ]),
+  /* ── EXE (affiliate, mid) ────────────────────────────── */
+  ...mkStores('EXE', {
+    price: '月額4万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['パーソナルトレーニング', '個別プログラム', '丁寧な指導'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
+    intensity: ['しっかり追い込みたい', 'まずは体験から'],
+    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: EXE_AFF,
+  }, [
+    ['東京', '駒沢大学', '/review/exe/komazawa/'],
+    ['神奈川', '藤沢', '/review/exe/fujisawa/'],
+  ]),
+  /* ── VASE (affiliate, mid) ───────────────────────────── */
+  ...mkStores('VASE', {
+    price: '月額4万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['少人数制', 'きめ細かい指導', 'アットホーム'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
+    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
+    options: ['駅チカ(徒歩5分以内)'],
+    affiliateUrl: VASE_AFF,
+  }, [
+    ['東京', '恵比寿', '/review/vase/ebisu/'],
+    ['東京', '目黒', '/review/vase/meguro/'],
+  ]),
+  /* ── CoCoDakara (affiliate, mid) ─────────────────────── */
+  ...mkStores('CoCoDakara', {
+    price: '月額4万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['完全個室', '食事指導付き', 'マンツーマン指導'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
+    intensity: ['しっかり追い込みたい', 'まずは体験から'],
+    options: ['食事指導あり', '完全個室', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: COCODAKARA_AFF,
+  }, [
+    ['東京', '渋谷', '/review/cocodakara/shibuya/'],
+    ['東京', '新宿', '/review/cocodakara/shinjuku/'],
+    ['東京', '池袋', '/review/cocodakara/ikebukuro/'],
+  ]),
+  /* ── Laststyle (affiliate, mid) ──────────────────────── */
+  ...mkStores('Laststyle', {
+    price: '月額4万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['ボクシング融合', 'ストレス発散', '楽しくトレーニング', 'ダイエット効果大'],
+    purpose: ['ダイエット・減量', 'ストレス発散', '筋肥大・ボディメイク'],
+    intensity: ['しっかり追い込みたい', 'ゆるく楽しく'],
+    options: ['手ぶらで通える', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: LASTSTYLE_AFF,
+  }, [
+    ['東京', '池袋', '/review/laststyle/ikebukuro/'],
+    ['東京', '町田', '/review/laststyle/machida/'],
+    ['東京', '新宿', '/review/laststyle/shinjuku/'],
+    ['東京', '渋谷', '/review/laststyle/shibuya/'],
+  ]),
+  /* ── Plez (affiliate, budget, online) ────────────────── */
+  ...mkStores('Plez', {
+    price: '月額2万円〜',
+    priceCategory: 'budget',
+    hours: 'オンライン（24時間対応）',
+    lateNight: true,
+    features: ['オンライン専用', '自宅でトレーニング', '食事指導付き', '全国どこでも対応'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
+    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    options: ['食事指導あり', '月額制(解約しやすい)'],
+    affiliateUrl: PLEZ_AFF,
+  }, [
+    ['オンライン', '全国対応', '/review/plez/'],
+  ]),
+  /* ── FIT24 (affiliate, budget) ───────────────────────── */
+  ...mkStores('FIT24', {
+    price: '月額3,980円〜',
+    priceCategory: 'budget',
+    hours: '24時間営業',
+    lateNight: true,
+    features: ['24時間セルフ型', '低価格', 'マシン充実', '好きな時間に通える'],
+    purpose: ['健康維持・運動不足解消', 'ストレス発散'],
+    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    options: ['深夜営業', '月額制(解約しやすい)', 'AI・マシン主導'],
+    affiliateUrl: FIT24_AFF,
+  }, [
+    ['東京', '新宿', '/review/fit24/shinjuku/'],
+  ]),
+  /* ── MIYAZAKI GYM (no affiliate, mid) ────────────────── */
+  ...mkStores('MIYAZAKI GYM', {
+    price: '月額3万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['月額制', '有資格トレーナー', '継続しやすい', '丁寧な指導'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
+    intensity: ['しっかり追い込みたい', 'まずは体験から'],
+    options: ['食事指導あり', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+  }, [
+    ['東京', '新宿', '/review/miyazaki-gym/shinjuku/'],
+    ['東京', '渋谷', '/review/miyazaki-gym/shibuya/'],
+    ['東京', '池袋', '/review/miyazaki-gym/ikebukuro/'],
+    ['東京', '目黒', '/review/miyazaki-gym/meguro/'],
+    ['東京', '五反田', '/review/miyazaki-gym/gotanda/'],
+    ['神奈川', '横浜', '/review/miyazaki-gym/yokohama/'],
+    ['神奈川', '川崎', '/review/miyazaki-gym/kawasaki/'],
+  ]),
+  /* ── カーブス (no affiliate, budget, women-only) ──────── */
+  ...mkStores('カーブス', {
+    price: '月額6,820円〜',
+    priceCategory: 'budget',
+    hours: '10:00〜19:00（平日）/ 10:00〜13:00（土）',
+    lateNight: false,
+    features: ['女性専用', '1回30分', '予約不要', '全国2,000+店舗'],
+    purpose: ['健康維持・運動不足解消', 'ダイエット・減量', '姿勢改善・腰痛改善'],
+    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    options: ['女性専用/女性トレーナー', '月額制(解約しやすい)'],
+  }, [
+    ['東京', '新宿', '/review/curves/shinjuku/'],
+    ['東京', '渋谷', '/review/curves/shibuya/'],
+    ['東京', '池袋', '/review/curves/ikebukuro/'],
+    ['東京', '銀座', '/review/curves/ginza/'],
+    ['神奈川', '横浜', '/review/curves/yokohama/'],
+    ['埼玉', '大宮', '/review/curves/omiya/'],
+    ['千葉', '船橋', '/review/curves/funabashi/'],
+    ['愛知', '名古屋', '/review/curves/nagoya/'],
+    ['大阪', '梅田', '/review/curves/umeda/'],
+    ['福岡', '福岡', '/review/curves/fukuoka/'],
+    ['北海道', '札幌', '/review/curves/sapporo/'],
+  ]),
+  /* ── element (no affiliate, mid) ─────────────────────── */
+  ...mkStores('element', {
+    price: '月額3万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['通い放題', '月額制', 'パーソナル指導', '都内中心'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
+    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
+    options: ['駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+  }, [
+    ['東京', '新宿', '/review/element/shinjuku/'],
+    ['東京', '渋谷', '/review/element/shibuya/'],
+    ['東京', '池袋', '/review/element/ikebukuro/'],
+    ['東京', '銀座', '/review/element/ginza/'],
+    ['東京', '恵比寿', '/review/element/ebisu/'],
+  ]),
+  /* ── chocozap (no affiliate, budget) ─────────────────── */
+  ...mkStores('chocozap', {
+    price: '月額3,278円',
+    priceCategory: 'budget',
+    hours: '24時間営業',
+    lateNight: true,
+    features: ['24時間', 'セルフ型', '超低価格', '全国展開'],
+    purpose: ['健康維持・運動不足解消', 'ストレス発散', 'ダイエット・減量'],
+    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    options: ['深夜営業', '月額制(解約しやすい)', 'AI・マシン主導'],
+  }, [
+    ['東京', '新宿', '/review/chocozap/shinjuku/'],
+    ['東京', '渋谷', '/review/chocozap/shibuya/'],
+    ['東京', '池袋', '/review/chocozap/ikebukuro/'],
+    ['東京', '銀座', '/review/chocozap/ginza/'],
+    ['神奈川', '横浜', '/review/chocozap/yokohama/'],
+    ['埼玉', '大宮', '/review/chocozap/omiya/'],
+    ['大阪', '梅田', '/review/chocozap/umeda/'],
+    ['愛知', '名古屋', '/review/chocozap/nagoya/'],
+    ['福岡', '福岡', '/review/chocozap/fukuoka/'],
+  ]),
+  /* ── THE PERSONAL GYM (no affiliate, mid) ────────────── */
+  ...mkStores('THE PERSONAL GYM', {
+    price: '月額4万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['パーソナルトレーニング', '丁寧な指導', '都内主要駅'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
+    intensity: ['しっかり追い込みたい', 'まずは体験から'],
+    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['東京', '新宿', '/review/the-personal-gym/shinjuku/'],
+    ['東京', '六本木', '/review/the-personal-gym/roppongi/'],
+    ['東京', '銀座', '/review/the-personal-gym/ginza/'],
+  ]),
+  /* ── リプレシャス (no affiliate, mid, women) ──────────── */
+  ...mkStores('リプレシャス', {
+    price: '月額4万円〜',
+    priceCategory: 'mid',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['女性向け', '埼玉中心', '完全個室', '女性トレーナー'],
+    purpose: ['ダイエット・減量', '姿勢改善・腰痛改善', 'ブライダル準備'],
+    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['埼玉', '大宮', '/review/reprecious/omiya/'],
+    ['埼玉', '浦和', '/review/reprecious/urawa/'],
+    ['埼玉', '川口', '/review/reprecious/kawaguchi/'],
+  ]),
 ];
 
 /* ==========================================================================
@@ -321,16 +594,23 @@ const stores: Store[] = [
 const prefectureAreas: Record<string, string[]> = {
   '北海道': ['札幌', '旭川'],
   '宮城': ['仙台'],
-  '東京': ['新宿', '渋谷', '池袋', '銀座', '六本木', '品川', '恵比寿', '目黒', '中目黒', '上野', '赤坂', '神田', '白金台', '自由が丘', '町田'],
-  '神奈川': ['横浜', '川崎'],
-  '埼玉': ['大宮', '浦和'],
-  '千葉': ['船橋', '柏'],
-  '愛知': ['名古屋', '栄'],
-  '大阪': ['梅田', 'なんば', '心斎橋', '天王寺', '福島'],
+  '東京': ['新宿', '渋谷', '池袋', '銀座', '六本木', '品川', '恵比寿', '目黒', '中目黒', '上野', '赤坂', '神田', '白金台', '自由が丘', '町田', '西麻布', '五反田', '駒沢大学'],
+  '神奈川': ['横浜', '川崎', '藤沢'],
+  '埼玉': ['大宮', '浦和', '川口'],
+  '千葉': ['船橋', '柏', '松戸'],
+  '愛知': ['名古屋', '栄', '名古屋瑞穂', '一宮', '名古屋緑'],
+  '大阪': ['梅田', 'なんば', '心斎橋', '天王寺', '福島', '梅田中津'],
   '京都': ['四条', '烏丸'],
   '兵庫': ['三宮', '西宮'],
   '広島': ['広島'],
-  '福岡': ['天神', '博多'],
+  '福岡': ['天神', '博多', '小倉', '福岡'],
+  '熊本': ['熊本'],
+  '佐賀': ['佐賀'],
+  '長崎': ['長崎'],
+  '岡山': ['岡山'],
+  '大分': ['別府'],
+  '沖縄': ['宜野湾'],
+  'オンライン': ['全国対応'],
 };
 
 /* ==========================================================================
