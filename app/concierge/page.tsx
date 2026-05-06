@@ -24,6 +24,23 @@ type Store = {
   affiliateUrl?: string;
 };
 
+/* --- gym screenshot images ---------------------------------------------- */
+const gymImages: Record<string, string> = {
+  'BEYOND': '/ss-beyond.jpg',
+  'RIZAP': '/ss-rizap.jpg',
+  '24/7ワークアウト': '/ss-247workout.jpg',
+  'チキンジム': '/ss-chicken-gym.jpg',
+  'エクササイズコーチ': '/ss-exercise-coach.jpg',
+  'HABIT': '/ss-habit.jpg',
+  'FURDI': '/ss-exe.jpg',
+  'Nexusジム': '/ss-lexer.jpg',
+  'OUTLINE': '/ss-outline.jpg',
+  'UNDEUX SUPERBODY': '/ss-undeux.jpg',
+  'Dr.トレーニング': '/ss-dr-training.jpg',
+  'ASPI': '/ss-exercise-coach.jpg',
+  'ビーコンセプト': '/ss-b-concept.jpg',
+};
+
 /* --- helper to generate many stores for one brand ----------------------- */
 function mkStores(
   gymName: string,
@@ -428,6 +445,7 @@ export default function ConciergePage() {
 
   const finish = useCallback(() => {
     setResults(scoreStores(answers));
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     setStep(TOTAL_STEPS + 1);
   }, [answers]);
 
@@ -685,6 +703,19 @@ export default function ConciergePage() {
                     key={`${r.gymName}-${r.storeName}`}
                     className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden"
                   >
+                    {/* gym image */}
+                    {gymImages[r.gymName] && (
+                      isAffiliate && r.affiliateUrl ? (
+                        <a href={r.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="block">
+                          <img src={gymImages[r.gymName]} alt={`${r.gymName} 公式サイト`} className="w-full h-40 object-cover object-top" />
+                        </a>
+                      ) : (
+                        <Link href={r.slug}>
+                          <img src={gymImages[r.gymName]} alt={`${r.gymName} 公式サイト`} className="w-full h-40 object-cover object-top" />
+                        </Link>
+                      )
+                    )}
+
                     {/* header */}
                     <div className="flex items-center justify-between px-5 pt-5 pb-2">
                       <div className="flex items-center gap-3">
