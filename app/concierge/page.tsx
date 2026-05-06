@@ -440,8 +440,8 @@ export default function ConciergePage() {
   });
   const [results, setResults] = useState<ScoredStore[] | null>(null);
 
-  const next = useCallback(() => setStep((s) => s + 1), []);
-  const prev = useCallback(() => setStep((s) => Math.max(0, s - 1)), []);
+  const next = useCallback(() => { setStep((s) => s + 1); window.scrollTo({ top: 0, behavior: 'smooth' }); }, []);
+  const prev = useCallback(() => { setStep((s) => Math.max(0, s - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }); }, []);
 
   const finish = useCallback(() => {
     setResults(scoreStores(answers));
@@ -695,6 +695,19 @@ export default function ConciergePage() {
               </p>
             </div>
 
+            {results.length === 0 ? (
+              <div className="bg-white rounded-2xl shadow-md border border-gray-100 p-8 text-center">
+                <p className="text-lg font-bold text-gray-800 mb-3">該当するジムが見つかりませんでした</p>
+                <p className="text-sm text-gray-500 mb-6">選択されたエリアに掲載ジムがない可能性があります。お住まいの住所を入力いただければ、近くのおすすめジムをお探しします。</p>
+                <form onSubmit={(e) => { e.preventDefault(); const fd = new FormData(e.currentTarget); alert(`ありがとうございます。${fd.get('address')} 周辺のおすすめジムを後日ご案内いたします。`); }} className="max-w-md mx-auto">
+                  <input name="address" type="text" placeholder="例: 東京都世田谷区三軒茶屋1-1-1" className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm mb-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent" required />
+                  <button type="submit" className="w-full bg-teal-600 text-white font-medium py-3 rounded-lg hover:bg-teal-700 transition-colors text-sm">送信する</button>
+                </form>
+                <div className="mt-6">
+                  <Link href="/#ranking" className="text-sm text-teal-600 hover:underline">ランキングページから探す</Link>
+                </div>
+              </div>
+            ) : (
             <div className="space-y-5">
               {results.map((r, i) => {
                 const isAffiliate = !!r.affiliateUrl;
@@ -786,6 +799,7 @@ export default function ConciergePage() {
                 );
               })}
             </div>
+            )}
 
             {/* retry */}
             <div className="text-center mt-8 mb-12">
