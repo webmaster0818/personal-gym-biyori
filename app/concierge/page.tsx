@@ -1,1181 +1,786 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 
-type Gym = {
-  name: string;
+/* ==========================================================================
+   Store type & database
+   ========================================================================== */
+
+type Store = {
+  gymName: string;
+  storeName: string;
   slug: string;
-  url: string;
-  tagline: string;
+  prefecture: string;
+  area: string;
   price: string;
+  priceCategory: 'budget' | 'mid' | 'premium' | 'luxury';
+  hours: string;
+  lateNight: boolean;
   features: string[];
-  areas: string[];
-  budgetMatch: string[];
-  styleMatch: string[];
-  durationMatch: string[];
+  purpose: string[];
+  intensity: string[];
   options: string[];
+  affiliateUrl?: string;
 };
 
-const gyms: Gym[] = [
-  // --- 既存10社（更新済み） ---
-  {
-    name: 'チキンジム',
-    slug: '/review/chicken-gym/',
-    url: 'https://chicken-gym.jp/',
-    tagline: '月額6,800円〜の圧倒的コスパ',
-    price: '月額6,800円〜',
-    features: ['初心者向け', '手ぶらOK', 'プロテイン付き', '全国34店舗'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡'],
-    budgetMatch: ['〜1万円（とにかく安く）', '1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['手ぶらで通える', 'とにかく低価格', '駅チカ'],
-  },
-  {
-    name: 'RIZAP',
-    slug: '/review/rizap/',
-    url: 'https://www.rizap.jp/',
-    tagline: '結果にコミットする30日間返金保証',
-    price: '月額約16万円',
-    features: ['食事管理徹底', '完全個室', '30日返金保証', '全国100+店舗'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡', 'その他'],
-    budgetMatch: ['5万円以上（最高のサービスを）'],
-    styleMatch: ['ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '手ぶらで通える', '駅チカ'],
-  },
-  {
-    name: '24/7ワークアウト',
-    slug: '/review/247workout/',
-    url: 'https://247workout.jp/',
-    tagline: '深夜24時まで営業＆3食食べるダイエット',
-    price: '月額7,500円〜',
-    features: ['深夜24時まで', '食事制限ゆるめ', '完全個室', '全国80+店舗'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡', 'その他'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '手ぶらで通える', '深夜も営業', '駅チカ'],
-  },
-  {
-    name: 'BEYOND',
-    slug: '/review/beyond/',
-    url: 'https://beyond-gym.com/',
-    tagline: 'コンテスト入賞トレーナーによる本格指導',
-    price: '月額8,250円〜',
-    features: ['コンテスト実績', 'ボディメイク特化', '糖質制限なし', '全国90+店舗'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'エクササイズコーチ',
-    slug: '/review/exercise-coach/',
-    url: 'https://exercisecoach.co.jp/',
-    tagline: 'AI×マシンで1回20分の時短トレーニング',
-    price: '月額9,900円〜',
-    features: ['1回20分', 'AI自動調整', '手ぶらOK', '全国40+店舗'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '大阪', '名古屋'],
-    budgetMatch: ['〜1万円（とにかく安く）', '1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['半年以上（長期継続）'],
-    options: ['手ぶらで通える', 'とにかく低価格'],
-  },
-  {
-    name: 'OUTLINE',
-    slug: '/review/outline/',
-    url: 'https://www.outline-gym.com/',
-    tagline: '女性専用の完全個室パーソナルジム',
-    price: '月額9,900円〜',
-    features: ['女性専用', '完全個室', 'ベビーサークル完備', '駅チカ'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'ASPI',
-    slug: '/review/aspi/',
-    url: 'https://aspirest.com/',
-    tagline: '米国資格保有トレーナーの科学的指導',
-    price: '月額6,600円〜',
-    features: ['米国資格保有', '科学的トレーニング', '手ぶらOK', '完全予約制'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川'],
-    budgetMatch: ['3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '手ぶらで通える', '駅チカ'],
-  },
-  {
-    name: 'かたぎり塾',
-    slug: '/review/katagiri/',
-    url: 'https://katagirijuku.jp/',
-    tagline: '月額6,750円〜の低価格パーソナル',
-    price: '月額6,750円〜',
-    features: ['低価格', '完全個室', '国家資格保有', '全国100+店舗'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋'],
-    budgetMatch: ['〜1万円（とにかく安く）', '1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['とにかく低価格', '駅チカ'],
-  },
-  {
-    name: 'ミヤザキジム',
-    slug: '/review/miyazaki-gym/',
-    url: 'https://miyazaki-gym.jp/',
-    tagline: '一生使える正しいトレーニングフォーム',
-    price: '月額8,800円〜',
-    features: ['フォーム重視', '科学的根拠', '完全個室', '都内中心'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'パーソナルジムRat',
-    slug: '/review/rat/',
-    url: 'https://rat-gym.com/',
-    tagline: '女性専用で深夜23時まで営業',
-    price: '月額7,700円〜',
-    features: ['女性専用', '深夜23時まで', '完全個室', '都内中心'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['手ぶらで通える', '深夜も営業', '女性トレーナー対応', '駅チカ'],
-  },
-  // --- 追加44社 ---
-  {
-    name: 'chocoZAP',
-    slug: '/review/chocozap/',
-    url: 'https://chocozap.jp/',
-    tagline: 'RIZAP監修・月額3,278円のコンビニジム',
-    price: '月額3,278円',
-    features: ['RIZAP監修', '24時間365日', '着替え不要', 'セルフエステ付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡', 'その他'],
-    budgetMatch: ['〜1万円（とにかく安く）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['半年以上（長期継続）'],
-    options: ['手ぶらで通える', '深夜も営業', 'とにかく低価格', '駅チカ'],
-  },
-  {
-    name: 'Dr.トレーニング',
-    slug: '/review/dr-training/',
-    url: '#',
-    tagline: '医学的根拠に基づくトレーニング',
-    price: '1回6,700円〜',
-    features: ['医学的アプローチ', '都度払い可', '管理栄養士在籍', '都内20店舗+'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'ELEMENT',
-    slug: '/review/element/',
-    url: '#',
-    tagline: 'マシンピラティス×パーソナル通い放題',
-    price: '月額38,280円〜',
-    features: ['通い放題', 'マシンピラティス', 'パーソナル融合', '30分セッション'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['駅チカ'],
-  },
-  {
-    name: 'CALORIE TRADE JAPAN',
-    slug: '/review/calorie-trade/',
-    url: '#',
-    tagline: 'ダイエット専門・全国30店舗以上',
-    price: '月額24,200円〜',
-    features: ['ダイエット専門', '全国30店舗+', '低価格', '食事指導付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡', 'その他'],
-    budgetMatch: ['1〜3万円（コスパ重視）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'RITA STYLE',
-    slug: '/review/rita-style/',
-    url: '#',
-    tagline: '九州発・食事指導付き低価格パーソナル',
-    price: '2ヶ月156,200円〜',
-    features: ['九州発', '食事指導付き', '低価格', '完全個室'],
-    areas: ['福岡', 'その他'],
-    budgetMatch: ['1〜3万円（コスパ重視）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'ビーコンセプト',
-    slug: '/review/b-concept/',
-    url: '#',
-    tagline: '下半身・脚痩せ特化の女性専用ジム',
-    price: '2ヶ月199,650円〜',
-    features: ['下半身特化', '女性専用', '脚痩せメソッド', 'アフターフォロー付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋'],
-    budgetMatch: ['3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'UNDEUX SUPERBODY',
-    slug: '/review/undeux/',
-    url: '#',
-    tagline: '女性専用・宅配食連携のボディメイク',
-    price: '月額60,000円〜',
-    features: ['女性専用', 'ボディメイク特化', '宅配食サービス連携', '食事管理付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '大阪'],
-    budgetMatch: ['3〜5万円（しっかり投資）', '5万円以上（最高のサービスを）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'THE PERSONAL GYM',
-    slug: '/review/the-personal-gym/',
-    url: '#',
-    tagline: 'ダイエット×ボディメイク特化の都内ジム',
-    price: '月額26,400円〜',
-    features: ['ダイエット特化', 'ボディメイク', '低価格', '食事指導付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'Laststyle',
-    slug: '/review/laststyle/',
-    url: '#',
-    tagline: 'ボクシング×パーソナルトレーニング融合',
-    price: '月額40,000円〜',
-    features: ['ボクシング融合', 'マンツーマン指導', 'ダイエット特化', 'ストレス発散'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'Reprecious',
-    slug: '/review/reprecious/',
-    url: '#',
-    tagline: '女性専用・業界最安級パーソナルジム',
-    price: '2ヶ月87,120円〜',
-    features: ['女性専用', '低価格', '完全個室', '食事指導付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '女性トレーナー対応', 'とにかく低価格', '駅チカ'],
-  },
-  {
-    name: 'LALA FIT',
-    slug: '/review/lala-fit/',
-    url: '#',
-    tagline: '女性向け・業界最安級の低価格パーソナル',
-    price: '月額15,000円〜',
-    features: ['女性向け', '低価格', '短時間集中', 'ダイエット特化'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川'],
-    budgetMatch: ['1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['とにかく低価格', '女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'TOKIEL',
-    slug: '/review/tokiel/',
-    url: '#',
-    tagline: '女性専用・美容×フィットネス融合',
-    price: '月額28,000円〜',
-    features: ['女性専用', '女性トレーナー在籍', '美容×フィットネス', 'ボディメイク'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'fis.lady\'s',
-    slug: '/review/fis-ladys/',
-    url: '#',
-    tagline: '女性専用・関西最安級ダイエット特化',
-    price: '月額20,000円〜',
-    features: ['女性専用', 'ダイエット特化', '関西最安級', '食事指導込み'],
-    areas: ['大阪'],
-    budgetMatch: ['1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '女性トレーナー対応', 'とにかく低価格'],
-  },
-  {
-    name: 'FURDI',
-    slug: '/review/furdi/',
-    url: '#',
-    tagline: 'AI×女性専用サーキット型フィットネス',
-    price: '月額7,678円〜',
-    features: ['AI指導', '女性専用', 'サーキット型', '予約不要'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡', 'その他'],
-    budgetMatch: ['〜1万円（とにかく安く）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['半年以上（長期継続）'],
-    options: ['とにかく低価格', '女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'カーブス',
-    slug: '/review/curves/',
-    url: '#',
-    tagline: '女性専用30分フィットネス・全国2000店舗',
-    price: '月額6,820円〜',
-    features: ['女性専用', '30分完結', '予約不要', '全国2,000店舗+'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡', 'その他'],
-    budgetMatch: ['〜1万円（とにかく安く）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['半年以上（長期継続）'],
-    options: ['とにかく低価格', '女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'PEACH GYM',
-    slug: '/review/peach-gym/',
-    url: '#',
-    tagline: '女性向けヒップ特化パーソナルジム',
-    price: '月額30,000円〜',
-    features: ['女性向け', 'お尻特化', '美尻メイク', 'マンツーマン指導'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'RACINE',
-    slug: '/review/racine/',
-    url: '#',
-    tagline: '女性専用・ボディメイク特化パーソナル',
-    price: '月額35,000円〜',
-    features: ['女性専用', 'ボディメイク特化', '完全個室', '栄養指導付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '女性トレーナー対応', '駅チカ'],
-  },
-  {
-    name: 'ハコジム',
-    slug: '/review/hakogym/',
-    url: '#',
-    tagline: '完全個室レンタルジム・月額3,800円〜',
-    price: '月額3,800円〜',
-    features: ['完全個室', 'セルフトレーニング', '低価格', '24時間利用可'],
-    areas: ['その他'],
-    budgetMatch: ['〜1万円（とにかく安く）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['半年以上（長期継続）'],
-    options: ['とにかく低価格', '深夜も営業'],
-  },
-  {
-    name: 'FIT24',
-    slug: '/review/fit24/',
-    url: '#',
-    tagline: '24時間営業・月額3,980円〜のセルフジム',
-    price: '月額3,980円〜',
-    features: ['24時間営業', 'セルフ型', '低価格', '快活CLUB併設'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川', '大阪', '名古屋', '福岡', 'その他'],
-    budgetMatch: ['〜1万円（とにかく安く）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['半年以上（長期継続）'],
-    options: ['深夜も営業', 'とにかく低価格', '駅チカ'],
-  },
-  {
-    name: 'Nexusジム',
-    slug: '/review/nexus/',
-    url: '#',
-    tagline: '月額19,800円〜の業界最安級パーソナル',
-    price: '月額19,800円〜',
-    features: ['格安', '月額制', 'パーソナル指導', '完全個室'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['〜1万円（とにかく安く）', '1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['とにかく低価格', '駅チカ'],
-  },
-  {
-    name: 'スターライトフィットネス',
-    slug: '/review/starlight/',
-    url: '#',
-    tagline: '24時間営業のパーソナルジム',
-    price: '月額20,000円〜',
-    features: ['24時間営業', '深夜早朝対応', 'セキュリティ完備', '柔軟な予約'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['深夜も営業', '駅チカ'],
-  },
-  {
-    name: 'Alesco',
-    slug: '/review/alesco/',
-    url: '#',
-    tagline: 'リバウンド保証付き・名古屋発パーソナル',
-    price: '月額40,000円〜',
-    features: ['完全個室', 'リバウンド保証', '食事指導付き', '名古屋中心'],
-    areas: ['名古屋'],
-    budgetMatch: ['3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'リアルボディ',
-    slug: '/review/real-body/',
-    url: '#',
-    tagline: '仙台発・地域密着型パーソナルジム',
-    price: '月額20,000円〜',
-    features: ['仙台発', '地域密着型', 'リーズナブル', '丁寧なカウンセリング'],
-    areas: ['その他'],
-    budgetMatch: ['1〜3万円（コスパ重視）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['とにかく低価格', '駅チカ'],
-  },
-  {
-    name: 'ピラティス&ジム1to1',
-    slug: '/review/1to1/',
-    url: '#',
-    tagline: 'ピラティス×パーソナルトレーニング融合',
-    price: '月額20,000円〜',
-    features: ['ピラティス×筋トレ融合', 'マンツーマン', '姿勢改善', 'ボディメイク'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['駅チカ'],
-  },
-  {
-    name: '4Fのパーソナルジム',
-    slug: '/review/4f-gym/',
-    url: '#',
-    tagline: '隠れ家的空間のプライベートジム',
-    price: '月額30,000円〜',
-    features: ['隠れ家的空間', 'マンツーマン', 'プライベート感重視', 'アットホーム'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['駅チカ'],
-  },
-  {
-    name: 'ACCEPT',
-    slug: '/review/accept/',
-    url: '#',
-    tagline: '完全個室・月額制パーソナルジム',
-    price: '月額30,000円〜',
-    features: ['完全個室', '月額制', 'マンツーマン指導', '食事サポートあり'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'ARISANFIT',
-    slug: '/review/arisanfit/',
-    url: '#',
-    tagline: '少人数制・ボディメイク特化パーソナル',
-    price: '月額25,000円〜',
-    features: ['少人数制', 'ボディメイク特化', '食事指導あり', 'アットホーム'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'ASmake',
-    slug: '/review/asmake/',
-    url: '#',
-    tagline: '姿勢改善×ボディメイクの同時実現',
-    price: '月額30,000円〜',
-    features: ['姿勢改善×ボディメイク', '根本原因アプローチ', 'マンツーマン', '食事指導付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'base BODY',
-    slug: '/review/base-body/',
-    url: '#',
-    tagline: 'ボディメイク×コンディショニング融合',
-    price: '月額25,000円〜',
-    features: ['ボディメイク×コンディショニング', '姿勢改善', 'ストレッチ', '食事指導'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'BBB（トリプルビー）',
-    slug: '/review/bbb/',
-    url: '#',
-    tagline: 'ボディメイク特化・体組成分析つき',
-    price: '月額25,000円〜',
-    features: ['ボディメイク特化', '体組成分析', '食事指導', '完全個室'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'BELION',
-    slug: '/review/belion/',
-    url: '#',
-    tagline: 'カスタマイズプログラムのパーソナルジム',
-    price: '月額40,000円〜',
-    features: ['マンツーマン指導', 'カスタマイズプログラム', 'ダイエット対応', '食事指導'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'Bellpha',
-    slug: '/review/bellpha/',
-    url: '#',
-    tagline: '美しいボディライン重視の指導',
-    price: '月額30,000円〜',
-    features: ['マンツーマン', 'ボディメイク', '食事指導', 'カスタマイズプログラム'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'Carat',
-    slug: '/review/carat/',
-    url: '#',
-    tagline: '都内好立地のオーダーメイドパーソナル',
-    price: '月額35,000円〜',
-    features: ['マンツーマン', 'オーダーメイド', '都内アクセス良好', '食事指導対応'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'E9th PRIVATE GYM',
-    slug: '/review/e9th/',
-    url: '#',
-    tagline: '完全プライベート空間のパーソナルジム',
-    price: '月額40,000円〜',
-    features: ['完全プライベート空間', '1対1指導', '高級感のある内装', 'オーダーメイド'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['3〜5万円（しっかり投資）', '5万円以上（最高のサービスを）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['駅チカ'],
-  },
-  {
-    name: 'LEADING',
-    slug: '/review/leading/',
-    url: '#',
-    tagline: '結果にこだわるモチベーション管理',
-    price: '月額35,000円〜',
-    features: ['マンツーマン', '結果重視', '食事管理', 'モチベーションサポート'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'レクサー',
-    slug: '/review/lexer/',
-    url: '#',
-    tagline: 'トレーナーの質にこだわるボディメイク',
-    price: '2ヶ月180,000円〜',
-    features: ['完全個室', 'マンツーマン', '食事指導付き', 'ボディメイク特化'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['3〜5万円（しっかり投資）', '5万円以上（最高のサービスを）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'Lino U',
-    slug: '/review/lino-u/',
-    url: '#',
-    tagline: 'ライフスタイルに寄り添うパーソナル',
-    price: '月額30,000円〜',
-    features: ['マンツーマン', 'ライフスタイル重視', '食事指導', '長期サポート'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'メルメイク',
-    slug: '/review/melmake/',
-    url: '#',
-    tagline: '完全個室ボディメイク・食事指導付き',
-    price: '月額30,000円〜',
-    features: ['完全個室', 'ボディメイク特化', '食事指導付き', 'オーダーメイド'],
-    areas: ['東京（新宿・渋谷・池袋）', '大阪', '名古屋'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'more fit',
-    slug: '/review/more-fit/',
-    url: '#',
-    tagline: '初心者に寄り添うパーソナルジム',
-    price: '月額25,000円〜',
-    features: ['初心者歓迎', 'マンツーマン指導', '丁寧なカウンセリング', '食事指導付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'NINE',
-    slug: '/review/nine/',
-    url: '#',
-    tagline: 'トレーニング×食事指導で結果を出す',
-    price: '月額35,000円〜',
-    features: ['トレーニング×食事指導', '科学的アプローチ', '完全マンツーマン', 'リバウンド防止'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '大阪'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['1〜2ヶ月（短期集中）', '3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'PLUME',
-    slug: '/review/plume/',
-    url: '#',
-    tagline: 'おしゃれ空間で女性人気のパーソナル',
-    price: '月額30,000円〜',
-    features: ['おしゃれな空間', '女性人気', 'SNS映え', 'ボディメイク特化'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい', 'しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['駅チカ'],
-  },
-  {
-    name: 'Rays GyM',
-    slug: '/review/rays-gym/',
-    url: '#',
-    tagline: 'トレーナー指名制のパーソナルジム',
-    price: '月額30,000円〜',
-    features: ['トレーナー指名制', 'マンツーマン指導', '目標別プログラム', '食事サポート'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '横浜・神奈川'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['しっかり追い込みたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'STUDIO KOMPAS',
-    slug: '/review/studio-kompas/',
-    url: '#',
-    tagline: '機能改善・姿勢矯正特化パーソナル',
-    price: '月額30,000円〜',
-    features: ['機能改善特化', '姿勢矯正', '慢性痛改善', '理学療法士在籍'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['駅チカ'],
-  },
-  {
-    name: 'トリプルM',
-    slug: '/review/triple-m/',
-    url: '#',
-    tagline: 'ボディメイク×メンタルケア融合',
-    price: '月額50,000円〜',
-    features: ['メンタルケア融合', 'ボディメイク', 'ストレス管理', 'オーダーメイド'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）'],
-    budgetMatch: ['3〜5万円（しっかり投資）', '5万円以上（最高のサービスを）'],
-    styleMatch: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    durationMatch: ['3〜6ヶ月（じっくり）'],
-    options: ['食事指導あり', '駅チカ'],
-  },
-  {
-    name: 'UNDEUX SUPERBODY LIFE',
-    slug: '/review/undeux-life/',
-    url: '#',
-    tagline: 'ライフスタイル向けUNDEUX派生プラン',
-    price: '月額20,000円〜',
-    features: ['UNDEUX派生', 'ライフスタイル重視', '長期継続型', '食事管理付き'],
-    areas: ['東京（新宿・渋谷・池袋）', '東京（銀座・六本木・品川）', '大阪'],
-    budgetMatch: ['1〜3万円（コスパ重視）', '3〜5万円（しっかり投資）'],
-    styleMatch: ['ゆるく楽しく続けたい'],
-    durationMatch: ['3〜6ヶ月（じっくり）', '半年以上（長期継続）'],
-    options: ['食事指導あり', '女性トレーナー対応', '駅チカ'],
-  },
-];
-
-/* ---------- エリア別店舗リンクマッピング ---------- */
-const areaStoreLinks: Record<string, Record<string, { label: string; href: string }[]>> = {
-  '東京（新宿・渋谷・池袋）': {
-    'RIZAP': [{ label: '新宿店', href: '/review/rizap/shinjuku/' }, { label: '渋谷店', href: '/review/rizap/shibuya/' }, { label: '池袋店', href: '/review/rizap/ikebukuro/' }],
-    'BEYOND': [{ label: '新宿店', href: '/review/beyond/shinjuku/' }, { label: '渋谷店', href: '/review/beyond/shibuya/' }, { label: '池袋店', href: '/review/beyond/ikebukuro/' }],
-    '24/7ワークアウト': [{ label: '新宿店', href: '/review/247workout/shinjuku/' }, { label: '渋谷店', href: '/review/247workout/shibuya/' }, { label: '池袋店', href: '/review/247workout/ikebukuro/' }],
-    'チキンジム': [{ label: '池袋店', href: '/review/chicken-gym/ikebukuro/' }],
-    'エクササイズコーチ': [{ label: '新宿店', href: '/review/exercise-coach/shinjuku/' }, { label: '渋谷店', href: '/review/exercise-coach/shibuya/' }],
-  },
-  '東京（銀座・六本木・品川）': {
-    'RIZAP': [{ label: '銀座店', href: '/review/rizap/ginza/' }, { label: '六本木店', href: '/review/rizap/roppongi/' }, { label: '品川店', href: '/review/rizap/shinagawa/' }],
-    'BEYOND': [{ label: '銀座店', href: '/review/beyond/ginza/' }, { label: '六本木店', href: '/review/beyond/roppongi/' }],
-    '24/7ワークアウト': [{ label: '銀座店', href: '/review/247workout/ginza/' }, { label: '六本木店', href: '/review/247workout/roppongi/' }, { label: '品川店', href: '/review/247workout/shinagawa/' }],
-  },
-  '横浜・神奈川': {
-    'RIZAP': [{ label: '横浜店', href: '/review/rizap/yokohama/' }],
-    'BEYOND': [{ label: '横浜店', href: '/review/beyond/yokohama/' }],
-    '24/7ワークアウト': [{ label: '横浜店', href: '/review/247workout/yokohama/' }],
-  },
-  '大阪': {
-    'RIZAP': [{ label: '梅田店', href: '/review/rizap/umeda/' }, { label: 'なんば店', href: '/review/rizap/namba/' }],
-    'BEYOND': [{ label: '梅田店', href: '/review/beyond/umeda/' }, { label: 'なんば店', href: '/review/beyond/namba/' }],
-    '24/7ワークアウト': [{ label: 'なんば店', href: '/review/247workout/namba/' }, { label: '梅田店', href: '/review/247workout/umeda/' }],
-  },
-  '名古屋': {
-    'RIZAP': [{ label: '名古屋店', href: '/review/rizap/nagoya/' }],
-    'BEYOND': [{ label: '名古屋店', href: '/review/beyond/nagoya/' }],
-    '24/7ワークアウト': [{ label: '名古屋店', href: '/review/247workout/nagoya/' }],
-  },
-  '福岡': {
-    'RIZAP': [{ label: '天神店', href: '/review/rizap/fukuoka/' }],
-    'BEYOND': [{ label: '福岡天神店', href: '/review/beyond/fukuoka/' }],
-    '24/7ワークアウト': [{ label: '天神店', href: '/review/247workout/fukuoka/' }],
-  },
-};
-
-type Question = {
-  title: string;
-  subtitle: string;
-  options: string[];
-  multi?: boolean;
-};
-
-const questions: Question[] = [
-  {
-    title: 'エリア',
-    subtitle: '通いたいエリアを選んでください',
-    options: [
-      '東京（新宿・渋谷・池袋）',
-      '東京（銀座・六本木・品川）',
-      '横浜・神奈川',
-      '大阪',
-      '名古屋',
-      '福岡',
-      'その他',
-    ],
-  },
-  {
-    title: '月額予算',
-    subtitle: '毎月かけられる予算を選んでください',
-    options: [
-      '〜1万円（とにかく安く）',
-      '1〜3万円（コスパ重視）',
-      '3〜5万円（しっかり投資）',
-      '5万円以上（最高のサービスを）',
-    ],
-  },
-  {
-    title: '通う頻度',
-    subtitle: '理想の頻度を選んでください',
-    options: ['週1回', '週2回', '週3回以上'],
-  },
-  {
-    title: '通う期間',
-    subtitle: '想定している通う期間を選んでください',
-    options: [
-      '1〜2ヶ月（短期集中）',
-      '3〜6ヶ月（じっくり）',
-      '半年以上（長期継続）',
-    ],
-  },
-  {
-    title: 'トレーニングスタイル',
-    subtitle: 'あなたに合うスタイルを選んでください',
-    options: [
-      'ゆるく楽しく続けたい',
-      'しっかり追い込みたい',
-      'ガチで結果を出したい',
-    ],
-  },
-  {
-    title: '重視するオプション',
-    subtitle: '当てはまるものを全て選んでください（複数選択可）',
-    options: [
-      '食事指導あり',
-      '手ぶらで通える',
-      '深夜も営業',
-      'とにかく低価格',
-      '駅チカ',
-      '女性トレーナー対応',
-    ],
-    multi: true,
-  },
-];
-
-function calculateScores(answers: (string | string[])[]) {
-  return gyms
-    .map((gym) => {
-      let score = 0;
-      const area = answers[0] as string;
-      if (area && gym.areas.includes(area)) score += 3;
-
-      const budget = answers[1] as string;
-      if (budget && gym.budgetMatch.includes(budget)) score += 3;
-
-      const style = answers[4] as string;
-      if (style && gym.styleMatch.includes(style)) score += 2;
-
-      const duration = answers[3] as string;
-      if (duration && gym.durationMatch.includes(duration)) score += 1;
-
-      const selectedOptions = answers[5] as string[];
-      if (selectedOptions) {
-        for (const opt of selectedOptions) {
-          if (gym.options.includes(opt)) score += 1;
-        }
-      }
-
-      return { gym, score };
-    })
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 3);
+/* --- helper to generate many stores for one brand ----------------------- */
+function mkStores(
+  gymName: string,
+  base: Omit<Store, 'gymName' | 'storeName' | 'slug' | 'prefecture' | 'area'>,
+  locations: [string, string, string][], // [prefecture, area, slugSuffix]
+): Store[] {
+  return locations.map(([prefecture, area, suffix]) => ({
+    ...base,
+    gymName,
+    storeName: `${area}店`,
+    slug: suffix,
+    prefecture,
+    area,
+  }));
 }
 
+const BEYOND_AFF = 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL';
+const RIZAP_AFF = 'https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX';
+const FURDI_AFF = 'https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A';
+const HABIT_AFF = 'https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A';
+const NEXUS_AFF = 'https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L';
+
+const stores: Store[] = [
+  /* ── BEYOND (affiliate, premium) ─────────────────────── */
+  ...mkStores('BEYOND', {
+    price: '月額8,250円〜 / 回あたり8,800円〜',
+    priceCategory: 'premium',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['コンテスト入賞トレーナー', 'ボディメイク特化', '糖質制限なし食事指導'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', 'ストレス発散'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: BEYOND_AFF,
+  }, [
+    ['東京', '新宿', '/review/beyond/shinjuku/'],
+    ['東京', '渋谷', '/review/beyond/shibuya/'],
+    ['東京', '池袋', '/review/beyond/ikebukuro/'],
+    ['東京', '銀座', '/review/beyond/ginza/'],
+    ['東京', '六本木', '/review/beyond/roppongi/'],
+    ['東京', '恵比寿', '/review/beyond/ebisu/'],
+    ['神奈川', '横浜', '/review/beyond/yokohama/'],
+    ['大阪', '梅田', '/review/beyond/umeda/'],
+    ['愛知', '名古屋', '/review/beyond/nagoya/'],
+  ]),
+  /* ── RIZAP (affiliate, luxury) ───────────────────────── */
+  ...mkStores('RIZAP', {
+    price: '2ヶ月 約38万円〜',
+    priceCategory: 'luxury',
+    hours: '7:00〜23:00',
+    lateNight: true,
+    features: ['完全個室', '30日間返金保証', '食事管理徹底', '全国100+店舗'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', 'ブライダル準備'],
+    intensity: ['ガチで結果を出したい'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '返金保証あり', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: RIZAP_AFF,
+  }, [
+    ['東京', '新宿', '/review/rizap/shinjuku/'],
+    ['東京', '渋谷', '/review/rizap/shibuya/'],
+    ['東京', '池袋', '/review/rizap/ikebukuro/'],
+    ['東京', '銀座', '/review/rizap/ginza/'],
+    ['神奈川', '横浜', '/review/rizap/yokohama/'],
+    ['大阪', '梅田', '/review/rizap/umeda/'],
+    ['愛知', '名古屋', '/review/rizap/nagoya/'],
+    ['福岡', '天神', '/review/rizap/tenjin/'],
+  ]),
+  /* ── 24/7ワークアウト (no affiliate, premium) ─────────── */
+  ...mkStores('24/7ワークアウト', {
+    price: '2ヶ月 約25万円〜',
+    priceCategory: 'premium',
+    hours: '7:00〜24:00',
+    lateNight: true,
+    features: ['深夜24時まで営業', '3食食べるダイエット', '完全個室', '全国80+店舗'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '深夜営業', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['東京', '新宿', '/review/247workout/shinjuku/'],
+    ['東京', '渋谷', '/review/247workout/shibuya/'],
+    ['東京', '池袋', '/review/247workout/ikebukuro/'],
+    ['東京', '銀座', '/review/247workout/ginza/'],
+    ['神奈川', '横浜', '/review/247workout/yokohama/'],
+    ['大阪', '梅田', '/review/247workout/umeda/'],
+    ['愛知', '名古屋', '/review/247workout/nagoya/'],
+    ['福岡', '天神', '/review/247workout/tenjin/'],
+    ['北海道', '札幌', '/review/247workout/sapporo/'],
+  ]),
+  /* ── チキンジム (no affiliate, budget) ───────────────── */
+  ...mkStores('チキンジム', {
+    price: '月額6,800円〜',
+    priceCategory: 'budget',
+    hours: '7:00〜23:00',
+    lateNight: true,
+    features: ['初心者向け', '手ぶらOK', 'プロテイン付き', '全国34店舗'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消', 'ストレス発散'],
+    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    options: ['手ぶらで通える', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+  }, [
+    ['東京', '新宿', '/review/chicken-gym/shinjuku/'],
+    ['東京', '渋谷', '/review/chicken-gym/shibuya/'],
+    ['東京', '池袋', '/review/chicken-gym/ikebukuro/'],
+    ['大阪', '心斎橋', '/review/chicken-gym/shinsaibashi/'],
+    ['愛知', '名古屋', '/review/chicken-gym/nagoya/'],
+    ['福岡', '天神', '/review/chicken-gym/tenjin/'],
+    ['神奈川', '横浜', '/review/chicken-gym/yokohama/'],
+  ]),
+  /* ── エクササイズコーチ (no affiliate, budget) ────────── */
+  ...mkStores('エクササイズコーチ', {
+    price: '月額9,900円〜',
+    priceCategory: 'budget',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['1回20分', 'AI自動調整マシン', '手ぶらOK', '全国40+店舗'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
+    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    options: ['手ぶらで通える', 'AI・マシン主導', '月額制(解約しやすい)', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['東京', '新宿', '/review/exercise-coach/shinjuku/'],
+    ['東京', '渋谷', '/review/exercise-coach/shibuya/'],
+    ['東京', '池袋', '/review/exercise-coach/ikebukuro/'],
+    ['東京', '銀座', '/review/exercise-coach/ginza/'],
+    ['大阪', '梅田', '/review/exercise-coach/umeda/'],
+    ['愛知', '名古屋', '/review/exercise-coach/nagoya/'],
+  ]),
+  /* ── HABIT (affiliate, mid) ──────────────────────────── */
+  ...mkStores('HABIT', {
+    price: '月額29,800円〜',
+    priceCategory: 'mid',
+    hours: '7:00〜23:00',
+    lateNight: true,
+    features: ['初心者特化', '手ぶらOK', '完全個室', '都内中心'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消', '姿勢改善・腰痛改善'],
+    intensity: ['ゆるく楽しく', 'しっかり追い込みたい', 'まずは体験から'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+    affiliateUrl: HABIT_AFF,
+  }, [
+    ['東京', '渋谷', '/review/habit/shibuya/'],
+    ['東京', '恵比寿', '/review/habit/ebisu/'],
+    ['東京', '銀座', '/review/habit/ginza/'],
+    ['東京', '中目黒', '/review/habit/nakameguro/'],
+    ['東京', '神田', '/review/habit/kanda/'],
+    ['東京', '白金台', '/review/habit/shirokanedai/'],
+    ['大阪', '梅田', '/review/habit/umeda/'],
+  ]),
+  /* ── FURDI (affiliate, budget, women-only) ───────────── */
+  ...mkStores('FURDI', {
+    price: '月額7,678円〜',
+    priceCategory: 'budget',
+    hours: '6:00〜23:00',
+    lateNight: true,
+    features: ['女性専用', 'AI×サーキット型', '予約不要', '1回30分'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消', 'ストレス発散'],
+    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    options: ['女性専用/女性トレーナー', 'AI・マシン主導', '月額制(解約しやすい)'],
+    affiliateUrl: FURDI_AFF,
+  }, [
+    ['東京', '新宿', '/review/furdi/shinjuku/'],
+    ['東京', '池袋', '/review/furdi/ikebukuro/'],
+    ['東京', '品川', '/review/furdi/shinagawa/'],
+    ['神奈川', '横浜', '/review/furdi/yokohama/'],
+    ['埼玉', '大宮', '/review/furdi/omiya/'],
+    ['千葉', '船橋', '/review/furdi/funabashi/'],
+    ['大阪', '梅田', '/review/furdi/umeda/'],
+  ]),
+  /* ── Nexus (affiliate, budget) ───────────────────────── */
+  ...mkStores('Nexus', {
+    price: '月額18,800円〜',
+    priceCategory: 'budget',
+    hours: '7:00〜23:00',
+    lateNight: true,
+    features: ['低価格パーソナル', '都度払い対応', '完全個室', '長期継続向き'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消', '筋肥大・ボディメイク'],
+    intensity: ['ゆるく楽しく', 'しっかり追い込みたい', 'まずは体験から'],
+    options: ['駅チカ(徒歩5分以内)', '月額制(解約しやすい)', '完全個室'],
+    affiliateUrl: NEXUS_AFF,
+  }, [
+    ['東京', '新宿', '/review/nexus/shinjuku/'],
+    ['東京', '渋谷', '/review/nexus/shibuya/'],
+    ['東京', '池袋', '/review/nexus/ikebukuro/'],
+    ['東京', '上野', '/review/nexus/ueno/'],
+    ['神奈川', '横浜', '/review/nexus/yokohama/'],
+    ['大阪', '福島', '/review/nexus/osaka-fukushima/'],
+  ]),
+  /* ── OUTLINE (no affiliate, mid, women-only) ─────────── */
+  ...mkStores('OUTLINE', {
+    price: '月額9,900円〜',
+    priceCategory: 'mid',
+    hours: '8:00〜23:00',
+    lateNight: true,
+    features: ['女性専用', '完全個室', 'ベビーサークル完備', '女性トレーナー'],
+    purpose: ['ダイエット・減量', '姿勢改善・腰痛改善', 'ブライダル準備'],
+    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['東京', '新宿', '/review/outline/shinjuku/'],
+    ['東京', '渋谷', '/review/outline/shibuya/'],
+    ['東京', '池袋', '/review/outline/ikebukuro/'],
+    ['東京', '銀座', '/review/outline/ginza/'],
+    ['神奈川', '横浜', '/review/outline/yokohama/'],
+    ['千葉', '船橋', '/review/outline/funabashi/'],
+  ]),
+  /* ── UNDEUX SUPERBODY (no affiliate, mid, women-only) ── */
+  ...mkStores('UNDEUX SUPERBODY', {
+    price: '2ヶ月 約22万円〜',
+    priceCategory: 'mid',
+    hours: '9:00〜22:00',
+    lateNight: false,
+    features: ['女性専用', 'ボディメイク特化', '宅配食サービス連携', '食事管理付き'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', 'ブライダル準備'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['東京', '新宿', '/review/undeux/shinjuku/'],
+    ['東京', '渋谷', '/review/undeux/shibuya/'],
+    ['東京', '銀座', '/review/undeux/ginza/'],
+    ['大阪', '梅田', '/review/undeux/umeda/'],
+    ['大阪', '心斎橋', '/review/undeux/shinsaibashi/'],
+    ['京都', '四条', '/review/undeux/shijo/'],
+  ]),
+  /* ── Dr.トレーニング (no affiliate, mid) ─────────────── */
+  ...mkStores('Dr.トレーニング', {
+    price: '1回6,700円〜 / 都度払い',
+    priceCategory: 'mid',
+    hours: '9:00〜22:00',
+    lateNight: false,
+    features: ['医学的アプローチ', '都度払い可', '管理栄養士在籍', '都内20+店舗'],
+    purpose: ['健康維持・運動不足解消', '姿勢改善・腰痛改善', '筋肥大・ボディメイク'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['東京', '恵比寿', '/review/dr-training/ebisu/'],
+    ['東京', '中目黒', '/review/dr-training/nakameguro/'],
+    ['東京', '渋谷', '/review/dr-training/shibuya/'],
+    ['東京', '新宿', '/review/dr-training/shinjuku/'],
+  ]),
+  /* ── ASPI (no affiliate, budget) ─────────────────────── */
+  ...mkStores('ASPI', {
+    price: '月額6,600円〜',
+    priceCategory: 'budget',
+    hours: '10:00〜22:00',
+    lateNight: false,
+    features: ['米国資格保有トレーナー', '科学的トレーニング', '手ぶらOK', '完全予約制'],
+    purpose: ['ダイエット・減量', '健康維持・運動不足解消', '姿勢改善・腰痛改善'],
+    intensity: ['しっかり追い込みたい', 'まずは体験から'],
+    options: ['食事指導あり', '手ぶらで通える', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+  }, [
+    ['東京', '新宿', '/review/aspi/shinjuku/'],
+    ['東京', '渋谷', '/review/aspi/shibuya/'],
+    ['東京', '恵比寿', '/review/aspi/ebisu/'],
+    ['東京', '池袋', '/review/aspi/ikebukuro/'],
+    ['神奈川', '横浜', '/review/aspi/yokohama/'],
+    ['大阪', '梅田', '/review/aspi/umeda/'],
+  ]),
+  /* ── b-concept (no affiliate, mid, women-only) ───────── */
+  ...mkStores('b-concept', {
+    price: '2ヶ月 約20万円〜',
+    priceCategory: 'mid',
+    hours: '7:00〜23:00',
+    lateNight: true,
+    features: ['女性専用', '下半身・脚痩せ特化', 'アフターフォロー付き', '完全個室'],
+    purpose: ['ダイエット・減量', '姿勢改善・腰痛改善', 'ブライダル準備'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅チカ(徒歩5分以内)'],
+  }, [
+    ['東京', '新宿', '/review/b-concept/shinjuku/'],
+    ['東京', '渋谷', '/review/b-concept/shibuya/'],
+    ['東京', '池袋', '/review/b-concept/ikebukuro/'],
+    ['東京', '銀座', '/review/b-concept/ginza/'],
+    ['大阪', '梅田', '/review/b-concept/umeda/'],
+    ['愛知', '名古屋', '/review/b-concept/nagoya/'],
+  ]),
+];
+
+/* ==========================================================================
+   Area data
+   ========================================================================== */
+
+const prefectureAreas: Record<string, string[]> = {
+  '北海道': ['札幌', '旭川'],
+  '宮城': ['仙台'],
+  '東京': ['新宿', '渋谷', '池袋', '銀座', '六本木', '品川', '恵比寿', '目黒', '中目黒', '上野', '赤坂', '神田', '白金台', '自由が丘', '町田'],
+  '神奈川': ['横浜', '川崎'],
+  '埼玉': ['大宮', '浦和'],
+  '千葉': ['船橋', '柏'],
+  '愛知': ['名古屋', '栄'],
+  '大阪': ['梅田', 'なんば', '心斎橋', '天王寺', '福島'],
+  '京都': ['四条', '烏丸'],
+  '兵庫': ['三宮', '西宮'],
+  '広島': ['広島'],
+  '福岡': ['天神', '博多'],
+};
+
+/* ==========================================================================
+   Question options
+   ========================================================================== */
+
+const frequencyOpts = ['月4回(週1)', '月8回(週2)', '月12回(週3以上)'];
+const dayOpts = ['平日中心', '休日中心', '両方'];
+const timeOpts = ['朝(6-10時)', '昼(10-14時)', '夕方(14-18時)', '夜(18-22時)', '深夜(22時以降)'];
+const sceneOpts = ['仕事帰り', '休日の空き時間', 'ランチタイム', '在宅勤務の合間', 'その他'];
+const purposeOpts = ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消', '姿勢改善・腰痛改善', 'ストレス発散', 'ブライダル準備'];
+const intensityOpts = ['ゆるく楽しく', 'しっかり追い込みたい', 'ガチで結果を出したい', 'まずは体験から'];
+const budgetOpts = ['月1万円以下', '月1〜3万円', '月3〜5万円', '月5万円以上', '一括20万円以下', '一括20〜40万円', '一括40万円以上'];
+const optionOpts = ['食事指導あり', '手ぶらで通える', '完全個室', '女性専用/女性トレーナー', '深夜営業', '駅チカ(徒歩5分以内)', '返金保証あり', 'AI・マシン主導', '月額制(解約しやすい)'];
+
+/* ==========================================================================
+   Scoring
+   ========================================================================== */
+
+type Answers = {
+  prefecture: string;
+  area: string;
+  frequency: string;
+  day: string;
+  time: string;
+  scene: string;
+  purpose: string;
+  intensity: string;
+  budget: string;
+  options: string[];
+};
+
+function budgetToPriceCategories(b: string): string[] {
+  switch (b) {
+    case '月1万円以下': return ['budget'];
+    case '月1〜3万円': return ['budget', 'mid'];
+    case '月3〜5万円': return ['mid', 'premium'];
+    case '月5万円以上': return ['premium', 'luxury'];
+    case '一括20万円以下': return ['budget', 'mid'];
+    case '一括20〜40万円': return ['mid', 'premium'];
+    case '一括40万円以上': return ['premium', 'luxury'];
+    default: return ['budget', 'mid', 'premium', 'luxury'];
+  }
+}
+
+type ScoredStore = Store & { score: number; matchPct: number; reason: string };
+
+function scoreStores(answers: Answers): ScoredStore[] {
+  const cats = budgetToPriceCategories(answers.budget);
+  const wantsLateNight = answers.time === '深夜(22時以降)' || answers.options.includes('深夜営業');
+
+  const scored = stores.map((s) => {
+    let score = 0;
+    if (s.prefecture === answers.prefecture) { score += 40; if (s.area === answers.area) score += 25; }
+    if (cats.includes(s.priceCategory)) score += 20;
+    if (s.purpose.includes(answers.purpose)) score += 15;
+    if (s.intensity.includes(answers.intensity)) score += 10;
+    if (wantsLateNight && s.lateNight) score += 8;
+    score += answers.options.filter((o) => s.options.includes(o)).length * 4;
+    return { ...s, score };
+  });
+
+  scored.sort((a, b) => b.score - a.score);
+  const top = scored.slice(0, 5);
+  const maxScore = Math.max(top[0]?.score ?? 1, 1);
+
+  return top.map((s) => {
+    const matchPct = Math.min(99, Math.max(40, Math.round((s.score / maxScore) * 98)));
+    return { ...s, matchPct, reason: buildReason(s, answers) };
+  });
+}
+
+function buildReason(s: Store & { score: number }, a: Answers): string {
+  const p: string[] = [];
+  const loc = s.area === a.area ? `${a.area}で` : `${s.prefecture}エリアで`;
+  const feat = s.features[0] || '充実した指導';
+  if (a.purpose === 'ダイエット・減量') p.push(`${loc}ダイエットを始めたいあなたには、${s.gymName}の${feat}がぴったり`);
+  else if (a.purpose === '筋肥大・ボディメイク') p.push(`${loc}本格ボディメイクを目指すなら、${s.gymName}の${feat}が最適`);
+  else if (a.purpose === 'ブライダル準備') p.push(`${loc}ブライダル準備なら、${s.gymName}の${feat}がおすすめ`);
+  else p.push(`${loc}${a.purpose}には${s.gymName}の${feat}が好相性`);
+  if (s.lateNight) p.push(`${s.hours}まで営業で仕事帰りでも通えます`);
+  if (s.options.includes('駅チカ(徒歩5分以内)')) p.push('駅チカでアクセスも便利');
+  if (s.options.includes('手ぶらで通える')) p.push('手ぶらで通えるので荷物の心配も不要');
+  if (s.options.includes('食事指導あり')) p.push('食事指導付きで効率的に結果を出せます');
+  return p.slice(0, 3).join('。') + '。';
+}
+
+/* ==========================================================================
+   Component
+   ========================================================================== */
+
+const TOTAL_STEPS = 8;
+
 export default function ConciergePage() {
-  const [step, setStep] = useState(0);
-  const [answers, setAnswers] = useState<(string | string[])[]>([
-    '', '', '', '', '', [],
-  ]);
-  const [showResult, setShowResult] = useState(false);
-  const [direction, setDirection] = useState<'forward' | 'back'>('forward');
+  const [step, setStep] = useState(0); // 0 = welcome
+  const [answers, setAnswers] = useState<Answers>({
+    prefecture: '',
+    area: '',
+    frequency: '',
+    day: '',
+    time: '',
+    scene: '',
+    purpose: '',
+    intensity: '',
+    budget: '',
+    options: [],
+  });
+  const [results, setResults] = useState<ScoredStore[] | null>(null);
 
-  const totalSteps = questions.length;
-  const currentQuestion = questions[step];
+  const next = useCallback(() => setStep((s) => s + 1), []);
+  const prev = useCallback(() => setStep((s) => Math.max(0, s - 1)), []);
 
-  function handleSelect(option: string) {
-    const newAnswers = [...answers];
-    if (currentQuestion.multi) {
-      const current = (newAnswers[step] as string[]) || [];
-      if (current.includes(option)) {
-        newAnswers[step] = current.filter((o) => o !== option);
-      } else {
-        newAnswers[step] = [...current, option];
-      }
-      setAnswers(newAnswers);
-    } else {
-      newAnswers[step] = option;
-      setAnswers(newAnswers);
-      if (step < totalSteps - 1) {
-        setDirection('forward');
-        setTimeout(() => setStep(step + 1), 200);
-      } else {
-        setTimeout(() => setShowResult(true), 200);
-      }
-    }
-  }
+  const finish = useCallback(() => {
+    setResults(scoreStores(answers));
+    setStep(TOTAL_STEPS + 1);
+  }, [answers]);
 
-  function handleNext() {
-    if (step < totalSteps - 1) {
-      setDirection('forward');
-      setStep(step + 1);
-    } else {
-      setShowResult(true);
-    }
-  }
+  const toggleOption = useCallback((opt: string) => {
+    setAnswers((prev) => ({
+      ...prev,
+      options: prev.options.includes(opt)
+        ? prev.options.filter((o) => o !== opt)
+        : [...prev.options, opt],
+    }));
+  }, []);
 
-  function handleBack() {
-    if (step > 0) {
-      setDirection('back');
-      setStep(step - 1);
-    }
-  }
+  const subAreas = useMemo(
+    () => (answers.prefecture ? prefectureAreas[answers.prefecture] ?? [] : []),
+    [answers.prefecture],
+  );
 
-  function handleRestart() {
-    setStep(0);
-    setAnswers(['', '', '', '', '', []]);
-    setShowResult(false);
-    setDirection('forward');
-  }
+  const progressPct = step === 0 ? 0 : Math.min(100, Math.round((step / TOTAL_STEPS) * 100));
 
-  function isSelected(option: string) {
-    if (currentQuestion.multi) {
-      return ((answers[step] as string[]) || []).includes(option);
-    }
-    return answers[step] === option;
-  }
+  /* --- selection button helper --------------------------------------- */
+  const Btn = ({
+    label,
+    selected,
+    onClick,
+  }: {
+    label: string;
+    selected: boolean;
+    onClick: () => void;
+  }) => (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`w-full text-left px-4 py-3 rounded-lg border text-sm transition-all duration-200 ${
+        selected
+          ? 'border-teal-500 bg-teal-50 text-teal-800 font-medium ring-1 ring-teal-400'
+          : 'border-gray-200 bg-white text-gray-700 hover:border-teal-300 hover:bg-teal-50/40'
+      }`}
+    >
+      {label}
+    </button>
+  );
 
-  const results = calculateScores(answers);
+  /* --- card wrapper -------------------------------------------------- */
+  const Card = ({ children, title, subtitle }: { children: React.ReactNode; title: string; subtitle?: string }) => (
+    <div className="w-full max-w-lg mx-auto bg-white rounded-2xl shadow-lg p-6 sm:p-8 animate-fade-in">
+      <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-1">{title}</h2>
+      {subtitle && <p className="text-sm text-gray-500 mb-5">{subtitle}</p>}
+      {!subtitle && <div className="mb-5" />}
+      {children}
+    </div>
+  );
 
-  if (showResult) {
-    return (
-      <section className="py-16 bg-section-bg min-h-[80vh]">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6">
-          <div className="text-center mb-10">
-            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
-              あなたにおすすめのパーソナルジム
-            </h1>
-            <p className="text-gray-500">
-              回答内容をもとに最適なジムを厳選しました
-            </p>
+  /* --- navigation buttons -------------------------------------------- */
+  const Nav = ({ canNext, onNext }: { canNext: boolean; onNext?: () => void }) => (
+    <div className="flex justify-between mt-6 gap-3">
+      {step > 1 && (
+        <button type="button" onClick={prev} className="px-5 py-2.5 text-sm rounded-lg border border-gray-300 text-gray-600 hover:bg-gray-50 transition-colors">
+          戻る
+        </button>
+      )}
+      <button
+        type="button"
+        disabled={!canNext}
+        onClick={onNext ?? next}
+        className={`ml-auto px-6 py-2.5 text-sm rounded-lg font-medium transition-colors ${
+          canNext
+            ? 'bg-teal-600 text-white hover:bg-teal-700'
+            : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+        }`}
+      >
+        {step === TOTAL_STEPS ? '診断結果を見る' : '次へ'}
+      </button>
+    </div>
+  );
+
+  /* =================================================================== */
+  return (
+    <>
+      <head>
+        <meta name="robots" content="noindex,nofollow" />
+      </head>
+
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-8 px-4">
+        {/* progress bar */}
+        {step > 0 && step <= TOTAL_STEPS && (
+          <div className="w-full max-w-lg mx-auto mb-6">
+            <div className="flex justify-between text-xs text-gray-400 mb-1">
+              <span>ステップ {step} / {TOTAL_STEPS}</span>
+              <span>{progressPct}%</span>
+            </div>
+            <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-teal-500 rounded-full transition-all duration-500 ease-out"
+                style={{ width: `${progressPct}%` }}
+              />
+            </div>
           </div>
+        )}
 
-          <div className="space-y-6">
-            {results.map(({ gym, score }, index) => (
-              <article
-                key={gym.name}
-                className="card-base overflow-hidden"
-                style={{
-                  animation: `fadeSlideUp 0.5s ease ${index * 0.15}s both`,
-                }}
-              >
-                <div className="bg-primary text-white px-6 py-3.5 flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <span className="bg-accent text-white font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center shadow-sm">
-                      {index + 1}
-                    </span>
-                    <h2 className="text-xl font-bold">{gym.name}</h2>
-                  </div>
-                  <span className="text-sm bg-white/20 px-3 py-1 rounded-full">
-                    適合度 {score}pt
-                  </span>
+        {/* ── Step 0: Welcome ──────────────────────────────────── */}
+        {step === 0 && (
+          <div className="w-full max-w-lg mx-auto text-center py-12 animate-fade-in">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-teal-100 mb-6">
+              <svg className="w-8 h-8 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+              </svg>
+            </div>
+            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+              パーソナルジムコンシェルジュ
+            </h1>
+            <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-8 max-w-sm mx-auto">
+              どのジム・どの店舗が自分に合っているかわからない、そんなあなたにピッタリなジムを上位5つご紹介します。
+            </p>
+            <button
+              type="button"
+              onClick={next}
+              className="inline-flex items-center gap-2 px-8 py-3 bg-teal-600 text-white font-medium rounded-xl hover:bg-teal-700 transition-colors shadow-md"
+            >
+              診断スタート
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        )}
+
+        {/* ── Step 1 → renamed Step 2: エリア診断 ──────────────── */}
+        {step === 1 && (
+          <Card title="エリア診断" subtitle="どのエリアでお探しですか？">
+            <p className="text-xs text-gray-400 mb-2">都道府県を選択</p>
+            <div className="grid grid-cols-3 gap-2 mb-4">
+              {Object.keys(prefectureAreas).map((pref) => (
+                <Btn
+                  key={pref}
+                  label={pref}
+                  selected={answers.prefecture === pref}
+                  onClick={() => setAnswers((p) => ({ ...p, prefecture: pref, area: '' }))}
+                />
+              ))}
+            </div>
+            {subAreas.length > 0 && (
+              <>
+                <p className="text-xs text-gray-400 mb-2 mt-4">主要エリアを選択</p>
+                <div className="grid grid-cols-3 gap-2">
+                  {subAreas.map((a) => (
+                    <Btn key={a} label={a} selected={answers.area === a} onClick={() => setAnswers((p) => ({ ...p, area: a }))} />
+                  ))}
                 </div>
+              </>
+            )}
+            <Nav canNext={!!answers.prefecture && !!answers.area} />
+          </Card>
+        )}
 
-                <div className="p-6">
-                  <p className="text-gray-600 mb-2">{gym.tagline}</p>
-                  <p className="text-accent font-bold text-lg mb-4">
-                    {gym.price}
-                  </p>
+        {/* ── Step 2 → renamed Step 3: 通う頻度 ───────────────── */}
+        {step === 2 && (
+          <Card title="通う頻度" subtitle="月あたりの回数・曜日・時間帯を教えてください">
+            <p className="text-xs text-gray-400 mb-2">月あたりの回数</p>
+            <div className="grid grid-cols-1 gap-2 mb-4">
+              {frequencyOpts.map((f) => (
+                <Btn key={f} label={f} selected={answers.frequency === f} onClick={() => setAnswers((p) => ({ ...p, frequency: f }))} />
+              ))}
+            </div>
+            <p className="text-xs text-gray-400 mb-2">曜日</p>
+            <div className="grid grid-cols-3 gap-2 mb-4">
+              {dayOpts.map((d) => (
+                <Btn key={d} label={d} selected={answers.day === d} onClick={() => setAnswers((p) => ({ ...p, day: d }))} />
+              ))}
+            </div>
+            <p className="text-xs text-gray-400 mb-2">時間帯</p>
+            <div className="grid grid-cols-2 gap-2">
+              {timeOpts.map((t) => (
+                <Btn key={t} label={t} selected={answers.time === t} onClick={() => setAnswers((p) => ({ ...p, time: t }))} />
+              ))}
+            </div>
+            <Nav canNext={!!answers.frequency && !!answers.day && !!answers.time} />
+          </Card>
+        )}
 
-                  <div className="flex flex-wrap gap-2 mb-5">
-                    {gym.features.map((f) => (
-                      <span
-                        key={f}
-                        className="bg-accent-50 text-accent-700 text-xs font-medium px-3 py-1.5 rounded-full border border-accent-100"
-                      >
-                        {f}
+        {/* ── Step 3 → renamed Step 4: シーン選択 ──────────────── */}
+        {step === 3 && (
+          <Card title="シーン選択" subtitle="どんなタイミングで通いますか？">
+            <div className="grid grid-cols-1 gap-2">
+              {sceneOpts.map((sc) => (
+                <Btn key={sc} label={sc} selected={answers.scene === sc} onClick={() => setAnswers((p) => ({ ...p, scene: sc }))} />
+              ))}
+            </div>
+            <Nav canNext={!!answers.scene} />
+          </Card>
+        )}
+
+        {/* ── Step 4 → renamed Step 5: 利用目的 ───────────────── */}
+        {step === 4 && (
+          <Card title="利用目的" subtitle="一番の目的を教えてください">
+            <div className="grid grid-cols-1 gap-2">
+              {purposeOpts.map((pu) => (
+                <Btn key={pu} label={pu} selected={answers.purpose === pu} onClick={() => setAnswers((p) => ({ ...p, purpose: pu }))} />
+              ))}
+            </div>
+            <Nav canNext={!!answers.purpose} />
+          </Card>
+        )}
+
+        {/* ── Step 5 → renamed Step 6: 本気度 ─────────────────── */}
+        {step === 5 && (
+          <Card title="本気度" subtitle="どのくらいのペースで取り組みたいですか？">
+            <div className="grid grid-cols-1 gap-2">
+              {intensityOpts.map((it) => (
+                <Btn key={it} label={it} selected={answers.intensity === it} onClick={() => setAnswers((p) => ({ ...p, intensity: it }))} />
+              ))}
+            </div>
+            <Nav canNext={!!answers.intensity} />
+          </Card>
+        )}
+
+        {/* ── Step 6 → renamed Step 7: 料金イメージ ────────────── */}
+        {step === 6 && (
+          <Card title="料金イメージ" subtitle="ご予算の目安を教えてください">
+            <div className="grid grid-cols-1 gap-2">
+              {budgetOpts.map((bu) => (
+                <Btn key={bu} label={bu} selected={answers.budget === bu} onClick={() => setAnswers((p) => ({ ...p, budget: bu }))} />
+              ))}
+            </div>
+            <Nav canNext={!!answers.budget} />
+          </Card>
+        )}
+
+        {/* ── Step 7 → renamed Step 8: オプション ──────────────── */}
+        {step === 7 && (
+          <Card title="オプション" subtitle="あてはまるものを全て選んでください（複数選択可）">
+            <div className="grid grid-cols-1 gap-2">
+              {optionOpts.map((op) => (
+                <Btn key={op} label={op} selected={answers.options.includes(op)} onClick={() => toggleOption(op)} />
+              ))}
+            </div>
+            <Nav canNext onNext={finish} />
+          </Card>
+        )}
+
+        {/* ── Step 8 → renamed Step 9 (beyond TOTAL): 結果ページ  */}
+        {step === TOTAL_STEPS + 1 && results && (
+          <div className="w-full max-w-2xl mx-auto animate-fade-in">
+            <div className="text-center mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">あなたにおすすめのジム</h2>
+              <p className="text-sm text-gray-500">
+                {answers.prefecture} {answers.area}エリア / {answers.purpose} / {answers.intensity}
+              </p>
+            </div>
+
+            <div className="space-y-5">
+              {results.map((r, i) => {
+                const isAffiliate = !!r.affiliateUrl;
+                return (
+                  <div
+                    key={`${r.gymName}-${r.storeName}`}
+                    className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden"
+                  >
+                    {/* header */}
+                    <div className="flex items-center justify-between px-5 pt-5 pb-2">
+                      <div className="flex items-center gap-3">
+                        <span className="flex items-center justify-center w-8 h-8 rounded-full bg-teal-600 text-white text-sm font-bold">
+                          {i + 1}
+                        </span>
+                        <div>
+                          <p className="font-bold text-gray-900 text-base sm:text-lg leading-tight">
+                            {r.gymName} {r.storeName}
+                          </p>
+                          <p className="text-xs text-gray-400">{r.prefecture} {r.area}</p>
+                        </div>
+                      </div>
+                      <span className="inline-flex items-center gap-1 bg-teal-50 text-teal-700 text-sm font-bold px-3 py-1 rounded-full">
+                        {r.matchPct}%
+                        <span className="text-xs font-normal">マッチ</span>
                       </span>
-                    ))}
-                  </div>
+                    </div>
 
-                  <div className="flex flex-col sm:flex-row gap-3">
-                    <Link
-                      href={gym.slug}
-                      className="inline-block bg-accent hover:bg-accent-dark text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm shadow-sm text-center"
-                    >
-                      口コミ・詳細を見る
-                    </Link>
-                    <a
-                      href={gym.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block border-2 border-accent text-accent hover:bg-accent hover:text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm text-center"
-                    >
-                      公式サイトへ
-                    </a>
-                  </div>
+                    {/* body */}
+                    <div className="px-5 pb-5">
+                      <p className="text-sm text-gray-600 leading-relaxed mt-2 mb-3">
+                        {r.reason}
+                      </p>
 
-                  {/* 近くの店舗リンク */}
-                  {answers[0] && areaStoreLinks[answers[0] as string]?.[gym.name] && (
-                    <div className="mt-4 pt-4 border-t border-gray-100">
-                      <p className="text-xs font-medium text-gray-500 mb-2">近くの店舗</p>
-                      <div className="flex flex-wrap gap-2">
-                        {areaStoreLinks[answers[0] as string][gym.name].map((store) => (
-                          <Link
-                            key={store.href}
-                            href={store.href}
-                            className="text-sm text-orange-500 hover:underline"
-                          >
-                            {store.label} →
-                          </Link>
+                      <div className="flex items-center gap-2 text-xs text-gray-500 mb-3">
+                        <span className="inline-block bg-gray-100 px-2 py-0.5 rounded">料金: {r.price}</span>
+                        <span className="inline-block bg-gray-100 px-2 py-0.5 rounded">{r.hours}</span>
+                      </div>
+
+                      {/* feature tags */}
+                      <div className="flex flex-wrap gap-1.5 mb-4">
+                        {r.features.map((f) => (
+                          <span key={f} className="text-xs bg-teal-50 text-teal-700 px-2 py-0.5 rounded-full">
+                            {f}
+                          </span>
                         ))}
                       </div>
+
+                      {/* CTA */}
+                      <div className="flex flex-col sm:flex-row gap-2">
+                        {isAffiliate ? (
+                          <a
+                            href={r.affiliateUrl}
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                            className="flex-1 text-center px-5 py-2.5 bg-orange-500 text-white font-medium rounded-lg hover:bg-orange-600 transition-colors text-sm"
+                          >
+                            無料カウンセリングへ
+                          </a>
+                        ) : (
+                          <Link
+                            href={r.slug}
+                            className="flex-1 text-center px-5 py-2.5 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 transition-colors text-sm"
+                          >
+                            詳細を見る
+                          </Link>
+                        )}
+                        <Link
+                          href={r.slug}
+                          className="flex-1 text-center px-5 py-2.5 border border-gray-300 text-gray-600 font-medium rounded-lg hover:bg-gray-50 transition-colors text-sm"
+                        >
+                          店舗詳細ページへ
+                        </Link>
+                      </div>
                     </div>
-                  )}
-                </div>
-              </article>
-            ))}
-          </div>
+                  </div>
+                );
+              })}
+            </div>
 
-          <div className="text-center mt-10">
-            <button
-              onClick={handleRestart}
-              className="inline-block border-2 border-gray-300 text-gray-600 hover:border-accent hover:text-accent font-bold py-3 px-8 rounded-lg transition-colors"
-            >
-              もう一度診断する
-            </button>
-          </div>
-        </div>
-
-        <style>{`
-          @keyframes fadeSlideUp {
-            from {
-              opacity: 0;
-              transform: translateY(24px);
-            }
-            to {
-              opacity: 1;
-              transform: translateY(0);
-            }
-          }
-        `}</style>
-      </section>
-    );
-  }
-
-  return (
-    <section className="py-16 bg-section-bg min-h-[80vh]">
-      <div className="max-w-2xl mx-auto px-4 sm:px-6">
-        {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-            パーソナルジムコンシェルジュ
-          </h1>
-          <p className="text-gray-500 text-sm">
-            6つの質問に答えるだけで、あなたに最適なジムが見つかります
-          </p>
-        </div>
-
-        {/* Progress bar */}
-        <div className="mb-8">
-          <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium text-gray-500">
-              質問 {step + 1} / {totalSteps}
-            </span>
-            <span className="text-sm font-medium text-accent">
-              {Math.round(((step + 1) / totalSteps) * 100)}%
-            </span>
-          </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
-            <div
-              className="bg-accent h-2.5 rounded-full transition-all duration-500 ease-out"
-              style={{ width: `${((step + 1) / totalSteps) * 100}%` }}
-            />
-          </div>
-        </div>
-
-        {/* Question card */}
-        <div
-          key={step}
-          className="card-base p-6 sm:p-8"
-          style={{
-            animation: direction === 'forward'
-              ? 'slideInRight 0.3s ease'
-              : 'slideInLeft 0.3s ease',
-          }}
-        >
-          <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-1">
-            {currentQuestion.title}
-          </h2>
-          <p className="text-sm text-gray-500 mb-6">
-            {currentQuestion.subtitle}
-          </p>
-
-          <div className="space-y-3">
-            {currentQuestion.options.map((option) => (
+            {/* retry */}
+            <div className="text-center mt-8 mb-12">
               <button
-                key={option}
-                onClick={() => handleSelect(option)}
-                className={`w-full text-left px-5 py-4 rounded-xl border-2 transition-all duration-200 font-medium text-sm sm:text-base ${
-                  isSelected(option)
-                    ? 'border-accent bg-accent-light text-accent-700 shadow-sm'
-                    : 'border-gray-200 bg-white text-gray-700 hover:border-accent/50 hover:shadow-sm'
-                }`}
+                type="button"
+                onClick={() => {
+                  setStep(0);
+                  setResults(null);
+                  setAnswers({
+                    prefecture: '', area: '', frequency: '', day: '', time: '',
+                    scene: '', purpose: '', intensity: '', budget: '', options: [],
+                  });
+                }}
+                className="inline-flex items-center gap-2 px-6 py-2.5 border border-teal-600 text-teal-600 rounded-lg hover:bg-teal-50 transition-colors text-sm font-medium"
               >
-                <span className="flex items-center gap-3">
-                  <span
-                    className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 transition-colors ${
-                      isSelected(option)
-                        ? 'border-accent bg-accent'
-                        : 'border-gray-300'
-                    }`}
-                  >
-                    {isSelected(option) && (
-                      <span className="w-2 h-2 bg-white rounded-full" />
-                    )}
-                  </span>
-                  {option}
-                </span>
+                もう一度診断する
               </button>
-            ))}
+            </div>
           </div>
-
-          {/* Navigation */}
-          <div className="flex items-center justify-between mt-8">
-            <button
-              onClick={handleBack}
-              className={`text-sm font-medium px-4 py-2 rounded-lg transition-colors ${
-                step > 0
-                  ? 'text-gray-600 hover:text-accent hover:bg-gray-100'
-                  : 'text-transparent pointer-events-none'
-              }`}
-            >
-              戻る
-            </button>
-
-            {currentQuestion.multi && (
-              <button
-                onClick={handleNext}
-                className="bg-accent hover:bg-accent-dark text-white font-bold py-2.5 px-8 rounded-lg transition-colors text-sm shadow-sm"
-              >
-                {step === totalSteps - 1 ? '診断する' : '次へ'}
-              </button>
-            )}
-          </div>
-        </div>
+        )}
       </div>
 
-      <style>{`
-        @keyframes slideInRight {
-          from {
-            opacity: 0;
-            transform: translateX(40px);
-          }
-          to {
-            opacity: 1;
-            transform: translateX(0);
-          }
-        }
-        @keyframes slideInLeft {
-          from {
-            opacity: 0;
-            transform: translateX(-40px);
-          }
-          to {
-            opacity: 1;
-            transform: translateX(0);
-          }
-        }
+      <style jsx global>{`
+        @keyframes fadeIn { from { opacity:0; transform:translateY(12px) } to { opacity:1; transform:translateY(0) } }
+        .animate-fade-in { animation: fadeIn .4s ease-out both }
       `}</style>
-    </section>
+    </>
   );
 }
