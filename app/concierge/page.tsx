@@ -658,6 +658,70 @@ function budgetToPriceCategories(b: string): string[] {
 
 type ScoredStore = Store & { score: number; matchPct: number; reason: string };
 
+/* --- 近隣エリアマッピング（駅・市区町村レベル） --- */
+const nearbyAreas: Record<string, string[]> = {
+  // 東京 - 山手線西側エリア
+  '新宿': ['渋谷', '代々木', '池袋', '中目黒', '恵比寿', '六本木', '赤坂', '西麻布', '五反田'],
+  '渋谷': ['新宿', '恵比寿', '中目黒', '目黒', '代々木', '六本木', '西麻布', '駒沢大学', '表参道'],
+  '恵比寿': ['渋谷', '中目黒', '目黒', '五反田', '品川', '代官山', '広尾', '六本木'],
+  '中目黒': ['恵比寿', '渋谷', '目黒', '代官山', '駒沢大学', '自由が丘'],
+  '目黒': ['恵比寿', '中目黒', '五反田', '品川', '白金台', '大井町'],
+  '五反田': ['目黒', '品川', '恵比寿', '大崎', '白金台', '大井町'],
+  '品川': ['五反田', '目黒', '大井町', '大崎', '田町', '白金台'],
+  '池袋': ['新宿', '目白', '大塚', '練馬', '赤羽', '板橋'],
+  // 東京 - 山手線東側エリア
+  '銀座': ['新橋', '東京', '日本橋', '有楽町', '品川', '六本木', '赤坂', '上野'],
+  '上野': ['秋葉原', '銀座', '日暮里', '北千住', '御徒町', '錦糸町'],
+  '六本木': ['赤坂', '西麻布', '渋谷', '恵比寿', '銀座', '麻布十番', '広尾'],
+  '赤坂': ['六本木', '銀座', '新橋', '溜池山王', '青山', '西麻布', '麻布十番'],
+  '西麻布': ['六本木', '渋谷', '赤坂', '恵比寿', '広尾', '麻布十番'],
+  '秋葉原': ['上野', '神田', '錦糸町', '銀座', '日本橋'],
+  '神田': ['秋葉原', '銀座', '東京', '日本橋', '御茶ノ水'],
+  '錦糸町': ['秋葉原', '上野', '北千住', '押上', '亀戸'],
+  '北千住': ['上野', '錦糸町', '秋葉原', '綾瀬', '松戸'],
+  '白金台': ['目黒', '五反田', '品川', '恵比寿', '白金高輪', '麻布十番'],
+  // 東京 - 郊外
+  '町田': ['相模大野', '多摩センター', '橋本', '藤沢'],
+  '立川': ['国分寺', '八王子', '吉祥寺', '府中'],
+  '吉祥寺': ['三鷹', '立川', '荻窪', '中野'],
+  '駒沢大学': ['渋谷', '中目黒', '三軒茶屋', '二子玉川', '自由が丘'],
+  '練馬': ['池袋', '中野', '板橋', '石神井公園', '大泉学園'],
+  // 神奈川
+  '横浜': ['川崎', '藤沢', '戸塚', '武蔵小杉', '新横浜', '関内'],
+  '川崎': ['横浜', '武蔵小杉', '品川', '五反田', '溝の口'],
+  '武蔵小杉': ['川崎', '横浜', '渋谷', '目黒', '溝の口'],
+  '藤沢': ['横浜', '大船', '茅ヶ崎', '町田', '戸塚'],
+  // 埼玉
+  '大宮': ['浦和', '川口', '上尾', '春日部', '所沢', '池袋'],
+  '浦和': ['大宮', '川口', '池袋', '赤羽'],
+  '川口': ['大宮', '浦和', '赤羽', '池袋', '北千住'],
+  // 千葉
+  '船橋': ['千葉', '松戸', '柏', '錦糸町', '津田沼'],
+  '千葉': ['船橋', '稲毛', '蘇我'],
+  '柏': ['松戸', '船橋', '我孫子', '取手'],
+  '松戸': ['柏', '船橋', '北千住', '金町'],
+  // 愛知
+  '名古屋': ['栄', '金山', '名古屋瑞穂', '名古屋緑', '名古屋本郷', '一宮'],
+  '栄': ['名古屋', '金山', '大須', '伏見'],
+  // 大阪
+  '梅田': ['なんば', '心斎橋', '天王寺', '梅田中津', '新大阪'],
+  'なんば': ['梅田', '心斎橋', '天王寺', '堺'],
+  '心斎橋': ['梅田', 'なんば', '天王寺', '本町'],
+  '天王寺': ['なんば', '心斎橋', '梅田'],
+  // 京都
+  '京都': ['四条', '烏丸', '河原町'],
+  // 兵庫
+  '三宮': ['元町', '神戸', '芦屋', '西宮'],
+  // 福岡
+  '天神': ['博多', '薬院', '大濠'],
+  '博多': ['天神', '薬院'],
+  '小倉': ['博多', '天神'],
+  // その他
+  '仙台': ['長町', '泉中央'],
+  '札幌': ['大通', 'すすきの'],
+  '広島': ['本通', '紙屋町'],
+};
+
 /* --- 近隣都道府県マッピング --- */
 const nearbyPrefectures: Record<string, string[]> = {
   '東京': ['神奈川', '埼玉', '千葉'],
@@ -694,30 +758,37 @@ function scoreStores(answers: Answers): ScoredStore[] {
     return score;
   }
 
-  // Step 1: エリア完全一致（同じ都道府県 + 同じエリア）
+  const nearAreas = nearbyAreas[answers.area] || [];
+
+  // Step 1: エリア完全一致（同じエリア名）
   const exactArea = stores
-    .filter((s) => s.prefecture === answers.prefecture && s.area === answers.area)
-    .map((s) => ({ ...s, score: calcScore(s) + 65 }));
+    .filter((s) => s.area === answers.area && s.prefecture === answers.prefecture)
+    .map((s) => ({ ...s, score: calcScore(s) + 80 }));
 
-  // Step 2: 同じ都道府県の別エリア
+  // Step 2: 近隣エリア（駅・市区町村レベルで近い）
+  const nearbyAreaStores = stores
+    .filter((s) => s.area !== answers.area && nearAreas.includes(s.area))
+    .map((s) => ({ ...s, score: calcScore(s) + 55 }));
+
+  // Step 3: 同じ都道府県の他エリア
   const samePref = stores
-    .filter((s) => s.prefecture === answers.prefecture && s.area !== answers.area)
-    .map((s) => ({ ...s, score: calcScore(s) + 40 }));
+    .filter((s) => s.prefecture === answers.prefecture && s.area !== answers.area && !nearAreas.includes(s.area))
+    .map((s) => ({ ...s, score: calcScore(s) + 30 }));
 
-  // Step 3: 近隣都道府県
-  const nearby = nearbyPrefectures[answers.prefecture] || [];
-  const nearbyStores = stores
-    .filter((s) => nearby.includes(s.prefecture))
-    .map((s) => ({ ...s, score: calcScore(s) + 20 }));
+  // Step 4: 近隣都道府県
+  const nearbyPrefs = nearbyPrefectures[answers.prefecture] || [];
+  const nearbyPrefStores = stores
+    .filter((s) => nearbyPrefs.includes(s.prefecture))
+    .map((s) => ({ ...s, score: calcScore(s) + 15 }));
 
-  // Step 4: その他（オンライン含む）
+  // Step 5: その他（オンライン含む）
   const others = stores
-    .filter((s) => s.prefecture !== answers.prefecture && !nearby.includes(s.prefecture))
+    .filter((s) => s.prefecture !== answers.prefecture && !nearbyPrefs.includes(s.prefecture))
     .map((s) => ({ ...s, score: calcScore(s) }));
 
-  // エリア優先で結合: まず完全一致から埋め、足りなければ同県→近隣→その他
+  // エリア優先で結合: 完全一致→近隣駅→同県→近隣県→その他
   let results: (Store & { score: number })[] = [];
-  for (const pool of [exactArea, samePref, nearbyStores, others]) {
+  for (const pool of [exactArea, nearbyAreaStores, samePref, nearbyPrefStores, others]) {
     pool.sort((a, b) => b.score - a.score);
     results = [...results, ...pool];
     if (results.length >= 5) break;
@@ -735,11 +806,15 @@ function scoreStores(answers: Answers): ScoredStore[] {
 
 function buildReason(s: Store & { score: number }, a: Answers): string {
   const p: string[] = [];
-  const loc = s.area === a.area && s.prefecture === a.prefecture
+  const isExact = s.area === a.area && s.prefecture === a.prefecture;
+  const isNearby = (nearbyAreas[a.area] || []).includes(s.area);
+  const loc = isExact
     ? `${a.area}で`
+    : isNearby
+    ? `${s.area}（${a.area}から近い）で`
     : s.prefecture === a.prefecture
-    ? `${s.area}（${a.area}近く）で`
-    : `${s.prefecture}${s.area}（${a.prefecture}近隣エリア）で`;
+    ? `${s.area}（${a.area}と同じ${s.prefecture}内）で`
+    : `${s.prefecture}${s.area}（${a.prefecture}${a.area}の近隣）で`;
   const feat = s.features[0] || '充実した指導';
   if (a.purpose === 'ダイエット・減量') p.push(`${loc}ダイエットを始めたいあなたには、${s.gymName}の${feat}がぴったり`);
   else if (a.purpose === '筋肥大・ボディメイク') p.push(`${loc}本格ボディメイクを目指すなら、${s.gymName}の${feat}が最適`);
