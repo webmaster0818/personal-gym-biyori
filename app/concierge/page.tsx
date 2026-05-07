@@ -658,23 +658,73 @@ function budgetToPriceCategories(b: string): string[] {
 
 type ScoredStore = Store & { score: number; matchPct: number; reason: string };
 
+/* --- 近隣都道府県マッピング --- */
+const nearbyPrefectures: Record<string, string[]> = {
+  '東京': ['神奈川', '埼玉', '千葉'],
+  '神奈川': ['東京', '埼玉', '千葉'],
+  '埼玉': ['東京', '神奈川', '千葉'],
+  '千葉': ['東京', '神奈川', '埼玉'],
+  '愛知': ['大阪', '京都', '兵庫'],
+  '大阪': ['京都', '兵庫', '愛知'],
+  '京都': ['大阪', '兵庫'],
+  '兵庫': ['大阪', '京都'],
+  '福岡': ['熊本', '佐賀', '長崎', '大分'],
+  '熊本': ['福岡', '佐賀', '長崎', '大分'],
+  '佐賀': ['福岡', '熊本', '長崎'],
+  '長崎': ['福岡', '佐賀', '熊本'],
+  '大分': ['福岡', '熊本'],
+  '北海道': ['宮城'],
+  '宮城': ['北海道'],
+  '広島': ['岡山', '大阪'],
+  '岡山': ['広島', '大阪', '兵庫'],
+  '沖縄': [],
+};
+
 function scoreStores(answers: Answers): ScoredStore[] {
   const cats = budgetToPriceCategories(answers.budget);
   const wantsLateNight = answers.time === '深夜(22時以降)' || answers.options.includes('深夜営業');
 
-  const scored = stores.map((s) => {
+  function calcScore(s: Store): number {
     let score = 0;
-    if (s.prefecture === answers.prefecture) { score += 40; if (s.area === answers.area) score += 25; }
     if (cats.includes(s.priceCategory)) score += 20;
     if (s.purpose.includes(answers.purpose)) score += 15;
     if (s.intensity.includes(answers.intensity)) score += 10;
     if (wantsLateNight && s.lateNight) score += 8;
     score += answers.options.filter((o) => s.options.includes(o)).length * 4;
-    return { ...s, score };
-  });
+    return score;
+  }
 
-  scored.sort((a, b) => b.score - a.score);
-  const top = scored.slice(0, 5);
+  // Step 1: エリア完全一致（同じ都道府県 + 同じエリア）
+  const exactArea = stores
+    .filter((s) => s.prefecture === answers.prefecture && s.area === answers.area)
+    .map((s) => ({ ...s, score: calcScore(s) + 65 }));
+
+  // Step 2: 同じ都道府県の別エリア
+  const samePref = stores
+    .filter((s) => s.prefecture === answers.prefecture && s.area !== answers.area)
+    .map((s) => ({ ...s, score: calcScore(s) + 40 }));
+
+  // Step 3: 近隣都道府県
+  const nearby = nearbyPrefectures[answers.prefecture] || [];
+  const nearbyStores = stores
+    .filter((s) => nearby.includes(s.prefecture))
+    .map((s) => ({ ...s, score: calcScore(s) + 20 }));
+
+  // Step 4: その他（オンライン含む）
+  const others = stores
+    .filter((s) => s.prefecture !== answers.prefecture && !nearby.includes(s.prefecture))
+    .map((s) => ({ ...s, score: calcScore(s) }));
+
+  // エリア優先で結合: まず完全一致から埋め、足りなければ同県→近隣→その他
+  let results: (Store & { score: number })[] = [];
+  for (const pool of [exactArea, samePref, nearbyStores, others]) {
+    pool.sort((a, b) => b.score - a.score);
+    results = [...results, ...pool];
+    if (results.length >= 5) break;
+  }
+
+  results.sort((a, b) => b.score - a.score);
+  const top = results.slice(0, 5);
   const maxScore = Math.max(top[0]?.score ?? 1, 1);
 
   return top.map((s) => {
@@ -685,7 +735,11 @@ function scoreStores(answers: Answers): ScoredStore[] {
 
 function buildReason(s: Store & { score: number }, a: Answers): string {
   const p: string[] = [];
-  const loc = s.area === a.area ? `${a.area}で` : `${s.prefecture}エリアで`;
+  const loc = s.area === a.area && s.prefecture === a.prefecture
+    ? `${a.area}で`
+    : s.prefecture === a.prefecture
+    ? `${s.area}（${a.area}近く）で`
+    : `${s.prefecture}${s.area}（${a.prefecture}近隣エリア）で`;
   const feat = s.features[0] || '充実した指導';
   if (a.purpose === 'ダイエット・減量') p.push(`${loc}ダイエットを始めたいあなたには、${s.gymName}の${feat}がぴったり`);
   else if (a.purpose === '筋肥大・ボディメイク') p.push(`${loc}本格ボディメイクを目指すなら、${s.gymName}の${feat}が最適`);
