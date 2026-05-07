@@ -159,12 +159,20 @@ export default function Home() {
             厳選60社以上のパーソナルジムを料金・口コミ・特徴から徹底比較。
             初心者からボディメイク志望まで、目的に合ったジム選びをサポートします。
           </p>
-          <Link
-            href="#ranking"
-            className="inline-block bg-accent hover:bg-accent-dark text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
-          >
-            ランキングを見る
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/concierge/"
+              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
+            >
+              無料ジム診断をする
+            </Link>
+            <Link
+              href="#ranking"
+              className="inline-block bg-white/10 hover:bg-white/20 text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg border border-white/30"
+            >
+              ランキングを見る
+            </Link>
+          </div>
         </div>
       </section>
 
