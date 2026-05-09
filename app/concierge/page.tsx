@@ -1178,30 +1178,33 @@ export default function ConciergePage() {
                       </div>
 
                       {/* CTA */}
-                      <div className="flex flex-col sm:flex-row gap-2">
-                        {isAffiliate ? (
+                      <div className="flex flex-col gap-2">
+                        {isAffiliate && (
                           <a
                             href={r.affiliateUrl}
                             target="_blank"
                             rel="noopener noreferrer nofollow"
-                            className="flex-1 text-center px-5 py-2.5 bg-orange-500 text-white font-medium rounded-lg hover:bg-orange-600 transition-colors text-sm"
+                            className="block w-full text-center px-5 py-3.5 bg-orange-500 text-white font-bold rounded-lg hover:bg-orange-600 transition-colors text-base shadow-md"
                           >
-                            無料カウンセリングへ
+                            無料カウンセリングをする
                           </a>
-                        ) : (
+                        )}
+                        <div className="flex gap-2">
                           <Link
                             href={r.slug}
-                            className="flex-1 text-center px-5 py-2.5 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 transition-colors text-sm"
+                            className={`flex-1 text-center px-5 py-2.5 font-medium rounded-lg transition-colors text-sm ${isAffiliate ? 'border border-gray-300 text-gray-600 hover:bg-gray-50' : 'bg-teal-600 text-white hover:bg-teal-700'}`}
                           >
-                            詳細を見る
+                            {isAffiliate ? '店舗詳細ページへ' : '詳細を見る'}
                           </Link>
-                        )}
-                        <Link
-                          href={r.slug}
-                          className="flex-1 text-center px-5 py-2.5 border border-gray-300 text-gray-600 font-medium rounded-lg hover:bg-gray-50 transition-colors text-sm"
-                        >
-                          店舗詳細ページへ
-                        </Link>
+                          {!isAffiliate && (
+                            <Link
+                              href={r.slug}
+                              className="flex-1 text-center px-5 py-2.5 border border-gray-300 text-gray-600 font-medium rounded-lg hover:bg-gray-50 transition-colors text-sm"
+                            >
+                              店舗詳細ページへ
+                            </Link>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
