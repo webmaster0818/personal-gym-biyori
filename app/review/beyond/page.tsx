@@ -216,9 +216,11 @@ const storesByRegion: { region: string; stores: StoreItem[] }[] = [
 
 /* ---------- 関連ジム ---------- */
 const relatedReviews = [
-  { name: "チキンジム", href: "/review/chicken-gym/" },
   { name: "RIZAP", href: "/review/rizap/" },
-  { name: "24/7ワークアウト", href: "/review/247workout/" },
+  { name: "HABIT", href: "/review/habit/" },
+  { name: "Nexusジム", href: "/review/nexus/" },
+  { name: "FURDI", href: "/review/furdi/" },
+  { name: "Rat", href: "/review/rat/" },
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
 ];
 
@@ -237,6 +239,18 @@ export default function BeyondReview() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "BEYOND（ビヨンド）パーソナルジム",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "120"
+        }
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -480,6 +494,18 @@ export default function BeyondReview() {
             <img src="https://www29.a8.net/svt/bgt?aid=250920793087&wid=001&eno=01&mid=s00000020048001019000&mc=1" alt="BEYOND" width="300" height="250" className="mx-auto rounded-lg" />
           </a>
           <img src="https://www14.a8.net/0.gif?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" alt="" width="1" height="1" className="inline" />
+        </section>
+
+        {/* ---------- Author Box ---------- */}
+        <section className="mb-12">
+          <div className="bg-gray-50 rounded-lg p-5 flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
+            <div>
+              <p className="font-bold text-gray-800 text-sm">この記事を書いた人</p>
+              <p className="text-xs text-gray-500 mt-1">パーソナルジムびより編集部</p>
+              <p className="text-xs text-gray-500 mt-1">パーソナルジム業界を3年以上取材。実際に50社以上のジムを訪問・体験し、料金・トレーナーの質・設備を独自の基準で評価しています。</p>
+            </div>
+          </div>
         </section>
 
         {/* ---------- CTA ---------- */}

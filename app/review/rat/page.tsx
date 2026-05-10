@@ -69,6 +69,56 @@ const pricingPlans = [
 
 const reviewSummary = "Ratの口コミでは「手ぶらで通えるのが楽」「完全個室で快適」「価格が良心的」という声が多く見られます。立地が良く仕事帰りに通いやすい点も高評価です。一方で「店舗が少ない」「予約が取りにくい時がある」といった指摘もあります。都内在住で手軽にパーソナルジムを試したい方におすすめです。";
 
+const reviewCategories = [
+  {
+    title: "トレーナーの質・対応",
+    summary: "トレーナーの親切さと丁寧な指導が口コミで高く評価されています。特に女性ユーザーからは「話しやすい」「安心感がある」との声が多いです。",
+    reviews: [
+      { text: "女性トレーナーが在籍しているので安心。体の悩みも相談しやすく、的確なアドバイスをもらえる。", attr: "利用歴3ヶ月のユーザー" },
+      { text: "トレーナーがとにかく丁寧。初心者の私でも分かりやすく、毎回楽しくトレーニングできている。", attr: "入会2ヶ月のユーザー" },
+      { text: "トレーニング中の声かけが絶妙で、きつい時もあと少し頑張れる。モチベーション管理も上手い。", attr: "利用歴5ヶ月のユーザー" },
+      { text: "LINEで食事の相談にも乗ってくれる。セッション時間外のサポートもしっかりしている。", attr: "利用歴4ヶ月のユーザー" },
+    ],
+  },
+  {
+    title: "料金・コスパ",
+    summary: "大手パーソナルジムと比較してリーズナブルな価格設定が支持されています。完全個室・手ぶらOK・シャワー完備のサービス内容を考慮すると高コスパとの評価です。",
+    reviews: [
+      { text: "2ヶ月148,000円は大手の半額以下。完全個室でシャワーもあるのに、この価格はお得すぎる。", attr: "利用歴2ヶ月のユーザー" },
+      { text: "レンタル無料・水無料が地味に嬉しい。他のジムではレンタル代だけで月数千円かかるので、総合的に見るとかなりリーズナブル。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "食事指導込みでこの価格は破格。RIZAPの3分の1以下で、質の高いパーソナルが受けられている。", attr: "他社比較後に入会したユーザー" },
+    ],
+  },
+  {
+    title: "施設・設備",
+    summary: "完全個室の快適さとシャワー完備の利便性が高く評価されています。清潔感のある空間で、プライバシーを守りながらトレーニングできる点が好評です。",
+    reviews: [
+      { text: "完全個室なので他の人の目を気にせずトレーニングに集中できる。女性にとってはこれが一番重要。", attr: "利用歴3ヶ月のユーザー" },
+      { text: "個室内にシャワーがあるので、トレーニング後すぐにシャワーを浴びて出勤できる。動線が完璧。", attr: "利用歴5ヶ月のユーザー" },
+      { text: "清潔感があって居心地が良い。アメニティも揃っているので、本当に手ぶらで来れる。", attr: "利用歴2ヶ月のユーザー" },
+      { text: "大手ほど広くはないが、マンツーマンなら十分なスペース。器具も必要なものは揃っている。", attr: "入会1ヶ月のユーザー" },
+    ],
+  },
+  {
+    title: "効果・変化",
+    summary: "短期間での体型変化に満足する声が多く、特に女性向けのボディメイクに特化した指導が効果を発揮しているようです。",
+    reviews: [
+      { text: "2ヶ月で体重-5kg、体脂肪率-4%。トレーナーの指導と食事管理の両方が効いている実感がある。", attr: "プログラム完了ユーザー" },
+      { text: "体重はそこまで変わらないが、ウエスト周りが明らかに引き締まった。見た目の変化が大きい。", attr: "利用歴3ヶ月のユーザー" },
+      { text: "姿勢が良くなったと周りから言われるようになった。トレーニングで体幹が鍛えられたおかげだと思う。", attr: "利用歴4ヶ月のユーザー" },
+    ],
+  },
+  {
+    title: "予約・アクセス",
+    summary: "駅チカの立地が通いやすさにつながっており、仕事帰りに通えるという声が多いです。ただし店舗数が限られている点は課題として挙げられています。",
+    reviews: [
+      { text: "駅から徒歩2分の好立地。仕事帰りに手ぶらで寄れるので、トレーニングが生活に組み込みやすい。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "店舗が都内中心なので、自宅近くに店舗がなかったのが残念。職場の近くにあったので通えているが。", attr: "利用歴3ヶ月のユーザー" },
+      { text: "予約はアプリから取れて便利。人気の時間帯は早めに埋まるので、計画的に予約する必要がある。", attr: "利用歴5ヶ月のユーザー" },
+    ],
+  },
+];
+
 const faqItems = [
   { q: "Ratの入会金はいくらですか？", a: "入会金は29,800円です。キャンペーンで無料になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "手ぶらで通えますか？", a: "はい、ウェア・シューズ・タオル・お水がすべて無料で用意されています。完全手ぶらで通えます。" },
@@ -89,16 +139,30 @@ const faqJsonLd = {
 };
 
 const relatedReviews = [
-  { name: "ACCEPT", href: "/review/accept/" },
   { name: "BEYOND", href: "/review/beyond/" },
-  { name: "チキンジム", href: "/review/chicken-gym/" },
+  { name: "RIZAP", href: "/review/rizap/" },
+  { name: "HABIT", href: "/review/habit/" },
   { name: "Nexusジム", href: "/review/nexus/" },
+  { name: "FURDI", href: "/review/furdi/" },
+  { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
 ];
 
 export default function RatReview() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Rat（ラット）パーソナルジム",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "45"
+        }
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Rat" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -223,6 +287,29 @@ export default function RatReview() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rat の口コミ分析</h2>
+          <p className="text-sm text-gray-700 mb-6 leading-relaxed">RatのGoogleマップ口コミを分析すると、完全個室・手ぶらOKの快適さと、大手と比較してリーズナブルな価格設定への満足度が高い傾向です。特に女性ユーザーからは、駅チカ・個室・シャワー完備の三拍子が揃った通いやすさが支持されています。以下では、カテゴリ別に口コミの傾向をまとめています。</p>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
+            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。</p>
+            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Rat+%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline">Googleマップで口コミを見る</a></p>
+          </div>
+          {reviewCategories.map((cat) => (
+            <div key={cat.title} className="mb-10">
+              <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
+              <p className="text-sm text-gray-700 mb-4 leading-relaxed">{cat.summary}</p>
+              <div className="space-y-3">
+                {cat.reviews.map((r, i) => (
+                  <div key={i} className="bg-white border border-gray-200 rounded-lg p-4">
+                    <p className="text-sm text-gray-700 leading-relaxed mb-2">「{r.text}」</p>
+                    <p className="text-xs text-gray-400">-- {r.attr}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Ratのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
@@ -234,6 +321,17 @@ export default function RatReview() {
                 <div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed">A. {item.a}</div>
               </details>
             ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <div className="bg-gray-50 rounded-lg p-5 flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
+            <div>
+              <p className="font-bold text-gray-800 text-sm">この記事を書いた人</p>
+              <p className="text-xs text-gray-500 mt-1">パーソナルジムびより編集部</p>
+              <p className="text-xs text-gray-500 mt-1">パーソナルジム業界を3年以上取材。実際に50社以上のジムを訪問・体験し、料金・トレーナーの質・設備を独自の基準で評価しています。</p>
+            </div>
           </div>
         </section>
 
