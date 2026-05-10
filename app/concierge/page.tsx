@@ -44,6 +44,7 @@ const gymImages: Record<string, string> = {
   'MIYAZAKI GYM': '/ss-miyazaki-gym.jpg',
   'element': '/ss-element.jpg',
   'chocozap': '/ss-chocozap.jpg',
+  'Apple GYM': '/ss-beyond.jpg',
 };
 
 /* --- helper to generate many stores for one brand ----------------------- */
@@ -76,6 +77,7 @@ const COCODAKARA_AFF = 'https://t.felmat.net/fmcl?ak=L10446X.1.C147837Q.Q136169A
 const LASTSTYLE_AFF = 'https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A';
 const PLEZ_AFF = 'https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A';
 const FIT24_AFF = 'https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A';
+const APPLE_GYM_AFF = 'https://t.felmat.net/fmcl?ak=E45324.1.T82347J.A132329L';
 
 const stores: Store[] = [
   /* ── BEYOND (affiliate, premium) ─────────────────────── */
@@ -584,6 +586,29 @@ const stores: Store[] = [
     ['埼玉', '大宮', '/review/reprecious/omiya/'],
     ['埼玉', '浦和', '/review/reprecious/urawa/'],
     ['埼玉', '川口', '/review/reprecious/kawaguchi/'],
+  ]),
+  /* ── Apple GYM (affiliate, mid) ─────────────────────── */
+  ...mkStores('Apple GYM', {
+    price: '月額24,200円〜',
+    priceCategory: 'mid',
+    hours: '7:00〜23:00',
+    lateNight: true,
+    features: ['海外式ボディメイク', '姿勢改善', '食事指導付き', '完全個室'],
+    purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '姿勢改善・腰痛改善'],
+    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
+    options: ['食事指導あり', '完全個室', '駅チカ(徒歩5分以内)'],
+    affiliateUrl: APPLE_GYM_AFF,
+  }, [
+    ['東京', '新宿', '/review/apple-gym/shinjuku/'],
+    ['東京', '渋谷', '/review/apple-gym/shibuya/'],
+    ['東京', '池袋', '/review/apple-gym/ikebukuro/'],
+    ['東京', '銀座', '/review/apple-gym/ginza/'],
+    ['東京', '恵比寿', '/review/apple-gym/ebisu/'],
+    ['東京', '中目黒', '/review/apple-gym/nakameguro/'],
+    ['東京', '吉祥寺', '/review/apple-gym/kichijoji/'],
+    ['東京', '町田', '/review/apple-gym/machida/'],
+    ['神奈川', '横浜', '/review/apple-gym/yokohama/'],
+    ['神奈川', '川崎', '/review/apple-gym/kawasaki/'],
   ]),
 ];
 

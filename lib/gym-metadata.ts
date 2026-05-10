@@ -87,7 +87,8 @@ export const gymMetadata: Record<string, GymMeta> = {
   },
   "Apple GYM（アップルジム）": {
     reviewHref: "/review/apple-gym/",
-    googleMapQuery: "Apple+GYM+パーソナルジム",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=E45324.1.T82347J.A132329L",
+    googleMapQuery: "Apple+GYM+アップルジム",
     type: "海外式ボディメイクジム",
     hours: "7:00〜23:00",
   },

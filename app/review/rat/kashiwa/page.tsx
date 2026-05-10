@@ -3,24 +3,24 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "RAT 中目黒店の口コミ・評判",
+  title: "RAT 柏店の口コミ・評判",
   description:
-    "RAT 中目黒店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "RAT 柏店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
 };
 
 const basicInfo = [
-  { label: "店舗名", value: "RAT 中目黒店" },
-  { label: "住所", value: "東京都目黒区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "中目黒駅 徒歩約5分" },
-  { label: "営業時間", value: "※公式サイトでご確認ください" },
+  { label: "店舗名", value: "RAT 柏店" },
+  { label: "住所", value: "千葉県柏市（※最新情報は公式サイトでご確認ください）" },
+  { label: "最寄駅", value: "柏駅 徒歩2分" },
+  { label: "営業時間", value: "9:00〜22:00" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 const faqItems = [
-  { q: "RAT中目黒店の料金はいくらですか？", a: "コースにより異なります。最新の料金は公式サイトでご確認ください。" },
-  { q: "RAT中目黒店の営業時間は？", a: "営業時間は公式サイトでご確認ください。" },
-  { q: "RAT中目黒店は体験トレーニングを受けられますか？", a: "はい、体験トレーニングが用意されています。公式サイトから予約可能です。" },
-  { q: "RAT中目黒店のアクセスは？", a: "中目黒駅から徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "RAT柏店の料金はいくらですか？", a: "2ヶ月148,000円〜のコースが用意されています。大手パーソナルジムと比較してリーズナブルな価格設定が魅力です。最新の料金は公式サイトでご確認ください。" },
+  { q: "RAT柏店は完全個室ですか？", a: "はい、Ratは全室完全個室のパーソナルジムです。他の会員と顔を合わせることなくトレーニングに集中できます。" },
+  { q: "RAT柏店は女性でも通いやすいですか？", a: "はい、Ratは女性向けに設計されたパーソナルジムです。完全個室・手ぶらOK・シャワー完備で、女性が安心して通える環境が整っています。" },
+  { q: "RAT柏店のアクセスは？", a: "柏駅から徒歩2分の好立地です。駅近で通いやすい環境です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -34,6 +34,8 @@ const faqJsonLd = {
 };
 
 const relatedStores = [
+  { name: "RAT 北千住店", href: "/review/rat/kitasenju/" },
+  { name: "RAT 西船橋店", href: "/review/rat/nishi-funabashi/" },
   { name: "RAT 目黒店", href: "/review/rat/meguro/" },
 ];
 
@@ -45,12 +47,12 @@ export default function StorePage() {
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
           { name: "RAT", href: "/review/rat/" },
-          { name: "中目黒店" },
+          { name: "柏店" },
         ]}
       />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RAT 中目黒店の口コミ・評判</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RAT 柏店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
@@ -83,15 +85,15 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
-            <p className="text-gray-600 mb-4">RAT 中目黒店の所在地をGoogleマップで確認できます。</p>
-            <a href="https://www.google.com/maps/search/RAT+パーソナルジム+中目黒店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
+            <p className="text-gray-600 mb-4">RAT 柏店の所在地をGoogleマップで確認できます。</p>
+            <a href="https://www.google.com/maps/search/RAT+パーソナルジム+柏店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
           </div>
         </section>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT中目黒店は、中目黒駅から徒歩圏内にあるパーソナルジムです。おしゃれな中目黒エリアに立地しており、トレンドに敏感な若い世代に人気があります。完全予約制のプライベート空間で、一人ひとりに合ったトレーニングプランを提供してもらえると好評です。
+            RAT柏店は、柏駅から徒歩わずか2分という抜群のアクセスが魅力のパーソナルジムです。千葉県内でリーズナブルに完全個室パーソナルトレーニングを受けたい方に人気があります。手ぶらで通えるレンタルサービスが充実しており、買い物ついでや仕事帰りに気軽に立ち寄れると好評です。トレーナーの丁寧な指導で、運動初心者の女性からも高い支持を得ています。
           </p>
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>

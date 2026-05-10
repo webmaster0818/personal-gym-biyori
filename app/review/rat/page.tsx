@@ -105,7 +105,13 @@ export default function RatReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           Ratの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            パーソナルジムRat の公式サイトはこちら
+          </a>
+          <img src="https://t.felmat.net/fmimp/K7799I.V118185D.Q136169A" width={1} height={1} alt="" className="inline" />
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           Rat（ラット）は<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・手ぶらOKの都内パーソナルジムです。低価格ながらシャワー完備やレンタル無料など、通いやすさを追求した環境が特徴。本記事では、Ratの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
@@ -126,6 +132,12 @@ export default function RatReview() {
             </table>
           </div>
         </section>
+
+        {/* 営業時間のお知らせ */}
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
+          <p className="text-sm text-blue-800 font-medium mb-1">営業時間に関するお知らせ</p>
+          <p className="text-xs text-blue-700">北千住店・柏店・西船橋店・高槻店・神戸三宮元町店・西宮北口店・福岡天神店の営業時間は9:00〜22:00です。店舗により営業時間が異なる場合がありますので、最新情報は公式サイトでご確認ください。</p>
+        </div>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Ratの3つの強み</h2>
@@ -192,6 +204,16 @@ export default function RatReview() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
         </section>
 
+        {/* 中間CTA */}
+        <section className="mb-12">
+          <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
+            <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
+            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
+            <img src="https://t.felmat.net/fmimp/K7799I.V118185D.Q136169A" width={1} height={1} alt="" className="inline" />
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Ratの口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5">
@@ -218,9 +240,15 @@ export default function RatReview() {
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 className="text-xl font-bold mb-3">Ratが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、手ぶらパーソナルの快適さを体感してみましょう。</p>
-          <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
-            ランキングに戻る
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
+              公式サイトへ
+            </a>
+            <Link href="/#ranking" className="inline-block border border-white text-white font-bold py-2.5 px-6 rounded-lg hover:bg-white/10 transition-colors text-sm">
+              ランキングに戻る
+            </Link>
+          </div>
+          <img src="https://t.felmat.net/fmimp/K7799I.V118185D.Q136169A" width={1} height={1} alt="" className="inline" />
         </section>
 
         <section>

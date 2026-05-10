@@ -52,6 +52,12 @@ export default function StorePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">RAT 目黒店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
+            パーソナルジムRat の公式サイトはこちら
+          </a>
+          <img src="https://t.felmat.net/fmimp/K7799I.V118185D.Q136169A" width={1} height={1} alt="" className="inline" />
+        </p>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">基本情報</h2>
@@ -70,7 +76,8 @@ export default function StorePage() {
         </section>
         {/* CTA ボタン */}
         <div className="mb-10 text-center">
-          <Link href="/review/rat/" className="inline-block bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-sm">総合レビューを見る</Link>
+          <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-sm">無料カウンセリングを予約する</a>
+          <img src="https://t.felmat.net/fmimp/K7799I.V118185D.Q136169A" width={1} height={1} alt="" className="inline" />
         </div>
 
         <section className="mb-10">
@@ -108,8 +115,10 @@ export default function StorePage() {
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
             <p className="font-bold text-gray-800">RATの詳しい口コミ・料金情報はこちら</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/review/rat/" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">RATの総合レビューを見る</Link>
+              <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">無料カウンセリングを予約する</a>
+              <Link href="/review/rat/" className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">RATの総合レビューを見る</Link>
             </div>
+            <img src="https://t.felmat.net/fmimp/K7799I.V118185D.Q136169A" width={1} height={1} alt="" className="inline" />
           </div>
         </section>
 

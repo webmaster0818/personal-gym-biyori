@@ -252,7 +252,9 @@ export default function BeyondReview() {
         </p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-beyond.jpg" alt="BEYOND 公式サイト" className="w-full h-auto" />
+          <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="/ss-beyond.jpg" alt="BEYOND 口コミ・評判" className="w-full h-auto" />
+          </a>
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
         </div>
 
