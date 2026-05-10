@@ -3,16 +3,17 @@ import Link from "next/link";
 const services = [
   {
     rank: 1,
-    name: "チキンジム",
-    slug: "chicken-gym",
-    tagline: "初心者でも続けやすいパーソナルジム",
-    price: "月額6,800円〜",
-    features: ["全国30店舗以上", "初心者向けプログラム", "手ぶらOK", "ウェア・シューズ無料レンタル"],
-    pros: ["業界最安クラスの料金設定", "駅近で通いやすい立地", "トレーナーの丁寧な指導が好評"],
-    cons: ["店舗によって混雑する時間帯あり", "上級者向けプログラムが少ない"],
-    recommend: "コスパ重視で、無理なく通い続けたい方におすすめ。",
-    reviewPath: "/review/chicken-gym/",
-    comment: "初めてのパーソナルジムならここ！低価格で始めやすく、トレーナーの対応も丁寧です。",
+    name: "BEYOND",
+    slug: "beyond",
+    tagline: "ボディメイク特化のパーソナルジム",
+    price: "月額8,250円〜",
+    features: ["ボディメイク特化", "コンテスト入賞トレーナー在籍", "糖質制限なし", "全国75店舗以上"],
+    pros: ["トレーナーの質が非常に高い", "見た目の変化にこだわれる", "全プラン入会金無料"],
+    cons: ["店舗が都市部に集中", "プラン料金がやや複雑"],
+    recommend: "見た目を変えたい方、ボディメイクにこだわりたい方向け。",
+    reviewPath: "/review/beyond/",
+    comment: "筋肉をつけて見た目を変えたいなら、トレーナーの質が高いBEYONDが最適です。",
+    affiliateUrl: "https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL",
   },
   {
     rank: 2,
@@ -26,45 +27,49 @@ const services = [
     recommend: "本気で体を変えたい方、短期間で結果を出したい方向け。",
     reviewPath: "/review/rizap/",
     comment: "本気で結果を出したいなら間違いなし。食事管理の徹底度が他社とは段違いです。",
+    affiliateUrl: "https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX",
   },
   {
     rank: 3,
-    name: "24/7ワークアウト",
-    slug: "247workout",
-    tagline: "3食食べて痩せるダイエットジム",
-    price: "月額7,500円〜",
-    features: ["3食食べるダイエット", "深夜営業対応", "完全個室", "全額返金保証"],
-    pros: ["食事制限がゆるめで続けやすい", "深夜まで営業で仕事帰りもOK", "リバウンド率が低い"],
-    cons: ["店舗数がやや少ない", "人気トレーナーは予約が取りにくい"],
-    recommend: "食事を楽しみながらダイエットしたい方に最適。",
-    reviewPath: "/review/247workout/",
-    comment: "食事を我慢したくない方にはベストな選択肢。リバウンドしにくいのも魅力的ですね。",
+    name: "HABIT",
+    slug: "habit",
+    tagline: "東京の住宅街に展開するマンツーマンジム",
+    price: "月額制",
+    features: ["マンツーマン指導", "東京17店舗", "住宅街に近い", "食事指導付き"],
+    pros: ["住宅街に店舗があり通いやすい", "丁寧なマンツーマン指導", "月額制で続けやすい"],
+    cons: ["東京エリアに限定", "大阪以外の地方展開が少ない"],
+    recommend: "東京で自宅近くのパーソナルジムを探している方におすすめ。",
+    reviewPath: "/review/habit/",
+    comment: "自宅から通いやすい立地と丁寧な指導が魅力。東京在住の方には特におすすめです。",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A",
   },
   {
     rank: 4,
-    name: "BEYOND",
-    slug: "beyond",
-    tagline: "ボディメイク特化のパーソナルジム",
-    price: "月額8,250円〜",
-    features: ["ボディメイク特化", "コンテスト入賞トレーナー在籍", "糖質制限なし", "都市部中心展開"],
-    pros: ["トレーナーの質が非常に高い", "見た目の変化にこだわれる", "食事指導が柔軟"],
-    cons: ["店舗が都市部に集中", "プラン料金がやや複雑"],
-    recommend: "見た目を変えたい方、ボディメイクにこだわりたい方向け。",
-    reviewPath: "/review/beyond/",
-    comment: "筋肉をつけて見た目を変えたいなら、トレーナーの質が高いBEYONDが最適です。",
+    name: "FURDI",
+    slug: "furdi",
+    tagline: "AI×女性専用の月額7,678円〜サーキットジム",
+    price: "月額7,678円〜",
+    features: ["AI指導", "女性専用", "予約不要", "通い放題", "全国59店舗"],
+    pros: ["月額7,678円〜の圧倒的低価格", "AIだから人目を気にしない", "予約不要で好きな時に通える"],
+    cons: ["対人指導がない", "本格的な筋トレには不向き"],
+    recommend: "低価格で気軽に運動習慣をつけたい女性におすすめ。",
+    reviewPath: "/review/furdi/",
+    comment: "月額7,678円で通い放題は驚き。女性専用でAI指導なので気楽に通えます。",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A",
   },
   {
     rank: 5,
-    name: "エクササイズコーチ",
-    slug: "exercise-coach",
-    tagline: "AI搭載マシンで効率的なトレーニング",
-    price: "月額9,900円〜",
-    features: ["AI搭載マシン", "1回20分の時短トレーニング", "月4回からOK", "全国展開中"],
-    pros: ["1回20分で忙しい方にぴったり", "AIが最適な負荷を自動調整", "低価格で始めやすい"],
-    cons: ["フリーウェイトが少ない", "トレーナーとの関係が薄め"],
-    recommend: "忙しくて時間がない方、効率重視の方におすすめ。",
-    reviewPath: "/review/exercise-coach/",
-    comment: "忙しいビジネスパーソンには革命的。20分で効果が出るのは時間効率が最高ですね。",
+    name: "Nexusジム",
+    slug: "nexus",
+    tagline: "月額19,800円〜の格安パーソナルジム",
+    price: "月額19,800円〜",
+    features: ["格安月額制", "完全個室", "マンツーマン指導", "東京25店舗"],
+    pros: ["パーソナルジム業界最安級の料金", "月額制で辞めやすい", "完全個室で集中できる"],
+    cons: ["セッション時間が短め", "店舗数が限られる"],
+    recommend: "パーソナルジムを試してみたいけど費用が不安な方の入門に最適。",
+    reviewPath: "/review/nexus/",
+    comment: "月額2万円を切るパーソナルジムは貴重。まず試してみたい方にぴったりです。",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L",
   },
 ];
 
@@ -286,12 +291,22 @@ export default function Home() {
                     comment={service.comment}
                   />
 
-                  <div className="mt-5">
+                  <div className="mt-5 flex flex-col sm:flex-row gap-2">
+                    {service.affiliateUrl && (
+                      <a
+                        href={service.affiliateUrl}
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm shadow-sm"
+                      >
+                        無料カウンセリングへ
+                      </a>
+                    )}
                     <Link
                       href={service.reviewPath}
                       className="inline-block bg-accent hover:bg-accent-dark text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm shadow-sm"
                     >
-                      {service.name}の口コミ・詳細を見る
+                      口コミ・詳細を見る
                     </Link>
                   </div>
                 </div>
