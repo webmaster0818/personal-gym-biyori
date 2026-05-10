@@ -174,6 +174,13 @@ export default function StorePage() {
           </div>
         </section>
 
+        {/* ---------- バナー広告 ---------- */}
+        <section className="mb-10 text-center">
+          <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="https://t.felmat.net/fmimg/S7941C.L119607K.Q136169A" alt="Nexusジム" width="301" height="251" className="mx-auto rounded-lg" />
+          </a>
+        </section>
+
         <section className="mb-10">
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
             <p className="font-bold text-gray-800">

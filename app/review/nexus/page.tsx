@@ -232,7 +232,7 @@ export default function NexusReview() {
         {/* バナー広告 */}
         <section className="mb-10">
           <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow">
-            <img src="https://t.felmat.net/fmimg/S7941C.L119607K.A132329L" alt="Nexusジム" width="728" height="90" className="w-full h-auto rounded-lg" />
+            <img src="https://t.felmat.net/fmimg/S7941C.L119607K.Q136169A" alt="Nexusジム" width="728" height="90" className="w-full h-auto rounded-lg" />
           </a>
         </section>
 
