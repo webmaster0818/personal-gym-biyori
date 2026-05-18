@@ -242,6 +242,15 @@ export default function BeyondReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
+          {"@type": "ListItem", "position": 3, "name": "BEYOND"}
+        ]
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "BEYOND（ビヨンド）パーソナルジム",
         "aggregateRating": {
@@ -249,7 +258,8 @@ export default function BeyondReview() {
           "ratingValue": "4.6",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "120"
+          "ratingCount": "120",
+          "reviewCount": "120"
         }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

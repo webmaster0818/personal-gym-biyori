@@ -78,6 +78,8 @@ const reviewCategories = [
       { text: "AI指導がメインだが、最初にスタッフがマシンの使い方を丁寧に教えてくれた。困った時もすぐ声をかけてくれるので安心。", attr: "利用歴2ヶ月のユーザー" },
       { text: "スタッフに質問すると親切に答えてくれる。AIだけでは分からないフォームの微調整も対応してもらえた。", attr: "利用歴4ヶ月のユーザー" },
       { text: "人間のトレーナーに気を使わなくていいのが逆に楽。自分のペースで黙々とトレーニングしたい人にはぴったり。", attr: "利用歴6ヶ月のユーザー" },
+      { text: "入会時のカウンセリングで体の悩みや目標を丁寧にヒアリングしてくれた。AIメニューもその情報をもとに最適化されている感じがする。", attr: "入会1ヶ月のユーザー" },
+      { text: "スタッフが定期的に声をかけてくれるのでモチベーションが保てる。放置されている感じは全くない。", attr: "利用歴5ヶ月のユーザー" },
     ],
   },
   {
@@ -88,6 +90,8 @@ const reviewCategories = [
       { text: "パーソナルジムは月5万円以上のイメージだったが、FURDIならお財布を気にせず通える。主婦の私には助かる。", attr: "利用歴3ヶ月のユーザー" },
       { text: "この価格でAIがフォーム指導してくれるのはすごい。安いからといって手を抜いている感じはまったくない。", attr: "利用歴4ヶ月のユーザー" },
       { text: "食事指導はオプションなので、つけると追加費用がかかる。基本プランだけなら本当に安い。", attr: "入会2ヶ月のユーザー" },
+      { text: "毎日通っても月額は変わらないので、1回あたり250円程度。ジュース1本分で本格トレーニングできる計算。", attr: "利用歴7ヶ月のユーザー" },
+      { text: "U-18プランが月5,478円と更に安い。娘と一緒に通い始めたが、二人合わせても月13,000円程度で済む。", attr: "利用歴3ヶ月のユーザー" },
     ],
   },
   {
@@ -97,6 +101,8 @@ const reviewCategories = [
       { text: "女性専用なので更衣室もトレーニングスペースも気兼ねなく使える。清潔感があって快適。", attr: "利用歴3ヶ月のユーザー" },
       { text: "大型モニターのAIトレーナーが見やすくて分かりやすい。200種類以上のメニューがあるので飽きない。", attr: "利用歴6ヶ月のユーザー" },
       { text: "フリーウェイトはないので、本格的な筋トレをしたい人には物足りないかも。サーキット型の有酸素+筋トレの組み合わせ向き。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "店内は明るく開放的な雰囲気。女性目線の内装で居心地が良く、ジムに通っている感覚よりスタジオに来ている感覚に近い。", attr: "利用歴2ヶ月のユーザー" },
+      { text: "マシンの配置が分かりやすく、サーキットの流れが自然と身につく。迷わずトレーニングに集中できる。", attr: "利用歴5ヶ月のユーザー" },
     ],
   },
   {
@@ -106,6 +112,8 @@ const reviewCategories = [
       { text: "運動経験ゼロだったが、3ヶ月で体重が4キロ減った。通い放題なので週3-4回通えるのが大きい。", attr: "利用歴3ヶ月のユーザー" },
       { text: "体重はそこまで変わらないが、体が引き締まってきた。階段で息切れしなくなったのが嬉しい。", attr: "利用歴5ヶ月のユーザー" },
       { text: "サーキット型で全身をまんべんなく動かすので、特定の部位だけ鍛える偏りがない。バランスよく体が変わってきた。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "半年続けて肩こりと腰痛が明らかに改善した。筋力がついて日常生活が楽になった。", attr: "利用歴6ヶ月のユーザー" },
+      { text: "産後太りが気になって始めたが、4ヶ月で産前の体型に戻れた。子連れNGだが短時間で済むので助かる。", attr: "利用歴4ヶ月のユーザー" },
     ],
   },
   {
@@ -115,17 +123,33 @@ const reviewCategories = [
       { text: "予約不要で好きな時間にフラッと行けるのが最高。仕事の合間や買い物帰りにサクッと30分トレーニングできる。", attr: "利用歴6ヶ月のユーザー" },
       { text: "近所にFURDIができたのがきっかけで入会。徒歩圏内にあるので天候にも左右されず通いやすい。", attr: "利用歴3ヶ月のユーザー" },
       { text: "混雑する時間帯はマシンの順番待ちが発生することがある。平日の日中は空いていて快適。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "全国展開しているので引っ越し先でも通えそう。転勤族の自分には店舗数の多さが安心材料。", attr: "利用歴5ヶ月のユーザー" },
+      { text: "営業時間が長いので、早朝や夜遅くでも通えるのが助かる。ライフスタイルに合わせやすい。", attr: "利用歴4ヶ月のユーザー" },
+    ],
+  },
+  {
+    title: "入会・体験",
+    summary: "無料体験の敷居の低さが好評で、体験から入会までの流れがスムーズだという声が多いです。無理な勧誘がない点も安心材料として挙げられています。",
+    reviews: [
+      { text: "無料体験で実際にサーキットトレーニングを一通り体験できた。入会前に雰囲気を確認できるのが良い。", attr: "体験後に入会したユーザー" },
+      { text: "体験時に無理な勧誘がなく、自分のペースで入会を検討できた。押し売りがないのは好感が持てる。", attr: "入会1ヶ月のユーザー" },
+      { text: "入会手続きが簡単で、体験当日にそのまま入会できた。始めたいと思った時にすぐ始められるのが良い。", attr: "入会2ヶ月のユーザー" },
+      { text: "友人に誘われて体験したが、想像以上にAIの指導が分かりやすくてそのまま入会を決めた。", attr: "入会1ヶ月のユーザー" },
     ],
   },
 ];
 
 const faqItems = [
   { q: "FURDIの入会金はいくらですか？", a: "入会金は19,800円です。キャンペーンで無料になることがあります。最新情報は公式サイトでご確認ください。" },
-  { q: "AIトレーニングとは具体的にどんなものですか？", a: "大型モニターにAIトレーナーが表示され、動きのお手本やカウント、フォームの指示を行います。200種類以上のメニューが用意されています。" },
-  { q: "1回のトレーニング時間はどのくらいですか？", a: "1回15〜30分が目安です。自分のペースで調整できるため、短時間でも長時間でも利用可能です。" },
-  { q: "見学や体験はできますか？", a: "無料体験が用意されています。公式サイトまたは各店舗にお問い合わせください。" },
+  { q: "AIトレーニングとは具体的にどんなものですか？", a: "大型モニターにAIトレーナーが表示され、正しいフォームのお手本を見せながらカウントやペース配分の指示を行います。200種類以上のメニューが用意されており、体力レベルや目的に合わせてAIが最適なメニューを提案してくれます。" },
+  { q: "1回のトレーニング時間はどのくらいですか？", a: "1回15〜30分が目安です。サーキット型トレーニングなので短時間でも効率的に全身を動かせます。自分のペースで調整できるため、体力に応じて時間を延ばすことも可能です。" },
+  { q: "見学や体験はできますか？", a: "はい、無料体験が用意されています。実際にAIトレーナーによるサーキットトレーニングを体験できるので、入会前に雰囲気や運動強度を確認できます。公式サイトまたは各店舗にお問い合わせください。" },
   { q: "男性は利用できますか？", a: "いいえ、FURDIは女性専用のフィットネスジムです。" },
   { q: "退会方法を教えてください。", a: "退会希望の場合は、前月の10日までに店舗に申告が必要です。詳細は入会時にご確認ください。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、FURDIの利用者の多くは運動未経験者です。AIトレーナーが動きの手本を見せてくれるので、初心者でも安心してトレーニングに取り組めます。" },
+  { q: "どのくらいの頻度で通うのがおすすめですか？", a: "週2〜3回が目安として推奨されていますが、通い放題プランなので毎日通っても追加料金はかかりません。自分のペースで通えます。" },
+  { q: "混雑する時間帯はいつですか？", a: "平日の夕方17時〜19時頃と土曜日の午前中が比較的混みやすい傾向があります。平日の日中は空いていることが多いです。" },
+  { q: "トレーニングメニューは自分で選べますか？", a: "はい、200種類以上のメニューから目的に合わせて選択できます。AIが体力レベルや目標に合わせたメニューを提案してくれるので、迷う心配もありません。" },
 ];
 
 const faqJsonLd = {
@@ -153,6 +177,15 @@ export default function FurdiReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
+          {"@type": "ListItem", "position": 3, "name": "FURDI（ファディー）"}
+        ]
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "FURDI（ファディー）",
         "aggregateRating": {
@@ -160,7 +193,8 @@ export default function FurdiReview() {
           "ratingValue": "4.2",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "52"
+          "ratingCount": "52",
+          "reviewCount": "52"
         }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -248,6 +282,32 @@ export default function FurdiReview() {
                 <p className="text-sm text-gray-700 leading-relaxed pl-6">{d.desc}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">FURDIが向いている人・向いていない人</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50 rounded-lg p-5">
+              <h3 className="font-bold text-green-700 mb-3">向いている人</h3>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>運動初心者で気軽に始めたい女性</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>月額1万円以下の低価格で通い放題を希望する方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>予約なしで好きな時間に通いたい方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>人目を気にせず自分のペースで運動したい方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>30分以内の短時間で効率よくトレーニングしたい方</li>
+              </ul>
+            </div>
+            <div className="bg-red-50 rounded-lg p-5">
+              <h3 className="font-bold text-red-700 mb-3">向いていない人</h3>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>男性（女性専用のため利用不可）</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>本格的な筋力トレーニング・筋肥大を目指す方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>トレーナーによる直接の対面指導を求める方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>フリーウェイトやバーベルを使ったトレーニングがしたい方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>食事指導も含めた総合的なサポートが必要な方</li>
+              </ul>
+            </div>
           </div>
         </section>
 

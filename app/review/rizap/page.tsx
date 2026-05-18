@@ -244,6 +244,15 @@ export default function RizapReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
+          {"@type": "ListItem", "position": 3, "name": "RIZAP"}
+        ]
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "RIZAP（ライザップ）",
         "aggregateRating": {
@@ -251,7 +260,8 @@ export default function RizapReview() {
           "ratingValue": "4.3",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "210"
+          "ratingCount": "210",
+          "reviewCount": "210"
         }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

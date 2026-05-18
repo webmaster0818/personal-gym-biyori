@@ -235,6 +235,15 @@ export default function HabitReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
+          {"@type": "ListItem", "position": 3, "name": "HABIT PERSONAL GYM"}
+        ]
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "HABIT PERSONAL GYM（ハビット）",
         "aggregateRating": {
@@ -242,7 +251,8 @@ export default function HabitReview() {
           "ratingValue": "4.5",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "65"
+          "ratingCount": "65",
+          "reviewCount": "65"
         }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

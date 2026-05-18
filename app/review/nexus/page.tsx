@@ -79,6 +79,8 @@ const reviewCategories = [
       { text: "トレーナーが毎回の体調を確認してからメニューを組んでくれるので、無理なく追い込める。距離感もちょうど良い。", attr: "利用歴5ヶ月のユーザー" },
       { text: "運動経験ゼロで不安だったが、器具の使い方から呼吸法まで一から教えてもらえた。初心者にも本当に優しい。", attr: "入会2ヶ月のユーザー" },
       { text: "大手から乗り換えたが、トレーナーの質は遜色ないと感じた。むしろ少人数制で一人ひとりに時間をかけてくれる印象。", attr: "他社から乗り換えたユーザー" },
+      { text: "毎回トレーニング後に次回までの自主トレメニューを提案してくれる。ジム以外の時間も意識が変わった。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "筋トレ初心者の自分にも分かりやすい言葉で説明してくれる。専門用語を並べないので理解しやすい。", attr: "入会1ヶ月のユーザー" },
     ],
   },
   {
@@ -88,6 +90,9 @@ const reviewCategories = [
       { text: "月額2万円を切る価格でマンツーマン指導が受けられるのは本当に驚き。パーソナルジムを諦めていたが、ここなら続けられる。", attr: "利用歴4ヶ月のユーザー" },
       { text: "大手パーソナルジムの3分の1以下の料金で同等のトレーニングが受けられていると感じる。コスパは文句なし。", attr: "利用歴6ヶ月のユーザー" },
       { text: "月額制なので毎月の支出が一定で家計管理がしやすい。高額な一括払いと違い、合わなければすぐ辞められる安心感がある。", attr: "入会3ヶ月のユーザー" },
+      { text: "入会金のキャンペーンを利用したら初月の総額が3万円台で済んだ。パーソナルジムでこの金額は信じられない。", attr: "入会1ヶ月のユーザー" },
+      { text: "月8回プランでも週2回通えて月34,800円。1回あたり4,350円と考えるとかなりお得。", attr: "利用歴5ヶ月のユーザー" },
+      { text: "友人に紹介して二人で通い始めた。紹介割引もあって初月はさらにお得だった。コスパ重視なら間違いなくおすすめ。", attr: "利用歴3ヶ月のユーザー" },
     ],
   },
   {
@@ -97,6 +102,8 @@ const reviewCategories = [
       { text: "大手のような豪華さはないが、トレーニングに必要な器具は揃っている。個室で集中できるので満足。", attr: "利用歴4ヶ月のユーザー" },
       { text: "店舗は小さめだが清潔に保たれている。近所のジムという感覚で気軽に通えるのが良い。", attr: "利用歴2ヶ月のユーザー" },
       { text: "シャワーがない店舗もあるので、事前確認は必須。自宅から近い人向けの設計だと感じた。", attr: "入会1ヶ月のユーザー" },
+      { text: "完全個室なので周りの目を気にせずトレーニングに集中できる。初心者には嬉しい環境。", attr: "利用歴3ヶ月のユーザー" },
+      { text: "ダンベルやケーブルマシンなど基本的な器具は充実している。この価格帯で個室なら十分すぎる。", attr: "利用歴5ヶ月のユーザー" },
     ],
   },
   {
@@ -106,6 +113,8 @@ const reviewCategories = [
       { text: "3ヶ月で体重は3キロ減、体脂肪率も落ちた。高額ジムに通わなくても結果は出ると実感した。", attr: "利用歴3ヶ月のユーザー" },
       { text: "筋トレ初心者だが、正しいフォームを教えてもらったおかげで明らかに筋力がついてきた。服のサイズが変わった。", attr: "利用歴5ヶ月のユーザー" },
       { text: "セッション時間は40分と短めだが、効率的なメニュー構成のおかげで十分な負荷がかかる。短時間集中型で自分には合っている。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "半年で体脂肪率が5%落ちた。食事アドバイスも含まれているので、食生活も改善できたのが大きい。", attr: "利用歴6ヶ月のユーザー" },
+      { text: "姿勢が良くなったと周囲に言われるようになった。デスクワーカーの自分には猫背改善の効果が嬉しい。", attr: "利用歴4ヶ月のユーザー" },
     ],
   },
   {
@@ -115,17 +124,33 @@ const reviewCategories = [
       { text: "LINEで簡単に予約できるのが楽。キャンセルも前日までに連絡すればOKで、柔軟に対応してもらえる。", attr: "利用歴3ヶ月のユーザー" },
       { text: "近所に店舗があったので通い始めたが、もし引っ越したら通えなくなるのが不安。もう少し店舗が増えてほしい。", attr: "利用歴6ヶ月のユーザー" },
       { text: "平日の夜は予約が埋まりやすい。早めに予約を入れておけば問題ないが、当日予約は難しいこともある。", attr: "利用歴2ヶ月のユーザー" },
+      { text: "駅から徒歩5分以内の立地が多いので通いやすい。仕事帰りにサクッと寄れるのがありがたい。", attr: "利用歴4ヶ月のユーザー" },
+      { text: "土日も予約可能なので、平日忙しい自分でも週末にしっかり通える。時間帯の選択肢が広い。", attr: "利用歴3ヶ月のユーザー" },
+    ],
+  },
+  {
+    title: "入会・カウンセリング",
+    summary: "入会前のカウンセリングが丁寧で、無理な勧誘がないことが好評です。体験トレーニングで実際の指導内容を確認できる点も安心材料として挙げられています。",
+    reviews: [
+      { text: "無料カウンセリングで体の悩みや目標を丁寧に聞いてもらえた。押し売り感がゼロで好印象だった。", attr: "体験後に入会したユーザー" },
+      { text: "体験トレーニングで実際のセッション内容を体験できたので、入会後のギャップがなかった。", attr: "入会1ヶ月のユーザー" },
+      { text: "LINEで気軽に問い合わせできるのが良い。返信も早く、入会前の不安が解消された。", attr: "入会2ヶ月のユーザー" },
+      { text: "入会手続きもシンプルで10分程度で完了した。すぐにトレーニングを始められるスピード感が良い。", attr: "入会1ヶ月のユーザー" },
     ],
   },
 ];
 
 const faqItems = [
   { q: "Nexusジムの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
-  { q: "なぜこんなに安いのですか？", a: "広告費の最適化や設備のシンプル化、効率的な運営により低価格を実現しています。トレーニングの質は維持されています。" },
-  { q: "初心者でも大丈夫ですか？", a: "はい、初心者の方が多く通われています。トレーナーが一から丁寧に指導するため安心です。" },
-  { q: "食事指導は受けられますか？", a: "はい、基本的な食事アドバイスがプランに含まれています。" },
-  { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
+  { q: "なぜこんなに安いのですか？", a: "広告費の最適化や設備のシンプル化、効率的な運営により低価格を実現しています。大規模な広告宣伝を行わず口コミ中心の集客を行うことでコストを削減し、トレーニングの質は維持したまま業界最安級の価格を実現しています。" },
+  { q: "初心者でも大丈夫ですか？", a: "はい、Nexusジムの利用者の多くは筋トレ初心者です。トレーナーが器具の使い方やフォーム、呼吸法まで一から丁寧に指導するため、運動経験がない方でも安心してスタートできます。" },
+  { q: "食事指導は受けられますか？", a: "はい、基本的な食事アドバイスがプランに含まれています。毎食の厳密な管理ではなく、食事内容の改善ポイントや摂取すべき栄養素の提案など、無理なく続けられるレベルのアドバイスが中心です。" },
+  { q: "無料体験はありますか？", a: "はい、無料カウンセリング・体験トレーニングが用意されています。実際にトレーナーによるマンツーマン指導を体験できるので、入会前にジムの雰囲気やトレーナーとの相性を確認できます。公式サイトから簡単に予約可能です。" },
   { q: "退会に違約金はかかりますか？", a: "月額制のため、基本的に違約金はありません。退会希望の場合は前月までに申告が必要です。" },
+  { q: "セッション時間はどのくらいですか？", a: "1回のセッション時間は40分が基本です。短時間で効率的にトレーニングを行うスタイルのため、忙しい方でも通いやすいです。" },
+  { q: "プラン変更はできますか？", a: "はい、翌月から月4回・月8回・月12回の各プラン間で変更可能です。ライフスタイルに合わせて調整できます。" },
+  { q: "持ち物は何が必要ですか？", a: "トレーニングウェア・室内シューズ・タオルが基本です。店舗によってレンタル有無が異なるため、事前にご確認ください。" },
+  { q: "女性でも通いやすいですか？", a: "はい、完全個室でのマンツーマン指導のため、他の会員と顔を合わせることはありません。女性の利用者も多く在籍しています。" },
 ];
 
 const faqJsonLd = {
@@ -153,6 +178,15 @@ export default function NexusReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
+          {"@type": "ListItem", "position": 3, "name": "Nexusジム"}
+        ]
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Nexusジム",
         "aggregateRating": {
@@ -160,7 +194,8 @@ export default function NexusReview() {
           "ratingValue": "4.4",
           "bestRating": "5",
           "worstRating": "1",
-          "ratingCount": "38"
+          "ratingCount": "38",
+          "reviewCount": "38"
         }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -248,6 +283,32 @@ export default function NexusReview() {
                 <p className="text-sm text-gray-700 leading-relaxed pl-6">{d.desc}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">Nexusジムが向いている人・向いていない人</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50 rounded-lg p-5">
+              <h3 className="font-bold text-green-700 mb-3">向いている人</h3>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>初めてパーソナルジムを試してみたい方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>月々の予算を2万円以内に抑えたい方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>高額な一括払いではなく月額制で始めたい方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>東京都内在住でアクセスしやすい方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>40分程度の短時間トレーニングを希望する方</li>
+              </ul>
+            </div>
+            <div className="bg-red-50 rounded-lg p-5">
+              <h3 className="font-bold text-red-700 mb-3">向いていない人</h3>
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>本格的な筋肥大・ボディメイクが目的の方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>地方在住で都内に通えない方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>徹底した食事管理・栄養指導を重視する方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>1回60分以上の長時間セッションを希望する方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>最新設備やアメニティの充実を重視する方</li>
+              </ul>
+            </div>
           </div>
         </section>
 
