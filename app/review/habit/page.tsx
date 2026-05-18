@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
   title: "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -244,6 +245,23 @@ export default function HabitReview() {
           "ratingCount": "65"
         }
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "author": {
+          "@type": "Person",
+          "name": "山田 拓也",
+          "url": "https://personal-gym-biyori.com/about/",
+          "jobTitle": "パーソナルジム専門ライター"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "パーソナルジムびより"
+        },
+        "datePublished": "2026-04-01",
+        "dateModified": "2026-05-18"
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "HABIT PERSONAL GYM" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -422,6 +440,68 @@ export default function HabitReview() {
           ))}
         </section>
 
+        {/* ---------- 他のジムと比較 ---------- */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">HABIT PERSONAL GYMと他の人気ジムを比較しました。</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-teal-500 text-white">
+                  <th className="px-3 py-2 text-left font-medium">比較項目</th>
+                  <th className="px-3 py-2 text-center font-medium bg-teal-600">HABIT</th>
+                  <th className="px-3 py-2 text-center font-medium">BEYOND</th>
+                  <th className="px-3 py-2 text-center font-medium">Nexus</th>
+                  <th className="px-3 py-2 text-center font-medium">FURDI</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">料金体系</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">月額制</td>
+                  <td className="px-3 py-2 text-center text-gray-700">290,400円/16回</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額7,678円〜</td>
+                </tr>
+                <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">指導形式</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">マンツーマン</td>
+                  <td className="px-3 py-2 text-center text-gray-700">マンツーマン</td>
+                  <td className="px-3 py-2 text-center text-gray-700">マンツーマン</td>
+                  <td className="px-3 py-2 text-center text-gray-700">AI×サーキット</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">食事指導</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">あり</td>
+                  <td className="px-3 py-2 text-center text-gray-700">糖質制限なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700">あり</td>
+                  <td className="px-3 py-2 text-center text-gray-700">なし</td>
+                </tr>
+                <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">店舗立地</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">住宅街密着</td>
+                  <td className="px-3 py-2 text-center text-gray-700">駅近</td>
+                  <td className="px-3 py-2 text-center text-gray-700">駅近</td>
+                  <td className="px-3 py-2 text-center text-gray-700">全国展開</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">特徴</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">住宅街密着</td>
+                  <td className="px-3 py-2 text-center text-gray-700">トレーナー質◎</td>
+                  <td className="px-3 py-2 text-center text-gray-700">格安パーソナル</td>
+                  <td className="px-3 py-2 text-center text-gray-700">予約不要</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は各公式サイトでご確認ください。</p>
+          <div className="flex flex-wrap gap-2 mt-3">
+            <Link href="/review/beyond/" className="text-xs text-teal-600 hover:underline">BEYONDの口コミを見る →</Link>
+            <Link href="/review/nexus/" className="text-xs text-teal-600 hover:underline">Nexusの口コミを見る →</Link>
+            <Link href="/review/furdi/" className="text-xs text-teal-600 hover:underline">FURDIの口コミを見る →</Link>
+          </div>
+        </section>
+
         {/* ---------- FAQ ---------- */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMのよくある質問</h2>
@@ -475,16 +555,7 @@ export default function HabitReview() {
         </section>
 
         {/* ---------- Author Box ---------- */}
-        <section className="mb-12">
-          <div className="bg-gray-50 rounded-lg p-5 flex items-start gap-4">
-            <div className="w-12 h-12 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
-            <div>
-              <p className="font-bold text-gray-800 text-sm">この記事を書いた人</p>
-              <p className="text-xs text-gray-500 mt-1">パーソナルジムびより編集部</p>
-              <p className="text-xs text-gray-500 mt-1">パーソナルジム業界を3年以上取材。実際に50社以上のジムを訪問・体験し、料金・トレーナーの質・設備を独自の基準で評価しています。</p>
-            </div>
-          </div>
-        </section>
+        <AuthorBox />
 
         {/* ---------- CTA ---------- */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">

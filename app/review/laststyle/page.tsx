@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
   title: "Laststyleの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -99,6 +100,23 @@ export default function LaststyleReview() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Laststyleの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "author": {
+          "@type": "Person",
+          "name": "山田 拓也",
+          "url": "https://personal-gym-biyori.com/about/",
+          "jobTitle": "パーソナルジム専門ライター"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "パーソナルジムびより"
+        },
+        "datePublished": "2026-04-01",
+        "dateModified": "2026-05-18"
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Laststyle" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -234,6 +252,9 @@ export default function LaststyleReview() {
             ))}
           </div>
         </section>
+
+        {/* Author Box */}
+        <AuthorBox />
 
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">

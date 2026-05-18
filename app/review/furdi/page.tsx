@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
   title: "FURDI（ファディー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -162,6 +163,23 @@ export default function FurdiReview() {
           "ratingCount": "52"
         }
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "FURDI（ファディー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "author": {
+          "@type": "Person",
+          "name": "山田 拓也",
+          "url": "https://personal-gym-biyori.com/about/",
+          "jobTitle": "パーソナルジム専門ライター"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "パーソナルジムびより"
+        },
+        "datePublished": "2026-04-01",
+        "dateModified": "2026-05-18"
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "FURDI" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -300,6 +318,68 @@ export default function FurdiReview() {
           ))}
         </section>
 
+        {/* ---------- 他のジムと比較 ---------- */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">FURDIと他の人気ジムを比較しました。</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-teal-500 text-white">
+                  <th className="px-3 py-2 text-left font-medium">比較項目</th>
+                  <th className="px-3 py-2 text-center font-medium bg-teal-600">FURDI</th>
+                  <th className="px-3 py-2 text-center font-medium">Nexus</th>
+                  <th className="px-3 py-2 text-center font-medium">カーブス</th>
+                  <th className="px-3 py-2 text-center font-medium">エクササイズコーチ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">月額料金</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">7,678円〜</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                  <td className="px-3 py-2 text-center text-gray-700">6,820円〜</td>
+                  <td className="px-3 py-2 text-center text-gray-700">9,900円〜</td>
+                </tr>
+                <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">指導形式</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">AI×サーキット</td>
+                  <td className="px-3 py-2 text-center text-gray-700">マンツーマン</td>
+                  <td className="px-3 py-2 text-center text-gray-700">サーキット</td>
+                  <td className="px-3 py-2 text-center text-gray-700">AI×マンツーマン</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">1回の時間</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">30分</td>
+                  <td className="px-3 py-2 text-center text-gray-700">60分</td>
+                  <td className="px-3 py-2 text-center text-gray-700">30分</td>
+                  <td className="px-3 py-2 text-center text-gray-700">20分</td>
+                </tr>
+                <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">予約</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">不要</td>
+                  <td className="px-3 py-2 text-center text-gray-700">必要</td>
+                  <td className="px-3 py-2 text-center text-gray-700">不要</td>
+                  <td className="px-3 py-2 text-center text-gray-700">必要</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">特徴</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">AI×予約不要</td>
+                  <td className="px-3 py-2 text-center text-gray-700">格安パーソナル</td>
+                  <td className="px-3 py-2 text-center text-gray-700">女性専用</td>
+                  <td className="px-3 py-2 text-center text-gray-700">AI効率特化</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は各公式サイトでご確認ください。</p>
+          <div className="flex flex-wrap gap-2 mt-3">
+            <Link href="/review/nexus/" className="text-xs text-teal-600 hover:underline">Nexusの口コミを見る →</Link>
+            <Link href="/review/curves/" className="text-xs text-teal-600 hover:underline">カーブスの口コミを見る →</Link>
+            <Link href="/review/exercise-coach/" className="text-xs text-teal-600 hover:underline">エクササイズコーチの口コミを見る →</Link>
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FURDIのよくある質問</h2>
           <div className="space-y-3">
@@ -322,16 +402,7 @@ export default function FurdiReview() {
           </a>
         </section>
 
-        <section className="mb-12">
-          <div className="bg-gray-50 rounded-lg p-5 flex items-start gap-4">
-            <div className="w-12 h-12 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
-            <div>
-              <p className="font-bold text-gray-800 text-sm">この記事を書いた人</p>
-              <p className="text-xs text-gray-500 mt-1">パーソナルジムびより編集部</p>
-              <p className="text-xs text-gray-500 mt-1">パーソナルジム業界を3年以上取材。実際に50社以上のジムを訪問・体験し、料金・トレーナーの質・設備を独自の基準で評価しています。</p>
-            </div>
-          </div>
-        </section>
+        <AuthorBox />
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 className="text-xl font-bold mb-3">FURDIが気になった方へ</h2>

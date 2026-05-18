@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
   title: "BEYONDの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -251,6 +252,23 @@ export default function BeyondReview() {
           "ratingCount": "120"
         }
       }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "BEYONDの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "author": {
+          "@type": "Person",
+          "name": "山田 拓也",
+          "url": "https://personal-gym-biyori.com/about/",
+          "jobTitle": "パーソナルジム専門ライター"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "パーソナルジムびより"
+        },
+        "datePublished": "2026-04-01",
+        "dateModified": "2026-05-18"
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -436,6 +454,75 @@ export default function BeyondReview() {
           ))}
         </section>
 
+        {/* ---------- 他のジムと比較 ---------- */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">BEYONDと他の人気ジムを比較しました。</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-teal-500 text-white">
+                  <th className="px-3 py-2 text-left font-medium">比較項目</th>
+                  <th className="px-3 py-2 text-center font-medium bg-teal-600">BEYOND</th>
+                  <th className="px-3 py-2 text-center font-medium">RIZAP</th>
+                  <th className="px-3 py-2 text-center font-medium">HABIT</th>
+                  <th className="px-3 py-2 text-center font-medium">24/7ワークアウト</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">2ヶ月料金</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">290,400円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">327,800円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額33,000円〜</td>
+                </tr>
+                <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">回数</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">16回</td>
+                  <td className="px-3 py-2 text-center text-gray-700">16回</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">食事指導</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">糖質制限なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700">徹底管理</td>
+                  <td className="px-3 py-2 text-center text-gray-700">あり</td>
+                  <td className="px-3 py-2 text-center text-gray-700">3食しっかり</td>
+                </tr>
+                <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">返金保証</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700">30日間</td>
+                  <td className="px-3 py-2 text-center text-gray-700">なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700">あり</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-3 py-2 font-medium text-gray-800">入会金</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">無料</td>
+                  <td className="px-3 py-2 text-center text-gray-700">55,000円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">-</td>
+                  <td className="px-3 py-2 text-center text-gray-700">無料</td>
+                </tr>
+                <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">特徴</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">トレーナー質◎</td>
+                  <td className="px-3 py-2 text-center text-gray-700">結果コミット</td>
+                  <td className="px-3 py-2 text-center text-gray-700">住宅街密着</td>
+                  <td className="px-3 py-2 text-center text-gray-700">深夜営業</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は各公式サイトでご確認ください。</p>
+          <div className="flex flex-wrap gap-2 mt-3">
+            <Link href="/review/rizap/" className="text-xs text-teal-600 hover:underline">RIZAPの口コミを見る →</Link>
+            <Link href="/review/habit/" className="text-xs text-teal-600 hover:underline">HABITの口コミを見る →</Link>
+            <Link href="/review/247workout/" className="text-xs text-teal-600 hover:underline">24/7ワークアウトの口コミを見る →</Link>
+          </div>
+        </section>
+
         {/* ---------- FAQ ---------- */}
         <section id="faq" className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDのよくある質問</h2>
@@ -497,16 +584,7 @@ export default function BeyondReview() {
         </section>
 
         {/* ---------- Author Box ---------- */}
-        <section className="mb-12">
-          <div className="bg-gray-50 rounded-lg p-5 flex items-start gap-4">
-            <div className="w-12 h-12 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
-            <div>
-              <p className="font-bold text-gray-800 text-sm">この記事を書いた人</p>
-              <p className="text-xs text-gray-500 mt-1">パーソナルジムびより編集部</p>
-              <p className="text-xs text-gray-500 mt-1">パーソナルジム業界を3年以上取材。実際に50社以上のジムを訪問・体験し、料金・トレーナーの質・設備を独自の基準で評価しています。</p>
-            </div>
-          </div>
-        </section>
+        <AuthorBox />
 
         {/* ---------- CTA ---------- */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
