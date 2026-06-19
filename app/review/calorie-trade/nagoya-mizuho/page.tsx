@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
   title: "CALORIE TRADE JAPAN 名古屋瑞穂区店の口コミ・評判",
@@ -53,6 +54,7 @@ export default function StorePage() {
           { name: "名古屋瑞穂区店" },
         ]}
       />
+      <ReviewSummary gymName="名古屋瑞穂区店" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 ---------- */}

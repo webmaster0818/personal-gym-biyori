@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
   title: "BEYOND 所沢店の口コミ・評判",
@@ -53,6 +54,7 @@ export default function StorePage() {
           { name: "所沢店" },
         ]}
       />
+      <ReviewSummary gymName="所沢店" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 ---------- */}

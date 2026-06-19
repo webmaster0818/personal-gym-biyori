@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ReviewSummary from "@/components/ReviewSummary";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
@@ -120,6 +121,7 @@ export default function CocodakaraReview() {
         "dateModified": "2026-05-18"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "CoCoDakara Body Design" }]} />
+      <ReviewSummary gymName="CoCoDakara Body Design" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">

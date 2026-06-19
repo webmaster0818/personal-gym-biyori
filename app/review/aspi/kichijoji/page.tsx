@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
   title: "ASPI 吉祥寺店の口コミ・評判",
@@ -53,6 +54,7 @@ export default function StorePage() {
           { name: "吉祥寺店" },
         ]}
       />
+      <ReviewSummary gymName="吉祥寺店" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">

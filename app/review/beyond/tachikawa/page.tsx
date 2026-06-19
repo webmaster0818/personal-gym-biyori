@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
   title: "BEYOND 立川店の口コミ・評判",
@@ -44,6 +45,7 @@ export default function StorePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND", href: "/review/beyond/" }, { name: "立川店" }]} />
+      <ReviewSummary gymName="立川店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">BEYOND 立川店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>

@@ -316,6 +316,17 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 目的別で探す */}
+      <section id="purpose" className="py-12 bg-orange-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-2">目的・条件から探す</h2>
+          <p className="text-gray-500 mb-6">女性専用・全額返金保証・分割払いOK・通い放題など、条件でパーソナルジムを比較</p>
+          <Link href="/compare/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
+            目的別パーソナルジム比較を見る
+          </Link>
+        </div>
+      </section>
+
       {/* Area */}
       <section id="area" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
