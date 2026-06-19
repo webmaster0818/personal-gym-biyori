@@ -103,6 +103,7 @@ export default function ComparePage() {
               「女性専用がいい」「返金保証があると安心」「分割払いで始めたい」「通い放題がいい」——目的・条件からパーソナルジムを探せる比較ハブです。各ジムのレビューへ直接アクセスでき、選び方のポイントもまとめています。
             </p>
             <p className="text-xs text-gray-500 mt-3">各ジムの特徴は公開情報および当サイト各レビューの記載にもとづく整理です（2026年6月時点）。料金・保証・プランの最新内容は各公式サイトでご確認ください。</p>
+            <p className="text-sm mt-4"><Link href="/price/" className="text-orange-600 font-medium hover:underline">▶ パーソナルジムの料金相場【2026年・エリア別】はこちら</Link></p>
           </div>
         </header>
 
