@@ -230,6 +230,7 @@ const toc = [
   { id: "merit-demerit", label: "24/7ワークアウトのメリット・デメリット" },
   { id: "pricing", label: "24/7ワークアウトの料金" },
   { id: "reviews", label: "24/7ワークアウトの口コミ分析" },
+  { id: "fail", label: "「痩せない・失敗」の理由と対策" },
   { id: "faq", label: "24/7ワークアウトのよくある質問" },
   { id: "stores", label: "24/7ワークアウトの店舗一覧" },
 ];
@@ -406,6 +407,28 @@ export default function Workout247Review() {
               </div>
             </div>
           ))}
+        </section>
+
+        {/* ---------- 痩せない・失敗の対策 ---------- */}
+        <section id="fail" className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトで「痩せない・失敗」と言われる理由と対策</h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            「24/7ワークアウトで痩せない」「失敗した」という声も一部に見られます。多くは<strong>取り組み方やジムとの相性のミスマッチ</strong>が原因です。失敗を避けるための注意点を整理しました。
+          </p>
+          <div className="space-y-4">
+            {[
+              { title: "終了後に食事・運動を元に戻してリバウンド", desc: "短期集中で結果が出ても、終了後に以前の生活へ完全に戻すとリバウンドしやすくなります。卒業後も続けられる食事・運動習慣をトレーナーと相談し、無理のない範囲で維持することが大切です。" },
+              { title: "食事管理の指示を守れていない", desc: "「3食しっかり食べる」方式でも、間食や飲酒など指示外の摂取が多いと効果は出にくくなります。記録アプリやLINEサポートを活用し、正直に申告して軌道修正することが結果につながります。" },
+              { title: "担当・店舗との相性が合わない", desc: "担当制でない店舗もあり、指導の一貫性に差を感じるケースがあります。相性が合わないと感じたら、早めに担当変更や店舗相談を申し出ましょう。無料カウンセリング時に指導方針を確認しておくと安心です。" },
+              { title: "期間・回数が目標に対して不足", desc: "目標体重や体型に対してコース期間・回数が不足していると、十分な結果が出ないことがあります。カウンセリングで現実的な目標設定と必要期間をすり合わせてから契約しましょう。" },
+            ].map((f, i) => (
+              <div key={i} className="bg-orange-50 rounded-lg p-5">
+                <h3 className="font-bold text-orange-800 mb-1">{f.title}</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">{f.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-gray-500 mt-3">※効果には個人差があります。上記は一般的な注意点で、特定の結果を保証するものではありません。</p>
         </section>
 
         {/* ---------- FAQ ---------- */}
