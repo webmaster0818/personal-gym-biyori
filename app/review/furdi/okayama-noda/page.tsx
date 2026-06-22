@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "FURDI 岡山野田店の口コミ・評判",
+  title: "FURDI 岡山野田店の口コミ・評判｜料金・アクセス・体験を解説【2026年】",
   description:
     "FURDI（ファディー）岡山野田店の口コミ・評判を紹介。AI指導・女性専用サーキット型フィットネスの基本情報から利用者の評価傾向まで詳しく解説します。",
 };

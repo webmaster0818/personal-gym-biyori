@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "Dr.トレーニング 恵比寿店の口コミ・評判",
+  title: "Dr.トレーニング 恵比寿店の口コミ・評判｜料金・アクセス・体験を解説【2026年】",
   description:
     "Dr.トレーニング 恵比寿店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
 };

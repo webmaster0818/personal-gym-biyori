@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "HABIT 梅ヶ丘店の口コミ・評判",
+  title: "HABIT 梅ヶ丘店の口コミ・評判｜料金・アクセス・体験を解説【2026年】",
   description:
     "HABIT 梅ヶ丘店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から詳しく解説します。",
 };
