@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム横浜おすすめ7選",
   description:
     "横浜でおすすめのパーソナルジム7選を厳選紹介。横浜駅・みなとみらい・関内エリアの料金相場・特徴・アクセスを徹底比較。",

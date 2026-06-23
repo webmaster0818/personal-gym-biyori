@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム池袋おすすめ7選",
   description:
     "池袋でおすすめのパーソナルジム7選を厳選紹介。池袋駅東口・西口エリアの料金相場・特徴・アクセスを徹底比較。",

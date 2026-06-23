@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム京都おすすめ5選",
   description:
     "京都でおすすめのパーソナルジム5選を厳選紹介。河原町・四条エリアの料金相場・特徴・アクセスを徹底比較。",

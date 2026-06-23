@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム広島おすすめ5選",
   description:
     "広島でおすすめのパーソナルジム5選を厳選紹介。広島駅・本通り周辺の料金相場・特徴・アクセスを徹底比較。中国地方で通えるジムを解説。",

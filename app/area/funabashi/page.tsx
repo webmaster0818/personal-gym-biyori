@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム船橋おすすめ5選",
   description:
     "船橋でおすすめのパーソナルジム5選を厳選紹介。船橋駅周辺の料金相場・特徴・アクセスを徹底比較。千葉県で通えるジムを解説。",

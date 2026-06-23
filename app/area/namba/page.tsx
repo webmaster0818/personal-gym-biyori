@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジムなんばおすすめ6選",
   description:
     "なんばでおすすめのパーソナルジム6選を厳選紹介。なんば駅周辺の料金相場・特徴・アクセスを徹底比較。大阪ミナミで通えるジムを解説。",

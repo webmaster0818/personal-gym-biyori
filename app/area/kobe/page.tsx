@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム神戸おすすめ5選",
   description:
     "神戸でおすすめのパーソナルジム5選を厳選紹介。三宮・元町エリアの料金相場・特徴・アクセスを徹底比較。",

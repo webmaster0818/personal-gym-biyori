@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム仙台おすすめ5選",
   description:
     "仙台でおすすめのパーソナルジム5選を厳選紹介。仙台駅周辺の料金相場・特徴・アクセスを徹底比較。",

@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム赤坂おすすめ5選",
   description:
     "赤坂でおすすめのパーソナルジム5選を厳選紹介。赤坂駅周辺の料金相場・特徴・アクセスを徹底比較。ビジネスパーソン向けのジムを解説。",

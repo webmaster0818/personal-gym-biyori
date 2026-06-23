@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム千葉おすすめ5選",
   description:
     "千葉でおすすめのパーソナルジム5選を厳選紹介。千葉駅周辺の料金相場・特徴・アクセスを徹底比較。千葉県の県庁所在地で通えるジムを解説。",

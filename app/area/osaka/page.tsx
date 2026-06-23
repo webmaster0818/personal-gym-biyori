@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム大阪おすすめ8選",
   description:
     "大阪でおすすめのパーソナルジム8選を厳選紹介。梅田・心斎橋・なんばエリアの料金相場・特徴・アクセスを徹底比較。",

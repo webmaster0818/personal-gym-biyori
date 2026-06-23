@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム新宿おすすめ8選",
   description:
     "新宿でおすすめのパーソナルジム8選を厳選紹介。新宿駅周辺の料金相場・特徴・アクセスを徹底比較。西口・東口・南口エリア別に解説。",

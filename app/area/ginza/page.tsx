@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム銀座おすすめ6選",
   description:
     "銀座でおすすめのパーソナルジム6選を厳選紹介。銀座・有楽町・東銀座エリアの料金相場・特徴・アクセスを徹底比較。",

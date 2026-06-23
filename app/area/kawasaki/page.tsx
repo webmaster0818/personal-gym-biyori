@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム川崎おすすめ5選",
   description:
     "川崎でおすすめのパーソナルジム5選を厳選紹介。川崎駅周辺の料金相場・特徴・アクセスを徹底比較。神奈川県で通えるジムを解説。",

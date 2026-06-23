@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム大宮おすすめ6選",
   description:
     "大宮でおすすめのパーソナルジム6選を厳選紹介。大宮駅周辺の料金相場・特徴・アクセスを徹底比較。埼玉県最大のターミナル駅周辺のジムを解説。",
