@@ -12,12 +12,20 @@ const footerLinks = [
     ],
   },
   {
+    title: '比較・料金で選ぶ',
+    links: [
+      { href: '/compare/', label: '目的別おすすめ比較' },
+      { href: '/price/', label: '料金相場・費用比較' },
+      { href: '/#ranking', label: 'おすすめランキング' },
+    ],
+  },
+  {
     title: 'エリア別',
     links: [
-      { href: '/#area', label: '東京' },
-      { href: '/#area', label: '大阪' },
-      { href: '/#area', label: '名古屋' },
-      { href: '/#area', label: '福岡' },
+      { href: '/area/tokyo/', label: '東京' },
+      { href: '/area/nagoya/', label: '名古屋' },
+      { href: '/area/fukuoka/', label: '福岡' },
+      { href: '/area/shibuya/', label: '渋谷' },
     ],
   },
   {
