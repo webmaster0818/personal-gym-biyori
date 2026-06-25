@@ -125,16 +125,27 @@ export default function Fit24Review() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           FIT24の口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             FIT24 の公式サイトはこちら
           </a>
         </p>
 
-        <p className="text-gray-700 leading-relaxed mb-10">
+        <p className="text-gray-700 leading-relaxed mb-6">
           FIT24（フィット24）は快活CLUBグループが運営する24時間セルフフィットネスジムです。月額<span className="font-bold bg-yellow-100 px-0.5">3,980円</span>〜の低価格で、好きな時間にマシントレーニングが可能。本記事では、FIT24の料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
+
+        <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">結論：FIT24はこんな人におすすめ</h2>
+          <ul className="space-y-1.5 text-sm text-gray-700">
+            <li>・<strong>料金</strong>：月額3,980円〜7,480円（プラン・店舗による）。業界最安クラスのセルフ型</li>
+            <li>・<strong>24時間365日</strong>いつでも利用可。早朝・深夜に通いたい人に向く</li>
+            <li>・<strong>快活CLUB併設</strong>店舗が多く、駐車場・設備を使いやすい</li>
+            <li>・一方、<strong>トレーナーの専属指導はない</strong>（セルフ型）。マンツーマン指導が欲しい人はパーソナルジムが向く</li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">料金・営業時間・併設施設は店舗により異なります。最新は公式でご確認ください。マンツーマン指導重視の方は<a href="/compare/" className="text-teal-600 underline">目的別おすすめ比較</a>・<a href="/review/real-body/" className="text-teal-600 underline">リアルボディの口コミ</a>もご覧ください。</p>
+        </div>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の基本情報</h2>
