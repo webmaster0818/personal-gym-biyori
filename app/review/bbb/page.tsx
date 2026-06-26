@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "BBB（トリプルビー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "BBB（トリプルビー）の口コミ・評判は？料金・効果を徹底解説【2026年】",
   description:
-    "BBB（トリプルビー）の口コミ・評判を徹底解説。ボディメイク特化パーソナルジムの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "BBB（トリプルビー）の口コミ・評判を徹底解説。ボディメイク特化パーソナルジムの料金の目安、体組成分析・食事指導の効果、良い口コミ・気になる口コミの傾向、よくある質問まで網羅。",
 };
 
 const basicInfo = [
@@ -77,6 +77,8 @@ const faqItems = [
   { q: "女性でも通えますか？", a: "はい、女性の利用者も多く在籍しています。完全個室のため安心してトレーニングに集中できます。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体組成測定が用意されています。公式サイトから予約できます。" },
   { q: "卒業後のサポートはありますか？", a: "プランによって卒業後のフォローアップセッションが含まれています。メンテナンスプランへの切り替えも可能です。" },
+  { q: "BBB（トリプルビー）の口コミ・評判は良いですか？", a: "「体組成分析で変化が数値で分かる」「見た目が大きく変わった」という好意的な口コミが多い傾向です。一方で「食事管理が厳しい」「料金が安くはない」という声もあります。最新の個別の口コミはGoogleマップでご確認ください。" },
+  { q: "BBBはどのくらいで効果が出ますか？", a: "効果には個人差があります。多くのプランが2〜3ヶ月の集中型で組まれており、その期間で見た目の変化を実感する声が見られます。具体的な目標と期間はカウンセリングで相談することをおすすめします。" },
 ];
 
 const faqJsonLd = {
@@ -104,12 +106,23 @@ export default function BbbReview() {
       <ReviewSummary gymName="BBB" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">BBB（トリプルビー）の口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">BBB（トリプルビー）の口コミ・評判は？料金・効果を徹底解説</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
 
-        <p className="text-gray-700 leading-relaxed mb-10">
-          BBB（トリプルビー）はボディメイクに特化したパーソナルジムです。体組成分析による科学的なアプローチと、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、BBBの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+        <p className="text-gray-700 leading-relaxed mb-6">
+          BBB（トリプルビー）はボディメイクに特化したパーソナルジムです。体組成分析による科学的なアプローチと、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、BBBの口コミ・評判の傾向、料金の目安、メリット・デメリットを詳しく解説します。
         </p>
+
+        <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">結論：BBB（トリプルビー）はこんな人におすすめ</h2>
+          <ul className="space-y-1.5 text-sm text-gray-700">
+            <li>・<strong>体重より見た目・ボディライン</strong>を変えたい人（ボディメイク特化）</li>
+            <li>・体組成分析の<strong>数値で変化を確認</strong>しながら進めたい人</li>
+            <li>・口コミは「見た目が変わった」「数値で分かる」が中心。一方「食事管理が厳しい」という声も</li>
+            <li>・料金・入会金・店舗は変動するため<strong>公式サイトでの確認が必要</strong></li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は一般的な目安です。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+        </div>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BBBの基本情報</h2>

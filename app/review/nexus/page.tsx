@@ -5,9 +5,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "Nexusジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "Nexusジムの口コミ・評判は？格安パーソナルの料金・効果を徹底解説",
   description:
-    "Nexusジムの口コミ・評判を徹底解説。格安パーソナル・月額制の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "Nexusジムの口コミ・評判を徹底解説。月額19,800円〜の格安・月額制パーソナルジムの料金、トレーナーの質や効果に関する口コミ傾向、メリット・デメリット、よくある質問まで網羅。",
 };
 
 const basicInfo = [
@@ -221,9 +221,9 @@ export default function NexusReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Nexusジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          Nexusジムの口コミ・評判は？格安パーソナルの料金・効果を徹底解説
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             Nexusジム の公式サイトはこちら
@@ -231,8 +231,19 @@ export default function NexusReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Nexusジムは月額<span className="font-bold bg-yellow-100 px-0.5">19,800円</span>〜の格安パーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額制</span>で始めやすく辞めやすい柔軟な料金体系と、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、Nexusジムの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          Nexusジムは月額<span className="font-bold bg-yellow-100 px-0.5">19,800円</span>〜の格安パーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額制</span>で始めやすく辞めやすい柔軟な料金体系と、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、Nexusジムの口コミ・評判の傾向、料金体系、メリット・デメリットを詳しく解説します。
         </p>
+
+        <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">結論：Nexusジムはこんな人におすすめ</h2>
+          <ul className="space-y-1.5 text-sm text-gray-700">
+            <li>・<strong>できるだけ安く</strong>パーソナル指導を試したい人（月額19,800円〜）</li>
+            <li>・高額な一括契約が不安で、<strong>月額制で気軽に始めたい</strong>人</li>
+            <li>・口コミは「この価格でこの質は驚き」「トレーナーが丁寧」が中心。一方「セッションが短め」「設備はシンプル」という声も</li>
+            <li>・料金・店舗・キャンペーンは変動するため<strong>公式サイトでの確認が必要</strong></li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は目安です。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+        </div>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Nexusジムの基本情報</h2>

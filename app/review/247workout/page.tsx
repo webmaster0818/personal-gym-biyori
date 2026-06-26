@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "24/7ワークアウトの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "24/7ワークアウトの口コミ・評判は？料金・効果を徹底解説【2026年】",
   description:
-    "24/7ワークアウトの口コミ・評判を徹底解説。深夜24時まで営業、3食食べるダイエット指導、月額7,500円〜の料金体系からメリット・デメリット、Googleマップの口コミ分析まで網羅。",
+    "24/7ワークアウトの口コミ・評判を徹底解説。深夜24時まで営業、3食食べるダイエット指導、料金の目安、痩せた人・失敗した人の傾向、Googleマップの口コミ分析、全国店舗一覧まで網羅。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -247,7 +247,7 @@ export default function Workout247Review() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           24/7ワークアウトの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-247workout.jpg" alt="24/7ワークアウト 公式サイト" className="w-full h-auto" />
@@ -257,6 +257,18 @@ export default function Workout247Review() {
         <p className="text-gray-700 leading-relaxed mb-10">
           24/7ワークアウトは全国80店舗以上を展開する大手パーソナルトレーニングジムです。深夜24時まで営業という業界随一の営業時間と、3食しっかり食べるダイエット指導が特徴。RIZAPの半額以下という手頃な料金設定で、「パーソナルジムは高くて手が出ない」と感じていた層にも支持されています。本記事では、24/7ワークアウトの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
+
+        {/* ---------- 結論ボックス ---------- */}
+        <div id="conclusion" className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">結論：24/7ワークアウトはこんな人におすすめ</h2>
+          <ul className="space-y-1.5 text-sm text-gray-700">
+            <li>・<strong>仕事帰りや深夜</strong>に通いたい人（多くの店舗で7:00〜24:00営業）</li>
+            <li>・<strong>3食食べながら</strong>無理のない食事指導で痩せたい人（極端な糖質制限が苦手な人）</li>
+            <li>・大手の中では<strong>比較的手頃な料金</strong>で本格パーソナルを試したい人</li>
+            <li>・口コミは「続けやすい」「結果が出た」が中心。一方「トレーナーの質に差」「解約条件が分かりにくい」という声も</li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">料金・営業時間・キャンペーンは店舗で異なります。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+        </div>
 
         {/* ---------- 目次 ---------- */}
         <nav className="bg-gray-50 rounded-lg p-5 mb-10">

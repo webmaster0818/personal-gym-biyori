@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "リアルボディの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "リアルボディの口コミ・評判は？仙台のパーソナルジムを徹底解説【2026年】",
   description:
-    "リアルボディの口コミ・評判を徹底解説。仙台発のパーソナルジムの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "リアルボディの口コミ・評判を徹底解説。仙台発・地域密着パーソナルジムの料金の目安、メリット・デメリット、良い口コミ・悪い口コミの傾向、よくある質問まで網羅。失敗しないジム選びの判断材料に。",
 };
 
 const basicInfo = [
@@ -70,6 +70,28 @@ const pricingPlans = [
 
 const reviewSummary = "リアルボディの口コミでは「仙台で気軽に通えるパーソナルジム」「料金が良心的」と地域の利用者から好評です。トレーナーの丁寧な対応や、無理のないプログラムが支持されています。一方で「店舗が少ない」「情報が少なくて最初は不安だった」という声もあります。";
 
+const reviewCategories = [
+  {
+    title: "良い口コミ・評判の傾向",
+    summary: "仙台エリアで「丁寧」「通いやすい」「料金が良心的」というポジティブな評価が中心です。地域密着ならではのアットホームさを評価する声が目立ちます。",
+    items: [
+      "トレーナーが親身で、初心者でも質問しやすい雰囲気だったという声",
+      "都内の大手と比べて料金が手頃で、東北エリアで続けやすいという評価",
+      "カウンセリングが丁寧で、目標に合わせたプランを提案してもらえたという声",
+      "食事のアドバイスも受けられ、生活習慣を見直すきっかけになったという評価",
+    ],
+  },
+  {
+    title: "気になる口コミ・評判の傾向",
+    summary: "店舗数・情報量の少なさに関する指摘が中心です。地方展開ゆえの選択肢の限られ方に触れる声が見られます。",
+    items: [
+      "店舗数が少なく、エリアによっては通いづらいという指摘",
+      "全国的な知名度が低く、事前に口コミ情報を集めにくかったという声",
+      "予約状況によっては希望の時間が取りにくいことがあるという指摘",
+    ],
+  },
+];
+
 const faqItems = [
   { q: "リアルボディの入会金はいくらですか？", a: "入会金は10,000円〜30,000円程度です。キャンペーンで無料になることもあります。最新情報は公式サイトでご確認ください。" },
   { q: "仙台以外に店舗はありますか？", a: "東北エリアを中心に展開しています。詳細な店舗情報は公式サイトでご確認ください。" },
@@ -77,6 +99,8 @@ const faqItems = [
   { q: "食事指導は受けられますか？", a: "はい、プランに応じた食事アドバイスが含まれています。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。" },
   { q: "駐車場はありますか？", a: "店舗により異なります。車での来店を予定している場合は事前に確認をおすすめします。" },
+  { q: "リアルボディの口コミ・評判は良いですか？", a: "仙台エリアの利用者からは「トレーナーが丁寧」「料金が良心的」といった好意的な口コミが中心です。一方で「店舗が少ない」「情報が少ない」という声もあります。最新の個別の口コミはGoogleマップでご確認ください。" },
+  { q: "リアルボディは女性も通えますか？", a: "はい、女性の利用者もいます。詳しい設備やプランは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -104,12 +128,23 @@ export default function RealBodyReview() {
       <ReviewSummary gymName="リアルボディ" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判は？仙台のパーソナルジムを徹底解説</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
 
-        <p className="text-gray-700 leading-relaxed mb-10">
-          リアルボディは仙台発の地域密着型パーソナルジムです。リーズナブルな料金設定と丁寧なカウンセリングで、東北エリアの利用者から支持されています。本記事では、リアルボディの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+        <p className="text-gray-700 leading-relaxed mb-6">
+          リアルボディは仙台発の<span className="font-bold bg-yellow-100 px-0.5">地域密着型</span>パーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">リーズナブルな料金</span>設定と丁寧なカウンセリングで、東北エリアの利用者から支持されています。本記事では、リアルボディの口コミ・評判の傾向、料金の目安、メリット・デメリットを詳しく解説します。
         </p>
+
+        <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">結論：リアルボディはこんな人におすすめ</h2>
+          <ul className="space-y-1.5 text-sm text-gray-700">
+            <li>・<strong>仙台・東北エリア</strong>で、手頃な料金のパーソナルジムを探している人</li>
+            <li>・大手チェーンより<strong>アットホームで通いやすい</strong>雰囲気を重視する人</li>
+            <li>・口コミは「トレーナーが丁寧」「料金が良心的」が中心。一方「店舗が少ない」という声も</li>
+            <li>・料金・入会金・店舗はキャンペーンや時期で変わるため<strong>公式サイトでの確認が必要</strong></li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は一般的な目安です。最新は公式でご確認ください。他ジムとの比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+        </div>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの基本情報</h2>
@@ -150,6 +185,27 @@ export default function RealBodyReview() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
           <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ・評判の傾向</h2>
+          <p className="text-sm text-gray-700 mb-6 leading-relaxed">
+            リアルボディの口コミを「良い評判」「気になる評判」に分けて傾向を整理しました。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%9C%E3%83%87%E3%82%A3%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
+          </p>
+          <div className="space-y-8">
+            {reviewCategories.map((cat) => (
+              <div key={cat.title}>
+                <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
+                <p className="text-sm text-gray-700 mb-3 leading-relaxed">{cat.summary}</p>
+                <ul className="space-y-2">
+                  {cat.items.map((it, i) => (
+                    <li key={i} className="text-sm text-gray-700 leading-relaxed bg-gray-50 rounded-lg px-4 py-3">{it}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-gray-500 mt-3">※ 口コミの傾向を要約したものです。評価には個人差があります。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section className="mb-12">
