@@ -105,11 +105,22 @@ export default function BaseBodyReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">base BODYの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
 
-        <p className="text-gray-700 leading-relaxed mb-10">
+        <p className="text-gray-700 leading-relaxed mb-6">
           base BODY（ベースボディ）はボディメイクとコンディショニングを融合したパーソナルジムです。見た目の変化だけでなく、身体の機能改善にも注力。本記事では、base BODYの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
+
+        <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">結論：base BODYはこんな人におすすめ</h2>
+          <ul className="space-y-1.5 text-sm text-gray-700">
+            <li>・<strong>ボディメイク＋身体機能の改善</strong>を両立したい人（見た目だけでなく姿勢・動きやすさも）</li>
+            <li>・入会金は20,000〜30,000円程度（キャンペーン割引あり）。初回カウンセリング・体験あり</li>
+            <li>・トレーナーのマンツーマン指導でフォームから整えたい人に向く</li>
+            <li>・一方、24時間セルフで安く通いたい人はFIT24等のセルフ型が向く</li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">料金・体験は店舗・キャンペーンで異なります。最新は公式でご確認ください。目的別の比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+        </div>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">base BODYの基本情報</h2>
