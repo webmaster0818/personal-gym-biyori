@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "カーブスは痩せる？口コミ・評判を徹底解説【女性専用30分フィットネス】",
+  title: "カーブスは痩せる？口コミ・評判・料金まとめ｜女性専用30分",
   description:
-    "カーブス（Curves）は痩せるのか、口コミ・評判をもとに解説。女性専用30分フィットネスで痩せた人・痩せない人の傾向、料金、メリット・デメリット、全国2000店舗以上の特徴まで網羅。",
+    "カーブスは痩せる？という疑問に口コミ・評判から回答。痩せた人/痩せない人の傾向、料金の考え方、メリット・デメリットを整理。女性専用30分・予約不要・全国2,000店舗以上の特徴も解説します。",
 };
 
 const basicInfo = [
@@ -125,6 +125,28 @@ export default function CurvesReview() {
           <p className="text-xs text-gray-500 mt-3">効果には個人差があります。料金・体験は店舗で異なるため最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
         </div>
 
+        <div className="mb-12">
+          <h2 className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
+          <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
+            <div className="px-4 py-3">
+              <dt className="font-bold text-gray-800">Q. カーブスは痩せる？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">運動習慣づくり・体力アップ・引き締めには向きますが、大幅な減量目的では食事管理の併用が一般的に重要です。効果には個人差があります。<a href="#lose-weight" className="text-teal-600 underline">詳しい傾向はこちら</a>。</dd>
+            </div>
+            <div className="px-4 py-3">
+              <dt className="font-bold text-gray-800">Q. 口コミ・評判は？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">「30分で続けやすい」「予約不要で気軽」「スタッフが親切」という声が多い一方、「本格トレには物足りない」という声も。<a href="#reviews" className="text-teal-600 underline">口コミ概要を見る</a>。</dd>
+            </div>
+            <div className="px-4 py-3">
+              <dt className="font-bold text-gray-800">Q. 料金は？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">月額制・通い放題で、契約期間により料金が異なります。具体的な金額は店舗・時期で変わるため<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>でのご確認が確実です。</dd>
+            </div>
+            <div className="px-4 py-3">
+              <dt className="font-bold text-gray-800">Q. どんな人に向く？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">女性専用・1回30分・予約不要のため、運動が続かない方や時短で健康維持したい方に向きます。短期で大きく痩せたい方はパーソナルジムとの比較も検討を。</dd>
+            </div>
+          </dl>
+        </div>
+
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">カーブスの基本情報</h2>
           <div className="overflow-x-auto">
@@ -206,7 +228,7 @@ export default function CurvesReview() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
+        <section id="reviews" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">カーブスの口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
@@ -214,7 +236,7 @@ export default function CurvesReview() {
           <p className="text-xs text-gray-500 mt-3">※ 口コミは<a href="https://www.curves.co.jp/voice/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">カーブス公式サイトの利用者の声</a>を参考に要約・再構成したものです。最新情報は公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
+        <section id="lose-weight" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">カーブスは痩せる？口コミから見る効果の傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             「カーブスで痩せるのか」は最も多い疑問のひとつです。口コミの傾向を整理すると、結果には目的とライフスタイルが大きく関係しています。以下は公開されている口コミ全般から見られる傾向で、特定の効果を保証するものではありません。
