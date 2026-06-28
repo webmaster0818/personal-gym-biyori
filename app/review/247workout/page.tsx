@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 
 export const metadata: Metadata = {
-  title: "24/7ワークアウトの口コミ・評判は？料金・効果を徹底解説【2026年】",
+  title: "24/7ワークアウトの口コミ・評判は？料金総額・痩せない/失敗の理由を解説【2026年】",
   description:
-    "24/7ワークアウトの口コミ・評判を徹底解説。深夜24時まで営業、3食食べるダイエット指導、料金の目安、痩せた人・失敗した人の傾向、Googleマップの口コミ分析、全国店舗一覧まで網羅。",
+    "24/7ワークアウトの口コミ・評判を徹底解説。深夜24時まで営業、3食食べるダイエット指導、月額と総額の目安（料金シミュレーション）、痩せない・失敗と言われる理由と対策、Googleマップの口コミ分析、全国店舗一覧まで網羅。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -229,6 +229,8 @@ const toc = [
   { id: "overview", label: "24/7ワークアウトの概要" },
   { id: "merit-demerit", label: "24/7ワークアウトのメリット・デメリット" },
   { id: "pricing", label: "24/7ワークアウトの料金" },
+  { id: "total-cost", label: "月額と総額の目安（料金シミュレーション）" },
+  { id: "vs", label: "他社（チキンジム・RIZAP）との比較" },
   { id: "reviews", label: "24/7ワークアウトの口コミ分析" },
   { id: "fail", label: "「痩せない・失敗」の理由と対策" },
   { id: "faq", label: "24/7ワークアウトのよくある質問" },
@@ -267,7 +269,7 @@ export default function Workout247Review() {
             <li>・大手の中では<strong>比較的手頃な料金</strong>で本格パーソナルを試したい人</li>
             <li>・口コミは「続けやすい」「結果が出た」が中心。一方「トレーナーの質に差」「解約条件が分かりにくい」という声も</li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">料金・営業時間・キャンペーンは店舗で異なります。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">料金・営業時間・キャンペーンは店舗で異なります。最新は公式でご確認ください。<a href="/compare/247workout-vs-chicken-gym-vs-rizap/" className="text-teal-600 underline">チキンジム・RIZAPとの比較</a>や<a href="/compare/" className="text-teal-600 underline">目的別比較</a>もご覧ください。</p>
         </div>
 
         {/* ---------- 目次 ---------- */}
@@ -387,6 +389,83 @@ export default function Workout247Review() {
           <p className="text-xs text-gray-500 mt-3">
             ※ 料金は税込です。入会金は無料です。料金はキャンペーンにより変動する場合があります。
           </p>
+        </section>
+
+        {/* ---------- 料金総額シミュレーション ---------- */}
+        <section id="total-cost" className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの月額と総額の目安（料金シミュレーション）</h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            「月額7,500円〜」という広告表示は<strong>分割払い時の月々の支払い額</strong>を指すことが多く、契約の総額とは異なります。口コミでも「月額だけ見て契約したら総額は20万円以上だった」という声が見られます。実際に検討するときは、<strong>月々の支払い</strong>と<strong>コース総額</strong>の両方を必ず確認しましょう。以下は当ページ掲載のプランをもとにした概算の目安です。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-teal-500 text-white">
+                  <th className="px-4 py-3 text-left font-medium">通うペース</th>
+                  <th className="px-4 py-3 text-left font-medium">プランの目安</th>
+                  <th className="px-4 py-3 text-left font-medium">月額の目安</th>
+                  <th className="px-4 py-3 text-left font-medium">2ヶ月の総額目安</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100">
+                  <td className="px-4 py-3 font-medium text-gray-800">週1回ペース</td>
+                  <td className="px-4 py-3 text-gray-700">月4回・50分/回</td>
+                  <td className="px-4 py-3 text-gray-700">月額33,000円〜</td>
+                  <td className="px-4 py-3 text-gray-700">約66,000円〜</td>
+                </tr>
+                <tr className="border-b border-gray-100">
+                  <td className="px-4 py-3 font-medium text-gray-800">週2回ペース</td>
+                  <td className="px-4 py-3 text-gray-700">月8回・50分/回</td>
+                  <td className="px-4 py-3 text-gray-700">月額55,000円〜</td>
+                  <td className="px-4 py-3 text-gray-700">約110,000円〜</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            ※ 上記は当ページ掲載の月額プランから算出した概算の目安です（税込・入会金無料）。実際の総額はコース・回数・期間・キャンペーン・分割手数料の有無により変わります。正確な金額は無料カウンセリングまたは公式サイトで要確認です。
+          </p>
+        </section>
+
+        {/* ---------- 他社比較 ---------- */}
+        <section id="vs" className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他社（チキンジム・RIZAP）との比較</h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">
+            24/7ワークアウトと同じ「大手・低価格〜中価格帯」で比較されやすいのが、低価格のチキンジムと、結果重視のRIZAPです。料金や特徴をまとめて比べたい方は、3社の比較ページもご覧ください。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-teal-500 text-white">
+                  <th className="px-4 py-3 text-left font-medium">ジム</th>
+                  <th className="px-4 py-3 text-left font-medium">料金の目安</th>
+                  <th className="px-4 py-3 text-left font-medium">向いている人</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100 align-top">
+                  <td className="px-4 py-3 font-medium text-gray-800">24/7ワークアウト</td>
+                  <td className="px-4 py-3 text-gray-700">月額33,000円〜（入会金無料）</td>
+                  <td className="px-4 py-3 text-gray-700">深夜まで通い、3食食べながら手頃に続けたい人</td>
+                </tr>
+                <tr className="border-b border-gray-100 align-top">
+                  <td className="px-4 py-3 font-medium text-gray-800"><Link href="/review/chicken-gym/" className="text-teal-600 hover:underline">チキンジム</Link></td>
+                  <td className="px-4 py-3 text-gray-700">月々6,800円〜（分割払い時の目安）</td>
+                  <td className="px-4 py-3 text-gray-700">月々の負担を最優先したい初心者</td>
+                </tr>
+                <tr className="border-b border-gray-100 align-top">
+                  <td className="px-4 py-3 font-medium text-gray-800"><Link href="/review/rizap/" className="text-teal-600 hover:underline">RIZAP</Link></td>
+                  <td className="px-4 py-3 text-gray-700">16回327,800円（2ヶ月）/ 月額22,000円〜</td>
+                  <td className="px-4 py-3 text-gray-700">費用がかかっても確実に結果を出したい人（30日間返金保証）</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm">
+            <Link href="/compare/247workout-vs-chicken-gym-vs-rizap/" className="text-teal-600 font-medium hover:underline">▶ 24/7ワークアウト・チキンジム・RIZAPの詳しい比較はこちら</Link>
+          </p>
+          <p className="text-xs text-gray-500 mt-2">※ 各社の料金は税込・目安です。最新の料金・保証条件は各公式サイトでご確認ください。</p>
         </section>
 
         {/* ---------- 口コミ分析 ---------- */}
