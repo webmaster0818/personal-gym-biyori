@@ -218,7 +218,7 @@ const relatedReviews = [
   { name: "チキンジム", href: "/review/chicken-gym/" },
   { name: "RIZAP", href: "/review/rizap/" },
   { name: "24/7ワークアウト", href: "/review/247workout/" },
-  { name: "BEYOND", href: "/review/beyond/" },
+  { name: "リアルボディ", href: "/review/real-body/" },
 ];
 
 /* ---------- 目次 ---------- */
