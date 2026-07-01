@@ -165,11 +165,11 @@ const faqJsonLd = {
 };
 
 const relatedReviews = [
+  { name: "リアルボディ", href: "/review/real-body/" },
   { name: "BEYOND", href: "/review/beyond/" },
   { name: "RIZAP", href: "/review/rizap/" },
   { name: "HABIT", href: "/review/habit/" },
   { name: "FURDI", href: "/review/furdi/" },
-  { name: "Rat", href: "/review/rat/" },
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
 ];
 
@@ -185,19 +185,6 @@ export default function NexusReview() {
           {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
           {"@type": "ListItem", "position": 3, "name": "Nexusジム"}
         ]
-      }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Nexusジム",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.4",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "38",
-          "reviewCount": "38"
-        }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
@@ -242,7 +229,7 @@ export default function NexusReview() {
             <li>・口コミは「この価格でこの質は驚き」「トレーナーが丁寧」が中心。一方「セッションが短め」「設備はシンプル」という声も</li>
             <li>・料金・店舗・キャンペーンは変動するため<strong>公式サイトでの確認が必要</strong></li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">本ページの料金は目安です。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は目安です。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>、地方で回数券制の安いジムを探す方は<a href="/review/real-body/" className="text-teal-600 underline">リアルボディの口コミ・料金</a>もご覧ください。</p>
         </div>
 
         <section className="mb-12">
