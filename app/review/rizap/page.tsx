@@ -256,14 +256,6 @@ export default function RizapReview() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "RIZAP（ライザップ）",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "210",
-          "reviewCount": "210"
-        }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",

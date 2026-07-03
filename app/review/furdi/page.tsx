@@ -189,14 +189,6 @@ export default function FurdiReview() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "FURDI（ファディー）",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.2",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "52",
-          "reviewCount": "52"
-        }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",

@@ -254,14 +254,6 @@ export default function BeyondReview() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "BEYOND（ビヨンド）パーソナルジム",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "120",
-          "reviewCount": "120"
-        }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",

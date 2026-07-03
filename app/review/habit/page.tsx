@@ -247,14 +247,6 @@ export default function HabitReview() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "HABIT PERSONAL GYM（ハビット）",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "65",
-          "reviewCount": "65"
-        }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",

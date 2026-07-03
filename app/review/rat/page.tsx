@@ -157,13 +157,6 @@ export default function RatReview() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Rat（ラット）パーソナルジム",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.3",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "45"
-        }
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
