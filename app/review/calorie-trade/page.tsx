@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
@@ -120,6 +121,7 @@ export default function CalorieTradeReview() {
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "CALORIE TRADE JAPAN" }]} />
       <ReviewSummary gymName="CALORIE TRADE JAPAN" />
+      <GymCta slug="calorie-trade" name="CALORIE TRADE JAPAN" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -233,6 +235,8 @@ export default function CalorieTradeReview() {
           </div>
           <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
+      <GymCta slug="calorie-trade" name="CALORIE TRADE JAPAN" />
+
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">CALORIE TRADE JAPANのよくある質問</h2>

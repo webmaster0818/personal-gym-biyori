@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "ELEMENTの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -102,6 +103,7 @@ export default function ElementReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "ELEMENT" }]} />
       <ReviewSummary gymName="ELEMENT" />
+      <GymCta slug="element" name="ELEMENT" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -201,6 +203,8 @@ export default function ElementReview() {
           </div>
           <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
+      <GymCta slug="element" name="ELEMENT" />
+
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ELEMENTのよくある質問</h2>

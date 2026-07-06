@@ -150,19 +150,14 @@ export default function Home() {
       />
 
       {/* Hero with background image */}
-      <section className="relative min-h-[480px] flex items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/hero-energy.jpg')" }}
-        />
-        <div className="absolute inset-0 bg-black/70" />
+      <section className="relative min-h-[440px] flex items-center justify-center overflow-hidden" style={{ background: "linear-gradient(135deg, #0f172a 0%, #1e3a5f 55%, #0f2744 100%)" }}>
+        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: "url('/hero-energy.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center py-20">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-white">
             あなたに合った<br className="sm:hidden" />パーソナルジムが見つかる
           </h1>
           <p className="text-gray-200 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
-            厳選60社以上のパーソナルジムを料金・口コミ・特徴から徹底比較。
-            初心者からボディメイク志望まで、目的に合ったジム選びをサポートします。
+            厳選60社・580店舗を料金・口コミ・特徴から徹底比較。下の比較表とジム診断で、あなたに合う1社が3分で見つかります。
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -209,6 +204,43 @@ export default function Home() {
           <p className="text-center text-gray-500 mb-10">
             料金・口コミ・サービス内容を総合的に評価
           </p>
+
+        {/* D2: 統一スペック比較表(横スクロール) */}
+        <div className="overflow-x-auto mb-10 -mx-4 px-4">
+          <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden min-w-[720px] bg-white">
+            <thead>
+              <tr className="bg-slate-800 text-white">
+                <th className="px-3 py-3 text-left whitespace-nowrap">順位</th>
+                <th className="px-3 py-3 text-left whitespace-nowrap">ジム</th>
+                <th className="px-3 py-3 text-left whitespace-nowrap">料金</th>
+                <th className="px-3 py-3 text-left">特徴</th>
+                <th className="px-3 py-3 text-left whitespace-nowrap">詳細</th>
+                <th className="px-3 py-3 text-left whitespace-nowrap">公式</th>
+              </tr>
+            </thead>
+            <tbody>
+              {services.map((sv) => (
+                <tr key={sv.slug} className="border-t border-gray-100 align-top">
+                  <td className="px-3 py-3 font-bold text-slate-700">{sv.rank}位</td>
+                  <td className="px-3 py-3 font-bold whitespace-nowrap"><Link href={sv.reviewPath} className="text-slate-900 hover:text-orange-600">{sv.name}</Link></td>
+                  <td className="px-3 py-3 whitespace-nowrap font-bold text-orange-600">{sv.price}</td>
+                  <td className="px-3 py-3 text-xs text-gray-600">{sv.features.slice(0, 2).join("・")}</td>
+                  <td className="px-3 py-3 whitespace-nowrap"><Link href={sv.reviewPath} className="text-blue-600 underline text-xs">レビュー→</Link></td>
+                  <td className="px-3 py-3 whitespace-nowrap">
+                    {sv.affiliateUrl ? (
+                      <a href={sv.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white text-xs font-bold px-3 py-1.5 rounded-md">無料相談</a>
+                    ) : (
+                      <span className="text-xs text-gray-400">—</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-[10px] text-gray-400 -mt-8 mb-8">※「無料相談」ボタンは広告リンクを含みます。表は横にスクロールできます。</p>
+
+
 
           <div className="space-y-8">
             {services.map((service) => (

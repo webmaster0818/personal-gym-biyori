@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "Rays GyM（レイズジム）の口コミ・評判は？料金・効果を徹底解説【2026年】",
@@ -168,6 +169,7 @@ export default function RaysGymReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Rays GyM" }]} />
       <ReviewSummary gymName="Rays GyM" />
+      <GymCta slug="rays-gym" name="Rays GyM" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -350,6 +352,8 @@ export default function RaysGymReview() {
         </section>
 
         {/* FAQ */}
+      <GymCta slug="rays-gym" name="Rays GyM" />
+
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMのよくある質問</h2>
           <div className="space-y-3">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "カーブスは痩せる？口コミ・評判・料金まとめ｜女性専用30分",
@@ -103,6 +104,7 @@ export default function CurvesReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "カーブス" }]} />
       <ReviewSummary gymName="カーブス" />
+      <GymCta slug="curves" name="カーブス" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -261,6 +263,8 @@ export default function CurvesReview() {
           </div>
           <p className="text-xs text-gray-500 mt-4 leading-relaxed">※ 効果には個人差があり、運動だけで体重が減ることを保証するものではありません。減量目的の場合は食事管理の併用が一般的に重要とされています。最新情報は公式サイトでご確認ください。</p>
         </section>
+      <GymCta slug="curves" name="カーブス" />
+
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">カーブスのよくある質問</h2>

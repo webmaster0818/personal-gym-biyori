@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "more fitの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -102,6 +103,7 @@ export default function MoreFitReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "more fit" }]} />
       <ReviewSummary gymName="more fit" />
+      <GymCta slug="more-fit" name="more fit" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -208,6 +210,8 @@ export default function MoreFitReview() {
         </section>
 
         {/* FAQ */}
+      <GymCta slug="more-fit" name="more fit" />
+
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">more fitのよくある質問</h2>
           <div className="space-y-3">

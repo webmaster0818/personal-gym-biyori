@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウトの口コミ・評判は？料金総額・痩せない/失敗の理由を解説【2026年】",
@@ -243,6 +244,7 @@ export default function Workout247Review() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "24/7ワークアウト" }]} />
       <ReviewSummary gymName="24/7ワークアウト" />
+      <GymCta slug="247workout" name="24/7ワークアウト" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
@@ -523,6 +525,8 @@ export default function Workout247Review() {
         </section>
 
         {/* ---------- FAQ ---------- */}
+      <GymCta slug="247workout" name="24/7ワークアウト" />
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトのよくある質問</h2>
           <div className="space-y-3">

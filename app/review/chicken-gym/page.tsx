@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "チキンジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -243,6 +244,7 @@ export default function ChickenGymReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "チキンジム" }]} />
       <ReviewSummary gymName="チキンジム" />
+      <GymCta slug="chicken-gym" name="チキンジム" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
@@ -412,6 +414,8 @@ export default function ChickenGymReview() {
         </section>
 
         {/* ---------- FAQ ---------- */}
+      <GymCta slug="chicken-gym" name="チキンジム" />
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムのよくある質問</h2>
           <div className="space-y-3">

@@ -15,6 +15,9 @@ export default function ReviewSummary({ gymName }: Props) {
         <span className="font-medium">トレーナーの質・料金・清潔さ・通いやすさ</span>などの観点別に傾向を整理しています（下部の口コミ分析セクションをご覧ください）。
         最新の個別レビューや評価スコアは、公式のGoogleマップでご確認いただけます。
       </p>
+      <p className="text-xs text-slate-400 mb-3">
+        当サイトは<a href="/content-policy/" className="underline hover:text-slate-600">記事制作ポリシー</a>に基づき、実在の投稿の傾向のみを整理し、評価スコアの自作・口コミの創作は行いません。料金・店舗情報は公式サイトを確認のうえ掲載しています。
+      </p>
       <a
         href={`https://www.google.com/maps/search/${q}`}
         target="_blank"

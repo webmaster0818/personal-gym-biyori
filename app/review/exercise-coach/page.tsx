@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -238,6 +239,7 @@ export default function ExerciseCoachReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "エクササイズコーチ" }]} />
       <ReviewSummary gymName="エクササイズコーチ" />
+      <GymCta slug="exercise-coach" name="エクササイズコーチ" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
@@ -407,6 +409,8 @@ export default function ExerciseCoachReview() {
         </section>
 
         {/* ---------- FAQ ---------- */}
+      <GymCta slug="exercise-coach" name="エクササイズコーチ" />
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">エクササイズコーチのよくある質問</h2>
           <div className="space-y-3">

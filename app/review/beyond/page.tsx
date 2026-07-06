@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
@@ -274,6 +275,7 @@ export default function BeyondReview() {
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND" }]} />
       <ReviewSummary gymName="BEYOND" />
+      <GymCta slug="beyond" name="BEYOND" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
@@ -528,6 +530,8 @@ export default function BeyondReview() {
         </section>
 
         {/* ---------- FAQ ---------- */}
+      <GymCta slug="beyond" name="BEYOND" />
+
         <section id="faq" className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDのよくある質問</h2>
           <div className="space-y-3">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
@@ -209,6 +210,7 @@ export default function FurdiReview() {
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "FURDI" }]} />
       <ReviewSummary gymName="FURDI" />
+      <GymCta slug="furdi" name="FURDI" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -433,6 +435,8 @@ export default function FurdiReview() {
             <Link href="/review/exercise-coach/" className="text-xs text-teal-600 hover:underline">エクササイズコーチの口コミを見る →</Link>
           </div>
         </section>
+      <GymCta slug="furdi" name="FURDI" />
+
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FURDIのよくある質問</h2>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
@@ -205,6 +206,7 @@ export default function NexusReview() {
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Nexusジム" }]} />
       <ReviewSummary gymName="Nexusジム" />
+      <GymCta slug="nexus" name="Nexusジム" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -440,6 +442,8 @@ export default function NexusReview() {
             <Link href="/review/exercise-coach/" className="text-xs text-teal-600 hover:underline">エクササイズコーチの口コミを見る →</Link>
           </div>
         </section>
+      <GymCta slug="nexus" name="Nexusジム" />
+
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Nexusジムのよくある質問</h2>

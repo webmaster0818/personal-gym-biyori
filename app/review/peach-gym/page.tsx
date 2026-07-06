@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
   title: "PEACH GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -102,6 +103,7 @@ export default function PeachGymReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "PEACH GYM" }]} />
       <ReviewSummary gymName="PEACH GYM" />
+      <GymCta slug="peach-gym" name="PEACH GYM" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">PEACH GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
