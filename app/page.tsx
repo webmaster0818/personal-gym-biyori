@@ -129,7 +129,7 @@ function CharacterComment({
   return (
     <div className="flex items-start gap-3 mt-3 p-3 rounded-lg bg-accent-50 border border-accent-100">
       <img
-        src="/chara-energy.jpg"
+        src="/chara-energy-s.jpg"
         alt="タクヤ"
         className="w-10 h-10 rounded-full object-cover flex-shrink-0"
       />
@@ -151,7 +151,7 @@ export default function Home() {
 
       {/* Hero with background image */}
       <section className="relative min-h-[440px] flex items-center justify-center overflow-hidden" style={{ background: "linear-gradient(135deg, #0f172a 0%, #1e3a5f 55%, #0f2744 100%)" }}>
-        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: "url('/hero-energy.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
+        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: "url('/hero-energy-s.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center py-20">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-white">
             あなたに合った<br className="sm:hidden" />パーソナルジムが見つかる
@@ -267,7 +267,7 @@ export default function Home() {
                   {/* Screenshot */}
                   <Link href={service.reviewPath}>
                     <div className="rounded-lg overflow-hidden border border-gray-200 mb-4">
-                      <img src={`/ss-${service.slug}.jpg`} alt={`${service.name} 公式サイト`} className="w-full h-auto" />
+                      <img src={`/ss-${service.slug}.jpg`} alt={`${service.name} 公式サイト`} className="w-full h-auto" loading="lazy" decoding="async" />
                       <p className="text-[10px] text-gray-400 p-1 text-right">画像引用: 公式サイトより</p>
                     </div>
                   </Link>
