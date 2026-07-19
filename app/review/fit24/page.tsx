@@ -99,6 +99,25 @@ const relatedReviews = [
   { name: "Nexusジム", href: "/review/nexus/" },
 ];
 
+const storeReviews = [
+  { name: "渋谷店", href: "/review/fit24/shibuya/" },
+  { name: "新宿店", href: "/review/fit24/shinjuku/" },
+  { name: "池袋店", href: "/review/fit24/ikebukuro/" },
+  { name: "銀座店", href: "/review/fit24/ginza/" },
+  { name: "横浜店", href: "/review/fit24/yokohama/" },
+  { name: "町田店", href: "/review/fit24/machida/" },
+  { name: "船橋店", href: "/review/fit24/funabashi/" },
+  { name: "大宮店", href: "/review/fit24/omiya/" },
+  { name: "名古屋店", href: "/review/fit24/nagoya/" },
+  { name: "梅田店", href: "/review/fit24/umeda/" },
+  { name: "なんば店", href: "/review/fit24/namba/" },
+  { name: "神戸店", href: "/review/fit24/kobe/" },
+  { name: "札幌店", href: "/review/fit24/sapporo/" },
+  { name: "仙台店", href: "/review/fit24/sendai/" },
+  { name: "広島店", href: "/review/fit24/hiroshima/" },
+  { name: "福岡店", href: "/review/fit24/fukuoka/" },
+];
+
 export default function Fit24Review() {
   return (
     <>
@@ -326,6 +345,17 @@ export default function Fit24Review() {
             <Link href="/#ranking" className="inline-block border border-white text-white font-bold py-2.5 px-6 rounded-lg hover:bg-white/10 transition-colors text-sm">
               ランキングに戻る
             </Link>
+          </div>
+        </section>
+
+        <section className="mb-10">
+          <h2 className="text-lg font-bold mb-4">FIT24の店舗別レビュー</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {storeReviews.map((s) => (
+              <Link key={s.href} href={s.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">
+                FIT24 {s.name}
+              </Link>
+            ))}
           </div>
         </section>
 

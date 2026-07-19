@@ -93,6 +93,8 @@ const relatedReviews = [
   { name: "チキンジム", href: "/review/chicken-gym/" },
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
   { name: "BEYOND", href: "/review/beyond/" },
+  { name: "カーブス", href: "/review/curves/" },
+  { name: "FIT24", href: "/review/fit24/" },
 ];
 
 export default function ChocozapReview() {

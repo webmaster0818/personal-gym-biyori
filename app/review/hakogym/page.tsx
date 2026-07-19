@@ -95,6 +95,7 @@ const relatedReviews = [
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
   { name: "ACCEPT", href: "/review/accept/" },
   { name: "E9th PRIVATE GYM", href: "/review/e9th/" },
+  { name: "FIT24", href: "/review/fit24/" },
 ];
 
 export default function HakogymReview() {

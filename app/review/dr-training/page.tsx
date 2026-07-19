@@ -96,6 +96,7 @@ const relatedReviews = [
   { name: "チキンジム", href: "/review/chicken-gym/" },
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
   { name: "ACCEPT", href: "/review/accept/" },
+  { name: "リアルボディ", href: "/review/real-body/" },
 ];
 
 export default function DrTrainingReview() {

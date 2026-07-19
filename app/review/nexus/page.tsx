@@ -172,6 +172,7 @@ const relatedReviews = [
   { name: "HABIT", href: "/review/habit/" },
   { name: "FURDI", href: "/review/furdi/" },
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
+  { name: "FIT24", href: "/review/fit24/" },
 ];
 
 export default function NexusReview() {

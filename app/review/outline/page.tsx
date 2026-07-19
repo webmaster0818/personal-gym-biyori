@@ -95,6 +95,7 @@ const relatedReviews = [
   { name: "PEACH GYM", href: "/review/peach-gym/" },
   { name: "RIZAP", href: "/review/rizap/" },
   { name: "Bellpha", href: "/review/bellpha/" },
+  { name: "カーブス", href: "/review/curves/" },
 ];
 
 export default function OutlineReview() {

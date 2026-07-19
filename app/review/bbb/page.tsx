@@ -97,6 +97,7 @@ const relatedReviews = [
   { name: "RIZAP", href: "/review/rizap/" },
   { name: "BEYOND", href: "/review/beyond/" },
   { name: "ARISANFIT", href: "/review/arisanfit/" },
+  { name: "リアルボディ", href: "/review/real-body/" },
 ];
 
 export default function BbbReview() {

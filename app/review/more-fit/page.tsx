@@ -95,6 +95,7 @@ const relatedReviews = [
   { name: "BEYOND", href: "/review/beyond/" },
   { name: "RIZAP", href: "/review/rizap/" },
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
+  { name: "リアルボディ", href: "/review/real-body/" },
 ];
 
 export default function MoreFitReview() {

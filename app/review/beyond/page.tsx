@@ -225,6 +225,7 @@ const relatedReviews = [
   { name: "FURDI", href: "/review/furdi/" },
   { name: "Rat", href: "/review/rat/" },
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
+  { name: "リアルボディ", href: "/review/real-body/" },
 ];
 
 /* ---------- 目次 ---------- */

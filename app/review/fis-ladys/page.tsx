@@ -95,6 +95,7 @@ const relatedReviews = [
   { name: "TOKIEL", href: "/review/tokiel/" },
   { name: "LALA FIT", href: "/review/lala-fit/" },
   { name: "RIZAP", href: "/review/rizap/" },
+  { name: "カーブス", href: "/review/curves/" },
 ];
 
 export default function FisLadysReview() {

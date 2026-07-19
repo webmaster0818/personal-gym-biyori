@@ -98,6 +98,24 @@ const relatedReviews = [
   { name: "チキンジム", href: "/review/chicken-gym/" },
 ];
 
+const storeReviews = [
+  { name: "渋谷店", href: "/review/curves/shibuya/" },
+  { name: "新宿店", href: "/review/curves/shinjuku/" },
+  { name: "池袋店", href: "/review/curves/ikebukuro/" },
+  { name: "上野店", href: "/review/curves/ueno/" },
+  { name: "銀座店", href: "/review/curves/ginza/" },
+  { name: "吉祥寺店", href: "/review/curves/kichijoji/" },
+  { name: "横浜店", href: "/review/curves/yokohama/" },
+  { name: "船橋店", href: "/review/curves/funabashi/" },
+  { name: "大宮店", href: "/review/curves/omiya/" },
+  { name: "名古屋店", href: "/review/curves/nagoya/" },
+  { name: "梅田店", href: "/review/curves/umeda/" },
+  { name: "なんば店", href: "/review/curves/namba/" },
+  { name: "三宮店", href: "/review/curves/sannomiya/" },
+  { name: "札幌店", href: "/review/curves/sapporo/" },
+  { name: "福岡店", href: "/review/curves/fukuoka/" },
+];
+
 export default function CurvesReview() {
   return (
     <>
@@ -287,6 +305,17 @@ export default function CurvesReview() {
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>
+        </section>
+
+        <section className="mb-10">
+          <h2 className="text-lg font-bold mb-4">カーブスの店舗別レビュー</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {storeReviews.map((s) => (
+              <Link key={s.href} href={s.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">
+                カーブス {s.name}
+              </Link>
+            ))}
+          </div>
         </section>
 
         <section>
