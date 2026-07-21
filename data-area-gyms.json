@@ -1,0 +1,1323 @@
+{
+ "shibuya": [
+  {
+   "name": "BEYOND 渋谷宮益坂店",
+   "rating": 5,
+   "count": 296,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷２丁目１０−９ B1F",
+   "mapsUri": "https://maps.google.com/?cid=8568892783634316118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-miyamasuzaka/"
+  },
+  {
+   "name": "ASPI渋谷店",
+   "rating": 5,
+   "count": 264,
+   "address": "日本、〒150-0041 東京都渋谷区神南１丁目２０−１０ 神南興業ビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=5104636129724916456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/tokyo/shibuya/"
+  },
+  {
+   "name": "渋谷 Leven",
+   "rating": 5,
+   "count": 152,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１５−３ 804",
+   "mapsUri": "https://maps.google.com/?cid=2008376193456981185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fitnessgym-leven.jp/"
+  },
+  {
+   "name": "eviGym 渋谷店",
+   "rating": 5,
+   "count": 150,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目１８−４ 渋谷3丁目ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=11673578244070023592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://evigym.com/stores/shibuya-east?utm_source=gmb&utm_medium=referral"
+  },
+  {
+   "name": "SPACE GYM 渋谷店",
+   "rating": 5,
+   "count": 145,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目１−１０ アイリーファーストプラザ 4F",
+   "mapsUri": "https://maps.google.com/?cid=18302743362826959014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.space-gym.com/shop/shibuya/?utm_source=Google&utm_medium=web&utm_campaign=march&utm_id=gbp"
+  },
+  {
+   "name": "渋谷パーソナルジム ARISANFIT",
+   "rating": 5,
+   "count": 131,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１５−３ プリメーラ道玄坂 612号室",
+   "mapsUri": "https://maps.google.com/?cid=8836282633702354506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://arisanfit.com/s-shibuya/"
+  },
+  {
+   "name": "Rife gym渋谷店",
+   "rating": 5,
+   "count": 105,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目２２−１ グラフィオ渋谷 102",
+   "mapsUri": "https://maps.google.com/?cid=16280381700531385271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ryoreha12.com/"
+  },
+  {
+   "name": "Dr.トレーニング 渋谷店",
+   "rating": 5,
+   "count": 98,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目２６−１７ Vort渋谷 1F",
+   "mapsUri": "https://maps.google.com/?cid=5535586275456327184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/shibuya/?utm_source=google&utm_medium=meo&utm_campaign=meo&utm_id=2"
+  },
+  {
+   "name": "GASY渋谷店",
+   "rating": 5,
+   "count": 80,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂２丁目９−１０ 松本ビル 5階B室",
+   "mapsUri": "https://maps.google.com/?cid=17823504855512822686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ac.gasy.jp/5d1fc8cEEefbe054/cl/?bId=b7bG2fF7"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 渋谷",
+   "rating": 4.9,
+   "count": 79,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目８−７ ４F A室",
+   "mapsUri": "https://maps.google.com/?cid=12636536888473433440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/shibuya/"
+  },
+  {
+   "name": "01ノルエット渋谷店",
+   "rating": 4.9,
+   "count": 71,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町１３−13番1号 カーサ・チェリーヒル 202",
+   "mapsUri": "https://maps.google.com/?cid=15102519079588294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personal-gym01.com/gym-shibuya/"
+  },
+  {
+   "name": "24hジムE-LIFE GYM 渋谷",
+   "rating": 4.9,
+   "count": 66,
+   "address": "日本、〒150-0011 東京都渋谷区東１丁目２８−７ エスト渋谷 1F B1F",
+   "mapsUri": "https://maps.google.com/?cid=4014256197046619553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://elife-gym.com/"
+  },
+  {
+   "name": "タニフィット渋谷店",
+   "rating": 5,
+   "count": 61,
+   "address": "日本、〒150-0011 東京都渋谷区東１丁目２６−３１ 大島ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=16104797786929842278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fit.tanifit-gym.com/lp/shibuya"
+  },
+  {
+   "name": "STUDIO KOMPAS 渋谷店",
+   "rating": 5,
+   "count": 60,
+   "address": "日本、〒150-0036 東京都渋谷区南平台町１３−１１ 南平台WEST 地下 102",
+   "mapsUri": "https://maps.google.com/?cid=655944482386484552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kompas.tokyo/"
+  },
+  {
+   "name": "B-side GYM 渋谷BASE",
+   "rating": 5,
+   "count": 60,
+   "address": "日本、〒150-0032 東京都渋谷区鶯谷町７−１２ GranDuo渋谷Bldg 3階",
+   "mapsUri": "https://maps.google.com/?cid=7856595934532336299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.b-side-gym.com/"
+  },
+  {
+   "name": "MIYAZAKI GYM渋谷店",
+   "rating": 4.8,
+   "count": 52,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１−１０ ニューハイツ青山 1003",
+   "mapsUri": "https://maps.google.com/?cid=12801641886245914927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miyazaki-gym.jp/shop/shibuya/"
+  },
+  {
+   "name": "経営者向けペアトレーニングジム BOSS",
+   "rating": 5,
+   "count": 47,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１６−６ 二葉ビル 4-C",
+   "mapsUri": "https://maps.google.com/?cid=17831681178983155670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgym-boss.studio.site/"
+  },
+  {
+   "name": "UNFIX 渋谷",
+   "rating": 4.9,
+   "count": 42,
+   "address": "日本、〒150-0032 東京都渋谷区鶯谷町３−１ ＳＵビル 403",
+   "mapsUri": "https://maps.google.com/?cid=15807898310244319956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://trainer-daiki.com/"
+  },
+  {
+   "name": "SHIBUYA Private GYM FIT",
+   "rating": 5,
+   "count": 41,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１０−７ グローリア宮益坂III 南館1001号室",
+   "mapsUri": "https://maps.google.com/?cid=4042809573468138083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://shibuya-privategymfit.jp/?utm_source=Google&utm_medium=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "Y's Fit(ワイズ フィット)",
+   "rating": 5,
+   "count": 35,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１−１ AmanEsk青山 1階",
+   "mapsUri": "https://maps.google.com/?cid=875321744442867742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lin.ee/6KgGd5T"
+  },
+  {
+   "name": "RainbowGYM 渋谷店",
+   "rating": 5,
+   "count": 33,
+   "address": "日本、〒150-0044 東京都渋谷区円山町１２−１１ 1F 渋谷 パーソナルトレーニング 渋谷 パーソナルジム パーソナルトレーニング 渋谷 パーソナルジム 渋谷",
+   "mapsUri": "https://maps.google.com/?cid=15182655590632845431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://rainbowgym.jp/"
+  },
+  {
+   "name": "FLEXGYM渋谷店【フレックスジム】",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒150-0032 東京都渋谷区鶯谷町７−１２ GranDuo渋谷 ５F",
+   "mapsUri": "https://maps.google.com/?cid=6229152410902005154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://flex-personalgym.com/shibuya/"
+  },
+  {
+   "name": "PERSONAL GYM BASIS 渋谷店",
+   "rating": 5,
+   "count": 29,
+   "address": "日本、〒150-0046 東京都渋谷区松濤１丁目２９−２４ シティコート松濤 ２０３",
+   "mapsUri": "https://maps.google.com/?cid=9650754506802796362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://basis-gym.jp/gym/shibuya/?utm_source=google&utm_medium=gmb&utm_campaign=shibuya"
+  }
+ ],
+ "shinjuku": [
+  {
+   "name": "THE PERSONAL GYM新宿御苑店",
+   "rating": 4.9,
+   "count": 466,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目８−３ 3F",
+   "mapsUri": "https://maps.google.com/?cid=6202165809653452344&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/shinjukugyoen/"
+  },
+  {
+   "name": "エープラスダイエットジム新宿店",
+   "rating": 4.8,
+   "count": 299,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目１６−４ 西新宿ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=1422563660271925110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.a-dietgym.jp/location/detail/shinjuku"
+  },
+  {
+   "name": "BEYOND 新宿店",
+   "rating": 5,
+   "count": 281,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目９−９ ７felicita 西新宿 4F",
+   "mapsUri": "https://maps.google.com/?cid=11021028018896057956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-shinjyuku/?utm_source=google&utm_medium=meo&utm_campaign=web-shinjyuku"
+  },
+  {
+   "name": "CHANCE GYM 新宿店",
+   "rating": 5,
+   "count": 263,
+   "address": "日本、〒160-0021 東京都新宿区歌舞伎町２丁目４６−８ 新宿日章ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=3379000053782603160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chance-gym.com/"
+  },
+  {
+   "name": "ASPI新宿三丁目御苑",
+   "rating": 4.9,
+   "count": 233,
+   "address": "ストークビル長崎 5f, ２丁目-１１-4 新宿 新宿区 東京都 160-0022 日本",
+   "mapsUri": "https://maps.google.com/?cid=12740734273423135757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/tokyo/shinjukusanchome_gyoen/?utm_source=shinjukusanchomegyoen&utm_id=gpm"
+  },
+  {
+   "name": "Oz 新宿店",
+   "rating": 4.8,
+   "count": 170,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目９−６ 寿ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=12542597239344072992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://oz-kaatsu.com/store/shinjukuten/?utm_source=Google&utm_medium=meo&utm_campaign=shinjuku"
+  },
+  {
+   "name": "Rat新宿三丁目店",
+   "rating": 4.9,
+   "count": 167,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目１１−２ カーサ・ヴェルデ 701",
+   "mapsUri": "https://maps.google.com/?cid=10722709124478669905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/tokyo/shinjukusanchome/"
+  },
+  {
+   "name": "DEED ∞ 東 新宿 店",
+   "rating": 4.8,
+   "count": 130,
+   "address": "日本、〒169-0072 東京都新宿区大久保１丁目１−４５ 新宿セントラルハイツプラザ 203",
+   "mapsUri": "https://maps.google.com/?cid=17387146290275447725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://deed-gym.com/shop-list/higashishinjyuku/?utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "eviGym 新宿マルイ本館店",
+   "rating": 4.9,
+   "count": 127,
+   "address": "日本、〒160-0022 東京都新宿区新宿３丁目３０−１３ 7F",
+   "mapsUri": "https://maps.google.com/?cid=16254170070400920269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://evigym.com/stores/shinjuku?utm_source=gmb&utm_medium=gmb&utm_campaign=shinjuku"
+  },
+  {
+   "name": "MIYAZAKI GYM新宿店",
+   "rating": 4.9,
+   "count": 110,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目８−１１ 中川ビル 4-B",
+   "mapsUri": "https://maps.google.com/?cid=2074697829444330168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miyazaki-gym.jp/shop/shinjuku/"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 新宿",
+   "rating": 4.8,
+   "count": 96,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１０−１８ 小滝橋パシフィカビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=8871642675814648106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/shinjuku/"
+  },
+  {
+   "name": "Apple GYM（アップルジム）新宿店",
+   "rating": 4.9,
+   "count": 78,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−４ ゼンコウビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=2330075690420082910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://applegym.jp/shop/shinjuku/?utm_source=google&utm_medium=maps&utm_campaign=gmb"
+  },
+  {
+   "name": "パーソナルジムELEVATE 新宿",
+   "rating": 5,
+   "count": 74,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目１１−２ 602",
+   "mapsUri": "https://maps.google.com/?cid=5394897592810681565&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.elevate1gym.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=6342648439014639091"
+  },
+  {
+   "name": "Side by Side Gym 東新宿 若松河田",
+   "rating": 5,
+   "count": 73,
+   "address": "日本、〒160-0022 東京都新宿区新宿７丁目１３−２",
+   "mapsUri": "https://maps.google.com/?cid=1758479925181012469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sidebyside-gym.com/"
+  },
+  {
+   "name": "ビーコンセプト新宿店",
+   "rating": 4.9,
+   "count": 73,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目７−２８ 山本ビル 102 第二",
+   "mapsUri": "https://maps.google.com/?cid=13009649583752882806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-concept.tokyo/clublist/shinjyuku/?utm_source=mybusiness&utm_medium=organic"
+  },
+  {
+   "name": "Personal Gym ＆Pilates STOLZ",
+   "rating": 4.9,
+   "count": 73,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目６−５ 805",
+   "mapsUri": "https://maps.google.com/?cid=15438382677486809790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000624431/"
+  },
+  {
+   "name": "Bless privategym",
+   "rating": 5,
+   "count": 64,
+   "address": "日本、〒160-0023 東京都新宿区西新宿８丁目１５−１５",
+   "mapsUri": "https://maps.google.com/?cid=15242465170599571299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bless-privategym.com/"
+  },
+  {
+   "name": "LaLa 新宿店",
+   "rating": 4.8,
+   "count": 63,
+   "address": "日本、〒160-0021 東京都新宿区歌舞伎町２丁目２−２０ グランドメゾン歌舞伎町 901号室",
+   "mapsUri": "https://maps.google.com/?cid=7193145106865694999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://note.com/urara_lala_468/n/nd68bef93c62c"
+  },
+  {
+   "name": "REALWORKOUT新宿店",
+   "rating": 5,
+   "count": 58,
+   "address": "日本、〒160-0023 東京都新宿区西新宿６丁目２６−８ 小西ビル 301",
+   "mapsUri": "https://maps.google.com/?cid=18334418355298805542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://realworkout.jp/location/shinjuku/"
+  },
+  {
+   "name": "リボーンマイセルフ新宿店",
+   "rating": 5,
+   "count": 43,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１０−１１ 第二伊藤ビル ２階",
+   "mapsUri": "https://maps.google.com/?cid=6118796716791463920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/shinjuku/"
+  },
+  {
+   "name": "Dr.トレーニング 新宿店",
+   "rating": 4.9,
+   "count": 29,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−１０ 守矢ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=722092659357538959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/shinjuku/"
+  },
+  {
+   "name": "PRIMAL 新宿店",
+   "rating": 5,
+   "count": 24,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目１８−４ 共新ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=14594525941621926835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.primal-gym.com/"
+  },
+  {
+   "name": "1-LIFE-WAN PERSONAL GYM 新宿店",
+   "rating": 5,
+   "count": 24,
+   "address": "日本、〒160-0022 東京都新宿区新宿５丁目１１−11番地23 KT新宿三番街Ⅰ 3階 C区画",
+   "mapsUri": "https://maps.google.com/?cid=547910137124571465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://1-life-wan.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  }
+ ],
+ "ikebukuro": [
+  {
+   "name": "PEAK'S GYM（ピークジム）池袋店",
+   "rating": 4.9,
+   "count": 511,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目６５−６ 慶愛ビル ３０１",
+   "mapsUri": "https://maps.google.com/?cid=9828497352605259485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://peaksgym.com/"
+  },
+  {
+   "name": "パーソナルトレーニングジム ASPI池袋店",
+   "rating": 5,
+   "count": 444,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１３−１７ MASHITA5 ビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=10134964601993714910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/tokyo/ikebukuro/?utm_source=ikebukuro&utm_id=gpm"
+  },
+  {
+   "name": "【女性専用パーソナルジム】GYMS（ジムズ） 池袋東口店",
+   "rating": 4.5,
+   "count": 441,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１６−８ 5階",
+   "mapsUri": "https://maps.google.com/?cid=2846067697961992304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "FIT PLACE24 池袋店",
+   "rating": 4.6,
+   "count": 248,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３９−４ the b 池袋 B１F",
+   "mapsUri": "https://maps.google.com/?cid=11528797030321336731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fitplace.jp/gyms/ikebukuro/"
+  },
+  {
+   "name": "BEYOND 池袋店",
+   "rating": 5,
+   "count": 241,
+   "address": "日本、〒170-0013 東京都豊島区東池袋４丁目８−８ 東池袋パークビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=6726699655741174866&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-ikebukuro.com/?utm_source=google&utm_medium=meo&utm_id=organic"
+  },
+  {
+   "name": "Dr.トレーニング 池袋店",
+   "rating": 5,
+   "count": 214,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目４０−１０ 東池Kビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=1530681216065469528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/ikebukuro/?utm_source=google&utm_medium=meo&utm_campaign=meo&utm_id=2"
+  },
+  {
+   "name": "チキンジム 池袋店",
+   "rating": 4.6,
+   "count": 191,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目２１−１３ Aune池袋 11F",
+   "mapsUri": "https://maps.google.com/?cid=417384944018246020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chicken-gym.jp/shops/ikebukuro/?utm_source=gmb&utm_medium=organic&utm_campaign=mybiz38&utm_term=ikebukuro&utm_content=shops_ikebukuro"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 池袋",
+   "rating": 4.7,
+   "count": 118,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目２１−１ 4階",
+   "mapsUri": "https://maps.google.com/?cid=3549334822699468555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/ikebukuro/"
+  },
+  {
+   "name": "SFIDA Fitness&Relax",
+   "rating": 5,
+   "count": 112,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目４２−９ 中川ビル B1",
+   "mapsUri": "https://maps.google.com/?cid=18415165950562613782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sfida.top/"
+  },
+  {
+   "name": "MIYAZAKI GYM池袋店",
+   "rating": 4.9,
+   "count": 101,
+   "address": "日本、〒171-0022 東京都豊島区南池袋１丁目１２−７ ＭＩビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=17371967171814825996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miyazaki-gym.jp/shop/ikebukuro/"
+  },
+  {
+   "name": "パーソナルジム Woot! 池袋",
+   "rating": 4.9,
+   "count": 92,
+   "address": "日本、〒171-0021 東京都豊島区西池袋５丁目２−１１ 春谷ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=9111309454055485071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://woot.fit/locations/ikebukuro"
+  },
+  {
+   "name": "Apple GYM（アップルジム）池袋店",
+   "rating": 4.9,
+   "count": 82,
+   "address": "日本、〒171-0021 東京都豊島区西池袋３丁目３０−１０ ライオンビル 204号室",
+   "mapsUri": "https://maps.google.com/?cid=5170610079776292586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://applegym.jp/shop/ikebukuro/?utm_source=google&utm_medium=maps&utm_campaign=gmb"
+  },
+  {
+   "name": "リボーンマイセルフ池袋店",
+   "rating": 4.8,
+   "count": 78,
+   "address": "日本、〒171-0021 東京都豊島区西池袋３丁目２５−１１ CIC IKEBUKURO BUIL4F",
+   "mapsUri": "https://maps.google.com/?cid=6843848607484536173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/ikebukuro/?utm_source=google&utm_medium=organic&utm_campaign=gbp_ikebukuro"
+  },
+  {
+   "name": "ビーコンセプト池袋店",
+   "rating": 4.9,
+   "count": 76,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目５１−１６ 701",
+   "mapsUri": "https://maps.google.com/?cid=5489630864622401102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-concept.tokyo/clublist/ikebukuro/?utm_source=mybusiness&utm_medium=organic"
+  },
+  {
+   "name": "パーソナルトレーニングジムBDS 池袋",
+   "rating": 5,
+   "count": 55,
+   "address": "日本、〒171-0021 東京都豊島区西池袋５丁目４−８ 河野ビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=4669946218882216163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://bds.jp/"
+  },
+  {
+   "name": "24/7ワークアウト 池袋店",
+   "rating": 4.6,
+   "count": 47,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目１０−７ ビルディング K3F",
+   "mapsUri": "https://maps.google.com/?cid=2089203055599050216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://247-sports.jp/workout/gym/tokyo/ikebukuro/?acckey=gym0-googmybu-0000-2470-glpforms-00000003&utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "池袋パーソナルジム ARISANFIT",
+   "rating": 5,
+   "count": 38,
+   "address": "日本、〒170-0011 東京都豊島区池袋本町１丁目３８−１１ カーサコモド 1階",
+   "mapsUri": "https://maps.google.com/?cid=12231007823260344541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://arisanfit.com/s-ikebukuro/"
+  },
+  {
+   "name": "Best Gym (ベストジム）池袋西口 パーソナルジム",
+   "rating": 4.9,
+   "count": 27,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目７１−３ ベルスパッツィオ池袋ビル B1F",
+   "mapsUri": "https://maps.google.com/?cid=12093937730394775251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://b.hpr.jp/kr/hp/H000809080"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 池袋店",
+   "rating": 5,
+   "count": 26,
+   "address": "日本、〒171-0021 東京都豊島区西池袋１丁目１８−１ 五光ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=8041891142200901144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://katagirijuku.jp/gyms/ikebukuro?utm_source=google&utm_medium=meo&utm_campaign=gbp&argument=dlZwbj8h&dmai=a67c56736a7509"
+  },
+  {
+   "name": "BSBパーソナルジム 上池袋",
+   "rating": 5,
+   "count": 24,
+   "address": "日本、〒170-0012 東京都豊島区上池袋１丁目３５−６ ヨウコースクウェア上池袋 B1",
+   "mapsUri": "https://maps.google.com/?cid=16536513327230488612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bsb-personalgym.jp/"
+  },
+  {
+   "name": "One's Gym 池袋店",
+   "rating": 5,
+   "count": 22,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目２３−２ ビルｄｅシャンテ 3F",
+   "mapsUri": "https://maps.google.com/?cid=16005423756403545533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onesgym.co.jp/"
+  },
+  {
+   "name": "REAL WORKOUT 池袋店 | リアルワークアウト",
+   "rating": 4.8,
+   "count": 19,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目９−５ サトミビル B1F",
+   "mapsUri": "https://maps.google.com/?cid=16912417964374657733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://realworkout.jp/location/ikebukuro-higashiguchi/"
+  },
+  {
+   "name": "オタクジムCLALABO池袋Aスタジオ",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒171-0022 東京都豊島区南池袋１丁目１４−２ 301",
+   "mapsUri": "https://maps.google.com/?cid=14073678454553410627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.clalabogym.com/"
+  },
+  {
+   "name": "グッドライフジム 池袋東口店 GOODLIFE GYM 東池袋・雑司が谷",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１８−４４ プレイスリボン 102",
+   "mapsUri": "https://maps.google.com/?cid=11970548399474893899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://goodlifegym.jp/ikebukurohigashi/?utm_source=gmap&utm_medium=ikehiga&utm_campaign=gmap_ikehiga"
+  },
+  {
+   "name": "パーソナルジムYours.池袋店",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒171-0014 東京都豊島区池袋４丁目２−１２ 第３末好ビル 202号室",
+   "mapsUri": "https://maps.google.com/?cid=13103945807217714433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yoursgym.jp/ikebukuro/"
+  },
+  {
+   "name": "パーソナルジムサスティナ 池袋店",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒171-0022 東京都豊島区南池袋２丁目８−２ 玉井ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=17304138262076869583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sustina-gym.com/lp2/"
+  },
+  {
+   "name": "パーソナルジムHELPFit 池袋店（ミライトジム池袋）",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目５１−８ 402",
+   "mapsUri": "https://maps.google.com/?cid=7222282193085519150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.helpfit.info/"
+  }
+ ],
+ "ginza": [
+  {
+   "name": "SPACE GYM 銀座店",
+   "rating": 5,
+   "count": 421,
+   "address": "日本、〒104-0061 東京都中央区銀座２丁目２−１８ Th銀座ビル 8F",
+   "mapsUri": "https://maps.google.com/?cid=4492239401883343739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.space-gym.com/shop/ginza/?utm_source=Google&utm_medium=web&utm_campaign=march&utm_id=gbp"
+  },
+  {
+   "name": "ASPI銀座店",
+   "rating": 4.9,
+   "count": 421,
+   "address": "日本、〒104-0061 東京都中央区銀座７丁目１３−２０ 銀座Thビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=1810115053209608816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/tokyo/shimbashi/?utm_source=shimbashi&utm_id=gpm"
+  },
+  {
+   "name": "【銀座】パーソナルジム ACCEPT",
+   "rating": 5,
+   "count": 293,
+   "address": "日本、〒104-0061 東京都中央区銀座２丁目１２−４ アジリア銀座 J's402",
+   "mapsUri": "https://maps.google.com/?cid=8315440728510751697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.accept-gym.jp/"
+  },
+  {
+   "name": "パーソナルビューティージム 新橋・銀座店",
+   "rating": 4.9,
+   "count": 263,
+   "address": "日本、〒104-0061 東京都中央区銀座７丁目２−１４ 第26ポールスタービル ７階Ａ室",
+   "mapsUri": "https://maps.google.com/?cid=6129586092350397311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pbg2021.com/"
+  },
+  {
+   "name": "BEYOND 銀座店",
+   "rating": 4.9,
+   "count": 230,
+   "address": "日本、〒104-0061 東京都中央区銀座４丁目９−５ 銀昭ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=4642580053172009958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-ginza/?utm_source=google&utm_medium=meo&utm_campaign=web-ginza"
+  },
+  {
+   "name": "SPACE GYM 東銀座店",
+   "rating": 5,
+   "count": 206,
+   "address": "日本、〒104-0061 東京都中央区銀座１丁目２０−１１ BORU G1 12F",
+   "mapsUri": "https://maps.google.com/?cid=11220793016304070547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.space-gym.com/shop/higashiginza/?utm_source=Google&utm_medium=web&utm_campaign=march&utm_id=gbp"
+  },
+  {
+   "name": "BCT 銀座店",
+   "rating": 4.9,
+   "count": 199,
+   "address": "日本、〒104-0061 東京都中央区銀座３丁目１１−１１ Ⅱビル 参番館 5F",
+   "mapsUri": "https://maps.google.com/?cid=17812182143205551725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bct-gym.com/"
+  },
+  {
+   "name": "Wolf’s Lair Gym Ginza",
+   "rating": 5,
+   "count": 160,
+   "address": "日本、〒104-0061 東京都中央区銀座１丁目１５−１４ 水野ビル BF1",
+   "mapsUri": "https://maps.google.com/?cid=169582844254719994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://wolflairginza.co.jp/"
+  },
+  {
+   "name": "eviGym 銀座店",
+   "rating": 4.9,
+   "count": 159,
+   "address": "日本、〒104-0061 東京都中央区銀座４丁目１０−６ Ｇ４ビル ３Ｆ・４Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=6692074211828044708&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://evigym.com/stores/ginza?utm_source=gmb&utm_medium=referral"
+  },
+  {
+   "name": "Dr.トレーニング 銀座店【Dr.TRAINING PREMIUM】",
+   "rating": 4.9,
+   "count": 119,
+   "address": "日本、〒104-0061 東京都中央区銀座６丁目９−６ 菊水ビル 8階A室",
+   "mapsUri": "https://maps.google.com/?cid=2078855158216457238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/ginza/?utm_source=google&utm_medium=meo&utm_campaign=meo&utm_id=2"
+  },
+  {
+   "name": "ゴーズジム 銀座店",
+   "rating": 5,
+   "count": 112,
+   "address": "日本、〒104-0061 東京都中央区銀座３丁目１４−１４ 17kobikissGINZA 9階",
+   "mapsUri": "https://maps.google.com/?cid=9959127983509538884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gos-gym.com/ginza/"
+  },
+  {
+   "name": "ビーコンセプト銀座店",
+   "rating": 4.9,
+   "count": 103,
+   "address": "日本、〒104-0061 東京都中央区銀座１丁目１５−１３ VORT銀座 807号室",
+   "mapsUri": "https://maps.google.com/?cid=17980216926102970403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-concept.tokyo/clublist/ginza/?utm_source=mybusiness&utm_medium=organic"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 銀座",
+   "rating": 4.8,
+   "count": 91,
+   "address": "日本、〒104-0061 東京都中央区銀座２丁目８−１９ 3階",
+   "mapsUri": "https://maps.google.com/?cid=14105173700613053306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/ginza/"
+  },
+  {
+   "name": "REDY'S GYM(レディーズジム) 銀座店",
+   "rating": 4.9,
+   "count": 89,
+   "address": "日本、〒104-0061 東京都中央区銀座５丁目９−１２ ダイヤモンドビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=4686649869942823537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://redysgym.jp/studio/ginza/?utm_source=Google_mybusiness&utm_medium=link&utm_campaign=ginza"
+  },
+  {
+   "name": "Apple GYM（アップルジム）銀座店",
+   "rating": 4.7,
+   "count": 74,
+   "address": "日本、〒104-0061 東京都中央区銀座５丁目１０−６ 第一銀座ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=492675457079572821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://applegym.jp/shop/ginza/?utm_source=google&utm_medium=maps&utm_campaign=gmb"
+  },
+  {
+   "name": "BOSTY",
+   "rating": 5,
+   "count": 58,
+   "address": "日本、〒104-0061 東京都中央区銀座２丁目３−１８ 銀座高孝ビル B1",
+   "mapsUri": "https://maps.google.com/?cid=9136319221485496355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bosty.jp/store/ginza/"
+  },
+  {
+   "name": "MUSCLE MASON(マッスルメイソン)",
+   "rating": 5,
+   "count": 32,
+   "address": "日本、〒104-0045 東京都中央区築地１丁目１２−１６ プレミアム銀座イースト 402号室",
+   "mapsUri": "https://maps.google.com/?cid=154627018263075020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://musclemason.mightymellow.jp/"
+  },
+  {
+   "name": "BEST ME",
+   "rating": 5,
+   "count": 18,
+   "address": "日本、〒104-0061 東京都中央区銀座１丁目１９−８ 都市エステートビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=3273682365242146330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://best-me.hp.peraichi.com/"
+  },
+  {
+   "name": "ONCE GINZA",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒104-0061 東京都中央区銀座１丁目２１−１３ GINZA HOUSE floor8",
+   "mapsUri": "https://maps.google.com/?cid=9071493190712636489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onceginza.com/"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 銀座Seven",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒104-0061 東京都中央区銀座７丁目１０−５ The ORB Luminous 4階",
+   "mapsUri": "https://maps.google.com/?cid=1671511661095890464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/ginza-seven/"
+  },
+  {
+   "name": "Dr.ピラティス",
+   "rating": 4.4,
+   "count": 11,
+   "address": "日本、〒104-0061 東京都中央区銀座７丁目５−５ 長谷第一ビル 3階B室",
+   "mapsUri": "https://maps.google.com/?cid=5265839866822484493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drpilates.drtraining.jp/location/ginza/"
+  },
+  {
+   "name": "Personal Fit",
+   "rating": 4.6,
+   "count": 10,
+   "address": "日本、〒104-0061 東京都中央区銀座５丁目１５−１９ 銀座三真ビル 地下一階",
+   "mapsUri": "https://maps.google.com/?cid=14420984875648347112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalfit.co.jp/"
+  },
+  {
+   "name": "イズム銀座ファイブ店",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒104-0061 東京都中央区銀座５丁目１−１ 銀座ファイブ 2F",
+   "mapsUri": "https://maps.google.com/?cid=9331930624695194821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pilates-ism.com/"
+  },
+  {
+   "name": "GRANCE GYM（グランスジム） 東銀座 パーソナルジム",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒104-0061 東京都中央区銀座４丁目１４−３ 銀座斉藤ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=6610412210159823148&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://grancegym.com/"
+  },
+  {
+   "name": "One's Gym 銀座店",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒104-0061 東京都中央区銀座２丁目１２−１２ 深山ビル 5階C室",
+   "mapsUri": "https://maps.google.com/?cid=14889469068734580854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onesgym.co.jp/gym"
+  }
+ ],
+ "ebisu": [
+  {
+   "name": "ASPI恵比寿西口店",
+   "rating": 4.9,
+   "count": 429,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南１丁目９−３ エビスビル B1F ATLAS",
+   "mapsUri": "https://maps.google.com/?cid=231730477481498731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/tokyo/ebisu_ichibankai/?utm_source=ebisuichibankai&utm_id=gpm"
+  },
+  {
+   "name": "BBBパーソナルジム恵比寿店",
+   "rating": 4.9,
+   "count": 305,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿２丁目１６−６ REXIED恵比寿 501",
+   "mapsUri": "https://maps.google.com/?cid=17363233382055857426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bbb-tripleb.com/lp/"
+  },
+  {
+   "name": "HABIT PERSONAL GYM(ハビット パーソナル ジム)恵比寿本店",
+   "rating": 4.9,
+   "count": 258,
+   "address": "日本、〒150-0021 東京都渋谷区恵比寿西１丁目３２−１４ 2F",
+   "mapsUri": "https://maps.google.com/?cid=13110809310326174940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.habit-training.com/?utm_source=ebisu&utm_medium=googlemap&utm_campaign=corp"
+  },
+  {
+   "name": "BEYOND 恵比寿店",
+   "rating": 5,
+   "count": 242,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南２丁目１９−７ VORT恵比寿dual`s 404",
+   "mapsUri": "https://maps.google.com/?cid=6186387431400086586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-ebisu.com/?utm_source=google&utm_medium=meo&utm_id=organic"
+  },
+  {
+   "name": "ASPI恵比寿東口店",
+   "rating": 4.9,
+   "count": 221,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿４丁目４−１ バルビゾン105番館 3階",
+   "mapsUri": "https://maps.google.com/?cid=1399743640666650168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/tokyo/ebisu_higashiguchi/?utm_source=ebisuhigashiguchi&utm_id=gpm"
+  },
+  {
+   "name": "ワイズジム恵比寿",
+   "rating": 5,
+   "count": 215,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿３丁目１−１ 中尾ビル ３F",
+   "mapsUri": "https://maps.google.com/?cid=7069992877485495621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ys-gymbeauty.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "Dr.トレーニング 恵比寿本店",
+   "rating": 4.9,
+   "count": 157,
+   "address": "日本、〒150-0021 東京都渋谷区恵比寿西１丁目３０−１ シーズ代官山 1F",
+   "mapsUri": "https://maps.google.com/?cid=13225544117820476842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/ebisu/?utm_source=google&utm_medium=meo&utm_campaign=meo&utm_id=2"
+  },
+  {
+   "name": "RESET（リセット）恵比寿店",
+   "rating": 4.9,
+   "count": 153,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿４丁目７−２ Kbkビル ３階",
+   "mapsUri": "https://maps.google.com/?cid=1074281749417995992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://reset-gym.com/ebisu/"
+  },
+  {
+   "name": "eviGym 恵比寿店",
+   "rating": 4.9,
+   "count": 153,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南２丁目３−１ パイザ恵比寿ビル ７０２",
+   "mapsUri": "https://maps.google.com/?cid=216842179983100300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://evigym.com/stores/ebis?utm_source=gmb&utm_medium=referral"
+  },
+  {
+   "name": "PEAK’SGYM(ピークジム)恵比寿店",
+   "rating": 4.9,
+   "count": 99,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿２丁目１６−６ REXIED恵比寿 B3",
+   "mapsUri": "https://maps.google.com/?cid=10002251876258682943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://peaksgym-ebisu.com/"
+  },
+  {
+   "name": "グッドライフジム prime 恵比寿広尾店",
+   "rating": 4.9,
+   "count": 99,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿２丁目６−２６ クロスサードビル TQ恵比寿 B１階",
+   "mapsUri": "https://maps.google.com/?cid=4172209555111285471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://goodlifegym.jp/ebisu/"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 恵比寿",
+   "rating": 4.8,
+   "count": 88,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南１丁目１１−２ ダイニングイノベーションビル 地下1階",
+   "mapsUri": "https://maps.google.com/?cid=3010781589203295806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/ebisu/"
+  },
+  {
+   "name": "COMPASS 恵比寿店",
+   "rating": 5,
+   "count": 83,
+   "address": "日本、〒150-0021 東京都渋谷区恵比寿西２丁目８−６ Acn恵比寿西ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=15775462590025449818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://career-direction.jp/compass/"
+  },
+  {
+   "name": "エスジ",
+   "rating": 4.9,
+   "count": 75,
+   "address": "日本、〒150-0021 東京都渋谷区恵比寿西１丁目１４−１４ 6HAGIWARA BLDG.6 6階",
+   "mapsUri": "https://maps.google.com/?cid=392528674460146986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://esuji-gym.com/"
+  },
+  {
+   "name": "JOES FITNESS 恵比寿店",
+   "rating": 5,
+   "count": 68,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿１丁目２２−８ 1302",
+   "mapsUri": "https://maps.google.com/?cid=4460822964989710378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.joesfitness.jp/"
+  },
+  {
+   "name": "パーソナルジムLUXXS 恵比寿 ダイエット 骨盤矯正なら",
+   "rating": 4.9,
+   "count": 62,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南１丁目２−９ 岡田ビル 2F 骨盤矯正 ダイエット 人気 安い パーソナルジム パーソナルトレーニング",
+   "mapsUri": "https://maps.google.com/?cid=2970008419179913559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://luxxs.jp/"
+  },
+  {
+   "name": "ONEFIT GYM恵比寿店",
+   "rating": 4.9,
+   "count": 56,
+   "address": "日本、〒150-0011 東京都渋谷区東３丁目１７−１１ 201",
+   "mapsUri": "https://maps.google.com/?cid=1756334762310128660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onefitgym-ebisu.com/"
+  },
+  {
+   "name": "カタルシックスジム 恵比寿店 CATHARSIX GYM",
+   "rating": 5,
+   "count": 55,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿２丁目９−１ シャンブル恵比寿 1F",
+   "mapsUri": "https://maps.google.com/?cid=7471985178009474384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  },
+  {
+   "name": "24/7ワークアウト 恵比寿・目黒店",
+   "rating": 4.8,
+   "count": 48,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南２丁目１９−７ VORT恵比寿Dual's301 501",
+   "mapsUri": "https://maps.google.com/?cid=14984670623756815519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://247-sports.jp/workout/gym/tokyo/ebisumeguro/?acckey=gym0-googmybu-0000-2470-glpforms-00000011&utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "OUTLINE(アウトライン)恵比寿店",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿２丁目８−１３ アクセスビルド恵比寿 ３F",
+   "mapsUri": "https://maps.google.com/?cid=845174202312380232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.outline-gym.com/gym/ebisu"
+  },
+  {
+   "name": "Me 恵比寿",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南２丁目４−４ メガロスゼロプラス恵比寿店内 ホーム 1",
+   "mapsUri": "https://maps.google.com/?cid=18244750971574110431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://me-gym.com/"
+  },
+  {
+   "name": "EBISU PERSONAL GYM",
+   "rating": 4.8,
+   "count": 16,
+   "address": "日本、〒150-0012 東京都渋谷区広尾１丁目１５−３ マスダビル マスタビル501",
+   "mapsUri": "https://maps.google.com/?cid=8213354459279941336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ebisu-peraonal-gym.stores.jp/reserve/one/1117405"
+  },
+  {
+   "name": "BEAUTY GYM 恵比寿店",
+   "rating": 4.7,
+   "count": 15,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南２丁目１９−７ VORT恵比寿Dual's 306号室",
+   "mapsUri": "https://maps.google.com/?cid=17410265415537675173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bit.ly/3BWYxCq"
+  },
+  {
+   "name": "女性専門パーソナルジムLIM恵比寿店",
+   "rating": 4.5,
+   "count": 11,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿４丁目１１−８ グラン・ヌーノ 501",
+   "mapsUri": "https://maps.google.com/?cid=4992798075453012231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lim-gym.jp/lp/ebisu-new/"
+  },
+  {
+   "name": "【女性専用】パーソナルジムABOVE 恵比寿店",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒150-0011 東京都渋谷区東３丁目１７−１４ ACNスクエア 3F",
+   "mapsUri": "https://maps.google.com/?cid=15617375332527914238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://above-f.co.jp/ebisu"
+  }
+ ],
+ "shinagawa": [
+  {
+   "name": "ゴーズジム (GO'S GYM)品川店",
+   "rating": 4.9,
+   "count": 114,
+   "address": "日本、〒108-0074 東京都港区高輪４丁目２１−１３ CRADEL 高輪 2F",
+   "mapsUri": "https://maps.google.com/?cid=7449988568428120801&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gos-gym.com/shinagawa/"
+  },
+  {
+   "name": "パーソナルトレーニングジムRESET（リセット）品川店",
+   "rating": 4.9,
+   "count": 106,
+   "address": "日本、〒108-0074 東京都港区高輪４丁目２３−４ TAKANAWA SUN HEIGHTS 102号",
+   "mapsUri": "https://maps.google.com/?cid=16357544996059919184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://reset-gym.com/shinagawa/"
+  },
+  {
+   "name": "REAL WORKOUT品川・高輪台店",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒108-0071 東京都港区白金台２丁目１１−５ 近藤ビル 301",
+   "mapsUri": "https://maps.google.com/?cid=10712239133438635903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://realworkout.jp/location/takanawadai/"
+  }
+ ],
+ "umeda": [
+  {
+   "name": "SPACE GYM 梅田店",
+   "rating": 5,
+   "count": 365,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目３−２ 梅新スクエア 602号室",
+   "mapsUri": "https://maps.google.com/?cid=17310690984470793414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.space-gym.com/shop/umeda/?utm_source=Google&utm_medium=web&utm_campaign=march&utm_id=gbp"
+  },
+  {
+   "name": "女性専用パーソナルジム W2 梅田店",
+   "rating": 4.6,
+   "count": 287,
+   "address": "日本、〒530-0051 大阪府大阪市北区太融寺町８−１７ 地下1階",
+   "mapsUri": "https://maps.google.com/?cid=2690076913908211829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.w2gym.jp/"
+  },
+  {
+   "name": "GYMS 梅田店",
+   "rating": 4.6,
+   "count": 281,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目１０−１０ 芝田グランドビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=2022755469401409190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "BEYOND梅田店",
+   "rating": 4.9,
+   "count": 226,
+   "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地２丁目１−２１ 801室",
+   "mapsUri": "https://maps.google.com/?cid=6953172035057180701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-osaka-umeda/?utm_source=google&utm_medium=meo&utm_campaign=web-osaka-umeda"
+  },
+  {
+   "name": "GYMS 大阪駅店",
+   "rating": 4.7,
+   "count": 211,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目８−１７ 大阪第一生命ビルディング 地下2階",
+   "mapsUri": "https://maps.google.com/?cid=1022463083688734826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "エクササイズコーチリンクス",
+   "rating": 4.9,
+   "count": 162,
+   "address": "日本、〒530-0011 大阪府大阪市北区大深町１−１ リンクス梅田 7階",
+   "mapsUri": "https://maps.google.com/?cid=12240780730938398662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://exercisecoach.co.jp/store/links/?utm_source=google&utm_medium=organic&utm_campaign=gbp_links"
+  },
+  {
+   "name": "パーソナルジムRat梅田店",
+   "rating": 4.9,
+   "count": 161,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目５−１２ 303号室",
+   "mapsUri": "https://maps.google.com/?cid=13579981715106475875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/oosaka/hankyu-umeda/"
+  },
+  {
+   "name": "THE PERSONAL GYM梅田店",
+   "rating": 5,
+   "count": 158,
+   "address": "日本、〒531-0075 大阪府大阪市北区大淀南１丁目３−１４ 中島ビル旧館 4階",
+   "mapsUri": "https://maps.google.com/?cid=12726715919126681217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/umeda/"
+  },
+  {
+   "name": "エープラスダイエットジム 梅田店",
+   "rating": 5,
+   "count": 150,
+   "address": "日本、〒530-0027 大阪府大阪市北区堂山町１−５ 2階",
+   "mapsUri": "https://maps.google.com/?cid=16879371150331961903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.a-dietgym.jp/"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 梅田",
+   "rating": 4.7,
+   "count": 145,
+   "address": "日本、〒530-0013 大阪府大阪市北区茶屋町４−４ 茶屋町ガーデンビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=12006113288719817048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/umeda/"
+  },
+  {
+   "name": "SPICE UP FITNESS Neo（スパイスアップフィットネス）",
+   "rating": 4.9,
+   "count": 128,
+   "address": "日本、〒530-0011 大阪府大阪市北区大深町１−１ ヨドバシ梅田タワー リンクス 梅田 6階 フィットネスショップLINKS梅田店内",
+   "mapsUri": "https://maps.google.com/?cid=15533761087172958944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.spiceupfitness.com/neo-umeda?utm_source=google&utm_medium=gbp"
+  },
+  {
+   "name": "女性専用パーソナルジム&ピラティス LAIT GYM（ライトジム）梅田店",
+   "rating": 4.9,
+   "count": 106,
+   "address": "日本、〒531-0072 大阪府大阪市北区豊崎５丁目７−２１ おおきに豊崎西公園ビル ４F",
+   "mapsUri": "https://maps.google.com/?cid=11518446900593417306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lait-gym.com/"
+  },
+  {
+   "name": "パーソナルジムBREEZE 梅田店",
+   "rating": 4.8,
+   "count": 100,
+   "address": "日本、〒530-0014 大阪府大阪市北区鶴野町４−１１ 朝日プラザ梅田 1406号室",
+   "mapsUri": "https://maps.google.com/?cid=5278546327628332239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://breeze-gyms.com/umeda/"
+  },
+  {
+   "name": "Dr.トレーニング梅田店",
+   "rating": 5,
+   "count": 83,
+   "address": "日本、〒530-0013 大阪府大阪市北区茶屋町４−２ エスプライム茶屋町 1F S1",
+   "mapsUri": "https://maps.google.com/?cid=17275173958446043507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/umeda/?utm_source=google&utm_medium=meo&utm_campaign=meo&utm_id=2"
+  },
+  {
+   "name": "HABIT PERSONAL GYM(ハビット パーソナル ジム)大阪梅田店",
+   "rating": 5,
+   "count": 71,
+   "address": "日本、〒530-0015 大阪府大阪市北区中崎西１丁目１−２ Solea nakazaki2階",
+   "mapsUri": "https://maps.google.com/?cid=163605583611731008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://habit-training.com/studio/umeda/"
+  },
+  {
+   "name": "BEYOND 梅田 ANNEX",
+   "rating": 5,
+   "count": 68,
+   "address": "日本、〒530-0003 大阪府大阪市北区堂島２丁目３−３ ＳＵＲＥ堂島 8階",
+   "mapsUri": "https://maps.google.com/?cid=4107258574209036310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-shinsaibashi.com/diet/?utm_source=google&utm_medium=cpc&utm_campaign=brand"
+  },
+  {
+   "name": "パーソナルジムDECOR",
+   "rating": 4.7,
+   "count": 64,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目８ DECOR PERSONAL ＆ FITNESS２４Ｈ 大阪市北区曽根崎2-8-32 アパホテル＆リゾート大阪梅田駅タワー4階",
+   "mapsUri": "https://maps.google.com/?cid=15712692919651751570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.decor-riki.net/"
+  },
+  {
+   "name": "GYMS（ジムズ） 第三ビル店",
+   "rating": 4.7,
+   "count": 49,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 2階 18-1",
+   "mapsUri": "https://maps.google.com/?cid=1683225761900653639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "リボーンマイセルフ梅田店",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目１０−８ 山中ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=13394798473255855558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/umeda/"
+  },
+  {
+   "name": "EMANN《エマン》梅田本店 パーソナルジム",
+   "rating": 4.9,
+   "count": 31,
+   "address": "日本、〒530-0047 大阪府大阪市北区西天満２丁目１０−１０ ACN西天満ビル 301",
+   "mapsUri": "https://maps.google.com/?cid=16788829855423253631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://emann-gym.com/gym/"
+  },
+  {
+   "name": "b-free梅田ルナシア店",
+   "rating": 4.8,
+   "count": 11,
+   "address": "日本、〒530-0002 大阪府大阪市北区曽根崎新地１丁目３−２５ ぐらん-ぱれ西館 3F",
+   "mapsUri": "https://maps.google.com/?cid=4187801013642876871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://b-free.beauty/"
+  }
+ ],
+ "namba": [
+  {
+   "name": "LIFIX GYM-リフィックスジム-",
+   "rating": 4.9,
+   "count": 1088,
+   "address": "日本、〒542-0082 大阪府大阪市中央区島之内２丁目１７−１３ B１F・２F・３F・４F",
+   "mapsUri": "https://maps.google.com/?cid=5190587332934627503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fitness.lifix.life/"
+  },
+  {
+   "name": "トルクなんば店 Torque gym Namba",
+   "rating": 4.8,
+   "count": 656,
+   "address": "日本、〒542-0075 大阪府大阪市中央区難波千日前１５−１５ ６F",
+   "mapsUri": "https://maps.google.com/?cid=18324096454228412288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://torquegym.com/"
+  },
+  {
+   "name": "MITTNESSなんばCITY店",
+   "rating": 4.9,
+   "count": 341,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波５丁目１−６０ なんばCITY南館 1F",
+   "mapsUri": "https://maps.google.com/?cid=6555278227790722272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mittness.jp/shop/shop-nanba/?utm_source=google&utm_medium=map&utm_campaign=nambacity"
+  },
+  {
+   "name": "W2 なんば店",
+   "rating": 4.7,
+   "count": 220,
+   "address": "日本、〒542-0071 大阪府大阪市中央区道頓堀２丁目３−２９ 3F",
+   "mapsUri": "https://maps.google.com/?cid=11082831375140565787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.w2gym.jp/"
+  },
+  {
+   "name": "O2GYM難波店",
+   "rating": 4.9,
+   "count": 120,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波３丁目５−８ 三栄御堂筋ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=16533376224756375752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-o2gym.com/"
+  },
+  {
+   "name": "パーソナルジム・ピラティス／クロニクルジャパン心斎橋・堀江店",
+   "rating": 5,
+   "count": 105,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目１７−８ 7F",
+   "mapsUri": "https://maps.google.com/?cid=9817890951631621013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chronicle-japan.jp/lp-shinsaibashi/"
+  },
+  {
+   "name": "ティーバランス心斎橋店",
+   "rating": 4.9,
+   "count": 97,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目８−１０ おおきにハカルンビル ２０１",
+   "mapsUri": "https://maps.google.com/?cid=16216249249335570123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://t-balance-gym.net/gender/?utm_source=shinsaibashigmb&utm_medium=onpage"
+  },
+  {
+   "name": "エクササイズコーチなんばスカイオ店",
+   "rating": 4.9,
+   "count": 96,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波５丁目１−６０ なんばスカイオ 6階",
+   "mapsUri": "https://maps.google.com/?cid=11341204383044720461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://exercisecoach.co.jp/store/nambaskyo/?utm_source=google&utm_medium=organic&utm_campaign=gbp_nambaskyo"
+  },
+  {
+   "name": "ASPI難波店 パーソナルトレーニングジム",
+   "rating": 4.9,
+   "count": 84,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目４−２ 難波日興ビル 5F B号室",
+   "mapsUri": "https://maps.google.com/?cid=12079942153484466334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/osaka/namba/"
+  },
+  {
+   "name": "URBAN CLASSIC PILATES なんば千日前",
+   "rating": 4.8,
+   "count": 77,
+   "address": "日本、〒542-0074 大阪府大阪市中央区千日前１丁目３−５ KOKO HOTEL 大阪なんば千日前 2F",
+   "mapsUri": "https://maps.google.com/?cid=9720567589484306798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://urbanclassic.jp/pilates-studio/sennichimae/"
+  },
+  {
+   "name": "ライザップ(RIZAP)なんば店",
+   "rating": 4.8,
+   "count": 65,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波４丁目４−４ 御堂筋センタービル 5F",
+   "mapsUri": "https://maps.google.com/?cid=4309451406515040965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lp.rizap.jp/lp/training-230418/?utm_source=googlemap&utm_medium=map&utm_campaign=googlemap&utm_term=250723&utm_content=nanba"
+  },
+  {
+   "name": "BLUE TIGER FITNESS",
+   "rating": 5,
+   "count": 25,
+   "address": "日本、〒542-0074 大阪府大阪市中央区難波千日前７−８ タガワ・ビル ６階",
+   "mapsUri": "https://maps.google.com/?cid=13810975364820905564&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://blue-tiger-fitness.com/"
+  },
+  {
+   "name": "regalis(レガリス)",
+   "rating": 5,
+   "count": 23,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波２丁目３−５ ティックランド ビル",
+   "mapsUri": "https://maps.google.com/?cid=1262786345179860120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000696847/"
+  },
+  {
+   "name": "リボーンマイセルフなんばスカイオ店",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波５丁目１−６０ なんばスカイオ 6階",
+   "mapsUri": "https://maps.google.com/?cid=9122199559866249939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/nambaskyo/?utm_source=google&utm_medium=organic&utm_campaign=gbp_namba"
+  },
+  {
+   "name": "Dream GYM SPACE",
+   "rating": 4.9,
+   "count": 11,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目１７−１３ 3F A-2",
+   "mapsUri": "https://maps.google.com/?cid=7321145918846939103&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://instagram.com/dream_gym_space"
+  },
+  {
+   "name": "RayBelle",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒542-0074 大阪府大阪市中央区千日前２丁目５−２ 日本一歯科センタービル 7F",
+   "mapsUri": "https://maps.google.com/?cid=5983120706535680716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://raybelleplus-gym-sauna.com/"
+  }
+ ],
+ "surveyedAt": "2026-07-20"
+}
