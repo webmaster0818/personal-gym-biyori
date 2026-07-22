@@ -1957,5 +1957,653 @@
    "mapsUri": "https://maps.google.com/?cid=14393964137623349215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "website": "https://drtraining.jp/location/tenjin/"
   }
+ ],
+ "sapporo": [
+  {
+   "name": "A＋ダイエットジム札幌店",
+   "rating": 4.9,
+   "count": 249,
+   "address": "日本、〒060-0063 北海道札幌市中央区南３条西２丁目16−７ さとうビル B1F",
+   "mapsUri": "https://maps.google.com/?cid=8604880719075237145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kotonear.com/dietgym/"
+  },
+  {
+   "name": "ASPI札幌店",
+   "rating": 4.9,
+   "count": 181,
+   "address": "日本、〒060-0062 北海道札幌市中央区南２条西６丁目17番地5 TAIYO Bld 2・6 202号室",
+   "mapsUri": "https://maps.google.com/?cid=5879612644724816021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/hokkaido/%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0aspi%E6%9C%AD%E5%B9%8C%EF%BC%885%E6%9C%88open%EF%BC%89/"
+  },
+  {
+   "name": "初心者向けスポーツジム フィットメソッド 札幌店",
+   "rating": 4.9,
+   "count": 165,
+   "address": "日本、〒064-0807 北海道札幌市中央区南７条西７丁目1−１ プルミエール 南7 条 1F 【札幌市のパーソナルジム】",
+   "mapsUri": "https://maps.google.com/?cid=3675697744588028299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fitmethod.net/"
+  },
+  {
+   "name": "BEYOND札幌大通店",
+   "rating": 4.9,
+   "count": 130,
+   "address": "日本、〒060-0062 北海道札幌市中央区南２条西３丁目１１−４ TialaDeux5F",
+   "mapsUri": "https://maps.google.com/?cid=5925992621288171412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.beyond-sapporo.com/"
+  },
+  {
+   "name": "BEYOND札幌ANNEX店",
+   "rating": 4.8,
+   "count": 129,
+   "address": "日本、〒060-0062 北海道札幌市中央区南２条西１０丁目7−１ BUDDYビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=4811060708473683130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.beyond-sapporo.com/"
+  },
+  {
+   "name": "K7gym",
+   "rating": 5,
+   "count": 114,
+   "address": "日本、〒060-0001 北海道札幌市中央区北１条西３丁目３−３１ 古久根ビル 401号室",
+   "mapsUri": "https://maps.google.com/?cid=485446360234463133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://k7-gym.com/"
+  },
+  {
+   "name": "パーソナルジムMORE大通店",
+   "rating": 5,
+   "count": 109,
+   "address": "日本、〒060-0041 北海道札幌市中央区大通東４丁目４ 44EAST4 SAPPORO BLD4F",
+   "mapsUri": "https://maps.google.com/?cid=8912943120744717084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://more-personalgym.com/"
+  },
+  {
+   "name": "ANDGYM札幌店",
+   "rating": 5,
+   "count": 102,
+   "address": "日本、〒062-0903 北海道札幌市豊平区豊平３条１０丁目１−２１ エンドレス豊平",
+   "mapsUri": "https://maps.google.com/?cid=6815691064802445586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000621398/?sk=02&vos=hpk0048"
+  },
+  {
+   "name": "BEYOND札幌円山店",
+   "rating": 5,
+   "count": 100,
+   "address": "日本、〒064-0826 北海道札幌市中央区北６条西２６丁目２−２１ 北円山コーポ 1F",
+   "mapsUri": "https://maps.google.com/?cid=10279369705987689191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-sapporo.com/"
+  },
+  {
+   "name": "Personal Training Gym EVOXY 札幌店",
+   "rating": 5,
+   "count": 90,
+   "address": "日本、〒060-0051 北海道札幌市中央区南１条東２丁目3−４ 南一条イーストビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=7439109474951130671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.evoxy.jp/"
+  },
+  {
+   "name": "Relaxation Gym TRIGGER札幌駅前店",
+   "rating": 5,
+   "count": 85,
+   "address": "日本、〒060-0807 北海道札幌市北区北７条西５丁目6番地1 ストークマンション 704号室",
+   "mapsUri": "https://maps.google.com/?cid=1212798369238973945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://trigger0301.com/"
+  },
+  {
+   "name": "Re: Smile Perfect Body",
+   "rating": 5,
+   "count": 83,
+   "address": "日本、〒060-0042 北海道札幌市中央区大通西１５丁目２−１８ ファミール西15 301 号室",
+   "mapsUri": "https://maps.google.com/?cid=11443005707989349028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0CAIQw7AJahcKEwjwzdDhn8iAAxUAAAAAHQAAAAAQAw&url=https://re-smile0801.online/&psig=AOvVaw3AmlpaTwp68VBhFmEL7jT-&ust=1691418685728618&opi=89978449"
+  },
+  {
+   "name": "LD GYM’s sapporo",
+   "rating": 4.8,
+   "count": 65,
+   "address": "日本、〒060-0032 北海道札幌市中央区北２条東１丁目５−２ ０２A",
+   "mapsUri": "https://maps.google.com/?cid=7394069002361856380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000632233/"
+  },
+  {
+   "name": "BEYOND札幌駅前店",
+   "rating": 5,
+   "count": 58,
+   "address": "日本、〒060-0004 北海道札幌市中央区北４条西２丁目１−３ ひまわりタワ ６F",
+   "mapsUri": "https://maps.google.com/?cid=1910090116318577699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-sapporo.com/"
+  },
+  {
+   "name": "RADIM PERSONALGYM",
+   "rating": 5,
+   "count": 54,
+   "address": "日本、〒060-0032 北海道札幌市中央区北２条東３丁目２ N2 Fujii, 4階",
+   "mapsUri": "https://maps.google.com/?cid=2471379180262232515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://radim.jp/"
+  },
+  {
+   "name": "Rat札幌店",
+   "rating": 5,
+   "count": 41,
+   "address": "日本、〒060-0063 北海道札幌市中央区南３条西４丁目２０ 東昌3.4ビル 5FB",
+   "mapsUri": "https://maps.google.com/?cid=14673939948331377736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/hokkaido/sapporo/"
+  },
+  {
+   "name": "G-Prime(ジープライム)",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒064-0808 北海道札幌市中央区南８条西３丁目６−１ シティマンション五十嵐 207号室",
+   "mapsUri": "https://maps.google.com/?cid=6891076587513687986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://g-prime.jp/"
+  },
+  {
+   "name": "S-body Medical Fitness LAB",
+   "rating": 4.9,
+   "count": 23,
+   "address": "日本、〒063-0811 北海道札幌市西区琴似１条３丁目３−１２ しなねん琴似ビル",
+   "mapsUri": "https://maps.google.com/?cid=5752234882587610402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mfl-sbody.com/"
+  },
+  {
+   "name": "ドレンチワークス",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒060-0063 北海道札幌市中央区南３条西３丁目 南３条西３丁目１０三信ビル８F",
+   "mapsUri": "https://maps.google.com/?cid=6144053263015106098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://customworks.jp/"
+  },
+  {
+   "name": "YOUTH FIT at SHUFFLE GYM",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒064-0807 北海道札幌市中央区南７条西２丁目2−２２ 豊水ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=9264477357459260797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lin.ee/k8HwwJu3"
+  }
+ ],
+ "sendai": [
+  {
+   "name": "トライヴ仙台定禅寺通店",
+   "rating": 5,
+   "count": 198,
+   "address": "日本、〒980-0803 宮城県仙台市青葉区国分町３丁目３−１ 定禅寺ヒルズ 3階",
+   "mapsUri": "https://maps.google.com/?cid=4572543375246105545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tryve.co.jp/"
+  },
+  {
+   "name": "BEYOND 仙台店",
+   "rating": 5,
+   "count": 183,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央３丁目３−１８ 新庄ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=1318945591566505885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-sendai.com/"
+  },
+  {
+   "name": "ANCHOR",
+   "rating": 4.9,
+   "count": 112,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町２丁目１１−２７ 日吉第二ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=15015183026460250564&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://physic-jp.com/"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 仙台",
+   "rating": 4.9,
+   "count": 104,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央１丁目７−２ 3F",
+   "mapsUri": "https://maps.google.com/?cid=9477038487255310816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/life/sendai/"
+  },
+  {
+   "name": "SENDAI PERSONAL GYM ROOTS",
+   "rating": 5,
+   "count": 93,
+   "address": "日本、〒982-0034 宮城県仙台市太白区西多賀３丁目６−４１",
+   "mapsUri": "https://maps.google.com/?cid=979469395384455527&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sendai-personalgym.jp/"
+  },
+  {
+   "name": "パーソナルジムBLOOM（ブルーム）【仙台】",
+   "rating": 5,
+   "count": 89,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目１０−１２ 4階",
+   "mapsUri": "https://maps.google.com/?cid=16690292968694713533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bloom-sendai.com/"
+  },
+  {
+   "name": "パーソナルジム REPUBLIC",
+   "rating": 5,
+   "count": 85,
+   "address": "日本、〒981-3133 宮城県仙台市泉区泉中央３丁目９−１ 恵泉ビル 3F-C",
+   "mapsUri": "https://maps.google.com/?cid=7074479080454107399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgym-republic-izumi.com/"
+  },
+  {
+   "name": "THE PERSONAL GYM 仙台店",
+   "rating": 5,
+   "count": 83,
+   "address": "日本、〒980-0801 宮城県仙台市青葉区木町通１丁目６−７ グランビュー晩翠通 101",
+   "mapsUri": "https://maps.google.com/?cid=18427851080179524649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/sendai/"
+  },
+  {
+   "name": "ハイライト仙台小田原本店",
+   "rating": 5,
+   "count": 80,
+   "address": "日本、〒983-0803 宮城県仙台市宮城野区小田原１丁目７−２３ ラフィーネ小田原 101",
+   "mapsUri": "https://maps.google.com/?cid=9392895910922473843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://highlight-sendai.com/"
+  },
+  {
+   "name": "トライフィットネス仙台本町店",
+   "rating": 5,
+   "count": 70,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町２丁目１８−22 第3 浅久ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=16864183760207948081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://comp-gym.com/"
+  },
+  {
+   "name": "パーソナルジムM'spro",
+   "rating": 4.9,
+   "count": 50,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央３丁目８−５ 312",
+   "mapsUri": "https://maps.google.com/?cid=13683544597644931696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000532722/"
+  },
+  {
+   "name": "リアルボディ 仙台",
+   "rating": 4.7,
+   "count": 46,
+   "address": "日本、〒980-0803 宮城県仙台市青葉区国分町１丁目４−７ ＯＭビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=18222231265579051391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://realbody.jp/lp/"
+  },
+  {
+   "name": "9INE-GYM",
+   "rating": 5,
+   "count": 45,
+   "address": "日本、〒983-0852 宮城県仙台市宮城野区榴岡４丁目４−１７ いがらしビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=2916785905418698666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://9ine-gym.net/?utm_source=google&utm_medium=gbp"
+  },
+  {
+   "name": "リボーンマイセルフ仙台店",
+   "rating": 4.9,
+   "count": 39,
+   "address": "日本、〒980-0811 宮城県仙台市青葉区一番町２丁目８−４６ 青葉通りOSビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=12275718655276563910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/sendai/"
+  },
+  {
+   "name": "ハイライト仙台東口店",
+   "rating": 4.9,
+   "count": 39,
+   "address": "日本、〒983-0864 宮城県仙台市宮城野区名掛丁206−１８",
+   "mapsUri": "https://maps.google.com/?cid=16915247124423270551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://highlight-sendai.com/"
+  },
+  {
+   "name": "プライベートジムRevive上杉店",
+   "rating": 5,
+   "count": 33,
+   "address": "日本、〒980-0012 宮城県仙台市青葉区錦町２丁目１−４５ reveur仙台錦町 101号室",
+   "mapsUri": "https://maps.google.com/?cid=10084880090580802712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://revive-sendai.com/access/kamisugi/"
+  },
+  {
+   "name": "Enlarge-BODYMAKE GYM-",
+   "rating": 4.8,
+   "count": 26,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町２丁目１６−７ ハピネスビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=4940020971636891243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://enlarge-gym.com/"
+  },
+  {
+   "name": "パーソナルジム&マシンピラティス PERSONAL TRAINING STUDIO U 仙台長町店",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒982-0011 宮城県仙台市太白区長町４丁目３−１８ 貝山店舗 1F",
+   "mapsUri": "https://maps.google.com/?cid=7190065242729371397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://p-studio-u-sendai.com/"
+  },
+  {
+   "name": "HPER(ハイパー)北仙台店｜ダイエット専門パーソナルジム",
+   "rating": 4.8,
+   "count": 13,
+   "address": "日本、〒981-0913 宮城県仙台市青葉区昭和町２−２１ なかビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=11124995699143006380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hper-gym.com/location/kitasendai/"
+  },
+  {
+   "name": "パーソナルジムLEAN",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒980-0022 宮城県仙台市青葉区五橋２丁目6−１２ 朝日プラザ五橋 Ⅳ 1階",
+   "mapsUri": "https://maps.google.com/?cid=14582220629614008259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.lean-sendai.com/"
+  }
+ ],
+ "kyoto": [
+  {
+   "name": "STANCE FITNESS 2ND 京都四条大宮店 24時間ジム/パーソナル",
+   "rating": 4.9,
+   "count": 480,
+   "address": "日本、〒600-8387 京都府京都市下京区高辻大宮町１０３ 大宮高辻ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=17654831765050864107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://stance-design.jp/"
+  },
+  {
+   "name": "BEYOND 京都四条店",
+   "rating": 4.9,
+   "count": 373,
+   "address": "日本、〒600-8091 京都府京都市下京区元悪王子町４６−４ やさか長砂ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=7947179574140628743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-kyotoshijo.com/?utm_source=google&utm_medium=meo&utm_id=organic"
+  },
+  {
+   "name": "女性専用パーソナルジム W2 京都河原町店",
+   "rating": 4.6,
+   "count": 218,
+   "address": "日本、〒600-8001 京都府京都市下京区西木屋町通四条上る真町９７ 京都イマージアムビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=5032194454851916139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.w2gym.jp/"
+  },
+  {
+   "name": "パーソナルジムRat京都四条店",
+   "rating": 4.9,
+   "count": 200,
+   "address": "日本、〒600-8432 京都府京都市下京区糸屋町２１９ つたやビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=1825112149196269596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/kyoto/kyoto-shijo/"
+  },
+  {
+   "name": "one life Personal Gym 河原町",
+   "rating": 5,
+   "count": 103,
+   "address": "日本、〒604-8054 京都府京都市中京区富小路通錦小路下る西大文字町５９９ 京都錦HKビル 301",
+   "mapsUri": "https://maps.google.com/?cid=16008506330380977635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onelife-kyoto.com/"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 京都",
+   "rating": 4.9,
+   "count": 100,
+   "address": "日本、〒604-8153 京都府京都市中京区烏丸通四条上ル笋町６８２ 梅軒ビル B1F",
+   "mapsUri": "https://maps.google.com/?cid=5121661506043663361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/kyoto/"
+  },
+  {
+   "name": "京都NEXT GYM右京区店",
+   "rating": 4.9,
+   "count": 72,
+   "address": "日本、〒615-0042 京都府京都市右京区西院東中水町７番外７ 日商岩井朱雀マンション 1-103",
+   "mapsUri": "https://maps.google.com/?cid=17900061621997710627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://next-gym.net/"
+  },
+  {
+   "name": "Cthree Personal Gym 京都西院",
+   "rating": 5,
+   "count": 72,
+   "address": "日本、〒604-8823 京都府京都市中京区壬生松原町１−５５ パレスノースビレッジ 206",
+   "mapsUri": "https://maps.google.com/?cid=13459481370221147236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://cthree.fit/"
+  },
+  {
+   "name": "COTOFIT姿勢改善専門パーソナルジム",
+   "rating": 4.9,
+   "count": 55,
+   "address": "日本、〒604-8152 京都府京都市中京区手洗水町６６２ メディアジョイITビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=10217085494417242350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://violet650700.studio.site/"
+  },
+  {
+   "name": "one life",
+   "rating": 5,
+   "count": 48,
+   "address": "日本、〒600-8494 京都府京都市下京区傘鉾町６５ 1F",
+   "mapsUri": "https://maps.google.com/?cid=1358194660438567094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onelife-kyoto.com/"
+  },
+  {
+   "name": "RACINE(ラシーヌ)京都四条烏丸",
+   "rating": 4.9,
+   "count": 47,
+   "address": "日本、〒604-8151 京都府京都市中京区蛸薬師通烏丸西入る橋弁慶町２３３ ガーデンビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=8773143910751067153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beautywellness-racine.com/"
+  },
+  {
+   "name": "playground kyoto",
+   "rating": 5,
+   "count": 37,
+   "address": "日本、〒600-8425 京都府京都市下京区骨屋町 高辻通 323 高辻三原ビル2階",
+   "mapsUri": "https://maps.google.com/?cid=1255485504793808732&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://training-kyoto.com/?y_source=1_MjQzMTI1MDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+  },
+  {
+   "name": "valor パーソナルジム",
+   "rating": 5,
+   "count": 37,
+   "address": "日本、〒604-8006 京都府京都市中京区京区河原町二条下る下丸屋町二丁目３９４ Y.J.Kビル 地下1階",
+   "mapsUri": "https://maps.google.com/?cid=4444677625540726677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://valor-kyoto.com/personal/"
+  },
+  {
+   "name": "PERSONAL TRAINING GYM SIEG",
+   "rating": 5,
+   "count": 32,
+   "address": "日本、〒600-8394 京都府京都市下京区晒屋町６２２−１ ナレッジスペース四条大宮202",
+   "mapsUri": "https://maps.google.com/?cid=6948865559611562897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personal-gym-sieg.studio.site/"
+  },
+  {
+   "name": "UNDROOP 京都四条烏丸 姿勢改善専門パーソナルジム",
+   "rating": 5,
+   "count": 31,
+   "address": "日本、〒600-8446 京都府京都市下京区堀之内町２７２−７ 西脇ビル 2号館402",
+   "mapsUri": "https://maps.google.com/?cid=11744026931973777090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://undroop.jp/#top"
+  },
+  {
+   "name": "インプルゥーブ 京都",
+   "rating": 4.7,
+   "count": 29,
+   "address": "日本、〒604-8221 京都府京都市中京区天神山町280番地 B1F",
+   "mapsUri": "https://maps.google.com/?cid=15508729052621163344&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://improve-kyoto.com/?utm_source=google-map&utm_medium=organic&utm_content=website_button"
+  },
+  {
+   "name": "playground kyoto 烏丸御池店",
+   "rating": 5,
+   "count": 29,
+   "address": "日本、〒604-8104 京都府京都市中京区高倉通姉小路上る木之下町286番地1",
+   "mapsUri": "https://maps.google.com/?cid=5499959652534307762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://training-kyoto.com/karasuma-oike/"
+  },
+  {
+   "name": "DAU GYM京都桂パーソナルジム",
+   "rating": 4.9,
+   "count": 28,
+   "address": "日本、〒615-8234 京都府京都市西京区御陵塚ノ越町16−１３ グラン・スクエア千代原口 １階",
+   "mapsUri": "https://maps.google.com/?cid=15519916368232495129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://daugym.com/"
+  },
+  {
+   "name": "リボーンマイセルフ京都駅店",
+   "rating": 4.6,
+   "count": 24,
+   "address": "日本、〒600-8216 京都府京都市下京区東塩小路町５４７−３ 明石屋ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=12704932089058595556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/kyoto-ekimae/"
+  },
+  {
+   "name": "HPER(ハイパー)新京極店｜新京極のダイエット専門パーソナルジム",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒604-8035 京都府京都市中京区桜之町３９７−５ 2F",
+   "mapsUri": "https://maps.google.com/?cid=8144428651117372269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hper-gym.com/location/shinkyogoku/"
+  }
+ ],
+ "kobe": [
+  {
+   "name": "REDY’S GYM(レディーズジム) 神戸三宮店",
+   "rating": 4.9,
+   "count": 271,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目４−３ クレフィ三宮 7F",
+   "mapsUri": "https://maps.google.com/?cid=16463220392435305728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://redysgym.jp/?utm_source=Google_business_profile&utm_medium=link&utm_campaign=kobe"
+  },
+  {
+   "name": "GYMS（ジムズ） 三宮店",
+   "rating": 4.5,
+   "count": 251,
+   "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町５丁目５−２ 上東ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=8376055035964059700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "パーソナルジムRat神戸三宮元町店",
+   "rating": 4.9,
+   "count": 184,
+   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通４丁目２−５ ローレル元町ビルディング 402・403",
+   "mapsUri": "https://maps.google.com/?cid=7588615429630246395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/hyogo/kobe-motomachi/?utm_medium=organic&utm_source=gmb&utm_campaign=gmap&utm_content=shops_kinshicho"
+  },
+  {
+   "name": "女性専門パーソナルジムiU 神戸三宮店",
+   "rating": 5,
+   "count": 145,
+   "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−９ フラワーロードビル １００１号",
+   "mapsUri": "https://maps.google.com/?cid=5171202684063980943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ivy-gym-lp.com/kobe/"
+  },
+  {
+   "name": "ダイエット専門パーソナルジム FLOW GYM 神戸三宮店",
+   "rating": 5,
+   "count": 132,
+   "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１２ 樫野ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=1073806656540244815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.flow-gym.co.jp/"
+  },
+  {
+   "name": "マハロトレーニングジム 神戸三宮",
+   "rating": 4.9,
+   "count": 116,
+   "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−９ フラワーロードビル ７０１ 7階",
+   "mapsUri": "https://maps.google.com/?cid=6794514488598171018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mtg-kobe.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 神戸",
+   "rating": 4.8,
+   "count": 106,
+   "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−１０ フラワーロードビル B1",
+   "mapsUri": "https://maps.google.com/?cid=16615652611482181818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/kobe/"
+  },
+  {
+   "name": "エクササイズコーチ三宮店",
+   "rating": 4.8,
+   "count": 91,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目８−１ さんプラザ 2階",
+   "mapsUri": "https://maps.google.com/?cid=11956604245213146361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://exercisecoach.co.jp/store/sannomiya/?utm_source=google&utm_medium=organic&utm_campaign=gbp_sannomiya"
+  },
+  {
+   "name": "VADY PLUS 神戸",
+   "rating": 4.8,
+   "count": 91,
+   "address": "日本、〒651-0079 兵庫県神戸市中央区東雲通３丁目３−１２ 88ビル ４階",
+   "mapsUri": "https://maps.google.com/?cid=13344196818090187415&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://vady.jp/access/kobe/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "Y-STYLE",
+   "rating": 4.9,
+   "count": 71,
+   "address": "日本、〒651-0096 兵庫県神戸市中央区雲井通４丁目１−２３ 202号室",
+   "mapsUri": "https://maps.google.com/?cid=14296852758217874556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://yskobe.jp/"
+  },
+  {
+   "name": "24/7ワークアウト 三宮店",
+   "rating": 4.6,
+   "count": 70,
+   "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−１４ トロアー神戸ビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=10571622131202890462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://247-sports.jp/workout/gym/hyogo/sannomiya/?acckey=gym0-googmybu-0000-2470-glpforms-00000082&utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "Be BODY",
+   "rating": 5,
+   "count": 61,
+   "address": "日本、〒651-0087 兵庫県神戸市中央区御幸通４丁目２−１３ IPSX BASE 201号室",
+   "mapsUri": "https://maps.google.com/?cid=5518397240064131925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bebody.jp/"
+  },
+  {
+   "name": "プリッツジム三宮・元町店",
+   "rating": 5,
+   "count": 53,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町２丁目５−１３ 香月ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=15326881802101485228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://plizgym.co.jp/hyogo/kobe/"
+  },
+  {
+   "name": "THE PERSONAL GYM 神戸三宮店",
+   "rating": 4.9,
+   "count": 50,
+   "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１３ ＩＰＳＸ ＭＡＧＮＥＴ 301",
+   "mapsUri": "https://maps.google.com/?cid=12418936867978780812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/sannnomiya/"
+  },
+  {
+   "name": "身体工房リベルテクス神戸三宮トアロード店",
+   "rating": 5,
+   "count": 45,
+   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通３丁目１−１７ 神戸トアロード山下ビル 401",
+   "mapsUri": "https://maps.google.com/?cid=9666924747535287181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.libertex.training/?utm_source=google&utm_medium=maps"
+  },
+  {
+   "name": "GRANDSTONE神戸三宮店",
+   "rating": 5,
+   "count": 43,
+   "address": "日本、〒651-0084 兵庫県神戸市中央区磯辺通１丁目１−１８ 505",
+   "mapsUri": "https://maps.google.com/?cid=12904837822644635938&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://grandstone.jp/"
+  },
+  {
+   "name": "女性専用パーソナルジム into. 神戸三宮 ピラティス＆トレーニング",
+   "rating": 5,
+   "count": 24,
+   "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町４丁目２−１６ 102",
+   "mapsUri": "https://maps.google.com/?cid=18436384074000404364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://personalgym-into.com/"
+  },
+  {
+   "name": "40代、50代向けパーソナルジムbloom fit17・三宮",
+   "rating": 5,
+   "count": 17,
+   "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１０ Hkビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=11093095992684527475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bloomfit17.jp/"
+  },
+  {
+   "name": "Dr.トレーニング 神戸三宮店",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町５丁目４−21 三共 三宮ビル 201号室",
+   "mapsUri": "https://maps.google.com/?cid=2009817099590674112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/sannomiya/?utm_source=google&utm_medium=meo&utm_campaign=meo&utm_id=2"
+  },
+  {
+   "name": "パーソナルトレーニングジム Blue Ocean Gym 神戸三宮店 三ノ宮",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒650-0001 兵庫県神戸市中央区加納町４丁目６−１ サンタックビル 2F-4F",
+   "mapsUri": "https://maps.google.com/?cid=6711916335204621731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.blueocean-gym.com/store_shopinfo/kobesannomiyastore/"
+  }
  ]
 }
