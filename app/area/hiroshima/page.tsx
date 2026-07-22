@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AreaGymCard from "@/components/AreaGymCard";
+import AreaGymList from "@/components/AreaGymList";
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: true },
   title: "【2026最新】パーソナルジム広島おすすめ5選",
   description:
     "広島でおすすめのパーソナルジム5選を厳選紹介。広島駅・本通り周辺の料金相場・特徴・アクセスを徹底比較。中国地方で通えるジムを解説。",
@@ -163,6 +163,8 @@ export default function HiroshimaAreaPage() {
           <p className="text-teal-100 text-sm mb-6">当サイトのランキングページで、目的別・料金別にジムを比較できます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングを見る</Link>
         </section>
+
+        <AreaGymList area="hiroshima" areaName="広島" />
 
         <section>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>

@@ -2605,5 +2605,613 @@
    "mapsUri": "https://maps.google.com/?cid=6711916335204621731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "website": "https://www.blueocean-gym.com/store_shopinfo/kobesannomiyastore/"
   }
+ ],
+ "hiroshima": [
+  {
+   "name": "BEYOND広島店",
+   "rating": 5,
+   "count": 266,
+   "address": "日本、〒730-0017 広島県広島市中区鉄砲町１０−１８ 3階",
+   "mapsUri": "https://maps.google.com/?cid=15480333922272850010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/"
+  },
+  {
+   "name": "トリム広島",
+   "rating": 4.9,
+   "count": 249,
+   "address": "日本、〒732-0814 広島県広島市南区段原南２丁目３−２８ AKビル ５F",
+   "mapsUri": "https://maps.google.com/?cid=15469975901882842744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.trim-hiroshima.com/"
+  },
+  {
+   "name": "MUSE FIT 広島",
+   "rating": 4.9,
+   "count": 136,
+   "address": "日本、〒730-0036 広島県広島市中区袋町９−３ 並木ヒルズ 2階",
+   "mapsUri": "https://maps.google.com/?cid=16057974957904325554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://musefit.co.jp/"
+  },
+  {
+   "name": "パーソナルトレーニングジム ナンバーワン",
+   "rating": 5,
+   "count": 117,
+   "address": "日本、〒730-0805 広島県広島市中区十日市町２丁目５−１８ TR十日市ビル2階",
+   "mapsUri": "https://maps.google.com/?cid=11733399510241141911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://number-one-fitness.com/"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 広島",
+   "rating": 4.9,
+   "count": 107,
+   "address": "日本、〒730-0031 広島県広島市中区紙屋町２丁目３−４ 6階",
+   "mapsUri": "https://maps.google.com/?cid=9079643869040825808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/life/hiroshima/"
+  },
+  {
+   "name": "UMPSY FIT（アンプシーフィット）比治山店",
+   "rating": 4.9,
+   "count": 97,
+   "address": "日本、〒732-0817 広島県広島市南区比治山町３−１４ 103",
+   "mapsUri": "https://maps.google.com/?cid=16477209108893879459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://umpsy-fit.com/"
+  },
+  {
+   "name": "THE PERSONAL GYM 広島本通り店",
+   "rating": 5,
+   "count": 72,
+   "address": "日本、〒730-0051 広島県広島市中区大手町１丁目５−１３ 清和大手町ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=1439445977658553424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/hiroshima/"
+  },
+  {
+   "name": "cue9 パーソナルフィットネスジム",
+   "rating": 4.7,
+   "count": 65,
+   "address": "日本、〒730-0004 広島県広島市中区東白島町２１−１５ 木村ビル １F",
+   "mapsUri": "https://maps.google.com/?cid=1190657803005894352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000530074/"
+  },
+  {
+   "name": "広島パーソナルトレーニング専門 R-GYM Personal - 広島店",
+   "rating": 5,
+   "count": 63,
+   "address": "日本、〒730-0841 広島県広島市中区舟入町２−２０ 三栄広島ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=8361586210224584215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://r-gym.kpb-inc.jp/?utm_source=google-meo&utm_medium=profile"
+  },
+  {
+   "name": "パーソナルジムgift 広島",
+   "rating": 5,
+   "count": 61,
+   "address": "日本、〒730-0015 広島県広島市中区橋本町２−２ 10Kビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=18113857620921784008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgym-gift.com/"
+  },
+  {
+   "name": "【NEXTBODY】広島並木通りパーソナルダイエットジム",
+   "rating": 4.9,
+   "count": 59,
+   "address": "日本、〒730-0029 広島県広島市中区三川町５−１５",
+   "mapsUri": "https://maps.google.com/?cid=18201112399087097192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nextbody-gym.com/"
+  },
+  {
+   "name": "UMPSY FIT（アンプシーフィット） 富士見店",
+   "rating": 5,
+   "count": 57,
+   "address": "日本、〒730-0043 広島県広島市中区富士見町８−５ 803号室",
+   "mapsUri": "https://maps.google.com/?cid=18280776770265949346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://umpsy-fit.com/"
+  },
+  {
+   "name": "Malibu",
+   "rating": 5,
+   "count": 51,
+   "address": "日本、〒730-0041 広島県広島市中区小町９−７ ミューアウレッタ 701",
+   "mapsUri": "https://maps.google.com/?cid=12001080720965743850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.malibu-gym.com/?fbclid=PAZXh0bgNhZW0CMTEAAafcnOifJX9u6sZ_KnL1pf-2n7YIeJG0Pvmdpa7hbXZ8rYcLBtjn6cntxs_0jA_aem_7IUlEB7cz6cce93n-SL6aA"
+  },
+  {
+   "name": "IDEALパーソナルジム",
+   "rating": 5,
+   "count": 45,
+   "address": "日本、〒732-0814 広島県広島市南区段原南１丁目１９−３８ ＮＡＯビル 1階",
+   "mapsUri": "https://maps.google.com/?cid=17112736784118619482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ideal-personalgym.com/"
+  },
+  {
+   "name": "パーソナルジムPROUVE広島",
+   "rating": 5,
+   "count": 44,
+   "address": "日本、〒730-0853 広島県広島市中区堺町１丁目１−８ Fits平和公園 401",
+   "mapsUri": "https://maps.google.com/?cid=14728887638830714070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://prouve.jp/"
+  },
+  {
+   "name": "広島市 パーソナルジム Eesh(24時間/スポーツジム) パーソナルトレーニング",
+   "rating": 4.9,
+   "count": 42,
+   "address": "日本、〒733-0012 広島県広島市西区中広町３丁目２−１０ 明貴マンション 102",
+   "mapsUri": "https://maps.google.com/?cid=12403120196701256066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://eesh.info/"
+  },
+  {
+   "name": "bocs personal gym ボックスパーソナルジム",
+   "rating": 4.9,
+   "count": 40,
+   "address": "日本、〒730-0048 広島県広島市中区竹屋町５−２",
+   "mapsUri": "https://maps.google.com/?cid=7658144606629322464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bocs0729.com/"
+  },
+  {
+   "name": "Loc-Hiroshima（ロク広島）",
+   "rating": 4.9,
+   "count": 33,
+   "address": "日本、〒730-0012 広島県広島市中区上八丁堀７−８ 中友ビル 202",
+   "mapsUri": "https://maps.google.com/?cid=2365420922112686719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://loc2025.com/"
+  },
+  {
+   "name": "b-style パーソナルトレーニングジム広島本通",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒730-0035 広島県広島市中区本通５−１３ 3F",
+   "mapsUri": "https://maps.google.com/?cid=7215097802600670867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-style-hiroshima.com/"
+  },
+  {
+   "name": "女性専用パーソナルジムラムア 広島店",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒730-0851 広島県広島市中区榎町１−８ 第１８やたがいビル 201号室",
+   "mapsUri": "https://maps.google.com/?cid=16822223633918597809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lamua-fit.com/hiroshima/"
+  }
+ ],
+ "okayama": [
+  {
+   "name": "【パーソナルジム】チキンジム 岡山店",
+   "rating": 4.8,
+   "count": 123,
+   "address": "日本、〒700-0902 岡山県岡山市北区錦町６−１７ アウルスタイル錦町2 2F",
+   "mapsUri": "https://maps.google.com/?cid=8760015733420962433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chicken-gym.jp/shops/okayama/?utm_source=gmb&utm_medium=organic&utm_campaign=mybiz28&utm_term=okayama&utm_content=shops_okayama"
+  },
+  {
+   "name": "THE PERSONAL GYM 岡山店",
+   "rating": 5,
+   "count": 91,
+   "address": "日本、〒700-0825 岡山県岡山市北区田町１丁目２−５ ラリックビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=13030883879987121194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/okayama/"
+  },
+  {
+   "name": "INNOVATION（イノベーション）岡山問屋町店",
+   "rating": 5,
+   "count": 78,
+   "address": "日本、〒700-0977 岡山県岡山市北区問屋町１１−１０２",
+   "mapsUri": "https://maps.google.com/?cid=9023495530372525197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgyminnovation.com/"
+  },
+  {
+   "name": "Body make studio VIERU （ビエル）",
+   "rating": 5,
+   "count": 68,
+   "address": "日本、〒700-0024 岡山県岡山市北区駅元町２２−１７ 徳永ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=2295358458505664239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.bodymake-vieru.jp/"
+  },
+  {
+   "name": "T studio",
+   "rating": 5,
+   "count": 52,
+   "address": "日本、〒701-0221 岡山県岡山市南区藤田１４２０−４ 2F",
+   "mapsUri": "https://maps.google.com/?cid=11566927526052019996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.pt-t-studio.com/"
+  },
+  {
+   "name": "通い放題パーソナルジム HABIT FIT",
+   "rating": 5,
+   "count": 42,
+   "address": "日本、〒700-0975 岡山県岡山市北区今７丁目２４−１３",
+   "mapsUri": "https://maps.google.com/?cid=12797081187742874300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://habitfit.jp/"
+  },
+  {
+   "name": "ential(エンシャル)",
+   "rating": 4.9,
+   "count": 42,
+   "address": "日本、〒700-0816 岡山県岡山市北区富田町１丁目１０−１１",
+   "mapsUri": "https://maps.google.com/?cid=7189919795024159127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://okayama-ential.com/"
+  },
+  {
+   "name": "パーソナルジムREALWORKOUT 岡南店",
+   "rating": 4.9,
+   "count": 33,
+   "address": "日本、〒702-8022 岡山県岡山市南区福成３丁目６−２０ レシオボディデザイン岡南店 1F",
+   "mapsUri": "https://maps.google.com/?cid=2776459996523586447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://realworkout.jp/location/kounan/"
+  },
+  {
+   "name": "メディカルフィットネスジムトリート",
+   "rating": 4.9,
+   "count": 30,
+   "address": "日本、〒700-0027 岡山県岡山市北区清心町１−２６",
+   "mapsUri": "https://maps.google.com/?cid=977761719993779738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://medicalgym-tryto.com/"
+  },
+  {
+   "name": "パーソナルジム FIRE FITNESS(ファイヤーフィットネス) 伊福町店",
+   "rating": 4.9,
+   "count": 28,
+   "address": "日本、〒700-0013 岡山県岡山市北区伊福町３丁目２５−１８ TAXビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=8237265047428115251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.firefitness-okayama.com/?utm_source=google&utm_medium=gbp&utm_campaign=ifuku"
+  },
+  {
+   "name": "J-BOX岡山",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒700-0953 岡山県岡山市南区西市６２３−６ 黒住ビル 1F J BOX",
+   "mapsUri": "https://maps.google.com/?cid=8173317825298272712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  },
+  {
+   "name": "パーソナルジム BEYOND 岡山店",
+   "rating": 4.8,
+   "count": 23,
+   "address": "日本、〒700-0821 岡山県岡山市北区中山下２丁目１−２２",
+   "mapsUri": "https://maps.google.com/?cid=8832203597654411735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-okayama/"
+  },
+  {
+   "name": "Remake(リメイク)-Total body produce- 岡山/パーソナルトレーニング",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒702-8021 岡山県岡山市南区福田５３２−１１",
+   "mapsUri": "https://maps.google.com/?cid=13794948276599211196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://remake-tbp.com/"
+  },
+  {
+   "name": "パーソナルトレーニングジムTOKIEL岡山駅前店【トキエル】",
+   "rating": 4.8,
+   "count": 13,
+   "address": "日本、〒700-0902 岡山県岡山市北区錦町７−１７",
+   "mapsUri": "https://maps.google.com/?cid=10425769211376985033&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tokiel.jp/location/okayama-ekimae/"
+  },
+  {
+   "name": "Actibo ~Training & Conditioning Space~",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒700-0942 岡山県岡山市南区豊成２丁目９−２２ パークヒルズ豊成 201",
+   "mapsUri": "https://maps.google.com/?cid=914201167952574666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lit.link/keiichiinohara"
+  }
+ ],
+ "niigata": [
+  {
+   "name": "BEYOND 新潟店",
+   "rating": 4.9,
+   "count": 264,
+   "address": "日本、〒950-0912 新潟県新潟市中央区南笹口１丁目１５−７ Flat南笹口 INT2F",
+   "mapsUri": "https://maps.google.com/?cid=17520228098254894456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-niigata/?utm_source=google&utm_medium=meo&utm_campaign=web-niigata"
+  },
+  {
+   "name": "TRANCE GYM 新潟店",
+   "rating": 4.9,
+   "count": 157,
+   "address": "日本、〒950-2015 新潟県新潟市西区小針２丁目９−１",
+   "mapsUri": "https://maps.google.com/?cid=16609064206038951612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.trancegym.com/niigata"
+  },
+  {
+   "name": "Body make studio いのラボ",
+   "rating": 4.7,
+   "count": 117,
+   "address": "日本、〒959-0501 新潟県新潟市西蒲区井随８１７",
+   "mapsUri": "https://maps.google.com/?cid=3861409667740606496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ino-labo.net/"
+  },
+  {
+   "name": "ASPI新潟本町店 パーソナルトレーニングジム",
+   "rating": 4.9,
+   "count": 51,
+   "address": "日本、〒951-8067 新潟県新潟市中央区本町通６番町１１４１−１ ストークビル新潟一番館 5階C室",
+   "mapsUri": "https://maps.google.com/?cid=16570815353384397012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/niigata/niigata-honcho/"
+  },
+  {
+   "name": "HiLiFE GYM（ハイライフジム）新潟店",
+   "rating": 5,
+   "count": 48,
+   "address": "日本、〒950-0916 新潟県新潟市中央区米山７−６ ハードフィールド米山 2F",
+   "mapsUri": "https://maps.google.com/?cid=13311449190056662059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hilife-gym.com/?utm_source=google&utm_medium=gbp&utm_campaign=overview"
+  },
+  {
+   "name": "NINE",
+   "rating": 5,
+   "count": 46,
+   "address": "日本、〒950-0911 新潟県新潟市中央区笹口３丁目16−１ 原常ビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=567974522743321507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://999gym.net/"
+  },
+  {
+   "name": "THEパーソナルトレーニング新潟",
+   "rating": 4.7,
+   "count": 41,
+   "address": "日本、〒950-0912 新潟県新潟市中央区南笹口１丁目９−２９ サンライズ笹口 101",
+   "mapsUri": "https://maps.google.com/?cid=13304395596936450377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lpes-fulldress.com/"
+  },
+  {
+   "name": "ザリフォーマー｜新潟市中央区のピラティス×パーソナルトレーニングジム",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒950-0994 新潟県新潟市中央区上所１丁目１−２４ Ｎビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=14842387382054243613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-reformer.com/"
+  },
+  {
+   "name": "パーソナルジム SELEST",
+   "rating": 5,
+   "count": 38,
+   "address": "日本、〒950-0841 新潟県新潟市東区中野山４丁目８−２７",
+   "mapsUri": "https://maps.google.com/?cid=11491161728186449423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://selest-niigata.com/"
+  },
+  {
+   "name": "GROW STYLE Body make & Fitness",
+   "rating": 5,
+   "count": 36,
+   "address": "日本、〒950-0902 新潟県新潟市中央区南万代町3−４７−１ coco place 萬代 3F",
+   "mapsUri": "https://maps.google.com/?cid=8664659553474522716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.grow-style.jp/"
+  },
+  {
+   "name": "REVES",
+   "rating": 5,
+   "count": 33,
+   "address": "日本、〒950-2003 新潟県新潟市西区東青山１丁目１２−12番地1 パークメゾン青山 101号",
+   "mapsUri": "https://maps.google.com/?cid=752816422749387346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.reves-gym.jp/"
+  },
+  {
+   "name": "MAKE BODY 新潟店",
+   "rating": 4.8,
+   "count": 32,
+   "address": "日本、〒950-0163 新潟県新潟市江南区東船場４丁目１−２７",
+   "mapsUri": "https://maps.google.com/?cid=1161705948962278279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nigata.make-body.net/?utm_source=google_map&utm_medium=map&utm_campaign=1"
+  },
+  {
+   "name": "ライザップ(RIZAP)新潟店",
+   "rating": 4.8,
+   "count": 31,
+   "address": "日本、〒950-0088 新潟県新潟市中央区万代１丁目３−７ ＮＤＫ万代ビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=3044253894182452831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rizap.jp/lp/guarantee-251101/b/?utm_source=googlemap&utm_medium=map&utm_campaign=googlemap&utm_term=260216&utm_content=niigata"
+  },
+  {
+   "name": "AUN'S GYM 新潟赤道店",
+   "rating": 4.8,
+   "count": 27,
+   "address": "日本、〒950-0872 新潟県新潟市東区牡丹山１丁目３４−１１",
+   "mapsUri": "https://maps.google.com/?cid=3671535763909806574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kongou.auns-gym.com/lp/nigatasekido/"
+  },
+  {
+   "name": "24/7ワークアウト 新潟店",
+   "rating": 4.8,
+   "count": 24,
+   "address": "日本、〒951-8057 新潟県新潟市中央区月町１９８８ フレンディビル 302",
+   "mapsUri": "https://maps.google.com/?cid=12960746107251358471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://247-sports.jp/workout/gym/niigata/niigata/?acckey=gym0-googmybu-0000-2470-glpforms-00000065&utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "ピラティス&パーソナルジム Studio 51",
+   "rating": 4.9,
+   "count": 16,
+   "address": "日本、〒950-0908 新潟県新潟市中央区幸西２丁目３−１３",
+   "mapsUri": "https://maps.google.com/?cid=11192268454245413402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.studio51.jp/"
+  },
+  {
+   "name": "SACO WORKOUT WELL 新潟スタジオ",
+   "rating": 4.8,
+   "count": 16,
+   "address": "日本、〒951-8055 新潟県新潟市中央区礎町通１ノ町１９５５",
+   "mapsUri": "https://maps.google.com/?cid=4505892594437326303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.saco-workoutwell.jp/"
+  },
+  {
+   "name": "プリッツジム新潟店",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒950-2003 新潟県新潟市西区東青山１丁目５−１９ 青山ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=3683212922962133418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://plizgym.co.jp/niigata/"
+  },
+  {
+   "name": "女性専用ダイエットジム ONE STAR新潟店",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒951-8162 新潟県新潟市中央区関屋本村町１丁目１４８−１ 斉藤マンション 1F",
+   "mapsUri": "https://maps.google.com/?cid=11332708927814479213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onestar-niigata.com/"
+  },
+  {
+   "name": "女性専門パーソナルトレーニングジムEMMA",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒950-0911 新潟県新潟市中央区笹口２丁目１２−１０ 4階401",
+   "mapsUri": "https://maps.google.com/?cid=6802826998676410048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://emma-gym.com/"
+  }
+ ],
+ "kawasaki": [
+  {
+   "name": "パーソナルジム BEYOND川崎店(パーソナルトレーニング)",
+   "rating": 4.9,
+   "count": 303,
+   "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目７−４ 川崎平沼ビル7階",
+   "mapsUri": "https://maps.google.com/?cid=13743964155518408245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-kawasaki.com/"
+  },
+  {
+   "name": "ASPI川崎店 パーソナルトレーニングジム",
+   "rating": 4.9,
+   "count": 223,
+   "address": "日本、〒212-0014 神奈川県川崎市幸区大宮町５−４ 共栄ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=17010770176497290989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/kanagawa/kawasaki/?utm_source=kawasaki&utm_id=gpm"
+  },
+  {
+   "name": "FIT PLACE24 川崎店",
+   "rating": 4.2,
+   "count": 194,
+   "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目３−７ 4階",
+   "mapsUri": "https://maps.google.com/?cid=4272018188690681967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fitplace.jp/gyms/kawasaki/"
+  },
+  {
+   "name": "トレーニングボックス 川崎ルフロン店",
+   "rating": 4.9,
+   "count": 152,
+   "address": "日本、〒210-0024 神奈川県川崎市川崎区日進町1−１１ 川崎ルフロン 6F",
+   "mapsUri": "https://maps.google.com/?cid=7309049417414945876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://trainingboxx.jp/location/kawasaki/?utm_source=meo&utm_medium=meo&utm_campaign=meo&utm_id=1"
+  },
+  {
+   "name": "パーソナルジムRat川崎店",
+   "rating": 4.8,
+   "count": 108,
+   "address": "日本、〒212-0014 神奈川県川崎市幸区大宮町５−４ 共栄ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=15081569630012169745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/kanagawa/kawasaki/"
+  },
+  {
+   "name": "【Skill UP GYM】スキルアップジム 川崎店",
+   "rating": 5,
+   "count": 103,
+   "address": "日本、〒210-0806 神奈川県川崎市川崎区中島２丁目１−６ プレシエ川崎 101",
+   "mapsUri": "https://maps.google.com/?cid=15108920350846395384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://skillup-gym.com/?utm_source=googlemybusiness&utm_medium=google&utm_campaign=maps"
+  },
+  {
+   "name": "川崎パーソナルジム キングジム",
+   "rating": 4.7,
+   "count": 75,
+   "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目４−２",
+   "mapsUri": "https://maps.google.com/?cid=3512154117390892175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://three-top.com/"
+  },
+  {
+   "name": "PANAS-GYM(パナスジム)パーソナルトレーニングジム 川崎店",
+   "rating": 5,
+   "count": 69,
+   "address": "日本、〒212-0012 神奈川県川崎市幸区中幸町１丁目５５",
+   "mapsUri": "https://maps.google.com/?cid=1156356430366359658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://panas-gym.com/kawasaki"
+  },
+  {
+   "name": "パーソナルジムPLUME川崎店",
+   "rating": 5,
+   "count": 68,
+   "address": "日本、〒212-0012 神奈川県川崎市幸区中幸町４丁目３５ グレイス秀 1F",
+   "mapsUri": "https://maps.google.com/?cid=16826457989303280330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://plumegym-kawasaki.com/"
+  },
+  {
+   "name": "Apple GYM（アップルジム）川崎店",
+   "rating": 4.8,
+   "count": 67,
+   "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目1−１９ 丸滝川崎ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=10022356596413445007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://applegym.jp/shop/kawasaki/?utm_source=google&utm_medium=maps&utm_campaign=gmb"
+  },
+  {
+   "name": "Fitパーソナルジム川崎",
+   "rating": 5,
+   "count": 63,
+   "address": "日本、〒212-0016 神奈川県川崎市幸区南幸町３丁目１９−２ 翁ビル 202",
+   "mapsUri": "https://maps.google.com/?cid=12960531540522578742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fit-personalgym.com/"
+  },
+  {
+   "name": "エクササイズコーチ川崎DICE店",
+   "rating": 4.8,
+   "count": 58,
+   "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町8番地 川崎DICEビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=10733104324007312421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://exercisecoach.co.jp/store/kawasaki/?utm_source=google&utm_medium=organic&utm_campaign=gbp_kawasaki"
+  },
+  {
+   "name": "パーソナルジムiDeALMe川崎店",
+   "rating": 4.9,
+   "count": 55,
+   "address": "日本、〒212-0016 神奈川県川崎市幸区南幸町２丁目23ｰ2 1F",
+   "mapsUri": "https://maps.google.com/?cid=16679800258908405247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://body-lifetime-gym.com/"
+  },
+  {
+   "name": "MIYAZAKI GYM川崎店",
+   "rating": 4.9,
+   "count": 52,
+   "address": "日本、〒210-0004 神奈川県川崎市川崎区宮本町3‐6 ＴＯＰ川崎第３ 101号室",
+   "mapsUri": "https://maps.google.com/?cid=7716848052162764662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miyazaki-gym.jp/shop/kawasaki/"
+  },
+  {
+   "name": "CROFIS GYM川崎パーソナルジム",
+   "rating": 4.9,
+   "count": 39,
+   "address": "日本、〒212-0015 神奈川県川崎市幸区柳町２４−１ ファインズクロス川崎 902号室",
+   "mapsUri": "https://maps.google.com/?cid=1373966641345963726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://crofisgym.jp/"
+  },
+  {
+   "name": "リボーンマイセルフ川崎店",
+   "rating": 5,
+   "count": 34,
+   "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目1−１４ 3階",
+   "mapsUri": "https://maps.google.com/?cid=10617110794106695788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/kawasaki/?utm_source=google&utm_medium=organic&utm_campaign=gbp_kawasaki"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 川崎",
+   "rating": 4.8,
+   "count": 33,
+   "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町１０−１ MEFULL川崎 10F",
+   "mapsUri": "https://maps.google.com/?cid=14089578721837142457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/kawasaki/"
+  },
+  {
+   "name": "グループパーソナルジム 川崎店｜THE PERSON GROUP PERSONAL ティップネス内",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子２丁目11−１７ 日土地川崎ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=3223707041542437971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://group-personal.the-person.com/lp/tipness-kawasaki?utm_source=googlemap&utm_medium=organic&utm_campaign=kawasaki"
+  },
+  {
+   "name": "Personal Gym WELL BASE",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒212-0011 神奈川県川崎市幸区幸町３丁目11−２ フェリーチェ・トレ 208",
+   "mapsUri": "https://maps.google.com/?cid=1062241642017036331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.instagram.com/personal.gym_well.base"
+  },
+  {
+   "name": "完全個室パーソナルピラティスALES",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町１８−２ 金子ダイヤモンドビル ４階",
+   "mapsUri": "https://maps.google.com/?cid=12896975142256256413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personal-ales.com/pilates/"
+  }
  ]
 }
