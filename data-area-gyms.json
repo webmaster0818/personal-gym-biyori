@@ -1319,5 +1319,643 @@
    "website": "https://raybelleplus-gym-sauna.com/"
   }
  ],
- "surveyedAt": "2026-07-20"
+ "surveyedAt": "2026-07-20",
+ "yokohama": [
+  {
+   "name": "ASPI横浜駅 パーソナルトレーニングジム",
+   "rating": 4.9,
+   "count": 394,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−４０ ＴＹビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=7710904940268057640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/kanagawa/yokohama/?utm_source=yokohama&utm_id=gpm"
+  },
+  {
+   "name": "パーソナルジム BEYOND 新横浜店",
+   "rating": 4.9,
+   "count": 332,
+   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜２丁目4−４ ウィズ新横浜ビル 9F",
+   "mapsUri": "https://maps.google.com/?cid=8394805490315602718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-shinyokohama.com/"
+  },
+  {
+   "name": "パーソナルジムRat横浜西口店",
+   "rating": 4.9,
+   "count": 232,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目５−３ アーバンヨコハマ ２階",
+   "mapsUri": "https://maps.google.com/?cid=9366228886076395816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/kanagawa/yokohamanishi/"
+  },
+  {
+   "name": "パーソナルトレーニング/ピラティス NEXPORT (ネクスポート) 横浜中華街",
+   "rating": 5,
+   "count": 227,
+   "address": "日本、〒231-0023 神奈川県横浜市中区山下町１６８−１ レイトンハウス横浜 2F",
+   "mapsUri": "https://maps.google.com/?cid=5975282795902250521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nexport.co.jp/yokohama-chukagai/"
+  },
+  {
+   "name": "パーソナルジムBEYOND横浜元町店(パーソナルトレーニング) ｜関内/横浜元町",
+   "rating": 5,
+   "count": 146,
+   "address": "日本、〒231-0861 神奈川県横浜市中区元町１丁目11−６ 第一タイヨウビル 2F 横浜元町 パーソナルトレーニング",
+   "mapsUri": "https://maps.google.com/?cid=17168357006762691757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-motomachi.com/"
+  },
+  {
+   "name": "BEYOND 横浜東口店",
+   "rating": 4.9,
+   "count": 144,
+   "address": "日本、〒220-0023 神奈川県横浜市西区平沼１丁目３７−５ 中沢ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=7983083345895102308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://yokohama-beyond-gym.com/"
+  },
+  {
+   "name": "ビーコンセプト横浜店",
+   "rating": 4.9,
+   "count": 135,
+   "address": "日本、〒221-0838 神奈川県横浜市神奈川区鶴屋町３丁目２９−９ タクエー横浜西口第六ビル 8F",
+   "mapsUri": "https://maps.google.com/?cid=2651949753390441720&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-concept.tokyo/clublist/yokohama/?utm_source=mybusiness&utm_medium=organic"
+  },
+  {
+   "name": "Apple GYM",
+   "rating": 4.9,
+   "count": 104,
+   "address": "ストーク横浜二番館 1004号室, ３丁目-35-11 鶴屋町 神奈川区 横浜市 神奈川県 221-0835 日本",
+   "mapsUri": "https://maps.google.com/?cid=5623070090220815336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://applegym.jp/shop/yokohama/?utm_source=google&utm_medium=maps&utm_campaign=gmb"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 横浜",
+   "rating": 4.7,
+   "count": 103,
+   "address": "日本、〒220-0044 神奈川県横浜市西区北幸１丁目５−４ 四谷学院第2ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=6092591636496433495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/studio/yokohama/"
+  },
+  {
+   "name": "エクササイズコーチ横浜店",
+   "rating": 4.9,
+   "count": 100,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−５０ 北幸山田ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=9826988725778549431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://exercisecoach.co.jp/store/yokohama/"
+  },
+  {
+   "name": "gainz gym 横浜店",
+   "rating": 4.9,
+   "count": 98,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町３丁目３２−１６ TRUST VALUE 横浜 502",
+   "mapsUri": "https://maps.google.com/?cid=4196101113044784562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gainzgym.net/"
+  },
+  {
+   "name": "24/7ワークアウト 横浜店",
+   "rating": 4.3,
+   "count": 88,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町２丁目２４−１ 谷川ビルディング 6F",
+   "mapsUri": "https://maps.google.com/?cid=1803530667618300587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://247-sports.jp/workout/gym/kanagawa/yokohama/?acckey=gym0-googmybu-0000-2470-glpforms-00000037&utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "BEYOND 横浜西口店",
+   "rating": 5,
+   "count": 82,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目４−１０ 8F",
+   "mapsUri": "https://maps.google.com/?cid=13808018962987465551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-yokohamanishi/?utm_source=google&utm_medium=meo&utm_campaign=web-yokohamanishi"
+  },
+  {
+   "name": "リボーンマイセルフ横浜店",
+   "rating": 4.8,
+   "count": 77,
+   "address": "日本、〒220-0073 神奈川県横浜市西区岡野１丁目１３−５ 横浜西口サンエースビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=6784970623753848144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/yokohama/"
+  },
+  {
+   "name": "THE PERSONAL GYM横浜店",
+   "rating": 4.9,
+   "count": 70,
+   "address": "日本、〒221-0834 神奈川県横浜市神奈川区台町１−４ ライオンズマンション台町第２ B101",
+   "mapsUri": "https://maps.google.com/?cid=7695647228704533569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/yokohama/"
+  },
+  {
+   "name": "ティーバランス 横浜駅前店 パーソナルジム",
+   "rating": 4.6,
+   "count": 70,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町３丁目３２−１４ 新港ビル １００５",
+   "mapsUri": "https://maps.google.com/?cid=176804520451202127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://t-balance-gym-yokohama.hp.peraichi.com/?utm_source=Google-Map&utm_medium=MEO_Adtag2"
+  },
+  {
+   "name": "EXCELLENT GYM(エクセレントジム)",
+   "rating": 5,
+   "count": 55,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町３丁目３５−１０ リーヴ横浜西口ビル ２Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=16877414256296458750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://excellentgym.net/"
+  },
+  {
+   "name": "Dr.トレーニング 横浜店",
+   "rating": 5,
+   "count": 48,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町２丁目12−１０ 千菊ビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=4830636303070670994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/yokohama/?utm_source=google&utm_medium=meo&utm_campaign=meo&utm_id=2"
+  },
+  {
+   "name": "パーソナルジムWORKOUTHOLIC 横浜店",
+   "rating": 4.9,
+   "count": 39,
+   "address": "日本、〒220-0005 神奈川県横浜市西区南幸２丁目１０−１７ ブリラール横浜 801号室",
+   "mapsUri": "https://maps.google.com/?cid=13305980970511127476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://workoutholic.tokyo/locations/yokohama"
+  },
+  {
+   "name": "PROQ プローク パーソナルジム 横浜 桜木町",
+   "rating": 5,
+   "count": 24,
+   "address": "日本、〒231-0064 神奈川県横浜市中区野毛町４丁目１７３−２ サンヴェール横濱野毛山公園 102",
+   "mapsUri": "https://maps.google.com/?cid=14433673789609226143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://proq.co.jp/index.html"
+  },
+  {
+   "name": "MIYAZAKI GYM横浜店",
+   "rating": 4.9,
+   "count": 23,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町２丁目9−７ グローリア初穂横浜 504号室",
+   "mapsUri": "https://maps.google.com/?cid=8684965159857019735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miyazaki-gym.jp/shop/yokohama/"
+  },
+  {
+   "name": "ELEMENT 横浜店",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒220-0011 神奈川県横浜市西区高島２丁目６−４１ 福島ビル ８０１",
+   "mapsUri": "https://maps.google.com/?cid=12512256240270509533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://element-gym.com/element-top/all/yokohama/"
+  },
+  {
+   "name": "グループパーソナルジム 横浜店｜THE PERSON GROUP PERSONAL ティップネス内",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目２−２２０−０ ハマボール イアス 3F",
+   "mapsUri": "https://maps.google.com/?cid=9091828787218546377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://group-personal.the-person.com/lp/tipness-yokohama?utm_source=googlemap&utm_medium=organic&utm_campaign=yokohama"
+  },
+  {
+   "name": "TIGER GYM（タイガージム）横浜西口店女性トレーナーパーソナルジム",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒220-0005 神奈川県横浜市西区南幸２丁目１２−１０ ITOビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=5762401973987676930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tigergym-yokohama.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "パーソナルジム",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒224-0021 神奈川県横浜市都筑区北山田２丁目４−２２",
+   "mapsUri": "https://maps.google.com/?cid=10354905071678354179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  }
+ ],
+ "nagoya": [
+  {
+   "name": "BEYOND 名古屋駅前店",
+   "rating": 4.9,
+   "count": 389,
+   "address": "日本、〒450-0003 愛知県名古屋市中村区名駅南１丁目１８−１１ 1F",
+   "mapsUri": "https://maps.google.com/?cid=8974859035056677116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-nagoyaekimae/?utm_source=google_my_business&utm_medium=google&utm_campaign=nagoyaekimae"
+  },
+  {
+   "name": "BEYOND 名古屋栄店",
+   "rating": 4.9,
+   "count": 278,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄５丁目１６−１９ ネイリックスビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=6602113580978669267&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-nagoyasakae/?utm_source=google&utm_medium=meo&utm_campaign=web-nagoyasakae"
+  },
+  {
+   "name": "THE PERSONAL GYM 名古屋栄店",
+   "rating": 5,
+   "count": 262,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目１−１ 広小路本町ビルディング B1",
+   "mapsUri": "https://maps.google.com/?cid=13376274339009112877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/nagoyasakae/"
+  },
+  {
+   "name": "パーソナルジムRat名古屋栄店",
+   "rating": 4.9,
+   "count": 238,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄４丁目５−２２ はとビル ５F-1",
+   "mapsUri": "https://maps.google.com/?cid=296686212580941376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/aichi/sakae/"
+  },
+  {
+   "name": "パーソナルジム＆マシンピラティス メルメイク 女性専用・名古屋駅店",
+   "rating": 5,
+   "count": 180,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅２丁目２８−９ ブライトビル 301号室",
+   "mapsUri": "https://maps.google.com/?cid=5721771938140858646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mermake.co.jp/f-nagoya-pilates/"
+  },
+  {
+   "name": "GRAP",
+   "rating": 4.9,
+   "count": 119,
+   "address": "日本、〒460-0011 愛知県名古屋市中区大須３丁目５−４９ 4階北B号室",
+   "mapsUri": "https://maps.google.com/?cid=16630833146930161746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.grap-gym.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 名古屋",
+   "rating": 4.8,
+   "count": 114,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目２３−６ 第二千福ビル 8F",
+   "mapsUri": "https://maps.google.com/?cid=8952076647753017845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/life/nagoya/"
+  },
+  {
+   "name": "メルメイク名駅店",
+   "rating": 5,
+   "count": 114,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目１１−９ JE311ビル 302号室",
+   "mapsUri": "https://maps.google.com/?cid=7993501915831421147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mermake.co.jp/n-meieki/"
+  },
+  {
+   "name": "POWER SPOT名駅店",
+   "rating": 4.9,
+   "count": 111,
+   "address": "日本、〒450-0003 愛知県名古屋市中村区名駅南３丁目３−１６ JMFレジデンス 1F",
+   "mapsUri": "https://maps.google.com/?cid=3969951624140300352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.powerspot-gym.com/?utm_source=GMB&utm_medium=profile&utm_campaign=Local_Search_S2083"
+  },
+  {
+   "name": "パーソナルトレーニングジムGOODSUNPLUS名古屋店",
+   "rating": 5,
+   "count": 90,
+   "address": "日本、〒450-0003 愛知県名古屋市中村区名駅南１丁目１９−１３ ＡＥビル 902",
+   "mapsUri": "https://maps.google.com/?cid=8001846686832795069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://goodsun-plus.com/"
+  },
+  {
+   "name": "NAKED",
+   "rating": 4.9,
+   "count": 89,
+   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目２３−１ 4f",
+   "mapsUri": "https://maps.google.com/?cid=4904987192032472983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.naked-fitness.jp/"
+  },
+  {
+   "name": "駅前筋肉留学GO 名古屋駅前店",
+   "rating": 4.8,
+   "count": 87,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２５−１７ 箕浦ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=9284086451362936406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ekimaego.jp/store/nagoyaekimae/"
+  },
+  {
+   "name": "姿勢改善マシンピラティス&パーソナルジム LYGYM 栄",
+   "rating": 4.9,
+   "count": 80,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄２丁目７−１５ 白川ビル 1階",
+   "mapsUri": "https://maps.google.com/?cid=8514809678886737080&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lygym2019.com/"
+  },
+  {
+   "name": "ダイエットはうすパーソナルジムはやき名古屋駅前店",
+   "rating": 4.2,
+   "count": 69,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目２０−１８ 共栄ビル 4Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=8994750972436474379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://diethouse-hayaki.com/"
+  },
+  {
+   "name": "パーソナルジム Life Shoes",
+   "rating": 5,
+   "count": 68,
+   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目１０−２５ シェモア泉 2F",
+   "mapsUri": "https://maps.google.com/?cid=2371259281376301119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lifeshoes.fitness/"
+  },
+  {
+   "name": "Fabro Personal Gym",
+   "rating": 4.9,
+   "count": 57,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目２３−６ 丸の内セントラルハイツ 402",
+   "mapsUri": "https://maps.google.com/?cid=2847784429736364649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://fabro-gym.com/"
+  },
+  {
+   "name": "LIFE PERSONAL GYM 名古屋丸の内店",
+   "rating": 5,
+   "count": 51,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内２丁目１５−１９ スリーアイランドタワ 601",
+   "mapsUri": "https://maps.google.com/?cid=18314314080153655524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lifepersonal-gym.com/"
+  },
+  {
+   "name": "エクササイズコーチ名古屋駅店",
+   "rating": 4.8,
+   "count": 50,
+   "address": "日本、〒450-0003 愛知県名古屋市中村区名駅南１丁目１９−１３ ＡＥビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=9894215322879772605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://exercisecoach.co.jp/store/ngyhigashiguti/"
+  },
+  {
+   "name": "ライザップ(RIZAP)名駅南店",
+   "rating": 4.7,
+   "count": 46,
+   "address": "日本、〒450-0003 愛知県名古屋市中村区名駅南１丁目１２−９ グランスクエア名駅南 1階",
+   "mapsUri": "https://maps.google.com/?cid=14690167322867194035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rizap.jp/lp/guarantee-251101/b/?utm_source=googlemap&utm_medium=map&utm_campaign=googlemap&utm_term=260216&utm_content=meiekiminami"
+  },
+  {
+   "name": "マシンピラティス×パーソナルジム Bodymake Lab ichi 名古屋高岳",
+   "rating": 5,
+   "count": 36,
+   "address": "日本、〒461-0005 愛知県名古屋市東区東桜２丁目１１−２０ YgK HIGASHISAKURA 6階",
+   "mapsUri": "https://maps.google.com/?cid=1913263434954900624&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000767302/?cstt=3"
+  },
+  {
+   "name": "メンズパーソナルジム1st Place名古屋丸の内店",
+   "rating": 5,
+   "count": 35,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内２丁目１３−１６ 丸の内スクエア 101",
+   "mapsUri": "https://maps.google.com/?cid=601864411648744584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://executivegym1stplace.com/"
+  },
+  {
+   "name": "リボーンマイセルフ名古屋駅店",
+   "rating": 4.8,
+   "count": 32,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目２２−４ 名駅前みどりビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=7700204327188601130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/nagoya-ekimae/"
+  },
+  {
+   "name": "QOLパーソナルトレーニングジム北区店",
+   "rating": 4.9,
+   "count": 30,
+   "address": "日本、〒462-0047 愛知県名古屋市北区金城町２丁目２９−３",
+   "mapsUri": "https://maps.google.com/?cid=17047029772031788804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.qol-training-kitaku.com/"
+  },
+  {
+   "name": "CARO LEON GYM",
+   "rating": 4.5,
+   "count": 24,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目６−２５ コア・レジデンス 1階",
+   "mapsUri": "https://maps.google.com/?cid=5415270183744321538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lin.ee/ZqJtjwjE"
+  },
+  {
+   "name": "MIC Personal Training Gym",
+   "rating": 5,
+   "count": 22,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目１８−９ 秀光堂新館 302号 3階",
+   "mapsUri": "https://maps.google.com/?cid=5010786755754973275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://micpersonalgym.info/"
+  },
+  {
+   "name": "パーソナルジム レンジオブモーション 名古屋丸の内店",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目１５−２１ Ceres丸の内201",
+   "mapsUri": "https://maps.google.com/?cid=17061181979161912110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gym-rangeofmotion.com/"
+  },
+  {
+   "name": "名古屋丸の内パーソナルトレーニング×ボディメンテナンスableize/ HYROX TRAINING CLUB",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内２丁目１５−１１ HARVEY TERRACE丸の内 30A",
+   "mapsUri": "https://maps.google.com/?cid=7143420292266732706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ableize1.com/"
+  },
+  {
+   "name": "グランフィット名古屋錦店",
+   "rating": 5,
+   "count": 18,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦１丁目４−4番地27 錦ビル 1階A号室 ジェムストーン",
+   "mapsUri": "https://maps.google.com/?cid=6188534974816931405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://granfit-nagoya.jp/"
+  },
+  {
+   "name": "パーソナルトレーニング＆ピラティススタジオnano 名古屋駅前店",
+   "rating": 4.8,
+   "count": 17,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１３ Chambre5階",
+   "mapsUri": "https://maps.google.com/?cid=1784953063103113933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.studio-nano.com/trial/"
+  },
+  {
+   "name": "アレスコパーソナルジム名古屋駅店",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅南１丁目２０−１６ グレイス名駅南 501号室",
+   "mapsUri": "https://maps.google.com/?cid=4382821021888168105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://alesco.fit/nagoya/"
+  },
+  {
+   "name": "パーソナルジムPREMIUM",
+   "rating": 4.9,
+   "count": 13,
+   "address": "日本、〒461-0004 愛知県名古屋市東区葵３丁目３−８ SLX葵 201",
+   "mapsUri": "https://maps.google.com/?cid=14357294822996695069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://premium-gym.com/"
+  },
+  {
+   "name": "ビーコンセプト名古屋駅店",
+   "rating": 4.8,
+   "count": 12,
+   "address": "日本、〒453-0015 愛知県名古屋市中村区椿町１−３ 地産ビル 名古屋 第一ビル804",
+   "mapsUri": "https://maps.google.com/?cid=3400943013713458554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-concept.tokyo/clublist/nagoya/?utm_source=mybusiness&utm_medium=organic"
+  },
+  {
+   "name": "ピラティス＆ジム1to1 名古屋駅店",
+   "rating": 4.9,
+   "count": 12,
+   "address": "日本、〒453-0015 愛知県名古屋市中村区椿町１−３ 地産ビル 名古屋 第一 ビル8F Bフロア",
+   "mapsUri": "https://maps.google.com/?cid=17550813259513505202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pilates.azure-collaboration.co.jp/"
+  }
+ ],
+ "fukuoka": [
+  {
+   "name": "VISION24 福岡天神店",
+   "rating": 4.8,
+   "count": 664,
+   "address": "日本、〒810-0075 福岡県福岡市中央区港１丁目１０−５ キテラタウン長浜 3F",
+   "mapsUri": "https://maps.google.com/?cid=3780377124132246586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://vision24.jp/new-member2/"
+  },
+  {
+   "name": "VALX GYM（バルクスジム）福岡天神",
+   "rating": 4.9,
+   "count": 374,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−２４ 天神ルーチェ 3階",
+   "mapsUri": "https://maps.google.com/?cid=6889972951852088243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://valx.jp/lp/gym/?lin=googleBiz_fukuokatenjin"
+  },
+  {
+   "name": "BEYOND福岡天神店",
+   "rating": 4.9,
+   "count": 205,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−２９ 天神ハイム 501号",
+   "mapsUri": "https://maps.google.com/?cid=5342522918320784804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-tenjin.com/?utm_source=google&utm_medium=meo&utm_id=organic"
+  },
+  {
+   "name": "ASPI福岡天神店 パーソナルトレーニングジム",
+   "rating": 4.9,
+   "count": 205,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目１０−３８ ディー・ウイングタワ 204",
+   "mapsUri": "https://maps.google.com/?cid=17971173655605295695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/fukuoka/fukuoka/?utm_source=fukuoka&utm_id=gpm"
+  },
+  {
+   "name": "パーソナルジム／クロニクルジャパン福岡天神店",
+   "rating": 4.9,
+   "count": 179,
+   "address": "日本、〒810-0023 福岡県福岡市中央区警固１丁目６−５６ サウスガーデン 2F",
+   "mapsUri": "https://maps.google.com/?cid=4637245663484282023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chronicle-japan.jp/"
+  },
+  {
+   "name": "RITA-STYLE 天神大名店",
+   "rating": 4.9,
+   "count": 142,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１２−４９ barbizon102 4F",
+   "mapsUri": "https://maps.google.com/?cid=12749530790924700797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://rita-style.co.jp/gym/fukuoka/tenjin?utm_source=gmb&utm_medium=referral"
+  },
+  {
+   "name": "24h fitness AUN'S GYM 福岡天神店",
+   "rating": 4.3,
+   "count": 142,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目２−２２ 河村天神壮ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=10420399986322547512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kongou.auns-gym.com/fukuoka/?lin=googleBiz"
+  },
+  {
+   "name": "ピラティス&パーソナルジムMILL 福岡天神",
+   "rating": 4.9,
+   "count": 132,
+   "address": "日本、〒810-0801 福岡県福岡市博多区中洲５丁目１−２２ 4F",
+   "mapsUri": "https://maps.google.com/?cid=6066846294709809669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://millgym.jp/"
+  },
+  {
+   "name": "パーソナルトレーニングジムRESET福岡天神店",
+   "rating": 4.9,
+   "count": 122,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目１−３８ 永豊ビル 5B号室",
+   "mapsUri": "https://maps.google.com/?cid=12294861798537211758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://reset-gym.com/fukuoka/"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 福岡/天神",
+   "rating": 4.8,
+   "count": 80,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目４−２ シエルブルー天神 7階",
+   "mapsUri": "https://maps.google.com/?cid=13337675007001750562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/life/tenjin"
+  },
+  {
+   "name": "パーソナルジムピース天神店",
+   "rating": 5,
+   "count": 68,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目６−３０ 天神ふじビル",
+   "mapsUri": "https://maps.google.com/?cid=2361756508912069238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bodymakegympeace.com/lp/"
+  },
+  {
+   "name": "パーソナルジムRat福岡天神店",
+   "rating": 4.9,
+   "count": 67,
+   "address": "日本、〒810-0004 福岡県福岡市中央区渡辺通５丁目２−１０ 渡辺通プレイス 502号室",
+   "mapsUri": "https://maps.google.com/?cid=14388961021927163115&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/fukuoka/fukuokatenjin/"
+  },
+  {
+   "name": "駅前筋肉留学GO 天神店",
+   "rating": 5,
+   "count": 64,
+   "address": "日本、〒810-0021 福岡県福岡市中央区今泉１丁目１３−１７ 向栄ビル南天神 201号室",
+   "mapsUri": "https://maps.google.com/?cid=8903744265696303903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ekimaego.jp/store/tenjin/?utm_source=google&utm_medium=google_map&utm_campaign=t_map_02"
+  },
+  {
+   "name": "メイクインボディー",
+   "rating": 4.8,
+   "count": 62,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神４丁目４−１８ ヒット天神BLD 2階",
+   "mapsUri": "https://maps.google.com/?cid=2586134452244589359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  },
+  {
+   "name": "Private Gym VALENTE",
+   "rating": 5,
+   "count": 35,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目６−１６ オフィスニューガイア ＣＬＡＩＲ天神２ 2F",
+   "mapsUri": "https://maps.google.com/?cid=4602373716715667379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.pg-valente.com/"
+  },
+  {
+   "name": "男性専門パーソナルジムEZIL 福岡天神スタジオ",
+   "rating": 4.8,
+   "count": 30,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目４−３５ モダンビューロー大名 702号室",
+   "mapsUri": "https://maps.google.com/?cid=7698989384216497087&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ezil.jp/fukuoka"
+  },
+  {
+   "name": "ビーコンセプト福岡天神大名店",
+   "rating": 4.8,
+   "count": 23,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１０−３３ 105 Aフロア",
+   "mapsUri": "https://maps.google.com/?cid=8853034902510958511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-concept.tokyo/clublist/tenjin/?utm_source=mybusiness&utm_medium=organic"
+  },
+  {
+   "name": "パーソナルジム 精神と時のジム 福岡天神店",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目１０−３１ ネオハイツ天神 705号室",
+   "mapsUri": "https://maps.google.com/?cid=1933711265147842317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000800123/?vos=evhbksg0057&pog=mt()ti()dv(m)cr()fi()gi()ci(22152450223)lc(9198197)ps()nw(x)&gclsrc=aw.ds&gad_source=1&gad_campaignid=22152495961&gbraid=0AAAAADNPXWOW0LLaWgXzxOo-FFlXJvO-M&gclid=Cj0KCQiA5I_NBhDVARIsAOrqIsammwP9JOLa8TM_Gwbvg96Mkv9kaPnyObJAT_88xHR1_cREuwZIrjAaAkFDEALw_wcB"
+  },
+  {
+   "name": "LiBloom（リブルーム）｜福岡天神パーソナルジム＆ボディケアサロン",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神５丁目６",
+   "mapsUri": "https://maps.google.com/?cid=2170256077713779922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://libloom.jp/"
+  },
+  {
+   "name": "パーソナルジムIDL 天神店",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目２−１８ エキスプレスビル 3階左 奥",
+   "mapsUri": "https://maps.google.com/?cid=1552524377678645408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://islandcity-dietfitnessgym-lab.com/tenjin/"
+  },
+  {
+   "name": "Dr.トレーニング 福岡天神店",
+   "rating": 4.6,
+   "count": 9,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目８−１９ フィル・パーク福岡大名Ⅱ 3階A号室",
+   "mapsUri": "https://maps.google.com/?cid=14393964137623349215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://drtraining.jp/location/tenjin/"
+  }
+ ]
 }
