@@ -3213,5 +3213,491 @@
    "mapsUri": "https://maps.google.com/?cid=12896975142256256413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "website": "https://personal-ales.com/pilates/"
   }
+ ],
+ "chiba": [
+  {
+   "name": "FIT PLACE24 千葉中央店",
+   "rating": 4.8,
+   "count": 490,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目１６−１ 加瀬ビル 222",
+   "mapsUri": "https://maps.google.com/?cid=5667189957589994179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fitplace.jp/gyms/chiba-chuo/"
+  },
+  {
+   "name": "GYMS（ジムズ） 千葉駅前店",
+   "rating": 4.8,
+   "count": 342,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目７−６ 富士見ビル 7Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=15919538576928391153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "THE PERSONAL GYM 千葉駅前店",
+   "rating": 5,
+   "count": 149,
+   "address": "日本、〒260-0032 千葉県千葉市中央区登戸１丁目１−１ ホークスジャパン 登戸ビル 3F Kワン",
+   "mapsUri": "https://maps.google.com/?cid=9412277396585224702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/chiba/"
+  },
+  {
+   "name": "BEYOND 千葉駅前店",
+   "rating": 4.9,
+   "count": 131,
+   "address": "日本、〒260-0027 千葉県千葉市中央区新田町１１−１ 小川第２ビル 1階",
+   "mapsUri": "https://maps.google.com/?cid=18406369166546813562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-chiba/?utm_source=google&utm_medium=meo&utm_campaign=web-chibaekimae"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 千葉",
+   "rating": 4.8,
+   "count": 96,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町1−１８ 上野ビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=7519886962558615715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/life/chiba/"
+  },
+  {
+   "name": "BodyBase千葉駅前店",
+   "rating": 4.9,
+   "count": 80,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町22−１ 新町５５ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=15292193666629062893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bodybase.jp/chiba.html?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "LUSTER 千葉｜パーソナル × 24時間ジム",
+   "rating": 4.9,
+   "count": 73,
+   "address": "日本、〒260-0031 千葉県千葉市中央区千葉２丁目２−１ 新日本EXビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=1641753476555787147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gym.luster-tokyo.jp/chiba"
+  },
+  {
+   "name": "REBOGYM 千葉駅前",
+   "rating": 4.9,
+   "count": 63,
+   "address": "日本、〒260-0032 千葉県千葉市中央区登戸１丁目１−１ ケイワンビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=8789523998650421156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://rebogym.com/"
+  },
+  {
+   "name": "ASPI千葉店",
+   "rating": 4.9,
+   "count": 52,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見１丁目１５−８ ＲＣ千葉ビル 5階W室",
+   "mapsUri": "https://maps.google.com/?cid=14283094617594287211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/chiba/chiba-2/"
+  },
+  {
+   "name": "アーテムパーソナルジム千葉駅前店",
+   "rating": 4.9,
+   "count": 52,
+   "address": "日本、〒260-0045 千葉県千葉市中央区弁天１丁目２−１２ 沼澤ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=15445454714953788361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://westack-s.com/"
+  },
+  {
+   "name": "リボーンマイセルフ千葉店",
+   "rating": 4.7,
+   "count": 47,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目５−１５ 塚本千葉第三ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=2486539181940141122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shapes-international.co.jp/store/chiba-ekimae/"
+  },
+  {
+   "name": "Luxury Style",
+   "rating": 4.9,
+   "count": 44,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目１５−１ 7F",
+   "mapsUri": "https://maps.google.com/?cid=16015670003839297672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000383198/?vos=cpahpbprosmaf131118005"
+  },
+  {
+   "name": "OUTLINE(アウトライン)千葉店",
+   "rating": 4.9,
+   "count": 40,
+   "address": "日本、〒260-0027 千葉県千葉市中央区新田町４−２５ パルサンライト 605号室",
+   "mapsUri": "https://maps.google.com/?cid=10302797135875945391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.outline-gym.com/gym/chiba"
+  },
+  {
+   "name": "Fitness Beginners",
+   "rating": 4.9,
+   "count": 34,
+   "address": "日本、〒260-0018 千葉県千葉市中央区院内１丁目１７−３ 斉藤ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=12288131007996323008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.fitness-beginners.com/"
+  },
+  {
+   "name": "ENEGYM",
+   "rating": 5,
+   "count": 25,
+   "address": "日本、〒260-0045 千葉県千葉市中央区弁天２丁目２３−２３ 弁天プラザ",
+   "mapsUri": "https://maps.google.com/?cid=8306486190552521287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enegym92910.com/"
+  },
+  {
+   "name": "パーソナルジムinfinity body (インフィニティボディ)",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒263-0043 千葉県千葉市稲毛区小仲台２丁目１１−１１ １５ＡＳビル ３Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=11619868262060358619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.infinitybodygym.com/"
+  },
+  {
+   "name": "THE VITAL BASE TRAINING GYM千葉店",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒260-0013 千葉県千葉市中央区中央３丁目１３−１ 富士屋ビル ２階",
+   "mapsUri": "https://maps.google.com/?cid=3588645784699086941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://thevitalbase19.wixsite.com/the-vital-base-gym"
+  },
+  {
+   "name": "IDEY(アイディー)千葉駅プライベートパーソナルトレーニングジム",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒260-0032 千葉県千葉市中央区登戸１丁目５−３ つばさビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=1133104783153831940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.idealbody-chiba.com/lp/"
+  },
+  {
+   "name": "SO-TEN FITNESS",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒260-0854 千葉県千葉市中央区長洲１丁目３２−３ 千葉 IZUMI03 本 1F-1",
+   "mapsUri": "https://maps.google.com/?cid=5924474048579899860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.aonooto.blue/"
+  },
+  {
+   "name": "パーソナルジムReViNa(レビナ)千葉駅前店",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒260-0021 千葉県千葉市中央区新宿２丁目３−１７ ファーストステージ 101",
+   "mapsUri": "https://maps.google.com/?cid=5312424832025856432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://revina-personalgym.com/chiba/"
+  }
+ ],
+ "saitama": [
+  {
+   "name": "GYMS（ジムズ）",
+   "rating": 4.6,
+   "count": 323,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目１５５ Ida Technos IX, 4階",
+   "mapsUri": "https://maps.google.com/?cid=18012591679098559068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "加圧 & パーソナルトレーニング ジム Oz 大宮店",
+   "rating": 4.8,
+   "count": 258,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目１７５ KGビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=7762284793772322474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://oz-kaatsu.com/store/omiyaten/?utm_source=Google&utm_medium=meo&utm_campaign=omiya"
+  },
+  {
+   "name": "BEYOND 大宮店",
+   "rating": 5,
+   "count": 231,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町１丁目４７ 一番ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=180380483408439856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-omiya/?utm_source=google_my_business&utm_medium=google&utm_campaign=omiya"
+  },
+  {
+   "name": "ASPI大宮店 パーソナルトレーニングジム",
+   "rating": 4.9,
+   "count": 161,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区大門町３丁目５９ 小沢ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=14387073073296008234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aspirest.com/access/saitama/omiya/"
+  },
+  {
+   "name": "パーソナルジムRat大宮店",
+   "rating": 4.8,
+   "count": 152,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目２０−１ 2F",
+   "mapsUri": "https://maps.google.com/?cid=15355481221336131265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/saitama/omiya/"
+  },
+  {
+   "name": "STREAM(ストリーム) 大宮店",
+   "rating": 4.9,
+   "count": 140,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目3−４ 東栄アネックスビル Ⅱ4F",
+   "mapsUri": "https://maps.google.com/?cid=18130865909646365944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgym-stream.com/omiya/"
+  },
+  {
+   "name": "24/7ワークアウト",
+   "rating": 4.8,
+   "count": 95,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目３５ 大塚ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=8596900383703937377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://247-sports.jp/workout/gym/saitama/omiya/?acckey=gym0-googmybu-0000-2470-glpforms-00000045&utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "パーソナルジム Be more 大宮店",
+   "rating": 5,
+   "count": 77,
+   "address": "日本、〒330-0834 埼玉県さいたま市大宮区天沼町１丁目４２８−２ 1階",
+   "mapsUri": "https://maps.google.com/?cid=3591192205412238947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bemore2019fs.com/"
+  },
+  {
+   "name": "ボディーズマイン",
+   "rating": 5,
+   "count": 63,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目74−4第３ 秀宝ビル ２階",
+   "mapsUri": "https://maps.google.com/?cid=10803026297789318635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tsunatore.com/"
+  },
+  {
+   "name": "THE PERSONAL GYM大宮店",
+   "rating": 5,
+   "count": 61,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町５丁目１３ 宮富士ビル 201",
+   "mapsUri": "https://maps.google.com/?cid=10155535384004507290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/omiya/"
+  },
+  {
+   "name": "パーソナルジム&8 大宮店",
+   "rating": 4.9,
+   "count": 60,
+   "address": "日本、〒330-0843 埼玉県さいたま市大宮区吉敷町１丁目81−１ 3階",
+   "mapsUri": "https://maps.google.com/?cid=545479790651409668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://and-eight-gym.net/omiya"
+  },
+  {
+   "name": "パーソナルジム VANCLASS 大宮店",
+   "rating": 4.9,
+   "count": 59,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目１９０ 大宮豊田ビル 501号室",
+   "mapsUri": "https://maps.google.com/?cid=5281493768013496282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://vanclassgym.com/"
+  },
+  {
+   "name": "Pearl Fitness",
+   "rating": 5,
+   "count": 47,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目8−７ シャトルウエスト 402",
+   "mapsUri": "https://maps.google.com/?cid=3732805841269663195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pearl-f.com/"
+  },
+  {
+   "name": "パーソナルジムSOUND",
+   "rating": 4.9,
+   "count": 34,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目22−５ 三協ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=291567024944283624&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://privategymsound.com/"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 大宮",
+   "rating": 4.7,
+   "count": 26,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目６１ 第二 ＧＳビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=7985368714943477664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.diet-undeux.jp/life/omiya/"
+  },
+  {
+   "name": "ティーバランス 大宮店 パーソナルジム",
+   "rating": 4.9,
+   "count": 21,
+   "address": "日本、〒330-0801 埼玉県さいたま市大宮区土手町１丁目２２ RIDE BASE OMIYA 5号室",
+   "mapsUri": "https://maps.google.com/?cid=11817233538214645702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://t-balance-gym.com/saitama/omiya/"
+  },
+  {
+   "name": "Personal Gym F(パーソナルジムエフ)大宮店",
+   "rating": 4.9,
+   "count": 12,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目１４７ 402号室",
+   "mapsUri": "https://maps.google.com/?cid=13879924853456130860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personal-gym-f.jp/"
+  },
+  {
+   "name": "パーソナルジム ToBe",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒331-0841 埼玉県さいたま市大宮区東町２丁目 プチコーポ 101",
+   "mapsUri": "https://maps.google.com/?cid=11270512293768071187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgym-tobe.studio.site/"
+  },
+  {
+   "name": "NEXUSパーソナルジム大宮店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目４８−２ あひか第二ビル ４０２",
+   "mapsUri": "https://maps.google.com/?cid=15047831096858048147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.nexus-gym.com/"
+  },
+  {
+   "name": "Coone Fitness",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町３丁目４８−２",
+   "mapsUri": "https://maps.google.com/?cid=16094184287719653503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://coonecamp.jp/"
+  }
+ ],
+ "omiya": [
+  {
+   "name": "GYMS（ジムズ）",
+   "rating": 4.6,
+   "count": 323,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目１５５ Ida Technos IX, 4階",
+   "mapsUri": "https://maps.google.com/?cid=18012591679098559068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-gyms.jp/"
+  },
+  {
+   "name": "加圧 & パーソナルトレーニング ジム Oz 大宮店",
+   "rating": 4.8,
+   "count": 258,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目１７５ KGビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=7762284793772322474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://oz-kaatsu.com/store/omiyaten/?utm_source=Google&utm_medium=meo&utm_campaign=omiya"
+  },
+  {
+   "name": "BEYOND 大宮店",
+   "rating": 5,
+   "count": 231,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町１丁目４７ 一番ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=180380483408439856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beyond-gym.com/gym/gym-omiya/?utm_source=google_my_business&utm_medium=google&utm_campaign=omiya"
+  },
+  {
+   "name": "パーソナルジムRat大宮店",
+   "rating": 4.8,
+   "count": 152,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目２０−１ 2F",
+   "mapsUri": "https://maps.google.com/?cid=15355481221336131265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ratgym.jp/shop/saitama/omiya/"
+  },
+  {
+   "name": "STREAM(ストリーム) 大宮店",
+   "rating": 4.9,
+   "count": 140,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目3−４ 東栄アネックスビル Ⅱ4F",
+   "mapsUri": "https://maps.google.com/?cid=18130865909646365944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgym-stream.com/omiya/"
+  },
+  {
+   "name": "24/7ワークアウト",
+   "rating": 4.8,
+   "count": 95,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目３５ 大塚ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=8596900383703937377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://247-sports.jp/workout/gym/saitama/omiya/?acckey=gym0-googmybu-0000-2470-glpforms-00000045&utm_source=google&utm_medium=gmb"
+  },
+  {
+   "name": "Bump Up",
+   "rating": 4.9,
+   "count": 93,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町４丁目１１６−１ ２Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=13860690416072900187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://bumpup-japan.com/omiya/"
+  },
+  {
+   "name": "パーソナルジム Be more 大宮店",
+   "rating": 5,
+   "count": 77,
+   "address": "日本、〒330-0834 埼玉県さいたま市大宮区天沼町１丁目４２８−２ 1階",
+   "mapsUri": "https://maps.google.com/?cid=3591192205412238947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bemore2019fs.com/"
+  },
+  {
+   "name": "ボディーズマイン",
+   "rating": 5,
+   "count": 63,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目74−4第３ 秀宝ビル ２階",
+   "mapsUri": "https://maps.google.com/?cid=10803026297789318635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tsunatore.com/"
+  },
+  {
+   "name": "THE PERSONAL GYM大宮店",
+   "rating": 5,
+   "count": 61,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町５丁目１３ 宮富士ビル 201",
+   "mapsUri": "https://maps.google.com/?cid=10155535384004507290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://the-personal-gym.com/studio/omiya/"
+  },
+  {
+   "name": "パーソナルジム&8 大宮店",
+   "rating": 4.9,
+   "count": 60,
+   "address": "日本、〒330-0843 埼玉県さいたま市大宮区吉敷町１丁目81−１ 3階",
+   "mapsUri": "https://maps.google.com/?cid=545479790651409668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://and-eight-gym.net/omiya"
+  },
+  {
+   "name": "パーソナルジム VANCLASS 大宮店",
+   "rating": 4.9,
+   "count": 59,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目１９０ 大宮豊田ビル 501号室",
+   "mapsUri": "https://maps.google.com/?cid=5281493768013496282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://vanclassgym.com/"
+  },
+  {
+   "name": "ビーコンセプト大宮店",
+   "rating": 4.8,
+   "count": 51,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目１４１ コスモプレイス一の宮 503",
+   "mapsUri": "https://maps.google.com/?cid=12816228250236037767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://b-concept.tokyo/clublist/omiya/?utm_source=mybusiness&utm_medium=organic"
+  },
+  {
+   "name": "Pearl Fitness",
+   "rating": 5,
+   "count": 47,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目8−７ シャトルウエスト 402",
+   "mapsUri": "https://maps.google.com/?cid=3732805841269663195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pearl-f.com/"
+  },
+  {
+   "name": "パーソナルジムSOUND",
+   "rating": 4.9,
+   "count": 34,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目22−５ 三協ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=291567024944283624&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://privategymsound.com/"
+  },
+  {
+   "name": "ティーバランス 大宮店 パーソナルジム",
+   "rating": 4.9,
+   "count": 21,
+   "address": "日本、〒330-0801 埼玉県さいたま市大宮区土手町１丁目２２ RIDE BASE OMIYA 5号室",
+   "mapsUri": "https://maps.google.com/?cid=11817233538214645702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://t-balance-gym.com/saitama/omiya/"
+  },
+  {
+   "name": "Personal Gym F(パーソナルジムエフ)大宮店",
+   "rating": 4.9,
+   "count": 12,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目１４７ 402号室",
+   "mapsUri": "https://maps.google.com/?cid=13879924853456130860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personal-gym-f.jp/"
+  },
+  {
+   "name": "パーソナルジム ToBe",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒331-0841 埼玉県さいたま市大宮区東町２丁目 プチコーポ 101",
+   "mapsUri": "https://maps.google.com/?cid=11270512293768071187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://personalgym-tobe.studio.site/"
+  },
+  {
+   "name": "NEXUSパーソナルジム大宮店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目４８−２ あひか第二ビル ４０２",
+   "mapsUri": "https://maps.google.com/?cid=15047831096858048147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.nexus-gym.com/"
+  },
+  {
+   "name": "personal gym SOUND 大宮2号店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目２２−６ 3階",
+   "mapsUri": "https://maps.google.com/?cid=1344826954785128719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://privategymsound.com/"
+  }
  ]
 }
