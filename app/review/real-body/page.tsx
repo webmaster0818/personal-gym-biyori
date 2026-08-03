@@ -7,7 +7,7 @@ import GymCta from "@/components/GymCta";
 export const metadata: Metadata = {
   title: "リアルボディの口コミ・評判は？料金・効果を徹底解説【2026年】",
   description:
-    "リアルボディの口コミ・評判を徹底解説。1回3,500円〜の回数券制・食事指導無料・契約縛りなしという特徴、料金総額の目安、良い口コミ/悪い口コミの傾向、目的別の向き不向き、よくある質問まで網羅。仙台・東北で通えるパーソナルジム選びの判断材料に。",
+    "リアルボディの口コミ・評判を徹底解説。1回3,500円〜の回数券制・食事指導無料・契約縛りなしという特徴、料金総額の目安、良い口コミ/悪い口コミの傾向、目的別の向き不向き、よくある質問まで網羅。坂戸店（埼玉）など店舗情報も掲載。仙台・東北・千葉・埼玉で通えるパーソナルジム選びの判断材料に。",
 };
 
 const basicInfo = [
@@ -67,10 +67,13 @@ const demerits = [
 // 公式サイト（personalgym-realbody.com）記載の回数券プランをもとに目安として整理。最新は公式で要確認。
 const pricingPlans = [
   { name: "2回券", duration: "45分/回・2回", price: "12,000円（1回6,000円）", note: "まず試したい人向け" },
+  { name: "3回券", duration: "45分/回・3回", price: "16,000円（1回約5,333円）", note: "" },
   { name: "4回券", duration: "45分/回・4回", price: "20,000円（1回5,000円）", note: "週1回・1ヶ月の目安" },
-  { name: "8回券", duration: "45分/回・8回", price: "枚数により1回4,500円前後", note: "週1〜2回ペース" },
-  { name: "12回券", duration: "45分/回・12回", price: "45,000円（1回3,750円）", note: "限定・まとめ買いでお得" },
-  { name: "16回券", duration: "45分/回・16回", price: "56,000円（1回3,500円）", note: "限定・1回あたり最安クラス" },
+  { name: "5回券", duration: "45分/回・5回", price: "24,000円（1回4,800円）", note: "" },
+  { name: "6回券", duration: "45分/回・6回", price: "28,000円（1回約4,667円）", note: "" },
+  { name: "7回券", duration: "45分/回・7回", price: "32,000円（1回約4,571円）", note: "週1〜2回ペース" },
+  { name: "12回券", duration: "45分/回・12回", price: "45,000円（1回3,750円）", note: "まとめ買いでお得" },
+  { name: "16回券", duration: "45分/回・16回", price: "56,000円（1回3,500円）", note: "1回あたり最安クラス" },
 ];
 
 const reviewSummary = "リアルボディの口コミでは「料金が安いのにしっかり指導してくれる」「食事の管理も無料で助かる」「気軽に通える雰囲気」と、コスパと続けやすさを評価する声が中心です。トレーナーのアドバイスを受けながら自信を持って取り組めるという感想も見られます。一方で「店舗があるエリアが限られる」「ネット上の情報が少なくて最初は不安だった」という声もあります。";
@@ -127,7 +130,8 @@ const goalGuide = [
 ];
 
 const faqItems = [
-  { q: "リアルボディの料金はいくらですか？", a: "回数券制で、2回券12,000円（1回6,000円）から、まとめ買いの12回券・16回券では1回あたり3,500円〜3,750円程度まで下がります。1回のセッションは45分です。最新の料金・プランは公式サイトでご確認ください。" },
+  { q: "リアルボディの料金はいくらですか？", a: "回数券制で、2回券12,000円（1回6,000円）から16回券56,000円（1回3,500円）まで8券種があります（2026年8月3日公式確認）。まとめ買いするほど1回あたりが安くなり、1回のセッションは45分です。最新の料金・プランは公式サイトでご確認ください。" },
+  { q: "リアルボディ坂戸店の営業時間・アクセスは？", a: "坂戸店（埼玉県坂戸市南町12-12 幸陽ビル102）は東武東上線・坂戸駅から徒歩4分、営業時間は平日9:00〜21:00・土日祝8:00〜19:00で年中無休です（2026年8月3日公式確認）。埼玉県内のリアルボディは坂戸店のみで、無料体験から始められます。" },
   { q: "リアルボディの入会金はいくらですか？", a: "入会金については公式サイトに明確な記載が確認できない場合があります。キャンペーンの有無も含め、最新の費用は公式サイトまたは無料体験時にご確認ください。" },
   { q: "食事指導は受けられますか？追加料金は？", a: "食事指導は無料と案内されています。希望しない場合は食事管理なしのプランも選べるとされています。詳細は公式サイトでご確認ください。" },
   { q: "契約の縛りや解約手数料はありますか？", a: "契約の縛りはなく、解約時の違約金もないと案内されています。回数券制のため、必要な分だけ購入できます。最新の規約は公式サイトでご確認ください。" },
@@ -166,7 +170,7 @@ export default function RealBodyReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判は？料金・効果を徹底解説</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月3日</p>
 
         <p className="text-gray-700 leading-relaxed mb-6">
           リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約縛りなしが魅力。本記事では、リアルボディの口コミ・評判の傾向、料金総額の目安、目的別の向き不向きを詳しく解説します。
@@ -235,13 +239,30 @@ export default function RealBodyReview() {
         <section id="pricing" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの料金（回数券制・総額の目安）</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            リアルボディは月額の継続契約ではなく、必要な回数の券を購入する<strong>回数券制</strong>です。1回のセッションは45分で、まとめ買いするほど1回あたりの単価が下がります。下表は公開情報をもとにした目安です。
+            リアルボディは月額の継続契約ではなく、必要な回数の券を購入する<strong>回数券制</strong>です。1回のセッションは45分で、まとめ買いするほど1回あたりの単価が下がります。下表は公式サイト掲載の全券種です（2026年8月3日確認）。
           </p>
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
             <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン</th><th className="px-4 py-3 text-left font-medium">時間・回数</th><th className="px-4 py-3 text-left font-medium">料金（総額・1回あたり）</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead>
             <tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody>
           </table></div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。食事指導は無料、契約縛り・違約金なしと案内されています。8回券の正確な金額や入会金の有無を含む最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 上表は公式サイト掲載の回数券プランです（2026年8月3日当サイト確認）。食事指導は無料、契約縛り・違約金なしと案内されています。入会金の有無・キャンペーンを含む最新情報は公式サイトでご確認ください。</p>
+        </section>
+
+        <section id="sakado" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディ坂戸店の店舗情報（埼玉県唯一の店舗）</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">
+            埼玉県で通えるリアルボディは<strong>坂戸店</strong>です。東武東上線・坂戸駅から<strong>徒歩4分</strong>と駅近で、<strong>年中無休</strong>のため平日夜も土日も通いやすい店舗です（2026年8月3日公式確認）。
+          </p>
+          <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>
+            {[
+              ["住所", "埼玉県坂戸市南町12-12 幸陽ビル102"],
+              ["アクセス", "東武東上線 坂戸駅 徒歩4分"],
+              ["営業時間", "平日 9:00〜21:00／土日祝 8:00〜19:00（年中無休）"],
+              ["料金", "全店共通の回数券制（上の料金表参照・1回45分）"],
+              ["体験", "無料体験あり（0円）"],
+            ].map((row) => (<tr key={row[0]} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row[0]}</th><td className="px-4 py-3 text-gray-800">{row[1]}</td></tr>))}
+          </tbody></table></div>
+          <p className="text-xs text-gray-500 mt-3">※ 2026年8月3日時点の公式サイト掲載情報です。予約状況・最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">

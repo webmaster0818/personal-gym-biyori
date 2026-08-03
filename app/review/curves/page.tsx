@@ -13,7 +13,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "カーブス（Curves）" },
   { label: "タイプ", value: "女性専用30分フィットネス" },
-  { label: "料金帯", value: "詳細は公式HPをご確認ください" },
+  { label: "料金帯", value: "店舗・プランにより異なる（公式サイトで実額公開）" },
+  { label: "営業時間の目安", value: "平日 10:00〜13:00・15:00〜19:00／土曜 10:00〜13:00（日曜・祝日は概ね休み。店舗により異なる・2026年8月3日確認）" },
   { label: "エリア", value: "全国2,000店舗以上" },
   { label: "特徴", value: "女性専用 / 30分 / 予約不要 / 全国展開 / サーキット型" },
 ];
@@ -28,8 +29,8 @@ const strengths = [
     desc: "有酸素運動、筋力運動、柔軟運動を組み合わせたサーキットトレーニングを30分で完了。短時間で効率的に全身を鍛えられます。",
   },
   {
-    title: "予約不要でいつでも通える",
-    desc: "予約なしで営業時間内ならいつでも利用可能。自分のスケジュールに合わせて柔軟に通えます。",
+    title: "予約不要・30分で完結だから空き時間に寄れる",
+    desc: "予約なしで営業時間内ならいつでも利用可能。1回30分で完結するため、買い物や用事の前後の空き時間にさっと立ち寄れます。営業時間帯は平日10:00〜13:00・15:00〜19:00／土曜10:00〜13:00が目安（日曜・祝日は概ね休み。店舗により異なる・2026年8月3日確認）で、深夜・24時間営業ではない点だけ押さえておきましょう。",
   },
 ];
 
@@ -64,13 +65,15 @@ const demerits = [
 ];
 
 const pricingPlans = [
-  { name: "通常コース", duration: "30分/回・通い放題", price: "詳細は公式HPをご確認ください", note: "全時間帯利用可" },
-  { name: "12ヶ月お得コース", duration: "30分/回・通い放題", price: "詳細は公式HPをご確認ください", note: "12ヶ月契約" },
+  { name: "店舗プラン", duration: "30分/回・通い放題", price: "実額は公式サイトに掲載（店舗により異なる）", note: "店舗でのワークアウト" },
+  { name: "おうちプラン", duration: "詳細は公式サイト参照", price: "実額は公式サイトに掲載（店舗により異なる）", note: "詳細は公式サイト参照" },
+  { name: "Wプラン", duration: "詳細は公式サイト参照", price: "実額は公式サイトに掲載（店舗により異なる）", note: "詳細は公式サイト参照" },
 ];
 
 const reviewSummary = "カーブスの口コミでは「30分で終わるから続けやすい」「予約不要で気軽」「スタッフが親切」という声が多く見られます。幅広い年齢層の女性から支持されています。一方で「本格的なトレーニングには物足りない」という意見も。健康維持・体力づくりを目的とする方に最適です。";
 
 const faqItems = [
+  { q: "カーブスの料金はいくらですか？", a: "月会費は店舗とプラン（店舗プラン／おうちプラン／Wプラン）により異なり、実額は公式サイトで公開されています。通う店舗によって金額が変わるため、無料体験のときにご自身の店舗の正確な料金を確認するのが確実です（2026年8月3日確認）。" },
   { q: "カーブスの入会金はいくらですか？", a: "入会金の詳細は公式HPをご確認ください。キャンペーンを実施している場合もあります。" },
   { q: "何歳から何歳まで通えますか？", a: "年齢制限は特にありません。10代から80代以上の方まで幅広い年齢層が通っています。" },
   { q: "運動経験がなくても大丈夫ですか？", a: "はい、油圧式マシンが自動で負荷を調整するため、体力に合わせたトレーニングが可能です。" },
@@ -128,7 +131,7 @@ export default function CurvesReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           カーブスは痩せる？口コミ・評判を徹底解説
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月</p>
 
         <p className="text-gray-700 leading-relaxed mb-6">
           カーブス（Curves）は全国2,000店舗以上を展開する<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>30分フィットネスです。<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>という手軽さが魅力。本記事では「カーブスは痩せるのか」という疑問を口コミの傾向から検証しつつ、メリット・デメリットを詳しく解説します。
@@ -145,6 +148,17 @@ export default function CurvesReview() {
           <p className="text-xs text-gray-500 mt-3">効果には個人差があります。料金・体験は店舗で異なるため最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
         </div>
 
+        <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">カーブスの料金はいくら？【確認方法の直答】</h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-2">
+            カーブスの月会費は<strong>店舗とプラン（店舗プラン／おうちプラン／Wプラン）により異なり</strong>、実額は<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>で公開されています。
+          </p>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            通う店舗によって金額が変わるため、<strong>無料体験のときに自分の店舗の正確な料金を確認する</strong>のが最も確実です。体験は無料なので、料金の確認を兼ねて気軽に試せます。
+          </p>
+          <p className="text-xs text-gray-500 mt-3">※2026年8月3日 公式サイト確認。キャンペーン等で変わる場合があります。</p>
+        </div>
+
         <div className="mb-12">
           <h2 className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
@@ -158,7 +172,7 @@ export default function CurvesReview() {
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 料金は？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">月額制・通い放題で、契約期間により料金が異なります。具体的な金額は店舗・時期で変わるため<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>でのご確認が確実です。</dd>
+              <dd className="text-gray-700 mt-1 leading-relaxed">月会費は店舗・プラン（店舗プラン／おうちプラン／Wプラン）により異なり、実額は<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>で公開されています。無料体験時に自分の店舗の正確な料金を確認するのが確実です。</dd>
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. どんな人に向く？</dt>
@@ -245,7 +259,7 @@ export default function CurvesReview() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 月会費の実額は公式サイトで公開されています（店舗・プランにより異なる）。無料体験時にご自身の店舗の正確な料金をご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">

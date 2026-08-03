@@ -12,16 +12,16 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 戸塚店" },
-  { label: "住所", value: "神奈川県横浜市戸塚区戸塚町（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR戸塚駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "住所", value: "神奈川県横浜市戸塚区戸塚町16番地9 カンパニュラBDL 201号室（2026年8月3日 公式サイト確認）" },
+  { label: "最寄駅", value: "JR戸塚駅西口 徒歩2分" },
+  { label: "営業時間", value: "10:00〜22:00（2026年8月3日 公式サイト確認）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "BEYOND戸塚店の料金はいくらですか？", a: "回数券制で、STANDARD 10プラン（10回）が96,800円（税込）が目安です。入会金は無料です。最新の料金は公式サイトでご確認ください。" },
-  { q: "BEYOND戸塚店の営業時間は？", a: "10:00〜22:00です。最新情報は公式サイトでご確認ください。" },
+  { q: "BEYOND戸塚店の料金はいくらですか？", a: "回数券制のSTANDARD 10プラン（10回）が102,300円（税込）です。ACHIEVE 20（20回）187,000円、BEYOND 30（30回）264,000円のほか、月額プラン（マンスリー2 17,600円／マンスリー4 35,200円／マンスリー8 69,300円・月・税込）もあります。入会金は全コース無料です（2026年8月3日 公式サイト確認）。" },
+  { q: "BEYOND戸塚店の営業時間は？", a: "10:00〜22:00です（2026年8月3日 公式サイト確認）。最新情報は公式サイトでご確認ください。" },
   { q: "BEYOND戸塚店のトレーナーの特徴は？", a: "ボディメイクコンテストの入賞経験者や有資格者のトレーナーが在籍しています。長期的な目標達成に向けた親身なサポートが特徴です。" },
   { q: "BEYOND戸塚店は入会金がかかりますか？", a: "いいえ、BEYONDは全店舗入会金無料です。コース料金のみでパーソナルトレーニングを始められます。" },
 ];
@@ -61,12 +61,24 @@ export default function StorePage() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           BEYOND 戸塚店の口コミ・評判
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             BEYOND の公式サイトはこちら
           </a>
         </p>
+
+        {/* ---------- 結論直答ボックス ---------- */}
+        <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
+          <h2 className="font-bold text-gray-900 mb-3">結論：BEYOND戸塚店の料金・アクセス早わかり</h2>
+          <ul className="space-y-1.5 text-sm text-gray-700">
+            <li>・<strong>入会金は無料</strong>（全コース・公式明記）、<strong>体験トレーニングも初回無料</strong>（通常11,000円）で始めやすい</li>
+            <li>・回数券: STANDARD 10（10回）102,300円／ACHIEVE 20（20回）187,000円／BEYOND 30（30回）264,000円（各税込）</li>
+            <li>・月額プラン: マンスリー2 17,600円／マンスリー4 35,200円／マンスリー8 69,300円（月・税込）</li>
+            <li>・<strong>JR戸塚駅西口から徒歩2分</strong>、営業時間10:00〜22:00で仕事帰りや買い物ついでにも通いやすい</li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">※料金・体験・営業時間は2026年8月3日に公式サイトで確認した情報です。最新情報は公式サイトでご確認ください。</p>
+        </div>
 
         {/* ---------- 基本情報テーブル ---------- */}
         <section className="mb-10">
@@ -119,7 +131,7 @@ export default function StorePage() {
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND戸塚店は戸塚駅から徒歩5分の場所にある店舗です。横浜市戸塚区エリアの方に利用されており、住宅街に位置する落ち着いた雰囲気が特徴です。トレーナーが利用者の目標達成に向けて親身にサポートしてくれると好評で、長期的に通い続ける会員が多い店舗です。
+            BEYOND戸塚店はJR戸塚駅西口から徒歩2分の場所にある店舗です。横浜市戸塚区エリアの方に利用されており、住宅街に位置する落ち着いた雰囲気が特徴です。トレーナーが利用者の目標達成に向けて親身にサポートしてくれると好評で、長期的に通い続ける会員が多い店舗です。
           </p>
           <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
             ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
