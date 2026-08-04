@@ -48,6 +48,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#0D9488" />
       </head>
       <body className="min-h-full flex flex-col">
+        <div style={{ background: "rgba(0,0,0,0.04)", borderBottom: "1px solid rgba(0,0,0,0.06)" }}>
+          <p style={{ maxWidth: 1152, margin: "0 auto", padding: "4px 16px", fontSize: 11, color: "#6b7280" }}>本サイトはプロモーション(PR)を含みます。</p>
+        </div>
+
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
