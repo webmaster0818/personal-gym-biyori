@@ -1,0 +1,471 @@
+{
+ "city": "新宿",
+ "fetchedAt": "2026-08-14",
+ "query": "パーソナルジム 新宿",
+ "gyms": [
+  {
+   "name": "THE PERSONAL GYM新宿御苑店",
+   "rating": 4.9,
+   "reviews": 475,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目８−３ 3F",
+   "maps": "https://maps.google.com/?cid=6202165809653452344&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SPACE GYM 西新宿店",
+   "rating": 5,
+   "reviews": 368,
+   "address": "日本、〒163-1301 東京都新宿区西新宿６丁目５−１ 新宿アイランド 1階 1103区画",
+   "maps": "https://maps.google.com/?cid=8307349190775224302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Rat新宿南口店",
+   "rating": 4.8,
+   "reviews": 331,
+   "address": "日本、〒151-0053 東京都渋谷区代々木２丁目７−４ 天間ビル 202",
+   "maps": "https://maps.google.com/?cid=6217820719716960092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エープラスダイエットジム新宿店",
+   "rating": 4.8,
+   "reviews": 299,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目１６−４ 西新宿ビル 4F",
+   "maps": "https://maps.google.com/?cid=1422563660271925110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 新宿店",
+   "rating": 4.9,
+   "reviews": 285,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目９−９ ７felicita 西新宿 4F",
+   "maps": "https://maps.google.com/?cid=11021028018896057956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CHANCE GYM 新宿店",
+   "rating": 5,
+   "reviews": 265,
+   "address": "日本、〒160-0021 東京都新宿区歌舞伎町２丁目４６−８ 新宿日章ビル 4F",
+   "maps": "https://maps.google.com/?cid=3379000053782603160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ASPI新宿三丁目御苑",
+   "rating": 4.9,
+   "reviews": 234,
+   "address": "ストークビル長崎 5f, ２丁目-１１-4 新宿 新宿区 東京都 160-0022 日本",
+   "maps": "https://maps.google.com/?cid=12740734273423135757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Oz 新宿店",
+   "rating": 4.8,
+   "reviews": 175,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目９−６ 寿ビル 2階",
+   "maps": "https://maps.google.com/?cid=12542597239344072992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Rat新宿三丁目店",
+   "rating": 4.9,
+   "reviews": 167,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目１１−２ カーサ・ヴェルデ 701",
+   "maps": "https://maps.google.com/?cid=10722709124478669905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B-ST新宿店",
+   "rating": 5,
+   "reviews": 161,
+   "address": "日本、〒160-0021 東京都新宿区歌舞伎町２丁目４４−１ 健康プラザ「ハイジア」5F",
+   "maps": "https://maps.google.com/?cid=17365691402177351416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DRAGON GYM PERSONAL FITNESS 新宿",
+   "rating": 4.7,
+   "reviews": 135,
+   "address": "日本、〒160-0021 東京都新宿区歌舞伎町１丁目６−２ 9F",
+   "maps": "https://maps.google.com/?cid=8442301600324020796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エクササイズコーチ新宿西口店",
+   "rating": 4.7,
+   "reviews": 135,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１１−１７ ブレステン西新宿 7階・8階",
+   "maps": "https://maps.google.com/?cid=8484672139970849318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DEED ∞ 東 新宿 店",
+   "rating": 4.8,
+   "reviews": 133,
+   "address": "日本、〒169-0072 東京都新宿区大久保１丁目１−４５ 新宿セントラルハイツプラザ 203",
+   "maps": "https://maps.google.com/?cid=17387146290275447725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "eviGym 新宿マルイ本館店",
+   "rating": 4.9,
+   "reviews": 131,
+   "address": "日本、〒160-0022 東京都新宿区新宿３丁目３０−１３ 7F",
+   "maps": "https://maps.google.com/?cid=16254170070400920269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ティーバランス 新宿三丁目店",
+   "rating": 4.9,
+   "reviews": 126,
+   "address": "日本、〒160-0022 東京都新宿区新宿５丁目１０−２ KKビル 4F",
+   "maps": "https://maps.google.com/?cid=13009632685701068891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SERENA（セレナ）新宿御苑店",
+   "rating": 5,
+   "reviews": 119,
+   "address": "日本、〒160-0004 東京都新宿区四谷４丁目２８−６ 東亜設備 大木戸ビル ６Ｆ",
+   "maps": "https://maps.google.com/?cid=7476049740982848743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MIYAZAKI GYM新宿店",
+   "rating": 4.9,
+   "reviews": 113,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目８−１１ 中川ビル 4-B",
+   "maps": "https://maps.google.com/?cid=2074697829444330168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 新宿",
+   "rating": 4.8,
+   "reviews": 98,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１０−１８ 小滝橋パシフィカビル 7F",
+   "maps": "https://maps.google.com/?cid=8871642675814648106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DEED ∞ 西新宿五丁目 店",
+   "rating": 4.9,
+   "reviews": 97,
+   "address": "日本、〒160-0023 東京都新宿区西新宿４丁目１７−５ T&Kビルディング B1F",
+   "maps": "https://maps.google.com/?cid=12258031875707734077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Apple GYM（アップルジム）新宿店",
+   "rating": 4.9,
+   "reviews": 79,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−４ ゼンコウビル 5階",
+   "maps": "https://maps.google.com/?cid=2330075690420082910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムELEVATE 新宿",
+   "rating": 5,
+   "reviews": 74,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目１１−２ 602",
+   "maps": "https://maps.google.com/?cid=5394897592810681565&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Side by Side Gym 東新宿 若松河田",
+   "rating": 5,
+   "reviews": 73,
+   "address": "日本、〒160-0022 東京都新宿区新宿７丁目１３−２",
+   "maps": "https://maps.google.com/?cid=1758479925181012469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビーコンセプト新宿店",
+   "rating": 4.9,
+   "reviews": 73,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目７−２８ 山本ビル 102 第二",
+   "maps": "https://maps.google.com/?cid=13009649583752882806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Gym ＆Pilates STOLZ",
+   "rating": 4.9,
+   "reviews": 73,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目６−５ 805",
+   "maps": "https://maps.google.com/?cid=15438382677486809790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LaLa 新宿店",
+   "rating": 4.8,
+   "reviews": 70,
+   "address": "日本、〒160-0021 東京都新宿区歌舞伎町２丁目２−２０ グランドメゾン歌舞伎町 901号室",
+   "maps": "https://maps.google.com/?cid=7193145106865694999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 新宿東口店",
+   "rating": 4.5,
+   "reviews": 70,
+   "address": "日本、〒160-0022 東京都新宿区新宿５丁目１５−７ 東晃ビル 6階",
+   "maps": "https://maps.google.com/?cid=16134542078157855432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダンディハウス パーソナルジム 新宿店",
+   "rating": 4.8,
+   "reviews": 69,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目１８−１７ ラウンドクロス西新宿 5F",
+   "maps": "https://maps.google.com/?cid=12619705116750127691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Bless privategym",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒160-0023 東京都新宿区西新宿８丁目１５−１５",
+   "maps": "https://maps.google.com/?cid=15242465170599571299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REALWORKOUT新宿店",
+   "rating": 5,
+   "reviews": 58,
+   "address": "日本、〒160-0023 東京都新宿区西新宿６丁目２６−８ 小西ビル 301",
+   "maps": "https://maps.google.com/?cid=18334418355298805542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEAUTRIX（ビュートリクス）新宿",
+   "rating": 4.9,
+   "reviews": 55,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１６−４ コンシェルジュ高橋 4F",
+   "maps": "https://maps.google.com/?cid=3932910698921394896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 新宿西口店",
+   "rating": 4.5,
+   "reviews": 51,
+   "address": "日本、〒169-0074 東京都新宿区北新宿１丁目１−１０ 岩田ビル 2階",
+   "maps": "https://maps.google.com/?cid=2923662718055645220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Gym ELITE",
+   "rating": 4.9,
+   "reviews": 51,
+   "address": "日本、〒160-0023 東京都新宿区西新宿５丁目１０−１４ 小野木ビル西新宿 ５階",
+   "maps": "https://maps.google.com/?cid=5350641395783196066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MIYAZAKI GYM新宿ANNEX店",
+   "rating": 4.9,
+   "reviews": 50,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−７ 新宿ダイカンプラザ 501",
+   "maps": "https://maps.google.com/?cid=1668790645750624330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リボーンマイセルフ新宿店",
+   "rating": 5,
+   "reviews": 45,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１０−１１ 第二伊藤ビル ２階",
+   "maps": "https://maps.google.com/?cid=6118796716791463920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "breeze(ブリーズ)西新宿",
+   "rating": 4.9,
+   "reviews": 45,
+   "address": "日本、〒160-0023 東京都新宿区西新宿８丁目１９−１ 小林ビル ８１１",
+   "maps": "https://maps.google.com/?cid=13302512858719960173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Gym Dand.A（ダンドエー）",
+   "rating": 4.9,
+   "reviews": 41,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目２０−１１ 西新宿Aiビル B1F",
+   "maps": "https://maps.google.com/?cid=3548750663408478684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Kenz新宿店",
+   "rating": 4.7,
+   "reviews": 38,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目５−１１ 4階",
+   "maps": "https://maps.google.com/?cid=14050949559183567618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "One's Gym 新宿店",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒160-0023 東京都新宿区西新宿６丁目２−３ 408",
+   "maps": "https://maps.google.com/?cid=6460843263233417471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Master Body (マスターボディ）新宿店",
+   "rating": 4.9,
+   "reviews": 34,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１６−４ Concierge髙橋 802",
+   "maps": "https://maps.google.com/?cid=4467872901847990594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Dr.トレーニング 新宿店",
+   "rating": 4.9,
+   "reviews": 31,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−１０ 守矢ビル 4F",
+   "maps": "https://maps.google.com/?cid=722092659357538959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "IGNITE FITNESS 東新宿",
+   "rating": 5,
+   "reviews": 27,
+   "address": "日本、〒169-0072 東京都新宿区大久保２丁目２−１２ 802",
+   "maps": "https://maps.google.com/?cid=15475432517422533419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PRIMAL 新宿店",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目１８−４ 共新ビル 9階",
+   "maps": "https://maps.google.com/?cid=14594525941621926835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "1-LIFE-WAN PERSONAL GYM 新宿店",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒160-0022 東京都新宿区新宿５丁目１１−11番地23 KT新宿三番街Ⅰ 3階 C区画",
+   "maps": "https://maps.google.com/?cid=547910137124571465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "OUTLINE(アウトライン)新宿店",
+   "rating": 4.9,
+   "reviews": 22,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目２２−３１ 柏木MURA206",
+   "maps": "https://maps.google.com/?cid=15281685442448214122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UP DOWN 新宿",
+   "rating": 4.9,
+   "reviews": 20,
+   "address": "日本、〒151-0053 東京都渋谷区代々木２丁目１５−１２ 303",
+   "maps": "https://maps.google.com/?cid=14052439389930661002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "姿勢改善パーソナルジム＆ピラティスUs Flow西新宿店",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒160-0023 東京都新宿区西新宿６丁目１２−１６ 天空MURA",
+   "maps": "https://maps.google.com/?cid=10153581721167887466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "かたぎり塾 西新宿女性専門店",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒160-0023 東京都新宿区⻄新宿８丁目１４−１９ 小林第二ビル 5F",
+   "maps": "https://maps.google.com/?cid=3912246352470914017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO FACTOR",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目９−１５ ダイカンプラザビズネス清田ビル605",
+   "maps": "https://maps.google.com/?cid=11215199038172397324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO BAZOOKA（スタジオバズーカ）新宿店",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目１７−１０ 黒岩ビル 1F",
+   "maps": "https://maps.google.com/?cid=8095543652304324943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KAMADAGYM",
+   "rating": 4.6,
+   "reviews": 7,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目４−９ 中江ビル 501",
+   "maps": "https://maps.google.com/?cid=1265926673556879353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REBUFF 新宿店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１３−５ FUJICOPE 303",
+   "maps": "https://maps.google.com/?cid=17336184860076964881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Neon gym",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒169-0072 東京都新宿区大久保１丁目１２−２５ アイマンション B1F",
+   "maps": "https://maps.google.com/?cid=6344747169488614683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "男性専門パーソナルジムEZIL 新宿スタジオ",
+   "rating": 4.7,
+   "reviews": 6,
+   "address": "日本、〒160-0022 東京都新宿区新宿５丁目１０−１０ 23MYレジデンス新宿 1F",
+   "maps": "https://maps.google.com/?cid=4442593418333026323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KAYO'S FITNESS(カヨズフィットネス)",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒160-0021 東京都新宿区歌舞伎町１丁目２−３ 607号",
+   "maps": "https://maps.google.com/?cid=5784261502475533778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Training Gym Reborn(パーソナルトレーニングジム リボーン)新宿御苑店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒160-0022 東京都新宿区新宿１丁目３６−３ 新宿御苑136ビル 8階",
+   "maps": "https://maps.google.com/?cid=17553264140209238187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Feel Body",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒160-0022 東京都新宿区新宿１丁目１７−１１",
+   "maps": "https://maps.google.com/?cid=18221062731093269131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムYourGym東新宿ANNEX",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒162-0062 東京都新宿区市谷台町１６−２ 曙ビル B1",
+   "maps": "https://maps.google.com/?cid=754792150031377419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム BUZZ-ReVo（バズレボ） 新宿",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１６−４ Concierge 高橋 B1",
+   "maps": "https://maps.google.com/?cid=52786924868358484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
