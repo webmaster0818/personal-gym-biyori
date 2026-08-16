@@ -1,0 +1,471 @@
+{
+ "city": "shibuya",
+ "fetchedAt": "2026-08-16",
+ "query": "パーソナルジム 渋谷",
+ "gyms": [
+  {
+   "name": "GYMS（ジムズ） 渋谷店",
+   "rating": 4.6,
+   "reviews": 467,
+   "address": "日本、〒150-0042 東京都渋谷区宇田川町３４−３ 5階",
+   "maps": "https://maps.google.com/?cid=14540374694240524971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BBBパーソナルジム恵比寿店",
+   "rating": 4.9,
+   "reviews": 306,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿２丁目１６−６ REXIED恵比寿 501",
+   "maps": "https://maps.google.com/?cid=17363233382055857426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 渋谷宮益坂店",
+   "rating": 5,
+   "reviews": 295,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷２丁目１０−９ B1F",
+   "maps": "https://maps.google.com/?cid=8568892783634316118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HABIT PERSONAL GYM(ハビット パーソナル ジム)恵比寿本店",
+   "rating": 4.9,
+   "reviews": 283,
+   "address": "日本、〒150-0021 東京都渋谷区恵比寿西１丁目３２−１４ 2F",
+   "maps": "https://maps.google.com/?cid=13110809310326174940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ASPI渋谷店",
+   "rating": 5,
+   "reviews": 267,
+   "address": "日本、〒150-0041 東京都渋谷区神南１丁目２０−１０ 神南興業ビル 6F",
+   "maps": "https://maps.google.com/?cid=5104636129724916456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "バディトレ 恵比寿店",
+   "rating": 4.9,
+   "reviews": 244,
+   "address": "日本、〒150-0012 東京都渋谷区広尾５丁目１−４３ 402号室 ZERO",
+   "maps": "https://maps.google.com/?cid=2645564277388506637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BBB渋谷神宮前店",
+   "rating": 4.9,
+   "reviews": 217,
+   "address": "日本、〒150-0001 東京都渋谷区神宮前５丁目３０−２ 502",
+   "maps": "https://maps.google.com/?cid=10084193096738002975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REDY'S GYM(レディーズジム) 渋谷店",
+   "rating": 4.8,
+   "reviews": 166,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂２丁目１６−８ ビジネスヴィップ渋谷道玄坂坂本ビル 1F",
+   "maps": "https://maps.google.com/?cid=12930341731969447226&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "渋谷 Leven",
+   "rating": 5,
+   "reviews": 152,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１５−３ 804",
+   "maps": "https://maps.google.com/?cid=2008376193456981185&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SPACE GYM 渋谷店",
+   "rating": 5,
+   "reviews": 148,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目１−１０ アイリーファーストプラザ 4F",
+   "maps": "https://maps.google.com/?cid=18302743362826959014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "eviGym 渋谷店",
+   "rating": 5,
+   "reviews": 148,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目１８−４ 渋谷3丁目ビル 6階",
+   "maps": "https://maps.google.com/?cid=11673578244070023592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 渋谷店",
+   "rating": 4.2,
+   "reviews": 138,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町１−４ 渋谷サクラステージ ＳＨＩＢＵＹＡサイド ２Ｆ・３Ｆ",
+   "maps": "https://maps.google.com/?cid=8808903036920488519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "渋谷パーソナルジム ARISANFIT",
+   "rating": 5,
+   "reviews": 134,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１５−３ プリメーラ道玄坂 612号室",
+   "maps": "https://maps.google.com/?cid=8836282633702354506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KOMATORE 渋谷店",
+   "rating": 5,
+   "reviews": 108,
+   "address": "桑野ビル 2F, ６丁目-２３-4 神宮前 渋谷区 東京都 150-0001 日本",
+   "maps": "https://maps.google.com/?cid=16849463335780800227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Rife gym渋谷店",
+   "rating": 5,
+   "reviews": 107,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目２２−１ グラフィオ渋谷 102",
+   "maps": "https://maps.google.com/?cid=16280381700531385271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "精神と時のジム 渋谷店",
+   "rating": 4.9,
+   "reviews": 107,
+   "address": "日本、〒150-0001 東京都渋谷区神宮前５丁目２９−９ ６０２号室",
+   "maps": "https://maps.google.com/?cid=9525720487071791650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PlusOne",
+   "rating": 5,
+   "reviews": 106,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷２丁目５−１ ステップ青山 4F",
+   "maps": "https://maps.google.com/?cid=997971228359367356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Dr.トレーニング 渋谷店",
+   "rating": 5,
+   "reviews": 99,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目２６−１７ Vort渋谷 1F",
+   "maps": "https://maps.google.com/?cid=5535586275456327184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GOG 渋谷本店",
+   "rating": 5,
+   "reviews": 95,
+   "address": "日本、〒150-0001 東京都渋谷区神宮前６丁目１９−１５ 4階",
+   "maps": "https://maps.google.com/?cid=13166938604332134699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "voyage dailygoods & fitness",
+   "rating": 4.8,
+   "reviews": 92,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１−７ セントラル渋谷２４６ 201",
+   "maps": "https://maps.google.com/?cid=6936301879143813550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "経営者向けトレーニングジム BOSS",
+   "rating": 5,
+   "reviews": 82,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１６−６ 二葉ビル 4階-C",
+   "maps": "https://maps.google.com/?cid=17831681178983155670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GASY渋谷店",
+   "rating": 5,
+   "reviews": 80,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂２丁目９−１０ 松本ビル 5階B室",
+   "maps": "https://maps.google.com/?cid=17823504855512822686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 渋谷",
+   "rating": 4.9,
+   "reviews": 79,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目８−７ ４F A室",
+   "maps": "https://maps.google.com/?cid=12636536888473433440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HABIT PERSONAL GYM渋谷松濤店",
+   "rating": 5,
+   "reviews": 79,
+   "address": "日本、〒150-0042 東京都渋谷区宇田川町３７−１５ ARISTO渋谷 3F",
+   "maps": "https://maps.google.com/?cid=10450728306081550377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トータル・ワークアウト",
+   "rating": 4.2,
+   "reviews": 78,
+   "address": "日本、〒150-0044 東京都渋谷区円山町３−６ E・スペースタワ 3F",
+   "maps": "https://maps.google.com/?cid=9924126165451422496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "01ノルエット渋谷店",
+   "rating": 4.9,
+   "reviews": 73,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町１３−１ カーサチェリービル 202",
+   "maps": "https://maps.google.com/?cid=15102519079588294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24hジムE-LIFE GYM 渋谷",
+   "rating": 4.9,
+   "reviews": 66,
+   "address": "日本、〒150-0011 東京都渋谷区東１丁目２８−７ エスト渋谷 1F B1F",
+   "maps": "https://maps.google.com/?cid=4014256197046619553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムRAISE 渋谷・神泉",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒150-0044 東京都渋谷区円山町５−４",
+   "maps": "https://maps.google.com/?cid=4258121832488443204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 渋谷・南青山店",
+   "rating": 4.9,
+   "reviews": 63,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷２丁目６−１２ 1F",
+   "maps": "https://maps.google.com/?cid=12332784101353307807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "タニフィット渋谷店",
+   "rating": 5,
+   "reviews": 61,
+   "address": "日本、〒150-0011 東京都渋谷区東１丁目２６−３１ 大島ビル 2階",
+   "maps": "https://maps.google.com/?cid=16104797786929842278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B-side GYM 渋谷BASE",
+   "rating": 5,
+   "reviews": 61,
+   "address": "日本、〒150-0032 東京都渋谷区鶯谷町７−１２ GranDuo渋谷Bldg 3階",
+   "maps": "https://maps.google.com/?cid=7856595934532336299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO KOMPAS 渋谷店",
+   "rating": 5,
+   "reviews": 60,
+   "address": "日本、〒150-0036 東京都渋谷区南平台町１３−１１ 南平台WEST 地下 102",
+   "maps": "https://maps.google.com/?cid=655944482386484552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【肌管理 × ピラティス × 痩身エステ】INFINITE GYM《女性専門ボディメイクサロン》",
+   "rating": 4.8,
+   "reviews": 56,
+   "address": "日本、〒150-0041 東京都渋谷区神南１丁目１２−１８ メゾン渋谷 ６階 ６０２号室",
+   "maps": "https://maps.google.com/?cid=4435740781526200195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MIYAZAKI GYM渋谷店",
+   "rating": 4.8,
+   "reviews": 52,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１−１０ ニューハイツ青山 1003",
+   "maps": "https://maps.google.com/?cid=12801641886245914927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "姿勢改善専門grlowパーソナルジム｜渋谷",
+   "rating": 4.9,
+   "reviews": 45,
+   "address": "日本、〒150-0032 東京都渋谷区鶯谷町５−６ 渋谷鶯谷 武田ビル B1F",
+   "maps": "https://maps.google.com/?cid=12901454736775908802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Be line渋谷｜O脚・姿勢改善パーソナルジム",
+   "rating": 5,
+   "reviews": 45,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町１３−４ アロマ桜丘 205",
+   "maps": "https://maps.google.com/?cid=9680411145161248631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ティーバランス渋谷駅前店",
+   "rating": 4.9,
+   "reviews": 43,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町２０−１１ チェリーヒル ３０１",
+   "maps": "https://maps.google.com/?cid=12418484462052072156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UNFIX 渋谷",
+   "rating": 4.9,
+   "reviews": 42,
+   "address": "日本、〒150-0032 東京都渋谷区鶯谷町３−１ ＳＵビル 403",
+   "maps": "https://maps.google.com/?cid=15807898310244319956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SHIBUYA Private GYM FIT",
+   "rating": 5,
+   "reviews": 41,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１０−７ グローリア宮益坂III 南館1001号室",
+   "maps": "https://maps.google.com/?cid=4042809573468138083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Y's Fit(ワイズ フィット)",
+   "rating": 5,
+   "reviews": 40,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１−１ AmanEsk青山 1階",
+   "maps": "https://maps.google.com/?cid=875321744442867742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナル・パーソナルジム Recover Gym (リカバージム) 神泉駅・渋谷店 |体づくり筋トレ/パーソナルトレーニング",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒150-0036 東京都渋谷区南平台町２−６ 南平台ヒルス 2階 パーソナルトレーニング・筋トレ体づくりトレーニング",
+   "maps": "https://maps.google.com/?cid=9738969952549913422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BY-FIT",
+   "rating": 4.9,
+   "reviews": 34,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目８−１３ GSハイム宮益坂 9階 901号室",
+   "maps": "https://maps.google.com/?cid=10876457654498706516&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THEZEN MOBILITY 30 渋谷店",
+   "rating": 5,
+   "reviews": 31,
+   "address": "日本、〒150-0041 東京都渋谷区神南１丁目２０−４ Vort渋谷 Briller 4F",
+   "maps": "https://maps.google.com/?cid=2037812143493015468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FLEXGYM渋谷店【フレックスジム】",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒150-0032 東京都渋谷区鶯谷町７−１２ GranDuo渋谷 ５F",
+   "maps": "https://maps.google.com/?cid=6229152410902005154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL GYM BASIS 渋谷店",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒150-0046 東京都渋谷区松濤１丁目２９−２４ シティコート松濤 ２０３",
+   "maps": "https://maps.google.com/?cid=9650754506802796362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Shibuya Fitness Sharez",
+   "rating": 4.5,
+   "reviews": 24,
+   "address": "日本、〒150-0046 東京都渋谷区松濤１丁目２９−１５",
+   "maps": "https://maps.google.com/?cid=13606413084161143030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "グローバルフィットネス",
+   "rating": 4.9,
+   "reviews": 24,
+   "address": "日本、〒150-0046 東京都渋谷区松濤１丁目２８−６ VORT渋谷松濤RESIDENCE 201",
+   "maps": "https://maps.google.com/?cid=2408053961794711022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ELEMENT 渋谷店（エレメント）",
+   "rating": 4.9,
+   "reviews": 23,
+   "address": "日本、〒150-0042 東京都渋谷区宇田川町１６−４ TIP. X TOKYO渋谷店内",
+   "maps": "https://maps.google.com/?cid=17694139881894931912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DriSe",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒154-0041 東京都渋谷区神南１丁目２０−４ Vort渋谷 Briller 4F",
+   "maps": "https://maps.google.com/?cid=3757714744804322429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MAREGYM青山",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷２丁目９−１０ キングビル 4階",
+   "maps": "https://maps.google.com/?cid=11482972442363329761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIERTE 24時間ジム",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１５−３ 1F 112号",
+   "maps": "https://maps.google.com/?cid=9888751866831295336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSON 渋谷店",
+   "rating": 4.8,
+   "reviews": 16,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１２−１２ 4F",
+   "maps": "https://maps.google.com/?cid=12499543390916038281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KNOWELL 渋谷店",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町３０−４ 渋谷アジアマンション 203号室 JP 1500043",
+   "maps": "https://maps.google.com/?cid=242030635673734016&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セラス",
+   "rating": 4.8,
+   "reviews": 13,
+   "address": "日本、〒150-0042 東京都渋谷区宇田川町２−２ 1⁻1110",
+   "maps": "https://maps.google.com/?cid=16670715826705609205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REGAS GYM渋谷",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町１３−９ 305号室",
+   "maps": "https://maps.google.com/?cid=17871938193788898907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Season Fit｜シーズンフィット渋谷店",
+   "rating": 4.9,
+   "reviews": 10,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町９−１６ 幸ビル 501",
+   "maps": "https://maps.google.com/?cid=11236205068540613028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Wisdom Personal Gym",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒150-0041 東京都渋谷区神南１丁目１３−４ １－C",
+   "maps": "https://maps.google.com/?cid=7638800340708669734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSON 渋谷宮益坂店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目８−１３ ＧＳハイム宮益坂 901",
+   "maps": "https://maps.google.com/?cid=7362734517940446101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "city": "ikebukuro",
+ "fetchedAt": "2026-08-16",
+ "query": "パーソナルジム 池袋",
+ "gyms": [
+  {
+   "name": "PEAK'S GYM（ピークジム）池袋店",
+   "rating": 4.9,
+   "reviews": 518,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目６５−６ 慶愛ビル ３０１",
+   "maps": "https://maps.google.com/?cid=9828497352605259485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【女性専用パーソナルジム】GYMS（ジムズ） 池袋東口店",
+   "rating": 4.5,
+   "reviews": 445,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１６−８ 5階",
+   "maps": "https://maps.google.com/?cid=2846067697961992304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム ASPI池袋店",
+   "rating": 5,
+   "reviews": 444,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１３−１７ MASHITA5 ビル 6F",
+   "maps": "https://maps.google.com/?cid=10134964601993714910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧 & パーソナルトレーニング ジム Oz 池袋店",
+   "rating": 4.8,
+   "reviews": 292,
+   "address": "日本、〒171-0021 東京都豊島区西池袋１丁目３８−５ セイコービル 2007 4F",
+   "maps": "https://maps.google.com/?cid=18180072754801491558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 池袋店",
+   "rating": 4.6,
+   "reviews": 248,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３９−４ the b 池袋 B１F",
+   "maps": "https://maps.google.com/?cid=11528797030321336731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 池袋店",
+   "rating": 5,
+   "reviews": 242,
+   "address": "日本、〒170-0013 東京都豊島区東池袋４丁目８−８ 東池袋パークビル 1F",
+   "maps": "https://maps.google.com/?cid=6726699655741174866&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Dr.トレーニング 池袋店",
+   "rating": 5,
+   "reviews": 217,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目４０−１０ 東池Kビル 2F",
+   "maps": "https://maps.google.com/?cid=1530681216065469528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "チキンジム 池袋店",
+   "rating": 4.6,
+   "reviews": 191,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目２１−１３ Aune池袋 11F",
+   "maps": "https://maps.google.com/?cid=417384944018246020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYMS 西口店",
+   "rating": 4.7,
+   "reviews": 146,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目７−５ ソラーレ ７階",
+   "maps": "https://maps.google.com/?cid=4049375695346405064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エクササイズコーチ池袋東口店",
+   "rating": 4.7,
+   "reviews": 141,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１３−１０ ISP第3ビル 3階",
+   "maps": "https://maps.google.com/?cid=18288583116688205626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ティーバランス 池袋西口店 パーソナルジム",
+   "rating": 4.6,
+   "reviews": 140,
+   "address": "日本、〒170-0014 東京都豊島区池袋２丁目３８−１２ ウエストコート２１ 302",
+   "maps": "https://maps.google.com/?cid=16065833920202645164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 池袋",
+   "rating": 4.7,
+   "reviews": 139,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目２１−１ 4階",
+   "maps": "https://maps.google.com/?cid=3549334822699468555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LiB 池袋立教通り店｜整体・パーソナルトレーニング",
+   "rating": 4.9,
+   "reviews": 131,
+   "address": "日本、〒171-0021 東京都豊島区西池袋５丁目２１−６ セントポール １０１",
+   "maps": "https://maps.google.com/?cid=2692332937555791227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SFIDA Fitness&Relax",
+   "rating": 5,
+   "reviews": 112,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目４２−９ 中川ビル B1",
+   "maps": "https://maps.google.com/?cid=18415165950562613782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Lastyle(ラスタイル)",
+   "rating": 5,
+   "reviews": 111,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目２３−１３ 第一岡村ビル 2階・地下1階",
+   "maps": "https://maps.google.com/?cid=14598129226946167642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "YUZU 池袋店｜パーソナルマシンピラティス",
+   "rating": 4.9,
+   "reviews": 105,
+   "address": "日本、〒171-0021 東京都豊島区西池袋３丁目３０−１１ 610",
+   "maps": "https://maps.google.com/?cid=6267041888498500048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MIYAZAKI GYM池袋店",
+   "rating": 4.9,
+   "reviews": 101,
+   "address": "日本、〒171-0022 東京都豊島区南池袋１丁目１２−７ ＭＩビル 5階",
+   "maps": "https://maps.google.com/?cid=17371967171814825996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Woot! 池袋",
+   "rating": 4.9,
+   "reviews": 92,
+   "address": "日本、〒171-0021 東京都豊島区西池袋５丁目２−１１ 春谷ビル 4F",
+   "maps": "https://maps.google.com/?cid=9111309454055485071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エクササイズコーチ池袋西口店",
+   "rating": 4.7,
+   "reviews": 88,
+   "address": "日本、〒171-0021 東京都豊島区西池袋１丁目３８−５ セイコービル 7階",
+   "maps": "https://maps.google.com/?cid=8010779275825026385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Apple GYM（アップルジム）池袋店",
+   "rating": 4.9,
+   "reviews": 84,
+   "address": "日本、〒171-0021 東京都豊島区西池袋３丁目３０−１０ ライオンビル 204号室",
+   "maps": "https://maps.google.com/?cid=5170610079776292586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リボーンマイセルフ池袋店",
+   "rating": 4.8,
+   "reviews": 78,
+   "address": "日本、〒171-0021 東京都豊島区西池袋３丁目２５−１１ CIC IKEBUKURO BUIL4F",
+   "maps": "https://maps.google.com/?cid=6843848607484536173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビーコンセプト池袋店",
+   "rating": 4.9,
+   "reviews": 75,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目５１−１６ 701",
+   "maps": "https://maps.google.com/?cid=5489630864622401102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【女性専用パーソナルジム】INFINITE GYM(インフィニットジム)：池袋店",
+   "rating": 4.7,
+   "reviews": 60,
+   "address": "日本、〒171-0022 東京都豊島区南池袋２丁目５−４ １階",
+   "maps": "https://maps.google.com/?cid=14153848627770024846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "オタクジムCLALABO池袋Cスタジオ",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒171-0022 東京都豊島区南池袋２丁目９−５ 第3野萩ビル 5階",
+   "maps": "https://maps.google.com/?cid=6105525822524369542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムBDS 池袋",
+   "rating": 5,
+   "reviews": 55,
+   "address": "日本、〒171-0021 東京都豊島区西池袋５丁目４−８ 河野ビル 7F",
+   "maps": "https://maps.google.com/?cid=4669946218882216163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "クロスフィット池袋",
+   "rating": 4.9,
+   "reviews": 54,
+   "address": "日本、〒171-0014 東京都豊島区池袋３丁目６０−４",
+   "maps": "https://maps.google.com/?cid=13708518963790166574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Dr.ピラティス 池袋店",
+   "rating": 5,
+   "reviews": 49,
+   "address": "日本、〒171-0021 東京都豊島区西池袋１丁目２２−２ ナカヤビル 5階",
+   "maps": "https://maps.google.com/?cid=12457100250360655279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 池袋店",
+   "rating": 4.6,
+   "reviews": 47,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目１０−７ ビルディング K3F",
+   "maps": "https://maps.google.com/?cid=2089203055599050216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 池袋東口店",
+   "rating": 4.6,
+   "reviews": 40,
+   "address": "日本、〒170-0013 東京都豊島区東池袋４丁目２９−１２ サンフラット佐藤 2F",
+   "maps": "https://maps.google.com/?cid=14182144733961627107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "池袋パーソナルジム ARISANFIT",
+   "rating": 5,
+   "reviews": 38,
+   "address": "日本、〒170-0011 東京都豊島区池袋本町１丁目３８−１１ カーサコモド 1階",
+   "maps": "https://maps.google.com/?cid=12231007823260344541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "デザイン 池袋大塚店",
+   "rating": 5,
+   "reviews": 34,
+   "address": "日本、〒170-0000 東京都豊島区東池袋２丁目７−４ 東池袋ビル 3階 K B",
+   "maps": "https://maps.google.com/?cid=5900614165424697682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Best Gym (ベストジム）池袋西口 パーソナルジム",
+   "rating": 4.9,
+   "reviews": 27,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目７１−３ ベルスパッツィオ池袋ビル B1F",
+   "maps": "https://maps.google.com/?cid=12093937730394775251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 池袋店",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒171-0021 東京都豊島区西池袋１丁目１８−１ 五光ビル 3F",
+   "maps": "https://maps.google.com/?cid=8041891142200901144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BSBパーソナルジム 上池袋",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒170-0012 東京都豊島区上池袋１丁目３５−６ ヨウコースクウェア上池袋 B1",
+   "maps": "https://maps.google.com/?cid=16536513327230488612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REAL WORKOUT 池袋店 | リアルワークアウト",
+   "rating": 4.7,
+   "reviews": 22,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目９−５ サトミビル B1F",
+   "maps": "https://maps.google.com/?cid=16912417964374657733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "One's Gym 池袋店",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目２３−２ ビルｄｅシャンテ 3F",
+   "maps": "https://maps.google.com/?cid=16005423756403545533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BELUE（ベルエ）池袋店",
+   "rating": 4.9,
+   "reviews": 20,
+   "address": "日本、〒171-0022 東京都豊島区南池袋１丁目２５−９ 今井ビル 4階",
+   "maps": "https://maps.google.com/?cid=10131634482542053085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルマシンピラティスSAKURA池袋店",
+   "rating": 4.9,
+   "reviews": 18,
+   "address": "日本、〒171-0022 東京都豊島区南池袋１丁目１１−１３ リフュージュ・Ｉ サウス 301",
+   "maps": "https://maps.google.com/?cid=7674592692613627861&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "池袋 パーソナルジム エストレージャ",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒171-0021 東京都豊島区西池袋２丁目３１−１７ beatitude",
+   "maps": "https://maps.google.com/?cid=8639541243156847579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PriGym",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒170-0013 東京都豊島区東池袋３丁目２−５ 701号室",
+   "maps": "https://maps.google.com/?cid=6434729641545744424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "OUTLINE(アウトライン)池袋店",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒171-0021 東京都豊島区西池袋３丁目４−３ エクセレンス西池袋 101",
+   "maps": "https://maps.google.com/?cid=16934768667929765119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "グッドライフジム 池袋東口店 GOODLIFE GYM 東池袋・雑司が谷",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１８−４４ プレイスリボン 102",
+   "maps": "https://maps.google.com/?cid=11970548399474893899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private box",
+   "rating": 4.8,
+   "reviews": 12,
+   "address": "日本、〒171-0022 東京都豊島区南池袋１丁目２０−１ 8F-A",
+   "maps": "https://maps.google.com/?cid=3659410053927664576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 池袋ANNEX店",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒170-0013 東京都豊島区東池袋４丁目３−３ 東池袋ビル 6F",
+   "maps": "https://maps.google.com/?cid=9627450697781490236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "レンタルジム BODY R GYM 池袋店(3部屋)",
+   "rating": 3.1,
+   "reviews": 8,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目４０−１３ VORT池袋Ⅰ B1F",
+   "maps": "https://maps.google.com/?cid=11933442657430648971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 要町店",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒171-0021 東京都豊島区西池袋５丁目２６−１１ ジョイフル西池袋",
+   "maps": "https://maps.google.com/?cid=15500482511019750494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム A TERRACE 池袋東口駅前店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３−７ 東亜ビル ５階",
+   "maps": "https://maps.google.com/?cid=5358256328202006161&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムYours.池袋店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒171-0014 東京都豊島区池袋４丁目２−１２ 第３末好ビル 202号室",
+   "maps": "https://maps.google.com/?cid=13103945807217714433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Box Fit 池袋",
+   "rating": 3,
+   "reviews": 6,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目１０−１０ ７ ビルディング K３F",
+   "maps": "https://maps.google.com/?cid=5107671401460317025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス＆ジム1to1 池袋店",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目５１−１６ 702",
+   "maps": "https://maps.google.com/?cid=6841474733380935998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "arrows",
+   "rating": 4.2,
+   "reviews": 5,
+   "address": "日本、〒171-0021 東京都豊島区西池袋１丁目４−５ 505",
+   "maps": "https://maps.google.com/?cid=10743428739113411160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムサスティナ 池袋店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒171-0022 東京都豊島区南池袋２丁目８−２ 玉井ビル 2階",
+   "maps": "https://maps.google.com/?cid=17304138262076869583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムHELPFit 池袋店（ミライトジム池袋）",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目５１−８ 402",
+   "maps": "https://maps.google.com/?cid=7222282193085519150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス×パーソナルジムvenus池袋店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１６−４ アートハイム南池袋 102",
+   "maps": "https://maps.google.com/?cid=5505123281496042095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムからだtrainersオフィス池袋東口店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒171-0022 東京都豊島区南池袋３丁目１３−９ 311号",
+   "maps": "https://maps.google.com/?cid=5631019739661671546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SKY GYM",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目１３−８ 光陽ビル B1",
+   "maps": "https://maps.google.com/?cid=1406772026944104265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
