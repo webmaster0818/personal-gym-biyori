@@ -182,6 +182,10 @@ export default function FukuokaAreaPage() {
 
         <AreaGymList area="fukuoka" areaName="福岡" />
 
+        <p className="mb-8 text-sm">
+          <Link href="/db/fukuoka/" className="underline text-teal-700 font-medium">→ 福岡のパーソナルジム全データベース(60店・Gマップ実測)を見る</Link>
+        </p>
+
         <section>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">

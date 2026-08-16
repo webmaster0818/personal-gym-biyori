@@ -1,0 +1,487 @@
+{
+ "city": "osaka",
+ "fetchedAt": "2026-08-16",
+ "query": "パーソナルジム 大阪",
+ "gyms": [
+  {
+   "name": "SPACE GYM 心斎橋店",
+   "rating": 4.9,
+   "reviews": 563,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場４丁目１２−８ 関西心斎橋ビル 802",
+   "maps": "https://maps.google.com/?cid=162689634807380211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムEDGE新町店",
+   "rating": 4.6,
+   "reviews": 554,
+   "address": "日本、〒550-0013 大阪府大阪市西区新町２丁目１１−１３ ビルネット新町ビル ２F",
+   "maps": "https://maps.google.com/?cid=17250143492565662492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SPACE GYM 梅田店",
+   "rating": 5,
+   "reviews": 371,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目３−２ 梅新スクエア 602号室",
+   "maps": "https://maps.google.com/?cid=17310690984470793414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEO TRAINING GYM 本町",
+   "rating": 4.9,
+   "reviews": 236,
+   "address": "日本、〒541-0056 大阪府大阪市中央区久太郎町２丁目３−１５ 2F",
+   "maps": "https://maps.google.com/?cid=2809953558648294744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND梅田店",
+   "rating": 4.9,
+   "reviews": 225,
+   "address": "日本、〒530-0002 大阪府大阪市北区曾根崎新地２丁目１−２１ 801室",
+   "maps": "https://maps.google.com/?cid=6953172035057180701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【通い放題】キックボクシング&パーソナルジムFirst松屋町店",
+   "rating": 5,
+   "reviews": 219,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場１丁目３−９ tabiyado bldg 10階",
+   "maps": "https://maps.google.com/?cid=16365119933233154155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 心斎橋店",
+   "rating": 4.9,
+   "reviews": 217,
+   "address": "日本、〒550-0014 大阪府大阪市西区北堀江１丁目５−８ StoRK北堀江 2階",
+   "maps": "https://maps.google.com/?cid=16734046565188461532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムRat心斎橋店",
+   "rating": 4.9,
+   "reviews": 215,
+   "address": "日本、〒542-0083 大阪府大阪市中央区東心斎橋１丁目１０−１ 401",
+   "maps": "https://maps.google.com/?cid=5481253811859844190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "駅前筋肉留学GO 北堀江店",
+   "rating": 4.9,
+   "reviews": 194,
+   "address": "日本、〒550-0014 大阪府大阪市西区北堀江２丁目４−１４ ミッドスクエア堀江 2F",
+   "maps": "https://maps.google.com/?cid=1706885984496160284&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "private gym SOURIRE 大阪福島店",
+   "rating": 5,
+   "reviews": 182,
+   "address": "日本、〒553-0003 大阪府大阪市福島区福島８丁目８−３ 704 ランドマーク福島",
+   "maps": "https://maps.google.com/?cid=2626379287904257457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジムLAULE'A50Fitness 肥後橋店",
+   "rating": 5,
+   "reviews": 181,
+   "address": "日本、〒550-0003 大阪府大阪市西区京町堀１丁目１０−１８ 大榮ビル東館 ３階A室",
+   "maps": "https://maps.google.com/?cid=15168096897518313582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムRat梅田店",
+   "rating": 4.9,
+   "reviews": 168,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目５−１２ 303号室",
+   "maps": "https://maps.google.com/?cid=13579981715106475875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジムLAULE'A50Fitness 本町店",
+   "rating": 5,
+   "reviews": 154,
+   "address": "日本、〒541-0054 大阪府大阪市中央区南本町３丁目３−１７ 丸松ビル 5階",
+   "maps": "https://maps.google.com/?cid=9505620282938355869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM梅田店",
+   "rating": 5,
+   "reviews": 154,
+   "address": "日本、〒531-0075 大阪府大阪市北区大淀南１丁目３−１４ 中島ビル旧館 4階",
+   "maps": "https://maps.google.com/?cid=12726715919126681217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 梅田",
+   "rating": 4.7,
+   "reviews": 149,
+   "address": "日本、〒530-0013 大阪府大阪市北区茶屋町４−４ 茶屋町ガーデンビル 2F",
+   "maps": "https://maps.google.com/?cid=12006113288719817048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム Styledge【スタイレッジ】",
+   "rating": 5,
+   "reviews": 133,
+   "address": "日本、〒550-0003 大阪府大阪市西区京町堀３丁目３−１３ ＴＡＮＩＭＯＴＯ ＢＬＤＧ 5階",
+   "maps": "https://maps.google.com/?cid=6168584235243441146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "VICXY -osaka-",
+   "rating": 4.9,
+   "reviews": 122,
+   "address": "日本、〒541-0053 大阪府大阪市中央区本町４丁目４−２７ 細井ビル 3F",
+   "maps": "https://maps.google.com/?cid=3637081775760523909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジムLAULE'A50Fitness 天満橋店",
+   "rating": 5,
+   "reviews": 118,
+   "address": "日本、〒540-0008 大阪府大阪市中央区大手前１丁目４−２ 都住創大手前 1階",
+   "maps": "https://maps.google.com/?cid=4603706582756385786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム ENVY 堀江店",
+   "rating": 5,
+   "reviews": 116,
+   "address": "日本、〒550-0015 大阪府大阪市西区西区南堀江１丁目７−３ Gic Bldg 2F",
+   "maps": "https://maps.google.com/?cid=9896256837321836728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 心斎橋",
+   "rating": 4.9,
+   "reviews": 114,
+   "address": "日本、〒550-0014 大阪府大阪市西区北堀江１丁目５−８ STORK4階",
+   "maps": "https://maps.google.com/?cid=5542991641859802539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムSTAGE",
+   "rating": 4.9,
+   "reviews": 114,
+   "address": "日本、〒530-0041 大阪府大阪市北区天神橋４丁目８−２２ メゾン杉本 201",
+   "maps": "https://maps.google.com/?cid=12575358450431389676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナル・爆尻ジム",
+   "rating": 5,
+   "reviews": 109,
+   "address": "日本、〒534-0024 大阪府大阪市都島区東野田町１丁目１７−２７ Groove桜ノ宮 404",
+   "maps": "https://maps.google.com/?cid=3257242608908123543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムReborn（リボーン）大阪福島店",
+   "rating": 5,
+   "reviews": 108,
+   "address": "日本、〒553-0002 大阪府大阪市福島区鷺洲２丁目３−１２ 2F",
+   "maps": "https://maps.google.com/?cid=5601339392142330394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム&ピラティス LAIT GYM（ライトジム）梅田店",
+   "rating": 4.9,
+   "reviews": 107,
+   "address": "日本、〒531-0072 大阪府大阪市北区豊崎５丁目７−２１ おおきに豊崎西公園ビル ４F",
+   "maps": "https://maps.google.com/?cid=11518446900593417306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジムLAULE'A50Fitness 阿波座店",
+   "rating": 4.9,
+   "reviews": 94,
+   "address": "日本、〒550-0012 大阪府大阪市西区立売堀４丁目６−２０ 戎阿波座ビル201",
+   "maps": "https://maps.google.com/?cid=13578432747393810973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【通い放題】キックボクシング&パーソナルジムFirst肥後橋店",
+   "rating": 4.9,
+   "reviews": 94,
+   "address": "日本、〒550-0002 大阪府大阪市西区江戸堀１丁目９−１４ NEXAS HIGOBASHI 3階",
+   "maps": "https://maps.google.com/?cid=7837630283211358620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "O2GYM梅田店",
+   "rating": 4.6,
+   "reviews": 89,
+   "address": "日本、〒530-0051 大阪府大阪市北区太融寺町５丁目５−１３ 東梅田パークビル 7F",
+   "maps": "https://maps.google.com/?cid=14804455388385986435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HABIT PERSONAL GYM(ハビット パーソナル ジム)大阪梅田店",
+   "rating": 5,
+   "reviews": 88,
+   "address": "日本、〒530-0015 大阪府大阪市北区中崎西１丁目１−２ Solea nakazaki2階",
+   "maps": "https://maps.google.com/?cid=163605583611731008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Dr.トレーニング梅田店",
+   "rating": 5,
+   "reviews": 83,
+   "address": "日本、〒530-0013 大阪府大阪市北区茶屋町４−２ エスプライム茶屋町 1F S1",
+   "maps": "https://maps.google.com/?cid=17275173958446043507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム RIF",
+   "rating": 5,
+   "reviews": 80,
+   "address": "日本、〒550-0002 大阪府大阪市西区江戸堀３丁目１−２０ ＬＯＩＳ ＧＲＡＮＤ靭公園 402",
+   "maps": "https://maps.google.com/?cid=420615911273741285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "fis.lady's天満橋",
+   "rating": 4.9,
+   "reviews": 76,
+   "address": "日本、〒540-0032 大阪府大阪市中央区天満橋京町2−15−８ 階-A",
+   "maps": "https://maps.google.com/?cid=7982535707511878744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムElevenPlus/南森町店",
+   "rating": 4.9,
+   "reviews": 72,
+   "address": "日本、〒530-0047 大阪府大阪市北区西天満５丁目１１−４ ふじビル 205号室",
+   "maps": "https://maps.google.com/?cid=8284633874070142255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング×ピラティス QOOL bodymake gym心斎橋【クール】",
+   "rating": 5,
+   "reviews": 69,
+   "address": "日本、〒542-0081 大阪府大阪市中央区中央区南船場４丁目１１−２６ Sepia心斎橋Bldg 8F パーソナルジム ピラティス エステ",
+   "maps": "https://maps.google.com/?cid=16535943234045756570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 梅田 ANNEX",
+   "rating": 5,
+   "reviews": 68,
+   "address": "日本、〒530-0003 大阪府大阪市北区堂島２丁目３−３ ＳＵＲＥ堂島 8階",
+   "maps": "https://maps.google.com/?cid=4107258574209036310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 江坂店",
+   "rating": 4.9,
+   "reviews": 66,
+   "address": "日本、〒564-0063 大阪府吹田市江坂町１丁目２３−３３ ６F",
+   "maps": "https://maps.google.com/?cid=15143230936669844712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダンディハウス パーソナルジム 梅田店",
+   "rating": 4.9,
+   "reviews": 63,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目２−１８ ミスパリシャトー 4F",
+   "maps": "https://maps.google.com/?cid=17972010411965893787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 大阪心斎橋店",
+   "rating": 4.7,
+   "reviews": 58,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場４丁目１４−１ 南船場BRICK404号室",
+   "maps": "https://maps.google.com/?cid=133825852625709666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 大阪上本町店",
+   "rating": 5,
+   "reviews": 56,
+   "address": "日本、〒543-0001 大阪府大阪市天王寺区上本町６丁目９−１９ ＦＬＡＴ３４上本町 ２０１",
+   "maps": "https://maps.google.com/?cid=11519953505256080955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルトレーニングジム Barbiee Fit 本町",
+   "rating": 5,
+   "reviews": 48,
+   "address": "日本、〒550-0011 大阪府大阪市西区阿波座１丁目９−２１ ACDC:1 ビル 3階 DE",
+   "maps": "https://maps.google.com/?cid=16684182665075818789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "都度払いパーソナルジム【FIT JAEMI 弁天町店】",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒552-0003 大阪府大阪市港区磯路３丁目８−２４ 藤和市岡ハイタウン 206",
+   "maps": "https://maps.google.com/?cid=3658498557372318793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GOAL ZERO",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒550-0002 大阪府大阪市西区江戸堀１丁目１６−２２ 2F",
+   "maps": "https://maps.google.com/?cid=213521724011530292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リボーンマイセルフ梅田店",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田１丁目１０−８ 山中ビル 2階",
+   "maps": "https://maps.google.com/?cid=13394798473255855558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CLARITY【通い放題パーソナルジム】",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒530-0051 大阪府大阪市北区太融寺町１−１０ 5階",
+   "maps": "https://maps.google.com/?cid=9518162360225470364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムPRIME京橋店",
+   "rating": 5,
+   "reviews": 40,
+   "address": "日本、〒534-0025 大阪府大阪市都島区片町２丁目６−９ ２F",
+   "maps": "https://maps.google.com/?cid=296846649552552596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MAINICHI GYM 極【大阪 新町店】",
+   "rating": 5,
+   "reviews": 37,
+   "address": "日本、〒550-0013 大阪府大阪市西区新町１丁目１４−３４ ダイアパレス四ッ橋第2 301号室",
+   "maps": "https://maps.google.com/?cid=6066622008535626706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "URUX（ウルス）プライベートジム",
+   "rating": 4.9,
+   "reviews": 35,
+   "address": "日本、〒540-0039 大阪府大阪市中央区東高麗橋２−２８ コジマビル ２階201号",
+   "maps": "https://maps.google.com/?cid=13161667804671439635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EMANN《エマン》梅田本店 パーソナルジム",
+   "rating": 4.9,
+   "reviews": 31,
+   "address": "日本、〒530-0047 大阪府大阪市北区西天満２丁目１０−１０ ACN西天満ビル 301",
+   "maps": "https://maps.google.com/?cid=16788829855423253631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム LIGHT FIT 肥後橋店",
+   "rating": 4.9,
+   "reviews": 29,
+   "address": "日本、〒550-0003 大阪府大阪市西区京町堀１丁目１７−６ 2階A",
+   "maps": "https://maps.google.com/?cid=207121533197616366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムFELIZー心斎橋店",
+   "rating": 4.9,
+   "reviews": 25,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場１丁目１８−１１ B1F",
+   "maps": "https://maps.google.com/?cid=9654933078660899440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムLISIGN新町本店",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒550-0013 大阪府大阪市西区新町２丁目１１−３ 井上新町ビル 1F",
+   "maps": "https://maps.google.com/?cid=9022987175286268358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム FUNDAY",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒540-0039 大阪府大阪市中央区東高麗橋２−番1号 ルート中之島ビル 304号",
+   "maps": "https://maps.google.com/?cid=9659333355563212531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B.E.Tパーソナルジム",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場４丁目１４−１ 南船場BRICK502号室",
+   "maps": "https://maps.google.com/?cid=13362067029875643050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Milla Gym【女性専用パーソナルジム】",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒530-0047 大阪府大阪市北区西天満５丁目１１−４ 藤ビル 301",
+   "maps": "https://maps.google.com/?cid=2293255966493226415&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "39JUST 福島タイ古式×パーソナルジム",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒553-0003 大阪府大阪市福島区福島５丁目１−５ 5F",
+   "maps": "https://maps.google.com/?cid=1180557932729066924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "男性専門パーソナルジムEZIL大阪本町スタジオ",
+   "rating": 4.9,
+   "reviews": 11,
+   "address": "日本、〒541-0048 大阪府大阪市中央区瓦町２丁目３−１５ Jun's 瓦町ビルディング B 01",
+   "maps": "https://maps.google.com/?cid=13027861388473056159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リバーサルジム大阪アン北浜店パーソナル＆マシンピラティス＆キックボクシングジム",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒541-0042 大阪府大阪市中央区今橋１丁目４−４ 8Y'sKitahama202",
+   "maps": "https://maps.google.com/?cid=16742566258520035478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジム「ボクノジム」大阪本町店",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒550-0005 大阪府大阪市西区西本町１丁目２−２ EPビル 4-5階",
+   "maps": "https://maps.google.com/?cid=1541550262034870673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大阪・本町女性専用パーソナルジム ViVRA fit",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒541-0051 大阪府大阪市中央区備後町３丁目４−８ フクエイビル ２０４",
+   "maps": "https://maps.google.com/?cid=8409658342124125944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専門パーソナルジムLIM梅田店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒530-0047 大阪府大阪市北区西天満４丁目１５−１８ プラザ梅新 1402",
+   "maps": "https://maps.google.com/?cid=15580205026405401864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "完全個室パーソナルジム ニューアイアム 堺筋本町店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒541-0054 大阪府大阪市中央区南本町１丁目５−７ ACN堺筋本町ビル 201",
+   "maps": "https://maps.google.com/?cid=5882696711521212268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
