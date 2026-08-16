@@ -1,0 +1,487 @@
+{
+ "city": "広島",
+ "fetchedAt": "2026-08-16",
+ "query": "パーソナルジム 広島",
+ "gyms": [
+  {
+   "name": "FIT PLACE24 広島吉島店",
+   "rating": 4.9,
+   "reviews": 396,
+   "address": "日本、〒730-0823 広島県広島市中区吉島西１丁目２４−３０ イエローハット吉島店 ４Ｆ",
+   "maps": "https://maps.google.com/?cid=8453772371730039322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND広島店",
+   "rating": 5,
+   "reviews": 271,
+   "address": "日本、〒730-0017 広島県広島市中区鉄砲町１０−１８ 3階",
+   "maps": "https://maps.google.com/?cid=15480333922272850010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "レモンジム",
+   "rating": 4.9,
+   "reviews": 253,
+   "address": "1F, ７-3 小町 中区 広島市 広島県 730-0041 日本",
+   "maps": "https://maps.google.com/?cid=5749335935456470403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トリム広島",
+   "rating": 4.9,
+   "reviews": 248,
+   "address": "日本、〒732-0814 広島県広島市南区段原南２丁目３−２８ AKビル ５F",
+   "maps": "https://maps.google.com/?cid=15469975901882842744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MUSE FIT 広島",
+   "rating": 4.9,
+   "reviews": 134,
+   "address": "日本、〒730-0036 広島県広島市中区袋町９−３ 並木ヒルズ 2階",
+   "maps": "https://maps.google.com/?cid=16057974957904325554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム ナンバーワン",
+   "rating": 5,
+   "reviews": 118,
+   "address": "日本、〒730-0805 広島県広島市中区十日市町２丁目５−１８ TR十日市ビル2階",
+   "maps": "https://maps.google.com/?cid=11733399510241141911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEXT BODY 広島LECT店 パーソナルダイエットジム",
+   "rating": 5,
+   "reviews": 102,
+   "address": "日本、〒733-0831 広島県広島市西区扇２丁目１−４５ 2階",
+   "maps": "https://maps.google.com/?cid=12906792160351212468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "AdvanStage 広島店",
+   "rating": 5,
+   "reviews": 101,
+   "address": "日本、〒730-0016 広島県広島市中区幟町６−２０ P/S BLDG 202",
+   "maps": "https://maps.google.com/?cid=2154197760714089238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UMPSY FIT（アンプシーフィット）住吉店",
+   "rating": 5,
+   "reviews": 100,
+   "address": "日本、〒730-0813 広島県広島市中区住吉町９−１１ 住吉町ビル９１１ 1階",
+   "maps": "https://maps.google.com/?cid=1171218800090502213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UMPSY FIT（アンプシーフィット）比治山店",
+   "rating": 4.9,
+   "reviews": 99,
+   "address": "日本、〒732-0817 広島県広島市南区比治山町３−１４ 103",
+   "maps": "https://maps.google.com/?cid=16477209108893879459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エクササイズコーチ広島店",
+   "rating": 4.9,
+   "reviews": 97,
+   "address": "日本、〒730-0031 広島県広島市中区紙屋町２丁目２−２ 紙屋町ビル 4階",
+   "maps": "https://maps.google.com/?cid=1503875289927189648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 広島",
+   "rating": 4.9,
+   "reviews": 96,
+   "address": "日本、〒730-0031 広島県広島市中区紙屋町２丁目３−４ 6階",
+   "maps": "https://maps.google.com/?cid=9079643869040825808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MUSE FIT 横川",
+   "rating": 4.9,
+   "reviews": 95,
+   "address": "日本、〒733-0011 広島県広島市西区横川町２丁目９−４ エクセル横川 1F",
+   "maps": "https://maps.google.com/?cid=8329678373359333956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Powerhouse Gym Hiroshima, Japan（パワーハウスジム広島ジャパン）",
+   "rating": 5,
+   "reviews": 88,
+   "address": "日本、〒730-0004 広島県広島市中区東白島町１１−２０ グラステック多田 1F",
+   "maps": "https://maps.google.com/?cid=15696628272701689758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングスタジオSCOPE（スコープ）",
+   "rating": 5,
+   "reviews": 88,
+   "address": "日本、〒730-0011 広島県広島市中区基町１２−８ 宝ビル3F 301",
+   "maps": "https://maps.google.com/?cid=14230385018447256481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYMS（ジムズ） 広島本通店",
+   "rating": 4.5,
+   "reviews": 88,
+   "address": "日本、〒730-0051 広島県広島市中区大手町２丁目１−４ 広島本通マークビル 7F",
+   "maps": "https://maps.google.com/?cid=14422278335803304021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BIPLUS BEAUTY 袋町店 (女性専用加圧パーソナルトレーニングジム)",
+   "rating": 4.9,
+   "reviews": 79,
+   "address": "日本、〒730-0036 広島県広島市中区袋町１−２１ 4F",
+   "maps": "https://maps.google.com/?cid=17762309260972146508&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM 広島本通り店",
+   "rating": 5,
+   "reviews": 78,
+   "address": "日本、〒730-0051 広島県広島市中区大手町１丁目５−１３ 清和大手町ビル 4階",
+   "maps": "https://maps.google.com/?cid=1439445977658553424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "くびれ美人広島本店",
+   "rating": 4.8,
+   "reviews": 72,
+   "address": "日本、〒730-0011 広島県広島市中区基町１１−５ 7階",
+   "maps": "https://maps.google.com/?cid=2526214387371747625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "cue9 パーソナルフィットネスジム",
+   "rating": 4.7,
+   "reviews": 65,
+   "address": "日本、〒730-0004 広島県広島市中区東白島町２１−１５ 木村ビル １F",
+   "maps": "https://maps.google.com/?cid=1190657803005894352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "広島トレーニングセンター",
+   "rating": 4.5,
+   "reviews": 65,
+   "address": "日本、〒730-0843 広島県広島市中区舟入本町１８−２４",
+   "maps": "https://maps.google.com/?cid=4718887220402249491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "広島パーソナルトレーニング専門 R-GYM Personal - 広島店",
+   "rating": 5,
+   "reviews": 62,
+   "address": "日本、〒730-0841 広島県広島市中区舟入町２−２０ 三栄広島ビル 2F",
+   "maps": "https://maps.google.com/?cid=8361586210224584215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRAINING GYM THREE",
+   "rating": 4.7,
+   "reviews": 62,
+   "address": "日本、〒730-0037 広島県広島市中区中町５−４ Eight Valley Nakamachi 1階",
+   "maps": "https://maps.google.com/?cid=13751670534385695005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムgift 広島",
+   "rating": 5,
+   "reviews": 61,
+   "address": "日本、〒730-0015 広島県広島市中区橋本町２−２ 10Kビル 2階",
+   "maps": "https://maps.google.com/?cid=18113857620921784008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【NEXTBODY】広島並木通りパーソナルダイエットジム",
+   "rating": 4.9,
+   "reviews": 60,
+   "address": "日本、〒730-0029 広島県広島市中区三川町５−１５",
+   "maps": "https://maps.google.com/?cid=18201112399087097192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UMPSY FIT（アンプシーフィット） 富士見店",
+   "rating": 5,
+   "reviews": 58,
+   "address": "日本、〒730-0043 広島県広島市中区富士見町８−５ 803号室",
+   "maps": "https://maps.google.com/?cid=18280776770265949346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【広島 パーソナルジム】Personal Training GYM LIFETIME 鷹野橋店",
+   "rating": 5,
+   "reviews": 56,
+   "address": "日本、〒730-0051 広島県広島市中区大手町５丁目７−２７ THE GARDEN PLACE OTEMACHI 4階",
+   "maps": "https://maps.google.com/?cid=9869232635570311677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY CARE HOME 広島",
+   "rating": 4.9,
+   "reviews": 55,
+   "address": "日本、〒730-0036 広島県広島市中区袋町２−１７ 袋町共栄ビル 201号室",
+   "maps": "https://maps.google.com/?cid=9479137964223568058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)広島店",
+   "rating": 4.6,
+   "reviews": 53,
+   "address": "日本、〒730-0012 広島県広島市中区上八丁堀４−１ アーバンビューグランドタワー 1F RIZAP GOLF広島店",
+   "maps": "https://maps.google.com/?cid=13475207124780518930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Malibu",
+   "rating": 5,
+   "reviews": 51,
+   "address": "日本、〒730-0041 広島県広島市中区小町９−７ ミューアウレッタ 701",
+   "maps": "https://maps.google.com/?cid=12001080720965743850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIMS 24H FITNESS×LOUNGE",
+   "rating": 4.9,
+   "reviews": 50,
+   "address": "日本、〒730-0013 広島県広島市中区八丁堀１−８ 八丁堀Grit 202",
+   "maps": "https://maps.google.com/?cid=11182829304689718400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム BLIFE 広島大手町店",
+   "rating": 5,
+   "reviews": 50,
+   "address": "日本、〒730-0051 広島県広島市中区大手町２丁目６−３２ 藤井ビル 302",
+   "maps": "https://maps.google.com/?cid=6750318122703973849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マスジム！",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒731-5109 広島県広島市佐伯区石内北２丁目１２−１",
+   "maps": "https://maps.google.com/?cid=12731749928922235498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム ピース広島店",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒732-0052 広島県広島市東区光町１丁目１７−１１ 飯田ビル 103号",
+   "maps": "https://maps.google.com/?cid=11354845713467393377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "IDEALパーソナルジム",
+   "rating": 5,
+   "reviews": 45,
+   "address": "日本、〒732-0814 広島県広島市南区段原南１丁目１９−３８ ＮＡＯビル 1階",
+   "maps": "https://maps.google.com/?cid=17112736784118619482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムPROUVE広島",
+   "rating": 5,
+   "reviews": 44,
+   "address": "日本、〒730-0853 広島県広島市中区堺町１丁目１−８ Fits平和公園 401",
+   "maps": "https://maps.google.com/?cid=14728887638830714070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "広島市 パーソナルジム Eesh(24時間/スポーツジム) パーソナルトレーニング",
+   "rating": 4.9,
+   "reviews": 42,
+   "address": "日本、〒733-0012 広島県広島市西区中広町３丁目２−１０ 明貴マンション 102",
+   "maps": "https://maps.google.com/?cid=12403120196701256066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "bocs personal gym ボックスパーソナルジム",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒730-0048 広島県広島市中区竹屋町５−２",
+   "maps": "https://maps.google.com/?cid=7658144606629322464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Loc-Hiroshima（ロク広島）",
+   "rating": 4.9,
+   "reviews": 34,
+   "address": "日本、〒730-0012 広島県広島市中区上八丁堀７−８ 中友ビル 202",
+   "maps": "https://maps.google.com/?cid=2365420922112686719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7FIT／ワークアウト 広島店《フィットネスジム・パーソナルトレーニング》",
+   "rating": 4.5,
+   "reviews": 32,
+   "address": "日本、〒730-0017 広島県広島市中区本通１−５ 3階",
+   "maps": "https://maps.google.com/?cid=10692007060706418208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ASSEMBLE パーソナルジム",
+   "rating": 5,
+   "reviews": 31,
+   "address": "日本、〒730-0852 広島県広島市中区猫屋町３−９ 2F",
+   "maps": "https://maps.google.com/?cid=16304902779871554419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム369 西広島店",
+   "rating": 5,
+   "reviews": 31,
+   "address": "日本、〒733-0812 広島県広島市西区己斐本町１丁目１３−１１ 宏和 32 3階",
+   "maps": "https://maps.google.com/?cid=12963719162399422819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム BLIFE 広島袋町店",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒730-0036 広島県広島市中区袋町５−４ 安部ビル 403",
+   "maps": "https://maps.google.com/?cid=9363878479166714058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【完全紹介制】INFINITY PERFORMANCE GYM 並木通り店",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒730-0029 広島県広島市中区三川町４−８ 榎崎パーキングビル ２F",
+   "maps": "https://maps.google.com/?cid=12331221926401973326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "private GYM LUKE",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒732-0811 広島県広島市南区段原４丁目１−１５ パル・ソレイユ段原 1F",
+   "maps": "https://maps.google.com/?cid=11071849976973356121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Gym entas｜広島女性専用パーソナルジム(エンタス)",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒730-0044 広島県広島市中区宝町４−３１ 2F",
+   "maps": "https://maps.google.com/?cid=18009169560068166797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "b-style パーソナルトレーニングジム広島本通",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒730-0035 広島県広島市中区本通５−１３ 3F",
+   "maps": "https://maps.google.com/?cid=7215097802600670867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プリッツジム広島店",
+   "rating": 4.7,
+   "reviews": 13,
+   "address": "日本、〒733-0023 広島県広島市西区都町３３−１６ 1階",
+   "maps": "https://maps.google.com/?cid=10855428496526443159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL TRAINING GYM ANT.",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒730-0051 広島県広島市中区大手町１丁目１−２０ ニュー大手町ビル 1F",
+   "maps": "https://maps.google.com/?cid=16776240154280046487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "広島 八丁堀 パーソナルジム GatoU (広島八丁堀/パーソナルトレーニングジム/女性トレーナー在籍)",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒730-0013 広島県広島市中区八丁堀１２−１５ 204",
+   "maps": "https://maps.google.com/?cid=7997063204296617228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジムラムア 広島店",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒730-0851 広島県広島市中区榎町１−８ 第１８やたがいビル 201号室",
+   "maps": "https://maps.google.com/?cid=16822223633918597809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Potential Space ポテンシャルスペース",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒730-0014 広島県広島市中区上幟町３−３ 202",
+   "maps": "https://maps.google.com/?cid=16841637397547515083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム BLIFE 広島千田店",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒730-0049 広島県広島市中区南竹屋町３−１ 川辺ビル４５１ 2階",
+   "maps": "https://maps.google.com/?cid=4006164144889059876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "十日市姿勢改善コルギ整体リアライズ 【パーソナルジムリアライズ】LIARAISE",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒730-0802 広島県広島市中区本川町２丁目４−２２ ウィンディア本川 101",
+   "maps": "https://maps.google.com/?cid=16777954868326931467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ハコジム 西原店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒731-0113 広島県広島市安佐南区西原８丁目２８−７ 健康快活Station2F",
+   "maps": "https://maps.google.com/?cid=2513044370762825360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ピラティス 広島店《個室パーソナルピラティススタジオ》",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒730-0035 広島県広島市中区本通１−５ 3階",
+   "maps": "https://maps.google.com/?cid=11830576284944370840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CHANGE FIT",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒730-0036 広島県広島市中区袋町９−３ 並木ヒルズ 2階",
+   "maps": "https://maps.google.com/?cid=6193500688687505330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム 3legs",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒730-0051 広島県広島市中区大手町１丁目５−３１ ソルレヴァンテ紙屋町",
+   "maps": "https://maps.google.com/?cid=3943618968382649999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Lino Bodymake&Golf training",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒730-0034 広島県広島市中区新天地５−１４ 404",
+   "maps": "https://maps.google.com/?cid=8691978235825708001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Grace(グレイス)プライベートジム広島",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒730-0043 広島県広島市中区富士見町１６−４ セイコウビル 堀川町 5F",
+   "maps": "https://maps.google.com/?cid=1915095717902787868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

@@ -172,6 +172,7 @@ export default function KobeAreaPage() {
         <AreaGymList area="kobe" areaName="神戸" />
 
         <section>
+          <p className="mb-6 text-sm"><Link href="/db/kobe/" className="underline text-teal-700 font-medium">→ 神戸のパーソナルジム全データベース(Gマップ実測・口コミ件数順)を見る</Link></p>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedAreas.map((a) => (<Link key={a.name} href={a.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">{a.name}</Link>))}
