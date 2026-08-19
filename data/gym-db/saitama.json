@@ -1,0 +1,487 @@
+{
+ "city": "saitama",
+ "fetchedAt": "2026-08-19",
+ "query": "パーソナルジム さいたま市 大宮 浦和",
+ "gyms": [
+  {
+   "name": "パーソナルジム&8 浦和店",
+   "rating": 4.8,
+   "reviews": 615,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町１丁目１−１０ ウイング浦和 地下 1階",
+   "maps": "https://maps.google.com/?cid=5901768198696684429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧 & パーソナルトレーニング ジム Oz 大宮店",
+   "rating": 4.8,
+   "reviews": 261,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目１７５ KGビル 3F",
+   "maps": "https://maps.google.com/?cid=7762284793772322474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 大宮店",
+   "rating": 5,
+   "reviews": 231,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町１丁目４７ 一番ビル 3F",
+   "maps": "https://maps.google.com/?cid=180380483408439856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 浦和店",
+   "rating": 5,
+   "reviews": 204,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂３丁目６−１６ BEIS浦和ビル 4F",
+   "maps": "https://maps.google.com/?cid=17159768949206025323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STREAM(ストリーム) 浦和店",
+   "rating": 4.9,
+   "reviews": 186,
+   "address": "日本、〒330-0055 埼玉県さいたま市浦和区東高砂町２５−８ ヒガシタカサゴミライ 2F",
+   "maps": "https://maps.google.com/?cid=13998580698867555782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ASPI大宮店 パーソナルトレーニングジム",
+   "rating": 4.9,
+   "reviews": 168,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区大門町３丁目５９ 小沢ビル 2階",
+   "maps": "https://maps.google.com/?cid=14387073073296008234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム ASPI浦和店",
+   "rating": 5,
+   "reviews": 154,
+   "address": "日本、〒330-0056 埼玉県さいたま市浦和区東仲町８−３ プレミア浦和 2F",
+   "maps": "https://maps.google.com/?cid=14097907619883556561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムRat大宮店",
+   "rating": 4.8,
+   "reviews": 152,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目２０−１ 2F",
+   "maps": "https://maps.google.com/?cid=15355481221336131265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 浦和ANNEX店",
+   "rating": 5,
+   "reviews": 121,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目９−５ 1F",
+   "maps": "https://maps.google.com/?cid=11891778375412002248&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムMovere（ムーバー）",
+   "rating": 4.9,
+   "reviews": 108,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目３−４ パークヒルズ 604",
+   "maps": "https://maps.google.com/?cid=16829590280810272015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビューマン武蔵浦和",
+   "rating": 4.8,
+   "reviews": 103,
+   "address": "日本、〒336-0027 埼玉県さいたま市南区沼影１丁目６−２８",
+   "maps": "https://maps.google.com/?cid=4710963144040100908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 与野店",
+   "rating": 4.8,
+   "reviews": 97,
+   "address": "日本、〒338-0002 埼玉県さいたま市中央区下落合１０２７ 与野フードセンタービル ３Ｆ",
+   "maps": "https://maps.google.com/?cid=12201611570171665969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト大宮店",
+   "rating": 4.8,
+   "reviews": 95,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目３５ 大塚ビル 4F",
+   "maps": "https://maps.google.com/?cid=8596900383703937377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Bump Up",
+   "rating": 4.9,
+   "reviews": 92,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町４丁目１１６−１ ２Ｆ",
+   "maps": "https://maps.google.com/?cid=13860690416072900187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CO-CO training 与野店",
+   "rating": 4.9,
+   "reviews": 90,
+   "address": "日本、〒330-0071 埼玉県さいたま市浦和区上木崎１丁目２−５ 東栄アネックス与野 3F",
+   "maps": "https://maps.google.com/?cid=15012582355388752278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リボーンマイセルフ浦和店",
+   "rating": 4.8,
+   "reviews": 89,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目１４−１７ 浦和マルゼンビル 4階",
+   "maps": "https://maps.google.com/?cid=3374759708404918913&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Be more 大宮店",
+   "rating": 5,
+   "reviews": 81,
+   "address": "日本、〒330-0834 埼玉県さいたま市大宮区天沼町１丁目４２８−２ 1階",
+   "maps": "https://maps.google.com/?cid=3591192205412238947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マシンピラティス＆ジム Z BODY浦和店",
+   "rating": 4.5,
+   "reviews": 67,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町１丁目１−８ コスモシティ浦和 仲町ビル 4F",
+   "maps": "https://maps.google.com/?cid=8181162028134474845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム&8 大宮店",
+   "rating": 4.9,
+   "reviews": 67,
+   "address": "日本、〒330-0843 埼玉県さいたま市大宮区吉敷町１丁目81−１ 3階",
+   "maps": "https://maps.google.com/?cid=545479790651409668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM大宮店",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町５丁目１３ 宮富士ビル 201",
+   "maps": "https://maps.google.com/?cid=10155535384004507290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディーズマイン",
+   "rating": 5,
+   "reviews": 63,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目74−4第３ 秀宝ビル ２階",
+   "maps": "https://maps.google.com/?cid=10803026297789318635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RISING",
+   "rating": 5,
+   "reviews": 62,
+   "address": "日本、〒330-0056 埼玉県さいたま市浦和区東仲町２４−７ 1F",
+   "maps": "https://maps.google.com/?cid=11732689867546428900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルマシンピラティスSAKURA北浦和店",
+   "rating": 4.9,
+   "reviews": 62,
+   "address": "日本、〒330-0074 埼玉県さいたま市浦和区北浦和４丁目１−１１ 岩﨑ビル ４０６号室",
+   "maps": "https://maps.google.com/?cid=3651183281113170998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム VANCLASS 大宮店",
+   "rating": 4.9,
+   "reviews": 59,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目１９０ 大宮豊田ビル 501号室",
+   "maps": "https://maps.google.com/?cid=5281493768013496282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Bump Up 浦和店",
+   "rating": 4.9,
+   "reviews": 52,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町１丁目３−９ レインボービル ３Ｆ 303号室",
+   "maps": "https://maps.google.com/?cid=5623835813148866400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビーコンセプト大宮店",
+   "rating": 4.8,
+   "reviews": 51,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目１４１ コスモプレイス一の宮 503",
+   "maps": "https://maps.google.com/?cid=12816228250236037767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Pearl Fitness",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目8−７ シャトルウエスト 402",
+   "maps": "https://maps.google.com/?cid=3732805841269663195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DO A 180",
+   "rating": 4.8,
+   "reviews": 46,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町２丁目９−６ 加来ビル 205号室",
+   "maps": "https://maps.google.com/?cid=13047108764900100449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 浦和店",
+   "rating": 4.9,
+   "reviews": 45,
+   "address": "日本、〒330-0056 埼玉県さいたま市浦和区東仲町１−２１ 小島ビル 3F",
+   "maps": "https://maps.google.com/?cid=16659496366602935583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 大宮",
+   "rating": 4.8,
+   "reviews": 44,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目６１ 第二 ＧＳビル 2F",
+   "maps": "https://maps.google.com/?cid=7985368714943477664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "理学療法士によるパーソナルジムLIMITED浦和店",
+   "rating": 4.9,
+   "reviews": 41,
+   "address": "日本、〒330-0055 埼玉県さいたま市浦和区東高砂町５−８ 浦和Aビル 1階",
+   "maps": "https://maps.google.com/?cid=8619089537725038372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファング（FANG）パーソナルジム 与野店",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒330-0071 埼玉県さいたま市浦和区上木崎１丁目９−１７ ＳＮビル 2階",
+   "maps": "https://maps.google.com/?cid=1387886564371926179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム / ビオスさいたま新都心店",
+   "rating": 4.8,
+   "reviews": 37,
+   "address": "日本、〒330-0843 埼玉県さいたま市大宮区吉敷町４丁目２４８−１ 町田ビル 4F",
+   "maps": "https://maps.google.com/?cid=6873753131938214168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムASPI南浦和店",
+   "rating": 5,
+   "reviews": 37,
+   "address": "日本、〒336-0025 埼玉県さいたま市南区文蔵１丁目３−９ 藤本ビル 1階",
+   "maps": "https://maps.google.com/?cid=11278387953279189461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム GOOD shape",
+   "rating": 4.7,
+   "reviews": 35,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂４丁目３−１２ ATRAS Caro201",
+   "maps": "https://maps.google.com/?cid=8879648700735743968&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムPara's",
+   "rating": 5,
+   "reviews": 35,
+   "address": "日本、〒330-0073 埼玉県さいたま市浦和区元町２丁目６−１ Aifort.北浦和 602号室",
+   "maps": "https://maps.google.com/?cid=623419663228746208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムSOUND",
+   "rating": 4.9,
+   "reviews": 34,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目22−５ 三協ビル 3階",
+   "maps": "https://maps.google.com/?cid=291567024944283624&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 北浦和店",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒330-0074 埼玉県さいたま市浦和区北浦和４丁目３−１５ 折井ビル２ 4階",
+   "maps": "https://maps.google.com/?cid=250543980231756223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Bump Up Plus",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町３丁目８１ カーサデルリオ ４０１",
+   "maps": "https://maps.google.com/?cid=7883889106456587335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Feel Good Gym",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒330-0071 埼玉県さいたま市浦和区上木崎２丁目２−１５ AOビル 3F",
+   "maps": "https://maps.google.com/?cid=10248814572151589930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 浦和",
+   "rating": 4.9,
+   "reviews": 26,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目８−１６ 浦和ガーデンビル 3階",
+   "maps": "https://maps.google.com/?cid=6291337478964365519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ Re- Private Studio",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒330-0071 埼玉県さいたま市浦和区上木崎２丁目５−５ アミュゾン新都心 301",
+   "maps": "https://maps.google.com/?cid=16194387008107511611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジーサルース浦和",
+   "rating": 4.5,
+   "reviews": 26,
+   "address": "日本、〒330-0056 埼玉県さいたま市浦和区東仲町１１−２３ 八幡ビル 4階",
+   "maps": "https://maps.google.com/?cid=13830459241847173309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "運動初心者⚫︎お子様連れ⚫︎大歓迎のパーソナルジム//女性トレーナー//浦和",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町４丁目１１−１２ 田端ビル 2階",
+   "maps": "https://maps.google.com/?cid=903603070255804665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ENHANCING大宮パーソナルジム",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目１８１ 桜木ビル 3F",
+   "maps": "https://maps.google.com/?cid=16593583476978946911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ティーバランス 大宮店 パーソナルジム",
+   "rating": 4.9,
+   "reviews": 21,
+   "address": "日本、〒330-0801 埼玉県さいたま市大宮区土手町１丁目２２ RIDE BASE OMIYA 5号室",
+   "maps": "https://maps.google.com/?cid=11817233538214645702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 浦和店",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂３丁目８−１５ SSビル 4階",
+   "maps": "https://maps.google.com/?cid=15369899770643989682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム THE ASUTORE",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒338-0002 埼玉県さいたま市中央区下落合５丁目１０−８ エスティビル 1階",
+   "maps": "https://maps.google.com/?cid=13033671576489822832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ELEMENT浦和店",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町２丁目１６−５ 浦和CSBビル 4F",
+   "maps": "https://maps.google.com/?cid=5616903673677489042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Rprecious(リプレシャス)浦和店",
+   "rating": 4.7,
+   "reviews": 15,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町１丁目１５−７ グレイスコート 埼玉県 埼玉県さいたま市浦和区仲町1-15-7 リべリエ浦和仲町401",
+   "maps": "https://maps.google.com/?cid=17071630903610187403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム COCO FIT（ココフィット）浦和",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒336-0021 埼玉県さいたま市南区別所３丁目１９−１６ 櫻本ビル 1階西",
+   "maps": "https://maps.google.com/?cid=18237468707668487757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Gym F(パーソナルジムエフ)大宮店",
+   "rating": 4.9,
+   "reviews": 13,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目１４７ 402号室",
+   "maps": "https://maps.google.com/?cid=13879924853456130860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビューマンさいたま新都心店",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒330-0841 埼玉県さいたま市大宮区東町１丁目１４６−２ ラプラド 2階",
+   "maps": "https://maps.google.com/?cid=11975676062263529431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム/LUX Gym",
+   "rating": 4.9,
+   "reviews": 9,
+   "address": "日本、〒336-0021 埼玉県さいたま市南区別所１丁目５−１２",
+   "maps": "https://maps.google.com/?cid=2709123550986934710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム ToBe",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒331-0841 埼玉県さいたま市大宮区東町２丁目 プチコーポ 101",
+   "maps": "https://maps.google.com/?cid=11270512293768071187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "R-3fitness大宮店",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒330-0841 埼玉県さいたま市大宮区東町１丁目１９５−１ BFTSビル 1F",
+   "maps": "https://maps.google.com/?cid=2374464747735748881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "WAPLE さいたま新都心店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒330-0835 埼玉県さいたま市大宮区北袋町１丁目81−１ 401",
+   "maps": "https://maps.google.com/?cid=1054373842913708859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEXUSパーソナルジム大宮店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目４８−２ あひか第二ビル ４０２",
+   "maps": "https://maps.google.com/?cid=15047831096858048147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "personal gym SOUND 大宮2号店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目２２−６ 3階",
+   "maps": "https://maps.google.com/?cid=1344826954785128719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Coone Fitness",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町３丁目４８−２",
+   "maps": "https://maps.google.com/?cid=16094184287719653503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

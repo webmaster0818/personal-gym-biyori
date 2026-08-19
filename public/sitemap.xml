@@ -633,4 +633,19 @@
   <url><loc>https://personal-gym-biyori.com/db/hiroshima/</loc><lastmod>2026-08-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://personal-gym-biyori.com/db/kyoto/</loc><lastmod>2026-08-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://personal-gym-biyori.com/db/kobe/</loc><lastmod>2026-08-16</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://personal-gym-biyori.com/db/saitama/</loc>
+  </url>
+  <url>
+    <loc>https://personal-gym-biyori.com/db/chiba/</loc>
+  </url>
+  <url>
+    <loc>https://personal-gym-biyori.com/db/kawasaki/</loc>
+  </url>
+  <url>
+    <loc>https://personal-gym-biyori.com/db/niigata/</loc>
+  </url>
+  <url>
+    <loc>https://personal-gym-biyori.com/db/okayama/</loc>
+  </url>
 </urlset>

@@ -164,6 +164,7 @@ export default function KawasakiAreaPage() {
         </section>
 
         <AreaGymList area="kawasaki" areaName="川崎" />
+          <p className="mb-6 text-sm"><Link href="/db/kawasaki/" className="underline text-teal-700 font-medium">→ 川崎のパーソナルジム全データベース(Gマップ実測・口コミ件数順)を見る</Link></p>
 
         <section>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>

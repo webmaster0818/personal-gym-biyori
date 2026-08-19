@@ -164,6 +164,7 @@ export default function NiigataAreaPage() {
         </section>
 
         <AreaGymList area="niigata" areaName="新潟" />
+          <p className="mb-6 text-sm"><Link href="/db/niigata/" className="underline text-teal-700 font-medium">→ 新潟のパーソナルジム全データベース(Gマップ実測・口コミ件数順)を見る</Link></p>
 
         <section>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>

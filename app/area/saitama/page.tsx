@@ -159,6 +159,7 @@ export default function SaitamaAreaPage() {
         </section>
 
         <AreaGymList area="saitama" areaName="さいたま" />
+          <p className="mb-6 text-sm"><Link href="/db/saitama/" className="underline text-teal-700 font-medium">→ さいたま(大宮・浦和)のパーソナルジム全データベース(Gマップ実測・口コミ件数順)を見る</Link></p>
 
         <section>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>

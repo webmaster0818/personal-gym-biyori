@@ -409,6 +409,22 @@ export default function Home() {
               </Link>
             ))}
           </div>
+          <h3 className="text-sm font-bold text-gray-600 mt-6 mb-3">全店データベース(Googleマップ実測・口コミ件数順)</h3>
+          <p className="text-xs text-gray-500 mb-3">提携の有無に関係なく、実在確認できた各都市のパーソナルジム全店を一覧できるデータベースです。</p>
+          <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2">
+            {[
+              { name: "新宿", slug: "shinjuku" }, { name: "渋谷", slug: "shibuya" }, { name: "池袋", slug: "ikebukuro" },
+              { name: "横浜", slug: "yokohama" }, { name: "名古屋", slug: "nagoya" }, { name: "大阪", slug: "osaka" },
+              { name: "福岡", slug: "fukuoka" }, { name: "札幌", slug: "sapporo" }, { name: "仙台", slug: "sendai" },
+              { name: "広島", slug: "hiroshima" }, { name: "京都", slug: "kyoto" }, { name: "神戸", slug: "kobe" },
+              { name: "さいたま", slug: "saitama" }, { name: "千葉", slug: "chiba" }, { name: "川崎", slug: "kawasaki" },
+              { name: "新潟", slug: "niigata" }, { name: "岡山", slug: "okayama" },
+            ].map((c) => (
+              <Link key={c.slug} href={`/db/${c.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-2.5 text-center text-sm font-medium text-gray-700 hover:border-teal-500 hover:text-teal-700 transition-colors">
+                {c.name}DB
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
