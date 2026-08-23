@@ -1,0 +1,487 @@
+{
+ "city": "那覇",
+ "fetchedAt": "2026-08-23",
+ "query": "パーソナルジム 那覇",
+ "gyms": [
+  {
+   "name": "VICTORY GYM 新都心58号",
+   "rating": 5,
+   "reviews": 547,
+   "address": "日本、〒900-0011 沖縄県那覇市上之屋１丁目１０−３ エレガンスコーポフェリーチェ 1階",
+   "maps": "https://maps.google.com/?cid=17831207117419801762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM 沖縄那覇店",
+   "rating": 5,
+   "reviews": 202,
+   "address": "日本、〒900-0005 沖縄県那覇市天久１丁目６−２３ B号室",
+   "maps": "https://maps.google.com/?cid=12440991422877223467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム ライジング 牧志駅前店",
+   "rating": 4.9,
+   "reviews": 166,
+   "address": "日本、〒900-0013 沖縄県那覇市牧志２丁目４−１１ ＴＫビル 2階 中央",
+   "maps": "https://maps.google.com/?cid=13046224461993266719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "外間パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 131,
+   "address": "日本、〒902-0067 沖縄県那覇市安里69−４ Happy Place 外間 201",
+   "maps": "https://maps.google.com/?cid=5925852026604017295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MI-YA 加圧トレーニング",
+   "rating": 5,
+   "reviews": 123,
+   "address": "日本、〒902-0065 沖縄県那覇市壺屋２丁目２６−１１ GEED施設 内",
+   "maps": "https://maps.google.com/?cid=9711555426001026229&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 那覇若狭店",
+   "rating": 4.9,
+   "reviews": 121,
+   "address": "日本、〒900-0032 沖縄県那覇市松山１丁目３４−３ カクテルプラザビル １・B１F",
+   "maps": "https://maps.google.com/?cid=16222241527492283270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム イチ",
+   "rating": 5,
+   "reviews": 103,
+   "address": "日本、〒900-0034 沖縄県那覇市東町１４−１８",
+   "maps": "https://maps.google.com/?cid=626528542180316287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム ワンダージュ",
+   "rating": 4.9,
+   "reviews": 102,
+   "address": "日本、〒900-0034 沖縄県那覇市東町１９−１ 野原ビル 3F",
+   "maps": "https://maps.google.com/?cid=7003967138518054294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND（ビヨンド）沖縄那覇店",
+   "rating": 4.9,
+   "reviews": 88,
+   "address": "日本、〒900-0006 沖縄県那覇市おもろまち４丁目８−１ 新都心 とみや 101号",
+   "maps": "https://maps.google.com/?cid=15755587312871972985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "那覇パーソナルジム Rejuv",
+   "rating": 4.9,
+   "reviews": 74,
+   "address": "日本、〒900-0014 沖縄県那覇市松尾２丁目１１−２０ 2F",
+   "maps": "https://maps.google.com/?cid=6264242021869337465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BUG那覇店",
+   "rating": 4.9,
+   "reviews": 67,
+   "address": "日本、〒902-0073 沖縄県那覇市上間２００−１ ダイエイA101",
+   "maps": "https://maps.google.com/?cid=4427289036812765073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エクササイズコーチ那覇新都心店",
+   "rating": 4.8,
+   "reviews": 65,
+   "address": "日本、〒900-0004 沖縄県那覇市銘苅２丁目１−１５",
+   "maps": "https://maps.google.com/?cid=11220559646886376936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム フレイム那覇店",
+   "rating": 4.9,
+   "reviews": 63,
+   "address": "日本、〒902-0069 沖縄県那覇市松島１丁目２３−１ ヒルズ真嘉比 202",
+   "maps": "https://maps.google.com/?cid=14662570299281494727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スナケンパーソナルジム",
+   "rating": 5,
+   "reviews": 62,
+   "address": "日本、〒900-0006 沖縄県那覇市おもろまち４丁目６−１９ FLEXおもろまち203",
+   "maps": "https://maps.google.com/?cid=14925704573026767587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ONE'S LIFE(南風原町パーソナルジム)",
+   "rating": 5,
+   "reviews": 57,
+   "address": "日本、〒901-1117 沖縄県島尻郡南風原町津嘉山１３６０−４",
+   "maps": "https://maps.google.com/?cid=12320389080309367130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BUG浦添店",
+   "rating": 4.9,
+   "reviews": 50,
+   "address": "日本、〒901-2121 沖縄県浦添市内間５丁目３−１９ APPLE102",
+   "maps": "https://maps.google.com/?cid=7646523453448436371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "K.U.T FITNESS",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒900-0036 沖縄県那覇市西２丁目２０−５ 102",
+   "maps": "https://maps.google.com/?cid=12124292343136813500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)那覇店",
+   "rating": 4.6,
+   "reviews": 42,
+   "address": "日本、〒900-0006 沖縄県那覇市おもろまち４丁目９−１３ 京阪那覇新都心ビル2F",
+   "maps": "https://maps.google.com/?cid=13893532781839658032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム Fit. 那覇泉崎店",
+   "rating": 5,
+   "reviews": 40,
+   "address": "日本、〒900-0021 沖縄県那覇市泉崎１丁目１６−１７ コーポアルファ 201",
+   "maps": "https://maps.google.com/?cid=15704979430208364729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CREAYフィットネスジム",
+   "rating": 4.8,
+   "reviews": 39,
+   "address": "日本、〒902-0078 沖縄県那覇市識名１丁目８−8番地1 2F",
+   "maps": "https://maps.google.com/?cid=14289250448927081588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用ジム Peach Style GYM 那覇小禄店",
+   "rating": 5,
+   "reviews": 38,
+   "address": "日本、〒901-0152 沖縄県那覇市小禄１丁目３９−７ 東ビル 3F ３階",
+   "maps": "https://maps.google.com/?cid=12933061537851527313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Yama パーソナルジム 那覇 沖縄 ピラティス | 鍼灸院",
+   "rating": 4.9,
+   "reviews": 38,
+   "address": "日本、〒900-0022 沖縄県那覇市樋川１丁目３０−１１ 2階",
+   "maps": "https://maps.google.com/?cid=10735406372603613840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディメイクスタジオVenus/Zeus",
+   "rating": 4.9,
+   "reviews": 36,
+   "address": "日本、〒900-0014 沖縄県那覇市松尾２丁目１６−４８ パトリア松尾 201",
+   "maps": "https://maps.google.com/?cid=9561930569686579808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DAIVAN FITNESS 那覇小禄店",
+   "rating": 4.9,
+   "reviews": 34,
+   "address": "日本、〒901-0153 沖縄県那覇市宇栄原１丁目６−４８",
+   "maps": "https://maps.google.com/?cid=4156431964083921600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GRAP GYM 那覇パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 33,
+   "address": "日本、〒902-0067 沖縄県那覇市安里４１５−２１ 天テラス",
+   "maps": "https://maps.google.com/?cid=18343360004463683097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GEED",
+   "rating": 4.6,
+   "reviews": 33,
+   "address": "日本、〒902-0065 沖縄県那覇市壺屋２丁目２６−１１",
+   "maps": "https://maps.google.com/?cid=6886295181263686683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プリッツジム那覇店",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒900-0022 沖縄県那覇市樋川１丁目３６−９ メゾン 城間 101号室",
+   "maps": "https://maps.google.com/?cid=11744737610572228208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "A-DREAM(パーソナルGYM)",
+   "rating": 4.9,
+   "reviews": 24,
+   "address": "日本、〒900-0004 沖縄県那覇市銘苅１丁目１０−４５ 201",
+   "maps": "https://maps.google.com/?cid=15355557118152425086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム スタラボ",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒900-0005 沖縄県那覇市天久１１３１−９ 2階",
+   "maps": "https://maps.google.com/?cid=2372492332630074531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Luke Body Fitness 那覇市首里",
+   "rating": 4.8,
+   "reviews": 19,
+   "address": "日本、〒903-0805 沖縄県那覇市首里鳥堀町２丁目１−１ 比嘉ビル １０１",
+   "maps": "https://maps.google.com/?cid=2405799542493077834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用REMパーソナルジム｜那覇美栄橋店",
+   "rating": 4.8,
+   "reviews": 17,
+   "address": "日本、〒900-0013 沖縄県那覇市牧志２丁目１６−１７ 505",
+   "maps": "https://maps.google.com/?cid=4547389695557005950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムHPER那覇高良店",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒901-0145 沖縄県那覇市高良１丁目９−２６ Ｍ Grande 3-C",
+   "maps": "https://maps.google.com/?cid=11394375984908098025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TBM fitness GYM",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒901-0154 沖縄県那覇市赤嶺２丁目１−７",
+   "maps": "https://maps.google.com/?cid=9955737636601299298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム HEB GYM 沖縄那覇店",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒902-0075 沖縄県那覇市国場９７９−４",
+   "maps": "https://maps.google.com/?cid=1114906521455380513&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム STEEL(スティール) 沖縄 那覇店",
+   "rating": 4.8,
+   "reviews": 14,
+   "address": "日本、〒900-0004 沖縄県那覇市銘苅１丁目１４−１６ 大盛産業ビル B1",
+   "maps": "https://maps.google.com/?cid=4421152200638835088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファルコン",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒901-0145 沖縄県那覇市高良３丁目１０−１ 善マンション高良 1F",
+   "maps": "https://maps.google.com/?cid=16357994391991755391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SoloFit./ソロフィット女性専用パーソナルダイエットジム",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒900-0022 沖縄県那覇市樋川１丁目３３−８ 中村ビル 1F",
+   "maps": "https://maps.google.com/?cid=11650379612477899024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムUNIQUE",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒903-0804 沖縄県那覇市首里石嶺町３丁目３２７−４",
+   "maps": "https://maps.google.com/?cid=30387966512690864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "那覇市パーソナルトレーニングジムIDEAL",
+   "rating": 4.8,
+   "reviews": 12,
+   "address": "日本、〒900-0004 沖縄県那覇市銘苅１丁目２−１７ クレセントビル ４ーA",
+   "maps": "https://maps.google.com/?cid=2654370142095681277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムReboRena〜リボルネ〜",
+   "rating": 4.8,
+   "reviews": 12,
+   "address": "日本、〒903-0802 沖縄県那覇市首里大名町３丁目１３",
+   "maps": "https://maps.google.com/?cid=3709434712507151091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルマシンピラティス STUDIO IVY 那覇牧志店",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒900-0013 沖縄県那覇市牧志２丁目３−２０ アーバン・コア 牧志 401",
+   "maps": "https://maps.google.com/?cid=5405922759823888048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY MAKE STUDIO REALL",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒900-0004 沖縄県那覇市銘苅１丁目３−４１ レゼル・アッシュ3-B",
+   "maps": "https://maps.google.com/?cid=3123472437910810783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Tan.Co GYM 那覇市パーソナルジム",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒902-0063 沖縄県那覇市三原１丁目２４−１０",
+   "maps": "https://maps.google.com/?cid=5056843442277176356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "整え処｜女性のための不調改善サロン（姿勢改善ピラティス＆コンディショニング）",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒900-0033 沖縄県那覇市久米２丁目２２−１６ ラ・シャンブル久米 202",
+   "maps": "https://maps.google.com/?cid=2687912864815704761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム ラムア 沖縄・那覇店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒900-0033 沖縄県那覇市久米１丁目１−１３ プランビル久米 201",
+   "maps": "https://maps.google.com/?cid=3782799786082052159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Gym Cross Line牧志店",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒900-0013 沖縄県那覇市牧志３丁目１８−３８ 2階",
+   "maps": "https://maps.google.com/?cid=1495054626284297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GRAP GYM 2号店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒902-0063 沖縄県那覇市三原２丁目１−４６ 幸ビル 101",
+   "maps": "https://maps.google.com/?cid=12075307128108321933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ShapesGirl(シェイプスガール)沖縄・那覇店",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒900-0015 沖縄県那覇市久茂地２丁目７−２１ 名嘉真ビル 3階西側",
+   "maps": "https://maps.google.com/?cid=3222428652630821703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング ガネシア",
+   "rating": 4.5,
+   "reviews": 6,
+   "address": "日本、〒902-0075 沖縄県那覇市国場６８６−１",
+   "maps": "https://maps.google.com/?cid=9225467918839504517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用REMパーソナルジム｜那覇若狭店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒900-0032 沖縄県那覇市松山１丁目２２−９ レジデンスS 302",
+   "maps": "https://maps.google.com/?cid=4778653319463608646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BUG 那覇南店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒902-0075 沖縄県那覇市国場１１６９−５ ＪＫコーポラス 102",
+   "maps": "https://maps.google.com/?cid=17232975751916710975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RUNaWay 那覇本店",
+   "rating": 4.6,
+   "reviews": 5,
+   "address": "日本、〒900-0016 沖縄県那覇市前島２丁目１−９ コーポ潮渡 2B",
+   "maps": "https://maps.google.com/?cid=426403088507681649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Passion’s Fitness PPP 那覇店",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒900-0013 沖縄県那覇市牧志３丁目２−１０ 3階 SOHO4",
+   "maps": "https://maps.google.com/?cid=10297004168275807121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Feel-LIght.FIT",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒900-0023 沖縄県那覇市楚辺２丁目３２−２８ １F",
+   "maps": "https://maps.google.com/?cid=392298713317888646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ソーマジム 安謝店",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒900-0003 沖縄県那覇市安謝２丁目２０−３０ Felice. 新都心 401",
+   "maps": "https://maps.google.com/?cid=5437964534311612379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム α-BODY 那覇店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒900-0004 沖縄県那覇市銘苅１丁目３−４１ 4階-C",
+   "maps": "https://maps.google.com/?cid=17997215515956274803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスボックス ゼロ",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒900-0027 沖縄県那覇市山下町２２−３９ エステート山下町 1階",
+   "maps": "https://maps.google.com/?cid=10302893134317572325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム RUNaWay おもろまち別邸 女性限定",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒900-0006 沖縄県那覇市おもろまち４丁目６−１９ Flex おもろまち 601",
+   "maps": "https://maps.google.com/?cid=12256878124975603916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジムフィールド 沖縄那覇スタジオ",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒900-0024 沖縄県那覇市古波蔵３丁目７−２ 301",
+   "maps": "https://maps.google.com/?cid=254883653141764714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【那覇市】STUDIO KIPPIS OKINAWA（キッピス オキナワ / パーソナルジム）",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒902-0061 沖縄県那覇市松島２丁目２−１２ トゥールビヨン8 301号室",
+   "maps": "https://maps.google.com/?cid=4972005941846347177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

@@ -421,6 +421,8 @@ export default function Home() {
               { name: "新潟", slug: "niigata" }, { name: "岡山", slug: "okayama" },
               { name: "熊本", slug: "kumamoto" }, { name: "鹿児島", slug: "kagoshima" }, { name: "金沢", slug: "kanazawa" },
               { name: "松山", slug: "matsuyama" }, { name: "宇都宮", slug: "utsunomiya" },
+              { name: "高松", slug: "takamatsu" }, { name: "長崎", slug: "nagasaki" }, { name: "大分", slug: "oita" },
+              { name: "那覇", slug: "naha" }, { name: "富山", slug: "toyama" },
             ].map((c) => (
               <Link key={c.slug} href={`/db/${c.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-2.5 text-center text-sm font-medium text-gray-700 hover:border-teal-500 hover:text-teal-700 transition-colors">
                 {c.name}DB

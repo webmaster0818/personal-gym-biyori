@@ -1,0 +1,487 @@
+{
+ "city": "富山",
+ "fetchedAt": "2026-08-23",
+ "query": "パーソナルジム 富山",
+ "gyms": [
+  {
+   "name": "Paw women's fitness（パウ ピラティス 富山）",
+   "rating": 4.8,
+   "reviews": 87,
+   "address": "日本、〒930-0831 富山県富山市鍋田２３−４７",
+   "maps": "https://maps.google.com/?cid=3268427046872067942&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 富山店",
+   "rating": 5,
+   "reviews": 84,
+   "address": "日本、〒930-0003 富山県富山市桜町１丁目７−２４ 水明舎ビル 3F",
+   "maps": "https://maps.google.com/?cid=7537616755077815160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BLITZ 24H GYM",
+   "rating": 4.9,
+   "reviews": 76,
+   "address": "日本、〒931-8325 富山県富山市城川原３丁目３−７５",
+   "maps": "https://maps.google.com/?cid=3382712954471308578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マッスルジム 富山店",
+   "rating": 3.8,
+   "reviews": 74,
+   "address": "日本、〒939-8271 富山県富山市太郎丸西町２丁目 太郎丸西町2-6-12-2F",
+   "maps": "https://maps.google.com/?cid=2170760280004214808&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ゆめたかトレーニングジム富山店",
+   "rating": 4.9,
+   "reviews": 67,
+   "address": "日本、〒939-8211 富山県富山市二口町２丁目４−３",
+   "maps": "https://maps.google.com/?cid=1915846140963130022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』富山店",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒939-8211 富山県富山市二口町５丁目４−１０ テフィスC 棟 C号室",
+   "maps": "https://maps.google.com/?cid=10657918783579540431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "とやまWell-Doing Gym",
+   "rating": 4.9,
+   "reviews": 62,
+   "address": "日本、〒939-1335 富山県砺波市鷹栖１２６０",
+   "maps": "https://maps.google.com/?cid=9905108707160846930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Paw mini women's fitness富山二口（パウ富山二口）",
+   "rating": 5,
+   "reviews": 61,
+   "address": "日本、〒939-8211 富山県富山市二口町２丁目5−１０ パティオ・二口Ｂ 棟",
+   "maps": "https://maps.google.com/?cid=1979441025653535637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス専門店 WECLE 富山大泉店",
+   "rating": 4.7,
+   "reviews": 57,
+   "address": "日本、〒939-8095 富山県富山市大泉中町１２−１９",
+   "maps": "https://maps.google.com/?cid=18382558157901408566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジム＆ピラティススタジオCalenda(カレンダ)高岡店",
+   "rating": 4.9,
+   "reviews": 44,
+   "address": "日本、〒933-0874 富山県高岡市京田８３ FAIVIS 1F",
+   "maps": "https://maps.google.com/?cid=17141520999301877971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TTT personal studio（ティースリーパーソナルスタジオ）",
+   "rating": 4.8,
+   "reviews": 39,
+   "address": "日本、〒939-8216 富山県富山市黒瀬北町２丁目７−８ キャルム103",
+   "maps": "https://maps.google.com/?cid=8182364733027798177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルピラティススタジオ オフ the off 二口店",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒939-8211 富山県富山市二口町１丁目8−１４",
+   "maps": "https://maps.google.com/?cid=2211298773302062918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムWAKABA 富山婦中店",
+   "rating": 5,
+   "reviews": 38,
+   "address": "日本、〒939-2704 富山県富山市婦中町羽根新32−１",
+   "maps": "https://maps.google.com/?cid=12039205373159656806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)富山店",
+   "rating": 4.7,
+   "reviews": 37,
+   "address": "日本、〒930-0085 富山県富山市丸内１１丁目８−１７ 新丸の内ビル 6F",
+   "maps": "https://maps.google.com/?cid=523355733471635684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "taku.body studio パーソナルピラティススタジオ",
+   "rating": 4.7,
+   "reviews": 36,
+   "address": "日本、〒930-0059 富山県富山市三番町３−４ 富山繊維会館ビル１F",
+   "maps": "https://maps.google.com/?cid=8887206335893782172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルトレーニング CONTiNEW（コンティニュー）",
+   "rating": 4.9,
+   "reviews": 28,
+   "address": "日本、〒939-1104 富山県高岡市戸出町２丁目１０−１２５",
+   "maps": "https://maps.google.com/?cid=11481678544292991567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム VISION",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒939-8005 富山県富山市中市２丁目８−５６ サンリット 102",
+   "maps": "https://maps.google.com/?cid=10629416628138267708&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リバティ＋リウム",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒939-8064 富山県富山市赤田８２２−１",
+   "maps": "https://maps.google.com/?cid=14964702704344976282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムCalenda",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒939-0341 富山県射水市三ケ１７２７",
+   "maps": "https://maps.google.com/?cid=4079649793662116359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PrivateGym totonou 富山店",
+   "rating": 4.8,
+   "reviews": 18,
+   "address": "日本、〒939-8093 富山県富山市大泉東町１丁目３−９ スイートレジデンスTOYAMA 2階",
+   "maps": "https://maps.google.com/?cid=10519140957920164648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PrivateGym totonou 堀川小泉店",
+   "rating": 4.6,
+   "reviews": 17,
+   "address": "日本、〒939-8081 富山県富山市堀川小泉町１丁目７−５ フタバビル 2階",
+   "maps": "https://maps.google.com/?cid=10627929616227539289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム＆ストレッチ SUN FIT（サンフィット）",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒936-0807 富山県滑川市四ツ屋128ー3",
+   "maps": "https://maps.google.com/?cid=11630433406749602597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パワースポット 富山掛尾店",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒939-8215 富山県富山市掛尾栄町４−６１ マイコンビル 3F",
+   "maps": "https://maps.google.com/?cid=14378304175234806284&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Luxe training",
+   "rating": 4.2,
+   "reviews": 15,
+   "address": "日本、〒939-2757 富山県富山市婦中町道場５４４−６",
+   "maps": "https://maps.google.com/?cid=4475185176225955615&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B-ase Fitness",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒930-0835 富山県富山市上冨居１丁目３−５ 秀メゾン A 1F",
+   "maps": "https://maps.google.com/?cid=2456209650980250532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ワークアウトジム 983",
+   "rating": 4.3,
+   "reviews": 13,
+   "address": "日本、〒930-0955 富山県富山市天正寺２３３ ワークアウトジム９８３",
+   "maps": "https://maps.google.com/?cid=7832599698119956445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "M’-STUDIO（エムスタジオ）【キックボクシング/ピラティス/ヨガ】",
+   "rating": 4.8,
+   "reviews": 13,
+   "address": "日本、〒939-8272 富山県富山市太郎丸本町３丁目７−１２ 城南地所ビル 2階",
+   "maps": "https://maps.google.com/?cid=14488800196805206435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムWAKABA 射水店",
+   "rating": 4.9,
+   "reviews": 12,
+   "address": "日本、〒939-0319 富山県射水市東太閤山４丁目６０",
+   "maps": "https://maps.google.com/?cid=9867805912042304247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EVOLVA 富山駅北",
+   "rating": 4.9,
+   "reviews": 11,
+   "address": "日本、〒930-0818 富山県富山市奥田町２０−２５ 塩谷奥田町ビル",
+   "maps": "https://maps.google.com/?cid=4768153200992225872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FUJIREX 富山",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒930-0218 富山県中新川郡立山町二ツ塚１５５−２",
+   "maps": "https://maps.google.com/?cid=14885547043403500311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BLITZ FIT GYM",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒939-8264 富山県富山市経田１２５０",
+   "maps": "https://maps.google.com/?cid=12599438317964370328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムLIFE+",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒930-0975 富山県富山市西長江１丁目１−２２",
+   "maps": "https://maps.google.com/?cid=5238295816051619540&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "room:8 PILATES [ルームエイト]",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒930-0088 富山県富山市諏訪川原１丁目１１",
+   "maps": "https://maps.google.com/?cid=17401470160246384194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "QEST,Z WORK OUT GYM 富山市総曲輪",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒930-0083 富山県富山市総曲輪３丁目６−１５ CUBYビル 2F",
+   "maps": "https://maps.google.com/?cid=15715458266892710095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "モトマチトレーニングジム",
+   "rating": 4.7,
+   "reviews": 9,
+   "address": "日本、〒930-0035 富山県富山市清水中町３−１４ ザ・セイントハウスイズミ 1-A",
+   "maps": "https://maps.google.com/?cid=205107338345080038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ナカジマジム",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒939-8092 富山県富山市雄山町２−１７",
+   "maps": "https://maps.google.com/?cid=4714208793092840729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "きたえないジム 富山店",
+   "rating": 4.4,
+   "reviews": 9,
+   "address": "日本、〒939-8213 富山県富山市黒瀬４５５−１",
+   "maps": "https://maps.google.com/?cid=14286283474514588666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT GYM ME:BLOUTE",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒939-0341 富山県射水市三ケ1515ｰ2",
+   "maps": "https://maps.google.com/?cid=4923702923848388720&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "きむジム",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒930-0916 富山県富山市向新庄町５丁目５−３３ ADMスクエア1F A号室",
+   "maps": "https://maps.google.com/?cid=4479469787107725623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ヨネジム",
+   "rating": 4.6,
+   "reviews": 8,
+   "address": "日本、〒939-0341 富山県射水市三ケ２４８２−１",
+   "maps": "https://maps.google.com/?cid=6623020278765936779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ハッピートレーニングジム 富山市婦中町 女性専用パーソナルジム",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒939-2715 富山県富山市婦中町下坂倉１２１ テナント左側ハッピートレーニングジム",
+   "maps": "https://maps.google.com/?cid=12916343036564915921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EVOLVA 掛尾",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒939-8216 富山県富山市黒瀬北町１丁目４−５",
+   "maps": "https://maps.google.com/?cid=6920981771312005575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "subrina（サブリナ）",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒939-8211 富山県富山市二口町１丁目１１−６",
+   "maps": "https://maps.google.com/?cid=9499043745654588503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "けんとれトレーニングジム",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒939-8071 富山県富山市上袋６０５−２ 1F B区画",
+   "maps": "https://maps.google.com/?cid=334043067408800529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファンステ AND EVOLVA 丸の内｜Functional Station",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒930-0085 富山県富山市市丸の内２丁目１−１ 丸の内サーンビル1F",
+   "maps": "https://maps.google.com/?cid=8538204480532203930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BLUEHOUSE 3rd",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒939-8212 富山県富山市掛尾町４１２",
+   "maps": "https://maps.google.com/?cid=12090064384788277846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムWAKABA 富山東店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒930-0835 富山県富山市上冨居２丁目２６−２６ ２７ 舎 2D",
+   "maps": "https://maps.google.com/?cid=10294576323971324275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MOST GYM FITNESS",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒930-0019 富山県富山市弥生町１丁目７−１４",
+   "maps": "https://maps.google.com/?cid=11744767410349763816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "全力ストレッチ 富山店",
+   "rating": 3.5,
+   "reviews": 2,
+   "address": "日本、〒939-8272 富山県富山市太郎丸本町３丁目１−１",
+   "maps": "https://maps.google.com/?cid=370763177151610285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムERENOR",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒930-0103 富山県富山市北代５１２８−１",
+   "maps": "https://maps.google.com/?cid=14176181630834492619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "i-body",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒930-0985 富山県富山市田中町５丁目２−２",
+   "maps": "https://maps.google.com/?cid=9450641841283018246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "グローライズ 富山店 -GROWRISE TRAINING&GOLF-",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒939-8205 富山県富山市新根塚町１丁目１−５２ フィールTWOビル 1階",
+   "maps": "https://maps.google.com/?cid=14020134552144085287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム・ブルームスベリー",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒930-0944 富山県富山市開５２５",
+   "maps": "https://maps.google.com/?cid=9444499125920058097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トライスポーツ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒939-8015 富山県富山市中川原１９６−４",
+   "maps": "https://maps.google.com/?cid=11939526890141225722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FitnessGymB-MODE（フィットネスジムビーモード）",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒930-0093 富山県富山市内幸町１−８",
+   "maps": "https://maps.google.com/?cid=1998001261059930561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PrivateGym totonou zero",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒939-8093 富山県富山市大泉東町１丁目３−９ スイートレジデンスTOYAMA 2階",
+   "maps": "https://maps.google.com/?cid=14644415052905257019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "体育屋",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒930-0066 富山県富山市千石町６丁目２−７ プラザビル 2階",
+   "maps": "https://maps.google.com/?cid=2805680345578849884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PRIVATE by powerspot",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒930-0952 富山県富山市町村６４番地１ ナチュラルビレッジ町村２Ａ棟 ６号室",
+   "maps": "https://maps.google.com/?cid=1649528256137516198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "bibi〜24時間レンタルジム〜",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒939-8006 富山県富山市山室３９１−１ 南台ビル 302",
+   "maps": "https://maps.google.com/?cid=1318183055230252440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Gym Es 富山稲荷",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒930-0010 富山県富山市稲荷元町２丁目７−１０ サンシャイン 88",
+   "maps": "https://maps.google.com/?cid=15645339001790792221&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

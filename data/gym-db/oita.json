@@ -1,0 +1,487 @@
+{
+ "city": "大分",
+ "fetchedAt": "2026-08-23",
+ "query": "パーソナルジム 大分",
+ "gyms": [
+  {
+   "name": "FIT PLACE24 大分高城店",
+   "rating": 4.8,
+   "reviews": 296,
+   "address": "日本、〒870-0153 大分県大分市城東町１−１５",
+   "maps": "https://maps.google.com/?cid=516698052822614229&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LifeFit 大分駅前店",
+   "rating": 4.5,
+   "reviews": 148,
+   "address": "日本、〒870-0027 大分県大分市末広町２丁目１０−２４ DIC学園ビル 2F、3F",
+   "maps": "https://maps.google.com/?cid=3570184675058238121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ワイズボディメイク",
+   "rating": 5,
+   "reviews": 119,
+   "address": "日本、〒870-0007 大分県大分市王子南町１−２８",
+   "maps": "https://maps.google.com/?cid=3676970705333311047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムSHINE",
+   "rating": 4.9,
+   "reviews": 87,
+   "address": "日本、〒870-0049 大分県大分市中島中央１丁目４−３０ 3F",
+   "maps": "https://maps.google.com/?cid=15576906095730445173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム RENAGE(レナージ) 大分",
+   "rating": 5,
+   "reviews": 74,
+   "address": "日本、〒870-0036 大分県大分市寿町１１−２ 第３大成ビル 205",
+   "maps": "https://maps.google.com/?cid=6363130461301207130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND大分店",
+   "rating": 5,
+   "reviews": 72,
+   "address": "日本、〒870-0021 大分県大分市府内町３丁目３−８ 1階",
+   "maps": "https://maps.google.com/?cid=1084309499980650576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL GYM ISM",
+   "rating": 4.9,
+   "reviews": 62,
+   "address": "日本、〒870-0243 大分県大分市花江川８−４３ ガーデンハイツ志村 B102",
+   "maps": "https://maps.google.com/?cid=10512574208366425128&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "5 Personal（ファイブパーソナル）",
+   "rating": 4.9,
+   "reviews": 61,
+   "address": "日本、〒870-0943 大分県大分市片島４４１ Prosperita片島base 106",
+   "maps": "https://maps.google.com/?cid=9675430473299868462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Every Buddy大分中島店 パーソナルトレーニングとボディケア（もみほぐし・マッサージ）",
+   "rating": 4.9,
+   "reviews": 58,
+   "address": "日本、〒870-0049 大分県大分市中島中央１丁目３−３２ 筒井ビル 1階西",
+   "maps": "https://maps.google.com/?cid=17328962063311460081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム/フィットネスジムUmbrella（アンブレラ）横尾本店",
+   "rating": 5,
+   "reviews": 57,
+   "address": "日本、〒870-0126 大分県大分市横尾３８０７",
+   "maps": "https://maps.google.com/?cid=1851250609809204489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジム&ピラティススタジオ FILLNESS 大分花津留店",
+   "rating": 5,
+   "reviews": 53,
+   "address": "日本、〒870-0933 大分県大分市花津留２丁目２−１８ ヴィルヌーブ 2F",
+   "maps": "https://maps.google.com/?cid=11037091993261920231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分 パーソナルジム ジムシェルパ",
+   "rating": 4.9,
+   "reviews": 42,
+   "address": "日本、〒870-0853 大分県大分市羽屋新町２丁目2−１−１ 1F",
+   "maps": "https://maps.google.com/?cid=13874199487548776987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジム&ピラティススタジオ FILLNESS 南大分店",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒870-0853 大分県大分市羽屋新町２丁目１−１０",
+   "maps": "https://maps.google.com/?cid=9965163499180030481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 大分店",
+   "rating": 4.7,
+   "reviews": 38,
+   "address": "日本、〒870-0029 大分県大分市高砂町１−３０ S-Fort高砂町 201",
+   "maps": "https://maps.google.com/?cid=9852076854396139146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム/フィットネスジムUmbrella（アンブレラ）三佐店",
+   "rating": 5,
+   "reviews": 34,
+   "address": "日本、〒870-0108 大分県大分市三佐５丁目２−１２",
+   "maps": "https://maps.google.com/?cid=8853058168762173003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分パーソナルジムBUDDY(バディ)本店",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒870-0839 大分県大分市金池南１丁目１０−１５ スカイメゾン 101",
+   "maps": "https://maps.google.com/?cid=10182907453090540670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYM PROTEIOS中央町店",
+   "rating": 4.5,
+   "reviews": 22,
+   "address": "日本、〒870-0035 大分県大分市中央町２丁目９−２３",
+   "maps": "https://maps.google.com/?cid=8881126825694324886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分 パーソナルジム トクナガ（Oita Personal Gym Tokunaga）",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒870-0841 大分県大分市六坊北町8−３３−２０２",
+   "maps": "https://maps.google.com/?cid=9636912929225570058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分市 女性専用パーソナルトレーニング&ウォーキングスタジオ [rare integrate / レアインテグレ]",
+   "rating": 4.8,
+   "reviews": 20,
+   "address": "日本、〒870-0935 大分県大分市古ケ鶴２丁目１２−１２",
+   "maps": "https://maps.google.com/?cid=3979924284300114884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』大分店",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒870-0030 大分県大分市三芳大道町6−７−１ サテライト21 402号室",
+   "maps": "https://maps.google.com/?cid=9762488174641509806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Curar",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒870-0913 大分県大分市松原町１丁目１−１",
+   "maps": "https://maps.google.com/?cid=9780730476364698869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分市パーソナルジム|イグナイトフロー コンディショニングジム|南大分の姿勢・呼吸パーソナル",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒870-0887 大分県大分市二又町３丁目２−５８ フィットネスビル 1F",
+   "maps": "https://maps.google.com/?cid=10650165884567153780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)大分店",
+   "rating": 4.1,
+   "reviews": 15,
+   "address": "日本、〒870-0035 大分県大分市中央町１丁目４−２ オフィスニューガイアTIC大分 2F",
+   "maps": "https://maps.google.com/?cid=12311966586666901945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REviceconditioning",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒870-0919 大分県大分市新栄町６−８ ６番８号",
+   "maps": "https://maps.google.com/?cid=2408032842462064928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B-Fit Studio",
+   "rating": 4.6,
+   "reviews": 14,
+   "address": "日本、〒874-0937 大分県別府市秋葉町７−９ メゾンシラハマ 1F B",
+   "maps": "https://maps.google.com/?cid=9598020316179124278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PRIME GYM",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒870-0035 大分県大分市中央町３丁目５−１６ wazawazaビル 304",
+   "maps": "https://maps.google.com/?cid=16794165583577641942&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ピラティス 大分店《個室パーソナルピラティススタジオ》",
+   "rating": 4.9,
+   "reviews": 13,
+   "address": "日本、〒870-0029 大分県大分市高砂町１−３０ S-Fort高砂町 ２０１",
+   "maps": "https://maps.google.com/?cid=3900269704595710335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "personal training studio Lead",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒870-0045 大分県大分市城崎町１丁目１−５ 城崎コスギビル 203",
+   "maps": "https://maps.google.com/?cid=4191010431606952781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ShineGlow",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒870-0951 大分県大分市下郡１５３６−２",
+   "maps": "https://maps.google.com/?cid=2577005315546667395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "be LIFE ボディメイク&フィットネス 大分店",
+   "rating": 4.7,
+   "reviews": 11,
+   "address": "日本、〒870-0954 大分県大分市下郡中央３丁目９−３７ スカイハイツ下郡",
+   "maps": "https://maps.google.com/?cid=11821291103105854431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RDC BODY LAB大分店",
+   "rating": 4.6,
+   "reviews": 11,
+   "address": "日本、〒870-0035 大分県大分市中央町１丁目１−２４ ヨミービル 5F",
+   "maps": "https://maps.google.com/?cid=7331856888516157768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム renewal(リニューアル)",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒870-0939 大分県大分市中津留１丁目３−１８ エムエル寿 201",
+   "maps": "https://maps.google.com/?cid=4868919715704144005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NOGGYM（ノグジム）パーソナルジム",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒870-0022 大分県大分市大手町２丁目４−２０ 小野ビル 2階",
+   "maps": "https://maps.google.com/?cid=6325464143055622404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムMIRA",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒870-0030 大分県大分市三芳１８３１−５",
+   "maps": "https://maps.google.com/?cid=12731149794371066165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムELEVEN",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒870-0025 大分県大分市顕徳町１丁目１０−２１ コントス顕徳ビル1階B",
+   "maps": "https://maps.google.com/?cid=16687997426236841140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エクササイズコーチトキハわさだタウン店",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒870-1198 大分県大分市玉沢字楠本７５５−１ トキハわさだタウン2街区 1階",
+   "maps": "https://maps.google.com/?cid=13266717961556831279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム FOLLOW(フォロー) 大分",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒870-0017 大分県大分市弁天２丁目３−１０ K1プラザ 105 パーソナルジム",
+   "maps": "https://maps.google.com/?cid=17748456780437367797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "bodysupport Re:Life",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒870-0009 大分県大分市王子町１１−１５ ブリュー豊国 103",
+   "maps": "https://maps.google.com/?cid=5539433919370657024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE THIRD SPACE ザ・サードスペース",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒870-0049 大分県大分市中島中央２丁目２−番２５号",
+   "maps": "https://maps.google.com/?cid=336435339077342044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "肩専門ケア＆トレーニング プラスコア",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒870-0892 大分県大分市賀来新川１丁目１−４９",
+   "maps": "https://maps.google.com/?cid=18375389447800117530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "S-BOX",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒870-0856 大分県大分市畑中２丁目２−５ Ｐ－Ｂｏｘ ｂｕｉｌｄｉｎｇ",
+   "maps": "https://maps.google.com/?cid=79089353248131751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分 パーソナルジム トクナガ（Oita Personal Gym Tokunaga）",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒870-0134 大分県大分市猪野１６１６−１ 3F",
+   "maps": "https://maps.google.com/?cid=11709600411948749679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム＆整体 KOIKEYA",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒870-0037 大分県大分市東春日町１５−２３",
+   "maps": "https://maps.google.com/?cid=18416927154211685803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "理学療法士の身体改善スタジオ liberar-リベラール-",
+   "rating": 5,
+   "reviews": 4,
+   "address": "Calm 1, 1057-1 寒田 大分市 大分県 870-1123 日本",
+   "maps": "https://maps.google.com/?cid=7366851586870794297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYM PROTEIOS大道店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒870-0820 大分県大分市西大道３丁目２−１６",
+   "maps": "https://maps.google.com/?cid=2959196620865083815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アスサポジム 大分店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒870-0886 大分県大分市上田町３丁目２−１５ グランモールきたじま 2階",
+   "maps": "https://maps.google.com/?cid=1997890088712477442&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トータルボディメイク ーONE TEAMー 明野店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒870-0163 大分県大分市明野東１丁目１−２３６４−１ トキハインダストリーあけのアクロスタウン一番街１階（ぶんご整骨院あけのアクロス院内",
+   "maps": "https://maps.google.com/?cid=7938575758570492174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Up to date",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒870-0035 大分県大分市中央町１丁目２−９ MMビル 3階",
+   "maps": "https://maps.google.com/?cid=8438818077213927886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "小さな整体＆トレーニングroom ~liberar（リベラール）~",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒870-1130 大分県大分市田尻中央１３−５",
+   "maps": "https://maps.google.com/?cid=4728719766999372852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ RINTO",
+   "rating": 4.5,
+   "reviews": 2,
+   "address": "日本、〒870-0165 大分県大分市明野北５丁目１１−１ 第2明友モール 105",
+   "maps": "https://maps.google.com/?cid=5334864559241760060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GRYNX 総合格闘技・フィットネス",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒870-1121 大分県大分市鴛野１０３５−９",
+   "maps": "https://maps.google.com/?cid=2151557125972143887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ATL WORKOUT STUDIO",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒870-0100 大分県大分市八幡１９３４−３２",
+   "maps": "https://maps.google.com/?cid=6353830638602813933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アロハロ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "コスモ 2 402 号, １丁目-５-1 府内町 大分市 大分県 870-0021 日本",
+   "maps": "https://maps.google.com/?cid=1471515370233765258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ウェルネススタジオNavigate",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒870-0021 大分県大分市府内町３丁目２−２１",
+   "maps": "https://maps.google.com/?cid=1118199205877681863&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "heart&body",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒870-0101 大分県大分市中鶴崎１丁目１−３",
+   "maps": "https://maps.google.com/?cid=6961264342589622314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PLUS+ONE",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒870-0036 大分県大分市寿町１１−２ 第3大成ビル103",
+   "maps": "https://maps.google.com/?cid=9231095247667795581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分女性専用パーソナルトレーニングジム Kroom Style",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒870-0933 大分県大分市花津留１丁目１２−５ 津留コーポ",
+   "maps": "https://maps.google.com/?cid=3460471506986713828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "personal training studio ventitre.",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒870-0934 大分県大分市東津留２丁目１０−１１ ユナイテッド津留ビル 301",
+   "maps": "https://maps.google.com/?cid=9861894526195685154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分パーソナルジムBUDDY金池南店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒870-0839 大分県大分市金池南１丁目６−２２ I-AGE401",
+   "maps": "https://maps.google.com/?cid=4228478230973060471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PROTEIOS ONE",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒870-0035 大分県大分市中央町２丁目９−２３",
+   "maps": "https://maps.google.com/?cid=8404798463989883714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

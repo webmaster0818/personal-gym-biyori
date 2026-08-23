@@ -1,0 +1,487 @@
+{
+ "city": "高松",
+ "fetchedAt": "2026-08-23",
+ "query": "パーソナルジム 高松",
+ "gyms": [
+  {
+   "name": "boneedz 高松店",
+   "rating": 5,
+   "reviews": 287,
+   "address": "日本、〒761-8056 香川県高松市上天神町２８３−１",
+   "maps": "https://maps.google.com/?cid=15988732149299789925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "JOYFIT24 高松",
+   "rating": 4.2,
+   "reviews": 247,
+   "address": "日本、〒761-8056 香川県高松市上天神町510番地1",
+   "maps": "https://maps.google.com/?cid=3295334448607823757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 高松店｜香川 マシンピラティス",
+   "rating": 5,
+   "reviews": 206,
+   "address": "日本、〒760-0079 香川県高松市松縄町1022−４ ビューティーリゾートアイリス 2F",
+   "maps": "https://maps.google.com/?cid=13088290333113490187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ティアラパーソナル",
+   "rating": 4.8,
+   "reviews": 176,
+   "address": "日本、〒761-8058 香川県高松市勅使町７１５",
+   "maps": "https://maps.google.com/?cid=653412725923600033&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ノバス 高松店",
+   "rating": 4.9,
+   "reviews": 171,
+   "address": "日本、〒760-0037 香川県高松市東浜町１丁目3−１ JAGビル 3F",
+   "maps": "https://maps.google.com/?cid=18057757382295854156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 高松店",
+   "rating": 5,
+   "reviews": 132,
+   "address": "日本、〒760-0078 香川県高松市今里町１丁目３２−１",
+   "maps": "https://maps.google.com/?cid=18080999019477699086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ノバス 丸亀町店",
+   "rating": 5,
+   "reviews": 102,
+   "address": "日本、〒760-0029 香川県高松市丸亀町5−１０ 榊原ビル 3階 302・303",
+   "maps": "https://maps.google.com/?cid=18401420561847703892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "高松クロスフィット",
+   "rating": 4.9,
+   "reviews": 88,
+   "address": "日本、〒761-8056 香川県高松市上天神町６３４",
+   "maps": "https://maps.google.com/?cid=1186795428321998501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム THE KNOTさぬき",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒769-2323 香川県さぬき市寒川町神前１５３４−８",
+   "maps": "https://maps.google.com/?cid=16702977086248291963&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "AI フィットネス GRANLAB 高松丸の内",
+   "rating": 5,
+   "reviews": 54,
+   "address": "日本、〒760-0033 香川県高松市高松１２ 市丸の内12-3",
+   "maps": "https://maps.google.com/?cid=8817744076744248375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムグリース",
+   "rating": 4.9,
+   "reviews": 52,
+   "address": "日本、〒761-8056 香川県高松市上天神町７８０−６ オフィスビルいずみ西 101",
+   "maps": "https://maps.google.com/?cid=15551574489857010101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムPOLITE鍛冶屋町店",
+   "rating": 5,
+   "reviews": 51,
+   "address": "日本、〒760-0028 香川県高松市鍛冶屋町１−４",
+   "maps": "https://maps.google.com/?cid=4734657122413667530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングヴィレッジ",
+   "rating": 4.8,
+   "reviews": 51,
+   "address": "日本、〒761-8075 香川県高松市多肥下町４８０−１",
+   "maps": "https://maps.google.com/?cid=7925623944424033852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BIPLUS BEAUTY 高松店",
+   "rating": 4.8,
+   "reviews": 46,
+   "address": "日本、〒760-0028 香川県高松市鍛冶屋町１−９",
+   "maps": "https://maps.google.com/?cid=10140413559871849139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム POLITE桜町店",
+   "rating": 5,
+   "reviews": 44,
+   "address": "日本、〒760-0074 香川県高松市桜町１丁目１６−１９ コーポエミ 1階",
+   "maps": "https://maps.google.com/?cid=17454500964480052453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CICストレッチジム/バイオ・モーションフィールド",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒761-0322 香川県高松市前田東町１１０１CICスポーツ／ジム／フィールド ホーム（民泊",
+   "maps": "https://maps.google.com/?cid=9559536231005966834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LINE GYM",
+   "rating": 4.7,
+   "reviews": 38,
+   "address": "日本、〒760-0066 香川県高松市福岡町４丁目３６−４４",
+   "maps": "https://maps.google.com/?cid=8300732754395003651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Condition Gym Step up",
+   "rating": 4.9,
+   "reviews": 32,
+   "address": "日本、〒760-0046 香川県高松市通町３−５ 中村ビル 2階",
+   "maps": "https://maps.google.com/?cid=4248471374814833376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Kii GYM高松店(パーソナルジム)/女性トレーナー在籍",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒761-8071 香川県高松市伏石町１６００−１ アゼール 103号室",
+   "maps": "https://maps.google.com/?cid=4164956803791978165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピナクル",
+   "rating": 4.3,
+   "reviews": 30,
+   "address": "日本、〒761-0313 香川県高松市下田井町３７２−１",
+   "maps": "https://maps.google.com/?cid=1981566242649385942&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DIAGYM-24HR FITNESS ダイヤジム-",
+   "rating": 4.6,
+   "reviews": 29,
+   "address": "日本、〒760-0055 香川県高松市観光通２丁目２−１５ ダイヤビル 1F",
+   "maps": "https://maps.google.com/?cid=13786382630580614782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)高松店",
+   "rating": 4.6,
+   "reviews": 28,
+   "address": "日本、〒760-0029 香川県高松市丸亀町３−１３−高松 参番街 西館 3F",
+   "maps": "https://maps.google.com/?cid=16086855623319777366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ストレッチ専門店 Nat.(ナット)",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒761-8073 香川県高松市太田下町３０４１−１４",
+   "maps": "https://maps.google.com/?cid=9580525507862634208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジム アルビネス",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒761-8076 香川県高松市多肥上町１８６７−１４ 3F",
+   "maps": "https://maps.google.com/?cid=16577489933699974188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "1/3rd FITNESS 高松店",
+   "rating": 4.3,
+   "reviews": 22,
+   "address": "日本、〒760-0078 香川県高松市今里町３−３",
+   "maps": "https://maps.google.com/?cid=17084277728711479814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム ラムア 高松店",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒760-0034 香川県高松市内町３−２１ ３ビル 2F",
+   "maps": "https://maps.google.com/?cid=7249907600978505876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス＆整体 StudioTwinkle",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒761-8074 香川県高松市太田上町７２３−１ MTレジデンス 1F",
+   "maps": "https://maps.google.com/?cid=1947328310980184388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIFE TIME",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒760-0078 香川県高松市今里町１丁目８−１１",
+   "maps": "https://maps.google.com/?cid=15683006159985621443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "COLORS",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒761-8072 香川県高松市三条町３１５−５ 三多ビル２ 階２０２",
+   "maps": "https://maps.google.com/?cid=3934381895583683231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SHE by boneedz シーバイボニーズ",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒760-0007 香川県高松市中央町１５−９ ２階",
+   "maps": "https://maps.google.com/?cid=1353273766293851424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディコントロールジムシェイプリー",
+   "rating": 4.7,
+   "reviews": 17,
+   "address": "日本、〒761-0322 香川県高松市前田東町１１０３−３",
+   "maps": "https://maps.google.com/?cid=1074298335036383345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムTHE KNOT高松春日",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒761-0101 香川県高松市春日町２４３−１",
+   "maps": "https://maps.google.com/?cid=17214979013737705150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファイティングフィットネスジム Leo",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒761-0322 香川県高松市前田東町１０７０−１３",
+   "maps": "https://maps.google.com/?cid=7253380621747020081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トータルフィットネス繋",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒761-8074 香川県高松市太田上町１００４−４ ハートッゥハート 2F",
+   "maps": "https://maps.google.com/?cid=3034235366662092170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Conditioning Studio Nico",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒761-0303 香川県高松市六条町３７５−４",
+   "maps": "https://maps.google.com/?cid=12177109895937707604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムDREAM高松",
+   "rating": 4.7,
+   "reviews": 10,
+   "address": "日本、〒761-8078 香川県高松市仏生山町甲44−２",
+   "maps": "https://maps.google.com/?cid=17256099946818054276&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アグレストビューティーラボ",
+   "rating": 4.7,
+   "reviews": 10,
+   "address": "日本、〒760-0054 香川県高松市常磐町１丁目5−５ 3F",
+   "maps": "https://maps.google.com/?cid=1385284710954755656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムPOLITE仏生山店",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒761-8078 香川県高松市仏生山町甲１４７５−２ アートビル 1F",
+   "maps": "https://maps.google.com/?cid=9151142194079284047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GENIC.",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒760-0034 香川県高松市内町６−８ 4F",
+   "maps": "https://maps.google.com/?cid=17554695117510285692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "運動サポートジム Katachi（カタチ）",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒761-0113 香川県高松市屋島屋島西町１４６４ プラザビル 1F",
+   "maps": "https://maps.google.com/?cid=865526743442928975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングジム ネスト",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒760-0080 香川県高松市木太町5093−９",
+   "maps": "https://maps.google.com/?cid=12225002485054181026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボニーズサロン",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒761-8056 香川県高松市上天神町２８３−１",
+   "maps": "https://maps.google.com/?cid=8063093262372762879&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス＆パーソナルジムCARNA",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒769-0101 香川県高松市国分寺町新居１３９３−１ 福江ビル E-1",
+   "maps": "https://maps.google.com/?cid=18211332961484440739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トランポリンパーク・ホッピンマッシュ！高松店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒760-0080 香川県高松市木太町２０２４−１",
+   "maps": "https://maps.google.com/?cid=11806209320512232563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス＆パーソナルジム FREYA",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒760-0080 香川県高松市木太町１１４３−１ ローズシャルムハスイ １０７",
+   "maps": "https://maps.google.com/?cid=5488008508464594458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Body Make Gym YATABE GYM",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒760-0015 香川県高松市紫雲町７−７ ひだまりアパート 101",
+   "maps": "https://maps.google.com/?cid=13825791526539062519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Fit",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒760-0079 香川県高松市松縄町1003−７ レイボータウン ２F-C",
+   "maps": "https://maps.google.com/?cid=18442424096390080500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Re:Body K",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒761-0446 香川県高松市東植田町６０５−４",
+   "maps": "https://maps.google.com/?cid=13061715015668024268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Legare パーソナルトレーニング",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒760-0046 香川県高松市通町１−５",
+   "maps": "https://maps.google.com/?cid=4848758269535712499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Homare",
+   "rating": 4.5,
+   "reviews": 4,
+   "address": "日本、〒761-8076 香川県高松市多肥上町１９４４−６",
+   "maps": "https://maps.google.com/?cid=14819288606450599474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ゴリラジム",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒761-8058 香川県高松市勅使町７１５",
+   "maps": "https://maps.google.com/?cid=4262060401855057939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HPER（ハイパー）高松瓦町店｜高松市のダイエット専門パーソナルジム",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒760-0062 香川県高松市塩上町１丁目４−８ ２階",
+   "maps": "https://maps.google.com/?cid=18072625292348294638&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスシティボディデザイナーズ",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒761-1705 香川県高松市香川町川東下１３０５ ＯＴＡビル 2Ｆ",
+   "maps": "https://maps.google.com/?cid=5464906226794331142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングスタジオsunny",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒761-0104 香川県高松市高松町２１９６−１１０",
+   "maps": "https://maps.google.com/?cid=13211028539749426159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "be Natural gym",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒760-0078 香川県高松市今里町２丁目１４−１",
+   "maps": "https://maps.google.com/?cid=11454646557389698146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRAIN Conditioning Station",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒760-0054 香川県高松市常磐町１丁目３−１",
+   "maps": "https://maps.google.com/?cid=11744814678545404554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Families ファミリーズ 健康増進施設",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒760-0065 香川県高松市朝日町１丁目３−５",
+   "maps": "https://maps.google.com/?cid=217588675677779943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングスタジオつきの木",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒760-0025 香川県高松市古新町１−４ WINDビル 3階302",
+   "maps": "https://maps.google.com/?cid=381423270949008391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY IMPROVE",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒761-8081 香川県高松市成合町１５５９",
+   "maps": "https://maps.google.com/?cid=1171481913488879376&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "crutch gym（クラッチジム）",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒761-0121 香川県高松市牟礼町牟礼69−１",
+   "maps": "https://maps.google.com/?cid=6747185068872832852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
