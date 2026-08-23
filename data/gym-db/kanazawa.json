@@ -1,0 +1,487 @@
+{
+ "city": "金沢",
+ "fetchedAt": "2026-08-23",
+ "query": "パーソナルジム 金沢",
+ "gyms": [
+  {
+   "name": "THE PERSONAL GYM 金沢店",
+   "rating": 4.9,
+   "reviews": 222,
+   "address": "日本、〒920-0941 石川県金沢市旭町２丁目７−２９ アムール・アサヒ 1F",
+   "maps": "https://maps.google.com/?cid=10024282288029160429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スコール金沢 フィットネス&スパ",
+   "rating": 4,
+   "reviews": 172,
+   "address": "日本、〒920-0031 石川県金沢市広岡３丁目３−７０ 3F",
+   "maps": "https://maps.google.com/?cid=1389996561475601485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND金沢店",
+   "rating": 5,
+   "reviews": 129,
+   "address": "日本、〒921-8011 石川県金沢市入江２丁目４５ NKビル 1F",
+   "maps": "https://maps.google.com/?cid=6569710485841047748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Paw women's fitness 金沢 / 女性専用24時間ジム / ピラティス",
+   "rating": 4.9,
+   "reviews": 107,
+   "address": "日本、〒920-0022 石川県金沢市北安江４丁目１１−３０",
+   "maps": "https://maps.google.com/?cid=13846828437689413942&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEWMEAL",
+   "rating": 4.9,
+   "reviews": 88,
+   "address": "日本、〒920-0913 石川県金沢市西町３番丁１５−１５ ＮｅｗＭｅａｌ",
+   "maps": "https://maps.google.com/?cid=8533539090547794858&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MONSTER FITNESS 金沢店",
+   "rating": 4.9,
+   "reviews": 80,
+   "address": "日本、〒920-0043 石川県金沢市長田２丁目２６−５ 205号室 パーソナルジム",
+   "maps": "https://maps.google.com/?cid=10524000142513778740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MUSCLE GYM 金沢店",
+   "rating": 4.2,
+   "reviews": 75,
+   "address": "日本、〒921-8821 石川県野々市市白山町４−１ イオンタウン野々市店",
+   "maps": "https://maps.google.com/?cid=3226628627985492165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リボーンマイセルフ金沢店",
+   "rating": 4.8,
+   "reviews": 74,
+   "address": "日本、〒920-0981 石川県金沢市片町１丁目４−１９ 亀井ビル 2階",
+   "maps": "https://maps.google.com/?cid=12937416561008031711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リズ ピラティス＆パーソナルジム 野々市",
+   "rating": 4.9,
+   "reviews": 59,
+   "address": "日本、〒921-8847 石川県野々市市蓮花寺町 中央区画整理地内37街区7 Renge-G an テナントB",
+   "maps": "https://maps.google.com/?cid=654637634385888345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)金沢店",
+   "rating": 4.9,
+   "reviews": 45,
+   "address": "日本、〒920-0981 石川県金沢市片町１丁目１−３０ 金沢朝日ビル",
+   "maps": "https://maps.google.com/?cid=3338010261278156061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DEED パーソナルトレーニングジム∞金沢店",
+   "rating": 5,
+   "reviews": 38,
+   "address": "日本、〒920-0854 石川県金沢市安江町１７−１ 1F",
+   "maps": "https://maps.google.com/?cid=2246227245958837596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "金沢駅・ムサシ ｜パーソナルジム Bessere Balance（ベッセラ・バランス）｜金沢のマシンピラティス",
+   "rating": 4.9,
+   "reviews": 36,
+   "address": "日本、〒920-0845 石川県金沢市瓢箪町１−３ ＳＳビル １０１号",
+   "maps": "https://maps.google.com/?cid=4951882871952412781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Es",
+   "rating": 4.9,
+   "reviews": 35,
+   "address": "日本、〒921-8063 石川県金沢市八日市出町256YORK105B−２５６",
+   "maps": "https://maps.google.com/?cid=17687640500639096643&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "シニア向けパーソナルジム Personal GYM ATENA/金沢市",
+   "rating": 5,
+   "reviews": 31,
+   "address": "日本、〒920-0047 石川県金沢市大豆田本町甲４８",
+   "maps": "https://maps.google.com/?cid=16773341453418444948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディメイクサロンReturn",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒920-0024 石川県金沢市西念２丁目３−３ レンタルジムリペア 内",
+   "maps": "https://maps.google.com/?cid=1702491792025511666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIVITO(リビト)金沢店",
+   "rating": 4.8,
+   "reviews": 27,
+   "address": "日本、〒921-8116 石川県金沢市泉野出町２丁目１５−２２",
+   "maps": "https://maps.google.com/?cid=7970220261663076943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "自重パーソナルジム LifeGYM",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒920-1151 石川県金沢市田上町タ 夕10-3アートリー1F",
+   "maps": "https://maps.google.com/?cid=1444480356329880539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "K-STYLE-FITNESS",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒920-0017 石川県金沢市諸江町下丁５５−１",
+   "maps": "https://maps.google.com/?cid=18089393236863098450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Gym Repair(プライベートジムリペア)",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒920-0348 石川県金沢市松村１丁目８５ 2階",
+   "maps": "https://maps.google.com/?cid=10099922339594835830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "整体ジムVIA DESIGN",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒920-0022 石川県金沢市北安江４丁目１−２７ イワクラビル 2F",
+   "maps": "https://maps.google.com/?cid=9474579264516294063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYM50 金沢店",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒920-0043 石川県金沢市長田２丁目２６−５ 201号",
+   "maps": "https://maps.google.com/?cid=9658158551499866485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BodyCareGymCONNECT新神田店",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒921-8013 石川県金沢市新神田３丁目３−１８ 新神田堀ビル",
+   "maps": "https://maps.google.com/?cid=519220427139944116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ピラティス 金沢店《個室パーソナルピラティススタジオ》",
+   "rating": 4.9,
+   "reviews": 22,
+   "address": "日本、〒920-0981 石川県金沢市片町１丁目１−２９ 香林坊ファーストビル 7階",
+   "maps": "https://maps.google.com/?cid=11437759383722430889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム K-Habit",
+   "rating": 4.8,
+   "reviews": 21,
+   "address": "日本、〒920-0805 石川県金沢市小金町７−１５",
+   "maps": "https://maps.google.com/?cid=12403814067834864740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KBODY LABO.",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒921-8154 石川県金沢市高尾南３丁目１４−１４ 窪田接骨院 ２F",
+   "maps": "https://maps.google.com/?cid=8981647835651318673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジムガーデン",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒921-8062 石川県金沢市新保本１丁目３８８",
+   "maps": "https://maps.google.com/?cid=193772950295813802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Body Make Lab FIORE",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒920-0025 石川県金沢市駅西本町３丁目１６−３３",
+   "maps": "https://maps.google.com/?cid=10990137617326485902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL GYM STACKS",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒921-8025 石川県金沢市増泉２丁目７−４６",
+   "maps": "https://maps.google.com/?cid=134544535151004447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PRIVATE GYM V",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒920-0968 石川県金沢市幸町１６−２２",
+   "maps": "https://maps.google.com/?cid=9540514272823242864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "西金沢|40代以上専門ジム|Es Training Center",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒921-8054 石川県金沢市西金沢４丁目４９２",
+   "maps": "https://maps.google.com/?cid=17306739529555783407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "A-ffix 金沢",
+   "rating": 4.2,
+   "reviews": 16,
+   "address": "日本、〒920-8217 石川県金沢市近岡町３５８",
+   "maps": "https://maps.google.com/?cid=18359154885044942544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 金沢店",
+   "rating": 4.4,
+   "reviews": 14,
+   "address": "日本、〒920-0981 石川県金沢市片町１丁目１−２９ 香林坊ファーストビル 7F",
+   "maps": "https://maps.google.com/?cid=11280652506008245790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "IXGYM24 RAISE八日市",
+   "rating": 4.9,
+   "reviews": 13,
+   "address": "日本、〒921-8063 石川県金沢市八日市出町769番地",
+   "maps": "https://maps.google.com/?cid=4808241830700293653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムART -BodyMake Nutrition-",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒921-8064 石川県金沢市八日市３丁目５８６ はなみずき5 101",
+   "maps": "https://maps.google.com/?cid=10486111728645932977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BodyCareGymCONNECT入江店",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒921-8011 石川県金沢市入江１丁目１３８ 北川ビル 1階",
+   "maps": "https://maps.google.com/?cid=3715881607131481836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Gym POWER ON（パワーオン）",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒921-8163 石川県金沢市横川６丁目６番地",
+   "maps": "https://maps.google.com/?cid=17031530156566420239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングスタジオ Infinity ∞",
+   "rating": 4.6,
+   "reviews": 10,
+   "address": "日本、〒921-8054 石川県金沢市西金沢１丁目１４５−３６",
+   "maps": "https://maps.google.com/?cid=13313473133264270807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "〜夢現〜芳斉店",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒920-0862 石川県金沢市芳斉１丁目９−６",
+   "maps": "https://maps.google.com/?cid=13964594745447326948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Conditioning Studio esora",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒920-0022 石川県金沢市北安江３丁目１３−13番地16 NDビル Ⅱ001号",
+   "maps": "https://maps.google.com/?cid=3055175196822206668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TripleG Prestige",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒920-0917 石川県金沢市下堤町１７−１ 朝日プラザ Prestige 金沢近江町 1F",
+   "maps": "https://maps.google.com/?cid=10140276474014708311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIVE M PERSONAL GYM",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒921-8027 石川県金沢市神田１丁目１１ 12号",
+   "maps": "https://maps.google.com/?cid=11884284294173909286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スモールジム LIFE STORY武蔵店",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒920-0855 石川県金沢市武蔵町１６−４２ エムザスカイパーキング G階",
+   "maps": "https://maps.google.com/?cid=5340169928629575199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BOOST ACADEMIA / ブーストアカデミア",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒921-8054 石川県金沢市西金沢４丁目５７３",
+   "maps": "https://maps.google.com/?cid=11531609319656237871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プリッツジム金沢・野々市店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒921-8164 石川県金沢市久安２丁目４６０ 302",
+   "maps": "https://maps.google.com/?cid=9730302555768946871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "hood training",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒920-0925 石川県金沢市天神町１丁目１４−３１",
+   "maps": "https://maps.google.com/?cid=12580736332001109462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムHPER（ハイパー）金沢駅西店",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒920-0022 石川県金沢市北安江３丁目６−６ メッセ・ヤスダ 203号室",
+   "maps": "https://maps.google.com/?cid=6281353673909731251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Fit & Nutrition IRODORI 女性向けの小さなジム",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒921-8164 石川県金沢市久安３丁目２０ 20番地",
+   "maps": "https://maps.google.com/?cid=5986520024974215949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KBODY LABO.玉鉾店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒921-8002 石川県金沢市玉鉾２丁目５０７ 2A",
+   "maps": "https://maps.google.com/?cid=12641367473549024316&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Gym&Coffee DADA 金沢コースト店",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒920-0376 石川県金沢市福増町北１３８３ 番1",
+   "maps": "https://maps.google.com/?cid=15536891281834401444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PrivateGymKONFiDO本店",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒920-0807 石川県金沢市乙丸町丙44−３",
+   "maps": "https://maps.google.com/?cid=10577467935543736548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムHPER（ハイパー）金沢泉が丘店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒921-8116 石川県金沢市泉野出町１丁目１３−２１ 牧野テナント 2階",
+   "maps": "https://maps.google.com/?cid=3675127191378691530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ランニング専門パーソナルジムTano-sim",
+   "rating": 4.5,
+   "reviews": 2,
+   "address": "日本、〒921-8002 石川県金沢市玉鉾１丁目１６８ 松本ビル 102",
+   "maps": "https://maps.google.com/?cid=18102034621107035485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PrivateGymKONFiDO泉野出町店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒921-8116 石川県金沢市泉野出町１丁目１３−２１ カラオケさろんまきの",
+   "maps": "https://maps.google.com/?cid=17225408947929120110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "個室レンタルジム〜夢現〜笠市店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒920-0851 石川県金沢市笠市町４−１０ スコーレハイツ ロイヤル笠市 103",
+   "maps": "https://maps.google.com/?cid=3095752071583832400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジム ADVANCE｜キックボクシングパーソナルジム",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒920-1158 石川県金沢市朝霧台２丁目159番地",
+   "maps": "https://maps.google.com/?cid=10596778008224875825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "イーチクラスフィットネス シェアレ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒920-0025 石川県金沢市駅西本町６丁目１５−８ 藤江南ハイム",
+   "maps": "https://maps.google.com/?cid=6863923665535823183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Reex[リークス]",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒920-0923 石川県金沢市桜町１９−１９ SJウッドハウス A棟 2階",
+   "maps": "https://maps.google.com/?cid=13434689394397206948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "予防運動ジム UPRIGHT金沢店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒921-8025 石川県金沢市増泉１丁目２−２３ 金城ビル 3階",
+   "maps": "https://maps.google.com/?cid=10051111165334821590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専門パーソナルピラティス COCOLANCE 金沢店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒920-0862 石川県金沢市芳斉１丁目１４−１２ ヘルベチカ １０３号室",
+   "maps": "https://maps.google.com/?cid=715690601404445298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディコーディネート welle",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒921-8015 石川県金沢市東力１丁目",
+   "maps": "https://maps.google.com/?cid=1391141626565077198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

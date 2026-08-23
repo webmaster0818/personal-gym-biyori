@@ -1,0 +1,487 @@
+{
+ "city": "松山",
+ "fetchedAt": "2026-08-23",
+ "query": "パーソナルジム 松山",
+ "gyms": [
+  {
+   "name": "ピラティススタジオDEP 松山店 山越スタジオ｜松山 マシンピラティス",
+   "rating": 4.9,
+   "reviews": 156,
+   "address": "日本、〒791-8013 愛媛県松山市山越４丁目４−３５ エクセル丸榮",
+   "maps": "https://maps.google.com/?cid=6852694499025184262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【整体×ピラティス】pilates Re+ 松山 (ピラティスリプラ)",
+   "rating": 4.9,
+   "reviews": 142,
+   "address": "日本、〒790-0003 愛媛県松山市三番町２丁目２−１",
+   "maps": "https://maps.google.com/?cid=1157695428082697187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルダイエットジムALLOUT",
+   "rating": 4.9,
+   "reviews": 121,
+   "address": "日本、〒790-0941 愛媛県松山市和泉南２丁目２−３３",
+   "maps": "https://maps.google.com/?cid=1537833842697690321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マシンピラティススタジオシルエット",
+   "rating": 4.9,
+   "reviews": 120,
+   "address": "日本、〒790-0012 愛媛県松山市湊町６丁目５−６ BO&CO 2F",
+   "maps": "https://maps.google.com/?cid=17471844192714285580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "P・SPO（ピースポ）松山中央通り店",
+   "rating": 3.6,
+   "reviews": 94,
+   "address": "日本、〒791-8015 愛媛県松山市中央２丁目76−１ P・SPO24 （ピースポ24）松山中央通り店",
+   "maps": "https://maps.google.com/?cid=4328630899891125835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 松山店",
+   "rating": 4.9,
+   "reviews": 68,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町６丁目５−９ 大西ビル 3F",
+   "maps": "https://maps.google.com/?cid=11210969499658154534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用 加圧パーソナルトレーニングジム BIPLUS BEAUTY 松山店",
+   "rating": 4.9,
+   "reviews": 68,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町５丁目２−６ 8階",
+   "maps": "https://maps.google.com/?cid=15458645476532421479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Streamline",
+   "rating": 5,
+   "reviews": 62,
+   "address": "日本、〒790-0823 愛媛県松山市清水町１丁目２−１ メゾン平和 201",
+   "maps": "https://maps.google.com/?cid=16279637404692163865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY MAKE GYM NOOOS 〈ボディメイクジムノース〉",
+   "rating": 5,
+   "reviews": 57,
+   "address": "日本、〒790-0012 愛媛県松山市湊町４丁目２−７ 土屋ビル 201号",
+   "maps": "https://maps.google.com/?cid=12037487645721826139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム glow up（グローアップ）",
+   "rating": 5,
+   "reviews": 54,
+   "address": "日本、〒790-0052 愛媛県松山市竹原町１丁目１０−３３ プライム新田 1F",
+   "maps": "https://maps.google.com/?cid=15543612988020379566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Streamline 千舟町店",
+   "rating": 5,
+   "reviews": 53,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町２丁目３−１８ 昇栄ビル 2階",
+   "maps": "https://maps.google.com/?cid=3009519988910952712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ストレッチLIFE",
+   "rating": 5,
+   "reviews": 51,
+   "address": "日本、〒790-0013 愛媛県松山市河原町６−５ メゾンピサンリ 3階",
+   "maps": "https://maps.google.com/?cid=10208267510108089168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム PROUD 松山",
+   "rating": 5,
+   "reviews": 46,
+   "address": "日本、〒790-0863 愛媛県松山市此花町３−８ D",
+   "maps": "https://maps.google.com/?cid=8064541812330582556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブ フィッタライトスタイル和泉",
+   "rating": 4,
+   "reviews": 46,
+   "address": "日本、〒790-0941 愛媛県松山市和泉南２丁目１３−１４",
+   "maps": "https://maps.google.com/?cid=14070390072112224163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Gym Mirror （ジムミラー）",
+   "rating": 5,
+   "reviews": 45,
+   "address": "日本、〒790-0932 愛媛県松山市東石井６丁目１２−３２ 宮内ビル 1F",
+   "maps": "https://maps.google.com/?cid=6022775213622493540&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プリッツジム愛媛松山店",
+   "rating": 4.9,
+   "reviews": 36,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町６丁目2−１６ イイオビル 2階",
+   "maps": "https://maps.google.com/?cid=15141104550162281173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム RB-Fitness（アールビーフィットネス）松山店",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒790-0067 愛媛県松山市大手町１丁目８−１６ 二宮ビル ５階東",
+   "maps": "https://maps.google.com/?cid=11343742982005845765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Gnarly GYM 【ナーリージム】",
+   "rating": 5,
+   "reviews": 34,
+   "address": "日本、〒790-0813 愛媛県松山市萱町４丁目４−５ 村上ビル F1",
+   "maps": "https://maps.google.com/?cid=6190389923175484244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ひら屋 CONDITIONING×BODY DESIGN",
+   "rating": 4.9,
+   "reviews": 29,
+   "address": "日本、〒790-0863 愛媛県松山市此花町１−２３ 2F",
+   "maps": "https://maps.google.com/?cid=18034086212052157461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "クロスフィット松山",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒791-8015 愛媛県松山市中央１丁目４−５",
+   "maps": "https://maps.google.com/?cid=11614226176672677562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEaRE",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒791-8013 愛媛県松山市山越５丁目７−７",
+   "maps": "https://maps.google.com/?cid=5001795244884777361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)松山店",
+   "rating": 3.9,
+   "reviews": 26,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町４丁目５−４ 松山千舟454ビル 1F",
+   "maps": "https://maps.google.com/?cid=1799129258597234914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EVO.STAR松山 エヴォスタ松山",
+   "rating": 4.8,
+   "reviews": 25,
+   "address": "日本、〒790-0878 愛媛県松山市勝山町１丁目２−３ 協和トラベルビル 1・2F",
+   "maps": "https://maps.google.com/?cid=4738056615144104533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Яe:US conditioning 鍼灸•整骨",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒790-0006 愛媛県松山市南堀端町5番地6 堀端テラス 102",
+   "maps": "https://maps.google.com/?cid=368727440041095250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ノバス 松山店",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒790-0003 愛媛県松山市三番町７丁目１２−８ ラ.シャンブル 101",
+   "maps": "https://maps.google.com/?cid=1166823585361278734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ランクアップ松山",
+   "rating": 4.5,
+   "reviews": 24,
+   "address": "日本、〒791-8015 愛媛県松山市中央１丁目１５−２８ ランクアップジャパン",
+   "maps": "https://maps.google.com/?cid=3193051859027932621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Life Activation+Body",
+   "rating": 4.9,
+   "reviews": 23,
+   "address": "日本、〒791-3110 愛媛県伊予郡松前町浜３１２−１ 2階",
+   "maps": "https://maps.google.com/?cid=7577940975325119331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DEA CARNA",
+   "rating": 4.4,
+   "reviews": 19,
+   "address": "日本、〒790-0911 愛媛県松山市桑原４丁目７−２０",
+   "maps": "https://maps.google.com/?cid=5721443843875856896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "COCO.STYLE",
+   "rating": 4.9,
+   "reviews": 18,
+   "address": "日本、〒799-2432 愛媛県松山市土手内２１２−１",
+   "maps": "https://maps.google.com/?cid=12218676205472190828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "空~kuu~治療院×DUEL personal GYM",
+   "rating": 5,
+   "reviews": 17,
+   "address": "Villa Sonoda, ３丁目-１７-3 和泉北 松山市 愛媛県 790-0038 日本",
+   "maps": "https://maps.google.com/?cid=6032942470090440181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL GYM SOLANA/パーソナルジムソラナ",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒790-0873 愛媛県松山市北持田町１３１−６ 玉川ビル 101",
+   "maps": "https://maps.google.com/?cid=7435318866180246780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MYFITNESSアスリートハウス",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒790-0813 愛媛県松山市萱町３丁目４−９",
+   "maps": "https://maps.google.com/?cid=186195384315401748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "松山パーソナルジム Hero King Gymヒーローキングジム",
+   "rating": 4.8,
+   "reviews": 16,
+   "address": "日本、〒790-0821 愛媛県松山市木屋町２丁目８−９",
+   "maps": "https://maps.google.com/?cid=7997478945856382746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B SHAPE FITNESS 24GYM（ビーシェイプ フィットネス 24ジム）",
+   "rating": 4.8,
+   "reviews": 15,
+   "address": "日本、〒790-0951 愛媛県松山市天山３丁目１５−１８",
+   "maps": "https://maps.google.com/?cid=7495418182279930360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MY FITNESS",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒790-0054 愛媛県松山市空港通１丁目３−２ 東和ビル 1F",
+   "maps": "https://maps.google.com/?cid=15520846868937945493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EASTER-YLE 初心者大歓迎のリーズナブルなパーソナルジム",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒791-8016 愛媛県松山市久万ノ台８９９−１ 1F",
+   "maps": "https://maps.google.com/?cid=17396478548586442001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LEGIT(リジット)",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒790-0823 愛媛県松山市清水町３丁目６４−１０ 池内ビル １F",
+   "maps": "https://maps.google.com/?cid=6161464272181143946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Performance & Conditioning Laboratory DOGO",
+   "rating": 4.9,
+   "reviews": 12,
+   "address": "日本、〒790-0848 愛媛県松山市道後喜多町８−８ 道後山本ビル 100号",
+   "maps": "https://maps.google.com/?cid=10618756579286233941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネススクール ロコモK.O南久米店",
+   "rating": 4.4,
+   "reviews": 12,
+   "address": "日本、〒790-0924 愛媛県松山市南久米町６７２−１",
+   "maps": "https://maps.google.com/?cid=10761391866869298603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムito 千舟町本店",
+   "rating": 4.6,
+   "reviews": 9,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町５丁目1−５ ワークビル 5F",
+   "maps": "https://maps.google.com/?cid=9080853145743328849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GrowEggGym",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒791-1104 愛媛県松山市北土居５丁目１６",
+   "maps": "https://maps.google.com/?cid=13222990692284677214&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PHYSIO（フィジオ）松山-パーソナルコンディショニング-",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒790-0043 愛媛県松山市保免西４丁目４−４８",
+   "maps": "https://maps.google.com/?cid=16536596031464431918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Hip up Gym 松山",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒790-0004 愛媛県松山市大街道１丁目4−６ 高木ビル 2F北",
+   "maps": "https://maps.google.com/?cid=2639088425785139651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧・パーソナルジム Sun -サン-",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒790-0904 愛媛県松山市正円寺３丁目１０−８",
+   "maps": "https://maps.google.com/?cid=18026940706536075728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EmiFit",
+   "rating": 4.5,
+   "reviews": 8,
+   "address": "日本、〒790-0921 愛媛県松山市福音寺町703番地6",
+   "maps": "https://maps.google.com/?cid=10011286342025880461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム オールマイティ MATSUYAMA",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒150-0045 東京都渋谷区神泉町１５−１１ ＪＰビル 302",
+   "maps": "https://maps.google.com/?cid=3146569391407066680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムito 古川西店",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒790-0944 愛媛県松山市古川西３丁目３−３３ オックスフォードサーカスカメリア102号",
+   "maps": "https://maps.google.com/?cid=7372249211531838107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エンパワーメントフィットネス ＶＯＲＴＥＸ",
+   "rating": 4.3,
+   "reviews": 7,
+   "address": "日本、〒790-0001 愛媛県松山市一番町３丁目２−１ ANAクラウンプラザホテル松山地下1階",
+   "maps": "https://maps.google.com/?cid=17626085177482663334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PROLIFE",
+   "rating": 4.7,
+   "reviews": 6,
+   "address": "日本、〒790-0852 愛媛県松山市石手４丁目３−３ アイビーコート石手 2階東",
+   "maps": "https://maps.google.com/?cid=17730223119502207429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧BFRパーソナルトレーニング＆整体 マナスタ",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒790-0878 愛媛県松山市勝山町１丁目８−１",
+   "maps": "https://maps.google.com/?cid=4846619502003864398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング&メンタルヘルス｜ASMI (アスミ) 松山",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒790-0824 愛媛県松山市御幸２丁目６−４５ グランセル松山 1F",
+   "maps": "https://maps.google.com/?cid=14373661751768266117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジム10min",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒790-0004 愛媛県松山市大街道１丁目4−６ 高木ビル 2F北",
+   "maps": "https://maps.google.com/?cid=5972568461053898595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムGLF(ジルフ)",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒790-0036 愛媛県松山市小栗３丁目４−４４ テラコッタ 204",
+   "maps": "https://maps.google.com/?cid=11451000549744810269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムito 三番町店",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒790-0003 愛媛県松山市三番町５丁目１−１０ 2F南",
+   "maps": "https://maps.google.com/?cid=6996860218103354302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Pilates isM(イズム)松山店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町５丁目6−３ 二宮ビル 2F",
+   "maps": "https://maps.google.com/?cid=3198936730607858604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムf.BRAIning",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒790-0833 愛媛県松山市祝谷４丁目７−１４ 祝谷ビル 1階南側",
+   "maps": "https://maps.google.com/?cid=7623671273870738632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "レンタルプライベートジムFit松山店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒791-8022 愛媛県松山市美沢１丁目５−２８",
+   "maps": "https://maps.google.com/?cid=8180019776331096014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス×パーソナルトレーニングESNA",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒790-0004 愛媛県松山市大街道１丁目４−６ 高木ビル ２Ｆ 北",
+   "maps": "https://maps.google.com/?cid=4991782308804603528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム ダイエットパートナー松山市店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒790-0011 愛媛県松山市千舟町５丁目１−６ 三宅ビル 3階南",
+   "maps": "https://maps.google.com/?cid=5956490684141180381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL GYM LIBBON",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒790-0875 愛媛県松山市御宝町１２４",
+   "maps": "https://maps.google.com/?cid=14378500843018228625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+ "city": "宇都宮",
+ "fetchedAt": "2026-08-23",
+ "query": "パーソナルジム 宇都宮",
+ "gyms": [
+  {
+   "name": "FIT PLACE24 宇都宮簗瀬店",
+   "rating": 4.8,
+   "reviews": 422,
+   "address": "日本、〒321-0933 栃木県宇都宮市簗瀬町1606ｰ1 Ｐ＆Ｄフェドラ Ｐ＆Ｄ 宇都宮 １Ｆ",
+   "maps": "https://maps.google.com/?cid=380646533071470297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "VERUS 宇都宮店",
+   "rating": 4.5,
+   "reviews": 328,
+   "address": "日本、〒320-0851 栃木県宇都宮市鶴田町１４５７−６",
+   "maps": "https://maps.google.com/?cid=13254031254219365397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファディー宇都宮中今泉",
+   "rating": 4.9,
+   "reviews": 248,
+   "address": "日本、〒321-0968 栃木県宇都宮市中今泉５丁目２２−３",
+   "maps": "https://maps.google.com/?cid=14144813446829964763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 宇都宮店",
+   "rating": 4.9,
+   "reviews": 226,
+   "address": "日本、〒321-0953 栃木県宇都宮市東宿郷４丁目１−２８ 河合ビル 3F",
+   "maps": "https://maps.google.com/?cid=8939788396711033125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用24時間ジム Amazones（アマゾネス）宇都宮店",
+   "rating": 4.9,
+   "reviews": 218,
+   "address": "日本、〒321-0973 栃木県宇都宮市岩曽町１３９２−４５",
+   "maps": "https://maps.google.com/?cid=12534327135702581116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム シャイン宇都宮 美容整体",
+   "rating": 5,
+   "reviews": 102,
+   "address": "日本、〒320-0847 栃木県宇都宮市滝谷町４−３ Yタキヤ 5号室",
+   "maps": "https://maps.google.com/?cid=16024857695122064585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【女性専用パーソナルジム】GYMS（ジムズ） 宇都宮店",
+   "rating": 4.6,
+   "reviews": 102,
+   "address": "日本、〒321-0964 栃木県宇都宮市駅前通り１丁目５−６ 白木屋ビル 5階",
+   "maps": "https://maps.google.com/?cid=14805166041586171646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "T&Mパーソナルジム 簗瀬店",
+   "rating": 5,
+   "reviews": 100,
+   "address": "日本、〒321-0934 栃木県宇都宮市簗瀬４丁目１２−２９ ハイツマロン １０１号室",
+   "maps": "https://maps.google.com/?cid=17650693374633646020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "1x1 Eleven Body Design(イレブンボディデザイン)",
+   "rating": 4.9,
+   "reviews": 86,
+   "address": "日本、〒321-0152 栃木県宇都宮市塙田３丁目５−２４ 田村ビル 2F",
+   "maps": "https://maps.google.com/?cid=1130558980372845635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PopFit 宇都宮",
+   "rating": 5,
+   "reviews": 80,
+   "address": "日本、〒321-0923 栃木県宇都宮市下栗町2916−９ エイムビル 201",
+   "maps": "https://maps.google.com/?cid=5130419650743565843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リガーレフィットネス",
+   "rating": 4.8,
+   "reviews": 80,
+   "address": "日本、〒321-3226 栃木県宇都宮市ゆいの杜２丁目１２−２８",
+   "maps": "https://maps.google.com/?cid=14583107297723559281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マシンピラティス&パーソナルジムRutiè(ルティエ)宇都宮店",
+   "rating": 5,
+   "reviews": 46,
+   "address": "日本、〒320-0847 栃木県宇都宮市滝谷町１３−１ GRAHAM TOWER A館 1階",
+   "maps": "https://maps.google.com/?cid=9285789032096999509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 宇都宮店",
+   "rating": 4.7,
+   "reviews": 45,
+   "address": "日本、〒321-0964 栃木県宇都宮市駅前通り２丁目３−５ ユニマット宇都宮ビル １F、２F（受付",
+   "maps": "https://maps.google.com/?cid=8151127312906363453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルダイエットスタジオヴィヴ 宇都宮市/ジム",
+   "rating": 4.9,
+   "reviews": 45,
+   "address": "日本、〒321-0931 栃木県宇都宮市平松町５２５ オレンジハイツパート５ 102号",
+   "maps": "https://maps.google.com/?cid=18390857207446356403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム V12 岡本店(Personal Gym V12 Okamoto)",
+   "rating": 4.9,
+   "reviews": 44,
+   "address": "日本、〒329-1105 栃木県宇都宮市中岡本町２７８４−３ 飛鳥ビル A",
+   "maps": "https://maps.google.com/?cid=11308940503461871245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジム Aimhigh 宇都宮",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒320-0806 栃木県宇都宮市中央２丁目２−３ 根本税務会計ビル 2F",
+   "maps": "https://maps.google.com/?cid=17891215562652848994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ブルックパーソナルジム 宇都宮店",
+   "rating": 5,
+   "reviews": 41,
+   "address": "日本、〒320-0845 栃木県宇都宮市明保野町４−１０ 明保野ビル 1階",
+   "maps": "https://maps.google.com/?cid=16295001096420513545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トータルフィットネスサポート",
+   "rating": 4.5,
+   "reviews": 37,
+   "address": "日本、〒321-0982 栃木県宇都宮市御幸ケ原町６２−５ 東ビル 1F",
+   "maps": "https://maps.google.com/?cid=14806387576013570074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)宇都宮店",
+   "rating": 4.3,
+   "reviews": 37,
+   "address": "日本、〒320-0801 栃木県宇都宮市池上町４−２ アソルティ宇都宮 4F",
+   "maps": "https://maps.google.com/?cid=322758203127486728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エリートボディデザイン（旧YAMAGISHI-GYM）",
+   "rating": 4.9,
+   "reviews": 32,
+   "address": "日本、〒321-0945 栃木県宇都宮市宿郷５丁目２８ プログレッソ宿郷 1F",
+   "maps": "https://maps.google.com/?cid=16114197454941239899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYM SET UP",
+   "rating": 4.7,
+   "reviews": 31,
+   "address": "日本、〒321-0151 栃木県宇都宮市西川田町１２３２−１",
+   "maps": "https://maps.google.com/?cid=9359077807388183132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "T&Mパーソナルジム 北若松原店",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒321-0153 栃木県宇都宮市北若松原２丁目９−５",
+   "maps": "https://maps.google.com/?cid=17189744684558917152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "4LO Lab",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒320-0813 栃木県宇都宮市二番町１−１０ アドワイズビル1F",
+   "maps": "https://maps.google.com/?cid=252952487433593760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "M3 GYM 宇都宮",
+   "rating": 4.9,
+   "reviews": 21,
+   "address": "日本、〒320-0811 栃木県宇都宮市大通り２丁目４−７ 宇都宮マネジメントビル 4F",
+   "maps": "https://maps.google.com/?cid=6299563916036998305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "OUTLINE(アウトライン)宇都宮店",
+   "rating": 4.8,
+   "reviews": 21,
+   "address": "日本、〒321-0954 栃木県宇都宮市元今泉４丁目１３−２３ シャンポールミヤ 3F",
+   "maps": "https://maps.google.com/?cid=15190157072850753485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムELIRB 雀宮店",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒321-0132 栃木県宇都宮市雀の宮１丁目６−１",
+   "maps": "https://maps.google.com/?cid=14228469075469319787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ELEMENT宇都宮東口店（エレメント）",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒321-0953 栃木県宇都宮市東宿郷６丁目７−１６ 202",
+   "maps": "https://maps.google.com/?cid=12228961770836041753&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "cotton / パーソナルジム宇都宮",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒321-0966 栃木県宇都宮市今泉３丁目６−１１ テック宇都宮ビル 4F",
+   "maps": "https://maps.google.com/?cid=5734428392931253339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO IVY 宇都宮店【パーソナルマシンピラティス】",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒320-0033 栃木県宇都宮市本町１３−１８ マロニエ宇都宮 402号室",
+   "maps": "https://maps.google.com/?cid=12056190848771242680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナル ジムGREENpark(グリーンパーク) 宇都宮",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒321-0954 栃木県宇都宮市元今泉３丁目２０−１６ 大光ビル 2階 2Ｆ-Ｂ",
+   "maps": "https://maps.google.com/?cid=3657376542247321254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムフローフィット/Flow Fit宇都宮",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒320-0033 栃木県宇都宮市本町１３−１８ マロニエ宇都宮 202",
+   "maps": "https://maps.google.com/?cid=14543078089343053339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アースボディケア ピラティス パーソナルジム",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒320-0055 栃木県宇都宮市下戸祭１丁目９−１４",
+   "maps": "https://maps.google.com/?cid=5869525030400647447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットコム 宇都宮店【トレーニング&コンディショニングジム】",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒321-0982 栃木県宇都宮市御幸ケ原町１４３−１７ ポケットオフィス II 102",
+   "maps": "https://maps.google.com/?cid=5245395001797456401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム V12 東武宇都宮駅前店 （Personal Gym V12 Tobu Utsunomiya）",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒320-0811 栃木県宇都宮市中央１丁目１−１ 宇都宮アクシスビル 310-2号室",
+   "maps": "https://maps.google.com/?cid=11238133060167844627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "隠れ家ピラティス KOBORI LIFE",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒320-0011 栃木県宇都宮市富士見が丘３丁目２６−５",
+   "maps": "https://maps.google.com/?cid=4117506917457727669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FunctionJunction戸祭スタジオ",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒320-0062 栃木県宇都宮市東宝木町９−２０",
+   "maps": "https://maps.google.com/?cid=2521022757696918280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "QOL Lab クオルラボ",
+   "rating": 4.3,
+   "reviews": 12,
+   "address": "日本、〒321-0954 栃木県宇都宮市元今泉５丁目１−２２ ユニビル 2階",
+   "maps": "https://maps.google.com/?cid=9683488639020023283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EIGHTY FITNESS GYM 宇都宮店",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒321-0925 栃木県宇都宮市東簗瀬１丁目3−１５",
+   "maps": "https://maps.google.com/?cid=13379110301442482557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "クリエイトジム",
+   "rating": 4.1,
+   "reviews": 10,
+   "address": "日本、〒320-0014 栃木県宇都宮市大曽２丁目２−５８",
+   "maps": "https://maps.google.com/?cid=16105892939024542008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LAMUDA body make club",
+   "rating": 4.7,
+   "reviews": 9,
+   "address": "日本、〒321-0964 栃木県宇都宮市駅前通り３丁目４−５ U-SQUARE 8F",
+   "maps": "https://maps.google.com/?cid=1711641187642246862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "muscle and beauty factory personal gym",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒321-0972 栃木県宇都宮市下川俣町２６４−３",
+   "maps": "https://maps.google.com/?cid=6637584888682853962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ホリスフィットネスジム",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒320-0072 栃木県宇都宮市若草３丁目１６−１７ 樹園 １０６ マンション",
+   "maps": "https://maps.google.com/?cid=7495257880295766596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "scoprire(スコプリーレ)",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒321-0914 栃木県宇都宮市駅前通り１丁目４−６ トナリエ宇都宮 10F",
+   "maps": "https://maps.google.com/?cid=11108471234907004503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM 宇都宮店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒320-0026 栃木県宇都宮市馬場通り３丁目１−１７ STM2ビル 2F",
+   "maps": "https://maps.google.com/?cid=16551473859756890638&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY REMAKE GYM SEALs",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒320-0062 栃木県宇都宮市東宝木町９−２０ レジデンス東宝木 105",
+   "maps": "https://maps.google.com/?cid=3489466222761647149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERFORM パーソナルジム&ボディケア",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒320-0014 栃木県宇都宮市大曽１丁目２−１８ 1階 PERFORM",
+   "maps": "https://maps.google.com/?cid=10263914800112203838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TKbodyworks | 完全予約制",
+   "rating": 4.6,
+   "reviews": 5,
+   "address": "日本、〒320-0051 栃木県宇都宮市上戸祭町２７−１",
+   "maps": "https://maps.google.com/?cid=1550444323357996486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "N.Pilates（エヌピラティス）宇都宮店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒320-0033 栃木県宇都宮市本町１３−１８ マロニエ宇都宮 506号室",
+   "maps": "https://maps.google.com/?cid=11681348860280515261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "AXIS ONE PERSONAL",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒321-0861 栃木県宇都宮市西２丁目６−４ もみじ通りハイツ 202",
+   "maps": "https://maps.google.com/?cid=9849373205093327459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NOR.Medical Personal Training Gym",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒321-0934 栃木県宇都宮市簗瀬４丁目１２−３０ ヤナセビル 2階",
+   "maps": "https://maps.google.com/?cid=7158597021721180557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダイエット専門整体Jème Restor宇都宮店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒320-0826 栃木県宇都宮市西原町１９５−６４ 3号室",
+   "maps": "https://maps.google.com/?cid=103788726224290787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BodyChange宇都宮店",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒321-0933 栃木県宇都宮市簗瀬町２２７０ ブルースカイ 102号室",
+   "maps": "https://maps.google.com/?cid=157700580691698021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "YUMIFIT ユミフィット",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒320-0072 栃木県宇都宮市若草３丁目１６−１７ 樹園 102 マンション",
+   "maps": "https://maps.google.com/?cid=2754297822839894976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧トレーニングスタジオ ゼロディフェクト【宇都宮市 パーソナル ジム】",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒320-0806 栃木県宇都宮市中央１丁目５−１１ 宇都宮セントラルビル 2F",
+   "maps": "https://maps.google.com/?cid=16281510138504706737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "『習慣特化型ジム』-ZERO ONE-",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒320-0821 栃木県宇都宮市一条２丁目９−３０ 本多ビル 3階 B",
+   "maps": "https://maps.google.com/?cid=13772987930349717217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Space 宇都宮",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒320-0014 栃木県宇都宮市大曽１丁目１−１７",
+   "maps": "https://maps.google.com/?cid=5921911798401976586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス＆パーソナルトレーニング Muto（ムート）宇都宮はせがわ整形外科店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒320-0821 栃木県宇都宮市一条４丁目５−１３ 3F",
+   "maps": "https://maps.google.com/?cid=4976164295356701754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ミヨラボ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒320-0851 栃木県宇都宮市鶴田町１６０５",
+   "maps": "https://maps.google.com/?cid=9862423461796081595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Total Fit Corevo 宇都宮店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒321-0925 栃木県宇都宮市東簗瀬１丁目3−１５",
+   "maps": "https://maps.google.com/?cid=8444948552435480772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "美姿勢パーソナルダイエットRED",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒321-0132 栃木県宇都宮市雀の宮１丁目１３−１７",
+   "maps": "https://maps.google.com/?cid=1231788132939915734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
