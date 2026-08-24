@@ -423,6 +423,8 @@ export default function Home() {
               { name: "松山", slug: "matsuyama" }, { name: "宇都宮", slug: "utsunomiya" },
               { name: "高松", slug: "takamatsu" }, { name: "長崎", slug: "nagasaki" }, { name: "大分", slug: "oita" },
               { name: "那覇", slug: "naha" }, { name: "富山", slug: "toyama" },
+              { name: "和歌山", slug: "wakayama" }, { name: "高知", slug: "kochi" }, { name: "福井", slug: "fukui" },
+              { name: "青森", slug: "aomori" }, { name: "秋田", slug: "akita" },
             ].map((c) => (
               <Link key={c.slug} href={`/db/${c.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-2.5 text-center text-sm font-medium text-gray-700 hover:border-teal-500 hover:text-teal-700 transition-colors">
                 {c.name}DB

@@ -1,0 +1,415 @@
+{
+ "city": "秋田",
+ "fetchedAt": "2026-08-24",
+ "query": "パーソナルジム 秋田",
+ "gyms": [
+  {
+   "name": "Forzaフィットネススタジオ 秋田店",
+   "rating": 5,
+   "reviews": 81,
+   "address": "日本、〒010-0042 秋田県秋田市桜３丁目１−４１ 2階",
+   "maps": "https://maps.google.com/?cid=6449586882325205242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Rメソッド",
+   "rating": 4.8,
+   "reviews": 72,
+   "address": "日本、〒010-1414 秋田県秋田市御所野元町４丁目１−８ 1階",
+   "maps": "https://maps.google.com/?cid=4822630811358346812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セントラルフィットネスクラブ24 秋田広面",
+   "rating": 3.6,
+   "reviews": 63,
+   "address": "日本、〒010-0041 秋田県秋田市広面蓮沼８１",
+   "maps": "https://maps.google.com/?cid=16861789235352829217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 秋田広面店",
+   "rating": 3.9,
+   "reviews": 60,
+   "address": "日本、〒010-0041 秋田県秋田市広面長沼２−１",
+   "maps": "https://maps.google.com/?cid=1305946102550253953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレイクかたがみ",
+   "rating": 4.2,
+   "reviews": 59,
+   "address": "日本、〒018-1502 秋田県潟上市飯田川下虻川井戸沢４１",
+   "maps": "https://maps.google.com/?cid=5047852008198500245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 秋田店｜秋田 マシンピラティス",
+   "rating": 5,
+   "reviews": 58,
+   "address": "日本、〒010-1431 秋田県秋田市仁井田二ツ屋１丁目３−４４ シャリテ 101号室",
+   "maps": "https://maps.google.com/?cid=4752200475593330880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT365秋田川尻",
+   "rating": 4.1,
+   "reviews": 57,
+   "address": "日本、〒010-0941 秋田県秋田市川尻町中島２−４０",
+   "maps": "https://maps.google.com/?cid=9103493043614485339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 秋田新国道店",
+   "rating": 4.2,
+   "reviews": 54,
+   "address": "日本、〒010-0962 秋田県秋田市八橋大畑１丁目６−３６",
+   "maps": "https://maps.google.com/?cid=5447078218262758260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "JOYFIT24 LITE あきた・こまち温泉",
+   "rating": 3.5,
+   "reviews": 48,
+   "address": "日本、〒010-0061 秋田県秋田市卸町１丁目２−３",
+   "maps": "https://maps.google.com/?cid=17210278820942328374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BeatPilates 秋田店",
+   "rating": 4.8,
+   "reviews": 45,
+   "address": "日本、〒010-0931 秋田県秋田市川元山下町２−１ 1階",
+   "maps": "https://maps.google.com/?cid=6803572680644779546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セントラルスポーツクラブ24 秋田土崎",
+   "rating": 3.1,
+   "reviews": 43,
+   "address": "日本、〒011-0946 秋田県秋田市土崎港中央６丁目１６−１６ セントラルスポーツクラブ土崎",
+   "maps": "https://maps.google.com/?cid=3639318522298435965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ reforme",
+   "rating": 4.9,
+   "reviews": 39,
+   "address": "日本、〒010-0013 秋田県秋田市南通築地１−３ 村上ビル 2階",
+   "maps": "https://maps.google.com/?cid=6866551203208665588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジェクサー・ライトジム メトロポリタン秋田店",
+   "rating": 3.7,
+   "reviews": 36,
+   "address": "日本、〒010-0001 秋田県秋田市中通７丁目２−１",
+   "maps": "https://maps.google.com/?cid=2717693990591415602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FiT24 秋田新国道店",
+   "rating": 3.9,
+   "reviews": 36,
+   "address": "日本、〒010-0965 秋田県秋田市八橋新川向１２−２８",
+   "maps": "https://maps.google.com/?cid=4604398426148356672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 秋田飯島店",
+   "rating": 4.1,
+   "reviews": 33,
+   "address": "日本、〒011-0917 秋田県秋田市飯島道東１丁目１−７",
+   "maps": "https://maps.google.com/?cid=15986900816593888169&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 秋田広面店",
+   "rating": 3.3,
+   "reviews": 30,
+   "address": "日本、〒010-0041 秋田県秋田市広面宮田27―1",
+   "maps": "https://maps.google.com/?cid=15543605305976575156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カーブス ひろおもて",
+   "rating": 4.8,
+   "reviews": 30,
+   "address": "日本、〒010-0041 秋田県秋田市広面鍋沼５−１",
+   "maps": "https://maps.google.com/?cid=7386726757850796166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダイエットパートナー 秋田店",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒010-0001 秋田県秋田市中通１丁目３−５ 秋田キャッスルホテル 109号室",
+   "maps": "https://maps.google.com/?cid=2227709935756782997&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "秋田トレーニング&コンディショニング・ラボ",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒010-0001 秋田県秋田市中通６丁目１−６５ PPビルディング 302",
+   "maps": "https://maps.google.com/?cid=6252798502686302211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "personal training gym LINC",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒010-0951 秋田県秋田市山王４丁目６−２６ 9kビル 2階 G号室",
+   "maps": "https://maps.google.com/?cid=18028851796467899727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND秋田店",
+   "rating": 4.8,
+   "reviews": 25,
+   "address": "日本、〒010-0921 秋田県秋田市大町３丁目４−９ １F",
+   "maps": "https://maps.google.com/?cid=17572325400387852349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO CAMAKURA｜かまくら｜ピラティス",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒010-0003 秋田県秋田市東通２丁目３−１",
+   "maps": "https://maps.google.com/?cid=13992399846614209307&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "神経系ストレッチSSS秋田studio",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒010-0912 秋田県秋田市保戸野通町６−２０",
+   "maps": "https://maps.google.com/?cid=15413155805499213406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Dsteps",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒014-0003 秋田県大仙市美原町５−１８ サバーブミハラ 101号室",
+   "maps": "https://maps.google.com/?cid=17160657977139475609&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Body Make Stretch Flow",
+   "rating": 4.4,
+   "reviews": 14,
+   "address": "日本、〒010-0916 秋田県秋田市泉北４丁目２−２ １1F-B",
+   "maps": "https://maps.google.com/?cid=4271678625999535432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビーラインフレスポ御所野",
+   "rating": 4.1,
+   "reviews": 13,
+   "address": "日本、〒010-1413 秋田県秋田市御所野地蔵田２丁目１−１１",
+   "maps": "https://maps.google.com/?cid=5274499005646222074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ガレージジムHIKYO",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒010-1201 秋田県秋田市雄和田草川沖村２６０",
+   "maps": "https://maps.google.com/?cid=2959866635659642193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)秋田店",
+   "rating": 4.1,
+   "reviews": 9,
+   "address": "日本、〒010-0001 秋田県秋田市中通２丁目４−１５ 秋田朝日生命丸島ビル 3F",
+   "maps": "https://maps.google.com/?cid=6351381096016095421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムStretch×Training",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒017-0895 秋田県大館市長倉１７−８ サンパレス B号室",
+   "maps": "https://maps.google.com/?cid=608121060265303257&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PILATES STUDIO【 immer 】| ピラティス スタジオ | パーソナル | プライベートスタジオ",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒0110873 秋田県秋田市千秋城下町5−14−２",
+   "maps": "https://maps.google.com/?cid=6613239738344044136&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "秋田ノーザンハピネッツ パフォーマンス・ジム - the Factory (ファクトリー)",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒010-0003 秋田県秋田市東通２丁目３−１",
+   "maps": "https://maps.google.com/?cid=17644555387838523116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RATS GYM ラッツジム 秋田外旭川",
+   "rating": 4.6,
+   "reviews": 7,
+   "address": "日本、〒010-0802 秋田県秋田市外旭川大谷地３−３",
+   "maps": "https://maps.google.com/?cid=18025433515282410004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カタナジム秋田",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒010-0976 秋田県秋田市八橋南１丁目３−１０ アィ・ランドビル 1F",
+   "maps": "https://maps.google.com/?cid=9511189241148881949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ICONGYM竿燈大通り店",
+   "rating": 3.8,
+   "reviews": 6,
+   "address": "日本、〒010-0922 秋田県秋田市旭北栄町１−４９ GOWINビル 5階A",
+   "maps": "https://maps.google.com/?cid=1926794756194142423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CALORIE TRADE STORE",
+   "rating": 4.3,
+   "reviews": 6,
+   "address": "日本、〒014-0368 秋田県仙北市角館町中菅沢７７−１６",
+   "maps": "https://maps.google.com/?cid=14941162591112221794&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムHOPE ONE(ホープワン)【秋田市仁井田】",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒010-1427 秋田県秋田市仁井田新田１丁目５−１５ KSビル 105",
+   "maps": "https://maps.google.com/?cid=14229955192575774378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビーライン 保戸野通町",
+   "rating": 4.4,
+   "reviews": 5,
+   "address": "日本、〒010-0951 秋田県秋田市保戸野通町５−３３ 2F",
+   "maps": "https://maps.google.com/?cid=432276950815548537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リキジム",
+   "rating": 4.4,
+   "reviews": 5,
+   "address": "日本、〒010-0101 秋田県潟上市天王上北野51−２６",
+   "maps": "https://maps.google.com/?cid=9472114995984235927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Fitnessgym＿GAIA （フィットネスジムガイア）",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒011-0912 秋田県秋田市八橋三和町１−１８ ウィング三和 1階1号室",
+   "maps": "https://maps.google.com/?cid=966429472157150872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ICONGYM 土崎店",
+   "rating": 4.3,
+   "reviews": 4,
+   "address": "日本、〒011-0945 秋田県秋田市港西５丁目１１−２ ウエスト・ヴィラ 1階",
+   "maps": "https://maps.google.com/?cid=2890356165962471796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Physical Conditioning Lab.Re:Set.",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒010-0976 秋田県秋田市八橋南２丁目８",
+   "maps": "https://maps.google.com/?cid=11410922219362704499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ZERO STUDIO AKITA",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒010-0036 秋田県秋田市楢山金照町３−１０",
+   "maps": "https://maps.google.com/?cid=13936673539832032891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングサロンSOAR",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒010-0001 秋田県秋田市中通６丁目１９−１３ S.1スクエア 1階B",
+   "maps": "https://maps.google.com/?cid=2434516195975688005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【amble】PersonalTraningRoom",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒010-0011 秋田県秋田市南通亀の町４−１５ ヤマキウ南倉庫 1階 ショップ07",
+   "maps": "https://maps.google.com/?cid=9221459932470848900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファイン",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒010-0971 秋田県秋田市八橋三和町１−６",
+   "maps": "https://maps.google.com/?cid=9640396244062997652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧トレーニング Re:birth",
+   "rating": 3,
+   "reviews": 1,
+   "address": "日本、〒010-0021 秋田県秋田市楢山登町５−２９",
+   "maps": "https://maps.google.com/?cid=933911806723580219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRAINING BASE",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒019-1404 秋田県仙北郡美郷町六郷馬町１０２",
+   "maps": "https://maps.google.com/?cid=14741350318653999859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ビーライン秋田駅東口スタジオ",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒010-0002 秋田県秋田市東通仲町２−１４",
+   "maps": "https://maps.google.com/?cid=2389637052481475532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NextFutureGYM",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒014-0063 秋田県大仙市大曲日の出町１丁目４−３７ テナント1",
+   "maps": "https://maps.google.com/?cid=11243047138203934541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PRIVATE GYM RISE",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒015-0072 秋田県由利本荘市裏尾崎町６０−３３ オフィス N",
+   "maps": "https://maps.google.com/?cid=17210251010083190672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "秘密基地",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒010-0976 秋田県秋田市八橋南2−10−３１",
+   "maps": "https://maps.google.com/?cid=12647550274789648975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

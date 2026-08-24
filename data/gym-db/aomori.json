@@ -1,0 +1,407 @@
+{
+ "city": "青森",
+ "fetchedAt": "2026-08-24",
+ "query": "パーソナルジム 青森",
+ "gyms": [
+  {
+   "name": "パーソナルジム トランスフォーム",
+   "rating": 4.8,
+   "reviews": 74,
+   "address": "日本、〒036-8062 青森県弘前市青山２丁目１−２",
+   "maps": "https://maps.google.com/?cid=11018004822906184497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "JOYFIT24 LITE 青森",
+   "rating": 3.8,
+   "reviews": 69,
+   "address": "日本、〒038-0006 青森県青森市三好２丁目3番１６",
+   "maps": "https://maps.google.com/?cid=16236827944229604925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 青森サンロード店",
+   "rating": 4.2,
+   "reviews": 68,
+   "address": "日本、〒030-0845 青森県青森市緑３丁目１０−３３ フリークス青森サンロード店内 1F",
+   "maps": "https://maps.google.com/?cid=12308876912427692439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティスK シーナシーナ青森店",
+   "rating": 4.9,
+   "reviews": 65,
+   "address": "日本、〒030-0843 青森県青森市浜田１丁目14−１ CiiNA CiiNA（シーナシーナ）青森 2F",
+   "maps": "https://maps.google.com/?cid=5909967228945973543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ANBEE GYMあんべいい身体を作る青森市のパーソナルジム",
+   "rating": 5,
+   "reviews": 57,
+   "address": "日本、〒030-0822 青森県青森市中央１丁目２−９ 1階南側店舗",
+   "maps": "https://maps.google.com/?cid=9073166263783208048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム リアルボディ八戸店",
+   "rating": 4.9,
+   "reviews": 54,
+   "address": "日本、〒031-0071 青森県八戸市沼館１丁目２−２１ ウエスタンビル 2-2",
+   "maps": "https://maps.google.com/?cid=3079071109162105546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スモールジムFlare浜田店",
+   "rating": 4.9,
+   "reviews": 48,
+   "address": "日本、〒030-0842 青森県青森市浦町奥野３４８−３",
+   "maps": "https://maps.google.com/?cid=8595197515279986215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム TOKIEL八戸城下店 【トキエル】",
+   "rating": 5,
+   "reviews": 45,
+   "address": "日本、〒031-0072 青森県八戸市城下１丁目３１−５ 城下ハイツ 1階 1-D号室",
+   "maps": "https://maps.google.com/?cid=10027228771458248942&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FiT24 青森観光通り店",
+   "rating": 3.6,
+   "reviews": 44,
+   "address": "日本、〒030-0842 青森県青森市浦町奥野６２４",
+   "maps": "https://maps.google.com/?cid=2405176241257666154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスクラブウイング青森",
+   "rating": 4,
+   "reviews": 42,
+   "address": "日本、〒030-0947 青森県青森市浜館４丁目8−５",
+   "maps": "https://maps.google.com/?cid=7340650633105343818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムmod八戸店",
+   "rating": 4.9,
+   "reviews": 42,
+   "address": "日本、〒031-0072 青森県八戸市城下４丁目１７−２ ウィングコート城下 103",
+   "maps": "https://maps.google.com/?cid=9012512886290520939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Kalé Personal Training（カレ パーソナルトレーニング）",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒030-0843 青森県青森市浜田２丁目８−５ 村上アパートA 棟 1F",
+   "maps": "https://maps.google.com/?cid=8882294808632701359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス＆ヨガ パーソナルジムBOOSTAR青森中央店",
+   "rating": 5,
+   "reviews": 33,
+   "address": "日本、〒030-0822 青森県青森市中央１丁目１−１８",
+   "maps": "https://maps.google.com/?cid=16222945114744970961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム 弘前BODY WORK",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒036-8162 青森県弘前市安原２丁目9−７",
+   "maps": "https://maps.google.com/?cid=4183258939490980295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)青森店",
+   "rating": 4.7,
+   "reviews": 24,
+   "address": "日本、〒030-0801 青森県青森市新町２丁目１−１１ ESTビル 3F 4F 受付階3F",
+   "maps": "https://maps.google.com/?cid=3047362365080671174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "chocoZAP青森勝田",
+   "rating": 3.5,
+   "reviews": 21,
+   "address": "日本、〒030-0821 青森県青森市勝田１丁目１６−１０ 勝田ビル 103 1F",
+   "maps": "https://maps.google.com/?cid=10885318053534694411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BOOSTAR 青森西店",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒038-0031 青森県青森市三内稲元58−１０",
+   "maps": "https://maps.google.com/?cid=9979049020974451742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スカーフィスト 青森ジム",
+   "rating": 4.8,
+   "reviews": 19,
+   "address": "日本、〒030-0855 青森県青森市北金沢１丁目１−３",
+   "maps": "https://maps.google.com/?cid=6634259027296215004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファディー青森浜田",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒030-0843 青森県青森市浜田玉川３４０",
+   "maps": "https://maps.google.com/?cid=10241122420281747226&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BodyCollege",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒030-0901 青森県青森市港町１丁目１９−１９−４ ２階",
+   "maps": "https://maps.google.com/?cid=2971821916957487144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムLeeF",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒036-8161 青森県弘前市大清水４丁目１１−１１ TR2000ビル 101",
+   "maps": "https://maps.google.com/?cid=10200158644308017783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングジムREXSIS油川店",
+   "rating": 4.5,
+   "reviews": 13,
+   "address": "日本、〒038-0058 青森県青森市羽白沢田３００−２",
+   "maps": "https://maps.google.com/?cid=5522687375877111394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT365青森 青い森セントラルパーク",
+   "rating": 2.8,
+   "reviews": 13,
+   "address": "日本、〒030-0842 青森県青森市浦町橋本３３５−１７",
+   "maps": "https://maps.google.com/?cid=6735348107899367001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO NANAO（スタジオ ナナオ）",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒038-0004 青森県青森市富田４丁目９−２３",
+   "maps": "https://maps.google.com/?cid=14043358117302447121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングジムBASIC",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒030-0862 青森県青森市古川１丁目１７−２３ 2階",
+   "maps": "https://maps.google.com/?cid=13288882931721064524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングセンターShuShu",
+   "rating": 4.6,
+   "reviews": 11,
+   "address": "日本、〒038-0013 青森県青森市久須志３丁目１９−１０ 第一マルミツビル 2階2号",
+   "maps": "https://maps.google.com/?cid=16363803990790769290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スモールジムFlare浪館店",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒038-0024 青森県青森市浪館前田１丁目２２−４３",
+   "maps": "https://maps.google.com/?cid=9608694631728234479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ミニジム",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒037-0036 青森県五所川原市中央３丁目25番地",
+   "maps": "https://maps.google.com/?cid=4866113977797923599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REBOOT FITNESS",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒037-0004 青森県五所川原市唐笠柳藤巻５０９−１７ エルムの湯内店舗1",
+   "maps": "https://maps.google.com/?cid=1177710642485212152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ワイズパーク青森センター店",
+   "rating": 4.9,
+   "reviews": 9,
+   "address": "日本、〒030-0121 青森県青森市妙見２丁目１−１",
+   "maps": "https://maps.google.com/?cid=6166470093710329349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム Frice",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒030-0966 青森県青森市花園２丁目９−２３",
+   "maps": "https://maps.google.com/?cid=16585652141692014073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング・バーンアウトジム",
+   "rating": 4.4,
+   "reviews": 7,
+   "address": "日本、〒030-0862 青森県青森市古川３丁目１１−１１",
+   "maps": "https://maps.google.com/?cid=3144105454429120244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムCORE",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒036-8197 青森県弘前市桶屋町４４−４",
+   "maps": "https://maps.google.com/?cid=15944031995028564310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【パーソナルトレーニング&ケア】ボディメイクスタジオリファイン（body make studio REFINE）",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒030-0823 青森県青森市橋本１丁目６−３ AP.401BLD 4F",
+   "maps": "https://maps.google.com/?cid=472982664193636374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "イーフェイス e-face",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒036-0541 青森県黒石市北美町２丁目79−２０",
+   "maps": "https://maps.google.com/?cid=811139227899653915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "S☆GRIT パーソナルトレーニングスタジオ",
+   "rating": 4.7,
+   "reviews": 6,
+   "address": "日本、〒039-3158 青森県上北郡野辺地町観音林後３−３",
+   "maps": "https://maps.google.com/?cid=3421917504622931557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムSTEM",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒030-0801 青森県青森市新町１丁目１４−１２",
+   "maps": "https://maps.google.com/?cid=10308057188809420048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PRIVATE GYM ENIF(プライベートジム エニフ)",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒030-0801 青森県青森市新町２丁目６−４ 松村ビル 3階",
+   "maps": "https://maps.google.com/?cid=15052801810577694572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トランスフォームBXB",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒036-3802 青森県南津軽郡藤崎町藤崎舘岡９番地１",
+   "maps": "https://maps.google.com/?cid=15083183847595537733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムmod弘前店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒036-8084 青森県弘前市高田１丁目5−３ ハニー・テラス 101",
+   "maps": "https://maps.google.com/?cid=6108791476968024765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FitnessGym BESCO（フィットネスジムべスコ）",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒037-0036 青森県五所川原市中央２丁目 20パレス K1階",
+   "maps": "https://maps.google.com/?cid=1105738126034031058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Gym EVOLVE(パーソナルジム エボルブ)",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒030-0801 青森県青森市新町１丁目１４−１５",
+   "maps": "https://maps.google.com/?cid=11778563630743152046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Action コンディショニング&フィットネス",
+   "rating": 4.5,
+   "reviews": 2,
+   "address": "日本、〒038-1214 青森県南津軽郡藤崎町常盤富田２１−６",
+   "maps": "https://maps.google.com/?cid=8624064296618139706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムST-BOX",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒038-3802 青森県南津軽郡藤崎町藤崎東村井２０−１０",
+   "maps": "https://maps.google.com/?cid=16104645346825323119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "株式会社AKcompany",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒030-0121 青森県青森市妙見２丁目１−１４",
+   "maps": "https://maps.google.com/?cid=4497885219510441467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Best Smile Performance Center",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒030-0131 青森県青森市問屋町２丁目１４−６ 2f",
+   "maps": "https://maps.google.com/?cid=14642630555872283234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "pilates Ao",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒030-0919 青森県青森市はまなす２丁目１",
+   "maps": "https://maps.google.com/?cid=11332221034634198568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "総合格闘技ジム1st Stage",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒030-0843 青森県青森市浜田玉川２１４−６",
+   "maps": "https://maps.google.com/?cid=15945531964641554291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Pachira pilates studio 【パキラ ピラティス スタジオ】",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒030-0845 青森県青森市緑２丁目9−２０",
+   "maps": "https://maps.google.com/?cid=663076246619582250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NPTA 日本パーソナルトレーナーズアカデミー 青森県支部",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒030-0862 青森県青森市古川１丁目１７−２３ スノーランドビル2 2階",
+   "maps": "https://maps.google.com/?cid=11758739278496293261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
