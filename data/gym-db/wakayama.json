@@ -1,6 +1,6 @@
 {
  "city": "和歌山",
- "fetchedAt": "2026-08-24",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 和歌山",
  "gyms": [
   {
@@ -14,7 +14,7 @@
   {
    "name": "アッティーボジム和歌山",
    "rating": 4.7,
-   "reviews": 382,
+   "reviews": 381,
    "address": "日本、〒640-0413 和歌山県紀の川市貴志川町神戸 野手 218 イオンタウン貴志川内",
    "maps": "https://maps.google.com/?cid=5008714389383521514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +22,7 @@
   {
    "name": "ビークイックフィットネス&ピラティス イオンモール和歌山店",
    "rating": 4.7,
-   "reviews": 330,
+   "reviews": 331,
    "address": "日本、〒640-8451 和歌山県和歌山市ふじと台２３ イオンモール和歌山 R階",
    "maps": "https://maps.google.com/?cid=12362488734549125741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -30,7 +30,7 @@
   {
    "name": "女性専用24時間ジムAmazones（アマゾネス）和歌山駅前店",
    "rating": 4.9,
-   "reviews": 290,
+   "reviews": 291,
    "address": "日本、〒640-8331 和歌山県和歌山市美園町５丁目12−２ ヰゲタビル 3F",
    "maps": "https://maps.google.com/?cid=3957348954971821318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,7 +38,7 @@
   {
    "name": "ピラティススタジオDEP 和歌山店｜和歌山 マシンピラティス",
    "rating": 4.9,
-   "reviews": 183,
+   "reviews": 184,
    "address": "日本、〒640-8329 和歌山県和歌山市田中町２丁目18−１ CAPビル 3階",
    "maps": "https://maps.google.com/?cid=16861243221012142125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -60,7 +60,7 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "APT ROOM 岩出店",
+   "name": "APT ROOM 和歌山岩出店",
    "rating": 4.9,
    "reviews": 94,
    "address": "日本、〒649-6256 和歌山県岩出市金池５２８ COCOSTYLE金池 4号室",
@@ -70,7 +70,7 @@
   {
    "name": "REVIA（レヴィア） 南海和歌山市駅店",
    "rating": 4.9,
-   "reviews": 86,
+   "reviews": 87,
    "address": "日本、〒640-8038 和歌山県和歌山市北町１２−２ メゾン 葵 一番館 105",
    "maps": "https://maps.google.com/?cid=10628118681194631586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -93,8 +93,8 @@
   },
   {
    "name": "スマートフィット100 和歌山岩出店",
-   "rating": 4.4,
-   "reviews": 72,
+   "rating": 4.5,
+   "reviews": 73,
    "address": "日本、〒649-6228 和歌山県岩出市大町９−１ 2F",
    "maps": "https://maps.google.com/?cid=8460399454143700607&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -126,17 +126,9 @@
   {
    "name": "BEYOND和歌山店",
    "rating": 4.9,
-   "reviews": 64,
+   "reviews": 65,
    "address": "日本、〒641-0051 和歌山県和歌山市西高松１丁目５−４０ ＭＫビル 1階",
    "maps": "https://maps.google.com/?cid=17602694757623931095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ピラティススタジオ BEST ONE 本店",
-   "rating": 5,
-   "reviews": 52,
-   "address": "日本、〒640-8159 和歌山県和歌山市十一番丁２０ マルサビル 3F",
-   "maps": "https://maps.google.com/?cid=18333756209861202956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -149,8 +141,8 @@
   },
   {
    "name": "ARVO和歌山店 Fitness & pilates personal",
-   "rating": 4.7,
-   "reviews": 40,
+   "rating": 4.6,
+   "reviews": 41,
    "address": "日本、〒641-0007 和歌山県和歌山市小雑賀８０５−１ オークワセントラルシティ内",
    "maps": "https://maps.google.com/?cid=6594213390717655094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -174,7 +166,7 @@
   {
    "name": "REVIA（レヴィア） JR和歌山駅店",
    "rating": 5,
-   "reviews": 24,
+   "reviews": 25,
    "address": "日本、〒640-8323 和歌山県和歌山市太田２丁目１−２ 2A",
    "maps": "https://maps.google.com/?cid=8414035260815626920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -212,6 +204,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "EARLY Gym",
+   "rating": 4.7,
+   "reviews": 22,
+   "address": "日本、〒640-8336 和歌山県和歌山市柳丁２３",
+   "maps": "https://maps.google.com/?cid=4152932927876145994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "お腹痩せ専門 Vinate(ヴィネート)",
    "rating": 4,
    "reviews": 21,
@@ -220,11 +220,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "EARLY Gym",
-   "rating": 4.7,
-   "reviews": 21,
-   "address": "日本、〒640-8336 和歌山県和歌山市柳丁２３",
-   "maps": "https://maps.google.com/?cid=4152932927876145994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "ピラティスと加圧のパーソナルトレーニング ノアイユ和歌山店",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒649-6338 和歌山県和歌山市府中７３７",
+   "maps": "https://maps.google.com/?cid=13783551734249928013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -233,14 +233,6 @@
    "reviews": 19,
    "address": "日本、〒641-0035 和歌山県和歌山市関戸１丁目３−２５ ライジング関戸 101",
    "maps": "https://maps.google.com/?cid=1042519248599866617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ピラティスと加圧のパーソナルトレーニング ノアイユ和歌山店",
-   "rating": 5,
-   "reviews": 19,
-   "address": "日本、〒649-6338 和歌山県和歌山市府中７３７",
-   "maps": "https://maps.google.com/?cid=13783551734249928013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -313,6 +305,14 @@
    "reviews": 12,
    "address": "日本、〒641-0007 和歌山県和歌山市小雑貨８０５−１ スーパーセンターオークワセントラルシティ 内",
    "maps": "https://maps.google.com/?cid=16555654360475603535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "シルキークルーズワークアウトジム",
+   "rating": 4,
+   "reviews": 12,
+   "address": "日本、〒649-6275 和歌山県和歌山市吐前２４２−３",
+   "maps": "https://maps.google.com/?cid=15019272084817095732&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -412,19 +412,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "加圧トレーニングスタジオ Super Stoic Gym",
+   "rating": 4.5,
+   "reviews": 4,
+   "address": "日本、〒640-8035 和歌山県和歌山市万町２５ フューチャー本町 3F",
+   "maps": "https://maps.google.com/?cid=5342940508248926324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルトレーニングジムippo",
    "rating": 5,
    "reviews": 3,
    "address": "日本、〒640-8067 和歌山県和歌山市一筋目９ スカイハイツ I101号室",
    "maps": "https://maps.google.com/?cid=13870240385353435167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ボディメイカーズサロン",
-   "rating": 5,
-   "reviews": 3,
-   "address": "日本、〒640-8052 和歌山県和歌山市鷺ノ森堂前丁",
-   "maps": "https://maps.google.com/?cid=1282810321970955662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {

@@ -1,12 +1,12 @@
 {
  "city": "kawasaki",
- "fetchedAt": "2026-08-19",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 川崎市",
  "gyms": [
   {
    "name": "GYMS",
    "rating": 4.5,
-   "reviews": 426,
+   "reviews": 427,
    "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目２−４ 川崎砂子ビルディング 4F",
    "maps": "https://maps.google.com/?cid=4124999656269685216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "武蔵小杉 BEYOND",
    "rating": 4.9,
-   "reviews": 327,
+   "reviews": 328,
    "address": "日本、〒211-0004 神奈川県川崎市中原区新丸子東１丁目８３５−５ ＫＡＨＡＬＡ ＥＡＳＴ２ 武蔵小杉 パーソナルトレーニング",
    "maps": "https://maps.google.com/?cid=3949030173133064060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +22,7 @@
   {
    "name": "パーソナルジム BEYOND川崎店(パーソナルトレーニング)",
    "rating": 4.9,
-   "reviews": 305,
+   "reviews": 306,
    "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目７−４ 川崎平沼ビル7階",
    "maps": "https://maps.google.com/?cid=13743964155518408245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -30,7 +30,7 @@
   {
    "name": "ASPI川崎店 パーソナルトレーニングジム",
    "rating": 4.9,
-   "reviews": 233,
+   "reviews": 238,
    "address": "日本、〒212-0014 神奈川県川崎市幸区大宮町５−４ 共栄ビル 3F",
    "maps": "https://maps.google.com/?cid=17010770176497290989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -62,7 +62,7 @@
   {
    "name": "セミパーソナルジムTRYFIT‐溝の口",
    "rating": 5,
-   "reviews": 112,
+   "reviews": 113,
    "address": "日本、〒213-0001 神奈川県川崎市高津区溝口３丁目１１−１５ 岩崎ビル 1F",
    "maps": "https://maps.google.com/?cid=14266060484961403384&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -70,17 +70,9 @@
   {
    "name": "パーソナルジムRat川崎店",
    "rating": 4.8,
-   "reviews": 110,
+   "reviews": 111,
    "address": "日本、〒212-0014 神奈川県川崎市幸区大宮町５−４ 共栄ビル 4F",
    "maps": "https://maps.google.com/?cid=15081569630012169745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "CRAXIA FITNESS GYM｜クレアシア フィットネス ジム",
-   "rating": 4.9,
-   "reviews": 110,
-   "address": "日本、〒210-0025 神奈川県川崎市川崎区下並木３２−１ 2F CREAXIA FITNESSGYM クレアシア フィットネスジム",
-   "maps": "https://maps.google.com/?cid=17090756225956854843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -110,7 +102,7 @@
   {
    "name": "MIYAZAKI GYM武蔵小杉店",
    "rating": 4.9,
-   "reviews": 91,
+   "reviews": 92,
    "address": "日本、〒211-0004 神奈川県川崎市中原区新丸子東２丁目９０９−１０",
    "maps": "https://maps.google.com/?cid=6010601555139774872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -118,7 +110,7 @@
   {
    "name": "川崎パーソナルジム キングジム",
    "rating": 4.7,
-   "reviews": 76,
+   "reviews": 78,
    "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目４−２",
    "maps": "https://maps.google.com/?cid=3512154117390892175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -156,6 +148,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "ライザップ(RIZAP)川崎店",
+   "rating": 4.5,
+   "reviews": 61,
+   "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子２丁目６−２ 三恵ビル 2F",
+   "maps": "https://maps.google.com/?cid=11211125198874227172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "エクササイズコーチ川崎DICE店",
    "rating": 4.8,
    "reviews": 58,
@@ -180,14 +180,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "FIGO パーソナルジム 武蔵小杉",
-   "rating": 4.9,
-   "reviews": 55,
-   "address": "日本、〒211-0016 神奈川県川崎市中原区市ノ坪１３１−２２",
-   "maps": "https://maps.google.com/?cid=4647933179439716885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "MIYAZAKI GYM川崎店",
    "rating": 4.9,
    "reviews": 53,
@@ -198,7 +190,7 @@
   {
    "name": "6GYM",
    "rating": 5,
-   "reviews": 50,
+   "reviews": 51,
    "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子２丁目9−５ 1F",
    "maps": "https://maps.google.com/?cid=12861785324922438903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -220,9 +212,17 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 川崎",
+   "rating": 4.8,
+   "reviews": 46,
+   "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町１０−１ MEFULL川崎 10F",
+   "maps": "https://maps.google.com/?cid=14089578721837142457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "ティーバランス川崎店 パーソナルジム",
    "rating": 5,
-   "reviews": 44,
+   "reviews": 46,
    "address": "日本、〒212-0016 神奈川県川崎市幸区南幸町３丁目３−１９−２ 翁ビル 301",
    "maps": "https://maps.google.com/?cid=17338264561402173450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -230,9 +230,17 @@
   {
    "name": "LUSTER 鹿島田｜パーソナル × 24時間ジム",
    "rating": 5,
-   "reviews": 42,
+   "reviews": 43,
    "address": "日本、〒212-0031 神奈川県川崎市幸区下平間１４３−１０",
    "maps": "https://maps.google.com/?cid=5444237848658071842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 川崎店",
+   "rating": 4.4,
+   "reviews": 41,
+   "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町２丁目7−８ 昼間ビル IYTOWER９階",
+   "maps": "https://maps.google.com/?cid=7628453791347002117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -241,22 +249,6 @@
    "reviews": 41,
    "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町１７−１４ ARIUS604",
    "maps": "https://maps.google.com/?cid=271781252259307933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 川崎",
-   "rating": 4.8,
-   "reviews": 40,
-   "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町１０−１ MEFULL川崎 10F",
-   "maps": "https://maps.google.com/?cid=14089578721837142457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "24/7ワークアウト 川崎店",
-   "rating": 4.4,
-   "reviews": 40,
-   "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町２丁目7−８ 昼間ビル IYTOWER９階",
-   "maps": "https://maps.google.com/?cid=7628453791347002117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -300,19 +292,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "大型レンタルジムBTB 川崎駅前店",
-   "rating": 4.8,
-   "reviews": 26,
-   "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町１８−１３ ライオンズプラザ川崎 103",
-   "maps": "https://maps.google.com/?cid=15887720302306135946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "AHRL's GYM（アールズジム)川崎パーソナルジム",
    "rating": 5,
    "reviews": 25,
    "address": "日本、〒212-0012 神奈川県川崎市幸区中幸町４丁目50−４ 3F",
    "maps": "https://maps.google.com/?cid=13438996744955796272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ピラティス 川崎店《個室パーソナルピラティススタジオ》",
+   "rating": 4.9,
+   "reviews": 23,
+   "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町２−７ 昼間ビルIVY TOWER9階",
+   "maps": "https://maps.google.com/?cid=13639130467215302846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UNDEUX SUPERBODY 武蔵小杉",
+   "rating": 4.9,
+   "reviews": 20,
+   "address": "日本、〒211-0063 神奈川県川崎市中原区小杉町１丁目４０３−６０ 7階",
+   "maps": "https://maps.google.com/?cid=120177453694706033&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -337,6 +337,14 @@
    "reviews": 11,
    "address": "日本、〒212-0012 神奈川県川崎市幸区中幸町３丁目８ ロックヒルズ 10 502",
    "maps": "https://maps.google.com/?cid=18048983699346326830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "courage 603gym",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒212-0012 神奈川県川崎市幸区中幸町３丁目8−１ 603号室",
+   "maps": "https://maps.google.com/?cid=13429526529976805745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -420,19 +428,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "STUDIO IVY 川崎店【パーソナル マシンピラティス】",
-   "rating": 4.5,
-   "reviews": 2,
-   "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町１７−１４ ARIUS 601",
-   "maps": "https://maps.google.com/?cid=7548898888145518151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "BREST PILATES & BODYMAKE 川崎",
    "rating": 5,
    "reviews": 2,
    "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町２−７ IVY TOWER 3F",
    "maps": "https://maps.google.com/?cid=6995712439775403655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO IVY 川崎店【パーソナル マシンピラティス】",
+   "rating": 4.5,
+   "reviews": 2,
+   "address": "日本、〒210-0023 神奈川県川崎市川崎区小川町１７−１４ ARIUS 601",
+   "maps": "https://maps.google.com/?cid=7548898888145518151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -460,17 +468,9 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "川崎パーソナルトレーニングジムノウベスト",
-   "rating": 5,
-   "reviews": 1,
-   "address": "日本、〒210-0835 神奈川県川崎市川崎区追分町１１−３ 1F",
-   "maps": "https://maps.google.com/?cid=2898255019438963550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "完全個室パーソナルピラティスALES",
    "rating": null,
-   "reviews": 0,
+   "reviews": null,
    "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町１８−２ 金子ダイヤモンドビル ４階",
    "maps": "https://maps.google.com/?cid=12896975142256256413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -478,7 +478,7 @@
   {
    "name": "LiMEパーソナルジム 川崎店",
    "rating": null,
-   "reviews": 0,
+   "reviews": null,
    "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町１８−１ メルス・サイトー 802",
    "maps": "https://maps.google.com/?cid=5835979862023941300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"

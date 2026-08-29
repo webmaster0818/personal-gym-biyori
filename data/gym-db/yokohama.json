@@ -1,22 +1,14 @@
 {
  "city": "yokohama",
- "fetchedAt": "2026-08-16",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 横浜",
  "gyms": [
   {
    "name": "ASPI横浜駅 パーソナルトレーニングジム",
    "rating": 4.9,
-   "reviews": 395,
+   "reviews": 399,
    "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−４０ ＴＹビル 8階",
    "maps": "https://maps.google.com/?cid=7710904940268057640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジム BEYOND 新横浜店",
-   "rating": 4.9,
-   "reviews": 333,
-   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜２丁目4−４ ウィズ新横浜ビル 9F",
-   "maps": "https://maps.google.com/?cid=8394805490315602718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -38,7 +30,7 @@
   {
    "name": "パーソナルトレーニング/ピラティス NEXPORT (ネクスポート) 横浜中華街",
    "rating": 5,
-   "reviews": 226,
+   "reviews": 227,
    "address": "日本、〒231-0023 神奈川県横浜市中区山下町１６８−１ レイトンハウス横浜 2F",
    "maps": "https://maps.google.com/?cid=5975282795902250521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,7 +38,7 @@
   {
    "name": "ゴーズジム(GO'S GYM) 横浜元町店",
    "rating": 4.9,
-   "reviews": 168,
+   "reviews": 169,
    "address": "日本、〒231-0861 神奈川県横浜市中区元町３丁目１１５ 百段館 3F＆6F",
    "maps": "https://maps.google.com/?cid=2529776159816550117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -55,14 +47,14 @@
    "name": "BEYOND 横浜東口店",
    "rating": 4.9,
    "reviews": 150,
-   "address": "日本、〒220-0023 神奈川県横浜市西区平沼１丁目３７−５ 中沢ビル 3F",
+   "address": "日本、〒220-0023 神奈川県横浜市西区平沼１丁目３７−５ 中沢ビル ３階",
    "maps": "https://maps.google.com/?cid=7983083345895102308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "パーソナルジムBEYOND横浜元町店(パーソナルトレーニング) ｜関内/横浜元町",
    "rating": 5,
-   "reviews": 147,
+   "reviews": 149,
    "address": "日本、〒231-0861 神奈川県横浜市中区元町１丁目11−６ 第一タイヨウビル 2F 横浜元町 パーソナルトレーニング",
    "maps": "https://maps.google.com/?cid=17168357006762691757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -78,7 +70,7 @@
   {
    "name": "女性専用パーソナルジム UNDEUX SUPERBODY 横浜",
    "rating": 4.8,
-   "reviews": 114,
+   "reviews": 125,
    "address": "日本、〒220-0044 神奈川県横浜市西区北幸１丁目５−４ 四谷学院第2ビル 2F",
    "maps": "https://maps.google.com/?cid=6092591636496433495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -101,8 +93,8 @@
   },
   {
    "name": "エクササイズコーチ横浜店",
-   "rating": 4.9,
-   "reviews": 100,
+   "rating": 4.8,
+   "reviews": 101,
    "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−５０ 北幸山田ビル 5階",
    "maps": "https://maps.google.com/?cid=9826988725778549431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -142,7 +134,7 @@
   {
    "name": "パーソナルジム With Uウィズユー横浜桜木町店",
    "rating": 5,
-   "reviews": 84,
+   "reviews": 85,
    "address": "日本、〒231-0064 神奈川県横浜市中区野毛町４丁目１６７−３ バロック神 201,203",
    "maps": "https://maps.google.com/?cid=7697143559413653642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -166,15 +158,23 @@
   {
    "name": "リボーンマイセルフ横浜店",
    "rating": 4.8,
-   "reviews": 78,
+   "reviews": 79,
    "address": "日本、〒220-0073 神奈川県横浜市西区岡野１丁目１３−５ 横浜西口サンエースビル 5階",
    "maps": "https://maps.google.com/?cid=6784970623753848144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
+   "name": "THE PERSONAL GYM横浜店",
+   "rating": 4.9,
+   "reviews": 72,
+   "address": "日本、〒221-0834 神奈川県横浜市神奈川区台町１−４ ライオンズマンション台町第２ B101",
+   "maps": "https://maps.google.com/?cid=7695647228704533569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "女性専門パーソナルジムSTYLISH 東神奈川",
    "rating": 5,
-   "reviews": 73,
+   "reviews": 72,
    "address": "日本、〒221-0822 神奈川県横浜市神奈川区西神奈川１丁目5−２ ナイスアーバン 東神奈川102",
    "maps": "https://maps.google.com/?cid=1720813813551452779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -182,17 +182,9 @@
   {
    "name": "T-BUDDY 本店",
    "rating": 5,
-   "reviews": 72,
+   "reviews": 71,
    "address": "日本、〒220-0051 神奈川県横浜市西区中央２丁目４１−１８ 1F",
    "maps": "https://maps.google.com/?cid=13537441996886330336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "THE PERSONAL GYM横浜店",
-   "rating": 4.9,
-   "reviews": 71,
-   "address": "日本、〒221-0834 神奈川県横浜市神奈川区台町１−４ ライオンズマンション台町第２ B101",
-   "maps": "https://maps.google.com/?cid=7695647228704533569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -206,7 +198,7 @@
   {
    "name": "ティーバランス横浜鶴屋町店 パーソナルジム",
    "rating": 4.8,
-   "reviews": 63,
+   "reviews": 65,
    "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町３丁目３５−１１ 701号",
    "maps": "https://maps.google.com/?cid=12777456421142264220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -214,7 +206,7 @@
   {
    "name": "パーソナルジム ARC",
    "rating": 5,
-   "reviews": 62,
+   "reviews": 61,
    "address": "日本、〒231-0063 神奈川県横浜市中区花咲町２丁目６６−６６ 202 ビル",
    "maps": "https://maps.google.com/?cid=4641204288533663244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -225,6 +217,14 @@
    "reviews": 60,
    "address": "日本、〒231-0047 神奈川県横浜市中区羽衣町２丁目５−１ 宮本第二ビル 201",
    "maps": "https://maps.google.com/?cid=7895614460184111570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Dr.トレーニング 横浜店",
+   "rating": 5,
+   "reviews": 58,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町２丁目12−１０ 千菊ビル 1F",
+   "maps": "https://maps.google.com/?cid=4830636303070670994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -249,14 +249,6 @@
    "reviews": 55,
    "address": "日本、〒231-0015 神奈川県横浜市中区尾上町６丁目87−１ ダイムラービル 2F",
    "maps": "https://maps.google.com/?cid=10019306695222791180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Dr.トレーニング 横浜店",
-   "rating": 5,
-   "reviews": 54,
-   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町２丁目12−１０ 千菊ビル 1F",
-   "maps": "https://maps.google.com/?cid=4830636303070670994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -301,8 +293,8 @@
   },
   {
    "name": "REGAS GYM横浜関内店",
-   "rating": 4.9,
-   "reviews": 38,
+   "rating": 5,
+   "reviews": 41,
    "address": "日本、〒231-0015 神奈川県横浜市中区尾上町５丁目62−１ VIVOVA馬車道 B1 階〜2階",
    "maps": "https://maps.google.com/?cid=18400684203583068620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -321,14 +313,6 @@
    "reviews": 33,
    "address": "日本、〒220-0072 神奈川県横浜市西区浅間町１丁目12−４ 第2久保ビル 1階",
    "maps": "https://maps.google.com/?cid=16943329866549367024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルコンディショニングジム【Barefoot Gym】",
-   "rating": 4.7,
-   "reviews": 32,
-   "address": "日本、〒231-0053 神奈川県横浜市中区初音町３丁目６３−３ ビーシティ 横浜 ステーションスクエア 5F",
-   "maps": "https://maps.google.com/?cid=2022212290854255682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -380,19 +364,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "PROQ プローク パーソナルジム 横浜 桜木町",
-   "rating": 5,
-   "reviews": 18,
-   "address": "日本、〒231-0064 神奈川県横浜市中区野毛町４丁目１７３−２ サンヴェール横濱野毛山公園 102",
-   "maps": "https://maps.google.com/?cid=14433673789609226143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 横浜ANNEX",
+   "rating": 4.8,
+   "reviews": 21,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町１丁目７−１０ ハウスプラン第二ビル 4A",
+   "maps": "https://maps.google.com/?cid=4787326999737484729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 横浜ANNEX",
-   "rating": 4.7,
-   "reviews": 16,
-   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町１丁目７−１０ ハウスプラン第二ビル 4A",
-   "maps": "https://maps.google.com/?cid=4787326999737484729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "PROQ プローク パーソナルジム 横浜 桜木町",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒231-0064 神奈川県横浜市中区野毛町４丁目１７３−２ サンヴェール横濱野毛山公園 102",
+   "maps": "https://maps.google.com/?cid=14433673789609226143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -444,6 +428,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "受け放題パーソナルジムAbody桜木町店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒231-0064 神奈川県横浜市中区野毛町２丁目５９−４",
+   "maps": "https://maps.google.com/?cid=7200727085663351160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルジム",
    "rating": 5,
    "reviews": 5,
@@ -465,6 +457,14 @@
    "reviews": 5,
    "address": "日本、〒231-0012 神奈川県横浜市中区相生町２丁目３４−１ 石井ビル ３階",
    "maps": "https://maps.google.com/?cid=6092473778824300574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Body Salon ES-A-LIFE 横浜阪東橋 ストレッチ＆パーソナルトレーニング",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒232-0023 神奈川県横浜市南区白妙町４丁目４２−３ 1階",
+   "maps": "https://maps.google.com/?cid=13773207062213787136&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {

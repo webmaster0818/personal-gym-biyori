@@ -1,12 +1,12 @@
 {
  "city": "熊本",
- "fetchedAt": "2026-08-23",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 熊本",
  "gyms": [
   {
    "name": "BEYOND 熊本店",
    "rating": 5,
-   "reviews": 210,
+   "reviews": 211,
    "address": "日本、〒860-0846 熊本県熊本市中央区城東町２−１２ アンピールパーキング上通り ２F",
    "maps": "https://maps.google.com/?cid=4747988105008594953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -20,14 +20,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "フィアートフィット 東区 ジム 健軍",
-   "rating": 4.8,
-   "reviews": 125,
-   "address": "日本、〒862-0908 熊本県熊本市東区新生１丁目１−９",
-   "maps": "https://maps.google.com/?cid=13642594685823094001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "RITA-STYLE 熊本新市街店",
    "rating": 4.9,
    "reviews": 113,
@@ -36,19 +28,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "エクサライズ尾ノ上店 熊本市東区 パーソナルトレーニングジム ダイエットand筋力アップ",
+   "rating": 4.9,
+   "reviews": 110,
+   "address": "日本、〒862-0913 熊本県熊本市東区尾ノ上２丁目５−７",
+   "maps": "https://maps.google.com/?cid=17187803358324970453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルジムFLASH 国府店",
    "rating": 5,
    "reviews": 109,
    "address": "日本、〒862-0948 熊本県熊本市中央区国府本町１２−２１ 西屋ビル 1F",
    "maps": "https://maps.google.com/?cid=8833720160450352710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "エクサライズ尾ノ上店 熊本市東区 パーソナルトレーニングジム ダイエットand筋力アップ",
-   "rating": 4.9,
-   "reviews": 109,
-   "address": "日本、〒862-0913 熊本県熊本市東区尾ノ上２丁目５−７",
-   "maps": "https://maps.google.com/?cid=17187803358324970453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -70,7 +62,7 @@
   {
    "name": "ラムア 水前寺・大江店（女性専用パーソナルジム）",
    "rating": 4.9,
-   "reviews": 78,
+   "reviews": 79,
    "address": "日本、〒862-0971 熊本県熊本市中央区大江３丁目２−４０",
    "maps": "https://maps.google.com/?cid=9658985006369184533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -101,8 +93,8 @@
   },
   {
    "name": "BEYOND 肥後大津店",
-   "rating": 5,
-   "reviews": 61,
+   "rating": 4.9,
+   "reviews": 62,
    "address": "日本、〒869-1235 熊本県菊池郡大津町室１０９ チャンバー3 A号室",
    "maps": "https://maps.google.com/?cid=4896982430053464975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -140,19 +132,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "NEO FITNESS",
-   "rating": 5,
-   "reviews": 53,
-   "address": "日本、〒862-0912 熊本県熊本市東区錦ケ丘１８−２５ NEO FITNESS",
-   "maps": "https://maps.google.com/?cid=4245992454801181278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジムGLORIA熊本大江・水前寺（ボディハッカーズラボ）",
    "rating": 5,
    "reviews": 53,
    "address": "日本、〒862-0971 熊本県熊本市中央区大江６丁目２０−６ T-areaビル ４Ｆ",
    "maps": "https://maps.google.com/?cid=1280038749329283829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEO FITNESS",
+   "rating": 5,
+   "reviews": 53,
+   "address": "日本、〒862-0912 熊本県熊本市東区錦ケ丘１８−２５ NEO FITNESS",
+   "maps": "https://maps.google.com/?cid=4245992454801181278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -180,19 +172,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "WAVE",
-   "rating": 5,
-   "reviews": 41,
-   "address": "日本、〒861-8001 熊本県熊本市北区武蔵ケ丘５丁目２−２４",
-   "maps": "https://maps.google.com/?cid=14062867940629891820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジムRISOU",
    "rating": 4.9,
    "reviews": 41,
    "address": "日本、〒861-8037 熊本県熊本市東区長嶺西１丁目７−１",
    "maps": "https://maps.google.com/?cid=4480127223477127777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "WAVE",
+   "rating": 5,
+   "reviews": 41,
+   "address": "日本、〒861-8001 熊本県熊本市北区武蔵ケ丘５丁目２−２４",
+   "maps": "https://maps.google.com/?cid=14062867940629891820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -204,19 +196,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジム・ピラティスBelive.",
+   "rating": 4.9,
+   "reviews": 39,
+   "address": "日本、〒860-0845 熊本県熊本市中央区上通町７−４ テラビル 303",
+   "maps": "https://maps.google.com/?cid=14795852020843728168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルジムFLASH 長嶺店",
    "rating": 5,
    "reviews": 39,
    "address": "日本、〒861-8034 熊本県熊本市東区八反田１丁目３−７８ 2F",
    "maps": "https://maps.google.com/?cid=6579334001992514724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジム・ピラティスBelive.",
-   "rating": 4.9,
-   "reviews": 38,
-   "address": "日本、〒860-0845 熊本県熊本市中央区上通町７−４ テラビル 303",
-   "maps": "https://maps.google.com/?cid=14795852020843728168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -260,11 +252,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "MENTAL PERSONALGYM Z",
+   "name": "女性専用パーソナルジム ラムア 光の森店",
    "rating": 5,
    "reviews": 29,
-   "address": "日本、〒862-0911 熊本県熊本市東区健軍４丁目１８−１ フォーエス健軍 101",
-   "maps": "https://maps.google.com/?cid=2994647788602362843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒861-8001 熊本県熊本市北区武蔵ケ丘１丁目１５−１７ ムサシ１番館 H号室",
+   "maps": "https://maps.google.com/?cid=13760966485517019830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -273,14 +265,6 @@
    "reviews": 29,
    "address": "日本、〒862-0972 熊本県熊本市中央区新大江３丁目７−２",
    "maps": "https://maps.google.com/?cid=10161206206688645755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用パーソナルジム ラムア 光の森店",
-   "rating": 5,
-   "reviews": 28,
-   "address": "日本、〒861-8001 熊本県熊本市北区武蔵ケ丘１丁目１５−１７ ムサシ１番館 H号室",
-   "maps": "https://maps.google.com/?cid=13760966485517019830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -305,6 +289,14 @@
    "reviews": 23,
    "address": "日本、〒869-1103 熊本県菊池郡菊陽町久保田２８０７ ３SKY HILLS １F",
    "maps": "https://maps.google.com/?cid=4247150371239669374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム 2PUMP(パンプ)",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒861-1115 熊本県合志市豊岡２０００−２４９０",
+   "maps": "https://maps.google.com/?cid=2695864145403550475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -348,6 +340,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "WILL下通店",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒860-0807 熊本県熊本市中央区下通２丁目３−１ エスキュービックビル 4F-A",
+   "maps": "https://maps.google.com/?cid=16690287384478447096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "SAKURA GYM JAPAN",
    "rating": 4.9,
    "reviews": 14,
@@ -356,27 +356,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "韓国式ピラティス&パーソナルジムWILL下通店",
-   "rating": 5,
-   "reviews": 13,
-   "address": "日本、〒860-0807 熊本県熊本市中央区下通２丁目３−１ エスキュービックビル 4F-A",
-   "maps": "https://maps.google.com/?cid=16690287384478447096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジムLYNQ",
    "rating": 4.9,
-   "reviews": 12,
+   "reviews": 13,
    "address": "日本、〒860-0047 熊本県熊本市西区春日７丁目１９−２８",
    "maps": "https://maps.google.com/?cid=12342677546315298006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ディフィーダ パーソナルトレーニングジム",
-   "rating": 5,
-   "reviews": 12,
-   "address": "日本、〒860-0855 熊本県熊本市中央区北千反畑町１−７ MSビル 2F 201号",
-   "maps": "https://maps.google.com/?cid=3320369556046459958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -388,11 +372,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "NeXT GYM 24(スポーツジム)【パーソナルジムRISOU併設】",
+   "name": "ディフィーダ パーソナルトレーニングジム",
    "rating": 5,
    "reviews": 12,
-   "address": "日本、〒861-8037 熊本県熊本市東区長嶺西１丁目７−１",
-   "maps": "https://maps.google.com/?cid=12784263236139468868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒860-0855 熊本県熊本市中央区北千反畑町１−７ MSビル 2F 201号",
+   "maps": "https://maps.google.com/?cid=3320369556046459958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -401,6 +385,14 @@
    "reviews": 11,
    "address": "日本、〒860-0856 熊本県熊本市中央区妙体寺町２−２ アビタション",
    "maps": "https://maps.google.com/?cid=13754833880976503312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TwinB（ツインビー）",
+   "rating": 4.9,
+   "reviews": 10,
+   "address": "日本、〒862-0925 熊本県熊本市東区保田窪本町６−５ 松本ビル 1号室",
+   "maps": "https://maps.google.com/?cid=13003059595126159924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -444,6 +436,30 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジム NaGu",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒861-4172 熊本県熊本市南区御幸笛田１丁目２−７３ 御幸ビル 102",
+   "maps": "https://maps.google.com/?cid=5881873447092677971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "flat",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒861-8028 熊本県熊本市東区新南部３丁目７−１２８",
+   "maps": "https://maps.google.com/?cid=4750205266496555568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム M2 function（エムツーファンクション）",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒862-0969 熊本県熊本市南区良町４丁目１−７０ 米森ハイツ",
+   "maps": "https://maps.google.com/?cid=9970033841518305940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "MUDA GYM",
    "rating": 5,
    "reviews": 1,
@@ -460,27 +476,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジム M2 function（エムツーファンクション）",
-   "rating": 5,
-   "reviews": 1,
-   "address": "日本、〒862-0969 熊本県熊本市南区良町４丁目１−７０ 米森ハイツ",
-   "maps": "https://maps.google.com/?cid=9970033841518305940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ONE HOPE GYM",
    "rating": 5,
    "reviews": 1,
    "address": "日本、〒860-0072 熊本県熊本市西区花園２丁目６−２６",
    "maps": "https://maps.google.com/?cid=5819365340612175789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジム&ピラティス WILL熊本駅前店",
-   "rating": null,
-   "reviews": null,
-   "address": "日本、〒860-0051 熊本県熊本市西区二本木２丁目７−２ ヴァルール熊本駅前 207",
-   "maps": "https://maps.google.com/?cid=15858996442628309773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

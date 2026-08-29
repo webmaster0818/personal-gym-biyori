@@ -1,12 +1,12 @@
 {
  "city": "saitama",
- "fetchedAt": "2026-08-19",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム さいたま市 大宮 浦和",
  "gyms": [
   {
    "name": "パーソナルジム&8 浦和店",
    "rating": 4.8,
-   "reviews": 615,
+   "reviews": 618,
    "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町１丁目１−１０ ウイング浦和 地下 1階",
    "maps": "https://maps.google.com/?cid=5901768198696684429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "加圧 & パーソナルトレーニング ジム Oz 大宮店",
    "rating": 4.8,
-   "reviews": 261,
+   "reviews": 263,
    "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目１７５ KGビル 3F",
    "maps": "https://maps.google.com/?cid=7762284793772322474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +22,7 @@
   {
    "name": "BEYOND 大宮店",
    "rating": 5,
-   "reviews": 231,
+   "reviews": 233,
    "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町１丁目４７ 一番ビル 3F",
    "maps": "https://maps.google.com/?cid=180380483408439856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,7 +38,7 @@
   {
    "name": "STREAM(ストリーム) 浦和店",
    "rating": 4.9,
-   "reviews": 186,
+   "reviews": 187,
    "address": "日本、〒330-0055 埼玉県さいたま市浦和区東高砂町２５−８ ヒガシタカサゴミライ 2F",
    "maps": "https://maps.google.com/?cid=13998580698867555782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,7 +46,7 @@
   {
    "name": "ASPI大宮店 パーソナルトレーニングジム",
    "rating": 4.9,
-   "reviews": 168,
+   "reviews": 180,
    "address": "日本、〒330-0854 埼玉県さいたま市大宮区大門町３丁目５９ 小沢ビル 2階",
    "maps": "https://maps.google.com/?cid=14387073073296008234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -54,7 +54,7 @@
   {
    "name": "パーソナルトレーニングジム ASPI浦和店",
    "rating": 5,
-   "reviews": 154,
+   "reviews": 159,
    "address": "日本、〒330-0056 埼玉県さいたま市浦和区東仲町８−３ プレミア浦和 2F",
    "maps": "https://maps.google.com/?cid=14097907619883556561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -62,7 +62,7 @@
   {
    "name": "パーソナルジムRat大宮店",
    "rating": 4.8,
-   "reviews": 152,
+   "reviews": 153,
    "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目２０−１ 2F",
    "maps": "https://maps.google.com/?cid=15355481221336131265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -94,13 +94,13 @@
   {
    "name": "FIT PLACE24 与野店",
    "rating": 4.8,
-   "reviews": 97,
+   "reviews": 96,
    "address": "日本、〒338-0002 埼玉県さいたま市中央区下落合１０２７ 与野フードセンタービル ３Ｆ",
    "maps": "https://maps.google.com/?cid=12201611570171665969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "24/7ワークアウト大宮店",
+   "name": "24/7ワークアウト",
    "rating": 4.8,
    "reviews": 95,
    "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目３５ 大塚ビル 4F",
@@ -134,7 +134,7 @@
   {
    "name": "パーソナルジム Be more 大宮店",
    "rating": 5,
-   "reviews": 81,
+   "reviews": 82,
    "address": "日本、〒330-0834 埼玉県さいたま市大宮区天沼町１丁目４２８−２ 1階",
    "maps": "https://maps.google.com/?cid=3591192205412238947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -196,6 +196,22 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 大宮",
+   "rating": 4.8,
+   "reviews": 58,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目６１ 第二 ＧＳビル 2F",
+   "maps": "https://maps.google.com/?cid=7985368714943477664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "理学療法士によるパーソナルジムLIMITED武蔵浦和店",
+   "rating": 4.9,
+   "reviews": 54,
+   "address": "日本、〒336-0027 埼玉県さいたま市南区沼影１丁目６−２０ 武蔵浦和ビル 2D",
+   "maps": "https://maps.google.com/?cid=15931793276240404114&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "Bump Up 浦和店",
    "rating": 4.9,
    "reviews": 52,
@@ -236,17 +252,17 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 大宮",
-   "rating": 4.8,
-   "reviews": 44,
-   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目６１ 第二 ＧＳビル 2F",
-   "maps": "https://maps.google.com/?cid=7985368714943477664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "パーソナルジムASPI南浦和店",
+   "rating": 5,
+   "reviews": 43,
+   "address": "日本、〒336-0025 埼玉県さいたま市南区文蔵１丁目３−９ 藤本ビル 1階",
+   "maps": "https://maps.google.com/?cid=11278387953279189461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "理学療法士によるパーソナルジムLIMITED浦和店",
    "rating": 4.9,
-   "reviews": 41,
+   "reviews": 42,
    "address": "日本、〒330-0055 埼玉県さいたま市浦和区東高砂町５−８ 浦和Aビル 1階",
    "maps": "https://maps.google.com/?cid=8619089537725038372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -262,17 +278,9 @@
   {
    "name": "パーソナルトレーニングジム / ビオスさいたま新都心店",
    "rating": 4.8,
-   "reviews": 37,
+   "reviews": 38,
    "address": "日本、〒330-0843 埼玉県さいたま市大宮区吉敷町４丁目２４８−１ 町田ビル 4F",
    "maps": "https://maps.google.com/?cid=6873753131938214168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジムASPI南浦和店",
-   "rating": 5,
-   "reviews": 37,
-   "address": "日本、〒336-0025 埼玉県さいたま市南区文蔵１丁目３−９ 藤本ビル 1階",
-   "maps": "https://maps.google.com/?cid=11278387953279189461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -284,19 +292,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムPara's",
-   "rating": 5,
-   "reviews": 35,
-   "address": "日本、〒330-0073 埼玉県さいたま市浦和区元町２丁目６−１ Aifort.北浦和 602号室",
-   "maps": "https://maps.google.com/?cid=623419663228746208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジムSOUND",
    "rating": 4.9,
    "reviews": 34,
    "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目22−５ 三協ビル 3階",
    "maps": "https://maps.google.com/?cid=291567024944283624&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 浦和",
+   "rating": 4.9,
+   "reviews": 33,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目８−１６ 浦和ガーデンビル 3階",
+   "maps": "https://maps.google.com/?cid=6291337478964365519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -321,14 +329,6 @@
    "reviews": 28,
    "address": "日本、〒330-0071 埼玉県さいたま市浦和区上木崎２丁目２−１５ AOビル 3F",
    "maps": "https://maps.google.com/?cid=10248814572151589930&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 浦和",
-   "rating": 4.9,
-   "reviews": 26,
-   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目８−１６ 浦和ガーデンビル 3階",
-   "maps": "https://maps.google.com/?cid=6291337478964365519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -444,14 +444,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "R-3fitness大宮店",
-   "rating": 4.8,
-   "reviews": 6,
-   "address": "日本、〒330-0841 埼玉県さいたま市大宮区東町１丁目１９５−１ BFTSビル 1F",
-   "maps": "https://maps.google.com/?cid=2374464747735748881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "WAPLE さいたま新都心店",
    "rating": 5,
    "reviews": 6,
@@ -460,9 +452,17 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "R-3fitness大宮店",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒330-0841 埼玉県さいたま市大宮区東町１丁目１９５−１ BFTSビル 1F",
+   "maps": "https://maps.google.com/?cid=2374464747735748881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "NEXUSパーソナルジム大宮店",
    "rating": 5,
-   "reviews": 2,
+   "reviews": 5,
    "address": "日本、〒330-0845 埼玉県さいたま市大宮区仲町１丁目４８−２ あひか第二ビル ４０２",
    "maps": "https://maps.google.com/?cid=15047831096858048147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"

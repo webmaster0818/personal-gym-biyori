@@ -1,12 +1,12 @@
 {
  "city": "nagoya",
- "fetchedAt": "2026-08-16",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 名古屋",
  "gyms": [
   {
    "name": "BEYOND 名古屋駅前店",
    "rating": 4.9,
-   "reviews": 392,
+   "reviews": 395,
    "address": "日本、〒450-0003 愛知県名古屋市中村区名駅南１丁目１８−１１ 1F",
    "maps": "https://maps.google.com/?cid=8974859035056677116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "BEYOND 名古屋栄店",
    "rating": 4.9,
-   "reviews": 278,
+   "reviews": 280,
    "address": "日本、〒460-0008 愛知県名古屋市中区栄５丁目１６−１９ ネイリックスビル 4F",
    "maps": "https://maps.google.com/?cid=6602113580978669267&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +22,7 @@
   {
    "name": "THE PERSONAL GYM 名古屋栄店",
    "rating": 5,
-   "reviews": 264,
+   "reviews": 266,
    "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目１−１ 広小路本町ビルディング B1",
    "maps": "https://maps.google.com/?cid=13376274339009112877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,21 +46,45 @@
   {
    "name": "パーソナルジム＆マシンピラティス メルメイク 女性専用・名古屋駅店",
    "rating": 5,
-   "reviews": 181,
+   "reviews": 182,
    "address": "日本、〒450-0002 愛知県名古屋市中村区名駅２丁目２８−９ ブライトビル 301号室",
    "maps": "https://maps.google.com/?cid=5721771938140858646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
+   "name": "ASPI名古屋栄店",
+   "rating": 4.9,
+   "reviews": 174,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄４丁目１６−２４ メーゾンオザワビル 302",
+   "maps": "https://maps.google.com/?cid=3018330284143173202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "E.V.O Personal Training Gym 名古屋泉店",
+   "rating": 5,
+   "reviews": 139,
+   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目２２−３５",
+   "maps": "https://maps.google.com/?cid=13091776055297875515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "UNDEUX SUPERBODY 名古屋",
    "rating": 4.8,
-   "reviews": 123,
+   "reviews": 137,
    "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目２３−６ 第二千福ビル 8F",
    "maps": "https://maps.google.com/?cid=8952076647753017845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "GRAP",
+   "name": "金山・東別院パーソナルジムDiet Beauty Lab本店",
+   "rating": 4.9,
+   "reviews": 122,
+   "address": "日本、〒460-0025 愛知県名古屋市中区古渡町１５−２２ 三進セロファン 3階 金山 東別院 パーソナルジム",
+   "maps": "https://maps.google.com/?cid=17132951864864434721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムGRAP",
    "rating": 4.9,
    "reviews": 119,
    "address": "日本、〒460-0011 愛知県名古屋市中区大須３丁目５−４９ 4階北B号室",
@@ -68,43 +92,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "金山・東別院パーソナルジムDiet Beauty Lab本店",
-   "rating": 4.9,
-   "reviews": 118,
-   "address": "日本、〒460-0025 愛知県名古屋市中区古渡町１５−２２ 三進セロファン 3階 金山 東別院 パーソナルジム",
-   "maps": "https://maps.google.com/?cid=17132951864864434721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "メルメイク名駅店",
    "rating": 5,
-   "reviews": 115,
+   "reviews": 116,
    "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目１１−９ JE311ビル 302号室",
    "maps": "https://maps.google.com/?cid=7993501915831421147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジム＆マシンピラティス メルメイク伏見店",
-   "rating": 5,
-   "reviews": 115,
-   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目１３−３１ H-2",
-   "maps": "https://maps.google.com/?cid=6018371017359376928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "GYM76 泉店 パーソナルトレーニングジム",
-   "rating": 5,
-   "reviews": 115,
-   "address": "日本、〒461-0001 愛知県名古屋市東区泉２丁目１−３０",
-   "maps": "https://maps.google.com/?cid=11618548371767090782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジム BEYOND金山店",
    "rating": 4.9,
-   "reviews": 112,
+   "reviews": 114,
    "address": "日本、〒460-0022 愛知県名古屋市中区金山１丁目１４−９ 7階",
    "maps": "https://maps.google.com/?cid=1627830401069379528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ターニングポイント名古屋本店",
+   "rating": 4.9,
+   "reviews": 110,
+   "address": "日本、〒460-0016 愛知県名古屋市中区橘１丁目６−１５",
+   "maps": "https://maps.google.com/?cid=5033868179320524924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -118,17 +126,9 @@
   {
    "name": "HIOH personal GYM",
    "rating": 5,
-   "reviews": 104,
+   "reviews": 106,
    "address": "日本、〒464-0855 愛知県名古屋市千種区千種通５丁目20−３ サンパレス千種 1F",
    "maps": "https://maps.google.com/?cid=13058247759202614889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "エグゾルトフィットネス２４",
-   "rating": 4.9,
-   "reviews": 104,
-   "address": "日本、〒460-0013 愛知県名古屋市中区上前津２丁目９−１６ 102",
-   "maps": "https://maps.google.com/?cid=17500806825261410216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -150,9 +150,17 @@
   {
    "name": "パーソナルトレーニングジムGOODSUNPLUS名古屋店",
    "rating": 5,
-   "reviews": 91,
+   "reviews": 92,
    "address": "日本、〒450-0003 愛知県名古屋市中村区名駅南１丁目１９−１３ ＡＥビル 902",
    "maps": "https://maps.google.com/?cid=8001846686832795069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "姿勢改善マシンピラティス&パーソナルジム LYGYM 栄",
+   "rating": 4.9,
+   "reviews": 88,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄２丁目７−１５ 白川ビル 1階",
+   "maps": "https://maps.google.com/?cid=8514809678886737080&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -164,25 +172,17 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "姿勢改善マシンピラティス&パーソナルジム LYGYM 栄",
+   "name": "Vision 久屋大通パーク店",
    "rating": 4.9,
-   "reviews": 83,
-   "address": "日本、〒460-0008 愛知県名古屋市中区栄２丁目７−１５ 白川ビル 1階",
-   "maps": "https://maps.google.com/?cid=8514809678886737080&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジムAURA",
-   "rating": 5,
-   "reviews": 77,
-   "address": "日本、〒467-0878 愛知県名古屋市瑞穂区船原町６丁目３８",
-   "maps": "https://maps.google.com/?cid=11504765229491610905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 88,
+   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目１４−１ 泉久屋サンコービル 3F",
+   "maps": "https://maps.google.com/?cid=4266848857387597494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "パーソナルジム Life Shoes",
    "rating": 5,
-   "reviews": 73,
+   "reviews": 77,
    "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目１０−２５ シェモア泉 2F",
    "maps": "https://maps.google.com/?cid=2371259281376301119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -196,14 +196,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "きいろいジム",
-   "rating": 5,
-   "reviews": 71,
-   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目１６−１ ７階",
-   "maps": "https://maps.google.com/?cid=10825873463936867365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "40代以降のアイムジム【I'm GYM Personal Training】",
    "rating": 4.8,
    "reviews": 63,
@@ -214,17 +206,9 @@
   {
    "name": "Fabro Personal Gym",
    "rating": 4.9,
-   "reviews": 57,
+   "reviews": 59,
    "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目２３−６ 丸の内セントラルハイツ 402",
    "maps": "https://maps.google.com/?cid=2847784429736364649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "24/7ワークアウト 名古屋栄店",
-   "rating": 4.6,
-   "reviews": 57,
-   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目１３−３１ VIVACE2 階 A2号室",
-   "maps": "https://maps.google.com/?cid=7908115912525106735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -233,14 +217,6 @@
    "reviews": 56,
    "address": "日本、〒461-0011 愛知県名古屋市東区白壁２丁目１−２８",
    "maps": "https://maps.google.com/?cid=17187268532005429088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ボディメイクスタジオリアル 🔰初心者専門ジム",
-   "rating": 4.8,
-   "reviews": 53,
-   "address": "日本、〒460-0012 愛知県名古屋市中区千代田３丁目２８−４３",
-   "maps": "https://maps.google.com/?cid=7202184868087663778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -260,19 +236,35 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "24/7ワークアウト 名古屋久屋大通店",
-   "rating": 4.6,
-   "reviews": 37,
-   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目１３−３３ ユトリロ栄 1-B",
-   "maps": "https://maps.google.com/?cid=11900753352446961183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 栄",
+   "rating": 4.9,
+   "reviews": 49,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄４丁目１６−２７ 富士サカエビル 3階",
+   "maps": "https://maps.google.com/?cid=11802118515583351096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 栄",
+   "name": "パーソナルトレーニングジムON THE LINE",
    "rating": 5,
-   "reviews": 36,
-   "address": "日本、〒460-0008 愛知県名古屋市中区栄４丁目１６−２７ 富士サカエビル 3階",
-   "maps": "https://maps.google.com/?cid=11802118515583351096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 49,
+   "address": "日本、〒461-0001 愛知県名古屋市東区泉２丁目２−３０ 502号室",
+   "maps": "https://maps.google.com/?cid=6708611381544569247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ルルフィット名古屋 ストレッチ&パーソナルジム",
+   "rating": 4.9,
+   "reviews": 39,
+   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目２２−１２",
+   "maps": "https://maps.google.com/?cid=3695376002015792282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 名古屋久屋大通店",
+   "rating": 4.7,
+   "reviews": 38,
+   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目１３−３３ ユトリロ栄 1-B",
+   "maps": "https://maps.google.com/?cid=11900753352446961183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -284,19 +276,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムRESET吹上店",
+   "name": "メンズパーソナルジム1st Place名古屋丸の内店",
    "rating": 5,
    "reviews": 35,
-   "address": "日本、〒464-0858 愛知県名古屋市千種区千種２丁目１０−１６ SHG吹上ビル 3階",
-   "maps": "https://maps.google.com/?cid=9129474661400846691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ルルフィット名古屋 ストレッチ&パーソナルジム",
-   "rating": 4.9,
-   "reviews": 34,
-   "address": "日本、〒461-0001 愛知県名古屋市東区泉１丁目２２−１２",
-   "maps": "https://maps.google.com/?cid=3695376002015792282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内２丁目１３−１６ 丸の内スクエア 101",
+   "maps": "https://maps.google.com/?cid=601864411648744584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -308,27 +292,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "MIC Personal Training Gym",
-   "rating": 5,
-   "reviews": 30,
-   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目１８−９ 秀光堂新館 302号 3階",
-   "maps": "https://maps.google.com/?cid=5010786755754973275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "AMOR 女性専用パーソナルジム",
    "rating": 4.8,
-   "reviews": 30,
+   "reviews": 31,
    "address": "日本、〒460-0008 愛知県名古屋市中区栄２丁目４−１０ セントラル広小路ビル 9F",
    "maps": "https://maps.google.com/?cid=18080856271120341339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "TOTAL BODY /東別院パーソナルジム",
-   "rating": 4.8,
+   "name": "K.I LABO",
+   "rating": 5,
    "reviews": 30,
-   "address": "日本、〒460-0014 愛知県名古屋市中区富士見町１５−３９ 202",
-   "maps": "https://maps.google.com/?cid=6684333417431600733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒460-0012 愛知県名古屋市中区千代田２丁目１６−３４",
+   "maps": "https://maps.google.com/?cid=7366782665806045073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MIC Personal Training Gym",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目１８−９ 秀光堂新館 302号 3階",
+   "maps": "https://maps.google.com/?cid=5010786755754973275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -340,11 +324,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "『 MOXIE GYM』パーソナルジム モクシージム｜栄生店",
-   "rating": 5,
-   "reviews": 27,
-   "address": "日本、〒453-0011 愛知県名古屋市中村区千原町３−５１ エムテックサンシャイン栄生ビル ２A",
-   "maps": "https://maps.google.com/?cid=17683664975357059121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "TOTAL BODY /東別院パーソナルジム",
+   "rating": 4.8,
+   "reviews": 30,
+   "address": "日本、〒460-0014 愛知県名古屋市中区富士見町１５−３９ 202",
+   "maps": "https://maps.google.com/?cid=6684333417431600733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -353,14 +337,6 @@
    "reviews": 26,
    "address": "日本、〒450-0002 愛知県名古屋市中村区中村区名駅５丁目１６−１７ 花車ビル南館 2階26号",
    "maps": "https://maps.google.com/?cid=10686095837577688103&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "glish《グリッシュ》",
-   "rating": 5,
-   "reviews": 26,
-   "address": "日本、〒461-0001 愛知県名古屋市東区泉２丁目１７−１６ GRANDEPONTE泉 801",
-   "maps": "https://maps.google.com/?cid=5585803482220430514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -374,7 +350,7 @@
   {
    "name": "名古屋丸の内パーソナルトレーニング×ボディメンテナンスableize/ HYROX TRAINING CLUB",
    "rating": 5,
-   "reviews": 22,
+   "reviews": 24,
    "address": "日本、〒460-0002 愛知県名古屋市中区丸の内２丁目１５−１１ HARVEY TERRACE丸の内 30A",
    "maps": "https://maps.google.com/?cid=7143420292266732706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -396,14 +372,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジム・マシンピラティス然〜ZEN〜名古屋御器所店",
-   "rating": 5,
-   "reviews": 21,
-   "address": "日本、〒466-0013 愛知県名古屋市昭和区緑町３丁目８ サンコートごきそ 1階",
-   "maps": "https://maps.google.com/?cid=6752089748708636881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジム レンジオブモーション 名古屋丸の内店",
    "rating": 5,
    "reviews": 20,
@@ -420,11 +388,27 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "PROLOGUE(プロローグ)パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目８−２５ 三富伏見ビル2階",
+   "maps": "https://maps.google.com/?cid=6916332633364679796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "personal GYM X",
    "rating": 5,
    "reviews": 17,
    "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目１０−１２ ＧＫレジデンス 602",
    "maps": "https://maps.google.com/?cid=5040692459872572708&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムネスト名古屋中村店",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒453-0852 愛知県名古屋市中村区角割町１丁目12−２ ＭＥＩＷＡ ＳＫＹ 101",
+   "maps": "https://maps.google.com/?cid=15576030857155252174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -436,19 +420,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムすのこまい",
-   "rating": 5,
-   "reviews": 16,
-   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目９−６ 4階A号室",
-   "maps": "https://maps.google.com/?cid=13016987534592099741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ATLASパーソナルジム 久屋大通",
    "rating": 4.9,
    "reviews": 15,
    "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目２０−２０ ６０５号室",
    "maps": "https://maps.google.com/?cid=17029690739086203932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Just Body 名古屋丸の内",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目１６−３４ ウィズビル 7階",
+   "maps": "https://maps.google.com/?cid=10237302639851749696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -468,6 +452,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "EXPAND FitSpace 池下",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒464-0067 愛知県名古屋市千種区池下１丁目１１−１９ ３０１",
+   "maps": "https://maps.google.com/?cid=3793421629337641990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルトレーニングジム U-STYLE 名古屋",
    "rating": 5,
    "reviews": 8,
@@ -481,6 +473,14 @@
    "reviews": 6,
    "address": "日本、〒455-0814 愛知県名古屋市港区善南町２７−１",
    "maps": "https://maps.google.com/?cid=17266983314093225740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム458 名古屋北店",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒462-0021 愛知県名古屋市北区成願寺１丁目４−１４ 成願寺ビル 2B",
+   "maps": "https://maps.google.com/?cid=4530765546041222286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

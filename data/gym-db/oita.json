@@ -1,22 +1,14 @@
 {
  "city": "大分",
- "fetchedAt": "2026-08-23",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 大分",
  "gyms": [
   {
    "name": "FIT PLACE24 大分高城店",
    "rating": 4.8,
-   "reviews": 296,
+   "reviews": 297,
    "address": "日本、〒870-0153 大分県大分市城東町１−１５",
    "maps": "https://maps.google.com/?cid=516698052822614229&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "LifeFit 大分駅前店",
-   "rating": 4.5,
-   "reviews": 148,
-   "address": "日本、〒870-0027 大分県大分市末広町２丁目１０−２４ DIC学園ビル 2F、3F",
-   "maps": "https://maps.google.com/?cid=3570184675058238121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -70,7 +62,7 @@
   {
    "name": "Every Buddy大分中島店 パーソナルトレーニングとボディケア（もみほぐし・マッサージ）",
    "rating": 4.9,
-   "reviews": 58,
+   "reviews": 59,
    "address": "日本、〒870-0049 大分県大分市中島中央１丁目３−３２ 筒井ビル 1階西",
    "maps": "https://maps.google.com/?cid=17328962063311460081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -100,19 +92,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "24/7ワークアウト 大分店",
+   "rating": 4.6,
+   "reviews": 39,
+   "address": "日本、〒870-0029 大分県大分市高砂町１−３０ S-Fort高砂町 201",
+   "maps": "https://maps.google.com/?cid=9852076854396139146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "セミパーソナルジム&ピラティススタジオ FILLNESS 南大分店",
    "rating": 5,
    "reviews": 39,
    "address": "日本、〒870-0853 大分県大分市羽屋新町２丁目１−１０",
    "maps": "https://maps.google.com/?cid=9965163499180030481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "24/7ワークアウト 大分店",
-   "rating": 4.7,
-   "reviews": 38,
-   "address": "日本、〒870-0029 大分県大分市高砂町１−３０ S-Fort高砂町 201",
-   "maps": "https://maps.google.com/?cid=9852076854396139146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -126,7 +118,7 @@
   {
    "name": "大分パーソナルジムBUDDY(バディ)本店",
    "rating": 5,
-   "reviews": 25,
+   "reviews": 26,
    "address": "日本、〒870-0839 大分県大分市金池南１丁目１０−１５ スカイメゾン 101",
    "maps": "https://maps.google.com/?cid=10182907453090540670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -140,19 +132,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "大分 パーソナルジム トクナガ（Oita Personal Gym Tokunaga）",
-   "rating": 5,
-   "reviews": 20,
-   "address": "日本、〒870-0841 大分県大分市六坊北町8−３３−２０２",
-   "maps": "https://maps.google.com/?cid=9636912929225570058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "大分市 女性専用パーソナルトレーニング&ウォーキングスタジオ [rare integrate / レアインテグレ]",
    "rating": 4.8,
    "reviews": 20,
    "address": "日本、〒870-0935 大分県大分市古ケ鶴２丁目１２−１２",
    "maps": "https://maps.google.com/?cid=3979924284300114884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分 パーソナルジム トクナガ（Oita Personal Gym Tokunaga）",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒870-0841 大分県大分市六坊北町8−３３−２０２",
+   "maps": "https://maps.google.com/?cid=9636912929225570058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -185,22 +177,6 @@
    "reviews": 15,
    "address": "日本、〒870-0035 大分県大分市中央町１丁目４−２ オフィスニューガイアTIC大分 2F",
    "maps": "https://maps.google.com/?cid=12311966586666901945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "REviceconditioning",
-   "rating": 4.9,
-   "reviews": 14,
-   "address": "日本、〒870-0919 大分県大分市新栄町６−８ ６番８号",
-   "maps": "https://maps.google.com/?cid=2408032842462064928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "B-Fit Studio",
-   "rating": 4.6,
-   "reviews": 14,
-   "address": "日本、〒874-0937 大分県別府市秋葉町７−９ メゾンシラハマ 1F B",
-   "maps": "https://maps.google.com/?cid=9598020316179124278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -348,19 +324,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "理学療法士の身体改善スタジオ liberar-リベラール-",
-   "rating": 5,
-   "reviews": 4,
-   "address": "Calm 1, 1057-1 寒田 大分市 大分県 870-1123 日本",
-   "maps": "https://maps.google.com/?cid=7366851586870794297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "GYM PROTEIOS大道店",
    "rating": 5,
    "reviews": 4,
    "address": "日本、〒870-0820 大分県大分市西大道３丁目２−１６",
    "maps": "https://maps.google.com/?cid=2959196620865083815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "理学療法士の身体改善スタジオ liberar-リベラール-",
+   "rating": 5,
+   "reviews": 4,
+   "address": "Calm 1, 1057-1 寒田 大分市 大分県 870-1123 日本",
+   "maps": "https://maps.google.com/?cid=7366851586870794297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -385,22 +361,6 @@
    "reviews": 2,
    "address": "日本、〒870-0035 大分県大分市中央町１丁目２−９ MMビル 3階",
    "maps": "https://maps.google.com/?cid=8438818077213927886&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "小さな整体＆トレーニングroom ~liberar（リベラール）~",
-   "rating": 5,
-   "reviews": 2,
-   "address": "日本、〒870-1130 大分県大分市田尻中央１３−５",
-   "maps": "https://maps.google.com/?cid=4728719766999372852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ピラティススタジオ RINTO",
-   "rating": 4.5,
-   "reviews": 2,
-   "address": "日本、〒870-0165 大分県大分市明野北５丁目１１−１ 第2明友モール 105",
-   "maps": "https://maps.google.com/?cid=5334864559241760060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -436,14 +396,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "heart&body",
-   "rating": 5,
-   "reviews": 1,
-   "address": "日本、〒870-0101 大分県大分市中鶴崎１丁目１−３",
-   "maps": "https://maps.google.com/?cid=6961264342589622314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "PLUS+ONE",
    "rating": 5,
    "reviews": 1,
@@ -460,14 +412,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "personal training studio ventitre.",
-   "rating": null,
-   "reviews": null,
-   "address": "日本、〒870-0934 大分県大分市東津留２丁目１０−１１ ユナイテッド津留ビル 301",
-   "maps": "https://maps.google.com/?cid=9861894526195685154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "大分パーソナルジムBUDDY金池南店",
    "rating": null,
    "reviews": null,
@@ -476,11 +420,35 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "personal training studio ventitre.",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒870-0934 大分県大分市東津留２丁目１０−１１ ユナイテッド津留ビル 301",
+   "maps": "https://maps.google.com/?cid=9861894526195685154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "PROTEIOS ONE",
    "rating": null,
    "reviews": null,
    "address": "日本、〒870-0035 大分県大分市中央町２丁目９−２３",
    "maps": "https://maps.google.com/?cid=8404798463989883714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大分Standing With マシンピラティスx整体",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒870-0035 大分県大分市中央町２丁目２−１８ 202号室",
+   "maps": "https://maps.google.com/?cid=15660127430197693941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム GOAT",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒870-0832 大分県大分市上野町３−２０ 上野スリーキャンビル 1F",
+   "maps": "https://maps.google.com/?cid=4801889709709889495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

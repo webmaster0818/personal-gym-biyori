@@ -1,12 +1,12 @@
 {
  "city": "神戸",
- "fetchedAt": "2026-08-16",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 神戸",
  "gyms": [
   {
    "name": "神戸駅パーソナルジム ウェイトダウン",
    "rating": 5,
-   "reviews": 285,
+   "reviews": 287,
    "address": "日本、〒652-0035 兵庫県神戸市兵庫区兵庫区西多聞通１丁目１−７ 巣ビル 鳥 2F",
    "maps": "https://maps.google.com/?cid=10241799840472239276&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "REDY’S GYM(レディーズジム) 神戸三宮店",
    "rating": 4.9,
-   "reviews": 271,
+   "reviews": 272,
    "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目４−３ クレフィ三宮 7F",
    "maps": "https://maps.google.com/?cid=16463220392435305728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,33 +22,25 @@
   {
    "name": "GYMS（ジムズ） 三宮店",
    "rating": 4.5,
-   "reviews": 257,
+   "reviews": 258,
    "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町５丁目５−２ 上東ビル 2階",
    "maps": "https://maps.google.com/?cid=8376055035964059700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "FIT PLACE24 神戸駅前店",
-   "rating": 4.7,
-   "reviews": 231,
-   "address": "日本、〒650-0015 兵庫県神戸市中央区多聞通３丁目３−１ 神戸アークプラザ ７・８F",
-   "maps": "https://maps.google.com/?cid=17484819768740489575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "パーソナルジムRat神戸三宮元町店",
+   "rating": 4.9,
+   "reviews": 189,
+   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通４丁目２−５ ローレル元町ビルディング 402・403",
+   "maps": "https://maps.google.com/?cid=7588615429630246395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "BEYOND 神戸元町店",
    "rating": 5,
-   "reviews": 188,
+   "reviews": 187,
    "address": "日本、〒650-0023 兵庫県神戸市中央区栄町通２丁目１０−３ アミーゴスビル 5階",
    "maps": "https://maps.google.com/?cid=5859866473668482867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジムRat神戸三宮元町店",
-   "rating": 4.9,
-   "reviews": 186,
-   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通４丁目２−５ ローレル元町ビルディング 402・403",
-   "maps": "https://maps.google.com/?cid=7588615429630246395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -70,7 +62,7 @@
   {
    "name": "FITNESS GYM WEST",
    "rating": 4.9,
-   "reviews": 136,
+   "reviews": 138,
    "address": "日本、〒650-0022 兵庫県神戸市中央区元町通１丁目１１−１７ 大本元町ビル 5階",
    "maps": "https://maps.google.com/?cid=8426703449839757793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -78,7 +70,7 @@
   {
    "name": "ダイエット専門パーソナルジム FLOW GYM 神戸三宮店",
    "rating": 5,
-   "reviews": 135,
+   "reviews": 134,
    "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１２ 樫野ビル 2F",
    "maps": "https://maps.google.com/?cid=1073806656540244815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -94,7 +86,7 @@
   {
    "name": "女性専用パーソナルジム UNDEUX SUPERBODY 神戸",
    "rating": 4.8,
-   "reviews": 116,
+   "reviews": 125,
    "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−１０ フラワーロードビル B1",
    "maps": "https://maps.google.com/?cid=16615652611482181818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -102,9 +94,17 @@
   {
    "name": "マハロトレーニングジム 神戸三宮",
    "rating": 4.9,
-   "reviews": 116,
+   "reviews": 115,
    "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−９ フラワーロードビル ７０１ 7階",
    "maps": "https://maps.google.com/?cid=6794514488598171018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "神戸パーソナルトレーニングジムEPR",
+   "rating": 5,
+   "reviews": 99,
+   "address": "日本、〒650-0015 兵庫県神戸市中央区多聞通４丁目１−１１",
+   "maps": "https://maps.google.com/?cid=8623370666437857153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -116,14 +116,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "神戸パーソナルトレーニングジムEPR",
-   "rating": 5,
-   "reviews": 98,
-   "address": "日本、〒650-0015 兵庫県神戸市中央区多聞通４丁目１−１１",
-   "maps": "https://maps.google.com/?cid=8623370666437857153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルトレーニングジムRapport",
    "rating": 5,
    "reviews": 98,
@@ -132,19 +124,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "エクササイズコーチ三宮店",
+   "rating": 4.8,
+   "reviews": 92,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目８−１ さんプラザ 2階",
+   "maps": "https://maps.google.com/?cid=11956604245213146361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "VADY PLUS 神戸",
    "rating": 4.8,
    "reviews": 91,
    "address": "日本、〒651-0079 兵庫県神戸市中央区東雲通３丁目３−１２ 88ビル ４階",
    "maps": "https://maps.google.com/?cid=13344196818090187415&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "エクササイズコーチ三宮店",
-   "rating": 4.8,
-   "reviews": 90,
-   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目８−１ さんプラザ 2階",
-   "maps": "https://maps.google.com/?cid=11956604245213146361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -196,11 +188,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "ファーストクラストレーナーズ 神戸中央店",
+   "name": "Be BODY",
    "rating": 5,
-   "reviews": 66,
-   "address": "日本、〒650-0036 兵庫県神戸市中央区播磨町49番地 神戸旧居留地平和ビル 階B104号室 地下1",
-   "maps": "https://maps.google.com/?cid=13469540228454135296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 63,
+   "address": "日本、〒651-0087 兵庫県神戸市中央区御幸通４丁目２−１３ IPSX BASE 201号室",
+   "maps": "https://maps.google.com/?cid=5518397240064131925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM 神戸三宮店",
+   "rating": 5,
+   "reviews": 62,
+   "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１３ ＩＰＳＸ ＭＡＧＮＥＴ 301",
+   "maps": "https://maps.google.com/?cid=12418936867978780812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -209,22 +209,6 @@
    "reviews": 61,
    "address": "日本、〒650-0022 兵庫県神戸市中央区元町通り３丁目７−８ 浅井ビル 3F",
    "maps": "https://maps.google.com/?cid=4441331989331827893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Be BODY",
-   "rating": 5,
-   "reviews": 61,
-   "address": "日本、〒651-0087 兵庫県神戸市中央区御幸通４丁目２−１３ IPSX BASE 201号室",
-   "maps": "https://maps.google.com/?cid=5518397240064131925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "THE PERSONAL GYM 神戸三宮店",
-   "rating": 4.9,
-   "reviews": 59,
-   "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１３ ＩＰＳＸ ＭＡＧＮＥＴ 301",
-   "maps": "https://maps.google.com/?cid=12418936867978780812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -244,19 +228,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "身体工房リベルテクス神戸三宮店",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通３丁目１−１７ 神戸トアロード山下ビル 401",
+   "maps": "https://maps.google.com/?cid=9666924747535287181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "Personal Training Gym BRIGHT",
    "rating": 5,
    "reviews": 45,
    "address": "日本、〒650-0011 兵庫県神戸市中央区下山手通５丁目１−５ アクシア下山手 501",
    "maps": "https://maps.google.com/?cid=17665845360123457633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "身体工房リベルテクス神戸三宮店",
-   "rating": 5,
-   "reviews": 45,
-   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通３丁目１−１７ 神戸トアロード山下ビル 401",
-   "maps": "https://maps.google.com/?cid=9666924747535287181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -302,7 +286,7 @@
   {
    "name": "GRANDSTONE神戸元町店",
    "rating": 4.9,
-   "reviews": 34,
+   "reviews": 35,
    "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町３丁目８−１３ 三澤ビル 3F",
    "maps": "https://maps.google.com/?cid=11541500551213251095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -332,9 +316,25 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "C.P base 24",
+   "rating": 4.9,
+   "reviews": 29,
+   "address": "日本、〒650-0011 兵庫県神戸市中央区下山手通３丁目２−１５ Boot下⼭⼿2F",
+   "maps": "https://maps.google.com/?cid=11273782812844028928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リリーフィットネス｜無理しないパーソナルジム",
+   "rating": 4.9,
+   "reviews": 27,
+   "address": "日本、〒650-0042 兵庫県神戸市中央区波止場町６−５ ２F 国産2号上屋東側",
+   "maps": "https://maps.google.com/?cid=7457805150472786204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "女性専用パーソナルジム into. 神戸三宮 ピラティス＆トレーニング",
-   "rating": 5,
-   "reviews": 24,
+   "rating": 4.8,
+   "reviews": 25,
    "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町４丁目２−１６ 102",
    "maps": "https://maps.google.com/?cid=18436384074000404364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -348,19 +348,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "40代、50代向けパーソナルジムbloom fit17・三宮",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１０ Hkビル 5階",
+   "maps": "https://maps.google.com/?cid=11093095992684527475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "Personal Gym holomua(パーソナルジムホロムア)",
    "rating": 5,
    "reviews": 18,
    "address": "日本、〒651-0055 兵庫県神戸市中央区熊内橋通６丁目１−８ 田村ビル 103号室",
    "maps": "https://maps.google.com/?cid=11749926685981411655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "40代、50代向けパーソナルジムbloom fit17・三宮",
-   "rating": 5,
-   "reviews": 17,
-   "address": "日本、〒651-0088 兵庫県神戸市中央区小野柄通５丁目１−１０ Hkビル 5階",
-   "maps": "https://maps.google.com/?cid=11093095992684527475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -396,18 +396,10 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "KARADA BESTA 神戸三宮店",
-   "rating": 5,
-   "reviews": 13,
-   "address": "日本、〒650-0011 兵庫県神戸市中央区下山手通２丁目１７−２ ビルディング 601",
-   "maps": "https://maps.google.com/?cid=9317866683419643145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルトレーニングジム Blue Ocean Gym 神戸三宮店 三ノ宮",
    "rating": 5,
    "reviews": 12,
-   "address": "日本、〒650-0001 兵庫県神戸市中央区加納町４丁目６−１ サンタックビル 2F-4F",
+   "address": "日本、〒650-0001 兵庫県神戸市中央区加納町４丁目６−１ サンタックビル 2階‐4階",
    "maps": "https://maps.google.com/?cid=6711916335204621731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
@@ -425,14 +417,6 @@
    "reviews": 9,
    "address": "日本、〒650-0022 兵庫県神戸市中央区元町通２丁目９−１ 元町プラザ 地下1階C",
    "maps": "https://maps.google.com/?cid=13654086892828862281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Flamingo gym 三ノ宮店",
-   "rating": 5,
-   "reviews": 5,
-   "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町５丁目６−２１ 関ビル 3F",
-   "maps": "https://maps.google.com/?cid=13178033084833360685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -468,9 +452,17 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "ゴルフ特化パーソナルジム｜SKY GOLF FITNESS by GRANDSTONE",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒651-0083 兵庫県神戸市中央区浜辺通１丁目１−１８ スカイパーキング 9F",
+   "maps": "https://maps.google.com/?cid=18016025990615437250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "神戸元町三宮パーソナルジムSTUDIO ELANDOR",
    "rating": null,
-   "reviews": 0,
+   "reviews": null,
    "address": "日本、〒650-0022 兵庫県神戸市中央区元町通２丁目９−１ 元町プラザ 517",
    "maps": "https://maps.google.com/?cid=12113130185596799960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -478,9 +470,17 @@
   {
    "name": "FIRST IMPACT ｜神戸三宮パーソナルジム",
    "rating": null,
-   "reviews": 0,
+   "reviews": null,
    "address": "日本、〒651-0084 兵庫県神戸市中央区磯辺通１丁目１−１８ CASABELLA KOKUSAI PLAZA BLDG. カサベラ国際プラザビル 901",
    "maps": "https://maps.google.com/?cid=2029160128211192803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Taigen Fitness パーソナルジム三宮店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒651-0094 兵庫県神戸市中央区琴ノ緒町５丁目５−２６−３０２ Rental Gym ASCENT内",
+   "maps": "https://maps.google.com/?cid=11005561708403031567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

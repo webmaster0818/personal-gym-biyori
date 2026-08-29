@@ -1,12 +1,12 @@
 {
  "city": "仙台",
- "fetchedAt": "2026-08-16",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 仙台",
  "gyms": [
   {
    "name": "ATTivoGYM仙台アエル31",
    "rating": 4.8,
-   "reviews": 709,
+   "reviews": 717,
    "address": "日本、〒980-6131 宮城県仙台市青葉区青葉区中央１丁目３−１ アエル 31F",
    "maps": "https://maps.google.com/?cid=1954411034903629105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -30,7 +30,7 @@
   {
    "name": "ゲットフィット仙台 富沢店",
    "rating": 4.8,
-   "reviews": 276,
+   "reviews": 277,
    "address": "日本、〒982-0037 宮城県仙台市太白区富沢西２丁目7−１１ フレスポ富沢 D 2",
    "maps": "https://maps.google.com/?cid=14572490006227271170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,7 +38,7 @@
   {
    "name": "トライヴ仙台定禅寺通店",
    "rating": 5,
-   "reviews": 197,
+   "reviews": 198,
    "address": "日本、〒980-0803 宮城県仙台市青葉区国分町３丁目３−１ 定禅寺ヒルズ 3階",
    "maps": "https://maps.google.com/?cid=4572543375246105545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -54,7 +54,7 @@
   {
    "name": "仙台コンディショニングセンター",
    "rating": 4.9,
-   "reviews": 172,
+   "reviews": 171,
    "address": "日本、〒982-0007 宮城県仙台市太白区あすと長町１丁目４−５０",
    "maps": "https://maps.google.com/?cid=13532286425134037206&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -68,33 +68,33 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジム リアルボディ泉西口店",
+   "rating": 4.9,
+   "reviews": 156,
+   "address": "日本、〒981-3133 宮城県仙台市泉区泉中央１丁目３５−３ ネオハイツ泉中央",
+   "maps": "https://maps.google.com/?cid=4510770828233886049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "BEAST GYM（ビーストジム）仙台南店",
    "rating": 4.8,
-   "reviews": 153,
+   "reviews": 154,
    "address": "日本、〒982-0034 宮城県仙台市太白区西多賀５丁目２４−１ べガロポリス仙台南",
    "maps": "https://maps.google.com/?cid=3638338106726355622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "女性専用パーソナルジム UNDEUX SUPERBODY 仙台",
-   "rating": 4.8,
-   "reviews": 152,
+   "rating": 4.9,
+   "reviews": 150,
    "address": "日本、〒980-0021 宮城県仙台市青葉区中央１丁目７−２ 3F",
    "maps": "https://maps.google.com/?cid=9477038487255310816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジム リアルボディ泉西口店",
-   "rating": 4.9,
-   "reviews": 151,
-   "address": "日本、〒981-3133 宮城県仙台市泉区泉中央１丁目３５−３ ネオハイツ泉中央",
-   "maps": "https://maps.google.com/?cid=4510770828233886049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ANCHOR",
    "rating": 4.9,
-   "reviews": 110,
+   "reviews": 111,
    "address": "日本、〒980-0014 宮城県仙台市青葉区本町２丁目１１−２７ 日吉第二ビル 4階",
    "maps": "https://maps.google.com/?cid=15015183026460250564&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -110,7 +110,7 @@
   {
    "name": "プライベートジムRevive 仙台二日町本店",
    "rating": 5,
-   "reviews": 103,
+   "reviews": 102,
    "address": "日本、〒980-0802 宮城県仙台市青葉区二日町３−１８ 1F",
    "maps": "https://maps.google.com/?cid=649546240424693641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -118,9 +118,17 @@
   {
    "name": "SENDAI PERSONAL GYM ROOTS",
    "rating": 5,
-   "reviews": 95,
+   "reviews": 96,
    "address": "日本、〒982-0034 宮城県仙台市太白区西多賀３丁目６−４１",
    "maps": "https://maps.google.com/?cid=979469395384455527&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM 仙台店",
+   "rating": 5,
+   "reviews": 95,
+   "address": "日本、〒980-0801 宮城県仙台市青葉区木町通１丁目６−７ グランビュー晩翠通 101",
+   "maps": "https://maps.google.com/?cid=18427851080179524649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -129,14 +137,6 @@
    "reviews": 94,
    "address": "日本、〒981-3133 宮城県仙台市泉区泉中央４丁目１１−６ 啓進ビル 4階",
    "maps": "https://maps.google.com/?cid=2332909504390353934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "THE PERSONAL GYM 仙台店",
-   "rating": 5,
-   "reviews": 93,
-   "address": "日本、〒980-0801 宮城県仙台市青葉区木町通１丁目６−７ グランビュー晩翠通 101",
-   "maps": "https://maps.google.com/?cid=18427851080179524649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -172,14 +172,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "FIVE ELEMENT FIT",
-   "rating": 4.8,
-   "reviews": 76,
-   "address": "日本、〒981-0914 宮城県仙台市青葉区堤通雨宮町１−１ イオンモール仙台上杉 3F",
-   "maps": "https://maps.google.com/?cid=5189027942462397290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "トライフィットネス仙台本町店",
    "rating": 5,
    "reviews": 70,
@@ -190,7 +182,7 @@
   {
    "name": "H-Field Sports Performance Center",
    "rating": 5,
-   "reviews": 67,
+   "reviews": 66,
    "address": "日本、〒980-0023 宮城県仙台市青葉区北目町２−４０ 第一萬栄ビル 2階",
    "maps": "https://maps.google.com/?cid=2660247566191141967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -206,7 +198,7 @@
   {
    "name": "ライザップ(RIZAP)仙台店",
    "rating": 4.4,
-   "reviews": 57,
+   "reviews": 56,
    "address": "日本、〒980-0021 宮城県仙台市青葉区中央３丁目６−８ Jtb仙台Bld. 4F・5F",
    "maps": "https://maps.google.com/?cid=12278276758336897049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -236,19 +228,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "ハイライト仙台東口店",
+   "rating": 5,
+   "reviews": 40,
+   "address": "日本、〒983-0864 宮城県仙台市宮城野区名掛丁206−１８",
+   "maps": "https://maps.google.com/?cid=16915247124423270551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "リボーンマイセルフ仙台店",
    "rating": 4.9,
    "reviews": 39,
    "address": "日本、〒980-0811 宮城県仙台市青葉区一番町２丁目８−４６ 青葉通りOSビル 6階",
    "maps": "https://maps.google.com/?cid=12275718655276563910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ハイライト仙台東口店",
-   "rating": 4.9,
-   "reviews": 39,
-   "address": "日本、〒983-0864 宮城県仙台市宮城野区名掛丁206−１８",
-   "maps": "https://maps.google.com/?cid=16915247124423270551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -308,11 +300,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "Enlarge-BODYMAKE GYM-",
-   "rating": 4.8,
-   "reviews": 26,
-   "address": "日本、〒980-0014 宮城県仙台市青葉区本町２丁目１６−７ ハピネスビル 4階",
-   "maps": "https://maps.google.com/?cid=4940020971636891243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "Morgen 二日町本店",
+   "rating": 5,
+   "reviews": 27,
+   "address": "日本、〒980-0802 宮城県仙台市青葉区二日町１７−５ Ｋ´Ｓビル 2階",
+   "maps": "https://maps.google.com/?cid=620527460274888881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -324,11 +316,27 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "Enlarge-BODYMAKE GYM-",
+   "rating": 4.8,
+   "reviews": 25,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町２丁目１６−７ ハピネスビル 4階",
+   "maps": "https://maps.google.com/?cid=4940020971636891243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルトレーニング・ピラティスAUN仙台八乙女",
    "rating": 5,
    "reviews": 24,
    "address": "日本、〒981-3112 宮城県仙台市泉区八乙女１丁目７−６ エスポワール栗原 102 パーソナルトレーニング・ピラティスAUN",
    "maps": "https://maps.google.com/?cid=14542153028883284893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム&マシンピラティス PERSONAL TRAINING STUDIO U 仙台長町店",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒982-0011 宮城県仙台市太白区長町４丁目３−１８ 貝山店舗 1F",
+   "maps": "https://maps.google.com/?cid=7190065242729371397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -340,22 +348,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジム&マシンピラティス PERSONAL TRAINING STUDIO U 仙台長町店",
-   "rating": 5,
-   "reviews": 18,
-   "address": "日本、〒982-0011 宮城県仙台市太白区長町４丁目３−１８ 貝山店舗 1F",
-   "maps": "https://maps.google.com/?cid=7190065242729371397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "chill out gym(チルアウトジム)",
-   "rating": 5,
-   "reviews": 18,
-   "address": "日本、〒983-0841 宮城県仙台市宮城野区原町３丁目８−７ 内海ビル 102",
-   "maps": "https://maps.google.com/?cid=888869245469738070&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "HPER(ハイパー)北仙台店｜ダイエット専門パーソナルジム",
    "rating": 4.8,
    "reviews": 13,
@@ -364,11 +356,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "セミパーソナルジム リアン仙台",
+   "name": "LIFE SPORTS",
    "rating": 5,
-   "reviews": 12,
-   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目９−１３",
-   "maps": "https://maps.google.com/?cid=18141891921120241795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 13,
+   "address": "日本、〒983-0045 宮城県仙台市宮城野区宮城野２丁目１４−１１ 201",
+   "maps": "https://maps.google.com/?cid=3465435962357414100&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -380,11 +372,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "LIFE SPORTS",
+   "name": "セミパーソナルジム リアン仙台",
    "rating": 5,
    "reviews": 12,
-   "address": "日本、〒983-0045 宮城県仙台市宮城野区宮城野２丁目１４−１１ 201",
-   "maps": "https://maps.google.com/?cid=3465435962357414100&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目９−１３",
+   "maps": "https://maps.google.com/?cid=18141891921120241795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -412,6 +404,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジムCOMPASS（コンパス）",
+   "rating": 4.4,
+   "reviews": 7,
+   "address": "日本、〒984-0048 宮城県仙台市若林区白萩町２６−５ 仙台白萩マンション 201",
+   "maps": "https://maps.google.com/?cid=14764727892350320264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルトレーニングジム ワンネス 仙台泉",
    "rating": 5,
    "reviews": 7,
@@ -428,19 +428,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムCOMPASS（コンパス）",
-   "rating": 4.3,
-   "reviews": 6,
-   "address": "日本、〒984-0048 宮城県仙台市若林区白萩町２６−５ 仙台白萩マンション 201",
-   "maps": "https://maps.google.com/?cid=14764727892350320264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "GYMS JOZENJI",
-   "rating": 4.7,
+   "name": "CONFIANCE",
+   "rating": 5,
    "reviews": 3,
-   "address": "日本、〒980-0821 宮城県仙台市青葉区春日町３−８ 4階",
-   "maps": "https://maps.google.com/?cid=8401917543021971466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒984-0014 宮城県仙台市青葉区本町３丁目２−３ ﾀﾞﾝﾌﾞﾗｼｭﾋﾞﾙ 702",
+   "maps": "https://maps.google.com/?cid=1442926039371294803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -449,6 +441,14 @@
    "reviews": 3,
    "address": "日本、〒980-0004 宮城県仙台市青葉区宮町４丁目７−９ ユートピアⅢ105",
    "maps": "https://maps.google.com/?cid=5221089008924740386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYMS JOZENJI",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒980-0821 宮城県仙台市青葉区春日町３−８ 4階",
+   "maps": "https://maps.google.com/?cid=8401917543021971466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -468,17 +468,17 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "フォアフィットネス仙台国分町店",
+   "name": "BODY MAKE GYM PRESSO仙台東口",
    "rating": null,
-   "reviews": 0,
-   "address": "日本、〒980-0803 宮城県仙台市青葉区国分町３丁目１１−１５ FOREALビル晩翠通 102",
-   "maps": "https://maps.google.com/?cid=11615226626234296488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": null,
+   "address": "日本、〒983-0852 宮城県仙台市宮城野区榴岡４丁目１２−２ オダシマビル 302",
+   "maps": "https://maps.google.com/?cid=964188597668149528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "HEARTS FITNESS 仙台東口店",
    "rating": null,
-   "reviews": 0,
+   "reviews": null,
    "address": "日本、〒983-0812 宮城県仙台市宮城野区小田原弓ノ町100−１ アンサンブルメディカルビル 1F",
    "maps": "https://maps.google.com/?cid=11365046846835405967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"

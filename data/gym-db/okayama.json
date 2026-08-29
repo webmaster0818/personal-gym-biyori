@@ -1,20 +1,28 @@
 {
  "city": "okayama",
- "fetchedAt": "2026-08-19",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 岡山市",
  "gyms": [
   {
    "name": "【フィットネスジム】レシオボディデザイン 東岡山店",
    "rating": 4.7,
-   "reviews": 430,
+   "reviews": 431,
    "address": "日本、〒703-8233 岡山県岡山市中区高屋２９５−３",
    "maps": "https://maps.google.com/?cid=6929969992504769174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
+   "name": "【フィットネスジム】レシオボディデザイン 問屋町店",
+   "rating": 4.7,
+   "reviews": 369,
+   "address": "日本、〒700-0977 岡山県岡山市北区問屋町９−１０２",
+   "maps": "https://maps.google.com/?cid=15961998541010601095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "【フィットネスジム】レシオボディデザイン 大元店",
    "rating": 4.9,
-   "reviews": 240,
+   "reviews": 243,
    "address": "日本、〒700-0926 岡山県岡山市北区西古松西町６−５ 2F",
    "maps": "https://maps.google.com/?cid=17268728021709319308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +30,7 @@
   {
    "name": "レシオボディデザイン津高店",
    "rating": 4.8,
-   "reviews": 239,
+   "reviews": 241,
    "address": "日本、〒701-1152 岡山県岡山市北区津高９０５",
    "maps": "https://maps.google.com/?cid=47133997784136704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -30,7 +38,7 @@
   {
    "name": "フィットタカ 久米本店（FIT TAKA）",
    "rating": 4.9,
-   "reviews": 215,
+   "reviews": 216,
    "address": "日本、〒701-0144 岡山県岡山市北区久米１９７−１",
    "maps": "https://maps.google.com/?cid=8509641458036799582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,7 +46,7 @@
   {
    "name": "SWITCH BODY 岡山駅前店 パーソナルダイエットジム",
    "rating": 4.9,
-   "reviews": 181,
+   "reviews": 182,
    "address": "日本、〒700-0023 岡山県岡山市北区駅前町１丁目８ ８番地１８号 地下１階",
    "maps": "https://maps.google.com/?cid=55751021946111263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,7 +54,7 @@
   {
    "name": "THE Prime of Life",
    "rating": 4.9,
-   "reviews": 180,
+   "reviews": 182,
    "address": "日本、〒700-0845 岡山県岡山市南区浜野４丁目２−１０１",
    "maps": "https://maps.google.com/?cid=10418760175647999609&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -54,7 +62,7 @@
   {
    "name": "女性専用24時間ジム Amazones（アマゾネス）ブランチ北長瀬店",
    "rating": 4.8,
-   "reviews": 180,
+   "reviews": 182,
    "address": "日本、〒700-0971 岡山県岡山市北区北長瀬表町２丁目１７−８０",
    "maps": "https://maps.google.com/?cid=8190972928339170901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -76,6 +84,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "ピラティス専門店 WECLE 岡山店",
+   "rating": 4.9,
+   "reviews": 100,
+   "address": "日本、〒700-0902 岡山県岡山市北区錦町１−１５ 1F",
+   "maps": "https://maps.google.com/?cid=17379148860338377918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "THE PERSONAL GYM 岡山店",
    "rating": 5,
    "reviews": 99,
@@ -89,14 +105,6 @@
    "reviews": 99,
    "address": "日本、〒700-0945 岡山県岡山市南区新保１６１１−１ ガラクシアトーレ 4階 / 7階",
    "maps": "https://maps.google.com/?cid=89550994968715162&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ピラティス専門店 WECLE 岡山店",
-   "rating": 4.9,
-   "reviews": 99,
-   "address": "日本、〒700-0902 岡山県岡山市北区錦町１−１５ 1F",
-   "maps": "https://maps.google.com/?cid=17379148860338377918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -118,7 +126,7 @@
   {
    "name": "パーソナルジム FIRE FITNESS (ファイヤーフィットネス)島田本町店",
    "rating": 5,
-   "reviews": 78,
+   "reviews": 79,
    "address": "日本、〒700-0033 岡山県岡山市北区島田本町１丁目１−４７ テクノ技研ビル 2F",
    "maps": "https://maps.google.com/?cid=3976602230488947021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -126,7 +134,7 @@
   {
    "name": "ファディー岡山野田",
    "rating": 4.9,
-   "reviews": 74,
+   "reviews": 75,
    "address": "日本、〒700-0971 岡山県岡山市北区野田３丁目５−５",
    "maps": "https://maps.google.com/?cid=5237815751830593870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -180,19 +188,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "通い放題パーソナルジム HABIT FIT",
+   "rating": 5,
+   "reviews": 44,
+   "address": "日本、〒700-0975 岡山県岡山市北区今７丁目２４−１３",
+   "maps": "https://maps.google.com/?cid=12797081187742874300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "Re:Habit（リハビット）",
    "rating": 4.9,
    "reviews": 43,
    "address": "日本、〒700-0856 岡山県岡山市北区十日市西町６−１６",
    "maps": "https://maps.google.com/?cid=17538835523076129898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "通い放題パーソナルジム HABIT FIT",
-   "rating": 5,
-   "reviews": 42,
-   "address": "日本、〒700-0975 岡山県岡山市北区今７丁目２４−１３",
-   "maps": "https://maps.google.com/?cid=12797081187742874300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -244,14 +252,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジム FIRE FITNESS(ファイヤーフィットネス) 伊福町店",
-   "rating": 4.9,
-   "reviews": 27,
-   "address": "日本、〒700-0013 岡山県岡山市北区伊福町３丁目２５−１８ TAXビル 3F",
-   "maps": "https://maps.google.com/?cid=8237265047428115251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "And Lab Fitness",
    "rating": 5,
    "reviews": 27,
@@ -260,9 +260,17 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジム FIRE FITNESS(ファイヤーフィットネス) 伊福町店",
+   "rating": 4.9,
+   "reviews": 27,
+   "address": "日本、〒700-0013 岡山県岡山市北区伊福町３丁目２５−１８ TAXビル 3F",
+   "maps": "https://maps.google.com/?cid=8237265047428115251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "EMINY LIFE（エミニーライフ）",
    "rating": 5,
-   "reviews": 27,
+   "reviews": 26,
    "address": "日本、〒700-0921 岡山県岡山市北区東古松５丁目１−２８ BASE KOURAKU東古松1",
    "maps": "https://maps.google.com/?cid=2162884369237069715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -309,8 +317,8 @@
   },
   {
    "name": "PRIVATE GYM GCH",
-   "rating": 5,
-   "reviews": 20,
+   "rating": 4.8,
+   "reviews": 21,
    "address": "日本、〒700-0913 岡山県岡山市北区大供１丁目２−２３ あかつきビル 301",
    "maps": "https://maps.google.com/?cid=10593097828974824174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -369,14 +377,6 @@
    "reviews": 12,
    "address": "日本、〒703-8233 岡山県岡山市中区高屋２９５−３",
    "maps": "https://maps.google.com/?cid=15504409265720603181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "機能改善トレーニングジム岡山",
-   "rating": 4.7,
-   "reviews": 11,
-   "address": "日本、〒700-0941 岡山県岡山市北区青江２丁目４−１５",
-   "maps": "https://maps.google.com/?cid=16813364591699843952&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -478,7 +478,7 @@
   {
    "name": "move【ムーブ】24h ジム×パーソナル×整体",
    "rating": null,
-   "reviews": 0,
+   "reviews": null,
    "address": "日本、〒700-0984 岡山県岡山市北区桑田町１−１０",
    "maps": "https://maps.google.com/?cid=17760933762096954414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"

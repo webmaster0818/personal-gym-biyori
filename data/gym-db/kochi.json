@@ -1,6 +1,6 @@
 {
  "city": "高知",
- "fetchedAt": "2026-08-24",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 高知",
  "gyms": [
   {
@@ -14,7 +14,7 @@
   {
    "name": "ホリデイスポーツクラブ 高知",
    "rating": 4.4,
-   "reviews": 155,
+   "reviews": 164,
    "address": "日本、〒780-0056 高知県高知市北本町４丁目４−４３",
    "maps": "https://maps.google.com/?cid=4945601344862733362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -44,14 +44,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "【ピラティス×整体】Pilates studio Lien",
-   "rating": 5,
-   "reviews": 129,
-   "address": "日本、〒780-0056 高知県高知市北本町４丁目１−２３ office68内",
-   "maps": "https://maps.google.com/?cid=6721384354069243518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジム アンカー 高知店",
    "rating": 5,
    "reviews": 126,
@@ -76,6 +68,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "FIT PLACE24 土佐道路店",
+   "rating": 4.9,
+   "reviews": 100,
+   "address": "日本、〒780-8037 高知県高知市城山町２２５",
+   "maps": "https://maps.google.com/?cid=18230547833784548559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "Life Design ViXer",
    "rating": 5,
    "reviews": 99,
@@ -92,11 +92,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "FIT PLACE24 土佐道路店",
-   "rating": 4.9,
-   "reviews": 67,
-   "address": "日本、〒780-8037 高知県高知市城山町２２５",
-   "maps": "https://maps.google.com/?cid=18230547833784548559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "エニタイムフィットネス 高知神田店",
+   "rating": 3.8,
+   "reviews": 59,
+   "address": "日本、〒780-8040 高知県高知市神田８２３−１",
+   "maps": "https://maps.google.com/?cid=10099483774703867166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -236,6 +236,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "Re:ON fitness",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒780-8050 高知県高知市鴨部１丁目８−６",
+   "maps": "https://maps.google.com/?cid=5398103965759517844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "NITRO FITNESS (ニトロフィットネス) 24ｈＧＹＭ",
    "rating": 2.2,
    "reviews": 10,
@@ -257,22 +265,6 @@
    "reviews": 8,
    "address": "日本、〒781-8008 高知県高知市潮新町２丁目６−１１",
    "maps": "https://maps.google.com/?cid=6903870037169080961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "99GYMツクモジム",
-   "rating": 4.6,
-   "reviews": 8,
-   "address": "日本、〒781-0813 高知県高知市青柳町64番地6 1階",
-   "maps": "https://maps.google.com/?cid=8638837567300946423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Re:ON fitness",
-   "rating": 5,
-   "reviews": 7,
-   "address": "日本、〒780-8050 高知県高知市鴨部１丁目８−６",
-   "maps": "https://maps.google.com/?cid=5398103965759517844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -300,19 +292,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "ストレッチ専門店 Favor-フェイバー",
-   "rating": 5,
-   "reviews": 7,
-   "address": "日本、〒780-0926 高知県高知市大膳町６８ リアンビル 2階",
-   "maps": "https://maps.google.com/?cid=6940138185270566014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ピラティス pilates room minin",
    "rating": 5,
    "reviews": 7,
    "address": "日本、〒781-8104 高知県高知市高須３丁目３１−１８ ヴィンテージM’s 101号室",
    "maps": "https://maps.google.com/?cid=6009764071881623946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ストレッチ専門店 Favor-フェイバー",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒780-0926 高知県高知市大膳町６８ リアンビル 2階",
+   "maps": "https://maps.google.com/?cid=6940138185270566014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -380,6 +372,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "Body Make Atelier YOBO",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒780-8065 高知県高知市朝倉戊７８０−２ エバーグリーン Ⅱ 1F",
+   "maps": "https://maps.google.com/?cid=15607546573334851080&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルトレーニングジム KIITOS",
    "rating": 5,
    "reviews": 2,
@@ -401,14 +401,6 @@
    "reviews": 1,
    "address": "日本、〒780-8050 高知県高知市鴨部１３５１ 日付マンション 301",
    "maps": "https://maps.google.com/?cid=13763823112068615414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Body Make Atelier YOBO",
-   "rating": 5,
-   "reviews": 1,
-   "address": "日本、〒780-8065 高知県高知市朝倉戊７８０−２ エバーグリーン Ⅱ 1F",
-   "maps": "https://maps.google.com/?cid=15607546573334851080&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -481,6 +473,14 @@
    "reviews": null,
    "address": "日本、〒780-8015 高知県高知市百石町４丁目１８ 店１８－２２",
    "maps": "https://maps.google.com/?cid=5874057733239029540&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム・コンディショニングサロン リーフスタイル",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒780-0982 高知県高知市東久万１９５−１１",
+   "maps": "https://maps.google.com/?cid=6554760735309606083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

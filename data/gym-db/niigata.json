@@ -1,12 +1,12 @@
 {
  "city": "niigata",
- "fetchedAt": "2026-08-19",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 新潟市",
  "gyms": [
   {
    "name": "TRANCE GYM 燕店",
    "rating": 4.9,
-   "reviews": 274,
+   "reviews": 277,
    "address": "日本、〒959-1284 新潟県燕市杣木２６５８",
    "maps": "https://maps.google.com/?cid=5339027434291280520&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "BEYOND 新潟店",
    "rating": 4.9,
-   "reviews": 267,
+   "reviews": 268,
    "address": "日本、〒950-0912 新潟県新潟市中央区南笹口１丁目１５−７ Flat南笹口 INT2F",
    "maps": "https://maps.google.com/?cid=17520228098254894456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +22,7 @@
   {
    "name": "TRANCE GYM 新潟店",
    "rating": 4.9,
-   "reviews": 163,
+   "reviews": 166,
    "address": "日本、〒950-2015 新潟県新潟市西区小針２丁目９−１",
    "maps": "https://maps.google.com/?cid=16609064206038951612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -30,7 +30,7 @@
   {
    "name": "【ダイエット専門】整体ピラティスウォーク",
    "rating": 5,
-   "reviews": 141,
+   "reviews": 143,
    "address": "日本、〒950-2064 新潟県新潟市西区寺尾西３丁目２６−２５",
    "maps": "https://maps.google.com/?cid=7917182353810599230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,23 +46,23 @@
   {
    "name": "ASPI新潟本町店 パーソナルトレーニングジム",
    "rating": 5,
-   "reviews": 67,
+   "reviews": 68,
    "address": "日本、〒951-8067 新潟県新潟市中央区本町通６番町１１４１−１ ストークビル新潟一番館 5階C室",
    "maps": "https://maps.google.com/?cid=16570815353384397012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "フィットイージー 新潟横越店",
-   "rating": 4.7,
-   "reviews": 57,
-   "address": "日本、〒950-0210 新潟県新潟市江南区横越上町５丁目１−３２",
-   "maps": "https://maps.google.com/?cid=12691720226662720083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "スポーツクラブNAS新潟",
+   "rating": 3.8,
+   "reviews": 65,
+   "address": "日本、〒950-0965 新潟県新潟市中央区新光町１−２４",
+   "maps": "https://maps.google.com/?cid=4568541374052810434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "GEEKFIT. MEIKE 24時間フィットネスジム",
    "rating": 5,
-   "reviews": 56,
+   "reviews": 58,
    "address": "日本、〒950-0943 新潟県新潟市中央区女池神明２丁目９−８",
    "maps": "https://maps.google.com/?cid=12592025720552966241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -86,7 +86,7 @@
   {
    "name": "ザリフォーマー｜新潟市中央区のピラティス×パーソナルトレーニングジム",
    "rating": 5,
-   "reviews": 43,
+   "reviews": 44,
    "address": "日本、〒950-0994 新潟県新潟市中央区上所１丁目１−２４ Ｎビル 3階",
    "maps": "https://maps.google.com/?cid=14842387382054243613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -124,25 +124,33 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "MAKE BODY 新潟店",
+   "name": "AUN'S GYM 新潟赤道店",
    "rating": 4.8,
-   "reviews": 32,
-   "address": "日本、〒950-0163 新潟県新潟市江南区東船場４丁目１−２７",
-   "maps": "https://maps.google.com/?cid=1161705948962278279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 34,
+   "address": "日本、〒950-0872 新潟県新潟市東区牡丹山１丁目３４−１１",
+   "maps": "https://maps.google.com/?cid=3671535763909806574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "La pilates新潟店《整体×マシンピラティス》ラピラティス",
    "rating": 4.9,
-   "reviews": 32,
+   "reviews": 34,
    "address": "日本、〒950-0914 新潟県新潟市中央区紫竹山２丁目５−３ 紫鳥線ビル 2-2",
    "maps": "https://maps.google.com/?cid=7941237354293272653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
+   "name": "MAKE BODY 新潟店",
+   "rating": 4.8,
+   "reviews": 33,
+   "address": "日本、〒950-0163 新潟県新潟市江南区東船場４丁目１−２７",
+   "maps": "https://maps.google.com/?cid=1161705948962278279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルジム VISTARISE（ビスタライズ）動作改善・ボディメイク",
    "rating": 5,
-   "reviews": 31,
+   "reviews": 32,
    "address": "日本、〒950-0973 新潟県新潟市中央区上近江２丁目１０−３ 2F",
    "maps": "https://maps.google.com/?cid=12492940540374445411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -156,27 +164,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "AUN'S GYM 新潟赤道店",
-   "rating": 4.8,
-   "reviews": 31,
-   "address": "日本、〒950-0872 新潟県新潟市東区牡丹山１丁目３４−１１",
-   "maps": "https://maps.google.com/?cid=3671535763909806574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "SPEC-24hourGYM-新潟中央店",
-   "rating": 2.8,
-   "reviews": 31,
-   "address": "日本、〒950-0932 新潟県新潟市中央区長潟３丁目７−１７",
-   "maps": "https://maps.google.com/?cid=3352094298300542803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ISLAND STUDIO 新潟店",
    "rating": 5,
    "reviews": 29,
    "address": "日本、〒950-0893 新潟県新潟市東区はなみずき２丁目９−１７ +FIT.内",
    "maps": "https://maps.google.com/?cid=4360121533655266137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SPEC-24hourGYM-新潟中央店",
+   "rating": 2.9,
+   "reviews": 29,
+   "address": "日本、〒950-0932 新潟県新潟市中央区長潟３丁目７−１７",
+   "maps": "https://maps.google.com/?cid=3352094298300542803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -204,19 +204,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "24/7ワークアウト 新潟店",
-   "rating": 4.7,
-   "reviews": 23,
-   "address": "日本、〒951-8057 新潟県新潟市中央区月町１９８８ フレンディビル 302",
-   "maps": "https://maps.google.com/?cid=12960746107251358471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "スリムライセンス",
    "rating": 4.7,
    "reviews": 23,
    "address": "日本、〒950-2055 新潟県新潟市西区寺尾上５丁目９−１２",
    "maps": "https://maps.google.com/?cid=13820627761430810227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 新潟店",
+   "rating": 4.7,
+   "reviews": 23,
+   "address": "日本、〒951-8057 新潟県新潟市中央区月町１９８８ フレンディビル 302",
+   "maps": "https://maps.google.com/?cid=12960746107251358471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -228,6 +228,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "【メディカル整体】筋膜リリース・肩こり・腰痛・痩身・新潟 WELLSUS",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒950-2003 新潟県新潟市西区東青山１丁目６−１ 小原ビル 202",
+   "maps": "https://maps.google.com/?cid=3851742983725343912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "K-MAX GYM",
    "rating": 5,
    "reviews": 20,
@@ -236,17 +244,9 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "【メディカル整体】筋膜リリース・肩こり・腰痛・痩身・新潟 WELLSUS",
-   "rating": 5,
-   "reviews": 20,
-   "address": "日本、〒950-2003 新潟県新潟市西区東青山１丁目６−１ 小原ビル 202",
-   "maps": "https://maps.google.com/?cid=3851742983725343912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "Body make studio中央区近江店",
    "rating": 5,
-   "reviews": 18,
+   "reviews": 19,
    "address": "日本、〒950-0971 新潟県新潟市中央区近江３丁目３２−６",
    "maps": "https://maps.google.com/?cid=15088552201165370340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -276,6 +276,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "女性専用ダイエットジム ONE STAR新潟店",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒951-8162 新潟県新潟市中央区関屋本村町１丁目１４８−１ 斉藤マンション 1F",
+   "maps": "https://maps.google.com/?cid=11332708927814479213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "加圧トレーニングFamee (ファミィ)",
    "rating": 4.7,
    "reviews": 12,
@@ -297,14 +305,6 @@
    "reviews": 10,
    "address": "日本、〒950-2022 新潟県新潟市西区小針５丁目１６−８",
    "maps": "https://maps.google.com/?cid=11439876999585488004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用ダイエットジム ONE STAR新潟店",
-   "rating": 5,
-   "reviews": 9,
-   "address": "日本、〒951-8162 新潟県新潟市中央区関屋本村町１丁目１４８−１ 斉藤マンション 1F",
-   "maps": "https://maps.google.com/?cid=11332708927814479213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -452,14 +452,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "Personal Training Base K's Garage",
-   "rating": 5,
-   "reviews": 1,
-   "address": "日本、〒950-0207 新潟県新潟市江南区二本木１丁目４−８",
-   "maps": "https://maps.google.com/?cid=3220084700915397845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "加圧トレーニングスタジオ Prism-K",
    "rating": 4,
    "reviews": 1,
@@ -468,19 +460,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "10color Personal GYM",
-   "rating": null,
-   "reviews": 0,
-   "address": "日本、〒950-0943 新潟県新潟市中央区女池神明１丁目８−１１ コートハウス女池 205号室",
-   "maps": "https://maps.google.com/?cid=13350558785028122285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "Personal Training Base K's Garage",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒950-0207 新潟県新潟市江南区二本木１丁目４−８",
+   "maps": "https://maps.google.com/?cid=3220084700915397845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "Private Box Fit 新潟店",
+   "name": "パーソナルマシンピラティスCura-Pila関屋店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒951-8162 新潟県新潟市中央区関屋本村町１丁目１４８−３",
+   "maps": "https://maps.google.com/?cid=14733124237695456516&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "10color Personal GYM",
    "rating": null,
-   "reviews": 0,
-   "address": "日本、〒951-8057 新潟県新潟市中央区月町１９８８ フレンディビル 302",
-   "maps": "https://maps.google.com/?cid=3581412727789090078&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": null,
+   "address": "日本、〒950-0943 新潟県新潟市中央区女池神明１丁目８−１１ コートハウス女池 205号室",
+   "maps": "https://maps.google.com/?cid=13350558785028122285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

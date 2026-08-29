@@ -1,12 +1,12 @@
 {
  "city": "京都",
- "fetchedAt": "2026-08-16",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 京都",
  "gyms": [
   {
    "name": "STANCE FITNESS 2ND 京都四条大宮店 24時間ジム/パーソナル",
    "rating": 4.9,
-   "reviews": 494,
+   "reviews": 500,
    "address": "日本、〒600-8387 京都府京都市下京区高辻大宮町１０３ 大宮高辻ビル 2階",
    "maps": "https://maps.google.com/?cid=17654831765050864107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "BEYOND 京都四条店",
    "rating": 4.9,
-   "reviews": 372,
+   "reviews": 375,
    "address": "日本、〒600-8091 京都府京都市下京区元悪王子町４６−４ やさか長砂ビル 2F",
    "maps": "https://maps.google.com/?cid=7947179574140628743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +22,7 @@
   {
    "name": "STANCE FITNESS DESIGN 京都山科店",
    "rating": 5,
-   "reviews": 301,
+   "reviews": 303,
    "address": "日本、〒607-8192 京都府京都市山科区大宅御供田町２４０ Mビル 2階A号室",
    "maps": "https://maps.google.com/?cid=10239245526814273543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -30,7 +30,7 @@
   {
    "name": "女性専用パーソナルジム W2 京都河原町店",
    "rating": 4.6,
-   "reviews": 226,
+   "reviews": 220,
    "address": "日本、〒600-8001 京都府京都市下京区西木屋町通四条上る真町９７ 京都イマージアムビル 8階",
    "maps": "https://maps.google.com/?cid=5032194454851916139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,23 +38,15 @@
   {
    "name": "パーソナルジムRat京都四条店",
    "rating": 4.9,
-   "reviews": 203,
+   "reviews": 204,
    "address": "日本、〒600-8432 京都府京都市下京区糸屋町２１９ つたやビル 6階",
    "maps": "https://maps.google.com/?cid=1825112149196269596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "FIT PLACE24 西院店",
-   "rating": 4.8,
-   "reviews": 166,
-   "address": "日本、〒615-0014 京都府京都市右京区西院巽町32番 33番",
-   "maps": "https://maps.google.com/?cid=6449294835463686979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "SPACE GYM 京都烏丸店",
    "rating": 5,
-   "reviews": 144,
+   "reviews": 146,
    "address": "日本、〒604-8221 京都府京都市中京区錦小路通室町西入天神山町２９０ シーステージ烏丸 3F",
    "maps": "https://maps.google.com/?cid=17982795200393043666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -62,7 +54,7 @@
   {
    "name": "ファディー京都北山",
    "rating": 4.8,
-   "reviews": 125,
+   "reviews": 126,
    "address": "日本、〒606-0833 京都府京都市左京区下鴨前萩町５−９ ＫＩＴＡＹＡＭＡ・ＩＮＩＮＧ２３ １階",
    "maps": "https://maps.google.com/?cid=11831400846869928256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -70,9 +62,17 @@
   {
    "name": "女性専用パーソナルジムCLOUD NINE 京都店",
    "rating": 5,
-   "reviews": 116,
+   "reviews": 119,
    "address": "日本、〒604-8247 京都府京都市中京区塩屋町４９ ＪＳＰ 6階",
    "maps": "https://maps.google.com/?cid=9305997778685293817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 京都",
+   "rating": 4.9,
+   "reviews": 111,
+   "address": "日本、〒604-8153 京都府京都市中京区烏丸通四条上ル笋町６８２ 梅軒ビル B1F",
+   "maps": "https://maps.google.com/?cid=5121661506043663361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -81,14 +81,6 @@
    "reviews": 103,
    "address": "日本、〒604-8054 京都府京都市中京区富小路通錦小路下る西大文字町５９９ 京都錦HKビル 301",
    "maps": "https://maps.google.com/?cid=16008506330380977635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 京都",
-   "rating": 4.9,
-   "reviews": 100,
-   "address": "日本、〒604-8153 京都府京都市中京区烏丸通四条上ル笋町６８２ 梅軒ビル B1F",
-   "maps": "https://maps.google.com/?cid=5121661506043663361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -118,17 +110,9 @@
   {
    "name": "24/7ワークアウト 京都河原町店",
    "rating": 4.6,
-   "reviews": 76,
+   "reviews": 77,
    "address": "日本、〒604-8027 京都府京都市中京区河原町通蛸薬師下る塩屋町３２７ 三條サクラヤビル 7F",
    "maps": "https://maps.google.com/?cid=9768431418067323443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Cthree Personal Gym 京都西院",
-   "rating": 5,
-   "reviews": 73,
-   "address": "日本、〒604-8823 京都府京都市中京区壬生松原町１−５５ パレスノースビレッジ 206",
-   "maps": "https://maps.google.com/?cid=13459481370221147236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -140,19 +124,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "BEYOND 伏見桃山店",
-   "rating": 4.9,
-   "reviews": 61,
-   "address": "日本、〒612-8039 京都府京都市伏見区御香宮門前町１８４−３ l 蔵 響館 １階",
-   "maps": "https://maps.google.com/?cid=12758163461662942508&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "Cthree Personal Gym 京都西院",
+   "rating": 5,
+   "reviews": 72,
+   "address": "日本、〒604-8823 京都府京都市中京区壬生松原町１−５５ パレスノースビレッジ 206",
+   "maps": "https://maps.google.com/?cid=13459481370221147236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "パーソナルジムASPI四条烏丸店",
    "rating": 5,
-   "reviews": 59,
+   "reviews": 67,
    "address": "日本、〒600-8431 京都府京都市下京区長寺町１４０−１ グランドビル２１ 502号室",
    "maps": "https://maps.google.com/?cid=1555134508017401350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 伏見桃山店",
+   "rating": 4.9,
+   "reviews": 61,
+   "address": "日本、〒612-8039 京都府京都市伏見区御香宮門前町１８４−３ l 蔵 響館 １階",
+   "maps": "https://maps.google.com/?cid=12758163461662942508&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -212,14 +204,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "BASE Conditioning Labo",
-   "rating": 5,
-   "reviews": 40,
-   "address": "日本、〒604-8221 京都府京都市中京区天神山町２９０−１ 天神山ビル 4階",
-   "maps": "https://maps.google.com/?cid=3071659582725317392&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "To Be パーソナルジム",
    "rating": 5,
    "reviews": 38,
@@ -244,9 +228,17 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルトレーニングジムfan's-PT-烏丸三条店",
+   "rating": 4.9,
+   "reviews": 36,
+   "address": "日本、〒604-8166 京都府京都市中京区三条通室町東入御倉町７０−１ 1F",
+   "maps": "https://maps.google.com/?cid=12561978286424826211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "PERSONAL TRAINING GYM SIEG",
    "rating": 5,
-   "reviews": 33,
+   "reviews": 34,
    "address": "日本、〒600-8394 京都府京都市下京区晒屋町６２２−１ ナレッジスペース四条大宮202",
    "maps": "https://maps.google.com/?cid=6948865559611562897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -276,19 +268,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "playground kyoto 烏丸御池店",
-   "rating": 5,
-   "reviews": 28,
-   "address": "日本、〒604-8104 京都府京都市中京区高倉通姉小路上る木之下町286番地1",
-   "maps": "https://maps.google.com/?cid=5499959652534307762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "DAU GYM京都桂パーソナルジム",
    "rating": 4.9,
    "reviews": 28,
    "address": "日本、〒615-8234 京都府京都市西京区御陵塚ノ越町16−１３ グラン・スクエア千代原口 １階",
    "maps": "https://maps.google.com/?cid=15519916368232495129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "小顔&ダイエット HARI GYM 京都四条烏丸",
+   "rating": 4.9,
+   "reviews": 28,
+   "address": "日本、〒604-8227 京都府京都市中京区西洞院通蛸薬師下ル古西町 441C・flexNISHIKI202",
+   "maps": "https://maps.google.com/?cid=16534866373906960204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "playground kyoto 烏丸御池店",
+   "rating": 5,
+   "reviews": 27,
+   "address": "日本、〒604-8104 京都府京都市中京区高倉通姉小路上る木之下町286番地1",
+   "maps": "https://maps.google.com/?cid=5499959652534307762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -300,11 +300,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "小顔&ダイエット HARI GYM 京都四条烏丸",
+   "name": "パーソナルトレーニングジム/JgrowS",
    "rating": 4.9,
-   "reviews": 27,
-   "address": "日本、〒604-8227 京都府京都市中京区西洞院通蛸薬師下ル古西町 441C・flexNISHIKI202",
-   "maps": "https://maps.google.com/?cid=16534866373906960204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 26,
+   "address": "日本、〒604-0915 京都府京都市中京区寺町通り二条上る常盤木町65−６５ 寺町通ART3-C 3階",
+   "maps": "https://maps.google.com/?cid=5835157679250777260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -326,17 +326,9 @@
   {
    "name": "科学特化型パーソナルジム Eclipse",
    "rating": 5,
-   "reviews": 19,
+   "reviews": 21,
    "address": "日本、〒604-0854 京都府京都市中京区二条通東洞院西入仁王門町3 千坂 御所南ビル 2F",
    "maps": "https://maps.google.com/?cid=7675331015030025538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "KMotion Studio",
-   "rating": 5,
-   "reviews": 19,
-   "address": "日本、〒604-0972 京都府京都市中京区大炊町３６５−７ PALビル 2F",
-   "maps": "https://maps.google.com/?cid=9738040599832178857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -350,7 +342,7 @@
   {
    "name": "パーソナルジム Salute",
    "rating": 5,
-   "reviews": 17,
+   "reviews": 16,
    "address": "日本、〒604-0981 京都府京都市中京区毘沙門町５３３ 京都御所 南 1 プラザ 2階",
    "maps": "https://maps.google.com/?cid=12215811895358271401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -380,6 +372,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "Soar Line Pilates（ソアラインピラティス）",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒604-8437 京都府京都市中京区西ノ京東中合町４２ オリエントビル ２F",
+   "maps": "https://maps.google.com/?cid=14155067149493012191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルトレーニングジムTOKIEL京都吉祥院店【トキエル】",
    "rating": 5,
    "reviews": 14,
@@ -398,7 +398,7 @@
   {
    "name": "α Personal Training LAB",
    "rating": 5,
-   "reviews": 10,
+   "reviews": 12,
    "address": "日本、〒604-8136 京都府京都市中京区梅忠町20‐1 烏丸アネックス 3F",
    "maps": "https://maps.google.com/?cid=1709093967839397351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -412,7 +412,15 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルトレーニングジム829",
+   "name": "pile personalgym",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒604-8056 京都府京都市中京区高宮町 富小路高宮町593",
+   "maps": "https://maps.google.com/?cid=10941357656734779108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "829",
    "rating": 5,
    "reviews": 9,
    "address": "日本、〒612-0029 京都府京都市伏見区深草西浦町５丁目10−２",
@@ -420,11 +428,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "pile personalgym",
+   "name": "KOYULINK PERSONAL GYM 京都二条店",
    "rating": 5,
-   "reviews": 9,
-   "address": "日本、〒604-8056 京都府京都市中京区高宮町 富小路高宮町593",
-   "maps": "https://maps.google.com/?cid=10941357656734779108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 8,
+   "address": "日本、〒604-8416 京都府京都市中京区西ノ京星池町１７５ 英進ビル 1階",
+   "maps": "https://maps.google.com/?cid=15739365028399282210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -436,11 +444,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "KOYULINK PERSONAL GYM 京都二条店",
+   "name": "烏丸御池・パーソナルジム「ちょいパ」",
    "rating": 5,
-   "reviews": 7,
-   "address": "日本、〒604-8416 京都府京都市中京区西ノ京星池町１７５ 英進ビル 1階",
-   "maps": "https://maps.google.com/?cid=15739365028399282210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 2,
+   "address": "日本、〒604-8201 京都府京都市中京区長浜町１４８ グランレブリー烏丸御池 1階 LIVIVAL内",
+   "maps": "https://maps.google.com/?cid=1463548063596806745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -457,14 +465,6 @@
    "reviews": 1,
    "address": "日本、〒604-8035 京都府京都市中京区桜之町３９７−５ 2F",
    "maps": "https://maps.google.com/?cid=8144428651117372269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "烏丸御池・パーソナルジム「ちょいパ」",
-   "rating": 5,
-   "reviews": 1,
-   "address": "日本、〒604-8201 京都府京都市中京区長浜町１４８ グランレブリー烏丸御池 1階 LIVIVAL内",
-   "maps": "https://maps.google.com/?cid=1463548063596806745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {

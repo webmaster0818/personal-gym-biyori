@@ -1,28 +1,20 @@
 {
  "city": "福井",
- "fetchedAt": "2026-08-24",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 福井",
  "gyms": [
   {
    "name": "BEYOND 福井店",
    "rating": 4.9,
-   "reviews": 168,
+   "reviews": 170,
    "address": "日本、〒910-0004 福井県福井市宝永３丁目３１−１３ 1F",
    "maps": "https://maps.google.com/?cid=1525559717376681898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "ピラティススタジオDEP 福井店｜福井 マシンピラティス",
-   "rating": 5,
-   "reviews": 123,
-   "address": "日本、〒910-0017 福井県福井市文京２丁目１２−２３ 福島ビル 3F",
-   "maps": "https://maps.google.com/?cid=6593927482496233091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "AUBE FOR ONE（オーブフォーワン）",
    "rating": 4.8,
-   "reviews": 119,
+   "reviews": 118,
    "address": "日本、〒910-0006 福井県福井市中央１丁目２１−３５",
    "maps": "https://maps.google.com/?cid=3291595808223369633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,7 +30,7 @@
   {
    "name": "HPER(ハイパー) 福井板垣店",
    "rating": 4.9,
-   "reviews": 90,
+   "reviews": 92,
    "address": "日本、〒918-8104 福井県福井市板垣３丁目１５１６ ダイワエステートビル １階",
    "maps": "https://maps.google.com/?cid=18116677180984636653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -100,19 +92,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "マシンピラティス専門店 ピラティススタジオSwan 福井店",
+   "rating": 4.8,
+   "reviews": 34,
+   "address": "日本、〒910-0132 福井県福井市河合寄安町３０１ 市営住宅上野団地Ｄ 森田",
+   "maps": "https://maps.google.com/?cid=7444191853111522908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "BONA FIDE（ボナファイドジム）大和田店",
    "rating": 5,
    "reviews": 33,
    "address": "日本、〒910-0836 福井県福井市大和田１丁目４０６ 東館B",
    "maps": "https://maps.google.com/?cid=8530263689479506028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "マシンピラティス専門店 ピラティススタジオSwan 福井店",
-   "rating": 4.8,
-   "reviews": 33,
-   "address": "日本、〒910-0132 福井県福井市河合寄安町３０１ 市営住宅上野団地Ｄ 森田",
-   "maps": "https://maps.google.com/?cid=7444191853111522908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -164,7 +156,7 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムStyle.Tokyo 福井店",
+   "name": "Style.Tokyo 福井店",
    "rating": 5,
    "reviews": 22,
    "address": "日本、〒910-0854 福井県福井市御幸２丁目１４−２６−１ 階 B",
@@ -196,14 +188,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "シルバーバック&Clear",
-   "rating": 4.8,
-   "reviews": 15,
-   "address": "日本、〒916-0063 福井県鯖江市鳥井町１２−３−１",
-   "maps": "https://maps.google.com/?cid=14365831250338323716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルトレーニング スタジオ KiRAN（きらん）",
    "rating": 4.5,
    "reviews": 13,
@@ -214,7 +198,7 @@
   {
    "name": "パーソナルトレーニングジム Body&Heart",
    "rating": 4.9,
-   "reviews": 12,
+   "reviews": 13,
    "address": "日本、〒910-0017 福井県福井市文京５丁目１４−３２ 文京パセオ 1階",
    "maps": "https://maps.google.com/?cid=7422281149843473633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -284,6 +268,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "スタジオキラーナ福井",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒918-8104 福井県福井市板垣３丁目１３１６",
+   "maps": "https://maps.google.com/?cid=17653803566006423675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "Lit Bodymake Studio 福井市",
    "rating": 5,
    "reviews": 7,
@@ -308,19 +300,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "TAKEI POWER GYM",
-   "rating": 4.9,
-   "reviews": 7,
-   "address": "日本、〒918-8026 福井県福井市渕３丁目１２５−１",
-   "maps": "https://maps.google.com/?cid=9125318403331515406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ボディメイクスタジオ・ルーツ〜ダイエット、小顔矯正、姿勢改善、KOBAトレ（体幹バランストレーニング）",
    "rating": 5,
    "reviews": 7,
    "address": "日本、〒910-0067 福井県福井市新田塚１丁目２８−１８",
    "maps": "https://maps.google.com/?cid=16813258958310862908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TAKEI POWER GYM",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒918-8026 福井県福井市渕３丁目１２５−１",
+   "maps": "https://maps.google.com/?cid=9125318403331515406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -348,6 +340,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジムSOLEA",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒910-0138 福井県福井市東森田４丁目718番地 B 棟(東側",
+   "maps": "https://maps.google.com/?cid=9870012927718486737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "Alte Body Next",
    "rating": 4.3,
    "reviews": 6,
@@ -356,11 +356,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムSOLEA",
+   "name": "ピラティススタジオ エミライズ 福井高柳店",
    "rating": 5,
    "reviews": 6,
-   "address": "日本、〒910-0138 福井県福井市東森田４丁目718番地 B 棟(東側",
-   "maps": "https://maps.google.com/?cid=9870012927718486737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒910-0837 福井県福井市高柳１丁目８０５ レガリア21 106号室",
+   "maps": "https://maps.google.com/?cid=10311594283943126060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -377,14 +377,6 @@
    "reviews": 5,
    "address": "日本、〒912-0053 福井県大野市春日３丁目１２−１８",
    "maps": "https://maps.google.com/?cid=1523730932029252320&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ピラティススタジオ エミライズ 福井高柳店",
-   "rating": 5,
-   "reviews": 5,
-   "address": "日本、〒910-0837 福井県福井市高柳１丁目８０５ レガリア21 106号室",
-   "maps": "https://maps.google.com/?cid=10311594283943126060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -481,6 +473,14 @@
    "reviews": null,
    "address": "日本、〒918-8023 福井県福井市西谷２丁目２７０４ エスパンドル 105",
    "maps": "https://maps.google.com/?cid=6167559366319469119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "骨盤と姿勢premium salon",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒910-0134 福井県福井市上野本町３丁目１６２０ ２階",
+   "maps": "https://maps.google.com/?cid=8523844581773228590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

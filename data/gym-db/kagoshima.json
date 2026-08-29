@@ -1,6 +1,6 @@
 {
  "city": "鹿児島",
- "fetchedAt": "2026-08-23",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 鹿児島",
  "gyms": [
   {
@@ -46,7 +46,7 @@
   {
    "name": "Pilates iU 鹿児島中央店",
    "rating": 4.9,
-   "reviews": 65,
+   "reviews": 66,
    "address": "日本、〒890-0053 鹿児島県鹿児島市中央町１５−２ パレロワイヤルマツモト ２０１",
    "maps": "https://maps.google.com/?cid=8669557848993425286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -60,11 +60,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "マシンピラティス＆暗闇エクササイズBurnesStyle与次郎店",
-   "rating": 5,
-   "reviews": 57,
-   "address": "日本、〒890-0062 鹿児島県鹿児島市与次郎１丁目７−２０ アクロスプラザ与次郎 1階",
-   "maps": "https://maps.google.com/?cid=6667781565172153966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "スモールジム鹿児島鴨池店",
+   "rating": 4.8,
+   "reviews": 59,
+   "address": "日本、〒890-0066 鹿児島県鹿児島市真砂町１１−１",
+   "maps": "https://maps.google.com/?cid=14132846719859954436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -76,19 +76,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "24/7ワークアウト 鹿児島店",
+   "rating": 4.8,
+   "reviews": 53,
+   "address": "日本、〒890-0045 鹿児島県鹿児島市武２丁目２６−６ 3F",
+   "maps": "https://maps.google.com/?cid=7247407892397441729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "FitGrace鹿児島中山店",
    "rating": 4.9,
    "reviews": 53,
    "address": "日本、〒891-0108 鹿児島県鹿児島市中山１丁目２６−７",
    "maps": "https://maps.google.com/?cid=1725442506016555593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "24/7ワークアウト 鹿児島店",
-   "rating": 4.8,
-   "reviews": 52,
-   "address": "日本、〒890-0045 鹿児島県鹿児島市武２丁目２６−６ 3F",
-   "maps": "https://maps.google.com/?cid=7247407892397441729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -132,6 +132,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "全力パーソナルジム&ストレッチ鹿児島天文館店",
+   "rating": 4.9,
+   "reviews": 30,
+   "address": "日本、〒892-0842 鹿児島県鹿児島市東千石町１１−１４ オカダミシンビル 3F",
+   "maps": "https://maps.google.com/?cid=5471777876139998723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "暗闇バイクフィットネスLi'l Fit【リルフィット】",
    "rating": 4.8,
    "reviews": 30,
@@ -148,11 +156,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "全力パーソナルジム&ストレッチ鹿児島天文館店",
-   "rating": 4.9,
-   "reviews": 29,
-   "address": "日本、〒892-0842 鹿児島県鹿児島市東千石町１１−１４ オカダミシンビル 3F",
-   "maps": "https://maps.google.com/?cid=5471777876139998723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "Personal Training Gym AXIAS (アクシアス)",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒892-0841 鹿児島県鹿児島市照国町１５−１７ 4階",
+   "maps": "https://maps.google.com/?cid=11676147032246625744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -172,19 +180,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "Personal Training Gym AXIAS (アクシアス)",
-   "rating": 5,
-   "reviews": 24,
-   "address": "日本、〒892-0841 鹿児島県鹿児島市照国町１５−１７ 4階",
-   "maps": "https://maps.google.com/?cid=11676147032246625744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "3rd place gym（サードプレイス）_荒田店",
    "rating": 5,
    "reviews": 23,
    "address": "日本、〒890-0055 鹿児島県鹿児島市上荒田町３０−２０ Aスクエアビル 2階",
    "maps": "https://maps.google.com/?cid=14613809678429993662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジムフィールド 鹿児島中山スタジオ",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒891-0013 鹿児島県鹿児島市東谷山７丁目１６−２",
+   "maps": "https://maps.google.com/?cid=7708954504656493745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -196,11 +204,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "ジムフィールド 鹿児島中山スタジオ",
+   "name": "STUDIO IVY 鹿児島中央店【パーソナルマシンピラティス】",
    "rating": 5,
    "reviews": 23,
-   "address": "日本、〒891-0013 鹿児島県鹿児島市東谷山７丁目１６−２",
-   "maps": "https://maps.google.com/?cid=7708954504656493745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒890-0046 鹿児島県鹿児島市西田２丁目11−１６ LANDMARK城西本通 1001",
+   "maps": "https://maps.google.com/?cid=2616650184248544647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -217,14 +225,6 @@
    "reviews": 21,
    "address": "日本、〒892-0815 鹿児島県鹿児島市易居町９−１３",
    "maps": "https://maps.google.com/?cid=10311068479792381741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "STUDIO IVY 鹿児島中央店【パーソナルマシンピラティス】",
-   "rating": 5,
-   "reviews": 20,
-   "address": "日本、〒890-0046 鹿児島県鹿児島市西田２丁目11−１６ LANDMARK城西本通 1001",
-   "maps": "https://maps.google.com/?cid=2616650184248544647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -284,6 +284,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "ロムアップ",
+   "rating": 4.6,
+   "reviews": 11,
+   "address": "日本、〒890-0072 鹿児島県鹿児島市新栄町２１−１５",
+   "maps": "https://maps.google.com/?cid=14639591077416333139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "SHIN BODY LABO パーソナルジム 鍼灸院",
    "rating": 5,
    "reviews": 10,
@@ -297,6 +305,14 @@
    "reviews": 10,
    "address": "日本、〒892-0816 鹿児島県鹿児島市山下町１７−１９ １F",
    "maps": "https://maps.google.com/?cid=16063363731899415465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RunningLab Rabbit &Turtle",
+   "rating": 4.6,
+   "reviews": 10,
+   "address": "日本、〒890-0073 鹿児島県鹿児島市宇宿１丁目２５−１３ 103",
+   "maps": "https://maps.google.com/?cid=10378538952235091239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -340,19 +356,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "女性専門パーソナルジム Am",
-   "rating": 4.5,
-   "reviews": 8,
-   "address": "日本、〒892-0825 鹿児島県鹿児島市大黒町４−１３ 大黒ビル 3F",
-   "maps": "https://maps.google.com/?cid=138768329838012509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルトレーニングジム LIBERTA（リベルタ）",
    "rating": 5,
    "reviews": 8,
    "address": "日本、〒892-0842 鹿児島県鹿児島市東千石町１５−１４ ミノダビル",
    "maps": "https://maps.google.com/?cid=14537644881309531422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専門パーソナルジム Am",
+   "rating": 4.5,
+   "reviews": 8,
+   "address": "日本、〒892-0825 鹿児島県鹿児島市大黒町４−１３ 大黒ビル 3F",
+   "maps": "https://maps.google.com/?cid=138768329838012509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -396,19 +412,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "Fitness GYM LIB",
-   "rating": 4.8,
-   "reviews": 5,
-   "address": "日本、〒892-0877 鹿児島県鹿児島市吉野４丁目３９−１１ BRICK HOUSE 1F",
-   "maps": "https://maps.google.com/?cid=8447327582834036219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "First Fitness",
    "rating": 5,
    "reviews": 5,
    "address": "日本、〒890-0045 鹿児島県鹿児島市武１丁目５−２２ エスポワールリアンビル 3F",
    "maps": "https://maps.google.com/?cid=9909887198031965019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Fitness GYM LIB",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒892-0877 鹿児島県鹿児島市吉野４丁目３９−１１ BRICK HOUSE 1F",
+   "maps": "https://maps.google.com/?cid=8447327582834036219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -460,27 +476,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "Private Box Fit 鹿児島店",
+   "name": "ＡＩＬＥフィットネス",
    "rating": 5,
    "reviews": 1,
-   "address": "日本、〒890-0045 鹿児島県鹿児島市武２丁目２６−６ 3F",
-   "maps": "https://maps.google.com/?cid=16476091478246125832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "初心者専門セミパーソナルジムeternity＋",
-   "rating": null,
-   "reviews": null,
-   "address": "日本、〒892-0827 鹿児島県鹿児島市中町３−１０ 地下1階",
-   "maps": "https://maps.google.com/?cid=12745496083433091310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジム吉(きち)-musubi-",
-   "rating": null,
-   "reviews": null,
-   "address": "日本、〒892-0824 鹿児島県鹿児島市堀江町２−１０ ドクタープレミアム BLD003F号室",
-   "maps": "https://maps.google.com/?cid=4116023423673226061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒892-0828 鹿児島県鹿児島市金生町１−１ ラウンドクロス鹿児島",
+   "maps": "https://maps.google.com/?cid=112400631683684939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

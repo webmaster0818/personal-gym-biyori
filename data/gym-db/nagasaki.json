@@ -1,6 +1,6 @@
 {
  "city": "長崎",
- "fetchedAt": "2026-08-23",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 長崎",
  "gyms": [
   {
@@ -14,7 +14,7 @@
   {
    "name": "ピラティススタジオShape (シェイプ) アミュプラザ長崎新館スタジオ",
    "rating": 4.9,
-   "reviews": 156,
+   "reviews": 158,
    "address": "日本、〒850-0058 長崎県長崎市尾上町１−１ 新館 5F",
    "maps": "https://maps.google.com/?cid=2940634912413646131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,7 +22,7 @@
   {
    "name": "GATE GYM NAGASAKI (ゲートジム長崎)",
    "rating": 5,
-   "reviews": 140,
+   "reviews": 141,
    "address": "日本、〒850-0831 長崎県長崎市鍛冶屋町３−１０ ハイ フォルム Osm",
    "maps": "https://maps.google.com/?cid=10560642007765353552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,7 +38,7 @@
   {
    "name": "Ru!Ru! （ルールー） 長崎浜町スタジオ",
    "rating": 4.7,
-   "reviews": 127,
+   "reviews": 128,
    "address": "日本、〒850-0853 長崎県長崎市浜町３−２５ 松月堂ビル 2F",
    "maps": "https://maps.google.com/?cid=17402312004575223523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -49,14 +49,6 @@
    "reviews": 121,
    "address": "日本、〒851-0136 長崎県長崎市平間町６９４−７",
    "maps": "https://maps.google.com/?cid=2383037776861701288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用フィットネスジムRu!Ru! （ルールー）長与スタジオ",
-   "rating": 4.9,
-   "reviews": 87,
-   "address": "日本、〒851-2128 長崎県西彼杵郡長与町嬉里郷１０９６ アスクビル 2F",
-   "maps": "https://maps.google.com/?cid=16647898171225923468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -73,14 +65,6 @@
    "reviews": 56,
    "address": "日本、〒852-8131 長崎県長崎市文教町９−４ 1F",
    "maps": "https://maps.google.com/?cid=13132855864386007827&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "スポーツクラブNAS長崎",
-   "rating": 3.6,
-   "reviews": 46,
-   "address": "日本、〒852-8053 長崎県長崎市葉山１丁目６−３７",
-   "maps": "https://maps.google.com/?cid=2149302382937998238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -105,14 +89,6 @@
    "reviews": 38,
    "address": "日本、〒850-0861 長崎県長崎市江戸町５−６",
    "maps": "https://maps.google.com/?cid=6412480434813929786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "エニタイムフィットネス 長崎長与店",
-   "rating": 3.9,
-   "reviews": 34,
-   "address": "日本、〒851-2126 長崎県西彼杵郡長与町吉無田郷２０１９−６",
-   "maps": "https://maps.google.com/?cid=14235546659937037908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -172,14 +148,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "フィットネスジムＢＵＲＮ／諫早パーソナルトレーニング",
-   "rating": 4.7,
-   "reviews": 21,
-   "address": "日本、〒854-0061 長崎県諫早市宇都町１８−３９",
-   "maps": "https://maps.google.com/?cid=5867118529692656842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "LIFE STYLE CLUB",
    "rating": 5,
    "reviews": 20,
@@ -189,26 +157,10 @@
   },
   {
    "name": "LifeFit 長崎大波止店",
-   "rating": 3.7,
+   "rating": 3.6,
    "reviews": 18,
    "address": "日本、〒850-0035 長崎県長崎市元船町１４−１０",
    "maps": "https://maps.google.com/?cid=4482916470002885566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "chocoZAP長崎銅座",
-   "rating": 3.5,
-   "reviews": 15,
-   "address": "日本、〒850-0841 長崎県長崎市銅座町４−２０ 第１銅座ビル M2 Ⅱ番館",
-   "maps": "https://maps.google.com/?cid=7471951429652596857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "&フィットネス",
-   "rating": 4,
-   "reviews": 15,
-   "address": "日本、〒854-0066 長崎県諫早市久山町１３６９−１",
-   "maps": "https://maps.google.com/?cid=14679922259376854148&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -236,19 +188,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "トータルビューティーサロン Attiran✳︎T -アティラン-",
+   "name": "女性専用パーソナルジム ラムア 長崎店",
    "rating": 4.9,
-   "reviews": 9,
-   "address": "日本、〒852-8135 長崎県長崎市千歳町２−５ クラヴィス 903",
-   "maps": "https://maps.google.com/?cid=16355716503426380724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ピラティススタジオ HOLIC",
-   "rating": 5,
-   "reviews": 9,
-   "address": "日本、〒852-8108 長崎県長崎市川口町７−３ ハイツ川口 101",
-   "maps": "https://maps.google.com/?cid=14759167703480130113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 8,
+   "address": "日本、〒850-0852 長崎県長崎市万屋町１−１３ 内田屋ビル 302",
+   "maps": "https://maps.google.com/?cid=5399293403995531997&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -257,14 +201,6 @@
    "reviews": 8,
    "address": "日本、〒854-0006 長崎県諫早市天満町１３−１８ 202",
    "maps": "https://maps.google.com/?cid=15205222208580968891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用パーソナルジム ラムア 長崎店",
-   "rating": 4.9,
-   "reviews": 7,
-   "address": "日本、〒850-0852 長崎県長崎市万屋町１−１３ 内田屋ビル 302",
-   "maps": "https://maps.google.com/?cid=5399293403995531997&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -284,14 +220,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "ハーキュリンフィットネス HERCULEAN FITNESS",
-   "rating": 4.7,
-   "reviews": 7,
-   "address": "日本、〒850-0035 長崎県長崎市元船町７−６ 石原ビル",
-   "maps": "https://maps.google.com/?cid=1603130897230737651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "姿勢・骨格改善スタジオ GLAMUP",
    "rating": 4.3,
    "reviews": 6,
@@ -305,14 +233,6 @@
    "reviews": 6,
    "address": "日本、〒856-0027 長崎県大村市植松１丁目２１０−７ ２階",
    "maps": "https://maps.google.com/?cid=9476189157018021931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Ｂ−ｌｉｎｅ 東長崎店",
-   "rating": 4.5,
-   "reviews": 6,
-   "address": "日本、〒851-0133 長崎県長崎市矢上町３５−３",
-   "maps": "https://maps.google.com/?cid=11773477182553608478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -404,14 +324,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "六鍼灸整骨院&パーソナルトレーニングジムstudio6",
-   "rating": 4.5,
-   "reviews": 2,
-   "address": "日本、〒852-8127 長崎県長崎市大手１丁目１−５７",
-   "maps": "https://maps.google.com/?cid=11441156550893286375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "Clan",
    "rating": 5,
    "reviews": 1,
@@ -444,35 +356,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "浪漫Fitness Gym",
-   "rating": null,
-   "reviews": null,
-   "address": "日本、〒850-0026 長崎県長崎市古町２２ ３階",
-   "maps": "https://maps.google.com/?cid=7296121546947914133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ENnex",
-   "rating": null,
-   "reviews": null,
-   "address": "日本、〒851-0126 長崎県長崎市芒塚町２３９−３",
-   "maps": "https://maps.google.com/?cid=10466836713398599500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "＆ GYM（アンドジム）",
    "rating": null,
    "reviews": null,
    "address": "日本、〒851-0134 長崎県長崎市田中町１６７−５ はらだ整骨院内",
    "maps": "https://maps.google.com/?cid=5173297382322078354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "S&Cパーソナルトレーニングジム 第1ジム",
-   "rating": null,
-   "reviews": null,
-   "address": "日本、〒852-8122 長崎県長崎市西山台２丁目２３−１８",
-   "maps": "https://maps.google.com/?cid=8048351030141069040&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]

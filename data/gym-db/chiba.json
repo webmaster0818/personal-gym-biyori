@@ -1,12 +1,12 @@
 {
  "city": "chiba",
- "fetchedAt": "2026-08-19",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 千葉市",
  "gyms": [
   {
    "name": "FIT PLACE24 千葉中央店",
    "rating": 4.8,
-   "reviews": 495,
+   "reviews": 496,
    "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目１６−１ 加瀬ビル 222",
    "maps": "https://maps.google.com/?cid=5667189957589994179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "FIT PLACE24 千葉みなと店",
    "rating": 4.9,
-   "reviews": 450,
+   "reviews": 452,
    "address": "日本、〒260-0024 千葉県千葉市中央区中央港１丁目２２−１８ マルハン千葉みなと店 ２F",
    "maps": "https://maps.google.com/?cid=11818803435480162035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -22,23 +22,15 @@
   {
    "name": "GYMS（ジムズ） 千葉駅前店",
    "rating": 4.7,
-   "reviews": 349,
+   "reviews": 353,
    "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目７−６ 富士見ビル 7Ｆ",
    "maps": "https://maps.google.com/?cid=15919538576928391153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "FIT PLACE24 都賀店",
-   "rating": 4.7,
-   "reviews": 248,
-   "address": "日本、〒264-0025 千葉県千葉市若葉区都賀１丁目１３−７ ２F",
-   "maps": "https://maps.google.com/?cid=2579460738510711256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "THE PERSONAL GYM 千葉駅前店",
    "rating": 5,
-   "reviews": 154,
+   "reviews": 156,
    "address": "日本、〒260-0032 千葉県千葉市中央区登戸１丁目１−１ ホークスジャパン 登戸ビル 3F Kワン",
    "maps": "https://maps.google.com/?cid=9412277396585224702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,31 +38,31 @@
   {
    "name": "THE QOLY",
    "rating": 4.9,
-   "reviews": 134,
+   "reviews": 135,
    "address": "日本、〒260-0021 千葉県千葉市中央区新宿２丁目５−１ ホテルモンセラトン ３F",
    "maps": "https://maps.google.com/?cid=14434742646461456950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "Ｒａｉｎｂｏｗ Ｆｉｔｎｅｓｓ",
-   "rating": 4.8,
-   "reviews": 132,
-   "address": "日本、〒263-0005 千葉県千葉市稲毛区宮野木町１７２２−１２６",
-   "maps": "https://maps.google.com/?cid=11446724265655416123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "BEYOND 千葉駅前店",
    "rating": 4.9,
-   "reviews": 131,
+   "reviews": 132,
    "address": "日本、〒260-0027 千葉県千葉市中央区新田町１１−１ 小川第２ビル 1階",
    "maps": "https://maps.google.com/?cid=18406369166546813562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
+   "name": "Ｒａｉｎｂｏｗ Ｆｉｔｎｅｓｓ",
+   "rating": 4.8,
+   "reviews": 131,
+   "address": "日本、〒263-0005 千葉県千葉市稲毛区宮野木町１７２２−１２６",
+   "maps": "https://maps.google.com/?cid=11446724265655416123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "女性専用パーソナルジム UNDEUX SUPERBODY 千葉",
-   "rating": 4.9,
-   "reviews": 107,
+   "rating": 4.8,
+   "reviews": 111,
    "address": "日本、〒260-0028 千葉県千葉市中央区新町1−１８ 上野ビル 6F",
    "maps": "https://maps.google.com/?cid=7519886962558615715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -78,31 +70,31 @@
   {
    "name": "バク転パーソナル教室 千葉店",
    "rating": 4.9,
-   "reviews": 95,
+   "reviews": 97,
    "address": "日本、〒260-0042 千葉県千葉市中央区椿森１丁目２３−１１ 椿森ハイツ １階",
    "maps": "https://maps.google.com/?cid=3322160749128606308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "BodyBase千葉駅前店",
-   "rating": 4.9,
-   "reviews": 80,
-   "address": "日本、〒260-0028 千葉県千葉市中央区新町22−１ 新町５５ビル 4階",
-   "maps": "https://maps.google.com/?cid=15292193666629062893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "LUSTER 千葉｜パーソナル × 24時間ジム",
    "rating": 4.9,
-   "reviews": 78,
+   "reviews": 83,
    "address": "日本、〒260-0031 千葉県千葉市中央区千葉２丁目２−１ 新日本EXビル 6階",
    "maps": "https://maps.google.com/?cid=1641753476555787147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
+   "name": "BodyBase千葉駅前店",
+   "rating": 4.9,
+   "reviews": 81,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町22−１ 新町５５ビル 4階",
+   "maps": "https://maps.google.com/?cid=15292193666629062893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルジムLizardTail(リザードテール)都賀店",
    "rating": 4.9,
-   "reviews": 76,
+   "reviews": 77,
    "address": "日本、〒264-0025 千葉県千葉市若葉区都賀３丁目４−５ 佐久間ビル",
    "maps": "https://maps.google.com/?cid=10272403111561793219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -110,7 +102,7 @@
   {
    "name": "パーソナルジムReViNa(レビナ)西千葉店",
    "rating": 5,
-   "reviews": 73,
+   "reviews": 74,
    "address": "日本、〒263-0023 千葉県千葉市稲毛区緑町１丁目１８−１ 秋葉ビル 1F",
    "maps": "https://maps.google.com/?cid=13904381104069700424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -118,15 +110,15 @@
   {
    "name": "パーソナルジムReViNa(レビナ)おゆみ野店",
    "rating": 5,
-   "reviews": 70,
+   "reviews": 68,
    "address": "日本、〒266-0031 千葉県千葉市緑区おゆみ野３丁目40−８ 1F",
    "maps": "https://maps.google.com/?cid=3970483860488582537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "ASPI千葉駅前店",
-   "rating": 4.9,
-   "reviews": 59,
+   "rating": 5,
+   "reviews": 60,
    "address": "日本、〒260-0015 千葉県千葉市中央区富士見１丁目１５−８ ＲＣ千葉ビル 5階W室",
    "maps": "https://maps.google.com/?cid=14283094617594287211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -134,7 +126,7 @@
   {
    "name": "アーテムパーソナルジム千葉駅前店",
    "rating": 4.9,
-   "reviews": 55,
+   "reviews": 56,
    "address": "日本、〒260-0045 千葉県千葉市中央区弁天１丁目２−１２ 沼澤ビル 2F",
    "maps": "https://maps.google.com/?cid=15445454714953788361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -145,6 +137,14 @@
    "reviews": 54,
    "address": "日本、〒260-0842 千葉県千葉市中央区南町２丁目１０−１ 若菜ビル 3F",
    "maps": "https://maps.google.com/?cid=10369344196748860049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Mリーフ",
+   "rating": 4.9,
+   "reviews": 53,
+   "address": "日本、〒260-0032 千葉県千葉市中央区登戸２丁目７−５ 102",
+   "maps": "https://maps.google.com/?cid=13244950534122577062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -172,19 +172,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "リボーンマイセルフ千葉店",
+   "rating": 4.7,
+   "reviews": 50,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目５−１５ 塚本千葉第三ビル 3階",
+   "maps": "https://maps.google.com/?cid=2486539181940141122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "ライザップ(RIZAP)千葉店",
    "rating": 4.6,
    "reviews": 49,
    "address": "日本、〒260-0013 千葉県千葉市中央区中央３丁目５−１ 千葉中央トーセイビル 3/4F",
    "maps": "https://maps.google.com/?cid=15652324524785436812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ReViNa(レビナ)都賀店",
-   "rating": 4.8,
-   "reviews": 48,
-   "address": "日本、〒264-0026 千葉県千葉市若葉区西都賀３丁目３−１７ ライブリー西都賀 西口2F",
-   "maps": "https://maps.google.com/?cid=2534616333976450288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -196,11 +196,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "リボーンマイセルフ千葉店",
-   "rating": 4.7,
+   "name": "ReViNa(レビナ)都賀店",
+   "rating": 4.9,
    "reviews": 47,
-   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目５−１５ 塚本千葉第三ビル 3階",
-   "maps": "https://maps.google.com/?cid=2486539181940141122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒264-0026 千葉県千葉市若葉区西都賀３丁目３−１７ ライブリー西都賀 西口2F",
+   "maps": "https://maps.google.com/?cid=2534616333976450288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -214,7 +214,7 @@
   {
    "name": "Luxury Style",
    "rating": 4.9,
-   "reviews": 43,
+   "reviews": 42,
    "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目１５−１ 7F",
    "maps": "https://maps.google.com/?cid=16015670003839297672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -228,6 +228,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジムReViNa(レビナ)幕張店",
+   "rating": 4.9,
+   "reviews": 42,
+   "address": "日本、〒262-0032 千葉県千葉市花見川区幕張町５丁目４１７−１５１ シャルム MK1F",
+   "maps": "https://maps.google.com/?cid=14184108099969887739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "BodyBase千葉大学病院前いのはなテラス店",
    "rating": 4.9,
    "reviews": 41,
@@ -236,11 +244,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムReViNa(レビナ)幕張店",
+   "name": "ISOKAWA GYM",
    "rating": 4.9,
    "reviews": 41,
-   "address": "日本、〒262-0032 千葉県千葉市花見川区幕張町５丁目４１７−１５１ シャルム MK1F",
-   "maps": "https://maps.google.com/?cid=14184108099969887739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒267-0066 千葉県千葉市緑区あすみが丘１丁目２７−２ 藤屋第二ビル １階",
+   "maps": "https://maps.google.com/?cid=1757133103823057142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -292,6 +300,22 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "QUICK PERSONAL 千葉駅前店",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目１４−１ 千葉Exビル 7F",
+   "maps": "https://maps.google.com/?cid=9929369894520755851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ENEGYM",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒260-0045 千葉県千葉市中央区弁天２丁目２３−２３ 弁天プラザ",
+   "maps": "https://maps.google.com/?cid=8306486190552521287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "24/7ワークアウト 稲毛店",
    "rating": 5,
    "reviews": 29,
@@ -300,43 +324,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "ENEGYM",
-   "rating": 5,
-   "reviews": 27,
-   "address": "日本、〒260-0045 千葉県千葉市中央区弁天２丁目２３−２３ 弁天プラザ",
-   "maps": "https://maps.google.com/?cid=8306486190552521287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルトレーニングジムWiLL",
    "rating": 4.5,
-   "reviews": 26,
+   "reviews": 25,
    "address": "日本、〒260-0031 千葉県千葉市中央区新千葉１丁目７−９ アート One503",
    "maps": "https://maps.google.com/?cid=1177098989708676146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "女性専用パーソナルトレーニングジム Top tier 幕張ベイタウン店",
-   "rating": 5,
-   "reviews": 26,
-   "address": "日本、〒261-0013 千葉県千葉市美浜区打瀬３丁目７−７ パティオス21番街 122",
-   "maps": "https://maps.google.com/?cid=8506746025270672875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "QUICK PERSONAL 千葉駅前店",
-   "rating": 5,
-   "reviews": 23,
-   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目１４−１ 千葉Exビル 7F",
-   "maps": "https://maps.google.com/?cid=9929369894520755851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジムinfinity body (インフィニティボディ)",
-   "rating": 5,
-   "reviews": 17,
-   "address": "日本、〒263-0043 千葉県千葉市稲毛区小仲台２丁目１１−１１ １５ＡＳビル ３Ｆ",
-   "maps": "https://maps.google.com/?cid=11619868262060358619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "パーソナルジムTRANSFORM（トランスフォーム）千葉市若葉区都賀店",
+   "rating": 4.8,
+   "reviews": 18,
+   "address": "日本、〒264-0025 千葉県千葉市若葉区都賀４丁目１６−６ 1階",
+   "maps": "https://maps.google.com/?cid=14893864683147728813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -345,6 +345,14 @@
    "reviews": 17,
    "address": "日本、〒263-0031 千葉県千葉市稲毛区稲毛東２丁目１７−１３ 2F",
    "maps": "https://maps.google.com/?cid=3988047278160127964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムinfinity body (インフィニティボディ)",
+   "rating": 5,
+   "reviews": 17,
+   "address": "日本、〒263-0043 千葉県千葉市稲毛区小仲台２丁目１１−１１ １５ＡＳビル ３Ｆ",
+   "maps": "https://maps.google.com/?cid=11619868262060358619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -358,7 +366,7 @@
   {
    "name": "Private Gym Improve",
    "rating": 4.9,
-   "reviews": 12,
+   "reviews": 13,
    "address": "日本、〒260-0013 千葉県千葉市中央区中央１丁目１０−５ ＰａｒｋＳｉｄｅＣｈｉｂａ 504",
    "maps": "https://maps.google.com/?cid=5580437170959597569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -401,14 +409,6 @@
    "reviews": 10,
    "address": "日本、〒261-0004 千葉県千葉市美浜区高洲３丁目１４−１４ 和紅ビル 407",
    "maps": "https://maps.google.com/?cid=591135187194395280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Personal conditioning Body feel 2nd",
-   "rating": 5,
-   "reviews": 10,
-   "address": "日本、〒262-0032 千葉県千葉市花見川区幕張町２丁目１４２０−５",
-   "maps": "https://maps.google.com/?cid=8378253580383372598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {

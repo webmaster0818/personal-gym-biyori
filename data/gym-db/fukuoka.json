@@ -1,12 +1,12 @@
 {
  "city": "fukuoka",
- "fetchedAt": "2026-08-16",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 福岡",
  "gyms": [
   {
    "name": "VISION24 福岡天神店",
    "rating": 4.8,
-   "reviews": 680,
+   "reviews": 688,
    "address": "日本、〒810-0075 福岡県福岡市中央区港１丁目１０−５ キテラタウン長浜 3F",
    "maps": "https://maps.google.com/?cid=3780377124132246586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -14,7 +14,7 @@
   {
    "name": "VALX GYM（バルクスジム）福岡天神",
    "rating": 4.9,
-   "reviews": 386,
+   "reviews": 392,
    "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−２４ 天神ルーチェ 3階",
    "maps": "https://maps.google.com/?cid=6889972951852088243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,7 +46,7 @@
   {
    "name": "パーソナルジム＆ピラティス メルメイク 西新店",
    "rating": 4.9,
-   "reviews": 203,
+   "reviews": 202,
    "address": "日本、〒814-0002 福岡県福岡市早良区西新１丁目８−７ シルキーコート西新 203号室",
    "maps": "https://maps.google.com/?cid=11255639291866687586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -54,9 +54,17 @@
   {
    "name": "パーソナルジム.Next GYM 博多店",
    "rating": 5,
-   "reviews": 191,
+   "reviews": 190,
    "address": "日本、〒812-0016 福岡県福岡市博多区博多駅南２丁目８−３３ 4i-RESIDENCE 1階",
    "maps": "https://maps.google.com/?cid=10715649197869542613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム／クロニクルジャパン福岡天神店",
+   "rating": 4.9,
+   "reviews": 179,
+   "address": "日本、〒810-0023 福岡県福岡市中央区警固１丁目６−５６ サウスガーデン 2F",
+   "maps": "https://maps.google.com/?cid=4637245663484282023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -78,7 +86,7 @@
   {
    "name": "女性専用パーソナルジム UNDEUX SUPERBODY 福岡/博多",
    "rating": 4.9,
-   "reviews": 150,
+   "reviews": 156,
    "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前３丁目３０−１ タイセイ第１ビル B1 1階",
    "maps": "https://maps.google.com/?cid=1758715787774557106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -116,7 +124,7 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "KPS 平尾/高宮店",
+   "name": "パーソナルジムKPS 平尾/高宮店",
    "rating": 4.9,
    "reviews": 133,
    "address": "日本、〒815-0083 福岡県福岡市南区高宮１丁目２−２５ マルコビル 1F",
@@ -132,9 +140,17 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "Body Hackers Lab千早・香椎（パーソナルジム ボディハッカーズラボ）",
+   "rating": 4.9,
+   "reviews": 131,
+   "address": "日本、〒813-0044 福岡県福岡市東区千早５丁目１３−５ トレリヴァーII 2階",
+   "maps": "https://maps.google.com/?cid=997760037183479985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "パーソナルトレーニングジムRESET福岡天神店",
    "rating": 4.9,
-   "reviews": 124,
+   "reviews": 123,
    "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目１−３８ 永豊ビル 5B号室",
    "maps": "https://maps.google.com/?cid=12294861798537211758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -142,7 +158,7 @@
   {
    "name": "パーソナルジムRoutine清川店",
    "rating": 5,
-   "reviews": 118,
+   "reviews": 119,
    "address": "日本、〒810-0005 福岡県福岡市中央区清川２丁目１３−３４ Premiage 天神南 901",
    "maps": "https://maps.google.com/?cid=12756988974663284237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -158,7 +174,7 @@
   {
    "name": "Body Hackers Lab薬院大通（パーソナルジム ボディハッカーズラボ）",
    "rating": 4.9,
-   "reviews": 114,
+   "reviews": 115,
    "address": "日本、〒810-0022 福岡県福岡市中央区薬院１丁目１０−５ 301号",
    "maps": "https://maps.google.com/?cid=3878254481470253264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -180,9 +196,17 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "Uspazio | 会員制プライベートジム",
+   "rating": 4.9,
+   "reviews": 91,
+   "address": "日本、〒810-0042 福岡県福岡市中央区赤坂３丁目７−１５ モダンパラッツォけやき通り301号室",
+   "maps": "https://maps.google.com/?cid=3334884309579754668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "ダイエット専門パーソナルジムKPS 博多店",
    "rating": 5,
-   "reviews": 89,
+   "reviews": 90,
    "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前３丁目１２−２１ NKEビル 6F",
    "maps": "https://maps.google.com/?cid=9005705635837488081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -190,9 +214,17 @@
   {
    "name": "ピラティス&パーソナルジム EMBRIAエンブリア",
    "rating": 5,
-   "reviews": 86,
+   "reviews": 88,
    "address": "日本、〒810-0014 福岡県福岡市中央区平尾２丁目１９−３２ Tomike Hirao １階",
    "maps": "https://maps.google.com/?cid=766933881832086985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 福岡/天神",
+   "rating": 4.8,
+   "reviews": 85,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目４−２ シエルブルー天神 7階",
+   "maps": "https://maps.google.com/?cid=13337675007001750562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -201,14 +233,6 @@
    "reviews": 85,
    "address": "日本、〒810-0042 福岡県福岡市中央区赤坂１丁目２−６ 赤坂パインマンション 2階",
    "maps": "https://maps.google.com/?cid=14356418071003257952&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "女性専用パーソナルジム UNDEUX SUPERBODY 福岡/天神",
-   "rating": 4.8,
-   "reviews": 81,
-   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目４−２ シエルブルー天神 7階",
-   "maps": "https://maps.google.com/?cid=13337675007001750562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -222,9 +246,17 @@
   {
    "name": "パーソナルジムRat福岡天神店",
    "rating": 4.9,
-   "reviews": 74,
+   "reviews": 78,
    "address": "日本、〒810-0004 福岡県福岡市中央区渡辺通５丁目２−１０ 渡辺通プレイス 502号室",
    "maps": "https://maps.google.com/?cid=14388961021927163115&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Training Studio BASE薬院店（パーソナルジム スタジオベイス）",
+   "rating": 5,
+   "reviews": 71,
+   "address": "日本、〒810-0022 福岡県福岡市中央区薬院４丁目８−２８ 305 号",
+   "maps": "https://maps.google.com/?cid=35024141158663761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -236,17 +268,9 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "Personal Training Studio BASE薬院店（パーソナルジム スタジオベイス）",
-   "rating": 5,
-   "reviews": 69,
-   "address": "日本、〒810-0022 福岡県福岡市中央区薬院４丁目８−２８ 305 号",
-   "maps": "https://maps.google.com/?cid=35024141158663761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジムRoutine博多駅前店",
    "rating": 5,
-   "reviews": 68,
+   "reviews": 69,
    "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前４丁目３２−１４ リファレンス博多駅前 Ⅱ201",
    "maps": "https://maps.google.com/?cid=2026526103833302921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -254,7 +278,7 @@
   {
    "name": "ASPI博多店 パーソナルトレーニングジム",
    "rating": 5,
-   "reviews": 64,
+   "reviews": 66,
    "address": "日本、〒812-0013 福岡県福岡市博多区博多駅東２丁目５−１１ コスギ・１ビル 5F",
    "maps": "https://maps.google.com/?cid=7064212024034094983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -268,11 +292,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "福岡大名【美尻つくり】専門パーソナルトレーニング Avenir",
+   "name": "T-S1 Personal Gym",
+   "rating": 4.8,
+   "reviews": 53,
+   "address": "日本、〒814-0104 福岡県福岡市城南区別府１丁目２１−６ アストア別府 301号室",
+   "maps": "https://maps.google.com/?cid=9591251810590518699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムコア薬院",
+   "rating": 4.8,
+   "reviews": 48,
+   "address": "日本、〒810-0022 福岡県福岡市中央区薬院２丁目２−４ 薬院ハイム 1階",
+   "maps": "https://maps.google.com/?cid=15936694088353874758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NOX Personal Training&Conditioning",
    "rating": 4.9,
-   "reviews": 56,
-   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１０−１６ RAGGZA大名 4F",
-   "maps": "https://maps.google.com/?cid=6864739442434175516&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 45,
+   "address": "日本、〒810-0023 福岡県福岡市中央区警固２丁目１３−１７ S-FORT警固タワ ２F",
+   "maps": "https://maps.google.com/?cid=9836630793004859369&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -292,38 +332,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "プリッツジム西新店",
-   "rating": 4.9,
-   "reviews": 37,
-   "address": "日本、〒814-0003 福岡県福岡市早良区城西１丁目８−３６ フェニックス西新ビルディング 2階C号室",
-   "maps": "https://maps.google.com/?cid=2605673324086413722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "リボーンマイセルフ大濠公園店",
-   "rating": 4.9,
-   "reviews": 36,
-   "address": "日本、〒810-0051 福岡県福岡市中央区大濠公園２−３５ The Apartment, 711号室",
-   "maps": "https://maps.google.com/?cid=8324945670658309958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "薬院プライベートジム Essential",
-   "rating": 5,
-   "reviews": 35,
-   "address": "日本、〒810-0022 福岡県福岡市中央区薬院２丁目１４−２１ フィット薬院 305号室",
-   "maps": "https://maps.google.com/?cid=8620922430464617941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "Private Gym VALENTE",
-   "rating": 5,
-   "reviews": 35,
-   "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目６−１６ オフィスニューガイア ＣＬＡＩＲ天神２ 2F",
-   "maps": "https://maps.google.com/?cid=4602373716715667379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジム LUMINOUS",
    "rating": 5,
    "reviews": 33,
@@ -334,7 +342,7 @@
   {
    "name": "パーソナルジム Switch 博多本店",
    "rating": 4.9,
-   "reviews": 32,
+   "reviews": 33,
    "address": "日本、〒812-0016 福岡県福岡市博多区博多駅南２丁目１８−１４",
    "maps": "https://maps.google.com/?cid=7581071402760144328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -356,27 +364,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "習慣特化型パーソナルジム Lifestyle Fitness Roots",
-   "rating": 4.9,
-   "reviews": 28,
-   "address": "日本、〒813-0013 福岡県福岡市東区香椎駅前２丁目１３−１０ 野仲ビル 8号館401号",
-   "maps": "https://maps.google.com/?cid=6578755570124443298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "ビーコンセプト福岡天神大名店",
-   "rating": 4.8,
-   "reviews": 23,
-   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１０−３３ 105 Aフロア",
-   "maps": "https://maps.google.com/?cid=8853034902510958511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "美尻に特化 スガタ パーソナルジム／sugata personal gym",
    "rating": 5,
    "reviews": 21,
    "address": "日本、〒810-0022 福岡県福岡市中央区薬院２丁目１−５ OAK VILLA BUREAU 薬院大通 602",
    "maps": "https://maps.google.com/?cid=10013918710678228211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専門パーソナルジム CHROME GYM(クロムジム)清川店",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒810-0005 福岡県福岡市中央区清川２丁目１３−３４ Premiage 天神南 501",
+   "maps": "https://maps.google.com/?cid=3205092563195383715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -388,19 +388,19 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "女性専門パーソナルジム CHROME GYM(クロムジム)清川店",
-   "rating": 5,
-   "reviews": 17,
-   "address": "日本、〒810-0005 福岡県福岡市中央区清川２丁目１３−３４ Premiage 天神南 501",
-   "maps": "https://maps.google.com/?cid=3205092563195383715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ファインジム",
    "rating": 4.9,
    "reviews": 16,
    "address": "日本、〒810-0022 福岡県福岡市中央区薬院１丁目６−９ 202号",
    "maps": "https://maps.google.com/?cid=12735051626971779229&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE PERSONAL GYM 薬院・天神店",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒810-0022 福岡県福岡市中央区薬院１丁目１５−１３ アントゥール薬院 2F【203号室】",
+   "maps": "https://maps.google.com/?cid=16045034983517080757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -422,9 +422,17 @@
   {
    "name": "パーソナルジムIDL 天神店",
    "rating": 5,
-   "reviews": 10,
+   "reviews": 12,
    "address": "日本、〒810-0001 福岡県福岡市中央区天神３丁目２−１８ エキスプレスビル 3階左 奥",
    "maps": "https://maps.google.com/?cid=1552524377678645408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HIGH LIFE パーソナルジム＆美容サロン 福岡天神店",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒812-0028 福岡県福岡市博多区須崎町６−２１ ガーネット博多 2F",
+   "maps": "https://maps.google.com/?cid=3658284720439737974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -444,6 +452,14 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "パーソナルジムchange",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒812-0007 福岡県福岡市博多区東比恵２丁目１−１ 202室",
+   "maps": "https://maps.google.com/?cid=10183535010969924632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "女性専門パーソナルジム Mewfit −ミュウフィット−",
    "rating": 5,
    "reviews": 7,
@@ -457,22 +473,6 @@
    "reviews": 7,
    "address": "日本、〒810-0073 福岡県福岡市中央区舞鶴１丁目９−３ 802",
    "maps": "https://maps.google.com/?cid=1097572521273044337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "HIGH LIFE パーソナルジム＆美容サロン 福岡天神店",
-   "rating": 5,
-   "reviews": 4,
-   "address": "日本、〒812-0028 福岡県福岡市博多区須崎町６−２１ ガーネット博多 2F",
-   "maps": "https://maps.google.com/?cid=3658284720439737974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "パーソナルジムchange",
-   "rating": 5,
-   "reviews": 4,
-   "address": "日本、〒812-0007 福岡県福岡市博多区東比恵２丁目１−１ 202室",
-   "maps": "https://maps.google.com/?cid=10183535010969924632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {

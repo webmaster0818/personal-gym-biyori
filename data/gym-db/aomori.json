@@ -1,6 +1,6 @@
 {
  "city": "青森",
- "fetchedAt": "2026-08-24",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 青森",
  "gyms": [
   {
@@ -60,14 +60,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルトレーニングジム TOKIEL八戸城下店 【トキエル】",
-   "rating": 5,
-   "reviews": 45,
-   "address": "日本、〒031-0072 青森県八戸市城下１丁目３１−５ 城下ハイツ 1階 1-D号室",
-   "maps": "https://maps.google.com/?cid=10027228771458248942&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "FiT24 青森観光通り店",
    "rating": 3.6,
    "reviews": 44,
@@ -110,7 +102,7 @@
   {
    "name": "パーソナルジム 弘前BODY WORK",
    "rating": 5,
-   "reviews": 29,
+   "reviews": 30,
    "address": "日本、〒036-8162 青森県弘前市安原２丁目9−７",
    "maps": "https://maps.google.com/?cid=4183258939490980295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -284,14 +276,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "S☆GRIT パーソナルトレーニングスタジオ",
-   "rating": 4.7,
-   "reviews": 6,
-   "address": "日本、〒039-3158 青森県上北郡野辺地町観音林後３−３",
-   "maps": "https://maps.google.com/?cid=3421917504622931557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "パーソナルジムSTEM",
    "rating": 5,
    "reviews": 4,
@@ -321,14 +305,6 @@
    "reviews": 4,
    "address": "日本、〒036-8084 青森県弘前市高田１丁目5−３ ハニー・テラス 101",
    "maps": "https://maps.google.com/?cid=6108791476968024765&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "FitnessGym BESCO（フィットネスジムべスコ）",
-   "rating": 5,
-   "reviews": 3,
-   "address": "日本、〒037-0036 青森県五所川原市中央２丁目 20パレス K1階",
-   "maps": "https://maps.google.com/?cid=1105738126034031058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {

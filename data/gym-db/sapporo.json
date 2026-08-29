@@ -1,20 +1,12 @@
 {
  "city": "札幌",
- "fetchedAt": "2026-08-16",
+ "fetchedAt": "2026-08-29",
  "query": "パーソナルジム 札幌",
  "gyms": [
   {
-   "name": "FIT PLACE24 札幌山鼻店",
-   "rating": 4.8,
-   "reviews": 455,
-   "address": "日本、〒064-0809 北海道札幌市中央区南９条西９丁目３−５",
-   "maps": "https://maps.google.com/?cid=18020181808794667603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ANGIN",
    "rating": 5,
-   "reviews": 251,
+   "reviews": 254,
    "address": "日本、〒001-0045 北海道札幌市北区麻生町４丁目１２−１３ 1F",
    "maps": "https://maps.google.com/?cid=9971390643392957364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -30,7 +22,7 @@
   {
    "name": "ezobolic（GYM）",
    "rating": 4.9,
-   "reviews": 183,
+   "reviews": 184,
    "address": "日本、〒060-0061 北海道札幌市中央区南１条西５丁目１３番１ 太陽ビルアネックス ７F",
    "maps": "https://maps.google.com/?cid=13639838938746275126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -38,7 +30,7 @@
   {
    "name": "ASPI札幌店",
    "rating": 4.9,
-   "reviews": 182,
+   "reviews": 183,
    "address": "日本、〒060-0062 北海道札幌市中央区南２条西６丁目17番地5 TAIYO Bld 2・6 202号室",
    "maps": "https://maps.google.com/?cid=5879612644724816021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -46,7 +38,7 @@
   {
    "name": "初心者向けスポーツジム フィットメソッド 札幌店",
    "rating": 4.9,
-   "reviews": 166,
+   "reviews": 167,
    "address": "日本、〒064-0807 北海道札幌市中央区南７条西７丁目1−１ プルミエール 南7 条 1F 【札幌市のパーソナルジム】",
    "maps": "https://maps.google.com/?cid=3675697744588028299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -62,7 +54,7 @@
   {
    "name": "BEYOND札幌大通店",
    "rating": 4.9,
-   "reviews": 135,
+   "reviews": 136,
    "address": "日本、〒060-0062 北海道札幌市中央区南２条西３丁目１１−４ TialaDeux5F",
    "maps": "https://maps.google.com/?cid=5925992621288171412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -86,7 +78,7 @@
   {
    "name": "パーソナルジムMORE大通店",
    "rating": 5,
-   "reviews": 111,
+   "reviews": 112,
    "address": "日本、〒060-0041 北海道札幌市中央区大通東４丁目４ 44EAST4 SAPPORO BLD4F",
    "maps": "https://maps.google.com/?cid=8912943120744717084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -102,9 +94,33 @@
   {
    "name": "骨格調整 パーソナルジムNANA 札幌店",
    "rating": 4.9,
-   "reviews": 106,
+   "reviews": 107,
    "address": "日本、〒060-0062 北海道札幌市中央区南２条西１丁目5−6 第一 広和ビル 2F",
    "maps": "https://maps.google.com/?cid=8902419020431504908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRAIN",
+   "rating": 4.9,
+   "reviews": 104,
+   "address": "日本、〒060-0004 北海道札幌市中央区北４条西１８丁目８番地１ プレミアムガーデン北円山 ２階",
+   "maps": "https://maps.google.com/?cid=15299881270499398935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND札幌円山店",
+   "rating": 4.9,
+   "reviews": 103,
+   "address": "日本、〒064-0826 北海道札幌市中央区北６条西２６丁目２−２１ 北円山コーポ 1F",
+   "maps": "https://maps.google.com/?cid=10279369705987689191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ANDGYM札幌店",
+   "rating": 5,
+   "reviews": 103,
+   "address": "日本、〒062-0903 北海道札幌市豊平区豊平３条１０丁目１−２１ エンドレス豊平",
+   "maps": "https://maps.google.com/?cid=6815691064802445586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -116,19 +132,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルトレーニングジムANDGYM札幌店",
-   "rating": 5,
-   "reviews": 102,
-   "address": "日本、〒062-0903 北海道札幌市豊平区豊平３条１０丁目１−２１ エンドレス豊平",
-   "maps": "https://maps.google.com/?cid=6815691064802445586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "BEYOND札幌円山店",
+   "name": "88-Performance.",
    "rating": 4.9,
-   "reviews": 101,
-   "address": "日本、〒064-0826 北海道札幌市中央区北６条西２６丁目２−２１ 北円山コーポ 1F",
-   "maps": "https://maps.google.com/?cid=10279369705987689191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 94,
+   "address": "日本、〒063-0814 北海道札幌市西区琴似４条７丁目２−１１ サッソンビル 1階",
+   "maps": "https://maps.google.com/?cid=10420512189289921142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -148,7 +156,7 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "Relaxation Gym TRIGGER札幌駅前店",
+   "name": "パーソナルジムTRIGGER札幌駅前店",
    "rating": 5,
    "reviews": 85,
    "address": "日本、〒060-0807 北海道札幌市北区北７条西５丁目6番地1 ストークマンション 704号室",
@@ -172,19 +180,19 @@
    "status": "OPERATIONAL"
   },
   {
+   "name": "BEYOND札幌駅前店",
+   "rating": 5,
+   "reviews": 76,
+   "address": "日本、〒060-0004 北海道札幌市中央区北４条西２丁目１−３ ひまわりタワ ６F",
+   "maps": "https://maps.google.com/?cid=1910090116318577699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
    "name": "インプルーブ 札幌西区琴似店",
    "rating": 5,
    "reviews": 73,
    "address": "日本、〒063-0004 北海道札幌市西区山の手４条１丁目１−１ No.3 マックスビル 5F",
    "maps": "https://maps.google.com/?cid=11812514854511022132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "BEYOND札幌駅前店",
-   "rating": 5,
-   "reviews": 65,
-   "address": "日本、〒060-0004 北海道札幌市中央区北４条西２丁目１−３ ひまわりタワ ６F",
-   "maps": "https://maps.google.com/?cid=1910090116318577699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -196,7 +204,7 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "MORE平岸店",
+   "name": "パーソナルジムMORE平岸店",
    "rating": 5,
    "reviews": 60,
    "address": "日本、〒062-0933 北海道札幌市豊平区平岸３条７丁目１−２７ 平岸スクエアビル 4F（250号室",
@@ -214,7 +222,7 @@
   {
    "name": "CHASEFIT",
    "rating": 4.8,
-   "reviews": 48,
+   "reviews": 49,
    "address": "日本、〒064-0808 北海道札幌市中央区南８条西４丁目422番地41 902",
    "maps": "https://maps.google.com/?cid=7728403963192323907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -222,7 +230,7 @@
   {
    "name": "ASPI円山店",
    "rating": 5,
-   "reviews": 45,
+   "reviews": 48,
    "address": "日本、〒064-0803 北海道札幌市中央区南３条西２５丁目１−１ クレマティス円山 1F B号",
    "maps": "https://maps.google.com/?cid=11202298764434897245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
@@ -316,11 +324,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムG-Prime(ジープライム)",
+   "name": "G-Prime(ジープライム)",
    "rating": 5,
    "reviews": 31,
    "address": "日本、〒064-0808 北海道札幌市中央区南８条西３丁目６−１ シティマンション五十嵐 207号室",
    "maps": "https://maps.google.com/?cid=6891076587513687986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal training gym mee.",
+   "rating": 4.9,
+   "reviews": 31,
+   "address": "日本、〒004-0831 北海道札幌市中央区南３条西１２丁目３２５−１１ プレプラージュ 1階",
+   "maps": "https://maps.google.com/?cid=16460252385751520247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムMefit(メフィット)",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒060-0054 北海道札幌市中央区南４条東４丁目15−６ アルファスクエア南４条東",
+   "maps": "https://maps.google.com/?cid=9295282371642356830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -340,11 +364,11 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "パーソナルジムMefit(メフィット)",
-   "rating": 5,
-   "reviews": 28,
-   "address": "日本、〒060-0054 北海道札幌市中央区南４条東４丁目15−６ アルファスクエア南４条東",
-   "maps": "https://maps.google.com/?cid=9295282371642356830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "name": "B Conditioning",
+   "rating": 4.9,
+   "reviews": 26,
+   "address": "日本、〒060-0008 北海道札幌市中央区北８条西２０丁目１−６ W&BSouen B 棟 １階",
+   "maps": "https://maps.google.com/?cid=7507506273727384005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -356,35 +380,27 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "完全個室パーソナルジム/STYLE FiT. 札幌手稲店",
+   "name": "BEYOND豊平店",
    "rating": 5,
    "reviews": 25,
-   "address": "日本、〒006-0032 北海道札幌市手稲区稲穂２条８丁目１−３ グランヒルズ星置",
-   "maps": "https://maps.google.com/?cid=16054394799760977271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "B Conditioning",
-   "rating": 4.9,
-   "reviews": 24,
-   "address": "日本、〒060-0008 北海道札幌市中央区北８条西２０丁目１−６ W&BSouen B 棟 １階",
-   "maps": "https://maps.google.com/?cid=7507506273727384005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "address": "日本、〒062-0007 北海道札幌市豊平区美園７条２丁目３−１３ アルファ美園7条ビル 1階",
+   "maps": "https://maps.google.com/?cid=17896164140877791352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
    "name": "S-body Medical Fitness LAB",
    "rating": 4.9,
-   "reviews": 23,
+   "reviews": 22,
    "address": "日本、〒063-0811 北海道札幌市西区琴似１条３丁目３−１２ しなねん琴似ビル",
    "maps": "https://maps.google.com/?cid=5752234882587610402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
-   "name": "BEYOND豊平店",
+   "name": "パーソナルジム reRaise リレイズ 札幌店",
    "rating": 5,
-   "reviews": 23,
-   "address": "日本、〒062-0007 北海道札幌市豊平区美園７条２丁目３−１３ アルファ美園7条ビル 1階",
-   "maps": "https://maps.google.com/?cid=17896164140877791352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "reviews": 21,
+   "address": "日本、〒064-0915 北海道札幌市中央区南１５条西７丁目２−１１ ラフィナート山鼻 102",
+   "maps": "https://maps.google.com/?cid=16927641418516310034&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   },
   {
@@ -444,14 +460,6 @@
    "status": "OPERATIONAL"
   },
   {
-   "name": "24/7FIT／ワークアウト 札幌店",
-   "rating": 4.8,
-   "reviews": 4,
-   "address": "日本、〒060-0053 北海道札幌市中央区南３条東２丁目１ サンシャインビル １階",
-   "maps": "https://maps.google.com/?cid=17248578188679875029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
    "name": "ENISHI",
    "rating": 5,
    "reviews": 4,
@@ -473,14 +481,6 @@
    "reviews": 1,
    "address": "日本、〒060-0042 北海道札幌市中央区大通西４丁目6−５ 3F",
    "maps": "https://maps.google.com/?cid=10546545209180336426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-   "status": "OPERATIONAL"
-  },
-  {
-   "name": "【女性専用パーソナルジム】GYMS（ジムズ） 札幌店",
-   "rating": null,
-   "reviews": 0,
-   "address": "日本、〒060-0002 北海道札幌市中央区北２条西２丁目 第３７桂和ビル 2階",
-   "maps": "https://maps.google.com/?cid=8246601004975430940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "status": "OPERATIONAL"
   }
  ]
