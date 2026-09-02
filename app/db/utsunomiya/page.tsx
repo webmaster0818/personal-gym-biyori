@@ -2,6 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import db from "@/data/gym-db/utsunomiya.json";
 
+import gymIdx from "@/data/gym-index.json";
+
+const gymSlugMap = new Map(
+  (gymIdx.entries as { slug: string; name: string; address: string }[]).map((e) => [e.name + (e.address || ""), e.slug])
+);
+function gymSlugOf(g: { name: string; address?: string }): string | undefined {
+  return gymSlugMap.get(g.name + (g.address || ""));
+}
+
 export const metadata: Metadata = {
   title: "宇都宮のパーソナルジム全データベース【60店・実在確認済み】評点と口コミ数で一覧比較",
   description:
@@ -59,7 +68,9 @@ export default function UtsunomiyaDbPage() {
               <tr key={g.name + i} className="border-t border-gray-200 align-top">
                 <td className="px-3 py-2 text-gray-400">{i + 1}</td>
                 <td className="px-3 py-2 font-medium">
-                  {g.maps ? (
+                  {gymSlugOf(g) ? (
+                    <Link href={`/gym/${gymSlugOf(g)}/`} className="text-blue-700 hover:underline">{g.name}</Link>
+                  ) : g.maps ? (
                     <a href={g.maps} target="_blank" rel="nofollow noopener" className="text-blue-700 hover:underline">{g.name}</a>
                   ) : (
                     g.name
