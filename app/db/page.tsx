@@ -74,6 +74,9 @@ export default function DbHubPage() {
         全国32都市・約1,900店のパーソナルジムを、Googleマップの実測データ(評点・口コミ件数・2026年8月29日一斉取得)で都市別に一覧化しています。
         「まず自分の街の全体を見たい」方向けに、提携の有無に関係なく実在確認できた店舗を口コミ件数順で掲載するデータベースです。
       </p>
+      <p className="mt-3 text-sm">
+        <Link href="/db/stats/" className="underline text-blue-700 font-medium">→ 32都市1,878店の全国統計(評点4.8以上が85.7%という現実)を見る</Link>
+      </p>
 
       {REGIONS.map((region) => (
         <section key={region} className="mt-8">
