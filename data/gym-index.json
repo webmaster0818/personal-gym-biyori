@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03",
+ "generatedAt": "2026-09-05",
  "entries": [
   {
    "slug": "ATTivoGYM仙台アエル31-74ef",
@@ -55,6 +55,17 @@
    "area": "osaka",
    "areaName": "大阪",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "アッティーボジム山形店-10d0",
+   "name": "アッティーボジム山形店",
+   "rating": 4.6,
+   "reviews": 533,
+   "address": "日本、〒990-0810 山形県山形市馬見ケ崎４丁目１−１",
+   "maps": "https://maps.google.com/?cid=12557284456711015961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "PEAK-S-GYM-ピークジム-池袋店-5a12",
@@ -211,6 +222,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ライノジム-岐阜本店-80d2",
+   "name": "ライノジム 岐阜本店",
+   "rating": 4.8,
+   "reviews": 401,
+   "address": "日本、〒501-0112 岐阜県岐阜市鏡島精華２丁目２−１ 1階・2階",
+   "maps": "https://maps.google.com/?cid=7553932777404798214&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "FIT-PLACE24-広島吉島店-3f4e",
    "name": "FIT PLACE24 広島吉島店",
    "rating": 4.9,
@@ -308,6 +330,17 @@
    "area": "shinjuku",
    "areaName": "新宿",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "アッティーボジム水戸ステーション店-177d",
+   "name": "アッティーボジム水戸ステーション店",
+   "rating": 4.8,
+   "reviews": 355,
+   "address": "日本、〒310-0015 茨城県水戸市宮町１丁目７−３１ 水戸駅ビルエクセルみなみ 3F",
+   "maps": "https://maps.google.com/?cid=7985634403588222097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "GYMS-ジムズ-千葉駅前店-2a5e",
@@ -904,6 +937,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "マシンピラティスRintosull-水戸エクセルみなみ店-3076",
+   "name": "マシンピラティスRintosull 水戸エクセルみなみ店",
+   "rating": 4.9,
+   "reviews": 223,
+   "address": "日本、〒310-0015 茨城県水戸市宮町１丁目７−３１ 水戸エクセルみなみ 5F",
+   "maps": "https://maps.google.com/?cid=1170912462156905506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "BBB渋谷神宮前店-c290",
    "name": "BBB渋谷神宮前店",
    "rating": 4.9,
@@ -1080,6 +1124,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "STSトレーニングスタジオ-c67a",
+   "name": "STSトレーニングスタジオ",
+   "rating": 5,
+   "reviews": 202,
+   "address": "日本、〒310-0031 茨城県水戸市大工町２丁目６−２４ YUZUビル3F・4F",
+   "maps": "https://maps.google.com/?cid=14520658971462683056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "THE-PERSONAL-GYM-沖縄那覇店-a81b",
    "name": "THE PERSONAL GYM 沖縄那覇店",
    "rating": 5,
@@ -1089,6 +1144,17 @@
    "area": "naha",
    "areaName": "那覇",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ライノジム-柳津店-a395",
+   "name": "ライノジム 柳津店",
+   "rating": 4.8,
+   "reviews": 199,
+   "address": "日本、〒501-6102 岐阜県岐阜市柳津町東塚４丁目１",
+   "maps": "https://maps.google.com/?cid=3492127506736131925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "トライヴ仙台定禅寺通店-144d",
@@ -1102,6 +1168,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "リジュブフィットネス-岐阜店-cc53",
+   "name": "リジュブフィットネス 岐阜店",
+   "rating": 4.9,
+   "reviews": 196,
+   "address": "日本、〒500-8359 岐阜県岐阜市六条北３丁目２０−１０",
+   "maps": "https://maps.google.com/?cid=1806517162482299648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "CACHIE-岐阜本巣店-bf40",
+   "name": "CACHIE 岐阜本巣店",
+   "rating": 4.7,
+   "reviews": 196,
+   "address": "日本、〒501-0461 岐阜県本巣市上真桑２２５８−１３９",
+   "maps": "https://maps.google.com/?cid=9671227875786787359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "private-gym-SOURIRE-大阪福島店-23f3",
    "name": "private gym SOURIRE 大阪福島店",
    "rating": 5,
@@ -1111,6 +1199,17 @@
    "area": "osaka",
    "areaName": "大阪",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "BEYOND岐阜店-ced4",
+   "name": "BEYOND岐阜店",
+   "rating": 5,
+   "reviews": 192,
+   "address": "日本、〒500-8828 岐阜県岐阜市若宮町６丁目12−２ 加納ビル 2階",
+   "maps": "https://maps.google.com/?cid=9873291879617945632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "FIT-PLACE24-川崎店-9d33",
@@ -1144,6 +1243,17 @@
    "area": "fukuoka",
    "areaName": "福岡",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "女性専用24時間ジム-Amazones-アマゾネス-岐阜都通店-5ad9",
+   "name": "女性専用24時間ジム Amazones（アマゾネス）岐阜都通店",
+   "rating": 4.9,
+   "reviews": 190,
+   "address": "日本、〒500-8309 岐阜県岐阜市都通４丁目4−２",
+   "maps": "https://maps.google.com/?cid=4514735175763527956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "RITA-STYLE-熊本上通店-c54e",
@@ -1333,6 +1443,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ファディー-山形南-7d02",
+   "name": "ファディー 山形南",
+   "rating": 4.7,
+   "reviews": 176,
+   "address": "日本、〒990-2443 山形県山形市南三番町６−１５ 店内",
+   "maps": "https://maps.google.com/?cid=4275153859071753948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "エニタイムフィットネス-水戸赤塚店-5598",
+   "name": "エニタイムフィットネス 水戸赤塚店",
+   "rating": 4.6,
+   "reviews": 175,
+   "address": "日本、〒311-4152 茨城県水戸市河和田１丁目１",
+   "maps": "https://maps.google.com/?cid=16985919185055109959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ASPI名古屋栄店-4fdd",
    "name": "ASPI名古屋栄店",
    "rating": 4.9,
@@ -1397,6 +1529,17 @@
    "area": "takamatsu",
    "areaName": "高松",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "FIT-PLACE24-山形白山店-332b",
+   "name": "FIT PLACE24 山形白山店",
+   "rating": 4.9,
+   "reviews": 171,
+   "address": "日本、〒990-2446 山形県山形市白山１丁目９",
+   "maps": "https://maps.google.com/?cid=15398331476659064919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "BEYOND-福井店-a07c",
@@ -1474,6 +1617,17 @@
    "area": "kochi",
    "areaName": "高知",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "エニタイムフィットネス-水戸米沢店-edf2",
+   "name": "エニタイムフィットネス 水戸米沢店",
+   "rating": 4.2,
+   "reviews": 167,
+   "address": "日本、〒310-0847 茨城県水戸市米沢町３８１−１",
+   "maps": "https://maps.google.com/?cid=2431515527485131347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルトレーニングジム-ライジング-牧志駅前店-1f5e",
@@ -1762,6 +1916,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "マシンピラティスRintosull-ながの東急店-90fe",
+   "name": "マシンピラティスRintosull ながの東急店",
+   "rating": 4.9,
+   "reviews": 149,
+   "address": "日本、〒380-8539 長野県長野市南千歳１丁目1−１ ながの東急百貨店別館シェルシェ 6F",
+   "maps": "https://maps.google.com/?cid=12182555364091814893&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "PEAKGYM24-4b75",
    "name": "PEAKGYM24",
    "rating": 4.9,
@@ -1883,6 +2048,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "FiT24-長野昭和通り店-f3a0",
+   "name": "FiT24 長野昭和通り店",
+   "rating": 3.9,
+   "reviews": 142,
+   "address": "日本、〒380-0834 長野県長野市鶴賀問御所町１１７０−１７",
+   "maps": "https://maps.google.com/?cid=14999779049867779108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "LIFEMAKEパーソナルトレーニングジム岐阜本巣店-4512",
+   "name": "LIFEMAKEパーソナルトレーニングジム岐阜本巣店",
+   "rating": 5,
+   "reviews": 141,
+   "address": "日本、〒501-0104 岐阜県岐阜市寺田３丁目４６",
+   "maps": "https://maps.google.com/?cid=5106494744552085463&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "GATE-GYM-NAGASAKI-ゲートジム長崎-4b0a",
    "name": "GATE GYM NAGASAKI (ゲートジム長崎)",
    "rating": 5,
@@ -1949,6 +2136,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "FIT-PLACE24-岐阜宇佐店-9001",
+   "name": "FIT PLACE24 岐阜宇佐店",
+   "rating": 4.7,
+   "reviews": 138,
+   "address": "日本、〒500-8368 岐阜県岐阜市宇佐３丁目５−３",
+   "maps": "https://maps.google.com/?cid=5632048439368248940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "FITNESS-GYM-WEST-9a40",
    "name": "FITNESS GYM WEST",
    "rating": 4.9,
@@ -1991,6 +2189,17 @@
    "area": "nagoya",
    "areaName": "nagoya",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "フィットイージー-山形北店-e8cc",
+   "name": "フィットイージー 山形北店",
+   "rating": 4.6,
+   "reviews": 137,
+   "address": "日本、〒990-0810 山形県山形市馬見ケ崎３丁目２２−１５",
+   "maps": "https://maps.google.com/?cid=7749069458329961978&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "BEYOND札幌大通店-68c6",
@@ -2213,6 +2422,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "BEYOND-長野店-05b5",
+   "name": "BEYOND 長野店",
+   "rating": 4.9,
+   "reviews": 131,
+   "address": "日本、〒380-0907 長野県長野市大字鶴賀南千歳町南千歳町８６０−２４ 3F",
+   "maps": "https://maps.google.com/?cid=17348203033916635885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "BEYOND札幌ANNEX店-0907",
    "name": "BEYOND札幌ANNEX店",
    "rating": 4.8,
@@ -2233,6 +2453,17 @@
    "area": "shinjuku",
    "areaName": "新宿",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "スポーツクラブ-サウナスパ-ルネサンス-山形24-1be4",
+   "name": "スポーツクラブ＆サウナスパ ルネサンス 山形24",
+   "rating": 3.8,
+   "reviews": 131,
+   "address": "日本、〒990-0038 山形県山形市幸町１８−３３",
+   "maps": "https://maps.google.com/?cid=12082941829062444820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "RITA-STYLE-鹿児島天文館店-9e90",
@@ -2290,6 +2521,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルジム-CLUB-J-bd27",
+   "name": "パーソナルジム CLUB-J",
+   "rating": 4.9,
+   "reviews": 128,
+   "address": "日本、〒380-0916 長野県長野市稲葉 中千田2187−1",
+   "maps": "https://maps.google.com/?cid=1115264156662883546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "Ru-Ru-ルールー-長崎浜町スタジオ-c867",
    "name": "Ru!Ru! （ルールー） 長崎浜町スタジオ",
    "rating": 4.7,
@@ -2345,6 +2587,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルトレーニング-BEYOND-水戸店-水戸駅-902c",
+   "name": "パーソナルトレーニング BEYOND 水戸店(水戸駅)",
+   "rating": 4.9,
+   "reviews": 125,
+   "address": "日本、〒310-0804 茨城県水戸市白梅２丁目２−１２ パーソナルジム 水戸｜パーソナルトレーニング 水戸",
+   "maps": "https://maps.google.com/?cid=5500850494963935969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "女性専用パーソナルジム-UNDEUX-SUPERBODY-横浜-0a9d",
    "name": "女性専用パーソナルジム UNDEUX SUPERBODY 横浜",
    "rating": 4.8,
@@ -2354,6 +2607,17 @@
    "area": "yokohama",
    "areaName": "yokohama",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "エニタイムフィットネス-上水戸店-3d90",
+   "name": "エニタイムフィットネス 上水戸店",
+   "rating": 4.3,
+   "reviews": 124,
+   "address": "日本、〒310-0041 茨城県水戸市上水戸３丁目７−７番4号",
+   "maps": "https://maps.google.com/?cid=3530014006486992905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルトレーニングジムRESET福岡天神店-79e1",
@@ -2488,6 +2752,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "マシンピラティスRintosull-盛岡青山店-0d9e",
+   "name": "マシンピラティスRintosull 盛岡青山店",
+   "rating": 4.8,
+   "reviews": 119,
+   "address": "日本、〒020-0133 岩手県盛岡市青山４丁目４６−２５ PIVOT盛岡青山コート B2 1F",
+   "maps": "https://maps.google.com/?cid=9721120596787028615&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "プライベートジムGRAP-576a",
    "name": "プライベートジムGRAP",
    "rating": 4.9,
@@ -2563,6 +2838,17 @@
    "area": "osaka",
    "areaName": "大阪",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ピラティススタジオDEP-山形店-山形-マシンピラティス-a5ac",
+   "name": "ピラティススタジオDEP 山形店｜山形 マシンピラティス",
+   "rating": 5,
+   "reviews": 117,
+   "address": "日本、〒990-0886 山形県山形市嶋南３丁目８−２７",
+   "maps": "https://maps.google.com/?cid=3983208421164306341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "メルメイク名駅店-f6cd",
@@ -2774,6 +3060,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "リジュブフィットネス-北方店-2ee4",
+   "name": "リジュブフィットネス 北方店",
+   "rating": 4.9,
+   "reviews": 111,
+   "address": "日本、〒501-0438 岐阜県本巣郡北方町平成３丁目１５",
+   "maps": "https://maps.google.com/?cid=14636236848859461667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルジムRat川崎店-d231",
    "name": "パーソナルジムRat川崎店",
    "rating": 4.8,
@@ -2860,6 +3157,17 @@
    "area": "nagoya",
    "areaName": "nagoya",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "BEYOND-山形店-7f8c",
+   "name": "BEYOND 山形店",
+   "rating": 4.9,
+   "reviews": 109,
+   "address": "日本、〒990-0054 山形県山形市六日町６−４０ スペース YOU1F",
+   "maps": "https://maps.google.com/?cid=1494418002293480461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "ZEROSPO-LAB-ゼロスポラボ-b127",
@@ -3214,6 +3522,39 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "BEYOND-盛岡店-48e4",
+   "name": "BEYOND 盛岡店",
+   "rating": 4.9,
+   "reviews": 102,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園２丁目４−２１ 1978ビル 2F",
+   "maps": "https://maps.google.com/?cid=10444925320420565398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ピラティススタジオ『ルルト』長野店-9b33",
+   "name": "ピラティススタジオ『ルルト』長野店",
+   "rating": 4.9,
+   "reviews": 102,
+   "address": "日本、〒381-0034 長野県長野市高田五分一４２７−５ ヤナビル 2F西",
+   "maps": "https://maps.google.com/?cid=11163807836158763894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ファイティングラボ長野運動公園-f064",
+   "name": "ファイティングラボ長野運動公園",
+   "rating": 5,
+   "reviews": 102,
+   "address": "日本、〒381-0043 長野県長野市吉田５丁目２３−２６ 渡辺第一ビル 1F東号室",
+   "maps": "https://maps.google.com/?cid=14921020443370760572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "NEXUSパーソナルジム名古屋今池店-e232",
    "name": "NEXUSパーソナルジム名古屋今池店",
    "rating": 4.9,
@@ -3434,6 +3775,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "エニタイムフィットネス-盛岡菜園店-1472",
+   "name": "エニタイムフィットネス 盛岡菜園店",
+   "rating": 4.3,
+   "reviews": 99,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園１丁目８−１５ パルクアベニュー・カワトクCube-Ⅱ B2",
+   "maps": "https://maps.google.com/?cid=11642913218341970082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "THE-PERSONAL-GYM-岡山店-757b",
    "name": "THE PERSONAL GYM 岡山店",
    "rating": 5,
@@ -3522,6 +3874,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "フィットネス-My-health-24h-水戸千波店-d197",
+   "name": "フィットネス My health 24h 水戸千波店",
+   "rating": 4.9,
+   "reviews": 96,
+   "address": "日本、〒310-0851 茨城県水戸市千波町２０２３−７ 1F コナカ水戸千波店様",
+   "maps": "https://maps.google.com/?cid=6130557382356004463&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "スポーツクラブアクトス-盛岡-6218",
+   "name": "スポーツクラブアクトス 盛岡",
+   "rating": 3.9,
+   "reviews": 96,
+   "address": "日本、〒020-0864 岩手県盛岡市西仙北１丁目３８ 盛岡市西仙北1-38-10マイヤタウン グラン内",
+   "maps": "https://maps.google.com/?cid=1381394640377360716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "FIT-PLACE24-与野店-0942",
    "name": "FIT PLACE24 与野店",
    "rating": 4.8,
@@ -3608,6 +3982,17 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "La-pilates-長野店-cf1f",
+   "name": "La pilates 長野店",
+   "rating": 4.9,
+   "reviews": 94,
+   "address": "日本、〒380-0823 長野県長野市南千歳１丁目10−５ 第一荒井ビル 5F-E",
+   "maps": "https://maps.google.com/?cid=16241680014118377353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルジム-Bodymake-Lab-ichi-ナゴヤドーム前店-d299",
@@ -3742,6 +4127,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "エニタイムフィットネス-長野中央店-407f",
+   "name": "エニタイムフィットネス 長野中央店",
+   "rating": 4,
+   "reviews": 92,
+   "address": "日本、〒381-0031 長野県長野市西尾張部不門堂裏１００４−８",
+   "maps": "https://maps.google.com/?cid=10575537588012849206&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルトレーニングジムGOODSUNPLUS名古屋店-34c9",
    "name": "パーソナルトレーニングジムGOODSUNPLUS名古屋店",
    "rating": 5,
@@ -3819,6 +4215,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "アブレイズボディデザイン-edf2",
+   "name": "アブレイズボディデザイン",
+   "rating": 4.4,
+   "reviews": 90,
+   "address": "日本、〒310-0805 茨城県水戸市中央２丁目１０−２７",
+   "maps": "https://maps.google.com/?cid=3240773037273598338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルジム×ピラティスFOUNDレガロホテル岡山店-066d",
    "name": "パーソナルジム×ピラティスFOUNDレガロホテル岡山店",
    "rating": 4.9,
@@ -3872,6 +4279,17 @@
    "area": "ikebukuro",
    "areaName": "池袋",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "アトラス-フィットネス-ホットスプリング-f07f",
+   "name": "アトラス フィットネス&ホットスプリング",
+   "rating": 3.5,
+   "reviews": 89,
+   "address": "日本、〒310-0911 茨城県水戸市見和２丁目２４２−１",
+   "maps": "https://maps.google.com/?cid=9737826713209003823&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "BEYOND-ビヨンド-沖縄那覇店-b224",
@@ -4028,6 +4446,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ジョイフィット山形あかねヶ丘-5834",
+   "name": "ジョイフィット山形あかねヶ丘",
+   "rating": 3.7,
+   "reviews": 88,
+   "address": "日本、〒990-2481 山形県山形市あかねケ丘２丁目１５−２５",
+   "maps": "https://maps.google.com/?cid=10185675730033398977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "24-7ワークアウト-横浜店-56e4",
    "name": "24/7ワークアウト 横浜店",
    "rating": 4.3,
@@ -4048,6 +4477,17 @@
    "area": "kumamoto",
    "areaName": "熊本",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ファディー水戸千波-0337",
+   "name": "ファディー水戸千波",
+   "rating": 4.8,
+   "reviews": 87,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町１１０２−５",
+   "maps": "https://maps.google.com/?cid=1098230374674397116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルジムSHINE-42cf",
@@ -4081,6 +4521,28 @@
    "area": "wakayama",
    "areaName": "和歌山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "アッティーボジム天童店-4ef6",
+   "name": "アッティーボジム天童店",
+   "rating": 4.7,
+   "reviews": 87,
+   "address": "日本、〒994-0049 山形県天童市南町１丁目１−４０ らら・パーク天童内",
+   "maps": "https://maps.google.com/?cid=14225258996806277021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "BODY-MAKE-GYM-START-46f7",
+   "name": "BODY MAKE GYM START",
+   "rating": 5,
+   "reviews": 86,
+   "address": "日本、〒501-3963 岐阜県関市片倉町１−４９",
+   "maps": "https://maps.google.com/?cid=15258789445119188205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "24-7ワークアウト-和歌山店-ed34",
@@ -4149,6 +4611,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルジム-リアルボディ山形店-9b87",
+   "name": "パーソナルジム リアルボディ山形店",
+   "rating": 5,
+   "reviews": 85,
+   "address": "日本、〒990-2481 山形県山形市あかねケ丘２丁目１６−９",
+   "maps": "https://maps.google.com/?cid=7857862630908953845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルジム-With-Uウィズユー横浜桜木町店-2292",
    "name": "パーソナルジム With Uウィズユー横浜桜木町店",
    "rating": 5,
@@ -4158,6 +4631,17 @@
    "area": "yokohama",
    "areaName": "yokohama",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ライノジム-加納店-b6c5",
+   "name": "ライノジム 加納店",
+   "rating": 4.8,
+   "reviews": 84,
+   "address": "日本、〒500-8276 岐阜県岐阜市加納南陽町２丁目４２",
+   "maps": "https://maps.google.com/?cid=7115722577666385343&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "Apple-GYM-アップルジム-池袋店-124c",
@@ -4171,6 +4655,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "JOYFIT24-LITE-盛岡青山駅前-f740",
+   "name": "JOYFIT24 LITE 盛岡青山駅前",
+   "rating": 3.7,
+   "reviews": 84,
+   "address": "日本、〒020-0125 岩手県盛岡市上堂２丁目４−３",
+   "maps": "https://maps.google.com/?cid=2481991837445878875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "Re-Smile-Perfect-Body-58ba",
    "name": "Re: Smile Perfect Body",
    "rating": 5,
@@ -4182,6 +4677,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "メディカルフィットネス-スパ-ラ-ヴィータ-c337",
+   "name": "メディカルフィットネス＋スパ ラ・ヴィータ",
+   "rating": 3.3,
+   "reviews": 84,
+   "address": "日本、〒990-0834 山形県山形市清住町２丁目３−５１",
+   "maps": "https://maps.google.com/?cid=16036559725680245836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "LUSTER-千葉-パーソナル-×-24時間ジム-8dbb",
    "name": "LUSTER 千葉｜パーソナル × 24時間ジム",
    "rating": 4.9,
@@ -4191,6 +4697,17 @@
    "area": "chiba",
    "areaName": "千葉",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "イトマンスポーツスクエア-水戸店-37f5",
+   "name": "イトマンスポーツスクエア 水戸店",
+   "rating": 3.6,
+   "reviews": 83,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町９７８−３９ ロゼオ水戸 内",
+   "maps": "https://maps.google.com/?cid=13305650987634685399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "Dr-トレーニング梅田店-0057",
@@ -4248,6 +4765,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "スマートフィット100水戸千波店-41da",
+   "name": "スマートフィット100水戸千波店",
+   "rating": 4.6,
+   "reviews": 82,
+   "address": "日本、〒310-0851 茨城県水戸市千波町２４７３",
+   "maps": "https://maps.google.com/?cid=5231097819231674517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルジム-Be-more-大宮店-904a",
    "name": "パーソナルジム Be more 大宮店",
    "rating": 5,
@@ -4301,6 +4829,17 @@
    "area": "kyoto",
    "areaName": "京都",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジムTRYVE-トライヴ-山形店-63a2",
+   "name": "パーソナルジムTRYVE【トライヴ】山形店",
+   "rating": 4.9,
+   "reviews": 81,
+   "address": "日本、〒990-0043 山形県山形市本町２丁目４−１５ アーチスセンゾクヤ 2F-F",
+   "maps": "https://maps.google.com/?cid=13796313151669891653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "ライザップ-RIZAP-横浜東口店-dd3f",
@@ -4446,6 +4985,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルトレーニングスタジオTIA-岐阜市-低料金-お子様連れOK-週1-ダイエット-健康維持-1e44",
+   "name": "パーソナルトレーニングスタジオTIA【岐阜市・低料金・お子様連れOK・週１・ダイエット・健康維持】",
+   "rating": 5,
+   "reviews": 78,
+   "address": "日本、〒500-8408 岐阜県岐阜市住ノ江町１丁目２１ 伊藤ビル ２階",
+   "maps": "https://maps.google.com/?cid=13903797436493973880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "リボーンマイセルフ池袋店-08d5",
    "name": "リボーンマイセルフ池袋店",
    "rating": 4.8,
@@ -4477,6 +5027,17 @@
    "area": "kobe",
    "areaName": "神戸",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジムten-fit-テンフィット-1ebd",
+   "name": "パーソナルジムten-fit（テンフィット）",
+   "rating": 5,
+   "reviews": 78,
+   "address": "日本、〒395-0051 長野県飯田市高羽町３丁目5−１１ 高羽東ビル 1階",
+   "maps": "https://maps.google.com/?cid=10658856092113840817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "ハイライト仙台小田原本店-ba5e",
@@ -4532,6 +5093,17 @@
    "area": "kyoto",
    "areaName": "京都",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "LifeFit-水戸笠原店-fb84",
+   "name": "LifeFit 水戸笠原店",
+   "rating": 4.2,
+   "reviews": 77,
+   "address": "日本、〒310-0914 茨城県水戸市小吹町２５８２−２ ツインズ笠原 ヨークタウン",
+   "maps": "https://maps.google.com/?cid=5387430909226767651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルジム-Life-Shoes-4a84",
@@ -4688,6 +5260,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "メディカルパーソナルwelbits-整体とストレッチ-778e",
+   "name": "メディカルパーソナルwelbits【整体とストレッチ】",
+   "rating": 5,
+   "reviews": 74,
+   "address": "日本、〒028-3618 岩手県紫波郡矢巾町駅東１丁目３−２２",
+   "maps": "https://maps.google.com/?cid=4781367029891149233&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "那覇パーソナルジム-Rejuv-a133",
    "name": "那覇パーソナルジム Rejuv",
    "rating": 4.9,
@@ -4721,6 +5304,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "リジュブフィットネス-長良店-24e8",
+   "name": "リジュブフィットネス 長良店",
+   "rating": 4.8,
+   "reviews": 73,
+   "address": "日本、〒502-0813 岐阜県岐阜市福光東２丁目２−６ JOY8Ⅱ 2階",
+   "maps": "https://maps.google.com/?cid=17631666834748550830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "24-7ワークアウト-三宮店-976d",
    "name": "24/7ワークアウト 三宮店",
    "rating": 4.7,
@@ -4730,6 +5324,17 @@
    "area": "kobe",
    "areaName": "神戸",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ピラティススタジオ『ルルト』盛岡店-ad57",
+   "name": "ピラティススタジオ『ルルト』盛岡店",
+   "rating": 4.9,
+   "reviews": 73,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮４丁目１−３２ ラ・ボーヌ 101",
+   "maps": "https://maps.google.com/?cid=17981626142277595674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルジムElevenPlus-南森町店-4eee",
@@ -4875,6 +5480,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "エニタイムフィットネス-長野南店-86c7",
+   "name": "エニタイムフィットネス 長野南店",
+   "rating": 3.9,
+   "reviews": 72,
+   "address": "日本、〒381-2217 長野県長野市稲里町中央４丁目５−２２ ２Ｆ",
+   "maps": "https://maps.google.com/?cid=17443516935112415716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "BEYOND大分店-5679",
    "name": "BEYOND大分店",
    "rating": 5,
@@ -4928,6 +5544,28 @@
    "area": "kobe",
    "areaName": "神戸",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "フィットイージー-長野徳間店-bb1a",
+   "name": "フィットイージー 長野徳間店",
+   "rating": 4.7,
+   "reviews": 71,
+   "address": "日本、〒381-0041 長野県長野市徳間３１３９",
+   "maps": "https://maps.google.com/?cid=13933898509949837300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ZONE-FITNESS-24-ゾーンフィットネス24時間営業ジム-d39d",
+   "name": "ZONE FITNESS 24（ゾーンフィットネス24時間営業ジム）",
+   "rating": 4.8,
+   "reviews": 71,
+   "address": "日本、〒383-0025 長野県中野市三好町１丁目６−２９",
+   "maps": "https://maps.google.com/?cid=11473063137371025719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "SPICE-UP-FITNESS-名古屋店-スパイスアップフィットネス-5416",
@@ -5183,6 +5821,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "StyleFit盛岡-スタイルフィット盛岡-7c22",
+   "name": "StyleFit盛岡(スタイルフィット盛岡)",
+   "rating": 4.2,
+   "reviews": 68,
+   "address": "日本、〒020-0033 岩手県盛岡市盛岡駅前北通１１−５",
+   "maps": "https://maps.google.com/?cid=12143767317543452992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルトレーニングスタジオ-オーバーロード-def0",
+   "name": "パーソナルトレーニングスタジオ オーバーロード",
+   "rating": 4.9,
+   "reviews": 68,
+   "address": "日本、〒381-0038 長野県長野市東和田９３０ 1F",
+   "maps": "https://maps.google.com/?cid=14235520324976905931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ASPI新潟本町店-パーソナルトレーニングジム-2231",
    "name": "ASPI新潟本町店 パーソナルトレーニングジム",
    "rating": 5,
@@ -5392,6 +6052,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルトレーニングジムIMPACT-76b3",
+   "name": "パーソナルトレーニングジムIMPACT",
+   "rating": 4.9,
+   "reviews": 65,
+   "address": "日本、〒380-0826 長野県長野市南長野北石堂1175番地12 山崎ビル 2F",
+   "maps": "https://maps.google.com/?cid=17383564643670345061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "エクササイズコーチ那覇新都心店-faf2",
    "name": "エクササイズコーチ那覇新都心店",
    "rating": 4.8,
@@ -5458,6 +6129,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルジムTRESO-f07d",
+   "name": "パーソナルジムTRESO",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒500-8107 岐阜県岐阜市高岩町６番地 ２ 階",
+   "maps": "https://maps.google.com/?cid=7895125347344227242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "女性専門パーソナルトレーニングジムGROW-2d17",
    "name": "女性専門パーソナルトレーニングジムGROW",
    "rating": 5,
@@ -5500,6 +6182,28 @@
    "area": "toyama",
    "areaName": "富山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ダイエット専門パーソナルジムfamille鶴岡店-a1e0",
+   "name": "ダイエット専門パーソナルジムfamille鶴岡店",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒997-0024 山形県鶴岡市朝暘町２８−４",
+   "maps": "https://maps.google.com/?cid=4522413013389208720&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "Mlbfitness-2096",
+   "name": "Mlbfitness",
+   "rating": 5,
+   "reviews": 63,
+   "address": "日本、〒500-8451 岐阜県岐阜市加納上本町４丁目２５",
+   "maps": "https://maps.google.com/?cid=1728681620424707936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "Fitパーソナルジム川崎-f470",
@@ -5766,6 +6470,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ピラティススタジオ『ルルト』水戸店-0db6",
+   "name": "ピラティススタジオ『ルルト』水戸店",
+   "rating": 4.9,
+   "reviews": 61,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町１５５１−２ TKオフィス1 2A",
+   "maps": "https://maps.google.com/?cid=15416307819331670099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "5-Personal-ファイブパーソナル-4da4",
    "name": "5 Personal（ファイブパーソナル）",
    "rating": 4.9,
@@ -5885,6 +6600,17 @@
    "area": "shibuya",
    "areaName": "渋谷",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "conditioning-salon-Yuna-Pilates-4fab",
+   "name": "conditioning salon Yuna Pilates",
+   "rating": 5,
+   "reviews": 60,
+   "address": "日本、〒990-2441 山形県山形市南一番町１０−３２ 102",
+   "maps": "https://maps.google.com/?cid=5889675482377097480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "S-TEEM-PERSONAL-GYM-dc8e",
@@ -6151,6 +6877,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "E-V-Oパーソナルトレーニングジム-岐阜店-ef7a",
+   "name": "E.V.Oパーソナルトレーニングジム 岐阜店",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒500-8868 岐阜県岐阜市光明町３丁目3−２ 木之本アイリス 107 JR岐阜駅から徒歩15分/JR岐阜駅7番乗場バスで5駅鍵屋で下車徒歩2分",
+   "maps": "https://maps.google.com/?cid=808372271445024581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ダイエット専門パーソナルジム-ウェイトダウン-新開地駅店-dd15",
    "name": "ダイエット専門パーソナルジム ウェイトダウン 新開地駅店",
    "rating": 4.9,
@@ -6182,6 +6919,17 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ピラティススタジオ『ルルト』盛岡2号店-1c64",
+   "name": "ピラティススタジオ『ルルト』盛岡2号店",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮６丁目７−４８",
+   "maps": "https://maps.google.com/?cid=4769432303088752169&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "ONE-S-LIFE-南風原町パーソナルジム-efcd",
@@ -6250,6 +6998,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "駅前筋肉留学GO-岐阜岐南店-406e",
+   "name": "駅前筋肉留学GO 岐阜岐南店",
+   "rating": 4.9,
+   "reviews": 56,
+   "address": "日本、〒501-6001 岐阜県羽島郡岐南町上印食１丁目７８ SOGOビル 1階",
+   "maps": "https://maps.google.com/?cid=5039381004353332256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "BODY-CARE-HOME-広島-2431",
    "name": "BODY CARE HOME 広島",
    "rating": 4.9,
@@ -6314,6 +7073,17 @@
    "area": "kobe",
    "areaName": "神戸",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "24-7FIT-ワークアウト-水戸店-43ec",
+   "name": "24/7FIT／ワークアウト 水戸店",
+   "rating": 4.9,
+   "reviews": 56,
+   "address": "日本、〒310-0811 茨城県水戸市東桜川７ 7番7",
+   "maps": "https://maps.google.com/?cid=11472271536542969504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "からだジム24-a8ad",
@@ -6558,6 +7328,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "スポルターズ-SPORTERS-4bfc",
+   "name": "スポルターズ(SPORTERS)",
+   "rating": 5,
+   "reviews": 53,
+   "address": "日本、〒500-8828 岐阜県岐阜市若宮町５丁目１２ 若宮ビル 1階",
+   "maps": "https://maps.google.com/?cid=10485414422220238973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ライザップ-RIZAP-広島店-95f6",
    "name": "ライザップ(RIZAP)広島店",
    "rating": 4.6,
@@ -6646,6 +7427,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ピラティスK-長野店-4c60",
+   "name": "ピラティスK 長野店",
+   "rating": 4.8,
+   "reviews": 53,
+   "address": "日本、〒381-0034 長野県長野市高田１７５８ MEGAドン・キホーテ長野店 1階",
+   "maps": "https://maps.google.com/?cid=9670441424034615285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "セミパーソナルジム-ピラティススタジオ-FILLNESS-大分花津留店-0ff5",
    "name": "セミパーソナルジム&ピラティススタジオ FILLNESS 大分花津留店",
    "rating": 5,
@@ -6666,6 +7458,17 @@
    "area": "shinjuku",
    "areaName": "新宿",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジムWellnessWorkout-鶴岡-a6c1",
+   "name": "パーソナルジムWellnessWorkout 鶴岡",
+   "rating": 5,
+   "reviews": 53,
+   "address": "日本、〒997-0055 山形県鶴岡市西京田６８−３",
+   "maps": "https://maps.google.com/?cid=14588605830657429046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "桜木町パーソナルジムLUCA-ac91",
@@ -6701,6 +7504,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "岐阜-パーソナルジムD-O-M-S-ドムス-fcaf",
+   "name": "岐阜 パーソナルジムD.O.M.S（ドムス）",
+   "rating": 5,
+   "reviews": 52,
+   "address": "日本、〒500-8167 岐阜県岐阜市東金宝町１丁目16番１ メゾン・ド・クマダ 401号室503号室",
+   "maps": "https://maps.google.com/?cid=7695157895854130786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "Malibu-d651",
    "name": "Malibu",
    "rating": 4.9,
@@ -6732,6 +7546,17 @@
    "area": "kumamoto",
    "areaName": "熊本",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "水戸市-三の丸パーソナルジム-500a",
+   "name": "【水戸市】三の丸パーソナルジム",
+   "rating": 4.9,
+   "reviews": 52,
+   "address": "日本、〒310-0011 茨城県水戸市三の丸２丁目２−2₋28 5階",
+   "maps": "https://maps.google.com/?cid=2364072721744270082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "ダイエットパーソナルジムwt-梅田店-f5d9",
@@ -6789,6 +7614,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルトレーニングジムNOBLES羽島岐南店-ノブレス-5a03",
+   "name": "パーソナルトレーニングジムNOBLES羽島岐南店（ノブレス）",
+   "rating": 5,
+   "reviews": 51,
+   "address": "日本、〒501-6001 岐阜県羽島郡岐南町上印食８丁目１２３−１ フォーカス ポー カス ２F",
+   "maps": "https://maps.google.com/?cid=549154284833214684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "6GYM-d26b",
    "name": "6GYM",
    "rating": 5,
@@ -6798,6 +7634,17 @@
    "area": "kawasaki",
    "areaName": "kawasaki",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "BeDo-Personal-Gym-db86",
+   "name": "BeDo Personal Gym",
+   "rating": 4.8,
+   "reviews": 51,
+   "address": "日本、〒389-0601 長野県埴科郡坂城町坂城６５７７−１−２",
+   "maps": "https://maps.google.com/?cid=10286222755704667753&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "LIFE-PERSONAL-GYM-名古屋丸の内店-0826",
@@ -6910,6 +7757,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "30分のキックフィットネス-K-Fit-1468",
+   "name": "30分のキックフィットネス K-Fit",
+   "rating": 4.9,
+   "reviews": 50,
+   "address": "日本、〒310-0012 茨城県水戸市城東１丁目１２−３０ 一丁目事務所 1)102",
+   "maps": "https://maps.google.com/?cid=16980539429545309859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "スポーツネットワークSAM長野三輪-8acd",
+   "name": "スポーツネットワークＳＡＭ長野三輪",
+   "rating": 3.4,
+   "reviews": 50,
+   "address": "日本、〒380-0803 長野県長野市三輪２丁目２−９",
+   "maps": "https://maps.google.com/?cid=377057891912318675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "エクササイズコーチ名古屋駅店-5dd8",
    "name": "エクササイズコーチ名古屋駅店",
    "rating": 4.8,
@@ -6965,6 +7834,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ASAP-水戸店-6758",
+   "name": "ASAP 水戸店",
+   "rating": 4.7,
+   "reviews": 49,
+   "address": "日本、〒310-0846 茨城県水戸市東野町２５７−４",
+   "maps": "https://maps.google.com/?cid=9756460702770816909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "女性専用パーソナルジム-UNDEUX-SUPERBODY-栄-4f97",
    "name": "女性専用パーソナルジム UNDEUX SUPERBODY 栄",
    "rating": 4.9,
@@ -6996,6 +7876,17 @@
    "area": "sapporo",
    "areaName": "札幌",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ピラティススタジオDEP-山形あかねヶ丘店-Arrange-山形-マシンピラティス-7ad8",
+   "name": "ピラティススタジオDEP 山形あかねヶ丘店 Arrange｜山形 マシンピラティス",
+   "rating": 5,
+   "reviews": 49,
+   "address": "日本、〒990-2481 山形県山形市あかねケ丘１丁目１７−２３",
+   "maps": "https://maps.google.com/?cid=9626804470557480072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "JOYFIT24-LITE-あきた-こまち温泉-e50f",
@@ -7108,6 +7999,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ライザップ-岐阜店-e930",
+   "name": "ライザップ 岐阜店",
+   "rating": 4.6,
+   "reviews": 47,
+   "address": "日本、〒500-8833 岐阜県岐阜市神田町６丁目１２ Sixa神田 4F",
+   "maps": "https://maps.google.com/?cid=6200417381078883331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "マスジム-245a",
    "name": "マスジム！",
    "rating": 5,
@@ -7194,6 +8096,17 @@
    "area": "kyoto",
    "areaName": "京都",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "DAIKICHI-GYM-盛岡パーソナルジム-f8e5",
+   "name": "DAIKICHI GYM | 盛岡パーソナルジム",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒020-0861 岩手県盛岡市仙北２丁目８−１ 山善ビル 1-A号室",
+   "maps": "https://maps.google.com/?cid=8964295257109133401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "都度払いパーソナルジム-FIT-JAEMI-弁天町店-c113",
@@ -7350,6 +8263,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "スポーツクラブ-エスポート-b6fd",
+   "name": "スポーツクラブ エスポート",
+   "rating": 3.4,
+   "reviews": 46,
+   "address": "日本、〒990-0004 山形県山形市上山家町７５８−２",
+   "maps": "https://maps.google.com/?cid=17873504178323406454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "BeatPilates-秋田店-e449",
    "name": "BeatPilates 秋田店",
    "rating": 4.8,
@@ -7447,6 +8371,17 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "This-is-Gym-コレジム-盛岡仙北店-bf8d",
+   "name": "This is Gym コレジム 盛岡仙北店",
+   "rating": 4.8,
+   "reviews": 45,
+   "address": "日本、〒020-0863 岩手県盛岡市南仙北１丁目１８−６ CINビル 1階",
+   "maps": "https://maps.google.com/?cid=8875611556161788151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "レンタルジム-パーソナルジム-Fans-fitness-0369",
@@ -7669,6 +8604,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ファディー水戸赤塚-ddc8",
+   "name": "ファディー水戸赤塚",
+   "rating": 5,
+   "reviews": 43,
+   "address": "日本、〒311-4152 茨城県水戸市河和田１丁目１５１３−５０",
+   "maps": "https://maps.google.com/?cid=7448076280924771017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルジムBy-Fit-daf0",
+   "name": "パーソナルジムBy Fit",
+   "rating": 5,
+   "reviews": 43,
+   "address": "日本、〒020-0034 岩手県盛岡市盛岡駅前通１５−１７ PIVOT盛岡駅前2 1-A",
+   "maps": "https://maps.google.com/?cid=12923408630440025642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ライザップ-RIZAP-長崎店-a3f0",
    "name": "ライザップ(RIZAP)長崎店",
    "rating": 4.7,
@@ -7821,6 +8778,28 @@
    "area": "kumamoto",
    "areaName": "熊本",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジム-Slimit-f4b9",
+   "name": "パーソナルジム Slimit",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町１５２７−１８ 棟103",
+   "maps": "https://maps.google.com/?cid=1835816644753758208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルジムStudioK-姿勢-肩こり-動き改善-0d67",
+   "name": "パーソナルジムStudioK／姿勢・肩こり・動き改善",
+   "rating": 4.9,
+   "reviews": 42,
+   "address": "日本、〒311-4152 茨城県水戸市河和田１丁目１８４４−２ 5階",
+   "maps": "https://maps.google.com/?cid=9340740042328178179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "K-U-T-FITNESS-1c20",
@@ -8043,6 +9022,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ASAP-赤塚店-a7f0",
+   "name": "ASAP 赤塚店",
+   "rating": 5,
+   "reviews": 41,
+   "address": "日本、〒311-4153 茨城県水戸市河和田２丁目１−１６",
+   "maps": "https://maps.google.com/?cid=5142224111009807186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "リボーンマイセルフ梅田店-735e",
    "name": "リボーンマイセルフ梅田店",
    "rating": 5,
@@ -8175,6 +9165,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "街ナカ筋肉留学GO-岐阜店-b083",
+   "name": "街ナカ筋肉留学GO 岐阜店",
+   "rating": 5,
+   "reviews": 40,
+   "address": "日本、〒501-0115 岐阜県岐阜市鏡島南３丁目８−２４",
+   "maps": "https://maps.google.com/?cid=16519713838527610698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "24-7ワークアウト-池袋東口店-035d",
    "name": "24/7ワークアウト 池袋東口店",
    "rating": 4.6,
@@ -8261,6 +9262,17 @@
    "area": "fukui",
    "areaName": "福井",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジムREV-a2ad",
+   "name": "パーソナルジムREV",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒500-8367 岐阜県岐阜市宇佐南２丁目９−２ CLOUD2 15",
+   "maps": "https://maps.google.com/?cid=3775971436273309066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "bocs-personal-gym-ボックスパーソナルジム-7515",
@@ -8670,6 +9682,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "機能回復サポートジム-R-アールプラス-9b6f",
+   "name": "機能回復サポートジム R+（アールプラス ）",
+   "rating": 4.9,
+   "reviews": 38,
+   "address": "日本、〒990-0831 山形県山形市西田２丁目２４−５０",
+   "maps": "https://maps.google.com/?cid=2011239152211829694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "LIFEMAKEパーソナルトレーニングジム岐阜駅前店-e6d9",
+   "name": "LIFEMAKEパーソナルトレーニングジム岐阜駅前店",
+   "rating": 4.8,
+   "reviews": 37,
+   "address": "日本、〒500-8858 岐阜県岐阜市福住町１丁目１５ ウインズメゾン 201号室",
+   "maps": "https://maps.google.com/?cid=16727019043414632737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "valor-パーソナルジム-5242",
    "name": "valor パーソナルジム",
    "rating": 5,
@@ -8679,6 +9713,17 @@
    "area": "kyoto",
    "areaName": "京都",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "FiT24-長野若槻店-99c9",
+   "name": "FiT24 長野若槻店",
+   "rating": 3.4,
+   "reviews": 37,
+   "address": "日本、〒381-0042 長野県長野市稲田２丁目１１−１２",
+   "maps": "https://maps.google.com/?cid=7413631503388322880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "MAINICHI-GYM-極-大阪-新町店-aebd",
@@ -8767,6 +9812,17 @@
    "area": "chiba",
    "areaName": "千葉",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジムTHE-ORIZIN-GYM-オリジンジム-7deb",
+   "name": "パーソナルジムTHE ORIZIN GYM オリジンジム",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒501-6011 岐阜県羽島郡岐南町八剣北２丁目５５ シティハイツ.モリー 103",
+   "maps": "https://maps.google.com/?cid=4676894633748624277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "金沢駅-ムサシ-パーソナルジム-Bessere-Balance-ベッセラ-バランス-金沢のマシンピラティス-7e91",
@@ -8943,6 +9999,28 @@
    "area": "toyama",
    "areaName": "富山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "Revowth-06c1",
+   "name": "Revowth",
+   "rating": 5,
+   "reviews": 35,
+   "address": "日本、〒501-6014 岐阜県羽島郡岐南町薬師寺３丁目48−１",
+   "maps": "https://maps.google.com/?cid=3441162027862385910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "『-Smilent-』スミレント-岐阜加納店-5ac0",
+   "name": "『 Smilent 』スミレント 岐阜加納店",
+   "rating": 4.8,
+   "reviews": 35,
+   "address": "日本、〒500-8466 岐阜県岐阜市加納本石町３丁目7−番地 テイクオフビル ３F Bスタジオ",
+   "maps": "https://maps.google.com/?cid=4902225140449363959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "REHOPE-cb69",
@@ -9174,6 +10252,39 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "La-pilates盛岡店-整体×マシンピラティス-ラピラティス-ed30",
+   "name": "La pilates盛岡店《整体×マシンピラティス》ラピラティス",
+   "rating": 4.9,
+   "reviews": 34,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園２丁目７−３３ トーカンジェネラス菜園・公園通り 101",
+   "maps": "https://maps.google.com/?cid=18037136349474862650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "kick-fitness-Sweet-gym-d547",
+   "name": "kick & fitness Sweet gym",
+   "rating": 4.8,
+   "reviews": 34,
+   "address": "日本、〒380-0823 長野県長野市南千歳２丁目１２−３ 三橋ビル 3階",
+   "maps": "https://maps.google.com/?cid=15136735636303469289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "フィットネスジム-FIT365-長野若里-a040",
+   "name": "フィットネスジム FIT365 長野若里",
+   "rating": 3.5,
+   "reviews": 34,
+   "address": "日本、〒380-0928 長野県長野市若里７丁目６−５",
+   "maps": "https://maps.google.com/?cid=14884453715300893683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "DAIVAN-FITNESS-那覇小禄店-c3af",
@@ -9495,6 +10606,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "女性専用パーソナルトレーニングジムTOKIEL岐阜店-トキエル-ed6a",
+   "name": "女性専用パーソナルトレーニングジムTOKIEL岐阜店【トキエル】",
+   "rating": 4.9,
+   "reviews": 32,
+   "address": "日本、〒500-8369 岐阜県岐阜市敷島町５丁目３ 1階",
+   "maps": "https://maps.google.com/?cid=17447405963222614094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "HPER岐阜宇佐店-eab3",
+   "name": "HPER岐阜宇佐店",
+   "rating": 5,
+   "reviews": 32,
+   "address": "日本、〒500-8367 岐阜県岐阜市宇佐南１丁目４−２０ ステラビル 201",
+   "maps": "https://maps.google.com/?cid=11986715837172321678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "24-7FIT-ワークアウト-広島店-フィットネスジム-パーソナルトレーニング-f05f",
    "name": "24/7FIT／ワークアウト 広島店《フィットネスジム・パーソナルトレーニング》",
    "rating": 4.5,
@@ -9537,6 +10670,17 @@
    "area": "kochi",
    "areaName": "高知",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "フィットイージー-長野店-517a",
+   "name": "フィットイージー 長野店",
+   "rating": 4,
+   "reviews": 32,
+   "address": "日本、〒381-2205 長野県長野市青木島町大塚９１７",
+   "maps": "https://maps.google.com/?cid=11262859843624275345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "リボーンマイセルフ名古屋駅店-2839",
@@ -9627,6 +10771,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "IMPERFECT-fcb2",
+   "name": "IMPERFECT",
+   "rating": 5,
+   "reviews": 31,
+   "address": "日本、〒501-6017 岐阜県羽島郡岐南町徳田西４丁目５ １T-WEST E棟",
+   "maps": "https://maps.google.com/?cid=2026814402259169917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ASSEMBLE-パーソナルジム-4762",
    "name": "ASSEMBLE パーソナルジム",
    "rating": 5,
@@ -9713,6 +10868,17 @@
    "area": "kyoto",
    "areaName": "京都",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "女性専用ジム-in-balance-f854",
+   "name": "女性専用ジム in balance",
+   "rating": 4.8,
+   "reviews": 31,
+   "address": "日本、〒020-0831 岩手県盛岡市三本柳１２地割21−１ ココナッツビル 2F",
+   "maps": "https://maps.google.com/?cid=15250690662551102880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "AMOR-女性専用パーソナルジム-5dc5",
@@ -9812,6 +10978,17 @@
    "area": "utsunomiya",
    "areaName": "宇都宮",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "FiT24-山形嶋北店-f3e7",
+   "name": "FiT24 山形嶋北店",
+   "rating": 3.8,
+   "reviews": 31,
+   "address": "日本、〒990-0885 山形県山形市嶋北４丁目２−１５",
+   "maps": "https://maps.google.com/?cid=8218184425848488667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "OUTLINE-アウトライン-横浜西口新店-b47e",
@@ -10331,6 +11508,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルジムpersist-ee84",
+   "name": "パーソナルジムpersist",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒500-8879 岐阜県岐阜市徹明通４丁目６−６",
+   "maps": "https://maps.google.com/?cid=7282649314461463907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "KEEL-BODYWORK-052e",
+   "name": "KEEL BODYWORK",
+   "rating": 4.8,
+   "reviews": 28,
+   "address": "日本、〒500-8271 岐阜県岐阜市加納堀田町１丁目４",
+   "maps": "https://maps.google.com/?cid=4055634961960002562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "Personal-Training-Gym-AXIAS-アクシアス-dd11",
    "name": "Personal Training Gym AXIAS (アクシアス)",
    "rating": 5,
@@ -10397,6 +11596,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "スマートフィット100-水戸大塚店-3c0d",
+   "name": "スマートフィット100 水戸大塚店",
+   "rating": 4,
+   "reviews": 28,
+   "address": "日本、〒311-4143 茨城県水戸市大塚町１８５２−４",
+   "maps": "https://maps.google.com/?cid=17375959037122278313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "FiT24-長野南バイパス店-7cda",
+   "name": "FiT24 長野南バイパス店",
+   "rating": 3.6,
+   "reviews": 28,
+   "address": "日本、〒381-2217 長野県長野市稲里町中央４丁目９−１５",
+   "maps": "https://maps.google.com/?cid=5598896528697060746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "VISION-5cd0",
    "name": "VISION",
    "rating": 5,
@@ -10439,6 +11660,17 @@
    "area": "utsunomiya",
    "areaName": "宇都宮",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "FiT24-山形高堂店-1c10",
+   "name": "FiT24 山形高堂店",
+   "rating": 3.5,
+   "reviews": 28,
+   "address": "日本、〒990-2464 山形県山形市高堂２丁目３−１１",
+   "maps": "https://maps.google.com/?cid=5292147929919752375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "personal-training-gym-LINC-fb8d",
@@ -10507,6 +11739,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ライザップ-RIZAP-長野店-4156",
+   "name": "ライザップ(RIZAP)長野店",
+   "rating": 4.5,
+   "reviews": 27,
+   "address": "日本、〒380-0821 長野県長野市鶴賀上千歳町１１２０−１ アレグリアビル 3F",
+   "maps": "https://maps.google.com/?cid=8794958760750965481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "フィットエグゼ24-1d91",
+   "name": "フィットエグゼ24",
+   "rating": 3.3,
+   "reviews": 27,
+   "address": "日本、〒382-0916 長野県須坂市塩川６４５−１",
+   "maps": "https://maps.google.com/?cid=16594269905707223620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "And-Lab-Fitness-b3b2",
    "name": "And Lab Fitness",
    "rating": 5,
@@ -10573,6 +11827,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "Gym×pilates-mine-ジム-ダイエット-ピラティス-トレーニング-姿勢改善-女性専門-ボディメイク-コンディショニング-af6f",
+   "name": "Gym×pilates mine/ジム/ダイエット/ピラティス/トレーニング／姿勢改善／女性専門／ボディメイク／コンディショニング",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒501-0216 岐阜県瑞穂市生津天王町１丁目１０３ 2階",
+   "maps": "https://maps.google.com/?cid=12860221184441897653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルジム-かたぎり塾-池袋店-8675",
    "name": "パーソナルジム かたぎり塾 池袋店",
    "rating": 5,
@@ -10637,6 +11902,28 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "スポーツクラブアクトスWill水戸-c39b",
+   "name": "スポーツクラブアクトスWill水戸",
+   "rating": 4.4,
+   "reviews": 26,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町字岡崎１０３０−６ カインズ水戸敷地内",
+   "maps": "https://maps.google.com/?cid=1441910311796607163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルジム-リアルボディ盛岡店-cd07",
+   "name": "パーソナルジム リアルボディ盛岡店",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮４丁目１−３２ ラ・ボーヌ 103",
+   "maps": "https://maps.google.com/?cid=1022823731013427014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "女性専門パーソナルジム-BodymakeSalon-Souple-014f",
@@ -10749,6 +12036,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ジルトレーニングベース山形-1448",
+   "name": "ジルトレーニングベース山形",
+   "rating": 4.7,
+   "reviews": 26,
+   "address": "日本、〒990-0831 山形県山形市西田２丁目２４−５０",
+   "maps": "https://maps.google.com/?cid=9559402831256053602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "BEYOND秋田店-39db",
    "name": "BEYOND秋田店",
    "rating": 4.8,
@@ -10791,6 +12089,17 @@
    "area": "fukui",
    "areaName": "福井",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "SKYfitness-パーソナルトレーニング-入舟店-スカイフィットネス-パーソナルジム-d73c",
+   "name": "SKYfitness パーソナルトレーニング 入舟店/スカイフィットネス/パーソナルジム",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒500-8152 岐阜県岐阜市入舟町１丁目18ｰ4",
+   "maps": "https://maps.google.com/?cid=9132149134344518618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "REAL-WORKOUT-池袋店-リアルワークアウト-96c3",
@@ -10901,6 +12210,17 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "E9th-PRIVATE-GYM-中御所店-eea0",
+   "name": "E9th PRIVATE GYM 中御所店",
+   "rating": 4.8,
+   "reviews": 25,
+   "address": "日本、〒380-0935 長野県長野市中御所岡田町２６０−１ 信用開発ビル 1F",
+   "maps": "https://maps.google.com/?cid=12666364490737588465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "NEWBIRTH-fb50",
@@ -11024,6 +12344,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "LearningWellness-581c",
+   "name": "LearningWellness",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒990-2482 山形県山形市久保田１丁目７−５ 五十嵐ビル 2F 5号室",
+   "maps": "https://maps.google.com/?cid=17998589511346973431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ライザップ-RIZAP-青森店-75cf",
    "name": "ライザップ(RIZAP)青森店",
    "rating": 4.7,
@@ -11044,6 +12375,17 @@
    "area": "fukui",
    "areaName": "福井",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "ジムフィールド-岐阜柳津スタジオ-b390",
+   "name": "ジムフィールド 岐阜柳津スタジオ",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒501-6102 岐阜県岐阜市柳津町東塚３丁目７３",
+   "maps": "https://maps.google.com/?cid=12959603439112707216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "BSBパーソナルジム-上池袋-82db",
@@ -11110,6 +12452,28 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "サムズアップ-c017",
+   "name": "サムズアップ",
+   "rating": 4.8,
+   "reviews": 24,
+   "address": "日本、〒020-0874 岩手県盛岡市南大通２丁目８−２ サウスヒルズB棟 3F",
+   "maps": "https://maps.google.com/?cid=14122661376631485745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "1RM-Personal-Gym-d43a",
+   "name": "1RM Personal Gym",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒380-0823 長野県長野市南千歳１丁目８−１ ウイステリアビル 3F",
+   "maps": "https://maps.google.com/?cid=15135499962338995571&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "名古屋丸の内パーソナルトレーニング×ボディメンテナンスableize-HYROX-TRAINING-CLUB-c330",
@@ -11255,6 +12619,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "B-Reborn-8dd6",
+   "name": "B.Reborn",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒502-0881 岐阜県岐阜市正木北町７−7番地1 ロックス 2-6",
+   "maps": "https://maps.google.com/?cid=3351268731176143209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルトレーニングジム-REBOOT-4d26",
+   "name": "パーソナルトレーニングジム REBOOT",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒501-0222 岐阜県瑞穂市別府７２９−１",
+   "maps": "https://maps.google.com/?cid=4755552675662725018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "One-s-Gym-池袋店-ff03",
    "name": "One's Gym 池袋店",
    "rating": 5,
@@ -11385,6 +12771,28 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "MAXフィットネス24-5b4c",
+   "name": "MAXフィットネス24",
+   "rating": 4.8,
+   "reviews": 23,
+   "address": "日本、〒387-0015 長野県千曲市鋳物師屋４８８",
+   "maps": "https://maps.google.com/?cid=3014492277232944386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "TAURUS-Personal-Gym-0724",
+   "name": "TAURUS Personal Gym",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒386-0033 長野県上田市御所４８７−３",
+   "maps": "https://maps.google.com/?cid=17484044740210172334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルキックボクシングジム-ONE-HEART-b19b",
@@ -11530,6 +12938,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "BODY-MAKE-GYM-START-長良店-7337",
+   "name": "BODY MAKE GYM START 長良店",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒502-0813 岐阜県岐阜市福光東２丁目７−２５",
+   "maps": "https://maps.google.com/?cid=7345320890879354441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "完全紹介制-INFINITY-PERFORMANCE-GYM-並木通り店-8505",
    "name": "【完全紹介制】INFINITY PERFORMANCE GYM 並木通り店",
    "rating": 5,
@@ -11583,6 +13002,28 @@
    "area": "kumamoto",
    "areaName": "熊本",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "モリオカトレーニングクラブ-c0de",
+   "name": "モリオカトレーニングクラブ",
+   "rating": 4.2,
+   "reviews": 22,
+   "address": "日本、〒020-0863 岩手県盛岡市南仙北２丁目７−３３",
+   "maps": "https://maps.google.com/?cid=3433591870528631145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ライフィット長野-72e0",
+   "name": "ライフィット長野",
+   "rating": 4.8,
+   "reviews": 22,
+   "address": "日本、〒381-0022 長野県長野市大豆島４０６８",
+   "maps": "https://maps.google.com/?cid=6188791118113931027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "パーソナルジム-LUXURY-SPACE-Act-ラグジュアリースペースアクト-72c0",
@@ -11838,6 +13279,39 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "111-FIT-ワンフィット-0d19",
+   "name": "111 FIT(ワンフィット)",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒310-0851 茨城県水戸市千波町483-1 103",
+   "maps": "https://maps.google.com/?cid=15043049274043229525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ライザップ-RIZAP-水戸店-68f6",
+   "name": "ライザップ(RIZAP)水戸店",
+   "rating": 4.3,
+   "reviews": 21,
+   "address": "日本、〒310-0026 茨城県水戸市泉町１丁目２−１ アーバンスクウェアミトビル 7F",
+   "maps": "https://maps.google.com/?cid=8597024094039348578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "24GYM-FAB-矢巾店-a308",
+   "name": "24GYM FAB 矢巾店",
+   "rating": 4.2,
+   "reviews": 21,
+   "address": "日本、〒028-3615 岩手県紫波郡矢巾町南矢幅第７地割１４３",
+   "maps": "https://maps.google.com/?cid=5192472979961513784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "グランフィット名古屋錦店-f71d",
    "name": "グランフィット名古屋錦店",
    "rating": 5,
@@ -11992,6 +13466,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "エステティックサロン-Rise-86ce",
+   "name": "エステティックサロン Rise'",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒500-8384 岐阜県岐阜市薮田南１丁目７−16 第一 602号",
+   "maps": "https://maps.google.com/?cid=5509436872877094363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "private-GYM-LUKE-20c1",
    "name": "private GYM LUKE",
    "rating": 5,
@@ -12078,6 +13563,17 @@
    "area": "kumamoto",
    "areaName": "熊本",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "とれーにんぐじむジェネシス-81bb",
+   "name": "とれーにんぐじむジェネシス",
+   "rating": 4.7,
+   "reviews": 20,
+   "address": "日本、〒381-2215 長野県長野市稲里町中氷鉋１０８８−１",
+   "maps": "https://maps.google.com/?cid=1709679671369382563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "LIFE-STYLE-CLUB-2308",
@@ -12190,6 +13686,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "STUDIO-AIMER-マシンピラティス×筋トレ×ヨガスタジオ-a8dc",
+   "name": "STUDIO AIMER マシンピラティス×筋トレ×ヨガスタジオ",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒990-0834 山形県山形市清住町１丁目１−３５",
+   "maps": "https://maps.google.com/?cid=8914917513439563850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "PROQ-プローク-パーソナルジム-横浜-桜木町-e648",
    "name": "PROQ プローク パーソナルジム 横浜 桜木町",
    "rating": 5,
@@ -12245,6 +13752,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "加圧-ボディーメイクジム結び-6fdd",
+   "name": "加圧&ボディーメイクジム結び",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒500-8289 岐阜県岐阜市須賀３丁目２−１８ ハイライフウイング 3B",
+   "maps": "https://maps.google.com/?cid=16703476997517724459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "コンディショニングジムTRY-22fc",
    "name": "コンディショニングジムＴＲＹ",
    "rating": 4.8,
@@ -12287,6 +13805,50 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "24-7ピラティス-水戸店-個室パーソナルピラティススタジオ-1b61",
+   "name": "24/7ピラティス 水戸店《個室パーソナルピラティススタジオ》",
+   "rating": 4.3,
+   "reviews": 19,
+   "address": "日本、〒310-0811 茨城県水戸市東桜川７ 7番7",
+   "maps": "https://maps.google.com/?cid=8118232468508399852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "女性専門パーソナルピラティス-COCOLANCE-水戸店-b88e",
+   "name": "女性専門パーソナルピラティス COCOLANCE 水戸店",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒310-0841 茨城県水戸市酒門町３−１",
+   "maps": "https://maps.google.com/?cid=7304731720825036600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "Rep-パーソナル-フリートレーニング-6941",
+   "name": "Rep!!! パーソナル&フリートレーニング",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒020-0114 岩手県盛岡市茶畑２丁目２４−１０ doors2F",
+   "maps": "https://maps.google.com/?cid=13836906968361640485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルトレーニングジムEFFECT-エフェクト-be3d",
+   "name": "パーソナルトレーニングジムEFFECT（エフェクト）",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒386-0012 長野県上田市中央６丁目３−４１",
+   "maps": "https://maps.google.com/?cid=6530516699021433738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "PROLOGUE-プロローグ-パーソナルトレーニングジム-fdcc",
@@ -12443,6 +14005,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "パーソナルトレーニングジム-PROGRESS『健康-ダイエット-身体づくり』-a15a",
+   "name": "パーソナルトレーニングジム PROGRESS『健康・ダイエット・身体づくり』",
+   "rating": 4.6,
+   "reviews": 19,
+   "address": "日本、〒990-0042 山形県山形市七日町２丁目１−１７ ARCビル 3F",
+   "maps": "https://maps.google.com/?cid=5678557831746820987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルトレーニング茂八ジム-1dde",
+   "name": "パーソナルトレーニング茂八ジム",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒997-0034 山形県鶴岡市本町２丁目２−３ 茂八喫茶 2階",
+   "maps": "https://maps.google.com/?cid=6812222738865757826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルジムTRANSFORM-トランスフォーム-千葉市若葉区都賀店-d377",
    "name": "パーソナルジムTRANSFORM（トランスフォーム）千葉市若葉区都賀店",
    "rating": 4.8,
@@ -12463,6 +14047,17 @@
    "area": "fukui",
    "areaName": "福井",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジムTuri-岐阜〈筋トレ×ピラティス〉-f650",
+   "name": "パーソナルジムTuri. 岐阜〈筋トレ×ピラティス〉",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒500-8853 岐阜県岐阜市西問屋町６−１ 河隆ビル 2階",
+   "maps": "https://maps.google.com/?cid=10157694944678876841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "Body-Make-Lab-FIORE-6875",
@@ -12551,6 +14146,39 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "パーソナルジム-かたぎり塾-水戸店-7b72",
+   "name": "パーソナルジム かたぎり塾 水戸店",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町２００−３ 芙蓉第３ビル 4F",
+   "maps": "https://maps.google.com/?cid=5697313112831256663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ライザップ-RIZAP-盛岡店-edae",
+   "name": "ライザップ(RIZAP)盛岡店",
+   "rating": 3.8,
+   "reviews": 18,
+   "address": "日本、〒020-0021 岩手県盛岡市中央通２丁目１０−２５ デュオヒルズ盛岡中央通 1F",
+   "maps": "https://maps.google.com/?cid=8944262199763540850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ttTB-Machine-Pilates-Total-Body-Labo-e96d",
+   "name": "ttTB -Machine Pilates & Total Body Labo-",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒380-0803 長野県長野市三輪３丁目５−１０ サンディココ南館 １０１",
+   "maps": "https://maps.google.com/?cid=18234328538639666615&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "LifeFit-長崎大波止店-3f6a",
@@ -12652,6 +14280,39 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "Body-make-salon-Rin-a330",
+   "name": "Body make salon Rin",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒990-0031 山形県山形市十日町１丁目３−３７",
+   "maps": "https://maps.google.com/?cid=7752895267670771846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルジムFOX-e578",
+   "name": "パーソナルジムFOX",
+   "rating": 4.9,
+   "reviews": 18,
+   "address": "日本、〒990-2413 山形県山形市南原町２丁目９−１２ 南原プラザ 2F",
+   "maps": "https://maps.google.com/?cid=4719754475880574262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ReAct-Conditioning-Training-Gym-リアクト-パーソナル-コンディショニング-トレーニング-ジム-f65f",
+   "name": "ReAct Conditioning&Training Gym リアクト パーソナル コンディショニング トレーニング ジム",
+   "rating": 4.8,
+   "reviews": 18,
+   "address": "日本、〒994-0004 山形県天童市小関１丁目６−１３",
+   "maps": "https://maps.google.com/?cid=10502542579445285449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "RIOT-Personal-Training-Gym-59eb",
    "name": "RIOT Personal Training Gym",
    "rating": 5,
@@ -12672,6 +14333,17 @@
    "area": "chiba",
    "areaName": "千葉",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "アルファフィットネスジム-c337",
+   "name": "アルファフィットネスジム",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒500-8227 岐阜県岐阜市北一色８丁目４−５",
+   "maps": "https://maps.google.com/?cid=5113653783964746460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "Private-Gym-entas-広島女性専用パーソナルジム-エンタス-5f3a",
@@ -12738,6 +14410,50 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "FIT-INGRAVITY-0f8c",
+   "name": "FIT INGRAVITY",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒020-0021 岩手県盛岡市中央通２丁目８−２３ プランタンおがさわら 1F",
+   "maps": "https://maps.google.com/?cid=3053099244282803747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ジムナスタ長野-d930",
+   "name": "ジムナスタ長野",
+   "rating": 4.5,
+   "reviews": 17,
+   "address": "日本、〒380-0823 長野県長野市南千歳１丁目２８−３",
+   "maps": "https://maps.google.com/?cid=16177515439099595501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "フィットネススタジオ-MinoLink-みのリンク-c861",
+   "name": "フィットネススタジオ MinoLink（みのリンク）",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒381-0042 長野県長野市稲田３丁目３１ イコネシティ内",
+   "maps": "https://maps.google.com/?cid=8056167004584655110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "メンズ-カーブス長野青木島-b84c",
+   "name": "メンズ・カーブス長野青木島",
+   "rating": 4.8,
+   "reviews": 17,
+   "address": "日本、〒381-2247 長野県長野市青木島４丁目4−５ ショッピングパーク 2F",
+   "maps": "https://maps.google.com/?cid=8502306056780567743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "personal-GYM-X-af7d",
@@ -12894,6 +14610,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ONIGIRI-GYM-b607",
+   "name": "ONIGIRI GYM",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒500-8828 岐阜県岐阜市若宮町６丁目2−２ 岐阜ビル 201",
+   "maps": "https://maps.google.com/?cid=13459727316833938494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "Reboot-西観音店-3350",
    "name": "Reboot 西観音店",
    "rating": 5,
@@ -13024,6 +14751,50 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "N-fitness-6eec",
+   "name": "N fitness",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町９２５番６ エクセルシオール S１０３号室",
+   "maps": "https://maps.google.com/?cid=7234219098311705956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "C-R-A-V-E-fitness-0f8c",
+   "name": "C.R.A.V.E fitness",
+   "rating": 4.6,
+   "reviews": 16,
+   "address": "日本、〒310-0015 茨城県水戸市宮町２丁目３−３ 石山ビル201号室",
+   "maps": "https://maps.google.com/?cid=15445220618638161131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "pilates-studio-SORA-盛岡-32d1",
+   "name": "pilates studio SORA 盛岡",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒020-0026 岩手県盛岡市開運橋通３−４４ リージェントプラザビル ３F",
+   "maps": "https://maps.google.com/?cid=8556071376313260395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "E9th-PRIVATE-GYM-青木島店-ef35",
+   "name": "E9th PRIVATE GYM 青木島店",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒381-2241 長野県長野市青木島町青木島乙４２３−２",
+   "maps": "https://maps.google.com/?cid=16955628131851095098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "現役プロレスラーが教えるパーソナルジム-PrimeX-Fitness-Studio-プライメックスフィットネススタジオ-4993",
@@ -13180,6 +14951,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "FORMA-パーソナルトレーニングジム-2dbb",
+   "name": "FORMA パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒994-0013 山形県天童市老野森１丁目１７−２３",
+   "maps": "https://maps.google.com/?cid=10857722064591420639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "パーソナルジム-WellnessWorkout-天童-177c",
+   "name": "パーソナルジム WellnessWorkout 天童",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒994-0049 山形県天童市南町２丁目１−３４ 202号室",
+   "maps": "https://maps.google.com/?cid=8264188469873841744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "BodyCollege-5dc8",
    "name": "BodyCollege",
    "rating": 4.9,
@@ -13211,6 +15004,28 @@
    "area": "fukuoka",
    "areaName": "福岡",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "CIA-BODY-シアボディー-0168",
+   "name": "CIA BODY(シアボディー)",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒500-8843 岐阜県岐阜市住田町１丁目１８ １Kalen Lusso 202",
+   "maps": "https://maps.google.com/?cid=3394010989604931199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ゆきどけ-b1fe",
+   "name": "ゆきどけ",
+   "rating": 4.7,
+   "reviews": 15,
+   "address": "日本、〒500-8139 岐阜県岐阜市庵町９ Ｔ’ｓ ＩＯＲＩ 202号室",
+   "maps": "https://maps.google.com/?cid=16405463414026390292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "b-style-パーソナルトレーニングジム広島本通-7ced",
@@ -13367,6 +15182,39 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "姿勢改善コンディショニングスタジオ-ライフコア-肩こり-腰痛-d831",
+   "name": "姿勢改善コンディショニングスタジオ ライフコア 肩こり 腰痛",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町８１７−５",
+   "maps": "https://maps.google.com/?cid=377796028739045292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "Conditioning-Field-BLUE8-aa03",
+   "name": "Conditioning Field BLUE8",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒020-0026 岩手県盛岡市開運橋通４−２８ B1F",
+   "maps": "https://maps.google.com/?cid=2981426244349976672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "CAPTAINMORIOKA-f9d0",
+   "name": "CAPTAINMORIOKA",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒020-0401 岩手県盛岡市手代森１６地割16−２３",
+   "maps": "https://maps.google.com/?cid=967914301092685641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "ATLASパーソナルジム-久屋大通-6f3c",
    "name": "ATLASパーソナルジム 久屋大通",
    "rating": 4.9,
@@ -13475,6 +15323,28 @@
    "area": "utsunomiya",
    "areaName": "宇都宮",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "Body-make-Studio-Culeure-ボディメイクスタジオ-クルール-35aa",
+   "name": "Body make Studio Culeure （ボディメイクスタジオ クルール）",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒990-0047 山形県山形市旅篭町１丁目２−２４ 村井ビル 1F",
+   "maps": "https://maps.google.com/?cid=1853470473094255811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ラピラティス山形天童店-8f2c",
+   "name": "ラピラティス山形天童店",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒994-0003 山形県天童市柏木町１丁目８−14 2 階A",
+   "maps": "https://maps.google.com/?cid=1961216343798434894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "ELEMENT-横浜店-70d8",
@@ -13609,6 +15479,39 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "TrainingStudio-ARCS-水戸店-パーソナルジム-ダイエットジム-22f1",
+   "name": "TrainingStudio ARCS 水戸店 パーソナルジム (ダイエットジム)",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒310-0804 茨城県水戸市白梅１丁目９−３２",
+   "maps": "https://maps.google.com/?cid=17244837852885684681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "Studio-Being-Mito-6082",
+   "name": "Studio Being Mito",
+   "rating": 5,
+   "reviews": 14,
+   "address": "第一ビル 2f, ３丁目-３-21 南町 水戸市 茨城県 310-0021 日本",
+   "maps": "https://maps.google.com/?cid=113597155953284878&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "GET-IN-SHAPE-bd31",
+   "name": "GET'IN SHAPE",
+   "rating": 4.6,
+   "reviews": 14,
+   "address": "日本、〒380-0803 長野県長野市三輪５丁目１６−２４ クラスター柳町 2F",
+   "maps": "https://maps.google.com/?cid=17450598591195503812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "Just-Body-名古屋丸の内-484b",
    "name": "Just Body 名古屋丸の内",
    "rating": 4.9,
@@ -13708,6 +15611,28 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ダイエット専門店-CoCoa-エステ-パーソナルトレーニング-4373",
+   "name": "ダイエット専門店 CoCoa エステ&パーソナルトレーニング",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒990-0813 山形県山形市桧町４丁目１２−５",
+   "maps": "https://maps.google.com/?cid=928866294009609372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "LIBRAVE-GYM-天童-c31c",
+   "name": "LIBRAVE GYM 天童",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒994-0048 山形県天童市交り江４丁目６−３４ ザ・ハーモニ A棟",
+   "maps": "https://maps.google.com/?cid=17769656149268958247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "パーソナルジムBodyMentoringStudio-横浜店-11f5",
    "name": "パーソナルジムBodyMentoringStudio 横浜店",
    "rating": 5,
@@ -13796,6 +15721,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "24-7ピラティス-岐阜駅前店-個室パーソナルピラティススタジオ-5f5f",
+   "name": "24/7ピラティス 岐阜駅前店《個室パーソナルピラティススタジオ》",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒500-8833 岐阜県岐阜市神田町９丁目２７ 大岐阜ビル 2F",
+   "maps": "https://maps.google.com/?cid=11399977651266703047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "女性専用パーソナルジムラムア-広島店-4595",
    "name": "女性専用パーソナルジムラムア 広島店",
    "rating": 5,
@@ -13882,6 +15818,28 @@
    "area": "kumamoto",
    "areaName": "熊本",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "水戸パーソナルクローバージム-0ef2",
+   "name": "水戸パーソナルクローバージム",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒310-0804 茨城県水戸市白梅２丁目９−１１ 401",
+   "maps": "https://maps.google.com/?cid=7286872314449230593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "長野パーソナルコンディショニングセンター-fcf1",
+   "name": "長野パーソナルコンディショニングセンター",
+   "rating": 4.9,
+   "reviews": 13,
+   "address": "日本、〒381-0043 長野県長野市吉田５丁目２６−２３",
+   "maps": "https://maps.google.com/?cid=2714624526679017097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "LifeFit-長崎浜町店-85b8",
@@ -14126,6 +16084,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "STANDARD-パーソナルトレーニング-716e",
+   "name": "STANDARD パーソナルトレーニング",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒990-0073 山形県山形市大野目３丁目３−４３",
+   "maps": "https://maps.google.com/?cid=1189020683865041844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "STUDIO-IVY-千葉店-パーソナルマシンピラティス-8c8c",
    "name": "STUDIO IVY 千葉店【パーソナルマシンピラティス】",
    "rating": 4.9,
@@ -14245,6 +16214,72 @@
    "area": "matsuyama",
    "areaName": "松山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "TRACE-f3a7",
+   "name": "TRACE",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町１７４５−６７ 101",
+   "maps": "https://maps.google.com/?cid=3192169473098236338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ピラティススタジオ-レクスト-けやき台店-f0fb",
+   "name": "ピラティススタジオ レクスト けやき台店",
+   "rating": 4.9,
+   "reviews": 12,
+   "address": "日本、〒310-0842 茨城県水戸市けやき台２丁目10−１ 空間工房 A号室",
+   "maps": "https://maps.google.com/?cid=14502282252173240130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "mito",
+   "areaName": "水戸",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "NAORI整体-盛岡本宮院-腰痛改善パーソナルジム-理学療法士-ba57",
+   "name": "NAORI整体 盛岡本宮院｜腰痛改善パーソナルジム（理学療法士）",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮３丁目２４−１",
+   "maps": "https://maps.google.com/?cid=7848371119549821184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "マシンピラティスMOHIピラティス盛岡-パーソナル-a6b0",
+   "name": "マシンピラティスMOHIピラティス盛岡 パーソナル",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒020-0021 岩手県盛岡市中央通３丁目１１−６",
+   "maps": "https://maps.google.com/?cid=9870192370565692915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ダイエット-コンディショニングジム-maika-i-3931",
+   "name": "ダイエット&コンディショニングジム maika'i",
+   "rating": 4.8,
+   "reviews": 12,
+   "address": "日本、〒380-0921 長野県長野市栗田６３３ 栗田ハイツ",
+   "maps": "https://maps.google.com/?cid=4280571428847024031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "ピラティススタジオ-K-Plus-Pilates-d387",
+   "name": "ピラティススタジオ K Plus Pilates",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒3812217 長野県長野市南千歳１丁目6−１ 梅豊ビル 北棟3階",
+   "maps": "https://maps.google.com/?cid=10550519546465705569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "Body-Consulting-Station-KIZUKIコナミスポーツクラブ長崎店-9f59",
@@ -14401,6 +16436,17 @@
    "fetchedAt": "2026-08-29"
   },
   {
+   "slug": "ライザップ-RIZAP-山形店-c79c",
+   "name": "ライザップ(RIZAP)山形店",
+   "rating": 4.7,
+   "reviews": 12,
+   "address": "日本、〒990-0043 山形県山形市本町１丁目４−２７ セントラル山形ビル",
+   "maps": "https://maps.google.com/?cid=275296010655138724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
    "slug": "トレーニングジムBASIC-db7a",
    "name": "トレーニングジムBASIC",
    "rating": 5,
@@ -14498,6 +16544,17 @@
    "area": "fukuoka",
    "areaName": "福岡",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "PERSONALGYM-TraJourney-パーソナルジム-トレジャーニー-3679",
+   "name": "PERSONALGYM TraJourney（パーソナルジム トレジャーニー）",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒501-0112 岐阜県岐阜市鏡島精華３丁目１７−17番地39 岡幸ビル 1階",
+   "maps": "https://maps.google.com/?cid=16392070693251326685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "gifu",
+   "areaName": "岐阜",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "PERSONAL-TRAINING-GYM-ANT-9e43",
@@ -14608,6 +16665,72 @@
    "area": "kumamoto",
    "areaName": "熊本",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "大通の加圧トレーニング-スタジオ-エス-サイトウ-5176",
+   "name": "大通の加圧トレーニング スタジオ エス サイトウ",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒020-0022 岩手県盛岡市大通２丁目６−８ セントラルガーデンスクエア5 階 501号",
+   "maps": "https://maps.google.com/?cid=2110407112607853555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "キャリッジスポーツ-92c9",
+   "name": "キャリッジスポーツ",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒020-0864 岩手県盛岡市西仙北１丁目６−２ キャリッジスポーツ",
+   "maps": "https://maps.google.com/?cid=16591210666820052241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "Bellus-Gym-fe40",
+   "name": "Bellus Gym",
+   "rating": 4.6,
+   "reviews": 11,
+   "address": "日本、〒020-0822 岩手県盛岡市茶畑２丁目１０−１",
+   "maps": "https://maps.google.com/?cid=17440337235206031762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "FiT24-盛岡バイパス店-5cb7",
+   "name": "FiT24 盛岡バイパス店",
+   "rating": 3.6,
+   "reviews": 11,
+   "address": "日本、〒020-0862 岩手県盛岡市東仙北２丁目１０−３０",
+   "maps": "https://maps.google.com/?cid=4944807919263913982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "morioka",
+   "areaName": "盛岡",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "Re-body-リボディ-女性専用ダイエットサロン-パーソナルジム-fa3a",
+   "name": "Re:body（リボディ） 女性専用ダイエットサロン＆パーソナルジム",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒380-0911 長野県長野市稲葉８１０−４",
+   "maps": "https://maps.google.com/?cid=9349732292262266916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "Conditioning-Lab-Tukipiste-ff90",
+   "name": "Conditioning Lab Tukipiste",
+   "rating": 4.9,
+   "reviews": 11,
+   "address": "日本、〒380-0803 長野県長野市三輪９丁目７−８",
+   "maps": "https://maps.google.com/?cid=12984326683271948382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "nagano",
+   "areaName": "長野",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "EXPAND-FitSpace-池下-04c8",
@@ -15081,6 +17204,28 @@
    "area": "wakayama",
    "areaName": "和歌山",
    "fetchedAt": "2026-08-29"
+  },
+  {
+   "slug": "Moshe-モーシェ-Conditioning-Fitness-Gym-dc6e",
+   "name": "Moshe（モーシェ） Conditioning&Fitness Gym",
+   "rating": 4.2,
+   "reviews": 10,
+   "address": "日本、〒990-2331 山形県山形市飯田西４丁目５−３３ ラ・セゾン・クレール 102",
+   "maps": "https://maps.google.com/?cid=2895017506043297199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
+  },
+  {
+   "slug": "やまがたトレーニングジム-理学療法士がいる24時間ジム-214e",
+   "name": "やまがたトレーニングジム 理学療法士がいる24時間ジム",
+   "rating": 4.5,
+   "reviews": 10,
+   "address": "日本、〒990-2445 山形県山形市南栄町３丁目１３−２ やまがたトレーニングジム",
+   "maps": "https://maps.google.com/?cid=9805554907874801127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "area": "yamagata",
+   "areaName": "山形",
+   "fetchedAt": "2026-09-05"
   },
   {
    "slug": "グループパーソナルジム-横浜店-THE-PERSON-GROUP-PERSONAL-ティップネス内-3729",

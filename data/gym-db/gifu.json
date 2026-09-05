@@ -1,0 +1,487 @@
+{
+ "city": "岐阜",
+ "fetchedAt": "2026-09-05",
+ "query": "パーソナルジム 岐阜",
+ "gyms": [
+  {
+   "name": "ライノジム 岐阜本店",
+   "rating": 4.8,
+   "reviews": 401,
+   "address": "日本、〒501-0112 岐阜県岐阜市鏡島精華２丁目２−１ 1階・2階",
+   "maps": "https://maps.google.com/?cid=7553932777404798214&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライノジム 柳津店",
+   "rating": 4.8,
+   "reviews": 199,
+   "address": "日本、〒501-6102 岐阜県岐阜市柳津町東塚４丁目１",
+   "maps": "https://maps.google.com/?cid=3492127506736131925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リジュブフィットネス 岐阜店",
+   "rating": 4.9,
+   "reviews": 196,
+   "address": "日本、〒500-8359 岐阜県岐阜市六条北３丁目２０−１０",
+   "maps": "https://maps.google.com/?cid=1806517162482299648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CACHIE 岐阜本巣店",
+   "rating": 4.7,
+   "reviews": 196,
+   "address": "日本、〒501-0461 岐阜県本巣市上真桑２２５８−１３９",
+   "maps": "https://maps.google.com/?cid=9671227875786787359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND岐阜店",
+   "rating": 5,
+   "reviews": 192,
+   "address": "日本、〒500-8828 岐阜県岐阜市若宮町６丁目12−２ 加納ビル 2階",
+   "maps": "https://maps.google.com/?cid=9873291879617945632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用24時間ジム Amazones（アマゾネス）岐阜都通店",
+   "rating": 4.9,
+   "reviews": 190,
+   "address": "日本、〒500-8309 岐阜県岐阜市都通４丁目4−２",
+   "maps": "https://maps.google.com/?cid=4514735175763527956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIFEMAKEパーソナルトレーニングジム岐阜本巣店",
+   "rating": 5,
+   "reviews": 141,
+   "address": "日本、〒501-0104 岐阜県岐阜市寺田３丁目４６",
+   "maps": "https://maps.google.com/?cid=5106494744552085463&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 岐阜宇佐店",
+   "rating": 4.7,
+   "reviews": 138,
+   "address": "日本、〒500-8368 岐阜県岐阜市宇佐３丁目５−３",
+   "maps": "https://maps.google.com/?cid=5632048439368248940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リジュブフィットネス 北方店",
+   "rating": 4.9,
+   "reviews": 111,
+   "address": "日本、〒501-0438 岐阜県本巣郡北方町平成３丁目１５",
+   "maps": "https://maps.google.com/?cid=14636236848859461667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY MAKE GYM START",
+   "rating": 5,
+   "reviews": 86,
+   "address": "日本、〒501-3963 岐阜県関市片倉町１−４９",
+   "maps": "https://maps.google.com/?cid=15258789445119188205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライノジム 加納店",
+   "rating": 4.8,
+   "reviews": 84,
+   "address": "日本、〒500-8276 岐阜県岐阜市加納南陽町２丁目４２",
+   "maps": "https://maps.google.com/?cid=7115722577666385343&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングスタジオTIA【岐阜市・低料金・お子様連れOK・週１・ダイエット・健康維持】",
+   "rating": 5,
+   "reviews": 78,
+   "address": "日本、〒500-8408 岐阜県岐阜市住ノ江町１丁目２１ 伊藤ビル ２階",
+   "maps": "https://maps.google.com/?cid=13903797436493973880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リジュブフィットネス 長良店",
+   "rating": 4.8,
+   "reviews": 73,
+   "address": "日本、〒502-0813 岐阜県岐阜市福光東２丁目２−６ JOY8Ⅱ 2階",
+   "maps": "https://maps.google.com/?cid=17631666834748550830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムTRESO",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒500-8107 岐阜県岐阜市高岩町６番地 ２ 階",
+   "maps": "https://maps.google.com/?cid=7895125347344227242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Mlbfitness",
+   "rating": 5,
+   "reviews": 63,
+   "address": "日本、〒500-8451 岐阜県岐阜市加納上本町４丁目２５",
+   "maps": "https://maps.google.com/?cid=1728681620424707936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "E.V.Oパーソナルトレーニングジム 岐阜店",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒500-8868 岐阜県岐阜市光明町３丁目3−２ 木之本アイリス 107 JR岐阜駅から徒歩15分/JR岐阜駅7番乗場バスで5駅鍵屋で下車徒歩2分",
+   "maps": "https://maps.google.com/?cid=808372271445024581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "駅前筋肉留学GO 岐阜岐南店",
+   "rating": 4.9,
+   "reviews": 56,
+   "address": "日本、〒501-6001 岐阜県羽島郡岐南町上印食１丁目７８ SOGOビル 1階",
+   "maps": "https://maps.google.com/?cid=5039381004353332256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポルターズ(SPORTERS)",
+   "rating": 5,
+   "reviews": 53,
+   "address": "日本、〒500-8828 岐阜県岐阜市若宮町５丁目１２ 若宮ビル 1階",
+   "maps": "https://maps.google.com/?cid=10485414422220238973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "岐阜 パーソナルジムD.O.M.S（ドムス）",
+   "rating": 5,
+   "reviews": 52,
+   "address": "日本、〒500-8167 岐阜県岐阜市東金宝町１丁目16番１ メゾン・ド・クマダ 401号室503号室",
+   "maps": "https://maps.google.com/?cid=7695157895854130786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムNOBLES羽島岐南店（ノブレス）",
+   "rating": 5,
+   "reviews": 51,
+   "address": "日本、〒501-6001 岐阜県羽島郡岐南町上印食８丁目１２３−１ フォーカス ポー カス ２F",
+   "maps": "https://maps.google.com/?cid=549154284833214684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ 岐阜店",
+   "rating": 4.6,
+   "reviews": 47,
+   "address": "日本、〒500-8833 岐阜県岐阜市神田町６丁目１２ Sixa神田 4F",
+   "maps": "https://maps.google.com/?cid=6200417381078883331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "街ナカ筋肉留学GO 岐阜店",
+   "rating": 5,
+   "reviews": 40,
+   "address": "日本、〒501-0115 岐阜県岐阜市鏡島南３丁目８−２４",
+   "maps": "https://maps.google.com/?cid=16519713838527610698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムREV",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒500-8367 岐阜県岐阜市宇佐南２丁目９−２ CLOUD2 15",
+   "maps": "https://maps.google.com/?cid=3775971436273309066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIFEMAKEパーソナルトレーニングジム岐阜駅前店",
+   "rating": 4.8,
+   "reviews": 37,
+   "address": "日本、〒500-8858 岐阜県岐阜市福住町１丁目１５ ウインズメゾン 201号室",
+   "maps": "https://maps.google.com/?cid=16727019043414632737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムTHE ORIZIN GYM オリジンジム",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒501-6011 岐阜県羽島郡岐南町八剣北２丁目５５ シティハイツ.モリー 103",
+   "maps": "https://maps.google.com/?cid=4676894633748624277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Revowth",
+   "rating": 5,
+   "reviews": 35,
+   "address": "日本、〒501-6014 岐阜県羽島郡岐南町薬師寺３丁目48−１",
+   "maps": "https://maps.google.com/?cid=3441162027862385910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "『 Smilent 』スミレント 岐阜加納店",
+   "rating": 4.8,
+   "reviews": 35,
+   "address": "日本、〒500-8466 岐阜県岐阜市加納本石町３丁目7−番地 テイクオフビル ３F Bスタジオ",
+   "maps": "https://maps.google.com/?cid=4902225140449363959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルトレーニングジムTOKIEL岐阜店【トキエル】",
+   "rating": 4.9,
+   "reviews": 32,
+   "address": "日本、〒500-8369 岐阜県岐阜市敷島町５丁目３ 1階",
+   "maps": "https://maps.google.com/?cid=17447405963222614094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HPER岐阜宇佐店",
+   "rating": 5,
+   "reviews": 32,
+   "address": "日本、〒500-8367 岐阜県岐阜市宇佐南１丁目４−２０ ステラビル 201",
+   "maps": "https://maps.google.com/?cid=11986715837172321678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "IMPERFECT",
+   "rating": 5,
+   "reviews": 31,
+   "address": "日本、〒501-6017 岐阜県羽島郡岐南町徳田西４丁目５ １T-WEST E棟",
+   "maps": "https://maps.google.com/?cid=2026814402259169917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムpersist",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒500-8879 岐阜県岐阜市徹明通４丁目６−６",
+   "maps": "https://maps.google.com/?cid=7282649314461463907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KEEL BODYWORK",
+   "rating": 4.8,
+   "reviews": 28,
+   "address": "日本、〒500-8271 岐阜県岐阜市加納堀田町１丁目４",
+   "maps": "https://maps.google.com/?cid=4055634961960002562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Gym×pilates mine/ジム/ダイエット/ピラティス/トレーニング／姿勢改善／女性専門／ボディメイク／コンディショニング",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒501-0216 岐阜県瑞穂市生津天王町１丁目１０３ 2階",
+   "maps": "https://maps.google.com/?cid=12860221184441897653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SKYfitness パーソナルトレーニング 入舟店/スカイフィットネス/パーソナルジム",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒500-8152 岐阜県岐阜市入舟町１丁目18ｰ4",
+   "maps": "https://maps.google.com/?cid=9132149134344518618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジムフィールド 岐阜柳津スタジオ",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒501-6102 岐阜県岐阜市柳津町東塚３丁目７３",
+   "maps": "https://maps.google.com/?cid=12959603439112707216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B.Reborn",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒502-0881 岐阜県岐阜市正木北町７−7番地1 ロックス 2-6",
+   "maps": "https://maps.google.com/?cid=3351268731176143209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム REBOOT",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒501-0222 岐阜県瑞穂市別府７２９−１",
+   "maps": "https://maps.google.com/?cid=4755552675662725018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY MAKE GYM START 長良店",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒502-0813 岐阜県岐阜市福光東２丁目７−２５",
+   "maps": "https://maps.google.com/?cid=7345320890879354441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エステティックサロン Rise'",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒500-8384 岐阜県岐阜市薮田南１丁目７−16 第一 602号",
+   "maps": "https://maps.google.com/?cid=5509436872877094363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧&ボディーメイクジム結び",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒500-8289 岐阜県岐阜市須賀３丁目２−１８ ハイライフウイング 3B",
+   "maps": "https://maps.google.com/?cid=16703476997517724459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムTuri. 岐阜〈筋トレ×ピラティス〉",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒500-8853 岐阜県岐阜市西問屋町６−１ 河隆ビル 2階",
+   "maps": "https://maps.google.com/?cid=10157694944678876841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アルファフィットネスジム",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒500-8227 岐阜県岐阜市北一色８丁目４−５",
+   "maps": "https://maps.google.com/?cid=5113653783964746460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ONIGIRI GYM",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒500-8828 岐阜県岐阜市若宮町６丁目2−２ 岐阜ビル 201",
+   "maps": "https://maps.google.com/?cid=13459727316833938494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CIA BODY(シアボディー)",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒500-8843 岐阜県岐阜市住田町１丁目１８ １Kalen Lusso 202",
+   "maps": "https://maps.google.com/?cid=3394010989604931199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ゆきどけ",
+   "rating": 4.7,
+   "reviews": 15,
+   "address": "日本、〒500-8139 岐阜県岐阜市庵町９ Ｔ’ｓ ＩＯＲＩ 202号室",
+   "maps": "https://maps.google.com/?cid=16405463414026390292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ピラティス 岐阜駅前店《個室パーソナルピラティススタジオ》",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒500-8833 岐阜県岐阜市神田町９丁目２７ 大岐阜ビル 2F",
+   "maps": "https://maps.google.com/?cid=11399977651266703047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONALGYM TraJourney（パーソナルジム トレジャーニー）",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒501-0112 岐阜県岐阜市鏡島精華３丁目１７−17番地39 岡幸ビル 1階",
+   "maps": "https://maps.google.com/?cid=16392070693251326685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Gym SELFitness(セルフィットネス)",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒500-8854 岐阜県岐阜市花園町１８−９ スペースＪ 3階",
+   "maps": "https://maps.google.com/?cid=6947058476110771610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIVITO岐阜店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒500-8137 岐阜県岐阜市東興町３９",
+   "maps": "https://maps.google.com/?cid=7839099958304141190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PARIS GYM",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒500-8842 岐阜県岐阜市金町８丁目２６ ＡＺＭＯＮＤ102",
+   "maps": "https://maps.google.com/?cid=10283996220456291286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 岐阜駅前店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒500-8833 岐阜県岐阜市神田町９丁目9−２７ 大岐阜ビル ２F",
+   "maps": "https://maps.google.com/?cid=2565944362610215173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プリンセスダイエット(岐阜)",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒500-8223 岐阜県岐阜市水海道２丁目１７−１３",
+   "maps": "https://maps.google.com/?cid=12097586321181924646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンフィデンス",
+   "rating": 4.2,
+   "reviews": 5,
+   "address": "日本、〒500-8833 岐阜県岐阜市神田町８丁目１５−５",
+   "maps": "https://maps.google.com/?cid=4700804236045685108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムＯＮＥ 岐阜",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒502-0813 岐阜県岐阜市福光東２丁目１３−２ ＷＯＲＫＳ ＨＡＩＲ 内 併設のプライベートジム",
+   "maps": "https://maps.google.com/?cid=11896990223980062121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "岐阜パーソナルジム TO B FIT",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒500-8384 岐阜県岐阜市薮田南１丁目７−１６ 第一ビル 602",
+   "maps": "https://maps.google.com/?cid=17144571781712757208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングRIZE",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒502-0817 岐阜県岐阜市長良福光2028番地4",
+   "maps": "https://maps.google.com/?cid=9852718032591018550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Harmony",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒500-8232 岐阜県岐阜市前一色２丁目１９−１２",
+   "maps": "https://maps.google.com/?cid=12636453809783799112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MAKE BODY 岐阜店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒500-8288 岐阜県岐阜市中鶉３丁目８７",
+   "maps": "https://maps.google.com/?cid=9474727473502161418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒500-8828 岐阜県岐阜市若宮町６丁目2−２ 岐阜ビル 201",
+   "maps": "https://maps.google.com/?cid=14072244250856103042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムReViNa(レビナ)岐阜駅前店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒500-8178 岐阜県岐阜市清住町２丁目１０ 片岡ビル 2F",
+   "maps": "https://maps.google.com/?cid=17708355643588551919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

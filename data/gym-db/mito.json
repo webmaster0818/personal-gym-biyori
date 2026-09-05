@@ -1,0 +1,423 @@
+{
+ "city": "水戸",
+ "fetchedAt": "2026-09-05",
+ "query": "パーソナルジム 水戸",
+ "gyms": [
+  {
+   "name": "アッティーボジム水戸ステーション店",
+   "rating": 4.8,
+   "reviews": 355,
+   "address": "日本、〒310-0015 茨城県水戸市宮町１丁目７−３１ 水戸駅ビルエクセルみなみ 3F",
+   "maps": "https://maps.google.com/?cid=7985634403588222097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マシンピラティスRintosull 水戸エクセルみなみ店",
+   "rating": 4.9,
+   "reviews": 223,
+   "address": "日本、〒310-0015 茨城県水戸市宮町１丁目７−３１ 水戸エクセルみなみ 5F",
+   "maps": "https://maps.google.com/?cid=1170912462156905506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STSトレーニングスタジオ",
+   "rating": 5,
+   "reviews": 202,
+   "address": "日本、〒310-0031 茨城県水戸市大工町２丁目６−２４ YUZUビル3F・4F",
+   "maps": "https://maps.google.com/?cid=14520658971462683056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 水戸赤塚店",
+   "rating": 4.6,
+   "reviews": 175,
+   "address": "日本、〒311-4152 茨城県水戸市河和田１丁目１",
+   "maps": "https://maps.google.com/?cid=16985919185055109959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 水戸米沢店",
+   "rating": 4.2,
+   "reviews": 167,
+   "address": "日本、〒310-0847 茨城県水戸市米沢町３８１−１",
+   "maps": "https://maps.google.com/?cid=2431515527485131347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング BEYOND 水戸店(水戸駅)",
+   "rating": 4.9,
+   "reviews": 125,
+   "address": "日本、〒310-0804 茨城県水戸市白梅２丁目２−１２ パーソナルジム 水戸｜パーソナルトレーニング 水戸",
+   "maps": "https://maps.google.com/?cid=5500850494963935969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 上水戸店",
+   "rating": 4.3,
+   "reviews": 124,
+   "address": "日本、〒310-0041 茨城県水戸市上水戸３丁目７−７番4号",
+   "maps": "https://maps.google.com/?cid=3530014006486992905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネス My health 24h 水戸千波店",
+   "rating": 4.9,
+   "reviews": 96,
+   "address": "日本、〒310-0851 茨城県水戸市千波町２０２３−７ 1F コナカ水戸千波店様",
+   "maps": "https://maps.google.com/?cid=6130557382356004463&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アブレイズボディデザイン",
+   "rating": 4.4,
+   "reviews": 90,
+   "address": "日本、〒310-0805 茨城県水戸市中央２丁目１０−２７",
+   "maps": "https://maps.google.com/?cid=3240773037273598338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アトラス フィットネス&ホットスプリング",
+   "rating": 3.5,
+   "reviews": 89,
+   "address": "日本、〒310-0911 茨城県水戸市見和２丁目２４２−１",
+   "maps": "https://maps.google.com/?cid=9737826713209003823&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファディー水戸千波",
+   "rating": 4.8,
+   "reviews": 87,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町１１０２−５",
+   "maps": "https://maps.google.com/?cid=1098230374674397116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "イトマンスポーツスクエア 水戸店",
+   "rating": 3.6,
+   "reviews": 83,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町９７８−３９ ロゼオ水戸 内",
+   "maps": "https://maps.google.com/?cid=13305650987634685399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スマートフィット100水戸千波店",
+   "rating": 4.6,
+   "reviews": 82,
+   "address": "日本、〒310-0851 茨城県水戸市千波町２４７３",
+   "maps": "https://maps.google.com/?cid=5231097819231674517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LifeFit 水戸笠原店",
+   "rating": 4.2,
+   "reviews": 77,
+   "address": "日本、〒310-0914 茨城県水戸市小吹町２５８２−２ ツインズ笠原 ヨークタウン",
+   "maps": "https://maps.google.com/?cid=5387430909226767651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』水戸店",
+   "rating": 4.9,
+   "reviews": 61,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町１５５１−２ TKオフィス1 2A",
+   "maps": "https://maps.google.com/?cid=15416307819331670099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7FIT／ワークアウト 水戸店",
+   "rating": 4.9,
+   "reviews": 56,
+   "address": "日本、〒310-0811 茨城県水戸市東桜川７ 7番7",
+   "maps": "https://maps.google.com/?cid=11472271536542969504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【水戸市】三の丸パーソナルジム",
+   "rating": 4.9,
+   "reviews": 52,
+   "address": "日本、〒310-0011 茨城県水戸市三の丸２丁目２−2₋28 5階",
+   "maps": "https://maps.google.com/?cid=2364072721744270082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "30分のキックフィットネス K-Fit",
+   "rating": 4.9,
+   "reviews": 50,
+   "address": "日本、〒310-0012 茨城県水戸市城東１丁目１２−３０ 一丁目事務所 1)102",
+   "maps": "https://maps.google.com/?cid=16980539429545309859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ASAP 水戸店",
+   "rating": 4.7,
+   "reviews": 49,
+   "address": "日本、〒310-0846 茨城県水戸市東野町２５７−４",
+   "maps": "https://maps.google.com/?cid=9756460702770816909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファディー水戸赤塚",
+   "rating": 5,
+   "reviews": 43,
+   "address": "日本、〒311-4152 茨城県水戸市河和田１丁目１５１３−５０",
+   "maps": "https://maps.google.com/?cid=7448076280924771017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Slimit",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町１５２７−１８ 棟103",
+   "maps": "https://maps.google.com/?cid=1835816644753758208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムStudioK／姿勢・肩こり・動き改善",
+   "rating": 4.9,
+   "reviews": 42,
+   "address": "日本、〒311-4152 茨城県水戸市河和田１丁目１８４４−２ 5階",
+   "maps": "https://maps.google.com/?cid=9340740042328178179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ASAP 赤塚店",
+   "rating": 5,
+   "reviews": 41,
+   "address": "日本、〒311-4153 茨城県水戸市河和田２丁目１−１６",
+   "maps": "https://maps.google.com/?cid=5142224111009807186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スマートフィット100 水戸大塚店",
+   "rating": 4,
+   "reviews": 28,
+   "address": "日本、〒311-4143 茨城県水戸市大塚町１８５２−４",
+   "maps": "https://maps.google.com/?cid=17375959037122278313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブアクトスWill水戸",
+   "rating": 4.4,
+   "reviews": 26,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町字岡崎１０３０−６ カインズ水戸敷地内",
+   "maps": "https://maps.google.com/?cid=1441910311796607163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "111 FIT(ワンフィット)",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒310-0851 茨城県水戸市千波町483-1 103",
+   "maps": "https://maps.google.com/?cid=15043049274043229525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)水戸店",
+   "rating": 4.3,
+   "reviews": 21,
+   "address": "日本、〒310-0026 茨城県水戸市泉町１丁目２−１ アーバンスクウェアミトビル 7F",
+   "maps": "https://maps.google.com/?cid=8597024094039348578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ピラティス 水戸店《個室パーソナルピラティススタジオ》",
+   "rating": 4.3,
+   "reviews": 19,
+   "address": "日本、〒310-0811 茨城県水戸市東桜川７ 7番7",
+   "maps": "https://maps.google.com/?cid=8118232468508399852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専門パーソナルピラティス COCOLANCE 水戸店",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒310-0841 茨城県水戸市酒門町３−１",
+   "maps": "https://maps.google.com/?cid=7304731720825036600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 水戸店",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町２００−３ 芙蓉第３ビル 4F",
+   "maps": "https://maps.google.com/?cid=5697313112831256663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "N fitness",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町９２５番６ エクセルシオール S１０３号室",
+   "maps": "https://maps.google.com/?cid=7234219098311705956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "C.R.A.V.E fitness",
+   "rating": 4.6,
+   "reviews": 16,
+   "address": "日本、〒310-0015 茨城県水戸市宮町２丁目３−３ 石山ビル201号室",
+   "maps": "https://maps.google.com/?cid=15445220618638161131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "姿勢改善コンディショニングスタジオ ライフコア 肩こり 腰痛",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町８１７−５",
+   "maps": "https://maps.google.com/?cid=377796028739045292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TrainingStudio ARCS 水戸店 パーソナルジム (ダイエットジム)",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒310-0804 茨城県水戸市白梅１丁目９−３２",
+   "maps": "https://maps.google.com/?cid=17244837852885684681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Studio Being Mito",
+   "rating": 5,
+   "reviews": 14,
+   "address": "第一ビル 2f, ３丁目-３-21 南町 水戸市 茨城県 310-0021 日本",
+   "maps": "https://maps.google.com/?cid=113597155953284878&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "水戸パーソナルクローバージム",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒310-0804 茨城県水戸市白梅２丁目９−１１ 401",
+   "maps": "https://maps.google.com/?cid=7286872314449230593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRACE",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町１７４５−６７ 101",
+   "maps": "https://maps.google.com/?cid=3192169473098236338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ レクスト けやき台店",
+   "rating": 4.9,
+   "reviews": 12,
+   "address": "日本、〒310-0842 茨城県水戸市けやき台２丁目10−１ 空間工房 A号室",
+   "maps": "https://maps.google.com/?cid=14502282252173240130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングジムSALUS(サルス)",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町１１６０−１７ グレイスヒルズマンション",
+   "maps": "https://maps.google.com/?cid=17522702042020185066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディカルフィットネスマグノリア",
+   "rating": 4.8,
+   "reviews": 8,
+   "address": "日本、〒310-0851 茨城県水戸市千波町１２６４−５",
+   "maps": "https://maps.google.com/?cid=10927927611996416552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マシンピラティススタジオiris(イリス)",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒310-0804 茨城県水戸市白梅１丁目５−９",
+   "maps": "https://maps.google.com/?cid=13815373463395959583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "キックボクシングパーソナルStudioK",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒311-4152 茨城県水戸市河和田１丁目１８４４−２ K3 5階",
+   "maps": "https://maps.google.com/?cid=18309603746277671075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Harriet【水戸笠原町】",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町１５５１−２ TKオフィスA棟 2階C号室",
+   "maps": "https://maps.google.com/?cid=4001795096983745149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personalgym.s",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒310-0845 茨城県水戸市吉沢町２５６−１",
+   "maps": "https://maps.google.com/?cid=13792686714026826292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "High Five!!",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町１６３８−１",
+   "maps": "https://maps.google.com/?cid=12599779210751847490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム EXTRA",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒310-0852 茨城県水戸市笠原町2F",
+   "maps": "https://maps.google.com/?cid=5525623673158306146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ディクレス -DHICRES-",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒310-0905 茨城県水戸市石川２丁目４２４１−１ ラティウム 103号室",
+   "maps": "https://maps.google.com/?cid=1840793105316989014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ﾊﾟｰｿﾅﾙﾄﾚｰﾆﾝｸﾞ&ﾖｶﾞstudio chou chou",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒310-0905 茨城県水戸市石川２丁目4202番地",
+   "maps": "https://maps.google.com/?cid=6787838689127233609&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルスタジオ・スマート",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒310-0911 茨城県水戸市見和２丁目２４２−１",
+   "maps": "https://maps.google.com/?cid=7725361493381834017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Box Fit 水戸店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒310-0803 茨城県水戸市城南２丁目５−１９ 1F",
+   "maps": "https://maps.google.com/?cid=14311128738125051262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング HIRO ◇パーソナルトレーニング60分3,000円◇",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒310-0021 茨城県水戸市南町２丁目３−３２ 3F",
+   "maps": "https://maps.google.com/?cid=14282925747752808133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "水戸コンディショニング ラボ",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒310-0836 茨城県水戸市元吉田町８４８−１ ヘルプリバ 3 201号",
+   "maps": "https://maps.google.com/?cid=10732787307627280117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

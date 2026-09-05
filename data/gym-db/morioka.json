@@ -1,0 +1,479 @@
+{
+ "city": "盛岡",
+ "fetchedAt": "2026-09-05",
+ "query": "パーソナルジム 盛岡",
+ "gyms": [
+  {
+   "name": "マシンピラティスRintosull 盛岡青山店",
+   "rating": 4.8,
+   "reviews": 119,
+   "address": "日本、〒020-0133 岩手県盛岡市青山４丁目４６−２５ PIVOT盛岡青山コート B2 1F",
+   "maps": "https://maps.google.com/?cid=9721120596787028615&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 盛岡店",
+   "rating": 4.9,
+   "reviews": 102,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園２丁目４−２１ 1978ビル 2F",
+   "maps": "https://maps.google.com/?cid=10444925320420565398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 盛岡菜園店",
+   "rating": 4.3,
+   "reviews": 99,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園１丁目８−１５ パルクアベニュー・カワトクCube-Ⅱ B2",
+   "maps": "https://maps.google.com/?cid=11642913218341970082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブアクトス 盛岡",
+   "rating": 3.9,
+   "reviews": 96,
+   "address": "日本、〒020-0864 岩手県盛岡市西仙北１丁目３８ 盛岡市西仙北1-38-10マイヤタウン グラン内",
+   "maps": "https://maps.google.com/?cid=1381394640377360716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "JOYFIT24 LITE 盛岡青山駅前",
+   "rating": 3.7,
+   "reviews": 84,
+   "address": "日本、〒020-0125 岩手県盛岡市上堂２丁目４−３",
+   "maps": "https://maps.google.com/?cid=2481991837445878875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディカルパーソナルwelbits【整体とストレッチ】",
+   "rating": 5,
+   "reviews": 74,
+   "address": "日本、〒028-3618 岩手県紫波郡矢巾町駅東１丁目３−２２",
+   "maps": "https://maps.google.com/?cid=4781367029891149233&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』盛岡店",
+   "rating": 4.9,
+   "reviews": 73,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮４丁目１−３２ ラ・ボーヌ 101",
+   "maps": "https://maps.google.com/?cid=17981626142277595674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "StyleFit盛岡(スタイルフィット盛岡)",
+   "rating": 4.2,
+   "reviews": 68,
+   "address": "日本、〒020-0033 岩手県盛岡市盛岡駅前北通１１−５",
+   "maps": "https://maps.google.com/?cid=12143767317543452992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』盛岡2号店",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮６丁目７−４８",
+   "maps": "https://maps.google.com/?cid=4769432303088752169&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DAIKICHI GYM | 盛岡パーソナルジム",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒020-0861 岩手県盛岡市仙北２丁目８−１ 山善ビル 1-A号室",
+   "maps": "https://maps.google.com/?cid=8964295257109133401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "This is Gym コレジム 盛岡仙北店",
+   "rating": 4.8,
+   "reviews": 45,
+   "address": "日本、〒020-0863 岩手県盛岡市南仙北１丁目１８−６ CINビル 1階",
+   "maps": "https://maps.google.com/?cid=8875611556161788151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムBy Fit",
+   "rating": 5,
+   "reviews": 43,
+   "address": "日本、〒020-0034 岩手県盛岡市盛岡駅前通１５−１７ PIVOT盛岡駅前2 1-A",
+   "maps": "https://maps.google.com/?cid=12923408630440025642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "La pilates盛岡店《整体×マシンピラティス》ラピラティス",
+   "rating": 4.9,
+   "reviews": 34,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園２丁目７−３３ トーカンジェネラス菜園・公園通り 101",
+   "maps": "https://maps.google.com/?cid=18037136349474862650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用ジム in balance",
+   "rating": 4.8,
+   "reviews": 31,
+   "address": "日本、〒020-0831 岩手県盛岡市三本柳１２地割21−１ ココナッツビル 2F",
+   "maps": "https://maps.google.com/?cid=15250690662551102880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム リアルボディ盛岡店",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮４丁目１−３２ ラ・ボーヌ 103",
+   "maps": "https://maps.google.com/?cid=1022823731013427014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "サムズアップ",
+   "rating": 4.8,
+   "reviews": 24,
+   "address": "日本、〒020-0874 岩手県盛岡市南大通２丁目８−２ サウスヒルズB棟 3F",
+   "maps": "https://maps.google.com/?cid=14122661376631485745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "モリオカトレーニングクラブ",
+   "rating": 4.2,
+   "reviews": 22,
+   "address": "日本、〒020-0863 岩手県盛岡市南仙北２丁目７−３３",
+   "maps": "https://maps.google.com/?cid=3433591870528631145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24GYM FAB 矢巾店",
+   "rating": 4.2,
+   "reviews": 21,
+   "address": "日本、〒028-3615 岩手県紫波郡矢巾町南矢幅第７地割１４３",
+   "maps": "https://maps.google.com/?cid=5192472979961513784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Rep!!! パーソナル&フリートレーニング",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒020-0114 岩手県盛岡市茶畑２丁目２４−１０ doors2F",
+   "maps": "https://maps.google.com/?cid=13836906968361640485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)盛岡店",
+   "rating": 3.8,
+   "reviews": 18,
+   "address": "日本、〒020-0021 岩手県盛岡市中央通２丁目１０−２５ デュオヒルズ盛岡中央通 1F",
+   "maps": "https://maps.google.com/?cid=8944262199763540850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT INGRAVITY",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒020-0021 岩手県盛岡市中央通２丁目８−２３ プランタンおがさわら 1F",
+   "maps": "https://maps.google.com/?cid=3053099244282803747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "pilates studio SORA 盛岡",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒020-0026 岩手県盛岡市開運橋通３−４４ リージェントプラザビル ３F",
+   "maps": "https://maps.google.com/?cid=8556071376313260395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Conditioning Field BLUE8",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒020-0026 岩手県盛岡市開運橋通４−２８ B1F",
+   "maps": "https://maps.google.com/?cid=2981426244349976672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CAPTAINMORIOKA",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒020-0401 岩手県盛岡市手代森１６地割16−２３",
+   "maps": "https://maps.google.com/?cid=967914301092685641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NAORI整体 盛岡本宮院｜腰痛改善パーソナルジム（理学療法士）",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮３丁目２４−１",
+   "maps": "https://maps.google.com/?cid=7848371119549821184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マシンピラティスMOHIピラティス盛岡 パーソナル",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒020-0021 岩手県盛岡市中央通３丁目１１−６",
+   "maps": "https://maps.google.com/?cid=9870192370565692915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大通の加圧トレーニング スタジオ エス サイトウ",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒020-0022 岩手県盛岡市大通２丁目６−８ セントラルガーデンスクエア5 階 501号",
+   "maps": "https://maps.google.com/?cid=2110407112607853555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "キャリッジスポーツ",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒020-0864 岩手県盛岡市西仙北１丁目６−２ キャリッジスポーツ",
+   "maps": "https://maps.google.com/?cid=16591210666820052241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Bellus Gym",
+   "rating": 4.6,
+   "reviews": 11,
+   "address": "日本、〒020-0822 岩手県盛岡市茶畑２丁目１０−１",
+   "maps": "https://maps.google.com/?cid=17440337235206031762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FiT24 盛岡バイパス店",
+   "rating": 3.6,
+   "reviews": 11,
+   "address": "日本、〒020-0862 岩手県盛岡市東仙北２丁目１０−３０",
+   "maps": "https://maps.google.com/?cid=4944807919263913982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ZERO GYM",
+   "rating": 4.6,
+   "reviews": 9,
+   "address": "日本、〒020-0122 岩手県盛岡市みたけ３丁目１８−２３",
+   "maps": "https://maps.google.com/?cid=12173966168570035952&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディカルフィットネス MOVE ON",
+   "rating": 4.9,
+   "reviews": 9,
+   "address": "日本、〒020-0834 岩手県盛岡市永井２４地割3番地7",
+   "maps": "https://maps.google.com/?cid=2440020133638601694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Naosu(ナオス)",
+   "rating": 4.5,
+   "reviews": 8,
+   "address": "日本、〒020-0021 岩手県盛岡市中央通１丁目１１−１５ マルビルⅡ404",
+   "maps": "https://maps.google.com/?cid=1184211635689381700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィッツプラス",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園２丁目２−２０ 柴内ビル 3F",
+   "maps": "https://maps.google.com/?cid=12886333968644933381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ピラティス 盛岡店《個室パーソナルピラティススタジオ》",
+   "rating": 4.7,
+   "reviews": 7,
+   "address": "日本、〒020-0835 岩手県盛岡市津志田１３地割１８−２",
+   "maps": "https://maps.google.com/?cid=11246034099858817286&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フェアスポーツもりおかA.T【Gym-A.T】",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒020-0863 岩手県盛岡市南仙北２丁目２２−１５",
+   "maps": "https://maps.google.com/?cid=16801643343291061035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィジオセンター盛岡",
+   "rating": 4.7,
+   "reviews": 6,
+   "address": "日本、〒020-0851 岩手県盛岡市向中野２丁目５６−７",
+   "maps": "https://maps.google.com/?cid=12567129857063863616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ワールドウィング盛岡",
+   "rating": 4.7,
+   "reviews": 6,
+   "address": "日本、〒020-0851 岩手県盛岡市向中野５丁目１８−３０",
+   "maps": "https://maps.google.com/?cid=17866392813551856062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ESPERANZA GYM",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮４丁目９−１６ 酒井医療",
+   "maps": "https://maps.google.com/?cid=6263253963512328841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ASTRAME GYM",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒020-0026 岩手県盛岡市開運橋通３ Uビル 1F, ３-４",
+   "maps": "https://maps.google.com/?cid=432525781861635595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PEAK FORM(ピークフォーム)",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒020-0851 岩手県盛岡市向中野８丁目85−１ Casa La Eterna102",
+   "maps": "https://maps.google.com/?cid=5047141463674450976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CONDITIONING SPACE YUI",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮６丁目１０−１５ 泉舘ビル 1.2階",
+   "maps": "https://maps.google.com/?cid=16100343797017713258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TiaLab.",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒020-0022 岩手県盛岡市大通１丁目１０−１０ 12PIVOTAvene2 304",
+   "maps": "https://maps.google.com/?cid=8309469958371210990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "flow フロゥ・コアストレッチアプローチ",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒020-0045 岩手県盛岡市盛岡駅西通１丁目２５−３１",
+   "maps": "https://maps.google.com/?cid=17685860915412789075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Utility Space Enhance【盛岡 レンタルスペース】",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒020-0025 岩手県盛岡市大沢川原３丁目６−１",
+   "maps": "https://maps.google.com/?cid=13007976754401955310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フリーストレッチング岩手盛岡店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒020-0032 岩手県盛岡市夕顔瀬町２２−２",
+   "maps": "https://maps.google.com/?cid=14563386506391313453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムfab",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒028-3615 岩手県紫波郡矢巾町南矢幅第９地割１９８",
+   "maps": "https://maps.google.com/?cid=4688639167365152245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディフィットクラブうすい",
+   "rating": 4.3,
+   "reviews": 3,
+   "address": "日本、〒020-0107 岩手県盛岡市松園２丁目２−１０",
+   "maps": "https://maps.google.com/?cid=11018845553952255549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング ヨンデー",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒020-0121 岩手県盛岡市月が丘１丁目２７−４５ 2-D",
+   "maps": "https://maps.google.com/?cid=3687466351769875357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Fierte(フィエルテ)盛岡店",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園１丁目３−６ 農林会館 403",
+   "maps": "https://maps.google.com/?cid=16715096613139982556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ＢＯＤＹＤＥＳＩＧＮ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒020-0863 岩手県盛岡市南仙北１丁目１９−２６ Mヒルズ102",
+   "maps": "https://maps.google.com/?cid=14469761026525498769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ナチュレ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒020-0026 岩手県盛岡市開運橋通１−３６",
+   "maps": "https://maps.google.com/?cid=9166894685870666281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルストレッチLavender",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒020-0107 岩手県盛岡市松園１丁目８−８",
+   "maps": "https://maps.google.com/?cid=14304298793696140141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Studio Theory パーソナルスタジオセオリー",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒020-0866 岩手県盛岡市本宮水門２９−１３",
+   "maps": "https://maps.google.com/?cid=11461871505423529346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングジム GroWin",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒020-0056 岩手県盛岡市太田３丁目１１−１３",
+   "maps": "https://maps.google.com/?cid=17442541519762816698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メイプルジム盛岡菜園",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒020-0024 岩手県盛岡市菜園１丁目３−６ 農林会館 403",
+   "maps": "https://maps.google.com/?cid=4445783937399007166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LEVELS Personal Training Gym",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒020-0066 岩手県盛岡市上田３丁目３−１５",
+   "maps": "https://maps.google.com/?cid=5987877125874302775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7FIT／ワークアウト 盛岡店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒020-0835 岩手県盛岡市津志田１３地割１８−２",
+   "maps": "https://maps.google.com/?cid=3580495942162986743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムFoxFit.",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒020-0863 岩手県盛岡市南仙北１丁目１８−２",
+   "maps": "https://maps.google.com/?cid=3688099467592860139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

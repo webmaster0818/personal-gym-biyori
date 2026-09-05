@@ -1,0 +1,487 @@
+{
+ "city": "山形",
+ "fetchedAt": "2026-09-05",
+ "query": "パーソナルジム 山形",
+ "gyms": [
+  {
+   "name": "アッティーボジム山形店",
+   "rating": 4.6,
+   "reviews": 533,
+   "address": "日本、〒990-0810 山形県山形市馬見ケ崎４丁目１−１",
+   "maps": "https://maps.google.com/?cid=12557284456711015961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファディー 山形南",
+   "rating": 4.7,
+   "reviews": 176,
+   "address": "日本、〒990-2443 山形県山形市南三番町６−１５ 店内",
+   "maps": "https://maps.google.com/?cid=4275153859071753948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 山形白山店",
+   "rating": 4.9,
+   "reviews": 171,
+   "address": "日本、〒990-2446 山形県山形市白山１丁目９",
+   "maps": "https://maps.google.com/?cid=15398331476659064919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 山形北店",
+   "rating": 4.6,
+   "reviews": 137,
+   "address": "日本、〒990-0810 山形県山形市馬見ケ崎３丁目２２−１５",
+   "maps": "https://maps.google.com/?cid=7749069458329961978&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブ＆サウナスパ ルネサンス 山形24",
+   "rating": 3.8,
+   "reviews": 131,
+   "address": "日本、〒990-0038 山形県山形市幸町１８−３３",
+   "maps": "https://maps.google.com/?cid=12082941829062444820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 山形店｜山形 マシンピラティス",
+   "rating": 5,
+   "reviews": 117,
+   "address": "日本、〒990-0886 山形県山形市嶋南３丁目８−２７",
+   "maps": "https://maps.google.com/?cid=3983208421164306341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND 山形店",
+   "rating": 4.9,
+   "reviews": 109,
+   "address": "日本、〒990-0054 山形県山形市六日町６−４０ スペース YOU1F",
+   "maps": "https://maps.google.com/?cid=1494418002293480461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジョイフィット山形あかねヶ丘",
+   "rating": 3.7,
+   "reviews": 88,
+   "address": "日本、〒990-2481 山形県山形市あかねケ丘２丁目１５−２５",
+   "maps": "https://maps.google.com/?cid=10185675730033398977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アッティーボジム天童店",
+   "rating": 4.7,
+   "reviews": 87,
+   "address": "日本、〒994-0049 山形県天童市南町１丁目１−４０ らら・パーク天童内",
+   "maps": "https://maps.google.com/?cid=14225258996806277021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム リアルボディ山形店",
+   "rating": 5,
+   "reviews": 85,
+   "address": "日本、〒990-2481 山形県山形市あかねケ丘２丁目１６−９",
+   "maps": "https://maps.google.com/?cid=7857862630908953845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディカルフィットネス＋スパ ラ・ヴィータ",
+   "rating": 3.3,
+   "reviews": 84,
+   "address": "日本、〒990-0834 山形県山形市清住町２丁目３−５１",
+   "maps": "https://maps.google.com/?cid=16036559725680245836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムTRYVE【トライヴ】山形店",
+   "rating": 4.9,
+   "reviews": 81,
+   "address": "日本、〒990-0043 山形県山形市本町２丁目４−１５ アーチスセンゾクヤ 2F-F",
+   "maps": "https://maps.google.com/?cid=13796313151669891653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダイエット専門パーソナルジムfamille鶴岡店",
+   "rating": 5,
+   "reviews": 64,
+   "address": "日本、〒997-0024 山形県鶴岡市朝暘町２８−４",
+   "maps": "https://maps.google.com/?cid=4522413013389208720&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "conditioning salon Yuna Pilates",
+   "rating": 5,
+   "reviews": 60,
+   "address": "日本、〒990-2441 山形県山形市南一番町１０−３２ 102",
+   "maps": "https://maps.google.com/?cid=5889675482377097480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムWellnessWorkout 鶴岡",
+   "rating": 5,
+   "reviews": 53,
+   "address": "日本、〒997-0055 山形県鶴岡市西京田６８−３",
+   "maps": "https://maps.google.com/?cid=14588605830657429046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 山形あかねヶ丘店 Arrange｜山形 マシンピラティス",
+   "rating": 5,
+   "reviews": 49,
+   "address": "日本、〒990-2481 山形県山形市あかねケ丘１丁目１７−２３",
+   "maps": "https://maps.google.com/?cid=9626804470557480072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブ エスポート",
+   "rating": 3.4,
+   "reviews": 46,
+   "address": "日本、〒990-0004 山形県山形市上山家町７５８−２",
+   "maps": "https://maps.google.com/?cid=17873504178323406454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "機能回復サポートジム R+（アールプラス ）",
+   "rating": 4.9,
+   "reviews": 38,
+   "address": "日本、〒990-0831 山形県山形市西田２丁目２４−５０",
+   "maps": "https://maps.google.com/?cid=2011239152211829694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FiT24 山形嶋北店",
+   "rating": 3.8,
+   "reviews": 31,
+   "address": "日本、〒990-0885 山形県山形市嶋北４丁目２−１５",
+   "maps": "https://maps.google.com/?cid=8218184425848488667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FiT24 山形高堂店",
+   "rating": 3.5,
+   "reviews": 28,
+   "address": "日本、〒990-2464 山形県山形市高堂２丁目３−１１",
+   "maps": "https://maps.google.com/?cid=5292147929919752375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジルトレーニングベース山形",
+   "rating": 4.7,
+   "reviews": 26,
+   "address": "日本、〒990-0831 山形県山形市西田２丁目２４−５０",
+   "maps": "https://maps.google.com/?cid=9559402831256053602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LearningWellness",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒990-2482 山形県山形市久保田１丁目７−５ 五十嵐ビル 2F 5号室",
+   "maps": "https://maps.google.com/?cid=17998589511346973431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STUDIO AIMER マシンピラティス×筋トレ×ヨガスタジオ",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒990-0834 山形県山形市清住町１丁目１−３５",
+   "maps": "https://maps.google.com/?cid=8914917513439563850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム PROGRESS『健康・ダイエット・身体づくり』",
+   "rating": 4.6,
+   "reviews": 19,
+   "address": "日本、〒990-0042 山形県山形市七日町２丁目１−１７ ARCビル 3F",
+   "maps": "https://maps.google.com/?cid=5678557831746820987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング茂八ジム",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒997-0034 山形県鶴岡市本町２丁目２−３ 茂八喫茶 2階",
+   "maps": "https://maps.google.com/?cid=6812222738865757826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Body make salon Rin",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒990-0031 山形県山形市十日町１丁目３−３７",
+   "maps": "https://maps.google.com/?cid=7752895267670771846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムFOX",
+   "rating": 4.9,
+   "reviews": 18,
+   "address": "日本、〒990-2413 山形県山形市南原町２丁目９−１２ 南原プラザ 2F",
+   "maps": "https://maps.google.com/?cid=4719754475880574262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ReAct Conditioning&Training Gym リアクト パーソナル コンディショニング トレーニング ジム",
+   "rating": 4.8,
+   "reviews": 18,
+   "address": "日本、〒994-0004 山形県天童市小関１丁目６−１３",
+   "maps": "https://maps.google.com/?cid=10502542579445285449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FORMA パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒994-0013 山形県天童市老野森１丁目１７−２３",
+   "maps": "https://maps.google.com/?cid=10857722064591420639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム WellnessWorkout 天童",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒994-0049 山形県天童市南町２丁目１−３４ 202号室",
+   "maps": "https://maps.google.com/?cid=8264188469873841744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Body make Studio Culeure （ボディメイクスタジオ クルール）",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒990-0047 山形県山形市旅篭町１丁目２−２４ 村井ビル 1F",
+   "maps": "https://maps.google.com/?cid=1853470473094255811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ラピラティス山形天童店",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒994-0003 山形県天童市柏木町１丁目８−14 2 階A",
+   "maps": "https://maps.google.com/?cid=1961216343798434894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダイエット専門店 CoCoa エステ&パーソナルトレーニング",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒990-0813 山形県山形市桧町４丁目１２−５",
+   "maps": "https://maps.google.com/?cid=928866294009609372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIBRAVE GYM 天童",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒994-0048 山形県天童市交り江４丁目６−３４ ザ・ハーモニ A棟",
+   "maps": "https://maps.google.com/?cid=17769656149268958247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "STANDARD パーソナルトレーニング",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒990-0073 山形県山形市大野目３丁目３−４３",
+   "maps": "https://maps.google.com/?cid=1189020683865041844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)山形店",
+   "rating": 4.7,
+   "reviews": 12,
+   "address": "日本、〒990-0043 山形県山形市本町１丁目４−２７ セントラル山形ビル",
+   "maps": "https://maps.google.com/?cid=275296010655138724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Moshe（モーシェ） Conditioning&Fitness Gym",
+   "rating": 4.2,
+   "reviews": 10,
+   "address": "日本、〒990-2331 山形県山形市飯田西４丁目５−３３ ラ・セゾン・クレール 102",
+   "maps": "https://maps.google.com/?cid=2895017506043297199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "やまがたトレーニングジム 理学療法士がいる24時間ジム",
+   "rating": 4.5,
+   "reviews": 10,
+   "address": "日本、〒990-2445 山形県山形市南栄町３丁目１３−２ やまがたトレーニングジム",
+   "maps": "https://maps.google.com/?cid=9805554907874801127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Flat Salon & Gym Libra",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒990-2332 山形県山形市飯田３丁目２−４",
+   "maps": "https://maps.google.com/?cid=13919972349316684630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ウェルネスクラブ ジル ネクサス (GILL nexus)",
+   "rating": 3.6,
+   "reviews": 9,
+   "address": "日本、〒990-0821 山形県山形市北町２丁目２−４５",
+   "maps": "https://maps.google.com/?cid=3166997759108736069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピーチフィットネス寒河江店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒991-0003 山形県寒河江市西根石川西２８６−１",
+   "maps": "https://maps.google.com/?cid=9275160026696417146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プリッツジム山形店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒990-2461 山形県山形市南館３丁目２６−２６ スタジオ・アヴァン 102",
+   "maps": "https://maps.google.com/?cid=378341428899976364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ウェルベース山形",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒990-0813 山形県山形市桧町４丁目４−２１ ２階",
+   "maps": "https://maps.google.com/?cid=10933703063141735164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツ整体 ReSTABO",
+   "rating": 3.3,
+   "reviews": 6,
+   "address": "日本、〒990-0863 山形県山形市江南４丁目１１−３２",
+   "maps": "https://maps.google.com/?cid=11923920462997554358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "studio TSUBAKI －椿－",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒990-2313 山形県山形市松原３７８−１４ momosakutree内",
+   "maps": "https://maps.google.com/?cid=17617431023516480468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム three",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒999-2232 山形県南陽市三間通１２１−３ ジェイアイビル 2F 202",
+   "maps": "https://maps.google.com/?cid=16844279409263473244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Fierte(フィエルテ)山形店",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒990-0042 山形県山形市七日町１丁目２−２ 36CROSS七日町304",
+   "maps": "https://maps.google.com/?cid=7647207104859886036&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MORNING GYM 天童市",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒994-0082 山形県天童市芳賀タウン北１丁目７−２０",
+   "maps": "https://maps.google.com/?cid=2064354044423376035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "imperialthrone/インペリアルスローン",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒990-2493 山形県山形市美畑町５−６",
+   "maps": "https://maps.google.com/?cid=10193995138302180735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "レンタルプライベートジムFit",
+   "rating": 2.3,
+   "reviews": 3,
+   "address": "日本、〒990-2482 山形県山形市久保田１丁目７−５ 五十嵐ビル 2階 ５号室",
+   "maps": "https://maps.google.com/?cid=16286406075331201971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アクティブルーム",
+   "rating": 3,
+   "reviews": 2,
+   "address": "日本、〒990-0034 山形県山形市東原町３丁目９−５",
+   "maps": "https://maps.google.com/?cid=9008558445590025023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Gym&Tanning CRAZY SUN",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒994-0042 山形県天童市北目２丁目７−１７",
+   "maps": "https://maps.google.com/?cid=6061687913077182812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "studio BODMOD.",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒990-2423 山形県山形市東青田４丁目６−２２ 2階",
+   "maps": "https://maps.google.com/?cid=8612647456646930022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MBL THE FITNESS",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒990-0053 山形県山形市薬師町１丁目１−８ クマガイビル 1階 東側倉庫入口",
+   "maps": "https://maps.google.com/?cid=15861969003449778363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "YAMAGATA FIGHTING FITNESS",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒990-2435 山形県山形市青田３丁目４−４ 23B",
+   "maps": "https://maps.google.com/?cid=13271929683324574630&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "山形マシンピラティス スタジオ【シェリ】",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒990-0057 山形県山形市宮町４丁目１０−１６",
+   "maps": "https://maps.google.com/?cid=9942678970704407892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム STRATA",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒990-2473 山形県山形市松栄１丁目3−８ 103",
+   "maps": "https://maps.google.com/?cid=17296923525106843778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "W-ing45 整体+パーソナルトレーニングジム",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒990-0861 山形県山形市江俣２丁目１−４０",
+   "maps": "https://maps.google.com/?cid=7723641650641260975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メイプルジム山形七日町",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒990-0042 山形県山形市七日町１丁目２−１−２ 36CROSS七日町",
+   "maps": "https://maps.google.com/?cid=1008407531358428020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニング&パーソナルワークアウト Re Born(リボーン)",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒990-2481 山形県山形市あかねヶ丘１丁目１７−２５ プラザあかねヶ丘 2階",
+   "maps": "https://maps.google.com/?cid=11262010845865809133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
