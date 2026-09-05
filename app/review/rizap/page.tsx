@@ -531,6 +531,16 @@ export default function RizapReview() {
           </div>
         </section>
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「なぜその動きが必要か理由から説明してくれる」という指導の論理性、食事・生活習慣まで含めた包括サポート、当日の体調に合わせた重量調整など、マニュアルではない個別対応への評価が中心です。「自分に甘い性格だからこそ合っていた」という自己分析つきの声が多いのも特徴で、強制力を求めて入会する層に支持されています。</p>
+            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——全体に高評価が並ぶ一方、店舗の年季(内装の古さ)に触れる声や、ルームレンタル利用者の混在で口コミの文脈が分かれる点は読み方に注意が必要です。料金は業界最高値クラスなので、「強制力・包括サポートにいくら払うか」の費用対効果で判断するのがおすすめです。</p>
+            <p className="text-xs text-gray-400">※Googleマップの複数店舗(新宿・梅田・名古屋ほか)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・トレーナー・時期により異なります。</p>
+          </div>
+        </section>
+
         {/* ---------- FAQ ---------- */}
       <GymCta slug="rizap" name="RIZAP" />
 

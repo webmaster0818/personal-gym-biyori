@@ -524,6 +524,16 @@ export default function Workout247Review() {
           <p className="text-xs text-gray-500 mt-3">※効果には個人差があります。上記は一般的な注意点で、特定の結果を保証するものではありません。</p>
         </section>
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「2ヶ月で10kg」「3ヶ月で7kg」など具体的な減量報告が多いのが最大の特徴です。「1人だと追い込めない・客観的なフィードバックが欲しい」という経験者の入会理由や、毎週の計測で身が引き締まるという仕組み面の評価、体調に合わせたメニュー調整の声もあります。</p>
+            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——「体重はさほど落ちていないが体型・姿勢は変わった」という中立的な声もあり、成果の出方には個人差があります。個室のフリー利用(別サービス会員)の口コミが混在する店舗もあるため、パーソナル指導の評価とは分けて読むのが安全です。</p>
+            <p className="text-xs text-gray-400">※Googleマップの複数店舗(新宿・梅田・横浜ほか)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・トレーナー・時期により異なります。</p>
+          </div>
+        </section>
+
         {/* ---------- FAQ ---------- */}
       <GymCta slug="247workout" name="24/7ワークアウト" />
 

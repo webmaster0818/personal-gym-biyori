@@ -530,6 +530,16 @@ export default function BeyondReview() {
           </div>
         </section>
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
+            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「トレーナーが明るくフレンドリーで楽しく続けられる」という相性面の評価が圧倒的に多く、「極端な食事制限をせず生活に合わせて調整してくれる」食事指導への言及、大会出場者への専門的な指導など目的別対応の声もあります。5ヶ月で体重以外の変化も出た、という中期の成果報告が見られます。</p>
+            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——「特定のトレーナーを追いかけて店舗を移った」という声が複数あるほど、満足度がトレーナー個人に紐づく傾向が強いブランドです。無料カウンセリング・体験で担当者との相性を確かめてから決めるのがおすすめです。新規オープン店では開店前の応援投稿が混ざる例もあり、件数は割り引いて見るのが安全です。</p>
+            <p className="text-xs text-gray-400">※Googleマップの複数店舗(新宿・大阪・福岡ほか)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・トレーナー・時期により異なります。</p>
+          </div>
+        </section>
+
         {/* ---------- FAQ ---------- */}
       <GymCta slug="beyond" name="BEYOND" />
 
