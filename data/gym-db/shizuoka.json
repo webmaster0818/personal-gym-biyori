@@ -1,0 +1,487 @@
+{
+ "city": "静岡",
+ "fetchedAt": "2026-09-06",
+ "query": "パーソナルジム 静岡",
+ "gyms": [
+  {
+   "name": "BEYOND 静岡店",
+   "rating": 4.9,
+   "reviews": 227,
+   "address": "日本、〒422-8065 静岡県静岡市駿河区宮本町１−２",
+   "maps": "https://maps.google.com/?cid=11849726119376760895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "レシオボディデザイン静岡駅葵タワー店",
+   "rating": 4.8,
+   "reviews": 222,
+   "address": "日本、〒420-0852 静岡県静岡市葵区紺屋町１７−１ 地下１Ｆ",
+   "maps": "https://maps.google.com/?cid=15489750520193063937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 静岡富士見台店",
+   "rating": 4.7,
+   "reviews": 147,
+   "address": "日本、〒422-8026 静岡県静岡市駿河区富士見台１丁目４−８５ マルハンメガシティ静岡 １Ｆ",
+   "maps": "https://maps.google.com/?cid=1462751059528251279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Paw 静岡（フィットネス×マシンピラティス）",
+   "rating": 4.9,
+   "reviews": 130,
+   "address": "日本、〒422-8032 静岡県静岡市駿河区有東２丁目９−２５ 2階",
+   "maps": "https://maps.google.com/?cid=16831525543360791485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "駅前筋肉留学GO 静岡店",
+   "rating": 4.9,
+   "reviews": 120,
+   "address": "日本、〒422-8051 静岡県静岡市駿河区中野新田２９８−２",
+   "maps": "https://maps.google.com/?cid=4713661330427993319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 静岡店",
+   "rating": 4.8,
+   "reviews": 117,
+   "address": "日本、〒420-0031 静岡県静岡市葵区呉服町２丁目６−７ 金星ビル ２・３階",
+   "maps": "https://maps.google.com/?cid=11316483339349752439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "U-STYLE",
+   "rating": 5,
+   "reviews": 107,
+   "address": "日本、〒420-0068 静岡県静岡市葵区田町３丁目２−番 3階",
+   "maps": "https://maps.google.com/?cid=7389151866087237470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GOODLIFE GYM 静岡駿河店",
+   "rating": 4.9,
+   "reviews": 74,
+   "address": "日本、〒422-8064 静岡県静岡市駿河区新川１丁目１１−２８ MAビル 2F",
+   "maps": "https://maps.google.com/?cid=8017059491180419375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BASE",
+   "rating": 4.9,
+   "reviews": 73,
+   "address": "日本、〒420-0835 静岡県静岡市葵区横田町１０−６",
+   "maps": "https://maps.google.com/?cid=18134466622600560464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THIS IS GYM コレジム 東静岡店",
+   "rating": 4.8,
+   "reviews": 72,
+   "address": "日本、〒422-8007 静岡県静岡市駿河区聖一色８８−１ 藤接骨院 東静岡院 併設",
+   "maps": "https://maps.google.com/?cid=14866180553742113521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MY-BODY 清水店",
+   "rating": 4.6,
+   "reviews": 71,
+   "address": "日本、〒424-0014 静岡県静岡市清水区天王南２−１ エスポット １F",
+   "maps": "https://maps.google.com/?cid=5545289987456454569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 静岡店",
+   "rating": 4.8,
+   "reviews": 67,
+   "address": "日本、〒420-0042 静岡県静岡市葵区駒形通１丁目１−３３−２ SAINTMARTA 七間町 202号室・301号室",
+   "maps": "https://maps.google.com/?cid=12416141757209512811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マイペースフィットネス（静岡店）",
+   "rating": 4.6,
+   "reviews": 64,
+   "address": "日本、〒422-8077 静岡県静岡市駿河区大和２丁目６−５",
+   "maps": "https://maps.google.com/?cid=15884597811359853905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "AOI-DO PremiumBodyCare",
+   "rating": 4.8,
+   "reviews": 64,
+   "address": "日本、〒420-0803 静岡県静岡市葵区千代田７丁目２−番１８号",
+   "maps": "https://maps.google.com/?cid=16559504766306510999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム FIRST SESSION",
+   "rating": 5,
+   "reviews": 47,
+   "address": "日本、〒422-8005 静岡県静岡市駿河区池田６４８−１",
+   "maps": "https://maps.google.com/?cid=18428664886996576552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "My fit.SHIMIZU（マイフィット シミズ）",
+   "rating": 5,
+   "reviews": 45,
+   "address": "日本、〒424-0832 静岡県静岡市清水区入江南町１−８",
+   "maps": "https://maps.google.com/?cid=16853602649153297238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "AOI-DO PremiumBodyCare 清水桜橋院",
+   "rating": 5,
+   "reviews": 43,
+   "address": "日本、〒424-0837 静岡県静岡市清水区桜橋町１−８",
+   "maps": "https://maps.google.com/?cid=13186347957694342149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムSTREAM",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒420-0042 静岡県静岡市葵区駒形通５丁目２−２０",
+   "maps": "https://maps.google.com/?cid=18291727253335030159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "からだフィット",
+   "rating": 5,
+   "reviews": 40,
+   "address": "日本、〒420-0001 静岡県静岡市葵区井宮町９０−１",
+   "maps": "https://maps.google.com/?cid=6529373075751209906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TANIMURA_GYM",
+   "rating": 4.8,
+   "reviews": 39,
+   "address": "日本、〒422-8036 静岡県静岡市駿河区敷地１丁目６−１５ 沢マンション １０４",
+   "maps": "https://maps.google.com/?cid=17490515396564352145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "AOI-DO PremiumBodyCare 駿河院",
+   "rating": 4.9,
+   "reviews": 37,
+   "address": "日本、〒422-8027 静岡県静岡市駿河区豊田１丁目４−２",
+   "maps": "https://maps.google.com/?cid=15983123023158350203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND清水店",
+   "rating": 4.9,
+   "reviews": 32,
+   "address": "日本、〒424-0847 静岡県静岡市清水区大坪２丁目６−１８",
+   "maps": "https://maps.google.com/?cid=16904447172433127953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 静岡店",
+   "rating": 5,
+   "reviews": 31,
+   "address": "日本、〒420-0031 静岡県静岡市葵区呉服町２丁目2ｰ22 402号1-B",
+   "maps": "https://maps.google.com/?cid=6040694767899688560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リーフィットネス静岡店",
+   "rating": 5,
+   "reviews": 28,
+   "address": "日本、〒420-0074 静岡県静岡市葵区四番町６−７ リーフィットネス静岡店",
+   "maps": "https://maps.google.com/?cid=13082372081474555963&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY STOIC",
+   "rating": 4.8,
+   "reviews": 27,
+   "address": "日本、〒420-0831 静岡県静岡市葵区水落町９−２",
+   "maps": "https://maps.google.com/?cid=10998747392244014081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BLUE ZONE/ブルーゾーン",
+   "rating": 5,
+   "reviews": 27,
+   "address": "日本、〒420-0839 静岡県静岡市葵区鷹匠２丁目１８−７ 204",
+   "maps": "https://maps.google.com/?cid=12337762534944474405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONALGYM THIRDPLACE(パーソナルジム サードプレイス)",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒420-0867 静岡県静岡市葵区馬場町116MTビル 40D",
+   "maps": "https://maps.google.com/?cid=1845701474100511842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GRIPLIFT",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒420-0856 静岡県静岡市葵区駿府町１−４４ ヤマナシ 1F",
+   "maps": "https://maps.google.com/?cid=8836050882684465243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム SHIFT PLACE",
+   "rating": 4.9,
+   "reviews": 20,
+   "address": "日本、〒420-0812 静岡県静岡市葵区古庄３丁目３−９ 103号室",
+   "maps": "https://maps.google.com/?cid=6732165718372757422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MMT パーソナルジム静岡",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒420-0064 静岡県静岡市葵区本通６丁目5−１ モードビル 4F,5F",
+   "maps": "https://maps.google.com/?cid=18230903098445320227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【1回2,500円】パーソナルジムT&Ｒ清水店",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒424-0834 静岡県静岡市清水区浜田町４−３０ 浜田マンションＡ B103",
+   "maps": "https://maps.google.com/?cid=16493344520173109254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "OCEAN FITNESS",
+   "rating": 4.8,
+   "reviews": 19,
+   "address": "日本、〒420-0035 静岡県静岡市葵区七間町 葵区七間町13-1 セブンタウンビル 2F-B",
+   "maps": "https://maps.google.com/?cid=10189374864741057197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REAL FITNESS EFFECT",
+   "rating": 4.7,
+   "reviews": 15,
+   "address": "日本、〒420-0816 静岡県静岡市葵区沓谷５丁目５−７ 丹下Ｂｌｄ．沓谷 2階",
+   "maps": "https://maps.google.com/?cid=10825440407725860082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムPITEX 両替町店",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒420-0032 静岡県静岡市葵区両替町１丁目4−４ イーリス 1階",
+   "maps": "https://maps.google.com/?cid=15405056795662355407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジムCONTRAST",
+   "rating": 4.8,
+   "reviews": 14,
+   "address": "日本、〒420-0839 静岡県静岡市葵区鷹匠２丁目９−６ 1階西側",
+   "maps": "https://maps.google.com/?cid=10603326820883885573&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GENTLEMEN メンズパーソナルジム",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒420-0064 静岡県静岡市葵区本通６丁目5−１ モードビル 2F",
+   "maps": "https://maps.google.com/?cid=15745023599224923583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ハコジム 静岡駅南口店",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒422-8062 静岡県静岡市駿河区稲川１丁目８−２９ 稲川ビル 3階",
+   "maps": "https://maps.google.com/?cid=8354660238800160734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "精神と時のジム 静岡駅前店",
+   "rating": 4.8,
+   "reviews": 13,
+   "address": "日本、〒420-0031 静岡県静岡市葵区呉服町２丁目3−１１ COURT-M501 501号室",
+   "maps": "https://maps.google.com/?cid=11130399193935178084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムFLAT ONE",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒422-8006 静岡県静岡市駿河区曲金１丁目７−12 1 スポーツ堂接骨院内2階",
+   "maps": "https://maps.google.com/?cid=17232389286059517099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムREAL WORKOUT静岡駅葵タワー店",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒420-0852 静岡県静岡市葵区紺屋町１７−１ 葵タワー B1F",
+   "maps": "https://maps.google.com/?cid=15079619688495994134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Raise78fitness | 清水区ピラティス・パーソナルジム",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒424-0008 静岡県静岡市清水区押切１７０８−２",
+   "maps": "https://maps.google.com/?cid=16397543388041662009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Y’s Private Gym",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒424-0815 静岡県静岡市清水区江尻東１丁目１−５ カーニープレイス清水 2F",
+   "maps": "https://maps.google.com/?cid=4357029265606688208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "I.S.C. lab（アイ.エス.シー.ラボ） パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒422-8033 静岡県静岡市駿河区登呂１丁目１１−２",
+   "maps": "https://maps.google.com/?cid=16983749006111113836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムPITEX 南町店",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒422-8067 静岡県静岡市駿河区南町3-25 SOZOSYA−３ 南町ビル 1階",
+   "maps": "https://maps.google.com/?cid=14902433154932264637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CHANGE Rejunesse GYM",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒420-0839 静岡県静岡市葵区鷹匠１丁目３−１",
+   "maps": "https://maps.google.com/?cid=14081272828510700115&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Room静岡鷹匠店",
+   "rating": 4.1,
+   "reviews": 7,
+   "address": "日本、〒420-0839 静岡県静岡市葵区鷹匠３丁目１４−１６ コハラビル 3F",
+   "maps": "https://maps.google.com/?cid=7293509628808330005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムNICOA（ニコア）静岡店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒420-0031 静岡県静岡市葵区呉服町２丁目5−３ Ｅ－１ビル 4F",
+   "maps": "https://maps.google.com/?cid=14928274023658745204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニング エス〜conditioning es〜",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒420-0042 静岡県静岡市葵区駒形通３丁目３−３番地３ メゾンＯＨ １F２",
+   "maps": "https://maps.google.com/?cid=3912879115832225805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY Reファイン",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒422-8075 静岡県静岡市駿河区大坪町３−３０ A・Mȏrîビル大坪町",
+   "maps": "https://maps.google.com/?cid=6841074418341935560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Hori Kodai パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒420-0035 静岡県静岡市葵区七間町９−５ トレンズビル 2F-B",
+   "maps": "https://maps.google.com/?cid=17363069683420339644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal gym unite（パーソナルジムユナイト）",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒420-0032 静岡県静岡市葵区両替町２丁目6−７ 河村ビル 2階",
+   "maps": "https://maps.google.com/?cid=2369922567679466432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Personal Gym ZIPS",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒424-0884 静岡県静岡市清水区草薙一里山４−２",
+   "maps": "https://maps.google.com/?cid=18015914151596961353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Gバランス",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒422-8061 静岡県静岡市駿河区森下町１−４１ タイヨウビル ３Ｆ",
+   "maps": "https://maps.google.com/?cid=14129576129416363934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ACTIVATE GYM 静岡",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒420-0031 静岡県静岡市葵区呉服町２丁目１−１ 2F",
+   "maps": "https://maps.google.com/?cid=14319346066286478721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムONE’S BODY 静岡安倍川店",
+   "rating": 4.5,
+   "reviews": 2,
+   "address": "日本、〒421-0111 静岡県静岡市駿河区丸子新田５２５−２",
+   "maps": "https://maps.google.com/?cid=16565954922208399770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BY YOUR FIT（パーソナルトレーニングジム）",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒421-0103 静岡県静岡市駿河区丸子５丁目２１−７",
+   "maps": "https://maps.google.com/?cid=581971297456784932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Your Only Space",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒420-0882 静岡県静岡市葵区安東３丁目１７−３０ ＡＮＤＯ ＢＵＩＬＤ GYM",
+   "maps": "https://maps.google.com/?cid=17821610422278453841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【1回2,500円】パーソナルジムT&R静岡店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒420-0812 静岡県静岡市葵区古庄４丁目１３−１５",
+   "maps": "https://maps.google.com/?cid=1223876400605315061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムReViNa(レビナ)清水店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒424-0814 静岡県静岡市清水区本郷町１−２８ アジム事務所清水駅前ビル 501",
+   "maps": "https://maps.google.com/?cid=8790279112546451224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MEDICAL FITNESS ESTA",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒422-8006 静岡県静岡市駿河区曲金６丁目７−３ プルメリア糖尿病内科クリニック 2階",
+   "maps": "https://maps.google.com/?cid=5772512850502494180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

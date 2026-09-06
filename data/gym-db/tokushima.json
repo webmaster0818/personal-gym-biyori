@@ -1,0 +1,487 @@
+{
+ "city": "徳島",
+ "fetchedAt": "2026-09-06",
+ "query": "パーソナルジム 徳島",
+ "gyms": [
+  {
+   "name": "Runnin' SPORTS 万代店",
+   "rating": 4.8,
+   "reviews": 639,
+   "address": "日本、〒770-0941 徳島県徳島市万代町５丁目７１−５",
+   "maps": "https://maps.google.com/?cid=3624963866535044914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー アクロスプラザ徳島大松店",
+   "rating": 4.8,
+   "reviews": 126,
+   "address": "日本、〒770-8022 徳島県徳島市大松町榎原外７７−５０",
+   "maps": "https://maps.google.com/?cid=16618922556726655520&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスジムライト24 万代店",
+   "rating": 4.7,
+   "reviews": 123,
+   "address": "日本、〒770-0941 徳島県徳島市万代町５丁目１０−９",
+   "maps": "https://maps.google.com/?cid=15453950476270891148&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アレクシー徳島北島店",
+   "rating": 4.8,
+   "reviews": 122,
+   "address": "日本、〒771-0203 徳島県板野郡北島町中村長池５１−７",
+   "maps": "https://maps.google.com/?cid=17845648527090811167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用24時間ジム Amazones（アマゾネス）徳島鮎喰店",
+   "rating": 4.8,
+   "reviews": 116,
+   "address": "日本、〒770-0046 徳島県徳島市鮎喰町２丁目７４−１",
+   "maps": "https://maps.google.com/?cid=11606664292895126570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス&コンディショニング リライズ（Pilates＆Conditioning Relize）",
+   "rating": 4.9,
+   "reviews": 116,
+   "address": "日本、〒770-0868 徳島県徳島市福島２丁目２−４ 山内ビル 1F 1F 南側テナント",
+   "maps": "https://maps.google.com/?cid=12159199785954559530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムSOL",
+   "rating": 5,
+   "reviews": 105,
+   "address": "日本、〒770-0042 徳島県徳島市蔵本町２丁目１３",
+   "maps": "https://maps.google.com/?cid=18268248907230927807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム オリジン",
+   "rating": 4.9,
+   "reviews": 95,
+   "address": "日本、〒772-0012 徳島県鳴門市撫養町小桑島前組１４３ マリビル 102",
+   "maps": "https://maps.google.com/?cid=16486823342955479323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "徳島市24時間フィットネスジム WORKOUTBASE24(ワークアウトベース24)",
+   "rating": 4.9,
+   "reviews": 94,
+   "address": "日本、〒770-0044 徳島県徳島市庄町１丁目73−1 1 階2階3 階別室",
+   "maps": "https://maps.google.com/?cid=14333938673687283970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 徳島沖浜店",
+   "rating": 4.9,
+   "reviews": 89,
+   "address": "日本、〒770-8052 徳島県徳島市沖浜２丁目５",
+   "maps": "https://maps.google.com/?cid=12269990792146669949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Runnin' SPORTS 藍住店",
+   "rating": 4.6,
+   "reviews": 88,
+   "address": "日本、〒771-1220 徳島県板野郡藍住町東中富直道傍示29−３",
+   "maps": "https://maps.google.com/?cid=2046447859232333564&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "徳島 パーソナルジム STUDIO active",
+   "rating": 5,
+   "reviews": 78,
+   "address": "日本、〒770-0944 徳島県徳島市南昭和町１丁目１８−３ 2F",
+   "maps": "https://maps.google.com/?cid=18209334865613271341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムONE'STYLE",
+   "rating": 5,
+   "reviews": 77,
+   "address": "日本、〒770-0006 徳島県徳島市北矢三町３丁目１−７８ エムズ参番館 ５号",
+   "maps": "https://maps.google.com/?cid=14563059641358929129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 徳島店 Dynamis｜徳島 マシンピラティス",
+   "rating": 4.8,
+   "reviews": 68,
+   "address": "日本、〒770-8025 徳島県徳島市三軒屋町下分５７−５",
+   "maps": "https://maps.google.com/?cid=16919437882987477476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Tat Athlete gym(タットアスリートジム)",
+   "rating": 5,
+   "reviews": 66,
+   "address": "日本、〒770-0901 徳島県徳島市西船場町４丁目８ 1F",
+   "maps": "https://maps.google.com/?cid=1455513114542175101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ALLY GYM",
+   "rating": 5,
+   "reviews": 59,
+   "address": "日本、〒770-0912 徳島県徳島市東新町１丁目１６−１ VEEビル 2F",
+   "maps": "https://maps.google.com/?cid=1499989806877938833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 徳島石井店",
+   "rating": 4,
+   "reviews": 46,
+   "address": "日本、〒779-3233 徳島県名西郡石井町石井石井５０２",
+   "maps": "https://maps.google.com/?cid=3594470857508136632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "徳島ダイエット専門パーソナルジムchallengym【チャレンジム】",
+   "rating": 4.8,
+   "reviews": 30,
+   "address": "日本、〒770-0028 徳島県徳島市佐古八番町３−２０ 野村ビル １F",
+   "maps": "https://maps.google.com/?cid=10312228385929744241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "pilates＆relaxation Lagom",
+   "rating": 4.9,
+   "reviews": 28,
+   "address": "日本、〒770-8079 徳島県徳島市八万町大坪３０１−５",
+   "maps": "https://maps.google.com/?cid=5326188150504471742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)徳島店",
+   "rating": 4.8,
+   "reviews": 26,
+   "address": "日本、〒770-0905 徳島県徳島市東大工町１丁目９−１ 徳島ファーストビル 4F",
+   "maps": "https://maps.google.com/?cid=6456084402627210969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "wellbeパーソナルトレーニング",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒779-3233 徳島県徳島市北矢三町３丁目２−７０−１３",
+   "maps": "https://maps.google.com/?cid=10715233018955458090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "株式会社リレイズ",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒770-0047 徳島県徳島市名東町１丁目41−７",
+   "maps": "https://maps.google.com/?cid=6745858420977899380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム マクシム 佐古店",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒770-0026 徳島県徳島市佐古六番町８−９ 遠所ビル 1F",
+   "maps": "https://maps.google.com/?cid=12567824899812549741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニング ボディーケア本舗",
+   "rating": 4.9,
+   "reviews": 24,
+   "address": "日本、〒771-0125 徳島県徳島市川内町金岡４０−３ ラ・フォーレ Ⅲ ６０１号",
+   "maps": "https://maps.google.com/?cid=734324933930542598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Top Condition",
+   "rating": 4.8,
+   "reviews": 18,
+   "address": "日本、〒770-0004 徳島県徳島市南田宮３丁目３−４４",
+   "maps": "https://maps.google.com/?cid=4373812774567351102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス&コンディショニング リライズメルト (Pilates&Conditioning Relize Melt)",
+   "rating": 4.9,
+   "reviews": 18,
+   "address": "日本、〒770-0003 徳島県徳島市北田宮４丁目３−８",
+   "maps": "https://maps.google.com/?cid=1398846540643990154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム マクシム 新町橋店",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒770-0904 徳島県徳島市新町橋２丁目26−２ 新田ビル 3階",
+   "maps": "https://maps.google.com/?cid=14180806436104750728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム MELON 鴨島店",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒776-0013 徳島県吉野川市鴨島町上下島８７−３",
+   "maps": "https://maps.google.com/?cid=2842146550013872272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム MELON 藍住店",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒771-1253 徳島県板野郡藍住町矢上安任１３９−１ 2階",
+   "maps": "https://maps.google.com/?cid=3298198884658587417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "E-PLUS フィットネスジム 徳島市国府店",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒779-3118 徳島県徳島市国府町井戸高池窪49−４ 整骨院併設",
+   "maps": "https://maps.google.com/?cid=3328764883487133133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トクシマフィットネスラボ",
+   "rating": 4.7,
+   "reviews": 14,
+   "address": "日本、〒771-0126 徳島県徳島市川内町上別宮東４４−１",
+   "maps": "https://maps.google.com/?cid=5913721181124532718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RABBIT 24時間ジム＆パーソナル 北島店",
+   "rating": 4.7,
+   "reviews": 12,
+   "address": "日本、〒771-0203 徳島県板野郡北島町中村明神下４２−２",
+   "maps": "https://maps.google.com/?cid=7852928719787994676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RE:HAB tokushima -medical整体&sports training-",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒770-0912 徳島県徳島市東新町１丁目１６−１ VEEビル １F",
+   "maps": "https://maps.google.com/?cid=9419474482154984822&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "you｜徳島コンディショニングポイントユー",
+   "rating": 4.8,
+   "reviews": 10,
+   "address": "日本、〒770-0023 徳島県徳島市佐古三番町１２−２６ 三番町ビル 1F",
+   "maps": "https://maps.google.com/?cid=12228076946861507165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "bonniie bodymake studio for woman",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒770-0804 徳島県徳島市中吉野町１丁目2‐3",
+   "maps": "https://maps.google.com/?cid=15923649929120033766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL GYM NECT(パーソナルジム ネクト)",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒770-0816 徳島県徳島市助任本町５丁目１−１",
+   "maps": "https://maps.google.com/?cid=8096938563218212617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティスアヴニール徳島藍住店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒771-1262 徳島県板野郡藍住町笠木中野１０６",
+   "maps": "https://maps.google.com/?cid=17400389152245765049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム FREE",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒770-0006 徳島県徳島市北矢三町３丁目５−２０",
+   "maps": "https://maps.google.com/?cid=4994389365059709499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Private Gym i-FIT 沖洲店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒770-0874 徳島県徳島市南沖洲４丁目５−７ 3",
+   "maps": "https://maps.google.com/?cid=9919860696866548991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEXT BODY 24時間 無人ジム",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒770-8052 徳島県徳島市沖浜２丁目３０ 1F",
+   "maps": "https://maps.google.com/?cid=1537558161152708283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Happy Core Smile（ハッピーコアスマイル）",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒770-8008 徳島県徳島市西新浜町１丁目４−８−２",
+   "maps": "https://maps.google.com/?cid=2715837966940134864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【徳島】女性専用パーソナルジム メディカルフィットネスクリアMedical Fitness Clear",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒770-0916 徳島県徳島市銀座８",
+   "maps": "https://maps.google.com/?cid=15786265144950033053&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BUGLIBERTY(バグリバティ)西新浜店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒770-8008 徳島県徳島市西新浜町１丁目６−３７",
+   "maps": "https://maps.google.com/?cid=6451040961291502263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Pilates＆Training Studio Sora 北島店",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒771-0206 徳島県板野郡北島町高房百広花26−６ 1階",
+   "maps": "https://maps.google.com/?cid=5423215139344824797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Ｂｈファクトリー徳島店",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒770-0021 徳島県徳島市佐古一番町１０−６ いとうハウスビル",
+   "maps": "https://maps.google.com/?cid=17662513107431314900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムMELON徳島店",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒770-0923 徳島県徳島市大道４丁目11−１ 岡本ビル",
+   "maps": "https://maps.google.com/?cid=2657994579545695094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "A.G Fitness Gym",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒770-0865 徳島県徳島市南末広町２−８−１８ Peace Courage 1階 東側テナント",
+   "maps": "https://maps.google.com/?cid=17798614898319279646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "body&health mi 弎",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒770-0846 徳島県徳島市南内町１丁目６ 1f",
+   "maps": "https://maps.google.com/?cid=13107790779636697066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Reborn",
+   "rating": 3.7,
+   "reviews": 3,
+   "address": "日本、〒771-0144 徳島県徳島県徳島市川内町川内町榎瀬 榎瀬623-1 TISビル1Ｆ",
+   "maps": "https://maps.google.com/?cid=4239783155154742245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "WADA BODY WORKS ワダボディワークス",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒770-0045 徳島県徳島市南庄町５丁目 28 61 5",
+   "maps": "https://maps.google.com/?cid=6856027120557256378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "てつやジム",
+   "rating": 4.5,
+   "reviews": 2,
+   "address": "日本、〒770-8040 徳島県徳島市上八万町下中筋86−１ でぐち接骨院 2F",
+   "maps": "https://maps.google.com/?cid=5189760050097477163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ＧＲＯＷ 大道店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒770-0923 徳島県徳島市大道１丁目５９",
+   "maps": "https://maps.google.com/?cid=12622208029576757731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY MAKE STUDIO SKY",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒770-0963 徳島県徳島市中央通４丁目１３−２ 1階",
+   "maps": "https://maps.google.com/?cid=17358265529276940920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FOREVER PERFORMANCE",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒770-0864 徳島県徳島市安宅２丁目２−４８",
+   "maps": "https://maps.google.com/?cid=13276195705343888653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム happy blossom",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒770-0928 徳島県徳島市二軒屋町１丁目３８−２",
+   "maps": "https://maps.google.com/?cid=12028296033230965589&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "EMS FITNESS STUDIO",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒770-0021 徳島県徳島市佐古一番町８−９ 佐古クレストビル 2階",
+   "maps": "https://maps.google.com/?cid=13545058557643401372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムAid南昭和町店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒770-0944 徳島県徳島市南昭和町４丁目51番地 1Faceビル 1F",
+   "maps": "https://maps.google.com/?cid=8562709146770185617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マシンピラティス専門店 ピラティススタジオ Swan 徳島藍住店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒771-1211 徳島県板野郡藍住町徳命元村123番地1",
+   "maps": "https://maps.google.com/?cid=10054387970769815950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Hi-STANDARD personal gym(ハイスタンダードパーソナルジム)",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒770-0866 徳島県徳島市末広３丁目４−１３ H CONiS A 104号室",
+   "maps": "https://maps.google.com/?cid=17576671986126933796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムアヴニール徳島藍住店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒771-1262 徳島県板野郡藍住町笠木中野１０６",
+   "maps": "https://maps.google.com/?cid=17525252192517534057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

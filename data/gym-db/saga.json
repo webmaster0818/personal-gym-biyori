@@ -1,0 +1,487 @@
+{
+ "city": "佐賀",
+ "fetchedAt": "2026-09-06",
+ "query": "パーソナルジム 佐賀",
+ "gyms": [
+  {
+   "name": "パーソナルジムMake&Space",
+   "rating": 4.9,
+   "reviews": 246,
+   "address": "日本、〒840-0801 佐賀県佐賀市駅前中央２丁目１−１ 北口ビル 1階",
+   "maps": "https://maps.google.com/?cid=4851419932224902691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エスタ マイフィットネスSAGA",
+   "rating": 4.8,
+   "reviews": 194,
+   "address": "日本、〒849-0919 佐賀県佐賀市兵庫北５丁目１３−６３ エスタ マイフィットネス",
+   "maps": "https://maps.google.com/?cid=7210053462194141959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ホリデイスポーツクラブ 佐賀",
+   "rating": 4.5,
+   "reviews": 189,
+   "address": "日本、〒849-0934 佐賀県佐賀市開成６丁目５−３５",
+   "maps": "https://maps.google.com/?cid=17325941082004570695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 佐賀卸本町店",
+   "rating": 4.6,
+   "reviews": 161,
+   "address": "日本、〒849-0933 佐賀県佐賀市卸本町５−３０",
+   "maps": "https://maps.google.com/?cid=8596895898226145538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムP.F.R",
+   "rating": 4.9,
+   "reviews": 104,
+   "address": "日本、〒842-0002 佐賀県神埼市神埼町田道ヶ里２８９２−１ 2F",
+   "maps": "https://maps.google.com/?cid=17722780107891052891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24時間 ROUTii BASE（ルーティーベース）FITNESS",
+   "rating": 5,
+   "reviews": 101,
+   "address": "日本、〒840-0813 佐賀県佐賀市唐人２丁目４−２",
+   "maps": "https://maps.google.com/?cid=14218020926655275285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム・ストレッチ専門店ＧＯＡＬ 南佐賀店【ダイエット/肩こり/腰痛改善/姿勢改善】",
+   "rating": 4.9,
+   "reviews": 85,
+   "address": "日本、〒840-0016 佐賀県佐賀市南佐賀２丁目７−２２ 2階",
+   "maps": "https://maps.google.com/?cid=14671414473070904283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用24時間ジムRELI.STYLE（リリスタイル）",
+   "rating": 5,
+   "reviews": 84,
+   "address": "日本、〒840-0813 佐賀県佐賀市唐人２丁目２−１４ 3F リリスタイル",
+   "maps": "https://maps.google.com/?cid=1744194215754103618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム ストレッチ整体 EM☺︎FITNESS 小城三日月",
+   "rating": 5,
+   "reviews": 76,
+   "address": "日本、〒845-0021 佐賀県小城市三日月町",
+   "maps": "https://maps.google.com/?cid=13364813969039889908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEXUS 鍼灸整骨院｜パーソナルジム｜美容鍼灸エステ",
+   "rating": 5,
+   "reviews": 60,
+   "address": "日本、〒840-0054 佐賀県佐賀市水ヶ江３丁目３−４",
+   "maps": "https://maps.google.com/?cid=925825006408309934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Fitness Gym Fly",
+   "rating": 4.8,
+   "reviews": 54,
+   "address": "日本、〒845-0002 佐賀県小城市小城町畑田２６２６−３",
+   "maps": "https://maps.google.com/?cid=522342990094570788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Chura Making(チュラ メイキング)",
+   "rating": 5,
+   "reviews": 52,
+   "address": "日本、〒840-0857 佐賀県佐賀市鍋島町八戸１２４０−４ 賛 久 ビル 1F 東",
+   "maps": "https://maps.google.com/?cid=4557692478298881250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス佐賀大和",
+   "rating": 4.1,
+   "reviews": 51,
+   "address": "日本、〒840-0201 佐賀県佐賀市大和町大字尼寺３５３５",
+   "maps": "https://maps.google.com/?cid=1738967112451357231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Leash 鍋島店",
+   "rating": 4.8,
+   "reviews": 49,
+   "address": "日本、〒849-0937 佐賀県佐賀市鍋島１丁目９−６ 富崎ビル 1F3号室",
+   "maps": "https://maps.google.com/?cid=13067770442532023699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム ストレッチ整体 EM☺︎FITNESS 佐賀髙木瀬西店",
+   "rating": 5,
+   "reviews": 38,
+   "address": "日本、〒849-0921 佐賀県佐賀市高木瀬西３丁目４ 髙木瀬西3丁目4-39",
+   "maps": "https://maps.google.com/?cid=13550828314612675060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムGOAL 日の出店",
+   "rating": 4.9,
+   "reviews": 35,
+   "address": "日本、〒849-0923 佐賀県佐賀市日の出１丁目１３−３３ 2F",
+   "maps": "https://maps.google.com/?cid=18248686901210702482&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "VIP ONIX",
+   "rating": 5,
+   "reviews": 33,
+   "address": "日本、〒847-0022 佐賀県唐津市鏡４１１２",
+   "maps": "https://maps.google.com/?cid=5537027345064010713&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "クロスフィット肥前/CrossFit HIZEN",
+   "rating": 4.9,
+   "reviews": 32,
+   "address": "日本、〒840-0054 佐賀県佐賀市水ヶ江６丁目５−３３",
+   "maps": "https://maps.google.com/?cid=8515038713515963411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ハイアルチ佐賀スタジオ",
+   "rating": 4.7,
+   "reviews": 30,
+   "address": "日本、〒840-0804 佐賀県佐賀市神野東４丁目１２−２７",
+   "maps": "https://maps.google.com/?cid=15094622045890112606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "G.G.GYM ジージージム",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒841-0051 佐賀県鳥栖市元町１９２８−１",
+   "maps": "https://maps.google.com/?cid=12356704771617701182&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ROYAL WASH & FITNESS 大和店",
+   "rating": 3.9,
+   "reviews": 26,
+   "address": "日本、〒840-0201 佐賀県佐賀市大和町大字尼寺２６９２−１",
+   "maps": "https://maps.google.com/?cid=9503829964331518959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティスステーションライト佐賀",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒840-0801 佐賀県佐賀市駅前中央２丁目２−１０ 205 2階",
+   "maps": "https://maps.google.com/?cid=12714285250047535936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "+Rebody整体 Base Saga",
+   "rating": 4.9,
+   "reviews": 17,
+   "address": "日本、〒849-0919 佐賀県佐賀市兵庫北７丁目１２−３ M’s Garden夢旅人 1号棟",
+   "maps": "https://maps.google.com/?cid=6440043783141000640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム TRACE",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒840-0805 佐賀県佐賀市神野西２丁目４−１２ 1",
+   "maps": "https://maps.google.com/?cid=17991168728419393579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RED POWER GYM （レッドパワージム）",
+   "rating": 4.9,
+   "reviews": 15,
+   "address": "日本、〒840-0831 佐賀県佐賀市松原１丁目２−１８ 3F",
+   "maps": "https://maps.google.com/?cid=1782838720458942603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIFT FACTORY",
+   "rating": 4.7,
+   "reviews": 15,
+   "address": "日本、〒840-0859 佐賀県佐賀市新栄西１丁目２−４２",
+   "maps": "https://maps.google.com/?cid=221251433335563176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Natural Bodymake",
+   "rating": 4.3,
+   "reviews": 15,
+   "address": "日本、〒840-0054 佐賀県佐賀市水ヶ江５丁目８−３１",
+   "maps": "https://maps.google.com/?cid=6654974338966997578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング ストレッチ Best 大財 (ベスト)",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒840-0811 佐賀県佐賀市大財５丁目１１−２１ 103 ベリータ",
+   "maps": "https://maps.google.com/?cid=14663443949254645598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マウナジム",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒840-0027 佐賀県佐賀市本庄町本庄５３９−７ ２F",
+   "maps": "https://maps.google.com/?cid=13382831636619837810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ロイヤルフィットネス 佐賀店",
+   "rating": 4.3,
+   "reviews": 12,
+   "address": "日本、〒840-0841 佐賀県佐賀市緑小路２−１２ TOMOEビル 2F",
+   "maps": "https://maps.google.com/?cid=15647071683484859341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス佐賀・Wellnesslife pilates & yukaballet （女性専用）",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒849-0919 佐賀県佐賀市兵庫北７丁目９−１２",
+   "maps": "https://maps.google.com/?cid=13415072754084078198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Valor Style Fitness",
+   "rating": 4.8,
+   "reviews": 12,
+   "address": "日本、〒849-1106 佐賀県杵島郡白石町廿治１０８６−１ かねやビル １F",
+   "maps": "https://maps.google.com/?cid=15437642337035047158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ROYAL FITNESS鳥栖店",
+   "rating": 4.8,
+   "reviews": 12,
+   "address": "日本、〒841-0074 佐賀県鳥栖市西新町１４２２−３９６",
+   "maps": "https://maps.google.com/?cid=13386485822372456997&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Best 南部バイパス",
+   "rating": 4.8,
+   "reviews": 11,
+   "address": "日本、〒840-0032 佐賀県佐賀市末広２丁目６−36ー3",
+   "maps": "https://maps.google.com/?cid=15836853879069674309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アシスト24 佐賀神野西店",
+   "rating": 4.8,
+   "reviews": 11,
+   "address": "日本、〒840-0805 佐賀県佐賀市神野西４丁目２２−６",
+   "maps": "https://maps.google.com/?cid=7740076348021864450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム「アクティブアリーナ Active Arena」(旧ライジングジム)",
+   "rating": 4.9,
+   "reviews": 10,
+   "address": "日本、〒840-0801 佐賀県佐賀市駅前中央３丁目１６−１４ 1階",
+   "maps": "https://maps.google.com/?cid=14290442739092699132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "シェイプジムカリフォルニア",
+   "rating": 4.5,
+   "reviews": 10,
+   "address": "日本、〒840-0023 佐賀県佐賀市本庄町袋袋３２５−３",
+   "maps": "https://maps.google.com/?cid=6503577123652238806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "佐賀パーソナルカラー診断/占いサロン LINO",
+   "rating": 4.9,
+   "reviews": 10,
+   "address": "日本、〒840-0027 佐賀県佐賀市本庄町本庄",
+   "maps": "https://maps.google.com/?cid=246313744199333473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NEXT BODY GYM & POOL パーソナルジム＆流水プール＆ボディケア",
+   "rating": 4.9,
+   "reviews": 10,
+   "address": "日本、〒840-0856 佐賀県佐賀市新生町５−１５",
+   "maps": "https://maps.google.com/?cid=7802440774194853335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジーワークスパフォーマンス | GWORKS PERFORMANCE",
+   "rating": 4.9,
+   "reviews": 9,
+   "address": "日本、〒840-0842 佐賀県佐賀市多布施４丁目１−１８ フェリシティ 101号室",
+   "maps": "https://maps.google.com/?cid=12275590019803299525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)佐賀店",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒840-0801 佐賀県佐賀市駅前中央１丁目１−４ パエーゼ駅南 504/502",
+   "maps": "https://maps.google.com/?cid=18060625903828535471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングM.M FITNESSS",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒840-0801 佐賀県佐賀市駅前中央３丁目１６−１４",
+   "maps": "https://maps.google.com/?cid=12557348158943955958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SPACE ｜Powerlifting ＆ HairSalon",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒849-0932 佐賀県佐賀市鍋島町八戸溝１６０−２",
+   "maps": "https://maps.google.com/?cid=12258572112402021525&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィッターズ佐賀",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒840-0801 佐賀県佐賀市駅前中央３丁目１５−７",
+   "maps": "https://maps.google.com/?cid=15718914939399153815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィッターズ神埼",
+   "rating": 4.5,
+   "reviews": 6,
+   "address": "日本、〒842-0002 佐賀県神埼市神埼町田道ヶ里１９９８−３",
+   "maps": "https://maps.google.com/?cid=16656541642828170190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE BODY BEAUTIFUL",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒840-0804 佐賀県佐賀市神野東４丁目７−２１",
+   "maps": "https://maps.google.com/?cid=10481518517604771784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "さかえまちスポーツスタジオ",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒840-0801 佐賀県佐賀市駅前中央１丁目４−１７ コムボックス佐賀駅前 2F",
+   "maps": "https://maps.google.com/?cid=8589829685702753622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライジング トレーナーズ 整骨院",
+   "rating": 4.4,
+   "reviews": 5,
+   "address": "日本、〒849-0922 佐賀県佐賀市高木瀬東２丁目１４−１１",
+   "maps": "https://maps.google.com/?cid=7279626722563967565&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "サンテヴィータパーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒842-0006 佐賀県神埼市神埼町枝ヶ里１１１−１",
+   "maps": "https://maps.google.com/?cid=12525909392158224003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "古民家パーソナルジム〜Roots",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒849-0123 佐賀県三養基郡上峰町坊所６２４",
+   "maps": "https://maps.google.com/?cid=12760274769302127807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム・ハレトレ",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒849-0937 佐賀県佐賀市鍋島３丁目４−２９",
+   "maps": "https://maps.google.com/?cid=15619628064339090173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRUNK BODY",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒849-0626 佐賀県佐賀市若宮３丁目１−３７ 堤ビル 1F",
+   "maps": "https://maps.google.com/?cid=5388262473899535592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングハウスJourney",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒845-0033 佐賀県小城市三日月町樋口１１００",
+   "maps": "https://maps.google.com/?cid=16605735648944485830&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "J-STUDIO",
+   "rating": 4.7,
+   "reviews": 3,
+   "address": "日本、〒840-0054 佐賀県佐賀市水ヶ江４丁目２−１５",
+   "maps": "https://maps.google.com/?cid=15979124423226617674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "動ける体を作るジム Medifit Plus 高木瀬",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒849-0922 佐賀県佐賀市高木瀬東２丁目１５−２ 102号",
+   "maps": "https://maps.google.com/?cid=2378648007325252454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Quest -クエスト-パーソナルトレーニングジム、新体操ダンス教室",
+   "rating": 4.5,
+   "reviews": 2,
+   "address": "日本、〒840-0844 佐賀県佐賀市伊勢町２−３７",
+   "maps": "https://maps.google.com/?cid=4370697683080259491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FORCE Fitness",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒840-0834 佐賀県佐賀市八幡小路２−１１ 2F",
+   "maps": "https://maps.google.com/?cid=13827834418424655519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Ｑuestトレーニングジム",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒840-0045 佐賀県佐賀市西田代１丁目５−５",
+   "maps": "https://maps.google.com/?cid=1864222392702952342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DEAR TOMORROW",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒840-0824 佐賀県佐賀市呉服元町７−１０ 南",
+   "maps": "https://maps.google.com/?cid=3609419941962543637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MOM pilates -マム ピラティス-",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒849-0913 佐賀県佐賀市兵庫町渕",
+   "maps": "https://maps.google.com/?cid=261567504765041098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

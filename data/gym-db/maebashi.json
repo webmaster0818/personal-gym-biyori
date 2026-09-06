@@ -1,0 +1,415 @@
+{
+ "city": "前橋",
+ "fetchedAt": "2026-09-06",
+ "query": "パーソナルジム 前橋",
+ "gyms": [
+  {
+   "name": "ディーズスポーツプラザ前橋ローズタウン店",
+   "rating": 4.8,
+   "reviews": 239,
+   "address": "日本、〒371-0002 群馬県前橋市江木町１７０１−１",
+   "maps": "https://maps.google.com/?cid=7173286201981691461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスジムFIT365前橋朝日",
+   "rating": 4.7,
+   "reviews": 135,
+   "address": "日本、〒371-0014 群馬県前橋市朝日町１丁目３８−３５",
+   "maps": "https://maps.google.com/?cid=5144638297138476433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "DIM LABO前橋川原店",
+   "rating": 5,
+   "reviews": 125,
+   "address": "日本、〒371-0046 群馬県前橋市川原町２丁目13−５ North Shore E室",
+   "maps": "https://maps.google.com/?cid=11988867420347946352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスジムFIT365前橋荒牧",
+   "rating": 4.6,
+   "reviews": 121,
+   "address": "日本、〒371-0044 群馬県前橋市荒牧町２丁目1−３",
+   "maps": "https://maps.google.com/?cid=8430376792969207371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セントラルウェルネスクラブ24前橋",
+   "rating": 3.8,
+   "reviews": 121,
+   "address": "日本、〒379-2154 群馬県前橋市天川大島町１丁目2−１",
+   "maps": "https://maps.google.com/?cid=9252869943134506209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "キックボクシング パーソナルジム KICKDAYS前橋",
+   "rating": 4.9,
+   "reviews": 102,
+   "address": "日本、〒371-0031 群馬県前橋市下小出町１丁目26−１８",
+   "maps": "https://maps.google.com/?cid=15945903613274914835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MY-BODY 前橋店",
+   "rating": 4.9,
+   "reviews": 97,
+   "address": "日本、〒371-0018 群馬県前橋市三俣町３丁目11−１２",
+   "maps": "https://maps.google.com/?cid=1786458395767555880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "werea 24h Fitness Gym【ウェリア】前橋吉岡",
+   "rating": 4.8,
+   "reviews": 83,
+   "address": "日本、〒370-3602 群馬県北群馬郡吉岡町大久保８９１−１",
+   "maps": "https://maps.google.com/?cid=4082004766603869713&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEYOND前橋",
+   "rating": 4.9,
+   "reviews": 74,
+   "address": "日本、〒371-0023 群馬県前橋市本町２丁目４−３ けやきスクエア 2F",
+   "maps": "https://maps.google.com/?cid=9436998248141163868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ゴールドジム前橋インター",
+   "rating": 4.2,
+   "reviews": 67,
+   "address": "日本、〒370-0001 群馬県高崎市中尾町44番地 アカマルA館1階",
+   "maps": "https://maps.google.com/?cid=1304999597734114107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "キックボクシング パーソナルジム KICKDAYS前橋南",
+   "rating": 4.8,
+   "reviews": 59,
+   "address": "日本、〒371-0803 群馬県前橋市天川原町１丁目1−１",
+   "maps": "https://maps.google.com/?cid=4599887479523626370&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 前橋吉岡店",
+   "rating": 3.9,
+   "reviews": 59,
+   "address": "日本、〒370-3602 群馬県北群馬郡吉岡町大久保７５０−３",
+   "maps": "https://maps.google.com/?cid=17022788846432615277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Body Desing Studio Remake",
+   "rating": 5,
+   "reviews": 54,
+   "address": "日本、〒371-0054 群馬県前橋市下細井町１２０−１３",
+   "maps": "https://maps.google.com/?cid=18330261578983655347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "La pilates 前橋店《整体×マシンピラティススタジオ》ラピラティス",
+   "rating": 4.9,
+   "reviews": 48,
+   "address": "日本、〒371-0803 群馬県前橋市天川原町１丁目20−８ ラ・ベル・エキップ １階A号室",
+   "maps": "https://maps.google.com/?cid=1593621479593107741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Hi-Fitness",
+   "rating": 5,
+   "reviews": 39,
+   "address": "日本、〒371-0804 群馬県前橋市六供町５丁目20−８ 第二ミナミビル 103",
+   "maps": "https://maps.google.com/?cid=7760598716252816690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』前橋店",
+   "rating": 4.9,
+   "reviews": 37,
+   "address": "日本、〒371-0805 群馬県前橋市南町３丁目75−１３ 小曽根ビル 1F",
+   "maps": "https://maps.google.com/?cid=9612672886874055544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REAL FITNESS AZBL24前橋インター店",
+   "rating": 4.5,
+   "reviews": 35,
+   "address": "日本、〒371-0845 群馬県前橋市鳥羽町４１７−１０",
+   "maps": "https://maps.google.com/?cid=9055134481322145108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボニータ",
+   "rating": 5,
+   "reviews": 32,
+   "address": "日本、〒371-0847 群馬県前橋市大友町１丁目16−１３",
+   "maps": "https://maps.google.com/?cid=3174952684359995771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "n3 PILATES MAEBASHI",
+   "rating": 4.9,
+   "reviews": 29,
+   "address": "日本、〒371-0022 群馬県前橋市千代田町２丁目４−４ スズラン別館 2F",
+   "maps": "https://maps.google.com/?cid=2889842754333645648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ソネットフィットネス 前橋",
+   "rating": 4.1,
+   "reviews": 26,
+   "address": "日本、〒371-0847 群馬県前橋市大友町２丁目6−１ ソネット本社ビル 2F",
+   "maps": "https://maps.google.com/?cid=8471873663777624873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムGYM PLANET川原町店",
+   "rating": 5,
+   "reviews": 25,
+   "address": "日本、〒371-0046 群馬県前橋市川原町２丁目16番地13 リッツハウス A号",
+   "maps": "https://maps.google.com/?cid=8826664611931369354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ココロコ前橋店",
+   "rating": 4.7,
+   "reviews": 22,
+   "address": "日本、〒371-0014 群馬県前橋市朝日町３丁目２１−３６ 商業施設 棟 ２F",
+   "maps": "https://maps.google.com/?cid=17656485866806235490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MiaMia(ミアミア)",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒371-0026 群馬県前橋市大手町２丁目１０−７ 新曲輪橋ビル 1F101",
+   "maps": "https://maps.google.com/?cid=11117382744598884448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "IGNITE GYM",
+   "rating": 3.2,
+   "reviews": 19,
+   "address": "日本、〒371-0856 群馬県前橋市総社町高井１０４−１",
+   "maps": "https://maps.google.com/?cid=4690579206205854671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FiT24 前橋天川大島店",
+   "rating": 3.4,
+   "reviews": 19,
+   "address": "日本、〒379-2154 群馬県前橋市天川大島町３３−１",
+   "maps": "https://maps.google.com/?cid=5890260101179045674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "かわはら整骨院パーソナルトレーニングラボ＆Lapeaceボディケア",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒371-0046 群馬県前橋市川原町１丁目２８−３",
+   "maps": "https://maps.google.com/?cid=1249116750166952356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム CORPRO",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒371-0801 群馬県前橋市文京町３丁目３４−１ BlueRose-C",
+   "maps": "https://maps.google.com/?cid=1340580238082915594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "OBERIO(オベリオ) Bodymake & Coloring salon",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒371-0021 群馬県前橋市住吉町１丁目４−１ KAWA BUILDING 501",
+   "maps": "https://maps.google.com/?cid=17378431759548658122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SHOWTIME 前橋店",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒371-0847 群馬県前橋市大友町３丁目１５−３１ センチュリー前橋大友町 2階",
+   "maps": "https://maps.google.com/?cid=15474021239203935726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ユニコーンジム",
+   "rating": 4.2,
+   "reviews": 13,
+   "address": "日本、〒371-0855 群馬県前橋市問屋町１丁目１１−３",
+   "maps": "https://maps.google.com/?cid=2729661668587164786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムGYMPLANET紅雲町店",
+   "rating": 4.3,
+   "reviews": 12,
+   "address": "日本、〒371-0025 群馬県前橋市紅雲町２丁目２５−２ メゾン・ドゥ・フォレ 103",
+   "maps": "https://maps.google.com/?cid=16519758332616307389&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アルファボディプラン",
+   "rating": 4.8,
+   "reviews": 12,
+   "address": "日本、〒371-0855 群馬県前橋市問屋町２丁目4−３ アルファビル 8F",
+   "maps": "https://maps.google.com/?cid=6740701475612935207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ゼファー",
+   "rating": 4.9,
+   "reviews": 9,
+   "address": "日本、〒371-0023 群馬県前橋市本町１丁目２−２１",
+   "maps": "https://maps.google.com/?cid=16248424545810455439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Natural Fitness",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒371-0805 群馬県前橋市南町２丁目32−５ solana２階Ｈ",
+   "maps": "https://maps.google.com/?cid=5976676220420173255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングスタジオ エムイー",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒371-0804 群馬県前橋市六供町１丁目１３−１",
+   "maps": "https://maps.google.com/?cid=3050166451454649948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムDROIT前橋広瀬川",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒371-0016 群馬県前橋市城東町１丁目１−１ シティテラス前橋広瀬川1F",
+   "maps": "https://maps.google.com/?cid=1381902690909756871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REAL FITNESS AZBL PRIVATE",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒371-0842 群馬県前橋市下石倉町１２−４",
+   "maps": "https://maps.google.com/?cid=12152089776640345581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディメイクスタジオPRONGS",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒371-0054 群馬県前橋市下細井町５５９−１６",
+   "maps": "https://maps.google.com/?cid=1731666604135150898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PRIVATE GYM HOOP",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒371-0023 群馬県前橋市本町１丁目１１−６",
+   "maps": "https://maps.google.com/?cid=12574657553404684979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Part of life『パーソナルジム』",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒371-0014 群馬県前橋市朝日町２丁目１４−３０",
+   "maps": "https://maps.google.com/?cid=12167923543869698834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B5 studio 前橋店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒371-0103 群馬県前橋市富士見町小暮１６０７−３",
+   "maps": "https://maps.google.com/?cid=15045850498882553008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24時間プライベートジムS.H.O",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒371-0017 群馬県前橋市日吉町３丁目31番１７ adaptビル 1F",
+   "maps": "https://maps.google.com/?cid=10045471577515527658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "レガロス前橋店（パーソナルトレーニングジム ）",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒371-0841 群馬県前橋市石倉町４丁目５−７ イングス ２ーA",
+   "maps": "https://maps.google.com/?cid=3277367108855923666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エンタメパーソナルジム 前橋店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒371-0002 群馬県前橋市江木町１７０１−１",
+   "maps": "https://maps.google.com/?cid=2763909776971500003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "amusant 完全個室パーソナルジム",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒371-0034 群馬県前橋市昭和町３丁目４−１５ ルソーホ 101",
+   "maps": "https://maps.google.com/?cid=6092565792384443940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REAL FITNESS AZBL BOX前橋下石倉店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒371-0842 群馬県前橋市下石倉町１２−４",
+   "maps": "https://maps.google.com/?cid=11995237157119395027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "NiiS NATURAL MOVEMENT LAB (ニース）",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒371-0847 群馬県前橋市大友町２丁目29−５ コミューン１００ 2-B",
+   "maps": "https://maps.google.com/?cid=6220140492648259396&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジムElvina",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒371-0842 群馬県前橋市下石倉町１２−４",
+   "maps": "https://maps.google.com/?cid=7624086911290251276&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "前橋 パーソナルジム｜フィアライド前橋YUMEスタジオ店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒371-0846 群馬県前橋市元総社町２丁目２４−２０ YUMEスタジオ内",
+   "maps": "https://maps.google.com/?cid=15998698850446021458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "出張型ジム Cuelpo",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒371-0015 群馬県前橋市三河町１丁目２９−１２",
+   "maps": "https://maps.google.com/?cid=6434423163292314359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "まえばしトレーニングジムReal",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒371-0805 群馬県前橋市南町２丁目50−１ 轟ビル 102号室",
+   "maps": "https://maps.google.com/?cid=9648159787738885707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

@@ -1,0 +1,367 @@
+{
+ "city": "福島",
+ "fetchedAt": "2026-09-06",
+ "query": "パーソナルジム 福島市",
+ "gyms": [
+  {
+   "name": "24フィットネスアミーゴ 仁井田店",
+   "rating": 4.9,
+   "reviews": 306,
+   "address": "日本、〒960-8166 福島県福島市仁井田谷地南１５−４",
+   "maps": "https://maps.google.com/?cid=3870109543953134779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24フィットネスアミーゴ 鳥谷野店",
+   "rating": 4.8,
+   "reviews": 286,
+   "address": "日本、〒960-8152 福島県福島市鳥谷野岩田 字岩田52-1",
+   "maps": "https://maps.google.com/?cid=15997520381228863161&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24フィットネスアミーゴ 矢野目店",
+   "rating": 4.8,
+   "reviews": 250,
+   "address": "日本、〒960-0113 福島県福島市北矢野目原田６７−２１",
+   "maps": "https://maps.google.com/?cid=12244864689023925144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アッティーボジム福島店",
+   "rating": 4.4,
+   "reviews": 205,
+   "address": "日本、〒960-0102 福島県福島市鎌田舟戸前14−１ ドン・キホーテ福島 3F",
+   "maps": "https://maps.google.com/?cid=8249442989407615788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24フィットネスアミーゴ 鎌田店",
+   "rating": 4.8,
+   "reviews": 196,
+   "address": "日本、〒960-0102 福島県福島市鎌田町３４−７",
+   "maps": "https://maps.google.com/?cid=14378501328302257920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24フィットネスアミーゴ 南町店",
+   "rating": 4.8,
+   "reviews": 196,
+   "address": "日本、〒960-8162 福島県福島市南町４４９",
+   "maps": "https://maps.google.com/?cid=918408800490717969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24フィットネスアミーゴ 大森店",
+   "rating": 4.9,
+   "reviews": 117,
+   "address": "日本、〒960-1101 福島県福島市大森島ノ内７９−１",
+   "maps": "https://maps.google.com/?cid=17465841905405589566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24フィットネスアミーゴ 野田店",
+   "rating": 4.9,
+   "reviews": 84,
+   "address": "日本、〒960-8055 福島県福島市野田町４丁目２−３４−１",
+   "maps": "https://maps.google.com/?cid=13269458568862946266&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "G-Lounge いわき泉店",
+   "rating": 4.9,
+   "reviews": 63,
+   "address": "日本、〒971-8182 福島県いわき市泉町滝尻六百町１−１ 泉テラス C号",
+   "maps": "https://maps.google.com/?cid=7116956320592651301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムbeau belle(ボーベル)大森店",
+   "rating": 4.9,
+   "reviews": 51,
+   "address": "日本、〒960-1101 福島県福島市大森下町3−１４ 2F",
+   "maps": "https://maps.google.com/?cid=10460109583823983025&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24フィットネスアミーゴ 御山店",
+   "rating": 4.8,
+   "reviews": 49,
+   "address": "日本、〒960-8252 福島県福島市御山稲荷田８６−１",
+   "maps": "https://maps.google.com/?cid=4435594939873198654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MP TRAINING 伊達店",
+   "rating": 4.7,
+   "reviews": 45,
+   "address": "日本、〒960-0428 福島県伊達市坂ノ上９−１ 1F",
+   "maps": "https://maps.google.com/?cid=2532440965330581049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FiT24 福島南店",
+   "rating": 3.1,
+   "reviews": 33,
+   "address": "日本、〒960-8153 福島県福島市黒岩中島２−１",
+   "maps": "https://maps.google.com/?cid=4521130058604482256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディカルフィットネス リ・バース いわき本店",
+   "rating": 4.8,
+   "reviews": 32,
+   "address": "日本、〒970-8026 福島県いわき市平堂根町２−１",
+   "maps": "https://maps.google.com/?cid=10805124921312169929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピュアネス福島",
+   "rating": 3.7,
+   "reviews": 32,
+   "address": "日本、〒960-0112 福島県福島市南矢野目菅原５０−８",
+   "maps": "https://maps.google.com/?cid=1783229850583576424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT365福島泉",
+   "rating": 3.6,
+   "reviews": 31,
+   "address": "日本、〒960-8253 福島県福島市泉乙天堂2",
+   "maps": "https://maps.google.com/?cid=11059125819169486519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MP TRAINING 南福島店",
+   "rating": 4.6,
+   "reviews": 28,
+   "address": "日本、〒960-8152 福島県福島市鳥谷野舘７ ７番C",
+   "maps": "https://maps.google.com/?cid=8982585258036054960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスジムFIT365福島瀬上",
+   "rating": 3.4,
+   "reviews": 27,
+   "address": "日本、〒960-0101 福島県福島市瀬上町穴田１４−１ スポーツクラブジョイフィット福島瀬上",
+   "maps": "https://maps.google.com/?cid=18155514800228447311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツメイト・ウィン 福島",
+   "rating": 4,
+   "reviews": 26,
+   "address": "日本、〒960-8072 福島県福島市北中央１丁目３３",
+   "maps": "https://maps.google.com/?cid=13822108749256109195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マイティー整骨院 リラクゼーションサロンCoCoa",
+   "rating": 4.8,
+   "reviews": 25,
+   "address": "日本、〒960-8252 福島県福島市御山三本松29−２",
+   "maps": "https://maps.google.com/?cid=16343590059539475378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ストレートスポーツセンター（STR8SPORTCENTER）",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒960-8252 福島県福島市御山中川原65−２",
+   "maps": "https://maps.google.com/?cid=17420879490744684318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネス×エステサロン Taiyo と Tsuki.",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒960-8154 福島県福島市伏拝台田21−２",
+   "maps": "https://maps.google.com/?cid=14722850838512464313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム 和 NAGI",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒960-8055 福島県福島市野田町５丁目１０−１１",
+   "maps": "https://maps.google.com/?cid=3513546623058931852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディクト整骨院",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒960-8137 福島県福島市堀河町１−７ 101号室",
+   "maps": "https://maps.google.com/?cid=17010038302898851773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム ハピっと",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒960-8074 福島県福島市西中央３丁目26−１ ピアザ西部 203号室",
+   "maps": "https://maps.google.com/?cid=15786830808684788876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムbeau belle（ボーベル）伊達店",
+   "rating": 4.8,
+   "reviews": 13,
+   "address": "日本、〒960-0689 福島県伊達市保原町高子岡238番地 一 部",
+   "maps": "https://maps.google.com/?cid=5615429593743669597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムRe：Reflet",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒960-0112 福島県福島市南矢野目新田5−３−１",
+   "maps": "https://maps.google.com/?cid=15699487001776676456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジムbeau belle(ボーベル)矢野目店",
+   "rating": 4.6,
+   "reviews": 10,
+   "address": "日本、〒960-0102 福島県福島市南矢野目荒屋敷53ー11",
+   "maps": "https://maps.google.com/?cid=2888070729822709247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リベル フィットネス ボクシング",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒960-8154 福島県福島市伏拝田中29",
+   "maps": "https://maps.google.com/?cid=9254358690894405755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "D's personal（ディーズパーソナル） 福島市 パーソナルジム ダイエット",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒960-0113 福島県福島市北矢野目原田50−１ ポワクール F103",
+   "maps": "https://maps.google.com/?cid=11610553306623440712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ATHLETE MOVEMENT",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒960-8054 福島県福島市三河北町６−２０",
+   "maps": "https://maps.google.com/?cid=7975704360923651377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "private gym Y’s（プライベートジムワイズ）",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒969-1643 福島県伊達郡桑折町谷地追分６−２",
+   "maps": "https://maps.google.com/?cid=1871693415294613558&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GreenPilaFit",
+   "rating": 4.3,
+   "reviews": 4,
+   "address": "日本、〒960-8035 福島県福島市本町２−８ リードパセオビル 2F",
+   "maps": "https://maps.google.com/?cid=5967860514627053557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メープルＧｙｍ１ｓｔ",
+   "rating": 3.8,
+   "reviews": 4,
+   "address": "日本、〒960-8051 福島県福島市曽根田町３−１７",
+   "maps": "https://maps.google.com/?cid=15951726840464270496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "D'mov Training Center",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒960-8003 福島県福島市森合小松原１５−１８ 2F",
+   "maps": "https://maps.google.com/?cid=10955134607370126943&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MOLA GYM モーラジム パーソナルトレーニングジム",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒960-8164 福島県福島市八木田中島１１３−９",
+   "maps": "https://maps.google.com/?cid=10939656530278170683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングNAX",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒960-8141 福島県福島市渡利番匠町3−１ ポモドーリ A105",
+   "maps": "https://maps.google.com/?cid=12965546851548584053&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムSTARTIVE",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒964-0911 福島県二本松市亀谷１丁目１２７",
+   "maps": "https://maps.google.com/?cid=14592630501623156037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KIKUCHIGYMキクチジム",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒960-0113 福島県福島市北矢野目舘１４−１",
+   "maps": "https://maps.google.com/?cid=12360597425355743623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYM Avanvita（アヴァンヴィータ）",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒960-8141 福島県福島市渡利岩崎町６３−１",
+   "maps": "https://maps.google.com/?cid=4304862081350503915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム Terra",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒960-8055 福島県福島市野田町清水尻１２−１",
+   "maps": "https://maps.google.com/?cid=14886143895099069563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "style up space SATOHO",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒960-8105 福島県福島市仲間町６−８",
+   "maps": "https://maps.google.com/?cid=14011677768882572232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用フィットネスジム メイクト",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒960-8141 福島県福島市渡利大久保72−７ B号",
+   "maps": "https://maps.google.com/?cid=17258043625041944209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム 加圧トレーニング&整体 HORI",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒960-8252 福島県福島市御山仲ノ町１０３−１０ ハウス優優 101",
+   "maps": "https://maps.google.com/?cid=5631663822336964093&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【パーソナルピラティス】ELEMENT(エレメント)福島店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒960-8152 福島県福島市鳥谷野岩田５２−１ 24 フィットネスアミーゴ鳥谷野店内",
+   "maps": "https://maps.google.com/?cid=14145035924385476237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
