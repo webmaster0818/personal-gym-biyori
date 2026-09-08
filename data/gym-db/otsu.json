@@ -1,0 +1,463 @@
+{
+ "city": "大津",
+ "fetchedAt": "2026-09-08",
+ "query": "パーソナルジム 大津",
+ "gyms": [
+  {
+   "name": "FIT PLACE24 大津瀬田店",
+   "rating": 4.8,
+   "reviews": 277,
+   "address": "日本、〒520-2145 滋賀県大津市大将軍１丁目１−２７ 2F",
+   "maps": "https://maps.google.com/?cid=16290869360745564164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムGROW 南草津本店",
+   "rating": 4.9,
+   "reviews": 174,
+   "address": "日本、〒525-0050 滋賀県草津市南草津１丁目1−５ アーバンホテル テナント2号室1F",
+   "maps": "https://maps.google.com/?cid=4198078589866099150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス大津膳所店",
+   "rating": 4.4,
+   "reviews": 115,
+   "address": "日本、〒520-0802 滋賀県大津市馬場１丁目１９−１",
+   "maps": "https://maps.google.com/?cid=3157846711554738489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大津ボクシング・フィットネスジム",
+   "rating": 4.9,
+   "reviews": 114,
+   "address": "日本、〒520-0853 滋賀県大津市螢谷１−５０",
+   "maps": "https://maps.google.com/?cid=12122108381355382816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用フィットネスLBC",
+   "rating": 4.9,
+   "reviews": 88,
+   "address": "日本、〒520-2152 滋賀県大津市月輪１丁目３−８ アル・プラザ瀬田 ４F",
+   "maps": "https://maps.google.com/?cid=13456486456029521233&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスジムFIT365 大津瀬田",
+   "rating": 4,
+   "reviews": 86,
+   "address": "日本、〒520-2134 滋賀県大津市瀬田１丁目１−１ 2F",
+   "maps": "https://maps.google.com/?cid=6517487085370862027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Muscle Quality大津店",
+   "rating": 5,
+   "reviews": 85,
+   "address": "日本、〒520-0106 滋賀県大津市唐崎１丁目１−８０",
+   "maps": "https://maps.google.com/?cid=3105571715230348846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FREYJA(フレイヤ) 滋賀石山店",
+   "rating": 4.8,
+   "reviews": 85,
+   "address": "日本、〒520-0831 滋賀県大津市松原町１３−１５",
+   "maps": "https://maps.google.com/?cid=11396169847973695964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フレイヤ 大津京店",
+   "rating": 4.9,
+   "reviews": 83,
+   "address": "日本、〒520-0025 滋賀県大津市皇子が丘２丁目９−２２ 西大津ひまわりビル 4F",
+   "maps": "https://maps.google.com/?cid=3295362297315037764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニンジムGROW 大津瀬田店",
+   "rating": 5,
+   "reviews": 75,
+   "address": "日本、〒520-2144 滋賀県大津市大萱１丁目５−８ 瀬田エステートシティ 3F-1",
+   "maps": "https://maps.google.com/?cid=5940922029465400093&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムGROW 南草津2号店",
+   "rating": 4.9,
+   "reviews": 74,
+   "address": "日本、〒525-0059 滋賀県草津市野路１丁目９−１７ VENZAITEN BLDG.MINAMIKUSATSU 1階",
+   "maps": "https://maps.google.com/?cid=2891185240076785174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【業界最安水準】ダイエット専門プライベートジム HPER(ハイパー) 大津店",
+   "rating": 5,
+   "reviews": 71,
+   "address": "日本、〒520-0042 滋賀県大津市中央４丁目１−１４ 太陽ビル 2階",
+   "maps": "https://maps.google.com/?cid=3226754577726182594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティスアヴニール大津京店",
+   "rating": 4.9,
+   "reviews": 63,
+   "address": "日本、〒520-0025 滋賀県大津市皇子が丘２丁目１０−１ CIRCLE2F",
+   "maps": "https://maps.google.com/?cid=15757641959200252431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Muscle Quality草津店",
+   "rating": 5,
+   "reviews": 52,
+   "address": "日本、〒525-0054 滋賀県草津市東矢倉２丁目５−３６ 189ビル 5F",
+   "maps": "https://maps.google.com/?cid=2350892449031018419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティスアヴニール大津店",
+   "rating": 4.9,
+   "reviews": 48,
+   "address": "日本、〒520-0804 滋賀県大津市本宮１丁目１−１ 本宮ビル 102",
+   "maps": "https://maps.google.com/?cid=8383286179269464368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスジムFIT365大津京",
+   "rating": 4,
+   "reviews": 44,
+   "address": "日本、〒520-0014 滋賀県大津市柳川２丁目６−１",
+   "maps": "https://maps.google.com/?cid=17015116078261468711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "大津市パーソナルジム体幹ダイエット専門CRIAR(クリアー)",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒520-2144 滋賀県大津市大萱１丁目１９−１９ シルバーハイツ瀬田 407",
+   "maps": "https://maps.google.com/?cid=777184234344416934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブNAS大津一里山",
+   "rating": 3.4,
+   "reviews": 39,
+   "address": "日本、〒520-2153 滋賀県大津市一里山７丁目１−１ フォレオ大津 内",
+   "maps": "https://maps.google.com/?cid=1763564894481030810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HYPER FIT 24 大津京店",
+   "rating": 3.8,
+   "reviews": 36,
+   "address": "日本、〒520-0024 滋賀県大津市松山町１２−８",
+   "maps": "https://maps.google.com/?cid=16973095915166025337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カラダ Design Lab.",
+   "rating": 4.8,
+   "reviews": 29,
+   "address": "日本、〒520-2144 滋賀県大津市大萱１丁目９−８ S’ space 5階",
+   "maps": "https://maps.google.com/?cid=6959156538414291015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "W/Oパーソナルジム 南草津かがやき店",
+   "rating": 4.9,
+   "reviews": 28,
+   "address": "日本、〒525-0048 滋賀県草津市追分南４丁目２−３ かがやきテラス ２階",
+   "maps": "https://maps.google.com/?cid=11099496213124384314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングスタジオFUNCTY",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒520-0043 滋賀県大津市中央２丁目３−３ 1階",
+   "maps": "https://maps.google.com/?cid=6406022662664307011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "高地トレーニングジムHAYA-ASHI",
+   "rating": 4.9,
+   "reviews": 24,
+   "address": "日本、〒520-0863 滋賀県大津市千町１丁目２５−２５ ２F",
+   "maps": "https://maps.google.com/?cid=12818109567603003541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HYPER FIT 24 大津堅田店",
+   "rating": 3.1,
+   "reviews": 23,
+   "address": "日本、〒520-0244 滋賀県大津市衣川１丁目３７−７",
+   "maps": "https://maps.google.com/?cid=8779581242949459858&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムLife-With 大津店",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒5250056 滋賀県大津市末広町２−１１６−５ 2FL",
+   "maps": "https://maps.google.com/?cid=12480085808363008264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "まいれパーソナルトレーニング 堅田",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒520-0242 滋賀県大津市本堅田６丁目２６−２ 2店舗",
+   "maps": "https://maps.google.com/?cid=812863408659827792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "West Coast (ウェストコースト) パーソナルトレーニング•マシンピラティス",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒520-0242 滋賀県大津市本堅田５丁目１６−２２ 辻ビル 3F",
+   "maps": "https://maps.google.com/?cid=14801786281797062524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジスタスジム",
+   "rating": 3.8,
+   "reviews": 17,
+   "address": "日本、〒520-2152 滋賀県大津市月輪３丁目２４−３",
+   "maps": "https://maps.google.com/?cid=14432071877120276440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "健康づくりジム ウェルネスびわ湖",
+   "rating": 5,
+   "reviews": 15,
+   "address": "日本、〒520-0242 滋賀県大津市堅田４丁目１８−３ 北村産業ビル",
+   "maps": "https://maps.google.com/?cid=3060006452186916860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Likeパーソナルジム 大津",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒520-0021 滋賀県大津市二本松１−１",
+   "maps": "https://maps.google.com/?cid=16338182851765702914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "overlap",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒520-0807 滋賀県大津市松本１丁目４−８ 松ケ枝ビル 1F",
+   "maps": "https://maps.google.com/?cid=14650500116404835261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "こどもスポーツ教室＆総合格闘技ジム【皇子山MMA】",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒520-0046 滋賀県大津市長等３丁目１−１２ ジョイプレイス浜大津 401",
+   "maps": "https://maps.google.com/?cid=8850230906346143168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムLife-With 南草津店",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒525-0054 滋賀県草津市東矢倉４丁目８−５２ EM543",
+   "maps": "https://maps.google.com/?cid=14567585849853820418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SYNAPSE(シナプス)｜完全個室パーソナルジム",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒520-2101 滋賀県大津市青山５丁目１３−１１",
+   "maps": "https://maps.google.com/?cid=12168098758502066184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングジムGOING 大津店",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒520-2133 滋賀県大津市野郷原２丁目１−２ ラスティ瀬田",
+   "maps": "https://maps.google.com/?cid=12288939600901593472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TONY GYM",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒520-0802 滋賀県大津市馬場１丁目１１−２ 膳所駅前 第13 森田ビル2F",
+   "maps": "https://maps.google.com/?cid=7333238106598926712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MELIUS Personal Conditioning",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒520-0043 滋賀県大津市中央３丁目２−１ セザール大津 森田ビル １F",
+   "maps": "https://maps.google.com/?cid=4843065773592845304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "G・Beauty Fitness",
+   "rating": 4.9,
+   "reviews": 9,
+   "address": "日本、〒520-0105 滋賀県大津市下阪本１丁目２７−９",
+   "maps": "https://maps.google.com/?cid=4893082821732439770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツジムBRUSH",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒520-2279 滋賀県大津市黒津２丁目１９−１０",
+   "maps": "https://maps.google.com/?cid=12678258185264108950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルマシンピラティスCura-Pila西大津店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒520-0025 滋賀県大津市皇子が丘３丁目９−３",
+   "maps": "https://maps.google.com/?cid=2208100037678374708&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティスアヴニール大津京2号店",
+   "rating": 5,
+   "reviews": 7,
+   "address": "日本、〒520-0024 滋賀県大津市松山町６−３０ FLAP松山町ビル 2階",
+   "maps": "https://maps.google.com/?cid=6592793745606186821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "整体&フィットネス KING GYM",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒520-2144 滋賀県大津市大萱１丁目２０−１８ 星光ビル 1F",
+   "maps": "https://maps.google.com/?cid=643013107304784332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "皇子山総合運動公園 トレーニングルーム",
+   "rating": 4.3,
+   "reviews": 6,
+   "address": "日本、〒520-0037 滋賀県大津市御陵町４−１",
+   "maps": "https://maps.google.com/?cid=8759542633346147450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FREYJA堅田店",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒520-0242 滋賀県大津市本堅田５丁目１５−８ ベーネ堅田A 2",
+   "maps": "https://maps.google.com/?cid=4449423624622275088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "MOVEMENT by A",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒520-0862 滋賀県大津市平津１丁目１３−２５",
+   "maps": "https://maps.google.com/?cid=15803039140952866776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "L・C・F エル・シー・エフ",
+   "rating": 4,
+   "reviews": 4,
+   "address": "日本、〒520-0024 滋賀県大津市松山町８−１０ 新井ビル ２F",
+   "maps": "https://maps.google.com/?cid=12268276352827673671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムLife-With 石山店",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒520-0831 滋賀県大津市松原町１５−２０",
+   "maps": "https://maps.google.com/?cid=7531487373061753559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アースピラティス EARTH 大津膳所店 《パーソナルマシンピラティス》",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒520-0802 滋賀県大津市馬場２丁目６−１５ 201",
+   "maps": "https://maps.google.com/?cid=16858036806433570020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UN DELUSION （アン デリュージョン） pilates&fitness studio",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒520-0055 滋賀県大津市春日町８−４ クレアーレ大津駅前 101",
+   "maps": "https://maps.google.com/?cid=14683650671817981855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カーツ・ボディ・ジム・ビー−３（Ｋａａｔｓｕ・Ｂｏｄｙ・Ｇｙｍ・ｂ−３）",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒520-0832 滋賀県大津市粟津町４−９",
+   "maps": "https://maps.google.com/?cid=1357941199579309464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムアヴニール大津京店",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒520-0025 滋賀県大津市皇子が丘２丁目１０−１ CIRCLE2F",
+   "maps": "https://maps.google.com/?cid=14345844801721281662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "現代からだ研究所",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒520-0801 滋賀県大津市におの浜２丁目２−５",
+   "maps": "https://maps.google.com/?cid=5044580116841695613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "5upfitness",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒520-0232 滋賀県大津市真野４丁目２１−３０ 奥出ビル １階",
+   "maps": "https://maps.google.com/?cid=12893426356182942332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムアヴニール大津店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒520-0804 滋賀県大津市本宮１丁目１−１ 本宮ビル 303",
+   "maps": "https://maps.google.com/?cid=13939606596592951039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムアヴニール大津京2号店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒520-0024 滋賀県大津市松山町６−３０ FLAP松山町ビル 2階",
+   "maps": "https://maps.google.com/?cid=4065451263440003280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "I-BODY+α PersonalGYM",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒520-0805 滋賀県大津市石場１０−６１",
+   "maps": "https://maps.google.com/?cid=16317096718869845701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ストレッチアヴニール大津京2号店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒520-0024 滋賀県大津市松山町６−３０ FLAP松山町ビル 2階",
+   "maps": "https://maps.google.com/?cid=10893973419259357673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

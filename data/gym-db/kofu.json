@@ -1,0 +1,471 @@
+{
+ "city": "甲府",
+ "fetchedAt": "2026-09-08",
+ "query": "パーソナルジム 甲府",
+ "gyms": [
+  {
+   "name": "ミラフィットネス甲府国母店",
+   "rating": 4.9,
+   "reviews": 577,
+   "address": "日本、〒400-0043 山梨県甲府市国母７丁目１１−７",
+   "maps": "https://maps.google.com/?cid=14955039633743085171&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "サイボディ 甲府和戸店",
+   "rating": 4.8,
+   "reviews": 455,
+   "address": "日本、〒400-0812 山梨県甲府市和戸町６９５−１",
+   "maps": "https://maps.google.com/?cid=12816768363566643122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ILUTY FITNESS CLUB 甲府店",
+   "rating": 4.9,
+   "reviews": 348,
+   "address": "日本、〒400-0863 山梨県甲府市南口町１−４０ ペアーレ山梨 １Ｆ",
+   "maps": "https://maps.google.com/?cid=2462641046278198291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "山梨県甲府市のピラティス・パーソナルジムPrivate gym THE BANANA",
+   "rating": 5,
+   "reviews": 236,
+   "address": "日本、〒400-0033 山梨県甲府市寿町２−１２ KM-5ビル 1階",
+   "maps": "https://maps.google.com/?cid=3285913084066331075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ミラフィットネス甲府荒川店",
+   "rating": 4.9,
+   "reviews": 182,
+   "address": "日本、〒400-0061 山梨県甲府市荒川２丁目６−６",
+   "maps": "https://maps.google.com/?cid=4999211839728612134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ホリデイスポーツクラブ 甲府",
+   "rating": 4,
+   "reviews": 174,
+   "address": "日本、〒400-0035 山梨県甲府市飯田３丁目４−２６",
+   "maps": "https://maps.google.com/?cid=13943231758120447949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "サイボディ甲府高畑店",
+   "rating": 4.9,
+   "reviews": 166,
+   "address": "日本、〒400-0042 山梨県甲府市高畑１丁目１１−１",
+   "maps": "https://maps.google.com/?cid=12878408089340555895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム BEYOND 甲府国母店",
+   "rating": 4.8,
+   "reviews": 161,
+   "address": "日本、〒400-0043 山梨県甲府市国母７丁目９−４０ 清水ビル 2F",
+   "maps": "https://maps.google.com/?cid=9921670773216178459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24 甲府向町店",
+   "rating": 4.6,
+   "reviews": 151,
+   "address": "日本、〒400-0813 山梨県甲府市向町２０２ グリーンタウン甲府東 A棟",
+   "maps": "https://maps.google.com/?cid=17867943613658863891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムAMATERASU（アマテラス）甲府店",
+   "rating": 4.9,
+   "reviews": 142,
+   "address": "日本、〒400-0043 山梨県甲府市国母７丁目４−６",
+   "maps": "https://maps.google.com/?cid=9200092650573034140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B3FIT 甲府国母店",
+   "rating": 4.9,
+   "reviews": 126,
+   "address": "日本、〒400-0043 山梨県甲府市国母３丁目１１−１７",
+   "maps": "https://maps.google.com/?cid=2550678813924166816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "健康工房Flow",
+   "rating": 4.9,
+   "reviews": 104,
+   "address": "日本、〒409-3867 山梨県中巨摩郡昭和町清水新居１６５５",
+   "maps": "https://maps.google.com/?cid=17820538384811285610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファディー バロー甲府昭和",
+   "rating": 4.9,
+   "reviews": 90,
+   "address": "日本、〒409-3867 山梨県中巨摩郡昭和町清水新居194番地1 バロー甲府昭和店 1階",
+   "maps": "https://maps.google.com/?cid=17660610780862827061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 甲府国母店",
+   "rating": 4.1,
+   "reviews": 88,
+   "address": "日本、〒400-0043 山梨県甲府市国母１丁目２１−１３",
+   "maps": "https://maps.google.com/?cid=7334371498093454572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "B3FIT城東店",
+   "rating": 4.9,
+   "reviews": 84,
+   "address": "日本、〒400-0861 山梨県甲府市城東３丁目１１−１２ 環境第一ビル1階",
+   "maps": "https://maps.google.com/?cid=18385046706984691953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "studio by iluty甲府駅前店",
+   "rating": 4.9,
+   "reviews": 83,
+   "address": "日本、〒400-0031 山梨県甲府市丸の内２丁目７−３ 小林ビル 2F",
+   "maps": "https://maps.google.com/?cid=15285336230599679202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 甲府店",
+   "rating": 3.9,
+   "reviews": 74,
+   "address": "日本、〒400-0035 山梨県甲府市飯田１丁目３−２９",
+   "maps": "https://maps.google.com/?cid=10393297038353842043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "つつむ",
+   "rating": 5,
+   "reviews": 74,
+   "address": "日本、〒400-0041 山梨県甲府市上石田３丁目１８−２０ プレステージ・コート １０１",
+   "maps": "https://maps.google.com/?cid=14934508118535842145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アルペンフィットネスクラブ甲府",
+   "rating": 3.7,
+   "reviews": 73,
+   "address": "日本、〒400-0814 山梨県甲府市上阿原町３４５−１",
+   "maps": "https://maps.google.com/?cid=16459608808178480689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "T-MARC(ティーマーク） フィットネスジム",
+   "rating": 4.9,
+   "reviews": 68,
+   "address": "日本、〒400-0117 山梨県甲斐市西八幡１７０７−５",
+   "maps": "https://maps.google.com/?cid=15228584648393966143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスジムFIT365甲府",
+   "rating": 3.9,
+   "reviews": 66,
+   "address": "日本、〒400-0851 山梨県甲府市住吉３丁目３０−５",
+   "maps": "https://maps.google.com/?cid=15866973840795106704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボアソルテ",
+   "rating": 5,
+   "reviews": 65,
+   "address": "日本、〒400-0815 山梨県甲府市国玉町２９４−１ 城東ビル 2F",
+   "maps": "https://maps.google.com/?cid=5560669326645135265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 甲府湯村店",
+   "rating": 4.4,
+   "reviews": 65,
+   "address": "日本、〒400-0074 山梨県甲府市千塚１丁目９−１４",
+   "maps": "https://maps.google.com/?cid=17092887529425494827&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムAMATERASU（アマテラス）甲斐敷島店",
+   "rating": 5,
+   "reviews": 62,
+   "address": "日本、〒400-0124 山梨県甲斐市中下条１００５ エルコムヴィレッジⅡ 101",
+   "maps": "https://maps.google.com/?cid=5605406450755523425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT＆CORE 甲府",
+   "rating": 4.7,
+   "reviews": 59,
+   "address": "日本、〒400-0845 山梨県甲府市上今井町６８１−１２",
+   "maps": "https://maps.google.com/?cid=15171943317941444874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BeLUNA by B3FIT / 女性専用・定額・通い放題セミパーソナルジム",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒400-0043 山梨県甲府市国母３丁目２−１ グレースイシハラ 1Ｆ",
+   "maps": "https://maps.google.com/?cid=13130989921767738165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BAX / ストレッチ＆コンディショニング",
+   "rating": 4.9,
+   "reviews": 56,
+   "address": "日本、〒400-0043 山梨県甲府市国母３丁目１１−１７ B3FIT国母 店1F",
+   "maps": "https://maps.google.com/?cid=9800924811307783270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RAISE",
+   "rating": 4.9,
+   "reviews": 51,
+   "address": "日本、〒409-3851 山梨県中巨摩郡昭和町河西１０７４−１",
+   "maps": "https://maps.google.com/?cid=4903686564125833243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)甲府店",
+   "rating": 4.5,
+   "reviews": 48,
+   "address": "日本、〒400-0031 山梨県甲府市丸内１１丁目１−８ 山梨交通ビル 6F",
+   "maps": "https://maps.google.com/?cid=10696715350438664473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "studio by iluty甲府徳行店",
+   "rating": 4.9,
+   "reviews": 43,
+   "address": "日本、〒400-0047 山梨県甲府市徳行２丁目１０−１７ ウェルネスゾーンA 2",
+   "maps": "https://maps.google.com/?cid=4646145294710782420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Re-make LABO 甲府店 整体×パーソナルトレーニング",
+   "rating": 4.9,
+   "reviews": 41,
+   "address": "日本、〒400-0852 山梨県甲府市住吉本町１１２２−１",
+   "maps": "https://maps.google.com/?cid=6083835098202542702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "JPCスポーツ教室 甲府店",
+   "rating": 4.9,
+   "reviews": 40,
+   "address": "日本、〒400-0831 山梨県甲府市上町592番地1",
+   "maps": "https://maps.google.com/?cid=4154317552600209860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "加圧スタジオDelight",
+   "rating": 4.6,
+   "reviews": 38,
+   "address": "日本、〒400-0041 山梨県甲府市上石田３丁目８−６",
+   "maps": "https://maps.google.com/?cid=7360984970062885073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RENOVA FITNESS 24 甲府昭和店",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒409-3867 山梨県中巨摩郡昭和町清水新居１３９８",
+   "maps": "https://maps.google.com/?cid=11827766367249204921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フォーランバス国母",
+   "rating": 4.6,
+   "reviews": 28,
+   "address": "日本、〒400-0043 山梨県甲府市国母７丁目１２−４３",
+   "maps": "https://maps.google.com/?cid=5659322357563277323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Certeza Fitness Gym YAMANASHI",
+   "rating": 4.8,
+   "reviews": 25,
+   "address": "日本、〒400-0042 山梨県甲府市高畑２丁目１６−１０ イシイビル",
+   "maps": "https://maps.google.com/?cid=14789722386918948335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ&セミパーソナルジム Youthful（ユースフル）甲府昭和店",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒400-3867 山梨県中巨摩郡昭和町清水新居１２７８−３ スペースブロス ２階",
+   "maps": "https://maps.google.com/?cid=4509249459354223685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Pilates Studio KIZUKI 甲府市",
+   "rating": 5,
+   "reviews": 20,
+   "address": "日本、〒400-0861 山梨県甲府市城東１丁目８−３２",
+   "maps": "https://maps.google.com/?cid=9746491432210901130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カーブス 甲府大里",
+   "rating": 4.6,
+   "reviews": 20,
+   "address": "日本、〒400-0053 山梨県甲府市大里町４２１３−１",
+   "maps": "https://maps.google.com/?cid=6270155563711881762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』甲府店",
+   "rating": 4.8,
+   "reviews": 19,
+   "address": "日本、〒400-0047 山梨県中巨摩郡昭和町清水新居38−１ 平岩ビル 2-6",
+   "maps": "https://maps.google.com/?cid=356188580708928727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス×整体 Rephysio（リフィジオ）甲府店",
+   "rating": 4.7,
+   "reviews": 12,
+   "address": "日本、〒400-0041 山梨県甲府市上石田３丁目８−８",
+   "maps": "https://maps.google.com/?cid=14925769509859463712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カーブス 甲府駅北口",
+   "rating": 4.9,
+   "reviews": 10,
+   "address": "日本、〒400-0024 山梨県甲府市北口２丁目９−１２ ニシコー北口駅前ビル 2F",
+   "maps": "https://maps.google.com/?cid=480098504630060012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネスクラブウェル２１",
+   "rating": 3.3,
+   "reviews": 9,
+   "address": "日本、〒400-0053 山梨県甲府市大里町１４９０−３",
+   "maps": "https://maps.google.com/?cid=11781760545736339142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムKB-Lab.（ケービーラボ）",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒400-0851 山梨県甲府市住吉５丁目１６−２８ ラルゴ住吉",
+   "maps": "https://maps.google.com/?cid=1063125233090954110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コアトレーニングスタジオGROW",
+   "rating": 4.8,
+   "reviews": 6,
+   "address": "日本、〒400-0048 山梨県甲府市貢川本町４−２６",
+   "maps": "https://maps.google.com/?cid=2878928393253904490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRY UP",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒400-0113 山梨県甲斐市富竹新田１１８２−３−１０１",
+   "maps": "https://maps.google.com/?cid=10274804439116036199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CrossFit甲府",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒400-0053 山梨県甲府市大里町１４９０−３",
+   "maps": "https://maps.google.com/?cid=16725041544673843325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/7ワークアウト 甲府店",
+   "rating": 4.2,
+   "reviews": 5,
+   "address": "日本、〒400-0031 山梨県甲府市丸の内１丁目１６−１０ トラストワンビル 19 408号室",
+   "maps": "https://maps.google.com/?cid=7544273434293437436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ALL IS WELL パーソナルストレッチ専門店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒409-3867 山梨県中巨摩郡昭和町清水新居１２７８−３ スペースブロス 1F",
+   "maps": "https://maps.google.com/?cid=10648702894217760039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "とらいあんぐる MY-FIT",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒400-0007 山梨県甲府市美咲１丁目２−２３",
+   "maps": "https://maps.google.com/?cid=17366840482972306845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PILATES & TRAINING STUDIO【ベルノア】",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒400-0112 山梨県甲斐市名取３５",
+   "maps": "https://maps.google.com/?cid=10632162360405333586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "freedom gym",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒400-0053 山梨県甲府市大里町４４９２ マイタウン向山 C",
+   "maps": "https://maps.google.com/?cid=17257755531966998237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "グランディール甲府池田店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒400-0062 山梨県甲府市池田１丁目１０−１１",
+   "maps": "https://maps.google.com/?cid=17099632594916061570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マチコメソッドパーソナルヨガ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒400-0035 山梨県甲府市飯田５丁目１７−３４",
+   "maps": "https://maps.google.com/?cid=4161508516669560029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PLV gym",
+   "rating": 1,
+   "reviews": 1,
+   "address": "日本、〒400-0043 山梨県甲府市国母６丁目６−８",
+   "maps": "https://maps.google.com/?cid=11409261632726905683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム K fitness",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒400-0041 山梨県甲府市上石田２丁目２３−１",
+   "maps": "https://maps.google.com/?cid=7154110425236750511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム RE:BODY",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒400-0053 山梨県甲府市大里町２９４−３ 102",
+   "maps": "https://maps.google.com/?cid=8359401003381607702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナル トレーニング ジム ulu",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒409-3867 山梨県中巨摩郡昭和町清水新居１２７８−３ 1F テナントCD",
+   "maps": "https://maps.google.com/?cid=4451154101631395996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "city": "松江",
+ "fetchedAt": "2026-09-08",
+ "query": "パーソナルジム 松江",
+ "gyms": [
+  {
+   "name": "FIT PLACE24 松江店",
+   "rating": 4.6,
+   "reviews": 103,
+   "address": "日本、〒690-0824 島根県松江市菅田町１５−１",
+   "maps": "https://maps.google.com/?cid=17312926187708894797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "AI フィットネス マイベース松江寺町",
+   "rating": 4.8,
+   "reviews": 86,
+   "address": "日本、〒690-0063 島根県松江市寺町200番地3",
+   "maps": "https://maps.google.com/?cid=16959496458485749250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 松江西津田店",
+   "rating": 4.5,
+   "reviews": 59,
+   "address": "日本、〒690-0017 島根県松江市西津田６丁目２−１５",
+   "maps": "https://maps.google.com/?cid=2725997333663818358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファディー松江東津田",
+   "rating": 4.8,
+   "reviews": 44,
+   "address": "日本、〒690-0011 島根県松江市東津田町１１２５−３",
+   "maps": "https://maps.google.com/?cid=12169887030609017986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 松江店 Lucile Axis｜松江 マシンピラティス",
+   "rating": 4.9,
+   "reviews": 41,
+   "address": "日本、〒690-0015 島根県松江市上乃木６丁目２−５９ 永原第一ビル ２階南号室",
+   "maps": "https://maps.google.com/?cid=12587429866901205240&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ karte",
+   "rating": 5,
+   "reviews": 30,
+   "address": "ヴィーナスガーデン 2階, 4271番地 西川津町 松江市 島根県 690-0826 日本",
+   "maps": "https://maps.google.com/?cid=4616867357900955131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ENICYGYM | 松江市 パーソナルジム",
+   "rating": 5,
+   "reviews": 29,
+   "address": "日本、〒690-0015 島根県松江市上乃木７丁目１０−８ 永原第２ビル 1F",
+   "maps": "https://maps.google.com/?cid=16122502427614090906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "agenofit(アゲノフィット)",
+   "rating": 4.7,
+   "reviews": 27,
+   "address": "日本、〒690-0015 島根県松江市上乃木４丁目１０−１７ ＰＲＥ ＳＴＡＧＥ ＢＬＤＧ",
+   "maps": "https://maps.google.com/?cid=9464641180128778566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PERSONAL GYM EVEIL(パーソナルジム エベイユ)",
+   "rating": 5,
+   "reviews": 22,
+   "address": "日本、〒690-0824 島根県松江市菅田町１８−１",
+   "maps": "https://maps.google.com/?cid=1674004717800037044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Park karte",
+   "rating": 4.9,
+   "reviews": 22,
+   "address": "日本、〒690-0823 島根県松江市西川津町４２７１ ヴィーナスガーデン 1階105",
+   "maps": "https://maps.google.com/?cid=7422623095640335756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムVISIL（ヴィシル）松江西津田店",
+   "rating": 4.6,
+   "reviews": 21,
+   "address": "日本、〒690-0017 島根県松江市西津田４丁目５−８９ 1",
+   "maps": "https://maps.google.com/?cid=7881463612864087771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "suomi EGYM Fitness 24h（フィットネスジム）",
+   "rating": 4.9,
+   "reviews": 21,
+   "address": "日本、〒690-0855 島根県松江市浜佐田町８１６",
+   "maps": "https://maps.google.com/?cid=8703849946625800163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LifeFit 松江学園通り店",
+   "rating": 3.3,
+   "reviews": 15,
+   "address": "日本、〒690-0825 島根県松江市学園２丁目２６−２５",
+   "maps": "https://maps.google.com/?cid=15820891364236518471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LPCレイクサイドASSiST24松江｜24時間ジム",
+   "rating": 3.6,
+   "reviews": 15,
+   "address": "日本、〒690-0065 島根県松江市灘町１０１−１ LPC松江レイクサイド2階",
+   "maps": "https://maps.google.com/?cid=2512588523809230245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SHIORI PILATES & TRAINING",
+   "rating": 4.9,
+   "reviews": 13,
+   "address": "日本、〒690-0001 島根県松江市東朝日町",
+   "maps": "https://maps.google.com/?cid=18323167187590452928&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HYPER FIT 24 松江学園店",
+   "rating": 3.8,
+   "reviews": 13,
+   "address": "日本、〒690-0825 島根県松江市学園２丁目２０−２３",
+   "maps": "https://maps.google.com/?cid=7775839651687435635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "島根キックボクシングジムチームキッド",
+   "rating": 4.6,
+   "reviews": 13,
+   "address": "日本、〒690-0048 島根県松江市西嫁島３丁目２−９",
+   "maps": "https://maps.google.com/?cid=6531387507290238600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "improve",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒690-0058 島根県松江市田和山町１３７",
+   "maps": "https://maps.google.com/?cid=4926992954056747042&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "power garden（ヨガ＆フィットネス）",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒690-0876 島根県松江市黒田町４６９−６ サンプロビル ２F",
+   "maps": "https://maps.google.com/?cid=8024566472639763699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ウェルビージム。",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒690-0001 島根県松江市東朝日町１５１−１６ アーバンエステート 201",
+   "maps": "https://maps.google.com/?cid=17932029098906196862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HYPER FIT 24 東出雲店",
+   "rating": 3.8,
+   "reviews": 6,
+   "address": "日本、〒699-0111 島根県松江市東出雲町意宇南１丁目7−２",
+   "maps": "https://maps.google.com/?cid=9710395905004406707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【パーソナルトレーニング/鍼灸/整体/野球教室】 パーソナルジム＆ボディーケア Fitness Labo The ORIGIN",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒690-0044 島根県松江市浜乃木７丁目３−３",
+   "maps": "https://maps.google.com/?cid=14855547464178029302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "からだプランニング",
+   "rating": 4,
+   "reviews": 5,
+   "address": "日本、〒690-0874 島根県松江市中原町３１−４",
+   "maps": "https://maps.google.com/?cid=5353278939571536132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LifeFit 松江浜乃木店",
+   "rating": 3.6,
+   "reviews": 5,
+   "address": "日本、〒690-0044 島根県松江市浜乃木６丁目２−１２",
+   "maps": "https://maps.google.com/?cid=10215442879501817346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "chocoZAPアクロスガーデン松江乃白",
+   "rating": 3.4,
+   "reviews": 5,
+   "address": "日本、〒690-0045 島根県松江市乃白町２０１５ アクロスガーデン松江乃白 1F",
+   "maps": "https://maps.google.com/?cid=3859368187083958191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カイロ＆フィットネスFusion",
+   "rating": 4.5,
+   "reviews": 4,
+   "address": "日本、〒690-0031 島根県松江市山代町９３５−７１ ハイムくるみ 1F",
+   "maps": "https://maps.google.com/?cid=7016949756609004906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネステラス",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒690-0007 島根県松江市御手船場町５８５ たちきビル",
+   "maps": "https://maps.google.com/?cid=1683619086499308878&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ Pilates room pono",
+   "rating": 4.8,
+   "reviews": 4,
+   "address": "日本、〒690-0031 島根県松江市山代町７６６−１４",
+   "maps": "https://maps.google.com/?cid=16640544662669469380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TRUNKMAN GYM トランクマン ジム",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒690-0065 島根県松江市灘町1−４３ 日発ビル 4F",
+   "maps": "https://maps.google.com/?cid=15058333136782611348&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "OKUNANAPARK",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒690-0015 島根県松江市上乃木８丁目１２−１２",
+   "maps": "https://maps.google.com/?cid=7950309765877529020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Ichina（イチナ）プライベートジム",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒690-0056 島根県松江市雑賀町４３６",
+   "maps": "https://maps.google.com/?cid=11998401453321187992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス＋ダイエットスタジオ「カラダPLUS」",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒690-0001 島根県松江市東朝日町２７３−６",
+   "maps": "https://maps.google.com/?cid=3080720970539845346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

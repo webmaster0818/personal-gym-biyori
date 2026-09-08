@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "全国32都市のパーソナルジム全データベース【約1,900店・実在確認済み】",
+  title: "全国49都市のパーソナルジム全データベース【約2,700店・実在確認済み】",
   description:
-    "全国32都市のパーソナルジム約1,900店を、Googleマップの実測データ(評点・口コミ件数・2026年8月29日取得)で都市別に一覧化した全店データベースのハブページ。提携の有無に関係なく実在確認できた店舗を口コミ件数順に掲載しています。評点・件数は取得時点の実数のみで創作はありません。",
+    "全国49都市のパーソナルジム約2,700店を、Googleマップの実測データ(評点・口コミ件数・取得日は各都市ページに明記)で都市別に一覧化した全店データベースのハブページ。提携の有無に関係なく実在確認できた店舗を口コミ件数順に掲載しています。評点・件数は取得時点の実数のみで創作はありません。",
 };
 
 const CITIES: { slug: string; name: string; region: string }[] = [
@@ -23,6 +23,13 @@ const CITIES: { slug: string; name: string; region: string }[] = [
   { slug: "chiba", name: "千葉", region: "首都圏" },
   { slug: "utsunomiya", name: "宇都宮", region: "北関東・甲信越" },
   { slug: "mito", name: "水戸", region: "北関東・甲信越" },
+  { slug: "kofu", name: "甲府", region: "北関東・甲信越" },
+  { slug: "tsu", name: "津", region: "東海" },
+  { slug: "otsu", name: "大津", region: "関西" },
+  { slug: "nara", name: "奈良", region: "関西" },
+  { slug: "matsue", name: "松江", region: "中国・四国" },
+  { slug: "tottori", name: "鳥取", region: "中国・四国" },
+  { slug: "yamaguchi", name: "山口", region: "中国・四国" },
   { slug: "maebashi", name: "前橋", region: "北関東・甲信越" },
   { slug: "fukushima", name: "福島", region: "北海道・東北" },
   { slug: "shizuoka", name: "静岡", region: "東海" },
@@ -79,9 +86,9 @@ export default function DbHubPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <h1 className="text-2xl font-bold sm:text-3xl">全国32都市のパーソナルジム全データベース</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">全国49都市のパーソナルジム全データベース</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
-        全国32都市・約1,900店のパーソナルジムを、Googleマップの実測データ(評点・口コミ件数・2026年8月29日一斉取得)で都市別に一覧化しています。
+        全国49都市・約2,700店のパーソナルジムを、Googleマップの実測データ(評点・口コミ件数・取得日は各都市ページに明記)で都市別に一覧化しています。
         「まず自分の街の全体を見たい」方向けに、提携の有無に関係なく実在確認できた店舗を口コミ件数順で掲載するデータベースです。
       </p>
       <p className="mt-3 text-sm">

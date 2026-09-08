@@ -1,0 +1,231 @@
+{
+ "city": "鳥取",
+ "fetchedAt": "2026-09-08",
+ "query": "パーソナルジム 鳥取",
+ "gyms": [
+  {
+   "name": "ULTIMATE FITNESS",
+   "rating": 4.9,
+   "reviews": 183,
+   "address": "日本、〒682-0023 鳥取県倉吉市山根５３９−７",
+   "maps": "https://maps.google.com/?cid=8775571588162202386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 鳥取店吉成スタジオ｜鳥取 マシンピラティス",
+   "rating": 4.9,
+   "reviews": 119,
+   "address": "日本、〒680-0864 鳥取県鳥取市吉成２３９−３",
+   "maps": "https://maps.google.com/?cid=8164099983676691078&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "La pilates 鳥取店《整体×マシンピラティス》ラピラティス",
+   "rating": 4.8,
+   "reviews": 70,
+   "address": "日本、〒680-0942 鳥取県鳥取市湖山町東４丁目６２ 湖山東事務所 102",
+   "maps": "https://maps.google.com/?cid=14841974520083021548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス鳥取店",
+   "rating": 4.7,
+   "reviews": 62,
+   "address": "日本、〒680-0911 鳥取県鳥取市千代水１丁目１７１ 1F 洋服の青山鳥取店 併設",
+   "maps": "https://maps.google.com/?cid=13691686656860940067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RIZE Fitness Personal Training GYM",
+   "rating": 4.9,
+   "reviews": 60,
+   "address": "日本、〒682-0816 鳥取県倉吉市駄経寺町198ｰ2",
+   "maps": "https://maps.google.com/?cid=2720159159490829496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオDEP 鳥取店安長スタジオ｜鳥取 マシンピラティス",
+   "rating": 5,
+   "reviews": 54,
+   "address": "日本、〒680-0913 鳥取県鳥取市安長８２ 1テナント B号室",
+   "maps": "https://maps.google.com/?cid=12235876742444041155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング S-BODY GYM 鳥取駅南店",
+   "rating": 4.8,
+   "reviews": 46,
+   "address": "日本、〒680-0846 鳥取県鳥取市扇町１０１",
+   "maps": "https://maps.google.com/?cid=4111145454328449844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ワールドプラスジム鳥取商栄店",
+   "rating": 4.8,
+   "reviews": 46,
+   "address": "日本、〒680-0912 鳥取県鳥取市商栄町１５３−１",
+   "maps": "https://maps.google.com/?cid=13283440456172298303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ケアジムGENKI / 整体×パーソナルジム",
+   "rating": 5,
+   "reviews": 34,
+   "address": "日本、〒680-0873 鳥取県鳥取市的場４丁目４７",
+   "maps": "https://maps.google.com/?cid=16277660297680885607&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Link Body Conditioning Studio",
+   "rating": 4.9,
+   "reviews": 27,
+   "address": "日本、〒680-0873 鳥取県鳥取市的場４丁目６０−１",
+   "maps": "https://maps.google.com/?cid=12036395767918118631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HOGSTUDIO",
+   "rating": 4.6,
+   "reviews": 24,
+   "address": "日本、〒680-0941 鳥取県鳥取市湖山町北３丁目２０１−１４",
+   "maps": "https://maps.google.com/?cid=15595519841604789221&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング S-BODY GYM 鳥取商栄町店",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒680-0912 鳥取県鳥取市商栄町２０２−３",
+   "maps": "https://maps.google.com/?cid=11469081945177823738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HYPER FIT 24 鳥取湖山店 森のフィットネス",
+   "rating": 3.5,
+   "reviews": 21,
+   "address": "日本、〒680-0942 鳥取県鳥取市湖山町東２丁目２２２−５",
+   "maps": "https://maps.google.com/?cid=16404180425330095543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "24/365フィットネスジムS-BODY24",
+   "rating": 3.9,
+   "reviews": 19,
+   "address": "日本、〒680-0831 鳥取県鳥取市栄町755番地 B1F Next",
+   "maps": "https://maps.google.com/?cid=14055944688163622003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "G-Flady",
+   "rating": 4.8,
+   "reviews": 17,
+   "address": "日本、〒680-0851 鳥取県鳥取市大杙２０５−２",
+   "maps": "https://maps.google.com/?cid=10566794710575412684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HYPERFIT24 鳥取雲山店 森のフィットネス",
+   "rating": 4.1,
+   "reviews": 17,
+   "address": "日本、〒680-0862 鳥取県鳥取市雲山２０２−３",
+   "maps": "https://maps.google.com/?cid=9659482418564935293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Discovery Body Works",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒680-0904 鳥取県鳥取市晩稲８２−１",
+   "maps": "https://maps.google.com/?cid=4610810871737938437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ｍｉｔｔｅ",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒680-0801 鳥取県鳥取市松並町２丁目160番地 城北ビル209号室",
+   "maps": "https://maps.google.com/?cid=2193955288121964006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "PT Body Lab.｜パーソナルトレーニングジム・ピラティススタジオ",
+   "rating": 4.8,
+   "reviews": 5,
+   "address": "日本、〒680-0944 鳥取県鳥取市布勢３１４−１",
+   "maps": "https://maps.google.com/?cid=6281887946486414365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディカルフィットネス あるく・すたじお",
+   "rating": 3.8,
+   "reviews": 5,
+   "address": "日本、〒680-0935 鳥取県鳥取市里仁５４−２",
+   "maps": "https://maps.google.com/?cid=18153905838150398616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "希笑～まれえ～リラクゼーション&フィットネスサロン",
+   "rating": 4.6,
+   "reviews": 5,
+   "address": "日本、〒680-0873 鳥取県鳥取市的場２丁目７０−１ A104",
+   "maps": "https://maps.google.com/?cid=2423833892685047763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "鳥取369+",
+   "rating": 4.3,
+   "reviews": 4,
+   "address": "日本、〒680-0824 鳥取県鳥取市行徳１丁目１２７ 山口ビル 2F",
+   "maps": "https://maps.google.com/?cid=6272375153814400112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "it's planning MM",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒680-0914 鳥取県鳥取市南安長２丁目１０ 川上テナントビル 2階",
+   "maps": "https://maps.google.com/?cid=3297386756995313673&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RITMO THE GYM",
+   "rating": 4,
+   "reviews": 2,
+   "address": "日本、〒680-1173 鳥取県鳥取市西今在家３１２−１ GREEN GOLF21 2階",
+   "maps": "https://maps.google.com/?cid=2765161980130464444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カラダまなびラボ．｜丸由鳥取店",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒680-0822 鳥取県鳥取市今町２丁目１５１",
+   "maps": "https://maps.google.com/?cid=16543739757232730633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "lagree fitness studio habit",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒689-0202 鳥取県鳥取市美萩野２丁目３０１−３",
+   "maps": "https://maps.google.com/?cid=3031970242072331908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Peach fit+3",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒680-0862 鳥取県鳥取市雲山１４７−４",
+   "maps": "https://maps.google.com/?cid=16991161832731717556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "宮竹パーソナルジム鳥取",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒689-0216 鳥取県鳥取市気高町宝木９２１−６",
+   "maps": "https://maps.google.com/?cid=18415502213516205189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

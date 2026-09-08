@@ -1,0 +1,487 @@
+{
+ "city": "津",
+ "fetchedAt": "2026-09-08",
+ "query": "パーソナルジム 津市",
+ "gyms": [
+  {
+   "name": "ピラティスK イオンモール津南店",
+   "rating": 4.8,
+   "reviews": 127,
+   "address": "日本、〒514-0817 三重県津市高茶屋小森町１４５ イオンモール津南 1F",
+   "maps": "https://maps.google.com/?cid=12174922010102301242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブ アクトス津山の手",
+   "rating": 4.2,
+   "reviews": 104,
+   "address": "日本、〒514-0061 三重県津市一身田上津部田３００５−３",
+   "maps": "https://maps.google.com/?cid=16070310825929712198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "JOYFIT24 津桜橋",
+   "rating": 4,
+   "reviews": 99,
+   "address": "日本、〒514-0003 三重県津市桜橋３丁目６３−１ ジョイフィット津桜橋",
+   "maps": "https://maps.google.com/?cid=3958054807112675499&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "津市 TGPファンクショナルトレーニングジム パーソナルトレーニング",
+   "rating": 5,
+   "reviews": 89,
+   "address": "日本、〒514-0304 三重県津市雲出本郷町１６８２−１",
+   "maps": "https://maps.google.com/?cid=9526204653908308407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "HAYAFIT body make studio",
+   "rating": 4.9,
+   "reviews": 68,
+   "address": "日本、〒514-0035 三重県津市西丸之内１−１０ 西丸之内ビル 4階",
+   "maps": "https://maps.google.com/?cid=11203339230778108359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 津高茶屋店",
+   "rating": 4.2,
+   "reviews": 58,
+   "address": "日本、〒514-0817 三重県津市高茶屋小森町 字中山１１７２－１",
+   "maps": "https://maps.google.com/?cid=7240578819171782420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用会員制ジムTOWAL",
+   "rating": 4.9,
+   "reviews": 57,
+   "address": "日本、〒514-1108 三重県津市久居射場町１ 3階",
+   "maps": "https://maps.google.com/?cid=16268456302672051854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "RE:MAKE リメイク",
+   "rating": 5,
+   "reviews": 48,
+   "address": "日本、〒515-2114 三重県松阪市小津町４７９−１ フェイスビル 4F",
+   "maps": "https://maps.google.com/?cid=16115103600331603125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ゴッドブレスジム/24時間営業",
+   "rating": 4.9,
+   "reviews": 47,
+   "address": "日本、〒514-0312 三重県津市香良洲町３９５８−１８",
+   "maps": "https://maps.google.com/?cid=7329361433088224660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KENZO CARE&GYM／姿勢改善・ダイエット・パーソナルジム",
+   "rating": 4.9,
+   "reviews": 47,
+   "address": "日本、〒510-0237 三重県鈴鹿市江島町３８９６ ベルメゾン・シロエ 1F",
+   "maps": "https://maps.google.com/?cid=13488110745606148503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LeXy Fit 津新町店",
+   "rating": 4.7,
+   "reviews": 38,
+   "address": "日本、〒514-0047 三重県津市桜田町１０−４１−１",
+   "maps": "https://maps.google.com/?cid=17726740352631957018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム Boost",
+   "rating": 5,
+   "reviews": 37,
+   "address": "日本、〒510-0212 三重県鈴鹿市中旭が丘１丁目６−２５",
+   "maps": "https://maps.google.com/?cid=17445920113003471591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "アサヒスポーツクラブくじら",
+   "rating": 3.6,
+   "reviews": 37,
+   "address": "日本、〒514-0817 三重県津市高茶屋小森町４１０１−１",
+   "maps": "https://maps.google.com/?cid=7714240982679423380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "キックボクシングジム/TEAM O'URA",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒514-0831 三重県津市本町５−１",
+   "maps": "https://maps.google.com/?cid=13312879618545959529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Sｔｕｄｉｏ.９",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒514-1112 三重県津市久居小野辺町１１３０−７ イオンタウン城山 2F",
+   "maps": "https://maps.google.com/?cid=7107416289234053737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トランキロキックボクシング&フィットネスジム 津店（津駅西口）",
+   "rating": 4.3,
+   "reviews": 35,
+   "address": "日本、〒514-0006 三重県津市広明町３６６ 大川ビル 4F",
+   "maps": "https://maps.google.com/?cid=15729319863468401419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットイージー 津藤方店",
+   "rating": 4.2,
+   "reviews": 34,
+   "address": "日本、〒514-0815 三重県津市藤方６９８",
+   "maps": "https://maps.google.com/?cid=12452120851527294811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "chocoZAP津西口",
+   "rating": 4.1,
+   "reviews": 32,
+   "address": "日本、〒514-0006 三重県津市広明町３４５−２ ミエライスビル 1F",
+   "maps": "https://maps.google.com/?cid=4661080107841909894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "pulau津岩田店",
+   "rating": 4.9,
+   "reviews": 31,
+   "address": "日本、〒514-0838 三重県津市岩田１３−２８ 三重ビル 3F",
+   "maps": "https://maps.google.com/?cid=8300373842912504797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スターフィット365 津藤方店",
+   "rating": 3.5,
+   "reviews": 31,
+   "address": "日本、〒514-0815 三重県津市藤方西大田５６３−２",
+   "maps": "https://maps.google.com/?cid=12896671519595982762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "クアトロコア三重 キックボクシングフィットネス",
+   "rating": 4.9,
+   "reviews": 29,
+   "address": "日本、〒514-0028 三重県津市東丸之内７−１１",
+   "maps": "https://maps.google.com/?cid=14370809887751033599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングジムKENKODO",
+   "rating": 4.7,
+   "reviews": 28,
+   "address": "日本、〒514-0816 三重県津市高茶屋小森上野町６−６",
+   "maps": "https://maps.google.com/?cid=4475260423196933918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セルフィットネス久居店",
+   "rating": 4.3,
+   "reviews": 26,
+   "address": "日本、〒514-1101 三重県津市久居明神町2640番地4",
+   "maps": "https://maps.google.com/?cid=4571796972369438724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "マリフィットネス",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒514-0027 三重県津市大門１９−１４ 練木ビル ２F",
+   "maps": "https://maps.google.com/?cid=3903628659314593301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Make Body 白子店",
+   "rating": 4.7,
+   "reviews": 22,
+   "address": "日本、〒510-0244 三重県鈴鹿市白子町２９３２−１",
+   "maps": "https://maps.google.com/?cid=11677575835435709936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス津藤方店",
+   "rating": 4.6,
+   "reviews": 21,
+   "address": "日本、〒514-0815 三重県津市藤方1606番地 ポップタウンC棟 1F",
+   "maps": "https://maps.google.com/?cid=4139564934833003809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "UpStartパーソナルトレーニングジム",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒514-1108 三重県津市久居射場町1−３ 3階 B",
+   "maps": "https://maps.google.com/?cid=4998091534077417637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LY FITNESS/ピラティス/パーソナルジム",
+   "rating": 5,
+   "reviews": 18,
+   "address": "日本、〒514-0004 三重県津市栄町４丁目２４６ 栄四ビル 2階",
+   "maps": "https://maps.google.com/?cid=10997136795894536139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』津店",
+   "rating": 4.9,
+   "reviews": 18,
+   "address": "日本、〒514-0304 三重県津市雲出本郷町2−1−１８００−１ 2 貸店舗 階1号室",
+   "maps": "https://maps.google.com/?cid=11542799273595429424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "運動初心者特化型ジム PRA GYM",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒514-0304 三重県津市雲出本郷町５９５−１",
+   "maps": "https://maps.google.com/?cid=13820872807980293222&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "リアル筋力トレーニングGYM an",
+   "rating": 3.9,
+   "reviews": 16,
+   "address": "日本、〒515-2514 三重県津市一志町小山８１１",
+   "maps": "https://maps.google.com/?cid=6001480507259541517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムshinpo",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒510-0236 三重県鈴鹿市中江島町６−１５ アクティ B102",
+   "maps": "https://maps.google.com/?cid=14062074276303455907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用キックボクシングフィットネス トライアケーディージム",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒514-0114 三重県津市一身田町１６５−９",
+   "maps": "https://maps.google.com/?cid=4495386426024713140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス久居インターガーデン店",
+   "rating": 4.3,
+   "reviews": 14,
+   "address": "日本、〒514-1101 三重県津市久居明神町字風早2489番地",
+   "maps": "https://maps.google.com/?cid=3364025466215346806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "レクシーフィット高茶屋",
+   "rating": 4.3,
+   "reviews": 10,
+   "address": "日本、〒514-0817 三重県津市高茶屋小森町４０７７−１",
+   "maps": "https://maps.google.com/?cid=18256495115182477134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "鍼灸院UNI health&beautyパーソナルトレーニング",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒514-0064 三重県津市長岡町３０６０−４",
+   "maps": "https://maps.google.com/?cid=9239382341798018363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Base1 Personal Training Gym",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒514-0831 三重県津市本町２９−１７ 基双ビル 1階",
+   "maps": "https://maps.google.com/?cid=9320923339981434429&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "からだづくり歩",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒514-2315 三重県津市安濃町光明寺１５−２",
+   "maps": "https://maps.google.com/?cid=9363837292073805735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "89GYM",
+   "rating": 4.9,
+   "reviews": 9,
+   "address": "日本、〒514-0806 三重県津市上弁財町２−６ アクセスビル １F",
+   "maps": "https://maps.google.com/?cid=4658451660609479706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "変身工房REBORN ALPHA",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒510-0201 三重県鈴鹿市稲生町７３４８−１",
+   "maps": "https://maps.google.com/?cid=4831018609074396217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LIFE FIT",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒515-2325 三重県松阪市嬉野中川新町１丁目９ 嬉野センターパレス 1F",
+   "maps": "https://maps.google.com/?cid=4075785045942587204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ENJOY GYM",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒514-0817 三重県津市高茶屋小森町４２６−１",
+   "maps": "https://maps.google.com/?cid=17024737236018171173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ココトレ",
+   "rating": 3.7,
+   "reviews": 7,
+   "address": "日本、〒514-0005 三重県津市鳥居町１６６−２ 1F",
+   "maps": "https://maps.google.com/?cid=12818655065230835458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ZEAL BOXING FITNESS 津三重大前店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒514-0102 三重県津市栗真町屋町４６４",
+   "maps": "https://maps.google.com/?cid=2745154486093491737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングBelle",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒514-0001 三重県津市江戸橋１丁目１１６ ラ・ベルビュー 1A",
+   "maps": "https://maps.google.com/?cid=9342699497752513043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディフィットネスジムA&D",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒510-0256 三重県鈴鹿市磯山４丁目９−9番33号",
+   "maps": "https://maps.google.com/?cid=10387057721360352934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ボディケア＆フィットネスエンジョイ",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒514-0817 三重県津市高茶屋小森町２８７４−３",
+   "maps": "https://maps.google.com/?cid=17397620115471751524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングジム０３６（オサム）",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒514-0002 三重県津市島崎町１３７−１２６",
+   "maps": "https://maps.google.com/?cid=3756676836360980388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダンベル小町",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒514-0035 三重県津市西丸之内１−１０ 西丸之内ビル",
+   "maps": "https://maps.google.com/?cid=12609936713282891252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライトパーソナル",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒514-0821 三重県津市垂水２８９８−１",
+   "maps": "https://maps.google.com/?cid=16319674600945687697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ANAPA フィットネス",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒514-0838 三重県津市岩田１３−２８ 三重ビル 3F",
+   "maps": "https://maps.google.com/?cid=10453305607365174008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "IGNITE パーソナルジム",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒515-2325 三重県松阪市嬉野中川新町２丁目１８３ ハイム中川III",
+   "maps": "https://maps.google.com/?cid=11212586077320387218&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジムLavi(ラビ)",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒510-0216 三重県鈴鹿市野町中２丁目４−１５ レオパレスルースト 107",
+   "maps": "https://maps.google.com/?cid=7896054120447383644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベートジム＆スペース ENT",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒514-0001 三重県津市江戸橋１丁目82−３ ENTORRESビル 2",
+   "maps": "https://maps.google.com/?cid=2688622235067286496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ROOSS fitness",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒514-0002 三重県津市島崎町９−４−２",
+   "maps": "https://maps.google.com/?cid=16331934963820081738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "etc.(supported by HARVEST)",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒514-0111 三重県津市一身田平野４３０−４３",
+   "maps": "https://maps.google.com/?cid=8338500172837268104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディカルフィットネスSHL",
+   "rating": 1,
+   "reviews": 1,
+   "address": "日本、〒514-1113 三重県津市久居野村町３１４−１３",
+   "maps": "https://maps.google.com/?cid=17255548356445034338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ShapesGirl(シェイプスガール)三重・津店/女性専用パーソナルトレーニングボディメイクジム",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒514-0821 三重県津市垂水２９１０－１１",
+   "maps": "https://maps.google.com/?cid=15014252180145505856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "labriller津市マシンピラティススタジオ",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒514-0035 三重県津市西丸之内１−１０ 西丸之内ビル 4階A",
+   "maps": "https://maps.google.com/?cid=15365694327048167232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムIMUA 亀山店",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒519-0155 三重県亀山市御幸町２７５−５",
+   "maps": "https://maps.google.com/?cid=14313706785324558961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

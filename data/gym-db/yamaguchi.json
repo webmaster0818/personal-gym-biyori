@@ -1,0 +1,479 @@
+{
+ "city": "山口",
+ "fetchedAt": "2026-09-08",
+ "query": "パーソナルジム 山口市",
+ "gyms": [
+  {
+   "name": "アッティーボジム山口防府店",
+   "rating": 4.7,
+   "reviews": 140,
+   "address": "日本、〒747-0802 山口県防府市中央町１−３ イオン防府店 3F",
+   "maps": "https://maps.google.com/?cid=17043153005673803501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムWITH徳山駅前店",
+   "rating": 5,
+   "reviews": 107,
+   "address": "日本、〒745-0031 山口県周南市銀南街４ 銀南街ビル 2階",
+   "maps": "https://maps.google.com/?cid=327105648215099039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スリーエススポーツプラザ大内店|山口スイミングスクール大内校",
+   "rating": 4,
+   "reviews": 77,
+   "address": "日本、〒753-0211 山口県山口市大内長野４６０",
+   "maps": "https://maps.google.com/?cid=12740500481202084210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スリーエススポーツプラザ吉敷店|山口スイミングスクール吉敷校",
+   "rating": 3.9,
+   "reviews": 68,
+   "address": "日本、〒753-0814 山口県山口市吉敷下東１丁目６−１５",
+   "maps": "https://maps.google.com/?cid=17075707722130663014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 山口吉敷店",
+   "rating": 4.2,
+   "reviews": 61,
+   "address": "日本、〒753-0813 山口県山口市吉敷中東４丁目８−２ 2F",
+   "maps": "https://maps.google.com/?cid=5973528230636193108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディフィットラボ スポーツクラブ",
+   "rating": 4,
+   "reviews": 58,
+   "address": "日本、〒754-0041 山口県山口市小郡令和１丁目１−２",
+   "maps": "https://maps.google.com/?cid=15822998618208008350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム SUCCESS 下松店",
+   "rating": 5,
+   "reviews": 57,
+   "address": "日本、〒744-0013 山口県下松市栄町１丁目６−２１ 2F",
+   "maps": "https://maps.google.com/?cid=12301559301958325537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "REBORN",
+   "rating": 4.9,
+   "reviews": 55,
+   "address": "日本、〒753-0042 山口県山口市惣太夫町５−３７",
+   "maps": "https://maps.google.com/?cid=10456704978984195971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "あなたの人生を変える痩身専門店 flow BODY フローボディ 山口駅通店",
+   "rating": 4.9,
+   "reviews": 53,
+   "address": "日本、〒753-0087 山口県山口市米屋町２−４１ 坂本ビル 2F",
+   "maps": "https://maps.google.com/?cid=3572908633790901598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Body Make Gym LEAD",
+   "rating": 5,
+   "reviews": 46,
+   "address": "日本、〒751-0865 山口県下関市綾羅木新町１丁目５−１３ 2F",
+   "maps": "https://maps.google.com/?cid=3674981345592770710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム FIT LIFE 光店",
+   "rating": 5,
+   "reviews": 44,
+   "address": "日本、〒743-0022 山口県光市虹ケ浜３丁目２−２５",
+   "maps": "https://maps.google.com/?cid=6726218602014117099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Life Place",
+   "rating": 5,
+   "reviews": 43,
+   "address": "日本、〒753-0047 山口県山口市道場門前２丁目１−７",
+   "maps": "https://maps.google.com/?cid=4544007231789451560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LOOP FITNESS GYM（ループ フィットネス ジム）",
+   "rating": 4.2,
+   "reviews": 41,
+   "address": "日本、〒753-0251 山口県山口市大内千坊６丁目１−６",
+   "maps": "https://maps.google.com/?cid=5240135040828583028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "maunam ヨガ＆ピラティスサロン",
+   "rating": 5,
+   "reviews": 41,
+   "address": "日本、〒753-0813 山口県山口市吉敷中東３丁目１４−８",
+   "maps": "https://maps.google.com/?cid=9566220361557728431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Image リラクゼーション&トレーニングルーム",
+   "rating": 4.8,
+   "reviews": 33,
+   "address": "日本、〒747-0024 山口県防府市国衙５丁目１１−１ ポピースクエアビル",
+   "maps": "https://maps.google.com/?cid=4605100309077778585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "エニタイムフィットネス 山口松美町店",
+   "rating": 4.2,
+   "reviews": 31,
+   "address": "日本、〒753-0053 山口県山口市松美町２−２７−３",
+   "maps": "https://maps.google.com/?cid=6571661941152283729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "コンディショニングジムLINKs 周南店",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒745-0817 山口県周南市上遠石町２−３８−１０３ K's base3",
+   "maps": "https://maps.google.com/?cid=10548366908019187766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツクラブNAP",
+   "rating": 3.4,
+   "reviews": 29,
+   "address": "日本、〒753-0851 山口県山口市黒川２３０７−２",
+   "maps": "https://maps.google.com/?cid=12153886817261561466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Make Body 周南店",
+   "rating": 4.9,
+   "reviews": 24,
+   "address": "日本、〒745-0033 山口県周南市上遠石町１１−４８ 三東ビル ３Ｆ南",
+   "maps": "https://maps.google.com/?cid=7473340442223281400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "どうもんフィットネス",
+   "rating": 4.1,
+   "reviews": 23,
+   "address": "日本、〒753-0047 山口県山口市道場門前２丁目３−６",
+   "maps": "https://maps.google.com/?cid=10221219947408276795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ルーキーズ山口",
+   "rating": 4,
+   "reviews": 23,
+   "address": "日本、〒753-0815 山口県山口市維新公園５丁目２−１２",
+   "maps": "https://maps.google.com/?cid=1452600945086919647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムRevive Fitness （ダイエット,筋力アップ,美•Body Make）",
+   "rating": 5,
+   "reviews": 23,
+   "address": "日本、〒743-0022 山口県光市虹ケ浜３丁目１５−５",
+   "maps": "https://maps.google.com/?cid=11913257457197202131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "カーブス 山口中央",
+   "rating": 4.2,
+   "reviews": 23,
+   "address": "日本、〒753-0044 山口県山口市鰐石町６−３５ 1階",
+   "maps": "https://maps.google.com/?cid=14012781930145028880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "メディフィットクラブ",
+   "rating": 4.9,
+   "reviews": 21,
+   "address": "日本、〒753-0064 山口県山口市神田町１−４２",
+   "maps": "https://maps.google.com/?cid=18128275500650748406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネススクール ロコモK.O 山口中央店",
+   "rating": 4.7,
+   "reviews": 21,
+   "address": "日本、〒753-0045 山口県山口市黄金町１ 菜花道門キューブ 103",
+   "maps": "https://maps.google.com/?cid=8208316677970663314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "あなたの人生を変える痩身専門店 flow BODY フローボディ 新山口店",
+   "rating": 4.8,
+   "reviews": 19,
+   "address": "日本、〒754-0002 山口県山口市小郡大正町５−８",
+   "maps": "https://maps.google.com/?cid=14487056667428265796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CARE FIT【ボディケア×フィットネス】",
+   "rating": 4.9,
+   "reviews": 18,
+   "address": "日本、〒745-0017 山口県周南市上遠石町１１−４８ 3F南",
+   "maps": "https://maps.google.com/?cid=1413282114635150008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Wellbo ウェルボ ダイエット専門パーソナルトレーニングジム",
+   "rating": 4.8,
+   "reviews": 17,
+   "address": "日本、〒753-0825 山口県山口市矢原町１３−５ MAISON ひまわり 305",
+   "maps": "https://maps.google.com/?cid=7648610956618395259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GYMbee Fit&Wellbeing",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒754-0073 山口県山口市小郡本町１丁目１３−１３",
+   "maps": "https://maps.google.com/?cid=15006151446107558989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "sprout.8（スプラウトエイト）",
+   "rating": 4.9,
+   "reviews": 13,
+   "address": "日本、〒753-0851 山口県山口市黒川３７３６ フジグラン山口 生活館内",
+   "maps": "https://maps.google.com/?cid=1663454767354925057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "スポーツジム",
+   "rating": 4.4,
+   "reviews": 13,
+   "address": "日本、〒745-0854 山口県周南市中野７５７",
+   "maps": "https://maps.google.com/?cid=15571901860587748736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティス×ストレッチ専門店 ピラスト",
+   "rating": 4.9,
+   "reviews": 11,
+   "address": "日本、〒753-0212 山口県山口市下小鯖 字橋詰46-1",
+   "maps": "https://maps.google.com/?cid=7501727498766819401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "痛み・トレーニング研究所 T-Labo（ティーラボ）",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒747-0808 山口県防府市桑山２丁目８−２１",
+   "maps": "https://maps.google.com/?cid=8103373865006165867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "防府スポーツジム",
+   "rating": 4.1,
+   "reviews": 10,
+   "address": "日本、〒747-0823 山口県防府市鐘紡町７−１ イオンタウン防府 2F",
+   "maps": "https://maps.google.com/?cid=6899039655107249121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "フィットネススクール ロコモK.O24 山口湯田店",
+   "rating": 5,
+   "reviews": 9,
+   "address": "日本、〒753-0814 山口県山口市吉敷下東３丁目４−８",
+   "maps": "https://maps.google.com/?cid=16998204223764016468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プロブリーズ probrise・ダイエット.ピラテススタジオ",
+   "rating": 4.9,
+   "reviews": 8,
+   "address": "日本、〒753-0826 山口県山口市幸町３−３７",
+   "maps": "https://maps.google.com/?cid=7827465511574760946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BALANCE personal yogastudio",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒753-0011 山口県山口市宮野下",
+   "maps": "https://maps.google.com/?cid=15385741993367833944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Pilates Studio Glow 山口店",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒753-0074 山口県山口市中央５丁目１５−１１ 2F-A",
+   "maps": "https://maps.google.com/?cid=14909697153285309594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "インプレス防府店",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒747-0026 山口県防府市緑町２丁目５−２３ レジデンス緑町 103",
+   "maps": "https://maps.google.com/?cid=8553235892944716317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Beauty Clinic GYMbee",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒754-0002 山口県山口市小郡本町１丁目１３−１２ サニーハイツ A号",
+   "maps": "https://maps.google.com/?cid=1610276176332505755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ロコモK.O24山口小郡店",
+   "rating": 4.9,
+   "reviews": 7,
+   "address": "日本、〒754-0001 山口県山口市小郡東津１丁目７−３８",
+   "maps": "https://maps.google.com/?cid=4326463138796045097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ワールドプラスジム山口小郡店",
+   "rating": 3.1,
+   "reviews": 7,
+   "address": "日本、〒754-0031 山口県山口市小郡新町６丁目３−１５",
+   "maps": "https://maps.google.com/?cid=18160090584962300921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "仲間の集う場所 Greenスポーツクラブ",
+   "rating": 4.2,
+   "reviews": 6,
+   "address": "日本、〒747-0035 山口県防府市栄町１丁目１１−６",
+   "maps": "https://maps.google.com/?cid=3064558988151251045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "インプレス",
+   "rating": 4.2,
+   "reviews": 5,
+   "address": "日本、〒745-0011 山口県周南市桜馬場通２丁目２",
+   "maps": "https://maps.google.com/?cid=4783017088141576347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BEAT GYM",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒744-0029 山口県下松市楠木町１丁目４−５",
+   "maps": "https://maps.google.com/?cid=10674498716622149265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "3charge gym",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒745-0834 山口県周南市清水２丁目１１−１０ モリビル 302号",
+   "maps": "https://maps.google.com/?cid=4086472593660926379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "E.L.E Personal Training GYM",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒747-0808 山口県防府市桑山２丁目２−１８ 安村ビル 2F",
+   "maps": "https://maps.google.com/?cid=9454134908517944458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "yumiyu-口元から女性の全身を整えるサロン-",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒753-0252 山口県山口市大内中央２丁目１４−１７",
+   "maps": "https://maps.google.com/?cid=17262072449347541842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Gravity",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒755-0065 山口県宇部市浜町１丁目２−６ 宇部コムズビル ５階",
+   "maps": "https://maps.google.com/?cid=11629296829047143993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "CyLS",
+   "rating": 5,
+   "reviews": 2,
+   "address": "日本、〒755-0151 山口県宇部市西岐波４３７３−４",
+   "maps": "https://maps.google.com/?cid=12925556576144651882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Blossom Labo(ブロッサム ラボ)",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒755-0154 山口県宇部市今村南２丁目１０−３０",
+   "maps": "https://maps.google.com/?cid=3486293682905087217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングスタジオWeeD",
+   "rating": 4,
+   "reviews": 1,
+   "address": "日本、〒747-0046 山口県防府市千日２丁目７−２７ 2F",
+   "maps": "https://maps.google.com/?cid=2214737871461533184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ジャザサイズ山口市/大田美奈クラス&カワイ体育教室",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒753-0871 山口県山口市朝田２０９２−１",
+   "maps": "https://maps.google.com/?cid=6395447940051218865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Drs.Fitness K STUDIO",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒753-0851 山口県山口市黒川１８３４−２",
+   "maps": "https://maps.google.com/?cid=3847812502143504222&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SUKHA Conditioning Studio",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒753-0851 山口県山口市黒川２５５０−５ オフィステラス M203",
+   "maps": "https://maps.google.com/?cid=8512372621292359026&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "株式会社 ドットアップ",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒747-0042 山口県防府市今市町１７−４３",
+   "maps": "https://maps.google.com/?cid=17428800323518180472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "GILET S&C Labo（ジレラボ）",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒747-0841 山口県防府市東仁井令町２４−１ 仁井令ハイツKS201号室",
+   "maps": "https://maps.google.com/?cid=7930217123995959846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "KoBu",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒753-0814 山口県山口市吉敷下東１丁目１５−１１",
+   "maps": "https://maps.google.com/?cid=16067083253707520660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SHORT ROOM",
+   "rating": null,
+   "reviews": null,
+   "address": "日本、〒751-0001 山口県山口市小郡上郷１７４５−１",
+   "maps": "https://maps.google.com/?cid=1363330785444869015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}

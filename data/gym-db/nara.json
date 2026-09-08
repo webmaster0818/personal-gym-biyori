@@ -1,0 +1,423 @@
+{
+ "city": "奈良",
+ "fetchedAt": "2026-09-08",
+ "query": "パーソナルジム 奈良",
+ "gyms": [
+  {
+   "name": "パーソナルトレーニングジムWITH奈良本店",
+   "rating": 4.9,
+   "reviews": 158,
+   "address": "日本、〒631-0817 奈良県奈良市西大寺北町４丁目３−１ 共栄マンション 1D号室",
+   "maps": "https://maps.google.com/?cid=14763287744114914028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "FIT PLACE24三条店",
+   "rating": 4.9,
+   "reviews": 152,
+   "address": "日本、〒630-8013 奈良県奈良市三条大路４丁目１−２１",
+   "maps": "https://maps.google.com/?cid=12444401894443781085&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム BEYOND 奈良店",
+   "rating": 5,
+   "reviews": 120,
+   "address": "日本、〒630-8013 奈良県奈良市三条大路２丁目２−１",
+   "maps": "https://maps.google.com/?cid=12705593763440286820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムWITH西大寺中山町店",
+   "rating": 4.9,
+   "reviews": 104,
+   "address": "日本、〒631-0012 奈良県奈良市中山町131-1 1931-3 グラマシーガレージナカヤマ",
+   "maps": "https://maps.google.com/?cid=232158366600283462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムWITH新大宮駅前店",
+   "rating": 4.9,
+   "reviews": 96,
+   "address": "日本、〒630-8115 奈良県奈良市大宮町５丁目4−８ 5F",
+   "maps": "https://maps.google.com/?cid=8873551210344772897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムLinkx奈良富雄店/ピラティススタジオLinkx",
+   "rating": 4.9,
+   "reviews": 77,
+   "address": "日本、〒631-0078 奈良県奈良市富雄元町２丁目６−４８ ライオンズプラザ 富雄 2F",
+   "maps": "https://maps.google.com/?cid=12104180557077751153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TMK GYM",
+   "rating": 4.9,
+   "reviews": 74,
+   "address": "日本、〒630-8141 奈良県奈良市南京終町１丁目168ｰ4",
+   "maps": "https://maps.google.com/?cid=5213079864106717750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "健康ステーションNARA 本店",
+   "rating": 4.9,
+   "reviews": 70,
+   "address": "日本、〒639-1001 奈良県大和郡山市九条町１９６−５",
+   "maps": "https://maps.google.com/?cid=1229377192808298004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "【女性専用パーソナルジム】GYMS（ジムズ） 大和西大寺店",
+   "rating": 4.9,
+   "reviews": 58,
+   "address": "日本、〒631-0822 奈良県奈良市西大寺栄町３−２７ 304号室",
+   "maps": "https://maps.google.com/?cid=11527966129460766311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "LB4 FITNESS",
+   "rating": 5,
+   "reviews": 55,
+   "address": "日本、〒631-0824 奈良県奈良市西大寺南町１−１７ 2階",
+   "maps": "https://maps.google.com/?cid=8655846697940691910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファーストクラストレーナーズ奈良大宮店",
+   "rating": 5,
+   "reviews": 50,
+   "address": "日本、〒630-8115 奈良県奈良市大宮町３丁目２−１０ 三洋ビル 3f 4F",
+   "maps": "https://maps.google.com/?cid=4255139774985198119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "駅前筋肉留学GO奈良店",
+   "rating": 4.9,
+   "reviews": 50,
+   "address": "日本、〒630-8224 奈良県奈良市角振町３１−１ モトイケビル 4階",
+   "maps": "https://maps.google.com/?cid=2888122204485698183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SynerGym奈良押熊店",
+   "rating": 4.6,
+   "reviews": 43,
+   "address": "日本、〒631-0011 奈良県奈良市押熊町１１１５ コープおしくま 店2F",
+   "maps": "https://maps.google.com/?cid=10881727416806032677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムBest Aim",
+   "rating": 5,
+   "reviews": 42,
+   "address": "日本、〒636-0002 奈良県北葛城郡王寺町王寺２丁目８−１９ サンモール 3階",
+   "maps": "https://maps.google.com/?cid=5328364449577594746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ダイエット専門 パーソナルジムHPER(ハイパー)富雄店",
+   "rating": 4.9,
+   "reviews": 39,
+   "address": "日本、〒631-0065 奈良県奈良市鳥見町１丁目2番11 トリミティー 中西ビル 3階",
+   "maps": "https://maps.google.com/?cid=15237697858984445822&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ライザップ(RIZAP)奈良店",
+   "rating": 4.6,
+   "reviews": 38,
+   "address": "日本、〒630-8241 奈良県奈良市高天町４８−５ ALPHA SQUARE B1F",
+   "maps": "https://maps.google.com/?cid=15368185543364494670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム シリウス【奈良店】",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒630-8365 奈良県奈良市下御門町４−番地 e・リュエル 2階2A号室",
+   "maps": "https://maps.google.com/?cid=6698119311722221118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "健康ステーションNARA plus+ 学園前支店",
+   "rating": 5,
+   "reviews": 36,
+   "address": "日本、〒631-0041 奈良県奈良市学園大和町２丁目８１ 奈良西ビル 4階西側",
+   "maps": "https://maps.google.com/?cid=4494154420403802059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TONe BODY CONDITIONING",
+   "rating": 5,
+   "reviews": 35,
+   "address": "日本、〒631-0032 奈良県奈良市あやめ池北１丁目３４−７ ＨＡＮＡ 2F",
+   "maps": "https://maps.google.com/?cid=494238009055580651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "からだとわたし",
+   "rating": 5,
+   "reviews": 33,
+   "address": "日本、〒631-0806 奈良県奈良市朱雀３丁目７−１",
+   "maps": "https://maps.google.com/?cid=13874393852955645787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ『ルルト』奈良店",
+   "rating": 4.9,
+   "reviews": 33,
+   "address": "日本、〒630-8031 奈良県奈良市柏木町４２１−１ 柏木ビル 3D",
+   "maps": "https://maps.google.com/?cid=16948955230766389276&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY MAKE STUDIO GORILLA",
+   "rating": 5,
+   "reviews": 32,
+   "address": "日本、〒630-0113 奈良県生駒市鹿ノ台南２丁目３−１５ きむら鍼灸整骨院 2階",
+   "maps": "https://maps.google.com/?cid=10192269553356532532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "プライベート トレーニング スペース MTG",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒630-8248 奈良県奈良市西新在家町１５−１",
+   "maps": "https://maps.google.com/?cid=18107605478339096882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルピラティススタジオLinkx 大和西大寺店",
+   "rating": 5,
+   "reviews": 30,
+   "address": "日本、〒630-8002 奈良県奈良市二条町１丁目１−６８ 福井第一ビル 2F",
+   "maps": "https://maps.google.com/?cid=6087611662403735689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニング クリーレン 奈良富雄店",
+   "rating": 4.8,
+   "reviews": 27,
+   "address": "日本、〒631-0065 奈良県奈良市鳥見町１丁目8−５ F2",
+   "maps": "https://maps.google.com/?cid=10502486943871566734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "健康ステーションNARA JR奈良支店",
+   "rating": 5,
+   "reviews": 26,
+   "address": "日本、〒630-8357 奈良県奈良市杉ヶ町５０ カイモト第1ビル 2階西",
+   "maps": "https://maps.google.com/?cid=12221061815518396588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニングスタジオ・エクラル",
+   "rating": 4.7,
+   "reviews": 25,
+   "address": "日本、〒631-0011 奈良県奈良市押熊町２３６５−１０７",
+   "maps": "https://maps.google.com/?cid=17939005485758902696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムAid 菖蒲池店",
+   "rating": 4.8,
+   "reviews": 25,
+   "address": "日本、〒631-0033 奈良県奈良市あやめ池南２丁目１−５０ MPビル南館 ３階",
+   "maps": "https://maps.google.com/?cid=12858065307215254076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム かたぎり塾 奈良学園前店",
+   "rating": 5,
+   "reviews": 24,
+   "address": "日本、〒631-0036 奈良県奈良市学園北２丁目１−６ セブンスターマンション 学園前 101",
+   "maps": "https://maps.google.com/?cid=16887510620705326168&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "本物のパーソナルジム大和西大寺店",
+   "rating": 5,
+   "reviews": 21,
+   "address": "日本、〒631-0825 奈良県奈良市西大寺芝町１丁目３−１７ セカンドハウス 88店舗A101号室",
+   "maps": "https://maps.google.com/?cid=16273227475515945463&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムアヴニール奈良大宮店",
+   "rating": 4.6,
+   "reviews": 21,
+   "address": "日本、〒630-8115 奈良県奈良市大宮町３丁目５−３４ グランデ大宮 5F",
+   "maps": "https://maps.google.com/?cid=1185737951603550651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "BODY concierge 学園前店",
+   "rating": 4.8,
+   "reviews": 21,
+   "address": "日本、〒631-0022 奈良県奈良市鶴舞西町２−２２ FUN1F",
+   "maps": "https://maps.google.com/?cid=7140501557794147447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "SGB橿原 -Sato Gym Brillante-",
+   "rating": 5,
+   "reviews": 19,
+   "address": "日本、〒634-0844 奈良県橿原市土橋町１９３−１",
+   "maps": "https://maps.google.com/?cid=2789224994821077584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ここからだジム",
+   "rating": 4.9,
+   "reviews": 19,
+   "address": "日本、〒630-8001 奈良県奈良市法華寺町３０１−１ 辰巳マンション",
+   "maps": "https://maps.google.com/?cid=10393462107741447399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ヤマムラパーソナルジム",
+   "rating": 5,
+   "reviews": 16,
+   "address": "日本、〒631-0061 奈良県奈良市三碓６丁目１０−６ 2F",
+   "maps": "https://maps.google.com/?cid=15889053905335352479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "奈良パーソナルジム 天理店",
+   "rating": 4.9,
+   "reviews": 16,
+   "address": "日本、〒632-0016 奈良県天理市川原城町８７０ 西本ビル 2F 202",
+   "maps": "https://maps.google.com/?cid=14834392771135688577&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "女性専用パーソナルジムKanathos",
+   "rating": 5,
+   "reviews": 14,
+   "address": "日本、〒631-0078 奈良県奈良市富雄元町２丁目１−１２ 細川ビル ４F",
+   "maps": "https://maps.google.com/?cid=4013337456292863992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ファーストクラストレーナーズ 天理店",
+   "rating": 4.9,
+   "reviews": 14,
+   "address": "日本、〒632-0034 奈良県天理市丹波市町４４８ ﾊﾟｲﾝﾘｰﾌ天理 301号",
+   "maps": "https://maps.google.com/?cid=5363481418830390634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジム ビレッジアップ",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒630-8264 奈良県奈良市鍋屋町２−６ サンふくむらビルⅡ 2F",
+   "maps": "https://maps.google.com/?cid=13851808490058016037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムアヴニールあやめ池店",
+   "rating": 4.8,
+   "reviews": 13,
+   "address": "日本、〒631-0033 奈良県奈良市あやめ池南６丁目１−７",
+   "maps": "https://maps.google.com/?cid=10571970999200007421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジムBASE-T（移転後）",
+   "rating": 5,
+   "reviews": 13,
+   "address": "日本、〒631-0078 奈良県奈良市富雄元町２丁目２−１ 505",
+   "maps": "https://maps.google.com/?cid=921899186841875631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルトレーニングジム BURN",
+   "rating": 5,
+   "reviews": 12,
+   "address": "日本、〒630-8236 奈良県奈良市下三条町２−１",
+   "maps": "https://maps.google.com/?cid=4743585873282889124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "トレーニング・スペース奈良",
+   "rating": 4.3,
+   "reviews": 12,
+   "address": "日本、〒630-8113 奈良県奈良市法蓮町１３０２−１",
+   "maps": "https://maps.google.com/?cid=15609544263409997164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "H:TOKI(ひととき)",
+   "rating": 5,
+   "reviews": 11,
+   "address": "日本、〒630-8013 奈良県奈良市三条大路３丁目２−５４ 2",
+   "maps": "https://maps.google.com/?cid=13514721235223600244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "セミパーソナルジム「ボクノジム」奈良新大宮店",
+   "rating": 5,
+   "reviews": 10,
+   "address": "日本、〒630-8013 奈良県奈良市三条大路１丁目１０−４３ フォレストスクエア 3階H",
+   "maps": "https://maps.google.com/?cid=568719216777289809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "姿勢改善パーソナルジム＆リラクゼーションサロン 新大宮 bodymake liverth（Luna）",
+   "rating": 5,
+   "reviews": 8,
+   "address": "日本、〒630-8115 奈良県奈良市大宮町３丁目２−１０",
+   "maps": "https://maps.google.com/?cid=1454282226531615475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムアヴニール大和西大寺店",
+   "rating": 5,
+   "reviews": 6,
+   "address": "日本、〒631-0817 奈良県奈良市西大寺北町１丁目６−１０ 北和ビル 2F",
+   "maps": "https://maps.google.com/?cid=2113300983186434817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "TONe BODY CONDITIONING奈良大宮店",
+   "rating": 5,
+   "reviews": 5,
+   "address": "日本、〒630-8115 奈良県奈良市大宮町３丁目２−１０ 三洋ビル ４F",
+   "maps": "https://maps.google.com/?cid=7454183179170626219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "THE REV. CONDITIONING LAB.",
+   "rating": 5,
+   "reviews": 4,
+   "address": "日本、〒630-8001 奈良県奈良市法華寺町１２６−１ FKビル 1F",
+   "maps": "https://maps.google.com/?cid=10386906385743215723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "パーソナルジムHPER(ハイパー) 京終店 奈良",
+   "rating": 5,
+   "reviews": 3,
+   "address": "日本、〒630-8306 奈良県奈良市紀寺町８６６−４ タナベビル 2階西側",
+   "maps": "https://maps.google.com/?cid=3426350511964780864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "ピラティススタジオ リデイズ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒630-8244 奈良県奈良市三条町６０６−６１",
+   "maps": "https://maps.google.com/?cid=12048241444786673617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  },
+  {
+   "name": "Ｍ's フィットネスクラブ",
+   "rating": 5,
+   "reviews": 1,
+   "address": "日本、〒630-8231 奈良県奈良市本子守町1−１ メゾンドヴァンイノウエ 301号",
+   "maps": "https://maps.google.com/?cid=4803921324601791110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "status": "OPERATIONAL"
+  }
+ ]
+}
