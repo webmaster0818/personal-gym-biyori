@@ -48,7 +48,7 @@ export default function MoriokaDbPage() {
       <h1 className="text-2xl font-bold sm:text-3xl">盛岡のパーソナルジム全データベース({gyms.length}店)</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         盛岡エリアで実在確認できたパーソナルジム{gyms.length}店の一覧です(Googleマップ実測・{db.fetchedAt}取得・口コミ件数順)。
-        おすすめを絞った記事は<Link href="/area/fukuoka/" className="underline text-blue-700">盛岡のパーソナルジムおすすめ8選</Link>へ。
+        全国の都市別DBは<Link href="/db/" className="underline text-blue-700">データベースハブ</Link>へ。
         このページは「まず全体を見たい」方向けに、提携の有無に関係なく全店を載せています。
       </p>
 
@@ -99,7 +99,7 @@ export default function MoriokaDbPage() {
       </div>
 
       <p className="mt-8 text-sm">
-        <Link href="/area/fukuoka/" className="underline text-blue-700">→ 盛岡のおすすめ8選(編集部の絞り込み)</Link>
+        <Link href="/db/" className="underline text-blue-700">→ 全国の都市別データベース</Link>
         <span className="mx-2 text-gray-300">|</span>
         <Link href="/area/tokyo/" className="underline text-blue-700">→ 東京エリア一覧</Link>
       </p>

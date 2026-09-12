@@ -59,7 +59,7 @@ export default function AreaGymList({ area, areaName }: { area: string; areaName
                 </div>
                 <p className="text-sm text-gray-600 mt-2">{g.address}</p>
                 <div className="flex flex-wrap gap-3 mt-3 text-sm font-bold">
-                  {b && (
+                  {b?.meta.reviewHref && (
                     <Link href={b.meta.reviewHref} className="text-orange-600 underline underline-offset-2">
                       {b.brand}の詳細レビュー
                     </Link>

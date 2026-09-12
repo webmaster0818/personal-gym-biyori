@@ -5,7 +5,7 @@
 
 type GymMeta = {
   image?: string;
-  reviewHref: string;
+  reviewHref?: string;
   affiliateUrl?: string;
   googleMapQuery: string;
   type: string;
@@ -99,31 +99,26 @@ export const gymMetadata: Record<string, GymMeta> = {
     hours: "10:00〜22:00",
   },
   かたぎり塾: {
-    reviewHref: "/review/katagiri/",
     googleMapQuery: "かたぎり塾",
     type: "理学療法士監修パーソナルジム",
     hours: "10:00〜22:00",
   },
   "Bodyke（ボディーク）": {
-    reviewHref: "/review/bodyke/",
     googleMapQuery: "Bodyke+パーソナルジム",
     type: "食べながら痩せるパーソナルジム",
     hours: "10:00〜22:00",
   },
   "CREBIQ（クレビック）": {
-    reviewHref: "/review/crebiq/",
     googleMapQuery: "CREBIQ+パーソナルジム",
     type: "女性専用パーソナルジム",
     hours: "10:00〜23:00",
   },
   "Reborn myself（リボーンマイセルフ）": {
-    reviewHref: "/review/reborn-myself/",
     googleMapQuery: "リボーンマイセルフ",
     type: "女性専用パーソナルジム",
     hours: "9:00〜22:00",
   },
   リアルワークアウト: {
-    reviewHref: "/review/real-workout/",
     googleMapQuery: "リアルワークアウト",
     type: "月額制パーソナルジム",
     hours: "10:00〜22:00",
@@ -136,7 +131,6 @@ export const gymMetadata: Record<string, GymMeta> = {
     hours: "6:00〜23:00",
   },
   "WHOEVER（フーエバー）": {
-    reviewHref: "/review/whoever/",
     googleMapQuery: "WHOEVER+パーソナルジム",
     type: "キックボクシング融合パーソナルジム",
     hours: "9:00〜23:00",
@@ -148,31 +142,26 @@ export const gymMetadata: Record<string, GymMeta> = {
     hours: "10:00〜22:00",
   },
   "PALMS（パームス）": {
-    reviewHref: "/review/palms/",
     googleMapQuery: "PALMS+パーソナルジム",
     type: "カフェ併設パーソナルジム",
     hours: "9:00〜22:00",
   },
   ダイエットラボ: {
-    reviewHref: "/review/diet-lab/",
     googleMapQuery: "ダイエットラボ",
     type: "ダイエット特化パーソナルジム",
     hours: "10:00〜22:00",
   },
   "ACHT（アハト）": {
-    reviewHref: "/review/acht/",
     googleMapQuery: "ACHT+パーソナルジム",
     type: "完全個室パーソナルジム",
     hours: "10:00〜22:00",
   },
   "MAKE BODY（メイクボディー）": {
-    reviewHref: "/review/make-body/",
     googleMapQuery: "MAKE+BODY+パーソナルジム",
     type: "完全個室パーソナルジム",
     hours: "10:00〜22:00",
   },
   "BODY STOIC（ボディストイック）": {
-    reviewHref: "/review/body-stoic/",
     googleMapQuery: "BODY+STOIC+パーソナルジム",
     type: "完全個室パーソナルジム",
     hours: "10:00〜22:00",
