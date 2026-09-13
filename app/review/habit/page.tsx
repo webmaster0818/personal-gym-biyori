@@ -254,10 +254,9 @@ export default function HabitReview() {
         "@type": "Article",
         "headline": "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
         "author": {
-          "@type": "Person",
-          "name": "山田 拓也",
-          "url": "https://personal-gym-biyori.com/about/",
-          "jobTitle": "パーソナルジム専門ライター"
+          "@type": "Organization",
+          "name": "パーソナルジムびより編集部",
+          "url": "https://personal-gym-biyori.com/about/"
         },
         "publisher": {
           "@type": "Organization",

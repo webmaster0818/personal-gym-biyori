@@ -5,7 +5,6 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "運営者情報 | パーソナルジムびより",
   description: "パーソナルジムびよりの運営者情報・評価基準・サイトポリシーについてご紹介します。",
-  robots: { index: false, follow: true },
 };
 
 export default function AboutPage() {
@@ -15,23 +14,21 @@ export default function AboutPage() {
       <div className="max-w-3xl mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold text-gray-900 mb-8 pb-3 border-b-2 border-teal-500">運営者情報</h1>
 
-        {/* Author Profile */}
+        {/* Editorial Team */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">執筆者プロフィール</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">運営体制</h2>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
-            <div className="flex items-start gap-4">
-              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-teal-500 to-teal-700 text-white flex items-center justify-center text-2xl font-bold shrink-0">YT</div>
-              <div>
-                <p className="text-lg font-bold text-gray-800">山田 拓也（やまだ たくや）</p>
-                <p className="text-sm text-teal-600 font-medium mt-1">パーソナルジム専門ライター / NSCA-CPT</p>
-                <ul className="text-sm text-gray-600 mt-3 space-y-1 list-disc list-inside">
-                  <li>パーソナルジム業界を5年以上取材</li>
-                  <li>延べ60社以上のジムを実際に訪問・体験取材</li>
-                  <li>NSCA認定パーソナルトレーナー（NSCA-CPT）資格保有</li>
-                  <li>自身もパーソナルジムでのトレーニングを3年以上継続中</li>
-                </ul>
-              </div>
-            </div>
+            <p className="text-lg font-bold text-gray-800">パーソナルジムびより編集部</p>
+            <p className="text-sm text-gray-600 mt-3 leading-relaxed">
+              当サイトは、実測データにもとづいてパーソナルジム情報を整理・比較する編集部が運営しています。特定の個人の体験談や資格を根拠にするのではなく、
+              「誰でも検証できる一次データ」だけを掲載することを編集方針としています。
+            </p>
+            <ul className="text-sm text-gray-600 mt-3 space-y-1 list-disc list-inside">
+              <li>全国49都市・約2,800店のパーソナルジムをGoogleマップの公開データ(評点・口コミ件数)で機械的に実測(取得日を各ページに明記)</li>
+              <li>料金・営業時間などのジム情報は各社公式サイトの記載のみを採用(伝聞・推定値は不採用)</li>
+              <li>口コミの創作は行いません。評点・件数は取得時点の実数のみを掲載します</li>
+              <li>掲載後も定期的に再実測し、変動があれば更新します</li>
+            </ul>
           </div>
         </section>
 
@@ -39,7 +36,7 @@ export default function AboutPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">サイトの使命</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「パーソナルジムびより」は、パーソナルジム選びに悩む方に向けて、実際の体験取材と客観的なデータに基づいた正確な情報をお届けするメディアです。
+            「パーソナルジムびより」は、パーソナルジム選びに悩む方に向けて、Googleマップの実測データと各社公式サイトの一次情報に基づいた、検証可能な情報だけをお届けするメディアです。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             広告の有無に関わらず、すべてのジムを同じ基準で公平に評価しています。料金・トレーナーの質・設備・口コミを総合的に分析し、読者の方が自分に合ったジムを見つけられるよう支援することを目指しています。
@@ -55,10 +52,10 @@ export default function AboutPage() {
           <div className="space-y-4">
             {[
               { title: "料金・コスパ", desc: "月額料金、入会金、1回あたりの単価を業界平均と比較。追加費用の有無も確認しています。" },
-              { title: "トレーナーの質", desc: "保有資格、指導経験年数、コンテスト実績、コミュニケーション力を実際の体験から評価しています。" },
-              { title: "設備・環境", desc: "マシンの種類と数、清潔感、個室の有無、シャワー・アメニティの充実度を確認しています。" },
+              { title: "トレーナーの質", desc: "公式サイトで公開されている保有資格・研修制度・在籍トレーナー情報を確認し、記載の範囲で整理しています。" },
+              { title: "設備・環境", desc: "個室の有無、シャワー・アメニティ等の設備情報を各社公式サイトの記載から確認しています。" },
               { title: "食事指導", desc: "食事管理の内容、管理栄養士の関与、LINE対応の有無など、サポート体制を評価しています。" },
-              { title: "口コミ・評判", desc: "Googleマップの口コミを中心に、SNSや各種口コミサイトの評価を分析しています。" },
+              { title: "口コミ・評判", desc: "Googleマップの評点・口コミ件数を機械的に取得し、実数のまま掲載しています(創作・改変はしません)。" },
             ].map((item) => (
               <div key={item.title} className="bg-white border border-gray-200 rounded-lg p-4">
                 <h3 className="font-bold text-sm text-gray-800 mb-1">{item.title}</h3>
@@ -99,11 +96,10 @@ export default function AboutPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "山田 拓也",
+        "@type": "Organization",
+        "name": "パーソナルジムびより編集部",
         "url": "https://personal-gym-biyori.com/about/",
-        "jobTitle": "パーソナルジム専門ライター",
-        "description": "パーソナルジム業界を5年以上取材。延べ60社以上のジムを実際に訪問・体験取材。NSCA認定パーソナルトレーナー資格保有。"
+        "description": "全国49都市・約2,800店のパーソナルジムをGoogleマップの公開データで実測し、各社公式サイトの一次情報とあわせて比較する編集部。"
       }) }} />
     </>
   );
