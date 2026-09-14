@@ -99,6 +99,7 @@ export const gymMetadata: Record<string, GymMeta> = {
     hours: "10:00〜22:00",
   },
   かたぎり塾: {
+    reviewHref: "/review/katagiri/",
     googleMapQuery: "かたぎり塾",
     type: "理学療法士監修パーソナルジム",
     hours: "10:00〜22:00",
