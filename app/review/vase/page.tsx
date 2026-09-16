@@ -127,6 +127,22 @@ export default function VaseReview() {
           VASE（ベイス）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">VASEの基本情報</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">VASEの3つの強み</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">VASEのメリット・デメリット</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">VASEの料金</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">VASEの口コミ概要</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">VASEのよくある質問</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">VASEが気になった方へ</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             VASE の公式サイトはこちら
@@ -139,7 +155,7 @@ export default function VaseReview() {
 
         {/* 基本情報 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの基本情報</h2>
+          <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -156,7 +172,7 @@ export default function VaseReview() {
 
         {/* 3つの強み */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの3つの強み</h2>
+          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの3つの強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
               <div key={i} className="bg-teal-50 rounded-lg p-5">
@@ -169,7 +185,7 @@ export default function VaseReview() {
 
         {/* メリット・デメリット */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">VASEのメリット・デメリット</h2>
+          <h2 id="s4" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">VASEのメリット・デメリット</h2>
           <h3 className="text-lg font-bold mb-4 text-green-700">メリット</h3>
           <div className="space-y-6 mb-8">
             {merits.map((m, i) => (
@@ -196,7 +212,7 @@ export default function VaseReview() {
 
         {/* 料金 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの料金</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの料金</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -233,7 +249,7 @@ export default function VaseReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEの口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
@@ -244,7 +260,7 @@ export default function VaseReview() {
       <GymCta slug="vase" name="VASE" />
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEのよくある質問</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">VASEのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -266,11 +282,11 @@ export default function VaseReview() {
         </div>
 
         {/* Author Box */}
-        <AuthorBox />
+        
 
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">VASEが気になった方へ</h2>
+          <h2 id="s8" className="text-xl font-bold mb-3">VASEが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
           <a href="https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             VASEの無料カウンセリングに申し込む
@@ -279,7 +295,7 @@ export default function VaseReview() {
 
         {/* 関連ジム */}
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (
               <Link key={r.name} href={r.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">

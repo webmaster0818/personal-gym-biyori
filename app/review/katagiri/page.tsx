@@ -101,9 +101,27 @@ export default function KatagiriReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16 pt-6">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">かたぎり塾の口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/katagiri.jpg" alt="かたぎり塾の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">かたぎり塾 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-sm text-gray-500 mb-8">公式サイトの一次情報({SURVEY_DATE}確認)と、当サイトの49都市実測データのみでまとめています。口コミの創作はありません。</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">基本情報</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">当サイト実測データで見るかたぎり塾</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">かたぎり塾の強み</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">知っておきたい点</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">よくある質問</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">他のジムのレビューも見る</a></li>
+          </ol>
+        </nav>
 
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">基本情報</h2>
+        <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">基本情報</h2>
         <table className="w-full text-sm border border-gray-200 mb-10">
           <tbody>
             {basicInfo.map((r) => (
@@ -138,7 +156,7 @@ export default function KatagiriReview() {
         </div>
         <p className="text-xs text-gray-500 mb-10">※公式サイトトップの表記({SURVEY_DATE}時点)。「料金・入会金は店舗により異なります」と公式に明記されているため、実際の金額は入会希望店舗のページでご確認ください。</p>
 
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">当サイト実測データで見るかたぎり塾</h2>
+        <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">当サイト実測データで見るかたぎり塾</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
           {[
             { num: "13店", label: "当サイトDB収録(49都市実測)" },
@@ -154,7 +172,7 @@ export default function KatagiriReview() {
         </div>
         <p className="text-xs text-gray-500 mb-10">※当サイトの都市別データベース(Googleマップ実測・取得日は各都市ページに明記)に収録された「かたぎり塾」該当店舗の集計です。全店舗数ではありません。</p>
 
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">かたぎり塾の強み</h2>
+        <h2 id="s4" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">かたぎり塾の強み</h2>
         <div className="space-y-4 mb-10">
           {strengths.map((s) => (
             <div key={s.title} className="bg-white border border-gray-200 rounded-lg p-4">
@@ -164,7 +182,7 @@ export default function KatagiriReview() {
           ))}
         </div>
 
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">知っておきたい点</h2>
+        <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">知っておきたい点</h2>
         <div className="space-y-4 mb-10">
           {demerits.map((s) => (
             <div key={s.title} className="bg-gray-50 border border-gray-200 rounded-lg p-4">
@@ -176,7 +194,7 @@ export default function KatagiriReview() {
 
         <GymCta slug="katagiri" name="かたぎり塾" />
 
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">よくある質問</h2>
+        <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">よくある質問</h2>
         <div className="space-y-3 mb-10">
           {faqItems.map((f, i) => (
             <details key={i} className="border border-gray-200 rounded-lg px-4 py-3">
@@ -186,9 +204,9 @@ export default function KatagiriReview() {
           ))}
         </div>
 
-        <AuthorBox />
+        
 
-        <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">他のジムのレビューも見る</h2>
+        <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">他のジムのレビューも見る</h2>
         <div className="flex flex-wrap gap-3">
           {relatedReviews.map((r) => (
             <Link key={r.href} href={r.href} className="text-sm text-teal-600 underline hover:text-teal-700">{r.name}</Link>

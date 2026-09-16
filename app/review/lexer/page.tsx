@@ -129,7 +129,27 @@ export default function RexerReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           ReXeR（レクサー）の口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/lexer.jpg" alt="ReXeR（レクサー）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">ReXeR（レクサー） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">ReXeR（レクサー）の基本情報</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">ReXeR（レクサー）の3つの強み</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">ReXeR（レクサー）のメリット・デメリット</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">ReXeR（レクサー）の料金</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">ReXeR（レクサー）の口コミ概要</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">ReXeR（レクサー）のよくある質問</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">ReXeR（レクサー）が気になった方へ</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             REXER の公式サイトはこちら
@@ -142,7 +162,7 @@ export default function RexerReview() {
 
         {/* 基本情報 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の基本情報</h2>
+          <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -159,7 +179,7 @@ export default function RexerReview() {
 
         {/* 3つの強み */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の3つの強み</h2>
+          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の3つの強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
               <div key={i} className="bg-teal-50 rounded-lg p-5">
@@ -172,7 +192,7 @@ export default function RexerReview() {
 
         {/* メリット・デメリット */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）のメリット・デメリット</h2>
+          <h2 id="s4" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）のメリット・デメリット</h2>
           <h3 className="text-lg font-bold mb-4 text-green-700">メリット</h3>
           <div className="space-y-6 mb-8">
             {merits.map((m, i) => (
@@ -199,7 +219,7 @@ export default function RexerReview() {
 
         {/* 料金 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の料金</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の料金</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -236,7 +256,7 @@ export default function RexerReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
@@ -247,7 +267,7 @@ export default function RexerReview() {
       <GymCta slug="lexer" name="ReXeR（レクサー）" />
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）のよくある質問</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）のよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -269,11 +289,11 @@ export default function RexerReview() {
         </div>
 
         {/* Author Box */}
-        <AuthorBox />
+        
 
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">ReXeR（レクサー）が気になった方へ</h2>
+          <h2 id="s8" className="text-xl font-bold mb-3">ReXeR（レクサー）が気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。コンテスト優勝トレーナーの指導を体験できます。</p>
           <a
             href={affiliateUrl}
@@ -287,7 +307,7 @@ export default function RexerReview() {
 
         {/* 関連ジム */}
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (
               <Link key={r.name} href={r.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">

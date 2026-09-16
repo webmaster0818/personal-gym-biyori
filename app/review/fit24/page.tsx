@@ -146,7 +146,31 @@ export default function Fit24Review() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           FIT24の口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/fit24.jpg" alt="FIT24の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">FIT24 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">結論：FIT24はこんな人におすすめ</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">この記事でわかること（よくある4つの疑問）</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">FIT24の基本情報</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">FIT24の3つの強み</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">FIT24のメリット・デメリット</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">FIT24の料金</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">FIT24の口コミ概要</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">FIT24の良い口コミ・気になる口コミの傾向</a></li>
+            <li><a href="#s10" className="text-teal-600 hover:underline">FIT24のよくある質問</a></li>
+            <li><a href="#s11" className="text-teal-600 hover:underline">FIT24が気になった方へ</a></li>
+            <li><a href="#s12" className="text-teal-600 hover:underline">FIT24の店舗別レビュー</a></li>
+            <li><a href="#s13" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             FIT24 の公式サイトはこちら
@@ -158,7 +182,7 @@ export default function Fit24Review() {
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 className="font-bold text-gray-900 mb-3">結論：FIT24はこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：FIT24はこんな人におすすめ</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
             <li>・<strong>料金</strong>：通常月会費は月7,000円台後半〜、家族・U22などの割引プランは月4,000円台〜（店舗・プランにより異なる）。低価格のセルフ型</li>
             <li>・<strong>24時間365日</strong>いつでも利用可。早朝・深夜に通いたい人に向く</li>
@@ -169,7 +193,7 @@ export default function Fit24Review() {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
+          <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 料金はいくら？</dt>
@@ -191,7 +215,7 @@ export default function Fit24Review() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の基本情報</h2>
+          <h2 id="s4" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -207,7 +231,7 @@ export default function Fit24Review() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の3つの強み</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の3つの強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
               <div key={i} className="bg-teal-50 rounded-lg p-5">
@@ -219,7 +243,7 @@ export default function Fit24Review() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">FIT24のメリット・デメリット</h2>
+          <h2 id="s6" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">FIT24のメリット・デメリット</h2>
           <h3 className="text-lg font-bold mb-4 text-green-700">メリット</h3>
           <div className="space-y-6 mb-8">
             {merits.map((m, i) => (
@@ -245,7 +269,7 @@ export default function Fit24Review() {
         </section>
 
         <section id="pricing" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の料金</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の料金</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -272,7 +296,7 @@ export default function Fit24Review() {
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の口コミ概要</h2>
+          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
@@ -280,7 +304,7 @@ export default function Fit24Review() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の良い口コミ・気になる口コミの傾向</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の良い口コミ・気になる口コミの傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             FIT24の口コミを「良い評判」「気になる評判」に分けて傾向を整理しました。以下は公開されている口コミ全般から見られる傾向で、特定の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/FiT24%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
           </p>
@@ -310,7 +334,7 @@ export default function Fit24Review() {
 
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24のよくある質問</h2>
+          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24のよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -332,10 +356,10 @@ export default function Fit24Review() {
         </section>
 
         {/* Author Box */}
-        <AuthorBox />
+        
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">FIT24が気になった方へ</h2>
+          <h2 id="s11" className="text-xl font-bold mb-3">FIT24が気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずはお近くの店舗を見学して、設備や雰囲気を確認してみましょう。</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
@@ -348,7 +372,7 @@ export default function Fit24Review() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-lg font-bold mb-4">FIT24の店舗別レビュー</h2>
+          <h2 id="s12" className="text-lg font-bold mb-4">FIT24の店舗別レビュー</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {storeReviews.map((s) => (
               <Link key={s.href} href={s.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">
@@ -359,7 +383,7 @@ export default function Fit24Review() {
         </section>
 
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s13" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (
               <Link key={r.name} href={r.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">

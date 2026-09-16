@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
@@ -170,14 +171,39 @@ export default function RealBodyReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判は？料金・効果を徹底解説</h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/real-body.jpg" alt="リアルボディの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">リアルボディ 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月3日</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">結論：リアルボディはこんな人におすすめ</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">この記事でわかること（よくある4つの疑問）</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">リアルボディの基本情報</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">リアルボディの3つの強み</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">リアルボディのメリット・デメリット</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">リアルボディの料金（回数券制・総額の目安）</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">リアルボディ坂戸店の店舗情報（埼玉県唯一の店舗）</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">リアルボディの口コミ概要</a></li>
+            <li><a href="#s10" className="text-teal-600 hover:underline">リアルボディの口コミ・評判の傾向</a></li>
+            <li><a href="#s11" className="text-teal-600 hover:underline">目的・悩み別 リアルボディの向き不向き</a></li>
+            <li><a href="#s12" className="text-teal-600 hover:underline">リアルボディのよくある質問</a></li>
+            <li><a href="#s13" className="text-teal-600 hover:underline">リアルボディが気になった方へ</a></li>
+            <li><a href="#s14" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
 
         <p className="text-gray-700 leading-relaxed mb-6">
           リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約縛りなしが魅力。本記事では、リアルボディの口コミ・評判の傾向、料金総額の目安、目的別の向き不向きを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 className="font-bold text-gray-900 mb-3">結論：リアルボディはこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：リアルボディはこんな人におすすめ</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
             <li>・<strong>費用を抑えたい人</strong>に向く（1回3,500円〜の回数券制・食事指導も無料）</li>
             <li>・<strong>続くか不安な初心者</strong>に向く（契約縛り・違約金なし、少回数から試せる）</li>
@@ -189,7 +215,7 @@ export default function RealBodyReview() {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
+          <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 料金は？高い？</dt>
@@ -211,21 +237,21 @@ export default function RealBodyReview() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの基本情報</h2>
+          <h2 id="s4" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの基本情報</h2>
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>
             {basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}
           </tbody></table></div>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの3つの強み</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの3つの強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (<div key={i} className="bg-teal-50 rounded-lg p-5"><h3 className="font-bold text-teal-800 mb-2">{i + 1}. {s.title}</h3><p className="text-sm text-gray-700 leading-relaxed">{s.desc}</p></div>))}
           </div>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">リアルボディのメリット・デメリット</h2>
+          <h2 id="s6" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">リアルボディのメリット・デメリット</h2>
           <h3 className="text-lg font-bold mb-4 text-green-700">メリット</h3>
           <div className="space-y-6 mb-8">
             {merits.map((m, i) => (<div key={i}><h4 className="font-bold text-gray-800 mb-2 flex items-start gap-2"><span className="text-green-600 shrink-0">[+]</span>{m.title}</h4><p className="text-sm text-gray-700 leading-relaxed pl-6">{m.desc}</p></div>))}
@@ -237,7 +263,7 @@ export default function RealBodyReview() {
         </section>
 
         <section id="pricing" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの料金（回数券制・総額の目安）</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの料金（回数券制・総額の目安）</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             リアルボディは月額の継続契約ではなく、必要な回数の券を購入する<strong>回数券制</strong>です。1回のセッションは45分で、まとめ買いするほど1回あたりの単価が下がります。下表は公式サイト掲載の全券種です（2026年8月3日確認）。
           </p>
@@ -249,7 +275,7 @@ export default function RealBodyReview() {
         </section>
 
         <section id="sakado" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディ坂戸店の店舗情報（埼玉県唯一の店舗）</h2>
+          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディ坂戸店の店舗情報（埼玉県唯一の店舗）</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             埼玉県で通えるリアルボディは<strong>坂戸店</strong>です。東武東上線・坂戸駅から<strong>徒歩4分</strong>と駅近で、<strong>年中無休</strong>のため平日夜も土日も通いやすい店舗です（2026年8月3日公式確認）。
           </p>
@@ -266,13 +292,13 @@ export default function RealBodyReview() {
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ概要</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
           <p className="text-xs text-gray-500 mt-3">※ 口コミは公開情報全般の一般的な傾向をまとめたものです。特定の投稿を引用したものではありません。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ・評判の傾向</h2>
+          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ・評判の傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             リアルボディの口コミを「良い評判」「気になる評判」に分けて傾向を整理しました。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%9C%E3%83%87%E3%82%A3%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
           </p>
@@ -293,7 +319,7 @@ export default function RealBodyReview() {
         </section>
 
         <section id="goal" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 リアルボディの向き不向き</h2>
+          <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 リアルボディの向き不向き</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             リアルボディが自分の目的に合うかを、よくある目的・悩み別に整理しました。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
           </p>
@@ -314,20 +340,20 @@ export default function RealBodyReview() {
 
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディのよくある質問</h2>
+          <h2 id="s12" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (<details key={i} className="bg-white border border-gray-200 rounded-lg group"><summary className="px-5 py-3 cursor-pointer text-sm font-medium text-gray-800 flex items-center justify-between list-none"><span>Q. {item.q}</span><span className="text-gray-400 group-open:rotate-180 transition-transform ml-4 shrink-0">&#9660;</span></summary><div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed">A. {item.a}</div></details>))}
           </div>
         </section>
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">リアルボディが気になった方へ</h2>
+          <h2 id="s13" className="text-xl font-bold mb-3">リアルボディが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料体験で、料金プランやトレーナーとの相性を相談してみましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s14" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (<Link key={r.name} href={r.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">{r.name}</Link>))}
           </div>

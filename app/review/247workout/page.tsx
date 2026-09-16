@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
@@ -251,7 +252,33 @@ export default function Workout247Review() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           24/7ワークアウトの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/247workout.jpg" alt="24/7ワークアウトの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">24/7ワークアウト 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">結論：24/7ワークアウトはこんな人におすすめ</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">24/7ワークアウトの基本情報</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">24/7ワークアウトの概要</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">24/7ワークアウトのメリット・デメリット</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">24/7ワークアウトの料金</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">24/7ワークアウトの月額と総額の目安（料金シミュレーション）</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">他社（チキンジム・RIZAP）との比較</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">24/7ワークアウトの口コミ分析</a></li>
+            <li><a href="#s10" className="text-teal-600 hover:underline">24/7ワークアウトで「痩せない・失敗」と言われる理由と対策</a></li>
+            <li><a href="#s11" className="text-teal-600 hover:underline">24/7ワークアウトの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</a></li>
+            <li><a href="#s12" className="text-teal-600 hover:underline">24/7ワークアウトのよくある質問</a></li>
+            <li><a href="#s13" className="text-teal-600 hover:underline">24/7ワークアウトの店舗一覧</a></li>
+            <li><a href="#s14" className="text-teal-600 hover:underline">24/7ワークアウトが気になった方へ</a></li>
+            <li><a href="#s15" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-247workout.jpg" alt="24/7ワークアウト 公式サイト" className="w-full h-auto" />
@@ -264,7 +291,7 @@ export default function Workout247Review() {
 
         {/* ---------- 結論ボックス ---------- */}
         <div id="conclusion" className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 className="font-bold text-gray-900 mb-3">結論：24/7ワークアウトはこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：24/7ワークアウトはこんな人におすすめ</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
             <li>・<strong>仕事帰りや深夜</strong>に通いたい人（多くの店舗で7:00〜24:00営業）</li>
             <li>・<strong>3食食べながら</strong>無理のない食事指導で痩せたい人（極端な糖質制限が苦手な人）</li>
@@ -290,7 +317,7 @@ export default function Workout247Review() {
 
         {/* ---------- 基本情報 ---------- */}
         <section id="basic-info" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの基本情報</h2>
+          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -317,7 +344,7 @@ export default function Workout247Review() {
 
         {/* ---------- 概要・3つの強み ---------- */}
         <section id="overview" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの概要</h2>
+          <h2 id="s4" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの概要</h2>
           <h3 className="text-lg font-bold mb-4">24/7ワークアウトの3つの強み</h3>
           <div className="space-y-4">
             {strengths.map((s, i) => (
@@ -331,7 +358,7 @@ export default function Workout247Review() {
 
         {/* ---------- メリット・デメリット ---------- */}
         <section id="merit-demerit" className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">24/7ワークアウトのメリット・デメリット</h2>
+          <h2 id="s5" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">24/7ワークアウトのメリット・デメリット</h2>
 
           <h3 className="text-lg font-bold mb-4 text-green-700">24/7ワークアウトのメリット</h3>
           <div className="space-y-6 mb-8">
@@ -362,7 +389,7 @@ export default function Workout247Review() {
 
         {/* ---------- 料金 ---------- */}
         <section id="pricing" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの料金</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの料金</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             24/7ワークアウトの料金はコースごとに設定されています。以下は代表的なプランの一覧です。入会金は無料です。
           </p>
@@ -395,7 +422,7 @@ export default function Workout247Review() {
 
         {/* ---------- 料金総額シミュレーション ---------- */}
         <section id="total-cost" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの月額と総額の目安（料金シミュレーション）</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの月額と総額の目安（料金シミュレーション）</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             「月額7,500円〜」という広告表示は<strong>分割払い時の月々の支払い額</strong>を指すことが多く、契約の総額とは異なります。口コミでも「月額だけ見て契約したら総額は20万円以上だった」という声が見られます。実際に検討するときは、<strong>月々の支払い</strong>と<strong>コース総額</strong>の両方を必ず確認しましょう。以下は当ページ掲載のプランをもとにした概算の目安です。
           </p>
@@ -432,7 +459,7 @@ export default function Workout247Review() {
 
         {/* ---------- 他社比較 ---------- */}
         <section id="vs" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他社（チキンジム・RIZAP）との比較</h2>
+          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他社（チキンジム・RIZAP）との比較</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             24/7ワークアウトと同じ「大手・低価格〜中価格帯」で比較されやすいのが、低価格のチキンジムと、結果重視のRIZAPです。料金や特徴をまとめて比べたい方は、3社の比較ページもご覧ください。
           </p>
@@ -472,7 +499,7 @@ export default function Workout247Review() {
 
         {/* ---------- 口コミ分析 ---------- */}
         <section id="reviews" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミ分析</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミ分析</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             24/7ワークアウトのGoogleマップ口コミを分析すると、コストパフォーマンスの高さと深夜営業の利便性が好評な一方で、トレーナーの質のばらつきや解約条件への指摘が見られます。以下では、カテゴリ別に口コミの傾向をまとめています。
           </p>
@@ -504,7 +531,7 @@ export default function Workout247Review() {
 
         {/* ---------- 痩せない・失敗の対策 ---------- */}
         <section id="fail" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトで「痩せない・失敗」と言われる理由と対策</h2>
+          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトで「痩せない・失敗」と言われる理由と対策</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             「24/7ワークアウトで痩せない」「失敗した」という声も一部に見られます。多くは<strong>取り組み方やジムとの相性のミスマッチ</strong>が原因です。失敗を避けるための注意点を整理しました。
           </p>
@@ -526,7 +553,7 @@ export default function Workout247Review() {
 
         {/* 口コミの傾向(編集部要約) */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
           <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
             <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「2ヶ月で10kg」「3ヶ月で7kg」など具体的な減量報告が多いのが最大の特徴です。「1人だと追い込めない・客観的なフィードバックが欲しい」という経験者の入会理由や、毎週の計測で身が引き締まるという仕組み面の評価、体調に合わせたメニュー調整の声もあります。</p>
             <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——「体重はさほど落ちていないが体型・姿勢は変わった」という中立的な声もあり、成果の出方には個人差があります。個室のフリー利用(別サービス会員)の口コミが混在する店舗もあるため、パーソナル指導の評価とは分けて読むのが安全です。</p>
@@ -538,7 +565,7 @@ export default function Workout247Review() {
       <GymCta slug="247workout" name="24/7ワークアウト" />
 
         <section id="faq" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトのよくある質問</h2>
+          <h2 id="s12" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -554,7 +581,7 @@ export default function Workout247Review() {
 
         {/* ---------- 店舗一覧 ---------- */}
         <section id="stores" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの店舗一覧</h2>
+          <h2 id="s13" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             24/7ワークアウトは全国80店舗以上を展開しています（2026年4月時点）。以下は主要エリアの店舗一覧です。
           </p>
@@ -590,7 +617,7 @@ export default function Workout247Review() {
 
         {/* ---------- CTA ---------- */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">24/7ワークアウトが気になった方へ</h2>
+          <h2 id="s14" className="text-xl font-bold mb-3">24/7ワークアウトが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">
             まずは無料カウンセリングで、あなたに合ったコースを相談してみましょう。
           </p>
@@ -604,7 +631,7 @@ export default function Workout247Review() {
 
         {/* ---------- 関連ジム ---------- */}
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s15" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (
               <Link

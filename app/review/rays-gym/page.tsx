@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
@@ -175,14 +176,38 @@ export default function RaysGymReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           Rays GyM（レイズジム）の口コミ・評判は？料金・効果を徹底解説
         </h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/rays-gym.jpg" alt="Rays GyM（レイズジム）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">Rays GyM（レイズジム） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年7月</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">結論：Rays GyMはこんな人におすすめ</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">この記事でわかること（よくある4つの疑問）</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">Rays GyMの基本情報</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">Rays GyMの3つの強み</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">Rays GyMのメリット・デメリット</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">Rays GyMの料金（総額の目安）</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">Rays GyMの口コミ概要</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">Rays GyMの口コミ・評判の傾向</a></li>
+            <li><a href="#s10" className="text-teal-600 hover:underline">目的・悩み別 Rays GyMの向き不向き</a></li>
+            <li><a href="#s11" className="text-teal-600 hover:underline">Rays GyMのよくある質問</a></li>
+            <li><a href="#s12" className="text-teal-600 hover:underline">Rays GyMが気になった方へ</a></li>
+            <li><a href="#s13" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
 
         <p className="text-gray-700 leading-relaxed mb-6">
           Rays GyM（レイズジム）は<span className="font-bold bg-yellow-100 px-0.5">トレーナー指名制</span>を採用したパーソナルトレーニングジムです。相性の良いトレーナーを自分で選び、<span className="font-bold bg-yellow-100 px-0.5">目標別のオーダーメイド</span>プログラムで効率的なボディメイクを目指せます。本記事では、Rays GyMの料金総額の目安、口コミの傾向、目的別の向き不向き、メリット・デメリットを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 className="font-bold text-gray-900 mb-3">結論：Rays GyMはこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：Rays GyMはこんな人におすすめ</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
             <li>・<strong>トレーナーとの相性</strong>を重視したい人（指名制・変更も可能）</li>
             <li>・<strong>本格的なボディメイク・競技力向上</strong>を目指す人（経験豊富なトレーナー・オーダーメイド）</li>
@@ -194,7 +219,7 @@ export default function RaysGymReview() {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
+          <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 料金は？総額は？</dt>
@@ -217,7 +242,7 @@ export default function RaysGymReview() {
 
         {/* 基本情報 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの基本情報</h2>
+          <h2 id="s4" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -234,7 +259,7 @@ export default function RaysGymReview() {
 
         {/* 3つの強み */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの3つの強み</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの3つの強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
               <div key={i} className="bg-teal-50 rounded-lg p-5">
@@ -247,7 +272,7 @@ export default function RaysGymReview() {
 
         {/* メリット・デメリット */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">Rays GyMのメリット・デメリット</h2>
+          <h2 id="s6" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">Rays GyMのメリット・デメリット</h2>
           <h3 className="text-lg font-bold mb-4 text-green-700">メリット</h3>
           <div className="space-y-6 mb-8">
             {merits.map((m, i) => (
@@ -274,7 +299,7 @@ export default function RaysGymReview() {
 
         {/* 料金 */}
         <section id="pricing" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの料金（総額の目安）</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの料金（総額の目安）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -302,7 +327,7 @@ export default function RaysGymReview() {
 
         {/* 口コミ概要 */}
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの口コミ概要</h2>
+          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
@@ -311,7 +336,7 @@ export default function RaysGymReview() {
 
         {/* 口コミの傾向 */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの口コミ・評判の傾向</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの口コミ・評判の傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             Rays GyMの口コミを「良い評判」「気になる評判」に分けて傾向を整理しました。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/Rays%20GyM%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
           </p>
@@ -333,7 +358,7 @@ export default function RaysGymReview() {
 
         {/* 目的別の向き不向き */}
         <section id="goal" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 Rays GyMの向き不向き</h2>
+          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 Rays GyMの向き不向き</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             Rays GyMが自分の目的に合うかを、よくある目的・悩み別に整理しました。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
           </p>
@@ -355,7 +380,7 @@ export default function RaysGymReview() {
       <GymCta slug="rays-gym" name="Rays GyM" />
 
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMのよくある質問</h2>
+          <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -371,7 +396,7 @@ export default function RaysGymReview() {
 
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">Rays GyMが気になった方へ</h2>
+          <h2 id="s12" className="text-xl font-bold mb-3">Rays GyMが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったトレーナーを見つけましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
@@ -380,7 +405,7 @@ export default function RaysGymReview() {
 
         {/* 関連ジム */}
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s13" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (
               <Link key={r.name} href={r.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">

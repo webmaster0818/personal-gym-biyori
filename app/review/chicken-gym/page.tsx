@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
@@ -251,7 +252,28 @@ export default function ChickenGymReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           チキンジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/chicken-gym.jpg" alt="チキンジムの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">チキンジム 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">チキンジムの基本情報</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">チキンジムの概要</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">チキンジムのメリット・デメリット</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">チキンジムの料金</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">チキンジムの口コミ分析</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">チキンジムのよくある質問</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">チキンジムの店舗一覧</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">チキンジムが気になった方へ</a></li>
+            <li><a href="#s10" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-chicken-gym.jpg" alt="チキンジム 公式サイト" className="w-full h-auto" />
@@ -278,7 +300,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- 基本情報 ---------- */}
         <section id="basic-info" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの基本情報</h2>
+          <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -305,7 +327,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- 概要・3つの強み ---------- */}
         <section id="overview" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの概要</h2>
+          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの概要</h2>
           <h3 className="text-lg font-bold mb-4">チキンジムの3つの強み</h3>
           <div className="space-y-4">
             {strengths.map((s, i) => (
@@ -319,7 +341,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- メリット・デメリット ---------- */}
         <section id="merit-demerit" className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">チキンジムのメリット・デメリット</h2>
+          <h2 id="s4" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">チキンジムのメリット・デメリット</h2>
 
           <h3 className="text-lg font-bold mb-4 text-green-700">チキンジムのメリット</h3>
           <div className="space-y-6 mb-8">
@@ -350,7 +372,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- 料金 ---------- */}
         <section id="pricing" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの料金</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの料金</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             チキンジムの料金はプランごとに異なります。以下は分割払い時の月額目安です。総額や入会金の詳細は無料カウンセリングで確認することをおすすめします。
           </p>
@@ -383,7 +405,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- 口コミ分析 ---------- */}
         <section id="reviews" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの口コミ分析</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの口コミ分析</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             チキンジムのGoogleマップ口コミを分析すると、全体的に好意的な評価が多い一方で、料金の表示方法や勧誘に関する指摘も一定数見られます。以下では、カテゴリ別に口コミの傾向をまとめています。
           </p>
@@ -417,7 +439,7 @@ export default function ChickenGymReview() {
       <GymCta slug="chicken-gym" name="チキンジム" />
 
         <section id="faq" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムのよくある質問</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -433,7 +455,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- 店舗一覧 ---------- */}
         <section id="stores" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの店舗一覧</h2>
+          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             チキンジムは全国34店舗を展開しています（2026年4月時点）。以下は都道府県別の店舗一覧です。
           </p>
@@ -469,7 +491,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- CTA ---------- */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">チキンジムが気になった方へ</h2>
+          <h2 id="s9" className="text-xl font-bold mb-3">チキンジムが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">
             まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。
           </p>
@@ -483,7 +505,7 @@ export default function ChickenGymReview() {
 
         {/* ---------- 関連ジム ---------- */}
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s10" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (
               <Link

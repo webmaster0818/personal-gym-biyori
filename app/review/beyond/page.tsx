@@ -282,7 +282,31 @@ export default function BeyondReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           BEYONDの口コミ・評判｜料金・メリット・デメリットを徹底解説
         </h1>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/beyond.jpg" alt="BEYONDの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">BEYOND 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
+        <AuthorBox />
+        <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
+          <p className="font-bold text-gray-800 mb-3">目次</p>
+          <ol className="space-y-1.5 text-sm list-decimal pl-5">
+            <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">BEYONDの基本情報</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">BEYONDの概要</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">BEYONDのメリット・デメリット</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">BEYONDの料金</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">BEYONDの口コミ分析</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">BEYONDの店舗一覧(都道府県別)</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">他のジムと比較</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">BEYONDの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</a></li>
+            <li><a href="#s10" className="text-teal-600 hover:underline">BEYONDのよくある質問</a></li>
+            <li><a href="#s11" className="text-teal-600 hover:underline">BEYONDの店舗一覧</a></li>
+            <li><a href="#s12" className="text-teal-600 hover:underline">BEYONDが気になった方へ</a></li>
+            <li><a href="#s13" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
+          </ol>
+        </nav>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             BEYOND の公式サイトはこちら
@@ -316,7 +340,7 @@ export default function BeyondReview() {
 
         {/* ---------- 基本情報 ---------- */}
         <section id="basic-info" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの基本情報</h2>
+          <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -343,7 +367,7 @@ export default function BeyondReview() {
 
         {/* ---------- 概要・3つの強み ---------- */}
         <section id="overview" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの概要</h2>
+          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの概要</h2>
           <h3 className="text-lg font-bold mb-4">BEYONDの3つの強み</h3>
           <div className="space-y-4">
             {strengths.map((s, i) => (
@@ -357,7 +381,7 @@ export default function BeyondReview() {
 
         {/* ---------- メリット・デメリット ---------- */}
         <section id="merit-demerit" className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">BEYONDのメリット・デメリット</h2>
+          <h2 id="s4" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">BEYONDのメリット・デメリット</h2>
 
           <h3 className="text-lg font-bold mb-4 text-green-700">BEYONDのメリット</h3>
           <div className="space-y-6 mb-8">
@@ -388,7 +412,7 @@ export default function BeyondReview() {
 
         {/* ---------- 料金 ---------- */}
         <section id="pricing" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの料金</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの料金</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             BEYONDの料金はコース・回数券ごとに設定されています。以下は代表的なプランの一覧です。キャンペーンにより入会金が無料になる場合もあります。
           </p>
@@ -430,7 +454,7 @@ export default function BeyondReview() {
 
         {/* ---------- 口コミ分析 ---------- */}
         <section id="reviews" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの口コミ分析</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの口コミ分析</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             BEYONDのGoogleマップ口コミを分析すると、トレーナーの質の高さとボディメイク効果への満足度が際立っています。以下では、カテゴリ別に口コミの傾向をまとめています。
           </p>
@@ -462,7 +486,148 @@ export default function BeyondReview() {
 
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
+        <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">BEYONDの店舗一覧(都道府県別)</h2>
+        <p className="text-xs text-gray-500 mb-4">当サイトの実測データベースで実在確認できた店舗です。店舗名のリンクはBEYOND公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
+        <div className="mb-12">
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">北海道</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND札幌大通店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND札幌ANNEX店</a> <a key="2" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND札幌円山店</a> <a key="3" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND札幌駅前店</a> <a key="4" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND豊平店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">岩手県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 盛岡店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">宮城県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 仙台店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">秋田県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND秋田店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">山形県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 山形店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">茨城県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルトレーニング BEYOND 水戸店(水戸駅)</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">栃木県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 宇都宮店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">群馬県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND前橋</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">埼玉県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 大宮店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 浦和店</a> <a key="2" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 浦和ANNEX店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">千葉県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 千葉駅前店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">東京都</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 渋谷宮益坂店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 新宿店</a> <a key="2" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 池袋店</a> <a key="3" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 池袋ANNEX店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">神奈川県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジム BEYOND たまプラーザ店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 横浜東口店</a> <a key="2" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジムBEYOND横浜元町店(パーソナルトレーニング) ｜関内/横浜元町</a> <a key="3" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 横浜西口店</a> <a key="4" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">武蔵小杉 BEYOND</a> <a key="5" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジム BEYOND川崎店(パーソナルトレーニング)</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">新潟県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 新潟店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">富山県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 富山店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">石川県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND金沢店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">福井県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 福井店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">山梨県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジム BEYOND 甲府国母店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">長野県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 長野店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">岐阜県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND岐阜店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">静岡県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 静岡店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND清水店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">愛知県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 名古屋駅前店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 名古屋栄店</a> <a key="2" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジム BEYOND金山店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">京都府</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 京都四条店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 伏見桃山店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">大阪府</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND梅田店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 心斎橋店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">兵庫県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 神戸元町店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">奈良県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジム BEYOND 奈良店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">和歌山県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND和歌山店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">岡山県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジム BEYOND 岡山店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">広島県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND広島店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">香川県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 高松店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">愛媛県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 松山店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">福岡県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">パーソナルジム BEYOND 博多店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND福岡天神店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">熊本県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 熊本店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND 肥後大津店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">大分県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND大分店</a></div>
+          </div>
+          <div className="mb-4">
+            <h3 className="font-bold text-sm text-gray-800 mb-2">沖縄県</h3>
+            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">BEYOND（ビヨンド）沖縄那覇店</a></div>
+          </div>
+        </div>
+
+          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">BEYONDと他の人気ジムを比較しました。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
@@ -531,7 +696,7 @@ export default function BeyondReview() {
 
         {/* 口コミの傾向(編集部要約) */}
         <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
           <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
             <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「トレーナーが明るくフレンドリーで楽しく続けられる」という相性面の評価が圧倒的に多く、「極端な食事制限をせず生活に合わせて調整してくれる」食事指導への言及、大会出場者への専門的な指導など目的別対応の声もあります。5ヶ月で体重以外の変化も出た、という中期の成果報告が見られます。</p>
             <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——「特定のトレーナーを追いかけて店舗を移った」という声が複数あるほど、満足度がトレーナー個人に紐づく傾向が強いブランドです。無料カウンセリング・体験で担当者との相性を確かめてから決めるのがおすすめです。新規オープン店では開店前の応援投稿が混ざる例もあり、件数は割り引いて見るのが安全です。</p>
@@ -543,7 +708,7 @@ export default function BeyondReview() {
       <GymCta slug="beyond" name="BEYOND" />
 
         <section id="faq" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDのよくある質問</h2>
+          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -559,7 +724,7 @@ export default function BeyondReview() {
 
         {/* ---------- 店舗一覧 ---------- */}
         <section id="stores" className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの店舗一覧</h2>
+          <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
             BEYONDは全国75店舗以上を展開しています（2026年4月時点）。以下は主要エリアの店舗一覧です。
           </p>
@@ -602,11 +767,11 @@ export default function BeyondReview() {
         </section>
 
         {/* ---------- Author Box ---------- */}
-        <AuthorBox />
+        
 
         {/* ---------- CTA ---------- */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 className="text-xl font-bold mb-3">BEYONDが気になった方へ</h2>
+          <h2 id="s12" className="text-xl font-bold mb-3">BEYONDが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">
             まずは無料カウンセリング・体験トレーニングで、トレーナーの質を体感してみましょう。
           </p>
@@ -622,7 +787,7 @@ export default function BeyondReview() {
 
         {/* ---------- 関連ジム ---------- */}
         <section>
-          <h2 className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
+          <h2 id="s13" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {relatedReviews.map((r) => (
               <Link
