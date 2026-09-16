@@ -103,8 +103,6 @@ export default function LinoUReview() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Lino U" }]} />
-      <ReviewSummary gymName="Lino U" />
-      <GymCta slug="lino-u" name="Lino U" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">Lino Uの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
@@ -113,6 +111,7 @@ export default function LinoUReview() {
         </figure>
         <p className="text-xs text-gray-400 mb-6">Lino U 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <GymCta slug="lino-u" name="Lino U" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -129,6 +128,7 @@ export default function LinoUReview() {
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
+        <ReviewSummary gymName="Lino U" />
         <p className="text-gray-700 leading-relaxed mb-10">Lino U（リノユー）はライフスタイルに寄り添ったパーソナルトレーニングジムです。短期的なダイエットではなく、長期的な健康維持と運動習慣の定着を目指したプログラムが特徴。無理なく続けられるトレーニングで、一生モノの運動習慣を手に入れられます。本記事では、Lino Uの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
 
         <section className="mb-12"><h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lino Uの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>

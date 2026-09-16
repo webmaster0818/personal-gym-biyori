@@ -119,8 +119,6 @@ export default function RitaStyleReview() {
         "dateModified": "2026-05-18"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RITA STYLE" }]} />
-      <ReviewSummary gymName="RITA STYLE" />
-      <GymCta slug="rita-style" name="RITA STYLE" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -131,6 +129,7 @@ export default function RitaStyleReview() {
         </figure>
         <p className="text-xs text-gray-400 mb-6">RITA STYLE 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <GymCta slug="rita-style" name="RITA STYLE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -147,6 +146,7 @@ export default function RitaStyleReview() {
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
+        <ReviewSummary gymName="RITA STYLE" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=Q8343U.1.31275172.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             RITA STYLE の公式サイトはこちら

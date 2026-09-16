@@ -105,8 +105,6 @@ export default function DrTrainingReview() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Dr.トレーニング" }]} />
-      <ReviewSummary gymName="Dr.トレーニング" />
-      <GymCta slug="dr-training" name="Dr.トレーニング" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -117,6 +115,7 @@ export default function DrTrainingReview() {
         </figure>
         <p className="text-xs text-gray-400 mb-6">Dr.トレーニング 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <GymCta slug="dr-training" name="Dr.トレーニング" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -133,6 +132,7 @@ export default function DrTrainingReview() {
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
+        <ReviewSummary gymName="Dr.トレーニング" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
           Dr.トレーニングは医学的根拠に基づいたトレーニングを提供するパーソナルジムです。都度払いにも対応した柔軟な料金体系と、管理栄養士による食事サポートが特徴。本記事では、Dr.トレーニングの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

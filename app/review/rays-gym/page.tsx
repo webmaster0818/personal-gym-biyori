@@ -169,8 +169,6 @@ export default function RaysGymReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Rays GyM" }]} />
-      <ReviewSummary gymName="Rays GyM" />
-      <GymCta slug="rays-gym" name="Rays GyM" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -181,6 +179,7 @@ export default function RaysGymReview() {
         </figure>
         <p className="text-xs text-gray-400 mb-6">Rays GyM（レイズジム） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年7月</p>
+        <GymCta slug="rays-gym" name="Rays GyM" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -201,6 +200,7 @@ export default function RaysGymReview() {
             <li><a href="#s13" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
+        <ReviewSummary gymName="Rays GyM" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
           Rays GyM（レイズジム）は<span className="font-bold bg-yellow-100 px-0.5">トレーナー指名制</span>を採用したパーソナルトレーニングジムです。相性の良いトレーナーを自分で選び、<span className="font-bold bg-yellow-100 px-0.5">目標別のオーダーメイド</span>プログラムで効率的なボディメイクを目指せます。本記事では、Rays GyMの料金総額の目安、口コミの傾向、目的別の向き不向き、メリット・デメリットを詳しく解説します。

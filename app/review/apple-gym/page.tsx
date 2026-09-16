@@ -145,8 +145,6 @@ export default function AppleGymReview() {
         "dateModified": "2026-05-18"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Apple GYM（アップルジム）" }]} />
-      <ReviewSummary gymName="Apple GYM（アップルジム）" />
-      <GymCta slug="apple-gym" name="Apple GYM（アップルジム）" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
@@ -158,6 +156,7 @@ export default function AppleGymReview() {
         </figure>
         <p className="text-xs text-gray-400 mb-6">Apple GYM（アップルジム） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <GymCta slug="apple-gym" name="Apple GYM（アップルジム）" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -175,6 +174,7 @@ export default function AppleGymReview() {
             <li><a href="#s10" className="text-teal-600 hover:underline">Apple GYM（アップルジム）の店舗一覧(都道府県別)</a></li>
           </ol>
         </nav>
+        <ReviewSummary gymName="Apple GYM（アップルジム）" />
         <p className="text-sm mb-6">
           <a href={AFF_URL} target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             Apple GYM（アップルジム）の公式サイトはこちら
@@ -186,18 +186,7 @@ export default function AppleGymReview() {
         </p>
 
         {/* ---------- 目次 ---------- */}
-        <nav className="bg-gray-50 rounded-lg p-5 mb-10">
-          <p className="font-bold text-gray-800 mb-3">目次</p>
-          <ol className="space-y-2">
-            {toc.map((item, i) => (
-              <li key={item.id}>
-                <a href={`#${item.id}`} className="text-sm text-teal-700 hover:text-teal-500 hover:underline">
-                  {i + 1}. {item.label}
-                </a>
-              </li>
-            ))}
-          </ol>
-        </nav>
+        
 
         {/* ---------- 基本情報 ---------- */}
         <section id="basic-info" className="mb-12">

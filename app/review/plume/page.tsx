@@ -103,12 +103,11 @@ export default function PlumeReview() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "PLUME" }]} />
-      <ReviewSummary gymName="PLUME" />
-      <GymCta slug="plume" name="PLUME" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">PLUMEの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <GymCta slug="plume" name="PLUME" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -125,6 +124,7 @@ export default function PlumeReview() {
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
+        <ReviewSummary gymName="PLUME" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
           PLUME（プリュム）はおしゃれなデザイナーズ空間が特徴のパーソナルジムです。女性を中心に人気が高く、ボディメイクに特化した指導と充実したアメニティが魅力。本記事では、PLUMEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。

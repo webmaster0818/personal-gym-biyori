@@ -103,8 +103,6 @@ export default function AsmakeReview() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "ASmake" }]} />
-      <ReviewSummary gymName="ASmake" />
-      <GymCta slug="asmake" name="ASmake" variant="top" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">ASmakeの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
@@ -113,6 +111,7 @@ export default function AsmakeReview() {
         </figure>
         <p className="text-xs text-gray-400 mb-6">ASmake 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <GymCta slug="asmake" name="ASmake" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -129,6 +128,7 @@ export default function AsmakeReview() {
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
+        <ReviewSummary gymName="ASmake" />
         <p className="text-gray-700 leading-relaxed mb-10">ASmake（アズメイク）は姿勢改善とボディメイクを同時に実現するパーソナルジムです。体の歪みや不調の根本原因にアプローチし、見た目だけでなく体の機能も改善する独自のプログラムが特徴です。本記事では、ASmakeの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
 
         <section className="mb-12"><h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASmakeの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>
