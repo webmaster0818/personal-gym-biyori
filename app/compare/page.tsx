@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { BRAND_PRICES } from "@/data/brand-prices";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "目的別パーソナルジム比較【2026年】女性専用・返金保証・分割払い・通い放題",
+  title: "目的別パーソナルジム比較【2026年】女性専用・返金保証・通い放題を公表料金つきで比べる",
   description:
     "パーソナルジムを目的別に比較。女性専用、全額返金保証あり、分割払いOK、通い放題など、条件から自分に合うジムを探せます。各ジムのレビューへ直接アクセスでき、選び方のポイントも解説します。",
   alternates: { canonical: "/compare/" },
@@ -19,6 +20,8 @@ type Category = {
 };
 
 // 各ジムの目的別の特徴は、当サイト各レビューの記載（各ジムの公開情報にもとづく）から整理。2026年6月時点。
+// 2026-09-22: 各カードに公表料金を表示するため、実査済みの料金データ(data/brand-prices.ts)を参照。
+const PRICE_BY_SLUG: Record<string, string> = Object.fromEntries(BRAND_PRICES.map((b) => [b.slug, b.price]));
 const categories: Category[] = [
   {
     id: "women",
@@ -140,9 +143,12 @@ export default function ComparePage() {
                   <Link
                     key={g.slug + cat.id}
                     href={`/review/${g.slug}/`}
-                    className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-orange-400 hover:text-orange-600 transition-colors"
+                    className="block bg-white border border-gray-200 rounded-lg p-3 text-center hover:border-orange-400 transition-colors"
                   >
-                    {g.name}
+                    <span className="block text-sm font-medium text-gray-700">{g.name}</span>
+                    {PRICE_BY_SLUG[g.slug] && (
+                      <span className="mt-1 block text-[11px] leading-snug text-gray-500">{PRICE_BY_SLUG[g.slug]}</span>
+                    )}
                   </Link>
                 ))}
               </div>
