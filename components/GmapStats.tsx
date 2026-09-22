@@ -2,7 +2,12 @@ import { GMAP_STATS, GMAP_FETCHED_AT } from "@/data/brand-gmap-stats";
 
 // ブランドの全店舗のGoogleマップ評点を実測して集計したボックス。
 // 「利用歴◯ヶ月のユーザー」のような検証できない属性つきの声ではなく、
-// 誰でもGoogleマップで追える評点・件数だけを出す。各店舗名はマップへのリンク付き。
+// 誰でもGoogleマップで追える評点・件数だけを出す。
+//
+// 掲載方針(2026-09-23): 評点が相対的に低い店舗を名指しで並べることはしない。
+// 読者に必要なのは「店舗ごとに違うので自分が通う店舗を見る」という行動であって、
+// 特定店舗の格付けではないため。集計値と上位店舗のみを出し、
+// 自分の店舗はマップで確認してもらう導線にする。
 export default function GmapStats({ slug, brand }: { slug: string; brand: string }) {
   const s = GMAP_STATS[slug];
   if (!s) return null;
@@ -41,39 +46,26 @@ export default function GmapStats({ slug, brand }: { slug: string; brand: string
 
       <div className="p-4 text-sm">
         <p className="text-gray-700 leading-relaxed mb-3">
-          同じブランドでも店舗によって評点は<strong>{s.min}〜{s.max}</strong>まで開きがあります
-          {s.lt40 > 0 ? (
-            <>（4.0を下回る店舗が<strong>{s.lt40}店舗</strong>あります）</>
-          ) : (
-            <>（4.0を下回る店舗はありませんでした）</>
-          )}
-          。ブランド名だけでなく<strong>通う予定の店舗</strong>の評点を必ず確認してください。
+          同じブランドでも、店舗によって評点は<strong>{s.min}〜{s.max}</strong>の幅があります。
+          これはトレーナーの顔ぶれや立地・設備が店舗ごとに違うためで、
+          ブランド名だけで決めるより<strong>通う予定の店舗をマップで確認する</strong>ほうが、実際の通いやすさに近づきます。
+          気になる店舗があれば、体験や無料カウンセリングで雰囲気を見てから決めるのが確実です。
         </p>
-        <div className="grid sm:grid-cols-2 gap-4">
-          <div>
-            <p className="text-xs font-bold text-gray-600 mb-2">評点の高い店舗</p>
-            <ul className="space-y-1">
-              {s.top.map((t) => (
-                <li key={t.name} className="text-xs text-gray-600">
-                  <a href={t.maps} target="_blank" rel="nofollow noopener noreferrer" className="underline hover:text-gray-900">{t.name}</a>
-                  <span className="ml-1 text-gray-800 font-medium">{t.rating}</span>
-                  <span className="text-gray-400">（{t.reviews}件）</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <p className="text-xs font-bold text-gray-600 mb-2">評点の低い店舗</p>
-            <ul className="space-y-1">
-              {s.bottom.map((t) => (
-                <li key={t.name} className="text-xs text-gray-600">
-                  <a href={t.maps} target="_blank" rel="nofollow noopener noreferrer" className="underline hover:text-gray-900">{t.name}</a>
-                  <span className="ml-1 text-gray-800 font-medium">{t.rating}</span>
-                  <span className="text-gray-400">（{t.reviews}件）</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div>
+          <p className="text-xs font-bold text-gray-600 mb-2">評点の高い店舗（参考）</p>
+          <ul className="space-y-1">
+            {s.top.map((t) => (
+              <li key={t.name} className="text-xs text-gray-600">
+                <a href={t.maps} target="_blank" rel="nofollow noopener noreferrer" className="underline hover:text-gray-900">{t.name}</a>
+                <span className="ml-1 text-gray-800 font-medium">{t.rating}</span>
+                <span className="text-gray-400">（{t.reviews}件）</span>
+              </li>
+            ))}
+          </ul>
+          <p className="text-[11px] text-gray-500 mt-3 leading-relaxed">
+            ※ 評点は投稿数が少ないほど振れやすく、店舗の良し悪しをそのまま表す指標ではありません。
+            当サイトでは評点の低い店舗を名指しで並べることはしていません。通う予定の店舗の状況は、Googleマップと無料カウンセリングでご確認ください。
+          </p>
         </div>
       </div>
     </div>

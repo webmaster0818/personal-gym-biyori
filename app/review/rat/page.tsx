@@ -77,49 +77,22 @@ const reviewCategories = [
   {
     title: "トレーナーの質・対応",
     summary: "トレーナーの親切さと丁寧な指導が口コミで高く評価されています。特に女性ユーザーからは「話しやすい」「安心感がある」との声が多いです。",
-    reviews: [
-      { text: "女性トレーナーが在籍しているので安心。体の悩みも相談しやすく、的確なアドバイスをもらえる。" },
-      { text: "トレーナーがとにかく丁寧。初心者の私でも分かりやすく、毎回楽しくトレーニングできている。" },
-      { text: "トレーニング中の声かけが絶妙で、きつい時もあと少し頑張れる。モチベーション管理も上手い。" },
-      { text: "LINEで食事の相談にも乗ってくれる。セッション時間外のサポートもしっかりしている。" },
-    ],
   },
   {
     title: "料金・コスパ",
     summary: "大手パーソナルジムと比較してリーズナブルな価格設定が支持されています。完全個室・手ぶらOK・シャワー完備のサービス内容を考慮すると高コスパとの評価です。",
-    reviews: [
-      { text: "2ヶ月148,000円は大手の半額以下。完全個室でシャワーもあるのに、この価格はお得すぎる。" },
-      { text: "レンタル無料・水無料が地味に嬉しい。他のジムではレンタル代だけで月数千円かかるので、総合的に見るとかなりリーズナブル。" },
-      { text: "食事指導込みでこの価格は破格。RIZAPの3分の1以下で、質の高いパーソナルが受けられている。" },
-    ],
   },
   {
     title: "施設・設備",
     summary: "完全個室の快適さとシャワー完備の利便性が高く評価されています。清潔感のある空間で、プライバシーを守りながらトレーニングできる点が好評です。",
-    reviews: [
-      { text: "完全個室なので他の人の目を気にせずトレーニングに集中できる。女性にとってはこれが一番重要。" },
-      { text: "個室内にシャワーがあるので、トレーニング後すぐにシャワーを浴びて出勤できる。動線が完璧。" },
-      { text: "清潔感があって居心地が良い。アメニティも揃っているので、本当に手ぶらで来れる。" },
-      { text: "大手ほど広くはないが、マンツーマンなら十分なスペース。器具も必要なものは揃っている。" },
-    ],
   },
   {
     title: "効果・変化",
     summary: "短期間での体型変化に満足する声が多く、特に女性向けのボディメイクに特化した指導が効果を発揮しているようです。",
-    reviews: [
-      { text: "2ヶ月で体重-5kg、体脂肪率-4%。トレーナーの指導と食事管理の両方が効いている実感がある。" },
-      { text: "体重はそこまで変わらないが、ウエスト周りが明らかに引き締まった。見た目の変化が大きい。" },
-      { text: "姿勢が良くなったと周りから言われるようになった。トレーニングで体幹が鍛えられたおかげだと思う。" },
-    ],
   },
   {
     title: "予約・アクセス",
     summary: "駅チカの立地が通いやすさにつながっており、仕事帰りに通えるという声が多いです。ただし店舗数が限られている点は課題として挙げられています。",
-    reviews: [
-      { text: "駅から徒歩2分の好立地。仕事帰りに手ぶらで寄れるので、トレーニングが生活に組み込みやすい。" },
-      { text: "店舗が都内中心なので、自宅近くに店舗がなかったのが残念。職場の近くにあったので通えているが。" },
-      { text: "予約はアプリから取れて便利。人気の時間帯は早めに埋まるので、計画的に予約する必要がある。" },
-    ],
   },
 ];
 
@@ -326,7 +299,7 @@ export default function RatReview() {
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rat の口コミ分析</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">RatのGoogleマップ口コミを分析すると、完全個室・手ぶらOKの快適さと、大手と比較してリーズナブルな価格設定への満足度が高い傾向です。特に女性ユーザーからは、駅チカ・個室・シャワー完備の三拍子が揃った通いやすさが支持されています。以下では、カテゴリ別に口コミの傾向をまとめています。</p>
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミの傾向を当サイト編集部が読み取り、<strong>代表的な内容として要約・再構成した文章</strong>です。特定の投稿をそのまま引用したものではなく、投稿者の属性（利用歴・年代など）も示していません。個々の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値としては、上の「Googleマップ実測データ」に各店舗の評点・件数を掲載しています。</p>
+            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて載せることはしない方針のため）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上の「Googleマップ実測データ」に掲載しています。</p>
             <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Rat+%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline">Googleマップで口コミを見る</a></p>
           </div>
           <GmapStats slug="rat" brand="パーソナルジムRat" />
@@ -335,13 +308,6 @@ export default function RatReview() {
             <div key={cat.title} className="mb-10">
               <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
               <p className="text-sm text-gray-700 mb-4 leading-relaxed">{cat.summary}</p>
-              <div className="space-y-3">
-                {cat.reviews.map((r, i) => (
-                  <div key={i} className="bg-white border border-gray-200 rounded-lg p-4">
-                    <p className="text-sm text-gray-700 leading-relaxed mb-2">「{r.text}」</p>
-                  </div>
-                ))}
-              </div>
             </div>
           ))}
         </section>
