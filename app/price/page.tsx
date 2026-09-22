@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { BRAND_PRICES } from "@/data/brand-prices";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "パーソナルジムの料金相場【2026年・エリア別】大手・中価格帯・月額を比較",
+  title: "パーソナルジムの料金相場【2026年】60ブランドの公表料金＋エリア別相場で比較",
   description:
-    "パーソナルジムの料金相場を2026年版・エリア別に独自集計。大手2ヶ月コース・中価格帯月額制・低価格月額・入会金の目安を東京〜地方都市まで一覧で比較。費用を抑えるコツも解説します。",
+    "パーソナルジムの料金を、当サイトが実査した60ブランドの公表料金一覧と、エリア別の相場の両面から比較。月額3,278円から総額38万円まで、同じ「パーソナルジム」でも価格帯が100倍以上開くことが一覧でわかります。入会金や分割払いの注意点も解説します。",
   alternates: { canonical: "/price/" },
 };
 
@@ -73,6 +74,41 @@ export default function PricePage() {
               <div className="bg-white border border-gray-200 rounded-lg p-5"><h3 className="font-bold text-gray-800 mb-1">低価格（月額制）</h3><p className="text-sm text-gray-600">月 <strong>1万〜3万円</strong>。通い放題型・地域密着型に多い。</p></div>
               <div className="bg-white border border-gray-200 rounded-lg p-5"><h3 className="font-bold text-gray-800 mb-1">入会金</h3><p className="text-sm text-gray-600"><strong>0円〜5.5万円程度</strong>。無料キャンペーンを実施するジムも多い。</p></div>
             </div>
+          </section>
+
+          {/* ブランド別の公表料金(2026-09-22 追加) */}
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-gray-800 mb-4">ブランド別の公表料金一覧（{BRAND_PRICES.length}ブランド・安い順）</h2>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">
+              「相場」は幅がありすぎて判断材料になりにくいので、<strong>当サイトが実査した各ブランドの公表料金をそのまま安い順に並べました</strong>。
+              月額3,278円のchocoZAPから、総額約38万円のRIZAPまで、同じ「パーソナルジム」でも<strong>価格帯は100倍以上開きます</strong>。
+              自分の予算に合うゾーンを決めてから、その中で比較するのが失敗しない進め方です。
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-gray-50">
+                    <th className="border border-gray-200 p-2 text-left whitespace-nowrap">ブランド</th>
+                    <th className="border border-gray-200 p-2 text-left">公表料金</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {BRAND_PRICES.map((b) => (
+                    <tr key={b.slug}>
+                      <td className="border border-gray-200 p-2 font-bold whitespace-nowrap">
+                        <a href={`/review/${b.slug}/`} className="text-orange-600 hover:underline">{b.name}</a>
+                      </td>
+                      <td className="border border-gray-200 p-2 text-xs leading-relaxed">{b.price}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-500 mt-3 leading-relaxed">
+              ※各ブランドの公式サイトを実査して記録した金額です（確認日は各レビューページに明記）。税込/税抜の表記はジムにより異なります。
+              「月額◯円〜」には<strong>分割払い時の月額</strong>を掲げているジムがあり、総額とは別物です。コース料金・入会金・分割手数料まで含めた総額で比べてください。
+              店舗やキャンペーンにより変動するため、申込前に必ず公式・無料カウンセリングでご確認ください。
+            </p>
           </section>
 
           {/* エリア別相場 */}
