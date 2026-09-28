@@ -21,6 +21,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${e.name}(${e.areaName})の口コミ評点【Googleマップ実測${e.reviews?.toLocaleString()}件】`,
     description: `${e.areaName}のパーソナルジム「${e.name}」のGoogleマップ実測データ(評点${e.rating ?? "—"}・口コミ${e.reviews?.toLocaleString()}件・${e.fetchedAt}取得)と所在地。評点・件数は取得時点の実数のみで創作はありません。料金・体験は公式サイトでの確認を推奨しています。`,
+    // 2026-09-28: 店舗個別ページ1,973件はsitemapの74%を占めながら、
+    // Googleにクロールされず「検出 - インデックス未登録」のまま滞留していた。
+    // クロール枠をレビュー・エリア・比較ページに集中させるためnoindexにする。
+    // follow は維持し、このページからエリア・DBへのリンクは引き続きたどれるようにする。
+    // ユーザー向けの導線(エリアページ内の一覧)は従来どおり残す。
+    robots: { index: false, follow: true },
   };
 }
 
