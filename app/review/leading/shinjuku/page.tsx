@@ -90,7 +90,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             LEADING新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。トレーナーのリーダーシップある指導スタイルが特徴で、目標達成に向けて力強くサポートしてくれると好評です。ダイエットから筋力アップまで幅広い目的に対応しており、結果にこだわるトレーニングプログラムが支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

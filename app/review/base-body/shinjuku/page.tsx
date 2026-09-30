@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             base BODY新宿店は科学的根拠に基づいたトレーニングメソッドが特徴のパーソナルジムです。身体の土台づくりを重視し、筋力アップとともに日常生活の動作改善にも取り組めると好評です。トレーナーの丁寧な説明とフォーム指導に定評があり、怪我なく効率的にトレーニングしたい方に人気があります。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

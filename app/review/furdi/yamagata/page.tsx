@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "FURDI 山形南店の口コミ・評判",
@@ -98,38 +99,9 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FURDI山形南店は、山形県山形市にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で通い放題のサーキット型トレーニングが特徴。AIトレーナーが画面上でフォームを指導してくれるため、人目を気にせず自分のペースでトレーニングできると好評です。山形市南部エリアの女性にとって、気軽に通える運動施設として支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href={"https://www.google.com/maps/search/FURDI+ファディー+山形南店"} target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">山形で女性専用のAIジムに通えるのは嬉しいです。一人でも正しいフォームでトレーニングできる安心感があります。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">月額7,678円〜で通い放題なのが魅力です。雪の季節でも室内で効率的に運動できるのが助かります。</p>
-              <p className="text-xs text-gray-400">-- 入会6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">予約不要で好きな時間に行けるのが便利です。女性専用なので周りの目を気にせずトレーニングできます。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">AIトレーナーが200種類以上のメニューから最適なものを提案してくれます。運動が苦手でも続けやすいです。</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">この価格帯で女性専用・通い放題のジムは山形ではここだけです。サーキット型で短時間で効果を実感できます。</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="furdi/yamagata" storeName="FURDI（ファディー）山形南店" brandSlug="furdi" brandName="FURDI" mapsSearchUrl="https://www.google.com/maps/search/FURDI+ファディー+山形南店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

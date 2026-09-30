@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 心斎橋店の口コミ・評判",
@@ -90,38 +91,8 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             24/7ワークアウト心斎橋店は、心斎橋駅から徒歩圏内にある大阪ミナミの人気店舗です。ショッピングや食事のついでに立ち寄れる好立地で、完全個室でのマンツーマン指導が好評です。3食しっかり食べるダイエットメソッドで大阪グルメを楽しみながらも健康的にボディメイクできると支持されています。深夜24時まで営業しているため、接客業など夜型の生活をされている方にも通いやすい環境です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/24/7%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%20%E5%BF%83%E6%96%8E%E6%A9%8B%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「朝7時から開いているので心斎橋での仕事前に通っています。早朝は空いていることが多く、予約も取りやすいです。手ぶらで行けるので荷物の心配がないのも助かります。」</p>
-              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「3食しっかり食べていいというのが衝撃でした。心斎橋で他のジムも検討しましたが、食事制限が厳しくないのにしっかり痩せられるのはここだけでした。2ヶ月で7kg減です。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「仕事が不規則なので深夜まで営業しているのが決め手。心斎橋の夜遅い時間でもトレーナーさんがしっかり指導してくれます。ウェアもタオルも貸してもらえるので身軽に通えます。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴10ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「完全個室なので周りの目が気にならず、集中してトレーニングできます。心斎橋店のトレーナーさんは褒め上手で、モチベーションを保ちやすいです。全額返金保証があるのも安心材料でした。」</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「産後太りの解消で通い始めました。心斎橋で子育てしながらでも通える時間帯の柔軟さがありがたいです。食事もしっかり食べるスタイルなので授乳中でも無理なくダイエットできました。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴7ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="247workout/shinsaibashi" storeName="24/7ワークアウト 心斎橋店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+心斎橋店" />
 
 
         <section className="mb-10">

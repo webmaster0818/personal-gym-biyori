@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "FURDI 西宮門戸厄神駅前店の口コミ・評判",
@@ -98,38 +99,9 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FURDI西宮門戸厄神駅前店は、兵庫県西宮市にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で通い放題のサーキット型トレーニングが特徴。AIトレーナーが画面上でフォームを指導してくれるため、人目を気にせず自分のペースでトレーニングできると好評です。門戸厄神駅前の便利な立地で、西宮市の女性に支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href={"https://www.google.com/maps/search/FURDI+ファディー+西宮門戸厄神駅前店"} target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">門戸厄神駅前なので駅からすぐで通いやすいです。女性専用で安心してトレーニングできます。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">月額7,678円〜で通い放題なのが嬉しいです。AI指導で正しいフォームが学べます。</p>
-              <p className="text-xs text-gray-400">-- 入会6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">予約不要で好きな時間に行けるのが便利です。女性だけの空間でリラックスして運動できます。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">AIトレーナーが200種類以上のメニューから提案してくれるので飽きずに続けられます。</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">西宮市で女性専用のAIフィットネスジムは貴重です。この価格帯で通い放題は他にありません。</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="furdi/nishinomiya" storeName="FURDI（ファディー）西宮門戸厄神駅前店" brandSlug="furdi" brandName="FURDI" mapsSearchUrl="https://www.google.com/maps/search/FURDI+ファディー+西宮門戸厄神駅前店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

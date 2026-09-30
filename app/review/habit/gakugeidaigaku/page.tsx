@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "HABIT 学芸大学店の口コミ・評判",
@@ -93,40 +94,10 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             HABIT学芸大学店は、東急東横線学芸大学駅から徒歩2分のおしゃれなエリアに位置しています。周辺にはカフェやセレクトショップが並ぶ人気の街で、トレーニング後の散策も楽しめます。健康意識の高い20〜40代の利用者が多く、ボディメイクやダイエット目的の方に支持されています。駅近で通いやすく、仕事帰りや休日のルーティンとして取り入れやすい店舗です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
 
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/HABIT%20%E5%AD%A6%E8%8A%B8%E5%A4%A7%E5%AD%A6%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">完全プライベート空間でのトレーニングなので、周りの目を気にせず集中できます。東京の住宅街にあるとは思えないほど設備が整っていて快適です。</p>
-              <p className="text-xs text-gray-400">-- 入会1年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">以前は大手ジムに通っていましたが、HABITに変えてから成果が出るスピードが全然違います。学芸大学店のトレーナーさんは知識が豊富で、食事のアドバイスもしてくれます。</p>
-              <p className="text-xs text-gray-400">-- 入会8ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">住宅街の中にあるので人目を気にせず通えるのが良いです。学芸大学のHABITはマンツーマン指導で、自分のペースでトレーニングできます。月額制なので料金を気にせず通えるのもありがたいです。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">トレーナーさんが毎回フォームを丁寧にチェックしてくれるので、効果を実感しやすいです。マンツーマンだから質問もしやすく、初心者の自分でも安心して続けられています。</p>
-              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">学芸大学駅から近くて通いやすいです。月額制で回数を気にせず通えるので、週2〜3回ペースで利用しています。体脂肪率が3ヶ月で5%落ちました。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="habit/gakugeidaigaku" storeName="HABIT 学芸大学店" brandSlug="habit" brandName="HABIT" mapsSearchUrl="https://www.google.com/maps/search/HABIT+学芸大学" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

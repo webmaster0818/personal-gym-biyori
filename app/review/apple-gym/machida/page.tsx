@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
@@ -74,22 +75,9 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">Apple GYM町田店は町田駅から徒歩5分にある海外式ボディメイクパーソナルジムです。完全個室のプライベート空間で、姿勢改善をベースとしたトレーニングが受けられます。月額24,200円〜で全プラン食事指導付き。町田エリアで手頃な価格のパーソナルジムを探している方に選ばれています。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Apple+GYM+アップルジム+町田店" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「町田にも海外式ボディメイクのジムができて嬉しいです。都心に行かなくても質の高いパーソナルトレーニングが受けられます。完全個室なので集中できます。」</p><p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「姿勢改善から始めるアプローチが新鮮でした。ただ筋トレするだけでなく、体の使い方を意識するようになってから日常生活での体の感覚が変わりました。」</p><p className="text-xs text-gray-400">-- 利用歴4ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「町田駅から近いので、仕事帰りに通いやすいです。月額制で無理なく続けられる価格設定なのも嬉しいポイントです。」</p><p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「食事指導がとても実践的で、町田周辺のスーパーで買える食材でのメニュー提案までしてくれました。おかげで自炊の習慣もつきました。」</p><p className="text-xs text-gray-400">-- 利用歴5ヶ月のユーザー</p></div>
-          </div>
-        </section>
+                <StoreGmapBox k="apple-gym/machida" storeName="Apple GYM（アップルジム）町田店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+町田店" />
 
         <section className="mb-10 text-center"><a href={AFF_URL} target="_blank" rel="noopener noreferrer nofollow"><img src={BANNER_URL} alt="Apple GYM（アップルジム）" width="300" height="250" className="mx-auto rounded-lg" /></a></section>
 

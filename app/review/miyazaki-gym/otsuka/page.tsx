@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM大塚店は、大塚駅から徒歩3分の場所にある月額制パーソナルジムです。豊島区の中でもアクセスしやすい立地で、近隣にお住まいの方やオフィスワーカーに利用されています。有資格トレーナーが個々の課題に合わせたトレーニングプランを丁寧に作成してくれるため、着実に成果を感じられると評判です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

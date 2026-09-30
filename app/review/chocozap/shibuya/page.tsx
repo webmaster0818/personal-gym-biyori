@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             chocoZAP渋谷店は、渋谷駅近くに位置するコンビニジムです。24時間営業で月額3,278円（税込）という圧倒的な低価格が魅力です。着替え不要・靴履き替え不要で、5分だけでも気軽に利用できるスタイルが忙しい若者を中心に好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

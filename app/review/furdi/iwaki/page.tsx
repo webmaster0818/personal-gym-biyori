@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "FURDI いわき店の口コミ・評判",
@@ -98,38 +99,9 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FURDIいわき店は、福島県いわき市にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で通い放題のサーキット型トレーニングが特徴。AIトレーナーが画面上でフォームを指導してくれるため、人目を気にせず自分のペースでトレーニングできると好評です。いわき市内で気軽に通えるフィットネス施設として地元女性に人気です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href={"https://www.google.com/maps/search/FURDI+ファディー+いわき店"} target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">いわきで女性専用のフィットネスジムはなかなかないので助かっています。AI指導で一人でも安心してトレーニングできます。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">月額7,678円〜で通い放題なので、週に何度でも通えます。予約不要なのも嬉しいポイントです。</p>
-              <p className="text-xs text-gray-400">-- 入会6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">サーキット型トレーニングで短時間でも効果的に運動できます。女性だけの空間なので気兼ねなく通えます。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">AIトレーナーのフォーム指導が的確で、ジム初心者でも正しい動きが身につきます。メニューも豊富です。</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">この価格で通い放題のジムはいわき市内では貴重です。仕事帰りにふらっと立ち寄れる手軽さが魅力です。</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="furdi/iwaki" storeName="FURDI（ファディー）いわき店" brandSlug="furdi" brandName="FURDI" mapsSearchUrl="https://www.google.com/maps/search/FURDI+ファディー+いわき店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

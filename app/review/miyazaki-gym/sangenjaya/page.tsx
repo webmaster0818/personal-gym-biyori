@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM三軒茶屋店は、三軒茶屋駅から徒歩5分にある月額制パーソナルジムです。世田谷区の住宅街に位置し、地元の方を中心に幅広い年代から支持されています。有資格トレーナーが生活習慣や運動歴を丁寧にヒアリングした上で、無理のないペースでトレーニングを進めてくれると評判です。アットホームな雰囲気が長く通える秘訣だと好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

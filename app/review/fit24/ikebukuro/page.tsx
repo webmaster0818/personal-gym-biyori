@@ -94,7 +94,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FIT24池袋店は池袋駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜という低価格で充実したマシンが利用できる点が好評です。24時間いつでも利用できるため、仕事帰りや早朝など自分のライフスタイルに合わせて通える利便性が口コミで高く評価されています。池袋エリアで手軽にフィットネスを始めたい方に支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

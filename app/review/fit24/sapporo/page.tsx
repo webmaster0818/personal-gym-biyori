@@ -94,7 +94,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FIT24札幌店は札幌駅から徒歩5分の24時間営業フィットネスジムです。北海道エリアで月額3,980円〜の低価格でマシンが充実した施設を利用できます。24時間営業のセルフ型なので、天候に左右されず自分のペースでトレーニングできる点が口コミで高評価です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -88,7 +88,6 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">chocoZAP梅田店は、梅田駅近くにある24時間営業のコンビニジムです。関西エリアの主要ターミナルである梅田に位置し、通勤・通学の途中に気軽に立ち寄れる便利さが好評です。月額3,278円で全店舗通い放題のため、出張や移動が多い方にも利用しやすいジムです。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

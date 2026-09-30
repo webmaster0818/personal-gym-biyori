@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASmake新宿店は体型を整えることに特化したパーソナルジムです。無理な食事制限をせず、体のラインを美しくするためのトレーニング指導が特徴です。女性利用者からの評価が高く、姿勢改善や部分痩せに効果を感じたという口コミが多く見られます。駅近で通いやすい立地も魅力です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

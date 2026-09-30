@@ -88,7 +88,6 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">OUTLINE渋谷店は、渋谷駅から徒歩圏内にある女性専用パーソナルジムです。完全個室・完全予約制のプライベート空間で、周囲を気にせずトレーニングに集中できます。生涯アフターフォロー制度があり、コース卒業後もリバウンド防止のサポートが受けられると高く評価されています。渋谷で働く女性を中心に、仕事帰りにも通いやすいと好評です。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

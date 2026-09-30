@@ -94,7 +94,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FIT24町田店は町田駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜で豊富なマシンが利用でき、町田エリアで手軽にフィットネスを始めたい方に人気があります。24時間いつでも利用できるセルフ型なので、忙しい方でも自分のペースで通えます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

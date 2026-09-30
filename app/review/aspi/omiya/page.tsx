@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASPI大宮店は大宮駅から徒歩5分の立地にある店舗です。有資格トレーナーによる専門的な指導が受けられ、埼玉エリアで高品質なパーソナルトレーニングを提供しています。月額7,600円からの手頃な料金設定で、長期的に続けやすいと好評です。ストレッチ指導や食事指導も含まれたトータルサポートが魅力です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

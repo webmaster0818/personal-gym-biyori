@@ -112,9 +112,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング六本木店は、六本木駅から徒歩圏内にある店舗です。医学的根拠に基づいたトレーニングプログラムが特徴で、海外経験のあるトレーナーも在籍しています。六本木エリアで働くビジネスパーソンからの支持が高く、仕事帰りや休日に通う利用者が多い店舗です。パフォーマンスアップや体質改善を目的とした指導が好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         <section className="mb-10">

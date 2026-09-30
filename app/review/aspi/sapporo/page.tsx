@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASPI札幌店は札幌駅から徒歩5分のアクセスの良い店舗です。全トレーナーが有資格者で、北海道エリアで本格的なパーソナルトレーニングを受けられます。月額7,600円からの手頃な料金と、オンライン食事指導を含むトータルサポートが好評です。冬場でも駅近で通いやすく、年間通して継続しやすい環境が整っています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

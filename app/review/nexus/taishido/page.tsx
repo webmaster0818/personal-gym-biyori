@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "Nexusジム 太子堂店の口コミ・評判",
@@ -110,45 +111,13 @@ export default function StorePage() {
         </section>
 
 
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Nexus%E3%82%B8%E3%83%A0%20太子堂店" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">世田谷エリアで月額19,800円〜のパーソナルジムは貴重です。西太子堂駅から徒歩4分で通いやすいです。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">三軒茶屋エリアからも通えるので便利です。格安の月額制でマンツーマン指導が受けられるのはありがたいです。</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">大手パーソナルジムの半額以下で同等の指導が受けられます。トレーナーさんが経験豊富で毎回的確なアドバイスをくれます。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">月額制なので追加料金の心配がなく、安心して通い続けられます。太子堂の落ち着いた雰囲気も気に入っています。</p>
-              <p className="text-xs text-gray-400">-- 入会6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">格安のパーソナルジムということで期待していませんでしたが、トレーニングの質は想像以上に高かったです。</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="nexus/taishido" storeName="Nexusジム 太子堂店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+太子堂店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Nexusジム太子堂店は西太子堂駅から徒歩4分のパーソナルジムです。世田谷区・三軒茶屋エリアから通いやすく、月額19,800円〜の格安料金でマンツーマン指導が受けられます。トレーナーの経験豊富な指導と落ち着いた環境が口コミで好評です。世田谷エリアでコスパの良いパーソナルジムを探している方に支持されています。
-          </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
           </p>
         </section>
 

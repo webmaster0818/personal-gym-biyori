@@ -91,7 +91,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             カーブス船橋店は、船橋駅から徒歩5分の女性専用フィットネスです。千葉県船橋エリアの主婦層やシニア層に支持されており、日常の買い物ついでに立ち寄れる利便性が魅力です。30分の短時間トレーニングは子育て中の方にも好評で、予約なしで通えるため家事の合間に利用しやすいと評判です。健康維持を目的とした中高年の方が多く、同世代の仲間と一緒に楽しく運動できる雰囲気が好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

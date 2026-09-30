@@ -90,7 +90,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング横浜店は、横浜駅近くに位置する医学的根拠に基づいたパーソナルジムです。都度払い制で通いやすく、神奈川エリアで本格的なパーソナルトレーニングを受けたい方に人気です。管理栄養士による食事サポートも充実しており、トレーニングと栄養の両面から効率的なボディメイクを目指せると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             OUTLINE銀座店は、銀座駅から好アクセスの女性専用パーソナルジムです。女性トレーナーによる完全個室指導で、女性特有の身体の悩みに寄り添ったプログラムが特徴です。生涯アフターフォロー付きで、卒業後のリバウンド防止まで徹底サポートしてくれると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

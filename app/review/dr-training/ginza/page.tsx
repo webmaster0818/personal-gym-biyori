@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング銀座店は、銀座駅から好アクセスの店舗です。洗練された空間で医学的根拠に基づいたトレーニングを受けられます。仕事帰りのビジネスパーソンや美意識の高い女性利用者が多く、ボディメイクや姿勢改善に関する口コミが好評です。都度払い制でコスパが良いと評価されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ELEMENT新宿店は、新宿駅から徒歩圏内にある通い放題型パーソナルジムです。月額定額で何度でもパーソナルトレーニングが受けられるシステムが最大の特徴で、コスパの良さを評価する口コミが多数見られます。1回30分の短時間セッションで効率的にトレーニングできます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

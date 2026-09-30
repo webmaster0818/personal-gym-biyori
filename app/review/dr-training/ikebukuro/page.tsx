@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング池袋店は、池袋駅から徒歩圏内に位置する店舗です。医学的根拠に基づいた指導で、身体の仕組みを理解しながらトレーニングできると評判です。都度払い制なので、まとまった費用が不要な点が支持されています。肩こりや腰痛改善を目的に通う利用者も多いです。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

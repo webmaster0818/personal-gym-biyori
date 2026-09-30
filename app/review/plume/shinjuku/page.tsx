@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             PLUME新宿店は上質な空間でトレーニングを楽しめるパーソナルジムです。洗練された内装とアメニティが充実しており、トレーニング後のケアまで含めた快適な体験が高く評価されています。トレーナーの技術力と接客の質が両立しており、リラックスしながら本格的なボディメイクに取り組めます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "HABIT 等々力店の口コミ・評判",
@@ -93,40 +94,10 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             HABIT等々力店は、東急大井町線等々力駅から徒歩2分の世田谷区に位置するパーソナルジムです。等々力渓谷で知られる自然豊かなエリアにあり、緑に囲まれた穏やかな環境でトレーニングできます。地元に根ざした店舗として、近隣のファミリー層やシニア層からも支持されています。自由が丘や尾山台方面からも通いやすく、世田谷南部エリアで健康的なライフスタイルを目指す方にぴったりです。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
 
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/HABIT%20%E7%AD%89%E3%80%85%E5%8A%9B%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">トレーナーさんが毎回フォームを丁寧にチェックしてくれるので、効果を実感しやすいです。マンツーマンだから質問もしやすく、初心者の自分でも安心して続けられています。</p>
-              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">等々力駅から近くて通いやすいです。月額制で回数を気にせず通えるので、週2〜3回ペースで利用しています。体脂肪率が3ヶ月で5%落ちました。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">完全プライベート空間でのトレーニングなので、周りの目を気にせず集中できます。東京の住宅街にあるとは思えないほど設備が整っていて快適です。</p>
-              <p className="text-xs text-gray-400">-- 入会1年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">以前は大手ジムに通っていましたが、HABITに変えてから成果が出るスピードが全然違います。等々力店のトレーナーさんは知識が豊富で、食事のアドバイスもしてくれます。</p>
-              <p className="text-xs text-gray-400">-- 入会8ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">住宅街の中にあるので人目を気にせず通えるのが良いです。等々力のHABITはマンツーマン指導で、自分のペースでトレーニングできます。月額制なので料金を気にせず通えるのもありがたいです。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="habit/todoroki" storeName="HABIT 等々力店" brandSlug="habit" brandName="HABIT" mapsSearchUrl="https://www.google.com/maps/search/HABIT+等々力" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

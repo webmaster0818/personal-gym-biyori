@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ビーコンセプト池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。脚痩せに特化したメソッドで、太もも・ヒップラインの改善を目指すプログラムが好評です。トレーナーの知識が豊富で、個々の体型に合わせた指導が受けられると口コミで評価されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

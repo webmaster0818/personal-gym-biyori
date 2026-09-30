@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASPI北千住店は北千住駅から徒歩5分の立地にある店舗です。有資格トレーナーによるパーソナルトレーニングが月額7,600円からの手頃な価格で受けられます。北千住エリアで質の高い指導を求める方に支持されています。オンライン食事指導にも対応しており、生活リズムに合わせた食事管理もサポートしてくれます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

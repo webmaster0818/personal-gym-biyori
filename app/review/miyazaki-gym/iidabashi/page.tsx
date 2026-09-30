@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM飯田橋店は、飯田橋駅から徒歩わずか3分にある月額制パーソナルジムです。千代田区のオフィス街に近く、ランチタイムや仕事帰りに通うビジネスパーソンが多い店舗です。有資格トレーナーが短時間でも効果的なトレーニングメニューを組んでくれるため、忙しい方でも無理なく続けられると評判です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

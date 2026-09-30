@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASPI船橋店は船橋駅から徒歩3分の駅近店舗です。全トレーナーが有資格者で、千葉エリアで専門的なパーソナルトレーニングを受けられます。月額7,600円からの手頃な料金と、丁寧なカウンセリングが好評です。オンライン食事指導も対応しており、忙しい方でも無理なくボディメイクに取り組めます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

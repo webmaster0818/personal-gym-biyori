@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング学芸大学店は、学芸大学駅から徒歩3分のパーソナルジムです。医学的根拠に基づいたトレーニングとストレッチ指導が特徴です。地域密着型の環境で、継続しやすいと好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

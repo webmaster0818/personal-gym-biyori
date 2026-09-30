@@ -95,7 +95,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             RAT中目黒店は、中目黒駅から徒歩圏内にあるパーソナルジムです。おしゃれな中目黒エリアに立地しており、トレンドに敏感な若い世代に人気があります。完全予約制のプライベート空間で、一人ひとりに合ったトレーニングプランを提供してもらえると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

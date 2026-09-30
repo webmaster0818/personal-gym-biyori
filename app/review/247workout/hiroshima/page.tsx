@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 広島店の口コミ・評判",
@@ -67,38 +68,8 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">24/7ワークアウト広島店は、広島市の中心部・八丁堀エリアに位置しています。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。大手パーソナルジムと比較してリーズナブルな料金設定が特徴で、広島市内を中心に広島県内各地からの利用者がいます。トレーナーの明るい雰囲気と、食事管理を含めた総合的なサポートが評価されています。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/24/7%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%20%E5%BA%83%E5%B3%B6%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「朝7時から開いているので広島での仕事前に通っています。早朝は空いていることが多く、予約も取りやすいです。手ぶらで行けるので荷物の心配がないのも助かります。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴1年半のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「3食しっかり食べていいというのが衝撃でした。広島で他のジムも検討しましたが、食事制限が厳しくないのにしっかり痩せられるのはここだけでした。2ヶ月で7kg減です。」</p>
-              <p className="text-xs text-gray-400">-- 入会6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「仕事が不規則なので深夜まで営業しているのが決め手。広島の夜遅い時間でもトレーナーさんがしっかり指導してくれます。ウェアもタオルも貸してもらえるので身軽に通えます。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴9ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「完全個室なので周りの目が気にならず、集中してトレーニングできます。広島店のトレーナーさんは褒め上手で、モチベーションを保ちやすいです。全額返金保証があるのも安心材料でした。」</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「産後太りの解消で通い始めました。広島で子育てしながらでも通える時間帯の柔軟さがありがたいです。食事もしっかり食べるスタイルなので授乳中でも無理なくダイエットできました。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴11ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="247workout/hiroshima" storeName="24/7ワークアウト 広島店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24%2F7ワークアウト+広島店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

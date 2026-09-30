@@ -94,7 +94,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FIT24渋谷店は渋谷駅から徒歩5分の24時間営業フィットネスジムです。セルフ型で月額3,980円〜と低価格ながら、豊富なマシンラインナップが魅力です。渋谷という好立地で24時間利用できるため、忙しいビジネスパーソンや学生に人気があります。自分のペースでトレーニングしたい方に最適な環境です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

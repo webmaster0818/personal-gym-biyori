@@ -89,7 +89,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             THE PERSONAL GYM銀座店は、銀座駅から徒歩圏内にあるパーソナルジムです。洗練された空間でトレーニングに集中でき、仕事帰りのビジネスパーソンに人気があります。個別のカウンセリングに基づくプログラム設計が丁寧で、運動初心者でも無理なく続けられると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "Nexusジム 池袋店の口コミ・評判",
@@ -110,45 +111,13 @@ export default function StorePage() {
         </section>
 
 
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Nexus%E3%82%B8%E3%83%A0%20%E6%B1%A0%E8%A2%8B%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">月額19,800円からパーソナルトレーニングが受けられるのは破格だと思います。池袋店のトレーナーさんは経験豊富で、毎回的確なアドバイスをくれます。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">格安の月額制パーソナルジムを探していてNexusジムを見つけました。価格が安いのにトレーニングの質は高く、コスパ最高です。</p>
-              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">池袋のNexusジムに通い始めて4ヶ月です。月額制で通い放題なので、自分のペースで週3回通っています。体重が5kg減って見た目も変わりました。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">月額19,800円〜でマンツーマンのパーソナルトレーニングが受けられるのは本当にお得です。トレーナーさんも親切で、初心者の自分でも楽しく通えています。</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">大手パーソナルジムの半額以下で同等のサービスが受けられます。月額制なので追加料金の心配もなく、安心して通い続けられます。</p>
-              <p className="text-xs text-gray-400">-- 入会8ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="nexus/ikebukuro" storeName="Nexusジム 池袋店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+池袋店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Nexusジム池袋店は池袋駅から徒歩5分の好立地にあるパーソナルジムです。利用者からはトレーナーの親しみやすさと専門知識の両立が評価されています。初心者でも無理なく始められるプログラム設計が特徴で、運動習慣のない方からの支持が特に高い店舗です。池袋エリアの中でもリーズナブルな価格帯で本格的なパーソナルトレーニングを受けられると好評です。
-          </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
           </p>
         </section>
 

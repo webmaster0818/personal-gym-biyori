@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
@@ -74,22 +75,9 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">Apple GYM銀座店は銀座駅から徒歩5分の好立地にある海外式ボディメイクパーソナルジムです。完全個室のトレーニング環境で、仕事帰りの利用者に人気があります。姿勢改善をベースにした独自メソッドと、全プラン食事指導付きのサービスが魅力です。銀座エリアで質の高いパーソナルトレーニングを手頃な価格で受けたい方に選ばれています。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Apple+GYM+アップルジム+銀座店" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「銀座で仕事をしているので、仕事帰りに寄れるのが便利です。23時まで営業しているので残業がある日でも通えます。姿勢改善のおかげで肩こりも楽になりました。」</p><p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「海外式のボディメイクに興味があり入会しました。日本人向けにカスタマイズされているので、自分の体型に合った指導が受けられます。完全個室で落ち着いた空間です。」</p><p className="text-xs text-gray-400">-- 利用歴4ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「銀座のパーソナルジムの中ではかなりリーズナブルな価格帯です。月額24,200円で食事指導までついているのはありがたいです。」</p><p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「デスクワークの猫背を改善したくて通い始めました。姿勢から変えるアプローチのおかげで、周囲から背筋が伸びたねと言われることが増えました。」</p><p className="text-xs text-gray-400">-- 利用歴5ヶ月のユーザー</p></div>
-          </div>
-        </section>
+                <StoreGmapBox k="apple-gym/ginza" storeName="Apple GYM（アップルジム）銀座店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+銀座店" />
 
         <section className="mb-10 text-center"><a href={AFF_URL} target="_blank" rel="noopener noreferrer nofollow"><img src={BANNER_URL} alt="Apple GYM（アップルジム）" width="300" height="250" className="mx-auto rounded-lg" /></a></section>
 

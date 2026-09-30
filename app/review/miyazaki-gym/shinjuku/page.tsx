@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM新宿店は、新宿駅から徒歩5分の好立地にある月額制パーソナルジムです。有資格トレーナーによるマンツーマン指導が好評で、特にフォームの丁寧な修正や食事指導の的確さに高い評価が集まっています。月額制のため予算管理がしやすく、継続しやすい点が多くの利用者に支持されています。仕事帰りに通うビジネスパーソンが多い店舗です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

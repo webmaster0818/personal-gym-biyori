@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "Nexusジム 蒲田/蓮沼店の口コミ・評判",
@@ -110,45 +111,13 @@ export default function StorePage() {
         </section>
 
 
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Nexus%E3%82%B8%E3%83%A0%20蒲田/蓮沼店" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">蓮沼駅から通えるパーソナルジムを探していてNexusジムを見つけました。月額19,800円〜でマンツーマン指導が受けられるのはお得です。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">蒲田エリアで格安のパーソナルジムは貴重です。トレーナーさんが毎回しっかりフォームを見てくれるので効果を実感しています。</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">月額制で追加料金がかからないのが安心です。大手の半額以下なのにサービスの質は十分高いと感じます。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">仕事帰りに通っています。蓮沼駅から近いので続けやすいです。マンツーマンなので周りの目を気にせずトレーニングできます。</p>
-              <p className="text-xs text-gray-400">-- 入会6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">格安パーソナルジムということで最初は不安でしたが、トレーニングの質は大手と変わらないと思います。月額制で通い放題なのが嬉しいです。</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="nexus/kamata" storeName="Nexusジム 蒲田/蓮沼店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+蒲田/蓮沼店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Nexusジム蒲田/蓮沼店は蓮沼駅から徒歩6分のパーソナルジムです。蒲田エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられる点が口コミで高評価です。仕事帰りに通う利用者が多く、トレーナーの丁寧な指導が支持されています。大田区エリアでコスパの良いパーソナルジムとして人気があります。
-          </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
           </p>
         </section>
 

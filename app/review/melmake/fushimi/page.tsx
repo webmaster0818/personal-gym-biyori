@@ -89,7 +89,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             メルメイク伏見店は、伏見駅から徒歩1分という抜群のアクセスが魅力のパーソナルジムです。名古屋の中心部に位置しており、仕事帰りやランチタイムに通いやすいと好評です。リーズナブルな料金でありながら、トレーナーの質が高く、効率的なボディメイクが可能と口コミで支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

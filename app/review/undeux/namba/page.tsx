@@ -88,7 +88,6 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY難波店は、なんば駅近くにある女性専用パーソナルジムです。関西エリアで本格的な女性向けボディメイクができると人気の店舗です。宅配食サービスと連携した食事管理と、女性の体に特化したトレーニングプログラムが好評。おしゃれな空間で楽しみながらトレーニングを続けられます。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

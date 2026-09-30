@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "RIZAP 五反田店の口コミ・評判",
@@ -93,38 +94,8 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             RIZAP五反田店は、山手線五反田駅から徒歩5分のオフィス街に位置する店舗です。IT企業が多い五反田エリアの特性から、20代〜40代のビジネスパーソンの利用が中心です。デスクワークによる姿勢改善と体脂肪減少を同時に目指すプログラムが好評で、トレーナーが個人の生活リズムに合わせた実践的な食事アドバイスを提供してくれると高く評価されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/RIZAP%20%E4%BA%94%E5%8F%8D%E7%94%B0%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「正直、料金は安くはないですが五反田で3ヶ月通って10kg減量できたので投資としては十分元が取れました。毎日の食事報告が最初は面倒でしたが、習慣になると自然と食生活が変わりました。」</p>
-              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「完全個室なので人目を気にせずトレーニングに集中できます。五反田のビジネスマンとしては、仕事帰りにサッと通えるのがありがたいです。トレーナーの指導が的確で、短時間でも効果を実感しています。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「返金保証があったので思い切って入会しました。結果的に五反田でここを選んで正解。担当トレーナーが目標達成まで伴走してくれる安心感は他のジムにはなかったです。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴10ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「食事管理が想像以上に手厚いです。五反田周辺のレストランでも食べられるメニューをアドバイスしてもらえるので、外食が多くても対応できました。体重だけでなく体調も良くなりました。」</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「持病があり不安でしたが、医療機関との連携があると聞いて入会を決めました。五反田店のトレーナーさんは体調を細かく確認しながら無理のないメニューを組んでくれます。安心して続けられています。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴7ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="rizap/gotanda" storeName="RIZAP 五反田店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+五反田店" />
 
 
         <section className="mb-10">

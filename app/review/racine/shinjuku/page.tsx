@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             RACINE新宿店は根本的な体質改善を目指すパーソナルジムです。トレーニングだけでなく栄養指導や生活習慣の見直しまで含めた包括的なアプローチが特徴で、長期的な健康維持を重視する方に支持されています。カウンセリングが丁寧で、一人ひとりに合った最適なプランを提案してくれると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -97,7 +97,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             RAT福岡天神店は、天神駅から徒歩わずか2分という抜群の立地にある女性向けパーソナルジムです。九州エリアで完全個室のパーソナルトレーニングをリーズナブルに始めたい女性に注目されています。天神の繁華街に位置するため、ショッピングや食事の前後にトレーニングを組み込みやすいと好評です。初心者にも丁寧に指導してくれるトレーナーの質の高さも口コミで評価されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

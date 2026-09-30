@@ -97,7 +97,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             RAT柏店は、柏駅から徒歩わずか2分という抜群のアクセスが魅力のパーソナルジムです。千葉県内でリーズナブルに完全個室パーソナルトレーニングを受けたい方に人気があります。手ぶらで通えるレンタルサービスが充実しており、買い物ついでや仕事帰りに気軽に立ち寄れると好評です。トレーナーの丁寧な指導で、運動初心者の女性からも高い支持を得ています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

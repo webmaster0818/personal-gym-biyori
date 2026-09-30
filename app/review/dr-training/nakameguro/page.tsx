@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング中目黒店は、中目黒駅から徒歩圏内の落ち着いた雰囲気の店舗です。医学的アプローチに基づいた指導が特徴で、一人ひとりの身体に合わせたオーダーメイドプログラムが好評です。都度払い制で気軽に通えるため、長期的に利用する顧客が多いと評判です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

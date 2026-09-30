@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Alesco新宿店はリバウンド防止に力を入れたパーソナルジムです。卒業後も継続できる食事習慣やトレーニング方法を重視した指導が特徴で、長期的な体型維持を目指す方から支持されています。完全個室でプライバシーが守られる環境も好評で、人目を気にせずトレーニングに集中できます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

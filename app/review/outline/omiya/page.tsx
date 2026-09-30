@@ -88,7 +88,6 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">OUTLINE大宮店は、大宮駅近くにある女性専用パーソナルジムです。完全個室でのマンツーマン指導と、女性の体に特化したトレーニングプログラムが特徴です。埼玉エリアで女性専用の完全個室パーソナルジムは希少で、大宮周辺にお住まいの女性から高い支持を得ています。生涯アフターフォローでリバウンド防止も安心です。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

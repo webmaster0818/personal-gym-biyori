@@ -1,0 +1,191 @@
+{
+ "beyond/hakata": {
+  "storeName": "BEYOND 博多店",
+  "gmapName": "パーソナルジム BEYOND 博多店",
+  "rating": 4.9,
+  "reviews": 218,
+  "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前３丁目２７−２３ みやじまビル 2F",
+  "maps": "https://maps.google.com/?cid=3489695075190214233&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "chicken-gym/ikebukuro": {
+  "storeName": "チキンジム 池袋店",
+  "gmapName": "チキンジム 池袋店",
+  "rating": 4.6,
+  "reviews": 191,
+  "address": "日本、〒170-0013 東京都豊島区東池袋１丁目２１−１３ Aune池袋 11F",
+  "maps": "https://maps.google.com/?cid=417384944018246020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "habit/shibuya": {
+  "storeName": "HABIT 渋谷松濤店",
+  "gmapName": "HABIT PERSONAL GYM渋谷松濤店",
+  "rating": 5,
+  "reviews": 83,
+  "address": "日本、〒150-0042 東京都渋谷区宇田川町３７−１５ ARISTO渋谷 3F",
+  "maps": "https://maps.google.com/?cid=10450728306081550377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "beyond/sendai": {
+  "storeName": "BEYOND 仙台店",
+  "gmapName": "BEYOND 仙台店",
+  "rating": 5,
+  "reviews": 187,
+  "address": "日本、〒980-0021 宮城県仙台市青葉区中央３丁目３−１８ 新庄ビル 5F",
+  "maps": "https://maps.google.com/?cid=1318945591566505885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "beyond/kawasaki": {
+  "storeName": "BEYOND 川崎店",
+  "gmapName": "パーソナルジム BEYOND川崎店(パーソナルトレーニング)",
+  "rating": 4.9,
+  "reviews": 306,
+  "address": "日本、〒210-0006 神奈川県川崎市川崎区砂子１丁目７−４ 川崎平沼ビル7階",
+  "maps": "https://maps.google.com/?cid=13743964155518408245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "dr-training/fukuoka": {
+  "storeName": "Dr.トレーニング 福岡天神店",
+  "gmapName": "Dr.トレーニング 福岡天神店",
+  "rating": 4.6,
+  "reviews": 10,
+  "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目８−１９ フィル・パーク福岡大名Ⅱ 3階A号室",
+  "maps": "https://maps.google.com/?cid=14393964137623349215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "dr-training/shibuya": {
+  "storeName": "Dr.トレーニング 渋谷店",
+  "gmapName": "Dr.トレーニング 渋谷店",
+  "rating": 5,
+  "reviews": 99,
+  "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目２６−１７ Vort渋谷 1F",
+  "maps": "https://maps.google.com/?cid=5535586275456327184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "dr-training/shinjuku": {
+  "storeName": "Dr.トレーニング 新宿店",
+  "gmapName": "Dr.トレーニング 新宿店",
+  "rating": 4.9,
+  "reviews": 32,
+  "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−１０ 守矢ビル 4F",
+  "maps": "https://maps.google.com/?cid=722092659357538959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "beyond/omiya": {
+  "storeName": "BEYOND 大宮店",
+  "gmapName": "BEYOND 大宮店",
+  "rating": 5,
+  "reviews": 233,
+  "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町１丁目４７ 一番ビル 3F",
+  "maps": "https://maps.google.com/?cid=180380483408439856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "rat/fukuoka-tenjin": {
+  "storeName": "RAT 福岡天神店",
+  "gmapName": "パーソナルジムRat福岡天神店",
+  "rating": 4.9,
+  "reviews": 78,
+  "address": "日本、〒810-0004 福岡県福岡市中央区渡辺通５丁目２−１０ 渡辺通プレイス 502号室",
+  "maps": "https://maps.google.com/?cid=14388961021927163115&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "studio-kompas/shibuya": {
+  "storeName": "STUDIO KOMPAS 渋谷店",
+  "gmapName": "STUDIO KOMPAS 渋谷店",
+  "rating": 5,
+  "reviews": 60,
+  "address": "日本、〒150-0036 東京都渋谷区南平台町１３−１１ 南平台WEST 地下 102",
+  "maps": "https://maps.google.com/?cid=655944482386484552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "beyond/kyoto-shijo": {
+  "storeName": "BEYOND 京都四条店",
+  "gmapName": "BEYOND 京都四条店",
+  "rating": 4.9,
+  "reviews": 375,
+  "address": "日本、〒600-8091 京都府京都市下京区元悪王子町４６−４ やさか長砂ビル 2F",
+  "maps": "https://maps.google.com/?cid=7947179574140628743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "exercise-coach/yokohama": {
+  "storeName": "エクササイズコーチ 横浜店",
+  "gmapName": "エクササイズコーチ横浜店",
+  "rating": 4.8,
+  "reviews": 101,
+  "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−５０ 北幸山田ビル 5階",
+  "maps": "https://maps.google.com/?cid=9826988725778549431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "element/shibuya": {
+  "storeName": "ELEMENT 渋谷店",
+  "gmapName": "ELEMENT 渋谷店（エレメント）",
+  "rating": 4.9,
+  "reviews": 23,
+  "address": "日本、〒150-0042 東京都渋谷区宇田川町１６−４ TIP. X TOKYO渋谷店内",
+  "maps": "https://maps.google.com/?cid=17694139881894931912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "exercise-coach/ikebukuro-west": {
+  "storeName": "エクササイズコーチ 池袋西口店",
+  "gmapName": "エクササイズコーチ池袋西口店",
+  "rating": 4.7,
+  "reviews": 89,
+  "address": "日本、〒171-0021 東京都豊島区西池袋１丁目３８−５ セイコービル 7階",
+  "maps": "https://maps.google.com/?cid=8010779275825026385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "habit/umeda": {
+  "storeName": "HABIT 梅田店",
+  "gmapName": "HABIT PERSONAL GYM(ハビット パーソナル ジム)大阪梅田店",
+  "rating": 5,
+  "reviews": 94,
+  "address": "日本、〒530-0015 大阪府大阪市北区中崎西１丁目１−２ Solea nakazaki2階",
+  "maps": "https://maps.google.com/?cid=163605583611731008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "undeux/omiya": {
+  "storeName": "UNDEUX SUPERBODY 大宮店",
+  "gmapName": "女性専用パーソナルジム UNDEUX SUPERBODY 大宮",
+  "rating": 4.8,
+  "reviews": 58,
+  "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目６１ 第二 ＧＳビル 2F",
+  "maps": "https://maps.google.com/?cid=7985368714943477664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "beyond/ikebukuro": {
+  "storeName": "BEYOND 池袋店",
+  "gmapName": "BEYOND 池袋店",
+  "rating": 5,
+  "reviews": 241,
+  "address": "日本、〒170-0013 東京都豊島区東池袋４丁目８−８ 東池袋パークビル 1F",
+  "maps": "https://maps.google.com/?cid=6726699655741174866&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "undeux/chiba": {
+  "storeName": "UNDEUX SUPERBODY 千葉店",
+  "gmapName": "女性専用パーソナルジム UNDEUX SUPERBODY 千葉",
+  "rating": 4.8,
+  "reviews": 111,
+  "address": "日本、〒260-0028 千葉県千葉市中央区新町1−１８ 上野ビル 6F",
+  "maps": "https://maps.google.com/?cid=7519886962558615715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "undeux/kobe": {
+  "storeName": "UNDEUX SUPERBODY 神戸店",
+  "gmapName": "女性専用パーソナルジム UNDEUX SUPERBODY 神戸",
+  "rating": 4.8,
+  "reviews": 125,
+  "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−１０ フラワーロードビル B1",
+  "maps": "https://maps.google.com/?cid=16615652611482181818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ },
+ "undeux/urawa": {
+  "storeName": "UNDEUX SUPERBODY 浦和店",
+  "gmapName": "女性専用パーソナルジム UNDEUX SUPERBODY 浦和",
+  "rating": 4.9,
+  "reviews": 33,
+  "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目８−１６ 浦和ガーデンビル 3階",
+  "maps": "https://maps.google.com/?cid=6291337478964365519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "fetchedAt": "2026-08-29"
+ }
+}

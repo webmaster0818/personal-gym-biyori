@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             more fit新宿店は手頃な価格帯でパーソナルトレーニングが受けられるジムです。初めてパーソナルジムに通う方でも負担の少ない料金設定が好評で、コストを抑えながら本格的な指導を受けたい方に支持されています。トレーナーの対応も親切で、継続して通いやすい環境が整っています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASPI秋葉原店は有資格トレーナーによるマンツーマン指導が受けられる店舗です。秋葉原駅から徒歩5分のアクセスで、通勤・通学途中にも立ち寄りやすい立地が好評です。月額7,600円からの手頃な価格設定と、オンライン食事指導の併用で効率的な体づくりが可能です。初心者にも丁寧に対応してくれると評判です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

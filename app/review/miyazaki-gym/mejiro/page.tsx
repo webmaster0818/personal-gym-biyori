@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM目白店は、目白駅から徒歩3分の場所にある月額制パーソナルジムです。閑静な住宅街に位置し、静かな環境でトレーニングに集中できると好評です。有資格トレーナーが一人ひとりの体力や柔軟性を評価した上で、最適な負荷設定でトレーニングを進めてくれます。運動に慣れていない方でも安心して始められる丁寧な指導が特徴です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

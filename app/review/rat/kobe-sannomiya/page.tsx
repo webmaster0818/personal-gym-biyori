@@ -97,7 +97,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             RAT神戸三宮元町店は、三宮駅から徒歩5分の好立地にある女性向けパーソナルジムです。神戸エリアで完全個室のパーソナルトレーニングを探している方に人気です。元町エリアからもアクセスしやすく、買い物や食事のついでに通う方も多いです。リーズナブルな料金ながら手ぶらで通える充実のサービスが、忙しい女性に選ばれる理由となっています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

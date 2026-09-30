@@ -89,7 +89,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             STUDIO KOMPAS渋谷店は、渋谷駅から徒歩圏内にあるパーソナルジムです。機能的なトレーニングに力を入れており、日常生活での動作改善やスポーツパフォーマンス向上を目指す方に支持されています。トレーナーの専門知識が豊富で、体の使い方から丁寧に指導してもらえると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

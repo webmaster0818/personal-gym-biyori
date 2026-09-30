@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "CoCoDakara 新宿店の口コミ・評判",
@@ -105,45 +106,13 @@ export default function StorePage() {
         </section>
 
 
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/CoCoDakara%20%E6%96%B0%E5%AE%BF%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">食事指導とトレーニングの両方をしっかりサポートしてもらえるので、効率よくボディメイクが進んでいます。トレーナーの質が高いと感じます。</p>
-              <p className="text-xs text-gray-400">-- 入会5ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">完全個室なので他の利用者と顔を合わせることがなく、集中してトレーニングできます。新宿店は清潔感があり、女性でも安心して通えます。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">食事指導が具体的で実践しやすいです。何を食べれば良いかだけでなく、コンビニで買える商品まで教えてくれます。完全個室でプライバシーが守られるのも良いポイントです。</p>
-              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">新宿のCoCoDakaraに通い始めて2ヶ月ですが、食事指導のおかげで体重が3kg減りました。トレーナーさんがLINEで食事のフィードバックをくれるので助かります。</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">完全個室のパーソナルジムを探していてCoCoDakaraを見つけました。個室なのでトレーニング中の姿を見られる心配がなく、のびのびと運動できています。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="cocodakara/shinjuku" storeName="CoCoDakara 新宿店" brandSlug="cocodakara" brandName="CoCoDakara 総合レビュー" mapsSearchUrl="https://www.google.com/maps/search/CoCoDakara+新宿店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
             CoCoDakara新宿店は、新宿駅から徒歩5分というアクセス抜群の立地にある完全個室パーソナルジムです。仕事帰りにも通いやすく、忙しいビジネスパーソンからの支持を集めています。完全マンツーマン指導で、トレーナーが一人ひとりの体質や目標に合わせたプログラムを組んでくれるため、効率的にボディメイクが進められると評判です。
-          </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
           </p>
         </section>
 

@@ -89,7 +89,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             リプレシャス新宿店は、女性専用のパーソナルジムとして新宿駅近くに位置しています。女性トレーナーによる指導で、ダイエットやボディメイクに特化したプログラムが好評です。完全個室でトレーニングできるため、人目を気にせず集中できる点が多くの利用者に支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

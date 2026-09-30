@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM赤坂店は、赤坂駅から徒歩5分にある月額制パーソナルジムです。港区の中心エリアに位置し、忙しいビジネスパーソンでも通いやすい立地が魅力です。有資格トレーナーによるマンツーマン指導では、体の歪みや筋力バランスを見極めた上で最適なトレーニングプランを提案してくれます。洗練された空間でモチベーション高くトレーニングできると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

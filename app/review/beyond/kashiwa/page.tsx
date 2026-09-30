@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "BEYOND 柏店の口コミ・評判",
@@ -121,40 +122,8 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             BEYOND柏店は柏駅から徒歩5分の場所にある店舗です。千葉県北西部エリアの方に利用されており、常磐線沿線からのアクセスも良好です。トレーナーが一人ひとりの目標に合わせた丁寧なカウンセリングを行い、最適なプログラムを提供しています。清潔感のある店内と親しみやすい雰囲気が好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/BEYOND%20%E6%9F%8F%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「糖質制限がきつすぎないのが良かったです。柏で外食が多い生活でも無理なく続けられる食事プランを提案してもらえました。2ヶ月で体脂肪率が4%落ちました。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴5ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「店内がとてもきれいで、更衣室やシャワールームも清潔。柏駅からも近く通いやすいです。トレーナーさんの明るい雰囲気に毎回元気をもらっています。」</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「トレーナーさんが柏エリアの食事事情にも詳しくて、柏周辺のコンビニで買えるおすすめ食品まで教えてくれました。筋トレ初心者でしたが、フォームを丁寧に直してもらえて安心感がありました。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴8ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「大会出場経験のあるトレーナーが担当で、ボディメイクの知識がとにかく豊富。自分の骨格に合ったメニューを組んでくれるので、柏の他のジムとは結果の出方が違いました。」</p>
-              <p className="text-xs text-gray-400">-- 入会1ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「入会金がかからないのが決め手でした。回数券制なので月額の縛りがなく、忙しい月は回数を減らせるのが柏で働く自分には合っています。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴3ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="beyond/kashiwa" storeName="BEYOND 柏店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+柏店" />
 
 
         {/* ---------- FAQ ---------- */}

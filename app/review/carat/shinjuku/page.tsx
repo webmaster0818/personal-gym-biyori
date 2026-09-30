@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Carat新宿店はコストパフォーマンスの高さが魅力のパーソナルジムです。リーズナブルな料金設定ながらも質の高いマンツーマン指導が受けられると好評で、初めてパーソナルトレーニングに挑戦する方からも支持されています。食事指導もセットで受けられるため、総合的なダイエットサポートが期待できます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

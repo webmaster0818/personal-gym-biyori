@@ -91,7 +91,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ELEMENT恵比寿店は、恵比寿駅から徒歩圏内にある通い放題型パーソナルジムです。おしゃれな恵比寿エリアに立地しており、美意識の高い利用者に支持されています。月額定額制で30分の短時間セッションを何度でも受けられるため、忙しい方でも無理なく通い続けられると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

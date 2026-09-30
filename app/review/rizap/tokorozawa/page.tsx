@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "RIZAP 所沢店の口コミ・評判",
@@ -93,38 +94,8 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             RIZAP所沢店は、西武池袋線と西武新宿線が交差するターミナル駅・所沢駅から徒歩5分に位置する店舗です。所沢・入間・飯能エリアの利用者が多く、都心まで出なくても本格的なパーソナルトレーニングを受けられると好評です。地域密着の温かい雰囲気があり、トレーナーとの信頼関係を築きやすい環境が魅力です。中高年の健康管理目的での利用も多く、幅広い年齢層に対応しています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/RIZAP%20%E6%89%80%E6%B2%A2%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「持病があり不安でしたが、医療機関との連携があると聞いて入会を決めました。所沢店のトレーナーさんは体調を細かく確認しながら無理のないメニューを組んでくれます。安心して続けられています。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴1年半のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「正直、料金は安くはないですが所沢で3ヶ月通って10kg減量できたので投資としては十分元が取れました。毎日の食事報告が最初は面倒でしたが、習慣になると自然と食生活が変わりました。」</p>
-              <p className="text-xs text-gray-400">-- 入会6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「完全個室なので人目を気にせずトレーニングに集中できます。所沢のビジネスマンとしては、仕事帰りにサッと通えるのがありがたいです。トレーナーの指導が的確で、短時間でも効果を実感しています。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴9ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「返金保証があったので思い切って入会しました。結果的に所沢でここを選んで正解。担当トレーナーが目標達成まで伴走してくれる安心感は他のジムにはなかったです。」</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「食事管理が想像以上に手厚いです。所沢周辺のレストランでも食べられるメニューをアドバイスしてもらえるので、外食が多くても対応できました。体重だけでなく体調も良くなりました。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴11ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="rizap/tokorozawa" storeName="RIZAP 所沢店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+所沢店" />
 
 
         <section className="mb-10">

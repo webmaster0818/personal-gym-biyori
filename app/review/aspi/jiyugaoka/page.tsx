@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASPI自由が丘店は自由が丘駅から徒歩3分のアクセスの良い店舗です。有資格トレーナーが一人ひとりに合わせたプログラムを作成し、丁寧に指導してくれます。月額7,600円からの価格帯で、おしゃれな自由が丘エリアで本格的なパーソナルトレーニングを受けられると好評です。ストレッチ指導も充実しています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

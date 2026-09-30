@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "Apple GYM（アップルジム）新宿店の口コミ・評判",
@@ -104,37 +105,9 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Apple GYM新宿店は海外式ボディメイクメソッドを取り入れたパーソナルジムです。新宿駅から徒歩5分の好立地で、完全個室のトレーニング環境が用意されています。姿勢改善をベースとしたアプローチが特徴で、見た目の変化を実感しやすいと評判です。月額24,200円〜と手頃な価格で全プラン食事指導付き。仕事帰りに通う利用者が多い人気店舗です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
-        {/* 利用者の口コミ */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Apple+GYM+アップルジム+新宿店" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「海外式ボディメイクというコンセプトに惹かれて入会しました。姿勢から変えていくアプローチで、2ヶ月で周囲から姿勢が良くなったと言われるようになりました。新宿駅からのアクセスも良く通いやすいです。」</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「完全個室なので周りの目を気にせずトレーニングに集中できるのが良いです。食事指導も無理のない範囲で提案してくれるので、新宿の外食中心の生活でも続けやすいです。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴5ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「月額24,200円で食事指導付きというのはコスパが良いと思います。パーソナルジムは高額なイメージがありましたが、これなら続けやすいです。トレーナーさんも丁寧で初心者の自分でも安心でした。」</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「猫背が気になって通い始めました。トレーニングで筋肉をつけながら姿勢も改善できるので一石二鳥です。朝7時から営業しているので出勤前に通えるのも助かります。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴4ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="apple-gym/shinjuku" storeName="Apple GYM（アップルジム）新宿店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+新宿店" />
 
         {/* バナー */}
         <section className="mb-10 text-center">

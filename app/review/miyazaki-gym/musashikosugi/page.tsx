@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM武蔵小杉店は、武蔵小杉駅から徒歩わずか3分の場所にある月額制パーソナルジムです。再開発で注目を集めるエリアに位置し、子育て世代や若いカップルの利用者が多い店舗です。有資格トレーナーが産後ダイエットやボディメイクなど、ライフステージに合わせた指導をしてくれると好評です。駅近で天候を気にせず通えるのも魅力です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

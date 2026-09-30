@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             BELION新宿店は高級感のある内装と質の高いサービスが特徴のパーソナルジムです。完全個室のプライベート空間でトレーニングでき、周囲を気にせず集中できる環境が評価されています。トレーナーの指導力が高く、目標達成に向けた的確なアドバイスが受けられると利用者から好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

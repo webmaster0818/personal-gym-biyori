@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
@@ -74,22 +75,9 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">Apple GYM川崎店は川崎駅から徒歩5分にある海外式ボディメイクパーソナルジムです。完全個室のトレーニング環境で、姿勢改善をベースとしたアプローチが特徴です。月額24,200円〜で全プラン食事指導付き。川崎エリアでコスパの良いパーソナルジムを探している方に選ばれています。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Apple+GYM+アップルジム+川崎店" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「川崎駅からのアクセスが良く、仕事帰りに通いやすいです。海外式ボディメイクで姿勢から変えるアプローチが新鮮で、体の変化を感じています。」</p><p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「月額24,200円で食事指導もついているのは川崎エリアではかなりリーズナブルです。完全個室で集中できる環境も気に入っています。」</p><p className="text-xs text-gray-400">-- 利用歴4ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「初心者ですが、トレーナーさんが基礎から丁寧に教えてくれるので安心です。姿勢改善を意識したトレーニングで、デスクワークの肩こりも軽減しました。」</p><p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p></div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4"><p className="text-sm text-gray-700 leading-relaxed mb-2">「川崎には大手のパーソナルジムが少ないので、Apple GYMができて助かりました。朝7時から営業しているので出勤前に通えるのも嬉しいです。」</p><p className="text-xs text-gray-400">-- 利用歴6ヶ月のユーザー</p></div>
-          </div>
-        </section>
+                <StoreGmapBox k="apple-gym/kawasaki" storeName="Apple GYM（アップルジム）川崎店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+川崎店" />
 
         <section className="mb-10 text-center"><a href={AFF_URL} target="_blank" rel="noopener noreferrer nofollow"><img src={BANNER_URL} alt="Apple GYM（アップルジム）" width="300" height="250" className="mx-auto rounded-lg" /></a></section>
 

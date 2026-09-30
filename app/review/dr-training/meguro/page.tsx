@@ -112,9 +112,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング目黒店は、目黒駅から徒歩圏内にある落ち着いた雰囲気の店舗です。医学的知見に基づいたトレーニング指導が特徴で、姿勢改善や慢性的な痛みの解消を目的に通う利用者が多い店舗です。都度払い制なので、自分のペースで無理なく続けられると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         <section className="mb-10">

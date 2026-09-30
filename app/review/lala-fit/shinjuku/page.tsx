@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             LALA FIT新宿店は楽しみながらボディメイクができるパーソナルジムです。明るく清潔感のある空間でモチベーションを保ちやすく、継続率が高いと評判です。トレーナーが親しみやすく、トレーニングだけでなく日常生活のアドバイスも含めた総合的なサポートが好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

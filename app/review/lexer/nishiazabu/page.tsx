@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "REXER 西麻布店の口コミ・評判",
@@ -113,36 +114,7 @@ export default function StorePage() {
         </section>
 
 
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/REXER%20%E8%A5%BF%E9%BA%BB%E5%B8%83%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">内装やアメニティの質が高く、通うこと自体がご褒美のような感覚です。トレーニング内容もオーダーメイドで、自分だけのプログラムを組んでもらえます。</p>
-              <p className="text-xs text-gray-400">-- 入会4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">ハイクラスなパーソナルジムを探していてREXERに辿り着きました。期待通りの質の高いサービスで、トレーナーのレベルも非常に高いです。</p>
-              <p className="text-xs text-gray-400">-- 入会1年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">プレミアムな空間で、オーダーメイドのトレーニングプログラムを組んでもらえます。西麻布店は内装も高級感があり、モチベーションが上がります。</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">自分の体質や目標に合わせた完全オーダーメイドのプログラムが魅力です。トレーナーさんの知識量が豊富で、毎回新しい発見があります。料金に見合った価値があると思います。</p>
-              <p className="text-xs text-gray-400">-- 入会半年のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">REXERは他のジムとは一線を画すプレミアムなサービスです。西麻布店のトレーナーは経験豊富で、体の状態を見ながら柔軟にメニューを調整してくれます。</p>
-              <p className="text-xs text-gray-400">-- 入会8ヶ月のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="lexer/nishiazabu" storeName="REXER 西麻布店" brandSlug="lexer" brandName="REXER" mapsSearchUrl="https://www.google.com/maps/search/REXER+西麻布店" />
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
@@ -150,9 +122,6 @@ export default function StorePage() {
           </h2>
           <p className="text-gray-700 leading-relaxed">
             REXER西麻布店は港区西麻布エリアに位置し、六本木駅から徒歩7分の好立地にあるパーソナルジムです。高級感のあるプライベート空間で、一人ひとりに合わせたオーダーメイドのトレーニングが受けられると評判です。トレーナーの指導が丁寧で、初心者でも安心して通えるという声が多く見られます。食事指導も充実しており、ボディメイクだけでなく健康管理にも力を入れている点が好評です。
-          </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
           </p>
         </section>
 

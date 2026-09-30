@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング代々木店は、代々木駅から徒歩3分の好立地にあるパーソナルジムです。医学的根拠に基づいたトレーニングプログラムが特徴で、有資格トレーナーが一人ひとりの目標に合わせた指導を行います。都度払い制のため自分のペースで通えると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

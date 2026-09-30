@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             UNDEUX SUPERBODY銀座店は、銀座駅から好アクセスの女性専用パーソナルジムです。トレーニングに加え、食事の宅配サービスが含まれたプランが特徴で、栄養管理の手間を省きたい女性に人気です。おしゃれな空間と質の高いトレーナーが口コミで好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

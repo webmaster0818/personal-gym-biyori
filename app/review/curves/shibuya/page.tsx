@@ -91,7 +91,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             カーブス渋谷店は、渋谷駅から徒歩5分の女性専用フィットネスです。30分で完了するサーキットトレーニングは買い物ついでに立ち寄れると好評です。スタッフが明るく声をかけてくれるので、一人でも通いやすいという口コミが多く見られます。年齢層が幅広く、20代から70代まで多様な世代の女性が利用しており、アットホームな雰囲気が魅力です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

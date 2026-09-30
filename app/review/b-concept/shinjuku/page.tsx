@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ビーコンセプト新宿店は、新宿駅から徒歩圏内にある女性専用パーソナルジムです。脚痩せ・下半身ダイエットに特化したプログラムが特徴で、美脚を目指す女性から高い支持を得ています。トレーナーの丁寧な指導と食事管理サポートが口コミで好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

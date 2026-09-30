@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             PEACH GYM新宿店は女性向けのボディメイクに強みを持つパーソナルジムです。ヒップアップやくびれづくりなど、女性が気になる部位に特化したトレーニングメニューが充実しています。おしゃれな内装と清潔感のある空間が好評で、トレーニングのモチベーション維持にもつながると評価されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

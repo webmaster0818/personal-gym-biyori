@@ -91,7 +91,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             カーブス福岡店は、天神駅から徒歩5分の女性専用フィットネスです。九州最大の繁華街・天神エリアに位置し、ショッピングや仕事の合間に通う方が多くいます。九州らしい温かい雰囲気の中、30分のサーキットトレーニングを楽しめると好評です。スタッフが一人ひとりの目標や体調を気にかけてくれるため、安心して運動を続けられます。体力がついて日常生活が楽になったという声が多く寄せられています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

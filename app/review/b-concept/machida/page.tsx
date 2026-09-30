@@ -88,7 +88,6 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">ビーコンセプト町田店は、町田駅近くに位置する女性専用パーソナルジムです。下半身太りや脚のラインに悩む女性のための専門プログラムが特徴です。多摩エリアで下半身特化型のパーソナルジムとして、町田・相模原周辺の女性から人気を集めています。完全個室でのマンツーマン指導で、安心してトレーニングに集中できます。</p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

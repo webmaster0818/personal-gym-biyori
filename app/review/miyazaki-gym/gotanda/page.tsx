@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM五反田店は、五反田駅から徒歩わずか3分の好アクセスにある月額制パーソナルジムです。駅近で通いやすく、仕事前や仕事帰りに利用するビジネスパーソンが多い店舗です。有資格トレーナーが効率的なトレーニングメニューを提案してくれるため、限られた時間でも成果を実感しやすいと好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

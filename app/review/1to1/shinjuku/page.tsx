@@ -108,9 +108,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             1to1新宿店は完全マンツーマン指導に特化したパーソナルジムです。一人ひとりの目標や体質に合わせたオーダーメイドのトレーニングプログラムが好評で、トレーナーとの距離が近く丁寧な指導が受けられると評価されています。新宿駅からアクセスしやすく、仕事帰りにも通いやすい立地です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

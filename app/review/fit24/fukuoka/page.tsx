@@ -94,7 +94,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             FIT24福岡店は天神駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜の低価格で充実したマシン設備が利用できます。福岡の中心地で24時間利用可能なセルフ型フィットネスとして、忙しいビジネスパーソンや学生に支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -93,9 +93,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             カーブス新宿店は、新宿駅から徒歩5分のアクセス抜群な女性専用フィットネスです。30分で完結するサーキットトレーニングは忙しい方にも好評で、仕事の合間やランチタイムに立ち寄る会員も多いようです。コーチが一人ひとりに声をかけてくれるので、モチベーションを保ちやすいと評判です。運動が苦手な方でも無理なく続けられる点が支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         <section className="mb-10">

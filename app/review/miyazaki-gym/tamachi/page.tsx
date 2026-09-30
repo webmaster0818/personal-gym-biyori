@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM田町店は、田町駅から徒歩5分の港区エリアにある月額制パーソナルジムです。オフィス街に近く、昼休みや仕事帰りに利用するビジネスパーソンから好評を得ています。有資格トレーナーが体の状態をしっかり評価した上でメニューを組むため、無理なく効果的にトレーニングを続けられると評判です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

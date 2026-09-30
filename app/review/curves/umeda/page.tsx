@@ -91,7 +91,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             カーブス梅田店は、梅田駅から徒歩5分の女性専用フィットネスです。大阪の中心部に位置し、仕事帰りのOLや近隣に住む主婦層を中心に人気があります。関西ならではのフレンドリーな雰囲気の中、30分のサーキットトレーニングを楽しめると好評です。スタッフとの距離が近く、体調や目標に合わせたアドバイスがもらえるため、継続率が高いのが特徴です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

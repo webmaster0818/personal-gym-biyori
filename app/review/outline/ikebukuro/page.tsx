@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             OUTLINE池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。女性トレーナーによるきめ細かい指導と、完全個室のプライベート空間が特徴です。生涯アフターフォローが無料で、卒業後もLINEで食事指導を受けられる点が口コミで好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

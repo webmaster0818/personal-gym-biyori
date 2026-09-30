@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ELEMENT渋谷店は、渋谷駅から徒歩圏内にある通い放題型パーソナルジムです。月額定額で回数無制限のパーソナルトレーニングが受けられます。30分の短時間セッションで忙しい方でも通いやすく、頻繁に通うほどお得になるシステムが口コミで高く評価されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

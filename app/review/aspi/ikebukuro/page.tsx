@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ASPI池袋店は池袋駅から徒歩5分のアクセスの良さが魅力です。有資格トレーナーによる質の高い指導が受けられ、月額7,600円からの低価格帯が好評です。ダイエット目的や健康維持を目指す方に支持されています。オンライン食事指導やストレッチ指導も含まれ、総合的な体づくりをサポートしてくれます。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

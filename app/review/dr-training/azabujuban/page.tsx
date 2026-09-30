@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Dr.トレーニング麻布十番PREMIUM店は、麻布十番駅から徒歩3分のプレミアム店舗です。医学的根拠に基づいたトレーニングプログラムに加え、プレミアムならではの上質な空間と設備が特徴です。ワンランク上のパーソナルトレーニング体験ができると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

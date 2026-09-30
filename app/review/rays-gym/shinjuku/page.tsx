@@ -85,7 +85,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             Rays GyM新宿店は筋力トレーニングに力を入れたパーソナルジムです。本格的なウェイトトレーニングの指導が受けられ、筋肉量の増加やパフォーマンス向上を目指す方に人気があります。トレーナー自身がトレーニング経験豊富で、実体験に基づいた的確なアドバイスが好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

@@ -116,9 +116,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             chocoZAP池袋店は、池袋駅から徒歩圏内にあるコンビニジムです。月額3,278円（税込）で24時間利用可能、セルフエステやセルフ脱毛も使い放題です。運動初心者でも気軽に始められる敷居の低さが口コミで評価されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

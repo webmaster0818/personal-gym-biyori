@@ -89,7 +89,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             メルメイク西新店は、福岡市の西新駅近くに位置するパーソナルジムです。福岡エリアでコスパの良いパーソナルトレーニングを探している方に人気があります。名古屋発のジムが福岡に進出した店舗で、丁寧な食事指導と個別プログラムが好評です。地元の利用者からの口コミ評価も高いです。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

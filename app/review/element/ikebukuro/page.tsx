@@ -115,9 +115,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             ELEMENT池袋店は、池袋駅から徒歩圏内にある通い放題型パーソナルジムです。月額定額制で何回でもパーソナルトレーニングが受けられるため、週に複数回通う利用者が多いです。30分の短時間セッションで効率的にボディメイクできると好評です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
 
         {/* ---------- FAQ ---------- */}

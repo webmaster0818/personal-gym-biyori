@@ -92,7 +92,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             MIYAZAKI GYM目黒店は、目黒駅から徒歩5分に位置する月額制パーソナルジムです。落ち着いた雰囲気の中でトレーニングに集中できると評判です。有資格トレーナーが一人ひとりの体力レベルに合わせたメニューを作成してくれるため、運動初心者でも安心して通えます。姿勢改善やボディメイクを目指す女性利用者からも高い支持を得ています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

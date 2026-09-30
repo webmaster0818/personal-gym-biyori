@@ -91,7 +91,6 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             カーブス吉祥寺店は、吉祥寺駅から徒歩5分の女性専用フィットネスです。住みたい街として人気の吉祥寺エリアで、地元の主婦層を中心に多くの会員が通っています。買い物ついでに30分で運動できる手軽さが好評で、サーキットトレーニングの効果を実感している方が多いです。明るく元気なコーチのサポートで、楽しみながら運動習慣を続けられると評判です。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。</p>
         </section>
 
         <section className="mb-10">

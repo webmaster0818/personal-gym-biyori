@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 池袋西口店の口コミ・評判",
@@ -116,40 +117,8 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">
             エクササイズコーチ池袋西口店は、池袋駅から徒歩3分の豊島区エリアにある店舗です。AI主導の短時間トレーニングが特徴で、1回20分で完了するため、忙しい方でも隙間時間に効率的なトレーニングが可能です。月額9,900円〜のリーズナブルな料金設定と、AIが自動的に最適な負荷を調整するシステムにより、初心者でも安全にトレーニングを始められます。池袋エリアで手軽にパーソナルトレーニングを始めたい方に支持されています。
           </p>
-          <p className="text-xs text-gray-500 mt-4 bg-gray-50 rounded p-3">
-            ※口コミはGoogleマップの投稿を参考に要約・再構成したものです。個人の感想であり、効果を保証するものではありません。
-          </p>
         </section>
-        {/* ---------- Google口コミ ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">利用者の口コミ</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-4">
-            <p className="text-xs text-yellow-800">※ 以下の口コミはGoogleマップの投稿を参考に要約・再構成したものです。実際の投稿をそのまま引用したものではありません。</p>
-            <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/%E3%82%A8%E3%82%AF%E3%82%B5%E3%82%B5%E3%82%A4%E3%82%BA%E3%82%B3%E3%83%BC%E3%83%81%20%E6%B1%A0%E8%A2%8B%E8%A5%BF%E5%8F%A3%E5%BA%97" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">Googleマップで口コミを見る</a></p>
-          </div>
-          <div className="space-y-3">
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「1回たった20分で終わるので、池袋西口でのランチ休憩中にサッと通えます。短時間なのにAIマシンが限界まで追い込んでくれるので効果はしっかり感じます。忙しい人にぴったりです。」</p>
-              <p className="text-xs text-gray-400">-- 入会3ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「マシンが自動で負荷を調整してくれるのが面白い。池袋西口でいくつかジムを試しましたが、テクノロジーを活用したトレーニングは新鮮でした。コーチもしっかりサポートしてくれます。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴6ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「月4回1万円以下で通えるのが魅力。池袋西口のパーソナルジムの中では圧倒的にコスパが良いです。予約不要なので、空いた時間にふらっと行けるのも続けやすいポイントです。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴4ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「20分で本当に効果があるのか半信半疑でしたが、池袋西口店に通い始めて2ヶ月で明らかに体が引き締まりました。AIが毎回最適な重量を設定してくれるので、無駄がないトレーニングだと実感しています。」</p>
-              <p className="text-xs text-gray-400">-- 入会2ヶ月のユーザー</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700 leading-relaxed mb-2">「アメリカ発のメソッドということで興味を持ちました。池袋西口店のコーチが丁寧にマシンの使い方を教えてくれたので、初回から安心でした。短時間で終わるので運動嫌いでも続けられています。」</p>
-              <p className="text-xs text-gray-400">-- 利用歴1年のユーザー</p>
-            </div>
-          </div>
-        </section>
+                <StoreGmapBox k="exercise-coach/ikebukuro-west" storeName="エクササイズコーチ 池袋西口店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+池袋西口店" />
 
 
         {/* ---------- FAQ ---------- */}
