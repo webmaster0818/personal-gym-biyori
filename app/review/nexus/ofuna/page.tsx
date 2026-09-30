@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "Nexusジム 大船店の口コミ・評判は？料金・アクセスを解説【2026年】",
@@ -299,6 +300,8 @@ export default function StorePage() {
             ))}
           </div>
         </section>
+        <StoreGmapBox k="nexus/ofuna" storeName="Nexusジム 大船店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexusジム+大船店+横浜市栄区笠間" />
+
       </div>
     </>
   );

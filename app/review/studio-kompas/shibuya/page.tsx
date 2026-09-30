@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "STUDIO KOMPAS 渋谷店の口コミ・評判",
@@ -91,7 +92,9 @@ export default function StorePage() {
           </p>
         </section>
 
-        <section className="mb-10">
+        
+        <StoreGmapBox k="studio-kompas/shibuya" storeName="STUDIO KOMPAS 渋谷店" brandSlug="studio-kompas" brandName="STUDIO KOMPAS" mapsSearchUrl="https://www.google.com/maps/search/STUDIO+KOMPAS+渋谷店" />
+<section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">
             {faqItems.map((item, i) => (

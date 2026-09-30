@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "OUTLINE 横浜店の口コミ・評判",
@@ -118,7 +119,9 @@ export default function StorePage() {
           </p>
         </section>
 
-        {/* ---------- FAQ ---------- */}
+        
+        <StoreGmapBox k="outline/yokohama" storeName="OUTLINE 横浜店" brandSlug="outline" brandName="OUTLINE" mapsSearchUrl="https://www.google.com/maps/search/OUTLINE+横浜店" />
+{/* ---------- FAQ ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             よくある質問

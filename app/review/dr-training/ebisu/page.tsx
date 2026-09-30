@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "Dr.トレーニング 恵比寿店の口コミ・評判｜料金・アクセス・体験を解説【2026年】",
@@ -118,7 +119,9 @@ export default function StorePage() {
           </p>
         </section>
 
-        {/* ---------- FAQ ---------- */}
+        
+        <StoreGmapBox k="dr-training/ebisu" storeName="Dr.トレーニング 恵比寿店" brandSlug="dr-training" brandName="Dr.トレーニング" mapsSearchUrl="https://www.google.com/maps/search/Dr.トレーニング+恵比寿店" />
+{/* ---------- FAQ ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             よくある質問

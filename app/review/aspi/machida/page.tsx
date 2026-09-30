@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "ASPI 町田店の口コミ・評判",
@@ -117,7 +118,9 @@ export default function StorePage() {
           </p>
         </section>
 
-        {/* ---------- FAQ ---------- */}
+        
+        <StoreGmapBox k="aspi/machida" storeName="ASPI 町田店" brandSlug="aspi" brandName="ASPI" mapsSearchUrl="https://www.google.com/maps/search/ASPI+町田店" />
+{/* ---------- FAQ ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             よくある質問

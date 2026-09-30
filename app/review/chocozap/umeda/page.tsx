@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "chocoZAP 梅田店の口コミ・評判",
@@ -90,7 +91,9 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">chocoZAP梅田店は、梅田駅近くにある24時間営業のコンビニジムです。関西エリアの主要ターミナルである梅田に位置し、通勤・通学の途中に気軽に立ち寄れる便利さが好評です。月額3,278円で全店舗通い放題のため、出張や移動が多い方にも利用しやすいジムです。</p>
         </section>
 
-        <section className="mb-10">
+        
+        <StoreGmapBox k="chocozap/umeda" storeName="chocoZAP 梅田店" brandSlug="chocozap" brandName="chocoZAP" mapsSearchUrl="https://www.google.com/maps/search/chocoZAP+梅田店" />
+<section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">
             {faqItems.map((item, i) => (

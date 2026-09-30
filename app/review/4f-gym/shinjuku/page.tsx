@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import StoreGmapBox from "@/components/StoreGmapBox";
 
 export const metadata: Metadata = {
   title: "4Fのパーソナルジムに新宿店はある？用賀店の情報と新宿の代替ジム比較【2026年】",
@@ -124,7 +125,9 @@ export default function FourFGymShinjukuPage() {
         </section>
 
         {/* FAQ */}
-        <section className="mb-12">
+        
+        <StoreGmapBox k="4f-gym/shinjuku" storeName="4Fのパーソナルジム（用賀）" brandSlug="4f-gym" brandName="4Fのパーソナルジム" mapsSearchUrl="https://www.google.com/maps/search/4Fのパーソナルジム（用賀）" />
+<section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
