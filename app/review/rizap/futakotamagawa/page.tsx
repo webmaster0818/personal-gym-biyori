@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 二子玉川店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 二子玉川店" },
-  { label: "住所", value: "東京都世田谷区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "二子玉川駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都世田谷区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/futakotamagawa" storeName="RIZAP 二子玉川店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/futakotamagawa/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+二子玉川店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP二子玉川店は、人気の商業施設が集まる二子玉川エリアに位置する店舗です。周辺は高級住宅街として知られ、健康意識の高い利用者が多いのが特徴です。ショッピングや食事と組み合わせて通う方も多く、ライフスタイルの一部としてトレーニングを楽しめると好評です。トレーナーの知識が豊富で、栄養学に基づいた食事指導が具体的で分かりやすいとの声が多く見られます。
           </p>
         </section>
-                <StoreGmapBox k="rizap/futakotamagawa" storeName="RIZAP 二子玉川店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+二子玉川店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/futakotamagawa" storeName="RIZAP 二子玉川店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+二子玉川店" />
 
 
         <section className="mb-10">

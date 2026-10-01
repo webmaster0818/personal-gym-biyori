@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 町田店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 町田店" },
-  { label: "住所", value: "東京都町田市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR町田駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都町田市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/machida" storeName="RIZAP 町田店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/machida/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+町田店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             RIZAP町田店は、町田駅から徒歩圏内に位置する多摩エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、町田市や相模原市周辺の利用者から支持されています。都心まで出なくても本格的なRIZAPのプログラムを受けられるため、地元利用者に好評です。トレーナーの対応の丁寧さと、地域密着型のサービスが評価されています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/machida" storeName="RIZAP 町田店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+町田店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/machida" storeName="RIZAP 町田店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+町田店" />
 
 
         {/* ---------- FAQ ---------- */}

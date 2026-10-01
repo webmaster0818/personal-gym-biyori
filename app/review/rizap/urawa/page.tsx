@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 浦和店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 浦和店" },
-  { label: "住所", value: "埼玉県さいたま市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "浦和駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "埼玉県さいたま市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/urawa" storeName="RIZAP 浦和店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/urawa/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+浦和店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP浦和店は、文教都市として知られる浦和駅から徒歩5分に位置する店舗です。教育熱心なエリア特性から、健康意識の高いファミリー層やビジネスパーソンの利用が中心です。大宮店と比較して落ち着いた雰囲気で、じっくりとトレーニングに取り組めると評判です。トレーナーが目標設定から逆算したプログラムを丁寧に組んでくれるため、計画的にボディメイクを進められるとの声が多く寄せられています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/urawa" storeName="RIZAP 浦和店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+浦和店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/urawa" storeName="RIZAP 浦和店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+浦和店" />
 
 
         <section className="mb-10">

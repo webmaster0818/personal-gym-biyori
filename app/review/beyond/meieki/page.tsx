@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 名駅店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 名駅店" },
-  { label: "住所", value: "愛知県名古屋市中村区名駅（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR名古屋駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "愛知県名古屋市中村区名駅（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/meieki" storeName="BEYOND 名駅店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/meieki/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+名駅店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND名駅店は名古屋駅から徒歩5分の好立地にある店舗です。名古屋の中心地で働くビジネスパーソンに人気があり、仕事帰りに通う利用者が多いです。名古屋エリア2店舗目として、名古屋店とは異なるトレーナーも在籍しています。駅近で複数路線からアクセスしやすい利便性が口コミで好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/meieki" storeName="BEYOND 名駅店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+名駅店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/meieki" storeName="BEYOND 名駅店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+名駅店" />
 
 
         {/* ---------- FAQ ---------- */}

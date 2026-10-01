@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RAT 福岡天神店の口コミ・評判",
@@ -12,8 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RAT 福岡天神店" },
-  { label: "住所", value: "福岡県福岡市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "天神駅 徒歩2分" },
+  { label: "エリア", value: "福岡県福岡市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "9:00〜22:00" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rat/fukuoka-tenjin" storeName="RAT 福岡天神店" brandSlug="rat" brandName="RAT" pageUrl="https://personal-gym-biyori.com/review/rat/fukuoka-tenjin/" mapsSearchUrl="https://www.google.com/maps/search/RAT+パーソナルジム+福岡天神店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -101,7 +103,9 @@ export default function StorePage() {
         </section>
 
         
-        <StoreGmapBox k="rat/fukuoka-tenjin" storeName="RAT 福岡天神店" brandSlug="rat" brandName="RAT" mapsSearchUrl="https://www.google.com/maps/search/RAT+パーソナルジム+福岡天神店" />
+        
+        <StorePrice brandSlug="rat" brandName="RAT" />
+<StoreGmapBox k="rat/fukuoka-tenjin" storeName="RAT 福岡天神店" brandSlug="rat" brandName="RAT" mapsSearchUrl="https://www.google.com/maps/search/RAT+パーソナルジム+福岡天神店" />
 <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

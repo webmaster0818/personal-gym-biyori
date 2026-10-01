@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 武蔵小杉店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 武蔵小杉店" },
-  { label: "住所", value: "神奈川県川崎市中原区新丸子町（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR武蔵小杉駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "神奈川県川崎市中原区新丸子町（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/musashikosugi" storeName="BEYOND 武蔵小杉店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/musashikosugi/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+武蔵小杉店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND武蔵小杉店は武蔵小杉駅から徒歩5分に位置する店舗です。再開発で人気が高まった武蔵小杉エリアで、タワーマンション住民を中心に利用されています。トレーナーの質が高く、効率的なトレーニングで短期間の変化を実感する利用者が多いです。駅近で複数路線が利用できるアクセスの良さも魅力です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/musashikosugi" storeName="BEYOND 武蔵小杉店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+武蔵小杉店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/musashikosugi" storeName="BEYOND 武蔵小杉店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+武蔵小杉店" />
 
 
         {/* ---------- FAQ ---------- */}

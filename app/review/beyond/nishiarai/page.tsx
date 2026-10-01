@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 西新井店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 西新井店" },
-  { label: "住所", value: "東京都足立区西新井栄町（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "東武西新井駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都足立区西新井栄町（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/nishiarai" storeName="BEYOND 西新井店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/nishiarai/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+西新井店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND西新井店は西新井駅から徒歩5分に位置する店舗です。足立区西部エリアの方に利用されており、アットホームな雰囲気が特徴です。トレーナーが利用者の体力レベルや目標に合わせて段階的にプログラムを調整してくれるため、無理なく続けられると好評です。ダイエット成功の口コミが多い店舗です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/nishiarai" storeName="BEYOND 西新井店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+西新井店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/nishiarai" storeName="BEYOND 西新井店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+西新井店" />
 
 
         {/* ---------- FAQ ---------- */}

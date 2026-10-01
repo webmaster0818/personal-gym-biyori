@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 川崎店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 川崎店" },
-  { label: "住所", value: "川崎市川崎区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR川崎駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "川崎市川崎区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/kawasaki" storeName="RIZAP 川崎店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kawasaki/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+川崎店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             RIZAP川崎店は、川崎駅から徒歩圏内に位置する神奈川県の店舗です。完全個室のマンツーマントレーニング環境が整い、川崎市内や東京南部からの利用者に支持されています。横浜と東京の中間に位置する好立地で、通勤途中に立ち寄る利用者も多いです。トレーナーの質の高さと、結果にコミットするプログラムが評価されています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/kawasaki" storeName="RIZAP 川崎店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+川崎店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/kawasaki" storeName="RIZAP 川崎店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+川崎店" />
 
 
         {/* ---------- FAQ ---------- */}

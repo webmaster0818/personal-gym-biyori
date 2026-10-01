@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 銀座店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 銀座店" },
-  { label: "住所", value: "東京都中央区銀座（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "東京メトロ銀座駅 徒歩約3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都中央区銀座（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/ginza" storeName="RIZAP 銀座店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/ginza/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+銀座店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             RIZAP銀座店は銀座駅から徒歩圏内にある高級感のある店舗です。銀座エリアならではの洗練された内装が特徴で、経営者や専門職の利用者が多いとされています。完全個室でプライバシーが守られた環境で、ハイレベルなトレーナーによる指導が受けられます。アクセスの良さと落ち着いた雰囲気を評価する声が多く見られます。
           </p>
         </section>
-                <StoreGmapBox k="rizap/ginza" storeName="RIZAP 銀座店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+銀座店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/ginza" storeName="RIZAP 銀座店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+銀座店" />
 
 
         {/* ---------- FAQ ---------- */}

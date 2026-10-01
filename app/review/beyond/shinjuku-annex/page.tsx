@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 新宿ANNEX店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 新宿ANNEX店" },
-  { label: "住所", value: "東京都新宿区新宿（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR新宿駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都新宿区新宿（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/shinjuku-annex" storeName="BEYOND 新宿ANNEX店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/shinjuku-annex/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+新宿ANNEX店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND新宿ANNEX店は新宿エリア2店舗目として開設された店舗です。新宿店同様にコンテスト入賞経験を持つトレーナーが在籍し、入会金無料・回数券制で通いやすいと好評です。新宿駅からのアクセスも良好で、新宿店が混み合う時間帯の代替としても利用されています。清潔感のある店内と丁寧なカウンセリングが口コミで高く評価されています。
           </p>
         </section>
-                <StoreGmapBox k="beyond/shinjuku-annex" storeName="BEYOND 新宿ANNEX店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+新宿ANNEX店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/shinjuku-annex" storeName="BEYOND 新宿ANNEX店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+新宿ANNEX店" />
 
 
         {/* ---------- FAQ ---------- */}

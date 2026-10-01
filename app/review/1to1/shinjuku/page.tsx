@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "1to1 新宿店" },
   { label: "住所", value: "東京都新宿区（※最新の住所は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "新宿駅 徒歩約5分" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "CALORIE TRADE JAPAN 名古屋瑞穂区店の口コミ・評判",
@@ -14,7 +16,6 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "CALORIE TRADE JAPAN 名古屋瑞穂区店" },
   { label: "住所", value: "名古屋市瑞穂区瑞穂通8-19-6" },
-  { label: "最寄駅", value: "※公式サイトでご確認ください" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="calorie-trade/nagoya-mizuho" storeName="CALORIE TRADE JAPAN 名古屋瑞穂区店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" pageUrl="https://personal-gym-biyori.com/review/calorie-trade/nagoya-mizuho/" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+名古屋瑞穂区店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -115,7 +117,9 @@ export default function StorePage() {
         </section>
 
 
-                <StoreGmapBox k="calorie-trade/nagoya-mizuho" storeName="CALORIE TRADE JAPAN 名古屋瑞穂区店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+名古屋瑞穂区店" />
+                
+        <StorePrice brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" />
+<StoreGmapBox k="calorie-trade/nagoya-mizuho" storeName="CALORIE TRADE JAPAN 名古屋瑞穂区店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+名古屋瑞穂区店" />
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">

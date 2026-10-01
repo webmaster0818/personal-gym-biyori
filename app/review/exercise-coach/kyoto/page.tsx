@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 四条烏丸店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "エクササイズコーチ 四条烏丸店" },
-  { label: "住所", value: "京都府京都市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "河原町駅 徒歩2分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "京都府京都市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exercise-coach/kyoto" storeName="エクササイズコーチ 四条烏丸店" brandSlug="exercise-coach" brandName="エクササイズコーチ" pageUrl="https://personal-gym-biyori.com/review/exercise-coach/kyoto/" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+四条烏丸店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             エクササイズコーチ四条烏丸店は、河原町駅から徒歩2分の京都市中心部にある店舗です。四条烏丸エリアで手軽にパーソナルトレーニングを始めたい方に支持されています。AI主導のマシンが個人の筋力データに基づいて最適な負荷を自動設定し、1回20分の短時間で効率的なトレーニングが可能です。月額9,900円〜のリーズナブルな料金で、初心者でも安心して始められます。
           </p>
         </section>
-                <StoreGmapBox k="exercise-coach/kyoto" storeName="エクササイズコーチ 四条烏丸店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+四条烏丸店" />
+                
+        <StorePrice brandSlug="exercise-coach" brandName="エクササイズコーチ" />
+<StoreGmapBox k="exercise-coach/kyoto" storeName="エクササイズコーチ 四条烏丸店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+四条烏丸店" />
 
 
         {/* ---------- FAQ ---------- */}

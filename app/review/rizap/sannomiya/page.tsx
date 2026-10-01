@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 神戸三宮店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 神戸三宮店" },
-  { label: "住所", value: "兵庫県神戸市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "三宮駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "兵庫県神戸市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/sannomiya" storeName="RIZAP 神戸三宮店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/sannomiya/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+神戸三宮店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP神戸三宮店は、神戸の中心地・三宮エリアに位置する店舗です。JR・阪急・阪神の3路線が利用でき、神戸市内はもちろん明石・姫路方面からもアクセスしやすい立地です。おしゃれな神戸の街並みにふさわしく、美容やファッションへの意識が高い利用者が多い傾向にあります。トレーナーが利用者の目標に真剣に向き合い、二人三脚で取り組んでくれると評判で、結果への満足度が高い口コミが目立ちます。
           </p>
         </section>
-                <StoreGmapBox k="rizap/sannomiya" storeName="RIZAP 神戸三宮店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+神戸三宮店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/sannomiya" storeName="RIZAP 神戸三宮店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+神戸三宮店" />
 
 
         <section className="mb-10">

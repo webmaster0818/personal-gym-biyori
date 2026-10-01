@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "FURDI 苅田店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "FURDI（ファディー）苅田店" },
-  { label: "住所", value: "福岡県京都郡苅田町（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "苅田駅（※最新情報は公式サイトでご確認ください）" },
-  { label: "営業時間", value: "6:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "福岡県京都郡苅田町（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "6:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "月額料金", value: "月額7,678円〜" },
 ];
 
@@ -47,6 +48,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="furdi/karita" storeName="FURDI（ファディー）苅田店" brandSlug="furdi" brandName="FURDI" pageUrl="https://personal-gym-biyori.com/review/furdi/karita/" mapsSearchUrl="https://www.google.com/maps/search/FURDI+ファディー+苅田店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -101,7 +103,9 @@ export default function StorePage() {
           </p>
         </section>
 
-                <StoreGmapBox k="furdi/karita" storeName="FURDI（ファディー）苅田店" brandSlug="furdi" brandName="FURDI" mapsSearchUrl="https://www.google.com/maps/search/FURDI+ファディー+苅田店" />
+                
+        <StorePrice brandSlug="furdi" brandName="FURDI" />
+<StoreGmapBox k="furdi/karita" storeName="FURDI（ファディー）苅田店" brandSlug="furdi" brandName="FURDI" mapsSearchUrl="https://www.google.com/maps/search/FURDI+ファディー+苅田店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

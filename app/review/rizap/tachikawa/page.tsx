@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 立川店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 立川店" },
-  { label: "住所", value: "東京都立川市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR立川駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都立川市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/tachikawa" storeName="RIZAP 立川店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/tachikawa/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+立川店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -102,7 +104,9 @@ export default function StorePage() {
             RIZAP立川店は、多摩エリアの主要ターミナルであるJR立川駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる丁寧な指導が特徴です。多摩地域在住の利用者が多く、都心まで出なくても本格的なパーソナルトレーニングを受けられると好評です。食事指導の手厚さやトレーナーのモチベーション管理を評価する声が目立ちます。
           </p>
         </section>
-                <StoreGmapBox k="rizap/tachikawa" storeName="RIZAP 立川店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+立川店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/tachikawa" storeName="RIZAP 立川店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+立川店" />
 
 
         <section className="mb-10">

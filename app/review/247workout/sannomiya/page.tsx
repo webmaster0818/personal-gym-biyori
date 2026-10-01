@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 神戸三宮店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 神戸三宮店" },
-  { label: "住所", value: "兵庫県神戸市中央区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "三宮駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "兵庫県神戸市中央区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/sannomiya" storeName="24/7ワークアウト 神戸三宮店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/sannomiya/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+神戸三宮店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト神戸三宮店は、三宮駅から徒歩圏内に位置する神戸エリアの店舗です。神戸市の中心地にあり、JR・阪急・阪神各線からアクセスしやすい利便性が魅力です。完全個室でのマンツーマン指導により、おしゃれな街並みにふさわしい洗練されたボディメイクが目指せます。3食しっかり食べるダイエットメソッドで無理なく継続でき、深夜24時まで営業しているため仕事帰りにも通いやすいと好評です。
           </p>
         </section>
-                <StoreGmapBox k="247workout/sannomiya" storeName="24/7ワークアウト 神戸三宮店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+神戸三宮店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/sannomiya" storeName="24/7ワークアウト 神戸三宮店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+神戸三宮店" />
 
 
         <section className="mb-10">

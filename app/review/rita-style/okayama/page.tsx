@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RITA STYLE 岡山店の口コミ・評判",
@@ -13,8 +15,7 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RITA STYLE 岡山店" },
-  { label: "住所", value: "岡山市北区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "岡山駅 徒歩10分" },
+  { label: "エリア", value: "岡山市北区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rita-style/okayama" storeName="RITA STYLE 岡山店" brandSlug="rita-style" brandName="RITA STYLE" pageUrl="https://personal-gym-biyori.com/review/rita-style/okayama/" mapsSearchUrl="https://www.google.com/maps/search/RITA+STYLE+岡山店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -112,7 +114,9 @@ export default function StorePage() {
         </section>
 
 
-                <StoreGmapBox k="rita-style/okayama" storeName="RITA STYLE 岡山店" brandSlug="rita-style" brandName="RITA STYLE" mapsSearchUrl="https://www.google.com/maps/search/RITA+STYLE+岡山店" />
+                
+        <StorePrice brandSlug="rita-style" brandName="RITA STYLE" />
+<StoreGmapBox k="rita-style/okayama" storeName="RITA STYLE 岡山店" brandSlug="rita-style" brandName="RITA STYLE" mapsSearchUrl="https://www.google.com/maps/search/RITA+STYLE+岡山店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要

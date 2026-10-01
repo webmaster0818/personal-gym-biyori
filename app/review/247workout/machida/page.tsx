@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 町田店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 町田店" },
-  { label: "住所", value: "東京都町田市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR町田駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都町田市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/machida" storeName="24/7ワークアウト 町田店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/machida/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+町田店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             24/7ワークアウト町田店は、町田駅から徒歩圏内に位置する多摩エリアの店舗です。早朝から深夜まで営業しており、町田市や相模原市周辺の利用者に好評です。完全個室のマンツーマントレーニングで、都心まで出なくても手頃な価格で本格的なパーソナルトレーニングを受けられます。地域密着型のサービスとトレーナーの丁寧な対応が評価されています。
           </p>
         </section>
-                <StoreGmapBox k="247workout/machida" storeName="24/7ワークアウト 町田店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+町田店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/machida" storeName="24/7ワークアウト 町田店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+町田店" />
 
 
         {/* ---------- FAQ ---------- */}

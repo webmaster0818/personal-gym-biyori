@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 戸塚店の口コミ・評判",
@@ -14,7 +16,6 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 戸塚店" },
   { label: "住所", value: "神奈川県横浜市戸塚区戸塚町16番地9 カンパニュラBDL 201号室（2026年8月3日 公式サイト確認）" },
-  { label: "最寄駅", value: "JR戸塚駅西口 徒歩2分" },
   { label: "営業時間", value: "10:00〜22:00（2026年8月3日 公式サイト確認）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/totsuka" storeName="BEYOND 戸塚店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/totsuka/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+戸塚店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -135,7 +137,9 @@ export default function StorePage() {
             BEYOND戸塚店はJR戸塚駅西口から徒歩2分の場所にある店舗です。横浜市戸塚区エリアの方に利用されており、住宅街に位置する落ち着いた雰囲気が特徴です。トレーナーが利用者の目標達成に向けて親身にサポートしてくれると好評で、長期的に通い続ける会員が多い店舗です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/totsuka" storeName="BEYOND 戸塚店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+戸塚店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/totsuka" storeName="BEYOND 戸塚店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+戸塚店" />
 
 
         {/* ---------- FAQ ---------- */}

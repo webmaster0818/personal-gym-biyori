@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 下北沢店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 下北沢店" },
-  { label: "住所", value: "東京都世田谷区北沢（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "小田急下北沢駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都世田谷区北沢（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/shimokitazawa" storeName="BEYOND 下北沢店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/shimokitazawa/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+下北沢店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND下北沢店は下北沢駅から徒歩5分に位置する店舗です。サブカルチャーの街として知られる下北沢で、個性的な街の雰囲気に合った居心地の良い空間でトレーニングができます。若い世代の利用者が多く、初めてのパーソナルトレーニングとして選ばれることも多いです。トレーナーの親しみやすさが好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/shimokitazawa" storeName="BEYOND 下北沢店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+下北沢店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/shimokitazawa" storeName="BEYOND 下北沢店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+下北沢店" />
 
 
         {/* ---------- FAQ ---------- */}

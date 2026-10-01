@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 品川店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 品川店" },
-  { label: "住所", value: "東京都港区高輪（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR品川駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都港区高輪（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/shinagawa" storeName="RIZAP 品川店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/shinagawa/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+品川店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             RIZAP品川店は、品川駅から徒歩圏内に位置し、ビジネス街に勤務する会社員を中心に多くの利用者が通っています。完全個室のマンツーマントレーニング環境が整っており、専属トレーナーによる結果にコミットするプログラムが特徴です。新幹線利用者や出張が多い方にも利便性が高いと好評です。食事指導の丁寧さを評価する口コミが目立ちます。
           </p>
         </section>
-                <StoreGmapBox k="rizap/shinagawa" storeName="RIZAP 品川店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+品川店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/shinagawa" storeName="RIZAP 品川店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+品川店" />
 
 
         {/* ---------- FAQ ---------- */}

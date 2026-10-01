@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 横浜元町店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 横浜元町店" },
-  { label: "住所", value: "神奈川県横浜市中区元町（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "みなとみらい線元町・中華街駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "神奈川県横浜市中区元町（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/yokohama-motomachi" storeName="BEYOND 横浜元町店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/yokohama-motomachi/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+横浜元町店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND横浜元町店は元町・中華街駅から徒歩5分の場所にある店舗です。横浜の人気観光エリアに位置し、おしゃれな街並みの中で本格的なパーソナルトレーニングを受けられます。横浜エリアで美意識の高い方に支持されており、ボディラインの美しさを追求するトレーニングに定評があります。
           </p>
         </section>
-                <StoreGmapBox k="beyond/yokohama-motomachi" storeName="BEYOND 横浜元町店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+横浜元町店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/yokohama-motomachi" storeName="BEYOND 横浜元町店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+横浜元町店" />
 
 
         {/* ---------- FAQ ---------- */}

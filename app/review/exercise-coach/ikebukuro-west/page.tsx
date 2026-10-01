@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 池袋西口店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "エクササイズコーチ 池袋西口店" },
-  { label: "住所", value: "東京都豊島区池袋（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "池袋駅 徒歩3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都豊島区池袋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exercise-coach/ikebukuro-west" storeName="エクササイズコーチ 池袋西口店" brandSlug="exercise-coach" brandName="エクササイズコーチ" pageUrl="https://personal-gym-biyori.com/review/exercise-coach/ikebukuro-west/" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+池袋西口店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             エクササイズコーチ池袋西口店は、池袋駅から徒歩3分の豊島区エリアにある店舗です。AI主導の短時間トレーニングが特徴で、1回20分で完了するため、忙しい方でも隙間時間に効率的なトレーニングが可能です。月額9,900円〜のリーズナブルな料金設定と、AIが自動的に最適な負荷を調整するシステムにより、初心者でも安全にトレーニングを始められます。池袋エリアで手軽にパーソナルトレーニングを始めたい方に支持されています。
           </p>
         </section>
-                <StoreGmapBox k="exercise-coach/ikebukuro-west" storeName="エクササイズコーチ 池袋西口店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+池袋西口店" />
+                
+        <StorePrice brandSlug="exercise-coach" brandName="エクササイズコーチ" />
+<StoreGmapBox k="exercise-coach/ikebukuro-west" storeName="エクササイズコーチ 池袋西口店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+池袋西口店" />
 
 
         {/* ---------- FAQ ---------- */}

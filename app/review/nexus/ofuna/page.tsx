@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "Nexusジム 大船店の口コミ・評判は？料金・アクセスを解説【2026年】",
@@ -14,7 +16,6 @@ const basicInfo = [
   { label: "店舗名", value: "Nexusジム 大船店" },
   { label: "タイプ", value: "格安月額制パーソナルジム" },
   { label: "住所", value: "〒247-0006 神奈川県横浜市栄区笠間2丁目20-7 K.C笠間1階" },
-  { label: "最寄駅", value: "JR大船駅 徒歩約5分" },
   { label: "営業時間", value: "8:00〜22:00" },
   { label: "電話番号", value: "050-1790-8499" },
   { label: "料金帯", value: "月額19,800円〜（目安・最新は公式で要確認）" },
@@ -101,6 +102,7 @@ export default function StorePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <StoreJsonLd k="nexus/ofuna" storeName="Nexusジム 大船店" brandSlug="nexus" brandName="Nexusジム" pageUrl="https://personal-gym-biyori.com/review/nexus/ofuna/" mapsSearchUrl="https://www.google.com/maps/search/Nexusジム+大船店+横浜市栄区笠間" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -300,7 +302,9 @@ export default function StorePage() {
             ))}
           </div>
         </section>
-        <StoreGmapBox k="nexus/ofuna" storeName="Nexusジム 大船店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexusジム+大船店+横浜市栄区笠間" />
+        
+        <StorePrice brandSlug="nexus" brandName="Nexusジム" />
+<StoreGmapBox k="nexus/ofuna" storeName="Nexusジム 大船店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexusジム+大船店+横浜市栄区笠間" />
 
       </div>
     </>

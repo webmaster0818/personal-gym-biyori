@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 錦糸町店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 錦糸町店" },
-  { label: "住所", value: "東京都墨田区江東橋（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR錦糸町駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都墨田区江東橋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/kinshicho" storeName="BEYOND 錦糸町店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/kinshicho/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+錦糸町店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND錦糸町店は錦糸町駅から徒歩5分に位置する店舗です。墨田区・江東区エリアの方に利用されており、落ち着いた環境でトレーニングに集中できると好評です。ボディメイクの実績が豊富なトレーナーが在籍し、理想の体型に向けた的確なアドバイスが口コミで高く評価されています。
           </p>
         </section>
-                <StoreGmapBox k="beyond/kinshicho" storeName="BEYOND 錦糸町店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+錦糸町店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/kinshicho" storeName="BEYOND 錦糸町店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+錦糸町店" />
 
 
         {/* ---------- FAQ ---------- */}

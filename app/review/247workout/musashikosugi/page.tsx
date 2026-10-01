@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 武蔵小杉店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 武蔵小杉店" },
-  { label: "住所", value: "神奈川県川崎市中原区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "武蔵小杉駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "神奈川県川崎市中原区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/musashikosugi" storeName="24/7ワークアウト 武蔵小杉店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/musashikosugi/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+武蔵小杉店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト武蔵小杉店は、武蔵小杉駅から徒歩圏内に位置し、川崎市中原区の再開発エリアで注目を集める店舗です。タワーマンション住民や近隣のビジネスパーソンに利用されており、完全個室でのマンツーマン指導が好評です。3食しっかり食べるダイエットメソッドで健康的にボディメイクを目指せ、深夜24時まで営業しているため仕事帰りにも通いやすい環境が整っています。
           </p>
         </section>
-                <StoreGmapBox k="247workout/musashikosugi" storeName="24/7ワークアウト 武蔵小杉店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+武蔵小杉店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/musashikosugi" storeName="24/7ワークアウト 武蔵小杉店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+武蔵小杉店" />
 
 
         <section className="mb-10">

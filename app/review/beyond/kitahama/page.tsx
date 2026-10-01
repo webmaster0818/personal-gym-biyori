@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 北浜店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 北浜店" },
-  { label: "住所", value: "大阪府大阪市中央区北浜（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "大阪メトロ北浜駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪府大阪市中央区北浜（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/kitahama" storeName="BEYOND 北浜店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/kitahama/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+北浜店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND北浜店は北浜駅から徒歩5分の場所にある店舗です。大阪のビジネス街に位置し、オフィスワーカーを中心に利用されています。仕事帰りにトレーニングに取り組む利用者が多く、効率的なプログラムが好評です。落ち着いたビジネスエリアで、集中してトレーニングに取り組める環境が魅力です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/kitahama" storeName="BEYOND 北浜店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+北浜店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/kitahama" storeName="BEYOND 北浜店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+北浜店" />
 
 
         {/* ---------- FAQ ---------- */}

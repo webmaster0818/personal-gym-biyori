@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 練馬店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 練馬店" },
-  { label: "住所", value: "東京都練馬区練馬（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "西武池袋線練馬駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都練馬区練馬（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/nerima" storeName="BEYOND 練馬店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/nerima/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+練馬店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND練馬店は練馬駅から徒歩5分に位置する店舗です。練馬区エリアの方を中心に、健康維持やダイエット目的で通う利用者が多い店舗です。トレーナーが丁寧にフォームを指導してくれるため、ケガのリスクを抑えた安全なトレーニングが可能です。完全個室でプライバシーが守られる点も好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/nerima" storeName="BEYOND 練馬店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+練馬店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/nerima" storeName="BEYOND 練馬店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+練馬店" />
 
 
         {/* ---------- FAQ ---------- */}

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 川口店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 川口店" },
-  { label: "住所", value: "埼玉県川口市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "川口駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "埼玉県川口市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/kawaguchi" storeName="24/7ワークアウト 川口店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/kawaguchi/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+川口店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト川口店は、川口駅から徒歩圏内でアクセスしやすい立地にあります。埼玉県南部エリアにお住まいの方や、都内への通勤途中に立ち寄りたい方に利用されています。完全個室のマンツーマン指導で、周囲を気にすることなくトレーニングに集中できると好評です。3食しっかり食べるダイエットメソッドで生活リズムを崩さず減量でき、深夜24時まで営業しているため柔軟な時間設定が可能です。
           </p>
         </section>
-                <StoreGmapBox k="247workout/kawaguchi" storeName="24/7ワークアウト 川口店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+川口店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/kawaguchi" storeName="24/7ワークアウト 川口店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+川口店" />
 
 
         <section className="mb-10">

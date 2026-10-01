@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 池袋店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 池袋店" },
-  { label: "住所", value: "東京都豊島区南池袋（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR池袋駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都豊島区南池袋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/ikebukuro" storeName="24/7ワークアウト 池袋店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/ikebukuro/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+池袋店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             24/7ワークアウト池袋店は池袋駅から徒歩圏内に位置し、東京北部や埼玉方面からの利用者も多い店舗です。完全個室のマンツーマン指導で、食事は3食しっかり食べながらダイエットを進めるメソッドが特徴です。深夜24時まで営業しており、仕事や学業で忙しい方にも利用しやすい環境が整っています。
           </p>
         </section>
-                <StoreGmapBox k="247workout/ikebukuro" storeName="24/7ワークアウト 池袋店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+池袋店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/ikebukuro" storeName="24/7ワークアウト 池袋店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+池袋店" />
 
 
         {/* ---------- FAQ ---------- */}

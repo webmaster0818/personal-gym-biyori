@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 船橋店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 船橋店" },
-  { label: "住所", value: "千葉県船橋市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR船橋駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "千葉県船橋市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/funabashi" storeName="RIZAP 船橋店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/funabashi/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+船橋店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP", href: "/review/rizap/" }, { name: "船橋店" }]} />
       <ReviewSummary gymName="船橋店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -74,7 +76,9 @@ export default function StorePage() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">RIZAP船橋店は、千葉県の主要都市・船橋に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが丁寧にサポートします。船橋市内だけでなく、習志野市や市川市など近隣エリアからの利用者も多く、都心まで出ずに本格的なパーソナルトレーニングを受けられると好評です。駅からのアクセスの良さと、トレーナーの質の高さが評価されています。</p>
         </section>
-                <StoreGmapBox k="rizap/funabashi" storeName="RIZAP 船橋店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+船橋店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/funabashi" storeName="RIZAP 船橋店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+船橋店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

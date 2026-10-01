@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
@@ -16,9 +18,8 @@ const BANNER_URL = "https://t.felmat.net/fmimg/E45324.T82347J.A132329L";
 
 const basicInfo = [
   { label: "店舗名", value: "Apple GYM（アップルジム）銀座店" },
-  { label: "住所", value: "東京都中央区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "銀座駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都中央区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -49,6 +50,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="apple-gym/ginza" storeName="Apple GYM（アップルジム）銀座店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" pageUrl="https://personal-gym-biyori.com/review/apple-gym/ginza/" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+銀座店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Apple GYM（アップルジム）", href: "/review/apple-gym/" }, { name: "銀座店" }]} />
       <ReviewSummary gymName="銀座店" />
 
@@ -77,7 +79,9 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">Apple GYM銀座店は銀座駅から徒歩5分の好立地にある海外式ボディメイクパーソナルジムです。完全個室のトレーニング環境で、仕事帰りの利用者に人気があります。姿勢改善をベースにした独自メソッドと、全プラン食事指導付きのサービスが魅力です。銀座エリアで質の高いパーソナルトレーニングを手頃な価格で受けたい方に選ばれています。</p>
         </section>
 
-                <StoreGmapBox k="apple-gym/ginza" storeName="Apple GYM（アップルジム）銀座店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+銀座店" />
+                
+        <StorePrice brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" />
+<StoreGmapBox k="apple-gym/ginza" storeName="Apple GYM（アップルジム）銀座店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+銀座店" />
 
         <section className="mb-10 text-center"><a href={AFF_URL} target="_blank" rel="noopener noreferrer nofollow"><img src={BANNER_URL} alt="Apple GYM（アップルジム）" width="300" height="250" className="mx-auto rounded-lg" /></a></section>
 

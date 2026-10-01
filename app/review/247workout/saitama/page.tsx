@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 大宮店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 大宮店" },
-  { label: "住所", value: "さいたま市大宮区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR大宮駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "さいたま市大宮区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/saitama" storeName="24/7ワークアウト 大宮店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/saitama/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+大宮店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             24/7ワークアウト大宮店は、大宮駅から徒歩圏内に位置する埼玉県の店舗です。早朝から深夜まで営業しており、さいたま市内のビジネスパーソンに最適です。完全個室のマンツーマントレーニングで、埼玉県内で手頃な価格で本格的なパーソナルトレーニングを受けたい方に支持されています。大宮駅の交通利便性の高さと、トレーナーの指導力が好評です。
           </p>
         </section>
-                <StoreGmapBox k="247workout/saitama" storeName="24/7ワークアウト 大宮店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+大宮店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/saitama" storeName="24/7ワークアウト 大宮店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+大宮店" />
 
 
         {/* ---------- FAQ ---------- */}

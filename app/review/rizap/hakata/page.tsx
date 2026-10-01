@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 博多店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 博多店" },
-  { label: "住所", value: "福岡県福岡市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "博多駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "福岡県福岡市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/hakata" storeName="RIZAP 博多店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/hakata/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+博多店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP博多店は、九州最大の交通拠点・博多駅から徒歩5分に位置する店舗です。福岡市内の天神エリアにある福岡店とともに、九州地方のRIZAP拠点として多くの利用者を抱えています。博多のビジネス街に位置するため、ビジネスパーソンの利用が中心です。新幹線利用で出張が多い方にも好評で、出張前後の時間を活用してトレーニングに通うというスタイルも見られます。トレーナーの元気の良さと九州らしい温かみのある対応が好評です。
           </p>
         </section>
-                <StoreGmapBox k="rizap/hakata" storeName="RIZAP 博多店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+博多店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/hakata" storeName="RIZAP 博多店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+博多店" />
 
 
         <section className="mb-10">

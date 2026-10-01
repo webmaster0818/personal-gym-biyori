@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 浦安店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "エクササイズコーチ 浦安店" },
-  { label: "住所", value: "千葉県浦安市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "浦安駅 徒歩1分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "千葉県浦安市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exercise-coach/urayasu" storeName="エクササイズコーチ 浦安店" brandSlug="exercise-coach" brandName="エクササイズコーチ" pageUrl="https://personal-gym-biyori.com/review/exercise-coach/urayasu/" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+浦安店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             エクササイズコーチ浦安店は、浦安駅から徒歩1分という抜群のアクセスを誇る店舗です。浦安市エリアで効率的にパーソナルトレーニングを行いたい方に人気があります。AI主導のマシンが毎回のトレーニングで筋力データを測定し、最適な負荷を自動調整。1回20分の短時間トレーニングと、月額9,900円〜のリーズナブルな料金が特徴です。
           </p>
         </section>
-                <StoreGmapBox k="exercise-coach/urayasu" storeName="エクササイズコーチ 浦安店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+浦安店" />
+                
+        <StorePrice brandSlug="exercise-coach" brandName="エクササイズコーチ" />
+<StoreGmapBox k="exercise-coach/urayasu" storeName="エクササイズコーチ 浦安店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+浦安店" />
 
 
         {/* ---------- FAQ ---------- */}

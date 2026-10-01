@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "HABIT 銀座店の口コミ・評判",
@@ -13,8 +15,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "HABIT 銀座店" },
   { label: "住所", value: "東京都千代田区有楽町1-2-12" },
-  { label: "最寄駅", value: "日比谷駅 徒歩3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="habit/ginza" storeName="HABIT 銀座店" brandSlug="habit" brandName="HABIT" pageUrl="https://personal-gym-biyori.com/review/habit/ginza/" mapsSearchUrl="https://www.google.com/maps/search/HABIT+銀座+有楽町" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -97,7 +99,9 @@ export default function StorePage() {
         </section>
 
 
-                <StoreGmapBox k="habit/ginza" storeName="HABIT 銀座店" brandSlug="habit" brandName="HABIT" mapsSearchUrl="https://www.google.com/maps/search/HABIT+銀座+有楽町" />
+                
+        <StorePrice brandSlug="habit" brandName="HABIT" />
+<StoreGmapBox k="habit/ginza" storeName="HABIT 銀座店" brandSlug="habit" brandName="HABIT" mapsSearchUrl="https://www.google.com/maps/search/HABIT+銀座+有楽町" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

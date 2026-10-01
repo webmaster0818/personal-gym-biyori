@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 広島店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 広島店" },
-  { label: "住所", value: "広島市中区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "広島電鉄 八丁堀電停 徒歩約3分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "広島市中区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/hiroshima" storeName="24/7ワークアウト 広島店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/hiroshima/" mapsSearchUrl="https://www.google.com/maps/search/24%2F7ワークアウト+広島店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "24/7ワークアウト", href: "/review/247workout/" }, { name: "広島店" }]} />
       <ReviewSummary gymName="広島店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -69,7 +71,9 @@ export default function StorePage() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">24/7ワークアウト広島店は、広島市の中心部・八丁堀エリアに位置しています。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。大手パーソナルジムと比較してリーズナブルな料金設定が特徴で、広島市内を中心に広島県内各地からの利用者がいます。トレーナーの明るい雰囲気と、食事管理を含めた総合的なサポートが評価されています。</p>
         </section>
-                <StoreGmapBox k="247workout/hiroshima" storeName="24/7ワークアウト 広島店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24%2F7ワークアウト+広島店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/hiroshima" storeName="24/7ワークアウト 広島店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24%2F7ワークアウト+広島店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

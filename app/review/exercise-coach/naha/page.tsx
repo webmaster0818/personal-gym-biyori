@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 那覇新都心店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "エクササイズコーチ 那覇新都心店" },
-  { label: "住所", value: "沖縄県那覇市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "古島駅 徒歩10分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "沖縄県那覇市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exercise-coach/naha" storeName="エクササイズコーチ 那覇新都心店" brandSlug="exercise-coach" brandName="エクササイズコーチ" pageUrl="https://personal-gym-biyori.com/review/exercise-coach/naha/" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+那覇新都心店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             エクササイズコーチ那覇新都心店は、古島駅から徒歩10分の那覇市新都心エリアにある店舗です。沖縄県内で手軽にAI主導のパーソナルトレーニングを受けたい方に人気があります。1回20分の短時間トレーニングで、忙しい方でも効率的にワークアウトが可能。月額9,900円〜のリーズナブルな料金と、AIが最適な負荷を自動調整するシステムにより、初心者でも安心して始められます。
           </p>
         </section>
-                <StoreGmapBox k="exercise-coach/naha" storeName="エクササイズコーチ 那覇新都心店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+那覇新都心店" />
+                
+        <StorePrice brandSlug="exercise-coach" brandName="エクササイズコーチ" />
+<StoreGmapBox k="exercise-coach/naha" storeName="エクササイズコーチ 那覇新都心店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+那覇新都心店" />
 
 
         {/* ---------- FAQ ---------- */}

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "VASE 恵比寿店の口コミ・評判",
@@ -13,8 +15,7 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "VASE 恵比寿店" },
-  { label: "住所", value: "東京都渋谷区恵比寿（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "恵比寿駅 徒歩約5分" },
+  { label: "エリア", value: "東京都渋谷区恵比寿（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -46,6 +47,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="vase/ebisu" storeName="VASE 恵比寿店" brandSlug="vase" brandName="VASE" pageUrl="https://personal-gym-biyori.com/review/vase/ebisu/" mapsSearchUrl="https://www.google.com/maps/search/VASE+恵比寿店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -98,7 +100,9 @@ export default function StorePage() {
         </section>
 
 
-                <StoreGmapBox k="vase/ebisu" storeName="VASE 恵比寿店" brandSlug="vase" brandName="VASE" mapsSearchUrl="https://www.google.com/maps/search/VASE+恵比寿店" />
+                
+        <StorePrice brandSlug="vase" brandName="VASE" />
+<StoreGmapBox k="vase/ebisu" storeName="VASE 恵比寿店" brandSlug="vase" brandName="VASE" mapsSearchUrl="https://www.google.com/maps/search/VASE+恵比寿店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

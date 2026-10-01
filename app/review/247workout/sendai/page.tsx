@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 仙台店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 仙台店" },
-  { label: "住所", value: "仙台市青葉区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR仙台駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "仙台市青葉区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/sendai" storeName="24/7ワークアウト 仙台店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/sendai/" mapsSearchUrl="https://www.google.com/maps/search/24%2F7ワークアウト+仙台店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "24/7ワークアウト", href: "/review/247workout/" }, { name: "仙台店" }]} />
       <ReviewSummary gymName="仙台店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -69,7 +71,9 @@ export default function StorePage() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">24/7ワークアウト仙台店は、仙台市の中心部に位置する東北エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しています。大手パーソナルジムと比較して手頃な価格設定で、東北地方でコストパフォーマンスの高いパーソナルトレーニングを求める利用者に支持されています。食事管理のアドバイスが丁寧で、初心者にも通いやすいと好評です。</p>
         </section>
-                <StoreGmapBox k="247workout/sendai" storeName="24/7ワークアウト 仙台店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24%2F7ワークアウト+仙台店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/sendai" storeName="24/7ワークアウト 仙台店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24%2F7ワークアウト+仙台店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 金山店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 金山店" },
-  { label: "住所", value: "愛知県名古屋市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "金山駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "愛知県名古屋市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/kanayama" storeName="RIZAP 金山店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kanayama/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+金山店+名古屋" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP金山店は、名古屋市の副都心・金山総合駅から徒歩5分に位置する店舗です。JR・名鉄・地下鉄が乗り入れる交通の要所にあるため、名古屋市南部や東海市・大府市方面からの利用者にとってアクセスが便利です。名駅エリアの店舗と比べて落ち着いた雰囲気で、じっくりとトレーニングに集中できると評判です。トレーナーの指導が丁寧で分かりやすく、特に筋トレ初心者からの評価が高い傾向にあります。
           </p>
         </section>
-                <StoreGmapBox k="rizap/kanayama" storeName="RIZAP 金山店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+金山店+名古屋" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/kanayama" storeName="RIZAP 金山店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+金山店+名古屋" />
 
 
         <section className="mb-10">

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 京都店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 京都店" },
-  { label: "住所", value: "京都市中京区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "阪急京都河原町駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "京都市中京区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/kyoto" storeName="BEYOND 京都店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/kyoto/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+京都店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND", href: "/review/beyond/" }, { name: "京都店" }]} />
       <ReviewSummary gymName="京都店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -74,7 +76,9 @@ export default function StorePage() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">BEYOND京都店は、京都市の中心部に位置しています。入会金無料・回数券制で始めやすく、コンテスト経験者のトレーナーによる専門的な指導が受けられます。京都市内在住の方を中心に、滋賀県からの利用者もいます。歴史ある街の中で、本格的なボディメイクに取り組める環境が整っています。トレーナーの知識の豊富さと丁寧なカウンセリングが評価されています。</p>
         </section>
-                <StoreGmapBox k="beyond/kyoto" storeName="BEYOND 京都店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+京都店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/kyoto" storeName="BEYOND 京都店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+京都店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

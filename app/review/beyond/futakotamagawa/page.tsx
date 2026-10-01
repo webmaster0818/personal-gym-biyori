@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 二子玉川店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 二子玉川店" },
-  { label: "住所", value: "東京都世田谷区玉川（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "東急二子玉川駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都世田谷区玉川（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/futakotamagawa" storeName="BEYOND 二子玉川店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/futakotamagawa/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+二子玉川店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND二子玉川店は二子玉川駅から徒歩5分の場所にある店舗です。世田谷区の住宅エリアに位置し、地元の方を中心に利用されています。家族連れの多いエリアならではの親しみやすい雰囲気で、産後ダイエットや健康維持を目的とした方にも人気です。トレーナーの知識が豊富で、安心して任せられると好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/futakotamagawa" storeName="BEYOND 二子玉川店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+二子玉川店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/futakotamagawa" storeName="BEYOND 二子玉川店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+二子玉川店" />
 
 
         {/* ---------- FAQ ---------- */}

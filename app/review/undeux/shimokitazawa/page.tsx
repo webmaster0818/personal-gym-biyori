@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "UNDEUX SUPERBODY 下北沢店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "UNDEUX SUPERBODY 下北沢店" },
-  { label: "住所", value: "東京都世田谷区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "下北沢駅 徒歩4分" },
-  { label: "営業時間", value: "8:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都世田谷区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "8:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="undeux/shimokitazawa" storeName="UNDEUX SUPERBODY 下北沢店" brandSlug="undeux" brandName="UNDEUX SUPERBODY" pageUrl="https://personal-gym-biyori.com/review/undeux/shimokitazawa/" mapsSearchUrl="https://www.google.com/maps/search/UNDEUX+SUPERBODY+下北沢店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -120,7 +122,9 @@ export default function StorePage() {
         </section>
 
         
-        <StoreGmapBox k="undeux/shimokitazawa" storeName="UNDEUX SUPERBODY 下北沢店" brandSlug="undeux" brandName="UNDEUX SUPERBODY" mapsSearchUrl="https://www.google.com/maps/search/UNDEUX+SUPERBODY+下北沢店" />
+        
+        <StorePrice brandSlug="undeux" brandName="UNDEUX SUPERBODY" />
+<StoreGmapBox k="undeux/shimokitazawa" storeName="UNDEUX SUPERBODY 下北沢店" brandSlug="undeux" brandName="UNDEUX SUPERBODY" mapsSearchUrl="https://www.google.com/maps/search/UNDEUX+SUPERBODY+下北沢店" />
 {/* ---------- FAQ ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">

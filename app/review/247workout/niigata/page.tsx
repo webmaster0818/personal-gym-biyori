@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 新潟店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 新潟店" },
-  { label: "住所", value: "新潟県新潟市中央区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "新潟駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "新潟県新潟市中央区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/niigata" storeName="24/7ワークアウト 新潟店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/niigata/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+新潟店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト新潟店は、新潟駅から徒歩圏内に位置する新潟県唯一の店舗です。地方都市で大手パーソナルトレーニングジムの質の高い指導を受けられる貴重な拠点として、新潟市内を中心に広く利用されています。完全個室でのマンツーマン指導で安心してトレーニングに取り組め、3食しっかり食べるダイエットメソッドで新潟のおいしいお米を楽しみながらも健康的にダイエットできます。深夜24時まで営業しているため通いやすい環境です。
           </p>
         </section>
-                <StoreGmapBox k="247workout/niigata" storeName="24/7ワークアウト 新潟店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+新潟店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/niigata" storeName="24/7ワークアウト 新潟店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+新潟店" />
 
 
         <section className="mb-10">

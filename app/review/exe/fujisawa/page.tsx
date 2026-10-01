@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "EXE 藤沢店の口コミ・評判",
@@ -14,7 +16,6 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "EXE 藤沢店" },
   { label: "住所", value: "藤沢市南藤沢23-10" },
-  { label: "最寄駅", value: "藤沢駅 徒歩1分" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -46,6 +47,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exe/fujisawa" storeName="EXE 藤沢店" brandSlug="exe" brandName="EXE" pageUrl="https://personal-gym-biyori.com/review/exe/fujisawa/" mapsSearchUrl="https://www.google.com/maps/search/EXE+藤沢店+パーソナルジム" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -110,7 +112,9 @@ export default function StorePage() {
         </section>
 
 
-                <StoreGmapBox k="exe/fujisawa" storeName="EXE 藤沢店" brandSlug="exe" brandName="EXE" mapsSearchUrl="https://www.google.com/maps/search/EXE+藤沢店+パーソナルジム" />
+                
+        <StorePrice brandSlug="exe" brandName="EXE" />
+<StoreGmapBox k="exe/fujisawa" storeName="EXE 藤沢店" brandSlug="exe" brandName="EXE" mapsSearchUrl="https://www.google.com/maps/search/EXE+藤沢店+パーソナルジム" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
             口コミ概要

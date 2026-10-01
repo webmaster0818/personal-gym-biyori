@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "リアルボディに新宿店はある？最寄り店舗と新宿のジム比較【2026年】",
@@ -50,6 +52,7 @@ export default function RealBodyShinjukuPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="real-body/shinjuku" storeName="shinjuku" brandSlug="real-body" brandName="リアルボディ" pageUrl="https://personal-gym-biyori.com/review/real-body/shinjuku/" mapsSearchUrl="https://www.google.com/maps/search/shinjuku" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -149,7 +152,9 @@ export default function RealBodyShinjukuPage() {
 
         {/* FAQ */}
         
-        <StoreGmapBox k="real-body/shinjuku" storeName="shinjuku" brandSlug="real-body" brandName="リアルボディ" mapsSearchUrl="https://www.google.com/maps/search/shinjuku" />
+        
+        <StorePrice brandSlug="real-body" brandName="リアルボディ" />
+<StoreGmapBox k="real-body/shinjuku" storeName="shinjuku" brandSlug="real-body" brandName="リアルボディ" mapsSearchUrl="https://www.google.com/maps/search/shinjuku" />
 <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-3">

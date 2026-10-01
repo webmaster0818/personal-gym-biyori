@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 六本木店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 六本木店" },
-  { label: "住所", value: "東京都港区六本木（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "東京メトロ六本木駅 徒歩約3分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都港区六本木（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/roppongi" storeName="BEYOND 六本木店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/roppongi/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+六本木店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND六本木店は、六本木駅から徒歩圏内に位置する都心型店舗です。ボディメイクコンテスト入賞経験を持つトレーナーによる質の高い指導が特徴です。入会金無料・回数券制で、六本木エリアで働くビジネスパーソンを中心に利用されています。トレーニング環境の充実度と、トレーナーの専門性の高さが評価されています。
           </p>
         </section>
-                <StoreGmapBox k="beyond/roppongi" storeName="BEYOND 六本木店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+六本木店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/roppongi" storeName="BEYOND 六本木店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+六本木店" />
 
 
         {/* ---------- FAQ ---------- */}

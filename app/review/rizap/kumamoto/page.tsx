@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 熊本店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 熊本店" },
-  { label: "住所", value: "熊本県熊本市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "通町筋駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "熊本県熊本市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/kumamoto" storeName="RIZAP 熊本店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kumamoto/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+熊本店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP熊本店は、熊本市の繁華街・通町筋エリアに位置する店舗です。九州中部でRIZAPの本格的なプログラムを受けられる貴重な拠点として、熊本市内はもちろん大分・宮崎方面からの利用者も見られます。地方都市ならではのアットホームな雰囲気が好評で、トレーナーとの距離が近く、何でも相談しやすい環境が整っています。食事指導では地元の食材を活かしたメニュー提案が喜ばれています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/kumamoto" storeName="RIZAP 熊本店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+熊本店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/kumamoto" storeName="RIZAP 熊本店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+熊本店" />
 
 
         <section className="mb-10">

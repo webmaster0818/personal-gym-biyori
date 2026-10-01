@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 天王寺店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 天王寺店" },
-  { label: "住所", value: "大阪府大阪市天王寺区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "天王寺駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪府大阪市天王寺区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/tennoji" storeName="24/7ワークアウト 天王寺店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/tennoji/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+天王寺店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト天王寺店は、天王寺駅から徒歩圏内に位置する大阪南部エリアの店舗です。あべのハルカスやショッピング施設が集まる活気あるエリアで、買い物ついでに通える利便性が好評です。完全個室でのマンツーマン指導で、3食しっかり食べるダイエットメソッドにより無理なく健康的にダイエットできます。深夜24時まで営業しており、大阪南部にお住まいの方や沿線利用者に支持されています。
           </p>
         </section>
-                <StoreGmapBox k="247workout/tennoji" storeName="24/7ワークアウト 天王寺店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+天王寺店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/tennoji" storeName="24/7ワークアウト 天王寺店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+天王寺店" />
 
 
         <section className="mb-10">

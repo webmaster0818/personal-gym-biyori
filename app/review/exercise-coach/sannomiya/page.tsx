@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 三宮店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "エクササイズコーチ 三宮店" },
-  { label: "住所", value: "兵庫県神戸市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "神戸三宮駅 徒歩3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "兵庫県神戸市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exercise-coach/sannomiya" storeName="エクササイズコーチ 三宮店" brandSlug="exercise-coach" brandName="エクササイズコーチ" pageUrl="https://personal-gym-biyori.com/review/exercise-coach/sannomiya/" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+三宮店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             エクササイズコーチ三宮店は、神戸三宮駅から徒歩3分の好立地にある店舗です。神戸市の中心部・三宮エリアで効率的にパーソナルトレーニングを行いたい方に人気があります。AI主導のマシンが毎回のトレーニングで筋力を測定し、最適な負荷を自動調整。1回20分の短時間トレーニングと、月額9,900円〜のリーズナブルな料金で、初心者にも好評です。
           </p>
         </section>
-                <StoreGmapBox k="exercise-coach/sannomiya" storeName="エクササイズコーチ 三宮店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+三宮店" />
+                
+        <StorePrice brandSlug="exercise-coach" brandName="エクササイズコーチ" />
+<StoreGmapBox k="exercise-coach/sannomiya" storeName="エクササイズコーチ 三宮店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+三宮店" />
 
 
         {/* ---------- FAQ ---------- */}

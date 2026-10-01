@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 品川店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 品川店" },
-  { label: "住所", value: "東京都品川区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR品川駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都品川区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/shinagawa" storeName="BEYOND 品川店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/shinagawa/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+品川店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND", href: "/review/beyond/" }, { name: "品川店" }]} />
       <ReviewSummary gymName="品川店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -74,7 +76,9 @@ export default function StorePage() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">BEYOND品川店は、品川駅から徒歩圏内に位置する都心型店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、本格的な指導を受けられます。入会金無料・回数券制のため、自分のペースで通える点が好評です。品川エリアで働くビジネスパーソンに人気があり、仕事帰りや休日のトレーニングに利用されています。</p>
         </section>
-                <StoreGmapBox k="beyond/shinagawa" storeName="BEYOND 品川店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+品川店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/shinagawa" storeName="BEYOND 品川店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+品川店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

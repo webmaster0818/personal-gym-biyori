@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 千葉店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 千葉店" },
-  { label: "住所", value: "千葉県千葉市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "千葉駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "千葉県千葉市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/chiba" storeName="RIZAP 千葉店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/chiba/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+千葉店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP千葉店は、千葉県の中心地・千葉駅から徒歩5分に位置する店舗です。千葉県内でRIZAPの本格的なプログラムを受けられる拠点として、幅広い利用者から支持されています。都心まで通わずに済む利便性が好評で、地元在住の方を中心に安定した利用者を抱えています。トレーナーが個人の体力レベルに合わせた段階的なプログラムを組んでくれるため、無理なく成果を実感できるとの口コミが多いです。
           </p>
         </section>
-                <StoreGmapBox k="rizap/chiba" storeName="RIZAP 千葉店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+千葉店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/chiba" storeName="RIZAP 千葉店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+千葉店" />
 
 
         <section className="mb-10">

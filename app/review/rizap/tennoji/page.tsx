@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 天王寺店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 天王寺店" },
-  { label: "住所", value: "大阪府大阪市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "天王寺駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪府大阪市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/tennoji" storeName="RIZAP 天王寺店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/tennoji/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+天王寺店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP天王寺店は、あべのハルカスがそびえる天王寺エリアに位置する店舗です。JRと地下鉄の主要駅から近く、南大阪・堺方面からの利用者が多いのが特徴です。梅田やなんばの店舗と比べて予約が取りやすいと評判で、自分の都合に合わせた柔軟なスケジュールでトレーニングを進められます。トレーナーが生活習慣全体を見直すサポートをしてくれるため、プログラム終了後もリバウンドしにくいとの口コミが多いです。
           </p>
         </section>
-                <StoreGmapBox k="rizap/tennoji" storeName="RIZAP 天王寺店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+天王寺店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/tennoji" storeName="RIZAP 天王寺店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+天王寺店" />
 
 
         <section className="mb-10">

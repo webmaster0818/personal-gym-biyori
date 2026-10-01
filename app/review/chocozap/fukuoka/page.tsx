@@ -11,9 +11,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "chocoZAP 福岡店" },
-  { label: "住所", value: "福岡県福岡市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "天神駅 徒歩約3分" },
-  { label: "営業時間", value: "24時間営業（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "福岡県福岡市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "24時間営業（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 名古屋栄店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "エクササイズコーチ 名古屋栄店" },
-  { label: "住所", value: "愛知県名古屋市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "栄駅 徒歩3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "愛知県名古屋市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exercise-coach/nagoya-sakae" storeName="エクササイズコーチ 名古屋栄店" brandSlug="exercise-coach" brandName="エクササイズコーチ" pageUrl="https://personal-gym-biyori.com/review/exercise-coach/nagoya-sakae/" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+名古屋栄店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             エクササイズコーチ名古屋栄店は、栄駅から徒歩3分の名古屋市中心部にある店舗です。繁華街の栄エリアに位置し、買い物やお仕事帰りに立ち寄りやすい利便性が好評です。AI主導のマシンが個人の筋力に合わせて最適な負荷を自動設定し、1回20分で効率的なトレーニングが完了します。月額9,900円〜の手頃な料金で、名古屋市内でパーソナルトレーニングを始めたい方に人気です。
           </p>
         </section>
-                <StoreGmapBox k="exercise-coach/nagoya-sakae" storeName="エクササイズコーチ 名古屋栄店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+名古屋栄店" />
+                
+        <StorePrice brandSlug="exercise-coach" brandName="エクササイズコーチ" />
+<StoreGmapBox k="exercise-coach/nagoya-sakae" storeName="エクササイズコーチ 名古屋栄店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+名古屋栄店" />
 
 
         {/* ---------- FAQ ---------- */}

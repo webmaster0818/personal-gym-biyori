@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
@@ -16,9 +18,8 @@ const BANNER_URL = "https://t.felmat.net/fmimg/E45324.T82347J.A132329L";
 
 const basicInfo = [
   { label: "店舗名", value: "Apple GYM（アップルジム）恵比寿店" },
-  { label: "住所", value: "東京都渋谷区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "恵比寿駅 徒歩3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都渋谷区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -49,6 +50,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="apple-gym/ebisu" storeName="Apple GYM（アップルジム）恵比寿店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" pageUrl="https://personal-gym-biyori.com/review/apple-gym/ebisu/" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+恵比寿店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Apple GYM（アップルジム）", href: "/review/apple-gym/" }, { name: "恵比寿店" }]} />
       <ReviewSummary gymName="恵比寿店" />
 
@@ -77,7 +79,9 @@ export default function StorePage() {
           <p className="text-gray-700 leading-relaxed">Apple GYM恵比寿店は恵比寿駅から徒歩3分という抜群のアクセスを誇る海外式ボディメイクパーソナルジムです。完全個室のトレーニング環境で、姿勢改善をベースとしたボディメイクが特徴です。月額24,200円〜で全プラン食事指導付き。恵比寿エリアの美意識の高い利用者に支持されています。</p>
         </section>
 
-                <StoreGmapBox k="apple-gym/ebisu" storeName="Apple GYM（アップルジム）恵比寿店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+恵比寿店" />
+                
+        <StorePrice brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" />
+<StoreGmapBox k="apple-gym/ebisu" storeName="Apple GYM（アップルジム）恵比寿店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+恵比寿店" />
 
         <section className="mb-10 text-center"><a href={AFF_URL} target="_blank" rel="noopener noreferrer nofollow"><img src={BANNER_URL} alt="Apple GYM（アップルジム）" width="300" height="250" className="mx-auto rounded-lg" /></a></section>
 

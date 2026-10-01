@@ -11,8 +11,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "メルメイク 西新店" },
-  { label: "住所", value: "福岡県福岡市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "西新駅 徒歩約5分" },
+  { label: "エリア", value: "福岡県福岡市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];

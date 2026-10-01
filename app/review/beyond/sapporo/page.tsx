@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 札幌店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 札幌店" },
-  { label: "住所", value: "札幌市中央区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR札幌駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "札幌市中央区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/sapporo" storeName="BEYOND 札幌店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/sapporo/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+札幌店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND札幌店は、札幌駅から徒歩圏内に位置する北海道の店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、札幌市内の利用者を中心に支持されています。入会金無料・回数券制で始めやすく、北海道で本格的なパーソナルトレーニングを受けられる貴重な店舗として評価されています。冬場でも駅近で通いやすい点が好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/sapporo" storeName="BEYOND 札幌店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+札幌店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/sapporo" storeName="BEYOND 札幌店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+札幌店" />
 
 
         {/* ---------- FAQ ---------- */}

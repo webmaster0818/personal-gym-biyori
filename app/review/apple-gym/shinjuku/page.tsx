@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "Apple GYM（アップルジム）新宿店の口コミ・評判",
@@ -15,9 +17,8 @@ const BANNER_URL = "https://t.felmat.net/fmimg/E45324.T82347J.A132329L";
 
 const basicInfo = [
   { label: "店舗名", value: "Apple GYM（アップルジム）新宿店" },
-  { label: "住所", value: "東京都新宿区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "新宿駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都新宿区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="apple-gym/shinjuku" storeName="Apple GYM（アップルジム）新宿店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" pageUrl="https://personal-gym-biyori.com/review/apple-gym/shinjuku/" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+新宿店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -107,7 +109,9 @@ export default function StorePage() {
           </p>
         </section>
 
-                <StoreGmapBox k="apple-gym/shinjuku" storeName="Apple GYM（アップルジム）新宿店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+新宿店" />
+                
+        <StorePrice brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" />
+<StoreGmapBox k="apple-gym/shinjuku" storeName="Apple GYM（アップルジム）新宿店" brandSlug="apple-gym" brandName="Apple GYM（アップルジム）" mapsSearchUrl="https://www.google.com/maps/search/Apple+GYM+アップルジム+新宿店" />
 
         {/* バナー */}
         <section className="mb-10 text-center">

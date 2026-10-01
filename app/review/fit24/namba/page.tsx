@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "FIT24 なんば店" },
   { label: "住所", value: "大阪府大阪市（※最新の住所は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "なんば駅 徒歩5分" },
   { label: "営業時間", value: "24時間営業" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];

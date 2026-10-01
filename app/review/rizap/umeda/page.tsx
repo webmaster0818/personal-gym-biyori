@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 梅田店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 梅田店" },
-  { label: "住所", value: "大阪市北区梅田（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR大阪駅・梅田駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪市北区梅田（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/umeda" storeName="RIZAP 梅田店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/umeda/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+梅田店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             RIZAP梅田店は大阪・梅田エリアに位置する関西圏の主要店舗です。JR大阪駅や各線梅田駅から徒歩圏内にあり、関西のビジネスパーソンに利用されています。完全個室でのマンツーマン指導に加え、専属トレーナーによるきめ細かな食事管理サポートが充実しています。関西エリアでRIZAPを検討する方の第一候補として選ばれることが多い店舗です。
           </p>
         </section>
-                <StoreGmapBox k="rizap/umeda" storeName="RIZAP 梅田店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+梅田店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/umeda" storeName="RIZAP 梅田店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+梅田店" />
 
 
         {/* ---------- FAQ ---------- */}

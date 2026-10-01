@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 秋葉原店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 秋葉原店" },
-  { label: "住所", value: "東京都千代田区神田（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR秋葉原駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都千代田区神田（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/akihabara" storeName="BEYOND 秋葉原店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/akihabara/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+秋葉原店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND秋葉原店は秋葉原駅から徒歩5分の立地にある店舗です。千代田区エリアで働くビジネスパーソンや近隣にお住まいの方に利用されています。初心者にも丁寧に指導してくれるトレーナーが在籍しており、運動経験が少ない方でも安心して通えると評判です。清潔な設備と親しみやすい雰囲気が好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/akihabara" storeName="BEYOND 秋葉原店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+秋葉原店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/akihabara" storeName="BEYOND 秋葉原店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+秋葉原店" />
 
 
         {/* ---------- FAQ ---------- */}

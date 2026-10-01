@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 溝の口店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 溝の口店" },
-  { label: "住所", value: "神奈川県川崎市高津区溝口（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "東急溝の口駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "神奈川県川崎市高津区溝口（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/mizonokuchi" storeName="BEYOND 溝の口店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/mizonokuchi/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+溝の口店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND溝の口店は溝の口駅から徒歩5分に位置する店舗です。川崎市高津区エリアの方に利用されており、東急田園都市線沿線からのアクセスが便利です。トレーナーの指導力が高く、筋力アップからダイエットまで幅広い目的に対応しています。アットホームな雰囲気で継続しやすいと口コミで評判です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/mizonokuchi" storeName="BEYOND 溝の口店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+溝の口店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/mizonokuchi" storeName="BEYOND 溝の口店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+溝の口店" />
 
 
         {/* ---------- FAQ ---------- */}

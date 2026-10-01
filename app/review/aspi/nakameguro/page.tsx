@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "ASPI 中目黒店の口コミ・評判",
@@ -13,8 +15,7 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "ASPI 中目黒店" },
-  { label: "住所", value: "東京都目黒区中目黒（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "中目黒駅 徒歩3分" },
+  { label: "エリア", value: "東京都目黒区中目黒（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="aspi/nakameguro" storeName="ASPI 中目黒店" brandSlug="aspi" brandName="ASPI" pageUrl="https://personal-gym-biyori.com/review/aspi/nakameguro/" mapsSearchUrl="https://www.google.com/maps/search/ASPI+中目黒店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -119,7 +121,9 @@ export default function StorePage() {
         </section>
 
         
-        <StoreGmapBox k="aspi/nakameguro" storeName="ASPI 中目黒店" brandSlug="aspi" brandName="ASPI" mapsSearchUrl="https://www.google.com/maps/search/ASPI+中目黒店" />
+        
+        <StorePrice brandSlug="aspi" brandName="ASPI" />
+<StoreGmapBox k="aspi/nakameguro" storeName="ASPI 中目黒店" brandSlug="aspi" brandName="ASPI" mapsSearchUrl="https://www.google.com/maps/search/ASPI+中目黒店" />
 {/* ---------- FAQ ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">

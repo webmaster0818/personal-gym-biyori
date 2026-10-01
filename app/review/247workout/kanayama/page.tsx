@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 金山店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 金山店" },
-  { label: "住所", value: "愛知県名古屋市中区金山（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "金山駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "愛知県名古屋市中区金山（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/kanayama" storeName="24/7ワークアウト 金山店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/kanayama/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+金山店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト金山店は、金山駅から徒歩圏内に位置する名古屋市の店舗です。JR・名鉄・地下鉄が乗り入れる金山駅は交通の要所で、名古屋市内各方面からのアクセスに優れています。完全個室でのマンツーマン指導で、仕事帰りに気軽に立ち寄れると評判です。3食しっかり食べるダイエットメソッドで名古屋めしを楽しみながらも健康的に体重管理でき、深夜24時まで営業しているため柔軟に通えます。
           </p>
         </section>
-                <StoreGmapBox k="247workout/kanayama" storeName="24/7ワークアウト 金山店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+金山店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/kanayama" storeName="24/7ワークアウト 金山店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+金山店" />
 
 
         <section className="mb-10">

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "チキンジム 池袋店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "チキンジム 池袋店" },
-  { label: "住所", value: "東京都豊島区南池袋（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR池袋駅 徒歩約3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都豊島区南池袋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="chicken-gym/ikebukuro" storeName="チキンジム 池袋店" brandSlug="chicken-gym" brandName="チキンジム" pageUrl="https://personal-gym-biyori.com/review/chicken-gym/ikebukuro/" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+池袋店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             チキンジム池袋店は池袋駅東口から徒歩圏内に位置する人気店舗です。駅直結のビル内にあるためアクセスが抜群で、手ぶらで通える便利さが評価されています。月々6,800円〜の低価格と、ウェア・シューズ無料レンタルの利便性から、初心者やジム通い初挑戦の方に特に人気があります。店内は清潔に保たれており、トレーナーの対応も丁寧との口コミが多く見られます。
           </p>
         </section>
-                <StoreGmapBox k="chicken-gym/ikebukuro" storeName="チキンジム 池袋店" brandSlug="chicken-gym" brandName="チキンジム" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+池袋店" />
+                
+        <StorePrice brandSlug="chicken-gym" brandName="チキンジム" />
+<StoreGmapBox k="chicken-gym/ikebukuro" storeName="チキンジム 池袋店" brandSlug="chicken-gym" brandName="チキンジム" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+池袋店" />
 
 
         {/* ---------- FAQ ---------- */}

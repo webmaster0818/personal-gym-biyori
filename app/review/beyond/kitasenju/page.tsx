@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 北千住店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 北千住店" },
-  { label: "住所", value: "東京都足立区千住（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR北千住駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都足立区千住（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/kitasenju" storeName="BEYOND 北千住店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/kitasenju/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+北千住店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND北千住店は北千住駅から徒歩5分の場所にある店舗です。足立区エリアでパーソナルトレーニングを受けたい方に人気があります。アットホームな雰囲気の中で、一人ひとりの体力レベルに合わせたトレーニングプログラムを提供しています。食事指導も丁寧で、ダイエット目的の方からの評価が高い店舗です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/kitasenju" storeName="BEYOND 北千住店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+北千住店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/kitasenju" storeName="BEYOND 北千住店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+北千住店" />
 
 
         {/* ---------- FAQ ---------- */}

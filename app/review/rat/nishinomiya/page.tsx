@@ -11,8 +11,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RAT 西宮北口店" },
-  { label: "住所", value: "兵庫県西宮市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "西宮北口駅 徒歩5分" },
+  { label: "エリア", value: "兵庫県西宮市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "9:00〜22:00" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];

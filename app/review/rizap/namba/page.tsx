@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP なんば店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP なんば店" },
-  { label: "住所", value: "大阪市中央区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "地下鉄なんば駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪市中央区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/namba" storeName="RIZAP なんば店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/namba/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+なんば店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             RIZAPなんば店は、なんば駅から徒歩圏内に位置する大阪の主要店舗です。完全個室のマンツーマントレーニング環境が整い、関西エリアのビジネスパーソンや買い物ついでに通う利用者から支持されています。なんばの好立地で通いやすく、結果にコミットするプログラムが好評です。トレーナーの親しみやすさと指導の手厚さを評価する口コミが多い店舗です。
           </p>
         </section>
-                <StoreGmapBox k="rizap/namba" storeName="RIZAP なんば店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+なんば店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/namba" storeName="RIZAP なんば店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+なんば店" />
 
 
         {/* ---------- FAQ ---------- */}

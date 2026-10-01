@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 心斎橋店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 心斎橋店" },
-  { label: "住所", value: "大阪府大阪市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "心斎橋駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪府大阪市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/shinsaibashi" storeName="RIZAP 心斎橋店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/shinsaibashi/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+心斎橋店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP心斎橋店は、大阪ミナミの中心地・心斎橋エリアに位置する店舗です。ファッションやグルメの街として知られるエリアだけに、美意識の高い利用者が多いのが特徴です。ショッピング帰りに通う女性利用者も多く、ボディラインの改善を目指したプログラムが好評です。トレーナーの明るい人柄と的確な指導が口コミで高く評価されており、楽しみながら結果を出せる環境が整っています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/shinsaibashi" storeName="RIZAP 心斎橋店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+心斎橋店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/shinsaibashi" storeName="RIZAP 心斎橋店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+心斎橋店" />
 
 
         <section className="mb-10">

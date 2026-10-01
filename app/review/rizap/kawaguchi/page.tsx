@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 川口店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 川口店" },
-  { label: "住所", value: "埼玉県川口市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "川口駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "埼玉県川口市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/kawaguchi" storeName="RIZAP 川口店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kawaguchi/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+川口店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP川口店は、東京と埼玉の境に位置する川口駅から徒歩5分の店舗です。都内に通勤する方が仕事帰りに地元で通えることから人気があります。比較的新しい店舗で設備が充実しており、清潔感のある施設環境が好評です。トレーナーの対応が温かく、挫折しそうな時も寄り添ってサポートしてくれるという口コミが多く、リピート率の高さにつながっています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/kawaguchi" storeName="RIZAP 川口店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+川口店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/kawaguchi" storeName="RIZAP 川口店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+川口店" />
 
 
         <section className="mb-10">

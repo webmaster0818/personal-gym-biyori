@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 名駅店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 名駅店" },
-  { label: "住所", value: "愛知県名古屋市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "名古屋駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "愛知県名古屋市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/meieki" storeName="RIZAP 名駅店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/meieki/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名駅店+名古屋" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP名駅店は、東海地方の玄関口・名古屋駅から徒歩5分のビジネス街に位置する店舗です。名古屋駅周辺の再開発で注目を集めるエリアにあり、ビジネスパーソンの利用が非常に多いのが特徴です。新幹線利用で出張が多い方にも通いやすい立地です。トレーナーの専門性が高く、科学的根拠に基づいたトレーニングプログラムが評価されています。短期間で効率的に成果を出したい方から特に支持を集めています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/meieki" storeName="RIZAP 名駅店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名駅店+名古屋" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/meieki" storeName="RIZAP 名駅店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名駅店+名古屋" />
 
 
         <section className="mb-10">

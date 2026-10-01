@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 蒲田店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 蒲田店" },
-  { label: "住所", value: "東京都大田区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "蒲田駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都大田区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/kamata" storeName="RIZAP 蒲田店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kamata/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+蒲田店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP蒲田店は、蒲田駅から徒歩5分の大田区エリアに位置する店舗です。地域密着型の雰囲気があり、地元の利用者から親しまれています。都心の店舗と比べて予約が取りやすく、自分のペースでしっかりトレーニングに取り組めると好評です。トレーナーの指導が的確で、運動未経験者でも安全にトレーニングを始められたという口コミが多く見られます。
           </p>
         </section>
-                <StoreGmapBox k="rizap/kamata" storeName="RIZAP 蒲田店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+蒲田店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/kamata" storeName="RIZAP 蒲田店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+蒲田店" />
 
 
         <section className="mb-10">

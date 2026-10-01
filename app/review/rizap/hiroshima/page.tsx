@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 広島店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 広島店" },
-  { label: "住所", value: "広島市中区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "広島電鉄 八丁堀電停 徒歩約3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "広島市中区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/hiroshima" storeName="RIZAP 広島店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/hiroshima/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+広島店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP", href: "/review/rizap/" }, { name: "広島店" }]} />
       <ReviewSummary gymName="広島店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -74,7 +76,9 @@ export default function StorePage() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">RIZAP広島店は、広島市の中心部・八丁堀エリアに位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標に合わせたプログラムを提供します。広島市内はもちろん、広島県内各地からの利用者も多く、中国地方でRIZAPの本格的なボディメイクプログラムを受けられると評価されています。トレーナーの専門性の高さと食事管理の手厚さが好評です。</p>
         </section>
-                <StoreGmapBox k="rizap/hiroshima" storeName="RIZAP 広島店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+広島店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/hiroshima" storeName="RIZAP 広島店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+広島店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

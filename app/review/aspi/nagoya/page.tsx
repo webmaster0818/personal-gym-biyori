@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "ASPI 名古屋栄店" },
-  { label: "住所", value: "愛知県名古屋市栄（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "栄駅 徒歩3分" },
+  { label: "エリア", value: "愛知県名古屋市栄（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];

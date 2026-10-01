@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 所沢店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 所沢店" },
-  { label: "住所", value: "埼玉県所沢市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "所沢駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "埼玉県所沢市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/tokorozawa" storeName="RIZAP 所沢店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/tokorozawa/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+所沢店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP所沢店は、西武池袋線と西武新宿線が交差するターミナル駅・所沢駅から徒歩5分に位置する店舗です。所沢・入間・飯能エリアの利用者が多く、都心まで出なくても本格的なパーソナルトレーニングを受けられると好評です。地域密着の温かい雰囲気があり、トレーナーとの信頼関係を築きやすい環境が魅力です。中高年の健康管理目的での利用も多く、幅広い年齢層に対応しています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/tokorozawa" storeName="RIZAP 所沢店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+所沢店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/tokorozawa" storeName="RIZAP 所沢店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+所沢店" />
 
 
         <section className="mb-10">

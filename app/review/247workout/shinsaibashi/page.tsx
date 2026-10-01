@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 心斎橋店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 心斎橋店" },
-  { label: "住所", value: "大阪府大阪市中央区心斎橋（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "心斎橋駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪府大阪市中央区心斎橋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/shinsaibashi" storeName="24/7ワークアウト 心斎橋店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/shinsaibashi/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+心斎橋店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト心斎橋店は、心斎橋駅から徒歩圏内にある大阪ミナミの人気店舗です。ショッピングや食事のついでに立ち寄れる好立地で、完全個室でのマンツーマン指導が好評です。3食しっかり食べるダイエットメソッドで大阪グルメを楽しみながらも健康的にボディメイクできると支持されています。深夜24時まで営業しているため、接客業など夜型の生活をされている方にも通いやすい環境です。
           </p>
         </section>
-                <StoreGmapBox k="247workout/shinsaibashi" storeName="24/7ワークアウト 心斎橋店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+心斎橋店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/shinsaibashi" storeName="24/7ワークアウト 心斎橋店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+心斎橋店" />
 
 
         <section className="mb-10">

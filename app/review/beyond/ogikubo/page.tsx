@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 荻窪店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 荻窪店" },
-  { label: "住所", value: "東京都杉並区荻窪（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR荻窪駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都杉並区荻窪（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/ogikubo" storeName="BEYOND 荻窪店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/ogikubo/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+荻窪店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND荻窪店は荻窪駅から徒歩5分に位置する店舗です。杉並区エリアの閑静な住宅街にあり、落ち着いた環境でトレーニングに集中できます。地元の方を中心に、健康維持やボディメイクを目的とした利用者が多い店舗です。トレーナーの知識が豊富で、科学的根拠に基づいた指導が口コミで評価されています。
           </p>
         </section>
-                <StoreGmapBox k="beyond/ogikubo" storeName="BEYOND 荻窪店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+荻窪店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/ogikubo" storeName="BEYOND 荻窪店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+荻窪店" />
 
 
         {/* ---------- FAQ ---------- */}

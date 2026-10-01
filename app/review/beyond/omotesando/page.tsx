@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 表参道店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 表参道店" },
-  { label: "住所", value: "東京都港区南青山（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "東京メトロ表参道駅 徒歩約3分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都港区南青山（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/omotesando" storeName="BEYOND 表参道店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/omotesando/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+表参道店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND表参道店は表参道駅から徒歩3分の洗練されたエリアに位置する店舗です。美意識の高いエリアにふさわしく、ボディラインの美しさを追求するトレーニング指導に定評があります。落ち着いた雰囲気の店内で、質の高いパーソナルトレーニングを受けられると口コミで好評です。女性の利用者も多い店舗です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/omotesando" storeName="BEYOND 表参道店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+表参道店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/omotesando" storeName="BEYOND 表参道店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+表参道店" />
 
 
         {/* ---------- FAQ ---------- */}

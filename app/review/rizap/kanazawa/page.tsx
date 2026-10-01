@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 金沢店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 金沢店" },
-  { label: "住所", value: "石川県金沢市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "金沢駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "石川県金沢市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/kanazawa" storeName="RIZAP 金沢店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kanazawa/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+金沢店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP金沢店は、北陸新幹線の開通で注目を集める金沢駅から徒歩5分に位置する店舗です。北陸三県でRIZAPの本格プログラムを受けられる拠点として、金沢市内のみならず富山・福井からの利用者も訪れます。観光地としても人気のエリアですが、地元の利用者が中心で落ち着いた雰囲気です。トレーナーが北陸の食文化を理解した上での食事指導を行うため、地元の食材を活かしながら無理なくダイエットに取り組めると好評です。
           </p>
         </section>
-                <StoreGmapBox k="rizap/kanazawa" storeName="RIZAP 金沢店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+金沢店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/kanazawa" storeName="RIZAP 金沢店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+金沢店" />
 
 
         <section className="mb-10">

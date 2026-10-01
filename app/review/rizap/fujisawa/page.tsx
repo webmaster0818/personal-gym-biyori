@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 藤沢店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 藤沢店" },
-  { label: "住所", value: "神奈川県藤沢市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "藤沢駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "神奈川県藤沢市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/fujisawa" storeName="RIZAP 藤沢店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/fujisawa/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+藤沢店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP藤沢店は、湘南エリアの玄関口である藤沢駅から徒歩5分に位置する店舗です。海沿いの開放的なライフスタイルを送る方が多いエリアらしく、健康的な体づくりへの意識が高い利用者が中心です。夏に向けたボディメイクの需要が特に高く、短期集中で成果を出したいという目的意識の明確な方が多いとの口コミが見られます。トレーナーの指導力とコミュニケーション力が高く評価されています。
           </p>
         </section>
-                <StoreGmapBox k="rizap/fujisawa" storeName="RIZAP 藤沢店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+藤沢店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/fujisawa" storeName="RIZAP 藤沢店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+藤沢店" />
 
 
         <section className="mb-10">

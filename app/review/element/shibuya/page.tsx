@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "ELEMENT 渋谷店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "ELEMENT 渋谷店" },
-  { label: "住所", value: "東京都渋谷区渋谷（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR渋谷駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都渋谷区渋谷（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -47,6 +48,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="element/shibuya" storeName="ELEMENT 渋谷店" brandSlug="element" brandName="ELEMENT" pageUrl="https://personal-gym-biyori.com/review/element/shibuya/" mapsSearchUrl="https://www.google.com/maps/search/ELEMENT+渋谷店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -119,7 +121,9 @@ export default function StorePage() {
         </section>
 
         
-        <StoreGmapBox k="element/shibuya" storeName="ELEMENT 渋谷店" brandSlug="element" brandName="ELEMENT" mapsSearchUrl="https://www.google.com/maps/search/ELEMENT+渋谷店" />
+        
+        <StorePrice brandSlug="element" brandName="ELEMENT" />
+<StoreGmapBox k="element/shibuya" storeName="ELEMENT 渋谷店" brandSlug="element" brandName="ELEMENT" mapsSearchUrl="https://www.google.com/maps/search/ELEMENT+渋谷店" />
 {/* ---------- FAQ ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">

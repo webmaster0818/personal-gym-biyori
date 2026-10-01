@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "4Fのパーソナルジムに新宿店はある？用賀店の情報と新宿の代替ジム比較【2026年】",
@@ -52,6 +54,7 @@ export default function FourFGymShinjukuPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="4f-gym/shinjuku" storeName="4Fのパーソナルジム（用賀）" brandSlug="4f-gym" brandName="4Fのパーソナルジム" pageUrl="https://personal-gym-biyori.com/review/4f-gym/shinjuku/" mapsSearchUrl="https://www.google.com/maps/search/4Fのパーソナルジム（用賀）" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -126,7 +129,9 @@ export default function FourFGymShinjukuPage() {
 
         {/* FAQ */}
         
-        <StoreGmapBox k="4f-gym/shinjuku" storeName="4Fのパーソナルジム（用賀）" brandSlug="4f-gym" brandName="4Fのパーソナルジム" mapsSearchUrl="https://www.google.com/maps/search/4Fのパーソナルジム（用賀）" />
+        
+        <StorePrice brandSlug="4f-gym" brandName="4Fのパーソナルジム" />
+<StoreGmapBox k="4f-gym/shinjuku" storeName="4Fのパーソナルジム（用賀）" brandSlug="4f-gym" brandName="4Fのパーソナルジム" mapsSearchUrl="https://www.google.com/maps/search/4Fのパーソナルジム（用賀）" />
 <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-3">

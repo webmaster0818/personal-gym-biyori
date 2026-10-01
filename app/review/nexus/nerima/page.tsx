@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
@@ -13,8 +15,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "Nexusジム 練馬店" },
-  { label: "住所", value: "東京都練馬区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "練馬駅 徒歩3分" },
+  { label: "エリア", value: "東京都練馬区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="nexus/nerima" storeName="Nexusジム 練馬店" brandSlug="nexus" brandName="Nexusジム" pageUrl="https://personal-gym-biyori.com/review/nexus/nerima/" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+練馬店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Nexusジム", href: "/review/nexus/" }, { name: "練馬店" }]} />
       <ReviewSummary gymName="練馬店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -62,7 +64,9 @@ export default function StorePage() {
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2><div className="bg-gray-100 rounded-lg p-8 text-center"><p className="text-gray-600 mb-4">Nexusジム 練馬店の所在地をGoogleマップで確認できます。</p><a href="https://www.google.com/maps/search/Nexus+ジム+練馬店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a></div></section>
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">Nexusジム練馬店は練馬駅から徒歩3分の好立地にあるパーソナルジムです。練馬区エリアで通いやすいパーソナルジムを探している方に最適で、トレーナーの専門知識に基づいた個別指導が好評です。</p></section>
 
-                <StoreGmapBox k="nexus/nerima" storeName="Nexusジム 練馬店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+練馬店" />
+                
+        <StorePrice brandSlug="nexus" brandName="Nexusジム" />
+<StoreGmapBox k="nexus/nerima" storeName="Nexusジム 練馬店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+練馬店" />
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2><div className="space-y-4">{faqItems.map((item, i) => (<details key={i} className="group bg-gray-50 rounded-lg overflow-hidden"><summary className="flex items-center justify-between cursor-pointer px-5 py-4 font-medium text-gray-800 hover:bg-gray-100 transition-colors"><span className="pr-4">{item.q}</span><span className="text-teal-600 shrink-0 transition-transform group-open:rotate-45">+</span></summary><div className="px-5 pb-4 text-sm text-gray-700 leading-relaxed">{item.a}</div></details>))}</div></section>
         {/* ---------- バナー広告 ---------- */}
         <section className="mb-10 text-center">

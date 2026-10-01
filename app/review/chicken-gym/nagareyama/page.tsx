@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "チキンジム 流山おおたかの森店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "チキンジム 流山おおたかの森店" },
-  { label: "住所", value: "千葉県流山市おおたかの森（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "つくばエクスプレス・東武アーバンパークライン 流山おおたかの森駅 徒歩約3分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "千葉県流山市おおたかの森（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="chicken-gym/nagareyama" storeName="チキンジム 流山おおたかの森店" brandSlug="chicken-gym" brandName="チキンジム" pageUrl="https://personal-gym-biyori.com/review/chicken-gym/nagareyama/" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+流山おおたかの森店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             チキンジム流山おおたかの森店は、千葉県流山市の流山おおたかの森駅近くに位置する店舗です。つくばエクスプレスと東武アーバンパークラインの2路線が利用でき、柏・松戸エリアからもアクセスしやすい立地です。近隣にはショッピングモールがあるため、買い物のついでに通う利用者も多くいます。月々6,800円〜の低価格と手ぶらOKの便利さから、子育て世代の利用者にも好評です。
           </p>
         </section>
-                <StoreGmapBox k="chicken-gym/nagareyama" storeName="チキンジム 流山おおたかの森店" brandSlug="chicken-gym" brandName="チキンジム" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+流山おおたかの森店" />
+                
+        <StorePrice brandSlug="chicken-gym" brandName="チキンジム" />
+<StoreGmapBox k="chicken-gym/nagareyama" storeName="チキンジム 流山おおたかの森店" brandSlug="chicken-gym" brandName="チキンジム" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+流山おおたかの森店" />
 
 
         {/* ---------- FAQ ---------- */}

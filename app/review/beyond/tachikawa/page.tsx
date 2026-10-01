@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 立川店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 立川店" },
-  { label: "住所", value: "東京都立川市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR立川駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都立川市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/tachikawa" storeName="BEYOND 立川店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/tachikawa/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+立川店" />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND", href: "/review/beyond/" }, { name: "立川店" }]} />
       <ReviewSummary gymName="立川店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
@@ -74,7 +76,9 @@ export default function StorePage() {
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">BEYOND立川店は、多摩エリアの主要ターミナルであるJR立川駅から徒歩圏内に位置しています。入会金無料・回数券制で始めやすく、コンテスト経験者のトレーナーによる本格的な指導が受けられます。立川市内だけでなく、多摩地域各地からの利用者があり、都心まで出なくても質の高いパーソナルトレーニングを受けられると好評です。</p>
         </section>
-                <StoreGmapBox k="beyond/tachikawa" storeName="BEYOND 立川店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+立川店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/tachikawa" storeName="BEYOND 立川店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+立川店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

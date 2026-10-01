@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 柏店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 柏店" },
-  { label: "住所", value: "千葉県柏市柏（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR柏駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "千葉県柏市柏（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/kashiwa" storeName="BEYOND 柏店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/kashiwa/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+柏店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND柏店は柏駅から徒歩5分の場所にある店舗です。千葉県北西部エリアの方に利用されており、常磐線沿線からのアクセスも良好です。トレーナーが一人ひとりの目標に合わせた丁寧なカウンセリングを行い、最適なプログラムを提供しています。清潔感のある店内と親しみやすい雰囲気が好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/kashiwa" storeName="BEYOND 柏店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+柏店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/kashiwa" storeName="BEYOND 柏店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+柏店" />
 
 
         {/* ---------- FAQ ---------- */}

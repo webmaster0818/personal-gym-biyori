@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 二子玉川店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 二子玉川店" },
-  { label: "住所", value: "東京都世田谷区二子玉川（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "二子玉川駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都世田谷区二子玉川（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/futakotamagawa" storeName="24/7ワークアウト 二子玉川店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/futakotamagawa/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+二子玉川店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト二子玉川店は、二子玉川駅から徒歩圏内に位置する世田谷区の人気店舗です。ファミリー層も多いエリアで、健康的なボディメイクを求める方に支持されています。完全個室でのマンツーマン指導により周囲を気にせずトレーニングでき、3食しっかり食べるダイエットメソッドで家族と同じ食事を楽しみながらダイエットできると好評です。深夜24時まで営業しているため、ライフスタイルに合わせた通い方が可能です。
           </p>
         </section>
-                <StoreGmapBox k="247workout/futakotamagawa" storeName="24/7ワークアウト 二子玉川店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+二子玉川店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/futakotamagawa" storeName="24/7ワークアウト 二子玉川店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+二子玉川店" />
 
 
         <section className="mb-10">

@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "ASPI 吉祥寺店" },
-  { label: "住所", value: "東京都武蔵野市吉祥寺（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "吉祥寺駅 徒歩5分" },
+  { label: "エリア", value: "東京都武蔵野市吉祥寺（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];

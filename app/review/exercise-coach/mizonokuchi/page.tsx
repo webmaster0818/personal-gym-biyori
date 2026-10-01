@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチ 溝の口店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "エクササイズコーチ 溝の口店" },
-  { label: "住所", value: "神奈川県川崎市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "溝の口駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "神奈川県川崎市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="exercise-coach/mizonokuchi" storeName="エクササイズコーチ 溝の口店" brandSlug="exercise-coach" brandName="エクササイズコーチ" pageUrl="https://personal-gym-biyori.com/review/exercise-coach/mizonokuchi/" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+溝の口店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             エクササイズコーチ溝の口店は、溝の口駅から徒歩5分の川崎市エリアにある店舗です。田園都市線沿線の方にアクセスしやすく、AI主導の短時間トレーニングが人気です。1回20分で完了するため、忙しい方でも無理なく通えます。月額9,900円〜のリーズナブルな料金と、AIが毎回最適な負荷を自動調整するシステムにより、効率的にトレーニングが行えます。
           </p>
         </section>
-                <StoreGmapBox k="exercise-coach/mizonokuchi" storeName="エクササイズコーチ 溝の口店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+溝の口店" />
+                
+        <StorePrice brandSlug="exercise-coach" brandName="エクササイズコーチ" />
+<StoreGmapBox k="exercise-coach/mizonokuchi" storeName="エクササイズコーチ 溝の口店" brandSlug="exercise-coach" brandName="エクササイズコーチ" mapsSearchUrl="https://www.google.com/maps/search/エクササイズコーチ+溝の口店" />
 
 
         {/* ---------- FAQ ---------- */}

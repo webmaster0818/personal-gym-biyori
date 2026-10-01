@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト 浦和店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 浦和店" },
-  { label: "住所", value: "埼玉県さいたま市浦和区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "浦和駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜24:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "埼玉県さいたま市浦和区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="247workout/urawa" storeName="24/7ワークアウト 浦和店" brandSlug="247workout" brandName="24/7ワークアウト" pageUrl="https://personal-gym-biyori.com/review/247workout/urawa/" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+浦和店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -92,7 +94,9 @@ export default function StorePage() {
             24/7ワークアウト浦和店は、浦和駅から徒歩圏内に位置し、さいたま市浦和区エリアで通いやすい店舗です。埼玉県内で質の高いパーソナルトレーニングを求める方に人気があり、完全個室でのマンツーマン指導でしっかりと結果を出せると好評です。3食しっかり食べるダイエットメソッドで家庭の食事を楽しみながら健康的に痩せられる点や、深夜24時まで営業しているため都心通勤の帰りにも立ち寄れる点が評価されています。
           </p>
         </section>
-                <StoreGmapBox k="247workout/urawa" storeName="24/7ワークアウト 浦和店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+浦和店" />
+                
+        <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />
+<StoreGmapBox k="247workout/urawa" storeName="24/7ワークアウト 浦和店" brandSlug="247workout" brandName="24/7ワークアウト" mapsSearchUrl="https://www.google.com/maps/search/24/7ワークアウト+浦和店" />
 
 
         <section className="mb-10">

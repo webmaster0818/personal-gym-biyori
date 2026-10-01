@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "チキンジム リバーウォーク北九州店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "チキンジム リバーウォーク北九州店" },
-  { label: "住所", value: "福岡県北九州市小倉北区室町（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "JR西小倉駅 徒歩約5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "福岡県北九州市小倉北区室町（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="chicken-gym/kitakyushu" storeName="チキンジム リバーウォーク北九州店" brandSlug="chicken-gym" brandName="チキンジム" pageUrl="https://personal-gym-biyori.com/review/chicken-gym/kitakyushu/" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+リバーウォーク北九州店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -118,7 +120,9 @@ export default function StorePage() {
             チキンジムリバーウォーク北九州店は、北九州市のリバーウォーク北九州内に位置する店舗です。商業施設内にあるため買い物や食事とあわせて利用できる便利さが特徴です。JR西小倉駅からのアクセスも良好で、北九州エリアでパーソナルジムを探している方の有力な選択肢となっています。チキンジムの特徴である低価格と手ぶらOKのサービスが、九州エリアでも好評です。
           </p>
         </section>
-                <StoreGmapBox k="chicken-gym/kitakyushu" storeName="チキンジム リバーウォーク北九州店" brandSlug="chicken-gym" brandName="チキンジム" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+リバーウォーク北九州店" />
+                
+        <StorePrice brandSlug="chicken-gym" brandName="チキンジム" />
+<StoreGmapBox k="chicken-gym/kitakyushu" storeName="チキンジム リバーウォーク北九州店" brandSlug="chicken-gym" brandName="チキンジム" mapsSearchUrl="https://www.google.com/maps/search/チキンジム+リバーウォーク北九州店" />
 
 
         {/* ---------- FAQ ---------- */}

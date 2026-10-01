@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "FIT24 広島店" },
   { label: "住所", value: "広島県広島市（※最新の住所は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "本通駅 徒歩5分" },
   { label: "営業時間", value: "24時間営業" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];

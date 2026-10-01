@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
@@ -13,8 +15,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "ハコジム 広島店" },
-  { label: "住所", value: "広島県広島市（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "本通駅 徒歩約5分" },
+  { label: "エリア", value: "広島県広島市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
   { label: "営業時間", value: "※公式サイトでご確認ください" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -40,6 +41,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="hakogym/hiroshima" storeName="ハコジム 広島店" brandSlug="hakogym" brandName="ハコジム" pageUrl="https://personal-gym-biyori.com/review/hakogym/hiroshima/" mapsSearchUrl="https://www.google.com/maps/search/ハコジム+広島店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -89,7 +91,9 @@ export default function StorePage() {
         </section>
 
         
-        <StoreGmapBox k="hakogym/hiroshima" storeName="ハコジム 広島店" brandSlug="hakogym" brandName="ハコジム" mapsSearchUrl="https://www.google.com/maps/search/ハコジム+広島店" />
+        
+        <StorePrice brandSlug="hakogym" brandName="ハコジム" />
+<StoreGmapBox k="hakogym/hiroshima" storeName="ハコジム 広島店" brandSlug="hakogym" brandName="ハコジム" mapsSearchUrl="https://www.google.com/maps/search/ハコジム+広島店" />
 <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

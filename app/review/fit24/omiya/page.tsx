@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "FIT24 大宮店の口コミ・評判",
@@ -13,7 +15,6 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "店舗名", value: "FIT24 大宮店" },
   { label: "住所", value: "埼玉県さいたま市（※最新の住所は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "大宮駅 徒歩5分" },
   { label: "営業時間", value: "24時間営業" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -44,6 +45,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="fit24/omiya" storeName="FIT24 大宮店" brandSlug="fit24" brandName="FIT24" pageUrl="https://personal-gym-biyori.com/review/fit24/omiya/" mapsSearchUrl="https://www.google.com/maps/search/FIT24+大宮店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -98,7 +100,9 @@ export default function StorePage() {
         </section>
 
         
-        <StoreGmapBox k="fit24/omiya" storeName="FIT24 大宮店" brandSlug="fit24" brandName="FIT24" mapsSearchUrl="https://www.google.com/maps/search/FIT24+大宮店" />
+        
+        <StorePrice brandSlug="fit24" brandName="FIT24" />
+<StoreGmapBox k="fit24/omiya" storeName="FIT24 大宮店" brandSlug="fit24" brandName="FIT24" mapsSearchUrl="https://www.google.com/maps/search/FIT24+大宮店" />
 <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
           <div className="space-y-4">

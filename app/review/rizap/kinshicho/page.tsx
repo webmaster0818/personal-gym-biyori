@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "RIZAP 錦糸町店の口コミ・評判",
@@ -12,9 +14,8 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 錦糸町店" },
-  { label: "住所", value: "東京都墨田区（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "錦糸町駅 徒歩5分" },
-  { label: "営業時間", value: "7:00〜23:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "東京都墨田区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -45,6 +46,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="rizap/kinshicho" storeName="RIZAP 錦糸町店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kinshicho/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+錦糸町店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -95,7 +97,9 @@ export default function StorePage() {
             RIZAP錦糸町店は、JR総武線と東京メトロ半蔵門線が利用できる錦糸町駅から徒歩5分の立地です。下町エリアの温かみのある雰囲気と、RIZAPならではの本格的なトレーニング環境が両立した店舗として評価されています。トレーナーの熱意が高く、モチベーションを維持しやすいという声が多く、特に体重管理と筋力アップを同時に実現できたという成功体験の口コミが目立ちます。
           </p>
         </section>
-                <StoreGmapBox k="rizap/kinshicho" storeName="RIZAP 錦糸町店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+錦糸町店" />
+                
+        <StorePrice brandSlug="rizap" brandName="RIZAP" />
+<StoreGmapBox k="rizap/kinshicho" storeName="RIZAP 錦糸町店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+錦糸町店" />
 
 
         <section className="mb-10">

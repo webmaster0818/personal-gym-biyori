@@ -3,6 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import StoreGmapBox from "@/components/StoreGmapBox";
+import StorePrice from "@/components/StorePrice";
+import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
   title: "BEYOND 心斎橋店の口コミ・評判",
@@ -13,9 +15,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "BEYOND 心斎橋店" },
-  { label: "住所", value: "大阪府大阪市中央区心斎橋筋（※最新情報は公式サイトでご確認ください）" },
-  { label: "最寄駅", value: "大阪メトロ心斎橋駅 徒歩約5分" },
-  { label: "営業時間", value: "10:00〜22:00（※最新情報は公式サイトでご確認ください）" },
+  { label: "エリア", value: "大阪府大阪市中央区心斎橋筋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
@@ -48,6 +49,7 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <StoreJsonLd k="beyond/shinsaibashi" storeName="BEYOND 心斎橋店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/shinsaibashi/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+心斎橋店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
@@ -123,7 +125,9 @@ export default function StorePage() {
             BEYOND心斎橋店は心斎橋駅から徒歩5分の場所にある店舗です。大阪の中心地であるミナミエリアに位置し、ショッピングや食事の合間にトレーニングを楽しむ利用者も多いです。おしゃれな街並みにふさわしい洗練された店内で、質の高いパーソナルトレーニングを受けられると好評です。
           </p>
         </section>
-                <StoreGmapBox k="beyond/shinsaibashi" storeName="BEYOND 心斎橋店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+心斎橋店" />
+                
+        <StorePrice brandSlug="beyond" brandName="BEYOND" />
+<StoreGmapBox k="beyond/shinsaibashi" storeName="BEYOND 心斎橋店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+心斎橋店" />
 
 
         {/* ---------- FAQ ---------- */}
