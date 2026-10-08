@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "NINE（ナイン）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額35,000円〜90,000円程度" },
-  { label: "エリア", value: "東京・大阪を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "特定できず" },
   { label: "特徴", value: "トレーニング×食事指導 / 科学的アプローチ / 完全マンツーマン / リバウンド防止" },
 ];
 

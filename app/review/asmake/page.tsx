@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ASmake（アズメイク）" },
   { label: "タイプ", value: "姿勢改善×ボディメイク特化パーソナルジム" },
-  { label: "料金帯", value: "月額30,000円〜100,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "コース総額150,000円〜" },
+  { label: "エリア", value: "立川・銀座ほか" },
   { label: "特徴", value: "姿勢改善×ボディメイク / 根本原因へのアプローチ / マンツーマン / 食事指導付き" },
 ];
 

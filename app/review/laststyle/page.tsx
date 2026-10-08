@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Laststyle（ラストスタイル）" },
   { label: "タイプ", value: "ボクシング×パーソナルトレーニング融合ジム" },
-  { label: "料金帯", value: "月額40,000円〜100,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "コース総額158,400円〜" },
+  { label: "エリア", value: "池袋東口・新宿（東京）" },
   { label: "特徴", value: "ボクシング融合 / マンツーマン指導 / ダイエット特化 / ストレス発散" },
 ];
 

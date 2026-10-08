@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "BELION（ベリオン）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額40,000円〜150,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "愛知県名古屋市（丸の内・覚王山・栄）" },
   { label: "特徴", value: "マンツーマン指導 / カスタマイズプログラム / ダイエット・筋力アップ対応" },
 ];
 

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ARISANFIT（アリサンフィット）" },
   { label: "タイプ", value: "少人数制パーソナルジム" },
-  { label: "料金帯", value: "月額25,000円〜70,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額48,400円〜" },
+  { label: "エリア", value: "渋谷・東高円寺・池袋（東京）＋オンライン" },
   { label: "特徴", value: "少人数制 / ボディメイク特化 / 食事指導あり / アットホームな雰囲気" },
 ];
 

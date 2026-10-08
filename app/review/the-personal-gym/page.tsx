@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "THE PERSONAL GYM（ザ パーソナルジム）" },
   { label: "タイプ", value: "ダイエット×ボディメイク特化パーソナルジム" },
-  { label: "料金帯", value: "月額26,400円〜" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額17,600円〜" },
+  { label: "エリア", value: "全国50店舗以上（東京・大阪・名古屋・福岡ほか）" },
   { label: "特徴", value: "ダイエット特化 / ボディメイク / 低価格 / 食事指導付き / 完全個室" },
 ];
 

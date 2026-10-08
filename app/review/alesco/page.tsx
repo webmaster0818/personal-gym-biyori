@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Alesco（アレスコ）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額40,000円〜200,000円程度" },
-  { label: "エリア", value: "名古屋を中心に展開" },
+  { label: "料金帯", value: "コース総額176,000円〜" },
+  { label: "エリア", value: "名古屋（名駅前・栄・金山・緑区）・一宮・四日市" },
   { label: "特徴", value: "完全個室 / マンツーマン / リバウンド保証 / 食事指導付き" },
 ];
 

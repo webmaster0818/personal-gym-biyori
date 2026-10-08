@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Rat（ラット）" },
   { label: "タイプ", value: "完全個室パーソナルジム" },
-  { label: "料金帯", value: "2ヶ月148,000円〜" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "コース総額131,150円〜" },
+  { label: "エリア", value: "新宿南口・名古屋栄ほか" },
   { label: "特徴", value: "完全個室 / 手ぶらOK / 低価格 / シャワー完備 / 都内中心" },
 ];
 

@@ -15,7 +15,7 @@ const basicInfo = [
   { label: "ジム名", value: "CALORIE TRADE JAPAN（カロリートレードジャパン）" },
   { label: "タイプ", value: "ダイエット専門パーソナルジム" },
   { label: "料金帯", value: "月額24,200円〜" },
-  { label: "エリア", value: "全国に30店舗以上展開" },
+  { label: "エリア", value: "全国（公式に「店舗により料金が異なる場合あり」の注記）" },
   { label: "特徴", value: "ダイエット専門 / 全国展開 / 低価格 / 食事指導付き / 完全個室" },
 ];
 

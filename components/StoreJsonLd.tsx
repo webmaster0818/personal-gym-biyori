@@ -1,5 +1,5 @@
 import storeGmap from "@/data/store-gmap.json";
-import { BRAND_PRICES } from "@/data/brand-prices";
+import { BRAND_PRICES, priceSummary } from "@/data/brand-prices";
 
 /*
  * 店舗ページの構造化データ(2026-10-01 施主指示)。
@@ -35,7 +35,8 @@ export default function StoreJsonLd({
   if (e?.address) {
     node.address = { "@type": "PostalAddress", streetAddress: e.address.replace(/^日本、/, ""), addressCountry: "JP" };
   }
-  if (price) node.priceRange = price.price;
+  // priceRange は短い表記のみ。公式が金額を公表していないブランドには付けない。
+  if (price && price.lowest !== null) node.priceRange = priceSummary(price);
 
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(node) }} />;
 }

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "fis.lady's（フィスレディース）" },
   { label: "タイプ", value: "女性専用ダイエット特化パーソナルジム" },
-  { label: "料金帯", value: "月額20,000円〜55,000円程度" },
-  { label: "エリア", value: "大阪・関西エリアを中心に展開" },
+  { label: "料金帯", value: "月額16,400円〜" },
+  { label: "エリア", value: "大阪（天満橋・江坂・南森町・高槻ほか）" },
   { label: "特徴", value: "女性専用 / ダイエット特化 / 低価格 / 食事指導込み" },
 ];
 

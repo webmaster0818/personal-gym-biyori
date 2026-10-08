@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "リアルボディ（REAL BODY）" },
   { label: "タイプ", value: "パーソナルトレーニングジム（回数券制）" },
-  { label: "料金帯", value: "1回あたり3,500円〜6,000円程度（回数券の枚数による）" },
+  { label: "料金帯", value: "コース総額12,000円〜" },
   { label: "セッション", value: "1回45分" },
-  { label: "エリア", value: "仙台・東北を中心に千葉・埼玉エリアにも展開（東京都内・新宿は店舗なし）" },
+  { label: "エリア", value: "仙台市泉区（本部）ほか東北" },
   { label: "特徴", value: "回数券制 / 食事指導無料 / 契約縛りなし / 違約金なし / 地域最安値クラス" },
 ];
 

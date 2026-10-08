@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "chocoZAP（チョコザップ）" },
   { label: "タイプ", value: "24時間セルフ型コンビニジム" },
-  { label: "料金帯", value: "月額3,278円（税込）" },
-  { label: "エリア", value: "全国1,700店舗以上" },
+  { label: "料金帯", value: "月額3,278円〜" },
+  { label: "エリア", value: "全国1,800店舗以上" },
   { label: "特徴", value: "RIZAP監修 / 24時間365日 / 着替え不要 / セルフエステ・脱毛付き" },
 ];
 

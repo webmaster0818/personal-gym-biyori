@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "トリプルM（Triple M）" },
   { label: "タイプ", value: "ボディメイク×メンタルケア融合パーソナルジム" },
-  { label: "料金帯", value: "月額50,000円〜150,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額33,000円〜" },
+  { label: "エリア", value: "六本木・表参道（東京都港区）" },
   { label: "特徴", value: "メンタルケア融合 / ボディメイク / ストレス管理 / オーダーメイド" },
 ];
 

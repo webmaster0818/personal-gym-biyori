@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "LALA FIT（ララフィット）" },
   { label: "タイプ", value: "女性向け低価格パーソナルジム" },
-  { label: "料金帯", value: "月額15,000円〜45,000円程度" },
-  { label: "エリア", value: "東京・神奈川を中心に展開" },
+  { label: "料金帯", value: "月額19,800円〜" },
+  { label: "エリア", value: "自由が丘・学芸大学（東京）" },
   { label: "特徴", value: "女性向け / 低価格 / 短時間集中 / ダイエット特化" },
 ];
 

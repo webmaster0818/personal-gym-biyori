@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ReXeR PeRSoNaL GyM（レクサーパーソナルジム）" },
   { label: "タイプ", value: "高級パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月会費15,000円〜" },
-  { label: "エリア", value: "東京（赤坂・六本木・渋谷）・大阪（本町）・兵庫 計6店舗" },
+  { label: "料金帯", value: "月額9,900円〜" },
+  { label: "エリア", value: "赤坂・五反田（東京）、梅田中津・天六（大阪）、苦楽園・西宮（兵庫）の6店" },
   { label: "特徴", value: "高級フィットネスラウンジ発 / コンテスト優勝トレーナー / 医学的根拠 / 管理栄養士の食事管理" },
   { label: "公式サイト", value: "https://personal.rexer-group.com/" },
 ];

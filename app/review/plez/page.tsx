@@ -16,7 +16,7 @@ const affiliateUrl = "https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A";
 const basicInfo = [
   { label: "サービス名", value: "プレズ（Plez）" },
   { label: "タイプ", value: "オンライン完結型パーソナルトレーニング" },
-  { label: "料金帯", value: "月額約21,890円〜（業界平均の約1/3）" },
+  { label: "料金帯", value: "月額14,700円〜" },
   { label: "指導内容", value: "食事指導＋トレーニング指導" },
   { label: "特徴", value: "自宅完結 / ジム通い不要 / LINEサポート / 低価格" },
 ];

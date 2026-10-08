@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "RACINE（ラシーヌ）" },
   { label: "タイプ", value: "女性専用パーソナルジム" },
-  { label: "料金帯", value: "月額35,000円〜80,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "コース総額148,500円〜" },
+  { label: "エリア", value: "京都市中京区（四条烏丸）" },
   { label: "特徴", value: "女性専用 / ボディメイク特化 / 完全個室 / 栄養指導付き" },
 ];
 

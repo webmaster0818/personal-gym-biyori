@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "カーブス（Curves）" },
   { label: "タイプ", value: "女性専用30分フィットネス" },
-  { label: "料金帯", value: "店舗・プランにより異なる（公式サイトで実額公開）" },
+  { label: "料金帯", value: "月額7,150円〜" },
   { label: "営業時間の目安", value: "平日 10:00〜13:00・15:00〜19:00／土曜 10:00〜13:00（日曜・祝日は概ね休み。店舗により異なる・2026年8月3日確認）" },
-  { label: "エリア", value: "全国2,000店舗以上" },
+  { label: "エリア", value: "全国" },
   { label: "特徴", value: "女性専用 / 30分 / 予約不要 / 全国展開 / サーキット型" },
 ];
 

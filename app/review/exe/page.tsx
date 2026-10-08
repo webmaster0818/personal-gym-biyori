@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "EXE（エグゼ）パーソナルジム" },
   { label: "タイプ", value: "高級パーソナルジム（完全個室・マンツーマン）" },
-  { label: "料金帯", value: "月額80,000円〜200,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "コース総額26,400円〜" },
+  { label: "エリア", value: "東京都世田谷区（駒沢大学）・藤沢" },
   { label: "特徴", value: "高級完全個室 / マンツーマン指導 / オーダーメイドプログラム / アメニティ充実" },
 ];
 

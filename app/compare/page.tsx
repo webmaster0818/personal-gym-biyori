@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { BRAND_PRICES } from "@/data/brand-prices";
+import { BRAND_PRICES, priceSummary } from "@/data/brand-prices";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
@@ -21,7 +21,7 @@ type Category = {
 
 // 各ジムの目的別の特徴は、当サイト各レビューの記載（各ジムの公開情報にもとづく）から整理。2026年6月時点。
 // 2026-09-22: 各カードに公表料金を表示するため、実査済みの料金データ(data/brand-prices.ts)を参照。
-const PRICE_BY_SLUG: Record<string, string> = Object.fromEntries(BRAND_PRICES.map((b) => [b.slug, b.price]));
+const PRICE_BY_SLUG: Record<string, string> = Object.fromEntries(BRAND_PRICES.map((b) => [b.slug, priceSummary(b)]));
 const categories: Category[] = [
   {
     id: "women",

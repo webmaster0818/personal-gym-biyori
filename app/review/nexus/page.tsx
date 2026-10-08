@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Nexusジム" },
   { label: "タイプ", value: "格安月額制パーソナルジム" },
-  { label: "料金帯", value: "月額19,800円〜" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "東京・横浜・埼玉・大阪・名古屋・福岡" },
   { label: "特徴", value: "格安 / 月額制 / パーソナル指導 / 食事アドバイス / 完全個室" },
 ];
 

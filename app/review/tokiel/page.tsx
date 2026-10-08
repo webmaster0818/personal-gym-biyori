@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "TOKIEL（トキエル）" },
   { label: "タイプ", value: "女性専用パーソナルジム" },
-  { label: "料金帯", value: "月額28,000円〜70,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額29,920円〜" },
+  { label: "エリア", value: "浅草・本所吾妻橋押上（東京）、横浜鶴見、岐阜" },
   { label: "特徴", value: "女性専用 / 女性トレーナー在籍 / ボディメイク / 美容×フィットネス" },
 ];
 

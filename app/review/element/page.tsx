@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ELEMENT（エレメント）" },
   { label: "タイプ", value: "マシンピラティス×パーソナルトレーニング" },
-  { label: "料金帯", value: "月額38,280円〜（通い放題）" },
-  { label: "エリア", value: "東京・神奈川を中心に展開" },
+  { label: "料金帯", value: "月額31,200円〜" },
+  { label: "エリア", value: "全国（公式に70店舗と記載）" },
   { label: "特徴", value: "通い放題 / マシンピラティス / パーソナル融合 / 30分セッション" },
 ];
 

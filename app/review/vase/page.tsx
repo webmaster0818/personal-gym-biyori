@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "VASE（ベイス）パーソナルジム" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額30,000円〜80,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額32,000円〜" },
+  { label: "エリア", value: "藤沢・八王子・恵比寿" },
   { label: "特徴", value: "パーソナルトレーニング / マンツーマン指導 / 食事サポート / 初心者歓迎" },
 ];
 

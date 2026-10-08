@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ハコジム" },
   { label: "タイプ", value: "完全個室レンタルジム（セルフ型）" },
-  { label: "料金帯", value: "月額3,800円〜8,800円程度" },
-  { label: "エリア", value: "広島を中心に展開" },
+  { label: "料金帯", value: "月額4,180円〜" },
+  { label: "エリア", value: "広島・福岡ほか（広島駅前店の掲載値）" },
   { label: "特徴", value: "完全個室 / セルフトレーニング / 低価格 / 24時間利用可 / 予約制" },
 ];
 

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "LEADING（リーディング）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額35,000円〜150,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "東京都練馬区（大泉学園・石神井公園）" },
   { label: "特徴", value: "マンツーマン / 結果重視 / 食事管理 / モチベーションサポート" },
 ];
 

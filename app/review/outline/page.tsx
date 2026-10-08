@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "OUTLINE（アウトライン）" },
   { label: "タイプ", value: "女性専用完全個室パーソナルジム" },
-  { label: "料金帯", value: "月額46,200円〜184,800円程度（コースにより異なる）" },
-  { label: "エリア", value: "東京・神奈川を中心に展開" },
+  { label: "料金帯", value: "コース総額17,000円〜" },
+  { label: "エリア", value: "東京・神奈川ほか" },
   { label: "特徴", value: "女性専用 / 完全個室 / 生涯アフターフォロー / 女性トレーナー在籍" },
 ];
 

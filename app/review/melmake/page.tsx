@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "メルメイク" },
   { label: "タイプ", value: "完全個室パーソナルジム" },
-  { label: "料金帯", value: "月額30,000円〜100,000円程度" },
-  { label: "エリア", value: "東京・大阪・名古屋を中心に展開" },
+  { label: "料金帯", value: "コース総額148,500円〜" },
+  { label: "エリア", value: "名古屋（名駅・伏見）・新横浜・福岡西新・豊田" },
   { label: "特徴", value: "完全個室 / ボディメイク特化 / 食事指導付き / オーダーメイドプログラム" },
 ];
 

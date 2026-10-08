@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "E9th PRIVATE GYM（イーナインス プライベートジム）" },
   { label: "タイプ", value: "完全プライベートパーソナルジム" },
-  { label: "料金帯", value: "月額40,000円〜100,000円程度" },
-  { label: "エリア", value: "東京都内" },
+  { label: "料金帯", value: "コース総額76,000円〜" },
+  { label: "エリア", value: "長野県長野市" },
   { label: "特徴", value: "完全プライベート空間 / 1対1指導 / 高級感のある内装 / オーダーメイドプログラム" },
 ];
 

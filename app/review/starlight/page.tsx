@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "スターライトフィットネス" },
   { label: "タイプ", value: "24時間営業パーソナルジム" },
-  { label: "料金帯", value: "月額20,000円〜60,000円程度" },
-  { label: "エリア", value: "首都圏を中心に展開" },
+  { label: "料金帯", value: "月額8,800円〜" },
+  { label: "エリア", value: "札幌市東区" },
   { label: "特徴", value: "24時間営業 / 深夜早朝対応 / セキュリティ完備 / 柔軟な予約" },
 ];
 

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Reprecious（リプレシャス）" },
   { label: "タイプ", value: "女性専用パーソナルジム" },
-  { label: "料金帯", value: "2ヶ月87,120円〜" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "コース総額87,120円〜" },
+  { label: "エリア", value: "埼玉県さいたま市（大宮・氷川参道）" },
   { label: "特徴", value: "女性専用 / 低価格 / 完全個室 / 食事指導付き" },
 ];
 

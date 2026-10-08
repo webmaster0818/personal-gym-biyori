@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ビーコンセプト（B-CONCEPT）" },
   { label: "タイプ", value: "下半身・脚痩せ特化 女性専用パーソナルジム" },
-  { label: "料金帯", value: "2ヶ月199,650円〜" },
+  { label: "料金帯", value: "コース総額44,000円〜" },
   { label: "エリア", value: "東京・横浜・大阪・名古屋など主要都市" },
   { label: "特徴", value: "下半身特化 / 女性専用 / 脚痩せメソッド / アフターフォロー付き" },
 ];

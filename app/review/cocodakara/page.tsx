@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "CoCoDakara Body Design（ココダカラボディーデザイン）" },
   { label: "タイプ", value: "完全個室パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額80,000円〜250,000円程度" },
-  { label: "エリア", value: "東京都港区（麻布十番・赤羽橋）" },
+  { label: "料金帯", value: "月額39,600円〜" },
+  { label: "エリア", value: "東京都港区東麻布（麻布十番駅・赤羽橋駅 徒歩4分）" },
   { label: "特徴", value: "麻布十番の隠れ家的ジム / 完全マンツーマン / オーダーメイドプログラム / 食事指導付き" },
 ];
 

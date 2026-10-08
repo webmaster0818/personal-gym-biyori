@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "UNDEUX SUPERBODY LIFE（アンドゥスーパーボディライフ）" },
   { label: "タイプ", value: "ライフスタイル型パーソナルジム" },
-  { label: "料金帯", value: "月額20,000円〜60,000円程度" },
-  { label: "エリア", value: "東京・大阪を中心に展開" },
+  { label: "料金帯", value: "月額18,200円〜" },
+  { label: "エリア", value: "全国40店舗以上" },
   { label: "特徴", value: "UNDEUX派生 / ライフスタイル重視 / 長期継続型 / 食事管理付き" },
 ];
 

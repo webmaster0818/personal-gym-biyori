@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Lino U（リノユー）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額30,000円〜100,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "大阪府吹田市（江坂駅 徒歩3分）" },
   { label: "特徴", value: "マンツーマン / ライフスタイル重視 / 食事指導 / 長期サポート" },
 ];
 

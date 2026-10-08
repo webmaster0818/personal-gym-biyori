@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "FIT24（フィット24）" },
   { label: "タイプ", value: "24時間セルフフィットネスジム" },
-  { label: "料金帯", value: "通常月会費は月7,000円台後半〜。家族・U22など割引プランは月4,000円台〜（店舗・プランにより異なる／要確認）" },
-  { label: "エリア", value: "全国に展開（快活CLUBグループ）" },
+  { label: "料金帯", value: "月額7,678円〜" },
+  { label: "エリア", value: "全国（快活CLUBグループ）" },
   { label: "特徴", value: "24時間営業 / セルフ型 / 低価格 / マシン充実 / 快活CLUB併設" },
 ];
 

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "PLUME（プリュム）" },
   { label: "タイプ", value: "デザイナーズパーソナルジム" },
-  { label: "料金帯", value: "月額30,000円〜75,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額41,800円〜" },
+  { label: "エリア", value: "神奈川県川崎市" },
   { label: "特徴", value: "おしゃれな空間 / 女性人気 / SNS映え / ボディメイク特化" },
 ];
 

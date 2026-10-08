@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "RITA STYLE（リタスタイル）" },
   { label: "タイプ", value: "食事指導付きパーソナルジム" },
-  { label: "料金帯", value: "2ヶ月156,200円〜" },
+  { label: "料金帯", value: "コース総額97,680円〜" },
   { label: "エリア", value: "福岡・熊本・佐賀・長崎・岡山など" },
   { label: "特徴", value: "九州発 / 食事指導付き / 低価格 / 完全個室 / 短期集中" },
 ];

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Rays GyM（レイズジム）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額30,000円〜75,000円程度" },
-  { label: "エリア", value: "関東エリアを中心に展開" },
+  { label: "料金帯", value: "月額19,800円〜" },
+  { label: "エリア", value: "埼玉県川越市（川越駅徒歩3分）" },
   { label: "特徴", value: "トレーナー指名制 / マンツーマン指導 / 目標別プログラム / 食事サポートあり" },
 ];
 

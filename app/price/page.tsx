@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { BRAND_PRICES } from "@/data/brand-prices";
+import { BRAND_PRICES, FEE_SURVEYED_AT, brandsByKind } from "@/data/brand-prices";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "パーソナルジムの料金相場【2026年】60ブランドの公表料金＋エリア別相場で比較",
+  title: "パーソナルジムの料金を60ブランド実査【2026年10月】公式サイトの掲載額をそのまま一覧",
   description:
-    "パーソナルジムの料金を、当サイトが実査した60ブランドの公表料金一覧と、エリア別の相場の両面から比較。月額3,278円から総額38万円まで、同じ「パーソナルジム」でも価格帯が100倍以上開くことが一覧でわかります。入会金や分割払いの注意点も解説します。",
+    "パーソナルジム60ブランドの公式サイトを1件ずつ開き、掲載されている金額だけを転記しました(2026年10月8日実査)。月額制・コース制・都度払いに分けて安い順に並べ、入会金と公式ページのリンクも併記。公式が金額を出していない9ブランドは推定せず「公表していない」と明記しています。",
   alternates: { canonical: "/price/" },
 };
 
@@ -50,70 +50,187 @@ const faqs = [
 ];
 
 export default function PricePage() {
+  const unpublished = BRAND_PRICES.filter((b) => b.kind === "未公表");
+  const published = BRAND_PRICES.filter((b) => b.lowest !== null);
+  const median = (xs: number[]) => {
+    const a = [...xs].sort((x, y) => x - y);
+    const m = Math.floor(a.length / 2);
+    return a.length % 2 ? a[m] : Math.round((a[m - 1] + a[m]) / 2);
+  };
+  const dist = (["月額制", "コース制", "都度払い"] as const)
+    .map((kind) => {
+      const xs = BRAND_PRICES.filter((b) => b.kind === kind && b.lowest !== null).map((b) => b.lowest as number);
+      return { kind, n: xs.length, med: median(xs), min: Math.min(...xs), max: Math.max(...xs) };
+    })
+    .filter((d) => d.n > 0);
+
   return (
     <>
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "料金相場" }]} />
       <main className="min-h-screen">
         <header className="bg-orange-50 py-10">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h1 className="text-2xl md:text-3xl font-bold mb-3">パーソナルジムの料金相場【2026年・エリア別】</h1>
+            <h1 className="text-2xl md:text-3xl font-bold mb-3">パーソナルジムの料金を{BRAND_PRICES.length}ブランド実査【2026年10月】</h1>
             <p className="text-gray-700 leading-relaxed">
-              パーソナルジムの料金を「大手2ヶ月コース」「中価格帯（月額制）」「低価格（月額制）」の区分で、全国主要エリア別に集計しました。費用を抑えるコツもまとめています。
+              「相場は月◯万円くらい」と書いてあるページは多いのですが、その数字がどこから来たのかは、たいてい書かれていません。
+              このページは逆で、<strong>{BRAND_PRICES.length}ブランドの公式サイトを1件ずつ開いて、載っていた金額だけ</strong>を並べています。各ブランドに公式ページへのリンクを付けたので、その場で確かめられます。
             </p>
-            <p className="text-xs text-gray-500 mt-3">当サイトが各エリアページで調査・整理した料金相場の横断集計です（2026年時点・税込/税抜はジムにより異なる）。実際の料金は各ジムの公式・無料カウンセリングでご確認ください。</p>
+            <p className="text-xs text-gray-500 mt-3">実査日：{FEE_SURVEYED_AT}。税込/税抜の表記はジムにより異なるため、公式の書き方のまま載せています。料金・キャンペーンは変わるため、申込前に必ず公式・無料カウンセリングでご確認ください。</p>
           </div>
         </header>
 
         <div className="container mx-auto px-4 max-w-4xl py-10">
-          {/* 区分の説明 */}
+          {/* 実査データから計算した分布（2026-10-08） */}
           <section className="mb-10">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">料金の3区分と入会金</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">実査{BRAND_PRICES.length}ブランドの価格分布</h2>
+            <p className="text-sm text-gray-700 leading-relaxed mb-4">
+              公式サイトが金額を公表していた{published.length}ブランドについて、<strong>そのブランドの一番安いプラン</strong>を集計したものです。
+              支払い方式が違うと金額の意味が変わるため、方式ごとに分けています（月額と総額は直接比べられません）。
+            </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-white border border-gray-200 rounded-lg p-5"><h3 className="font-bold text-gray-800 mb-1">大手パーソナルジム（2ヶ月コース）</h3><p className="text-sm text-gray-600">結果コミット型。総額 <strong>約18万〜40万円</strong>。食事管理・返金保証つきが多い。</p></div>
-              <div className="bg-white border border-gray-200 rounded-lg p-5"><h3 className="font-bold text-gray-800 mb-1">中価格帯（月額制）</h3><p className="text-sm text-gray-600">月 <strong>3万〜8万円</strong>。続けやすさと指導の質のバランス型。</p></div>
-              <div className="bg-white border border-gray-200 rounded-lg p-5"><h3 className="font-bold text-gray-800 mb-1">低価格（月額制）</h3><p className="text-sm text-gray-600">月 <strong>1万〜3万円</strong>。通い放題型・地域密着型に多い。</p></div>
-              <div className="bg-white border border-gray-200 rounded-lg p-5"><h3 className="font-bold text-gray-800 mb-1">入会金</h3><p className="text-sm text-gray-600"><strong>0円〜5.5万円程度</strong>。無料キャンペーンを実施するジムも多い。</p></div>
+              {dist.map((d) => (
+                <div key={d.kind} className="bg-white border border-gray-200 rounded-lg p-5">
+                  <h3 className="font-bold text-gray-800 mb-1">{d.kind}（{d.n}ブランド）</h3>
+                  <p className="text-sm text-gray-600">
+                    {d.n === 1 ? (
+                      <>最安プラン <strong>{d.med.toLocaleString()}円</strong></>
+                    ) : (
+                      <>
+                        最安プランの中央値 <strong>{d.med.toLocaleString()}円</strong>
+                        <span className="block mt-1">
+                          幅：{d.min.toLocaleString()}円 〜 {d.max.toLocaleString()}円（{Math.round(d.max / d.min)}倍）
+                        </span>
+                      </>
+                    )}
+                  </p>
+                </div>
+              ))}
+              <div className="bg-white border border-gray-200 rounded-lg p-5">
+                <h3 className="font-bold text-gray-800 mb-1">公式が金額を公表していない</h3>
+                <p className="text-sm text-gray-600">
+                  <strong>{unpublished.length}ブランド</strong>。問い合わせないと総額がわからないので、比較の最後に回したほうが早く決まります。
+                </p>
+              </div>
             </div>
+            <p className="text-xs text-gray-500 mt-3">※「最安プラン」は、月額制なら最も安い月額、コース制なら最も安いコース総額、都度払いなら1回あたりの金額です。方式をまたいだ比較はできないため、分けて集計しています。</p>
           </section>
 
-          {/* ブランド別の公表料金(2026-09-22 追加) */}
+          {/* ブランド別の公表料金（2026-10-08 全ブランド再実査） */}
           <section className="mb-10">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">ブランド別の公表料金一覧（{BRAND_PRICES.length}ブランド・安い順）</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">
+              ブランド別の公表料金（{BRAND_PRICES.length}ブランドを公式サイトで実査）
+            </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
-              「相場」は幅がありすぎて判断材料になりにくいので、<strong>当サイトが実査した各ブランドの公表料金をそのまま安い順に並べました</strong>。
-              月額3,278円のchocoZAPから、総額約38万円のRIZAPまで、同じ「パーソナルジム」でも<strong>価格帯は100倍以上開きます</strong>。
-              自分の予算に合うゾーンを決めてから、その中で比較するのが失敗しない進め方です。
+              {FEE_SURVEYED_AT}に、{BRAND_PRICES.length}ブランドすべての公式サイトを1件ずつ開いて、
+              <strong>そこに掲載されている金額だけ</strong>を転記しました。各行の「公式」リンクが、その金額が載っているページです。
+              公式サイトが金額を出していないブランドは、推定で埋めずに
+              <strong>「公表していない」と書いています</strong>（{unpublished.length}ブランド）。
             </p>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm border-collapse">
-                <thead>
-                  <tr className="bg-gray-50">
-                    <th className="border border-gray-200 p-2 text-left whitespace-nowrap">ブランド</th>
-                    <th className="border border-gray-200 p-2 text-left">公表料金</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {BRAND_PRICES.map((b) => (
-                    <tr key={b.slug}>
-                      <td className="border border-gray-200 p-2 font-bold whitespace-nowrap">
-                        <a href={`/review/${b.slug}/`} className="text-orange-600 hover:underline">{b.name}</a>
-                      </td>
-                      <td className="border border-gray-200 p-2 text-xs leading-relaxed">{b.price}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <p className="text-sm text-gray-700 leading-relaxed mb-5">
+              支払い方式が違うものを一列に並べると比較になりません。
+              <strong>月額制・コース制・都度払いに分けて、それぞれ安い順</strong>に並べています。
+            </p>
+
+            {([
+              { kind: "月額制" as const, lead: "毎月決まった額を払う方式。やめどき・続けやすさを重視する人向け。" },
+              { kind: "コース制" as const, lead: "回数と期間をまとめて契約する方式。期限までに結果を出したい人向け。" },
+              { kind: "都度払い" as const, lead: "通った分だけ払う方式。頻度が読めない人向け。" },
+            ]).map(({ kind, lead }) => {
+              const rows = brandsByKind(kind);
+              if (rows.length === 0) return null;
+              return (
+                <div key={kind} className="mb-8">
+                  <h3 className="font-bold text-gray-800 mb-1">{kind}（{rows.length}ブランド・安い順）</h3>
+                  <p className="text-xs text-gray-600 mb-2">{lead}</p>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-gray-50">
+                          <th className="border border-gray-200 p-2 text-left whitespace-nowrap">ブランド</th>
+                          <th className="border border-gray-200 p-2 text-left">公式サイトに掲載されている料金</th>
+                          <th className="border border-gray-200 p-2 text-left whitespace-nowrap">入会金</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {rows.map((b) => (
+                          <tr key={b.slug}>
+                            <td className="border border-gray-200 p-2 font-bold whitespace-nowrap align-top">
+                              <a href={`/review/${b.slug}/`} className="text-orange-600 hover:underline">{b.name}</a>
+                              <span className="block font-normal text-[11px] text-gray-500 mt-1">{b.area}</span>
+                              {b.officialUrl && (
+                                <a
+                                  href={b.officialUrl}
+                                  target="_blank"
+                                  rel="nofollow noopener"
+                                  className="block font-normal text-[11px] text-gray-500 underline mt-0.5"
+                                >
+                                  公式
+                                </a>
+                              )}
+                            </td>
+                            <td className="border border-gray-200 p-2 text-xs leading-relaxed align-top">
+                              {b.price}
+                              {b.note && <span className="block text-[11px] text-gray-500 mt-1">※{b.note}</span>}
+                            </td>
+                            <td className="border border-gray-200 p-2 text-xs align-top">{b.entry}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              );
+            })}
+
+            {unpublished.length > 0 && (
+              <div className="mb-4">
+                <h3 className="font-bold text-gray-800 mb-1">公式サイトで料金を公表していないブランド（{unpublished.length}）</h3>
+                <p className="text-xs text-gray-600 mb-2">
+                  問い合わせないと金額がわからないブランドです。他サイトで見かける金額は出どころが確認できないため、ここには載せていません。
+                </p>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border-collapse">
+                    <thead>
+                      <tr className="bg-gray-50">
+                        <th className="border border-gray-200 p-2 text-left whitespace-nowrap">ブランド</th>
+                        <th className="border border-gray-200 p-2 text-left">公式サイトで確認できたこと</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {unpublished.map((b) => (
+                        <tr key={b.slug}>
+                          <td className="border border-gray-200 p-2 font-bold whitespace-nowrap align-top">
+                            <a href={`/review/${b.slug}/`} className="text-orange-600 hover:underline">{b.name}</a>
+                            <span className="block font-normal text-[11px] text-gray-500 mt-1">{b.area}</span>
+                            {b.officialUrl && (
+                              <a href={b.officialUrl} target="_blank" rel="nofollow noopener" className="block font-normal text-[11px] text-gray-500 underline mt-0.5">公式</a>
+                            )}
+                          </td>
+                          <td className="border border-gray-200 p-2 text-xs leading-relaxed align-top">
+                            {b.price}
+                            <span className="block text-[11px] text-gray-500 mt-1">入会金：{b.entry}</span>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
             <p className="text-xs text-gray-500 mt-3 leading-relaxed">
-              ※各ブランドの公式サイトを実査して記録した金額です（確認日は各レビューページに明記）。税込/税抜の表記はジムにより異なります。
-              「月額◯円〜」には<strong>分割払い時の月額</strong>を掲げているジムがあり、総額とは別物です。コース料金・入会金・分割手数料まで含めた総額で比べてください。
-              店舗やキャンペーンにより変動するため、申込前に必ず公式・無料カウンセリングでご確認ください。
+              ※{FEE_SURVEYED_AT}に各ブランドの公式サイトで確認した掲載値です。税込/税抜の表記はジムにより異なるため、公式の書き方のまま載せています。
+              「月々◯円〜」には<strong>分割払い時の月額</strong>を掲げているジムがあり、総額とは別物です。コース料金・入会金・分割手数料まで含めた総額で比べてください。
+              店舗・キャンペーンにより変動するため、申込前に必ず公式・無料カウンセリングでご確認ください。
             </p>
           </section>
 
           {/* エリア別相場 */}
           <section className="mb-10">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">エリア別の料金相場</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-4">エリア別の料金のめやす（当サイトの概算）</h2>
+            <p className="text-sm text-gray-700 leading-relaxed mb-3">
+              ここから下は<strong>公式サイトの実査値ではなく、当サイトが各エリアページを集計した概算</strong>です。上のブランド別一覧とは根拠の強さが違うため、分けて示しています。
+            </p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
                 <thead>

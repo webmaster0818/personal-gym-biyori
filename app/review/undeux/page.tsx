@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "UNDEUX SUPERBODY（アンドゥスーパーボディ）" },
   { label: "タイプ", value: "女性専用パーソナルジム" },
-  { label: "料金帯", value: "月額60,000円〜220,000円程度（コースにより異なる）" },
-  { label: "エリア", value: "東京・大阪・神戸など都市部を中心に展開" },
+  { label: "料金帯", value: "月額18,200円〜" },
+  { label: "エリア", value: "全国40店舗以上" },
   { label: "特徴", value: "女性専用 / ボディメイク特化 / 食事管理付き / 宅配食サービス連携" },
 ];
 

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "PEACH GYM（ピーチジム）" },
   { label: "タイプ", value: "女性向けヒップ特化パーソナルジム" },
-  { label: "料金帯", value: "月額30,000円〜120,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額27,500円〜" },
+  { label: "エリア", value: "秋葉原・神田（東京都千代田区）ほか" },
   { label: "特徴", value: "女性向け / お尻（ヒップ）特化 / 美尻メイク / マンツーマン指導" },
 ];
 

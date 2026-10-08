@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ピラティス&ジム1to1" },
   { label: "タイプ", value: "ピラティス×パーソナルトレーニング融合ジム" },
-  { label: "料金帯", value: "月額20,000円〜80,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "コース総額6,600円〜" },
+  { label: "エリア", value: "銀座・横浜ほか" },
   { label: "特徴", value: "ピラティス×筋トレ融合 / マンツーマン / 姿勢改善 / ボディメイク" },
 ];
 

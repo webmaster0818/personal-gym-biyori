@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "ACCEPT（アクセプト）" },
   { label: "タイプ", value: "完全個室パーソナルジム" },
-  { label: "料金帯", value: "月額30,000円〜80,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "月額38,390円〜" },
+  { label: "エリア", value: "銀座（東京）" },
   { label: "特徴", value: "完全個室 / 月額制 / マンツーマン指導 / 食事サポートあり" },
 ];
 

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "base BODY（ベースボディ）" },
   { label: "タイプ", value: "ボディメイク×コンディショニングジム" },
-  { label: "料金帯", value: "月額25,000円〜65,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "特定できず" },
   { label: "特徴", value: "ボディメイク×コンディショニング / 姿勢改善 / ストレッチ / 食事指導" },
 ];
 

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "Bellpha（ベルファ）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額30,000円〜120,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "東京都新宿区" },
   { label: "特徴", value: "マンツーマン / ボディメイク / 食事指導 / カスタマイズプログラム" },
 ];
 

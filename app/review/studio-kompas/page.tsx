@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "STUDIO KOMPAS（スタジオコンパス）" },
   { label: "タイプ", value: "機能改善特化パーソナルジム" },
-  { label: "料金帯", value: "月額30,000円〜80,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "1回9,000円〜" },
+  { label: "エリア", value: "東京都渋谷区南平台町" },
   { label: "特徴", value: "機能改善特化 / 姿勢矯正 / 慢性痛改善 / 理学療法士在籍" },
 ];
 

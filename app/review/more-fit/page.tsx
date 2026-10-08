@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "more fit（モアフィット）" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
-  { label: "料金帯", value: "月額25,000円〜70,000円程度" },
-  { label: "エリア", value: "東京都内を中心に展開" },
+  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "エリア", value: "東京都練馬区（練馬駅 徒歩2分）" },
   { label: "特徴", value: "初心者歓迎 / マンツーマン指導 / 丁寧なカウンセリング / 食事指導付き" },
 ];
 
