@@ -1,5 +1,25 @@
 @import "tailwindcss";
 
+/*
+ * パーソナルジムびより — デザイン定義（2026-10-10 刷新）
+ *
+ * 施主指示: drtraining.jp を参考に、色はできる限りシンプルに。
+ *
+ * 参考サイト(drtraining.jp)を実測して分かったこと:
+ *   - 色は実質3色しかない。文字 #202020(1328要素) / 白(550) / 赤(18)。
+ *     背景も 黒(101) と 赤(44) だけ。これが「シンプル」の実体。
+ *   - 角丸をほぼ使わない。50%の円が16個と2pxが1個だけで、あとは直角。
+ *   - 影を使わない(ページ全体で2箇所のみ)。区切りは1pxの罫線 #000。
+ *   - トランジションは 0.2s。
+ *   - ファーストビューはビューポート高ぴったり(1000px / vh 1000)。
+ *   - ヘッダーは position:absolute・背景透明で、写真の上に乗っている。
+ *
+ * これをそのまま採用する。ただし色は2点だけ変えた:
+ *   - 参考サイトの純赤 #FF0000 は白文字でも白地の文字でも 4.0:1 で
+ *     WCAG AA(4.5:1)に届かない。色味を保ったまま #C81E14(5.75:1)にした。
+ *   - 文字の黒は #1A1A1A(白地17.4:1)。
+ */
+
 :root {
   --background: #FFFFFF;
   --foreground: #1A1A1A;
@@ -9,48 +29,180 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-noto-sans-jp);
+  --font-latin: var(--font-inter);
+
+  /* 使う色はこれだけ */
+  --color-ink: #1A1A1A;          /* 文字・黒の面。白地に17.4:1 */
+  --color-ink-2: #5A5A5A;        /* 補足文。白地に6.4:1 */
+  --color-ink-3: #8A8A8A;        /* 枠・アイコンの下限。文字には使わない */
+  --color-line: #E2E2E2;         /* 1pxの罫線。影の代わり */
+  --color-line-strong: #C9C9C9;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F5F5F5;    /* 面を変えたいときだけ */
+  --color-accent: #C81E14;       /* 唯一の彩度のある色。白文字5.75:1 */
+  --color-accent-dark: #A81810;
+
+  /* 旧トークン（下層ページがまだ参照しているため、新色に向け直す） */
   --color-primary: #1A1A1A;
-  --color-primary-dark: #111827;
-  --color-primary-light: #374151;
-  --color-accent: #F97316;
-  --color-accent-dark: #EA580C;
-  --color-accent-light: #FFF7ED;
-  --color-accent-100: #FFEDD5;
-  --color-accent-50: #FFF7ED;
-  --color-accent-700: #C2410C;
-  --color-section-bg: #F9FAFB;
+  --color-primary-dark: #0D0D0D;
+  --color-primary-light: #5A5A5A;
+  --color-accent-light: #FBEAE9;
+  --color-accent-100: #F6D5D3;
+  --color-accent-50: #FBEAE9;
+  --color-accent-700: #A81810;
+  --color-section-bg: #F5F5F5;
+}
+
+/*
+ * 既存ページ(約580本)は teal / orange / gray などの色クラスを直接書いている。
+ * 30,000箇所以上あり、全ファイルを書き換えるのは現実的でないしリスクも高い。
+ * Tailwind v4 はパレット自体がテーマ変数なので、変数を上書きして
+ * 「サイト全体を モノトーン＋赤1色 に寄せる」。1ファイルで全ページに効く。
+ *
+ *   teal（旧ブランド色）→ 無彩色
+ *   orange / red        → アクセントの赤
+ *   blue / green / 他    → 無彩色
+ *   角丸                 → 0（円のrounded-fullだけは別指定なので残る）
+ *   影                   → なし
+ */
+@theme {
+  --color-teal-50:  #FAFAFA; --color-teal-100: #F5F5F5; --color-teal-200: #E2E2E2;
+  --color-teal-300: #C9C9C9; --color-teal-400: #A8A8A8; --color-teal-500: #5A5A5A;
+  --color-teal-600: #3D3D3D; --color-teal-700: #2A2A2A; --color-teal-800: #222222;
+  --color-teal-900: #1A1A1A;
+
+  --color-orange-50:  #FBEAE9; --color-orange-100: #F6D5D3; --color-orange-200: #EFB3AF;
+  --color-orange-300: #E5867F; --color-orange-400: #D9544A; --color-orange-500: #C81E14;
+  --color-orange-600: #A81810; --color-orange-800: #6E0F0A;
+
+  --color-red-50:  #FBEAE9; --color-red-100: #F6D5D3; --color-red-500: #C81E14;
+  --color-red-600: #A81810; --color-red-700: #8C140E;
+
+  --color-blue-50:  #F5F5F5; --color-blue-200: #E2E2E2; --color-blue-600: #3D3D3D;
+  --color-blue-700: #2A2A2A; --color-blue-800: #1A1A1A;
+
+  --color-green-50:  #F5F5F5; --color-green-100: #E8E8E8; --color-green-500: #5A5A5A;
+  --color-green-600: #3D3D3D; --color-green-700: #2A2A2A; --color-green-800: #1A1A1A;
+  --color-emerald-700: #2A2A2A;
+  --color-amber-50: #FAFAFA; --color-amber-300: #C9C9C9;
+
+  --color-slate-50:  #FAFAFA; --color-slate-200: #E2E2E2; --color-slate-300: #C9C9C9;
+  --color-slate-400: #A8A8A8; --color-slate-500: #8A8A8A; --color-slate-600: #5A5A5A;
+  --color-slate-700: #2A2A2A; --color-slate-800: #1A1A1A; --color-slate-900: #0D0D0D;
+
+  --color-gray-50:  #FAFAFA; --color-gray-100: #F5F5F5; --color-gray-200: #E2E2E2;
+  --color-gray-300: #C9C9C9; --color-gray-400: #A8A8A8; --color-gray-500: #8A8A8A;
+  --color-gray-600: #5A5A5A; --color-gray-700: #3D3D3D; --color-gray-800: #2A2A2A;
+  --color-gray-900: #1A1A1A;
+
+  /* 角は立てる */
+  --radius-xs: 0px; --radius-sm: 0px; --radius-md: 0px;
+  --radius-lg: 0px; --radius-xl: 0px; --radius-2xl: 0px; --radius-3xl: 0px; --radius-4xl: 0px;
+
+  /* 影は使わない。区切りは1pxの罫線で作る */
+  --shadow-2xs: none; --shadow-xs: none; --shadow-sm: none; --shadow-md: none;
+  --shadow-lg: none; --shadow-xl: none; --shadow-2xl: none;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-noto-sans-jp), sans-serif;
-  line-height: 1.8;
+  line-height: 1.9;
+  letter-spacing: .04em;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Card base */
+/* 角は立てる。丸めるのは円だけ */
+h1, h2, h3, h4 { font-weight: 700; letter-spacing: .02em; line-height: 1.45; }
+
+/* ========== 共通部品 ========== */
+.gb-eyebrow {
+  display: block;
+  font-family: var(--font-inter), var(--font-noto-sans-jp), sans-serif;
+  font-size: 11px; font-weight: 500; letter-spacing: .22em; line-height: 1.4;
+  color: var(--color-accent);
+}
+.gb-eyebrow-onphoto { color: #fff; }
+
+.gb-num {
+  font-family: var(--font-inter), var(--font-noto-sans-jp), sans-serif;
+  font-variant-numeric: tabular-nums; font-weight: 600; letter-spacing: -.01em;
+}
+
+.gb-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 56px; padding: 0 32px; border-radius: 0;
+  font-size: 15px; font-weight: 700; letter-spacing: .08em; text-align: center;
+  border: 1px solid transparent;
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+.gb-btn-primary { background: var(--color-accent); color: #fff; }
+.gb-btn-primary:hover { background: var(--color-accent-dark); }
+.gb-btn-ink { background: var(--color-ink); color: #fff; }
+.gb-btn-ink:hover { background: #000; }
+.gb-btn-outline { background: transparent; color: var(--color-ink); border-color: var(--color-ink); }
+.gb-btn-outline:hover { background: var(--color-ink); color: #fff; }
+/* 写真の上に置く用 */
+.gb-btn-onphoto { background: rgba(255,255,255,.08); color: #fff; border-color: rgba(255,255,255,.55); backdrop-filter: blur(2px); }
+.gb-btn-onphoto:hover { background: #fff; color: var(--color-ink); border-color: #fff; }
+
+.gb-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: 0;
+}
+
+/* セクションの頭 */
+.gb-rule { display: block; height: 1px; width: 0; background: var(--color-accent); transition: width .9s cubic-bezier(.16,1,.3,1) .1s; }
+[data-reveal="in"] .gb-rule { width: 44px; }
+
+/* ========== ヒーロー ==========
+   スマホはファーストビューを写真で埋める。
+   高さ固定＋overflow:hidden は画面の短い端末で文字が切れるので使わない。 */
+.gb-hero { position: relative; }
+.gb-hero-inner { position: relative; min-height: 100svh; display: flex; flex-direction: column; justify-content: flex-end; }
+@media (min-width: 768px) { .gb-hero-inner { min-height: 100svh; } }
+
+/* ヘッダーを写真に溶け込ませる。上から下への暗がりを薄く敷く */
+.gb-hero-veil {
+  position: absolute; inset: 0; pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.22) 18%, rgba(0,0,0,0) 38%),
+    linear-gradient(0deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.42) 26%, rgba(0,0,0,.06) 52%, rgba(0,0,0,0) 70%);
+}
+
+/* ========== Motion ==========
+   初期の非表示はJSが付ける。JSが動かない環境では最初から全部見えている。 */
+[data-reveal="out"] { opacity: 0; transform: translateY(24px); }
+[data-reveal="in"] {
+  opacity: 1; transform: none;
+  transition: opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.gb-hero-img { transform: scale(1.06); transition: transform 9s cubic-bezier(.16,1,.3,1); }
+[data-hero="in"] .gb-hero-img { transform: scale(1); }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal="out"], [data-reveal="in"] { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .gb-rule { width: 44px !important; transition: none !important; }
+  .gb-hero-img { transform: none !important; transition: none !important; }
+  * { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
+
+/* ========== 既存ページの名残を打ち消す ========== */
 .card-base {
   background: #fff;
-  border-radius: 0.75rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
-  border: 1px solid #f3f4f6;
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid var(--color-line);
 }
-
-/* Clean accordion */
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-details summary::marker {
-  display: none;
-  content: "";
-}
-
-/* Speech bubble */
+details summary::-webkit-details-marker { display: none; }
+details summary::marker { display: none; content: ""; }
 .speech-bubble {
   position: relative;
-  background: #FFF7ED;
-  border: 1px solid #FFEDD5;
-  border-radius: 0.75rem;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-line);
+  border-radius: 0;
   padding: 0.75rem;
 }

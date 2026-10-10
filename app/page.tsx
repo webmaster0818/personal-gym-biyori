@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { BRAND_PRICES } from "@/data/brand-prices";
+
+const BRAND_COUNT = BRAND_PRICES.length;
 
 const services = [
   {
@@ -149,29 +152,44 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      {/* Hero with background image */}
-      <section className="relative min-h-[440px] flex items-center justify-center overflow-hidden" style={{ background: "linear-gradient(135deg, #0f172a 0%, #1e3a5f 55%, #0f2744 100%)" }}>
-        <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: "url('/hero-energy-s.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center py-20">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-white">
-            あなたに合った<br className="sm:hidden" />パーソナルジムが見つかる
-          </h1>
-          <p className="text-gray-200 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
-            厳選60社・580店舗を料金・口コミ・特徴から徹底比較。下の比較表とジム診断で、あなたに合う1社が3分で見つかります。
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/concierge/"
-              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg shadow-lg"
+      {/* ============ ヒーロー ============
+          施主指示: ファーストビューを画像でいっぱいに／ヘッダーが写真に溶け込む形。
+          高さは min-height の 100svh。固定高＋overflow:hidden にすると
+          画面の短い端末で文字が切れるので使わない。 */}
+      <section className="gb-hero" data-hero>
+        <div className="gb-hero-inner">
+          <div className="absolute inset-0 overflow-hidden">
+            <picture>
+              <source media="(min-width: 768px)" srcSet="/hero-gym-pc.jpg" />
+              <img
+                src="/hero-gym-sp.jpg"
+                alt="大きな窓から自然光が入る広いスタジオで、ダンベルを持って立つ女性"
+                className="gb-hero-img h-full w-full object-cover object-[62%_center] md:object-center"
+                fetchPriority="high"
+                decoding="async"
+              />
+            </picture>
+            {/* 上下の暗がり。上はヘッダーを溶け込ませるため、下は見出しを読ませるため */}
+            <div className="gb-hero-veil" />
+          </div>
+
+          <div className="relative mx-auto w-full max-w-6xl px-5 pb-28 pt-28 sm:px-6 sm:pb-24">
+            <span className="gb-eyebrow gb-eyebrow-onphoto" data-rv>PERSONAL GYM BIYORI</span>
+            <h1
+              className="mt-5 text-[30px] font-bold leading-[1.5] tracking-[.02em] text-white sm:text-[46px] sm:leading-[1.4]"
+              data-rv
             >
-              無料ジム診断をする
-            </Link>
-            <Link
-              href="#ranking"
-              className="inline-block bg-white/10 hover:bg-white/20 text-white font-bold py-3.5 px-10 rounded-lg transition-colors text-lg border border-white/30"
-            >
-              ランキングを見る
-            </Link>
+              自分に合う1社を、<br />
+              数字で選ぶ。
+            </h1>
+            <p className="mt-5 max-w-[34rem] text-[14px] leading-[2] text-white/85 sm:text-[16px]" data-rv>
+              パーソナルジム{BRAND_COUNT}社の料金を、各社の公式サイトで実査して並べました。
+              口コミの点数付けはしていません。
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row" data-rv>
+              <Link href="/concierge/" className="gb-btn gb-btn-primary">無料でジム診断をする</Link>
+              <Link href="#ranking" className="gb-btn gb-btn-onphoto">料金を比べる</Link>
+            </div>
           </div>
         </div>
       </section>

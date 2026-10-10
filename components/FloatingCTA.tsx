@@ -14,12 +14,12 @@ export default function FloatingCTA() {
 
   if (aff) {
     return (
-      <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-md">
+      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-accent-dark">
         <a
           href={aff}
           target="_blank"
           rel="noopener noreferrer sponsored nofollow"
-          className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full shadow-xl transition-colors text-sm"
+          className="flex min-h-[54px] w-full items-center justify-center gap-2 bg-accent px-6 text-[14px] font-bold tracking-[.06em] text-white transition-colors duration-200 hover:bg-accent-dark"
         >
           無料カウンセリングを予約する（公式）
         </a>
@@ -28,12 +28,12 @@ export default function FloatingCTA() {
   }
 
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-md">
+    <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-white/15">
       <a
         href="/concierge/"
-        className="flex items-center justify-center gap-2 w-full bg-slate-800 hover:bg-slate-900 text-white font-bold py-3 px-6 rounded-full shadow-xl transition-colors text-sm"
+        className="flex min-h-[54px] w-full items-center justify-center gap-2 bg-ink px-6 text-[14px] font-bold tracking-[.06em] text-white transition-colors duration-200 hover:bg-black"
       >
-        まずはパーソナルジム診断で選ぶ
+        まずは無料のジム診断で選ぶ
       </a>
     </div>
   );
