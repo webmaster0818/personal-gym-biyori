@@ -79,4 +79,11 @@ export const GMAP_STATS: Record<string, GmapBrandStat> = {
     top: [{ name: "Apple GYM", rating: 4.9, reviews: 106, maps: "https://maps.google.com/?cid=5623070090220815336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "Apple GYM（アップルジム）池袋店", rating: 4.9, reviews: 84, maps: "https://maps.google.com/?cid=5170610079776292586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "Apple GYM（アップルジム）新宿店", rating: 4.9, reviews: 80, maps: "https://maps.google.com/?cid=2330075690420082910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
     bottom: [{ name: "Apple GYM（アップルジム）川崎店", rating: 4.8, reviews: 69, maps: "https://maps.google.com/?cid=10022356596413445007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "Apple GYM", rating: 4.9, reviews: 106, maps: "https://maps.google.com/?cid=5623070090220815336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
   },
+  // 2026-10-14 追加: rita-style（店名が「RITA-STYLE」で始まる店舗。公式一覧に無い熊本新市街店は除外）
+  "rita-style": {
+    stores: 5, rated: 5, avg: 4.9, wavg: 4.9, reviews: 745,
+    min: 4.8, max: 5, ge45: 5, lt40: 0,
+    top: [{ name: "RITA-STYLE 長崎浜町店", rating: 5, reviews: 137, maps: "https://maps.google.com/?cid=15973289534024052826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "RITA-STYLE 熊本上通店", rating: 4.9, reviews: 190, maps: "https://maps.google.com/?cid=6455305202454439934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "RITA-STYLE 天神大名店", rating: 4.9, reviews: 142, maps: "https://maps.google.com/?cid=12749530790924700797&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
+    bottom: [{ name: "RITA-STYLE博多店", rating: 4.8, reviews: 146, maps: "https://maps.google.com/?cid=14794693864140956311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
+  },
 };

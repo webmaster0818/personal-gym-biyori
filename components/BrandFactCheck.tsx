@@ -49,6 +49,29 @@ export default function BrandFactCheck({ slug }: { slug: string }) {
         </div>
       )}
       {b.caution && <p className="px-5 pb-4 text-xs leading-relaxed text-gray-600">※{b.caution}</p>}
+      {b.thirdParty && b.thirdParty.length > 0 && (
+        <div className="border-t border-gray-200 px-5 py-4">
+          <h3 className="mb-1 text-sm font-bold text-gray-900">{b.name}の口コミ・評判の出典：検索上位の記事・調査を確認した結果</h3>
+          <p className="mb-3 text-[11px] text-gray-500">
+            {FACTS_CHECKED_AT}に「{b.name.replace(/（.*?）/, "")} 口コミ」「評判」で上位に出るページを開き、口コミの出典・件数・掲載日を確かめました。数値はページ本体で確認できたものだけを載せています。
+          </p>
+          <ul className="space-y-3 text-sm">
+            {b.thirdParty.map((s) => (
+              <li key={s.source} className="leading-relaxed text-gray-700">
+                <p className="font-medium text-gray-800">
+                  {s.url ? (
+                    <a href={s.url} target="_blank" rel="nofollow noopener noreferrer" className="underline">{s.source}</a>
+                  ) : (
+                    s.source
+                  )}
+                  <span className="ml-2 text-xs font-normal text-gray-500">{s.date}</span>
+                </p>
+                <p className="mt-0.5">{s.note}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       <p className="px-5 pb-4 text-xs">
         <Link href="/price/" className="text-teal-700 underline">→ 主要ブランドの公表料金を一覧で比べる</Link>
       </p>
