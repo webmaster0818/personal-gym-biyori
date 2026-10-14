@@ -30,6 +30,7 @@ export const metadata: Metadata = {
   description:
     "パーソナルジム60社以上を徹底比較。料金・口コミ・特徴から、あなたに合ったパーソナルジムが見つかります。チキンジム、RIZAP、24/7ワークアウト、BEYONDなど人気ジムを厳選紹介。",
   metadataBase: new URL("https://personal-gym-biyori.com"),
+  alternates: { canonical: "./" },
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },
