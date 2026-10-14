@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
+import GmapStats from "@/components/GmapStats";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "Apple GYM（アップルジム）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "Apple GYM（アップルジム）の口コミ・評判｜料金・返金の注意点を検証",
   description:
-    "Apple GYM（アップルジム）の口コミ・評判を徹底解説。海外式ボディメイク・姿勢改善・食事指導付きの特徴から、月額24,200円〜の料金体系、メリット・デメリット、Googleマップの口コミ分析まで網羅。",
+    "Apple GYM（アップルジム）の口コミ・評判を徹底解説。海外式ボディメイク・姿勢改善・食事指導付きの特徴から、月額9,900円〜（個別指導 月4回）の料金体系、メリット・デメリット、Googleマップの口コミ分析まで網羅。",
 };
 
 /* ---------- affiliate ---------- */
@@ -17,8 +19,8 @@ const BANNER_URL = "https://t.felmat.net/fmimg/E45324.T82347J.A132329L";
 
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
-  { label: "運営会社", value: "株式会社Apple GYM Japan" },
-  { label: "店舗数", value: "東京・神奈川を中心に69店舗以上（2026年5月時点）" },
+  { label: "販売業者", value: "株式会社REXIV（公式の特定商取引法の表記）" },
+  { label: "店舗数", value: "東京52・神奈川14の66店舗（2026年10月 公式トップの店舗一覧）" },
   { label: "営業時間", value: "7:00〜23:00（店舗により異なる）" },
   { label: "特徴", value: "海外式ボディメイク / 姿勢改善 / 食事指導付き / 完全個室 / 駅チカ" },
   { label: "公式URL", value: "https://applegym.jp/", isLink: true },
@@ -43,8 +45,8 @@ const strengths = [
 /* ---------- メリット ---------- */
 const merits = [
   {
-    title: "月額24,200円〜とリーズナブルな料金設定",
-    desc: "パーソナルジムの中では比較的リーズナブルな月額24,200円〜（月4回）から始められます。食事指導込みでこの価格帯は業界でもコスパが高い部類です。初めてパーソナルジムに通う方にも手が届きやすい価格で、高額な一括払いのプレッシャーなく始められるのが魅力です。",
+    title: "月額9,900円〜（個別指導 月4回）とリーズナブルな料金設定",
+    desc: "パーソナルジムの中では比較的リーズナブルな月額9,900円（個別指導 月4回・税込）から始められます（完全マンツーマンのプレミアムは月4回14,850円）。食事指導込みでこの価格帯は業界でもコスパが高い部類です。初めてパーソナルジムに通う方にも手が届きやすい価格で、高額な一括払いのプレッシャーなく始められるのが魅力です。",
   },
   {
     title: "完全個室で人目を気にせずトレーニング",
@@ -52,7 +54,7 @@ const merits = [
   },
   {
     title: "駅チカで通いやすい立地",
-    desc: "東京・神奈川を中心に69店舗以上を展開しており、ほとんどの店舗が最寄駅から徒歩5分以内に位置しています。仕事帰りや買い物のついでに立ち寄りやすく、継続のハードルを下げる工夫がされています。忙しい方でも時間を有効に使えます。",
+    desc: "東京・神奈川で66店舗（公式トップの一覧）を展開しており、ほとんどの店舗が最寄駅から徒歩5分以内に位置しています。仕事帰りや買い物のついでに立ち寄りやすく、継続のハードルを下げる工夫がされています。忙しい方でも時間を有効に使えます。",
   },
 ];
 
@@ -60,7 +62,7 @@ const merits = [
 const demerits = [
   {
     title: "展開エリアが東京・神奈川に集中",
-    desc: "69店舗以上を展開していますが、その大半が東京都内と神奈川県に集中しています。地方在住の方や、大阪・名古屋・福岡などの大都市圏にお住まいの方は利用が難しい状況です。今後のエリア拡大に期待したいところです。",
+    desc: "66店舗（公式一覧）を展開していますが、すべてが東京都内と神奈川県に集中しています。地方在住の方や、大阪・名古屋・福岡などの大都市圏にお住まいの方は利用が難しい状況です。今後のエリア拡大に期待したいところです。",
   },
   {
     title: "トレーナーの指名ができない場合がある",
@@ -73,15 +75,20 @@ const demerits = [
 ];
 
 /* ---------- 料金プラン ---------- */
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "月4回プラン", duration: "月4回", price: "24,200円/月", note: "税込" },
-  { name: "月8回プラン", duration: "月8回", price: "44,000円/月", note: "税込" },
-  { name: "月12回プラン", duration: "月12回", price: "63,360円/月", note: "税込" },
+  { name: "個別指導 月4回", duration: "月4回", price: "9,900円/月", note: "税込" },
+  { name: "個別指導 月8回", duration: "月8回", price: "19,800円/月", note: "税込" },
+  { name: "個別指導 月12回", duration: "月12回", price: "29,700円/月", note: "税込" },
+  { name: "プレミアム（完全マンツーマン）月4回", duration: "月4回", price: "14,850円/月", note: "税込" },
+  { name: "プレミアム 月8回", duration: "月8回", price: "29,700円/月", note: "税込" },
+  { name: "プレミアム 月12回", duration: "月12回", price: "44,550円/月", note: "税込" },
+  { name: "入会金", duration: "—", price: "44,000円", note: "税込・キャンペーン時33,000円。別途共用設備費330円" },
 ];
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "Apple GYMに入会金はかかりますか？", a: "入会金は33,000円（税込）です。ただしキャンペーン期間中は入会金無料になる場合があります。最新情報は公式サイトでご確認ください。" },
+  { q: "Apple GYMに入会金はかかりますか？", a: "入会金は通常44,000円（税込）、キャンペーン時33,000円です（公式料金ページ）。キャンペーン内容は時期により異なり、入会金無料になる場合があります。最新情報は公式サイトでご確認ください。" },
   { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、Apple GYMは初心者の方にも多く選ばれています。海外式ボディメイクメソッドは基礎から丁寧に指導されるため、運動経験がゼロの方でも安心して始められます。" },
   { q: "食事制限は厳しいですか？", a: "過度な食事制限は行いません。日常生活に取り入れやすい食事改善を提案しており、食事を楽しみながら体づくりができます。全プランに食事指導が含まれています。" },
   { q: "1回のトレーニング時間はどのくらいですか？", a: "1回あたり約45分のトレーニングです。着替え・準備を含めると約60分を見込んでください。" },
@@ -131,7 +138,7 @@ export default function AppleGymReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Apple GYM（アップルジム）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "Apple GYM（アップルジム）の口コミ・評判｜料金・返金の注意点を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -142,20 +149,20 @@ export default function AppleGymReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Apple GYM（アップルジム）" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Apple GYM（アップルジム）の口コミ・評判｜料金・メリット・デメリットを徹底解説
+          Apple GYM（アップルジム）の口コミ・評判｜料金・返金の注意点を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/apple-gym.jpg" alt="Apple GYM（アップルジム）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">Apple GYM（アップルジム） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="apple-gym" name="Apple GYM（アップルジム）" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -175,6 +182,8 @@ export default function AppleGymReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="Apple GYM（アップルジム）" />
+        <BrandFactCheck slug="apple-gym" />
+        <GmapStats slug="apple-gym" brand="Apple GYM（アップルジム）" />
         <p className="text-sm mb-6">
           <a href={AFF_URL} target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             Apple GYM（アップルジム）の公式サイトはこちら
@@ -182,7 +191,7 @@ export default function AppleGymReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Apple GYM（アップルジム）は東京・神奈川を中心に69店舗以上を展開する<span className="font-bold bg-yellow-100 px-0.5">海外式ボディメイクパーソナルジム</span>です。海外のボディメイクメソッドを日本人の体型に合わせてカスタマイズした独自のトレーニングが特徴で、姿勢改善をベースとしたアプローチで美しいボディラインを作り上げます。全プラン食事指導付き、完全個室、月額24,200円〜というリーズナブルな価格設定が魅力です。本記事では、Apple GYMの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          Apple GYM（アップルジム）は東京・神奈川で66店舗を展開する<span className="font-bold bg-yellow-100 px-0.5">海外式ボディメイクパーソナルジム</span>です。海外のボディメイクメソッドを日本人の体型に合わせてカスタマイズした独自のトレーニングが特徴で、姿勢改善をベースとしたアプローチで美しいボディラインを作り上げます。全プラン食事指導付き、完全個室、月額9,900円〜（個別指導 月4回）というリーズナブルな価格設定が魅力です。本記事では、Apple GYMの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -289,7 +298,7 @@ export default function AppleGymReview() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 料金は税込です。入会金は別途33,000円（税込）。キャンペーンにより変動する場合があります。最新の料金は公式サイトでご確認ください。
+            ※ 料金は税込です。入会金は別途 通常44,000円（キャンペーン時33,000円）・共用設備費330円。キャンペーンにより変動する場合があります。最新の料金は公式サイトでご確認ください。
           </p>
         </section>
 
@@ -324,7 +333,7 @@ export default function AppleGymReview() {
         <section id="stores" className="mb-12">
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Apple GYMの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            Apple GYMは東京・神奈川を中心に69店舗以上を展開しています（2026年5月時点）。以下は主要エリアの店舗一覧です。
+            Apple GYMは東京・神奈川で66店舗を展開しています（2026年10月 公式トップの一覧）。以下は主要エリアの店舗一覧です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">

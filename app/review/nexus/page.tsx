@@ -2,29 +2,30 @@ import type { Metadata } from "next";
 import GmapStats from "@/components/GmapStats";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "Nexusジムの口コミ・評判は？格安パーソナルの料金・効果を徹底解説",
+  title: "Nexusジム（ネクサス）の口コミ・評判｜入会金・料金・悪い口コミを検証",
   description:
-    "Nexusジムの口コミ・評判を徹底解説。月額19,800円〜の格安・月額制パーソナルジムの料金、トレーナーの質や効果に関する口コミ傾向、メリット・デメリット、よくある質問まで網羅。",
+    "Nexusジムの口コミ・評判を徹底解説。格安・月額制パーソナルジム（公式記載は1回4,500円〜／月8,000円〜）の料金、トレーナーの質や効果に関する口コミ傾向、メリット・デメリット、よくある質問まで網羅。",
 };
 
 const basicInfo = [
   { label: "ジム名", value: "Nexusジム" },
   { label: "タイプ", value: "格安月額制パーソナルジム" },
-  { label: "料金帯", value: "公式サイトで料金を公表していません" },
+  { label: "料金帯", value: "1回4,500円〜／月8,000円〜（公式トップ）、60分月4回29,800円（特商法表記）" },
   { label: "エリア", value: "東京・横浜・埼玉・大阪・名古屋・福岡" },
   { label: "特徴", value: "格安 / 月額制 / パーソナル指導 / 食事アドバイス / 完全個室" },
 ];
 
 const strengths = [
   {
-    title: "月額19,800円〜の業界最安級パーソナル",
-    desc: "月額19,800円〜と、パーソナルジム業界では最安級の料金設定。パーソナルトレーニングを試してみたいけど費用が不安という方でも、気軽に始められる価格帯です。",
+    title: "公式記載で1回4,500円〜の格安パーソナル",
+    desc: "公式サイトの記載は「1回4,500円〜／月8,000円〜」で、パーソナルジムとしては低価格帯です（プラン別の価格表は非公表）。パーソナルトレーニングを試してみたいけど費用が不安という方でも、気軽に始められる価格帯です。",
   },
   {
     title: "月額制で柔軟に続けられる",
@@ -39,7 +40,7 @@ const strengths = [
 const merits = [
   {
     title: "圧倒的な低価格",
-    desc: "パーソナルジムの相場が月5万円以上の中、月額2万円を切る価格は破格。長期的に通うほどコスパが良くなります。",
+    desc: "公式トップの記載は「1回4,500円〜／月8,000円〜」、特定商取引法の表記では60分・月4回コース29,800円（税込）。月額制のため、短期コースの一括払いより始めやすい料金です。",
   },
   {
     title: "月額制でリスクが低い",
@@ -66,10 +67,11 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式（nexus-gym.com トップ・legal-notice.html）の掲載値
 const pricingPlans = [
-  { name: "月4回プラン", duration: "40分/回", price: "月額19,800円", note: "週1回ペース" },
-  { name: "月8回プラン", duration: "40分/回", price: "月額34,800円", note: "週2回ペース・おすすめ" },
-  { name: "月12回プラン", duration: "40分/回", price: "月額46,800円", note: "週3回ペース" },
+  { name: "公式トップの記載", duration: "—", price: "1回4,500円〜／月8,000円〜", note: "プラン別の価格表はトップに無し" },
+  { name: "60分・月4回コース", duration: "月4回", price: "29,800円/月", note: "税込（特定商取引法の表記）" },
+  { name: "入会金", duration: "—", price: "15,000円", note: "税込（特定商取引法の表記）" },
 ];
 
 const reviewSummary = "Nexusジムの口コミでは「この価格でパーソナルが受けられるのは驚き」「月額制で安心」「トレーナーが親切」という声が見られます。コスパの良さが最大の魅力で、パーソナルジム初心者からの支持が高いです。一方で「セッション時間が短い」「設備がシンプル」という意見も。まずはパーソナルジムを試してみたい方の入門として最適です。";
@@ -81,7 +83,7 @@ const reviewCategories = [
   },
   {
     title: "料金・コスパ",
-    summary: "月額19,800円という価格設定はパーソナルジムとしては破格で、コスパに関する満足度は非常に高いです。月額制による家計管理のしやすさも好評です。",
+    summary: "低価格（公式記載1回4,500円〜）はパーソナルジムとしては珍しく、コスパに関する満足度は非常に高いです。月額制による家計管理のしやすさも好評です。",
   },
   {
     title: "施設・設備",
@@ -102,7 +104,7 @@ const reviewCategories = [
 ];
 
 const faqItems = [
-  { q: "Nexusジムの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
+  { q: "Nexusジムの入会金はいくらですか？", a: "公式サイトの特定商取引法の表記に入会金15,000円（税込）と記載があります（10/14確認）。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "なぜこんなに安いのですか？", a: "広告費の最適化や設備のシンプル化、効率的な運営により低価格を実現しています。大規模な広告宣伝を行わず口コミ中心の集客を行うことでコストを削減し、トレーニングの質は維持したまま業界最安級の価格を実現しています。" },
   { q: "初心者でも大丈夫ですか？", a: "はい、Nexusジムの利用者の多くは筋トレ初心者です。トレーナーが器具の使い方やフォーム、呼吸法まで一から丁寧に指導するため、運動経験がない方でも安心してスタートできます。" },
   { q: "食事指導は受けられますか？", a: "はい、基本的な食事アドバイスがプランに含まれています。毎食の厳密な管理ではなく、食事内容の改善ポイントや摂取すべき栄養素の提案など、無理なく続けられるレベルのアドバイスが中心です。" },
@@ -160,19 +162,19 @@ export default function NexusReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Nexusジム" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Nexusジムの口コミ・評判は？格安パーソナルの料金・効果を徹底解説
+          Nexusジム（ネクサス）の口コミ・評判｜入会金・料金・悪い口コミを検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/nexus.jpg" alt="Nexusジムの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">Nexusジム 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="nexus" name="Nexusジム" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -195,6 +197,7 @@ export default function NexusReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="Nexusジム" />
+        <BrandFactCheck slug="nexus" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             Nexusジム の公式サイトはこちら
@@ -202,13 +205,13 @@ export default function NexusReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Nexusジムは月額<span className="font-bold bg-yellow-100 px-0.5">19,800円</span>〜の格安パーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額制</span>で始めやすく辞めやすい柔軟な料金体系と、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、Nexusジムの口コミ・評判の傾向、料金体系、メリット・デメリットを詳しく解説します。
+          Nexusジムは月額<span className="font-bold bg-yellow-100 px-0.5">1回4,500円</span>〜（公式記載）の格安パーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額制</span>で始めやすく辞めやすい柔軟な料金体系と、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、Nexusジムの口コミ・評判の傾向、料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：Nexusジムはこんな人におすすめ</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>できるだけ安く</strong>パーソナル指導を試したい人（月額19,800円〜）</li>
+            <li>・<strong>できるだけ安く</strong>パーソナル指導を試したい人（公式記載1回4,500円〜）</li>
             <li>・高額な一括契約が不安で、<strong>月額制で気軽に始めたい</strong>人</li>
             <li>・口コミは「この価格でこの質は驚き」「トレーナーが丁寧」が中心。一方「セッションが短め」「設備はシンプル」という声も</li>
             <li>・料金・店舗・キャンペーンは変動するため<strong>公式サイトでの確認が必要</strong></li>
@@ -277,7 +280,7 @@ export default function NexusReview() {
               <h3 className="font-bold text-green-700 mb-3">向いている人</h3>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>初めてパーソナルジムを試してみたい方</li>
-                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>月々の予算を2万円以内に抑えたい方</li>
+                <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>月々の予算を3万円前後に抑えたい方</li>
                 <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>高額な一括払いではなく月額制で始めたい方</li>
                 <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>東京都内在住でアクセスしやすい方</li>
                 <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>40分程度の短時間トレーニングを希望する方</li>
@@ -342,7 +345,7 @@ export default function NexusReview() {
 
         <section className="mb-12">
           <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Nexusジム の口コミ分析</h2>
-          <p className="text-sm text-gray-700 mb-6 leading-relaxed">NexusジムのGoogleマップ口コミを分析すると、月額19,800円という圧倒的な低価格と月額制の手軽さに対する高い評価が目立ちます。小規模店舗ならではの丁寧なマンツーマン指導も支持されており、パーソナルジム入門として利用するユーザーが多い傾向です。以下では、カテゴリ別に口コミの傾向をまとめています。</p>
+          <p className="text-sm text-gray-700 mb-6 leading-relaxed">NexusジムのGoogleマップ口コミを分析すると、低価格（公式記載1回4,500円〜）と月額制の手軽さに対する高い評価が目立ちます。小規模店舗ならではの丁寧なマンツーマン指導も支持されており、パーソナルジム入門として利用するユーザーが多い傾向です。以下では、カテゴリ別に口コミの傾向をまとめています。</p>
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
             <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて載せることはしない方針のため）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上の「Googleマップ実測データ」に掲載しています。</p>
             <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Nexus+%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline">Googleマップで口コミを見る</a></p>

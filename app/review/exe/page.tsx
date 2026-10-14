@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "EXE（エグゼ）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "EXE（エグゼ）パーソナルジムの口コミ・評判｜料金・返金保証を検証",
   description:
     "EXE（エグゼ）パーソナルジムの口コミ・評判を徹底解説。高級完全個室・マンツーマン指導の料金体系、メリット・デメリット、よくある質問まで網羅。",
 };
@@ -16,7 +17,7 @@ const basicInfo = [
   { label: "ジム名", value: "EXE（エグゼ）パーソナルジム" },
   { label: "タイプ", value: "高級パーソナルジム（完全個室・マンツーマン）" },
   { label: "料金帯", value: "コース総額26,400円〜" },
-  { label: "エリア", value: "東京都世田谷区（駒沢大学）・藤沢" },
+  { label: "エリア", value: "駒沢大学店（世田谷区）・都立大学店（目黒区）※公式記載の店舗" },
   { label: "特徴", value: "高級完全個室 / マンツーマン指導 / オーダーメイドプログラム / アメニティ充実" },
 ];
 
@@ -65,16 +66,23 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "月4回プラン", duration: "60分/回", price: "月額80,000円〜", note: "週1回ペース" },
-  { name: "月8回プラン", duration: "60分/回", price: "月額150,000円〜", note: "週2回ペース・おすすめ" },
-  { name: "短期集中コース（2ヶ月16回）", duration: "60分/回", price: "総額300,000円〜", note: "食事指導付き" },
+  { name: "60分 単発", duration: "1回", price: "11,000円", note: "税込" },
+  { name: "60分 4回", duration: "4回", price: "44,000円", note: "税込" },
+  { name: "60分 8回", duration: "8回", price: "79,200円", note: "税込" },
+  { name: "60分 16回", duration: "16回", price: "140,800円", note: "税込" },
+  { name: "60分 24回", duration: "24回", price: "198,000円", note: "税込" },
+  { name: "60分 32回", duration: "32回", price: "255,200円", note: "税込" },
+  { name: "40分 4回", duration: "4回", price: "26,400円", note: "税込" },
+  { name: "40分 8回", duration: "8回", price: "48,400円", note: "税込" },
+  { name: "入会金", duration: "—", price: "33,000円", note: "税込" },
 ];
 
 const reviewSummary = "EXEの口コミでは「高級感のある空間で気持ちよくトレーニングできる」「トレーナーの質が高い」「食事指導が的確」といった声が多く見られます。ラグジュアリーな環境と質の高い指導が高く評価されています。一方で「料金が高い」「店舗が少ない」という点は事前に理解しておく必要があります。全体的に満足度は非常に高い傾向です。";
 
 const faqItems = [
-  { q: "EXEの入会金はいくらですか？", a: "入会金は50,000円〜100,000円程度です。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
+  { q: "EXEの入会金はいくらですか？", a: "入会金は33,000円（税込）です（公式記載）。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "EXEは完全予約制ですか？", a: "はい、完全予約制です。専用アプリまたはLINEから予約・変更が可能です。" },
   { q: "手ぶらで通えますか？", a: "はい、ウェアやタオル、シューズ、アメニティが完備されているため、手ぶらで通うことができます。" },
   { q: "食事指導は受けられますか？", a: "はい、プランに応じた食事指導が含まれています。専用アプリやLINEでの相談にも対応しています。" },
@@ -106,7 +114,7 @@ export default function ExeReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "EXE（エグゼ）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "EXE（エグゼ）パーソナルジムの口コミ・評判｜料金・返金保証を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -117,19 +125,19 @@ export default function ExeReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "EXE" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          EXE（エグゼ）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          EXE（エグゼ）パーソナルジムの口コミ・評判｜料金・返金保証を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/exe.jpg" alt="EXE（エグゼ）パーソナルジムの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">EXE（エグゼ）パーソナルジム 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="exe" name="EXE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -148,6 +156,7 @@ export default function ExeReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="EXE" />
+        <BrandFactCheck slug="exe" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=H9594M.1.O142710U.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             EXE の公式サイトはこちら

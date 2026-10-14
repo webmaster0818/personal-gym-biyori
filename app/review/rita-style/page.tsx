@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "RITA STYLEの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "RITA STYLE（リタスタイル）の口コミ・評判｜料金・返金条件を検証",
   description:
     "RITA STYLE（リタスタイル）の口コミ・評判を徹底解説。九州発・食事指導付き低価格パーソナルジムの料金体系、メリット・デメリットまで網羅。",
 };
@@ -16,14 +17,14 @@ const basicInfo = [
   { label: "ジム名", value: "RITA STYLE（リタスタイル）" },
   { label: "タイプ", value: "食事指導付きパーソナルジム" },
   { label: "料金帯", value: "コース総額97,680円〜" },
-  { label: "エリア", value: "福岡・熊本・佐賀・長崎・岡山など" },
+  { label: "エリア", value: "岡山駅前・博多・天神大名・小倉魚町・熊本上通・鹿児島天文館・長崎浜町（公式記載の7店舗）" },
   { label: "特徴", value: "九州発 / 食事指導付き / 低価格 / 完全個室 / 短期集中" },
 ];
 
 const strengths = [
   {
     title: "九州エリアで最安級のパーソナルジム",
-    desc: "2ヶ月156,200円〜と、大手パーソナルジムの約半額で通える低価格を実現。九州・中国地方を中心に展開しており、地方でも本格的なパーソナルトレーニングが受けられます。",
+    desc: "入会金込み総額で1ヶ月4回97,680円〜・2ヶ月8回151,580円〜と、低価格帯の料金を実現。九州・中国地方を中心に展開しており、地方でも本格的なパーソナルトレーニングが受けられます。",
   },
   {
     title: "充実の食事指導",
@@ -45,8 +46,8 @@ const merits = [
     desc: "九州・中国地方に店舗を展開しており、都心部にしかないパーソナルジムが多い中、地方在住者にとって貴重な選択肢です。",
   },
   {
-    title: "30日間全額返金保証",
-    desc: "効果に満足できなかった場合の全額返金保証があり、初めてのパーソナルジムでも安心して始められます。",
+    title: "条件つきの全額返金制度",
+    desc: "2・3・6ヶ月の月8回以上のコースで、目的を「減量のみ」と申告し、開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合に全額返金（入会金除く）する制度があり（公式の返金ページ）、初めてのパーソナルジムでも条件を理解したうえで始められます。",
   },
 ];
 
@@ -65,18 +66,23 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "2ヶ月コース（16回）", duration: "60分/回", price: "156,200円", note: "食事指導付き" },
-  { name: "3ヶ月コース（24回）", duration: "60分/回", price: "213,400円", note: "食事指導付き" },
-  { name: "デイタイムコース", duration: "60分/回", price: "130,900円〜", note: "平日日中限定・2ヶ月" },
+  { name: "週1回 1ヶ月4回", duration: "4回", price: "97,680円", note: "入会金込み総額・税込" },
+  { name: "週1回 2ヶ月8回", duration: "8回", price: "151,580円", note: "入会金込み総額・税込" },
+  { name: "週1回 3ヶ月12回", duration: "12回", price: "205,480円", note: "入会金込み総額・税込" },
+  { name: "週2回 2ヶ月16回", duration: "16回", price: "259,380円", note: "入会金込み総額・税込" },
+  { name: "週2回 3ヶ月24回", duration: "24回", price: "345,290円", note: "入会金込み総額・税込" },
+  { name: "週2回 6ヶ月48回", duration: "48回", price: "646,800円", note: "入会金込み総額・税込" },
+  { name: "卒業後メンテナンス", duration: "月額", price: "21,560〜64,680円/月", note: "平日通い放題29,800円" },
 ];
 
 const reviewSummary = "RITA STYLEの口コミでは「この価格で食事指導付きはすごい」「地方でもパーソナルが受けられて嬉しい」という声が目立ちます。コスパの良さが最大の魅力で、九州在住者からの支持が高いです。一方で「設備がシンプル」「トレーナーによって当たり外れがある」という意見も見られます。";
 
 const faqItems = [
-  { q: "RITA STYLEの入会金はいくらですか？", a: "入会金は39,800円です。キャンペーンで無料になることがあります。最新情報は公式サイトでご確認ください。" },
+  { q: "RITA STYLEの入会金はいくらですか？", a: "入会金は43,780円です（コースにより0円。公式料金表の総額は入会金込み）。最新情報は公式サイトでご確認ください。" },
   { q: "食事制限は厳しいですか？", a: "過度な食事制限は行わず、3食しっかり食べながらのボディメイクを推奨しています。LINEで毎日の食事をサポートします。" },
-  { q: "30日間返金保証の条件は？", a: "所定の条件を満たした場合に全額返金されます。詳細はカウンセリング時にご確認ください。" },
+  { q: "全額返金制度の条件は？", a: "公式の返金ページによると、対象は2・3・6ヶ月の月8回以上のコースで、入会時に目的を「減量のみ」と申告し、開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合に限られます。入会金は対象外、申請は来店・書面。無断欠席2回以上・日時変更4回以上などは対象外です（2026年10月14日確認）。" },
   { q: "ウェアのレンタルはありますか？", a: "はい、ウェアやタオルのレンタルが用意されています。手ぶらで通えます。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
   { q: "分割払いはできますか？", a: "はい、分割払いに対応しています。月々の支払い額は回数により異なります。" },
@@ -106,7 +112,7 @@ export default function RitaStyleReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "RITA STYLEの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "RITA STYLE（リタスタイル）の口コミ・評判｜料金・返金条件を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -117,19 +123,19 @@ export default function RitaStyleReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RITA STYLE" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          RITA STYLEの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          RITA STYLE（リタスタイル）の口コミ・評判｜料金・返金条件を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/rita-style.jpg" alt="RITA STYLEの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">RITA STYLE 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="rita-style" name="RITA STYLE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -148,6 +154,7 @@ export default function RitaStyleReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="RITA STYLE" />
+        <BrandFactCheck slug="rita-style" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=Q8343U.1.31275172.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             RITA STYLE の公式サイトはこちら

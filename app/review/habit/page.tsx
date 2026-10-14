@@ -2,15 +2,16 @@ import type { Metadata } from "next";
 import GmapStats from "@/components/GmapStats";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・返金条件を検証",
   description:
-    "HABIT PERSONAL GYM（ハビットパーソナルジム）の口コミ・評判を徹底解説。業界最安級の料金設定、全国16店舗の基本情報、オリジナルプロテイン付きのサービスからメリット・デメリット、Googleマップの口コミ分析まで網羅。",
+    "HABIT PERSONAL GYM（ハビットパーソナルジム）の口コミ・評判を徹底解説。業界最安級の料金設定、全18店舗（東京17・大阪1）の基本情報、オリジナルプロテイン付きのサービスからメリット・デメリット、Googleマップの口コミ分析まで網羅。",
 };
 
 /* ---------- affiliate ---------- */
@@ -18,8 +19,8 @@ const affiliateUrl = "https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A";
 
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
-  { label: "運営会社", value: "HABIT PERSONAL GYM" },
-  { label: "店舗数", value: "全国16店舗（2026年4月時点）" },
+  { label: "運営会社", value: "株式会社Natural（公式会社概要）" },
+  { label: "店舗数", value: "全18店舗（東京17・大阪1、2026年10月 公式記載）" },
   { label: "営業時間", value: "店舗により異なる" },
   { label: "特徴", value: "業界最安級の料金 / 料金の透明性 / オリジナルプロテイン付き / 栄養・休養アドバイス" },
   { label: "公式URL", value: "https://habit-training.com/", isLink: true },
@@ -29,7 +30,7 @@ const basicInfo = [
 const strengths = [
   {
     title: "業界最安級の料金設定",
-    desc: "東京のパーソナルジム2ヶ月平均相場が約22.7万円とされる中、HABIT PERSONAL GYMは大幅に安い料金でサービスを提供しています。入会金30,000円も体験当日の入会で0円になるため、初期費用を抑えてパーソナルトレーニングを始められます。価格面でパーソナルジムを諦めていた方にも手が届きやすい料金体系です。",
+    desc: "集中ダイエットコース16回（2ヶ月）が142,400円（1回8,900円・税込）で、RIZAPのBASIC 16回327,800円（税込）と比べて半額以下です。入会金30,000円も体験当日の入会で0円になるため、初期費用を抑えてパーソナルトレーニングを始められます。価格面でパーソナルジムを諦めていた方にも手が届きやすい料金体系です。",
   },
   {
     title: "料金の透明性（公式HPに全額掲載）",
@@ -45,7 +46,7 @@ const strengths = [
 const merits = [
   {
     title: "東京平均の半額以下で通える圧倒的コスパ",
-    desc: "東京のパーソナルジム2ヶ月平均が約22.7万円と言われる中、HABIT PERSONAL GYMはそれを大幅に下回る料金設定です。入会金30,000円も体験当日入会で無料になるキャンペーンがあり、初期費用を最小限に抑えられます。低価格ながらマンツーマン指導の質は維持されており、費用対効果の高さが際立っています。",
+    desc: "16回142,400円（1回8,900円）・32回なら1回8,700円と、回数が増えるほど1回あたりが下がる料金設定です（公式料金ページ）。入会金30,000円も体験当日入会で無料になるキャンペーンがあり、初期費用を最小限に抑えられます。低価格ながらマンツーマン指導の質は維持されており、費用対効果の高さが際立っています。",
   },
   {
     title: "料金が明朗会計で安心して契約できる",
@@ -61,7 +62,7 @@ const merits = [
 const demerits = [
   {
     title: "店舗が東京・大阪に集中しており地方は少ない",
-    desc: "HABIT PERSONAL GYMは全国16店舗を展開していますが、中目黒・代々木上原・白金高輪・桜新町・大阪梅田など、東京・大阪エリアが中心です。地方在住の方は通える店舗が見つからない可能性があるため、入会前に最寄り店舗の有無を確認する必要があります。今後の店舗拡大に期待したいところです。",
+    desc: "HABIT PERSONAL GYMは全18店舗（東京17・大阪1）を展開していますが、中目黒・代々木上原・白金高輪・桜新町・大阪梅田など、東京・大阪エリアが中心です。地方在住の方は通える店舗が見つからない可能性があるため、入会前に最寄り店舗の有無を確認する必要があります。今後の店舗拡大に期待したいところです。",
   },
   {
     title: "大手と比べると知名度がまだ低い",
@@ -69,14 +70,19 @@ const demerits = [
   },
   {
     title: "店舗によって設備や広さに差がある場合も",
-    desc: "16店舗それぞれの立地や物件が異なるため、店舗によってトレーニングスペースの広さやマシンのラインナップにばらつきがある可能性があります。体験トレーニングを利用して、実際の設備や雰囲気を確認してから入会を決めることをおすすめします。",
+    desc: "18店舗それぞれの立地や物件が異なるため、店舗によってトレーニングスペースの広さやマシンのラインナップにばらつきがある可能性があります。体験トレーニングを利用して、実際の設備や雰囲気を確認してから入会を決めることをおすすめします。",
   },
 ];
 
 /* ---------- 料金プラン ---------- */
+// 2026-10-14: 公式料金ページ（habit-training.com/price）の掲載値に差し替え
 const pricingPlans = [
-  { name: "入会金", duration: "—", price: "30,000円", note: "体験当日入会で0円" },
-  { name: "パーソナルトレーニング", duration: "要確認", price: "業界最安級", note: "公式サイトに全プラン掲載" },
+  { name: "集中ダイエットコース 10回", duration: "50分", price: "99,800円（1回9,980円）", note: "税込" },
+  { name: "集中ダイエットコース 16回（2ヶ月）", duration: "50分", price: "142,400円（1回8,900円）", note: "税込" },
+  { name: "集中ダイエットコース 32回", duration: "50分", price: "278,400円（1回8,700円）", note: "税込" },
+  { name: "回数券 4回", duration: "50分", price: "39,300円", note: "税込・有効期限3ヶ月" },
+  { name: "月額プラン 週1回", duration: "50分", price: "29,780円〜/月", note: "税込" },
+  { name: "入会金", duration: "—", price: "30,000円", note: "キャンペーンで0円（体験当日入会の方に限る）" },
 ];
 
 /* ---------- 口コミデータ ---------- */
@@ -111,7 +117,7 @@ const reviewCategories = [
   },
   {
     title: "立地・アクセス",
-    summary: "各店舗は駅から近い立地が多く、通いやすさが評価されています。ただし店舗数が16店舗と限られるため、最寄りに店舗があるかの確認が必要です。",
+    summary: "各店舗は駅から近い立地が多く、通いやすさが評価されています。ただし店舗数が18店舗と限られるため、最寄りに店舗があるかの確認が必要です。",
   },
   {
     title: "初心者の使いやすさ",
@@ -129,7 +135,7 @@ const faqItems = [
   { q: "HABIT PERSONAL GYMの料金は公式サイトで確認できますか？", a: "はい、全プランの料金が公式サイトに掲載されています。事前に総額を確認した上でカウンセリングに臨むことができます。" },
   { q: "プロテインは無料で提供されますか？", a: "はい、トレーニング後にHABITオリジナルプロテインが提供されます。自分でプロテインを用意する必要はありません。" },
   { q: "食事指導は受けられますか？", a: "はい、トレーナーから栄養面のアドバイスを受けられます。さらに休養や睡眠に関するアドバイスも含まれており、トータルでのボディメイクをサポートしてもらえます。" },
-  { q: "HABIT PERSONAL GYMはどこに店舗がありますか？", a: "東京（中目黒、代々木上原、白金高輪、桜新町、梅ヶ丘、神田、学芸大学など）と大阪（梅田）を中心に全国16店舗を展開しています。詳細は本ページ下部の店舗一覧をご確認ください。" },
+  { q: "HABIT PERSONAL GYMはどこに店舗がありますか？", a: "東京（中目黒、代々木上原、白金高輪、桜新町、梅ヶ丘、神田、学芸大学など）と大阪（梅田）を中心に全18店舗（東京17・大阪1）を展開しています（2026年10月 公式記載）。詳細は本ページ下部の店舗一覧をご確認ください。" },
   { q: "体験トレーニングはありますか？", a: "はい、体験トレーニングが用意されています。体験当日に入会すると入会金が0円になる特典もあるため、まずは体験から始めることをおすすめします。" },
   { q: "女性でも通いやすいですか？", a: "はい、多くの女性が利用しています。マンツーマン指導なので周りの目を気にする必要がなく、トレーニング強度も個人に合わせて調整してもらえます。" },
   { q: "退会・解約はできますか？", a: "退会手続きは店舗で行います。詳細な条件は契約内容によって異なるため、入会時に確認することをおすすめします。" },
@@ -193,7 +199,7 @@ export default function HabitReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・返金条件を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -204,20 +210,20 @@ export default function HabitReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "HABIT PERSONAL GYM" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・メリット・デメリットを徹底解説
+          HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・返金条件を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/habit.jpg" alt="HABIT PERSONAL GYM（ハビット）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">HABIT PERSONAL GYM（ハビット） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="habit" name="HABIT PERSONAL GYM" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -238,6 +244,7 @@ export default function HabitReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="HABIT PERSONAL GYM" />
+        <BrandFactCheck slug="habit" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             HABIT の公式サイトはこちら
@@ -245,7 +252,7 @@ export default function HabitReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          HABIT PERSONAL GYM（ハビットパーソナルジム）は、東京・大阪を中心に全国16店舗を展開するパーソナルトレーニングジムです。業界最安級の料金設定と料金の透明性を強みに、オリジナルプロテインの提供や栄養・休養面のアドバイスなど、トレーニング以外のサポートも充実。利用者満足度95%と高い評価を得ています。本記事では、HABIT PERSONAL GYMの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          HABIT PERSONAL GYM（ハビットパーソナルジム）は、東京・大阪で全18店舗を展開するパーソナルトレーニングジムです。業界最安級の料金設定と料金の透明性を強みに、オリジナルプロテインの提供や栄養・休養面のアドバイスなど、トレーニング以外のサポートも充実しています。本記事では、HABIT PERSONAL GYMの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -327,7 +334,7 @@ export default function HabitReview() {
         <section id="pricing" className="mb-12">
           <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの料金</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            HABIT PERSONAL GYMは業界最安級の料金設定を強みとしています。全プランの料金が公式サイトに掲載されているため、詳細な料金はそちらでご確認ください。
+            HABIT PERSONAL GYMは業界最安級の料金設定を強みとしています。以下は2026年10月14日に公式料金ページで確認した掲載値です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
@@ -473,7 +480,7 @@ export default function HabitReview() {
         <section id="stores" className="mb-12">
           <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            HABIT PERSONAL GYMは東京・大阪を中心に全国16店舗を展開しています（2026年4月時点）。以下は都道府県別の店舗一覧です。
+            HABIT PERSONAL GYMは東京・大阪で全18店舗を展開しています（2026年10月 公式記載）。下記は当サイト掲載分。以下は都道府県別の店舗一覧です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">

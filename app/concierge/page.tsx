@@ -40,7 +40,7 @@ const gymImages: Record<string, string> = {
   'ASPI': '/ss-exercise-coach.jpg',
   'ビーコンセプト': '/ss-b-concept.jpg',
   'REXER': '/ss-lexer.jpg',
-  'Laststyle': '/ss-laststyle.jpg',
+  'Lastyle': '/ss-laststyle.jpg',
   'MIYAZAKI GYM': '/ss-miyazaki-gym.jpg',
   'element': '/ss-element.jpg',
   'chocozap': '/ss-chocozap.jpg',
@@ -432,8 +432,8 @@ const stores: Store[] = [
     ['東京', '新宿', '/review/cocodakara/shinjuku/'],
     ['東京', '池袋', '/review/cocodakara/ikebukuro/'],
   ]),
-  /* ── Laststyle (affiliate, mid) ──────────────────────── */
-  ...mkStores('Laststyle', {
+  /* ── Lastyle (affiliate, mid) ──────────────────────── */
+  ...mkStores('Lastyle', {
     price: '月額4万円〜',
     priceCategory: 'mid',
     hours: '10:00〜22:00',

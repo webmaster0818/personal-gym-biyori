@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import GmapStats from "@/components/GmapStats";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "RIZAPの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証",
   description:
     "RIZAPの口コミ・評判を徹底解説。シェイプアッププログラム327,800円〜の料金体系、16万人の実績、30日間全額返金保証の基本情報からメリット・デメリット、Googleマップの口コミ分析まで網羅。",
 };
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "運営会社", value: "RIZAP株式会社" },
-  { label: "店舗数", value: "全国100店舗以上（2026年4月時点）" },
+  { label: "店舗数", value: "全国展開（公式の店舗検索に総数の記載なし）" },
   { label: "営業時間", value: "10:00〜22:00（店舗により異なる）" },
   { label: "特徴", value: "完全個室 / 専属トレーナー / 管理栄養士サポート / 30日間全額返金保証" },
   { label: "公式URL", value: "https://www.rizap.jp/", isLink: true },
@@ -71,11 +72,10 @@ const demerits = [
 ];
 
 /* ---------- 料金プラン ---------- */
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "シェイプアッププログラム", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込" },
-  { name: "美脚プログラム", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込" },
-  { name: "マッスルゲインプログラム", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込" },
-  { name: "PRIMEプラン", duration: "月2回〜", price: "月額22,000円〜", note: "税込・月額制" },
+  { name: "BASIC（2ヶ月16回）", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込・別途入会金55,000円＝総額382,800円" },
+  { name: "PRIME", duration: "月額制", price: "77,000円/月", note: "税込・別途登録料440,000円＋入会金55,000円" },
 ];
 
 /* ---------- 口コミデータ ---------- */
@@ -126,7 +126,7 @@ const reviewCategories = [
 const faqItems = [
   { q: "RIZAPの入会金はいくらですか？", a: "入会金は55,000円（税込）です。キャンペーン期間中は割引になることもあるため、公式サイトで最新情報をご確認ください。" },
   { q: "RIZAPは完全個室ですか？", a: "はい、すべてのトレーニングルームが完全個室です。他の利用者と顔を合わせることなく、プライベートな空間でトレーニングに集中できます。" },
-  { q: "30日間全額返金保証の条件は？", a: "プログラム開始から30日以内であれば、いかなる理由でも全額返金に対応しています。所定の手続きが必要ですので、詳細はカウンセリング時にご確認ください。" },
+  { q: "30日間全額返金保証の条件は？", a: "公式の支払いガイドによると、入会時に契約したコースの初回利用日から30日間、理由を問わずコース料金が返金対象です。手続きは来店・書面のみ（電話・メール不可）で、利用すると再入会はできません。RIZAPで購入した物品は対象外で、入会金が対象かどうかは公式ページに明記がないため、カウンセリングで確認してください（2026年10月14日確認）。" },
   { q: "1回のトレーニング時間はどのくらいですか？", a: "1回あたり50分のマンツーマントレーニングです。着替えやシャワーの時間は含まれていません。" },
   { q: "食事制限はどのくらい厳しいですか？", a: "糖質制限をベースとした食事指導が行われます。プログラムのフェーズにより制限の度合いは変わりますが、特に初期は炭水化物の摂取量がかなり制限されます。" },
   { q: "リバウンドしませんか？", a: "プログラム中に正しい食事管理の知識を身につけることで、卒業後もリバウンドを防ぐことができます。ただし、自己管理が難しい方にはボディマネジメントプログラム（別途有料）も用意されています。" },
@@ -202,7 +202,7 @@ export default function RizapReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "RIZAPの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -213,20 +213,20 @@ export default function RizapReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          RIZAPの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/rizap.jpg" alt="RIZAPの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">RIZAP 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="rizap" name="RIZAP" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -249,6 +249,7 @@ export default function RizapReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="RIZAP" />
+        <BrandFactCheck slug="rizap" />
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             RIZAP の公式サイトはこちら
@@ -263,7 +264,7 @@ export default function RizapReview() {
         </div>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          RIZAPは「結果にコミット」のキャッチフレーズで知られる、国内最大手のパーソナルトレーニングジムです。全国100店舗以上を展開し、16万人以上の利用実績を持ちます。専属トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士による食事サポートの二本柱で、短期間での確実な体型変化を実現してきました。<span className="font-bold bg-yellow-100 px-0.5">30日間全額返金保証</span>も大きな特徴です。本記事では、RIZAPの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          RIZAPは「結果にコミット」のキャッチフレーズで知られる、国内最大手のパーソナルトレーニングジムです。全国に店舗を展開しています。専属トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士による食事サポートの二本柱で、短期間での確実な体型変化を実現してきました。<span className="font-bold bg-yellow-100 px-0.5">30日間全額返金保証</span>も大きな特徴です。本記事では、RIZAPの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -633,7 +634,7 @@ export default function RizapReview() {
         <section id="stores" className="mb-12">
           <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            RIZAPは全国100店舗以上を展開しています（2026年4月時点）。以下は主要エリアの店舗一覧です。
+            RIZAPは全国に店舗を展開しています。以下は主要エリアの店舗一覧です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">

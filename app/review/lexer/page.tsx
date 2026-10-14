@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "ReXeR（レクサー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "ReXeR（レクサー）の口コミ・評判｜料金・店舗・悪い口コミを検証",
   description:
     "ReXeR（レクサーパーソナルジム）の口コミ・評判を徹底解説。コンテスト優勝トレーナー、医学的根拠に基づくトレーニング、管理栄養士の食事管理、料金体系、メリット・デメリット、よくある質問まで網羅。",
 };
@@ -41,8 +42,8 @@ const merits = [
     desc: "初回カウンセリングでは姿勢分析を丁寧に実施。身体の歪みやクセを把握した上でプログラムを組むため、見た目の変化だけでなく、肩こりや腰痛などの根本改善も期待できます。",
   },
   {
-    title: "月会費15,000円〜とパーソナルジムでは始めやすい価格帯",
-    desc: "高級感のある空間と質の高いトレーナーを備えながら、月会費15,000円〜と比較的始めやすい料金設定。コストパフォーマンスの高さも魅力です。",
+    title: "月額コース9,900円〜とパーソナルジムでは始めやすい価格帯",
+    desc: "高級感のある空間と質の高いトレーナーを備えながら、月額コース9,900円（税込）＋1回5,060円〜と比較的始めやすい料金設定。コストパフォーマンスの高さも魅力です。",
   },
   {
     title: "東京・大阪・兵庫の好立地に6店舗展開",
@@ -65,10 +66,16 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "月会費プラン", duration: "−", price: "月額15,000円〜", note: "基本の月会費" },
-  { name: "パーソナルトレーニング", duration: "60分/回", price: "別途セッション料", note: "トレーナー指名可" },
-  { name: "食事管理オプション", duration: "−", price: "プランにより異なる", note: "管理栄養士がサポート" },
+  { name: "月額コース", duration: "月額", price: "9,900円/月＋1回5,060円〜", note: "税込" },
+  { name: "回数券8回", duration: "8回", price: "64,240円", note: "税込" },
+  { name: "回数券16回", duration: "16回", price: "123,200円", note: "税込" },
+  { name: "回数券24回", duration: "24回", price: "179,520円", note: "税込" },
+  { name: "回数券32回", duration: "32回", price: "228,800円", note: "税込" },
+  { name: "回数券40回", duration: "40回", price: "272,800円", note: "税込" },
+  { name: "食事管理コース", duration: "16回（2ヶ月）／24回（3ヶ月）／32回（4ヶ月）", price: "256,080円／359,920円／447,920円", note: "税込" },
+  { name: "入会金", duration: "—", price: "33,000円", note: "税込・キャンペーンで0円" },
 ];
 
 const reviewSummary = "ReXeR（レクサー）の口コミでは「効果実感96.1%」を裏付けるように、「身体が変わった」「トレーナーの質が高い」という声が多数。特に姿勢分析の丁寧さや設備の清潔感が好評です。コンテスト優勝トレーナーの指導力と、管理栄養士による食事管理の組み合わせが高い満足度に繋がっています。一方で「店舗がもっと増えてほしい」「人気トレーナーの枠がすぐ埋まる」といった声もあり、人気の高さがうかがえます。";
@@ -76,7 +83,7 @@ const reviewSummary = "ReXeR（レクサー）の口コミでは「効果実感9
 const affiliateUrl = "https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A";
 
 const faqItems = [
-  { q: "ReXeR（レクサー）の月会費はいくらですか？", a: "月会費は15,000円〜です。プランやオプションにより異なりますので、最新の料金は公式サイトまたは無料カウンセリングでご確認ください。" },
+  { q: "ReXeR（レクサー）の月会費はいくらですか？", a: "月額コースは月9,900円（税込）＋1回5,060円（税込）〜、回数券は8回64,240円〜です。入会金は通常33,000円（キャンペーンで0円）。最新の料金は公式サイトまたは無料カウンセリングでご確認ください。" },
   { q: "どのくらいで効果を実感できますか？", a: "個人差はありますが、多くの方が2〜3ヶ月で身体の変化を実感されています。効果実感率は96.1%と高い数値を誇ります。" },
   { q: "トレーナーの質はどうですか？", a: "フィットネスコンテスト優勝経験者を含むトップレベルのトレーナーが在籍。医学的根拠に基づいた指導を行います。" },
   { q: "食事管理はどのように行われますか？", a: "管理栄養士が専門的な知識に基づき食事管理をサポートします。無理な食事制限ではなく、科学的根拠に基づいたアドバイスを受けられます。" },
@@ -108,7 +115,7 @@ export default function RexerReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "ReXeR（レクサー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "ReXeR（レクサー）の口コミ・評判｜料金・店舗・悪い口コミを検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -119,19 +126,19 @@ export default function RexerReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "ReXeR（レクサー）" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          ReXeR（レクサー）の口コミ・評判｜料金・メリット・デメリットを徹底解説
+          ReXeR（レクサー）の口コミ・評判｜料金・店舗・悪い口コミを検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/lexer.jpg" alt="ReXeR（レクサー）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">ReXeR（レクサー） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="lexer" name="ReXeR（レクサー）" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -150,6 +157,7 @@ export default function RexerReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="ReXeR（レクサー）" />
+        <BrandFactCheck slug="lexer" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             REXER の公式サイトはこちら

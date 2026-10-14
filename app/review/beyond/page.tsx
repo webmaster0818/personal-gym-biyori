@@ -2,21 +2,22 @@ import type { Metadata } from "next";
 import GmapStats from "@/components/GmapStats";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "BEYONDの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "BEYOND（ビヨンド）の口コミ・評判｜悪い口コミ・料金・勧誘を公式情報で検証",
   description:
-    "BEYONDの口コミ・評判を徹底解説。コンテスト入賞トレーナーによる本格ボディメイク指導、糖質制限なしの食事指導、回数券10回96,800円〜の料金体系からメリット・デメリット、Googleマップの口コミ分析まで網羅。",
+    "BEYONDの口コミ・評判を徹底解説。コンテスト入賞トレーナーによる本格ボディメイク指導、糖質制限なしの食事指導、マンスリー月2回17,600円〜の料金体系からメリット・デメリット、Googleマップの口コミ分析まで網羅。",
 };
 
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
-  { label: "運営会社", value: "株式会社BEYOND" },
-  { label: "店舗数", value: "全国75店舗以上（2026年4月時点）" },
+  { label: "運営会社", value: "株式会社ワールドフィット（公式会社概要）" },
+  { label: "店舗数", value: "全国150店舗以上（2026年10月 公式トップの記載）" },
   { label: "営業時間", value: "10:00〜22:00（店舗により異なる）" },
   { label: "特徴", value: "コンテスト入賞トレーナー多数 / ボディメイク特化 / 糖質制限なしの食事指導" },
   { label: "公式URL", value: "https://beyond-gym.com/", isLink: true },
@@ -62,19 +63,25 @@ const demerits = [
   },
   {
     title: "店舗により雰囲気に差がある",
-    desc: "全国75店舗以上を展開しているため、店舗ごとの雰囲気やサービスレベルにばらつきがあるとの声が見られます。特に新しい店舗ではオペレーションが安定していないケースもあります。入会前に実際の店舗を見学し、雰囲気を確認することをおすすめします。",
+    desc: "全国150店舗以上を展開しているため、店舗ごとの雰囲気やサービスレベルにばらつきがあるとの声が見られます。特に新しい店舗ではオペレーションが安定していないケースもあります。入会前に実際の店舗を見学し、雰囲気を確認することをおすすめします。",
   },
   {
     title: "料金がやや高め",
-    desc: "ライフプランニングコース16回で290,400円（税込）と、パーソナルジムとしては中〜高価格帯に位置しています。回数券での利用も可能ですが、1回あたりの単価は安くはありません。トレーナーの質の高さを考慮すると妥当という声もありますが、予算重視の方には他の選択肢も検討すべきでしょう。",
+    desc: "ライフプランニング16回で290,400円（税込）、回数券10回で102,300円（税込）と、パーソナルジムとしては中〜高価格帯に位置しています。回数券での利用も可能ですが、1回あたりの単価は安くはありません。トレーナーの質の高さを考慮すると妥当という声もありますが、予算重視の方には他の選択肢も検討すべきでしょう。",
   },
 ];
 
 /* ---------- 料金プラン ---------- */
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "ライフプランニング16", duration: "16回 / 2ヶ月", price: "290,400円", note: "税込" },
-  { name: "ライフプランニング24", duration: "24回 / 3ヶ月", price: "422,400円", note: "税込" },
-  { name: "回数券10", duration: "10回", price: "96,800円", note: "税込・有効期限あり" },
+  { name: "マンスリー月2回", duration: "月2回", price: "17,600円/月", note: "税込・入会金0円" },
+  { name: "マンスリー月4回", duration: "月4回", price: "35,200円/月", note: "税込" },
+  { name: "マンスリー月8回", duration: "月8回", price: "69,300円/月", note: "税込" },
+  { name: "回数券10回", duration: "10回", price: "102,300円", note: "税込" },
+  { name: "回数券20回", duration: "20回", price: "187,000円", note: "税込" },
+  { name: "回数券30回", duration: "30回", price: "264,000円", note: "税込" },
+  { name: "ライフプランニング16回", duration: "16回", price: "290,400円", note: "税込" },
+  { name: "ライフプランニング24回", duration: "24回", price: "435,600円", note: "税込" },
 ];
 
 /* ---------- 口コミデータ ---------- */
@@ -201,7 +208,7 @@ export default function BeyondReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "BEYONDの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "BEYOND（ビヨンド）の口コミ・評判｜悪い口コミ・料金・勧誘を公式情報で検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -212,20 +219,20 @@ export default function BeyondReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BEYOND" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + Hero ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          BEYONDの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          BEYOND（ビヨンド）の口コミ・評判｜悪い口コミ・料金・勧誘を公式情報で検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/beyond.jpg" alt="BEYONDの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">BEYOND 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="beyond" name="BEYOND" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -248,6 +255,7 @@ export default function BeyondReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="BEYOND" />
+        <BrandFactCheck slug="beyond" />
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             BEYOND の公式サイトはこちら
@@ -262,7 +270,7 @@ export default function BeyondReview() {
         </div>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          BEYONDは全国75店舗以上を展開するボディメイク特化型のパーソナルトレーニングジムです。ボディビル・フィジークのコンテスト入賞経験を持つトレーナーが多数在籍し、初心者から上級者まで対応できる指導力が最大の特徴です。糖質制限に頼らない<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>と、筋肉をつけながら脂肪を落とすアプローチで支持を集めています。本記事では、BEYONDの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          BEYONDは全国150店舗以上（公式記載）を展開するボディメイク特化型のパーソナルトレーニングジムです。ボディビル・フィジークのコンテスト入賞経験を持つトレーナーが多数在籍し、初心者から上級者まで対応できる指導力が最大の特徴です。糖質制限に頼らない<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>と、筋肉をつけながら脂肪を落とすアプローチで支持を集めています。本記事では、BEYONDの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -648,7 +656,7 @@ export default function BeyondReview() {
         <section id="stores" className="mb-12">
           <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            BEYONDは全国75店舗以上を展開しています（2026年4月時点）。以下は主要エリアの店舗一覧です。
+            BEYONDは全国150店舗以上を展開しています（2026年10月 公式記載）。以下は主要エリアの店舗一覧です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">

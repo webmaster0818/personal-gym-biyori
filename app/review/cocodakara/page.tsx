@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "CoCoDakara Body Designの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "CoCoDakara Body Design（ココダカラ）の口コミ・評判｜料金を検証",
   description:
     "CoCoDakara Body Design（ココダカラボディーデザイン）の口コミ・評判を徹底解説。麻布十番の完全個室パーソナルジムの料金体系、メリット・デメリット、よくある質問まで網羅。",
 };
@@ -64,16 +65,18 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "月8回プラン", duration: "60分/回", price: "月額80,000円〜", note: "週2回ペース" },
-  { name: "短期集中2ヶ月コース", duration: "60分/回", price: "総額200,000円〜", note: "16回・食事指導込み" },
-  { name: "プレミアムコース", duration: "90分/回", price: "月額150,000円〜", note: "週2回・手厚いサポート" },
+  { name: "月4回", duration: "50分", price: "39,600円/月", note: "税込（学生37,400円）" },
+  { name: "月8回", duration: "50分", price: "77,440円/月", note: "税込（学生71,280円）" },
+  { name: "都度払い", duration: "50分", price: "10,780円/回", note: "税込" },
+  { name: "入会金", duration: "—", price: "19,800円", note: "税込・当日入会9,900円" },
 ];
 
 const reviewSummary = "CoCoDakara Body Designの口コミでは「完全個室で人目を気にせずトレーニングできる」「トレーナーの指導が丁寧で的確」という声が多く見られます。食事指導が含まれている点も高評価です。一方で「料金がやや高い」「店舗が1箇所しかない」といった指摘もあります。麻布十番エリアで質の高いパーソナルトレーニングを求める方に支持されているジムです。";
 
 const faqItems = [
-  { q: "CoCoDakara Body Designの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引や無料になる場合があります。最新情報は公式サイトまたは無料カウンセリングでご確認ください。" },
+  { q: "CoCoDakara Body Designの入会金はいくらですか？", a: "入会金は19,800円（税込）、当日入会で9,900円です（公式記載）。キャンペーン期間中は割引や無料になる場合があります。最新情報は公式サイトまたは無料カウンセリングでご確認ください。" },
   { q: "トレーニング未経験でも大丈夫ですか？", a: "はい、完全マンツーマン指導のため、未経験の方でも安心して始められます。一人ひとりのレベルに合わせたプログラムを組んでもらえます。" },
   { q: "食事指導はどのような内容ですか？", a: "日々の食事内容を共有し、トレーナーから栄養バランスや食事タイミングのアドバイスを受けられます。極端な食事制限ではなく、続けやすい食生活の改善を目指す指導方針です。" },
   { q: "無料体験やカウンセリングはありますか？", a: "無料カウンセリングが用意されています。体の悩みや目標をヒアリングし、最適なプランの提案を受けられます。公式サイトから予約可能です。" },
@@ -107,7 +110,7 @@ export default function CocodakaraReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "CoCoDakara Body Designの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "CoCoDakara Body Design（ココダカラ）の口コミ・評判｜料金を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -118,19 +121,19 @@ export default function CocodakaraReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "CoCoDakara Body Design" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          CoCoDakara Body Designの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          CoCoDakara Body Design（ココダカラ）の口コミ・評判｜料金を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/cocodakara.jpg" alt="CoCoDakara Body Designの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">CoCoDakara Body Design 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="cocodakara" name="CoCoDakara Body Design" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -149,6 +152,7 @@ export default function CocodakaraReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="CoCoDakara Body Design" />
+        <BrandFactCheck slug="cocodakara" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=L10446X.1.C147837Q.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             CoCoDakara の公式サイトはこちら

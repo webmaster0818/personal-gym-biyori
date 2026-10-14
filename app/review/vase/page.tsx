@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "VASE（ベイス）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "VASE（ベイス）パーソナルジムの口コミ・評判｜料金・店舗を検証",
   description:
     "VASE（ベイス）パーソナルトレーニングジムの口コミ・評判を徹底解説。料金体系、メリット・デメリット、よくある質問まで網羅。",
 };
@@ -16,7 +17,7 @@ const basicInfo = [
   { label: "ジム名", value: "VASE（ベイス）パーソナルジム" },
   { label: "タイプ", value: "パーソナルトレーニングジム" },
   { label: "料金帯", value: "月額32,000円〜" },
-  { label: "エリア", value: "藤沢・八王子・恵比寿" },
+  { label: "エリア", value: "藤沢・八王子・亀戸・恵比寿（公式記載）" },
   { label: "特徴", value: "パーソナルトレーニング / マンツーマン指導 / 食事サポート / 初心者歓迎" },
 ];
 
@@ -65,16 +66,21 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "月4回プラン", duration: "60分/回", price: "月額30,000円〜", note: "週1回ペース" },
-  { name: "月8回プラン", duration: "60分/回", price: "月額55,000円〜", note: "週2回ペース・人気プラン" },
-  { name: "短期集中コース（2ヶ月16回）", duration: "60分/回", price: "総額120,000円〜", note: "食事指導付き" },
+  { name: "月額 月4回", duration: "月4回・60分", price: "32,000円/月", note: "税込・最低契約3ヶ月" },
+  { name: "月額 月6回", duration: "月6回・60分", price: "45,000円/月", note: "税込" },
+  { name: "月額 月8回", duration: "月8回・60分", price: "56,000円/月", note: "税込" },
+  { name: "回数券5回", duration: "5回", price: "45,000円", note: "税込" },
+  { name: "回数券10回", duration: "10回", price: "85,000円", note: "税込" },
+  { name: "回数券15回", duration: "15回", price: "120,000円", note: "税込" },
+  { name: "入会金", duration: "—", price: "20,000円", note: "税込・体験当日入会で0円" },
 ];
 
 const reviewSummary = "VASEの口コミでは「トレーナーが親切で初心者でも安心」「オーダーメイドのプログラムが自分に合っている」「食事指導が分かりやすい」という声が多く見られます。丁寧な指導と無理のないプログラムが好評です。一方で「店舗数が少ない」「知名度が低いため情報が少ない」という指摘もあります。全体的に満足度は高い傾向です。";
 
 const faqItems = [
-  { q: "VASEの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
+  { q: "VASEの入会金はいくらですか？", a: "入会金は20,000円（税込）で、体験当日入会なら0円です（公式記載）。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "VASEは完全予約制ですか？", a: "はい、完全予約制です。Web予約システムまたはLINEから予約・変更が可能です。" },
   { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多く通われています。フォームの基礎から丁寧に指導するため、運動経験がなくても安心して始められます。" },
   { q: "食事指導は受けられますか？", a: "はい、プランに応じた食事アドバイスが含まれています。LINEでの相談に対応している場合もあります。" },
@@ -106,7 +112,7 @@ export default function VaseReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "VASE（ベイス）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "VASE（ベイス）パーソナルジムの口コミ・評判｜料金・店舗を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -117,15 +123,15 @@ export default function VaseReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "VASE" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          VASE（ベイス）パーソナルジムの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          VASE（ベイス）パーソナルジムの口コミ・評判｜料金・店舗を検証
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="vase" name="VASE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -144,6 +150,7 @@ export default function VaseReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="VASE" />
+        <BrandFactCheck slug="vase" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             VASE の公式サイトはこちら

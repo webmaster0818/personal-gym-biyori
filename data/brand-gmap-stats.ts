@@ -66,4 +66,17 @@ export const GMAP_STATS: Record<string, GmapBrandStat> = {
     top: [{ name: "ライザップ(RIZAP)佐賀店", rating: 5, reviews: 9, maps: "https://maps.google.com/?cid=18060625903828535471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "ライザップ(RIZAP)金沢店", rating: 4.9, reviews: 45, maps: "https://maps.google.com/?cid=3338010261278156061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "ライザップ(RIZAP)新潟店", rating: 4.8, reviews: 31, maps: "https://maps.google.com/?cid=3044253894182452831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
     bottom: [{ name: "ライザップ(RIZAP)盛岡店", rating: 3.8, reviews: 18, maps: "https://maps.google.com/?cid=8944262199763540850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "ライザップ(RIZAP)松山店", rating: 3.9, reviews: 26, maps: "https://maps.google.com/?cid=1799129258597234914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
   },
+  // 2026-10-14 追加: fit24（店名が「FiT24」で始まる店舗のみ。JOYFIT24等の別ブランドは除外）・apple-gym（同じ gym-db から抽出）
+  "fit24": {
+    stores: 13, rated: 13, avg: 3.7, wavg: 3.72, reviews: 469,
+    min: 3.1, max: 4.5, ge45: 1, lt40: 11,
+    top: [{ name: "FiT24 高知中万々店", rating: 4.5, reviews: 13, maps: "https://maps.google.com/?cid=6703438985204575510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "FiT24 高知南久保店", rating: 4.1, reviews: 28, maps: "https://maps.google.com/?cid=17418507802777040859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "FiT24 長野昭和通り店", rating: 3.9, reviews: 142, maps: "https://maps.google.com/?cid=14999779049867779108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
+    bottom: [{ name: "FiT24 福島南店", rating: 3.1, reviews: 33, maps: "https://maps.google.com/?cid=4521130058604482256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "FiT24 長野若槻店", rating: 3.4, reviews: 37, maps: "https://maps.google.com/?cid=7413631503388322880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
+  },
+  "apple-gym": {
+    stores: 4, rated: 4, avg: 4.88, wavg: 4.88, reviews: 339,
+    min: 4.8, max: 4.9, ge45: 4, lt40: 0,
+    top: [{ name: "Apple GYM", rating: 4.9, reviews: 106, maps: "https://maps.google.com/?cid=5623070090220815336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "Apple GYM（アップルジム）池袋店", rating: 4.9, reviews: 84, maps: "https://maps.google.com/?cid=5170610079776292586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "Apple GYM（アップルジム）新宿店", rating: 4.9, reviews: 80, maps: "https://maps.google.com/?cid=2330075690420082910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
+    bottom: [{ name: "Apple GYM（アップルジム）川崎店", rating: 4.8, reviews: 69, maps: "https://maps.google.com/?cid=10022356596413445007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }, { name: "Apple GYM", rating: 4.9, reviews: 106, maps: "https://maps.google.com/?cid=5623070090220815336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" }],
+  },
 };

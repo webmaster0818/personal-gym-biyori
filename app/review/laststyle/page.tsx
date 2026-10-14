@@ -1,22 +1,23 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "Laststyleの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "Lastyle（ラスタイル）の口コミ・評判｜料金・返金条件・悪い口コミ",
   description:
-    "Laststyle（ラストスタイル）パーソナルジムの口コミ・評判を徹底解説。ボクシング×パーソナルトレーニング融合の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "Lastyle（ラスタイル）パーソナルジムの口コミ・評判を徹底解説。ボクシング×パーソナルトレーニング融合の料金体系、メリット・デメリット、よくある質問まで網羅。",
 };
 
 const basicInfo = [
-  { label: "ジム名", value: "Laststyle（ラストスタイル）" },
+  { label: "ジム名", value: "Lastyle（ラスタイル）" },
   { label: "タイプ", value: "ボクシング×パーソナルトレーニング融合ジム" },
   { label: "料金帯", value: "コース総額158,400円〜" },
-  { label: "エリア", value: "池袋東口・新宿（東京）" },
+  { label: "エリア", value: "池袋東口本店（公式サイト記載の店舗）" },
   { label: "特徴", value: "ボクシング融合 / マンツーマン指導 / ダイエット特化 / ストレス発散" },
 ];
 
@@ -65,16 +66,18 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "月8回プラン", duration: "60分/回", price: "月額40,000円〜", note: "週2回ペース" },
-  { name: "月12回プラン", duration: "60分/回", price: "月額55,000円〜", note: "週3回ペース" },
-  { name: "短期集中2ヶ月プラン", duration: "60分/回", price: "総額200,000円〜", note: "16回・食事指導付き" },
+  { name: "12回（2ヶ月）", duration: "12回", price: "158,400円", note: "税込" },
+  { name: "16回", duration: "16回", price: "211,200円", note: "税込" },
+  { name: "20回", duration: "20回", price: "264,000円", note: "税込" },
+  { name: "入会金", duration: "—", price: "通常50,000円（税抜）", note: "キャンペーンで25,000円（税抜）" },
 ];
 
-const reviewSummary = "Laststyleの口コミでは「ボクシングが楽しくて続けられる」「ストレス発散になる」という声が多く見られます。トレーナーの指導が熱心で、初心者にも丁寧に教えてくれると好評です。一方で「店舗が少ない」「予約が取りにくい時間帯がある」といった指摘もあります。ダイエット目的の方からは特に満足度が高い傾向です。";
+const reviewSummary = "Lastyleの口コミでは「ボクシングが楽しくて続けられる」「ストレス発散になる」という声が多く見られます。トレーナーの指導が熱心で、初心者にも丁寧に教えてくれると好評です。一方で「店舗が少ない」「予約が取りにくい時間帯がある」といった指摘もあります。ダイエット目的の方からは特に満足度が高い傾向です。";
 
 const faqItems = [
-  { q: "Laststyleの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は無料または割引になることがあります。最新情報は公式サイトでご確認ください。" },
+  { q: "Lastyleの入会金はいくらですか？", a: "入会金は通常50,000円（税抜）、キャンペーンで25,000円（税抜）です（公式の店舗ページ記載）。キャンペーン期間中は無料または割引になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "ボクシング未経験でも大丈夫ですか？", a: "はい、会員の多くがボクシング未経験者です。トレーナーが基礎から丁寧に指導するため、初めての方でも安心して始められます。" },
   { q: "女性でも通えますか？", a: "はい、女性会員も多数在籍しています。女性トレーナーが対応する場合もありますので、気軽にお問い合わせください。" },
   { q: "食事指導は受けられますか？", a: "はい、プランに応じた食事アドバイスが含まれています。LINEでの食事報告・アドバイスに対応しているプランもあります。" },
@@ -99,14 +102,14 @@ const relatedReviews = [
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
 ];
 
-export default function LaststyleReview() {
+export default function LastyleReview() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Laststyleの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "Lastyle（ラスタイル）の口コミ・評判｜料金・返金条件・悪い口コミ",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -117,50 +120,51 @@ export default function LaststyleReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
-      <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Laststyle" }]} />
+      <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Lastyle" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Laststyleの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          Lastyle（ラスタイル）の口コミ・評判｜料金・返金条件・悪い口コミ
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
-          <img src="/brand-ss/laststyle.jpg" alt="Laststyleの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+          <img src="/brand-ss/laststyle.jpg" alt="Lastyleの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">Laststyle 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
-        <GymCta slug="laststyle" name="Laststyle" variant="top" />
+        <p className="text-xs text-gray-400 mb-6">Lastyle 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
+        <GymCta slug="laststyle" name="Lastyle" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
           <p className="font-bold text-gray-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
-            <li><a href="#s2" className="text-teal-600 hover:underline">Laststyleの基本情報</a></li>
-            <li><a href="#s3" className="text-teal-600 hover:underline">Laststyleの3つの強み</a></li>
-            <li><a href="#s4" className="text-teal-600 hover:underline">Laststyleのメリット・デメリット</a></li>
-            <li><a href="#s5" className="text-teal-600 hover:underline">Laststyleの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">Laststyleの口コミ概要</a></li>
-            <li><a href="#s7" className="text-teal-600 hover:underline">Laststyleのよくある質問</a></li>
-            <li><a href="#s8" className="text-teal-600 hover:underline">Laststyleが気になった方へ</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">Lastyleの基本情報</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">Lastyleの3つの強み</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">Lastyleのメリット・デメリット</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">Lastyleの料金</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">Lastyleの口コミ概要</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">Lastyleのよくある質問</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">Lastyleが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
-        <ReviewSummary gymName="Laststyle" />
+        <ReviewSummary gymName="Lastyle" />
+        <BrandFactCheck slug="laststyle" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
-            Laststyle の公式サイトはこちら
+            Lastyle の公式サイトはこちら
           </a>
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Laststyle（ラストスタイル）はボクシングとパーソナルトレーニングを融合させた独自のフィットネスジムです。楽しみながら効率的に脂肪を燃焼させるプログラムが特徴で、ダイエットやストレス発散を求める方に支持されています。本記事では、Laststyleの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          Lastyle（ラスタイル）はボクシングとパーソナルトレーニングを融合させた独自のフィットネスジムです。楽しみながら効率的に脂肪を燃焼させるプログラムが特徴で、ダイエットやストレス発散を求める方に支持されています。本記事では、Lastyleの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         {/* 基本情報 */}
         <section className="mb-12">
-          <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Laststyleの基本情報</h2>
+          <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lastyleの基本情報</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <tbody>
@@ -177,7 +181,7 @@ export default function LaststyleReview() {
 
         {/* 3つの強み */}
         <section className="mb-12">
-          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Laststyleの3つの強み</h2>
+          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lastyleの3つの強み</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
               <div key={i} className="bg-teal-50 rounded-lg p-5">
@@ -190,7 +194,7 @@ export default function LaststyleReview() {
 
         {/* メリット・デメリット */}
         <section className="mb-12">
-          <h2 id="s4" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">Laststyleのメリット・デメリット</h2>
+          <h2 id="s4" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">Lastyleのメリット・デメリット</h2>
           <h3 className="text-lg font-bold mb-4 text-green-700">メリット</h3>
           <div className="space-y-6 mb-8">
             {merits.map((m, i) => (
@@ -217,7 +221,7 @@ export default function LaststyleReview() {
 
         {/* 料金 */}
         <section className="mb-12">
-          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Laststyleの料金</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lastyleの料金</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -254,7 +258,7 @@ export default function LaststyleReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Laststyleの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lastyleの口コミ概要</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
@@ -262,10 +266,10 @@ export default function LaststyleReview() {
         </section>
 
         {/* FAQ */}
-      <GymCta slug="laststyle" name="Laststyle" />
+      <GymCta slug="laststyle" name="Lastyle" />
 
         <section className="mb-12">
-          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Laststyleのよくある質問</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lastyleのよくある質問</h2>
           <div className="space-y-3">
             {faqItems.map((item, i) => (
               <details key={i} className="bg-white border border-gray-200 rounded-lg group">
@@ -284,7 +288,7 @@ export default function LaststyleReview() {
 
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
-          <h2 id="s8" className="text-xl font-bold mb-3">Laststyleが気になった方へ</h2>
+          <h2 id="s8" className="text-xl font-bold mb-3">Lastyleが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">まずは無料体験で、ボクシング×パーソナルトレーニングの楽しさを体感してみましょう。</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
@@ -297,7 +301,7 @@ export default function LaststyleReview() {
         </section>
 
         {/* 関連ジム */}
-        <BrandStoreLinks brand="laststyle" brandName="Laststyle" />
+        <BrandStoreLinks brand="laststyle" brandName="Lastyle" />
         <section>
           <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">

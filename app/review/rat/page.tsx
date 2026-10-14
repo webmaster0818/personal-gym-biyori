@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import GmapStats from "@/components/GmapStats";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "Ratの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "パーソナルジムRat（ラット）の口コミ・評判｜料金・返金条件を検証",
   description:
     "Rat（ラット）パーソナルジムの口コミ・評判を徹底解説。完全個室・手ぶらOKの都内パーソナルジムの料金体系、メリット・デメリットまで網羅。",
 };
@@ -17,7 +18,7 @@ const basicInfo = [
   { label: "ジム名", value: "Rat（ラット）" },
   { label: "タイプ", value: "完全個室パーソナルジム" },
   { label: "料金帯", value: "コース総額131,150円〜" },
-  { label: "エリア", value: "新宿南口・名古屋栄ほか" },
+  { label: "エリア", value: "札幌・関東・東海・関西・福岡の31店舗（公式サイトの店舗一覧）" },
   { label: "特徴", value: "完全個室 / 手ぶらOK / 低価格 / シャワー完備 / 都内中心" },
 ];
 
@@ -32,7 +33,7 @@ const strengths = [
   },
   {
     title: "大手より低価格で本格パーソナル",
-    desc: "2ヶ月148,000円〜と、大手パーソナルジムと比較して低価格ながら、質の高いマンツーマン指導を受けられます。",
+    desc: "8回131,150円（税込）〜と、大手パーソナルジムと比較して低価格ながら、質の高いマンツーマン指導を受けられます。",
   },
 ];
 
@@ -54,7 +55,7 @@ const merits = [
 const demerits = [
   {
     title: "店舗数が限られている",
-    desc: "都内中心の展開で店舗数が少ないため、自宅や職場の近くに店舗がない場合があります。",
+    desc: "公式サイトの店舗一覧は31店舗（札幌・関東・東海・関西・福岡）で、大手チェーンと比べると少ないため、自宅や職場の近くに店舗がない場合があります。",
   },
   {
     title: "トレーナーの指名に制限がある場合も",
@@ -66,10 +67,12 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "2ヶ月コース（16回）", duration: "60分/回", price: "148,000円", note: "食事指導・レンタル込み" },
-  { name: "3ヶ月コース（24回）", duration: "60分/回", price: "198,000円", note: "食事指導・レンタル込み" },
-  { name: "月額コース（月4回）", duration: "60分/回", price: "月額36,000円〜", note: "継続利用向け" },
+  { name: "シェイプアップ", duration: "8回・50分", price: "131,150円", note: "税込" },
+  { name: "美ボディメイク", duration: "8回・50分", price: "131,150円", note: "税込" },
+  { name: "短期ダイエット集中", duration: "8回・50分", price: "147,780円", note: "税込" },
+  { name: "入会金", duration: "—", price: "29,800円", note: "現在無料キャンペーン" },
 ];
 
 const reviewSummary = "Ratの口コミでは「手ぶらで通えるのが楽」「完全個室で快適」「価格が良心的」という声が多く見られます。立地が良く仕事帰りに通いやすい点も高評価です。一方で「店舗が少ない」「予約が取りにくい時がある」といった指摘もあります。都内在住で手軽にパーソナルジムを試したい方におすすめです。";
@@ -98,7 +101,7 @@ const reviewCategories = [
 ];
 
 const faqItems = [
-  { q: "Ratの入会金はいくらですか？", a: "入会金は29,800円です。キャンペーンで無料になることがあります。最新情報は公式サイトでご確認ください。" },
+  { q: "Ratの入会金はいくらですか？", a: "入会金は29,800円で、10/8時点の公式では無料キャンペーン中と記載されています。最新情報は公式サイトでご確認ください。" },
   { q: "手ぶらで通えますか？", a: "はい、ウェア・シューズ・タオル・お水がすべて無料で用意されています。完全手ぶらで通えます。" },
   { q: "シャワーはありますか？", a: "はい、個室内にシャワールームが完備されています。アメニティも用意されています。" },
   { q: "食事指導は受けられますか？", a: "はい、プランに食事アドバイスが含まれています。LINEでの相談に対応しています。" },
@@ -137,7 +140,7 @@ export default function RatReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Ratの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "パーソナルジムRat（ラット）の口コミ・評判｜料金・返金条件を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -148,19 +151,19 @@ export default function RatReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Rat" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Ratの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          パーソナルジムRat（ラット）の口コミ・評判｜料金・返金条件を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/rat.jpg" alt="Ratの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">Rat 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="rat" name="Rat" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -180,6 +183,7 @@ export default function RatReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="Rat" />
+        <BrandFactCheck slug="rat" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=K7799I.1.V118185D.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             パーソナルジムRat の公式サイトはこちら

@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
+import GmapStats from "@/components/GmapStats";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "FIT24の口コミ・評判は？料金・メリット・デメリットを解説【2026年】",
+  title: "FiT24（フィット24）の口コミ・評判｜月会費・店舗ごとの評価を検証",
   description:
-    "FIT24（フィット24）の口コミ・評判を徹底解説。24時間営業セルフジムの料金（割引プランは月4,000円台〜）、メリット・デメリット、初心者向けか、よくある質問まで網羅。快活CLUBグループ運営のコスパを検証します。",
+    "FIT24（フィット24）の口コミ・評判を徹底解説。24時間営業セルフジムの料金（通常プラン月7,678円〜・店舗により異なる）、メリット・デメリット、初心者向けか、よくある質問まで網羅。快活CLUBグループ運営のコスパを検証します。",
 };
 
 const basicInfo = [
@@ -25,19 +27,19 @@ const strengths = [
     desc: "深夜でも早朝でも、自分の好きなタイミングでトレーニングが可能。シフト勤務の方や生活リズムが不規則な方でも無理なく通えます。",
   },
   {
-    title: "割引プランなら月4,000円台〜の低価格",
-    desc: "家族プランやU22プランなどの割引なら月4,000円台〜という低価格の料金設定。ジムに通うハードルを下げ、幅広い層が気軽にフィットネスを始められます（通常月会費は月7,000円台後半〜、店舗により異なります）。",
+    title: "通常プラン月7,678円〜の低価格",
+    desc: "公式記載の通常プランは月6,980円（税込7,678円）〜。ジムに通うハードルを下げ、幅広い層が気軽にフィットネスを始められます（公式に「店舗により月会費が異なります」と明記）。",
   },
   {
     title: "快活CLUBグループの安心運営",
-    desc: "快活CLUB（AOKIグループ）が運営しており、セキュリティや設備の管理体制がしっかりしています。一部店舗では快活CLUBのシャワー・ドリンクバーも利用可能です。",
+    desc: "株式会社快活フロンティア（AOKIグループ）が運営しており、セキュリティや設備の管理体制がしっかりしています。一部店舗では快活CLUBのシャワー・ドリンクバーも利用可能です。",
   },
 ];
 
 const merits = [
   {
-    title: "割引プランで抑えられる月額料金",
-    desc: "家族・U22などの割引プランなら月4,000円台〜のため、パーソナルジムに通う予算がない方でも本格的なマシントレーニングが始められます。",
+    title: "月7,678円〜で抑えられる月額料金",
+    desc: "通常プランが月7,678円〜（税込）のため、パーソナルジムに通う予算がない方でも本格的なマシントレーニングが始められます。",
   },
   {
     title: "時間を選ばず通える自由度",
@@ -64,17 +66,16 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "通常月会費", duration: "24時間利用可", price: "月7,000円台後半〜（税込）", note: "店舗により金額が異なる" },
-  { name: "家族プラン", duration: "24時間利用可", price: "月4,000円台〜（税込）", note: "家族会員向けの割引" },
-  { name: "U22プラン", duration: "24時間利用可", price: "月5,000円台〜（税込）", note: "18〜22歳対象" },
-  { name: "入会金・初期費用", duration: "—", price: "入会金5,500円＋事務手数料・初月分等", note: "初期費用は別途・要確認" },
+  { name: "通常プラン", duration: "24時間利用可", price: "月7,678円〜（税込）", note: "公式に「店舗により月会費が異なります」" },
+  { name: "入会金・初期費用", duration: "—", price: "公式トップに記載なし", note: "入会時に店舗で確認" },
 ];
 
 const reviewSummary = "FIT24の口コミでは「安くて24時間使える」「マシンが新しくて清潔」「快活CLUBのシャワーが使えて便利」という声が多いです。コスパ重視で自主トレーニングしたい方に人気です。一方で「スタッフがいない時間帯に不安」「トレーニング指導がない」という声も。自分でメニューを組める中級者以上に特におすすめです。";
 
 const faqItems = [
-  { q: "FIT24の入会金はいくらですか？", a: "入会金は5,500円です。セキュリティキー代として別途3,300円がかかる場合があります。キャンペーンで割引になることもあります。" },
+  { q: "FIT24の入会金はいくらですか？", a: "公式トップページには入会金の記載がありません（10/8確認）。入会金・初期費用は店舗により異なるため、入会前に店舗で確認してください。" },
   { q: "初心者でも大丈夫ですか？", a: "マシンの使い方は説明書が設置されていますが、パーソナル指導はありません。初心者の方は入会時のオリエンテーションを活用しましょう。" },
   { q: "見学はできますか？", a: "はい、営業時間内（スタッフ在中時間）に見学可能です。事前に店舗へお問い合わせください。" },
   { q: "シャワーはありますか？", a: "一部店舗にはシャワールームがあります。快活CLUB併設店舗ではシャワーやドリンクバーも利用可能です。" },
@@ -125,7 +126,7 @@ export default function Fit24Review() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "FIT24の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "FiT24（フィット24）の口コミ・評判｜月会費・店舗ごとの評価を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -136,19 +137,19 @@ export default function Fit24Review() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-06-30"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "FIT24" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          FIT24の口コミ・評判｜料金・メリット・デメリットを徹底解説
+          FiT24（フィット24）の口コミ・評判｜月会費・店舗ごとの評価を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/fit24.jpg" alt="FIT24の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">FIT24 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="fit24" name="FIT24" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -163,7 +164,7 @@ export default function Fit24Review() {
             <li><a href="#s6" className="text-teal-600 hover:underline">FIT24のメリット・デメリット</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">FIT24の料金</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">FIT24の口コミ概要</a></li>
-            <li><a href="#s9" className="text-teal-600 hover:underline">FIT24の良い口コミ・気になる口コミの傾向</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">FIT24の良い口コミ・悪い口コミの傾向</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">FIT24のよくある質問</a></li>
             <li><a href="#s11" className="text-teal-600 hover:underline">FIT24が気になった方へ</a></li>
             <li><a href="#s12" className="text-teal-600 hover:underline">FIT24の店舗別レビュー</a></li>
@@ -171,6 +172,8 @@ export default function Fit24Review() {
           </ol>
         </nav>
         <ReviewSummary gymName="FIT24" />
+        <BrandFactCheck slug="fit24" />
+        <GmapStats slug="fit24" brand="FiT24" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=M11588F.1.Q159605W.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             FIT24 の公式サイトはこちら
@@ -178,13 +181,13 @@ export default function Fit24Review() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          FIT24（フィット24）は快活CLUBグループが運営する<span className="font-bold bg-yellow-100 px-0.5">24時間営業</span>のセルフフィットネスジムです。割引プランなら<span className="font-bold bg-yellow-100 px-0.5">月4,000円台〜</span>の低価格で、好きな時間にマシントレーニングが可能。本記事では、FIT24の料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          FiT24（フィット24）は快活CLUBグループの株式会社快活フロンティアが運営する<span className="font-bold bg-yellow-100 px-0.5">24時間営業</span>のセルフフィットネスジムです。通常プランは<span className="font-bold bg-yellow-100 px-0.5">月7,678円〜</span>の低価格で、好きな時間にマシントレーニングが可能。本記事では、FIT24の料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：FIT24はこんな人におすすめ</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>料金</strong>：通常月会費は月7,000円台後半〜、家族・U22などの割引プランは月4,000円台〜（店舗・プランにより異なる）。低価格のセルフ型</li>
+            <li>・<strong>料金</strong>：通常プランは月7,678円（税込）〜（公式に「店舗により月会費が異なります」）。低価格のセルフ型</li>
             <li>・<strong>24時間365日</strong>いつでも利用可。早朝・深夜に通いたい人に向く</li>
             <li>・<strong>快活CLUB併設</strong>店舗が多く、駐車場・設備を使いやすい</li>
             <li>・一方、<strong>トレーナーの専属指導はない</strong>（セルフ型）。マンツーマン指導が欲しい人はパーソナルジムが向く</li>
@@ -197,7 +200,7 @@ export default function Fit24Review() {
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 料金はいくら？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">通常月会費は月7,000円台後半〜、家族・U22などの割引プランは月4,000円台〜。入会金5,500円＋初期費用が別途かかります（店舗により異なる）。<a href="#pricing" className="text-teal-600 underline">料金の詳細を見る</a>。</dd>
+              <dd className="text-gray-700 mt-1 leading-relaxed">通常プランは月7,678円（税込）〜。入会金・初期費用は公式トップに記載がなく、店舗により異なります。<a href="#pricing" className="text-teal-600 underline">料金の詳細を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 口コミ・評判は？</dt>
@@ -292,7 +295,7 @@ export default function Fit24Review() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安で、店舗・プラン・時期により異なります（割引プランには年齢・家族会員などの条件があります）。入会金・初期費用を含む最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安で、店舗・プラン・時期により異なります。入会金・初期費用を含む最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
@@ -304,7 +307,7 @@ export default function Fit24Review() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の良い口コミ・気になる口コミの傾向</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FIT24の良い口コミ・悪い口コミの傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             FIT24の口コミを「良い評判」「気になる評判」に分けて傾向を整理しました。以下は公開されている口コミ全般から見られる傾向で、特定の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/FiT24%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
           </p>
@@ -319,7 +322,7 @@ export default function Fit24Review() {
               </ul>
             </div>
             <div className="bg-orange-50 border border-orange-100 rounded-lg p-5">
-              <h3 className="font-bold text-orange-800 mb-2">気になる口コミ・評判の傾向</h3>
+              <h3 className="font-bold text-orange-800 mb-2">悪い口コミ・気になる評判の傾向</h3>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li>・スタッフ不在の時間帯があり、困ったとき不安という声</li>
                 <li>・トレーニング指導がなく、初心者は自己流になりやすいという指摘</li>

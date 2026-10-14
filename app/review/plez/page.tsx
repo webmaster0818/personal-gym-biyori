@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "プレズ（Plez）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "プレズ（Plez）の口コミ・評判｜料金・返金・悪い口コミを検証",
   description:
-    "プレズ（Plez）オンラインパーソナルトレーニングの口コミ・評判を徹底解説。自宅完結型の食事指導＋トレーニング指導、月額2万円台〜の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "プレズ（Plez）オンラインパーソナルトレーニングの口コミ・評判を徹底解説。自宅完結型の食事指導＋トレーニング指導、月額16,170円（税込）〜（6ヶ月ダイエットプラン）の料金体系、メリット・デメリット、よくある質問まで網羅。",
 };
 
 const affiliateUrl = "https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A";
@@ -16,7 +17,7 @@ const affiliateUrl = "https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A";
 const basicInfo = [
   { label: "サービス名", value: "プレズ（Plez）" },
   { label: "タイプ", value: "オンライン完結型パーソナルトレーニング" },
-  { label: "料金帯", value: "月額14,700円〜" },
+  { label: "料金帯", value: "月16,170円（税込）〜＋入会金10,780円" },
   { label: "指導内容", value: "食事指導＋トレーニング指導" },
   { label: "特徴", value: "自宅完結 / ジム通い不要 / LINEサポート / 低価格" },
 ];
@@ -28,7 +29,7 @@ const strengths = [
   },
   {
     title: "業界平均の約1/3の低価格",
-    desc: "一般的なパーソナルジムは月額6〜10万円が相場ですが、プレズは月額約2万円台から利用可能。店舗運営コストがかからないオンライン特化だからこそ実現できる価格設定で、コストを抑えながらプロの指導が受けられます。",
+    desc: "一般的なパーソナルジムは月額6〜10万円が相場ですが、プレズは月額16,170円（税込）〜（6ヶ月ダイエットプラン）から利用可能。店舗運営コストがかからないオンライン特化だからこそ実現できる価格設定で、コストを抑えながらプロの指導が受けられます。",
   },
   {
     title: "LINEでトレーナーと気軽にやり取り",
@@ -43,7 +44,7 @@ const merits = [
   },
   {
     title: "低価格で食事指導まで含まれている",
-    desc: "月額約2万円台〜で食事指導＋トレーニング指導がセット。一般的なパーソナルジムでは食事指導がオプション料金になることが多い中、プレズは追加料金なしで総合的なボディメイクサポートが受けられます。",
+    desc: "月額16,170円（税込）〜で食事指導＋トレーニング指導がセット。一般的なパーソナルジムでは食事指導がオプション料金になることが多い中、プレズは追加料金なしで総合的なボディメイクサポートが受けられます。",
   },
   {
     title: "全国どこからでも利用可能",
@@ -66,10 +67,13 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
+// 2026-10-14: 公式（plez.jp）掲載値。プラン名は公式ページに無いため一般的な呼び方
 const pricingPlans = [
-  { name: "ダイエットプラン", duration: "2ヶ月〜", price: "月額21,890円〜", note: "食事指導+トレーニング指導" },
-  { name: "ボディメイクプラン", duration: "2ヶ月〜", price: "月額21,890円〜", note: "筋力アップ・体型改善向け" },
-  { name: "プレミアムプラン", duration: "2ヶ月〜", price: "月額32,890円〜", note: "ビデオ通話レッスン付き" },
+  { name: "ダイエット（動画でのフォーム指導）", duration: "2ヶ月〜6ヶ月", price: "2ヶ月21,890円 → 6ヶ月16,170円（月あたり）", note: "税込（税抜19,900→14,700円）" },
+  { name: "ボディメイク（ビデオ電話 月4回）", duration: "2ヶ月〜6ヶ月", price: "2ヶ月32,890円 → 6ヶ月23,628円（月あたり）", note: "税込（税抜29,900→21,480円）" },
+  { name: "プレミアム（ビデオ電話 月8回）", duration: "2ヶ月〜6ヶ月", price: "2ヶ月43,890円 → 6ヶ月32,637円（月あたり）", note: "税込（税抜39,900→29,670円）" },
+  { name: "入会金", duration: "—", price: "10,780円（税込）", note: "全プラン共通・税抜9,800円" },
 ];
 
 const reviewSummary = "プレズの口コミでは「ジムに通わなくていいのが楽」「この価格でプロの指導が受けられるのはコスパが良い」「LINEで食事のアドバイスがもらえて続けやすい」という声が多く見られます。一方で「対面の方がフォーム指導は安心」「自宅だとサボりがち」といった指摘もあります。オンラインに抵抗がない方、コストを抑えたい方には満足度が高い傾向です。";
@@ -108,13 +112,13 @@ export default function PlezReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          プレズ（Plez）の口コミ・評判｜料金・メリット・デメリットを徹底解説
+          プレズ（Plez）の口コミ・評判｜料金・返金・悪い口コミを検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/plez.jpg" alt="プレズ（Plez）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">プレズ（Plez） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="plez" name="プレズ（Plez）" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -133,6 +137,7 @@ export default function PlezReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="プレズ（Plez）" />
+        <BrandFactCheck slug="plez" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             Plez の公式サイトはこちら
@@ -140,7 +145,7 @@ export default function PlezReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          プレズ（Plez）はオンライン完結型のパーソナルトレーニングサービスです。ジム通い不要で、自宅にいながらプロのトレーナーから<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>＋トレーニング指導が受けられます。月額約2万円台〜と業界平均の約1/3の価格が特徴。本記事では、プレズの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          プレズ（Plez）はオンライン完結型のパーソナルトレーニングサービスです。ジム通い不要で、自宅にいながらプロのトレーナーから<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>＋トレーニング指導が受けられます。月額16,170円（税込）〜（6ヶ月ダイエットプラン）という低価格が特徴。本記事では、プレズの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         {/* 基本情報 */}

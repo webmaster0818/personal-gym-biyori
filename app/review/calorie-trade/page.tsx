@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "CALORIE TRADE JAPANの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "CALORIE TRADE JAPAN（カロリートレード）の口コミ・評判｜料金・店舗を検証",
   description:
     "CALORIE TRADE JAPAN（カロリートレードジャパン）の口コミ・評判を徹底解説。ダイエット専門パーソナルジムの料金体系、メリット・デメリットまで網羅。",
 };
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "CALORIE TRADE JAPAN（カロリートレードジャパン）" },
   { label: "タイプ", value: "ダイエット専門パーソナルジム" },
-  { label: "料金帯", value: "月額24,200円〜" },
+  { label: "料金帯", value: "月4回29,800円〜／2ヶ月16回149,800円（税込）" },
   { label: "エリア", value: "全国（公式に「店舗により料金が異なる場合あり」の注記）" },
   { label: "特徴", value: "ダイエット専門 / 全国展開 / 低価格 / 食事指導付き / 完全個室" },
 ];
@@ -25,12 +26,12 @@ const strengths = [
     desc: "体重減量に特化した独自のダイエットメソッドを採用。カロリー管理を科学的に行い、無理なく確実に結果を出すプログラムが特徴です。",
   },
   {
-    title: "全国30店舗以上の展開",
-    desc: "フランチャイズ展開により全国に30店舗以上を出店。地方在住の方でもアクセスしやすい環境が整っています。",
+    title: "東海を中心に展開",
+    desc: "公式の店舗一覧は名古屋瑞穂区・一宮本町・名古屋緑区・松戸八柱・宜野湾の5店舗（トップページは「全国に10店舗」と表記）。愛知県が中心です。",
   },
   {
-    title: "月額24,200円〜の始めやすい料金",
-    desc: "月額24,200円〜とパーソナルジムとしてはリーズナブル。ダイエット専門ジムの中でもコスパの良い料金設定です。",
+    title: "月4回29,800円〜の始めやすい料金",
+    desc: "月4回29,800円（税込）〜とパーソナルジムとしてはリーズナブル。ダイエット専門ジムの中でもコスパの良い料金設定です。",
   },
 ];
 
@@ -64,16 +65,20 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式料金ページ（calorietradejapan.com/plan/）を当日確認した掲載値
 const pricingPlans = [
-  { name: "月4回プラン", duration: "50分/回", price: "月額24,200円", note: "週1回ペース" },
-  { name: "月8回プラン", duration: "50分/回", price: "月額39,600円", note: "週2回ペース・おすすめ" },
-  { name: "短期集中コース（2ヶ月16回）", duration: "50分/回", price: "総額156,200円〜", note: "食事指導付き" },
+  { name: "短期集中（食事サポート付き）2ヶ月", duration: "16回", price: "149,800円", note: "税込" },
+  { name: "短期集中（食事サポート付き）3ヶ月", duration: "24回", price: "198,800円", note: "税込" },
+  { name: "月プラン 月4回", duration: "月4回", price: "29,800円/月", note: "税込" },
+  { name: "月プラン 月8回", duration: "月8回", price: "54,800円/月", note: "税込" },
+  { name: "継続プラン 月4回／月8回", duration: "短期集中からの延長者限定", price: "26,800円／49,800円", note: "税込" },
+  { name: "入会金", duration: "—", price: "50,000円", note: "" },
 ];
 
 const reviewSummary = "CALORIE TRADE JAPANの口コミでは「カロリー管理が分かりやすい」「低価格でダイエットできた」「全国に店舗があって助かる」という声が見られます。ダイエット目的に特化した分かりやすいアプローチが好評です。一方で「店舗によって差がある」「ボディメイクには物足りない」という意見も。減量目的の方に特におすすめです。";
 
 const faqItems = [
-  { q: "CALORIE TRADE JAPANの入会金はいくらですか？", a: "入会金は店舗により異なりますが、30,000円〜50,000円程度です。キャンペーンで割引になることがあります。" },
+  { q: "CALORIE TRADE JAPANの入会金はいくらですか？", a: "入会金は公式料金ページで50,000円と記載されています（店舗により異なる場合あり）。キャンペーンで割引になることがあります。" },
   { q: "どのくらいで痩せられますか？", a: "個人差がありますが、2ヶ月で5〜10kgの減量に成功する方が多いです。目標に合わせたプランを提案してもらえます。" },
   { q: "食事制限は厳しいですか？", a: "カロリー計算に基づいた食事管理を行いますが、過度な制限は行いません。バランスの良い食事を心がけます。" },
   { q: "女性でも通えますか？", a: "はい、男女ともに利用可能です。女性の会員も多く、女性トレーナーが在籍する店舗もあります。" },
@@ -105,7 +110,7 @@ export default function CalorieTradeReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "CALORIE TRADE JAPANの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "CALORIE TRADE JAPAN（カロリートレード）の口コミ・評判｜料金・店舗を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -116,19 +121,19 @@ export default function CalorieTradeReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "CALORIE TRADE JAPAN" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          CALORIE TRADE JAPANの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          CALORIE TRADE JAPAN（カロリートレード）の口コミ・評判｜料金・店舗を検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/calorie-trade.jpg" alt="CALORIE TRADE JAPANの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">CALORIE TRADE JAPAN 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="calorie-trade" name="CALORIE TRADE JAPAN" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -147,6 +152,7 @@ export default function CalorieTradeReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="CALORIE TRADE JAPAN" />
+        <BrandFactCheck slug="calorie-trade" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=S9777P.1.F142081F.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             CALORIE TRADE JAPAN の公式サイトはこちら
@@ -154,7 +160,7 @@ export default function CalorieTradeReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          CALORIE TRADE JAPAN（カロリートレードジャパン）はダイエットに特化したパーソナルジムです。カロリー管理に基づいた科学的なアプローチで確実な減量を目指します。全国30店舗以上、月額<span className="font-bold bg-yellow-100 px-0.5">24,200円</span>〜の低価格も魅力。本記事では、料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          CALORIE TRADE JAPAN（カロリートレードジャパン）はダイエットに特化したパーソナルジムです。カロリー管理に基づいた科学的なアプローチで確実な減量を目指します。月4回<span className="font-bold bg-yellow-100 px-0.5">29,800円</span>〜の低価格も魅力。本記事では、料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">

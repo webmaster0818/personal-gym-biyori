@@ -144,8 +144,8 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "calorie-trade", name: "CALORIE TRADE JAPAN",
-    price: "月額 月2回24,200円・月4回44,000円・月6回66,000円・月8回88,000円／短期集中（食事サポート付）8回143,000円・16回173,800円・24回250,800円・48回415,800円（すべて税込）",
-    kind: "月額制", lowest: 24200, entry: "50,000円",
+    price: "短期集中（食事サポート付き）2ヶ月16回149,800円・3ヶ月24回198,800円／月プラン 月4回29,800円・月8回54,800円（税込）／継続プラン（延長者限定）月4回26,800円・月8回49,800円",
+    kind: "月額制", lowest: 29800, entry: "50,000円",
     officialUrl: "https://calorietradejapan.com/plan/", area: "全国（公式に「店舗により料金が異なる場合あり」の注記）",
   },
   {
@@ -177,7 +177,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     slug: "vase", name: "VASE（ベイス）パーソナルジム",
     price: "月額 月4回32,000円・月6回45,000円・月8回56,000円／回数券5回45,000円・10回85,000円・15回120,000円（すべて税込・60分）",
     kind: "月額制", lowest: 32000, entry: "20,000円（税込）／体験当日入会で0円",
-    officialUrl: "https://personal-gym-vase.com/", area: "藤沢・八王子・恵比寿",
+    officialUrl: "https://personal-gym-vase.com/", area: "藤沢・八王子・亀戸・恵比寿",
     note: "月額制は最低契約期間3ヶ月。月額の有効期限は1ヶ月で繰越不可。",
   },
   {
@@ -260,7 +260,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     slug: "exe", name: "EXE（エグゼ）パーソナルジム",
     price: "60分 単発11,000円・4回44,000円・8回79,200円・16回140,800円・24回198,000円・32回255,200円／40分 4回26,400円・8回48,400円（すべて税込）",
     kind: "コース制", lowest: 26400, entry: "33,000円（税込）",
-    officialUrl: "https://pbs-exe.net/", area: "東京都世田谷区（駒沢大学）・藤沢",
+    officialUrl: "https://pbs-exe.net/", area: "東京都世田谷区（駒沢大学）・目黒区（都立大学）",
   },
   {
     slug: "melmake", name: "メルメイク",
@@ -269,7 +269,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     officialUrl: "https://mermake.co.jp/n-meieki/", area: "名古屋（名駅・伏見）・新横浜・福岡西新・豊田",
   },
   {
-    slug: "laststyle", name: "Laststyle",
+    slug: "laststyle", name: "Lastyle（ラスタイル）",
     price: "12回（2ヶ月）158,400円・16回211,200円・20回264,000円（税込）",
     kind: "コース制", lowest: 158400, entry: "通常50,000円（税抜）／キャンペーンで25,000円（税抜）",
     officialUrl: "https://www.last-style.com/lp/", area: "池袋東口・新宿（東京）",
@@ -389,8 +389,8 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "nexus", name: "Nexusジム",
-    price: "公式サイトは「1回4,500円〜／月8,000円〜」とだけ記載し、プラン別の価格表を公表していない",
-    kind: "未公表", lowest: null, entry: "記載なし",
+    price: "トップページは「1回4,500円〜／月8,000円〜」のみ。特定商取引法の表記に入会金15,000円・60分月4回コース29,800円（税込）の記載",
+    kind: "未公表", lowest: null, entry: "15,000円（税込・特定商取引法の表記）",
     officialUrl: "https://www.nexus-gym.com/", area: "東京・横浜・埼玉・大阪・名古屋・福岡",
   },
   {

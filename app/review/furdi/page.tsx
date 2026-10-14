@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import GmapStats from "@/components/GmapStats";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import BrandFactCheck from "@/components/BrandFactCheck";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "FURDI（ファディー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "FURDI（ファディー）の口コミ・評判｜料金・解約金・悪い口コミを検証",
   description:
     "FURDI（ファディー）の口コミ・評判を徹底解説。AI×女性専用フィットネス、サーキット型トレーニングの料金体系、メリット・デメリットまで網羅。",
 };
@@ -66,10 +67,12 @@ const demerits = [
   },
 ];
 
+// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
 const pricingPlans = [
-  { name: "プレミアム会員", duration: "通い放題", price: "月額7,678円", note: "全時間帯利用可" },
-  { name: "スタンダード会員", duration: "通い放題", price: "月額8,778円", note: "パーソナル指導月1回付き" },
-  { name: "U-18会員", duration: "通い放題", price: "月額5,478円", note: "18歳以下限定" },
+  { name: "プレミアム会員（年間契約）", duration: "通い放題", price: "月7,678円", note: "税込（税抜6,980円）" },
+  { name: "スタンダード会員", duration: "通い放題", price: "月8,778円", note: "税込（税抜7,980円）" },
+  { name: "U-18", duration: "通い放題", price: "月5,428円", note: "税込" },
+  { name: "初期費用", duration: "—", price: "事務手数料5,500円＋カード発行手数料3,300円", note: "入会金なし" },
 ];
 
 const reviewSummary = "FURDIの口コミでは「安くて通いやすい」「予約不要で気軽」「AIだから気を使わなくていい」という声が多数。低価格ながら十分な運動効果を実感できるという評価が中心です。一方で「直接指導がないので不安」「マシンが限られる」といった声も。運動習慣をつけたい女性の入門としておすすめです。";
@@ -102,7 +105,7 @@ const reviewCategories = [
 ];
 
 const faqItems = [
-  { q: "FURDIの入会金はいくらですか？", a: "入会金は19,800円です。キャンペーンで無料になることがあります。最新情報は公式サイトでご確認ください。" },
+  { q: "FURDIの入会金はいくらですか？", a: "入会金はありません（公式記載）。別途、事務手数料5,500円・カード発行手数料3,300円がかかります。最新情報は公式サイトでご確認ください。" },
   { q: "AIトレーニングとは具体的にどんなものですか？", a: "大型モニターにAIトレーナーが表示され、正しいフォームのお手本を見せながらカウントやペース配分の指示を行います。200種類以上のメニューが用意されており、体力レベルや目的に合わせてAIが最適なメニューを提案してくれます。" },
   { q: "1回のトレーニング時間はどのくらいですか？", a: "1回15〜30分が目安です。サーキット型トレーニングなので短時間でも効率的に全身を動かせます。自分のペースで調整できるため、体力に応じて時間を延ばすことも可能です。" },
   { q: "見学や体験はできますか？", a: "はい、無料体験が用意されています。実際にAIトレーナーによるサーキットトレーニングを体験できるので、入会前に雰囲気や運動強度を確認できます。公式サイトまたは各店舗にお問い合わせください。" },
@@ -153,7 +156,7 @@ export default function FurdiReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "FURDI（ファディー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "FURDI（ファディー）の口コミ・評判｜料金・解約金・悪い口コミを検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -164,19 +167,19 @@ export default function FurdiReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-05-18"
+        "dateModified": "2026-10-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "FURDI" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          FURDI（ファディー）の口コミ・評判｜料金・メリット・デメリットを徹底解説
+          FURDI（ファディー）の口コミ・評判｜料金・解約金・悪い口コミを検証
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/furdi.jpg" alt="FURDI（ファディー）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">FURDI（ファディー） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="furdi" name="FURDI" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -199,6 +202,7 @@ export default function FurdiReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="FURDI" />
+        <BrandFactCheck slug="furdi" />
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             FURDI の公式サイトはこちら
