@@ -7,6 +7,7 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "RIZAP 渋谷店の口コミ・評判",
   description:
     "RIZAP 渋谷店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",

@@ -7,6 +7,7 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "FURDI 仙台幸町店の口コミ・評判",
   description:
     "FURDI（ファディー）仙台幸町店の口コミ・評判を紹介。AI指導・女性専用サーキット型フィットネスの基本情報から利用者の評価傾向まで詳しく解説します。",
