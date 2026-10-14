@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "THE PERSONAL GYM 新宿店", href: "/review/the-personal-gym/shinjuku/" },
   { name: "TRIPLE M 新宿店", href: "/review/triple-m/shinjuku/" },
   { name: "LEADING 新宿店", href: "/review/leading/shinjuku/" },
+  { name: "4Fのパーソナルジム（新宿で探す方へ）", href: "/review/4f-gym/shinjuku/" },
 ];
 
 export default function StorePage() {

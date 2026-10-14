@@ -5,6 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "エクササイズコーチの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -421,6 +422,7 @@ export default function ExerciseCoachReview() {
         </section>
 
         {/* ---------- 関連ジム ---------- */}
+        <BrandStoreLinks brand="exercise-coach" brandName="エクササイズコーチ" />
         <section>
           <h2 id="s10" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">

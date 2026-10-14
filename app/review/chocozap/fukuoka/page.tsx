@@ -37,6 +37,7 @@ const relatedStores = [
   { name: "chocoZAP 渋谷店", href: "/review/chocozap/shibuya/" },
   { name: "chocoZAP 梅田店", href: "/review/chocozap/umeda/" },
   { name: "chocoZAP 名古屋店", href: "/review/chocozap/nagoya/" },
+  { name: "chocoZAP 大宮店", href: "/review/chocozap/omiya/" },
 ];
 
 export default function StorePage() {

@@ -118,6 +118,7 @@ export default function ComparePage() {
             </p>
             <p className="text-xs text-gray-500 mt-3">各ジムの特徴は公開情報および当サイト各レビューの記載にもとづく整理です（2026年6月時点）。料金・保証・プランの最新内容は各公式サイトでご確認ください。</p>
             <p className="text-sm mt-4"><Link href="/price/" className="text-orange-600 font-medium hover:underline">▶ パーソナルジムの料金相場【2026年・エリア別】はこちら</Link></p>
+            <p className="text-sm mt-2"><Link href="/compare/247workout-vs-chicken-gym-vs-rizap/" className="text-orange-600 font-medium hover:underline">▶ 24/7ワークアウト・チキンジム・RIZAPの3社比較はこちら</Link></p>
           </div>
         </header>
 

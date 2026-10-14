@@ -43,6 +43,7 @@ const relatedStores = [
   { name: "BEYOND 池袋店", href: "/review/beyond/ikebukuro/" },
   { name: "BEYOND 大宮店", href: "/review/beyond/omiya/" },
   { name: "BEYOND 練馬店", href: "/review/beyond/nerima/" },
+  { name: "BEYOND 八王子店", href: "/review/beyond/hachioji/" },
 ];
 
 export default function StorePage() {

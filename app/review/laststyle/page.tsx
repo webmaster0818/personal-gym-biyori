@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "Laststyleの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -296,6 +297,7 @@ export default function LaststyleReview() {
         </section>
 
         {/* 関連ジム */}
+        <BrandStoreLinks brand="laststyle" brandName="Laststyle" />
         <section>
           <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">

@@ -37,6 +37,7 @@ const relatedStores = [
   { name: "スターライト 新宿店", href: "/review/starlight/shinjuku/" },
   { name: "NINE 新宿店", href: "/review/nine/shinjuku/" },
   { name: "LEADING 新宿店", href: "/review/leading/shinjuku/" },
+  { name: "リアルボディ（新宿で探す方へ）", href: "/review/real-body/shinjuku/" },
 ];
 
 export default function StorePage() {

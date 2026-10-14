@@ -5,6 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "BEYONDの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -189,8 +190,7 @@ export default function BeyondReview() {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
-          {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
-          {"@type": "ListItem", "position": 3, "name": "BEYOND"}
+          {"@type": "ListItem", "position": 2, "name": "BEYOND"}
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -708,6 +708,7 @@ export default function BeyondReview() {
         </section>
 
         {/* ---------- 関連ジム ---------- */}
+        <BrandStoreLinks brand="beyond" brandName="BEYOND" />
         <section>
           <h2 id="s13" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">

@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "UNDEUX SUPERBODY 銀座店", href: "/review/undeux/ginza/" },
   { name: "UNDEUX SUPERBODY 渋谷店", href: "/review/undeux/shibuya/" },
   { name: "UNDEUX SUPERBODY 横浜店", href: "/review/undeux/yokohama/" },
+  { name: "UNDEUX SUPERBODY 錦糸町店", href: "/review/undeux/kinshicho/" },
 ];
 
 export default function StorePage() {

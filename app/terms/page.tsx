@@ -113,6 +113,14 @@ const articles = [
 export default function TermsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "利用規約", "item": "https://personal-gym-biyori.com/terms/"}
+        ]
+      }) }} />
       <Breadcrumb items={[{ name: "利用規約" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">

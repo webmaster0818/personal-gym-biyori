@@ -18,9 +18,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const e = entries.find((x) => x.slug === decodeURIComponent(slug));
   if (!e) return {};
+  const head = `${e.areaName}のパーソナルジム「${e.name}」のGoogleマップ実測データ(評点${e.rating ?? "—"}・口コミ${e.reviews?.toLocaleString()}件・${e.fetchedAt}取得)と所在地。`;
+  const fullDesc = `${head}評点・件数は取得時点の実数のみで創作はありません。料金・体験は公式サイトでの確認を推奨しています。`;
+  // 店名が長い店舗は description が160字(HTMLエスケープ後)を超えるため、同じ内容を短い言い回しにする
+  const escapedLen = (t: string) => t.replace(/&/g, "&amp;").replace(/[<>"']/g, "&#x00;").length;
+  const description = escapedLen(fullDesc) > 160
+    ? `${head}評点・件数は取得時点の実数で創作なし。料金・体験は公式サイトで確認を。`
+    : fullDesc;
   return {
     title: `${e.name}(${e.areaName})の口コミ評点【Googleマップ実測${e.reviews?.toLocaleString()}件】`,
-    description: `${e.areaName}のパーソナルジム「${e.name}」のGoogleマップ実測データ(評点${e.rating ?? "—"}・口コミ${e.reviews?.toLocaleString()}件・${e.fetchedAt}取得)と所在地。評点・件数は取得時点の実数のみで創作はありません。料金・体験は公式サイトでの確認を推奨しています。`,
+    description,
     // 2026-09-28: 店舗個別ページ1,973件はsitemapの74%を占めながら、
     // Googleにクロールされず「検出 - インデックス未登録」のまま滞留していた。
     // クロール枠をレビュー・エリア・比較ページに集中させるためnoindexにする。
@@ -45,6 +52,15 @@ export default async function GymPage({ params }: { params: Promise<{ slug: stri
   const mapQuery = encodeURIComponent(`${e.name} ${e.address.replace("日本、", "")}`);
   return (
     <main className="mx-auto max-w-4xl px-4 py-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "全店データベース", "item": "https://personal-gym-biyori.com/db/" },
+          { "@type": "ListItem", "position": 2, "name": e.areaName, "item": `https://personal-gym-biyori.com/db/${e.area}/` },
+          { "@type": "ListItem", "position": 3, "name": e.name },
+        ],
+      }) }} />
       <p className="text-xs text-gray-400">
         <Link href="/db/" className="underline">全店データベース</Link> &gt; <Link href={`/db/${e.area}/`} className="underline">{e.areaName}</Link> &gt; {e.name}
       </p>

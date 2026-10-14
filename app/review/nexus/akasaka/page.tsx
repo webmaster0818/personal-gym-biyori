@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "Nexusジム 新宿店", href: "/review/nexus/shinjuku/" },
   { name: "Nexusジム 渋谷店", href: "/review/nexus/shibuya/" },
   { name: "Nexusジム 高輪台店", href: "/review/nexus/takanawadai/" },
+  { name: "Nexusジム 西葛西店", href: "/review/nexus/nishikasai/" },
 ];
 
 const affiliateLink = "https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L";

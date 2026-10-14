@@ -158,8 +158,7 @@ const breadcrumbJsonLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://personal-gym-biyori.com/" },
-    { "@type": "ListItem", position: 2, name: "口コミ・レビュー", item: "https://personal-gym-biyori.com/#ranking" },
-    { "@type": "ListItem", position: 3, name: "Rays GyM" },
+    { "@type": "ListItem", position: 2, name: "Rays GyM" },
   ],
 };
 

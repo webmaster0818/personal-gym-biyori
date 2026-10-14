@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "chocoZAP（チョコザップ）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -249,6 +250,8 @@ export default function ChocozapReview() {
             ランキングに戻る
           </Link>
         </section>
+
+        <BrandStoreLinks brand="chocozap" brandName="chocoZAP" />
 
         <section>
           <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>

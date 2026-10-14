@@ -41,6 +41,7 @@ const relatedStores = [
   { name: "カーブス 札幌店", href: "/review/curves/sapporo/" },
   { name: "カーブス 梅田店", href: "/review/curves/umeda/" },
   { name: "カーブス 名古屋店", href: "/review/curves/nagoya/" },
+  { name: "カーブス 吉祥寺店", href: "/review/curves/kichijoji/" },
 ];
 
 export default function StorePage() {

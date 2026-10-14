@@ -37,6 +37,7 @@ const relatedStores = [
   { name: "ACCEPT 新宿店", href: "/review/accept/shinjuku/" },
   { name: "NINE 新宿店", href: "/review/nine/shinjuku/" },
   { name: "スターライト 新宿店", href: "/review/starlight/shinjuku/" },
+  { name: "1to1 新宿店", href: "/review/1to1/shinjuku/" },
 ];
 
 export default function StorePage() {

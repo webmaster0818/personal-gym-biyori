@@ -63,6 +63,14 @@ const articles = [
 export default function PrivacyPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "プライバシーポリシー", "item": "https://personal-gym-biyori.com/privacy/"}
+        ]
+      }) }} />
       <Breadcrumb items={[{ name: "プライバシーポリシー" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">

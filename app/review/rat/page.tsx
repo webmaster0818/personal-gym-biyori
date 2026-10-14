@@ -5,6 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "Ratの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -344,6 +345,8 @@ export default function RatReview() {
           </div>
           <img src="https://t.felmat.net/fmimp/K7799I.V118185D.Q136169A" width={1} height={1} alt="" className="inline" />
         </section>
+
+        <BrandStoreLinks brand="rat" brandName="Rat" />
 
         <section>
           <h2 id="s10" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>

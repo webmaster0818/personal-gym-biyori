@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "OUTLINE 新宿店", href: "/review/outline/shinjuku/" },
   { name: "OUTLINE 銀座店", href: "/review/outline/ginza/" },
   { name: "OUTLINE 横浜店", href: "/review/outline/yokohama/" },
+  { name: "OUTLINE 町田店", href: "/review/outline/machida/" },
 ];
 
 export default function StorePage() {

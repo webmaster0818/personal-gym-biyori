@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "Dr.トレーニング 中目黒店", href: "/review/dr-training/nakameguro/" },
   { name: "Dr.トレーニング 目黒店", href: "/review/dr-training/meguro/" },
   { name: "Dr.トレーニング 恵比寿店", href: "/review/dr-training/ebisu/" },
+  { name: "Dr.トレーニング 表参道店", href: "/review/dr-training/omotesando/" },
 ];
 
 export default function StorePage() {

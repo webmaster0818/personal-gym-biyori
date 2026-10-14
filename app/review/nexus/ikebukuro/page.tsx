@@ -42,6 +42,7 @@ const faqJsonLd = {
 const relatedStores = [
   { name: "Nexusジム 新宿店", href: "/review/nexus/shinjuku/" },
   { name: "Nexusジム 渋谷店", href: "/review/nexus/shibuya/" },
+  { name: "Nexusジム 大船店", href: "/review/nexus/ofuna/" },
 ];
 
 export default function StorePage() {

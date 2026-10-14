@@ -69,6 +69,14 @@ const REGIONS: { region: string; areas: { slug: string; name: string }[] }[] = [
 export default function AreaIndexPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
+          {"@type": "ListItem", "position": 2, "name": "エリア別", "item": "https://personal-gym-biyori.com/area/"}
+        ]
+      }) }} />
       <Breadcrumb items={[{ name: "エリア別" }]} />
       <h1 className="mt-2 text-2xl font-bold sm:text-3xl">エリア別パーソナルジムおすすめ一覧</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">

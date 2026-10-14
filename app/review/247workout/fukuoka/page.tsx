@@ -43,6 +43,7 @@ const relatedStores = [
   { name: "24/7ワークアウト なんば店", href: "/review/247workout/namba/" },
   { name: "24/7ワークアウト 札幌店", href: "/review/247workout/sapporo/" },
   { name: "24/7ワークアウト 名古屋店", href: "/review/247workout/nagoya/" },
+  { name: "24/7ワークアウト 練馬店", href: "/review/247workout/nerima/" },
 ];
 
 export default function StorePage() {

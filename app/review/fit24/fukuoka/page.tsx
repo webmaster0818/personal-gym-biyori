@@ -35,7 +35,8 @@ const faqJsonLd = {
 
 const relatedStores = [
   { name: "FIT24 広島店", href: "/review/fit24/hiroshima/" },
-  { name: "FIT24 梅田店", href: "/review/fit24/umeda/" }
+  { name: "FIT24 梅田店", href: "/review/fit24/umeda/" },
+  { name: "FIT24 船橋店", href: "/review/fit24/funabashi/" },
 ];
 
 export default function StorePage() {

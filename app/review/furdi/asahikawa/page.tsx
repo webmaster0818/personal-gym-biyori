@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "FURDI 札幌店", href: "/review/furdi/sapporo/" },
   { name: "FURDI 仙台店", href: "/review/furdi/sendai/" },
   { name: "FURDI 八戸青葉店", href: "/review/furdi/hachinohe/" },
+  { name: "FURDI 三島広小路店", href: "/review/furdi/mishima/" },
 ];
 
 const affiliateLink = "https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A";

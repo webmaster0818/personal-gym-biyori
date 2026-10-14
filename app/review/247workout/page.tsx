@@ -5,6 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウトの口コミ・評判は？料金総額・痩せない/失敗の理由を解説【2026年】",
@@ -552,6 +553,7 @@ export default function Workout247Review() {
         </section>
 
         {/* ---------- 関連ジム ---------- */}
+        <BrandStoreLinks brand="247workout" brandName="24/7ワークアウト" />
         <section>
           <h2 id="s15" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">

@@ -76,9 +76,8 @@ const breadcrumbJsonLd = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://personal-gym-biyori.com/" },
-    { "@type": "ListItem", position: 2, name: "口コミ・レビュー", item: "https://personal-gym-biyori.com/#ranking" },
-    { "@type": "ListItem", position: 3, name: "Nexusジム", item: "https://personal-gym-biyori.com/review/nexus/" },
-    { "@type": "ListItem", position: 4, name: "大船店" },
+    { "@type": "ListItem", position: 2, name: "Nexusジム", item: "https://personal-gym-biyori.com/review/nexus/" },
+    { "@type": "ListItem", position: 3, name: "大船店" },
   ],
 };
 

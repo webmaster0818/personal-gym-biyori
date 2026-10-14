@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "Lino Uの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -154,6 +155,8 @@ export default function LinoUReview() {
           <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたのライフスタイルに合ったプランを相談してみましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
+
+        <BrandStoreLinks brand="lino-u" brandName="Lino U" />
 
         <section><h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2><div className="grid grid-cols-2 sm:grid-cols-4 gap-3">{relatedReviews.map((r) => (<Link key={r.name} href={r.href} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-teal-500 transition-colors">{r.name}</Link>))}</div></section>
       </div>

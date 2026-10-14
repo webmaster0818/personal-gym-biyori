@@ -5,6 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "FURDI（ファディー）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -141,8 +142,7 @@ export default function FurdiReview() {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://personal-gym-biyori.com/"},
-          {"@type": "ListItem", "position": 2, "name": "口コミ・レビュー", "item": "https://personal-gym-biyori.com/#ranking"},
-          {"@type": "ListItem", "position": 3, "name": "FURDI（ファディー）"}
+          {"@type": "ListItem", "position": 2, "name": "FURDI（ファディー）"}
         ]
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -487,6 +487,8 @@ export default function FurdiReview() {
             </Link>
           </div>
         </section>
+
+        <BrandStoreLinks brand="furdi" brandName="FURDI" />
 
         <section>
           <h2 id="s13" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>

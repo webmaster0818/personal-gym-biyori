@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "TOKIELの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -189,6 +190,8 @@ export default function TokielReview() {
           <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
+
+        <BrandStoreLinks brand="tokiel" brandName="TOKIEL" />
 
         <section>
           <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>

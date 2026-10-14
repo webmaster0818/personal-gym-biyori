@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "ビーコンセプト 新宿店", href: "/review/b-concept/shinjuku/" },
   { name: "ビーコンセプト 渋谷店", href: "/review/b-concept/shibuya/" },
   { name: "ビーコンセプト 銀座店", href: "/review/b-concept/ginza/" },
+  { name: "ビーコンセプト 大宮店", href: "/review/b-concept/omiya/" },
 ];
 
 export default function StorePage() {

@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "ASPIの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -251,6 +252,8 @@ export default function AspiReview() {
             ランキングに戻る
           </Link>
         </section>
+
+        <BrandStoreLinks brand="aspi" brandName="ASPI" />
 
         <section>
           <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>

@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
+import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
   title: "RITA STYLEの口コミ・評判｜料金・メリット・デメリットを徹底解説",
@@ -294,6 +295,8 @@ export default function RitaStyleReview() {
             </Link>
           </div>
         </section>
+
+        <BrandStoreLinks brand="rita-style" brandName="RITA STYLE" />
 
         <section>
           <h2 id="s9" className="text-lg font-bold mb-4">他のパーソナルジムも見る</h2>

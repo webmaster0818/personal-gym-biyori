@@ -40,6 +40,7 @@ const relatedStores = [
   { name: "HABIT 中目黒店", href: "/review/habit/nakameguro/" },
   { name: "HABIT 白金高輪店", href: "/review/habit/shirokanedai/" },
   { name: "HABIT 渋谷松濤店", href: "/review/habit/shibuya/" },
+  { name: "HABIT 梅田店", href: "/review/habit/umeda/" },
 ];
 
 export default function StorePage() {

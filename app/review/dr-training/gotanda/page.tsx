@@ -43,6 +43,7 @@ const relatedStores = [
   { name: "Dr.トレーニング 恵比寿店", href: "/review/dr-training/ebisu/" },
   { name: "Dr.トレーニング 新宿店", href: "/review/dr-training/shinjuku/" },
   { name: "Dr.トレーニング 銀座店", href: "/review/dr-training/ginza/" },
+  { name: "Dr.トレーニング 自由が丘店", href: "/review/dr-training/jiyugaoka/" },
 ];
 
 export default function StorePage() {
