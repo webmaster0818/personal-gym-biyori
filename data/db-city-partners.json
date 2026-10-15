@@ -1,0 +1,1098 @@
+{
+ "generatedAt": "2026-10-15",
+ "basis": "公式店舗一覧との照合(2026-10-15)で存在を確認できた提携ブランドの店舗ページ",
+ "areas": {
+  "chiba": "千葉市",
+  "shibuya": "渋谷区",
+  "ikebukuro": "豊島区",
+  "shinjuku": "新宿区",
+  "yokohama": "横浜市",
+  "kawasaki": "川崎市",
+  "osaka": "大阪市",
+  "nagoya": "名古屋市",
+  "kyoto": "京都市",
+  "kobe": "神戸市",
+  "fukuoka": "福岡市",
+  "hiroshima": "広島市",
+  "sapporo": "札幌市",
+  "sendai": "仙台市",
+  "saitama": "さいたま市",
+  "niigata": "新潟市",
+  "okayama": "岡山市",
+  "kumamoto": "熊本市",
+  "kagoshima": "鹿児島市",
+  "naha": "那覇市",
+  "shizuoka": "静岡市",
+  "kanazawa": "金沢市",
+  "matsuyama": "松山市",
+  "takamatsu": "高松市",
+  "utsunomiya": "宇都宮市",
+  "nara": "奈良市",
+  "gifu": "岐阜市",
+  "otsu": "大津市",
+  "wakayama": "和歌山市",
+  "oita": "大分市",
+  "nagasaki": "長崎市",
+  "toyama": "富山市",
+  "tsu": "津市",
+  "mito": "水戸市",
+  "maebashi": "前橋市",
+  "morioka": "盛岡市",
+  "nagano": "長野市",
+  "saga": "佐賀市",
+  "akita": "秋田市",
+  "aomori": "青森市",
+  "fukui": "福井市",
+  "fukushima": "福島市",
+  "yamagata": "山形市",
+  "kochi": "高知市",
+  "tottori": "鳥取市",
+  "tokushima": "徳島市",
+  "kofu": "甲府市",
+  "matsue": "松江市",
+  "yamaguchi": "山口市"
+ },
+ "cities": {
+  "chiba": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/chiba/",
+      "name": "BEYOND 千葉店",
+      "area": "千葉県千葉市中央区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/chiba/",
+      "name": "RIZAP 千葉店",
+      "area": "千葉県千葉市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "shibuya": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/ebisu/",
+      "name": "BEYOND 恵比寿店",
+      "area": "東京都渋谷区恵比寿",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/shibuya-miyamasuzaka/",
+      "name": "BEYOND 渋谷宮益坂店",
+      "area": "東京都渋谷区渋谷",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/shibuya/",
+      "name": "BEYOND 渋谷店",
+      "area": "東京都渋谷区渋谷",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/ebisu/",
+      "name": "RIZAP 恵比寿店",
+      "area": "東京都渋谷区恵比寿",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "habit",
+    "name": "HABIT PERSONAL GYM（ハビット）",
+    "href": "/review/habit/",
+    "stores": [
+     {
+      "href": "/review/habit/ebisu/",
+      "name": "HABIT 恵比寿店",
+      "area": "東京都渋谷区恵比寿西1-32-14",
+      "indexable": true
+     },
+     {
+      "href": "/review/habit/hatagaya/",
+      "name": "HABIT 幡ヶ谷店",
+      "area": "東京都渋谷区幡ヶ谷2-1-4",
+      "indexable": true
+     },
+     {
+      "href": "/review/habit/shibuya/",
+      "name": "HABIT 渋谷松濤店",
+      "area": "東京都渋谷区宇田川町37-15",
+      "indexable": true
+     },
+     {
+      "href": "/review/habit/yoyogiuehara-annex/",
+      "name": "HABIT 代々木上原ANNEX店",
+      "area": "東京都渋谷区西原3-22-15",
+      "indexable": true
+     },
+     {
+      "href": "/review/habit/yoyogiuehara/",
+      "name": "HABIT 代々木上原店",
+      "area": "東京都渋谷区西原3-11-9",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "apple-gym",
+    "name": "Apple GYM（アップルジム）",
+    "href": "/review/apple-gym/",
+    "stores": [
+     {
+      "href": "/review/apple-gym/ebisu/",
+      "name": "Apple GYM（アップルジム）恵比寿店",
+      "area": "東京都渋谷区",
+      "indexable": false
+     }
+    ]
+   }
+  ],
+  "ikebukuro": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/ikebukuro/",
+      "name": "BEYOND 池袋店",
+      "area": "東京都豊島区池袋",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/ikebukuro/",
+      "name": "RIZAP 池袋店",
+      "area": "東京都豊島区南池袋",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "laststyle",
+    "name": "Lastyle（ラスタイル）",
+    "href": "/review/laststyle/",
+    "stores": [
+     {
+      "href": "/review/laststyle/ikebukuro/",
+      "name": "Laststyle 池袋店",
+      "area": "東京都豊島区南池袋",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "apple-gym",
+    "name": "Apple GYM（アップルジム）",
+    "href": "/review/apple-gym/",
+    "stores": [
+     {
+      "href": "/review/apple-gym/ikebukuro/",
+      "name": "Apple GYM（アップルジム）池袋店",
+      "area": "東京都豊島区",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "shinjuku": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/shinjuku/",
+      "name": "BEYOND 新宿店",
+      "area": "東京都新宿区西新宿",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/shinjuku/",
+      "name": "RIZAP 新宿店",
+      "area": "東京都新宿区西新宿",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "apple-gym",
+    "name": "Apple GYM（アップルジム）",
+    "href": "/review/apple-gym/",
+    "stores": [
+     {
+      "href": "/review/apple-gym/shinjuku/",
+      "name": "Apple GYM（アップルジム）新宿店",
+      "area": "東京都新宿区",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "yokohama": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/totsuka/",
+      "name": "BEYOND 戸塚店",
+      "area": "神奈川県横浜市戸塚区戸塚町16番地9 カンパニュラBDL 201号室",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/yokohama-motomachi/",
+      "name": "BEYOND 横浜元町店",
+      "area": "神奈川県横浜市中区元町",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/yokohama/",
+      "name": "BEYOND 横浜店",
+      "area": "横浜市西区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/yokohama/",
+      "name": "RIZAP 横浜店",
+      "area": "横浜市西区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "nexus",
+    "name": "Nexusジム",
+    "href": "/review/nexus/",
+    "stores": [
+     {
+      "href": "/review/nexus/ofuna/",
+      "name": "Nexusジム 大船店",
+      "area": "〒247-0006 神奈川県横浜市栄区笠間2丁目20-7 K.C笠間1階",
+      "indexable": true
+     },
+     {
+      "href": "/review/nexus/yokohama/",
+      "name": "Nexusジム 横浜元町店",
+      "area": "神奈川県横浜市",
+      "indexable": false
+     }
+    ]
+   },
+   {
+    "brand": "apple-gym",
+    "name": "Apple GYM（アップルジム）",
+    "href": "/review/apple-gym/",
+    "stores": [
+     {
+      "href": "/review/apple-gym/yokohama/",
+      "name": "Apple GYM（アップルジム）横浜店",
+      "area": "神奈川県横浜市",
+      "indexable": false
+     }
+    ]
+   }
+  ],
+  "kawasaki": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/kawasaki/",
+      "name": "BEYOND 川崎店",
+      "area": "川崎市川崎区",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/mizonokuchi/",
+      "name": "BEYOND 溝の口店",
+      "area": "神奈川県川崎市高津区溝口",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/musashikosugi/",
+      "name": "BEYOND 武蔵小杉店",
+      "area": "神奈川県川崎市中原区新丸子町",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/kawasaki/",
+      "name": "RIZAP 川崎店",
+      "area": "川崎市川崎区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/musashikosugi/",
+      "name": "FURDI（ファディー）武蔵小杉店",
+      "area": "神奈川県川崎市",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "apple-gym",
+    "name": "Apple GYM（アップルジム）",
+    "href": "/review/apple-gym/",
+    "stores": [
+     {
+      "href": "/review/apple-gym/kawasaki/",
+      "name": "Apple GYM（アップルジム）川崎店",
+      "area": "神奈川県川崎市",
+      "indexable": false
+     }
+    ]
+   }
+  ],
+  "osaka": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/shinsaibashi/",
+      "name": "BEYOND 心斎橋店",
+      "area": "大阪府大阪市中央区心斎橋筋",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/tennoji/",
+      "name": "BEYOND 天王寺店",
+      "area": "大阪府大阪市阿倍野区",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/umeda/",
+      "name": "BEYOND 梅田店",
+      "area": "大阪市北区梅田",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/namba/",
+      "name": "RIZAP なんば店",
+      "area": "大阪市中央区",
+      "indexable": true
+     },
+     {
+      "href": "/review/rizap/tennoji/",
+      "name": "RIZAP 天王寺店",
+      "area": "大阪府大阪市",
+      "indexable": true
+     },
+     {
+      "href": "/review/rizap/umeda/",
+      "name": "RIZAP 梅田店",
+      "area": "大阪市北区梅田",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/osaka-gamo/",
+      "name": "FURDI（ファディー）蒲生店",
+      "area": "大阪府大阪市城東区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "habit",
+    "name": "HABIT PERSONAL GYM（ハビット）",
+    "href": "/review/habit/",
+    "stores": [
+     {
+      "href": "/review/habit/umeda/",
+      "name": "HABIT 梅田店",
+      "area": "大阪府大阪市北区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "nexus",
+    "name": "Nexusジム",
+    "href": "/review/nexus/",
+    "stores": [
+     {
+      "href": "/review/nexus/osaka-fukushima/",
+      "name": "Nexusジム 大阪福島店",
+      "area": "大阪府大阪市",
+      "indexable": false
+     }
+    ]
+   },
+   {
+    "brand": "lexer",
+    "name": "ReXeR（レクサー）",
+    "href": "/review/lexer/",
+    "stores": [
+     {
+      "href": "/review/lexer/umeda-nakatsu/",
+      "name": "REXER 梅田中津店",
+      "area": "大阪府大阪市北区中津1-2-20",
+      "indexable": false
+     }
+    ]
+   }
+  ],
+  "nagoya": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/kanayama/",
+      "name": "BEYOND 金山店",
+      "area": "愛知県名古屋市中区金山",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/meieki/",
+      "name": "BEYOND 名駅店",
+      "area": "愛知県名古屋市中村区名駅",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/nagoya/",
+      "name": "BEYOND 名古屋店",
+      "area": "名古屋市中区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/kanayama/",
+      "name": "RIZAP 金山店",
+      "area": "愛知県名古屋市",
+      "indexable": true
+     },
+     {
+      "href": "/review/rizap/meieki/",
+      "name": "RIZAP 名駅店",
+      "area": "愛知県名古屋市",
+      "indexable": true
+     },
+     {
+      "href": "/review/rizap/nagoya/",
+      "name": "RIZAP 名古屋店",
+      "area": "名古屋市中区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/nagoya-hongo/",
+      "name": "FURDI（ファディー）名古屋本郷店",
+      "area": "愛知県名古屋市名東区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "calorie-trade",
+    "name": "CALORIE TRADE JAPAN",
+    "href": "/review/calorie-trade/",
+    "stores": [
+     {
+      "href": "/review/calorie-trade/nagoya-midori/",
+      "name": "CALORIE TRADE JAPAN 名古屋緑区店",
+      "area": "名古屋市緑区大将ヶ根2-1043",
+      "indexable": true
+     },
+     {
+      "href": "/review/calorie-trade/nagoya-mizuho/",
+      "name": "CALORIE TRADE JAPAN 名古屋瑞穂区店",
+      "area": "名古屋市瑞穂区瑞穂通8-19-6",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "kyoto": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/kyoto-shijo/",
+      "name": "BEYOND 京都四条店",
+      "area": "京都府京都市下京区四条通",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/kyoto/",
+      "name": "RIZAP 京都店",
+      "area": "京都市中京区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/kitayama/",
+      "name": "FURDI（ファディー）京都北山店",
+      "area": "京都府京都市左京区",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "kobe": [
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/kobe/",
+      "name": "RIZAP 神戸店",
+      "area": "神戸市中央区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/konan-yamatte/",
+      "name": "FURDI（ファディー）甲南山手駅前店",
+      "area": "兵庫県神戸市東灘区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rat",
+    "name": "パーソナルジムRat（ラット）",
+    "href": "/review/rat/",
+    "stores": [
+     {
+      "href": "/review/rat/kobe-sannomiya/",
+      "name": "RAT 神戸三宮元町店",
+      "area": "兵庫県神戸市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "fukuoka": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/fukuoka/",
+      "name": "BEYOND 福岡天神店",
+      "area": "福岡市中央区天神",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/hakata/",
+      "name": "BEYOND 博多店",
+      "area": "福岡県福岡市博多区博多駅前",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/fukuoka/",
+      "name": "RIZAP 天神店",
+      "area": "福岡市中央区天神",
+      "indexable": true
+     },
+     {
+      "href": "/review/rizap/hakata/",
+      "name": "RIZAP 博多店",
+      "area": "福岡県福岡市",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rita-style",
+    "name": "RITA STYLE（リタスタイル）",
+    "href": "/review/rita-style/",
+    "stores": [
+     {
+      "href": "/review/rita-style/fukuoka-tenjin/",
+      "name": "RITA STYLE 福岡天神店",
+      "area": "福岡市中央区",
+      "indexable": true
+     },
+     {
+      "href": "/review/rita-style/hakata/",
+      "name": "RITA STYLE 博多店",
+      "area": "福岡市博多区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rat",
+    "name": "パーソナルジムRat（ラット）",
+    "href": "/review/rat/",
+    "stores": [
+     {
+      "href": "/review/rat/fukuoka-tenjin/",
+      "name": "RAT 福岡天神店",
+      "area": "福岡県福岡市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "hiroshima": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/hiroshima/",
+      "name": "BEYOND 広島店",
+      "area": "広島市中区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/hiroshima/",
+      "name": "RIZAP 広島店",
+      "area": "広島市中区",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "sapporo": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/sapporo/",
+      "name": "BEYOND 札幌店",
+      "area": "札幌市中央区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/sapporo/",
+      "name": "RIZAP 札幌店",
+      "area": "札幌市中央区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "fit24",
+    "name": "FiT24（フィット24）",
+    "href": "/review/fit24/",
+    "stores": [
+     {
+      "href": "/review/fit24/sapporo/",
+      "name": "FIT24 札幌店",
+      "area": "北海道札幌市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "sendai": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/sendai/",
+      "name": "BEYOND 仙台店",
+      "area": "仙台市青葉区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/sendai/",
+      "name": "RIZAP 仙台店",
+      "area": "仙台市青葉区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "fit24",
+    "name": "FiT24（フィット24）",
+    "href": "/review/fit24/",
+    "stores": [
+     {
+      "href": "/review/fit24/sendai/",
+      "name": "FIT24 仙台店",
+      "area": "宮城県仙台市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "saitama": [
+   {
+    "brand": "beyond",
+    "name": "BEYOND（ビヨンド）",
+    "href": "/review/beyond/",
+    "stores": [
+     {
+      "href": "/review/beyond/omiya/",
+      "name": "BEYOND 大宮店",
+      "area": "さいたま市大宮区",
+      "indexable": true
+     },
+     {
+      "href": "/review/beyond/urawa/",
+      "name": "BEYOND 浦和店",
+      "area": "埼玉県さいたま市浦和区",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/omiya/",
+      "name": "RIZAP 大宮店",
+      "area": "さいたま市大宮区",
+      "indexable": true
+     },
+     {
+      "href": "/review/rizap/urawa/",
+      "name": "RIZAP 浦和店",
+      "area": "埼玉県さいたま市",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/kitaurawa/",
+      "name": "FURDI（ファディー）北浦和店",
+      "area": "埼玉県さいたま市",
+      "indexable": true
+     },
+     {
+      "href": "/review/furdi/musashiurawa/",
+      "name": "FURDI（ファディー）武蔵浦和駅前店",
+      "area": "埼玉県さいたま市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "niigata": [
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/niigata/",
+      "name": "RIZAP 新潟店",
+      "area": "新潟県新潟市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "okayama": [
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/okayama-noda/",
+      "name": "FURDI（ファディー）岡山野田店",
+      "area": "岡山県岡山市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "kumamoto": [
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/kumamoto/",
+      "name": "RIZAP 熊本店",
+      "area": "熊本県熊本市",
+      "indexable": true
+     }
+    ]
+   },
+   {
+    "brand": "rita-style",
+    "name": "RITA STYLE（リタスタイル）",
+    "href": "/review/rita-style/",
+    "stores": [
+     {
+      "href": "/review/rita-style/kumamoto/",
+      "name": "RITA STYLE 熊本店",
+      "area": "熊本市中央区",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "kagoshima": [
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/kagoshima/",
+      "name": "RIZAP 鹿児島店",
+      "area": "鹿児島県鹿児島市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "naha": [],
+  "shizuoka": [],
+  "kanazawa": [
+   {
+    "brand": "rizap",
+    "name": "RIZAP（ライザップ）",
+    "href": "/review/rizap/",
+    "stores": [
+     {
+      "href": "/review/rizap/kanazawa/",
+      "name": "RIZAP 金沢店",
+      "area": "石川県金沢市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "matsuyama": [],
+  "takamatsu": [],
+  "utsunomiya": [
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/utsunomiya/",
+      "name": "FURDI（ファディー）宇都宮店",
+      "area": "栃木県宇都宮市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "nara": [],
+  "gifu": [],
+  "otsu": [],
+  "wakayama": [],
+  "oita": [],
+  "nagasaki": [],
+  "toyama": [],
+  "tsu": [],
+  "mito": [
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/mito-akatsuka/",
+      "name": "FURDI（ファディー）水戸赤塚店",
+      "area": "茨城県水戸市",
+      "indexable": true
+     },
+     {
+      "href": "/review/furdi/mito-senba/",
+      "name": "FURDI（ファディー）水戸千波店",
+      "area": "茨城県水戸市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "maebashi": [],
+  "morioka": [],
+  "nagano": [],
+  "saga": [],
+  "akita": [],
+  "aomori": [
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/aomori/",
+      "name": "FURDI（ファディー）青森浜田店",
+      "area": "青森県青森市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "fukui": [],
+  "fukushima": [],
+  "yamagata": [
+   {
+    "brand": "furdi",
+    "name": "FURDI（ファディー）",
+    "href": "/review/furdi/",
+    "stores": [
+     {
+      "href": "/review/furdi/yamagata/",
+      "name": "FURDI（ファディー）山形南店",
+      "area": "山形県山形市",
+      "indexable": true
+     }
+    ]
+   }
+  ],
+  "kochi": [],
+  "tottori": [],
+  "tokushima": [],
+  "kofu": [],
+  "matsue": [],
+  "yamaguchi": []
+ }
+}

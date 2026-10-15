@@ -476,113 +476,58 @@
 <url><loc>https://personal-gym-biyori.com/review/apple-gym/shinjuku/</loc></url>
 <url><loc>https://personal-gym-biyori.com/review/apple-gym/ikebukuro/</loc></url>
 <url><loc>https://personal-gym-biyori.com/terms/</loc></url>
-<url><loc>https://personal-gym-biyori.com/db/shinjuku/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/shibuya/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/ikebukuro/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/yokohama/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/nagoya/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/osaka/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/fukuoka/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/sapporo/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/sendai/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/hiroshima/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/kyoto/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url><loc>https://personal-gym-biyori.com/db/kobe/</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/saitama/</loc>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/chiba/</loc>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/kawasaki/</loc>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/niigata/</loc>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/okayama/</loc>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/kumamoto/</loc>
+<url><loc>https://personal-gym-biyori.com/db/shinjuku/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/shibuya/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/ikebukuro/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/yokohama/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/nagoya/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/osaka/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/fukuoka/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/sapporo/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/sendai/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/hiroshima/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/kyoto/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/kobe/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/saitama/</loc><lastmod>2026-10-15</lastmod></url>
+<url><loc>https://personal-gym-biyori.com/db/chiba/</loc><lastmod>2026-10-15</lastmod></url>
+<url><loc>https://personal-gym-biyori.com/db/kawasaki/</loc><lastmod>2026-10-15</lastmod></url>
+<url><loc>https://personal-gym-biyori.com/db/niigata/</loc><lastmod>2026-10-15</lastmod></url>
+<url><loc>https://personal-gym-biyori.com/db/okayama/</loc><lastmod>2026-10-15</lastmod></url>
+<url><loc>https://personal-gym-biyori.com/db/kumamoto/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/kagoshima/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/kanazawa/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/matsuyama/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/utsunomiya/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/takamatsu/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/nagasaki/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/oita/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/naha/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/toyama/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/wakayama/</loc><lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/kagoshima/</loc>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/kochi/</loc><lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/kanazawa/</loc>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/fukui/</loc><lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/matsuyama/</loc>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/aomori/</loc><lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/utsunomiya/</loc>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/akita/</loc><lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/takamatsu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/nagasaki/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/oita/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/naha/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/toyama/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/wakayama/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/kochi/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/fukui/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/aomori/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/akita/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+    <priority>0.7</priority></url>
 <url>
     <loc>https://personal-gym-biyori.com/db/</loc>
     <lastmod>2026-09-28</lastmod>
@@ -594,91 +539,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/gifu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/nagano/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/mito/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/yamagata/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/morioka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/shizuoka/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/maebashi/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/fukushima/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/tokushima/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/saga/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/tsu/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/otsu/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/nara/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/matsue/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/tottori/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/yamaguchi/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://personal-gym-biyori.com/db/kofu/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<url><loc>https://personal-gym-biyori.com/db/gifu/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/nagano/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/mito/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/yamagata/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/morioka/</loc><lastmod>2026-10-15</lastmod><changefreq>monthly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/shizuoka/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/maebashi/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/fukushima/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/tokushima/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/saga/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/tsu/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/otsu/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/nara/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/matsue/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/tottori/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/yamaguchi/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
+<url><loc>https://personal-gym-biyori.com/db/kofu/</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq>
+    <priority>0.7</priority></url>
 <url><loc>https://personal-gym-biyori.com/area/chiba/</loc></url>
 <url><loc>https://personal-gym-biyori.com/area/ginza/</loc></url>
 <url><loc>https://personal-gym-biyori.com/area/hiroshima/</loc></url>

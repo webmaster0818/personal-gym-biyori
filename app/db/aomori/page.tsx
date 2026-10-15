@@ -3,6 +3,7 @@ import Link from "next/link";
 import db from "@/data/gym-db/aomori.json";
 
 import gymIdx from "@/data/gym-index.json";
+import { dbCityMetadata, DbCitySummary, DbCityPartners, cityLabel, type CityDb } from "@/components/DbCity";
 
 const gymSlugMap = new Map(
   (gymIdx.entries as { slug: string; name: string; address: string }[]).map((e) => [e.name + (e.address || ""), e.slug])
@@ -11,11 +12,7 @@ function gymSlugOf(g: { name: string; address?: string }): string | undefined {
   return gymSlugMap.get(g.name + (g.address || ""));
 }
 
-export const metadata: Metadata = {
-  title: "青森のパーソナルジム全データベース【50店・実在確認済み】評点と口コミ数で一覧比較",
-  description:
-    "青森エリアのパーソナルジム50店を、Googleマップの実測データ(評点・口コミ件数・所在地・2026年8月29日取得)で一覧化した全店データベース。提携の有無に関係なく実在確認できた店舗を網羅し、口コミ件数順に並べています。",
-};
+export const metadata: Metadata = dbCityMetadata("aomori", db as CityDb);
 
 type Gym = { name: string; rating?: number; reviews?: number; address?: string; maps?: string };
 
@@ -45,12 +42,13 @@ export default function AomoriDbPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <h1 className="text-2xl font-bold sm:text-3xl">青森のパーソナルジム全データベース({gyms.length}店)</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">{cityLabel("aomori", db as CityDb)}のパーソナルジム全{gyms.length}店（口コミ件数順の一覧）</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         青森エリアで実在確認できたパーソナルジム{gyms.length}店の一覧です(Googleマップ実測・{db.fetchedAt}取得・口コミ件数順)。
         
         このページは「まず全体を見たい」方向けに、提携の有無に関係なく全店を載せています。
       </p>
+      <DbCitySummary slug="aomori" db={db as CityDb} />
 
       <div className="mt-6 overflow-x-auto">
         <table className="w-full min-w-[640px] text-sm border border-gray-200">
@@ -87,6 +85,8 @@ export default function AomoriDbPage() {
       <p className="mt-2 text-xs text-gray-400">
         ※評点・口コミ件数はGoogleマップの{db.fetchedAt}時点の表示値をそのまま転記したもので、当サイトによる評価ではありません。営業状況・料金は必ず各公式サイトでご確認ください。ジム名のリンクはGoogleマップの該当ページを開きます。
       </p>
+
+      <DbCityPartners slug="aomori" db={db as CityDb} />
 
       <h2 className="mt-10 text-lg font-bold">よくある質問</h2>
       <div className="mt-3 space-y-3">
