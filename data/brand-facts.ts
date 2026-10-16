@@ -294,7 +294,7 @@ export const BRAND_FACTS: Record<string, BrandFacts> = {
     facts: [
       { label: "販売業者", value: "株式会社REXIV（東京都中央区銀座）※トップの「運営会社」リンク先は別社名", src: "https://applegym.jp/sct/" },
       { label: "料金（税込・月会費）", value: "個別指導（最大2名）月4回9,900円・8回19,800円・12回29,700円／プレミアム（完全マンツーマン）月4回14,850円・8回29,700円・12回44,550円。共用設備費330円別途。平日12:20〜17:20は10%OFF", src: "https://applegym.jp/price/" },
-      { label: "入会金", value: "「税込44,000円 半額」と「税込33,000円 無料（今月まで）」の2通りのバナー表記", src: "https://applegym.jp/price/" },
+      { label: "入会金", value: "「税込44,000円 半額」と「税込33,000円 無料（今月まで）」の2通りのバナー表記。料金ページ上部の表記は「10月31日までの体験予約で入会金無料」（2026年10月17日確認）", src: "https://applegym.jp/price/" },
       { label: "返金", value: "トップのバナーは「全額以上返金保証」、特定商取引法の表記は「本契約申込み後に解約される場合、理由を問わず返金いたしません」と食い違い", src: "https://applegym.jp/sct/" },
       { label: "店舗", value: "公式トップの一覧で東京52・神奈川14の66店舗。「全店駅徒歩5分以内」", src: "https://applegym.jp/" },
       { label: "有効期限", value: "月会費制のため1ヶ月。サービス開始は毎月1日または16日、クレジットカードは毎月10日決済", src: "https://applegym.jp/sct/" },
