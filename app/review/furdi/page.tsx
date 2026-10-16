@@ -11,7 +11,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "FURDI（ファディー）の口コミ・評判｜料金・解約金・悪い口コミを検証",
   description:
-    "FURDI（ファディー）の口コミ・評判を徹底解説。AI×女性専用フィットネス、サーキット型トレーニングの料金体系、メリット・デメリットまで網羅。",
+    "FURDI（ファディー）の口コミ・評判を解説します。AIを活用した女性専用のサーキット型フィットネスについて、料金体系とメリット・デメリットをまとめています。",
 };
 
 const basicInfo = [
@@ -25,22 +25,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "AIがトレーニングを指導",
-    desc: "大型モニターに映し出されるAIトレーナーが、フォームの指導やトレーニングメニューを提案。人間のトレーナーに気を使う必要がなく、自分のペースでトレーニングに集中できます。",
+    desc: "大型モニターに映し出されるAIトレーナーが、フォームの指導やトレーニングメニューの提案を行います。人間のトレーナーに気を使う必要がなく、自分のペースでトレーニングに集中できます。",
   },
   {
-    title: "月額7,678円〜の圧倒的低価格",
-    desc: "パーソナルジムとしては破格の月額7,678円〜。通い放題プランでこの価格のため、毎日通えば1回あたり数百円という驚異のコスパを実現しています。",
+    title: "月額7,678円〜の低価格な料金設定",
+    desc: "月額7,678円〜の低価格な料金設定です。通い放題プランでこの価格のため、毎日通うと1回あたり数百円の計算になります。",
   },
   {
     title: "予約不要で好きな時に通える",
-    desc: "予約なしでいつでも好きな時間に通えるため、スケジュールに縛られずにトレーニングできます。忙しい方にぴったりの柔軟なシステムです。",
+    desc: "予約なしでいつでも好きな時間に通えるため、スケジュールに縛られずにトレーニングできます。忙しい方に適した柔軟なシステムです。",
   },
 ];
 
 const merits = [
   {
     title: "人目を気にせずトレーニングできる",
-    desc: "AI指導のため、トレーナーとのコミュニケーションが苦手な方でもストレスフリー。女性専用なので男性の目も気になりません。",
+    desc: "AI指導のため、トレーナーとのコミュニケーションが苦手な方でも気軽に利用できます。女性専用のため、男性の目を気にする必要もありません。",
   },
   {
     title: "全国に店舗があり通いやすい",
@@ -54,8 +54,8 @@ const merits = [
 
 const demerits = [
   {
-    title: "対人指導がないため初心者は不安な場合も",
-    desc: "AIによる指導のため、細かなフォーム修正や個別の質問対応には限界があります。完全な対人指導を求める方には物足りない可能性があります。",
+    title: "対人指導がないことによる初心者の不安",
+    desc: "AIによる指導のため、細かなフォーム修正や個別の質問への対応は限られます。完全な対人指導を求める方には物足りない可能性があります。",
   },
   {
     title: "本格的な筋力トレーニングには不向き",
@@ -75,7 +75,7 @@ const pricingPlans = [
   { name: "初期費用", duration: "—", price: "事務手数料5,500円＋カード発行手数料3,300円", note: "入会金なし" },
 ];
 
-const reviewSummary = "FURDIの口コミでは「安くて通いやすい」「予約不要で気軽」「AIだから気を使わなくていい」という声が多数。低価格ながら十分な運動効果を実感できるという評価が中心です。一方で「直接指導がないので不安」「マシンが限られる」といった声も。運動習慣をつけたい女性の入門としておすすめです。";
+const reviewSummary = "FURDIの口コミでは「安くて通いやすい」「予約不要で気軽」「AIだから気を使わなくていい」という声が多く見られます。低価格ながら十分な運動効果を実感できるという評価が中心です。一方で「直接指導がないので不安」「マシンが限られる」といった声もあります。運動習慣をつけたい女性の入門としておすすめします。";
 
 const reviewCategories = [
   {
@@ -83,8 +83,8 @@ const reviewCategories = [
     summary: "FURDIはAI指導が中心ですが、スタッフの対応についても好意的な口コミが多く見られます。初回のマシン説明やフォームチェックでの丁寧さが評価されています。",
   },
   {
-    title: "料金・コスパ",
-    summary: "月額7,678円で通い放題という圧倒的なコスパが最大の魅力として挙げられています。毎日通えば1回あたり数百円という計算になる点が高評価です。",
+    title: "料金・費用対効果",
+    summary: "月額7,678円で通い放題という費用対効果の高さが、最大の利点として挙げられています。毎日通うと1回あたり数百円の計算になる点が評価されています。",
   },
   {
     title: "施設・設備",
@@ -106,15 +106,15 @@ const reviewCategories = [
 
 const faqItems = [
   { q: "FURDIの入会金はいくらですか？", a: "入会金はありません（公式記載）。別途、事務手数料5,500円・カード発行手数料3,300円がかかります。最新情報は公式サイトでご確認ください。" },
-  { q: "AIトレーニングとは具体的にどんなものですか？", a: "大型モニターにAIトレーナーが表示され、正しいフォームのお手本を見せながらカウントやペース配分の指示を行います。200種類以上のメニューが用意されており、体力レベルや目的に合わせてAIが最適なメニューを提案してくれます。" },
-  { q: "1回のトレーニング時間はどのくらいですか？", a: "1回15〜30分が目安です。サーキット型トレーニングなので短時間でも効率的に全身を動かせます。自分のペースで調整できるため、体力に応じて時間を延ばすことも可能です。" },
-  { q: "見学や体験はできますか？", a: "はい、無料体験が用意されています。実際にAIトレーナーによるサーキットトレーニングを体験できるので、入会前に雰囲気や運動強度を確認できます。公式サイトまたは各店舗にお問い合わせください。" },
+  { q: "AIトレーニングとは具体的にどのようなものですか？", a: "大型モニターにAIトレーナーが表示され、正しいフォームのお手本を見せながらカウントやペース配分の指示を行います。200種類以上のメニューが用意されており、体力レベルや目的に合わせてAIが最適なメニューを提案します。" },
+  { q: "1回のトレーニング時間はどのくらいですか？", a: "1回15〜30分が目安です。サーキット型トレーニングのため、短時間でも効率的に全身を動かせます。自分のペースで調整できるため、体力に応じて時間を延ばすことも可能です。" },
+  { q: "見学や体験はできますか？", a: "はい、無料体験が用意されています。実際にAIトレーナーによるサーキットトレーニングを体験できるため、入会前に雰囲気や運動強度を確認できます。公式サイトまたは各店舗にお問い合わせください。" },
   { q: "男性は利用できますか？", a: "いいえ、FURDIは女性専用のフィットネスジムです。" },
   { q: "退会方法を教えてください。", a: "退会希望の場合は、前月の10日までに店舗に申告が必要です。詳細は入会時にご確認ください。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、FURDIの利用者の多くは運動未経験者です。AIトレーナーが動きの手本を見せてくれるので、初心者でも安心してトレーニングに取り組めます。" },
-  { q: "どのくらいの頻度で通うのがおすすめですか？", a: "週2〜3回が目安として推奨されていますが、通い放題プランなので毎日通っても追加料金はかかりません。自分のペースで通えます。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、FURDIの利用者の多くは運動未経験者です。AIトレーナーが動きの手本を示すため、初心者でも安心してトレーニングに取り組めます。" },
+  { q: "どのくらいの頻度で通うのがおすすめですか？", a: "週2〜3回が目安として推奨されていますが、通い放題プランのため、毎日通っても追加料金はかかりません。自分のペースで通えます。" },
   { q: "混雑する時間帯はいつですか？", a: "平日の夕方17時〜19時頃と土曜日の午前中が比較的混みやすい傾向があります。平日の日中は空いていることが多いです。" },
-  { q: "トレーニングメニューは自分で選べますか？", a: "はい、200種類以上のメニューから目的に合わせて選択できます。AIが体力レベルや目標に合わせたメニューを提案してくれるので、迷う心配もありません。" },
+  { q: "トレーニングメニューは自分で選べますか？", a: "はい、200種類以上のメニューから目的に合わせて選択できます。AIが体力レベルや目標に合わせたメニューを提案するため、メニュー選びに迷うことはありません。" },
 ];
 
 const faqJsonLd = {
@@ -190,7 +190,7 @@ export default function FurdiReview() {
             <li><a href="#s2" className="text-teal-600 hover:underline">FURDIの基本情報</a></li>
             <li><a href="#s3" className="text-teal-600 hover:underline">FURDIの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">FURDIのメリット・デメリット</a></li>
-            <li><a href="#s5" className="text-teal-600 hover:underline">FURDIが向いている人・向いていない人</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">FURDIが向いている方・向いていない方</a></li>
             <li><a href="#s6" className="text-teal-600 hover:underline">FURDIの料金</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">FURDIの口コミ概要</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">FURDI（ファディー） の口コミ分析</a></li>
@@ -210,7 +210,7 @@ export default function FurdiReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          FURDI（ファディー）はAI技術を活用した<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>サーキット型フィットネスジムです。月額<span className="font-bold bg-yellow-100 px-0.5">7,678円</span>〜の低価格で<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>。本記事では、FURDIの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          FURDI（ファディー）はAI技術を活用した<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>サーキット型フィットネスジムです。月額<span className="font-bold bg-yellow-100 px-0.5">7,678円</span>〜の低価格で<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>で利用できます。本記事では、FURDIの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -268,10 +268,10 @@ export default function FurdiReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s5" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">FURDIが向いている人・向いていない人</h2>
+          <h2 id="s5" className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">FURDIが向いている方・向いていない方</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50 rounded-lg p-5">
-              <h3 className="font-bold text-green-700 mb-3">向いている人</h3>
+              <h3 className="font-bold text-green-700 mb-3">向いている方</h3>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>運動初心者で気軽に始めたい女性</li>
                 <li className="flex items-start gap-2"><span className="text-green-500 shrink-0">○</span>月額1万円以下の低価格で通い放題を希望する方</li>
@@ -281,7 +281,7 @@ export default function FurdiReview() {
               </ul>
             </div>
             <div className="bg-red-50 rounded-lg p-5">
-              <h3 className="font-bold text-red-700 mb-3">向いていない人</h3>
+              <h3 className="font-bold text-red-700 mb-3">向いていない方</h3>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>男性（女性専用のため利用不可）</li>
                 <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>本格的な筋力トレーニング・筋肥大を目指す方</li>
@@ -323,8 +323,8 @@ export default function FurdiReview() {
         {/* 中間CTA */}
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
-            <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="font-bold text-lg mb-2">無料カウンセリングのご案内</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合わせたプランを提案します。</p>
             <a href="https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -339,9 +339,9 @@ export default function FurdiReview() {
 
         <section className="mb-12">
           <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FURDI（ファディー） の口コミ分析</h2>
-          <p className="text-sm text-gray-700 mb-6 leading-relaxed">FURDIのGoogleマップ口コミを分析すると、月額7,678円で通い放題という圧倒的なコストパフォーマンスと、予約不要の手軽さに対する高評価が突出しています。AI指導への抵抗感は少なく、むしろ人目を気にせずマイペースにトレーニングできる点が女性ユーザーから支持されています。以下では、カテゴリ別に口コミの傾向をまとめています。</p>
+          <p className="text-sm text-gray-700 mb-6 leading-relaxed">FURDIのGoogleマップ口コミを分析すると、月額7,678円で通い放題という費用対効果の高さと、予約不要の手軽さに対する評価が特に多く見られます。AI指導への抵抗感は少なく、人目を気にせず自分のペースでトレーニングできる点が女性の利用者から支持されています。以下では、カテゴリ別に口コミの傾向をまとめています。</p>
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて載せることはしない方針のため）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上の「Googleマップ実測データ」に掲載しています。</p>
+            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>多く見られる傾向を要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて掲載しない方針のためです）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証可能な数値は、上の「Googleマップの掲載データ」に掲載しています。</p>
             <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/FURDI+%E3%83%95%E3%82%A1%E3%83%87%E3%82%A3%E3%83%BC/" target="_blank" rel="noopener noreferrer" className="underline">Googleマップで口コミを見る</a></p>
           </div>
           <GmapStats slug="furdi" brand="FURDI（ファディー）" />
@@ -357,7 +357,7 @@ export default function FurdiReview() {
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
         <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">FURDI（ファディー）の店舗一覧(都道府県別)</h2>
-        <p className="text-xs text-gray-500 mb-4">当サイトの実測データベースで実在確認できた店舗です。店舗名のリンクはFURDI（ファディー）公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
+        <p className="text-xs text-gray-500 mb-4">当サイトのデータベース（Googleマップの掲載データ）で実在を確認できた店舗です。店舗名のリンクはFURDI（ファディー）公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
         <div className="mb-12">
           <div className="mb-4">
             <h3 className="font-bold text-sm text-gray-800 mb-2">青森県</h3>
@@ -481,7 +481,7 @@ export default function FurdiReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s12" className="text-xl font-bold mb-3">FURDIが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料体験で、AI×サーキットトレーニングの手軽さを体感してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">無料体験にて、AIを活用したサーキットトレーニングをご体験いただけます。</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
               公式サイトへ

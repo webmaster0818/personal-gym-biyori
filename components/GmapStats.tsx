@@ -16,10 +16,10 @@ export default function GmapStats({ slug, brand }: { slug: string; brand: string
     <div className="border border-gray-200 rounded-lg overflow-hidden mb-8">
       <div className="bg-gray-50 px-4 py-3 border-b border-gray-200">
         <p className="text-sm font-bold text-gray-800">
-          {brand}のGoogleマップ実測データ（当サイト収録{s.rated}店舗・口コミ{s.reviews.toLocaleString()}件）
+          {brand}のGoogleマップの掲載データ（当サイト収録{s.rated}店舗・口コミ{s.reviews.toLocaleString()}件）
         </p>
         <p className="text-[11px] text-gray-500 mt-1">
-          当サイトがGoogle Places APIで取得した実店舗データベース（全国49市区・約2,700店舗）から{brand}の店舗を抽出して集計しました（取得日: {GMAP_FETCHED_AT}）。全店舗を網羅したものではありませんが、数値は各店舗のマップページでそのまま確認できます。
+          当サイトがGoogle Places APIで取得した実店舗データベース（全国49市区・約2,700店舗）から{brand}の店舗を抽出して集計しました（取得日: {GMAP_FETCHED_AT}）。全店舗を網羅したものではありませんが、数値は各店舗のGoogleマップのページで確認できます。
         </p>
       </div>
 
@@ -46,10 +46,10 @@ export default function GmapStats({ slug, brand }: { slug: string; brand: string
 
       <div className="p-4 text-sm">
         <p className="text-gray-700 leading-relaxed mb-3">
-          同じブランドでも、店舗によって評点は<strong>{s.min}〜{s.max}</strong>の幅があります。
-          これはトレーナーの顔ぶれや立地・設備が店舗ごとに違うためで、
-          ブランド名だけで決めるより<strong>通う予定の店舗をマップで確認する</strong>ほうが、実際の通いやすさに近づきます。
-          気になる店舗があれば、体験や無料カウンセリングで雰囲気を見てから決めるのが確実です。
+          同じブランドでも、店舗によって評点には<strong>{s.min}〜{s.max}</strong>の幅があります。
+          トレーナーの構成や立地・設備が店舗ごとに異なるためです。
+          ブランド名だけで判断するより、<strong>通う予定の店舗をGoogleマップで確認する</strong>ほうが、実際の利用環境を把握しやすくなります。
+          気になる店舗がある場合は、体験トレーニングや無料カウンセリングで雰囲気を確認してから決めることをおすすめします。
         </p>
         <div>
           <p className="text-xs font-bold text-gray-600 mb-2">評点の高い店舗（参考）</p>
@@ -64,7 +64,7 @@ export default function GmapStats({ slug, brand }: { slug: string; brand: string
           </ul>
           <p className="text-[11px] text-gray-500 mt-3 leading-relaxed">
             ※ 評点は投稿数が少ないほど振れやすく、店舗の良し悪しをそのまま表す指標ではありません。
-            当サイトでは評点の低い店舗を名指しで並べることはしていません。通う予定の店舗の状況は、Googleマップと無料カウンセリングでご確認ください。
+            当サイトでは、評点の低い店舗を個別に取り上げることは控えています。通う予定の店舗の状況は、Googleマップおよび無料カウンセリングでご確認ください。
           </p>
         </div>
       </div>

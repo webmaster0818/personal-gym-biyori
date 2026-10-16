@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "リアルボディの口コミ・評判は？料金・効果を徹底解説【2026年】",
+  title: "リアルボディの口コミ・評判｜料金・効果の解説【2026年】",
   description:
-    "リアルボディの口コミ・評判を徹底解説。1回3,500円〜の回数券制・食事指導無料・契約縛りなしという特徴、料金総額の目安、良い口コミ/悪い口コミの傾向、目的別の向き不向き、よくある質問まで網羅。坂戸店（埼玉）など店舗情報も掲載。仙台・東北・千葉・埼玉で通えるパーソナルジム選びの判断材料に。",
+    "リアルボディの口コミ・評判をご紹介します。1回3,500円〜の回数券制・食事指導無料・契約縛りなしという特徴、料金総額の目安、口コミの傾向、目的別の向き不向き、よくある質問を解説します。坂戸店（埼玉）などの店舗情報も掲載しており、仙台・東北・千葉・埼玉でのパーソナルジム選びにご活用いただけます。",
 };
 
 const basicInfo = [
@@ -23,51 +23,51 @@ const basicInfo = [
 const strengths = [
   {
     title: "回数券制で「通った分だけ」のわかりやすい料金",
-    desc: "月額の継続契約ではなく、必要な回数の券を購入する回数券制を採用。2回券から購入でき、まとめ買いするほど1回あたりが安くなります。月額縛りのジムが合わなかった人にも向いています。",
+    desc: "月額の継続契約ではなく、必要な回数の券を購入する回数券制を採用しています。2回券から購入でき、まとめ買いするほど1回あたりが安くなります。月額契約のジムが合わなかった方にも向いています。",
   },
   {
     title: "食事指導が無料で受けられる",
     desc: "食事指導を別料金とするジムが多い中、リアルボディは食事指導が無料と明記されています。ダイエット・ボディメイク目的でも追加費用を抑えやすいのが強みです。",
   },
   {
-    title: "契約縛り・違約金なしで始めやすい",
-    desc: "長期契約の縛りがなく、解約時の違約金もないと案内されています。「続くか不安」「まず試したい」という初心者でも、心理的なハードルが低い料金体系です。",
+    title: "契約期間の縛り・違約金がなく始めやすい",
+    desc: "長期契約の縛りがなく、解約時の違約金もないと案内されています。「続くか不安」「まず試したい」という初心者の方でも始めやすい料金体系です。",
   },
 ];
 
 const merits = [
   {
-    title: "地域最安値クラスのコストパフォーマンス",
-    desc: "1回あたり3,500円〜のプランもあり、都内大手パーソナルジムの相場と比べて手頃。食事指導込みで続けやすいコスパの良さが評価されています。",
+    title: "地域最安値クラスの費用対効果",
+    desc: "1回あたり3,500円〜のプランもあり、都内大手パーソナルジムの相場と比べて手頃です。食事指導が含まれ、続けやすい費用対効果の高さが評価されています。",
   },
   {
     title: "東北で会員数・店舗数の多いパーソナルジム",
     desc: "仙台・東北エリアを中心に複数店舗を展開しており、地方では貴重な「通いやすいパーソナルジム」の選択肢です。千葉エリアにも店舗があります。",
   },
   {
-    title: "初心者・運動が苦手な人も始めやすい",
-    desc: "「運動に自信がない」「ダイエットでリバウンドを繰り返してきた」という人にも向くと案内されており、アットホームな雰囲気で気軽に通えると好評です。",
+    title: "初心者・運動が苦手な方も始めやすい",
+    desc: "「運動に自信がない」「ダイエットでリバウンドを繰り返してきた」という方にも向くと案内されており、アットホームな雰囲気で通いやすいと好評です。",
   },
 ];
 
 const demerits = [
   {
-    title: "都市部の展開はまだ限定的",
+    title: "都市部の店舗展開は限定的",
     desc: "仙台・東北および千葉が中心のため、それ以外の地域にお住まいの方は通える店舗が見つかりにくい場合があります。",
   },
   {
     title: "全国的な知名度は大手に劣る",
-    desc: "全国チェーンの大手と比べると知名度が低く、ネット上の口コミ・情報量も少なめ。事前のリサーチがしづらい面があります。",
+    desc: "全国チェーンの大手と比べると知名度が低く、インターネット上の口コミ・情報量も多くありません。事前のリサーチがしづらい面があります。",
   },
   {
-    title: "予約状況によっては希望時間が取りにくいことも",
+    title: "予約状況により希望時間が取りにくい場合がある",
     desc: "人気の時間帯は予約が埋まりやすいという声があります。通いたい時間が決まっている場合は、事前に空き状況を確認しておくと安心です。",
   },
 ];
 
-// 公式サイト（personalgym-realbody.com）記載の回数券プランをもとに目安として整理。最新は公式で要確認。
+// 公式サイト（personalgym-realbody.com）記載の回数券プランをもとに目安として整理（最新情報は公式サイトで確認）
 const pricingPlans = [
-  { name: "2回券", duration: "45分/回・2回", price: "12,000円（1回6,000円）", note: "まず試したい人向け" },
+  { name: "2回券", duration: "45分/回・2回", price: "12,000円（1回6,000円）", note: "お試しの方向け" },
   { name: "3回券", duration: "45分/回・3回", price: "16,000円（1回約5,333円）", note: "" },
   { name: "4回券", duration: "45分/回・4回", price: "20,000円（1回5,000円）", note: "週1回・1ヶ月の目安" },
   { name: "5回券", duration: "45分/回・5回", price: "24,000円（1回4,800円）", note: "" },
@@ -77,12 +77,12 @@ const pricingPlans = [
   { name: "16回券", duration: "45分/回・16回", price: "56,000円（1回3,500円）", note: "1回あたり最安クラス" },
 ];
 
-const reviewSummary = "リアルボディの口コミでは「料金が安いのにしっかり指導してくれる」「食事の管理も無料で助かる」「気軽に通える雰囲気」と、コスパと続けやすさを評価する声が中心です。トレーナーのアドバイスを受けながら自信を持って取り組めるという感想も見られます。一方で「店舗があるエリアが限られる」「ネット上の情報が少なくて最初は不安だった」という声もあります。";
+const reviewSummary = "リアルボディの口コミでは「料金が安いのにしっかり指導してくれる」「食事の管理も無料で助かる」「気軽に通える雰囲気」と、費用対効果と続けやすさを評価する声が中心です。トレーナーのアドバイスを受けながら自信を持って取り組めるという感想も見られます。一方で「店舗があるエリアが限られる」「ネット上の情報が少なくて最初は不安だった」という声もあります。";
 
 const reviewCategories = [
   {
     title: "良い口コミ・評判の傾向",
-    summary: "「料金が手頃」「食事指導が無料」「気軽に通える」というコスパ・続けやすさへの評価が中心です。地域密着ならではのアットホームさを挙げる声も目立ちます。",
+    summary: "「料金が手頃」「食事指導が無料」「気軽に通える」という費用対効果・続けやすさへの評価が中心です。地域密着ならではのアットホームさを挙げる声も目立ちます。",
     items: [
       "料金が安いのにしっかり指導してくれて、食事管理も無料という声",
       "都内大手と比べて手頃で、回数券制なので通った分だけで分かりやすいという評価",
@@ -92,7 +92,7 @@ const reviewCategories = [
   },
   {
     title: "気になる口コミ・評判の傾向",
-    summary: "店舗のあるエリアの限られ方や、情報量の少なさに関する指摘が中心です。地方展開ゆえの選択肢の限られ方に触れる声が見られます。",
+    summary: "店舗のあるエリアの限られ方や、情報量の少なさに関する指摘が中心です。地方中心の展開のため、選択肢が限られる点に触れる声が見られます。",
     items: [
       "店舗が仙台・東北・千葉中心で、他エリアからは通いづらいという指摘",
       "全国的な知名度が低く、事前にネットの口コミ情報を集めにくかったという声",
@@ -106,22 +106,22 @@ const goalGuide = [
   {
     goal: "ダイエット・減量したい",
     fit: "向いている",
-    desc: "食事指導が無料で受けられるため、運動と食事の両面から減量に取り組めます。リバウンドを繰り返してきた人にも向くと案内されています。効果には個人差があります。",
+    desc: "食事指導が無料で受けられるため、運動と食事の両面から減量に取り組めます。リバウンドを繰り返してきた方にも向くと案内されています。効果には個人差があります。",
   },
   {
-    goal: "費用を抑えたい・コスパ重視",
+    goal: "費用を抑えたい・費用対効果を重視したい",
     fit: "向いている",
-    desc: "1回あたり3,500円〜の回数券制で、大手相場より手頃。食事指導も無料のため追加費用を抑えやすく、コスパ重視の人に向きます。",
+    desc: "1回あたり3,500円〜の回数券制で、大手の相場より手頃です。食事指導も無料のため追加費用を抑えやすく、費用対効果を重視する方に向いています。",
   },
   {
     goal: "運動初心者・続くか不安",
     fit: "向いている",
-    desc: "契約縛り・違約金なしで、少回数の回数券から試せます。運動が苦手な人も対象と案内されており、心理的なハードルが低めです。",
+    desc: "契約縛り・違約金なしで、少回数の回数券から試せます。運動が苦手な方も対象と案内されており、始めやすい環境です。",
   },
   {
     goal: "ボディメイク・部位を絞って鍛えたい",
     fit: "要確認",
-    desc: "パーソナル指導のためフォーム習得には向きますが、対応できるメニューや器具は店舗により異なります。鍛えたい部位がある場合はカウンセリングで相談を。",
+    desc: "パーソナル指導のためフォーム習得には向きますが、対応できるメニューや器具は店舗により異なります。鍛えたい部位がある場合は、カウンセリングでご相談ください。",
   },
   {
     goal: "仙台・東北/千葉以外で通いたい",
@@ -132,9 +132,9 @@ const goalGuide = [
 
 const faqItems = [
   { q: "リアルボディの料金はいくらですか？", a: "回数券制で、2回券12,000円（1回6,000円）から16回券56,000円（1回3,500円）まで8券種があります（2026年8月3日公式確認）。まとめ買いするほど1回あたりが安くなり、1回のセッションは45分です。最新の料金・プランは公式サイトでご確認ください。" },
-  { q: "リアルボディ坂戸店の営業時間・アクセスは？", a: "坂戸店（埼玉県坂戸市南町12-12 幸陽ビル102）は東武東上線・坂戸駅から徒歩4分、営業時間は平日9:00〜21:00・土日祝8:00〜19:00で年中無休です（2026年8月3日公式確認）。埼玉県内のリアルボディは坂戸店のみで、無料体験から始められます。" },
+  { q: "リアルボディ坂戸店の営業時間・アクセスを教えてください。", a: "坂戸店（埼玉県坂戸市南町12-12 幸陽ビル102）は東武東上線・坂戸駅から徒歩4分、営業時間は平日9:00〜21:00・土日祝8:00〜19:00で年中無休です（2026年8月3日公式確認）。埼玉県内のリアルボディは坂戸店のみで、無料体験から始められます。" },
   { q: "リアルボディの入会金はいくらですか？", a: "入会金については公式サイトに明確な記載が確認できない場合があります。キャンペーンの有無も含め、最新の費用は公式サイトまたは無料体験時にご確認ください。" },
-  { q: "食事指導は受けられますか？追加料金は？", a: "食事指導は無料と案内されています。希望しない場合は食事管理なしのプランも選べるとされています。詳細は公式サイトでご確認ください。" },
+  { q: "食事指導は受けられますか？追加料金はかかりますか？", a: "食事指導は無料と案内されています。希望しない場合は食事管理なしのプランも選べるとされています。詳細は公式サイトでご確認ください。" },
   { q: "契約の縛りや解約手数料はありますか？", a: "契約の縛りはなく、解約時の違約金もないと案内されています。回数券制のため、必要な分だけ購入できます。最新の規約は公式サイトでご確認ください。" },
   { q: "リアルボディはどのエリアに店舗がありますか？", a: "仙台・東北エリア（宮城・福島・山形・青森・岩手）を中心に、関東では千葉県・埼玉県に店舗を展開しています。東京都内・新宿には店舗がありません。具体的な店舗一覧・住所は公式サイトでご確認ください。" },
   { q: "リアルボディに新宿店はありますか？", a: "2026年時点で新宿店・東京都内の店舗はありません。新宿で探す方への最寄り店舗案内と代替ジム比較は別ページにまとめています。" },
@@ -168,11 +168,11 @@ export default function RealBodyReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "リアルボディ" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判は？料金・効果を徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判｜料金・効果の解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/real-body.jpg" alt="リアルボディの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">リアルボディ 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">リアルボディ 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月3日</p>
         <GymCta slug="real-body" name="リアルボディ" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -181,8 +181,8 @@ export default function RealBodyReview() {
           <p className="font-bold text-gray-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
-            <li><a href="#s2" className="text-teal-600 hover:underline">結論：リアルボディはこんな人におすすめ</a></li>
-            <li><a href="#s3" className="text-teal-600 hover:underline">この記事でわかること（よくある4つの疑問）</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">リアルボディが適している方</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">この記事で解説する内容（よくある4つの質問）</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">リアルボディの基本情報</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">リアルボディの3つの強み</a></li>
             <li><a href="#s6" className="text-teal-600 hover:underline">リアルボディのメリット・デメリット</a></li>
@@ -199,39 +199,39 @@ export default function RealBodyReview() {
         <ReviewSummary gymName="リアルボディ" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約縛りなしが魅力。本記事では、リアルボディの口コミ・評判の傾向、料金総額の目安、目的別の向き不向きを詳しく解説します。
+          リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約期間の縛りがない点が魅力です。本記事では、リアルボディの口コミ・評判の傾向、料金総額の目安、目的別の向き不向きを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：リアルボディはこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">リアルボディが適している方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>費用を抑えたい人</strong>に向く（1回3,500円〜の回数券制・食事指導も無料）</li>
-            <li>・<strong>続くか不安な初心者</strong>に向く（契約縛り・違約金なし、少回数から試せる）</li>
-            <li>・<strong>仙台・東北/千葉エリア</strong>で通いやすいパーソナルジムを探している人</li>
-            <li>・口コミは「安いのに指導が丁寧」「気軽に通える」が中心。一方「店舗のエリアが限られる」という声も</li>
-            <li>・料金・入会金・店舗はキャンペーンや時期で変わるため<strong>公式サイトでの確認が必要</strong></li>
+            <li>・<strong>費用を抑えたい方</strong>（1回3,500円〜の回数券制・食事指導も無料）</li>
+            <li>・<strong>継続できるか不安な初心者の方</strong>（契約期間の縛り・違約金なし、少ない回数から試せる）</li>
+            <li>・<strong>仙台・東北/千葉エリア</strong>で通いやすいパーソナルジムを探している方</li>
+            <li>・口コミは「安いのに指導が丁寧」「気軽に通える」という声が中心で、「店舗のエリアが限られる」という声もあります</li>
+            <li>・料金・入会金・店舗はキャンペーンや時期で変わるため、<strong>公式サイトでのご確認が必要</strong>です</li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">本ページの料金は公開情報をもとにした目安です。最新は公式でご確認ください。他ジムとの比較は<a href="/compare/" className="text-teal-600 underline">目的別おすすめ比較</a>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は公開情報をもとにした目安です。最新情報は公式サイトでご確認ください。他ジムとの比較は<a href="/compare/" className="text-teal-600 underline">目的別おすすめ比較</a>もご覧ください。</p>
         </div>
 
         <div className="mb-12">
-          <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
+          <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事で解説する内容（よくある4つの質問）</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 料金は？高い？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">回数券制で1回あたり3,500円〜6,000円程度。まとめ買いほど安く、食事指導も無料のためコスパは高めです。<a href="#pricing" className="text-teal-600 underline">料金の総額目安を見る</a>。</dd>
+              <dt className="font-bold text-gray-800">Q. 料金は高いですか？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">回数券制で、1回あたり3,500円〜6,000円程度です。まとめて購入するほど安くなり、食事指導も無料のため、費用対効果は高めです。<a href="#pricing" className="text-teal-600 underline">料金の総額目安を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 口コミ・評判は？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">「安いのに指導が丁寧」「食事管理も無料」「気軽に通える」という声が中心。一方「店舗のエリアが限られる」という声も。<a href="#reviews" className="text-teal-600 underline">口コミ概要を見る</a>。</dd>
+              <dt className="font-bold text-gray-800">Q. 口コミ・評判の傾向を教えてください。</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">「安いのに指導が丁寧」「食事管理も無料」「気軽に通える」という声が中心です。一方で「店舗のエリアが限られる」という声もあります。<a href="#reviews" className="text-teal-600 underline">口コミ概要を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. どこに店舗がある？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">仙台・東北エリアを中心に、関東では千葉・埼玉に展開（東京・新宿には店舗なし）。店舗一覧は<a href="https://personalgym-realbody.com/shop-list/" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 underline">公式サイト</a>でご確認ください。<a href="/review/real-body/shinjuku/" className="text-teal-600 underline">「リアルボディ 新宿」で探す方はこちら</a>。</dd>
+              <dt className="font-bold text-gray-800">Q. 店舗はどこにありますか？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">仙台・東北エリアを中心に、関東では千葉・埼玉に展開しています（東京・新宿には店舗がありません）。店舗一覧は<a href="https://personalgym-realbody.com/shop-list/" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 underline">公式サイト</a>でご確認ください。<a href="/review/real-body/shinjuku/" className="text-teal-600 underline">「リアルボディ 新宿」で探す方はこちら</a>。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. どんな人に向く？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">費用を抑えたい人・運動初心者・ダイエットしたい人に向きます。鍛えたい部位がある人や対象エリア外の人は<a href="#goal" className="text-teal-600 underline">目的別の向き不向き</a>を確認のうえ比較を。</dd>
+              <dt className="font-bold text-gray-800">Q. どのような方に向いていますか？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">費用を抑えたい方、運動初心者の方、ダイエットをしたい方に向いています。鍛えたい部位がある方や対象エリア外の方は、<a href="#goal" className="text-teal-600 underline">目的別の向き不向き</a>をご確認のうえ、比較をおすすめします。</dd>
             </div>
           </dl>
         </div>
@@ -300,7 +300,7 @@ export default function RealBodyReview() {
         <section className="mb-12">
           <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ・評判の傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            リアルボディの口コミを「良い評判」「気になる評判」に分けて傾向を整理しました。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%9C%E3%83%87%E3%82%A3%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
+            リアルボディの口コミを「良い評判」「気になる評判」に分けて傾向を整理しています。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%9C%E3%83%87%E3%82%A3%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {reviewCategories.map((cat, idx) => (
@@ -321,7 +321,7 @@ export default function RealBodyReview() {
         <section id="goal" className="mb-12 scroll-mt-20">
           <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 リアルボディの向き不向き</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            リアルボディが自分の目的に合うかを、よくある目的・悩み別に整理しました。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
+            リアルボディがご自身の目的に合うかどうかを、よくある目的・悩み別に整理しています。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
           </p>
           <div className="space-y-3">
             {goalGuide.map((g) => (
@@ -348,7 +348,7 @@ export default function RealBodyReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s13" className="text-xl font-bold mb-3">リアルボディが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料体験で、料金プランやトレーナーとの相性を相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料体験で、料金プランやトレーナーとの相性をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

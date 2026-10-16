@@ -9,7 +9,7 @@ import StoreJsonLd from "@/components/StoreJsonLd";
 export const metadata: Metadata = {
   title: "ASPI 町田店の口コミ・評判",
   description:
-    "ASPI 町田店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "ASPI 町田店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */

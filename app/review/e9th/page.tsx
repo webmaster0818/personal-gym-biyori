@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "E9th PRIVATE GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "E9th PRIVATE GYMの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "E9th PRIVATE GYM（イーナインス）の口コミ・評判を徹底解説。完全プライベート空間のパーソナルジムの料金、メリット・デメリットを網羅。",
+    "E9th PRIVATE GYM（イーナインス）の口コミ・評判を解説します。完全プライベート空間のパーソナルジムについて、料金とメリット・デメリットをまとめています。",
 };
 
 const basicInfo = [
@@ -22,7 +22,7 @@ const basicInfo = [
 const strengths = [
   {
     title: "完全プライベート空間でのトレーニング",
-    desc: "他の利用者と一切顔を合わせることのない完全プライベート空間でトレーニングが可能。入室から退室まで、施設を独占して利用できるため、最高のプライバシーが確保されます。",
+    desc: "他の利用者と一切顔を合わせることのない完全プライベート空間でトレーニングができます。入室から退室まで施設を独占して利用できるため、プライバシーが確保されます。",
   },
   {
     title: "高級感のある洗練された空間",
@@ -30,14 +30,14 @@ const strengths = [
   },
   {
     title: "完全オーダーメイドのプログラム",
-    desc: "利用者一人ひとりの体質、目標、ライフスタイルに合わせた完全オーダーメイドのプログラムを作成。画一的なメニューではなく、あなただけの最適なトレーニングプランを提供します。",
+    desc: "利用者一人ひとりの体質、目標、ライフスタイルに合わせた完全オーダーメイドのプログラムを作成します。画一的なメニューではなく、利用者ごとのトレーニングプランを提供しています。",
   },
 ];
 
 const merits = [
   {
-    title: "究極のプライバシー保護",
-    desc: "芸能人や経営者など、人目を避けたい方にも対応できる完全プライベート空間。予約制で他の利用者とバッティングしない設計のため、安心してトレーニングに集中できます。",
+    title: "プライバシーへの配慮",
+    desc: "芸能人や経営者など、人目を避けたい方にも対応できる完全プライベート空間です。予約制で他の利用者とバッティングしない設計のため、安心してトレーニングに集中できます。",
   },
   {
     title: "ラグジュアリーな空間でモチベーション維持",
@@ -59,7 +59,7 @@ const demerits = [
     desc: "プライベート空間を重視しているため店舗数が少なく、通える方が限られます。",
   },
   {
-    title: "カジュアルな雰囲気を求める方には合わない場合も",
+    title: "カジュアルな雰囲気を求める方との相性",
     desc: "高級路線のため、気軽に通いたい方やカジュアルな雰囲気を求める方には敷居が高く感じる可能性があります。",
   },
 ];
@@ -105,7 +105,7 @@ export default function E9thReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "E9th PRIVATE GYM" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">E9th PRIVATE GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">E9th PRIVATE GYMの口コミ・評判｜料金・メリット・デメリットを解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/e9th.jpg" alt="E9th PRIVATE GYMの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -186,7 +186,7 @@ export default function E9thReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">E9th PRIVATE GYMが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは施設見学・カウンセリングで、プライベート空間を体験してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">施設見学・カウンセリングにて、プライベート空間をご確認いただけます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

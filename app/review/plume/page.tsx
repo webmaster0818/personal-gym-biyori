@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "PLUMEの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "PLUMEの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "PLUME（プリュム）の口コミ・評判を徹底解説。おしゃれ空間で女性人気の高いパーソナルジムの料金、メリット・デメリットを網羅。",
+    "PLUME（プリュム）の口コミ・評判をご紹介します。おしゃれ空間で女性人気の高いパーソナルジムの料金、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -22,30 +22,30 @@ const basicInfo = [
 const strengths = [
   {
     title: "デザイナーズ空間でモチベーションアップ",
-    desc: "インテリアデザイナーが手がけたおしゃれな空間で、一般的なジムとは一線を画す居心地の良さ。トレーニングが特別な時間になり、モチベーション維持に大きく貢献します。",
+    desc: "インテリアデザイナーが手がけたおしゃれな空間で、一般的なジムとは異なる居心地の良さが特徴です。トレーニングの時間を前向きに過ごせるため、モチベーション維持につながります。",
   },
   {
     title: "女性に支持される細やかなサービス",
-    desc: "パウダールームやアメニティの充実、清潔感のある設備など、女性が心地よく過ごせるサービスが充実。トレーニング後もそのまま外出できる環境が整っています。",
+    desc: "パウダールームやアメニティの充実、清潔感のある設備など、女性が心地よく過ごせるサービスが充実しています。トレーニング後もそのまま外出できる環境が整っています。",
   },
   {
     title: "ボディメイクに特化した指導",
-    desc: "美しいボディラインを作ることに特化したトレーニングプログラム。くびれ作り、ヒップアップ、二の腕引き締めなど、部位別のアプローチで理想のシルエットを目指します。",
+    desc: "美しいボディラインを作ることに特化したトレーニングプログラムです。くびれ作り、ヒップアップ、二の腕引き締めなど、部位別のアプローチで理想のシルエットを目指します。",
   },
 ];
 
 const merits = [
   {
-    title: "おしゃれな空間がトレーニングの楽しさを倍増",
-    desc: "従来の「きつい・汗臭い」というジムのイメージを覆すスタイリッシュな空間。ジム通いが楽しみになり、継続率の向上につながっています。",
+    title: "おしゃれな空間で楽しく続けられる",
+    desc: "従来の「きつい・汗臭い」というジムのイメージとは異なるスタイリッシュな空間です。ジム通いが楽しみになり、継続率の向上につながっています。",
   },
   {
     title: "SNS映えする空間で成果を共有",
-    desc: "洗練された空間はSNSでの発信にも最適。トレーニングの成果を記録・共有することでモチベーション維持に役立てている利用者が多数います。",
+    desc: "洗練された空間はSNSでの発信にも適しています。トレーニングの成果を記録・共有し、モチベーション維持に役立てている利用者も多くいます。",
   },
   {
     title: "パウダールーム・アメニティが充実",
-    desc: "ドライヤー、化粧品、スキンケア用品など女性向けアメニティが充実。トレーニング後にメイクを直してそのまま仕事やお出かけに行けます。",
+    desc: "ドライヤー、化粧品、スキンケア用品など女性向けアメニティが充実しています。トレーニング後にメイクを直してそのまま仕事やお出かけに行けます。",
   },
 ];
 
@@ -55,7 +55,7 @@ const demerits = [
     desc: "デザイナーズ空間の維持や充実したアメニティのため、一般的なパーソナルジムよりも料金は高めに設定されています。",
   },
   {
-    title: "ハードコアなトレーニング環境ではない",
+    title: "高強度のトレーニングを重視する方には不向き",
     desc: "おしゃれさを重視した空間のため、汗だくで追い込むような本格的なウェイトトレーニングには雰囲気が合わない場合があります。",
   },
   {
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "プレミアムプラン", duration: "75分/回・月8回", price: "月額75,000円〜", note: "ストレッチ＋カウンセリング付き" },
 ];
 
-const reviewSummary = "PLUMEの口コミでは「空間がおしゃれでテンションが上がる」「女性スタッフが多くて安心」と高評価が目立ちます。特に20〜30代の女性からの支持が厚く、「ジム通いが楽しくなった」という声が多数。一方で「料金が高い」「空間重視で設備は普通」という意見もあります。";
+const reviewSummary = "PLUMEの口コミでは「空間がおしゃれでテンションが上がる」「女性スタッフが多くて安心」と高評価が目立ちます。特に20〜30代の女性からの支持が厚く、「ジム通いが楽しくなった」という声が多く見られます。一方で「料金が高い」「空間重視で設備は普通」という意見もあります。";
 
 const faqItems = [
   { q: "PLUMEは女性専用ですか？", a: "女性専用ではありませんが、女性利用者が多い傾向にあります。男性も利用可能です。" },
@@ -105,7 +105,7 @@ export default function PlumeReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "PLUME" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">PLUMEの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">PLUMEの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="plume" name="PLUME" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -127,7 +127,7 @@ export default function PlumeReview() {
         <ReviewSummary gymName="PLUME" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          PLUME（プリュム）はおしゃれなデザイナーズ空間が特徴のパーソナルジムです。女性を中心に人気が高く、ボディメイクに特化した指導と充実したアメニティが魅力。本記事では、PLUMEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          PLUME（プリュム）はおしゃれなデザイナーズ空間が特徴のパーソナルジムです。女性を中心に人気が高く、ボディメイクに特化した指導と充実したアメニティが魅力です。本記事では、PLUMEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -182,7 +182,7 @@ export default function PlumeReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">PLUMEが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは施設見学・カウンセリングで、おしゃれな空間を体験してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは施設見学・カウンセリングで、空間や指導内容をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

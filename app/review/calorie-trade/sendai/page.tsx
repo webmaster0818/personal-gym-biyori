@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "CALORIE TRADE JAPAN 仙台泉区店の口コミ・評判",
   description:
-    "CALORIE TRADE JAPAN 仙台泉区店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "CALORIE TRADE JAPAN 仙台泉区店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -24,7 +24,7 @@ const basicInfo = [
 /* ---------- FAQ ---------- */
 const faqItems = [
   { q: "CALORIE TRADE JAPAN 仙台泉区店の料金はいくらですか？", a: "コースや回数によって料金が異なります。最新の料金プランは公式サイトでご確認ください。" },
-  { q: "CALORIE TRADE JAPAN 仙台泉区店の営業時間は？", a: "営業時間は店舗により異なります。最新情報は公式サイトでご確認ください。" },
+  { q: "CALORIE TRADE JAPAN 仙台泉区店の営業時間を教えてください。", a: "営業時間は店舗により異なります。最新情報は公式サイトでご確認ください。" },
   { q: "CALORIE TRADE JAPAN 仙台泉区店は食事指導がありますか？", a: "はい、CALORIE TRADE JAPANではカロリー管理に基づいた食事指導を全店舗で提供しています。日々の食事内容をトレーナーに相談できます。" },
   { q: "CALORIE TRADE JAPAN 仙台泉区店は初心者でも大丈夫ですか？", a: "はい、運動初心者の方でも安心して通えます。個々の体力レベルに合わせたメニューを組んでもらえます。" },
 ];

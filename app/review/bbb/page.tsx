@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "BBB（トリプルビー）の口コミ・評判は？料金・効果を徹底解説【2026年】",
+  title: "BBB（トリプルビー）の口コミ・評判｜料金・効果の解説【2026年】",
   description:
-    "BBB（トリプルビー）の口コミ・評判を徹底解説。ボディメイク特化パーソナルジムの料金の目安、体組成分析・食事指導の効果、良い口コミ・気になる口コミの傾向、よくある質問まで網羅。",
+    "BBB（トリプルビー）の口コミ・評判をご紹介します。ボディメイクに特化したパーソナルジムの料金の目安、体組成分析・食事指導の効果、良い口コミ・気になる口コミの傾向、よくある質問を解説しています。",
 };
 
 const basicInfo = [
@@ -22,26 +22,26 @@ const basicInfo = [
 const strengths = [
   {
     title: "ボディメイクに特化した独自メソッド",
-    desc: "単なるダイエットではなく、理想のボディラインを作ることに特化した独自のトレーニングメソッドを採用。体脂肪を落としながら必要な筋肉をつけるバランスの取れたアプローチが特徴です。",
+    desc: "単なるダイエットではなく、理想のボディラインを作ることに特化した独自のトレーニングメソッドを採用しています。体脂肪を落としながら必要な筋肉をつけるバランスの取れたアプローチが特徴です。",
   },
   {
     title: "定期的な体組成分析で進捗を可視化",
-    desc: "高精度の体組成計を使用し、体脂肪率・筋肉量・基礎代謝量などを定期的に測定。数値で変化を確認できるため、モチベーション維持と目標達成に役立ちます。",
+    desc: "高精度の体組成計を使用し、体脂肪率・筋肉量・基礎代謝量などを定期的に測定します。数値で変化を確認できるため、モチベーション維持と目標達成に役立ちます。",
   },
   {
     title: "完全個室でのマンツーマン指導",
-    desc: "完全個室のトレーニングルームでマンツーマン指導を実施。他の利用者を気にすることなく、集中してトレーニングに取り組めます。",
+    desc: "完全個室のトレーニングルームでマンツーマン指導を実施しています。他の利用者を気にすることなく、集中してトレーニングに取り組めます。",
   },
 ];
 
 const merits = [
   {
     title: "見た目の変化を実感しやすい",
-    desc: "ボディメイクに特化しているため、体重だけでなくボディラインの変化を重視。体重計の数字以上に見た目が変わったと実感する方が多いです。",
+    desc: "ボディメイクに特化しているため、体重だけでなくボディラインの変化を重視しています。体重計の数字以上に見た目が変わったと実感する方が多いです。",
   },
   {
     title: "データに基づいた科学的なアプローチ",
-    desc: "体組成データを基にトレーニングメニューや食事内容を最適化。感覚ではなくデータに基づいた指導のため、効率的に身体を変えていけます。",
+    desc: "体組成データを基にトレーニングメニューや食事内容を最適化します。感覚ではなくデータに基づいた指導のため、効率的に身体を変えていけます。",
   },
   {
     title: "食事指導で生活習慣が変わる",
@@ -52,11 +52,11 @@ const merits = [
 const demerits = [
   {
     title: "料金はパーソナルジムの平均的な水準",
-    desc: "低価格帯のパーソナルジムと比較するとやや高めです。ただし、体組成分析や食事指導込みのため、総合的なコスパは悪くありません。",
+    desc: "低価格帯のパーソナルジムと比較するとやや高めです。ただし、体組成分析や食事指導込みのため、総合的な費用対効果は一定の水準にあります。",
   },
   {
     title: "店舗数が限られている",
-    desc: "東京都内中心の展開で、地方には店舗がありません。通える範囲に店舗があるか確認が必要です。",
+    desc: "東京都内中心の展開で、地方には店舗がありません。通える範囲に店舗があるかご確認ください。",
   },
   {
     title: "食事制限が厳しいと感じる場合がある",
@@ -70,13 +70,13 @@ const pricingPlans = [
   { name: "プレミアムプラン", duration: "75分/回・全24回", price: "総額280,000円〜", note: "3ヶ月集中+アフターフォロー" },
 ];
 
-const reviewSummary = "BBBの口コミでは「体組成分析で変化が数値で分かるのが良い」「見た目が大きく変わった」と高評価が多数。ボディメイクの成果を実感している利用者が多い傾向です。一方で「食事管理が厳しい」「料金が安くはない」という声もあります。";
+const reviewSummary = "BBBの口コミでは「体組成分析で変化が数値で分かるのが良い」「見た目が大きく変わった」と高く評価する声が多く見られます。ボディメイクの成果を実感している利用者が多い傾向です。一方で「食事管理が厳しい」「料金が安くはない」という声もあります。";
 
 const faqItems = [
   { q: "BBBの入会金はいくらですか？", a: "入会金は30,000円程度です。キャンペーンで割引になることもあります。最新情報は公式サイトでご確認ください。" },
   { q: "体組成分析はどのくらいの頻度で行いますか？", a: "月1〜2回程度、定期的に測定を行います。トレーニングの効果を数値で確認できます。" },
-  { q: "食事指導は厳しいですか？", a: "目標に応じて食事プランを調整します。無理な制限ではなく、継続できる範囲での改善を提案してもらえます。" },
-  { q: "女性でも通えますか？", a: "はい、女性の利用者も多く在籍しています。完全個室のため安心してトレーニングに集中できます。" },
+  { q: "食事指導は厳しいですか？", a: "目標に応じて食事プランを調整します。無理な制限ではなく、継続できる範囲での改善を提案しています。" },
+  { q: "女性でも通えますか？", a: "はい、女性の利用者も多く在籍しています。完全個室のため、周囲を気にせずトレーニングに集中できます。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体組成測定が用意されています。公式サイトから予約できます。" },
   { q: "卒業後のサポートはありますか？", a: "プランによって卒業後のフォローアップセッションが含まれています。メンテナンスプランへの切り替えも可能です。" },
   { q: "BBB（トリプルビー）の口コミ・評判は良いですか？", a: "「体組成分析で変化が数値で分かる」「見た目が大きく変わった」という好意的な口コミが多い傾向です。一方で「食事管理が厳しい」「料金が安くはない」という声もあります。最新の個別の口コミはGoogleマップでご確認ください。" },
@@ -108,7 +108,7 @@ export default function BbbReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BBB" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">BBB（トリプルビー）の口コミ・評判は？料金・効果を徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">BBB（トリプルビー）の口コミ・評判｜料金・効果の解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/bbb.jpg" alt="BBB（トリプルビー）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -121,7 +121,7 @@ export default function BbbReview() {
           <p className="font-bold text-gray-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
-            <li><a href="#s2" className="text-teal-600 hover:underline">結論：BBB（トリプルビー）はこんな人におすすめ</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">BBB（トリプルビー）をおすすめできる方</a></li>
             <li><a href="#s3" className="text-teal-600 hover:underline">BBBの基本情報</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">BBBの3つの強み</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">BBBのメリット・デメリット</a></li>
@@ -135,18 +135,18 @@ export default function BbbReview() {
         <ReviewSummary gymName="BBB" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          BBB（トリプルビー）はボディメイクに特化したパーソナルジムです。体組成分析による科学的なアプローチと、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、BBBの口コミ・評判の傾向、料金の目安、メリット・デメリットを詳しく解説します。
+          BBB（トリプルビー）はボディメイクに特化したパーソナルジムです。体組成分析による科学的なアプローチと、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴です。本記事では、BBBの口コミ・評判の傾向、料金の目安、メリット・デメリットを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：BBB（トリプルビー）はこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">BBB（トリプルビー）をおすすめできる方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>体重より見た目・ボディライン</strong>を変えたい人（ボディメイク特化）</li>
-            <li>・体組成分析の<strong>数値で変化を確認</strong>しながら進めたい人</li>
-            <li>・口コミは「見た目が変わった」「数値で分かる」が中心。一方「食事管理が厳しい」という声も</li>
-            <li>・料金・入会金・店舗は変動するため<strong>公式サイトでの確認が必要</strong></li>
+            <li>・<strong>体重より見た目・ボディライン</strong>を変えたい方（ボディメイク特化）</li>
+            <li>・体組成分析の<strong>数値で変化を確認</strong>しながら進めたい方</li>
+            <li>・口コミは「見た目が変わった」「数値で分かる」が中心です。一方で「食事管理が厳しい」という声もあります</li>
+            <li>・料金・入会金・店舗は変動するため、<strong>公式サイトでのご確認が必要です</strong></li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">本ページの料金は一般的な目安です。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は一般的な目安です。ご利用前に、公式サイトにて最新情報をご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
         </div>
 
         <section className="mb-12">
@@ -201,7 +201,7 @@ export default function BbbReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s9" className="text-xl font-bold mb-3">BBBが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたの体組成を測定してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、体組成の測定をお受けください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

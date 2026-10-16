@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "TOKIELの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "TOKIELの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "TOKIEL（トキエル）女性専用パーソナルジムの口コミ・評判を徹底解説。女性に特化した指導、料金体系、メリット・デメリットを網羅。",
+    "TOKIEL（トキエル）女性専用パーソナルジムの口コミ・評判をご紹介します。女性に特化した指導、料金体系、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -27,7 +27,7 @@ const strengths = [
   },
   {
     title: "美容とフィットネスを融合したアプローチ",
-    desc: "単なるダイエットではなく、美しいボディラインや美肌、アンチエイジングなど美容面も意識したプログラムを提供。トレーニング後のストレッチやコンディショニングも充実しています。",
+    desc: "単なるダイエットではなく、美しいボディラインや美肌、アンチエイジングなど美容面も意識したプログラムを提供しています。トレーニング後のストレッチやコンディショニングも充実しています。",
   },
   {
     title: "女性トレーナーによるきめ細やかな指導",
@@ -57,11 +57,11 @@ const demerits = [
   },
   {
     title: "店舗数が限定的",
-    desc: "女性専用という特性上、店舗数は大手チェーンと比べて少なめです。通える範囲に店舗があるか確認が必要です。",
+    desc: "女性専用という特性上、店舗数は大手チェーンと比べて少なめです。通える範囲に店舗があるか、事前にご確認ください。",
   },
   {
-    title: "ハードなウェイトトレーニングには向かない場合も",
-    desc: "美容寄りのアプローチのため、本格的な筋肥大やハードなウェイトトレーニングを求める方には物足りない可能性があります。",
+    title: "高強度のウェイトトレーニングには向かない場合がある",
+    desc: "美容寄りのアプローチのため、本格的な筋肥大や高強度のウェイトトレーニングを求める方には物足りない可能性があります。",
   },
 ];
 
@@ -76,10 +76,10 @@ const reviewSummary = "TOKIELの口コミでは「女性専用で安心」「お
 const faqItems = [
   { q: "TOKIELは本当に女性専用ですか？", a: "はい、利用者もスタッフも女性のみの完全女性専用ジムです。" },
   { q: "産後でも通えますか？", a: "はい、産後のボディケアに対応したプログラムがあります。産後2ヶ月以降から利用可能な場合が多いですが、医師の許可を得てからの利用をおすすめします。" },
-  { q: "生理中でもトレーニングできますか？", a: "はい、体調に合わせてトレーニング内容を調整してもらえます。無理をせず、トレーナーに相談してください。" },
+  { q: "生理中でもトレーニングできますか？", a: "はい、体調に合わせてトレーニング内容を調整します。無理をせず、トレーナーにご相談ください。" },
   { q: "ウェアのレンタルはありますか？", a: "店舗によりますが、ウェア・タオルのレンタルサービスが用意されている場合があります。詳細は公式サイトでご確認ください。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
-  { q: "退会方法を教えてください", a: "退会を希望する場合は前月までに申告が必要です。詳細は契約時にご確認ください。" },
+  { q: "退会方法を教えてください。", a: "退会を希望する場合は前月までに申告が必要です。詳細は契約時にご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -106,11 +106,11 @@ export default function TokielReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "TOKIEL" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">TOKIELの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">TOKIELの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/tokiel.jpg" alt="TOKIELの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">TOKIEL 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">TOKIEL 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="tokiel" name="TOKIEL" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -132,7 +132,7 @@ export default function TokielReview() {
         <ReviewSummary gymName="TOKIEL" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          TOKIEL（トキエル）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>のパーソナルジムです。女性トレーナーによるきめ細やかな指導と、美容×フィットネスを融合したプログラムが特徴。本記事では、TOKIELの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          TOKIEL（トキエル）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>のパーソナルジムです。女性トレーナーによるきめ細やかな指導と、美容とフィットネスを融合したプログラムが特徴です。本記事では、TOKIELの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -187,7 +187,7 @@ export default function TokielReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">TOKIELが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

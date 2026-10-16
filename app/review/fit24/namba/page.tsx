@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "FIT24 なんば店の口コミ・評判",
   description:
-    "FIT24 なんば店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "FIT24 なんば店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -92,7 +92,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FIT24なんば店はなんば駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜で充実したマシンが利用でき、なんばエリアで手軽にフィットネスを始めたい方に人気です。24時間営業のセルフ型なので、仕事帰りや深夜でもトレーニングが可能です。
+            FIT24なんば店はなんば駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜で充実したマシンが利用でき、なんばエリアで手軽にフィットネスを始めたい方に人気です。24時間営業のセルフ型のため、仕事帰りや深夜でもトレーニングが可能です。
           </p>
         </section>
 

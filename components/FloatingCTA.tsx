@@ -33,7 +33,7 @@ export default function FloatingCTA() {
         href="/concierge/"
         className="flex min-h-[54px] w-full items-center justify-center gap-2 bg-ink px-6 text-[14px] font-bold tracking-[.06em] text-white transition-colors duration-200 hover:bg-black"
       >
-        まずは無料のジム診断で選ぶ
+        無料のジム診断で選ぶ
       </a>
     </div>
   );

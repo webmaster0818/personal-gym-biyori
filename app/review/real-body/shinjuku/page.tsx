@@ -6,9 +6,9 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "リアルボディに新宿店はある？最寄り店舗と新宿のジム比較【2026年】",
+  title: "リアルボディに新宿店はありますか？最寄り店舗と新宿のジム比較【2026年】",
   description:
-    "「リアルボディ 新宿」で探す方へ。リアルボディ（REAL BODY）は仙台・東北を中心に千葉・埼玉に展開する回数券制パーソナルジムで、新宿・東京都内に店舗はありません（2026年時点）。最寄りの実在店舗（千葉・埼玉）と、新宿で通えるパーソナルジムの比較をご案内します。",
+    "「リアルボディ 新宿」で検索された方に向けたページです。リアルボディ（REAL BODY）は仙台・東北を中心に千葉・埼玉に展開する回数券制パーソナルジムで、新宿・東京都内に店舗はありません（2026年時点）。最寄りの実在店舗（千葉・埼玉）と、新宿で通えるパーソナルジムの比較をご案内します。",
 };
 
 // 公式サイト（personalgym-realbody.com/shop-list/）記載の実在店舗のうち、関東（千葉・埼玉）の店舗。
@@ -29,7 +29,7 @@ const faqItems = [
     a: "関東圏では千葉県（北習志野店・松戸八柱店・四街道店）と埼玉県（坂戸店）に店舗があります。新宿から電車で向かう場合、これらが最寄りの実在店舗となります。本社は宮城県仙台市です。",
   },
   {
-    q: "新宿でリアルボディのようなジムを探すには？",
+    q: "新宿でリアルボディのようなジムを探す方法を教えてください。",
     a: "リアルボディは回数券制・食事指導無料・契約縛りなしが特徴です。新宿エリアで同様に通いやすいパーソナルジムを探す場合は、当サイトの「新宿のパーソナルジム比較」で料金やエリアから比較できます。",
   },
   {
@@ -63,13 +63,13 @@ export default function RealBodyShinjukuPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2 mt-6">
-          リアルボディに新宿店はある？最寄り店舗と新宿のジム比較
+          リアルボディに新宿店はありますか？最寄り店舗と新宿のジム比較
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年7月</p>
 
         {/* 結論ボックス */}
         <div className="rounded-xl border border-amber-300 bg-amber-50 p-5 mb-10">
-          <h2 className="font-bold text-gray-900 mb-2">結論：リアルボディに新宿店・東京都内の店舗はありません（2026年時点）</h2>
+          <h2 className="font-bold text-gray-900 mb-2">リアルボディの新宿店・東京都内の店舗について（2026年時点）</h2>
           <p className="text-sm text-gray-700 leading-relaxed">
             リアルボディ（REAL BODY）は宮城県仙台市に本社を置き、<strong>仙台・東北エリアを中心に、関東では千葉県・埼玉県</strong>に店舗を展開する回数券制のパーソナルジムです。
             公式サイトの店舗一覧に<strong>新宿店や東京都内の店舗は掲載されていません</strong>。「リアルボディ 新宿」で検索された方に向けて、最寄りの実在店舗と、新宿で通えるパーソナルジムの比較をご案内します。
@@ -171,8 +171,8 @@ export default function RealBodyShinjukuPage() {
         </section>
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">リアルボディの料金・口コミをもっと知る</h2>
-          <p className="text-teal-100 text-sm mb-6">回数券制の料金目安や口コミの傾向は、総合レビューで詳しく解説しています。</p>
+          <h2 className="text-xl font-bold mb-3">リアルボディの料金・口コミの詳細</h2>
+          <p className="text-teal-100 text-sm mb-6">回数券制の料金目安や口コミの傾向は、総合レビューでご説明しています。</p>
           <Link href="/review/real-body/" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             リアルボディの総合レビューを見る
           </Link>

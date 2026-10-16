@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "NINEの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "NINEの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "NINE（ナイン）パーソナルジムの口コミ・評判を徹底解説。トレーニング×食事指導の総合サポート、料金体系、メリット・デメリットを網羅。",
+    "NINE（ナイン）パーソナルジムの口コミ・評判をご紹介します。トレーニング×食事指導の総合サポート、料金体系、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -22,15 +22,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "トレーニングと食事指導の両輪で結果を出す",
-    desc: "NINEではトレーニング指導と食事管理を一体化したプログラムを提供。運動だけでなく食事面からも徹底サポートすることで、短期間での目標達成とリバウンド防止を実現しています。",
+    desc: "NINEではトレーニング指導と食事管理を一体化したプログラムを提供しています。運動だけでなく食事面からもサポートすることで、短期間での目標達成とリバウンド防止を実現しています。",
   },
   {
     title: "科学的根拠に基づいたトレーニングメソッド",
-    desc: "最新のスポーツ科学に基づいたトレーニングプログラムを採用。体組成データや筋力テストの結果をもとに、最適な負荷とメニューを設計します。",
+    desc: "最新のスポーツ科学に基づいたトレーニングプログラムを採用しています。体組成データや筋力テストの結果をもとに、最適な負荷とメニューを設計します。",
   },
   {
     title: "リバウンドしにくい身体づくりを重視",
-    desc: "短期的な減量だけでなく、基礎代謝を高めてリバウンドしにくい身体を作ることを重視。卒業後も自分でトレーニングを続けられるよう知識の提供にも力を入れています。",
+    desc: "短期的な減量だけでなく、基礎代謝を高めてリバウンドしにくい身体を作ることを重視しています。卒業後も自分でトレーニングを続けられるよう知識の提供にも力を入れています。",
   },
 ];
 
@@ -52,7 +52,7 @@ const merits = [
 const demerits = [
   {
     title: "料金がやや高め",
-    desc: "トレーニングと食事指導を組み合わせた総合プログラムのため、他のパーソナルジムと比較するとやや高額です。ただし、食事指導込みと考えればコスパは悪くありません。",
+    desc: "トレーニングと食事指導を組み合わせた総合プログラムのため、他のパーソナルジムと比較するとやや高額です。ただし、食事指導が含まれる点を考慮すると、費用対効果は低くありません。",
   },
   {
     title: "店舗数が限定的",
@@ -75,7 +75,7 @@ const reviewSummary = "NINEの口コミでは「食事指導が本格的で結�
 const faqItems = [
   { q: "NINEの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "食事指導はどのように行われますか？", a: "LINEやアプリを通じて毎食の写真を送り、管理栄養士やトレーナーからフィードバックを受ける形式が一般的です。" },
-  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多数利用しています。基礎的なフォームから丁寧に指導してもらえます。" },
+  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多数利用しています。基礎的なフォームから丁寧な指導を受けられます。" },
   { q: "プログラム終了後のサポートはありますか？", a: "卒業後のメンテナンスプランやフォローアップセッションが用意されています。" },
   { q: "無料体験はありますか？", a: "無料カウンセリングが用意されています。体組成測定やトレーニング体験が含まれる場合もあります。" },
   { q: "途中解約はできますか？", a: "契約条件に応じて途中解約が可能です。詳細は契約時にご確認ください。" },
@@ -105,11 +105,11 @@ export default function NineReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "NINE" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">NINEの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">NINEの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/nine.jpg" alt="NINEの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">NINE 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">NINE 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="nine" name="NINE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -226,7 +226,7 @@ export default function NineReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">NINEが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

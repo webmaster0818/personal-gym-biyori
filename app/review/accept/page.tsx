@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "ACCEPTの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "ACCEPTの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "ACCEPT（アクセプト）パーソナルジムの口コミ・評判を徹底解説。完全個室・月額制の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "ACCEPT（アクセプト）パーソナルジムの口コミ・評判をご紹介します。完全個室・月額制のジムの料金体系、メリット・デメリット、よくある質問を解説しています。",
 };
 
 const basicInfo = [
@@ -27,40 +27,40 @@ const strengths = [
   },
   {
     title: "月額制で料金が明確",
-    desc: "一括払いが主流のパーソナルジム業界において、月額制を採用。毎月の支払いが一定のため、家計管理がしやすく、始めるハードルも低い料金体系です。",
+    desc: "一括払いが主流のパーソナルジム業界において、月額制を採用しています。毎月の支払いが一定のため、家計管理がしやすく、始めるハードルも低い料金体系です。",
   },
   {
     title: "個々の目標に合わせたオーダーメイドプログラム",
-    desc: "ダイエット、筋力アップ、姿勢改善など、利用者一人ひとりの目標に合わせたトレーニングプログラムを作成。無理なく続けられるメニューを提案してくれます。",
+    desc: "ダイエット、筋力アップ、姿勢改善など、利用者一人ひとりの目標に合わせたトレーニングプログラムを作成し、無理なく続けられるメニューを提案しています。",
   },
 ];
 
 const merits = [
   {
-    title: "月額制で始めやすく辞めやすい",
+    title: "月額制で始めやすく、退会もしやすい",
     desc: "高額な一括契約が不要なため、パーソナルジムを試してみたい方にとってリスクが低い料金体系です。合わなければ翌月から退会できる柔軟さも魅力です。",
   },
   {
-    title: "完全個室で周囲を気にせずトレーニング",
+    title: "完全個室で周囲を気にせずトレーニングできる",
     desc: "他の利用者と顔を合わせることがないため、体型に自信がない方やトレーニング初心者でもストレスなく通えます。",
   },
   {
     title: "食事指導が料金に含まれている",
-    desc: "追加料金なしで食事アドバイスが受けられるため、トレーニングと食事の両面からボディメイクをサポートしてもらえます。",
+    desc: "追加料金なしで食事アドバイスが受けられるため、トレーニングと食事の両面からボディメイクのサポートを受けられます。",
   },
 ];
 
 const demerits = [
   {
     title: "店舗数が限られている",
-    desc: "大手チェーンと比較すると店舗数が少なく、通える範囲に店舗がない場合があります。事前にアクセスを確認しておきましょう。",
+    desc: "大手チェーンと比較すると店舗数が少なく、通える範囲に店舗がない場合があります。事前にアクセスをご確認ください。",
   },
   {
-    title: "トレーナーの指名に制限がある場合も",
+    title: "トレーナーの指名に制限がある場合がある",
     desc: "人気トレーナーは予約が集中しやすく、希望の時間帯に指名が取れないことがあります。",
   },
   {
-    title: "短期集中型のプランは割高になることも",
+    title: "短期集中型のプランは割高になる場合がある",
     desc: "月額制のため長期利用には向いていますが、2ヶ月集中コースなどを希望する場合は総額が他社より高くなる可能性があります。",
   },
 ];
@@ -107,7 +107,7 @@ export default function AcceptReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          ACCEPTの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          ACCEPTの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/accept.jpg" alt="ACCEPTの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -252,7 +252,7 @@ export default function AcceptReview() {
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">ACCEPTが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、目的に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

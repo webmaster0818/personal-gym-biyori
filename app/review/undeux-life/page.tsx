@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "UNDEUX SUPERBODY LIFEの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "UNDEUX SUPERBODY LIFEの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "UNDEUX SUPERBODY LIFE（アンドゥスーパーボディライフ）の口コミ・評判を徹底解説。ライフスタイル重視の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "UNDEUX SUPERBODY LIFE（アンドゥスーパーボディライフ）の口コミ・評判をご紹介します。ライフスタイル重視の料金体系、メリット・デメリット、よくある質問について解説します。",
 };
 
 const basicInfo = [
@@ -22,26 +22,26 @@ const basicInfo = [
 const strengths = [
   {
     title: "ライフスタイルに溶け込む長期継続型プログラム",
-    desc: "短期集中型ではなく、日常生活に無理なく運動を取り入れる長期継続型のアプローチを採用。生活習慣そのものを改善し、リバウンドしにくい体づくりを目指します。",
+    desc: "短期集中型ではなく、日常生活に無理なく運動を取り入れる長期継続型のアプローチを採用しています。生活習慣そのものを改善し、リバウンドしにくい体づくりを目指します。",
   },
   {
-    title: "UNDEUX品質をよりリーズナブルに",
-    desc: "UNDEUX SUPERBODYの指導ノウハウを活かしながら、より手頃な料金で利用できるライフスタイル向けプラン。コストを抑えつつ質の高いトレーニングが受けられます。",
+    title: "UNDEUXの品質を手頃な料金で",
+    desc: "UNDEUX SUPERBODYの指導ノウハウを活かしながら、より手頃な料金で利用できるライフスタイル向けのプランです。コストを抑えつつ質の高いトレーニングが受けられます。",
   },
   {
     title: "食事・睡眠・運動のトータルサポート",
-    desc: "トレーニングだけでなく、食事習慣や睡眠の質など生活全体を見直すトータルサポートを提供。健康的なライフスタイルの構築をトレーナーと一緒に目指せます。",
+    desc: "トレーニングだけでなく、食事習慣や睡眠の質など生活全体を見直すトータルサポートを提供しています。健康的なライフスタイルの構築をトレーナーと一緒に目指せます。",
   },
 ];
 
 const merits = [
   {
     title: "リーズナブルな料金で継続しやすい",
-    desc: "UNDEUX SUPERBODYの派生ブランドとして、品質を維持しながら手頃な価格設定を実現。長期的に通い続けやすい料金体系が魅力です。",
+    desc: "UNDEUX SUPERBODYの派生ブランドとして、品質を維持しながら手頃な価格設定を実現しています。長期的に通い続けやすい料金体系が魅力です。",
   },
   {
     title: "生活習慣全体の改善をサポート",
-    desc: "運動だけでなく食事・睡眠・ストレス管理など、生活全体をトータルでケアしてもらえます。根本的な体質改善につながります。",
+    desc: "運動だけでなく食事・睡眠・ストレス管理など、生活全体を総合的にケアします。根本的な体質改善につながります。",
   },
   {
     title: "UNDEUX品質のトレーニングノウハウ",
@@ -56,7 +56,7 @@ const demerits = [
   },
   {
     title: "展開エリアが限られている",
-    desc: "東京・大阪を中心とした展開で、地方には店舗が少ない状況です。今後の拡大に期待されます。",
+    desc: "東京・大阪を中心とした展開で、地方には店舗が少ない状況です。",
   },
   {
     title: "トレーニング頻度が少なめのプランもある",
@@ -106,12 +106,12 @@ export default function UndeuxLifeReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          UNDEUX SUPERBODY LIFEの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          UNDEUX SUPERBODY LIFEの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/undeux-life.jpg" alt="UNDEUX SUPERBODY LIFEの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">UNDEUX SUPERBODY LIFE 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">UNDEUX SUPERBODY LIFE 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="undeux-life" name="UNDEUX SUPERBODY LIFE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -251,7 +251,7 @@ export default function UndeuxLifeReview() {
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">UNDEUX SUPERBODY LIFEが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたのライフスタイルに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身のライフスタイルに合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

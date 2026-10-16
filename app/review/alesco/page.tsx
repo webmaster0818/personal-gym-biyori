@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "Alescoの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "Alescoの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "Alesco（アレスコ）パーソナルジムの口コミ・評判を徹底解説。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "Alesco（アレスコ）パーソナルジムの口コミ・評判をご紹介します。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問を解説しています。",
 };
 
 const basicInfo = [
@@ -21,23 +21,23 @@ const basicInfo = [
 
 const strengths = [
   {
-    title: "リバウンド保証つきの安心感",
-    desc: "コース終了後にリバウンドした場合、無料でアフターサポートが受けられるリバウンド保証を用意。ダイエット後の不安を解消する手厚いサポート体制です。",
+    title: "リバウンド保証による安心感",
+    desc: "コース終了後にリバウンドした場合、無料でアフターサポートが受けられるリバウンド保証を用意しています。ダイエット後の不安を解消する手厚いサポート体制です。",
   },
   {
     title: "完全個室でのプライベート空間",
-    desc: "トレーニングルームは完全個室。周囲の目を気にせず、自分のペースでトレーニングに集中できます。",
+    desc: "トレーニングルームは完全個室です。周囲の目を気にせず、自分のペースでトレーニングに集中できます。",
   },
   {
     title: "医学的根拠に基づいた食事指導",
-    desc: "単なるカロリー制限ではなく、医学的根拠に基づいた食事指導を提供。健康的に痩せることを重視したアプローチです。",
+    desc: "単なるカロリー制限ではなく、医学的根拠に基づいた食事指導を提供しています。健康的に痩せることを重視したアプローチです。",
   },
 ];
 
 const merits = [
   {
     title: "リバウンド保証で安心",
-    desc: "コース終了後のリバウンドが心配な方にとって、保証があることは大きな安心材料です。長期的な体型維持をサポートしてくれます。",
+    desc: "コース終了後のリバウンドが心配な方にとって、保証があることは大きな安心材料です。長期的な体型維持のサポートを受けられます。",
   },
   {
     title: "完全個室で集中できる",
@@ -56,10 +56,10 @@ const demerits = [
   },
   {
     title: "コース料金はまとまった金額が必要",
-    desc: "コース制のため、初期にまとまった費用が必要です。分割払いの可否は事前に確認しましょう。",
+    desc: "コース制のため、初期にまとまった費用が必要です。分割払いの可否は事前にご確認ください。",
   },
   {
-    title: "口コミ情報がまだ少ない",
+    title: "口コミ情報が少ない",
     desc: "地域密着型のため、ネット上の口コミ情報が大手と比べて少なく、判断材料が限られることがあります。",
   },
 ];
@@ -74,9 +74,9 @@ const reviewSummary = "Alescoの口コミでは「リバウンド保証が安心
 
 const faqItems = [
   { q: "Alescoの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーンで割引になることがあります。" },
-  { q: "リバウンド保証の条件は？", a: "コースを修了した方が対象です。詳細な条件はカウンセリング時にご確認ください。" },
+  { q: "リバウンド保証の条件を教えてください。", a: "コースを修了した方が対象です。詳細な条件はカウンセリング時にご確認ください。" },
   { q: "名古屋以外に店舗はありますか？", a: "現在は名古屋エリアを中心に展開しています。最新の店舗情報は公式サイトでご確認ください。" },
-  { q: "運動初心者でも大丈夫ですか？", a: "はい、マンツーマン指導のため初心者でも安心してトレーニングを始められます。" },
+  { q: "運動初心者でも大丈夫ですか？", a: "はい、マンツーマン指導のため、初心者の方も安心してトレーニングを始められます。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
   { q: "分割払いは可能ですか？", a: "クレジットカードの分割払いに対応している場合があります。詳細はカウンセリング時にご確認ください。" },
 ];
@@ -105,7 +105,7 @@ export default function AlescoReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Alesco" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Alescoの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Alescoの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/alesco.jpg" alt="Alescoの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -129,7 +129,7 @@ export default function AlescoReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="Alesco" />
-        <p className="text-gray-700 leading-relaxed mb-10">Alesco（アレスコ）は名古屋を中心に展開するパーソナルトレーニングジムです。リバウンド保証付きのコースと<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。医学的根拠に基づいた<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>で健康的なダイエットを目指します。本記事では、Alescoの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">Alesco（アレスコ）は名古屋を中心に展開するパーソナルトレーニングジムです。リバウンド保証付きのコースと<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴です。医学的根拠に基づいた<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>で健康的なダイエットを目指します。本記事では、Alescoの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
 
         <section className="mb-12"><h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Alescoの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>
 
@@ -151,7 +151,7 @@ export default function AlescoReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">Alescoが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、目的に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

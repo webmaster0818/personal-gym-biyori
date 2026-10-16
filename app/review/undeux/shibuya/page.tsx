@@ -6,7 +6,7 @@ import ReviewSummary from "@/components/ReviewSummary";
 export const metadata: Metadata = {
   title: "UNDEUX SUPERBODY 渋谷店の口コミ・評判",
   description:
-    "UNDEUX SUPERBODY 渋谷店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "UNDEUX SUPERBODY 渋谷店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -20,9 +20,9 @@ const basicInfo = [
 /* ---------- FAQ ---------- */
 const faqItems = [
   { q: "UNDEUX SUPERBODY渋谷店の料金はいくらですか？", a: "UNDEUX SUPERBODY渋谷店の料金は、2ヶ月集中コースで215,600円（税込）〜が目安です。入会金は33,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY渋谷店の営業時間は？", a: "8:00〜22:00です。※最新情報は公式サイトでご確認ください）" },
+  { q: "UNDEUX SUPERBODY渋谷店の営業時間を教えてください。", a: "8:00〜22:00です。※最新情報は公式サイトでご確認ください。" },
   { q: "UNDEUX SUPERBODY渋谷店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。最新情報は公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY渋谷店のアクセスは？", a: "JR渋谷駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY渋谷店のアクセスを教えてください。", a: "JR渋谷駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {

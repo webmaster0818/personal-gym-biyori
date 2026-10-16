@@ -6,7 +6,7 @@ import ReviewSummary from "@/components/ReviewSummary";
 export const metadata: Metadata = {
   title: "THE PERSONAL GYM 新宿店の口コミ・評判",
   description:
-    "THE PERSONAL GYM 新宿店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "THE PERSONAL GYM 新宿店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -20,9 +20,9 @@ const basicInfo = [
 /* ---------- FAQ ---------- */
 const faqItems = [
   { q: "THE PERSONAL GYM新宿店の料金はいくらですか？", a: "コースにより異なりますが、月額制やチケット制のプランがあります。最新の料金は公式サイトでご確認ください。" },
-  { q: "THE PERSONAL GYM新宿店の営業時間は？", a: "営業時間は公式サイトでご確認ください。" },
+  { q: "THE PERSONAL GYM新宿店の営業時間を教えてください。", a: "営業時間は公式サイトでご確認ください。" },
   { q: "THE PERSONAL GYM新宿店は体験トレーニングを受けられますか？", a: "はい、体験トレーニングが用意されています。公式サイトから予約可能です。" },
-  { q: "THE PERSONAL GYM新宿店のトレーナーの特徴は？", a: "資格を持つ経験豊富なトレーナーが在籍しており、一人ひとりに合わせたオーダーメイドの指導が特徴です。" },
+  { q: "THE PERSONAL GYM新宿店のトレーナーの特徴を教えてください。", a: "資格を持つ経験豊富なトレーナーが在籍しており、一人ひとりに合わせたオーダーメイドの指導が特徴です。" },
 ];
 
 const faqJsonLd = {

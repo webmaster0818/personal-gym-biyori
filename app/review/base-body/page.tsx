@@ -6,27 +6,27 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "base BODYの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "base BODYの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "base BODY（ベースボディ）の口コミ・評判を徹底解説。ボディメイク×コンディショニングのパーソナルジムの料金、メリット・デメリットを網羅。",
+    "base BODY（ベースボディ）の口コミ・評判をご紹介します。ボディメイクとコンディショニングを組み合わせたパーソナルジムの料金、メリット・デメリットを解説しています。",
 };
 
 const basicInfo = [
   { label: "ジム名", value: "base BODY（ベースボディ）" },
   { label: "タイプ", value: "ボディメイク×コンディショニングジム" },
   { label: "料金帯", value: "公式サイトで料金を公表していません" },
-  { label: "エリア", value: "特定できず" },
+  { label: "エリア", value: "公式サイトで確認できず" },
   { label: "特徴", value: "ボディメイク×コンディショニング / 姿勢改善 / ストレッチ / 食事指導" },
 ];
 
 const strengths = [
   {
     title: "ボディメイクとコンディショニングの融合",
-    desc: "見た目を変えるボディメイクと、身体の機能を整えるコンディショニングを組み合わせた独自のアプローチ。トレーニングだけでなく、ストレッチや姿勢矯正も取り入れた総合的なプログラムです。",
+    desc: "見た目を変えるボディメイクと、身体の機能を整えるコンディショニングを組み合わせた独自のアプローチです。トレーニングだけでなく、ストレッチや姿勢矯正も取り入れた総合的なプログラムです。",
   },
   {
     title: "身体の土台から整える指導方針",
-    desc: "いきなりハードなトレーニングを行うのではなく、まず姿勢や柔軟性など身体の土台を整えてからトレーニングに移行。怪我のリスクを抑えながら、効率的に身体を変えていきます。",
+    desc: "いきなりハードなトレーニングを行うのではなく、まず姿勢や柔軟性など身体の土台を整えてからトレーニングに移行します。怪我のリスクを抑えながら、効率的に身体を変えていきます。",
   },
   {
     title: "トレーニング後のケアまで一貫サポート",
@@ -41,7 +41,7 @@ const merits = [
   },
   {
     title: "怪我のリスクが少ないトレーニング",
-    desc: "身体の状態を確認してからトレーニングを行うため、無理な負荷がかからず怪我のリスクが低い。運動経験が少ない方や関節に不安がある方にも安心です。",
+    desc: "身体の状態を確認してからトレーニングを行うため、無理な負荷がかからず、怪我のリスクを抑えられます。運動経験が少ない方や関節に不安がある方にも適しています。",
   },
   {
     title: "ストレッチ込みで身体がほぐれる",
@@ -51,8 +51,8 @@ const merits = [
 
 const demerits = [
   {
-    title: "ハードなトレーニングを求める方には物足りない可能性",
-    desc: "コンディショニングを重視するため、ガンガン追い込むハードなトレーニングを求める方には物足りなく感じることがあります。",
+    title: "ハードなトレーニングを求める方には物足りない可能性がある",
+    desc: "コンディショニングを重視するため、強度の高いトレーニングを求める方には物足りなく感じることがあります。",
   },
   {
     title: "短期間での劇的な変化は期待しにくい",
@@ -60,7 +60,7 @@ const demerits = [
   },
   {
     title: "店舗数が限られている",
-    desc: "展開店舗数は大手と比べて少なめのため、通える範囲に店舗があるか事前確認が必要です。",
+    desc: "展開店舗数は大手と比べて少なめのため、通える範囲に店舗があるか事前にご確認ください。",
   },
 ];
 
@@ -70,12 +70,12 @@ const pricingPlans = [
   { name: "プレミアムプラン", duration: "90分/回・月8回", price: "月額65,000円〜", note: "コンディショニング強化" },
 ];
 
-const reviewSummary = "base BODYの口コミでは「ボディメイクだけでなく身体の調子も良くなった」「ストレッチが気持ちいい」と好評です。特にデスクワーカーからの支持が高く、肩こりや腰痛の改善を実感する声が多数。一方で「もっとハードにトレーニングしたい」「店舗が少ない」という意見もあります。";
+const reviewSummary = "base BODYの口コミでは「ボディメイクだけでなく身体の調子も良くなった」「ストレッチが気持ちいい」と好評です。特にデスクワークの多い方からの支持が高く、肩こりや腰痛の改善を実感する声が多く見られます。一方で「もっとハードにトレーニングしたい」「店舗が少ない」という意見もあります。";
 
 const faqItems = [
   { q: "base BODYの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーンで割引になることもあります。最新情報は公式サイトでご確認ください。" },
   { q: "コンディショニングとは何ですか？", a: "身体の機能を整えるためのストレッチ、姿勢矯正、可動域改善などのアプローチです。トレーニングの効果を高め、怪我を予防します。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、身体の状態に合わせて無理のないプログラムを組んでもらえます。初心者の方も多く利用しています。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、身体の状態に合わせて無理のないプログラムが組まれます。初心者の方も多く利用しています。" },
   { q: "肩こりや腰痛の改善にも効果がありますか？", a: "はい、コンディショニングを通じて姿勢改善や筋バランスの調整を行うため、肩こりや腰痛の軽減が期待できます。" },
   { q: "無料体験はありますか？", a: "初回カウンセリング・体験セッションが用意されています。公式サイトから予約できます。" },
   { q: "ウェアのレンタルはありますか？", a: "店舗によりレンタルサービスが異なります。詳細は公式サイトでご確認ください。" },
@@ -105,7 +105,7 @@ export default function BaseBodyReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "base BODY" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">base BODYの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">base BODYの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/base-body.jpg" alt="base BODYの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -118,7 +118,7 @@ export default function BaseBodyReview() {
           <p className="font-bold text-gray-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
-            <li><a href="#s2" className="text-teal-600 hover:underline">結論：base BODYはこんな人におすすめ</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">base BODYをおすすめできる方</a></li>
             <li><a href="#s3" className="text-teal-600 hover:underline">base BODYの基本情報</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">base BODYの3つの強み</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">base BODYのメリット・デメリット</a></li>
@@ -132,18 +132,18 @@ export default function BaseBodyReview() {
         <ReviewSummary gymName="base BODY" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          base BODY（ベースボディ）はボディメイクとコンディショニングを融合したパーソナルジムです。見た目の変化だけでなく、身体の機能改善にも注力。本記事では、base BODYの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          base BODY（ベースボディ）はボディメイクとコンディショニングを融合したパーソナルジムです。見た目の変化だけでなく、身体の機能改善にも注力しています。本記事では、base BODYの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：base BODYはこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">base BODYをおすすめできる方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>ボディメイク＋身体機能の改善</strong>を両立したい人（見た目だけでなく姿勢・動きやすさも）</li>
-            <li>・入会金は20,000〜30,000円程度（キャンペーン割引あり）。初回カウンセリング・体験あり</li>
-            <li>・トレーナーのマンツーマン指導でフォームから整えたい人に向く</li>
-            <li>・一方、24時間セルフで安く通いたい人はFIT24等のセルフ型が向く</li>
+            <li>・<strong>ボディメイク＋身体機能の改善</strong>を両立したい方（見た目だけでなく、姿勢や動きやすさも改善したい方）</li>
+            <li>・入会金は20,000〜30,000円程度です（キャンペーン割引あり）。初回カウンセリング・体験を受けられます</li>
+            <li>・トレーナーのマンツーマン指導でフォームから整えたい方に向いています</li>
+            <li>・一方、24時間のセルフ利用で費用を抑えたい方には、FIT24などのセルフ型が向いています</li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">料金・体験は店舗・キャンペーンで異なります。最新は公式でご確認ください。目的別の比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">料金・体験の内容は、店舗やキャンペーンにより異なります。ご利用前に、公式サイトにて最新情報をご確認ください。目的別の比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
         </div>
 
         <section className="mb-12">
@@ -198,7 +198,7 @@ export default function BaseBodyReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s9" className="text-xl font-bold mb-3">base BODYが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたの身体の状態をチェックしてみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、身体の状態をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

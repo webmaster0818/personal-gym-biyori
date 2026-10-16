@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "fis.lady'sの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "fis.lady'sの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "fis.lady's（フィスレディース）の口コミ・評判を徹底解説。女性専用・ダイエット特化パーソナルジムの料金、メリット・デメリットを網羅。",
+    "fis.lady's（フィスレディース）の口コミ・評判を解説します。女性専用・ダイエット特化パーソナルジムの料金とメリット・デメリットをまとめています。",
 };
 
 const basicInfo = [
@@ -22,15 +22,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "女性専用でダイエットに特化",
-    desc: "女性のダイエットに特化したプログラムを提供。女性ホルモンのバランスや生理周期を考慮したトレーニングメニューで、女性ならではの悩みに寄り添った指導が受けられます。",
+    desc: "女性のダイエットに特化したプログラムを提供しています。女性ホルモンのバランスや生理周期を考慮したトレーニングメニューで、女性ならではの悩みに寄り添った指導が受けられます。",
   },
   {
-    title: "関西エリア最安級の料金設定",
-    desc: "月額20,000円〜という関西エリアのパーソナルジムでは最安級の料金設定。食事指導込みの料金のため、追加費用を心配する必要がありません。",
+    title: "関西エリアで低価格帯の料金設定",
+    desc: "月額20,000円〜と、関西エリアのパーソナルジムの中でも低価格帯の料金設定です。食事指導込みの料金のため、追加費用を心配する必要がありません。",
   },
   {
     title: "食事指導込みで総合的にサポート",
-    desc: "全プランに食事指導が含まれており、トレーニングと食事の両面からダイエットをサポート。管理栄養士監修の食事プランで、健康的に痩せることを目指します。",
+    desc: "全プランに食事指導が含まれており、トレーニングと食事の両面からダイエットをサポートします。管理栄養士監修の食事プランで、健康的に痩せることを目指します。",
   },
 ];
 
@@ -41,7 +41,7 @@ const merits = [
   },
   {
     title: "食事指導が追加料金なし",
-    desc: "他社では別料金になることが多い食事指導がプランに含まれています。トータルで見るとコストパフォーマンスの高さが際立ちます。",
+    desc: "他社では別料金になることが多い食事指導がプランに含まれています。総額で比較すると、費用対効果の高さが特徴です。",
   },
   {
     title: "女性トレーナーが在籍",
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "集中ダイエットプラン", duration: "50分/回・全16回", price: "総額110,000円〜", note: "2ヶ月集中・食事指導込み" },
 ];
 
-const reviewSummary = "fis.lady'sの口コミでは「女性専用で安心」「食事指導込みでこの価格は安い」と好評です。特にダイエット目的の女性から「しっかり結果が出た」という声が多数。一方で「関西にしか店舗がない」「設備がコンパクト」という意見もあります。";
+const reviewSummary = "fis.lady'sの口コミでは「女性専用で安心」「食事指導込みでこの価格は安い」と好評です。特にダイエット目的の女性から「しっかり結果が出た」という声が多く見られます。一方で「関西にしか店舗がない」「設備がコンパクト」という意見もあります。";
 
 const faqItems = [
   { q: "fis.lady'sは女性専用ですか？", a: "はい、完全女性専用のパーソナルジムです。男性は利用できません。" },
@@ -106,7 +106,7 @@ export default function FisLadysReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "fis.lady's" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">fis.lady&apos;sの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">fis.lady&apos;sの口コミ・評判｜料金・メリット・デメリットを解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/fis-ladys.jpg" alt="fis.lady&apos;sの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -132,7 +132,7 @@ export default function FisLadysReview() {
         <ReviewSummary gymName="fis.lady's" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          fis.lady&apos;s（フィスレディース）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・ダイエット特化のパーソナルジムです。関西エリアを中心に展開し、<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>込みの低価格な料金設定が特徴。本記事では、fis.lady&apos;sの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          fis.lady&apos;s（フィスレディース）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・ダイエット特化のパーソナルジムです。関西エリアを中心に展開し、<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>込みの低価格な料金設定が特徴です。本記事では、fis.lady&apos;sの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -187,7 +187,7 @@ export default function FisLadysReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">fis.lady&apos;sが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">無料カウンセリングにて、目的に合ったプランをご相談いただけます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

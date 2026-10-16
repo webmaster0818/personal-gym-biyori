@@ -9,7 +9,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "CoCoDakara Body Design（ココダカラ）の口コミ・評判｜料金を検証",
   description:
-    "CoCoDakara Body Design（ココダカラボディーデザイン）の口コミ・評判を徹底解説。麻布十番の完全個室パーソナルジムの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "CoCoDakara Body Design（ココダカラボディーデザイン）の口コミ・評判を解説します。麻布十番の完全個室パーソナルジムについて、料金体系、メリット・デメリット、よくある質問をまとめています。",
 };
 
 const basicInfo = [
@@ -27,7 +27,7 @@ const strengths = [
   },
   {
     title: "一人ひとりに合わせたオーダーメイドプログラム",
-    desc: "カウンセリングと体の状態を丁寧に分析し、利用者一人ひとりの目標・体質・生活習慣に合わせた完全オーダーメイドのトレーニングプログラムを作成。ダイエット、ボディメイク、姿勢改善など多様なニーズに対応しています。",
+    desc: "カウンセリングと体の状態を丁寧に分析し、利用者一人ひとりの目標・体質・生活習慣に合わせた完全オーダーメイドのトレーニングプログラムを作成します。ダイエット、ボディメイク、姿勢改善など多様なニーズに対応しています。",
   },
   {
     title: "トレーニングと食事指導の一体型サポート",
@@ -38,11 +38,11 @@ const strengths = [
 const merits = [
   {
     title: "完全マンツーマンで質の高い指導が受けられる",
-    desc: "トレーナーが1対1でつきっきりで指導するため、フォームの修正や負荷の調整がリアルタイムで行われます。自己流トレーニングでは得られない効果的なアプローチが期待できます。",
+    desc: "トレーナーが1対1で指導するため、フォームの修正や負荷の調整がリアルタイムで行われます。自己流トレーニングでは得られない効果的なアプローチが期待できます。",
   },
   {
     title: "食事指導が含まれており追加費用が不要",
-    desc: "プランに食事指導が含まれているため、別途栄養指導の費用がかかりません。トレーニングと食事管理を一括でサポートしてもらえるのはコストパフォーマンスの面でも魅力です。",
+    desc: "プランに食事指導が含まれているため、別途栄養指導の費用がかかりません。トレーニングと食事管理を一括でサポートを受けられる点は、費用対効果の面でも利点です。",
   },
   {
     title: "麻布十番エリアのアクセスの良さ",
@@ -53,7 +53,7 @@ const merits = [
 const demerits = [
   {
     title: "料金が比較的高めの設定",
-    desc: "麻布十番という立地と完全個室・マンツーマンのサービスを提供しているため、大手チェーンと比較すると料金はやや高めの設定です。予算に余裕があるか事前に確認しておきましょう。",
+    desc: "麻布十番という立地と完全個室・マンツーマンのサービスを提供しているため、大手チェーンと比較すると料金はやや高めの設定です。入会前に予算をご確認ください。",
   },
   {
     title: "店舗が1拠点のみで通える範囲が限定される",
@@ -61,7 +61,7 @@ const demerits = [
   },
   {
     title: "知名度が大手に比べて低い",
-    desc: "大手パーソナルジムと比較すると知名度はまだ高くありません。口コミや体験談の情報量が限られるため、入会前に無料カウンセリングで直接確認することをおすすめします。",
+    desc: "大手パーソナルジムと比較すると知名度は高くありません。口コミや体験談の情報量が限られるため、入会前に無料カウンセリングで直接確認することをおすすめします。",
   },
 ];
 
@@ -80,8 +80,8 @@ const faqItems = [
   { q: "トレーニング未経験でも大丈夫ですか？", a: "はい、完全マンツーマン指導のため、未経験の方でも安心して始められます。一人ひとりのレベルに合わせたプログラムを組んでもらえます。" },
   { q: "食事指導はどのような内容ですか？", a: "日々の食事内容を共有し、トレーナーから栄養バランスや食事タイミングのアドバイスを受けられます。極端な食事制限ではなく、続けやすい食生活の改善を目指す指導方針です。" },
   { q: "無料体験やカウンセリングはありますか？", a: "無料カウンセリングが用意されています。体の悩みや目標をヒアリングし、最適なプランの提案を受けられます。公式サイトから予約可能です。" },
-  { q: "解約や退会に違約金はかかりますか？", a: "プランやコースによって条件が異なります。詳細は入会前のカウンセリング時に必ず確認してください。" },
-  { q: "最寄り駅からのアクセスを教えてください", a: "東京メトロ南北線・都営大江戸線「麻布十番駅」または都営大江戸線「赤羽橋駅」が最寄りです。いずれの駅からも徒歩圏内でアクセスできます。" },
+  { q: "解約や退会に違約金はかかりますか？", a: "プランやコースによって条件が異なります。詳細は入会前のカウンセリング時にご確認ください。" },
+  { q: "最寄り駅からのアクセスを教えてください。", a: "東京メトロ南北線・都営大江戸線「麻布十番駅」または都営大江戸線「赤羽橋駅」が最寄りです。いずれの駅からも徒歩圏内でアクセスできます。" },
 ];
 
 const faqJsonLd = {
@@ -251,8 +251,8 @@ export default function CocodakaraReview() {
         {/* 中間CTA */}
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
-            <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="font-bold text-lg mb-2">無料カウンセリングのご案内</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合わせたプランを提案します。</p>
             <a href="https://t.felmat.net/fmcl?ak=L10446X.1.C147837Q.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -290,7 +290,7 @@ export default function CocodakaraReview() {
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">CoCoDakara Body Designが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">無料カウンセリングにて、目的に合ったプランをご相談いただけます。</p>
           <a href={affiliateLink} target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             無料カウンセリングを予約する
           </a>

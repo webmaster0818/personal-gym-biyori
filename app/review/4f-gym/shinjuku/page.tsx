@@ -6,9 +6,9 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "4Fのパーソナルジムに新宿店はある？用賀店の情報と新宿の代替ジム比較【2026年】",
+  title: "4Fのパーソナルジムに新宿店はありますか？用賀店の情報と新宿の代替ジムの比較【2026年】",
   description:
-    "「4Fのパーソナルジム 新宿」で探す方へ。4Fのパーソナルジムは東京都世田谷区用賀の1店舗のみで、新宿店は公式サイトで確認できません（2026年8月3日確認）。用賀店の住所・営業時間・料金と、新宿で通えるパーソナルジムの比較をご案内します。",
+    "「4Fのパーソナルジム 新宿」で検索された方に向けたページです。4Fのパーソナルジムは東京都世田谷区用賀の1店舗のみで、新宿店は公式サイトで確認できません（2026年8月3日確認）。用賀店の住所・営業時間・料金と、新宿で通えるパーソナルジムの比較をご案内します。",
 };
 
 // 公式サイト（4fgym.com）で確認できる唯一の店舗（2026年8月3日確認）。
@@ -32,10 +32,10 @@ const faqItems = [
   },
   {
     q: "4Fのパーソナルジムの料金はいくらですか？",
-    a: "月額コースはQUICK DIET TRIAL 4が26,620円（月4回・30分）、TRIAL 8が51,040円（月8回・30分）。コースはLIGHT 202,400円（2ヶ月16回・60分）などがあり、25歳以下割引・モニター割引（20%オフ）も用意されています（いずれも税込・2026年8月3日確認）。詳しくは総合レビューと公式サイトをご確認ください。",
+    a: "月額コースはQUICK DIET TRIAL 4が26,620円（月4回・30分）、TRIAL 8が51,040円（月8回・30分）です。コースはLIGHT 202,400円（2ヶ月16回・60分）などがあり、25歳以下割引・モニター割引（20%オフ）も用意されています（いずれも税込・2026年8月3日確認）。詳しくは総合レビューと公式サイトをご確認ください。",
   },
   {
-    q: "新宿でパーソナルジムを探すには？",
+    q: "新宿でパーソナルジムを探す方法を教えてください。",
     a: "4Fのパーソナルジムは新宿に店舗が確認できないため、新宿エリアで通いたい場合は当サイトの「新宿のパーソナルジム比較」で料金やアクセスから比較するのがおすすめです。",
   },
 ];
@@ -65,13 +65,13 @@ export default function FourFGymShinjukuPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2 mt-6">
-          4Fのパーソナルジムに新宿店はある？用賀店の情報と新宿のジム比較
+          4Fのパーソナルジムに新宿店はありますか？用賀店の情報と新宿のジム比較
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月</p>
 
         {/* 結論ボックス */}
         <div className="rounded-xl border border-amber-300 bg-amber-50 p-5 mb-10">
-          <h2 className="font-bold text-gray-900 mb-2">結論：4Fのパーソナルジムに新宿店は確認できません（2026年8月3日確認）</h2>
+          <h2 className="font-bold text-gray-900 mb-2">4Fのパーソナルジムの新宿店について（2026年8月3日確認）</h2>
           <p className="text-sm text-gray-700 leading-relaxed">
             4Fのパーソナルジムの公式サイトで確認できる店舗は、<strong>東京都世田谷区用賀の1店舗のみ</strong>です。
             <strong>新宿店の存在は公式サイトで確認できません</strong>。「4Fのパーソナルジム 新宿」で検索された方に向けて、実在する用賀店の店舗情報と、新宿で通えるパーソナルジムの比較をご案内します。
@@ -148,8 +148,8 @@ export default function FourFGymShinjukuPage() {
         </section>
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-3">4Fのパーソナルジム（用賀）の料金・口コミをもっと知る</h2>
-          <p className="text-teal-100 text-sm mb-6">用賀駅徒歩2分・朝7時から年中無休。料金プランや口コミの傾向は、総合レビューで詳しく解説しています。</p>
+          <h2 className="text-xl font-bold mb-3">4Fのパーソナルジム（用賀）の料金・口コミの詳細</h2>
+          <p className="text-teal-100 text-sm mb-6">用賀駅徒歩2分・朝7時から年中無休で営業しています。料金プランや口コミの傾向は、総合レビューでご説明しています。</p>
           <Link href="/review/4f-gym/" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             4Fのパーソナルジムの総合レビューを見る
           </Link>

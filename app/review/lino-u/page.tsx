@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "Lino Uの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "Lino Uの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "Lino U（リノユー）パーソナルジムの口コミ・評判を徹底解説。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "Lino U（リノユー）パーソナルジムの口コミ・評判をご紹介します。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問について解説します。",
 };
 
 const basicInfo = [
@@ -23,15 +23,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "ライフスタイルに寄り添ったプログラム",
-    desc: "一人ひとりのライフスタイルに合わせたトレーニングプログラムを設計。無理なく日常生活に運動を取り入れられるよう配慮された指導が特徴です。",
+    desc: "一人ひとりのライフスタイルに合わせたトレーニングプログラムを設計しています。無理なく日常生活に運動を取り入れられるよう配慮された指導が特徴です。",
   },
   {
     title: "長期的な健康を見据えた指導",
-    desc: "短期的なダイエットだけでなく、長期的な健康維持を見据えたプログラムを提供。一時的な変化ではなく、一生続けられる運動習慣の構築を目指します。",
+    desc: "短期的なダイエットだけでなく、長期的な健康維持を見据えたプログラムを提供しています。一時的な変化ではなく、一生続けられる運動習慣の構築を目指します。",
   },
   {
     title: "丁寧なコミュニケーション",
-    desc: "トレーナーとの密なコミュニケーションを重視。体調や気分に合わせてメニューを柔軟に調整し、無理なく続けられる環境を提供しています。",
+    desc: "トレーナーとの密なコミュニケーションを重視しています。体調や気分に合わせてメニューを柔軟に調整し、無理なく続けられる環境を提供しています。",
   },
 ];
 
@@ -106,11 +106,11 @@ export default function LinoUReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Lino U" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Lino Uの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Lino Uの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/lino-u.jpg" alt="Lino Uの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">Lino U 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">Lino U 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="lino-u" name="Lino U" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -130,7 +130,7 @@ export default function LinoUReview() {
           </ol>
         </nav>
         <ReviewSummary gymName="Lino U" />
-        <p className="text-gray-700 leading-relaxed mb-10">Lino U（リノユー）はライフスタイルに寄り添ったパーソナルトレーニングジムです。短期的なダイエットではなく、長期的な健康維持と運動習慣の定着を目指したプログラムが特徴。無理なく続けられるトレーニングで、一生モノの運動習慣を手に入れられます。本記事では、Lino Uの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">Lino U（リノユー）はライフスタイルに寄り添ったパーソナルトレーニングジムです。短期的なダイエットではなく、長期的な健康維持と運動習慣の定着を目指したプログラムが特徴です。無理なく続けられるトレーニングにより、長く続けられる運動習慣を身につけることを目指します。本記事では、Lino Uの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
 
         <section className="mb-12"><h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lino Uの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>
 
@@ -152,7 +152,7 @@ export default function LinoUReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">Lino Uが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたのライフスタイルに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身のライフスタイルに合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

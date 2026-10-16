@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "Rays GyM（レイズジム）の口コミ・評判は？料金・効果を徹底解説【2026年】",
+  title: "Rays GyM（レイズジム）の口コミ・評判｜料金・効果の解説【2026年】",
   description:
-    "Rays GyM（レイズジム）の口コミ・評判を徹底解説。トレーナー指名制の料金総額の目安、良い口コミ/気になる口コミの傾向、目的別の向き不向き、メリット・デメリット、よくある質問まで網羅。相性重視でパーソナルジムを選びたい方の判断材料に。",
+    "Rays GyM（レイズジム）の口コミ・評判をご紹介します。トレーナー指名制の料金総額の目安、良い口コミ/気になる口コミの傾向、目的別の向き不向き、メリット・デメリット、よくある質問について解説します。トレーナーとの相性を重視してパーソナルジムを選びたい方の参考情報としてご活用ください。",
 };
 
 const basicInfo = [
@@ -22,15 +22,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "トレーナー指名制で相性の良い指導者を選べる",
-    desc: "トレーナーを自分で指名できるシステムを採用。体験トレーニングで相性を確認してから、担当トレーナーを決められるため、長期的に安心して通えます。",
+    desc: "トレーナーを自分で指名できるシステムを採用しています。体験トレーニングで相性を確認してから、担当トレーナーを決められるため、長期的に安心して通えます。",
   },
   {
     title: "目標に応じた柔軟なプログラム設計",
-    desc: "ダイエット、筋力アップ、競技パフォーマンス向上など、利用者の目標に合わせて完全オーダーメイドのプログラムを作成。進捗に応じて都度メニューを調整してくれます。",
+    desc: "ダイエット、筋力アップ、競技パフォーマンス向上など、利用者の目標に合わせて完全オーダーメイドのプログラムを作成します。進捗に応じて、その都度メニューを調整します。",
   },
   {
     title: "質の高いトレーナー陣",
-    desc: "資格保有者やコンテスト入賞経験のあるトレーナーが在籍。専門知識に基づいた的確な指導で、効率的なトレーニングを実現します。",
+    desc: "資格保有者やコンテスト入賞経験のあるトレーナーが在籍しています。専門知識に基づいた的確な指導で、効率的なトレーニングを実現します。",
   },
 ];
 
@@ -45,7 +45,7 @@ const merits = [
   },
   {
     title: "食事指導が充実している",
-    desc: "トレーニングだけでなく、食事面からもしっかりサポート。目標達成に向けた栄養アドバイスが含まれています。",
+    desc: "トレーニングだけでなく、食事面からもサポートします。目標達成に向けた栄養アドバイスが含まれています。",
   },
 ];
 
@@ -60,7 +60,7 @@ const demerits = [
   },
   {
     title: "指名料が別途かかる場合がある",
-    desc: "一部のトレーナーは指名料が追加で発生する場合があります。料金体系は事前に確認しておきましょう。",
+    desc: "一部のトレーナーは指名料が追加で発生する場合があります。料金体系は事前にご確認ください。",
   },
 ];
 
@@ -99,22 +99,22 @@ const goalGuide = [
   {
     goal: "トレーナーとの相性を重視したい",
     fit: "向いている",
-    desc: "トレーナー指名制のため、体験で相性を確認してから担当を選べます。合わなければ変更も可能で、相性重視の人に向きます。",
+    desc: "トレーナー指名制のため、体験で相性を確認してから担当を選べます。合わなければ変更も可能で、相性を重視する方に向いています。",
   },
   {
     goal: "本格的にボディメイク・競技力を高めたい",
     fit: "向いている",
-    desc: "資格保有者やコンテスト入賞経験のあるトレーナーが在籍し、目標別のオーダーメイドプログラムに対応。効果には個人差があります。",
+    desc: "資格保有者やコンテスト入賞経験のあるトレーナーが在籍し、目標別のオーダーメイドプログラムに対応しています。効果には個人差があります。",
   },
   {
     goal: "食事面からもサポートを受けたい",
     fit: "向いている",
-    desc: "トレーニングだけでなく食事サポートも含まれるとされ、栄養面からも目標達成を後押しします。詳細は公式で要確認です。",
+    desc: "トレーニングだけでなく食事サポートも含まれるとされ、栄養面からも目標達成を後押しします。詳細は公式サイトでご確認ください。",
   },
   {
     goal: "とにかく費用を抑えたい",
     fit: "要確認",
-    desc: "月額30,000円〜と大手パーソナルの相場帯で、格安ジムより費用はかかります。指名料が加わる場合もあるため総額を確認しましょう。安さ重視なら回数券制のリアルボディなども比較を。",
+    desc: "月額30,000円〜と大手パーソナルの相場帯で、格安ジムより費用はかかります。指名料が加わる場合もあるため、総額をご確認ください。費用を重視する場合は、回数券制のリアルボディなどとの比較をおすすめします。",
   },
   {
     goal: "好きな時間にすぐ予約したい",
@@ -127,7 +127,7 @@ const faqItems = [
   { q: "Rays GyMの入会金はいくらですか？", a: "入会金は20,000円〜40,000円程度です。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "トレーナーの指名は無料ですか？", a: "基本的には無料で指名可能ですが、一部人気トレーナーは指名料が発生する場合があります。詳細は公式サイトでご確認ください。" },
   { q: "トレーナーの変更は可能ですか？", a: "はい、トレーナーの変更は可能です。相性が合わないと感じた場合はスタッフに相談してください。" },
-  { q: "初心者でも大丈夫ですか？", a: "はい、初心者からアスリートまで幅広いレベルに対応しています。経験に合わせたプログラムを組んでもらえます。" },
+  { q: "初心者でも大丈夫ですか？", a: "はい、初心者からアスリートまで幅広いレベルに対応しています。経験に合わせたプログラムが組まれます。" },
   { q: "体験トレーニングはありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。実際の指導内容やトレーナーとの相性を確認してから入会を検討できます。公式サイトから予約できます。" },
   { q: "退会に違約金はかかりますか？", a: "プランによって異なります。月額制プランの場合は基本的に違約金なしで退会可能です。短期集中コースなどは条件が異なる場合があるため、詳細は入会時・公式サイトでご確認ください。" },
   { q: "Rays GyMの料金は総額でいくらですか？", a: "月4回プランで月額30,000円〜、月8回プランで月額55,000円〜が目安です。短期集中の16回コースは総額140,000円〜とされています。入会金や指名料が別途かかる場合があるため、総額は公式サイトでご確認ください。" },
@@ -171,12 +171,12 @@ export default function RaysGymReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Rays GyM（レイズジム）の口コミ・評判は？料金・効果を徹底解説
+          Rays GyM（レイズジム）の口コミ・評判｜料金・効果の解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/rays-gym.jpg" alt="Rays GyM（レイズジム）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">Rays GyM（レイズジム） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">Rays GyM（レイズジム） 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年7月</p>
         <GymCta slug="rays-gym" name="Rays GyM" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -185,8 +185,8 @@ export default function RaysGymReview() {
           <p className="font-bold text-gray-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
-            <li><a href="#s2" className="text-teal-600 hover:underline">結論：Rays GyMはこんな人におすすめ</a></li>
-            <li><a href="#s3" className="text-teal-600 hover:underline">この記事でわかること（よくある4つの疑問）</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">Rays GyMが適している方</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">この記事で解説する内容（よくある4つの質問）</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">Rays GyMの基本情報</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">Rays GyMの3つの強み</a></li>
             <li><a href="#s6" className="text-teal-600 hover:underline">Rays GyMのメリット・デメリット</a></li>
@@ -206,35 +206,35 @@ export default function RaysGymReview() {
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：Rays GyMはこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">Rays GyMが適している方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>トレーナーとの相性</strong>を重視したい人（指名制・変更も可能）</li>
-            <li>・<strong>本格的なボディメイク・競技力向上</strong>を目指す人（経験豊富なトレーナー・オーダーメイド）</li>
-            <li>・食事面も含めてサポートを受けたい人</li>
-            <li>・口コミは「トレーナーを選べる」「指導の質が高い」が中心。一方「人気トレーナーは予約が取りにくい」「指名料がかかる場合がある」という声も</li>
-            <li>・料金・入会金・指名料はプランや時期で変わるため<strong>公式サイトでの確認が必要</strong></li>
+            <li>・<strong>トレーナーとの相性</strong>を重視したい方（指名制・変更も可能）</li>
+            <li>・<strong>本格的なボディメイク・競技力向上</strong>を目指す方（経験豊富なトレーナー・オーダーメイド）</li>
+            <li>・食事面も含めてサポートを受けたい方</li>
+            <li>・口コミは「トレーナーを選べる」「指導の質が高い」という声が中心で、「人気トレーナーは予約が取りにくい」「指名料がかかる場合がある」という声もあります</li>
+            <li>・料金・入会金・指名料はプランや時期で変わるため、<strong>公式サイトでのご確認が必要</strong>です</li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">本ページの料金は公開情報をもとにした目安です。最新は公式でご確認ください。他ジムとの比較は<Link href="/compare/" className="text-teal-600 underline">目的別おすすめ比較</Link>、費用重視なら回数券制の<Link href="/review/real-body/" className="text-teal-600 underline">リアルボディ</Link>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は公開情報をもとにした目安です。最新情報は公式サイトでご確認ください。他ジムとの比較は<Link href="/compare/" className="text-teal-600 underline">目的別おすすめ比較</Link>、費用重視なら回数券制の<Link href="/review/real-body/" className="text-teal-600 underline">リアルボディ</Link>もご覧ください。</p>
         </div>
 
         <div className="mb-12">
-          <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
+          <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事で解説する内容（よくある4つの質問）</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 料金は？総額は？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">月4回で月額30,000円〜、短期集中16回は総額140,000円〜が目安。指名料が加わる場合も。<a href="#pricing" className="text-teal-600 underline">料金の総額目安を見る</a>。</dd>
+              <dt className="font-bold text-gray-800">Q. 料金と総額を教えてください。</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">月4回で月額30,000円〜、短期集中16回は総額140,000円〜が目安です。指名料が加わる場合もあります。<a href="#pricing" className="text-teal-600 underline">料金の総額目安を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 口コミ・評判は？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">「トレーナーを選べる」「指導の質が高い」が中心。一方「人気トレーナーは予約が取りにくい」という声も。<a href="#reviews" className="text-teal-600 underline">口コミの傾向を見る</a>。</dd>
+              <dt className="font-bold text-gray-800">Q. 口コミ・評判の傾向を教えてください。</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">「トレーナーを選べる」「指導の質が高い」という声が中心です。一方で「人気トレーナーは予約が取りにくい」という声もあります。<a href="#reviews" className="text-teal-600 underline">口コミの傾向を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 指名制のメリットは？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">相性の良いトレーナーを選べ、合わなければ変更も可能。モチベ維持につながる仕組みです。</dd>
+              <dt className="font-bold text-gray-800">Q. 指名制のメリットは何ですか？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">相性の良いトレーナーを選ぶことができ、合わない場合は変更も可能です。モチベーションの維持につながる仕組みです。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. どんな人に向く？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">相性重視・本格ボディメイク志向の人に向きます。費用や予約の取りやすさ重視の人は<a href="#goal" className="text-teal-600 underline">目的別の向き不向き</a>を確認のうえ比較を。</dd>
+              <dt className="font-bold text-gray-800">Q. どのような方に向いていますか？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">トレーナーとの相性や本格的なボディメイクを重視する方に向いています。費用や予約の取りやすさを重視する方は、<a href="#goal" className="text-teal-600 underline">目的別の向き不向き</a>をご確認のうえ、比較をおすすめします。</dd>
             </div>
           </dl>
         </div>
@@ -337,7 +337,7 @@ export default function RaysGymReview() {
         <section className="mb-12">
           <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Rays GyMの口コミ・評判の傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            Rays GyMの口コミを「良い評判」「気になる評判」に分けて傾向を整理しました。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/Rays%20GyM%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
+            Rays GyMの口コミを「良い評判」「気になる評判」に分けて傾向を整理しています。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/Rays%20GyM%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {reviewCategories.map((cat, idx) => (
@@ -359,7 +359,7 @@ export default function RaysGymReview() {
         <section id="goal" className="mb-12 scroll-mt-20">
           <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 Rays GyMの向き不向き</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            Rays GyMが自分の目的に合うかを、よくある目的・悩み別に整理しました。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
+            Rays GyMがご自身の目的に合うかどうかを、よくある目的・悩み別に整理しています。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
           </p>
           <div className="space-y-3">
             {goalGuide.map((g) => (
@@ -396,7 +396,7 @@ export default function RaysGymReview() {
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s12" className="text-xl font-bold mb-3">Rays GyMが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったトレーナーを見つけましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったトレーナーをお探しください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

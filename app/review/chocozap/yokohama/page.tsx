@@ -6,7 +6,7 @@ import ReviewSummary from "@/components/ReviewSummary";
 export const metadata: Metadata = {
   title: "chocoZAP 横浜店の口コミ・評判",
   description:
-    "chocoZAP 横浜店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "chocoZAP 横浜店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -18,9 +18,9 @@ const basicInfo = [
 
 const faqItems = [
   { q: "chocoZAP横浜店の料金はいくらですか？", a: "chocoZAP横浜店の料金は、月額3,278円（税込）で全店舗通い放題です。入会金・事務手数料は各2,200円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "chocoZAP横浜店の営業時間は？", a: "24時間営業です。最新情報は公式サイトでご確認ください。" },
+  { q: "chocoZAP横浜店の営業時間を教えてください。", a: "24時間営業です。最新情報は公式サイトでご確認ください。" },
   { q: "chocoZAP横浜店にはどんな設備がありますか？", a: "トレーニングマシン、セルフエステ、セルフ脱毛などの設備が利用できます。店舗により設備が異なる場合がありますので、アプリでご確認ください。" },
-  { q: "chocoZAP横浜店のアクセスは？", a: "横浜駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "chocoZAP横浜店のアクセスを教えてください。", a: "横浜駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -86,7 +86,7 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">chocoZAP横浜店は、横浜駅近くに位置する24時間営業のコンビニジムです。月額3,278円（税込）という圧倒的な低価格で、トレーニングマシンに加えてセルフエステ・セルフ脱毛も利用可能。着替え不要で気軽に立ち寄れるスタイルが、横浜エリアで働くビジネスパーソンや学生から好評です。</p>
+          <p className="text-gray-700 leading-relaxed">chocoZAP横浜店は、横浜駅近くに位置する24時間営業のコンビニジムです。月額3,278円（税込）という圧倒的な低価格で、トレーニングマシンに加えてセルフエステ・セルフ脱毛も利用できます。着替え不要で気軽に立ち寄れるスタイルが、横浜エリアで働くビジネスパーソンや学生から好評です。</p>
         </section>
 
         <section className="mb-10">

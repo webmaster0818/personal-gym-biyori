@@ -13,10 +13,10 @@ export default function ReviewSummary({ gymName }: Props) {
       <p className="text-sm text-slate-600 leading-relaxed mb-3">
         当ページでは、Googleマップや各種口コミサイトに投稿された{gymName}の評判を、
         <span className="font-medium">トレーナーの質・料金・清潔さ・通いやすさ</span>などの観点別に傾向を整理しています（下部の口コミ分析セクションをご覧ください）。
-        最新の個別レビューや評価スコアは、公式のGoogleマップでご確認いただけます。
+        最新の口コミや評点は、Googleマップでご確認いただけます。
       </p>
       <p className="text-xs text-slate-400 mb-3">
-        当サイトは<a href="/content-policy/" className="underline hover:text-slate-600">記事制作ポリシー</a>に基づき、実在の投稿の傾向のみを整理し、評価スコアの自作・口コミの創作は行いません。料金・店舗情報は公式サイトを確認のうえ掲載しています。
+        当サイトは<a href="/content-policy/" className="underline hover:text-slate-600">記事制作ポリシー</a>にもとづき、実在する投稿の傾向のみを整理しており、評点の自作や口コミの創作は行っていません。料金・店舗情報は公式サイトを確認したうえで掲載しています。
       </p>
       <a
         href={`https://www.google.com/maps/search/${q}`}

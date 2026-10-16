@@ -11,7 +11,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "Nexusジム（ネクサス）の口コミ・評判｜入会金・料金・悪い口コミを検証",
   description:
-    "Nexusジムの口コミ・評判を徹底解説。格安・月額制パーソナルジム（公式記載は1回4,500円〜／月8,000円〜）の料金、トレーナーの質や効果に関する口コミ傾向、メリット・デメリット、よくある質問まで網羅。",
+    "Nexusジムの口コミ・評判をご紹介します。格安・月額制パーソナルジム（公式記載は1回4,500円〜／月8,000円〜）の料金、トレーナーの質や効果に関する口コミ傾向、メリット・デメリット、よくある質問について解説します。",
 };
 
 const basicInfo = [
@@ -25,26 +25,26 @@ const basicInfo = [
 const strengths = [
   {
     title: "公式記載で1回4,500円〜の格安パーソナル",
-    desc: "公式サイトの記載は「1回4,500円〜／月8,000円〜」で、パーソナルジムとしては低価格帯です（プラン別の価格表は非公表）。パーソナルトレーニングを試してみたいけど費用が不安という方でも、気軽に始められる価格帯です。",
+    desc: "公式サイトの記載は「1回4,500円〜／月8,000円〜」で、パーソナルジムとしては低価格帯です（プラン別の価格表は非公表）。パーソナルトレーニングを試してみたいものの費用が不安という方でも、始めやすい価格帯です。",
   },
   {
     title: "月額制で柔軟に続けられる",
-    desc: "高額な一括払いではなく月額制を採用。毎月の支出が一定のため家計管理がしやすく、合わなければ翌月から辞められる柔軟さが魅力です。",
+    desc: "高額な一括払いではなく月額制を採用しています。毎月の支出が一定のため家計管理がしやすく、合わない場合は翌月から退会できる柔軟さが魅力です。",
   },
   {
     title: "完全個室でのマンツーマン指導",
-    desc: "低価格ながらも完全個室でのマンツーマン指導を実施。他の会員と顔を合わせることなく、集中してトレーニングに取り組めます。",
+    desc: "低価格ながらも完全個室でのマンツーマン指導を実施しています。他の会員と顔を合わせることなく、集中してトレーニングに取り組めます。",
   },
 ];
 
 const merits = [
   {
-    title: "圧倒的な低価格",
-    desc: "公式トップの記載は「1回4,500円〜／月8,000円〜」、特定商取引法の表記では60分・月4回コース29,800円（税込）。月額制のため、短期コースの一括払いより始めやすい料金です。",
+    title: "低価格な料金設定",
+    desc: "公式トップの記載は「1回4,500円〜／月8,000円〜」、特定商取引法の表記では60分・月4回コース29,800円（税込）です。月額制のため、短期コースの一括払いより始めやすい料金です。",
   },
   {
     title: "月額制でリスクが低い",
-    desc: "一括契約ではないため、「合わなかったらどうしよう」という不安なくスタートできます。",
+    desc: "一括契約ではないため、合わなかった場合の負担を抑えて始められます。",
   },
   {
     title: "食事アドバイスも含まれている",
@@ -55,7 +55,7 @@ const merits = [
 const demerits = [
   {
     title: "セッション時間が短めの場合がある",
-    desc: "低価格を実現するため、1回のセッション時間が短めに設定されている場合があります。事前に確認しましょう。",
+    desc: "低価格を実現するため、1回のセッション時間が短めに設定されている場合があります。事前にご確認ください。",
   },
   {
     title: "店舗数が限られている",
@@ -69,12 +69,12 @@ const demerits = [
 
 // 2026-10-14: 公式（nexus-gym.com トップ・legal-notice.html）の掲載値
 const pricingPlans = [
-  { name: "公式トップの記載", duration: "—", price: "1回4,500円〜／月8,000円〜", note: "プラン別の価格表はトップに無し" },
+  { name: "公式トップの記載", duration: "—", price: "1回4,500円〜／月8,000円〜", note: "プラン別の価格表はトップになし" },
   { name: "60分・月4回コース", duration: "月4回", price: "29,800円/月", note: "税込（特定商取引法の表記）" },
   { name: "入会金", duration: "—", price: "15,000円", note: "税込（特定商取引法の表記）" },
 ];
 
-const reviewSummary = "Nexusジムの口コミでは「この価格でパーソナルが受けられるのは驚き」「月額制で安心」「トレーナーが親切」という声が見られます。コスパの良さが最大の魅力で、パーソナルジム初心者からの支持が高いです。一方で「セッション時間が短い」「設備がシンプル」という意見も。まずはパーソナルジムを試してみたい方の入門として最適です。";
+const reviewSummary = "Nexusジムの口コミでは「この価格でパーソナルが受けられるのは驚き」「月額制で安心」「トレーナーが親切」という声が見られます。費用対効果の高さが最大の魅力で、パーソナルジム初心者からの支持が高い傾向です。一方で「セッション時間が短い」「設備がシンプル」という意見もあります。まずはパーソナルジムを試してみたい方に適しています。";
 
 const reviewCategories = [
   {
@@ -82,8 +82,8 @@ const reviewCategories = [
     summary: "格安ジムながらトレーナーの質に対する評価は総じて高く、丁寧でフレンドリーな対応が口コミで繰り返し言及されています。初心者に寄り添った指導スタイルが支持されています。",
   },
   {
-    title: "料金・コスパ",
-    summary: "低価格（公式記載1回4,500円〜）はパーソナルジムとしては珍しく、コスパに関する満足度は非常に高いです。月額制による家計管理のしやすさも好評です。",
+    title: "料金・費用対効果",
+    summary: "低価格（公式記載1回4,500円〜）はパーソナルジムとしては珍しく、費用対効果に関する満足度が高い傾向です。月額制による家計管理のしやすさも好評です。",
   },
   {
     title: "施設・設備",
@@ -95,7 +95,7 @@ const reviewCategories = [
   },
   {
     title: "予約・アクセス",
-    summary: "予約のしやすさには概ね好評ですが、店舗数が限られているためアクセス面での課題を挙げる声もあります。",
+    summary: "予約のしやすさはおおむね好評ですが、店舗数が限られているためアクセス面での課題を挙げる声もあります。",
   },
   {
     title: "入会・カウンセリング",
@@ -105,12 +105,12 @@ const reviewCategories = [
 
 const faqItems = [
   { q: "Nexusジムの入会金はいくらですか？", a: "公式サイトの特定商取引法の表記に入会金15,000円（税込）と記載があります（10/14確認）。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
-  { q: "なぜこんなに安いのですか？", a: "広告費の最適化や設備のシンプル化、効率的な運営により低価格を実現しています。大規模な広告宣伝を行わず口コミ中心の集客を行うことでコストを削減し、トレーニングの質は維持したまま業界最安級の価格を実現しています。" },
+  { q: "低価格を実現している理由を教えてください。", a: "広告費の最適化や設備のシンプル化、効率的な運営により低価格を実現しています。大規模な広告宣伝を行わず口コミ中心の集客を行うことでコストを削減し、トレーニングの質は維持したまま業界最安級の価格を実現しています。" },
   { q: "初心者でも大丈夫ですか？", a: "はい、Nexusジムの利用者の多くは筋トレ初心者です。トレーナーが器具の使い方やフォーム、呼吸法まで一から丁寧に指導するため、運動経験がない方でも安心してスタートできます。" },
   { q: "食事指導は受けられますか？", a: "はい、基本的な食事アドバイスがプランに含まれています。毎食の厳密な管理ではなく、食事内容の改善ポイントや摂取すべき栄養素の提案など、無理なく続けられるレベルのアドバイスが中心です。" },
-  { q: "無料体験はありますか？", a: "はい、無料カウンセリング・体験トレーニングが用意されています。実際にトレーナーによるマンツーマン指導を体験できるので、入会前にジムの雰囲気やトレーナーとの相性を確認できます。公式サイトから簡単に予約可能です。" },
+  { q: "無料体験はありますか？", a: "はい、無料カウンセリング・体験トレーニングが用意されています。実際にトレーナーによるマンツーマン指導を体験できるので、入会前にジムの雰囲気やトレーナーとの相性を確認できます。公式サイトから予約できます。" },
   { q: "退会に違約金はかかりますか？", a: "月額制のため、基本的に違約金はありません。退会希望の場合は前月までに申告が必要です。" },
-  { q: "セッション時間はどのくらいですか？", a: "1回のセッション時間は40分が基本です。短時間で効率的にトレーニングを行うスタイルのため、忙しい方でも通いやすいです。" },
+  { q: "セッション時間はどのくらいですか？", a: "1回のセッション時間は40分が基本です。短時間で効率的にトレーニングを行うスタイルのため、忙しい方でも通いやすい形式です。" },
   { q: "プラン変更はできますか？", a: "はい、翌月から月4回・月8回・月12回の各プラン間で変更可能です。ライフスタイルに合わせて調整できます。" },
   { q: "持ち物は何が必要ですか？", a: "トレーニングウェア・室内シューズ・タオルが基本です。店舗によってレンタル有無が異なるため、事前にご確認ください。" },
   { q: "女性でも通いやすいですか？", a: "はい、完全個室でのマンツーマン指導のため、他の会員と顔を合わせることはありません。女性の利用者も多く在籍しています。" },
@@ -151,7 +151,7 @@ export default function NexusReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Nexusジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+        "headline": "Nexusジムの口コミ・評判｜料金・メリット・デメリットの解説",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -173,7 +173,7 @@ export default function NexusReview() {
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/nexus.jpg" alt="Nexusジムの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">Nexusジム 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">Nexusジム 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="nexus" name="Nexusジム" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -182,7 +182,7 @@ export default function NexusReview() {
           <p className="font-bold text-gray-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
-            <li><a href="#s2" className="text-teal-600 hover:underline">結論：Nexusジムはこんな人におすすめ</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">Nexusジムが適している方</a></li>
             <li><a href="#s3" className="text-teal-600 hover:underline">Nexusジムの基本情報</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">Nexusジムの3つの強み</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">Nexusジムのメリット・デメリット</a></li>
@@ -205,18 +205,18 @@ export default function NexusReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Nexusジムは月額<span className="font-bold bg-yellow-100 px-0.5">1回4,500円</span>〜（公式記載）の格安パーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額制</span>で始めやすく辞めやすい柔軟な料金体系と、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴。本記事では、Nexusジムの口コミ・評判の傾向、料金体系、メリット・デメリットを詳しく解説します。
+          Nexusジムは<span className="font-bold bg-yellow-100 px-0.5">1回4,500円</span>〜（公式記載）の格安パーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額制</span>で始めやすく辞めやすい柔軟な料金体系と、<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>での<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が特徴です。本記事では、Nexusジムの口コミ・評判の傾向、料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：Nexusジムはこんな人におすすめ</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">Nexusジムが適している方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>できるだけ安く</strong>パーソナル指導を試したい人（公式記載1回4,500円〜）</li>
-            <li>・高額な一括契約が不安で、<strong>月額制で気軽に始めたい</strong>人</li>
-            <li>・口コミは「この価格でこの質は驚き」「トレーナーが丁寧」が中心。一方「セッションが短め」「設備はシンプル」という声も</li>
-            <li>・料金・店舗・キャンペーンは変動するため<strong>公式サイトでの確認が必要</strong></li>
+            <li>・<strong>費用を抑えて</strong>パーソナル指導を試したい方（公式記載1回4,500円〜）</li>
+            <li>・高額な一括契約に不安があり、<strong>月額制で始めたい</strong>方</li>
+            <li>・口コミは「この価格でこの質は驚き」「トレーナーが丁寧」という声が中心で、「セッションが短め」「設備はシンプル」という声もあります</li>
+            <li>・料金・店舗・キャンペーンは変動するため、<strong>公式サイトでのご確認が必要</strong>です</li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">本ページの料金は目安です。最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>、地方で回数券制の安いジムを探す方は<a href="/review/real-body/" className="text-teal-600 underline">リアルボディの口コミ・料金</a>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">本ページの料金は目安です。最新情報は公式サイトでご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>、地方で回数券制の安いジムを探す方は<a href="/review/real-body/" className="text-teal-600 underline">リアルボディの口コミ・料金</a>もご覧ください。</p>
         </div>
 
         <section className="mb-12">
@@ -291,7 +291,7 @@ export default function NexusReview() {
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>本格的な筋肥大・ボディメイクが目的の方</li>
                 <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>地方在住で都内に通えない方</li>
-                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>徹底した食事管理・栄養指導を重視する方</li>
+                <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>厳密な食事管理・栄養指導を重視する方</li>
                 <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>1回60分以上の長時間セッションを希望する方</li>
                 <li className="flex items-start gap-2"><span className="text-red-500 shrink-0">×</span>最新設備やアメニティの充実を重視する方</li>
               </ul>
@@ -330,7 +330,7 @@ export default function NexusReview() {
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
             <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合ったプランをご提案します</p>
             <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -347,7 +347,7 @@ export default function NexusReview() {
           <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Nexusジム の口コミ分析</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">NexusジムのGoogleマップ口コミを分析すると、低価格（公式記載1回4,500円〜）と月額制の手軽さに対する高い評価が目立ちます。小規模店舗ならではの丁寧なマンツーマン指導も支持されており、パーソナルジム入門として利用するユーザーが多い傾向です。以下では、カテゴリ別に口コミの傾向をまとめています。</p>
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて載せることはしない方針のため）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上の「Googleマップ実測データ」に掲載しています。</p>
+            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿内容を改変しない方針のためです）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上記のGoogleマップのデータ欄に掲載しています。</p>
             <p className="text-xs text-yellow-700 mt-1">出典: <a href="https://www.google.com/maps/search/Nexus+%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline">Googleマップで口コミを見る</a></p>
           </div>
           <GmapStats slug="nexus" brand="NEXUSパーソナルジム" />
@@ -363,7 +363,7 @@ export default function NexusReview() {
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
           <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Nexusジムと他の人気ジムを比較しました。</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">Nexusジムと他の主要ジムを比較しています。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -450,7 +450,7 @@ export default function NexusReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s12" className="text-xl font-bold mb-3">Nexusジムが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、格安パーソナルの魅力を体感してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、指導内容をご確認ください。</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
               公式サイトへ

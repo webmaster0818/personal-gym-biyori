@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "4Fのパーソナルジム（用賀）の口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "4Fのパーソナルジム（用賀）の口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "4Fのパーソナルジム（世田谷区用賀・用賀駅徒歩2分）の口コミ・評判を徹底解説。QUICK DIET TRIAL 4は月26,620円（税込）から。朝7時〜21時・年中無休、25歳以下割引もある隠れ家ジムの料金・メリット・デメリットを紹介。",
+    "4Fのパーソナルジム（世田谷区用賀・用賀駅徒歩2分）の口コミ・評判をご紹介します。QUICK DIET TRIAL 4は月26,620円（税込）からです。朝7時〜21時・年中無休で、25歳以下割引も用意された隠れ家的なジムの料金・メリット・デメリットを解説しています。",
 };
 
 const basicInfo = [
@@ -26,22 +26,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "用賀駅徒歩2分・朝7時から年中無休で通いやすい",
-    desc: "用賀駅から徒歩2分（公式サイト内に徒歩5分の表記もあり）とアクセス良好。営業時間は7:00〜21:00で年中無休のため、出勤前の朝トレから仕事帰りまで、生活リズムに合わせて無理なく通えます。",
+    desc: "用賀駅から徒歩2分（公式サイト内に徒歩5分の表記もあり）とアクセスが良好です。営業時間は7:00〜21:00で年中無休のため、出勤前の朝トレから仕事帰りまで、生活リズムに合わせて無理なく通えます。",
   },
   {
     title: "隠れ家的なプライベート空間でのマンツーマン指導",
-    desc: "ビル4階に位置する隠れ家的な雰囲気のジム。人目を気にせず、リラックスした環境でトレーニングに集中できます。トレーナーとの信頼関係を築きながら、長期的なボディメイクを進められます。",
+    desc: "ビル4階に位置する、隠れ家的な雰囲気のジムです。人目を気にせず、リラックスした環境でトレーニングに集中できます。トレーナーとの信頼関係を築きながら、長期的なボディメイクを進められます。",
   },
   {
     title: "25歳以下割引・モニター割引で20%オフ",
-    desc: "25歳以下の方向けの割引と、モニター利用による割引が用意されており、いずれも20%オフ。若い世代や費用を抑えて始めたい方が挑戦しやすい料金設計です。",
+    desc: "25歳以下の方向けの割引と、モニター利用による割引が用意されており、いずれも20%オフです。若い世代や費用を抑えて始めたい方が挑戦しやすい料金設計です。",
   },
 ];
 
 const merits = [
   {
     title: "アットホームな雰囲気で続けやすい",
-    desc: "大型ジムの緊張感が苦手な方にも好評。トレーナーとの距離が近く、気軽に相談できる環境です。",
+    desc: "大型ジムの緊張感が苦手な方にも好評です。トレーナーとの距離が近く、気軽に相談できる環境です。",
   },
   {
     title: "プライベート感が高い",
@@ -84,8 +84,8 @@ const reviewSummary = "4Fのパーソナルジムの口コミでは「隠れ家�
 const faqItems = [
   { q: "4Fのパーソナルジムの入会金はいくらですか？", a: "公式サイトに入会金の記載はありません（2026年8月3日確認）。無料カウンセリングの際にご確認ください。" },
   { q: "4Fのパーソナルジムはどこにありますか？", a: "東京都世田谷区用賀4丁目1-5 東京コーポレーション第10ビル4階の1店舗です。用賀駅から徒歩2分（公式サイト内に徒歩5分の表記もあり）とアクセス良好です。" },
-  { q: "営業時間・定休日は？", a: "営業時間は7:00〜21:00で年中無休です。朝7時から営業しているため、出勤前のトレーニングにも利用しやすい環境です。" },
-  { q: "初心者でも大丈夫ですか？", a: "はい、マンツーマン指導のため初心者でも安心して始められます。" },
+  { q: "営業時間・定休日を教えてください。", a: "営業時間は7:00〜21:00で年中無休です。朝7時から営業しているため、出勤前のトレーニングにも利用しやすい環境です。" },
+  { q: "初心者でも大丈夫ですか？", a: "はい、マンツーマン指導のため、初心者の方も始めやすい環境です。" },
   { q: "見学や体験はできますか？", a: "無料カウンセリングが用意されています。体験トレーニングの価格は公式サイトに記載がないため、カウンセリング予約時にご確認ください。" },
   { q: "割引はありますか？", a: "25歳以下の方向けの割引と、モニター利用による割引があり、いずれも20%オフです。対象条件の詳細は無料カウンセリングでご確認ください。" },
 ];
@@ -114,7 +114,7 @@ export default function FourFGymReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "4Fのパーソナルジム" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">4Fのパーソナルジム（用賀）の口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">4Fのパーソナルジム（用賀）の口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/4f-gym.jpg" alt="4Fのパーソナルジム（用賀）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -161,7 +161,7 @@ export default function FourFGymReview() {
         <section className="mb-12">
           <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">4Fのパーソナルジムの料金</h2>
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン名</th><th className="px-4 py-3 text-left font-medium">時間</th><th className="px-4 py-3 text-left font-medium">料金</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead><tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody></table></div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金はすべて税込・公式サイト掲載の金額です（2026年8月3日確認）。25歳以下割引・モニター割引（いずれも20%オフ）あり。最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 料金はすべて税込・公式サイト掲載の金額です（2026年8月3日確認）。25歳以下割引・モニター割引（いずれも20%オフ）があります。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section className="mb-12">
@@ -179,7 +179,7 @@ export default function FourFGymReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">4Fのパーソナルジムが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">用賀駅徒歩2分・朝7時から年中無休。まずは無料カウンセリングで、隠れ家ジムの雰囲気を体験してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">用賀駅から徒歩2分、朝7時から年中無休で営業しています。まずは無料カウンセリングで、ジムの雰囲気をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

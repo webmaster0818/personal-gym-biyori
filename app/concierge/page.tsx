@@ -88,8 +88,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['コンテスト入賞トレーナー', 'ボディメイク特化', '糖質制限なし食事指導'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', 'ストレス発散'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)'],
     affiliateUrl: BEYOND_AFF,
   }, [
     ['東京', '新宿', '/review/beyond/shinjuku/'],
@@ -110,8 +110,8 @@ const stores: Store[] = [
     lateNight: true,
     features: ['完全個室', '30日間返金保証', '食事管理徹底', '全国100+店舗'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', 'ブライダル準備'],
-    intensity: ['ガチで結果を出したい'],
-    options: ['食事指導あり', '手ぶらで通える', '完全個室', '返金保証あり', '駅チカ(徒歩5分以内)'],
+    intensity: ['本格的に結果を出したい'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '返金保証あり', '駅近(徒歩5分以内)'],
     affiliateUrl: RIZAP_AFF,
   }, [
     ['東京', '新宿', '/review/rizap/shinjuku/'],
@@ -131,8 +131,8 @@ const stores: Store[] = [
     lateNight: true,
     features: ['深夜24時まで営業', '3食食べるダイエット', '完全個室', '全国80+店舗'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '手ぶらで通える', '完全個室', '深夜営業', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '深夜営業', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '新宿', '/review/247workout/shinjuku/'],
     ['東京', '渋谷', '/review/247workout/shibuya/'],
@@ -150,10 +150,10 @@ const stores: Store[] = [
     priceCategory: 'budget',
     hours: '7:00〜23:00',
     lateNight: true,
-    features: ['初心者向け', '手ぶらOK', 'プロテイン付き', '全国34店舗'],
+    features: ['初心者向け', '手ぶらで通える', 'プロテイン付き', '全国34店舗'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消', 'ストレス発散'],
-    intensity: ['ゆるく楽しく', 'まずは体験から'],
-    options: ['手ぶらで通える', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+    intensity: ['無理なく楽しく', '体験から始めたい'],
+    options: ['手ぶらで通える', '駅近(徒歩5分以内)', '月額制(解約しやすい)'],
   }, [
     ['東京', '新宿', '/review/chicken-gym/shinjuku/'],
     ['東京', '渋谷', '/review/chicken-gym/shibuya/'],
@@ -169,10 +169,10 @@ const stores: Store[] = [
     priceCategory: 'budget',
     hours: '10:00〜22:00',
     lateNight: false,
-    features: ['1回20分', 'AI自動調整マシン', '手ぶらOK', '全国40+店舗'],
+    features: ['1回20分', 'AI自動調整マシン', '手ぶらで通える', '全国40+店舗'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
-    intensity: ['ゆるく楽しく', 'まずは体験から'],
-    options: ['手ぶらで通える', 'AI・マシン主導', '月額制(解約しやすい)', '駅チカ(徒歩5分以内)'],
+    intensity: ['無理なく楽しく', '体験から始めたい'],
+    options: ['手ぶらで通える', 'AI・マシン主導', '月額制(解約しやすい)', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '新宿', '/review/exercise-coach/shinjuku/'],
     ['東京', '渋谷', '/review/exercise-coach/shibuya/'],
@@ -187,10 +187,10 @@ const stores: Store[] = [
     priceCategory: 'mid',
     hours: '7:00〜23:00',
     lateNight: true,
-    features: ['初心者特化', '手ぶらOK', '完全個室', '都内中心'],
+    features: ['初心者特化', '手ぶらで通える', '完全個室', '都内中心'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消', '姿勢改善・腰痛改善'],
-    intensity: ['ゆるく楽しく', 'しっかり追い込みたい', 'まずは体験から'],
-    options: ['食事指導あり', '手ぶらで通える', '完全個室', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+    intensity: ['無理なく楽しく', 'しっかり追い込みたい', '体験から始めたい'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '駅近(徒歩5分以内)', '月額制(解約しやすい)'],
     affiliateUrl: HABIT_AFF,
   }, [
     ['東京', '渋谷', '/review/habit/shibuya/'],
@@ -209,7 +209,7 @@ const stores: Store[] = [
     lateNight: true,
     features: ['女性専用', 'AI×サーキット型', '予約不要', '1回30分'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消', 'ストレス発散'],
-    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    intensity: ['無理なく楽しく', '体験から始めたい'],
     options: ['女性専用/女性トレーナー', 'AI・マシン主導', '月額制(解約しやすい)'],
     affiliateUrl: FURDI_AFF,
   }, [
@@ -229,8 +229,8 @@ const stores: Store[] = [
     lateNight: true,
     features: ['低価格パーソナル', '都度払い対応', '完全個室', '長期継続向き'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消', '筋肥大・ボディメイク'],
-    intensity: ['ゆるく楽しく', 'しっかり追い込みたい', 'まずは体験から'],
-    options: ['駅チカ(徒歩5分以内)', '月額制(解約しやすい)', '完全個室'],
+    intensity: ['無理なく楽しく', 'しっかり追い込みたい', '体験から始めたい'],
+    options: ['駅近(徒歩5分以内)', '月額制(解約しやすい)', '完全個室'],
     affiliateUrl: NEXUS_AFF,
   }, [
     ['東京', '新宿', '/review/nexus/shinjuku/'],
@@ -248,8 +248,8 @@ const stores: Store[] = [
     lateNight: true,
     features: ['女性専用', '完全個室', 'ベビーサークル完備', '女性トレーナー'],
     purpose: ['ダイエット・減量', '姿勢改善・腰痛改善', 'ブライダル準備'],
-    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
-    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅チカ(徒歩5分以内)'],
+    intensity: ['無理なく楽しく', 'しっかり追い込みたい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '新宿', '/review/outline/shinjuku/'],
     ['東京', '渋谷', '/review/outline/shibuya/'],
@@ -266,8 +266,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['女性専用', 'ボディメイク特化', '宅配食サービス連携', '食事管理付き'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', 'ブライダル準備'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '女性専用/女性トレーナー', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '新宿', '/review/undeux/shinjuku/'],
     ['東京', '渋谷', '/review/undeux/shibuya/'],
@@ -284,8 +284,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['医学的アプローチ', '都度払い可', '管理栄養士在籍', '都内20+店舗'],
     purpose: ['健康維持・運動不足解消', '姿勢改善・腰痛改善', '筋肥大・ボディメイク'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '恵比寿', '/review/dr-training/ebisu/'],
     ['東京', '中目黒', '/review/dr-training/nakameguro/'],
@@ -298,10 +298,10 @@ const stores: Store[] = [
     priceCategory: 'budget',
     hours: '10:00〜22:00',
     lateNight: false,
-    features: ['米国資格保有トレーナー', '科学的トレーニング', '手ぶらOK', '完全予約制'],
+    features: ['米国資格保有トレーナー', '科学的トレーニング', '手ぶらで通える', '完全予約制'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消', '姿勢改善・腰痛改善'],
-    intensity: ['しっかり追い込みたい', 'まずは体験から'],
-    options: ['食事指導あり', '手ぶらで通える', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+    intensity: ['しっかり追い込みたい', '体験から始めたい'],
+    options: ['食事指導あり', '手ぶらで通える', '駅近(徒歩5分以内)', '月額制(解約しやすい)'],
   }, [
     ['東京', '新宿', '/review/aspi/shinjuku/'],
     ['東京', '渋谷', '/review/aspi/shibuya/'],
@@ -318,8 +318,8 @@ const stores: Store[] = [
     lateNight: true,
     features: ['女性専用', '下半身・脚痩せ特化', 'アフターフォロー付き', '完全個室'],
     purpose: ['ダイエット・減量', '姿勢改善・腰痛改善', 'ブライダル準備'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '新宿', '/review/b-concept/shinjuku/'],
     ['東京', '渋谷', '/review/b-concept/shibuya/'],
@@ -336,8 +336,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['食事指導特化', '名古屋中心に展開', 'ダイエット指導実績豊富', '管理栄養士監修'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)'],
     affiliateUrl: CALORIE_TRADE_AFF,
   }, [
     ['愛知', '名古屋瑞穂', '/review/calorie-trade-japan/mizuho/'],
@@ -356,8 +356,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['九州中心', '食事指導付き低価格', 'ダイエット特化', '完全個室'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
-    intensity: ['しっかり追い込みたい', 'まずは体験から'],
-    options: ['食事指導あり', '完全個室', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '体験から始めたい'],
+    options: ['食事指導あり', '完全個室', '駅近(徒歩5分以内)'],
     affiliateUrl: RITA_STYLE_AFF,
   }, [
     ['福岡', '天神', '/review/rita-style/tenjin/'],
@@ -375,8 +375,8 @@ const stores: Store[] = [
     lateNight: true,
     features: ['プレミアム空間', 'オーダーメイドプログラム', '完全個室', 'トップトレーナー'],
     purpose: ['筋肥大・ボディメイク', 'ダイエット・減量', 'ブライダル準備'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '手ぶらで通える', '完全個室', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '手ぶらで通える', '完全個室', '駅近(徒歩5分以内)'],
     affiliateUrl: REXER_AFF,
   }, [
     ['東京', '西麻布', '/review/rexer/nishiazabu/'],
@@ -394,8 +394,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['パーソナルトレーニング', '個別プログラム', '丁寧な指導'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
-    intensity: ['しっかり追い込みたい', 'まずは体験から'],
-    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '体験から始めたい'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)'],
     affiliateUrl: EXE_AFF,
   }, [
     ['東京', '駒沢大学', '/review/exe/komazawa/'],
@@ -409,8 +409,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['少人数制', 'きめ細かい指導', 'アットホーム'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
-    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
-    options: ['駅チカ(徒歩5分以内)'],
+    intensity: ['無理なく楽しく', 'しっかり追い込みたい'],
+    options: ['駅近(徒歩5分以内)'],
     affiliateUrl: VASE_AFF,
   }, [
     ['東京', '恵比寿', '/review/vase/ebisu/'],
@@ -424,8 +424,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['完全個室', '食事指導付き', 'マンツーマン指導'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
-    intensity: ['しっかり追い込みたい', 'まずは体験から'],
-    options: ['食事指導あり', '完全個室', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '体験から始めたい'],
+    options: ['食事指導あり', '完全個室', '駅近(徒歩5分以内)'],
     affiliateUrl: COCODAKARA_AFF,
   }, [
     ['東京', '渋谷', '/review/cocodakara/shibuya/'],
@@ -440,8 +440,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['ボクシング融合', 'ストレス発散', '楽しくトレーニング', 'ダイエット効果大'],
     purpose: ['ダイエット・減量', 'ストレス発散', '筋肥大・ボディメイク'],
-    intensity: ['しっかり追い込みたい', 'ゆるく楽しく'],
-    options: ['手ぶらで通える', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '無理なく楽しく'],
+    options: ['手ぶらで通える', '駅近(徒歩5分以内)'],
     affiliateUrl: LASTSTYLE_AFF,
   }, [
     ['東京', '池袋', '/review/laststyle/ikebukuro/'],
@@ -457,7 +457,7 @@ const stores: Store[] = [
     lateNight: true,
     features: ['オンライン専用', '自宅でトレーニング', '食事指導付き', '全国どこでも対応'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
-    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    intensity: ['無理なく楽しく', '体験から始めたい'],
     options: ['食事指導あり', '月額制(解約しやすい)'],
     affiliateUrl: PLEZ_AFF,
   }, [
@@ -471,7 +471,7 @@ const stores: Store[] = [
     lateNight: true,
     features: ['24時間セルフ型', '低価格', 'マシン充実', '好きな時間に通える'],
     purpose: ['健康維持・運動不足解消', 'ストレス発散'],
-    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    intensity: ['無理なく楽しく', '体験から始めたい'],
     options: ['深夜営業', '月額制(解約しやすい)', 'AI・マシン主導'],
     affiliateUrl: FIT24_AFF,
   }, [
@@ -485,8 +485,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['月額制', '有資格トレーナー', '継続しやすい', '丁寧な指導'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
-    intensity: ['しっかり追い込みたい', 'まずは体験から'],
-    options: ['食事指導あり', '駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+    intensity: ['しっかり追い込みたい', '体験から始めたい'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)', '月額制(解約しやすい)'],
   }, [
     ['東京', '新宿', '/review/miyazaki-gym/shinjuku/'],
     ['東京', '渋谷', '/review/miyazaki-gym/shibuya/'],
@@ -504,7 +504,7 @@ const stores: Store[] = [
     lateNight: false,
     features: ['女性専用', '1回30分', '予約不要', '全国2,000+店舗'],
     purpose: ['健康維持・運動不足解消', 'ダイエット・減量', '姿勢改善・腰痛改善'],
-    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    intensity: ['無理なく楽しく', '体験から始めたい'],
     options: ['女性専用/女性トレーナー', '月額制(解約しやすい)'],
   }, [
     ['東京', '新宿', '/review/curves/shinjuku/'],
@@ -527,8 +527,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['通い放題', '月額制', 'パーソナル指導', '都内中心'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
-    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
-    options: ['駅チカ(徒歩5分以内)', '月額制(解約しやすい)'],
+    intensity: ['無理なく楽しく', 'しっかり追い込みたい'],
+    options: ['駅近(徒歩5分以内)', '月額制(解約しやすい)'],
   }, [
     ['東京', '新宿', '/review/element/shinjuku/'],
     ['東京', '渋谷', '/review/element/shibuya/'],
@@ -544,7 +544,7 @@ const stores: Store[] = [
     lateNight: true,
     features: ['24時間', 'セルフ型', '超低価格', '全国展開'],
     purpose: ['健康維持・運動不足解消', 'ストレス発散', 'ダイエット・減量'],
-    intensity: ['ゆるく楽しく', 'まずは体験から'],
+    intensity: ['無理なく楽しく', '体験から始めたい'],
     options: ['深夜営業', '月額制(解約しやすい)', 'AI・マシン主導'],
   }, [
     ['東京', '新宿', '/review/chocozap/shinjuku/'],
@@ -565,8 +565,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['パーソナルトレーニング', '丁寧な指導', '都内主要駅'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
-    intensity: ['しっかり追い込みたい', 'まずは体験から'],
-    options: ['食事指導あり', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '体験から始めたい'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '新宿', '/review/the-personal-gym/shinjuku/'],
     ['東京', '六本木', '/review/the-personal-gym/roppongi/'],
@@ -580,8 +580,8 @@ const stores: Store[] = [
     lateNight: false,
     features: ['女性向け', '埼玉中心', '完全個室', '女性トレーナー'],
     purpose: ['ダイエット・減量', '姿勢改善・腰痛改善', 'ブライダル準備'],
-    intensity: ['ゆるく楽しく', 'しっかり追い込みたい'],
-    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅チカ(徒歩5分以内)'],
+    intensity: ['無理なく楽しく', 'しっかり追い込みたい'],
+    options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅近(徒歩5分以内)'],
   }, [
     ['埼玉', '大宮', '/review/reprecious/omiya/'],
     ['埼玉', '浦和', '/review/reprecious/urawa/'],
@@ -595,8 +595,8 @@ const stores: Store[] = [
     lateNight: true,
     features: ['海外式ボディメイク', '姿勢改善', '食事指導付き', '完全個室'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '姿勢改善・腰痛改善'],
-    intensity: ['しっかり追い込みたい', 'ガチで結果を出したい'],
-    options: ['食事指導あり', '完全個室', '駅チカ(徒歩5分以内)'],
+    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
+    options: ['食事指導あり', '完全個室', '駅近(徒歩5分以内)'],
     affiliateUrl: APPLE_GYM_AFF,
   }, [
     ['東京', '新宿', '/review/apple-gym/shinjuku/'],
@@ -647,9 +647,9 @@ const dayOpts = ['平日中心', '休日中心', '両方'];
 const timeOpts = ['朝(6-10時)', '昼(10-14時)', '夕方(14-18時)', '夜(18-22時)', '深夜(22時以降)'];
 const sceneOpts = ['仕事帰り', '休日の空き時間', 'ランチタイム', '在宅勤務の合間', 'その他'];
 const purposeOpts = ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消', '姿勢改善・腰痛改善', 'ストレス発散', 'ブライダル準備'];
-const intensityOpts = ['ゆるく楽しく', 'しっかり追い込みたい', 'ガチで結果を出したい', 'まずは体験から'];
+const intensityOpts = ['無理なく楽しく', 'しっかり追い込みたい', '本格的に結果を出したい', '体験から始めたい'];
 const budgetOpts = ['月1万円以下', '月1〜3万円', '月3〜5万円', '月5万円以上', '一括20万円以下', '一括20〜40万円', '一括40万円以上'];
-const optionOpts = ['食事指導あり', '手ぶらで通える', '完全個室', '女性専用/女性トレーナー', '深夜営業', '駅チカ(徒歩5分以内)', '返金保証あり', 'AI・マシン主導', '月額制(解約しやすい)'];
+const optionOpts = ['食事指導あり', '手ぶらで通える', '完全個室', '女性専用/女性トレーナー', '深夜営業', '駅近(徒歩5分以内)', '返金保証あり', 'AI・マシン主導', '月額制(解約しやすい)'];
 
 /* ==========================================================================
    Scoring
@@ -841,14 +841,14 @@ function buildReason(s: Store & { score: number }, a: Answers): string {
     ? `${s.area}（${a.area}と同じ${s.prefecture}内）で`
     : `${s.prefecture}${s.area}（${a.prefecture}${a.area}の近隣）で`;
   const feat = s.features[0] || '充実した指導';
-  if (a.purpose === 'ダイエット・減量') p.push(`${loc}ダイエットを始めたいあなたには、${s.gymName}の${feat}がぴったり`);
-  else if (a.purpose === '筋肥大・ボディメイク') p.push(`${loc}本格ボディメイクを目指すなら、${s.gymName}の${feat}が最適`);
-  else if (a.purpose === 'ブライダル準備') p.push(`${loc}ブライダル準備なら、${s.gymName}の${feat}がおすすめ`);
-  else p.push(`${loc}${a.purpose}には${s.gymName}の${feat}が好相性`);
-  if (s.lateNight) p.push(`${s.hours}まで営業で仕事帰りでも通えます`);
-  if (s.options.includes('駅チカ(徒歩5分以内)')) p.push('駅チカでアクセスも便利');
-  if (s.options.includes('手ぶらで通える')) p.push('手ぶらで通えるので荷物の心配も不要');
-  if (s.options.includes('食事指導あり')) p.push('食事指導付きで効率的に結果を出せます');
+  if (a.purpose === 'ダイエット・減量') p.push(`${loc}ダイエットを始めたい方には、${s.gymName}の${feat}が適しています`);
+  else if (a.purpose === '筋肥大・ボディメイク') p.push(`${loc}本格的なボディメイクを目指す方には、${s.gymName}の${feat}が適しています`);
+  else if (a.purpose === 'ブライダル準備') p.push(`${loc}ブライダル準備をされる方には、${s.gymName}の${feat}をおすすめします`);
+  else p.push(`${loc}${a.purpose}を目的とする方には、${s.gymName}の${feat}が適しています`);
+  if (s.lateNight) p.push(`${s.hours}まで営業しており、仕事帰りでも通えます`);
+  if (s.options.includes('駅近(徒歩5分以内)')) p.push('駅に近く、アクセスが便利です');
+  if (s.options.includes('手ぶらで通える')) p.push('手ぶらで通えるため、荷物の心配がありません');
+  if (s.options.includes('食事指導あり')) p.push('食事指導があり、効率的に結果を目指せます');
   return p.slice(0, 3).join('。') + '。';
 }
 
@@ -991,7 +991,7 @@ export default function ConciergePage() {
               パーソナルジムコンシェルジュ
             </h1>
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-8 max-w-sm mx-auto">
-              どのジム・どの店舗が自分に合っているかわからない、そんなあなたにピッタリなジムを上位5つご紹介します。
+              どのジム・どの店舗が合っているかお悩みの方に、条件に合うジムを上位5つご紹介します。
             </p>
             <button
               type="button"
@@ -1109,7 +1109,7 @@ export default function ConciergePage() {
 
         {/* ── Step 7 → renamed Step 8: オプション ──────────────── */}
         {step === 7 && (
-          <Card title="オプション" subtitle="あてはまるものを全て選んでください（複数選択可）">
+          <Card title="オプション" subtitle="あてはまるものをすべてお選びください（複数選択可）">
             <div className="grid grid-cols-1 gap-2">
               {optionOpts.map((op) => (
                 <Btn key={op} label={op} selected={answers.options.includes(op)} onClick={() => toggleOption(op)} />

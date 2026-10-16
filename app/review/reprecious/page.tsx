@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "リプレシャスの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "リプレシャスの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "Reprecious（リプレシャス）の口コミ・評判を徹底解説。女性専用・低価格パーソナルジムの料金体系、メリット・デメリットまで網羅。",
+    "Reprecious（リプレシャス）の口コミ・評判をご紹介します。女性専用・低価格パーソナルジムの料金体系、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -22,21 +22,21 @@ const basicInfo = [
 const strengths = [
   {
     title: "業界最安級の低価格パーソナルジム",
-    desc: "2ヶ月87,120円〜と、パーソナルジム業界では破格の料金設定。入会金も低額に抑えられており、初めてパーソナルジムを試したい方でも始めやすい価格帯です。",
+    desc: "2ヶ月87,120円〜と、パーソナルジム業界では低価格な料金設定です。入会金も低額に抑えられており、初めてパーソナルジムを試したい方でも始めやすい価格帯です。",
   },
   {
     title: "女性専用で安心の環境",
-    desc: "会員は女性のみ。完全個室でのトレーニングのため、人目を気にせず安心して運動に集中できる環境が整っています。",
+    desc: "会員は女性のみです。完全個室でのトレーニングのため、人目を気にせず安心して運動に集中できる環境が整っています。",
   },
   {
     title: "食事指導が料金に含まれている",
-    desc: "低価格ながらも食事指導がプランに含まれており、追加料金なしでトレーニングと食事の両面からボディメイクをサポートしてもらえます。",
+    desc: "低価格ながらも食事指導がプランに含まれており、追加料金なしでトレーニングと食事の両面からボディメイクのサポートを受けられます。",
   },
 ];
 
 const merits = [
   {
-    title: "圧倒的なコストパフォーマンス",
+    title: "費用対効果の高さ",
     desc: "大手パーソナルジムの半額以下で通えるため、予算が限られている方でもパーソナルトレーニングを体験できます。",
   },
   {
@@ -52,10 +52,10 @@ const merits = [
 const demerits = [
   {
     title: "トレーニング時間が短め",
-    desc: "低価格の分、1回あたりのセッション時間が短い場合があります。じっくりトレーニングしたい方は確認が必要です。",
+    desc: "低価格の分、1回あたりのセッション時間が短い場合があります。時間をかけてトレーニングしたい方は、事前にご確認ください。",
   },
   {
-    title: "男性は利用不可",
+    title: "男性は利用できない",
     desc: "女性専用のため、男性は利用できません。",
   },
   {
@@ -70,11 +70,11 @@ const pricingPlans = [
   { name: "デイタイムコース", duration: "40分/回", price: "75,600円〜", note: "平日日中限定・2ヶ月" },
 ];
 
-const reviewSummary = "リプレシャスの口コミでは「この価格でパーソナルトレーニングが受けられるのは嬉しい」「女性専用で安心」という声が多数。コスパの良さが最大の評価ポイントです。一方で「セッション時間が短い」「設備がシンプル」という意見も。初めてパーソナルジムを試してみたい女性に特におすすめです。";
+const reviewSummary = "リプレシャスの口コミでは「この価格でパーソナルトレーニングが受けられるのは嬉しい」「女性専用で安心」という声が多く見られます。費用対効果の高さが最も評価されている点です。一方で「セッション時間が短い」「設備がシンプル」という意見もあります。初めてパーソナルジムを試してみたい女性に適しています。";
 
 const faqItems = [
   { q: "リプレシャスの入会金はいくらですか？", a: "入会金は22,000円です。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
-  { q: "なぜこんなに安いのですか？", a: "広告費の削減や設備のシンプル化により、低価格を実現しています。トレーニングの質は維持しながらコストを最適化しています。" },
+  { q: "低価格を実現している理由を教えてください。", a: "広告費の削減や設備のシンプル化により、低価格を実現しています。トレーニングの質は維持しながらコストを最適化しています。" },
   { q: "ダイエット効果はありますか？", a: "食事指導とパーソナルトレーニングを組み合わせたプログラムのため、多くの方がダイエット効果を実感されています。" },
   { q: "予約は取りやすいですか？", a: "完全予約制でWebから予約可能です。人気の時間帯は早めの予約をおすすめします。" },
   { q: "体験トレーニングはありますか？", a: "無料カウンセリング・体験が用意されています。公式サイトからお申し込みください。" },
@@ -106,7 +106,7 @@ export default function RepreciousReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          リプレシャスの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          リプレシャスの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="reprecious" name="リプレシャス" variant="top" />
@@ -129,7 +129,7 @@ export default function RepreciousReview() {
         <ReviewSummary gymName="リプレシャス" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          Reprecious（リプレシャス）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・低価格を実現したパーソナルジムです。業界最安級の料金ながら<span className="font-bold bg-yellow-100 px-0.5">食事指導付き</span>で、初めてパーソナルジムに通う女性に人気。本記事では、リプレシャスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          Reprecious（リプレシャス）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・低価格を実現したパーソナルジムです。業界最安級の料金ながら<span className="font-bold bg-yellow-100 px-0.5">食事指導付き</span>で、初めてパーソナルジムに通う女性に人気があります。本記事では、リプレシャスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -240,7 +240,7 @@ export default function RepreciousReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">リプレシャスが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、低価格パーソナルの魅力を体感してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、指導内容をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

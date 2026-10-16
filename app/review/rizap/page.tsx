@@ -11,7 +11,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証",
   description:
-    "RIZAPの口コミ・評判を徹底解説。シェイプアッププログラム327,800円〜の料金体系、16万人の実績、30日間全額返金保証の基本情報からメリット・デメリット、Googleマップの口コミ分析まで網羅。",
+    "RIZAPの口コミ・評判をご紹介します。シェイプアッププログラム327,800円〜の料金体系、16万人の実績、30日間全額返金保証の基本情報からメリット・デメリット、Googleマップの口コミ分析について解説します。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -27,31 +27,31 @@ const basicInfo = [
 const strengths = [
   {
     title: "科学的メソッドで「結果にコミット」",
-    desc: "RIZAPは16万人以上の実績データに基づいた独自の科学的メソッドを採用しています。体組成や生活習慣を徹底的に分析し、個々の目標に最適化されたプログラムを設計。短期間で確実に成果を出す仕組みが確立されており、「結果にコミット」というブランドメッセージは伊達ではありません。",
+    desc: "RIZAPは16万人以上の実績データに基づいた独自の科学的メソッドを採用しています。体組成や生活習慣を徹底的に分析し、個々の目標に最適化されたプログラムを設計しています。短期間で成果を出すための仕組みが整っており、「結果にコミット」というブランドメッセージを裏付ける体制です。",
   },
   {
     title: "専属トレーナー＋管理栄養士のWサポート",
-    desc: "トレーニングは専属トレーナーがマンツーマンで指導し、食事面では管理栄養士が毎日の食事内容をチェックしてフィードバックを提供します。運動と食事の両面から専門家がサポートする体制は、他のパーソナルジムにはない大きな強みです。",
+    desc: "トレーニングは専属トレーナーがマンツーマンで指導し、食事面では管理栄養士が毎日の食事内容をチェックしてフィードバックを提供します。運動と食事の両面から専門家がサポートする体制は、RIZAPの大きな強みです。",
   },
   {
     title: "30日間全額返金保証で安心",
-    desc: "プログラム開始から30日間は、いかなる理由でも全額返金に対応しています。高額な料金に不安を感じる方でも、まずは試してみることができる安心の制度です。返金保証があることで、入会のハードルを大きく下げています。",
+    desc: "プログラム開始から30日間は、いかなる理由でも全額返金に対応しています。高額な料金に不安を感じる方でも、まずは試すことができる制度です。返金保証により、入会時の心理的な負担が軽減されています。",
   },
 ];
 
 /* ---------- メリット ---------- */
 const merits = [
   {
-    title: "確実な結果が出る（16万人の実績）",
+    title: "結果につながりやすい（16万人の実績）",
     desc: "RIZAPの最大の強みは「結果が出る」という点です。16万人以上の利用実績があり、体重減少・体脂肪率低下の成功事例が豊富です。科学的な根拠に基づいたプログラム設計と、専属トレーナーによる徹底した進捗管理により、自己流のダイエットでは達成できなかった目標を実現できる可能性が高いです。ただし、個人差はあるため、全員が同じ結果を得られるわけではありません。",
   },
   {
     title: "食事管理が徹底している（毎日3食報告）",
-    desc: "RIZAPでは毎日3食の食事内容をトレーナーに報告する仕組みがあります。管理栄養士の監修のもと、食事内容へのフィードバックがもらえるため、何をどれだけ食べればよいかが明確になります。自分一人では管理しきれない食事面を専門家に任せられるのは、大きな安心感につながります。",
+    desc: "RIZAPでは毎日3食の食事内容をトレーナーに報告する仕組みがあります。管理栄養士の監修のもと、食事内容へのフィードバックを受けられるため、何をどれだけ食べればよいかが明確になります。自分一人では管理しきれない食事面を専門家に任せられるのは、大きな安心感につながります。",
   },
   {
     title: "30日間全額返金保証の安心感",
-    desc: "高額なプログラムであっても、30日間の全額返金保証があるため、万が一自分に合わないと感じた場合でもリスクを最小限に抑えられます。この保証制度はRIZAPの自信の表れでもあり、入会を迷っている方の背中を押す大きな要素となっています。",
+    desc: "高額なプログラムであっても、30日間の全額返金保証があるため、万が一自分に合わないと感じた場合でもリスクを最小限に抑えられます。この保証制度は、入会を迷っている方にとって判断材料の一つとなっています。",
   },
 ];
 
@@ -59,14 +59,14 @@ const merits = [
 const demerits = [
   {
     title: "料金が高い（月額約16万円）",
-    desc: "RIZAPの料金は2ヶ月16回コースで327,800円（税込）に入会金55,000円が加わり、総額約38万円となります。パーソナルジム業界の中でもトップクラスの価格帯であり、月額に換算すると約16万円です。確実な結果を求める方には投資価値がありますが、費用面でのハードルは決して低くありません。",
+    desc: "RIZAPの料金は2ヶ月16回コースで327,800円（税込）に入会金55,000円が加わり、総額約38万円となります。パーソナルジム業界の中でもトップクラスの価格帯で、月額に換算すると約16万円です。結果を重視する方には検討の価値がありますが、費用面のハードルは低くありません。",
   },
   {
-    title: "食事制限が厳しすぎると感じる人も",
-    desc: "RIZAPの食事指導は糖質制限をベースとしており、特にプログラム初期は炭水化物の摂取量がかなり制限されます。効果は高い一方で、「食事が楽しくなくなった」「付き合いの食事が困る」といった声も一定数あります。食事制限への耐性は個人差が大きいため、事前にカウンセリングで詳しく確認することをおすすめします。",
+    title: "食事制限を厳しいと感じる方もいる",
+    desc: "RIZAPの食事指導は糖質制限をベースとしており、特にプログラム初期は炭水化物の摂取量が大きく制限されます。効果は高い一方で、「食事が楽しくなくなった」「付き合いの食事が困る」といった声も一定数あります。食事制限への耐性は個人差が大きいため、事前にカウンセリングで詳しく確認することをおすすめします。",
   },
   {
-    title: "リバウンドの報告あり",
+    title: "リバウンドの報告がある",
     desc: "プログラム終了後にリバウンドしたという報告は少なくありません。厳しい食事管理がトレーナーの管理下でなくなると、元の食生活に戻ってしまうケースがあります。RIZAPでは卒業後のサポートプログラムも用意されていますが、別途費用がかかります。長期的な体型維持のためには、自分自身で食事管理を続ける意識が必要です。",
   },
 ];
@@ -85,8 +85,8 @@ const reviewCategories = [
     summary: "トレーナーの質に関しては全体的に高い評価が集まっています。専属制のため信頼関係が築きやすく、モチベーション管理も含めた手厚いサポートが好評です。一方で、相性が合わない場合のトレーナー変更について不満を持つ利用者もいます。",
   },
   {
-    title: "料金・コスパ",
-    summary: "料金の高さはRIZAPに対する最も多い指摘です。ただし、結果が出ることを考慮すると「投資に見合う」と評価する利用者も多く、コスパの捉え方は分かれます。",
+    title: "料金・費用対効果",
+    summary: "料金の高さはRIZAPに対する最も多い指摘です。ただし、結果が出ることを考慮すると「投資に見合う」と評価する利用者も多く、費用対効果の捉え方は分かれます。",
   },
   {
     title: "結果・効果",
@@ -94,15 +94,15 @@ const reviewCategories = [
   },
   {
     title: "食事指導",
-    summary: "食事指導はRIZAPの中核をなすサービスで、毎食の報告とフィードバックが徹底しています。糖質制限の効果は高い一方で、ストレスを感じる利用者も少なくありません。",
+    summary: "食事指導はRIZAPの中核をなすサービスで、毎食の報告とフィードバックが徹底されています。糖質制限の効果は高い一方で、ストレスを感じる利用者も少なくありません。",
   },
   {
     title: "リバウンド",
-    summary: "リバウンドに関する口コミは一定数存在し、プログラム終了後の自己管理が課題となっています。卒業後のサポートプログラムを活用するかどうかで明暗が分かれる傾向です。",
+    summary: "リバウンドに関する口コミは一定数存在し、プログラム終了後の自己管理が課題となっています。卒業後のサポートプログラムを活用するかどうかで、結果が分かれる傾向です。",
   },
   {
     title: "施設・設備",
-    summary: "完全個室のプライベート空間は高く評価されており、清潔感も申し分ないとの声が大半です。ただし、設備のバリエーションはフィットネスジムに比べると限定的です。",
+    summary: "完全個室のプライベート空間は高く評価されており、清潔感についても好評な声が大半です。ただし、設備のバリエーションはフィットネスジムに比べると限定的です。",
   },
   {
     title: "モチベーション管理",
@@ -118,7 +118,7 @@ const reviewCategories = [
   },
   {
     title: "卒業後",
-    summary: "プログラム卒業後の過ごし方については、自己管理で成功している人と、リバウンドに悩む人に二極化しています。卒業後のサポートプログラムの活用が鍵です。",
+    summary: "プログラム卒業後の過ごし方については、自己管理で成功している人と、リバウンドに悩む人に二極化しています。卒業後のサポートプログラムの活用が重要です。",
   },
 ];
 
@@ -126,12 +126,12 @@ const reviewCategories = [
 const faqItems = [
   { q: "RIZAPの入会金はいくらですか？", a: "入会金は55,000円（税込）です。キャンペーン期間中は割引になることもあるため、公式サイトで最新情報をご確認ください。" },
   { q: "RIZAPは完全個室ですか？", a: "はい、すべてのトレーニングルームが完全個室です。他の利用者と顔を合わせることなく、プライベートな空間でトレーニングに集中できます。" },
-  { q: "30日間全額返金保証の条件は？", a: "公式の支払いガイドによると、入会時に契約したコースの初回利用日から30日間、理由を問わずコース料金が返金対象です。手続きは来店・書面のみ（電話・メール不可）で、利用すると再入会はできません。RIZAPで購入した物品は対象外で、入会金が対象かどうかは公式ページに明記がないため、カウンセリングで確認してください（2026年10月14日確認）。" },
+  { q: "30日間全額返金保証の条件を教えてください。", a: "公式の支払いガイドによると、入会時に契約したコースの初回利用日から30日間、理由を問わずコース料金が返金対象です。手続きは来店・書面のみ（電話・メール不可）で、利用すると再入会はできません。RIZAPで購入した物品は対象外で、入会金が対象かどうかは公式ページに明記がないため、カウンセリングでご確認ください（2026年10月14日確認）。" },
   { q: "1回のトレーニング時間はどのくらいですか？", a: "1回あたり50分のマンツーマントレーニングです。着替えやシャワーの時間は含まれていません。" },
-  { q: "食事制限はどのくらい厳しいですか？", a: "糖質制限をベースとした食事指導が行われます。プログラムのフェーズにより制限の度合いは変わりますが、特に初期は炭水化物の摂取量がかなり制限されます。" },
-  { q: "リバウンドしませんか？", a: "プログラム中に正しい食事管理の知識を身につけることで、卒業後もリバウンドを防ぐことができます。ただし、自己管理が難しい方にはボディマネジメントプログラム（別途有料）も用意されています。" },
+  { q: "食事制限はどのくらい厳しいですか？", a: "糖質制限をベースとした食事指導が行われます。プログラムのフェーズにより制限の度合いは変わりますが、特に初期は炭水化物の摂取量が大きく制限されます。" },
+  { q: "リバウンドの心配はありませんか？", a: "プログラム中に正しい食事管理の知識を身につけることで、卒業後もリバウンドを防ぐことができます。ただし、自己管理が難しい方にはボディマネジメントプログラム（別途有料）も用意されています。" },
   { q: "女性でも通いやすい環境ですか？", a: "利用者の約4割が女性とされています。完全個室のため周囲の目を気にせずトレーニングでき、女性専用のプログラムも用意されています。" },
-  { q: "無料体験やカウンセリングはありますか？", a: "無料カウンセリングが用意されています。体組成測定やカウンセリングを通じて、最適なプログラムを提案してもらえます。公式サイトから予約できます。" },
+  { q: "無料体験やカウンセリングはありますか？", a: "無料カウンセリングが用意されています。体組成測定やカウンセリングを通じて、目的に合ったプログラムの提案を受けられます。公式サイトから予約できます。" },
 ];
 
 const faqJsonLd = {
@@ -225,7 +225,7 @@ export default function RizapReview() {
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/rizap.jpg" alt="RIZAPの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">RIZAP 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">RIZAP 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="rizap" name="RIZAP" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -239,9 +239,9 @@ export default function RizapReview() {
             <li><a href="#s4" className="text-teal-600 hover:underline">RIZAPのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">RIZAPの料金</a></li>
             <li><a href="#s6" className="text-teal-600 hover:underline">RIZAPの口コミ分析</a></li>
-            <li><a href="#s7" className="text-teal-600 hover:underline">RIZAPの店舗一覧(都道府県別)</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">RIZAPの店舗一覧（都道府県別）</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">他のジムと比較</a></li>
-            <li><a href="#s9" className="text-teal-600 hover:underline">RIZAPの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">RIZAPの口コミの傾向（編集部による要約・2026年9月6日取得）</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">RIZAPのよくある質問</a></li>
             <li><a href="#s11" className="text-teal-600 hover:underline">RIZAPの店舗一覧</a></li>
             <li><a href="#s12" className="text-teal-600 hover:underline">RIZAPが気になった方へ</a></li>
@@ -264,7 +264,7 @@ export default function RizapReview() {
         </div>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          RIZAPは「結果にコミット」のキャッチフレーズで知られる、国内最大手のパーソナルトレーニングジムです。全国に店舗を展開しています。専属トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士による食事サポートの二本柱で、短期間での確実な体型変化を実現してきました。<span className="font-bold bg-yellow-100 px-0.5">30日間全額返金保証</span>も大きな特徴です。本記事では、RIZAPの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          RIZAPは「結果にコミット」のキャッチフレーズで知られる、国内最大手のパーソナルトレーニングジムです。全国に店舗を展開しています。専属トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士による食事サポートの二本柱で、短期間での体型変化を目指すプログラムを提供しています。<span className="font-bold bg-yellow-100 px-0.5">30日間全額返金保証</span>も大きな特徴です。本記事では、RIZAPの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -379,7 +379,7 @@ export default function RizapReview() {
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
             <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合ったプランをご提案します</p>
             <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -392,7 +392,7 @@ export default function RizapReview() {
           </p>
 
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて載せることはしない方針のため）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上の「Googleマップ実測データ」に掲載しています。</p>
+            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿内容を改変しない方針のためです）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上記のGoogleマップのデータ欄に掲載しています。</p>
             <p className="text-xs text-yellow-700 mt-1">
               出典: <a href="https://www.google.com/maps/search/RIZAP/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/RIZAP/</a>
             </p>
@@ -410,8 +410,8 @@ export default function RizapReview() {
 
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
-        <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">RIZAPの店舗一覧(都道府県別)</h2>
-        <p className="text-xs text-gray-500 mb-4">当サイトの実測データベースで実在確認できた店舗です。店舗名のリンクはRIZAP公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
+        <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">RIZAPの店舗一覧（都道府県別）</h2>
+        <p className="text-xs text-gray-500 mb-4">当サイトのデータベースで実在を確認できた店舗です。店舗名のリンクはRIZAP公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
         <div className="mb-12">
           <div className="mb-4">
             <h3 className="font-bold text-sm text-gray-800 mb-2">青森県</h3>
@@ -536,7 +536,7 @@ export default function RizapReview() {
         </div>
 
           <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">RIZAPと他の人気ジムを比較しました。</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">RIZAPと他の主要ジムを比較しています。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -565,7 +565,7 @@ export default function RizapReview() {
                 </tr>
                 <tr className="border-b border-gray-100">
                   <td className="px-3 py-2 font-medium text-gray-800">食事指導</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">徹底管理</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">厳格な管理</td>
                   <td className="px-3 py-2 text-center text-gray-700">糖質制限なし</td>
                   <td className="px-3 py-2 text-center text-gray-700">3食しっかり</td>
                   <td className="px-3 py-2 text-center text-gray-700">あり</td>
@@ -604,11 +604,11 @@ export default function RizapReview() {
 
         {/* 口コミの傾向(編集部要約) */}
         <section className="mb-12">
-          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの口コミの傾向（編集部による要約・2026年9月6日取得）</h2>
           <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
-            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「なぜその動きが必要か理由から説明してくれる」という指導の論理性、食事・生活習慣まで含めた包括サポート、当日の体調に合わせた重量調整など、マニュアルではない個別対応への評価が中心です。「自分に甘い性格だからこそ合っていた」という自己分析つきの声が多いのも特徴で、強制力を求めて入会する層に支持されています。</p>
-            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——全体に高評価が並ぶ一方、店舗の年季(内装の古さ)に触れる声や、ルームレンタル利用者の混在で口コミの文脈が分かれる点は読み方に注意が必要です。料金は業界最高値クラスなので、「強制力・包括サポートにいくら払うか」の費用対効果で判断するのがおすすめです。</p>
-            <p className="text-xs text-gray-400">※Googleマップの複数店舗(新宿・梅田・名古屋ほか)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・トレーナー・時期により異なります。</p>
+            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「なぜその動きが必要か理由から説明してくれる」という指導の論理性、食事・生活習慣まで含めた包括サポート、当日の体調に合わせた重量調整など、マニュアルではない個別対応への評価が中心です。「自分に甘い性格だからこそ合っていた」というご自身の性格を踏まえた声が多いのも特徴で、強制力を求めて入会する層に支持されています。</p>
+            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——全体に高評価が並ぶ一方、店舗の年季(内装の古さ)に触れる声や、ルームレンタル利用者の混在で口コミの文脈が分かれる点は読み方に注意が必要です。料金は業界最高値クラスのため、「強制力・包括サポートにどの程度の費用をかけるか」という費用対効果の観点で判断することをおすすめします。</p>
+            <p className="text-xs text-gray-400">※Googleマップの複数店舗（新宿・梅田・名古屋ほか）の直近の口コミをPlaces APIで取得し、編集部が読んだうえで傾向を要約したものです（本文の転載は行っていません）。個々の体験は店舗・トレーナー・時期により異なります。</p>
           </div>
         </section>
 
@@ -681,7 +681,7 @@ export default function RizapReview() {
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s12" className="text-xl font-bold mb-3">RIZAPが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">
-            まずは無料カウンセリングで、あなたに合ったプログラムを相談してみましょう。
+            まずは無料カウンセリングで、ご自身に合ったプログラムをご相談ください。
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">

@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "more fitの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "more fitの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "more fit（モアフィット）パーソナルジムの口コミ・評判を徹底解説。初心者歓迎の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "more fit（モアフィット）パーソナルジムの口コミ・評判をご紹介します。初心者歓迎の料金体系、メリット・デメリット、よくある質問について解説します。",
 };
 
 const basicInfo = [
@@ -22,26 +22,26 @@ const basicInfo = [
 const strengths = [
   {
     title: "初心者に寄り添った指導スタイル",
-    desc: "運動未経験や筋トレ初心者でも安心して始められるよう、フォームの基礎から丁寧に指導。トレーナーが一人ひとりのレベルに合わせてメニューを調整してくれます。",
+    desc: "運動未経験や筋トレ初心者でも安心して始められるよう、フォームの基礎から丁寧に指導します。トレーナーが一人ひとりのレベルに合わせてメニューを調整します。",
   },
   {
     title: "無理のない食事アドバイス",
-    desc: "極端な食事制限ではなく、日常生活に取り入れやすい食事改善を提案。ストレスなく続けられる食事管理で、リバウンドしにくい体づくりをサポートします。",
+    desc: "極端な食事制限ではなく、日常生活に取り入れやすい食事改善を提案しています。ストレスなく続けられる食事管理で、リバウンドしにくい体づくりをサポートします。",
   },
   {
     title: "通いやすい料金設定",
-    desc: "パーソナルジムとしてはリーズナブルな価格帯で、月額制プランも用意。初めてパーソナルジムに通う方でも始めやすい料金設計になっています。",
+    desc: "パーソナルジムとしてはリーズナブルな価格帯で、月額制プランも用意されています。初めてパーソナルジムに通う方でも始めやすい料金設計になっています。",
   },
 ];
 
 const merits = [
   {
     title: "初心者でも安心のサポート体制",
-    desc: "運動経験がなくても基礎から丁寧に教えてもらえるため、ジム通いが初めての方にも好評です。無理なく段階的にレベルアップできるプログラムが魅力です。",
+    desc: "運動経験がなくても基礎から丁寧な指導を受けられるため、ジム通いが初めての方にも好評です。無理なく段階的にレベルアップできるプログラムが魅力です。",
   },
   {
     title: "リーズナブルな料金設定",
-    desc: "他のパーソナルジムと比較して手頃な価格帯のため、コストパフォーマンスを重視する方に適しています。",
+    desc: "他のパーソナルジムと比較して手頃な価格帯のため、費用対効果を重視する方に適しています。",
   },
   {
     title: "食事指導がプランに含まれている",
@@ -52,7 +52,7 @@ const merits = [
 const demerits = [
   {
     title: "店舗数が少ない",
-    desc: "大手チェーンと比較すると店舗数が限られており、通える範囲に店舗がない場合があります。事前にアクセスを確認しましょう。",
+    desc: "大手チェーンと比較すると店舗数が限られており、通える範囲に店舗がない場合があります。事前に店舗の所在地をご確認ください。",
   },
   {
     title: "上級者には物足りない可能性",
@@ -74,8 +74,8 @@ const reviewSummary = "more fitの口コミでは「初心者でも分かりや�
 
 const faqItems = [
   { q: "more fitの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーン期間中は無料になることがあります。最新情報は公式サイトでご確認ください。" },
-  { q: "運動未経験でも大丈夫ですか？", a: "はい、初心者歓迎のジムです。運動経験がなくてもトレーナーが基礎から丁寧に指導してくれます。" },
-  { q: "食事制限は厳しいですか？", a: "極端な食事制限は行わず、日常に取り入れやすい食事改善を提案しています。無理のない範囲で指導してもらえます。" },
+  { q: "運動未経験でも大丈夫ですか？", a: "はい、初心者歓迎のジムです。運動経験がなくてもトレーナーが基礎から丁寧に指導します。" },
+  { q: "食事制限は厳しいですか？", a: "極端な食事制限は行わず、日常に取り入れやすい食事改善を提案しています。無理のない範囲で指導を受けられます。" },
   { q: "体験トレーニングはありますか？", a: "無料カウンセリングや体験トレーニングが用意されています。公式サイトから予約できます。" },
   { q: "退会に違約金はかかりますか？", a: "プランによって異なります。詳細は入会時に確認することをおすすめします。" },
   { q: "ウェアやタオルのレンタルはありますか？", a: "店舗によりレンタルサービスが異なります。手ぶらで通えるプランがある場合もあるため、公式サイトでご確認ください。" },
@@ -107,12 +107,12 @@ export default function MoreFitReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          more fitの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          more fitの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/more-fit.jpg" alt="more fitの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">more fit 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">more fit 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="more-fit" name="more fit" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -252,7 +252,7 @@ export default function MoreFitReview() {
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">more fitが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "Caratの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "Caratの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "Carat（カラット）パーソナルジムの口コミ・評判を徹底解説。都内中心のパーソナルトレーニングの料金体系、メリット・デメリットを網羅。",
+    "Carat（カラット）パーソナルジムの口コミ・評判を解説します。都内を中心に展開するパーソナルトレーニングの料金体系とメリット・デメリットをまとめています。",
 };
 
 const basicInfo = [
@@ -22,15 +22,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "都内好立地でアクセス良好",
-    desc: "東京都内の駅近に店舗を展開。通勤・通学の途中に立ち寄りやすい立地で、継続しやすい環境を提供しています。",
+    desc: "東京都内の駅近に店舗を展開しています。通勤・通学の途中に立ち寄りやすい立地で、継続しやすい環境を提供しています。",
   },
   {
     title: "完全オーダーメイドのトレーニング",
-    desc: "一人ひとりの体型・目標・運動経験に合わせた完全オーダーメイドのプログラムを設計。効率的にボディメイクを進められます。",
+    desc: "一人ひとりの体型・目標・運動経験に合わせた完全オーダーメイドのプログラムを設計します。効率的にボディメイクを進められます。",
   },
   {
     title: "質の高いトレーナー陣",
-    desc: "厳選されたトレーナーが在籍し、専門的な知識と経験に基づいた指導を提供。利用者のモチベーション維持にも配慮しています。",
+    desc: "厳選されたトレーナーが在籍し、専門的な知識と経験に基づいた指導を提供しています。利用者のモチベーション維持にも配慮しています。",
   },
 ];
 
@@ -60,7 +60,7 @@ const demerits = [
   },
   {
     title: "料金は標準的〜やや高め",
-    desc: "マンツーマン指導のため、セルフ型ジムと比較すると料金は高めです。ただし品質を考えると妥当な水準です。",
+    desc: "マンツーマン指導のため、セルフ型ジムと比較すると料金は高めです。ただし、指導内容を踏まえると妥当な水準と考えられます。",
   },
 ];
 
@@ -105,7 +105,7 @@ export default function CaratReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Carat" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Caratの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Caratの口コミ・評判｜料金・メリット・デメリットを解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/carat.jpg" alt="Caratの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -151,7 +151,7 @@ export default function CaratReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">Caratが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">無料カウンセリングにて、目的に合ったプランをご相談いただけます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

@@ -6,7 +6,7 @@ import ReviewSummary from "@/components/ReviewSummary";
 export const metadata: Metadata = {
   title: "chocoZAP 名古屋店の口コミ・評判",
   description:
-    "chocoZAP 名古屋店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "chocoZAP 名古屋店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -18,9 +18,9 @@ const basicInfo = [
 
 const faqItems = [
   { q: "chocoZAP名古屋店の料金はいくらですか？", a: "chocoZAP名古屋店の料金は、月額3,278円（税込）で全店舗通い放題です。入会金・事務手数料は各2,200円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "chocoZAP名古屋店の営業時間は？", a: "24時間営業です。最新情報は公式サイトでご確認ください。" },
+  { q: "chocoZAP名古屋店の営業時間を教えてください。", a: "24時間営業です。最新情報は公式サイトでご確認ください。" },
   { q: "chocoZAP名古屋店にはどんな設備がありますか？", a: "トレーニングマシン、セルフエステ、セルフ脱毛などの設備が利用できます。店舗により設備が異なる場合がありますので、アプリでご確認ください。" },
-  { q: "chocoZAP名古屋店のアクセスは？", a: "名古屋駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "chocoZAP名古屋店のアクセスを教えてください。", a: "名古屋駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -86,7 +86,7 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">chocoZAP名古屋店は、名古屋駅近くにある24時間営業のコンビニジムです。中部エリアで月額3,278円という手頃な価格で本格的なトレーニングマシンが使えると人気です。セルフエステ・セルフ脱毛も追加料金なしで利用可能。名古屋エリアで気軽にフィットネスを始めたい方におすすめです。</p>
+          <p className="text-gray-700 leading-relaxed">chocoZAP名古屋店は、名古屋駅近くにある24時間営業のコンビニジムです。中部エリアで月額3,278円という手頃な価格で本格的なトレーニングマシンが使えると人気です。セルフエステ・セルフ脱毛も追加料金なしで利用できます。名古屋エリアで気軽にフィットネスを始めたい方におすすめです。</p>
         </section>
 
         <section className="mb-10">

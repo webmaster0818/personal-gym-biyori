@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "PEACH GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "PEACH GYMの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "PEACH GYM（ピーチジム）の口コミ・評判を徹底解説。女性向け・お尻（ピーチ）特化トレーニングの料金体系、メリット・デメリットを網羅。",
+    "PEACH GYM（ピーチジム）の口コミ・評判をご紹介します。女性向け・お尻（ピーチ）特化トレーニングの料金体系、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -22,26 +22,26 @@ const basicInfo = [
 const strengths = [
   {
     title: "お尻（ヒップ）トレーニングに特化",
-    desc: "「ピーチ」の名の通り、桃のような丸みのある美尻づくりに特化したプログラムを提供。ヒップアップに必要な筋肉を的確に鍛えるメソッドが特徴です。",
+    desc: "「ピーチ」の名の通り、桃のような丸みのある美尻づくりに特化したプログラムを提供しています。ヒップアップに必要な筋肉を的確に鍛えるメソッドが特徴です。",
   },
   {
-    title: "女性の体を知り尽くしたプログラム",
-    desc: "女性特有の体の仕組みやホルモンバランスを考慮したプログラム設計。生理周期に合わせたトレーニング調整なども行っています。",
+    title: "女性の体の特性を考慮したプログラム",
+    desc: "女性特有の体の仕組みやホルモンバランスを考慮したプログラムを設計しています。生理周期に合わせたトレーニング調整なども行っています。",
   },
   {
     title: "下半身のラインを美しく整える",
-    desc: "ヒップだけでなく、太もも・ウエストとの比率を考慮した全体的な下半身のラインづくりを重視。脚長効果やくびれメイクにもつながるプログラムです。",
+    desc: "ヒップだけでなく、太もも・ウエストとの比率を考慮した全体的な下半身のラインづくりを重視しています。脚長効果やくびれメイクにもつながるプログラムです。",
   },
 ];
 
 const merits = [
   {
     title: "美尻に特化した専門知識",
-    desc: "ヒップアップに特化したノウハウを持つトレーナーが在籍。一般的なジムでは得られない専門的な指導が受けられます。",
+    desc: "ヒップアップに特化したノウハウを持つトレーナーが在籍しています。一般的なジムでは得られない専門的な指導が受けられます。",
   },
   {
     title: "女性が通いやすい環境",
-    desc: "女性のニーズを考慮した空間づくりやサービスが充実。更衣室やアメニティにもこだわりがあります。",
+    desc: "女性のニーズを考慮した空間づくりやサービスが充実しています。更衣室やアメニティにもこだわりがあります。",
   },
   {
     title: "見た目の変化を実感しやすい",
@@ -76,9 +76,9 @@ const faqItems = [
   { q: "PEACH GYMの入会金はいくらですか？", a: "入会金は20,000円〜40,000円程度です。キャンペーンで割引になることもあります。" },
   { q: "ヒップアップ以外のトレーニングもできますか？", a: "ヒップ特化ですが、ウエストや太ももなど下半身全体のトレーニングも含まれています。上半身メニューの追加も相談可能です。" },
   { q: "どのくらいで効果が出ますか？", a: "個人差はありますが、2〜3ヶ月で見た目の変化を実感される方が多いです。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、初心者向けのメニューも用意されています。マンツーマンで丁寧に指導してもらえます。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、初心者向けのメニューも用意されています。マンツーマンで丁寧な指導を受けられます。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
-  { q: "食事指導はありますか？", a: "プランにより食事アドバイスが含まれています。ヒップアップに効果的な栄養摂取もアドバイスしてもらえます。" },
+  { q: "食事指導はありますか？", a: "プランにより食事アドバイスが含まれています。ヒップアップに効果的な栄養摂取についてもアドバイスを受けられます。" },
 ];
 
 const faqJsonLd = {
@@ -105,11 +105,11 @@ export default function PeachGymReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "PEACH GYM" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">PEACH GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">PEACH GYMの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/peach-gym.jpg" alt="PEACH GYMの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">PEACH GYM 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">PEACH GYM 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="peach-gym" name="PEACH GYM" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -151,7 +151,7 @@ export default function PeachGymReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">PEACH GYMが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、美尻プログラムを体験してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、プログラムの内容をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

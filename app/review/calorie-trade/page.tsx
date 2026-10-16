@@ -9,7 +9,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "CALORIE TRADE JAPAN（カロリートレード）の口コミ・評判｜料金・店舗を検証",
   description:
-    "CALORIE TRADE JAPAN（カロリートレードジャパン）の口コミ・評判を徹底解説。ダイエット専門パーソナルジムの料金体系、メリット・デメリットまで網羅。",
+    "CALORIE TRADE JAPAN（カロリートレードジャパン）の口コミ・評判をご紹介します。ダイエット専門パーソナルジムの料金体系、メリット・デメリットを解説しています。",
 };
 
 const basicInfo = [
@@ -23,15 +23,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "ダイエットに完全特化したプログラム",
-    desc: "体重減量に特化した独自のダイエットメソッドを採用。カロリー管理を科学的に行い、無理なく確実に結果を出すプログラムが特徴です。",
+    desc: "体重減量に特化した独自のダイエットメソッドを採用しています。カロリー管理を科学的に行い、無理なく確実に結果を出すプログラムが特徴です。",
   },
   {
     title: "東海を中心に展開",
-    desc: "公式の店舗一覧は名古屋瑞穂区・一宮本町・名古屋緑区・松戸八柱・宜野湾の5店舗（トップページは「全国に10店舗」と表記）。愛知県が中心です。",
+    desc: "公式の店舗一覧は名古屋瑞穂区・一宮本町・名古屋緑区・松戸八柱・宜野湾の5店舗です（トップページは「全国に10店舗」と表記）。愛知県が中心です。",
   },
   {
     title: "月4回29,800円〜の始めやすい料金",
-    desc: "月4回29,800円（税込）〜とパーソナルジムとしてはリーズナブル。ダイエット専門ジムの中でもコスパの良い料金設定です。",
+    desc: "月4回29,800円（税込）〜と、パーソナルジムとしては手頃な料金です。ダイエット専門ジムの中でも費用対効果の高い料金設定です。",
   },
 ];
 
@@ -46,7 +46,7 @@ const merits = [
   },
   {
     title: "食事指導がしっかりしている",
-    desc: "カロリー計算に基づいた食事指導が受けられ、何をどのくらい食べればいいかが明確になります。",
+    desc: "カロリー計算に基づいた食事指導が受けられ、何をどのくらい食べればよいかが明確になります。",
   },
 ];
 
@@ -56,8 +56,8 @@ const demerits = [
     desc: "ダイエット（減量）特化のため、筋肉を大きくしたい方や美しい筋肉のラインを作りたい方には他のジムの方が適しています。",
   },
   {
-    title: "フランチャイズのため店舗により質にばらつき",
-    desc: "フランチャイズ展開のため、トレーナーの質や設備が店舗によって異なる場合があります。事前に体験で確認しましょう。",
+    title: "フランチャイズのため、店舗により質にばらつきがある",
+    desc: "フランチャイズ展開のため、トレーナーの質や設備が店舗によって異なる場合があります。事前に体験でご確認ください。",
   },
   {
     title: "知名度が大手に比べて低い",
@@ -75,11 +75,11 @@ const pricingPlans = [
   { name: "入会金", duration: "—", price: "50,000円", note: "" },
 ];
 
-const reviewSummary = "CALORIE TRADE JAPANの口コミでは「カロリー管理が分かりやすい」「低価格でダイエットできた」「全国に店舗があって助かる」という声が見られます。ダイエット目的に特化した分かりやすいアプローチが好評です。一方で「店舗によって差がある」「ボディメイクには物足りない」という意見も。減量目的の方に特におすすめです。";
+const reviewSummary = "CALORIE TRADE JAPANの口コミでは「カロリー管理が分かりやすい」「低価格でダイエットできた」「全国に店舗があって助かる」という声が見られます。ダイエット目的に特化した分かりやすいアプローチが好評です。一方で「店舗によって差がある」「ボディメイクには物足りない」という意見もあります。特に減量を目的とする方におすすめします。";
 
 const faqItems = [
   { q: "CALORIE TRADE JAPANの入会金はいくらですか？", a: "入会金は公式料金ページで50,000円と記載されています（店舗により異なる場合あり）。キャンペーンで割引になることがあります。" },
-  { q: "どのくらいで痩せられますか？", a: "個人差がありますが、2ヶ月で5〜10kgの減量に成功する方が多いです。目標に合わせたプランを提案してもらえます。" },
+  { q: "どのくらいで痩せられますか？", a: "個人差がありますが、2ヶ月で5〜10kgの減量に成功する方が多いです。目標に合わせたプランが提案されます。" },
   { q: "食事制限は厳しいですか？", a: "カロリー計算に基づいた食事管理を行いますが、過度な制限は行いません。バランスの良い食事を心がけます。" },
   { q: "女性でも通えますか？", a: "はい、男女ともに利用可能です。女性の会員も多く、女性トレーナーが在籍する店舗もあります。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。各店舗にお問い合わせください。" },
@@ -160,7 +160,7 @@ export default function CalorieTradeReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          CALORIE TRADE JAPAN（カロリートレードジャパン）はダイエットに特化したパーソナルジムです。カロリー管理に基づいた科学的なアプローチで確実な減量を目指します。月4回<span className="font-bold bg-yellow-100 px-0.5">29,800円</span>〜の低価格も魅力。本記事では、料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          CALORIE TRADE JAPAN（カロリートレードジャパン）はダイエットに特化したパーソナルジムです。カロリー管理に基づいた科学的なアプローチで確実な減量を目指します。月4回<span className="font-bold bg-yellow-100 px-0.5">29,800円</span>〜の低価格も特長です。本記事では、料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -247,8 +247,8 @@ export default function CalorieTradeReview() {
         {/* 中間CTA */}
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
-            <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="font-bold text-lg mb-2">無料カウンセリングのご案内</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合ったプランをご提案します</p>
             <a href="https://t.felmat.net/fmcl?ak=S9777P.1.F142081F.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -290,7 +290,7 @@ export default function CalorieTradeReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">CALORIE TRADE JAPANが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたのダイエット目標を相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ダイエットの目標をご相談ください。</p>
           <a href="https://t.felmat.net/fmcl?ak=S9777P.1.F142081F.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             CALORIE TRADE JAPANの無料カウンセリングに申し込む
           </a>

@@ -37,7 +37,7 @@ const footerLinks = [
     ],
   },
   {
-    title: `実測データベース(${SITE_SCALE.dbCities}都市)`,
+    title: `全店データベース(${SITE_SCALE.dbCities}都市)`,
     links: [
       { href: '/db/sapporo/', label: '札幌' },
       { href: '/db/sendai/', label: '仙台' },
@@ -46,7 +46,7 @@ const footerLinks = [
       { href: '/db/kobe/', label: '神戸' },
       { href: '/db/hiroshima/', label: '広島' },
       { href: '/db/stats/', label: '全国の統計データ' },
-      { href: '/db/', label: `全${SITE_SCALE.dbCities}都市のDB →` },
+      { href: '/db/', label: `全${SITE_SCALE.dbCities}都市のデータベース →` },
     ],
   },
   {
@@ -92,11 +92,11 @@ export default function Footer() {
 
         <div className="border-t border-gray-600 mt-10 pt-8 text-xs text-gray-500">
           <p className="text-center leading-relaxed">
-            パーソナルジムびより —— {SITE_SCALE.reviews}ブランドのレビュー、全国{SITE_SCALE.dbCities}都市{SITE_SCALE.dbStores}店のGoogleマップ実測データベース、
+            パーソナルジムびよりでは、{SITE_SCALE.reviews}ブランドのレビュー、全国{SITE_SCALE.dbCities}都市・{SITE_SCALE.dbStores}店のGoogleマップ掲載データにもとづく全店データベース、
             ジム個別ページ{SITE_SCALE.gymPages.toLocaleString('ja-JP')}件を掲載しています。
           </p>
           <p className="mt-2 text-center leading-relaxed">
-            掲載している評点・口コミ件数は取得時点のGoogleマップ表示値(取得日は各ページに明記)、料金は各ジム公式サイトの表示値です。最新の料金・キャンペーンは申込前に公式サイトでご確認ください。
+            掲載している評点・口コミ件数は取得時点のGoogleマップの表示値（取得日は各ページに記載しています）、料金は各ジム公式サイトの掲載値です。お申し込み前に、公式サイトにて最新の料金・キャンペーン情報をご確認ください。
           </p>
           <p className="mt-3 text-center">&copy; 2026 パーソナルジムびより All Rights Reserved.</p>
         </div>

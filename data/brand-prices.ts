@@ -53,7 +53,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "月会費3,800円（税込4,180円）／パーソナルは1時間2,980円（税込3,270円）が別途",
     kind: "月額制", lowest: 4180, entry: "6,000円（税込6,600円）",
     officialUrl: "https://hacogym.jp/hiroshimastation", area: "広島・福岡ほか（広島駅前店の掲載値）",
-    note: "月会費は個室ジムの利用料。パーソナル指導は都度追加料金。",
+    note: "月会費は個室ジムの利用料です。パーソナル指導は都度追加料金がかかります。",
   },
   {
     slug: "furdi", name: "FURDI（ファディー）",
@@ -66,7 +66,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "通常プラン 月6,980円（税込7,678円）〜",
     kind: "月額制", lowest: 7678, entry: "公式トップに記載なし",
     officialUrl: "https://www.fit24.jp/top.html", area: "全国（快活CLUBグループ）",
-    note: "公式に「店舗により月会費が異なります」と明記されている。",
+    note: "公式サイトに「店舗により月会費が異なります」と明記されています。",
   },
   {
     slug: "curves", name: "カーブス",
@@ -121,14 +121,14 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "スタンダードプラン 月2〜8回 月額18,200円〜／コミットプラン 月6回 79,200円（全国一律）",
     kind: "月額制", lowest: 18200, entry: "公式の料金ページに記載なし（初回体験0円）",
     officialUrl: "https://www.diet-undeux.jp/price/", area: "全国40店舗以上",
-    note: "2026年10月時点の公式料金ページは SUPERBODY と LIFE を分けておらず、上記の2プランのみ掲載。",
+    note: "2026年10月時点の公式料金ページは SUPERBODY と LIFE を分けておらず、上記の2プランのみ掲載されています。",
   },
   {
     slug: "undeux", name: "UNDEUX SUPERBODY",
     price: "スタンダードプラン 月2〜8回 月額18,200円〜／コミットプラン 月6回 79,200円（全国一律）",
     kind: "月額制", lowest: 18200, entry: "公式の料金ページに記載なし（初回体験0円）",
     officialUrl: "https://www.diet-undeux.jp/price/", area: "全国40店舗以上",
-    note: "UNDEUX SUPERBODY LIFE と同じ料金ページ。公式は現在この2プランのみ掲載している。",
+    note: "UNDEUX SUPERBODY LIFE と同じ料金ページです。公式サイトには現在この2プランのみ掲載されています。",
   },
   {
     slug: "lala-fit", name: "LALA FIT",
@@ -165,7 +165,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "月2回18,900円・月4回29,700円・月6回39,600円（1回50分）",
     kind: "月額制", lowest: 18900, entry: "35,000円",
     officialUrl: "https://chicken-gym.jp/price/", area: "全国",
-    note: "他サイトで見かける「月々6,800円〜」は分割払いの月額で、公式の月額プランとは別物。",
+    note: "他サイトに掲載されている「月々6,800円〜」は分割払い時の月額で、公式の月額プランとは異なります。",
   },
   {
     slug: "247workout", name: "24/7ワークアウト",
@@ -178,7 +178,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "月額 月4回32,000円・月6回45,000円・月8回56,000円／回数券5回45,000円・10回85,000円・15回120,000円（すべて税込・60分）",
     kind: "月額制", lowest: 32000, entry: "20,000円（税込）／体験当日入会で0円",
     officialUrl: "https://personal-gym-vase.com/", area: "藤沢・八王子・亀戸・恵比寿",
-    note: "月額制は最低契約期間3ヶ月。月額の有効期限は1ヶ月で繰越不可。",
+    note: "月額制の最低契約期間は3ヶ月です。月額の有効期限は1ヶ月で、繰り越しはできません。",
   },
   {
     slug: "katagiri", name: "かたぎり塾",
@@ -197,7 +197,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "30分コース 5回38,390円・8回61,600円・12回85,800円・16回110,000円・24回158,400円／60分コース 5回76,780円〜24回316,800円／ビジター30分7,700円・60分15,400円（すべて税込）",
     kind: "月額制", lowest: 38390, entry: "33,000円（税込・キャンペーン時無料）",
     officialUrl: "https://www.accept-gym.jp/", area: "銀座（東京）",
-    note: "回数券は無期限。",
+    note: "回数券に有効期限はありません。",
   },
   {
     slug: "element", name: "ELEMENT",
@@ -254,7 +254,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "シェイプアップ8回131,150円・美ボディメイク8回131,150円・短期ダイエット集中8回147,780円（すべて税込・1回50分）",
     kind: "コース制", lowest: 131150, entry: "29,800円（現在無料キャンペーン）",
     officialUrl: "https://ratgym.jp/service/", area: "新宿南口・名古屋栄ほか",
-    note: "公式に「一部コースは店舗により料金が異なる場合あり」の注記。",
+    note: "公式サイトに「一部コースは店舗により料金が異なる場合あり」との注記があります。",
   },
   {
     slug: "exe", name: "EXE（エグゼ）パーソナルジム",
@@ -273,7 +273,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "12回（2ヶ月）158,400円・16回211,200円・20回264,000円（税込）",
     kind: "コース制", lowest: 158400, entry: "通常50,000円（税抜）／キャンペーンで25,000円（税抜）",
     officialUrl: "https://www.last-style.com/lp/", area: "池袋東口・新宿（東京）",
-    note: "公式LPは金額を明示せず、店舗ページ側に記載。上記は新宿店・池袋本店の掲載値。",
+    note: "公式LPには金額の明示がなく、店舗ページに記載されています。上記は新宿店・池袋本店の掲載値です。",
   },
   {
     slug: "fis-ladys-dummy", name: "", price: "", kind: "未公表", lowest: null, entry: "", officialUrl: null, area: "",
@@ -319,14 +319,14 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "月4回17,000円〜（1回4,250円〜）",
     kind: "コース制", lowest: 17000, entry: "公式申込で無料（キャンペーン）",
     officialUrl: "https://www.outline-gym.com/", area: "東京・神奈川ほか",
-    note: "公式に「フランチャイズ店舗は料金・サービスが異なる場合がある」と明記。コース別の総額は公式トップに未掲載。",
+    note: "公式サイトに「フランチャイズ店舗は料金・サービスが異なる場合がある」と明記されています。コース別の総額は公式トップページに掲載されていません。",
   },
   {
     slug: "dr-training", name: "Dr.トレーニング",
     price: "スポットプラン 45分7,700円・60分9,900円・90分14,300円／ライフメイクプラン 月4回29,700〜39,600円・月8回56,800〜76,800円／ワークアウトプラン 16回113,600〜152,000円・24回163,200〜220,800円・32回211,200〜288,000円",
     kind: "コース制", lowest: 7700, entry: "35,600円（キャンペーンで0円）",
     officialUrl: "https://drtraining.jp/price/", area: "東京都内ほか（青山・麻布・六本木・広尾・銀座はプレミアム料金）",
-    note: "店舗区分（STANDARD／PREMIUM）で金額が変わるため、公式も幅で表示している。",
+    note: "店舗区分（STANDARD／PREMIUM）で金額が変わるため、公式サイトでも幅で表示されています。",
   },
   {
     slug: "rizap", name: "RIZAP",
@@ -345,7 +345,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "月額16,000円〜35,200円（コース・月間回数・店舗により変動）",
     kind: "月額制", lowest: 16000, entry: "19,800円",
     officialUrl: "https://exercisecoach.co.jp/program/", area: "全国",
-    note: "公式は回数別の個別価格を出しておらず、幅での表示にとどまる。",
+    note: "公式サイトでは回数別の個別価格が示されておらず、幅での表示となっています。",
   },
   {
     slug: "real-body", name: "リアルボディ",

@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "メルメイクの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "メルメイクの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "メルメイクの口コミ・評判を徹底解説。完全個室・ボディメイク特化の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "メルメイクの口コミ・評判をご紹介します。完全個室・ボディメイク特化の料金体系、メリット・デメリット、よくある質問について解説します。",
 };
 
 const basicInfo = [
@@ -26,11 +26,11 @@ const strengths = [
   },
   {
     title: "ボディメイク特化のプログラム",
-    desc: "単なるダイエットではなく、理想の体型を作ることに特化したプログラムを提供。筋肉のバランスや姿勢を考慮した科学的なアプローチでボディラインを整えます。",
+    desc: "単なるダイエットではなく、理想の体型を作ることに特化したプログラムを提供しています。筋肉のバランスや姿勢を考慮した科学的なアプローチでボディラインを整えます。",
   },
   {
     title: "食事指導でトータルサポート",
-    desc: "トレーニングだけでなく、日々の食事内容もしっかりサポート。無理な食事制限ではなく、ライフスタイルに合わせた食事プランを提案してくれます。",
+    desc: "トレーニングだけでなく、日々の食事内容もサポートします。無理な食事制限ではなく、ライフスタイルに合わせた食事プランを提案します。",
   },
 ];
 
@@ -52,11 +52,11 @@ const merits = [
 const demerits = [
   {
     title: "料金がやや高め",
-    desc: "完全個室・マンツーマン指導のため、セルフ型ジムと比較すると料金は高めの設定です。予算と目標を考慮して検討しましょう。",
+    desc: "完全個室・マンツーマン指導のため、セルフ型ジムと比較すると料金は高めの設定です。予算と目標を踏まえてご検討ください。",
   },
   {
     title: "店舗数が限定的",
-    desc: "大手チェーンほど店舗数が多くないため、通える範囲に店舗がない場合があります。事前にアクセスを確認しましょう。",
+    desc: "大手チェーンほど店舗数が多くないため、通える範囲に店舗がない場合があります。事前に店舗の所在地をご確認ください。",
   },
   {
     title: "短期間での劇的な変化は個人差あり",
@@ -75,10 +75,10 @@ const reviewSummary = "メルメイクの口コミでは「完全個室で安心
 const faqItems = [
   { q: "メルメイクの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引になることがあります。" },
   { q: "メルメイクは女性専用ですか？", a: "いいえ、男女ともに利用可能です。完全個室のため性別を問わず安心して通えます。" },
-  { q: "食事制限は厳しいですか？", a: "極端な食事制限は行いません。ライフスタイルに合わせた無理のない食事プランを提案してくれます。" },
+  { q: "食事制限は厳しいですか？", a: "極端な食事制限は行いません。ライフスタイルに合わせた無理のない食事プランを提案します。" },
   { q: "運動経験がなくても大丈夫ですか？", a: "はい、完全マンツーマン指導のため、運動初心者でも安心してトレーニングを始められます。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
-  { q: "退会に違約金はかかりますか？", a: "プランによって異なります。詳細は入会時に確認しましょう。" },
+  { q: "退会に違約金はかかりますか？", a: "プランによって異なります。詳細は入会時にご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -106,12 +106,12 @@ export default function MelmakeReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          メルメイクの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          メルメイクの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/melmake.jpg" alt="メルメイクの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">メルメイク 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">メルメイク 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="melmake" name="メルメイク" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -244,7 +244,7 @@ export default function MelmakeReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">メルメイクが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

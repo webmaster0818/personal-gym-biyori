@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "STUDIO KOMPASの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "STUDIO KOMPASの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "STUDIO KOMPAS（スタジオコンパス）の口コミ・評判を徹底解説。機能改善特化・姿勢矯正のパーソナルジムの料金、メリット・デメリットを網羅。",
+    "STUDIO KOMPAS（スタジオコンパス）の口コミ・評判をご紹介します。機能改善特化・姿勢矯正のパーソナルジムの料金、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -23,11 +23,11 @@ const basicInfo = [
 const strengths = [
   {
     title: "機能改善に特化した専門的アプローチ",
-    desc: "一般的なダイエットや筋肥大ではなく、身体の機能改善に特化。姿勢の歪み、慢性的な腰痛・肩こり、関節の可動域制限など、身体の不調を根本から改善するプログラムを提供しています。",
+    desc: "一般的なダイエットや筋肥大ではなく、身体の機能改善に特化しています。姿勢の歪み、慢性的な腰痛・肩こり、関節の可動域制限など、身体の不調を根本から改善するプログラムを提供しています。",
   },
   {
     title: "理学療法士などの有資格者が在籍",
-    desc: "理学療法士やアスレティックトレーナーなどの医療系資格を持つスタッフが在籍。医学的知識に基づいた安全かつ効果的な指導が受けられます。",
+    desc: "理学療法士やアスレティックトレーナーなどの医療系資格を持つスタッフが在籍しています。医学的知識に基づいた安全かつ効果的な指導が受けられます。",
   },
   {
     title: "姿勢矯正で見た目も改善",
@@ -56,12 +56,12 @@ const demerits = [
     desc: "機能改善に特化しているため、短期間で大幅な減量や筋肥大を目指す方には物足りない可能性があります。",
   },
   {
-    title: "効果を実感するまでに時間がかかることも",
+    title: "効果を実感するまでに時間がかかる場合がある",
     desc: "身体の根本的な改善を目指すため、即効性よりも継続的な改善を重視しています。効果を実感するまでに2〜3ヶ月程度かかる場合があります。",
   },
   {
     title: "店舗数が少ない",
-    desc: "専門性が高いため店舗数が限られています。通える範囲に店舗があるか事前に確認が必要です。",
+    desc: "専門性が高いため店舗数が限られています。通える範囲に店舗があるか、事前にご確認ください。",
   },
 ];
 
@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "集中改善プラン", duration: "60分/回・月12回", price: "月額80,000円〜", note: "短期集中改善" },
 ];
 
-const reviewSummary = "STUDIO KOMPASの口コミでは「長年の腰痛が改善した」「姿勢が良くなって見た目が変わった」と身体の変化を実感する声が多く見られます。理学療法士の専門的な指導に対する信頼感も高評価です。一方「ダイエット目的には向かない」「料金が高い」という声もあります。";
+const reviewSummary = "STUDIO KOMPASの口コミでは「長年の腰痛が改善した」「姿勢が良くなって見た目が変わった」と身体の変化を実感する声が多く見られます。理学療法士の専門的な指導に対する信頼感も高評価です。一方で「ダイエット目的には向かない」「料金が高い」という声もあります。";
 
 const faqItems = [
   { q: "STUDIO KOMPASは医療機関ですか？", a: "いいえ、医療機関ではありません。ただし理学療法士などの有資格者が在籍しており、医学的知識に基づいた指導を行っています。" },
@@ -79,7 +79,7 @@ const faqItems = [
   { q: "ダイエット目的でも利用できますか？", a: "はい、姿勢改善や機能改善を通じて基礎代謝を向上させるアプローチでダイエットにも対応しています。" },
   { q: "どのくらいで効果を実感できますか？", a: "個人差がありますが、多くの方が2〜3ヶ月程度で身体の変化を実感されています。" },
   { q: "無料体験はありますか？", a: "初回カウンセリング・体験セッションが用意されています。公式サイトから予約できます。" },
-  { q: "高齢者でも利用できますか？", a: "はい、年齢に関係なく利用可能です。身体の状態に合わせた安全なプログラムを提案してもらえます。" },
+  { q: "高齢者でも利用できますか？", a: "はい、年齢に関係なく利用可能です。身体の状態に合わせた安全なプログラムの提案を受けられます。" },
 ];
 
 const faqJsonLd = {
@@ -106,7 +106,7 @@ export default function StudioKompasReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "STUDIO KOMPAS" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">STUDIO KOMPASの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">STUDIO KOMPASの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="studio-kompas" name="STUDIO KOMPAS" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -128,7 +128,7 @@ export default function StudioKompasReview() {
         <ReviewSummary gymName="STUDIO KOMPAS" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          STUDIO KOMPAS（スタジオコンパス）は機能改善・姿勢矯正に特化したパーソナルジムです。理学療法士などの専門家が、身体の不調を根本から改善するプログラムを提供。本記事では、STUDIO KOMPASの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          STUDIO KOMPAS（スタジオコンパス）は機能改善・姿勢矯正に特化したパーソナルジムです。理学療法士などの専門家が、身体の不調を根本から改善するプログラムを提供しています。本記事では、STUDIO KOMPASの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -183,7 +183,7 @@ export default function StudioKompasReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">STUDIO KOMPASが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは初回カウンセリングで、あなたの身体の状態をチェックしてみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは初回カウンセリングで、ご自身の身体の状態をご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

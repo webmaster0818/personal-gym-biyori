@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "UNDEUX SUPERBODY 難波店の口コミ・評判",
   description:
-    "UNDEUX SUPERBODY 難波店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "UNDEUX SUPERBODY 難波店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -19,9 +19,9 @@ const basicInfo = [
 
 const faqItems = [
   { q: "UNDEUX SUPERBODY難波店の料金はいくらですか？", a: "UNDEUX SUPERBODY難波店の料金は、2ヶ月集中コースで215,600円（税込）〜が目安です。入会金は33,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY難波店の営業時間は？", a: "8:00〜22:00です。最新情報は公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY難波店の営業時間を教えてください。", a: "8:00〜22:00です。最新情報は公式サイトでご確認ください。" },
   { q: "UNDEUX SUPERBODY難波店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。" },
-  { q: "UNDEUX SUPERBODY難波店のアクセスは？", a: "なんば駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY難波店のアクセスを教えてください。", a: "なんば駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -88,7 +88,7 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY難波店は、なんば駅近くにある女性専用パーソナルジムです。関西エリアで本格的な女性向けボディメイクができると人気の店舗です。宅配食サービスと連携した食事管理と、女性の体に特化したトレーニングプログラムが好評。おしゃれな空間で楽しみながらトレーニングを続けられます。</p>
+          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY難波店は、なんば駅近くにある女性専用パーソナルジムです。関西エリアで本格的な女性向けボディメイクができると人気の店舗です。宅配食サービスと連携した食事管理と、女性の体に特化したトレーニングプログラムが好評です。おしゃれな空間で楽しみながらトレーニングを続けられます。</p>
         </section>
 
         <section className="mb-10">

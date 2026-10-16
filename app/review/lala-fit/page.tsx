@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "LALA FITの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "LALA FITの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "LALA FIT（ララフィット）の口コミ・評判を徹底解説。女性向け・低価格パーソナルジムの料金体系、メリット・デメリットを網羅。",
+    "LALA FIT（ララフィット）の口コミ・評判を解説します。女性向け・低価格パーソナルジムの料金体系とメリット・デメリットをまとめています。",
 };
 
 const basicInfo = [
@@ -21,23 +21,23 @@ const basicInfo = [
 
 const strengths = [
   {
-    title: "業界最安級の低価格パーソナルトレーニング",
-    desc: "月額15,000円〜という業界でもトップクラスの低価格で、パーソナルトレーニングを提供。費用面でパーソナルジムを諦めていた方にも手が届く価格設定です。",
+    title: "低価格なパーソナルトレーニング",
+    desc: "月額15,000円〜という低価格で、パーソナルトレーニングを提供しています。費用面でパーソナルジムを諦めていた方にも手が届く価格設定です。",
   },
   {
     title: "女性の悩みに寄り添ったプログラム",
-    desc: "ダイエット、産後ケア、むくみ解消など女性に多い悩みに特化したプログラムを提供。女性スタッフが在籍しており、気軽に相談できる環境です。",
+    desc: "ダイエット、産後ケア、むくみ解消など女性に多い悩みに特化したプログラムを提供しています。女性スタッフが在籍しており、気軽に相談できる環境です。",
   },
   {
-    title: "短時間集中型で忙しい方にも最適",
+    title: "忙しい方にも適した短時間集中型",
     desc: "1回30〜40分の短時間集中プログラムのため、仕事や育児で忙しい方でも無理なく通えます。短時間でも効果的なトレーニングメニューが組まれています。",
   },
 ];
 
 const merits = [
   {
-    title: "パーソナルジム最安級の料金",
-    desc: "月額15,000円〜という低価格で本格的なパーソナル指導が受けられます。一般的なフィットネスジムに少しプラスする感覚で、マンツーマン指導が受けられるのは大きな魅力です。",
+    title: "パーソナルジムとして低価格な料金",
+    desc: "月額15,000円〜という低価格で本格的なパーソナル指導が受けられます。一般的なフィットネスジムに少しプラスする感覚で、マンツーマン指導を受けられる点は大きな利点です。",
   },
   {
     title: "短時間で効率的なトレーニング",
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "集中プラン", duration: "40分/回・月12回", price: "月額38,000円〜", note: "しっかり結果を出したい方" },
 ];
 
-const reviewSummary = "LALA FITの口コミでは「この価格でパーソナル指導が受けられるのはすごい」「短時間で効率的」と好評です。女性利用者から「通いやすい雰囲気」「気軽にダイエット相談できる」という声が多数。一方で「もう少し長い時間トレーニングしたい」「設備がコンパクト」という意見もあります。";
+const reviewSummary = "LALA FITの口コミでは「この価格でパーソナル指導が受けられる」「短時間で効率的」と好評です。女性利用者から「通いやすい雰囲気」「気軽にダイエット相談できる」という声が多く見られます。一方で「もう少し長い時間トレーニングしたい」「設備がコンパクト」という意見もあります。";
 
 const faqItems = [
   { q: "LALA FITの入会金はいくらですか？", a: "入会金は10,000円〜20,000円程度です。キャンペーンで無料になることもあります。最新情報は公式サイトでご確認ください。" },
@@ -78,7 +78,7 @@ const faqItems = [
   { q: "30分で効果はありますか？", a: "はい、ポイントを絞った効率的なプログラムのため、30分でも十分な運動効果が期待できます。" },
   { q: "食事指導は受けられますか？", a: "プランに応じて食事アドバイスが含まれます。詳細はカウンセリング時にご確認ください。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
-  { q: "産後でも通えますか？", a: "はい、産後ダイエットに対応したプログラムがあります。産後の回復状況に合わせてメニューを調整してもらえます。" },
+  { q: "産後でも通えますか？", a: "はい、産後ダイエットに対応したプログラムがあります。産後の回復状況に合わせてメニューが調整されます。" },
 ];
 
 const faqJsonLd = {
@@ -105,7 +105,7 @@ export default function LalaFitReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "LALA FIT" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">LALA FITの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">LALA FITの口コミ・評判｜料金・メリット・デメリットを解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/lala-fit.jpg" alt="LALA FITの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -131,7 +131,7 @@ export default function LalaFitReview() {
         <ReviewSummary gymName="LALA FIT" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          LALA FIT（ララフィット）は女性向け・低価格を特徴とするパーソナルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">15,000円</span>〜という手頃な価格で、短時間集中型のトレーニングプログラムを提供。本記事では、LALA FITの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          LALA FIT（ララフィット）は女性向け・低価格を特徴とするパーソナルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">15,000円</span>〜という手頃な価格で、短時間集中型のトレーニングプログラムを提供しています。本記事では、LALA FITの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -186,7 +186,7 @@ export default function LalaFitReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">LALA FITが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">無料カウンセリングにて、目的に合ったプランをご相談いただけます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

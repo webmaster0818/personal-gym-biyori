@@ -10,7 +10,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "VASE（ベイス）パーソナルジムの口コミ・評判｜料金・店舗を検証",
   description:
-    "VASE（ベイス）パーソナルトレーニングジムの口コミ・評判を徹底解説。料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "VASE（ベイス）パーソナルトレーニングジムの口コミ・評判をご紹介します。料金体系、メリット・デメリット、よくある質問について解説します。",
 };
 
 const basicInfo = [
@@ -24,15 +24,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "一人ひとりに合わせたオーダーメイドトレーニング",
-    desc: "VASEではカウンセリングで目標や体質を丁寧にヒアリングし、完全オーダーメイドのトレーニングプログラムを作成。ダイエット、筋力アップ、姿勢改善など幅広いニーズに対応しています。",
+    desc: "VASEではカウンセリングで目標や体質を丁寧にヒアリングし、完全オーダーメイドのトレーニングプログラムを作成しています。ダイエット、筋力アップ、姿勢改善など幅広いニーズに対応しています。",
   },
   {
     title: "初心者にも安心の丁寧な指導",
-    desc: "トレーニング経験のない方でも安心して始められるよう、フォームの基礎から丁寧に指導。一つひとつの動作を確認しながら進めるため、正しいフォームが自然と身につきます。",
+    desc: "トレーニング経験のない方でも安心して始められるよう、フォームの基礎から丁寧に指導します。一つひとつの動作を確認しながら進めるため、正しいフォームが自然と身につきます。",
   },
   {
     title: "食事管理サポートで効果を最大化",
-    desc: "トレーニングだけでなく、日々の食事内容についてもアドバイス。栄養バランスを考えた食事プランの提案で、トレーニング効果を最大限に引き出します。",
+    desc: "トレーニングだけでなく、日々の食事内容についてもアドバイスします。栄養バランスを考えた食事プランの提案で、トレーニング効果を最大限に引き出します。",
   },
 ];
 
@@ -54,14 +54,14 @@ const merits = [
 const demerits = [
   {
     title: "大手と比較して知名度が低い",
-    desc: "RIZAPやBEYONDなど大手パーソナルジムと比較すると知名度は低め。口コミや情報を自分で調べる必要があります。",
+    desc: "RIZAPやBEYONDなど大手パーソナルジムと比較すると知名度は高くありません。口コミや情報をご自身で確認する必要があります。",
   },
   {
     title: "店舗数が限られている",
-    desc: "展開エリアが限定的なため、通える範囲に店舗がない場合があります。事前にアクセスを確認しておきましょう。",
+    desc: "展開エリアが限定的なため、通える範囲に店舗がない場合があります。事前に店舗の所在地をご確認ください。",
   },
   {
-    title: "人気トレーナーの予約が取りにくいことも",
+    title: "人気トレーナーの予約が取りにくい場合がある",
     desc: "指名制の場合、人気のトレーナーは予約が集中しやすく、希望の時間帯が取れないことがあります。",
   },
 ];
@@ -250,7 +250,7 @@ export default function VaseReview() {
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
             <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合ったプランをご提案します</p>
             <a href="https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -295,7 +295,7 @@ export default function VaseReview() {
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">VASEが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <a href="https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             VASEの無料カウンセリングに申し込む
           </a>

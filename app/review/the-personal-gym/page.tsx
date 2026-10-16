@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "THE PERSONAL GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "THE PERSONAL GYMの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "THE PERSONAL GYM（ザ パーソナルジム）の口コミ・評判を徹底解説。ダイエット×ボディメイク特化の料金体系、メリット・デメリットまで網羅。",
+    "THE PERSONAL GYM（ザ パーソナルジム）の口コミ・評判をご紹介します。ダイエット×ボディメイク特化の料金体系、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -22,22 +22,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "ダイエットとボディメイクに特化",
-    desc: "体重減量だけでなく、理想的なボディラインを作ることにこだわったプログラム設計。見た目の変化を重視したトレーニングメニューで、効率的にボディメイクを進められます。",
+    desc: "体重減量だけでなく、理想的なボディラインを作ることにこだわったプログラムを設計しています。見た目の変化を重視したトレーニングメニューで、効率的にボディメイクを進められます。",
   },
   {
     title: "月額26,400円〜の通いやすい価格",
-    desc: "パーソナルジムとしては低価格帯の月額26,400円〜。長期的に無理なく通い続けられる料金設定で、ダイエットの成功率を高めます。",
+    desc: "パーソナルジムとしては低価格帯の月額26,400円〜です。長期的に無理なく通い続けられる料金設定で、ダイエットの成功率を高めます。",
   },
   {
     title: "経験豊富なトレーナー陣",
-    desc: "ボディメイク大会の入賞経験があるトレーナーや、有資格者が多数在籍。確かな知識と経験に基づいた指導が受けられます。",
+    desc: "ボディメイク大会の入賞経験があるトレーナーや、有資格者が多数在籍しています。確かな知識と経験に基づいた指導が受けられます。",
   },
 ];
 
 const merits = [
   {
     title: "低価格で本格的なパーソナルトレーニング",
-    desc: "月額2万円台から始められるため、パーソナルジム初心者でも金銭的なハードルが低く、気軽にスタートできます。",
+    desc: "月額2万円台から始められるため、パーソナルジム初心者でも金銭的な負担を抑えて始められます。",
   },
   {
     title: "ボディメイクのプロから直接指導",
@@ -51,8 +51,8 @@ const merits = [
 
 const demerits = [
   {
-    title: "店舗数がまだ少ない",
-    desc: "都内中心の展開でまだ店舗数が限られているため、アクセスできない地域があります。",
+    title: "店舗数が少ない",
+    desc: "都内中心の展開で店舗数が限られているため、アクセスできない地域があります。",
   },
   {
     title: "知名度が大手に比べて低い",
@@ -60,7 +60,7 @@ const demerits = [
   },
   {
     title: "短時間セッションが中心",
-    desc: "プランによっては1回のセッション時間が短めのため、じっくりトレーニングしたい方は確認が必要です。",
+    desc: "プランによっては1回のセッション時間が短めのため、時間をかけてトレーニングしたい方は、事前にご確認ください。",
   },
 ];
 
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "短期集中コース（16回）", duration: "50分/回", price: "総額176,000円〜", note: "2ヶ月・食事指導付き" },
 ];
 
-const reviewSummary = "THE PERSONAL GYMの口コミでは「低価格なのにトレーナーの質が高い」「ボディメイクの結果が出た」という声が見られます。コスパの良さとトレーナーの専門性が評価されています。一方で「店舗が少なくて通いにくい」「もう少しセッション時間が長いと嬉しい」という意見も。コスパ重視でボディメイクしたい方におすすめです。";
+const reviewSummary = "THE PERSONAL GYMの口コミでは「低価格なのにトレーナーの質が高い」「ボディメイクの結果が出た」という声が見られます。費用対効果の高さとトレーナーの専門性が評価されています。一方で「店舗が少なくて通いにくい」「もう少しセッション時間が長いと嬉しい」という意見もあります。費用を抑えてボディメイクをしたい方に適しています。";
 
 const faqItems = [
   { q: "THE PERSONAL GYMの入会金はいくらですか？", a: "入会金は22,000円です。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -106,7 +106,7 @@ export default function ThePersonalGymReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          THE PERSONAL GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          THE PERSONAL GYMの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="the-personal-gym" name="THE PERSONAL GYM" variant="top" />
@@ -240,7 +240,7 @@ export default function ThePersonalGymReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">THE PERSONAL GYMが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったボディメイクプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったボディメイクプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

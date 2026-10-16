@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "LEADINGの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "LEADINGの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "LEADING（リーディング）パーソナルジムの口コミ・評判を徹底解説。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "LEADING（リーディング）パーソナルジムの口コミ・評判を解説します。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問をまとめています。",
 };
 
 const basicInfo = [
@@ -22,22 +22,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "結果にこだわった指導方針",
-    desc: "「結果を出す」ことに徹底的にこだわった指導方針。トレーニングだけでなく、食事・生活習慣・メンタルケアまでトータルでアプローチし、確実な成果を目指します。",
+    desc: "「結果を出す」ことを重視した指導方針です。トレーニングだけでなく、食事・生活習慣・メンタルケアまでトータルでアプローチし、確実な成果を目指します。",
   },
   {
-    title: "モチベーション管理の徹底",
-    desc: "トレーニングの継続には モチベーション維持が不可欠。LEADINGでは定期的なカウンセリングやフィードバックで、途中で挫折しないためのメンタルサポートも充実しています。",
+    title: "モチベーション管理への注力",
+    desc: "トレーニングの継続には、モチベーションの維持が欠かせません。LEADINGでは定期的なカウンセリングやフィードバックで、途中で挫折しないためのメンタルサポートも充実しています。",
   },
   {
     title: "科学的なアプローチで効率的に",
-    desc: "最新のトレーニング理論と栄養学に基づいたプログラム設計。感覚的な指導ではなく、科学的根拠のあるメソッドで効率的に結果を出します。",
+    desc: "最新のトレーニング理論と栄養学に基づいてプログラムを設計しています。感覚的な指導ではなく、科学的根拠のあるメソッドで効率的に結果を出します。",
   },
 ];
 
 const merits = [
   {
-    title: "確実に結果を出したい人に最適",
-    desc: "結果重視の方針のため、「今度こそ変わりたい」という強い意志を持った方に特に適しています。トレーナーが目標達成まで伴走してくれます。",
+    title: "結果を重視する方に適した指導方針",
+    desc: "結果重視の方針のため、「今度こそ変わりたい」という強い意志を持った方に特に適しています。トレーナーが目標達成まで継続して支援します。",
   },
   {
     title: "食事管理が充実",
@@ -60,7 +60,7 @@ const demerits = [
   },
   {
     title: "料金は標準〜やや高め",
-    desc: "充実したサポート体制の分、料金は安くはありません。予算と目標のバランスを考慮しましょう。",
+    desc: "充実したサポート体制の分、料金は安くはありません。予算と目標のバランスを踏まえてご検討ください。",
   },
 ];
 
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "集中コース（2ヶ月）", duration: "60分/回", price: "総額150,000円〜", note: "16回・結果重視" },
 ];
 
-const reviewSummary = "LEADINGの口コミでは「本気で変わりたい人におすすめ」「トレーナーの熱意がすごい」「食事管理のおかげで結果が出た」という声が見られます。一方で「結果重視なので少しストイック」「店舗が近くにない」といった指摘もあります。";
+const reviewSummary = "LEADINGの口コミでは「本気で変わりたい人におすすめ」「トレーナーの熱意が感じられる」「食事管理のおかげで結果が出た」という声が見られます。一方で「結果重視のため少しストイック」「店舗が近くにない」といった指摘もあります。";
 
 const faqItems = [
   { q: "LEADINGの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーンで割引になることがあります。" },
@@ -105,7 +105,7 @@ export default function LeadingReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "LEADING" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">LEADINGの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">LEADINGの口コミ・評判｜料金・メリット・デメリットを解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/leading.jpg" alt="LEADINGの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -151,7 +151,7 @@ export default function LeadingReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">LEADINGが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたの目標を相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">無料カウンセリングにて、目標をご相談いただけます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

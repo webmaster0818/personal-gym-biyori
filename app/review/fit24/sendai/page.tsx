@@ -9,7 +9,7 @@ import StoreJsonLd from "@/components/StoreJsonLd";
 export const metadata: Metadata = {
   title: "FIT24 仙台店の口コミ・評判｜料金・月額・営業時間を解説【2026年】",
   description:
-    "FIT24 仙台店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "FIT24 仙台店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -95,7 +95,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FIT24仙台店は仙台駅から徒歩5分の24時間営業フィットネスジムです。東北エリアで月額3,980円〜という低価格で充実したマシン設備が利用できます。セルフ型で24時間営業なので、自分のライフスタイルに合わせて通える利便性が口コミで評価されています。
+            FIT24仙台店は仙台駅から徒歩5分の24時間営業フィットネスジムです。東北エリアで月額3,980円〜という低価格で充実したマシン設備が利用できます。セルフ型で24時間営業のため、自分のライフスタイルに合わせて通える利便性が口コミで評価されています。
           </p>
         </section>
 

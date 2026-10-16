@@ -9,7 +9,7 @@ import StoreJsonLd from "@/components/StoreJsonLd";
 export const metadata: Metadata = {
   title: "chocoZAP 大宮店の口コミ・評判",
   description:
-    "chocoZAP 大宮店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "chocoZAP 大宮店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -21,9 +21,9 @@ const basicInfo = [
 
 const faqItems = [
   { q: "chocoZAP大宮店の料金はいくらですか？", a: "chocoZAP大宮店の料金は、月額3,278円（税込）で全店舗通い放題です。入会金・事務手数料は各2,200円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "chocoZAP大宮店の営業時間は？", a: "24時間営業です。最新情報は公式サイトでご確認ください。" },
+  { q: "chocoZAP大宮店の営業時間を教えてください。", a: "24時間営業です。最新情報は公式サイトでご確認ください。" },
   { q: "chocoZAP大宮店にはどんな設備がありますか？", a: "トレーニングマシン、セルフエステ、セルフ脱毛などの設備が利用できます。店舗により設備が異なる場合がありますので、アプリでご確認ください。" },
-  { q: "chocoZAP大宮店のアクセスは？", a: "大宮駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "chocoZAP大宮店のアクセスを教えてください。", a: "大宮駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -90,7 +90,7 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">chocoZAP大宮店は、大宮駅近くにある24時間営業のコンビニジムです。RIZAP監修のトレーニングプログラムを月額3,278円で利用できるコスパの良さが魅力です。着替え不要で5分だけでも利用OK。埼玉エリアで手軽にフィットネスを始めたい方に人気の店舗です。</p>
+          <p className="text-gray-700 leading-relaxed">chocoZAP大宮店は、大宮駅近くにある24時間営業のコンビニジムです。RIZAP監修のトレーニングプログラムを月額3,278円で利用できる費用対効果の高さが魅力です。着替えは不要で、5分程度の短時間でも利用できます。埼玉エリアで手軽にフィットネスを始めたい方に人気の店舗です。</p>
         </section>
 
         

@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "ASmakeの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "ASmakeの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "ASmake（アズメイク）パーソナルジムの口コミ・評判を徹底解説。姿勢改善×ボディメイクの料金体系、メリット・デメリットを網羅。",
+    "ASmake（アズメイク）パーソナルジムの口コミ・評判をご紹介します。姿勢改善とボディメイクを組み合わせたジムの料金体系、メリット・デメリットを解説しています。",
 };
 
 const basicInfo = [
@@ -22,22 +22,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "姿勢改善とボディメイクの同時実現",
-    desc: "体の歪みや姿勢の問題を根本から改善しながらボディメイクを行う独自のアプローチ。見た目の変化だけでなく、体の不調改善にもつながります。",
+    desc: "体の歪みや姿勢の問題を根本から改善しながらボディメイクを行う独自のアプローチです。見た目の変化だけでなく、体の不調改善にもつながります。",
   },
   {
     title: "根本原因にアプローチする指導法",
-    desc: "太りやすい原因や体の不調の根本を分析し、そこにアプローチするプログラムを設計。一時的な変化ではなく、長期的な体質改善を目指します。",
+    desc: "太りやすい原因や体の不調の根本を分析し、そこにアプローチするプログラムを設計しています。一時的な変化ではなく、長期的な体質改善を目指します。",
   },
   {
     title: "食事指導で体の内側から変える",
-    desc: "栄養学に基づいた食事指導で、体の内側からも変化を促します。無理な食事制限ではなく、体質に合った食事法を提案してくれます。",
+    desc: "栄養学に基づいた食事指導で、体の内側からも変化を促します。無理な食事制限ではなく、体質に合った食事法を提案しています。",
   },
 ];
 
 const merits = [
   {
     title: "姿勢が整うことで見た目が大きく変わる",
-    desc: "姿勢改善により、体重が変わらなくてもスタイルが良く見えるようになります。猫背や反り腰など姿勢の悩みも同時に解決できます。",
+    desc: "姿勢改善により、体重が変わらなくてもスタイルが良く見えるようになります。猫背や反り腰など姿勢の悩みにも同時に対応できます。",
   },
   {
     title: "体の不調改善にも効果的",
@@ -59,8 +59,8 @@ const demerits = [
     desc: "特化型ジムのため店舗数が少なく、通える範囲に店舗がない場合があります。",
   },
   {
-    title: "ハードなトレーニングが少ない場合も",
-    desc: "姿勢改善を重視するため、ガッツリ追い込むトレーニングを求める方には物足りない場合があります。",
+    title: "ハードなトレーニングが少ない場合がある",
+    desc: "姿勢改善を重視するため、強度の高いトレーニングを求める方には物足りない場合があります。",
   },
 ];
 
@@ -76,7 +76,7 @@ const faqItems = [
   { q: "ASmakeの入会金はいくらですか？", a: "入会金は30,000円程度です。キャンペーンで割引になることがあります。" },
   { q: "姿勢改善だけでも通えますか？", a: "はい、ダイエット目的でなくても姿勢改善や体の不調改善を目的として通うことができます。" },
   { q: "どのくらいで効果を実感できますか？", a: "姿勢の変化は1〜2ヶ月程度、体型の変化は3ヶ月程度で実感される方が多いです。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、姿勢改善から始めるため、運動が苦手な方でも安心して取り組めます。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、姿勢改善から始めるため、運動が苦手な方も取り組みやすい内容です。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
   { q: "オンライン指導はありますか？", a: "店舗によりオンライン対応している場合があります。詳細は各店舗にお問い合わせください。" },
 ];
@@ -105,7 +105,7 @@ export default function AsmakeReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "ASmake" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">ASmakeの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">ASmakeの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/asmake.jpg" alt="ASmakeの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -151,7 +151,7 @@ export default function AsmakeReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">ASmakeが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、姿勢チェックを受けてみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、姿勢チェックをお受けください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

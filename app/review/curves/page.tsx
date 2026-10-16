@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "カーブスは痩せる？口コミ・評判・料金まとめ｜女性専用30分",
+  title: "カーブスは痩せるのか｜口コミ・評判・料金のまとめ｜女性専用30分",
   description:
-    "カーブスは痩せる？という疑問に口コミ・評判から回答。痩せた人/痩せない人の傾向、料金の考え方、メリット・デメリットを整理。女性専用30分・予約不要・全国2,000店舗以上の特徴も解説します。",
+    "カーブスで痩せられるかという疑問に、口コミ・評判をもとにお答えします。痩せた人・痩せない人の傾向、料金の確認方法、メリット・デメリットを整理し、女性専用30分・予約不要・全国2,000店舗以上の特徴も解説します。",
 };
 
 const basicInfo = [
@@ -22,23 +22,23 @@ const basicInfo = [
 
 const strengths = [
   {
-    title: "全国2,000店舗以上の圧倒的なアクセス性",
-    desc: "全国47都道府県に2,000店舗以上を展開。自宅や職場の近くに店舗が見つかりやすく、どの地域でも通いやすい環境が整っています。",
+    title: "全国2,000店舗以上の店舗網",
+    desc: "全国47都道府県に2,000店舗以上を展開しています。自宅や職場の近くに店舗が見つかりやすく、どの地域でも通いやすい環境が整っています。",
   },
   {
     title: "1回30分で完了する効率的なプログラム",
-    desc: "有酸素運動、筋力運動、柔軟運動を組み合わせたサーキットトレーニングを30分で完了。短時間で効率的に全身を鍛えられます。",
+    desc: "有酸素運動、筋力運動、柔軟運動を組み合わせたサーキットトレーニングを30分で完了します。短時間で効率的に全身を鍛えられます。",
   },
   {
-    title: "予約不要・30分で完結だから空き時間に寄れる",
-    desc: "予約なしで営業時間内ならいつでも利用可能。1回30分で完結するため、買い物や用事の前後の空き時間にさっと立ち寄れます。営業時間帯は平日10:00〜13:00・15:00〜19:00／土曜10:00〜13:00が目安（日曜・祝日は概ね休み。店舗により異なる・2026年8月3日確認）で、深夜・24時間営業ではない点だけ押さえておきましょう。",
+    title: "予約不要・30分で完結するため空き時間に利用可能",
+    desc: "予約なしで、営業時間内であればいつでも利用できます。1回30分で完結するため、買い物や用事の前後の空き時間にさっと立ち寄れます。営業時間帯は平日10:00〜13:00・15:00〜19:00／土曜10:00〜13:00が目安です（日曜・祝日は概ね休み。店舗により異なる・2026年8月3日確認）。深夜・24時間営業ではない点にご注意ください。",
   },
 ];
 
 const merits = [
   {
     title: "手頃な料金設定",
-    desc: "月額制で通い放題のため、頻繁に通うほどお得になります。料金の詳細は公式HPをご確認ください。",
+    desc: "月額制で通い放題のため、頻繁に通うほどお得になります。料金の詳細は公式サイトをご確認ください。",
   },
   {
     title: "幅広い方が安心して利用可能",
@@ -71,11 +71,11 @@ const pricingPlans = [
   { name: "Wプラン", duration: "詳細は公式サイト参照", price: "実額は公式サイトに掲載（店舗により異なる）", note: "詳細は公式サイト参照" },
 ];
 
-const reviewSummary = "カーブスの口コミでは「30分で終わるから続けやすい」「予約不要で気軽」「スタッフが親切」という声が多く見られます。幅広い年齢層の女性から支持されています。一方で「本格的なトレーニングには物足りない」という意見も。健康維持・体力づくりを目的とする方に最適です。";
+const reviewSummary = "カーブスの口コミでは「30分で終わるから続けやすい」「予約不要で気軽」「スタッフが親切」という声が多く見られます。幅広い年齢層の女性から支持されています。一方で「本格的なトレーニングには物足りない」という意見もあります。健康維持・体力づくりを目的とする方に適しています。";
 
 const faqItems = [
   { q: "カーブスの料金はいくらですか？", a: "月会費は店舗とプラン（店舗プラン／おうちプラン／Wプラン）により異なり、実額は公式サイトで公開されています。通う店舗によって金額が変わるため、無料体験のときにご自身の店舗の正確な料金を確認するのが確実です（2026年8月3日確認）。" },
-  { q: "カーブスの入会金はいくらですか？", a: "入会金の詳細は公式HPをご確認ください。キャンペーンを実施している場合もあります。" },
+  { q: "カーブスの入会金はいくらですか？", a: "入会金の詳細は公式サイトをご確認ください。キャンペーンを実施している場合もあります。" },
   { q: "何歳から何歳まで通えますか？", a: "年齢制限は特にありません。10代から80代以上の方まで幅広い年齢層が通っています。" },
   { q: "運動経験がなくても大丈夫ですか？", a: "はい、油圧式マシンが自動で負荷を調整するため、体力に合わせたトレーニングが可能です。" },
   { q: "見学や体験はできますか？", a: "はい、無料体験が用意されています。お近くの店舗に直接お問い合わせください。" },
@@ -128,12 +128,12 @@ export default function CurvesReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          カーブスは痩せる？口コミ・評判を徹底解説
+          カーブスは痩せるのか：口コミ・評判の解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
-          <img src="/brand-ss/curves.jpg" alt="カーブスは痩せる？口コミ・評判を徹底解説の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+          <img src="/brand-ss/curves.jpg" alt="カーブスの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">カーブスは痩せる？口コミ・評判を徹底解説 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">カーブス 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月</p>
         <GymCta slug="curves" name="カーブス" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -142,15 +142,15 @@ export default function CurvesReview() {
           <p className="font-bold text-gray-800 mb-3">目次</p>
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
-            <li><a href="#s2" className="text-teal-600 hover:underline">結論：カーブスで「痩せる」かは目的次第</a></li>
-            <li><a href="#s3" className="text-teal-600 hover:underline">カーブスの料金はいくら？【確認方法の直答】</a></li>
-            <li><a href="#s4" className="text-teal-600 hover:underline">この記事でわかること（よくある4つの疑問）</a></li>
+            <li><a href="#s2" className="text-teal-600 hover:underline">カーブスで痩せられるかは目的によって異なります</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">カーブスの料金と確認方法</a></li>
+            <li><a href="#s4" className="text-teal-600 hover:underline">よくある4つの疑問への回答</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">カーブスの基本情報</a></li>
             <li><a href="#s6" className="text-teal-600 hover:underline">カーブスの3つの強み</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">カーブスのメリット・デメリット</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">カーブスの料金</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">カーブスの口コミ概要</a></li>
-            <li><a href="#s10" className="text-teal-600 hover:underline">カーブスは痩せる？口コミから見る効果の傾向</a></li>
+            <li><a href="#s10" className="text-teal-600 hover:underline">カーブスで痩せられるか：口コミから見る効果の傾向</a></li>
             <li><a href="#s11" className="text-teal-600 hover:underline">カーブスのよくある質問</a></li>
             <li><a href="#s12" className="text-teal-600 hover:underline">カーブスが気になった方へ</a></li>
             <li><a href="#s13" className="text-teal-600 hover:underline">カーブスの店舗別レビュー</a></li>
@@ -160,49 +160,49 @@ export default function CurvesReview() {
         <ReviewSummary gymName="カーブス" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          カーブス（Curves）は全国2,000店舗以上を展開する<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>30分フィットネスです。<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>という手軽さが魅力。本記事では「カーブスは痩せるのか」という疑問を口コミの傾向から検証しつつ、メリット・デメリットを詳しく解説します。
+          カーブス（Curves）は全国2,000店舗以上を展開する<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>30分フィットネスです。<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>という手軽さが特徴です。本記事では「カーブスは痩せるのか」という疑問を口コミの傾向から検証しつつ、メリット・デメリットを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 id="s2" className="font-bold text-gray-900 mb-3">結論：カーブスで「痩せる」かは目的次第</h2>
+          <h2 id="s2" className="font-bold text-gray-900 mb-3">カーブスで痩せられるかは目的によって異なります</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>運動習慣づくり・健康維持・体力アップ</strong>には向く（週2〜3回で続けやすい）</li>
-            <li>・<strong>短期で大幅な減量</strong>を狙う本格ダイエットには物足りない場合がある（油圧式マシン中心・食事指導は別）</li>
-            <li>・口コミでは「続けやすい」「体が引き締まった」という声と「体重は大きく変わらない」という声が混在</li>
-            <li>・痩せたい度合いが高い人は、食事管理込みのパーソナルジムとの併用・比較も検討を</li>
+            <li>・<strong>運動習慣づくり・健康維持・体力アップ</strong>に向いています（週2〜3回のペースで続けやすい）。</li>
+            <li>・<strong>短期で大幅な減量</strong>を目指すダイエットには、物足りない場合があります（油圧式マシン中心・食事指導は別）。</li>
+            <li>・口コミでは「続けやすい」「体が引き締まった」という声と「体重は大きく変わらない」という声の両方が見られます。</li>
+            <li>・減量の優先度が高い方は、食事管理を含むパーソナルジムとの併用・比較もご検討ください。</li>
           </ul>
-          <p className="text-xs text-gray-500 mt-3">効果には個人差があります。料金・体験は店舗で異なるため最新は公式でご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
+          <p className="text-xs text-gray-500 mt-3">効果には個人差があります。料金・体験の内容は店舗により異なるため、ご利用前に公式サイトにて最新情報をご確認ください。比較は<a href="/compare/" className="text-teal-600 underline">おすすめ比較</a>もご覧ください。</p>
         </div>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
-          <h2 id="s3" className="font-bold text-gray-900 mb-3">カーブスの料金はいくら？【確認方法の直答】</h2>
+          <h2 id="s3" className="font-bold text-gray-900 mb-3">カーブスの料金と確認方法</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-2">
             カーブスの月会費は<strong>店舗とプラン（店舗プラン／おうちプラン／Wプラン）により異なり</strong>、実額は<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>で公開されています。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            通う店舗によって金額が変わるため、<strong>無料体験のときに自分の店舗の正確な料金を確認する</strong>のが最も確実です。体験は無料なので、料金の確認を兼ねて気軽に試せます。
+            通う店舗によって金額が変わるため、<strong>無料体験の際に、通う店舗の正確な料金を確認する</strong>方法が最も確実です。体験は無料のため、料金の確認を兼ねてご利用いただけます。
           </p>
           <p className="text-xs text-gray-500 mt-3">※2026年8月3日 公式サイト確認。キャンペーン等で変わる場合があります。</p>
         </div>
 
         <div className="mb-12">
-          <h2 id="s4" className="text-base font-bold text-gray-900 mb-3">この記事でわかること（よくある4つの疑問）</h2>
+          <h2 id="s4" className="text-base font-bold text-gray-900 mb-3">よくある4つの疑問への回答</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. カーブスは痩せる？</dt>
+              <dt className="font-bold text-gray-800">Q. カーブスは痩せますか？</dt>
               <dd className="text-gray-700 mt-1 leading-relaxed">運動習慣づくり・体力アップ・引き締めには向きますが、大幅な減量目的では食事管理の併用が一般的に重要です。効果には個人差があります。<a href="#lose-weight" className="text-teal-600 underline">詳しい傾向はこちら</a>。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 口コミ・評判は？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">「30分で続けやすい」「予約不要で気軽」「スタッフが親切」という声が多い一方、「本格トレには物足りない」という声も。<a href="#reviews" className="text-teal-600 underline">口コミ概要を見る</a>。</dd>
+              <dt className="font-bold text-gray-800">Q. 口コミ・評判の傾向を教えてください。</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">「30分で続けやすい」「予約不要で気軽」「スタッフが親切」という声が多い一方、「本格的なトレーニングには物足りない」という声もあります。<a href="#reviews" className="text-teal-600 underline">口コミ概要を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 料金は？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">月会費は店舗・プラン（店舗プラン／おうちプラン／Wプラン）により異なり、実額は<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>で公開されています。無料体験時に自分の店舗の正確な料金を確認するのが確実です。</dd>
+              <dt className="font-bold text-gray-800">Q. 料金はいくらですか？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">月会費は店舗・プラン（店舗プラン／おうちプラン／Wプラン）により異なり、実額は<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>で公開されています。無料体験の際に、通う店舗の正確な料金をご確認ください。</dd>
             </div>
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. どんな人に向く？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">女性専用・1回30分・予約不要のため、運動が続かない方や時短で健康維持したい方に向きます。短期で大きく痩せたい方はパーソナルジムとの比較も検討を。</dd>
+              <dt className="font-bold text-gray-800">Q. どのような方に向いていますか？</dt>
+              <dd className="text-gray-700 mt-1 leading-relaxed">女性専用・1回30分・予約不要のため、運動が続かない方や時短で健康維持したい方に向きます。短期で大きく減量したい方は、パーソナルジムとの比較もご検討ください。</dd>
             </div>
           </dl>
         </div>
@@ -297,7 +297,7 @@ export default function CurvesReview() {
         </section>
 
         <section id="lose-weight" className="mb-12 scroll-mt-20">
-          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">カーブスは痩せる？口コミから見る効果の傾向</h2>
+          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">カーブスで痩せられるか：口コミから見る効果の傾向</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
             「カーブスで痩せるのか」は最も多い疑問のひとつです。口コミの傾向を整理すると、結果には目的とライフスタイルが大きく関係しています。以下は公開されている口コミ全般から見られる傾向で、特定の効果を保証するものではありません。
           </p>
@@ -305,17 +305,17 @@ export default function CurvesReview() {
             <div className="bg-green-50 border border-green-100 rounded-lg p-5">
               <h3 className="font-bold text-green-800 mb-2">痩せた・引き締まったという声の傾向</h3>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>・週2〜3回を継続でき、運動習慣が定着して体が引き締まった</li>
-                <li>・有酸素＋筋力＋柔軟のサーキットで、体力・代謝面の変化を実感</li>
-                <li>・コーチの声かけで挫折せず続けられたことが結果につながった</li>
+                <li>・週2〜3回を継続でき、運動習慣が定着して体が引き締まったという声</li>
+                <li>・有酸素＋筋力＋柔軟のサーキットで、体力・代謝面の変化を実感したという声</li>
+                <li>・コーチの声かけで挫折せずに続けられたことが結果につながったという声</li>
               </ul>
             </div>
             <div className="bg-orange-50 border border-orange-100 rounded-lg p-5">
               <h3 className="font-bold text-orange-800 mb-2">痩せにくい・物足りないという声の傾向</h3>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>・体重を大きく落とす目的だと、運動だけでは変化が緩やか</li>
-                <li>・油圧式マシン中心のため高強度の追い込みには不向き</li>
-                <li>・食事管理は基本的に自己管理。痩せたい度合いが高いほど食事の見直しが必要</li>
+                <li>・体重を大きく落とす目的では、運動だけでは変化が緩やかだという声</li>
+                <li>・油圧式マシン中心のため、高強度のトレーニングには向かないという声</li>
+                <li>・食事管理は基本的に自己管理のため、減量の優先度が高いほど食事の見直しが必要という声</li>
               </ul>
             </div>
           </div>
@@ -341,7 +341,7 @@ export default function CurvesReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s12" className="text-xl font-bold mb-3">カーブスが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずはお近くの店舗で無料体験を試してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">お近くの店舗にて無料体験をご利用いただけます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "RITA STYLE 長崎店の口コミ・評判",
   description:
-    "RITA STYLE 長崎店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "RITA STYLE 長崎店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */

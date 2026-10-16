@@ -86,13 +86,16 @@ export function dbCityMetadata(slug: string, db: CityDb): Metadata {
   const title =
     `${L}のパーソナルジム全${s.n}店を口コミ件数順に比較` +
     (s.women.length >= 2 ? `｜女性専用${s.women.length}店` : "") +
-    (p.length ? `${s.women.length >= 2 ? "・" : "｜"}公式料金つき` : "");
+    (p.length ? `${s.women.length >= 2 ? "・" : "｜"}公式料金を掲載` : "");
   const brands = p.slice(0, 3).map((b) => shortBrand(b.name)).join("・");
-  const description =
-    `${L}のパーソナルジム${s.n}店をGoogleマップの口コミ件数順に全掲載（${fmtDate(db.fetchedAt)}取得）。口コミ100件以上は${s.over100}店` +
+  const body =
+    `${L}のパーソナルジム${s.n}店を、Googleマップの口コミ件数順に掲載しています（${fmtDate(db.fetchedAt)}取得）。口コミ100件以上は${s.over100}店` +
     (s.women.length ? `、女性専用・女性専門は${s.women.length}店` : "") +
-    (p.length ? `。${brands}${p.length > 3 ? "など" : ""}の店舗と公式料金も掲載。` : "。") +
-    "安い・おすすめを探す前の全体比較に。";
+    "です。" +
+    (p.length ? `${brands}${p.length > 3 ? "など" : ""}の店舗と公式料金も掲載しています。` : "");
+  const tail = "安いジムやおすすめを探す前の全体比較にご活用ください。";
+  // description は160字以内に収める（超える都市は末尾の案内文を省く）
+  const description = (body + tail).length <= 160 ? body + tail : body;
   return { title, description };
 }
 
@@ -107,8 +110,8 @@ export function DbCitySummary({ slug, db }: { slug: string; db: CityDb }) {
       <p className="font-bold">{L}のパーソナルジム：データで見る要点（Googleマップ {fmtDate(db.fetchedAt)} 取得値の集計）</p>
       <ul className="mt-2 list-disc space-y-1 pl-5">
         <li>
-          掲載 <b>{s.n}店</b>。口コミ100件以上は <b>{s.over100}店</b>
-          {s.median !== null && <>、評点の中央値は <b>{s.median}</b>（評点のある{s.rated}店）</>}。評点は高い値に偏るため、口コミ件数と場所で絞るのが実用的です。
+          掲載店舗数は<b>{s.n}店</b>です。口コミ100件以上は<b>{s.over100}店</b>
+          {s.median !== null && <>、評点の中央値は<b>{s.median}</b>（評点のある{s.rated}店）</>}です。評点は高い値に偏るため、口コミ件数と場所で絞り込むのが実用的です。
         </li>
         {areas.length > 0 && (
           <li>
@@ -126,22 +129,22 @@ export function DbCitySummary({ slug, db }: { slug: string; db: CityDb }) {
         </li>
         {s.women.length > 0 ? (
           <li>
-            女性向け：店名に「女性専用」「女性専門」などを含む店舗が <b>{s.women.length}店</b>（{s.women.slice(0, 4).map((g) => g.name).join("／")}
-            {s.women.length > 4 ? " ほか" : ""}）。店名で機械的に数えたもので、女性トレーナー在籍などは各店の公式サイトでご確認ください。
+            女性向け：店名に「女性専用」「女性専門」などを含む店舗は<b>{s.women.length}店</b>です（{s.women.slice(0, 4).map((g) => g.name).join("／")}
+            {s.women.length > 4 ? " ほか" : ""}）。店名で機械的に数えたもので、女性トレーナーの在籍などは各店の公式サイトでご確認ください。
           </li>
         ) : (
-          <li>女性向け：店名に「女性専用」「女性専門」を含む店舗はこの{s.n}店の中にはありません（店名での判定）。</li>
+          <li>女性向け：店名に「女性専用」「女性専門」を含む店舗は、この{s.n}店の中にはありません（店名での判定）。</li>
         )}
         {p.length > 0 && (
           <li>
-            料金を比べたい方へ：{partnerArea(slug, db)}に公式サイトで店舗を確認できた提携ブランドは{" "}
+            料金を比較したい方へ：{partnerArea(slug, db)}に公式サイトで店舗を確認できた提携ブランドは、
             {p.map((b, i) => (
               <span key={b.brand}>
                 {i > 0 && "・"}
                 <Link href={b.href} className="text-blue-700 underline">{shortBrand(b.name)}</Link>
               </span>
             ))}
-            。公式の料金は<a href="#partners" className="text-blue-700 underline">下の表</a>にまとめています。
+            です。公式の料金は<a href="#partners" className="text-blue-700 underline">下の表</a>にまとめています。
           </li>
         )}
       </ul>
@@ -166,7 +169,7 @@ export function DbCityPartners({ slug, db }: { slug: string; db: CityDb }) {
     <section id="partners" className="mt-10">
       <h2 className="text-lg font-bold">{L}に店舗がある提携ブランドの口コミ・評判と公式料金</h2>
       <p className="mt-2 text-xs text-gray-500">
-        各ブランドの公式店舗一覧で、{L}の店舗が存在することを2026年10月15日に確認できたものだけを載せています。料金は公式サイトの掲載値（確認日を併記）で、店舗により異なる場合があります。
+        各ブランドの公式店舗一覧で、{L}の店舗が存在することを2026年10月15日に確認できたもののみ掲載しています。料金は公式サイトの掲載値（確認日を併記）で、店舗により異なる場合があります。
       </p>
       <div className="mt-4 space-y-3">
         {p.map((b) => {

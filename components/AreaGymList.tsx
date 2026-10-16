@@ -1,6 +1,7 @@
 // エリア別 実在パーソナルジム一覧(Googleマップ実データ・捏造ゼロ)
 // 評点・件数・住所はGoogle Places APIの実数のみ。提携ブランドは自社レビュー/公式CTAへ、未提携はGoogleマップURLへ。
 import Link from "next/link";
+import { jaDate } from "@/lib/date-ja";
 import fs from "node:fs";
 import path from "node:path";
 import { gymMetadata } from "@/lib/gym-metadata";
@@ -34,11 +35,11 @@ export default function AreaGymList({ area, areaName }: { area: string; areaName
     <section className="mb-10">
       <div>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
-        <h2 className="text-2xl font-bold text-center mb-3">{areaName}のパーソナルジム一覧【Google口コミ実データ】</h2>
+        <h2 className="text-2xl font-bold text-center mb-3">{areaName}のパーソナルジム一覧【Googleマップの口コミデータ】</h2>
         <p className="text-center text-gray-500 text-sm mb-2">
-          {areaName}周辺の実在パーソナルジムを、<strong>Googleマップの実データ（評点・口コミ件数）</strong>をもとに口コミ件数順で掲載しています（{surveyedAt}取得・全{all.length}件を調査し口コミ5件以上の{gyms.length}件を掲載）。
+          {areaName}周辺で実在を確認したパーソナルジムを、<strong>Googleマップの掲載データ（評点・口コミ件数）</strong>にもとづき口コミ件数順に掲載しています（{jaDate(surveyedAt)}取得。全{all.length}件を調査し、口コミ5件以上の{gyms.length}件を掲載しています）。
         </p>
-        <p className="text-center text-gray-400 text-xs mb-8">出典: Google マップ（Google Places API・{surveyedAt}時点）。評点・件数は当サイトの創作ではなく実数で、その後変動する場合があります。料金は各ジムの公式サイト等でご確認ください。</p>
+        <p className="text-center text-gray-400 text-xs mb-8">出典：Googleマップ（Google Places API・{jaDate(surveyedAt)}取得）。評点・件数は当サイトの創作ではなく取得時点の数値で、その後変動する場合があります。料金は各ジムの公式サイトにてご確認ください。</p>
 
         <div className="space-y-4">
           {gyms.map((g, i) => {
@@ -53,7 +54,7 @@ export default function AreaGymList({ area, areaName }: { area: string; areaName
                   {typeof g.rating === "number" && (
                     <div className="shrink-0 text-right">
                       <p className="text-orange-500 font-extrabold text-lg">★ {g.rating.toFixed(1)}</p>
-                      <p className="text-xs text-gray-500">Google口コミ {g.count}件</p>
+                      <p className="text-xs text-gray-500">Googleマップの口コミ {g.count}件</p>
                     </div>
                   )}
                 </div>

@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "ELEMENTの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "ELEMENTの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "ELEMENT（エレメント）パーソナルジムの口コミ・評判を徹底解説。マシンピラティス×パーソナルトレーニング通い放題の料金体系、メリット・デメリットまで網羅。",
+    "ELEMENT（エレメント）パーソナルジムの口コミ・評判を解説します。マシンピラティスとパーソナルトレーニングを組み合わせた通い放題の料金体系と、メリット・デメリットをまとめています。",
 };
 
 const basicInfo = [
@@ -23,22 +23,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "マシンピラティス×パーソナルの融合",
-    desc: "リフォーマーなどのマシンピラティスとパーソナルトレーニングを組み合わせた独自プログラム。姿勢改善・インナーマッスル強化と筋力アップを同時に叶えます。",
+    desc: "リフォーマーなどのマシンピラティスとパーソナルトレーニングを組み合わせた独自プログラムです。姿勢改善・インナーマッスル強化と筋力アップに同時に取り組めます。",
   },
   {
     title: "月額制の通い放題で通うほどお得",
-    desc: "月額固定で何回でも通える通い放題プランが最大の魅力。週3回以上通えば1回あたりの単価が大幅に下がり、コスパの良いパーソナルトレーニングが実現します。",
+    desc: "月額固定で何回でも通える通い放題プランが最大の特徴です。週3回以上通うと1回あたりの単価が大幅に下がり、費用対効果の高いパーソナルトレーニングを受けられます。",
   },
   {
     title: "1回30分の効率的なセッション",
-    desc: "1回のセッションは30分と短時間。忙しい方でもスキマ時間を活用して通いやすく、短時間でも効果的なトレーニングが受けられます。",
+    desc: "1回のセッションは30分と短時間です。忙しい方でもスキマ時間を活用して通いやすく、短時間でも効果的なトレーニングが受けられます。",
   },
 ];
 
 const merits = [
   {
     title: "通い放題で費用対効果が高い",
-    desc: "回数を気にせず通えるため、トレーニング習慣を身につけやすく、月あたりのコストパフォーマンスが非常に優れています。",
+    desc: "回数を気にせず通えるため、トレーニング習慣を身につけやすく、月あたりの費用対効果に優れています。",
   },
   {
     title: "ピラティスの姿勢改善効果",
@@ -52,15 +52,15 @@ const merits = [
 
 const demerits = [
   {
-    title: "通い放題を活かさないと割高に",
-    desc: "月4回程度しか通わない場合は、都度払いのジムの方がお得になる可能性があります。週2回以上通える方におすすめです。",
+    title: "通い放題を活用しない場合の割高感",
+    desc: "月4回程度しか通わない場合は、都度払いのジムの方がお得になる可能性があります。週2回以上通える方におすすめします。",
   },
   {
     title: "展開エリアが限定的",
     desc: "東京・神奈川中心の展開のため、他の地域からはアクセスが難しい場合があります。",
   },
   {
-    title: "ハードな筋トレを求める方には物足りない場合も",
+    title: "高強度の筋力トレーニングを求める方との相性",
     desc: "ピラティス要素が強いため、バーベルやダンベルを使った本格的な筋力トレーニングを求める方には物足りない可能性があります。",
   },
 ];
@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "デイタイムプラン", duration: "30分/回", price: "月額32,780円〜", note: "平日日中限定・通い放題" },
 ];
 
-const reviewSummary = "ELEMENTの口コミでは「通い放題でコスパが良い」「ピラティスで姿勢が改善された」という声が目立ちます。30分セッションで手軽に通える点も高評価です。一方で「店舗が少ない」「予約が埋まりやすい」といった声も見られます。運動習慣をしっかり身につけたい方に特に人気です。";
+const reviewSummary = "ELEMENTの口コミでは「通い放題で費用対効果が高い」「ピラティスで姿勢が改善された」という声が目立ちます。30分セッションで手軽に通える点も高評価です。一方で「店舗が少ない」「予約が埋まりやすい」といった声も見られます。運動習慣をしっかり身につけたい方に特に人気です。";
 
 const faqItems = [
   { q: "ELEMENTの入会金はいくらですか？", a: "入会金は33,000円です。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -107,7 +107,7 @@ export default function ElementReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          ELEMENTの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          ELEMENTの口コミ・評判｜料金・メリット・デメリットを解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/element.jpg" alt="ELEMENTの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -134,7 +134,7 @@ export default function ElementReview() {
         <ReviewSummary gymName="ELEMENT" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ELEMENT（エレメント）はマシンピラティスとパーソナルトレーニングを融合させた<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>型のジムです。30分の短時間セッションで効率的にボディメイクができるため、忙しい方にも人気。本記事では、ELEMENTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ELEMENT（エレメント）はマシンピラティスとパーソナルトレーニングを融合させた<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>型のジムです。30分の短時間セッションで効率的にボディメイクができるため、忙しい方にも人気があります。本記事では、ELEMENTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -245,7 +245,7 @@ export default function ElementReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">ELEMENTが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは体験トレーニングで、ピラティス×パーソナルの効果を体感してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">体験トレーニングにて、ピラティスとパーソナルトレーニングを組み合わせた指導をご体験いただけます。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

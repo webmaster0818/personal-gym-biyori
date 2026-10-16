@@ -9,7 +9,7 @@ import StoreJsonLd from "@/components/StoreJsonLd";
 export const metadata: Metadata = {
   title: "CALORIE TRADE JAPAN 宜野湾店の口コミ・評判",
   description:
-    "CALORIE TRADE JAPAN 宜野湾店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "CALORIE TRADE JAPAN 宜野湾店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -23,7 +23,7 @@ const basicInfo = [
 /* ---------- FAQ ---------- */
 const faqItems = [
   { q: "CALORIE TRADE JAPAN 宜野湾店の料金はいくらですか？", a: "コースや回数によって料金が異なります。最新の料金プランは公式サイトでご確認ください。" },
-  { q: "CALORIE TRADE JAPAN 宜野湾店の営業時間は？", a: "営業時間は店舗により異なります。最新情報は公式サイトでご確認ください。" },
+  { q: "CALORIE TRADE JAPAN 宜野湾店の営業時間を教えてください。", a: "営業時間は店舗により異なります。最新情報は公式サイトでご確認ください。" },
   { q: "CALORIE TRADE JAPAN 宜野湾店ではどんなトレーニングができますか？", a: "ダイエットに特化したパーソナルトレーニングを提供しています。食事指導も含めた総合的なボディメイクプログラムが特徴です。" },
   { q: "CALORIE TRADE JAPAN 宜野湾店は駐車場がありますか？", a: "駐車場の有無は公式サイトでご確認ください。沖縄では車移動が一般的なため、多くの店舗で駐車場を完備しています。" },
 ];

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "運営者情報 | パーソナルジムびより",
+  title: "運営者情報",
   description: "パーソナルジムびよりの運営者情報・評価基準・サイトポリシーについてご紹介します。",
 };
 
@@ -20,14 +20,14 @@ export default function AboutPage() {
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
             <p className="text-lg font-bold text-gray-800">パーソナルジムびより編集部</p>
             <p className="text-sm text-gray-600 mt-3 leading-relaxed">
-              当サイトは、実測データにもとづいてパーソナルジム情報を整理・比較する編集部が運営しています。特定の個人の体験談や資格を根拠にするのではなく、
-              「誰でも検証できる一次データ」だけを掲載することを編集方針としています。
+              当サイトは、公開データと公式情報にもとづいてパーソナルジムの情報を整理・比較する編集部が運営しています。特定の個人の体験談や資格を根拠とせず、
+              第三者が確認できる一次データのみを掲載することを編集方針としています。
             </p>
             <ul className="text-sm text-gray-600 mt-3 space-y-1 list-disc list-inside">
-              <li>全国49都市・約2,800店のパーソナルジムをGoogleマップの公開データ(評点・口コミ件数)で機械的に実測(取得日を各ページに明記)</li>
-              <li>料金・営業時間などのジム情報は各社公式サイトの記載のみを採用(伝聞・推定値は不採用)</li>
-              <li>口コミの創作は行いません。評点・件数は取得時点の実数のみを掲載します</li>
-              <li>掲載後も定期的に再実測し、変動があれば更新します</li>
+              <li>全国49都市・約2,800店のパーソナルジムについて、Googleマップの公開データ（評点・口コミ件数）を機械的に取得しています（取得日は各ページに記載しています）。</li>
+              <li>料金・営業時間などのジム情報は、各社公式サイトの記載のみを採用しています（伝聞・推定値は採用していません）。</li>
+              <li>口コミの創作は行いません。評点・件数は取得時点の数値のみを掲載します。</li>
+              <li>掲載後も定期的にデータを再取得し、変動があれば更新します。</li>
             </ul>
           </div>
         </section>
@@ -36,10 +36,10 @@ export default function AboutPage() {
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">サイトの使命</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「パーソナルジムびより」は、パーソナルジム選びに悩む方に向けて、Googleマップの実測データと各社公式サイトの一次情報に基づいた、検証可能な情報だけをお届けするメディアです。
+            「パーソナルジムびより」は、パーソナルジム選びに悩む方に向けて、Googleマップの掲載データと各社公式サイトの一次情報にもとづき、検証可能な情報のみをお届けするメディアです。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            広告の有無に関わらず、すべてのジムを同じ基準で公平に評価しています。料金・トレーナーの質・設備・口コミを総合的に分析し、読者の方が自分に合ったジムを見つけられるよう支援することを目指しています。
+            広告の有無にかかわらず、すべてのジムを同じ基準で公平に評価しています。料金・トレーナーの質・設備・口コミを総合的に分析し、読者の方が自分に合ったジムを見つけられるよう支援することを目指しています。
           </p>
         </section>
 
@@ -51,11 +51,11 @@ export default function AboutPage() {
           </p>
           <div className="space-y-4">
             {[
-              { title: "料金・コスパ", desc: "月額料金、入会金、1回あたりの単価を業界平均と比較。追加費用の有無も確認しています。" },
+              { title: "料金・費用対効果", desc: "月額料金、入会金、1回あたりの単価を業界平均と比較し、追加費用の有無も確認しています。" },
               { title: "トレーナーの質", desc: "公式サイトで公開されている保有資格・研修制度・在籍トレーナー情報を確認し、記載の範囲で整理しています。" },
               { title: "設備・環境", desc: "個室の有無、シャワー・アメニティ等の設備情報を各社公式サイトの記載から確認しています。" },
               { title: "食事指導", desc: "食事管理の内容、管理栄養士の関与、LINE対応の有無など、サポート体制を評価しています。" },
-              { title: "口コミ・評判", desc: "Googleマップの評点・口コミ件数を機械的に取得し、実数のまま掲載しています(創作・改変はしません)。" },
+              { title: "口コミ・評判", desc: "Googleマップの評点・口コミ件数を機械的に取得し、取得時点の数値のまま掲載しています（創作・改変は行いません）。" },
             ].map((item) => (
               <div key={item.title} className="bg-white border border-gray-200 rounded-lg p-4">
                 <h3 className="font-bold text-sm text-gray-800 mb-1">{item.title}</h3>
@@ -83,7 +83,7 @@ export default function AboutPage() {
             掲載情報の修正依頼やお問い合わせは、以下のメールアドレスまでお願いいたします。
           </p>
           <p className="text-sm text-gray-700 mt-2">
-            メール: info@personal-gym-biyori.com
+            メール：info@personal-gym-biyori.com
           </p>
         </section>
 
@@ -99,7 +99,7 @@ export default function AboutPage() {
         "@type": "Organization",
         "name": "パーソナルジムびより編集部",
         "url": "https://personal-gym-biyori.com/about/",
-        "description": "全国49都市・約2,800店のパーソナルジムをGoogleマップの公開データで実測し、各社公式サイトの一次情報とあわせて比較する編集部。"
+        "description": "全国49都市・約2,800店のパーソナルジムについてGoogleマップの公開データを取得し、各社公式サイトの一次情報とあわせて比較する編集部です。"
       }) }} />
     </>
   );

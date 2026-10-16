@@ -55,7 +55,7 @@ export default function AreaGymCard({ gym, index, areaName }: Props) {
         {/* 基本情報テーブル */}
         <div className="text-sm space-y-1.5 mb-3">
           <p className="text-gray-600">
-            月額料金:{" "}
+            料金:{" "}
             <span className="font-medium text-gray-800">{gym.price}</span>
           </p>
           {meta?.type && (
@@ -105,7 +105,7 @@ export default function AreaGymCard({ gym, index, areaName }: Props) {
               rel="noopener noreferrer"
               className="text-xs text-teal-600 hover:underline font-medium"
             >
-              Googleの口コミを見る →
+              Googleマップで口コミを見る →
             </a>
           </div>
         )}

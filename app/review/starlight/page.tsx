@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "スターライトフィットネスの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "スターライトフィットネスの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "スターライトフィットネスの口コミ・評判を徹底解説。24時間営業のパーソナルジムの料金体系、メリット・デメリットを網羅。",
+    "スターライトフィットネスの口コミ・評判をご紹介します。24時間営業のパーソナルジムの料金体系、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -21,16 +21,16 @@ const basicInfo = [
 
 const strengths = [
   {
-    title: "24時間営業でいつでもトレーニング可能",
-    desc: "早朝5時でも深夜23時でも、自分のライフスタイルに合わせてトレーニングが可能。シフト勤務や不規則な生活リズムの方でも無理なく通えます。",
+    title: "24時間営業で時間を選ばずトレーニングできる",
+    desc: "早朝5時でも深夜23時でも、ご自身のライフスタイルに合わせてトレーニングできます。シフト勤務や不規則な生活リズムの方でも無理なく通えます。",
   },
   {
     title: "セキュリティ完備で深夜でも安心",
-    desc: "24時間営業に対応したセキュリティシステムを完備。カードキーによる入退室管理、防犯カメラの設置など、深夜帯でも安全にトレーニングできる環境が整っています。",
+    desc: "24時間営業に対応したセキュリティシステムを完備しています。カードキーによる入退室管理、防犯カメラの設置など、深夜帯でも安全にトレーニングできる環境が整っています。",
   },
   {
     title: "予約の柔軟性が高い",
-    desc: "営業時間が長いぶん予約枠も多く、希望の時間帯でトレーニングを受けやすい環境です。急なスケジュール変更にも柔軟に対応してもらえます。",
+    desc: "営業時間が長いぶん予約枠も多く、希望の時間帯でトレーニングを受けやすい環境です。急なスケジュール変更にも柔軟に対応しています。",
   },
 ];
 
@@ -45,7 +45,7 @@ const merits = [
   },
   {
     title: "予約が取りやすい",
-    desc: "営業時間が長いため、一般的なジムよりも予約枠が豊富。人気の時間帯を避ければ、希望の日時で予約が取りやすい環境です。",
+    desc: "営業時間が長いため、一般的なジムよりも予約枠が豊富です。人気の時間帯を避ければ、希望の日時で予約が取りやすい環境です。",
   },
 ];
 
@@ -55,8 +55,8 @@ const demerits = [
     desc: "深夜・早朝のセッションでは対応可能なトレーナーが限られることがあり、希望のトレーナーを指名できない場合があります。",
   },
   {
-    title: "深夜のトレーニングは生活リズムに影響する可能性",
-    desc: "深夜の激しい運動は睡眠に影響する場合があります。トレーナーと相談の上、適切な時間帯と強度を選びましょう。",
+    title: "深夜のトレーニングは生活リズムに影響する可能性がある",
+    desc: "深夜の激しい運動は睡眠に影響する場合があります。トレーナーと相談のうえ、適切な時間帯と強度をお選びください。",
   },
   {
     title: "立地によっては深夜の通勤が不便",
@@ -105,7 +105,7 @@ export default function StarlightReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "スターライトフィットネス" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">スターライトフィットネスの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">スターライトフィットネスの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="starlight" name="スターライトフィットネス" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -127,7 +127,7 @@ export default function StarlightReview() {
         <ReviewSummary gymName="スターライトフィットネス" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          スターライトフィットネスは24時間営業を特徴とするパーソナルジムです。早朝から深夜まで、ライフスタイルに合わせた柔軟なトレーニングが可能。本記事では、スターライトフィットネスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          スターライトフィットネスは24時間営業を特徴とするパーソナルジムです。早朝から深夜まで、ライフスタイルに合わせた柔軟なトレーニングが可能です。本記事では、スターライトフィットネスの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -182,7 +182,7 @@ export default function StarlightReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">スターライトフィットネスが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

@@ -6,7 +6,7 @@ import ReviewSummary from "@/components/ReviewSummary";
 export const metadata: Metadata = {
   title: "FIT24 札幌店の口コミ・評判",
   description:
-    "FIT24 札幌店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "FIT24 札幌店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -91,7 +91,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FIT24札幌店は札幌駅から徒歩5分の24時間営業フィットネスジムです。北海道エリアで月額3,980円〜の低価格でマシンが充実した施設を利用できます。24時間営業のセルフ型なので、天候に左右されず自分のペースでトレーニングできる点が口コミで高評価です。
+            FIT24札幌店は札幌駅から徒歩5分の24時間営業フィットネスジムです。北海道エリアで月額3,980円〜の低価格でマシンが充実した施設を利用できます。24時間営業のセルフ型のため、天候に左右されず自分のペースでトレーニングできる点が口コミで高評価です。
           </p>
         </section>
 

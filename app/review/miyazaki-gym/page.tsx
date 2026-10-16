@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "MIYAZAKI GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "MIYAZAKI GYMの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "MIYAZAKI GYM（ミヤザキジム）の口コミ・評判を徹底解説。高品質×低価格・科学的根拠に基づくパーソナルジムの料金、メリット・デメリットを網羅。",
+    "MIYAZAKI GYM（ミヤザキジム）の口コミ・評判をご紹介します。高品質×低価格・科学的根拠に基づくパーソナルジムの料金、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -23,11 +23,11 @@ const basicInfo = [
 const strengths = [
   {
     title: "高品質なトレーニングを低価格で提供",
-    desc: "有資格者のトレーナーによる質の高い指導を、業界平均を下回る低価格で提供。広告費を抑えた運営により、利用者に還元する料金設定を実現しています。",
+    desc: "有資格者のトレーナーによる質の高い指導を、業界平均を下回る低価格で提供しています。広告費を抑えた運営により、利用者に還元する料金設定を実現しています。",
   },
   {
     title: "科学的根拠に基づいたトレーニング",
-    desc: "最新のスポーツ科学や運動生理学に基づいたプログラムを採用。根拠のあるトレーニング方法で、効率的かつ安全に身体を変えていきます。",
+    desc: "最新のスポーツ科学や運動生理学に基づいたプログラムを採用しています。根拠のあるトレーニング方法で、効率的かつ安全に身体を変えていきます。",
   },
   {
     title: "有資格トレーナーによる専門的な指導",
@@ -46,14 +46,14 @@ const merits = [
   },
   {
     title: "エビデンスに基づく信頼性の高い指導",
-    desc: "「なぜこのトレーニングが効果的なのか」を科学的に説明してもらえるため、納得感を持ってトレーニングに取り組めます。知識も身につくため、自走力が高まります。",
+    desc: "「なぜこのトレーニングが効果的なのか」を科学的に説明を受けられるため、納得感を持ってトレーニングに取り組めます。知識も身につくため、ご自身でトレーニングを続ける力が高まります。",
   },
 ];
 
 const demerits = [
   {
     title: "知名度が大手に劣る",
-    desc: "広告費を抑えた運営のため、RIZAPやBEYONDなどの大手と比較すると知名度は低め。口コミや情報が少なく、事前のリサーチが難しい場合があります。",
+    desc: "広告費を抑えた運営のため、RIZAPやBEYONDなどの大手と比較すると知名度は高くありません。口コミや情報が少なく、事前のリサーチが難しい場合があります。",
   },
   {
     title: "店舗数が限定的",
@@ -61,7 +61,7 @@ const demerits = [
   },
   {
     title: "華やかな設備やサービスは控えめ",
-    desc: "コスト削減のため、高級感のある内装や豊富なアメニティといった付加サービスは大手ほど充実していない場合があります。トレーニングの質に投資するスタンスです。",
+    desc: "コスト削減のため、高級感のある内装や豊富なアメニティといった付加サービスは大手ほど充実していない場合があります。トレーニングの質を優先する方針です。",
   },
 ];
 
@@ -71,13 +71,13 @@ const pricingPlans = [
   { name: "月8回プラン", duration: "60分/回", price: "月額52,000円〜", note: "1回あたり6,500円〜" },
 ];
 
-const reviewSummary = "MIYAZAKI GYMの口コミでは「トレーナーの知識量がすごい」「この価格でこの品質は破格」と品質と価格のバランスが高く評価されています。科学的なアプローチに納得感を持って通えるという声が多数。一方で「知名度が低いので最初は不安だった」「店舗がもっと増えてほしい」という声もあります。";
+const reviewSummary = "MIYAZAKI GYMの口コミでは「トレーナーの知識量がすごい」「この価格でこの品質は破格」と品質と価格のバランスが高く評価されています。科学的なアプローチに納得感を持って通えるという声が多く見られます。一方で「知名度が低いので最初は不安だった」「店舗がもっと増えてほしい」という声もあります。";
 
 const faqItems = [
   { q: "MIYAZAKI GYMの入会金はいくらですか？", a: "入会金は20,000円程度です。都度払いの場合は入会金不要の場合もあります。最新情報は公式サイトでご確認ください。" },
   { q: "都度払いと月額制、どちらがお得ですか？", a: "定期的に通う場合は月額制のほうが1回あたりの料金がお得です。まずは都度払いで試してから月額制に切り替える方も多いです。" },
   { q: "トレーナーの資格は何を持っていますか？", a: "公式サイトは個々のトレーナーの保有資格を公開していませんが、採用基準として「NSCAやNESTA等の資格保有や体育系の学校卒」を挙げています（2026年10月8日確認）。担当トレーナーの資格は無料カウンセリングで確認できます。" },
-  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多く利用しています。基礎から丁寧に指導してもらえます。" },
+  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多く利用しています。基礎から丁寧な指導を受けられます。" },
   { q: "無料体験はありますか？", a: "初回カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
   { q: "食事指導は受けられますか？", a: "プランによって食事アドバイスが含まれます。詳細はカウンセリング時にご確認ください。" },
 ];
@@ -106,11 +106,11 @@ export default function MiyazakiGymReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "MIYAZAKI GYM" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">MIYAZAKI GYMの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">MIYAZAKI GYMの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/miyazaki-gym.jpg" alt="MIYAZAKI GYMの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">MIYAZAKI GYM 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">MIYAZAKI GYM 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="miyazaki-gym" name="MIYAZAKI GYM" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -132,7 +132,7 @@ export default function MiyazakiGymReview() {
         <ReviewSummary gymName="MIYAZAKI GYM" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          MIYAZAKI GYM（ミヤザキジム）は高品質なトレーニングを低価格で提供するパーソナルジムです。科学的根拠に基づいた指導と有資格トレーナーの在籍が特徴。本記事では、MIYAZAKI GYMの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          MIYAZAKI GYM（ミヤザキジム）は高品質なトレーニングを低価格で提供するパーソナルジムです。科学的根拠に基づいた指導と有資格トレーナーの在籍が特徴です。本記事では、MIYAZAKI GYMの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -187,7 +187,7 @@ export default function MiyazakiGymReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">MIYAZAKI GYMが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは体験トレーニングで、科学的なアプローチを実感してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは体験トレーニングで、科学的なアプローチをご体感ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

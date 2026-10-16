@@ -9,7 +9,7 @@ import GymCta from "@/components/GymCta";
 export const metadata: Metadata = {
   title: "プレズ（Plez）の口コミ・評判｜料金・返金・悪い口コミを検証",
   description:
-    "プレズ（Plez）オンラインパーソナルトレーニングの口コミ・評判を徹底解説。自宅完結型の食事指導＋トレーニング指導、月額16,170円（税込）〜（6ヶ月ダイエットプラン）の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "プレズ（Plez）オンラインパーソナルトレーニングの口コミ・評判をご紹介します。自宅完結型の食事指導＋トレーニング指導、月額16,170円（税込）〜（6ヶ月ダイエットプラン）の料金体系、メリット・デメリット、よくある質問について解説します。",
 };
 
 const affiliateUrl = "https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A";
@@ -25,30 +25,30 @@ const basicInfo = [
 const strengths = [
   {
     title: "オンライン完結で自宅からトレーニング",
-    desc: "ジムに通う必要がなく、自宅で好きな時間にトレーニングが可能。通勤・育児・家事で忙しい方でもスキマ時間を活用でき、天候や移動時間に左右されません。専用のトレーニング動画やプランで正しいフォームを学べます。",
+    desc: "ジムに通う必要がなく、自宅で好きな時間にトレーニングできます。通勤・育児・家事で忙しい方でもスキマ時間を活用でき、天候や移動時間に左右されません。専用のトレーニング動画やプランで正しいフォームを学べます。",
   },
   {
     title: "店舗型より抑えた料金設定",
-    desc: "プレズは月額16,170円（税込）〜（6ヶ月ダイエットプラン）＋入会金10,780円。公式サイトは「パーソナルジムの80%オフ」とうたっています（公式の比較で、当サイトの調査ではありません）。サプリ等の物販はなく、指導料・入会金以外の料金はかからないと公式に書かれています。",
+    desc: "プレズは月額16,170円（税込）〜（6ヶ月ダイエットプラン）＋入会金10,780円です。公式サイトは「パーソナルジムの80%オフ」とうたっています（公式の比較で、当サイトの調査ではありません）。サプリ等の物販はなく、指導料・入会金以外の料金はかからないと公式に書かれています。",
   },
   {
-    title: "LINEでトレーナーと気軽にやり取り",
-    desc: "食事報告やトレーニングの質問はLINEで完結。連絡はいつでも何回でも送れ、担当からのアドバイスは1日1回まとめて届きます（週2日と祝日は休み）。対面では聞きにくい些細な疑問も相談しやすい形式です。",
+    title: "LINEでトレーナーとやり取りできる",
+    desc: "食事報告やトレーニングの質問はLINEで完結します。連絡はいつでも何回でも送れ、担当からのアドバイスは1日1回まとめて届きます（週2日と祝日は休み）。対面では聞きにくい些細な疑問も相談しやすい形式です。",
   },
 ];
 
 const merits = [
   {
     title: "ジム通い不要で時間を節約",
-    desc: "移動時間ゼロでトレーニングが始められるため、仕事帰りや早朝の自宅トレーニングも可能。ジムの営業時間に縛られず、自分のペースで続けやすい環境です。",
+    desc: "移動時間ゼロでトレーニングが始められるため、仕事帰りや早朝の自宅トレーニングにも対応できます。ジムの営業時間に縛られず、自分のペースで続けやすい環境です。",
   },
   {
     title: "低価格で食事指導まで含まれている",
-    desc: "月額16,170円（税込）〜で食事指導＋トレーニング指導がセット。一般的なパーソナルジムでは食事指導がオプション料金になることが多い中、プレズは追加料金なしで総合的なボディメイクサポートが受けられます。",
+    desc: "月額16,170円（税込）〜で食事指導とトレーニング指導の両方を受けられます。一般的なパーソナルジムでは食事指導がオプション料金になることが多い中、プレズは追加料金なしで総合的なボディメイクサポートが受けられます。",
   },
   {
     title: "全国どこからでも利用可能",
-    desc: "LINEで指導を受けるため「全国どこでもOK」と公式に書かれています。近くにパーソナルジムがない方にとって、プロの指導を受けられる選択肢です。",
+    desc: "LINEで指導を受ける形式のため、公式サイトには「全国どこでもOK」と記載されています。近くにパーソナルジムがない方にとって、プロの指導を受けられる選択肢です。",
   },
 ];
 
@@ -117,7 +117,7 @@ export default function PlezReview() {
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/plez.jpg" alt="プレズ（Plez）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">プレズ（Plez） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">プレズ（Plez） 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="plez" name="プレズ（Plez）" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -145,7 +145,7 @@ export default function PlezReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          プレズ（Plez）はオンライン完結型のパーソナルトレーニングサービスです。ジム通い不要で、自宅にいながらプロのトレーナーから<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>＋トレーニング指導が受けられます。月額16,170円（税込）〜（6ヶ月ダイエットプラン）という低価格が特徴。本記事では、プレズの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          プレズ（Plez）はオンライン完結型のパーソナルトレーニングサービスです。ジム通い不要で、自宅にいながらプロのトレーナーから<span className="font-bold bg-yellow-100 px-0.5">食事指導</span>＋トレーニング指導が受けられます。月額16,170円（税込）〜（6ヶ月ダイエットプラン）という低価格が特徴です。本記事では、プレズの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         {/* 基本情報 */}
@@ -237,7 +237,7 @@ export default function PlezReview() {
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
             <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合ったプランをご提案します</p>
             <a href="https://t.felmat.net/fmcl?ak=D3361D.1.P68082F.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -272,7 +272,7 @@ export default function PlezReview() {
         {/* CTA */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">プレズが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <a
             href={affiliateUrl}
             target="_blank"

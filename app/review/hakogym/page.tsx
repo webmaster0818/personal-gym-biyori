@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "ハコジムの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "ハコジムの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "ハコジムの口コミ・評判を徹底解説。完全個室レンタルジム・セルフ型の料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "ハコジムの口コミ・評判を解説します。完全個室のセルフ型レンタルジムについて、料金体系、メリット・デメリット、よくある質問をまとめています。",
 };
 
 const basicInfo = [
@@ -25,8 +25,8 @@ const strengths = [
     desc: "一室一人の完全個室レンタルジムのため、他の利用者と顔を合わせることがありません。音楽をかけながら自分のペースでトレーニングでき、服装も自由です。",
   },
   {
-    title: "月額3,800円〜の圧倒的低価格",
-    desc: "パーソナルジムの中ではなく、一般的なフィットネスジムと比較しても低価格な料金設定。完全個室でありながらこの価格帯は業界でも珍しい存在です。",
+    title: "月額3,800円〜の低価格な料金設定",
+    desc: "パーソナルジムの中ではなく、一般的なフィットネスジムと比較しても低価格な料金設定です。完全個室でこの価格帯のジムは多くありません。",
   },
   {
     title: "セルフ型で自由度が高い",
@@ -36,8 +36,8 @@ const strengths = [
 
 const merits = [
   {
-    title: "圧倒的なコストパフォーマンス",
-    desc: "月額3,800円〜で完全個室のジムが利用できるのは、他に類を見ないコストパフォーマンスです。一般的なフィットネスジムよりも安い場合があります。",
+    title: "費用対効果の高さ",
+    desc: "月額3,800円〜で完全個室のジムを利用でき、費用対効果の高い料金設定です。一般的なフィットネスジムよりも安い場合があります。",
   },
   {
     title: "完全個室で自分だけの空間",
@@ -51,7 +51,7 @@ const merits = [
 
 const demerits = [
   {
-    title: "トレーナーの指導は受けられない（セルフ型）",
+    title: "トレーナーの指導がない点（セルフ型）",
     desc: "基本的にセルフトレーニングのため、フォームの指導やメニューの作成は自分で行う必要があります。初心者には不安に感じる場合があります。",
   },
   {
@@ -60,7 +60,7 @@ const demerits = [
   },
   {
     title: "展開エリアが限定的",
-    desc: "広島を中心とした展開のため、他地域では利用できません。今後の店舗拡大に期待されています。",
+    desc: "広島を中心とした展開のため、他地域では利用できない場合があります。",
   },
 ];
 
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "プレミアムプラン", duration: "使い放題+オプション", price: "月額8,800円〜", note: "全店舗利用可など" },
 ];
 
-const reviewSummary = "ハコジムの口コミでは「この料金で個室は最高」「人目を気にせず集中できる」と低価格と個室のコンビネーションが大好評です。自分のペースでトレーニングしたい経験者から特に支持されています。一方で「初心者にはフォーム指導がないのが不安」「設備が限定的」という声もあります。";
+const reviewSummary = "ハコジムの口コミでは「この料金で個室を使えるのは良い」「人目を気にせず集中できる」など、低価格と個室の組み合わせが好評です。自分のペースでトレーニングしたい経験者から特に支持されています。一方で「初心者にはフォーム指導がないのが不安」「設備が限定的」という声もあります。";
 
 const faqItems = [
   { q: "ハコジムにトレーナーはいますか？", a: "基本的にセルフ型のため常駐のトレーナーはいません。ただし、オプションでパーソナルトレーニングが受けられる場合もあります。詳細は公式サイトでご確認ください。" },
@@ -78,7 +78,7 @@ const faqItems = [
   { q: "予約なしでも利用できますか？", a: "予約制です。アプリやWebから空き状況を確認し、予約してからご利用ください。" },
   { q: "どのような設備がありますか？", a: "ダンベル、ベンチ、ケーブルマシンなど基本的なトレーニング設備が備わっています。店舗により設備内容が異なります。" },
   { q: "広島以外に店舗はありますか？", a: "広島を中心に展開していますが、他エリアへの出店も進んでいます。最新の店舗情報は公式サイトでご確認ください。" },
-  { q: "1回の利用時間は？", a: "1枠あたり50分〜60分程度です。プランや店舗により異なります。" },
+  { q: "1回の利用時間を教えてください。", a: "1枠あたり50分〜60分程度です。プランや店舗により異なります。" },
 ];
 
 const faqJsonLd = {
@@ -106,7 +106,7 @@ export default function HakogymReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "ハコジム" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">ハコジムの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">ハコジムの口コミ・評判｜料金・メリット・デメリットを解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/hakogym.jpg" alt="ハコジムの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -132,7 +132,7 @@ export default function HakogymReview() {
         <ReviewSummary gymName="ハコジム" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ハコジムは<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・セルフ型のレンタルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">3,800円</span>〜という圧倒的な低価格で、人目を気にせずトレーニングできる個室空間を提供。本記事では、ハコジムの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ハコジムは<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・セルフ型のレンタルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">3,800円</span>〜という低価格で、人目を気にせずトレーニングできる個室空間を提供しています。本記事では、ハコジムの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -187,7 +187,7 @@ export default function HakogymReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">ハコジムが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは公式サイトで最寄りの店舗と料金プランをチェックしてみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">最寄りの店舗と料金プランは、公式サイトにてご確認ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

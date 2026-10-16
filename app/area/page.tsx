@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "エリア別パーソナルジムおすすめ一覧【全国35エリア】",
   description:
-    "パーソナルジムのおすすめをエリア別に紹介。新宿・渋谷・銀座など東京主要エリアから、横浜・大阪・名古屋・福岡・札幌まで全国35エリアの料金相場と選び方をまとめています。全店網羅の都市別データベースも別途公開中です。",
+    "パーソナルジムのおすすめをエリア別にご紹介します。新宿・渋谷・銀座など東京主要エリアから、横浜・大阪・名古屋・福岡・札幌まで全国35エリアの料金相場と選び方をまとめています。都市別の全店データベースも公開しています。",
 };
 
 const REGIONS: { region: string; areas: { slug: string; name: string }[] }[] = [
@@ -81,8 +81,8 @@ export default function AreaIndexPage() {
       <h1 className="mt-2 text-2xl font-bold sm:text-3xl">エリア別パーソナルジムおすすめ一覧</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         パーソナルジムのおすすめと料金相場を、全国35エリア別にまとめています。
-        「まず候補を絞りたい」方はこの下のエリア記事へ、「エリアの全店をもれなく見たい」方は
-        <Link href="/db/" className="underline text-blue-700">都市別の全店データベース</Link>(Googleマップ実測)をご覧ください。
+        候補を絞り込みたい方は下記のエリア記事を、エリア内の全店を確認したい方は
+        <Link href="/db/" className="underline text-blue-700">都市別の全店データベース</Link>(Googleマップの掲載データ)をご覧ください。
       </p>
 
       {REGIONS.map((r) => (
@@ -105,9 +105,9 @@ export default function AreaIndexPage() {
       <section className="mt-10 rounded-lg border border-gray-200 bg-gray-50 p-5 text-sm leading-relaxed text-gray-600">
         <h2 className="text-base font-bold text-gray-900">エリア記事とデータベースの違い</h2>
         <p className="mt-2">
-          エリア記事は編集部がおすすめを絞って料金・特徴を比較したページ、
-          <Link href="/db/" className="underline text-blue-700">都市別データベース</Link>は提携の有無に関係なく実在確認できた全店を口コミ件数順に載せたページです。
-          両方を見比べると、候補の絞り込みと取りこぼしの確認が同時にできます。
+          エリア記事は、編集部がおすすめを絞り込み、料金・特徴を比較したページです。
+          <Link href="/db/" className="underline text-blue-700">都市別データベース</Link>は、提携の有無に関係なく実在を確認できた全店を口コミ件数順に掲載したページです。
+          両方を併せてご覧いただくと、候補の絞り込みと見落としの確認を同時に行えます。
         </p>
       </section>
     </main>

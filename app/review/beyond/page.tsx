@@ -11,7 +11,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "BEYOND（ビヨンド）の口コミ・評判｜悪い口コミ・料金・勧誘を公式情報で検証",
   description:
-    "BEYONDの口コミ・評判を徹底解説。コンテスト入賞トレーナーによる本格ボディメイク指導、糖質制限なしの食事指導、マンスリー月2回17,600円〜の料金体系からメリット・デメリット、Googleマップの口コミ分析まで網羅。",
+    "BEYONDの口コミ・評判をご紹介します。コンテスト入賞トレーナーによる本格的なボディメイク指導、糖質制限を行わない食事指導、マンスリー月2回17,600円〜の料金体系、メリット・デメリット、Googleマップの口コミ分析を掲載しています。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -27,7 +27,7 @@ const basicInfo = [
 const strengths = [
   {
     title: "コンテスト入賞者が直接指導",
-    desc: "BEYONDのトレーナーはボディビルやフィジークのコンテスト入賞経験者が多数在籍しています。自らの体で結果を証明してきたトレーナーから指導を受けられるため、説得力と信頼性が段違いです。「本物のプロに教わりたい」という方に選ばれています。",
+    desc: "BEYONDのトレーナーはボディビルやフィジークのコンテスト入賞経験者が多数在籍しています。自らの体で結果を証明してきたトレーナーから指導を受けられるため、説得力と信頼性の高い指導を受けられます。「本格的な指導を受けたい」という方に選ばれています。",
   },
   {
     title: "ボディメイク特化の本格指導",
@@ -35,14 +35,14 @@ const strengths = [
   },
   {
     title: "糖質制限ではない食事指導",
-    desc: "BEYONDの食事指導は極端な糖質制限を行いません。トレーニングのパフォーマンスを維持しながら体を変えるため、適切な栄養バランスでの食事管理を提案します。食事を楽しみながら体づくりができるため、継続しやすいと評判です。",
+    desc: "BEYONDの食事指導は極端な糖質制限を行いません。トレーニングのパフォーマンスを維持しながら体を変えるため、適切な栄養バランスでの食事管理を提案します。食事を楽しみながら体づくりができるため、継続しやすいと評価されています。",
   },
 ];
 
 /* ---------- メリット ---------- */
 const merits = [
   {
-    title: "トレーナーの質が業界トップクラス",
+    title: "トレーナーの質の高さ",
     desc: "BEYONDの最大の強みはトレーナーの質の高さです。フィジーク・ボディビルのコンテスト入賞経験者が多く、自らの体で結果を出してきた実績があります。トレーニングの理論だけでなく、実践に基づいた指導が受けられるため、フォームの細かい修正やメニュー設計の精度が他社と比べて高い水準にあります。",
   },
   {
@@ -50,7 +50,7 @@ const merits = [
     desc: "初心者向けのジムが多い中、BEYONDはトレーニング経験者や上級者にも対応できる指導力を持っています。自己流で伸び悩んでいる方や、さらにレベルアップしたい方にとって、プロの目線からのアドバイスは大きな価値があります。コンテスト出場を目指す方のサポートも行っています。",
   },
   {
-    title: "糖質制限なしで無理のない食事管理",
+    title: "糖質制限を行わない、無理のない食事管理",
     desc: "糖質を過度に制限せず、たんぱく質・脂質・炭水化物のバランスを整える食事指導を行います。トレーニングに必要なエネルギーを確保しながら体脂肪を落とすアプローチのため、力が出ない・集中力が続かないといった糖質制限の弊害を避けられます。日常の食事を大きく変える必要がないため、長期間の継続が可能です。",
   },
 ];
@@ -58,7 +58,7 @@ const merits = [
 /* ---------- デメリット ---------- */
 const demerits = [
   {
-    title: "ダイエット目的には向かない場合も",
+    title: "ダイエット目的には向かない場合がある",
     desc: "BEYONDはボディメイク特化のジムであるため、「とにかく体重を落としたい」というダイエット目的の方には最適ではない場合があります。体重の数字よりもボディラインや筋肉量の変化を重視する傾向があるため、体重計の数字にこだわる方は期待とのギャップを感じることがあります。",
   },
   {
@@ -67,7 +67,7 @@ const demerits = [
   },
   {
     title: "料金がやや高め",
-    desc: "ライフプランニング16回で290,400円（税込）、回数券10回で102,300円（税込）と、パーソナルジムとしては中〜高価格帯に位置しています。回数券での利用も可能ですが、1回あたりの単価は安くはありません。トレーナーの質の高さを考慮すると妥当という声もありますが、予算重視の方には他の選択肢も検討すべきでしょう。",
+    desc: "ライフプランニング16回で290,400円（税込）、回数券10回で102,300円（税込）と、パーソナルジムとしては中〜高価格帯に位置しています。回数券での利用も可能ですが、1回あたりの単価は安くはありません。トレーナーの質の高さを考慮すると妥当という声もありますが、予算を重視する方には、他の選択肢との比較検討をおすすめします。",
   },
 ];
 
@@ -91,12 +91,12 @@ const reviewCategories = [
     summary: "トレーナーの質は口コミ全体を通じて最も評価が高い項目です。コンテスト経験者ならではの実践的な指導力と、丁寧な対応が支持されています。",
   },
   {
-    title: "料金・コスパ",
-    summary: "トレーナーの質の高さを考慮するとコスパは良いという意見が多い一方、絶対額としては高めとの声もあります。回数券の活用でコストを抑える利用者も見られます。",
+    title: "料金・費用対効果",
+    summary: "トレーナーの質の高さを考慮すると費用対効果は高いという意見が多い一方、絶対額としては高めとの声もあります。回数券の活用でコストを抑える利用者も見られます。",
   },
   {
     title: "ボディメイク効果",
-    summary: "ボディラインの変化に関する満足度は高く、特に筋肉をつけながら脂肪を落とす「ボディリコンポジション」の実現に成功している利用者が多いです。",
+    summary: "ボディラインの変化に関する満足度は高く、特に筋肉をつけながら脂肪を落とす「ボディリコンポジション」の実現に成功している利用者が多く見られます。",
   },
   {
     title: "食事指導",
@@ -104,7 +104,7 @@ const reviewCategories = [
   },
   {
     title: "施設・設備",
-    summary: "清潔感のある施設と充実したトレーニング機器が評価されています。フリーウェイトの種類が豊富な点は、筋トレ愛好家からも好評です。",
+    summary: "清潔感のある施設と充実したトレーニング機器が評価されています。フリーウェイトの種類が豊富な点は、トレーニング経験者からも好評です。",
   },
   {
     title: "予約の取りやすさ",
@@ -112,7 +112,7 @@ const reviewCategories = [
   },
   {
     title: "初心者への対応",
-    summary: "ボディメイク特化のイメージから上級者向けと思われがちですが、初心者への対応も丁寧との評価が多いです。",
+    summary: "ボディメイク特化のイメージから上級者向けと思われがちですが、初心者への対応も丁寧との評価が多く見られます。",
   },
   {
     title: "立地・アクセス",
@@ -120,7 +120,7 @@ const reviewCategories = [
   },
   {
     title: "コンテストサポート",
-    summary: "フィジークやボディビルのコンテスト出場を目指す利用者からの支持が厚いです。経験豊富なトレーナーによる実践的なサポートが好評です。",
+    summary: "フィジークやボディビルのコンテスト出場を目指す利用者からの支持が厚い傾向にあります。経験豊富なトレーナーによる実践的なサポートが好評です。",
   },
   {
     title: "継続のしやすさ",
@@ -131,13 +131,13 @@ const reviewCategories = [
 /* ---------- FAQ ---------- */
 const faqItems = [
   { q: "BEYONDに入会金はかかりますか？", a: "いいえ、BEYONDは全プラン入会金無料です。コース料金のみでパーソナルトレーニングを始められます。" },
-  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多数在籍しています。基礎的なマシンの使い方から丁寧に指導してもらえます。ボディメイク特化ですが、初心者向けのメニューも充実しています。" },
+  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多く在籍しています。基礎的なマシンの使い方から丁寧な指導を受けられます。ボディメイク特化ですが、初心者向けのメニューも充実しています。" },
   { q: "糖質制限はありますか？", a: "BEYONDでは極端な糖質制限は行いません。PFCバランス（たんぱく質・脂質・炭水化物の比率）を整える食事指導を行い、トレーニングのパフォーマンスを維持しながら体を変えていきます。" },
   { q: "1回のトレーニング時間はどのくらいですか？", a: "1回あたり約55分のトレーニングです。着替え・準備を含めると約75分を見込んでください。" },
-  { q: "コンテスト出場を目指していなくても通えますか？", a: "もちろんです。コンテスト出場者の指導実績は豊富ですが、ダイエットや健康維持、姿勢改善など、さまざまな目的で利用されています。" },
-  { q: "回数券とコースの違いは？", a: "回数券はトレーニングのみで食事指導は含まれません。ライフプランニングコースは食事指導やLINE相談が含まれる総合的なプログラムです。目的に応じて選択してください。" },
-  { q: "女性でも通いやすい環境ですか？", a: "女性利用者も多く、女性トレーナーも在籍しています。ボディメイクに興味のある女性から支持されており、美しいボディラインを目指す方に最適な環境です。" },
-  { q: "無料体験やカウンセリングはありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。実際のトレーニングを体験した上で入会を検討できます。公式サイトから予約できます。" },
+  { q: "コンテスト出場を目指していなくても通えますか？", a: "はい、通えます。コンテスト出場者の指導実績は豊富ですが、ダイエットや健康維持、姿勢改善など、さまざまな目的で利用されています。" },
+  { q: "回数券とコースの違いを教えてください。", a: "回数券はトレーニングのみで食事指導は含まれません。ライフプランニングコースは食事指導やLINE相談が含まれる総合的なプログラムです。目的に応じて選択してください。" },
+  { q: "女性でも通いやすい環境ですか？", a: "女性利用者も多く、女性トレーナーも在籍しています。ボディメイクに興味のある女性から支持されており、美しいボディラインを目指す方に適した環境です。" },
+  { q: "無料体験やカウンセリングはありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。実際のトレーニングを体験したうえで入会を検討できます。公式サイトから予約できます。" },
 ];
 
 const faqJsonLd = {
@@ -247,7 +247,7 @@ export default function BeyondReview() {
             <li><a href="#s6" className="text-teal-600 hover:underline">BEYONDの口コミ分析</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">BEYONDの店舗一覧(都道府県別)</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">他のジムと比較</a></li>
-            <li><a href="#s9" className="text-teal-600 hover:underline">BEYONDの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">BEYONDの口コミの傾向（実際の口コミを編集部が読んで要約・2026年9月6日取得）</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">BEYONDのよくある質問</a></li>
             <li><a href="#s11" className="text-teal-600 hover:underline">BEYONDの店舗一覧</a></li>
             <li><a href="#s12" className="text-teal-600 hover:underline">BEYONDが気になった方へ</a></li>
@@ -384,8 +384,8 @@ export default function BeyondReview() {
         {/* 中間CTA */}
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
-            <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="font-bold text-lg mb-2">無料カウンセリングのご案内</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合ったプランをご提案します</p>
             <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -398,7 +398,7 @@ export default function BeyondReview() {
           </p>
 
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて載せることはしない方針のため）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上の「Googleマップ実測データ」に掲載しています。</p>
+            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どのような傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて掲載しない方針のためです）。実際の投稿は、下記リンクからGoogleマップでご確認ください。検証できる数値は、下のGoogleマップのデータに掲載しています。</p>
             <p className="text-xs text-yellow-700 mt-1">
               出典: <a href="https://www.google.com/maps/search/BEYOND+%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/BEYOND パーソナルジム/</a>
             </p>
@@ -417,7 +417,7 @@ export default function BeyondReview() {
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
         <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">BEYONDの店舗一覧(都道府県別)</h2>
-        <p className="text-xs text-gray-500 mb-4">当サイトの実測データベースで実在確認できた店舗です。店舗名のリンクはBEYOND公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
+        <p className="text-xs text-gray-500 mb-4">当サイトの店舗データベースで実在を確認できた店舗です。店舗名のリンクはBEYOND公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
         <div className="mb-12">
           <div className="mb-4">
             <h3 className="font-bold text-sm text-gray-800 mb-2">北海道</h3>
@@ -558,7 +558,7 @@ export default function BeyondReview() {
         </div>
 
           <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">BEYONDと他の人気ジムを比較しました。</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">BEYONDと他の主要なジムを比較しています。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -608,7 +608,7 @@ export default function BeyondReview() {
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50">
                   <td className="px-3 py-2 font-medium text-gray-800">特徴</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">トレーナー質◎</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">トレーナーの質</td>
                   <td className="px-3 py-2 text-center text-gray-700">結果コミット</td>
                   <td className="px-3 py-2 text-center text-gray-700">住宅街密着</td>
                   <td className="px-3 py-2 text-center text-gray-700">深夜営業</td>
@@ -626,10 +626,10 @@ export default function BeyondReview() {
 
         {/* 口コミの傾向(編集部要約) */}
         <section className="mb-12">
-          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDの口コミの傾向（実際の口コミを編集部が読んで要約・2026年9月6日取得）</h2>
           <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
-            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「トレーナーが明るくフレンドリーで楽しく続けられる」という相性面の評価が圧倒的に多く、「極端な食事制限をせず生活に合わせて調整してくれる」食事指導への言及、大会出場者への専門的な指導など目的別対応の声もあります。5ヶ月で体重以外の変化も出た、という中期の成果報告が見られます。</p>
-            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——「特定のトレーナーを追いかけて店舗を移った」という声が複数あるほど、満足度がトレーナー個人に紐づく傾向が強いブランドです。無料カウンセリング・体験で担当者との相性を確かめてから決めるのがおすすめです。新規オープン店では開店前の応援投稿が混ざる例もあり、件数は割り引いて見るのが安全です。</p>
+            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「トレーナーが明るくフレンドリーで楽しく続けられる」という相性面の評価が特に多く、「極端な食事制限をせず生活に合わせて調整してくれる」食事指導への言及、大会出場者への専門的な指導など目的別対応の声もあります。5ヶ月で体重以外の変化も出たという、中期的な成果の報告も見られます。</p>
+            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——「特定のトレーナーを追いかけて店舗を移った」という声が複数あるほど、満足度がトレーナー個人に紐づく傾向が強いブランドです。無料カウンセリング・体験で担当者との相性を確かめたうえでの入会をおすすめします。新規オープン店では開店前の応援投稿が含まれる例もあるため、件数は割り引いてお読みください。</p>
             <p className="text-xs text-gray-400">※Googleマップの複数店舗(新宿・大阪・福岡ほか)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・トレーナー・時期により異なります。</p>
           </div>
         </section>
@@ -703,7 +703,7 @@ export default function BeyondReview() {
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s12" className="text-xl font-bold mb-3">BEYONDが気になった方へ</h2>
           <p className="text-teal-100 text-sm mb-6">
-            まずは無料カウンセリング・体験トレーニングで、トレーナーの質を体感してみましょう。
+            まずは無料カウンセリング・体験トレーニングで、トレーナーの指導内容をご確認ください。
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">

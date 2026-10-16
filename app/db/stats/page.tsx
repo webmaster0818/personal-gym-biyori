@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "パーソナルジムの口コミ・評点 全国統計【32都市1,878店を実測】評点4.8以上が85.7%という現実",
+  title: "パーソナルジムの口コミ・評点 全国統計【32都市1,878店のデータ】評点4.8以上が85.7%",
   description:
-    "全国32都市のパーソナルジム1,878店をGoogleマップで実測(2026年8月29日取得・9月2日集計)した独自統計。評点4.8以上が85.7%・満点5.0が52.8%を占め「評点では選べない」実態、口コミ件数の中央値29件、大手チェーンの店舗数・平均評点の差まで、実数データで公開します。",
+    "全国32都市のパーソナルジム1,878店のGoogleマップ掲載データ（2026年8月29日取得・9月2日集計）にもとづく独自統計です。評点4.8以上が85.7%、満点5.0が52.8%を占め、評点だけでは選びにくい実態のほか、口コミ件数の中央値（29件）や大手チェーンの店舗数・平均評点の差を掲載しています。",
 };
 
 const top10 = [
@@ -33,16 +33,16 @@ const brandRows = [
 
 const faqs = [
   {
-    q: "この統計はどうやって作っていますか？",
-    a: "当サイトが公開している32都市のパーソナルジム全店データベース(Googleマップ実測・2026年8月29日一斉取得)の1,878店を、2026年9月2日に集計したものです。評点・口コミ件数は取得時点のGoogleマップ表示値で、当サイトによる評価や推定は含みません。",
+    q: "この統計はどのように作成していますか？",
+    a: "当サイトが公開している32都市のパーソナルジム全店データベース（Googleマップの掲載データ・2026年8月29日一斉取得）の1,878店を、2026年9月2日に集計したものです。評点・口コミ件数は取得時点のGoogleマップ表示値で、当サイトによる評価や推定は含みません。",
   },
   {
-    q: "評点4.8以上が85.7%なら、評点は見なくていいのですか？",
-    a: "評点の絶対値だけでは差がつかない、というのが実測から言える結論です(満点5.0だけで52.8%)。一方で口コミ件数は中央値29件に対して300件以上がわずか2.1%と大きく差がつくため、「件数の多さ×通いやすさ×料金体系」で絞る方が実用的です。評点が4.5を下回る店は全体の中では少数派なので、その場合は口コミの内容まで読むことをおすすめします。",
+    q: "評点4.8以上が85.7%であれば、評点は参考にしなくてよいのですか？",
+    a: "評点の絶対値だけでは差がつかない、というのが取得データから言える結論です（満点5.0だけで52.8%）。一方で口コミ件数は中央値29件に対して300件以上がわずか2.1%と大きく差がつくため、「件数の多さ×通いやすさ×料金体系」で絞り込むほうが実用的です。評点が4.5を下回る店舗は全体の中では少数のため、その場合は口コミの内容まで確認することをおすすめします。",
   },
   {
-    q: "大手チェーンの評点が低めなのはなぜですか？",
-    a: "店舗数が多いチェーンほど口コミの母数が増え、評価が厳しめに収れんする傾向があります(実測ではRIZAP平均4.47・24/7Workout平均4.67など)。これはサービスの優劣を直接示すものではなく、少人数の常連が高評価を付けやすい個人店との構造差も影響します。数値は2026年8月29日取得時点の実測平均です。",
+    q: "大手チェーンの評点が低い傾向にあるのはなぜですか？",
+    a: "店舗数が多いチェーンほど口コミの母数が増え、評価が厳しめに収れんする傾向があります（取得データではRIZAP平均4.47・24/7Workout平均4.67など）。これはサービスの優劣を直接示すものではなく、少人数の常連客が高評価を付けやすい個人店との構造的な違いも影響しています。数値は2026年8月29日取得時点の平均です。",
   },
 ];
 
@@ -57,13 +57,13 @@ export default function DbStatsPage() {
     <main className="mx-auto max-w-4xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <p className="text-xs text-gray-400"><Link href="/db/" className="underline">全店データベース</Link> &gt; 全国統計</p>
-      <h1 className="mt-2 text-2xl font-bold sm:text-3xl">パーソナルジムの口コミ・評点 全国統計【32都市1,878店を実測】</h1>
+      <h1 className="mt-2 text-2xl font-bold sm:text-3xl">パーソナルジムの口コミ・評点 全国統計【32都市1,878店のデータ】</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
-        当サイトの<Link href="/db/" className="underline text-blue-700">32都市・全店データベース</Link>(Googleマップ実測・2026年8月29日一斉取得)に収録した1,878店を集計した独自統計です。
-        「評点4.9だから良い店」という選び方がなぜ機能しないのか、実数でわかります。数値は全て実測値で、推定・創作はありません。
+        当サイトの<Link href="/db/" className="underline text-blue-700">32都市・全店データベース</Link>（Googleマップの掲載データ・2026年8月29日一斉取得）に収録した1,878店を集計した独自統計です。
+        評点の高さだけでジムを選ぶ方法が機能しにくい理由を、数値で示しています。数値はすべて取得データにもとづくもので、推定・創作はありません。
       </p>
 
-      <h2 className="mt-10 text-lg font-bold">1. 評点は「ほぼ全店が高評価」で差がつかない</h2>
+      <h2 className="mt-10 text-lg font-bold">1. 評点はほぼ全店が高評価で、差がつきにくい</h2>
       <div className="mt-3 grid grid-cols-3 gap-3 text-center">
         <div className="rounded-lg border border-gray-200 p-4"><p className="text-2xl font-bold text-blue-700">85.7%</p><p className="mt-1 text-xs text-gray-500">評点4.8以上</p></div>
         <div className="rounded-lg border border-gray-200 p-4"><p className="text-2xl font-bold text-blue-700">76.1%</p><p className="mt-1 text-xs text-gray-500">評点4.9以上</p></div>
@@ -71,10 +71,10 @@ export default function DbStatsPage() {
       </div>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         評点が判明している1,823店のうち、半数以上が満点5.0でした。パーソナルジムは担当トレーナーとの関係が近く、高評価に偏りやすい業態です。
-        つまり「評点4.9」はこの業界では平均的な数字であり、評点の絶対値でジムの優劣は判断できません。
+        つまり「評点4.9」はこの業界では平均的な数値です。評点の絶対値でジムの優劣を判断することはできません。
       </p>
 
-      <h2 className="mt-10 text-lg font-bold">2. 差がつくのは「口コミ件数」</h2>
+      <h2 className="mt-10 text-lg font-bold">2. 店舗間で差がつく口コミ件数</h2>
       <div className="mt-3 overflow-x-auto">
         <table className="w-full min-w-[480px] text-sm border border-gray-200">
           <tbody>
@@ -82,12 +82,12 @@ export default function DbStatsPage() {
             <tr className="border-t border-gray-200"><th className="bg-gray-50 px-3 py-2 text-left font-medium">平均</th><td className="px-3 py-2">56.8件</td></tr>
             <tr className="border-t border-gray-200"><th className="bg-gray-50 px-3 py-2 text-left font-medium">10件未満の店</th><td className="px-3 py-2">24.7%</td></tr>
             <tr className="border-t border-gray-200"><th className="bg-gray-50 px-3 py-2 text-left font-medium">100件以上の店</th><td className="px-3 py-2">17.0%</td></tr>
-            <tr className="border-t border-gray-200"><th className="bg-gray-50 px-3 py-2 text-left font-medium">300件以上の店</th><td className="px-3 py-2">2.1%(38店のみ)</td></tr>
+            <tr className="border-t border-gray-200"><th className="bg-gray-50 px-3 py-2 text-left font-medium">300件以上の店</th><td className="px-3 py-2">2.1%（38店）</td></tr>
           </tbody>
         </table>
       </div>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
-        評点と違い、口コミ件数は店舗間で大きく差がつきます。300件を超える店は全国でも38店(2.1%)しかなく、「多くの人が長く通って評価を残している」ことの希少なシグナルです。
+        評点と異なり、口コミ件数は店舗間で大きく差がつきます。300件を超える店舗は全国でも38店（2.1%）にとどまり、多くの利用者が長く通って評価を残していることを示す数少ない指標です。
       </p>
 
       <h2 className="mt-10 text-lg font-bold">3. 都市別・口コミ最多店ランキング</h2>
@@ -102,7 +102,7 @@ export default function DbStatsPage() {
         </table>
       </div>
 
-      <h2 className="mt-10 text-lg font-bold">4. 大手チェーンの店舗数と平均評点(収録分)</h2>
+      <h2 className="mt-10 text-lg font-bold">4. 大手チェーンの店舗数と平均評点（収録分）</h2>
       <div className="mt-3 overflow-x-auto">
         <table className="w-full min-w-[480px] text-sm border border-gray-200">
           <thead><tr className="bg-gray-50 text-left"><th className="px-3 py-2 font-medium">チェーン</th><th className="px-3 py-2 font-medium whitespace-nowrap">収録店舗数</th><th className="px-3 py-2 font-medium whitespace-nowrap">平均評点</th></tr></thead>
@@ -113,7 +113,7 @@ export default function DbStatsPage() {
           </tbody>
         </table>
       </div>
-      <p className="mt-2 text-xs text-gray-400">※当サイトDB収録分(32都市)のみの集計で、実際の全店舗数とは異なります。店名へのブランド名表記を基に機械集計しています。</p>
+      <p className="mt-2 text-xs text-gray-400">※当サイトのデータベース収録分（32都市）のみの集計で、実際の全店舗数とは異なります。店名のブランド名表記をもとに機械的に集計しています。</p>
 
       <h2 className="mt-10 text-lg font-bold">よくある質問</h2>
       <div className="mt-3 space-y-3">

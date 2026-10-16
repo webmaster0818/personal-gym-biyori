@@ -13,9 +13,9 @@ const services = [
     features: ["ボディメイク特化", "コンテスト入賞トレーナー在籍", "糖質制限なし", "全国75店舗以上"],
     pros: ["トレーナーの質が非常に高い", "見た目の変化にこだわれる", "全プラン入会金無料"],
     cons: ["店舗が都市部に集中", "プラン料金がやや複雑"],
-    recommend: "見た目を変えたい方、ボディメイクにこだわりたい方向け。",
+    recommend: "見た目を変えたい方、ボディメイクにこだわりたい方に適しています。",
     reviewPath: "/review/beyond/",
-    comment: "筋肉をつけて見た目を変えたいなら、トレーナーの質が高いBEYONDが最適です。",
+    comment: "筋肉をつけて見た目を変えたい方には、トレーナーの質が高いBEYONDが適しています。",
     affiliateUrl: "https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL",
   },
   {
@@ -25,11 +25,11 @@ const services = [
     tagline: "結果にコミットするパーソナルジム",
     price: "月額9,900円〜",
     features: ["結果にコミット", "食事指導付き", "30日間全額返金保証", "専属トレーナー制"],
-    pros: ["圧倒的な実績と知名度", "食事管理まで徹底サポート", "返金保証で安心して始められる"],
-    cons: ["他社と比べて料金が高め", "食事制限が厳しいと感じる方も"],
-    recommend: "本気で体を変えたい方、短期間で結果を出したい方向け。",
+    pros: ["実績と知名度が高い", "食事管理まで手厚くサポート", "返金保証があり始めやすい"],
+    cons: ["他社と比べて料金が高め", "食事制限を厳しいと感じる場合がある"],
+    recommend: "本気で体を変えたい方、短期間で結果を出したい方に適しています。",
     reviewPath: "/review/rizap/",
-    comment: "本気で結果を出したいなら間違いなし。食事管理の徹底度が他社とは段違いです。",
+    comment: "短期間で結果を出したい方に適しています。食事管理のサポートが手厚い点が特徴です。",
     affiliateUrl: "https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX",
   },
   {
@@ -41,9 +41,9 @@ const services = [
     features: ["マンツーマン指導", "東京17店舗", "住宅街に近い", "食事指導付き"],
     pros: ["住宅街に店舗があり通いやすい", "丁寧なマンツーマン指導", "月額制で続けやすい"],
     cons: ["東京エリアに限定", "大阪以外の地方展開が少ない"],
-    recommend: "東京で自宅近くのパーソナルジムを探している方におすすめ。",
+    recommend: "東京で自宅近くのパーソナルジムを探している方におすすめします。",
     reviewPath: "/review/habit/",
-    comment: "自宅から通いやすい立地と丁寧な指導が魅力。東京在住の方には特におすすめです。",
+    comment: "自宅から通いやすい立地と丁寧な指導が魅力です。東京在住の方に特におすすめします。",
     affiliateUrl: "https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A",
   },
   {
@@ -53,11 +53,11 @@ const services = [
     tagline: "AI×女性専用の月額7,678円〜サーキットジム",
     price: "月額7,678円〜",
     features: ["AI指導", "女性専用", "予約不要", "通い放題", "全国59店舗"],
-    pros: ["月額7,678円〜の圧倒的低価格", "AIだから人目を気にしない", "予約不要で好きな時に通える"],
+    pros: ["月額7,678円〜の低価格", "AI指導のため人目を気にせず利用できる", "予約不要で好きな時に通える"],
     cons: ["対人指導がない", "本格的な筋トレには不向き"],
-    recommend: "低価格で気軽に運動習慣をつけたい女性におすすめ。",
+    recommend: "低価格で気軽に運動習慣をつけたい女性におすすめします。",
     reviewPath: "/review/furdi/",
-    comment: "月額7,678円で通い放題は驚き。女性専用でAI指導なので気楽に通えます。",
+    comment: "月額7,678円で通い放題となる点が特徴です。女性専用でAI指導のため、気軽に通えます。",
     affiliateUrl: "https://t.felmat.net/fmcl?ak=F6058J.1.T101150Z.Q136169A",
   },
   {
@@ -69,9 +69,9 @@ const services = [
     features: ["格安月額制", "完全個室", "マンツーマン指導", "東京25店舗"],
     pros: ["パーソナルジム業界最安級の料金", "月額制で辞めやすい", "完全個室で集中できる"],
     cons: ["セッション時間が短め", "店舗数が限られる"],
-    recommend: "パーソナルジムを試してみたいけど費用が不安な方の入門に最適。",
+    recommend: "パーソナルジムを試したいものの、費用が気になる方の入門に適しています。",
     reviewPath: "/review/nexus/",
-    comment: "月額2万円を切るパーソナルジムは貴重。まず試してみたい方にぴったりです。",
+    comment: "月額2万円を下回るパーソナルジムは多くありません。初めて試したい方に適しています。",
     affiliateUrl: "https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L",
   },
 ];
@@ -79,11 +79,11 @@ const services = [
 const faqItems = [
   {
     q: "パーソナルジムの相場はいくらですか？",
-    a: "パーソナルジムの月額料金は、一般的に月額6,000円〜30,000円程度です。短期集中プランの場合は総額20万円〜40万円が相場となります。本サイトで紹介しているジムは月額6,800円〜9,900円と、比較的リーズナブルなプランを提供しています。",
+    a: "パーソナルジムの月額料金は、一般的に月額6,000円〜30,000円程度です。短期集中プランの場合は総額20万円〜40万円が相場となります。当サイトで紹介しているジムは月額6,800円〜9,900円と、比較的リーズナブルなプランを提供しています。",
   },
   {
     q: "パーソナルジムは初心者でも大丈夫ですか？",
-    a: "はい、むしろ初心者にこそおすすめです。専属トレーナーが一人ひとりのレベルに合わせたメニューを作成するため、運動経験がなくても安心して始められます。正しいフォームも指導してもらえるため、怪我のリスクも低くなります。",
+    a: "はい。初心者の方にこそおすすめします。専属トレーナーが一人ひとりのレベルに合わせたメニューを作成するため、運動経験がなくても安心して始められます。正しいフォームの指導も受けられるため、怪我のリスクも低くなります。",
   },
   {
     q: "パーソナルジムに通う頻度はどのくらいですか？",
@@ -94,19 +94,19 @@ const faqItems = [
     a: "個人差はありますが、多くの方が2〜3ヶ月で見た目の変化を実感しています。体重の変化は1ヶ月目から見られることもあります。食事管理を並行して行うことで、より早く効果を実感できます。",
   },
   {
-    q: "パーソナルジムと普通のジムの違いは？",
-    a: "パーソナルジムは専属トレーナーがマンツーマンで指導するため、効率的なトレーニングが可能です。一般的なジムは自由に器具を使えますが、正しいフォームや最適なメニューは自分で調べる必要があります。確実に結果を出したい方はパーソナルジムがおすすめです。",
+    q: "パーソナルジムと一般的なジムの違いを教えてください。",
+    a: "パーソナルジムは専属トレーナーがマンツーマンで指導するため、効率的なトレーニングが可能です。一般的なジムは自由に器具を使えますが、正しいフォームや最適なメニューは自分で調べる必要があります。確実に結果を出したい方には、パーソナルジムをおすすめします。",
   },
   {
-    q: "パーソナルジムの食事指導とは？",
+    q: "パーソナルジムの食事指導とは何ですか？",
     a: "多くのパーソナルジムでは、トレーニングと併せて食事の指導を行います。毎食の食事内容を報告し、栄養バランスやカロリーのアドバイスを受けられます。LINEでの相談に対応しているジムも増えています。",
   },
   {
-    q: "パーソナルジムの返金保証とは？",
-    a: "一部のパーソナルジムでは、効果を感じられなかった場合に全額返金する保証制度を設けています。RIZAPの30日間全額返金保証や、24/7ワークアウトの全額返金制度などが代表的です。入会前に条件を確認しましょう。",
+    q: "パーソナルジムの返金保証とは何ですか？",
+    a: "一部のパーソナルジムでは、効果を感じられなかった場合に全額返金する保証制度を設けています。RIZAPの30日間全額返金保証や、24/7ワークアウトの全額返金制度などが代表的です。入会前に、公式サイトにて適用条件をご確認ください。",
   },
   {
-    q: "パーソナルジムを選ぶポイントは？",
+    q: "パーソナルジムを選ぶポイントを教えてください。",
     a: "重要なポイントは、料金体系・立地（通いやすさ）・トレーナーの質・プログラム内容・口コミ評価の5点です。無料カウンセリングや体験トレーニングを活用して、実際の雰囲気を確かめることをおすすめします。",
   },
 ];
@@ -179,16 +179,16 @@ export default function Home() {
               className="mt-5 text-[30px] font-bold leading-[1.5] tracking-[.02em] text-white sm:text-[46px] sm:leading-[1.4]"
               data-rv
             >
-              自分に合う1社を、<br />
-              数字で選ぶ。
+              公式料金と公開データで<br />
+              パーソナルジムを比較します
             </h1>
             <p className="mt-5 max-w-[34rem] text-[14px] leading-[2] text-white/85 sm:text-[16px]" data-rv>
-              パーソナルジム{BRAND_COUNT}社の料金を、各社の公式サイトで実査して並べました。
-              口コミの点数付けはしていません。
+              パーソナルジム{BRAND_COUNT}社の料金を、各社の公式サイトで確認して掲載しています。
+              当サイト独自の口コミ評点付けは行っていません。
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row" data-rv>
               <Link href="/concierge/" className="gb-btn gb-btn-primary">無料でジム診断をする</Link>
-              <Link href="#ranking" className="gb-btn gb-btn-onphoto">料金を比べる</Link>
+              <Link href="#ranking" className="gb-btn gb-btn-onphoto">料金を比較する</Link>
             </div>
           </div>
         </div>
@@ -199,9 +199,9 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
             {[
-              { value: "60社+", label: "厳選比較" },
+              { value: "60社+", label: "掲載ブランド" },
               { value: "全国", label: "対応エリア" },
-              { value: "料金", label: "徹底比較" },
+              { value: "料金", label: "公式サイトで確認" },
               { value: "口コミ", label: "多数掲載" },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-4">
@@ -220,7 +220,7 @@ export default function Home() {
             パーソナルジムおすすめランキング
           </h2>
           <p className="text-center text-gray-500 mb-10">
-            料金・口コミ・サービス内容を総合的に評価
+            料金・口コミ・サービス内容を総合的に評価しています
           </p>
 
         {/* D2: 統一スペック比較表(横スクロール) */}
@@ -286,7 +286,7 @@ export default function Home() {
                   <Link href={service.reviewPath}>
                     <div className="rounded-lg overflow-hidden border border-gray-200 mb-4">
                       <img src={`/ss-${service.slug}.jpg`} alt={`${service.name} 公式サイト`} className="w-full h-auto" loading="lazy" decoding="async" />
-                      <p className="text-[10px] text-gray-400 p-1 text-right">画像引用: 公式サイトより</p>
+                      <p className="text-[10px] text-gray-400 p-1 text-right">画像引用：公式サイト</p>
                     </div>
                   </Link>
 
@@ -370,7 +370,7 @@ export default function Home() {
       <section id="purpose" className="py-12 bg-orange-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-2">目的・条件から探す</h2>
-          <p className="text-gray-500 mb-6">女性専用・全額返金保証・分割払いOK・通い放題など、条件でパーソナルジムを比較</p>
+          <p className="text-gray-500 mb-6">女性専用・全額返金保証・分割払い対応・通い放題などの条件で、パーソナルジムを比較できます</p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/compare/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
               目的別パーソナルジム比較を見る
@@ -386,7 +386,7 @@ export default function Home() {
       <section id="area" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">エリア別で探す</h2>
-          <p className="text-center text-gray-500 mb-8">お住まいの地域からパーソナルジムを探す</p>
+          <p className="text-center text-gray-500 mb-8">お住まいの地域からパーソナルジムをお探しいただけます</p>
           <h3 className="text-sm font-bold text-gray-600 mb-3">主要都市</h3>
           <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 mb-6">
             {[
@@ -427,8 +427,8 @@ export default function Home() {
               </Link>
             ))}
           </div>
-          <h3 className="text-sm font-bold text-gray-600 mt-6 mb-3">全店データベース(Googleマップ実測・口コミ件数順)</h3>
-          <p className="text-xs text-gray-500 mb-3">提携の有無に関係なく、実在確認できた各都市のパーソナルジム全店を一覧できるデータベースです。</p>
+          <h3 className="text-sm font-bold text-gray-600 mt-6 mb-3">全店データベース（Googleマップの掲載データ・口コミ件数順）</h3>
+          <p className="text-xs text-gray-500 mb-3">提携の有無に関係なく、実在を確認できた各都市のパーソナルジム全店を一覧できるデータベースです。</p>
           <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2">
             {[
               { name: "新宿", slug: "shinjuku" }, { name: "渋谷", slug: "shibuya" }, { name: "池袋", slug: "ikebukuro" },
@@ -456,12 +456,12 @@ export default function Home() {
       <section id="purpose" className="py-16 bg-section-bg">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-2">目的別で探す</h2>
-          <p className="text-center text-gray-500 mb-8">あなたの目的に合ったジムを見つけよう</p>
+          <p className="text-center text-gray-500 mb-8">目的に合ったジムをお探しいただけます</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {[
               { title: "ダイエット", desc: "食事管理+運動で効率的に痩せたい方", badge: "人気" },
               { title: "ボディメイク", desc: "筋肉をつけて理想の体型を目指す方", badge: "注目" },
-              { title: "健康維持", desc: "運動不足を解消し健康的な体づくり", badge: "おすすめ" },
+              { title: "健康維持", desc: "運動不足を解消し、健康的な体づくりをしたい方", badge: "おすすめ" },
             ].map((purpose) => (
               <div
                 key={purpose.title}
@@ -482,7 +482,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl font-bold text-center mb-2">全ジム一覧</h2>
-          <p className="text-gray-500 text-center text-sm mb-8">60社以上のパーソナルジムを徹底比較</p>
+          <p className="text-gray-500 text-center text-sm mb-8">60社以上のパーソナルジムを掲載しています</p>
 
           <h3 className="text-sm font-bold text-accent mb-3">主要パーソナルジム</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-6">
@@ -603,11 +603,11 @@ export default function Home() {
       <section className="py-16 bg-primary-dark text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">
-            まずは無料カウンセリングから始めよう
+            無料カウンセリングのご案内
           </h2>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
             多くのパーソナルジムでは、無料カウンセリングや体験トレーニングを実施しています。
-            気になるジムがあれば、まずは相談してみましょう。
+            気になるジムがある場合は、無料カウンセリングで相談されることをおすすめします。
           </p>
           <Link
             href="#ranking"

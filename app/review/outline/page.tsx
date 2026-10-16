@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "OUTLINEの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "OUTLINEの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "OUTLINE（アウトライン）パーソナルジムの口コミ・評判を徹底解説。女性専用・完全個室・生涯アフターフォローの料金体系、メリット・デメリットを網羅。",
+    "OUTLINE（アウトライン）パーソナルジムの口コミ・評判をご紹介します。女性専用・完全個室・生涯アフターフォローの料金体系、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -23,15 +23,15 @@ const basicInfo = [
 const strengths = [
   {
     title: "生涯アフターフォロー",
-    desc: "コース卒業後も生涯にわたって食事・トレーニングのアドバイスが受けられる独自のアフターフォロー制度。リバウンド防止に大きく貢献する他社にない強みです。",
+    desc: "コース卒業後も生涯にわたって食事・トレーニングのアドバイスを受けられる独自のアフターフォロー制度です。リバウンド防止に役立つ、同社ならではの特徴です。",
   },
   {
     title: "女性専用の完全個室空間",
-    desc: "女性のお客様のみが利用する完全個室ジム。女性トレーナーも在籍しており、女性ならではの体の悩みを安心して相談できます。",
+    desc: "女性のお客様のみが利用する完全個室ジムです。女性トレーナーも在籍しており、女性ならではの体の悩みを安心して相談できます。",
   },
   {
     title: "高品質なトレーニング指導",
-    desc: "採用率3%以下の厳選されたトレーナーが在籍。一人ひとりの体質や目標に合わせた最適なプログラムを設計し、効率的なボディメイクを実現します。",
+    desc: "採用率3%以下の選考を経たトレーナーが在籍しています。一人ひとりの体質や目標に合わせた最適なプログラムを設計し、効率的なボディメイクを実現します。",
   },
 ];
 
@@ -46,22 +46,22 @@ const merits = [
   },
   {
     title: "手ぶらで通える充実のアメニティ",
-    desc: "ウェア・シューズ・タオル・アメニティが無料レンタル。仕事帰りでも手ぶらで通えるので、継続しやすい環境が整っています。",
+    desc: "ウェア・シューズ・タオル・アメニティは無料でレンタルできます。仕事帰りでも手ぶらで通えるため、継続しやすい環境が整っています。",
   },
 ];
 
 const demerits = [
   {
     title: "男性は利用できない",
-    desc: "女性専用のため男性は利用不可。パートナーと一緒に通いたい場合は別のジムを検討する必要があります。",
+    desc: "女性専用のため、男性は利用できません。パートナーと一緒に通いたい場合は別のジムを検討する必要があります。",
   },
   {
     title: "展開エリアが限定的",
-    desc: "東京・神奈川が中心のため、他の地域からは通いにくい場合があります。今後の店舗拡大に期待です。",
+    desc: "東京・神奈川が中心のため、他の地域からは通いにくい場合があります。",
   },
   {
     title: "コース料金は一括払いが基本",
-    desc: "コース制のため、まとまった費用が初期に必要になります。分割払いに対応している場合もあるので、相談してみましょう。",
+    desc: "コース制のため、まとまった費用が初期に必要になります。分割払いに対応している場合もあるため、カウンセリング時にご相談ください。",
   },
 ];
 
@@ -76,7 +76,7 @@ const reviewSummary = "OUTLINEの口コミでは「生涯アフターフォロ�
 const faqItems = [
   { q: "OUTLINEの入会金はいくらですか？", a: "入会金は33,000円〜55,000円程度です。キャンペーンで無料になることもあります。" },
   { q: "生涯アフターフォローとは何ですか？", a: "コース卒業後も無期限でLINEによる食事・トレーニングアドバイスが受けられるサービスです。追加料金はかかりません。" },
-  { q: "女性トレーナーを指名できますか？", a: "はい、女性トレーナーの指名が可能です。希望がある場合はカウンセリング時に相談しましょう。" },
+  { q: "女性トレーナーを指名できますか？", a: "はい、女性トレーナーの指名が可能です。希望がある場合はカウンセリング時にご相談ください。" },
   { q: "子連れでも通えますか？", a: "店舗によりベビーサークルを用意しているところがあります。事前に各店舗にご確認ください。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
   { q: "分割払いは可能ですか？", a: "クレジットカードの分割払いに対応しています。月々の支払い額はプランにより異なります。" },
@@ -108,12 +108,12 @@ export default function OutlineReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          OUTLINEの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          OUTLINEの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/outline.jpg" alt="OUTLINEの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">OUTLINE 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">OUTLINE 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <GymCta slug="outline" name="OUTLINE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -135,7 +135,7 @@ export default function OutlineReview() {
         <ReviewSummary gymName="OUTLINE" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          OUTLINE（アウトライン）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>のパーソナルジムです。最大の特徴は業界でも珍しい「生涯アフターフォロー」制度。コース卒業後もずっとサポートが続くため、リバウンドが心配な方にも安心です。本記事では、OUTLINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          OUTLINE（アウトライン）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>のパーソナルジムです。最大の特徴は、業界でも珍しい「生涯アフターフォロー」制度です。コース卒業後もサポートが続くため、リバウンドが心配な方にも適しています。本記事では、OUTLINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -189,7 +189,7 @@ export default function OutlineReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">OUTLINEが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、ご自身に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

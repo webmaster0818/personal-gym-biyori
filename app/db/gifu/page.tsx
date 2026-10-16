@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { jaDate } from "@/lib/date-ja";
 import Link from "next/link";
 import db from "@/data/gym-db/gifu.json";
 
@@ -18,16 +19,16 @@ type Gym = { name: string; rating?: number; reviews?: number; address?: string; 
 
 const faqs = [
   {
-    q: "このデータベースはどうやって作っていますか？",
-    a: "Googleマップ(Places API)で「パーソナルジム 岐阜」を検索し、営業中と確認できた店舗の名称・評点・口コミ件数・所在地を2026年9月5日に機械取得したものです。当サイトとの提携有無に関係なく掲載しており、評点・件数は取得時点のGoogleマップ表示値をそのまま転記しています(当サイトによる評価ではありません)。",
+    q: "このデータベースはどのように作成していますか？",
+    a: "Googleマップ（Places API）で「パーソナルジム 岐阜」を検索し、営業中と確認できた店舗の名称・評点・口コミ件数・所在地を2026年9月5日に機械的に取得したものです。当サイトとの提携の有無に関係なく掲載しており、評点・件数は取得時点のGoogleマップの表示値をそのまま転記しています（当サイトによる評価ではありません）。",
   },
   {
-    q: "評点はどこもほとんど4.8〜5.0ですが、どう選べばいいですか？",
-    a: "パーソナルジムのGoogleマップ評点は高評価に偏る傾向があるため、評点だけでは差がつきません。①口コミ件数(実績の量)②通いやすい場所③料金体系・体験の有無——の順で絞るのがおすすめです。料金や体験の詳細は各ジムの公式サイトでご確認ください。",
+    q: "評点はどこもほとんど4.8〜5.0ですが、どのように選べばよいですか？",
+    a: "パーソナルジムのGoogleマップ評点は高評価に偏る傾向があるため、評点だけでは差がつきません。①口コミ件数（実績の量）②通いやすい場所③料金体系・体験の有無、の順で絞り込むことをおすすめします。料金や体験の詳細は各ジムの公式サイトでご確認ください。",
   },
   {
-    q: "ここに載っていないジムもありますか？",
-    a: "あります。Googleマップの検索結果(上位60件)を基にしているため、登録がない店舗や検索にかかりにくい店舗は含まれません。網羅性は定期的な再取得で改善していきます。",
+    q: "このデータベースに掲載されていないジムもありますか？",
+    a: "あります。Googleマップの検索結果（上位60件）をもとにしているため、登録がない店舗や検索にかかりにくい店舗は含まれません。掲載範囲は定期的な再取得により拡充していきます。",
   },
 ];
 
@@ -44,9 +45,9 @@ export default function GifuDbPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <h1 className="text-2xl font-bold sm:text-3xl">{cityLabel("gifu", db as CityDb)}のパーソナルジム全{gyms.length}店（口コミ件数順の一覧）</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
-        岐阜エリアで実在確認できたパーソナルジム{gyms.length}店の一覧です(Googleマップ実測・{db.fetchedAt}取得・口コミ件数順)。
-        全国の都市別DBは<Link href="/db/" className="underline text-blue-700">データベースハブ</Link>へ。
-        このページは「まず全体を見たい」方向けに、提携の有無に関係なく全店を載せています。
+        岐阜エリアで実在を確認したパーソナルジム{gyms.length}店の一覧です（Googleマップの掲載データ・{jaDate(db.fetchedAt)}取得・口コミ件数順）。
+        全国の都市別データベースは<Link href="/db/" className="underline text-blue-700">データベース一覧</Link>からご覧いただけます。
+        当ページは、地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく全店を掲載しています。
       </p>
       <DbCitySummary slug="gifu" db={db as CityDb} />
 
@@ -56,7 +57,7 @@ export default function GifuDbPage() {
             <tr className="bg-gray-50 text-left">
               <th className="px-3 py-2 font-medium">#</th>
               <th className="px-3 py-2 font-medium">ジム名</th>
-              <th className="px-3 py-2 font-medium whitespace-nowrap">Gマップ評点</th>
+              <th className="px-3 py-2 font-medium whitespace-nowrap">Googleマップ評点</th>
               <th className="px-3 py-2 font-medium whitespace-nowrap">口コミ件数</th>
               <th className="px-3 py-2 font-medium">所在地</th>
             </tr>
@@ -83,7 +84,7 @@ export default function GifuDbPage() {
         </table>
       </div>
       <p className="mt-2 text-xs text-gray-400">
-        ※評点・口コミ件数はGoogleマップの{db.fetchedAt}時点の表示値をそのまま転記したもので、当サイトによる評価ではありません。営業状況・料金は必ず各公式サイトでご確認ください。ジム名のリンクはGoogleマップの該当ページを開きます。
+        ※評点・口コミ件数はGoogleマップの{jaDate(db.fetchedAt)}時点の表示値をそのまま転記したもので、当サイトによる評価ではありません。営業状況・料金は、各公式サイトにてご確認ください。ジム名のリンクは、当サイトの店舗ページまたはGoogleマップの該当ページにつながります。
       </p>
 
       <DbCityPartners slug="gifu" db={db as CityDb} />

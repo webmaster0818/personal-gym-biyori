@@ -14,9 +14,9 @@ export default function BrandFactCheck({ slug }: { slug: string }) {
     <section className="my-8 rounded-xl border border-gray-300 bg-white" aria-label={`${b.name}の公式情報`}>
       <div className="border-b border-gray-200 bg-gray-50 px-5 py-3">
         <h2 className="text-base font-bold text-gray-900">
-          {b.name}の口コミ・評判を読む前に：公式サイトで確認できる事実
+          {b.name}の口コミ・評判に関連する公式情報（公式サイトで確認できる事実）
         </h2>
-        <p className="mt-1 text-[11px] text-gray-500">{FACTS_CHECKED_AT}に各項目の公式ページを確認。出典リンク先で最新情報を確認できます。</p>
+        <p className="mt-1 text-[11px] text-gray-500">{FACTS_CHECKED_AT}に各項目の公式ページを確認しました。最新情報は出典リンク先でご確認いただけます。</p>
       </div>
       <table className="w-full text-sm">
         <tbody>
@@ -37,7 +37,7 @@ export default function BrandFactCheck({ slug }: { slug: string }) {
       </table>
       {b.qa.length > 0 && (
         <div className="px-5 py-4">
-          <h3 className="mb-2 text-sm font-bold text-gray-900">口コミ・評判で多い疑問への答え（事実ベース）</h3>
+          <h3 className="mb-2 text-sm font-bold text-gray-900">口コミ・評判で多い疑問への回答（公式情報にもとづく）</h3>
           <dl className="space-y-3 text-sm">
             {b.qa.map((x) => (
               <div key={x.q}>
@@ -51,9 +51,9 @@ export default function BrandFactCheck({ slug }: { slug: string }) {
       {b.caution && <p className="px-5 pb-4 text-xs leading-relaxed text-gray-600">※{b.caution}</p>}
       {b.thirdParty && b.thirdParty.length > 0 && (
         <div className="border-t border-gray-200 px-5 py-4">
-          <h3 className="mb-1 text-sm font-bold text-gray-900">{b.name}の口コミ・評判の出典：検索上位の記事・調査を確認した結果</h3>
+          <h3 className="mb-1 text-sm font-bold text-gray-900">{b.name}の口コミ・評判の出典：検索上位の記事・調査の確認結果</h3>
           <p className="mb-3 text-[11px] text-gray-500">
-            {FACTS_CHECKED_AT}に「{b.name.replace(/（.*?）/, "")} 口コミ」「評判」で上位に出るページを開き、口コミの出典・件数・掲載日を確かめました。数値はページ本体で確認できたものだけを載せています。
+            {FACTS_CHECKED_AT}に「{b.name.replace(/（.*?）/, "")} 口コミ」「評判」で上位に表示されるページを開き、口コミの出典・件数・掲載日を確認しました。数値はページ本体で確認できたもののみ掲載しています。
           </p>
           <ul className="space-y-3 text-sm">
             {b.thirdParty.map((s) => (
@@ -73,7 +73,7 @@ export default function BrandFactCheck({ slug }: { slug: string }) {
         </div>
       )}
       <p className="px-5 pb-4 text-xs">
-        <Link href="/price/" className="text-teal-700 underline">→ 主要ブランドの公表料金を一覧で比べる</Link>
+        <Link href="/price/" className="text-teal-700 underline">→ 主要ブランドの公表料金を一覧で比較する</Link>
       </p>
     </section>
   );

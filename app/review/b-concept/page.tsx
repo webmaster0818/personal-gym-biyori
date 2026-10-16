@@ -7,9 +7,9 @@ import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "ビーコンセプトの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "ビーコンセプトの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "ビーコンセプト（B-CONCEPT）の口コミ・評判を徹底解説。下半身・脚痩せ特化の女性専用パーソナルジムの料金体系、メリット・デメリットまで網羅。",
+    "ビーコンセプト（B-CONCEPT）の口コミ・評判をご紹介します。下半身・脚痩せに特化した女性専用パーソナルジムの料金体系、メリット・デメリットを解説しています。",
 };
 
 const basicInfo = [
@@ -23,30 +23,30 @@ const basicInfo = [
 const strengths = [
   {
     title: "下半身・脚痩せに特化した独自メソッド",
-    desc: "太もも・ヒップ・ふくらはぎなど下半身のボディメイクに特化したトレーニングプログラム。骨盤矯正やストレッチも取り入れ、根本からの脚痩せを目指します。",
+    desc: "太もも・ヒップ・ふくらはぎなど下半身のボディメイクに特化したトレーニングプログラムです。骨盤矯正やストレッチも取り入れ、根本からの脚痩せを目指します。",
   },
   {
     title: "女性専用で通いやすい環境",
     desc: "会員は女性のみのため、周囲の目を気にせずトレーニングに集中できます。女性特有の悩みにも理解のあるトレーナーが対応します。",
   },
   {
-    title: "充実のアフターフォロー",
-    desc: "コース終了後も6ヶ月間のアフターフォローが付帯。リバウンド防止のための食事指導やトレーニングアドバイスが受けられます。",
+    title: "充実したアフターフォロー",
+    desc: "コース終了後も6ヶ月間のアフターフォローが付帯しています。リバウンド防止のための食事指導やトレーニングアドバイスが受けられます。",
   },
 ];
 
 const merits = [
   {
     title: "脚痩せ・下半身に特化した専門的な指導",
-    desc: "一般的なパーソナルジムでは全身均等にトレーニングしますが、ビーコンセプトは下半身に特化。脚やお尻の悩みを集中的にケアできます。",
+    desc: "一般的なパーソナルジムでは全身均等にトレーニングしますが、ビーコンセプトは下半身に特化しています。脚やお尻の悩みを集中的にケアできます。",
   },
   {
     title: "リバウンド防止のアフターフォロー",
-    desc: "コース終了後6ヶ月間のサポートがあるため、ダイエット後のリバウンドリスクを軽減。長期的な体型維持を目指せます。",
+    desc: "コース終了後6ヶ月間のサポートがあるため、ダイエット後のリバウンドのリスクを軽減できます。長期的な体型維持を目指せます。",
   },
   {
-    title: "託児所サポートあり",
-    desc: "一部店舗では託児所費用の負担制度があり、小さなお子様がいるママでも安心して通えます。",
+    title: "託児所費用のサポート",
+    desc: "一部店舗では託児所費用の負担制度があり、小さなお子様がいる方も通いやすい環境です。",
   },
 ];
 
@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "トライアルコース", duration: "75分×4回", price: "44,000円", note: "お試し1ヶ月" },
 ];
 
-const reviewSummary = "ビーコンセプトの口コミでは「脚が細くなった」「ヒップアップ効果を実感」という声が多数。特に下半身に悩みを抱えていた女性からの満足度が高いです。一方で「上半身も鍛えたかった」「料金が高め」という意見も。アフターフォローの充実度は高く評価されています。";
+const reviewSummary = "ビーコンセプトの口コミでは「脚が細くなった」「ヒップアップ効果を実感」という声が多く見られます。特に下半身に悩みを抱えていた女性からの満足度が高いです。一方で「上半身も鍛えたかった」「料金が高め」という意見もあります。アフターフォローの充実度は高く評価されています。";
 
 const faqItems = [
   { q: "ビーコンセプトの入会金はいくらですか？", a: "入会金は38,500円です。キャンペーンで無料になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -107,7 +107,7 @@ export default function BConceptReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          ビーコンセプトの口コミ・評判｜料金・メリット・デメリットを徹底解説
+          ビーコンセプトの口コミ・評判｜料金・メリット・デメリットの解説
         </h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/b-concept.jpg" alt="ビーコンセプトの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
@@ -245,7 +245,7 @@ export default function BConceptReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">ビーコンセプトが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたの脚の悩みを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、脚の悩みをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
             ランキングに戻る
           </Link>

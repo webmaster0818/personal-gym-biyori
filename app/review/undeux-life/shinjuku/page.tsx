@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true }, // 品質ゲート: 実データ薄のためnoindex(データ拡充後に解除)
   title: "UNDEUX SUPERBODY LIFE 新宿店の口コミ・評判",
   description:
-    "UNDEUX SUPERBODY LIFE 新宿店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "UNDEUX SUPERBODY LIFE 新宿店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -22,7 +22,7 @@ const basicInfo = [
 
 const faqItems = [
   { q: "UNDEUX SUPERBODY LIFE新宿店の料金はいくらですか？", a: "コースや回数によって料金が異なります。最新の料金プランは公式サイトでご確認ください。" },
-  { q: "UNDEUX SUPERBODY LIFE新宿店の営業時間は？", a: "営業時間は変更になる場合があります。最新情報は公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY LIFE新宿店の営業時間を教えてください。", a: "営業時間は変更になる場合があります。最新情報は公式サイトでご確認ください。" },
   { q: "UNDEUX SUPERBODY LIFE新宿店は初心者でも通えますか？", a: "はい、初心者の方でも安心して通えるよう、個々のレベルに合わせたトレーニングメニューを提供しています。" },
   { q: "UNDEUX SUPERBODY LIFE新宿店では無料体験はできますか？", a: "体験トレーニングの有無や料金については、公式サイトでご確認ください。" },
 ];

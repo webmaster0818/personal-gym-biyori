@@ -9,7 +9,7 @@ import StoreJsonLd from "@/components/StoreJsonLd";
 export const metadata: Metadata = {
   title: "FIT24 町田店の口コミ・評判｜料金・月額・営業時間を解説【2026年】",
   description:
-    "FIT24 町田店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "FIT24 町田店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
@@ -95,7 +95,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FIT24町田店は町田駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜で豊富なマシンが利用でき、町田エリアで手軽にフィットネスを始めたい方に人気があります。24時間いつでも利用できるセルフ型なので、忙しい方でも自分のペースで通えます。
+            FIT24町田店は町田駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜で豊富なマシンが利用でき、町田エリアで手軽にフィットネスを始めたい方に人気があります。24時間いつでも利用できるセルフ型のため、忙しい方でも自分のペースで通えます。
           </p>
         </section>
 

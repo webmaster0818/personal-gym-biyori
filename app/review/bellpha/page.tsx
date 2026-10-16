@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "Bellphaの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "Bellphaの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "Bellpha（ベルファ）パーソナルジムの口コミ・評判を徹底解説。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "Bellpha（ベルファ）パーソナルジムの口コミ・評判をご紹介します。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問を解説しています。",
 };
 
 const basicInfo = [
@@ -22,22 +22,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "美しいボディラインを重視した指導",
-    desc: "単純な体重減少ではなく、美しいボディラインの形成を重視したトレーニングプログラムを提供。女性のボディメイクにも定評があります。",
+    desc: "単純な体重減少ではなく、美しいボディラインの形成を重視したトレーニングプログラムを提供しています。女性のボディメイクにも定評があります。",
   },
   {
     title: "経験豊富なトレーナーによる指導",
-    desc: "ボディメイクの実績が豊富なトレーナーが在籍。利用者の目標に合わせた的確なアドバイスと指導で、効率的な変化を実現します。",
+    desc: "ボディメイクの実績が豊富なトレーナーが在籍しています。利用者の目標に合わせた的確なアドバイスと指導で、効率的な変化を実現します。",
   },
   {
     title: "食事指導で内側からもサポート",
-    desc: "トレーニングに合わせた食事指導を提供。栄養バランスを考慮した食事法で、健康的なボディメイクをサポートします。",
+    desc: "トレーニングに合わせた食事指導を提供しています。栄養バランスを考慮した食事法で、健康的なボディメイクをサポートします。",
   },
 ];
 
 const merits = [
   {
     title: "ボディラインの変化を実感しやすい",
-    desc: "見た目の美しさを重視したプログラムにより、体重以上に見た目の変化を実感しやすいと評判です。",
+    desc: "見た目の美しさを重視したプログラムにより、体重以上に見た目の変化を実感しやすいと評価されています。",
   },
   {
     title: "マンツーマンで丁寧な指導",
@@ -55,7 +55,7 @@ const demerits = [
     desc: "大手チェーンと比較すると店舗数が少なく、通える方が限定される場合があります。",
   },
   {
-    title: "知名度がまだ低い",
+    title: "知名度が低い",
     desc: "大手と比較すると知名度が低いため、口コミ情報が少なく事前の情報収集がしにくいことがあります。",
   },
   {
@@ -75,8 +75,8 @@ const reviewSummary = "Bellphaの口コミでは「体のラインが変わっ�
 const faqItems = [
   { q: "Bellphaの入会金はいくらですか？", a: "入会金は20,000円〜40,000円程度です。キャンペーンで割引になることがあります。" },
   { q: "女性でも通えますか？", a: "はい、男女ともに利用可能です。女性のボディメイクにも対応しています。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、マンツーマン指導のため初心者でも安心して始められます。" },
-  { q: "食事指導は厳しいですか？", a: "極端な制限ではなく、継続しやすい食事改善を提案してくれます。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、マンツーマン指導のため初心者の方も安心して始められます。" },
+  { q: "食事指導は厳しいですか？", a: "極端な制限ではなく、継続しやすい食事改善を提案しています。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
   { q: "退会に違約金はかかりますか？", a: "プランにより異なります。詳細は入会時にご確認ください。" },
 ];
@@ -105,7 +105,7 @@ export default function BellphaReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Bellpha" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Bellphaの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">Bellphaの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/bellpha.jpg" alt="Bellphaの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -151,7 +151,7 @@ export default function BellphaReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">Bellphaが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、目的に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

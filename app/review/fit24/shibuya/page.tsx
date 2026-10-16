@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
   title: "FIT24 渋谷店の口コミ・評判｜料金・月額・営業時間を解説【2026年】",
   description:
-    "FIT24 渋谷店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "FIT24 渋谷店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [

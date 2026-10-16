@@ -11,7 +11,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "RITA STYLE（リタスタイル）の口コミ・評判｜料金・返金条件を検証",
   description:
-    "RITA STYLE（リタスタイル）の口コミ・評判を検証。入会金込みの総額料金、全額返金制度の厳しい条件、糖質制限ではなくPFCバランスの食事方針、Googleマップ5店舗の実測評点まで公式情報で確認。",
+    "RITA STYLE（リタスタイル）の口コミ・評判を検証します。入会金込みの総額料金、全額返金制度の条件、糖質制限ではなくPFCバランスの食事方針を公式情報で確認し、Googleマップ5店舗の評点も掲載しています。",
 };
 
 const basicInfo = [
@@ -25,11 +25,11 @@ const basicInfo = [
 const strengths = [
   {
     title: "入会金込みの総額で料金を公表",
-    desc: "公式料金表は入会金込みの総額表記で、1ヶ月4回97,680円〜・2ヶ月8回151,580円〜（税込）。週2回・6ヶ月と週3回のコースは入会金0円です。九州・岡山に7店舗を展開しています。",
+    desc: "公式料金表は入会金込みの総額表記で、1ヶ月4回97,680円〜・2ヶ月8回151,580円〜（税込）です。週2回・6ヶ月と週3回のコースは入会金0円です。九州・岡山に7店舗を展開しています。",
   },
   {
-    title: "充実の食事指導",
-    desc: "専属トレーナーがLINEで食事をサポートします（公式トップには「週1食事サポート」と「LINEで毎日サポート」の2通りの表記）。方針は糖質制限ではなくPFCバランスで、入会時に「お食事ブック」を受け取れます。",
+    title: "充実した食事指導",
+    desc: "専属トレーナーがLINEで食事をサポートします（公式トップには「週1食事サポート」と「LINEで毎日サポート」の2通りの表記があります）。方針は糖質制限ではなくPFCバランスで、入会時に「お食事ブック」を受け取れます。",
   },
   {
     title: "完全個室・マンツーマン指導",
@@ -40,15 +40,15 @@ const strengths = [
 const merits = [
   {
     title: "同じ2ヶ月16回で比べると大手より総額が低い",
-    desc: "週2回・2ヶ月16回の総額は259,380円（入会金込み・税込）。同じ2ヶ月16回のRIZAP BASIC（入会金込み382,800円）と比べて約12万円低い計算です（いずれも2026年10月の公式表記）。",
+    desc: "週2回・2ヶ月16回の総額は259,380円（入会金込み・税込）です。同じ2ヶ月16回のRIZAP BASIC（入会金込み382,800円）と比べて約12万円低い計算です（いずれも2026年10月の公式表記）。",
   },
   {
     title: "地方でも通えるパーソナルジム",
-    desc: "九州・中国地方に店舗を展開しており、都心部にしかないパーソナルジムが多い中、地方在住者にとって貴重な選択肢です。",
+    desc: "九州・中国地方に店舗を展開しており、都市部中心のパーソナルジムが多い中、地方在住の方にとって貴重な選択肢です。",
   },
   {
-    title: "条件つきの全額返金制度",
-    desc: "2・3・6ヶ月の月8回以上のコースで、目的を「減量のみ」と申告し、開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合に全額返金（入会金除く）する制度があり（公式の返金ページ）、初めてのパーソナルジムでも条件を理解したうえで始められます。",
+    title: "条件付きの全額返金制度",
+    desc: "2・3・6ヶ月の月8回以上のコースで、目的を「減量のみ」と申告し、開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合に全額返金（入会金を除く）する制度があります（公式の返金ページ）。初めてのパーソナルジムでも、条件を理解したうえで始められます。",
   },
 ];
 
@@ -59,11 +59,11 @@ const demerits = [
   },
   {
     title: "返金制度の条件が厳しい",
-    desc: "全額返金は「開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合」に限られ、無断欠席2回以上・日時変更4回以上などでも対象外です。「合わなければ返金」ではありません。",
+    desc: "全額返金は「開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合」に限られ、無断欠席2回以上・日時変更4回以上などでも対象外です。合わなかった場合に無条件で返金される制度ではありません。",
   },
   {
     title: "体験・カウンセリングの予約変更は2日前まで",
-    desc: "公式FAQでは、カウンセリング・体験トレーニングのキャンセルは2日前までに連絡するよう求めています。日程が読めない場合は余裕をもって予約してください。",
+    desc: "公式FAQでは、カウンセリング・体験トレーニングのキャンセルは2日前までに連絡するよう求めています。日程が確定しない場合は、余裕をもってご予約ください。",
   },
 ];
 
@@ -78,12 +78,12 @@ const pricingPlans = [
   { name: "卒業後メンテナンス", duration: "月額", price: "21,560〜64,680円/月", note: "平日通い放題29,800円" },
 ];
 
-const reviewSummary = "検索上位の第三者記事（Googleマップの投稿を店舗名つきで引用）では、トレーナーの知識や食事のアドバイスを評価する声が中心です。気になる点として、同じ記事は返金制度の条件の厳しさ、店舗によっては完全個室でないこと（2023年時点）、卒業後のリバウンドを挙げています。店舗ごとの評点と件数は、上のGoogleマップ実測データで確認できます。";
+const reviewSummary = "検索上位の第三者記事（Googleマップの投稿を店舗名とともに引用）では、トレーナーの知識や食事のアドバイスを評価する声が中心です。気になる点として、同じ記事は返金制度の条件の厳しさ、店舗によっては完全個室でないこと（2023年時点）、卒業後のリバウンドを挙げています。店舗ごとの評点と件数は、上記のGoogleマップのデータ欄で確認できます。";
 
 const faqItems = [
   { q: "RITA STYLEの入会金はいくらですか？", a: "入会金は43,780円です（コースにより0円。公式料金表の総額は入会金込み）。最新情報は公式サイトでご確認ください。" },
   { q: "食事制限は厳しいですか？", a: "公式FAQでは「糖質制限ではなくPFCバランスのお食事を推奨」としており、肉・魚は食べてよく、お酒も種類によっては飲めます。専属トレーナーがLINEで食事をサポートします。" },
-  { q: "全額返金制度の条件は？", a: "公式の返金ページによると、対象は2・3・6ヶ月の月8回以上のコースで、入会時に目的を「減量のみ」と申告し、開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合に限られます。入会金は対象外、申請は来店・書面。無断欠席2回以上・日時変更4回以上などは対象外です（2026年10月14日確認）。" },
+  { q: "全額返金制度の条件を教えてください。", a: "公式の返金ページによると、対象は2・3・6ヶ月の月8回以上のコースで、入会時に目的を「減量のみ」と申告し、開始1ヶ月で基準体重から一度も1kgを超えて減らなかった場合に限られます。入会金は対象外で、申請は来店・書面で行います。無断欠席2回以上・日時変更4回以上などは対象外です（2026年10月14日確認）。" },
   { q: "ウェアのレンタルはありますか？", a: "はい。ウェア・シューズ・タオルは無料レンタルで、個室シャワー・バスタオル・ドライヤー・アメニティもあります（公式FAQ）。手ぶらで通えます。" },
   { q: "無料体験はありますか？", a: "はい。体験トレーニングは90分・カウンセリング込み・無料です（公式トップ）。キャンセルは2日前までに連絡が必要です。" },
   { q: "分割払いはできますか？", a: "はい、分割払いに対応しています。月々の支払い額は回数により異なります。" },
@@ -135,7 +135,7 @@ export default function RitaStyleReview() {
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/rita-style.jpg" alt="RITA STYLEの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
-        <p className="text-xs text-gray-400 mb-6">RITA STYLE 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
+        <p className="text-xs text-gray-400 mb-6">RITA STYLE 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="rita-style" name="RITA STYLE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
@@ -252,7 +252,7 @@ export default function RitaStyleReview() {
         <section className="mb-12">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-6 text-center text-white">
             <p className="font-bold text-lg mb-2">まずは無料カウンセリングから</p>
-            <p className="text-orange-100 text-sm mb-4">プロのトレーナーがあなたに最適なプランをご提案します</p>
+            <p className="text-orange-100 text-sm mb-4">トレーナーが目的に合ったプランをご提案します</p>
             <a href="https://t.felmat.net/fmcl?ak=Q8343U.1.31275172.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-orange-600 font-bold py-3 px-8 rounded-lg hover:bg-orange-50 transition-colors">無料カウンセリングを予約する</a>
           </div>
         </section>
@@ -294,7 +294,7 @@ export default function RitaStyleReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">RITA STYLEが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、低価格パーソナルの魅力を体感してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、指導内容や料金をご確認ください。</p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://t.felmat.net/fmcl?ak=Q8343U.1.31275172.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">
               公式サイトへ

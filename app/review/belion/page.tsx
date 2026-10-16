@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "BELIONの口コミ・評判｜料金・メリット・デメリットを徹底解説",
+  title: "BELIONの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "BELION（ベリオン）パーソナルジムの口コミ・評判を徹底解説。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問まで網羅。",
+    "BELION（ベリオン）パーソナルジムの口コミ・評判をご紹介します。パーソナルトレーニングの料金体系、メリット・デメリット、よくある質問を解説しています。",
 };
 
 const basicInfo = [
@@ -22,22 +22,22 @@ const basicInfo = [
 const strengths = [
   {
     title: "一人ひとりに最適化されたプログラム",
-    desc: "体質・目標・生活習慣を詳しくヒアリングし、完全オーダーメイドのトレーニングプログラムを作成。効率的に理想の体へ導きます。",
+    desc: "体質・目標・生活習慣を詳しくヒアリングし、完全オーダーメイドのトレーニングプログラムを作成し、目標とする体づくりを効率的に進めます。",
   },
   {
     title: "経験豊富なトレーナー陣",
-    desc: "実績のあるトレーナーが在籍し、ダイエットからバルクアップまで幅広いニーズに対応。適切なフォーム指導で安全にトレーニングを進められます。",
+    desc: "実績のあるトレーナーが在籍し、ダイエットからバルクアップまで幅広いニーズに対応しています。適切なフォーム指導で安全にトレーニングを進められます。",
   },
   {
     title: "食事指導で生活習慣から改善",
-    desc: "トレーニングだけでなく、日々の食事についてもアドバイスを提供。栄養バランスを意識した食生活への改善をサポートします。",
+    desc: "トレーニングだけでなく、日々の食事についてもアドバイスを提供しています。栄養バランスを意識した食生活への改善をサポートします。",
   },
 ];
 
 const merits = [
   {
     title: "マンツーマンで密度の高い指導",
-    desc: "トレーナーがつきっきりで指導するため、効率的にトレーニングを進められます。フォームの修正もその場で受けられます。",
+    desc: "トレーナーが付き添って指導するため、効率的にトレーニングを進められます。フォームの修正もその場で受けられます。",
   },
   {
     title: "幅広い目的に対応",
@@ -45,14 +45,14 @@ const merits = [
   },
   {
     title: "丁寧なカウンセリング",
-    desc: "入会前のカウンセリングで目標や不安をしっかりヒアリング。納得した上でトレーニングをスタートできます。",
+    desc: "入会前のカウンセリングで目標や不安を詳しくヒアリングします。納得したうえでトレーニングをスタートできます。",
   },
 ];
 
 const demerits = [
   {
     title: "店舗展開が限定的",
-    desc: "店舗数が少なく、通える範囲に店舗がない場合があります。事前にアクセスを確認しましょう。",
+    desc: "店舗数が少なく、通える範囲に店舗がない場合があります。事前にアクセスをご確認ください。",
   },
   {
     title: "知名度が大手に比べて低い",
@@ -60,7 +60,7 @@ const demerits = [
   },
   {
     title: "予約が取りにくい場合がある",
-    desc: "人気の時間帯やトレーナーには予約が集中することがあります。早めの予約を心がけましょう。",
+    desc: "人気の時間帯やトレーナーには予約が集中することがあります。早めの予約をおすすめします。",
   },
 ];
 
@@ -74,7 +74,7 @@ const reviewSummary = "BELIONの口コミでは「トレーナーが丁寧で続
 
 const faqItems = [
   { q: "BELIONの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引になることがあります。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、マンツーマン指導のため初心者でも安心してトレーニングを始められます。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、マンツーマン指導のため初心者の方も安心してトレーニングを始められます。" },
   { q: "食事指導は含まれていますか？", a: "プランにより食事指導が含まれています。詳細はカウンセリング時にご確認ください。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
   { q: "退会方法を教えてください。", a: "退会を希望する場合は前月までにジムに申告が必要です。詳細は入会時にご確認ください。" },
@@ -105,7 +105,7 @@ export default function BelionReview() {
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "BELION" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">BELIONの口コミ・評判｜料金・メリット・デメリットを徹底解説</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">BELIONの口コミ・評判｜料金・メリット・デメリットの解説</h1>
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/belion.jpg" alt="BELIONの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
@@ -170,7 +170,7 @@ export default function BelionReview() {
 
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">
           <h2 id="s8" className="text-xl font-bold mb-3">BELIONが気になった方へ</h2>
-          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、あなたに合ったプランを相談してみましょう。</p>
+          <p className="text-teal-100 text-sm mb-6">まずは無料カウンセリングで、目的に合ったプランをご相談ください。</p>
           <Link href="/#ranking" className="inline-block bg-white text-teal-600 font-bold py-2.5 px-6 rounded-lg hover:bg-gray-100 transition-colors text-sm">ランキングに戻る</Link>
         </section>
 

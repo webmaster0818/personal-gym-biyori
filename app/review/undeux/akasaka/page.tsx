@@ -6,7 +6,7 @@ import ReviewSummary from "@/components/ReviewSummary";
 export const metadata: Metadata = {
   title: "UNDEUX SUPERBODY 赤坂店の口コミ・評判",
   description:
-    "UNDEUX SUPERBODY 赤坂店の口コミ・評判を紹介。住所・アクセス・営業時間などの基本情報から、実際の利用者の評価傾向まで詳しく解説します。",
+    "UNDEUX SUPERBODY 赤坂店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -22,7 +22,7 @@ const faqItems = [
   { q: "UNDEUX SUPERBODY赤坂店の料金はいくらですか？", a: "UNDEUX SUPERBODY赤坂店の料金は、2ヶ月集中コースで215,600円（税込）〜が目安です。入会金は33,000円（税込）です。月額制プランも用意されています。最新の料金は公式サイトでご確認ください。" },
   { q: "UNDEUX SUPERBODY赤坂店は女性専用ですか？", a: "はい、UNDEUX SUPERBODYは女性専用のボディメイクジムです。女性専用の空間で安心してトレーニングに集中できます。" },
   { q: "UNDEUX SUPERBODY赤坂店は食事管理もありますか？", a: "はい、パーソナルトレーニングに加えて食事宅配サービスが付いたプランがあります。忙しい方でも食事管理を無理なく続けられます。" },
-  { q: "UNDEUX SUPERBODY赤坂店のアクセスは？", a: "赤坂駅 徒歩4分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY赤坂店のアクセスを教えてください。", a: "赤坂駅 徒歩4分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
 ];
 
 const faqJsonLd = {

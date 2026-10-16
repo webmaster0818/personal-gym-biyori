@@ -30,7 +30,7 @@ export default function StorePrice({ brandSlug, brandName }: { brandSlug: string
           )}
         </p>
         <p className="mt-3 text-sm">
-          <Link href="/price/" className="text-teal-700 underline">→ {BRAND_PRICES.length}ブランドの公表料金を一覧で比べる</Link>
+          <Link href="/price/" className="text-teal-700 underline">→ {BRAND_PRICES.length}ブランドの公表料金を一覧で比較する</Link>
         </p>
       </div>
     </section>
