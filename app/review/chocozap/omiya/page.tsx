@@ -90,7 +90,7 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">chocoZAP大宮店は、大宮駅近くにある24時間営業のコンビニジムです。RIZAP監修のトレーニングプログラムを月額3,278円で利用できる費用対効果の高さが魅力です。着替えは不要で、5分程度の短時間でも利用できます。埼玉エリアで手軽にフィットネスを始めたい方に人気の店舗です。</p>
+          <p className="text-gray-700 leading-relaxed">chocoZAP大宮店は、大宮駅近くにある24時間営業のコンビニジムです。RIZAP監修のトレーニングプログラムを月額3,278円で利用できる費用対効果の高さが特徴です。着替えは不要で、5分程度の短時間でも利用できます。埼玉エリアで手軽にフィットネスを始めたい方に人気の店舗です。</p>
         </section>
 
         

@@ -82,7 +82,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            E9th PRIVATE GYM新宿店は完全プライベート空間でのトレーニングが魅力のパーソナルジムです。他の利用者と顔を合わせることがないため、人目を気にせず集中できると好評です。トレーナーの専門知識が豊富で、効率的なトレーニングプログラムが組まれるため、短期間での成果を実感する利用者が多いです。
+            E9th PRIVATE GYM新宿店は完全プライベート空間でのトレーニングが特徴のパーソナルジムです。他の利用者と顔を合わせることがないため、人目を気にせず集中できると好評です。トレーナーの専門知識が豊富で、効率的なトレーニングプログラムが組まれるため、短期間での成果を実感する利用者が多い傾向にあります。
           </p>
         </section>
 

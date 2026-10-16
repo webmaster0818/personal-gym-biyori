@@ -140,7 +140,7 @@ const faqItems = [
   { q: "リアルボディに新宿店はありますか？", a: "2026年時点で新宿店・東京都内の店舗はありません。新宿で探す方への最寄り店舗案内と代替ジム比較は別ページにまとめています。" },
   { q: "トレーニング初心者でも大丈夫ですか？", a: "はい。運動に自信がない方やダイエット初心者の方も対象と案内されており、基礎から指導を受けられます。" },
   { q: "無料体験はありますか？", a: "無料体験が用意されています。雰囲気やトレーナーとの相性を確かめてから入会を検討できます。" },
-  { q: "リアルボディの口コミ・評判は良いですか？", a: "「料金が安いのにしっかり指導してくれる」「食事指導も無料」「気軽に通える」といった好意的な口コミが中心です。一方で「店舗のあるエリアが限られる」「情報が少ない」という声もあります。最新の個別の口コミはGoogleマップでご確認ください。" },
+  { q: "リアルボディの口コミ・評判の傾向を教えてください。", a: "「料金が安いのにしっかり指導してくれる」「食事指導も無料」「気軽に通える」といった好意的な口コミが中心です。一方で「店舗のあるエリアが限られる」「情報が少ない」という声もあります。最新の個別の口コミはGoogleマップでご確認ください。" },
   { q: "リアルボディは女性も通えますか？", a: "はい、女性の利用者もいます。詳しい設備やプランは公式サイトでご確認ください。" },
 ];
 
@@ -199,15 +199,15 @@ export default function RealBodyReview() {
         <ReviewSummary gymName="リアルボディ" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約期間の縛りがない点が魅力です。本記事では、リアルボディの口コミ・評判の傾向、料金総額の目安、目的別の向き不向きを詳しく解説します。
+          リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約期間の縛りがない点が特徴です。本記事では、リアルボディの口コミ・評判の傾向、料金総額の目安、目的別の向き不向きを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s2" className="font-bold text-gray-900 mb-3">リアルボディが適している方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>費用を抑えたい方</strong>（1回3,500円〜の回数券制・食事指導も無料）</li>
-            <li>・<strong>継続できるか不安な初心者の方</strong>（契約期間の縛り・違約金なし、少ない回数から試せる）</li>
-            <li>・<strong>仙台・東北/千葉エリア</strong>で通いやすいパーソナルジムを探している方</li>
+            <li>・<strong>費用を抑えたい方</strong>に向いています（1回3,500円〜の回数券制・食事指導も無料）</li>
+            <li>・<strong>継続できるか不安な初心者の方</strong>に向いています（契約期間の縛り・違約金なし、少ない回数から試せる）</li>
+            <li>・<strong>仙台・東北/千葉エリア</strong>で通いやすいパーソナルジムを探している方に向いています</li>
             <li>・口コミは「安いのに指導が丁寧」「気軽に通える」という声が中心で、「店舗のエリアが限られる」という声もあります</li>
             <li>・料金・入会金・店舗はキャンペーンや時期で変わるため、<strong>公式サイトでのご確認が必要</strong>です</li>
           </ul>
@@ -218,7 +218,7 @@ export default function RealBodyReview() {
           <h2 id="s3" className="text-base font-bold text-gray-900 mb-3">この記事で解説する内容（よくある4つの質問）</h2>
           <dl className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden text-sm">
             <div className="px-4 py-3">
-              <dt className="font-bold text-gray-800">Q. 料金は高いですか？</dt>
+              <dt className="font-bold text-gray-800">Q. 料金は高額ですか？</dt>
               <dd className="text-gray-700 mt-1 leading-relaxed">回数券制で、1回あたり3,500円〜6,000円程度です。まとめて購入するほど安くなり、食事指導も無料のため、費用対効果は高めです。<a href="#pricing" className="text-teal-600 underline">料金の総額目安を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">

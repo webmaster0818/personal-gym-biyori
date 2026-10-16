@@ -62,7 +62,7 @@ export default function StorePage() {
           <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-orange-600 transition-colors text-sm">無料カウンセリングを予約する</a>
         </div>
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2><div className="bg-gray-100 rounded-lg p-8 text-center"><p className="text-gray-600 mb-4">Nexusジム 上野店の所在地をGoogleマップで確認できます。</p><a href="https://www.google.com/maps/search/Nexus+ジム+上野店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a></div></section>
-        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">Nexusジム上野店は稲荷町駅から徒歩3分の好立地にあるパーソナルジムです。上野・御徒町エリアで通いやすいパーソナルジムを探している方に最適で、トレーナーの専門知識と親しみやすさが評価されています。初心者でも安心して通えると好評です。</p></section>
+        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">Nexusジム上野店は稲荷町駅から徒歩3分の立地にあるパーソナルジムです。上野・御徒町エリアで通いやすいパーソナルジムを探している方に適しており、トレーナーの専門知識と親しみやすさが評価されています。初心者でも安心して通えると好評です。</p></section>
 
                 
         <StorePrice brandSlug="nexus" brandName="Nexusジム" />

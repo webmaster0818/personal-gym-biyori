@@ -76,7 +76,7 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">Apple GYM中目黒店は中目黒駅から徒歩5分にある海外式ボディメイクパーソナルジムです。姿勢改善をベースとしたトレーニングを受けられます。月4回9,900円〜（個別指導・税込）という価格設定が魅力です（食事サポートは別料金）。中目黒エリアのおしゃれな雰囲気の中で、美しいボディラインを目指す方に選ばれています。</p>
+          <p className="text-gray-700 leading-relaxed">Apple GYM中目黒店は中目黒駅から徒歩5分にある海外式ボディメイクパーソナルジムです。姿勢改善をベースとしたトレーニングを受けられます。月4回9,900円〜（個別指導・税込）という価格設定が特徴です（食事サポートは別料金）。中目黒エリアのおしゃれな雰囲気の中で、美しいボディラインを目指す方に選ばれています。</p>
         </section>
 
                 

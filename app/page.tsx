@@ -43,7 +43,7 @@ const services = [
     cons: ["東京エリアに限定", "大阪以外の地方展開が少ない"],
     recommend: "東京で自宅近くのパーソナルジムを探している方におすすめします。",
     reviewPath: "/review/habit/",
-    comment: "自宅から通いやすい立地と丁寧な指導が魅力です。東京在住の方に特におすすめします。",
+    comment: "自宅から通いやすい立地と丁寧な指導が特徴です。東京在住の方に特におすすめします。",
     affiliateUrl: "https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A",
   },
   {

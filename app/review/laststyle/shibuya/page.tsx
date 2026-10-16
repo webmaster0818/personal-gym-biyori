@@ -98,7 +98,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            Laststyle渋谷店は、渋谷駅から徒歩圏内に位置するパーソナルジムです。リーズナブルな価格設定と23時までの営業で、若い世代のビジネスパーソンに人気があります。トレーナーが親身になって目標達成をサポートしてくれるため、初心者でも安心して通えるとの口コミが多いです。
+            Laststyle渋谷店は、渋谷駅から徒歩圏内に位置するパーソナルジムです。リーズナブルな価格設定と23時までの営業で、若い世代のビジネスパーソンに人気があります。トレーナーが親身になって目標達成をサポートしてくれるため、初心者でも安心して通えるとの口コミが多い傾向にあります。
           </p>
         </section>
 

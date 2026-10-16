@@ -62,7 +62,7 @@ export default function StorePage() {
           <a href="https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-orange-600 transition-colors text-sm">無料カウンセリングを予約する</a>
         </div>
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2><div className="bg-gray-100 rounded-lg p-8 text-center"><p className="text-gray-600 mb-4">Nexusジム 清澄白河店の所在地をGoogleマップで確認できます。</p><a href="https://www.google.com/maps/search/Nexus+ジム+清澄白河店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a></div></section>
-        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">Nexusジム清澄白河店は清澄白河駅から徒歩4分の好立地にあるパーソナルジムです。江東区エリアのおしゃれな街並みの中にあり、トレーナーの丁寧な指導と個別プログラムが好評です。初心者にも通いやすいジムです。</p></section>
+        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">Nexusジム清澄白河店は清澄白河駅から徒歩4分の立地にあるパーソナルジムです。江東区エリアのおしゃれな街並みの中にあり、トレーナーの丁寧な指導と個別プログラムが好評です。初心者にも通いやすいジムです。</p></section>
 
                 
         <StorePrice brandSlug="nexus" brandName="Nexusジム" />

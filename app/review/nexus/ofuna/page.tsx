@@ -36,7 +36,7 @@ const goalGuide = [
   {
     goal: "朝や夜の時間に通いたい",
     fit: "向いている",
-    desc: "営業時間は8:00〜22:00です。朝のトレーニングや仕事帰りの夜の時間帯にも対応しやすいのが魅力です。",
+    desc: "営業時間は8:00〜22:00です。朝のトレーニングや仕事帰りの夜の時間帯にも対応しやすいのが特徴です。",
   },
   {
     goal: "本格的な筋肥大・ボディメイクが目的",
@@ -122,9 +122,9 @@ export default function StorePage() {
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 className="font-bold text-gray-900 mb-3">Nexusジム大船店が適している方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>大船・栄区で駅近</strong>のパーソナルジムを探している方（JR大船駅 徒歩約5分）</li>
-            <li>・<strong>費用を抑えて</strong>パーソナル指導を試したい方（月額19,800円〜の目安・月額制）</li>
-            <li>・<strong>朝や夜</strong>にも通いたい方（営業8:00〜22:00）</li>
+            <li>・<strong>大船・栄区で駅近</strong>のパーソナルジムを探している方に向いています（JR大船駅 徒歩約5分）</li>
+            <li>・<strong>費用を抑えて</strong>パーソナル指導を試したい方に向いています（月額19,800円〜の目安・月額制）</li>
+            <li>・<strong>朝や夜</strong>にも通いたい方に向いています（営業8:00〜22:00）</li>
             <li>・本格的な筋肥大や充実した設備を重視する方は、目的に合うかどうかをカウンセリングでご確認ください</li>
             <li>・料金・入会金・キャンペーンは変動するため、<strong>公式サイトでご確認ください</strong></li>
           </ul>

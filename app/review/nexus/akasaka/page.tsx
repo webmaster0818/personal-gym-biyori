@@ -97,7 +97,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム赤坂店は赤坂駅から徒歩5分の好立地にあるパーソナルジムです。港区エリアのビジネスパーソンに人気で、仕事帰りに通いやすい立地が好評です。トレーナーの専門知識と親しみやすさが評価されており、初心者でも無理なく始められるプログラム設計が特徴です。
+            Nexusジム赤坂店は赤坂駅から徒歩5分の立地にあるパーソナルジムです。港区エリアのビジネスパーソンに人気で、仕事帰りに通いやすい立地が好評です。トレーナーの専門知識と親しみやすさが評価されており、初心者でも無理なく始められるプログラム設計が特徴です。
           </p>
         </section>
 

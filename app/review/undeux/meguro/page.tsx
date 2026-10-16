@@ -114,7 +114,7 @@ export default function StorePage() {
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY目黒店は、目黒駅から徒歩1分の好立地にある女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。駅近で通いやすく、継続率が高いと好評です。
+            UNDEUX SUPERBODY目黒店は、目黒駅から徒歩1分の立地にある女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。駅近で通いやすく、継続率が高いと好評です。
           </p>
         </section>
 

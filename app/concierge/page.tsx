@@ -1085,7 +1085,7 @@ export default function ConciergePage() {
 
         {/* ── Step 5 → renamed Step 6: 本気度 ─────────────────── */}
         {step === 5 && (
-          <Card title="本気度" subtitle="どのくらいのペースで取り組みたいですか？">
+          <Card title="本気度" subtitle="取り組みたいペースを教えてください">
             <div className="grid grid-cols-1 gap-2">
               {intensityOpts.map((it) => (
                 <Btn key={it} label={it} selected={answers.intensity === it} onClick={() => setAnswers((p) => ({ ...p, intensity: it }))} />

@@ -138,7 +138,7 @@ export default function BaseBodyReview() {
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s2" className="font-bold text-gray-900 mb-3">base BODYをおすすめできる方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>ボディメイク＋身体機能の改善</strong>を両立したい方（見た目だけでなく、姿勢や動きやすさも改善したい方）</li>
+            <li>・<strong>ボディメイク＋身体機能の改善</strong>を両立したい方に向いています（見た目だけでなく、姿勢や動きやすさも改善したい方）</li>
             <li>・入会金は20,000〜30,000円程度です（キャンペーン割引あり）。初回カウンセリング・体験を受けられます</li>
             <li>・トレーナーのマンツーマン指導でフォームから整えたい方に向いています</li>
             <li>・一方、24時間のセルフ利用で費用を抑えたい方には、FIT24などのセルフ型が向いています</li>

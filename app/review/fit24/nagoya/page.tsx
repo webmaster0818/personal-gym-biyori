@@ -96,7 +96,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FIT24名古屋店は名古屋駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜という低価格で充実したマシン設備が利用できる点が魅力です。名古屋エリアで24時間利用可能なセルフ型フィットネスとして、忙しいビジネスパーソンに特に人気があります。
+            FIT24名古屋店は名古屋駅から徒歩5分の24時間営業フィットネスジムです。月額3,980円〜という低価格で充実したマシン設備が利用できる点が特徴です。名古屋エリアで24時間利用可能なセルフ型フィットネスとして、忙しいビジネスパーソンに特に人気があります。
           </p>
         </section>
 

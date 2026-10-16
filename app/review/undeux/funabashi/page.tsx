@@ -114,7 +114,7 @@ export default function StorePage() {
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY船橋店は、船橋駅から徒歩2分の女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。船橋エリアで駅近の好立地が通いやすいと好評です。
+            UNDEUX SUPERBODY船橋店は、船橋駅から徒歩2分の女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。船橋エリアで駅近の立地が通いやすいと好評です。
           </p>
         </section>
 

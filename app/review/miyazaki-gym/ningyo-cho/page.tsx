@@ -93,7 +93,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM人形町店は、人形町駅から徒歩3分の好立地にある月額制パーソナルジムです。中央区の下町エリアに位置し、地域住民やオフィスワーカーに親しまれています。有資格トレーナーが利用者の生活リズムに合わせた柔軟なトレーニングスケジュールを提案してくれるため、無理なく習慣化できると評判です。
+            MIYAZAKI GYM人形町店は、人形町駅から徒歩3分の立地にある月額制パーソナルジムです。中央区の下町エリアに位置し、地域住民やオフィスワーカーに親しまれています。有資格トレーナーが利用者の生活リズムに合わせた柔軟なトレーニングスケジュールを提案してくれるため、無理なく習慣化できると評判です。
           </p>
         </section>
 
