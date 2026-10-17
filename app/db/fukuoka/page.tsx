@@ -47,7 +47,7 @@ export default function FukuokaDbPage() {
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         福岡エリアで実在を確認したパーソナルジム{gyms.length}店の一覧です（Googleマップの掲載データ・{jaDate(db.fetchedAt)}取得・口コミ件数順）。
         編集部が絞り込んだおすすめは<Link href="/area/fukuoka/" className="underline text-blue-700">福岡のパーソナルジムおすすめ8選</Link>でご紹介しています。
-        当ページは、地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく全店を掲載しています。
+        当ページは、地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく、Googleマップの検索結果の上位（最大60件）のうち営業中と確認できた店舗を掲載しています。
       </p>
       <DbCitySummary slug="fukuoka" db={db as CityDb} />
 
