@@ -43,7 +43,7 @@ export default function HiroshimaDbPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <h1 className="text-2xl font-bold sm:text-3xl">{cityLabel("hiroshima", db as CityDb)}のパーソナルジム全{gyms.length}店（口コミ件数順の一覧）</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">{cityLabel("hiroshima", db as CityDb)}のパーソナルジム{gyms.length >= 60 ? "上位" : ""}{gyms.length}店（口コミ件数順の一覧）</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         広島エリアで実在を確認したパーソナルジム{gyms.length}店の一覧です（Googleマップの掲載データ・{jaDate(db.fetchedAt)}取得・口コミ件数順）。
         編集部が絞り込んだおすすめは<Link href="/area/hiroshima/" className="underline text-blue-700">広島のパーソナルジムおすすめ（編集部の絞り込み）</Link>でご紹介しています。

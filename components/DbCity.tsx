@@ -78,13 +78,22 @@ function fmtDate(d: string) {
   return `${y}年${m}月${day}日`;
 }
 
+/**
+ * 掲載件数の表記（2026-10-17 訂正）。Googleマップ（Places API）の検索結果は上限60件のため、
+ * 60店の都市は「上位60店」と書き、地域の全店舗であるかのような「全◯店」は使わない（各ページのFAQ「上位60件」と整合）。
+ * 60店未満の都市は実数のまま書く。
+ */
+export function dbCountLabel(n: number): string {
+  return n >= 60 ? `上位${n}店` : `${n}店`;
+}
+
 /** title・description（数字はすべて db から集計） */
 export function dbCityMetadata(slug: string, db: CityDb): Metadata {
   const L = cityLabel(slug, db);
   const s = cityStats(db);
   const p = partnersOf(slug);
   const title =
-    `${L}のパーソナルジム全${s.n}店を口コミ件数順に比較` +
+    `${L}のパーソナルジム${dbCountLabel(s.n)}を口コミ件数順に比較` +
     (s.women.length >= 2 ? `｜女性専用${s.women.length}店` : "") +
     (p.length ? `${s.women.length >= 2 ? "・" : "｜"}公式料金を掲載` : "");
   const brands = p.slice(0, 3).map((b) => shortBrand(b.name)).join("・");
