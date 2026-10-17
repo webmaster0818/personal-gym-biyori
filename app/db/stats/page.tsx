@@ -34,7 +34,7 @@ const brandRows = [
 const faqs = [
   {
     q: "この統計はどのように作成していますか？",
-    a: "当サイトが公開している32都市のパーソナルジム全店データベース（Googleマップの掲載データ・2026年8月29日一斉取得）の1,878店を、2026年9月2日に集計したものです。評点・口コミ件数は取得時点のGoogleマップ表示値で、当サイトによる評価や推定は含みません。",
+    a: "当サイトが公開している32都市のパーソナルジム店舗データベース（各都市のGoogleマップの検索結果の上位・最大60件。2026年8月29日一斉取得）の1,878店を、2026年9月2日に集計したものです。評点・口コミ件数は取得時点のGoogleマップ表示値で、当サイトによる評価や推定は含みません。",
   },
   {
     q: "評点4.8以上が85.7%であれば、評点は参考にしなくてよいのですか？",
@@ -56,10 +56,10 @@ export default function DbStatsPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <p className="text-xs text-gray-400"><Link href="/db/" className="underline">全店データベース</Link> &gt; 全国統計</p>
+      <p className="text-xs text-gray-400"><Link href="/db/" className="underline">店舗データベース</Link> &gt; 全国統計</p>
       <h1 className="mt-2 text-2xl font-bold sm:text-3xl">パーソナルジムの口コミ・評点 全国統計【32都市1,878店のデータ】</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
-        当サイトの<Link href="/db/" className="underline text-blue-700">32都市・全店データベース</Link>（Googleマップの掲載データ・2026年8月29日一斉取得）に収録した1,878店を集計した独自統計です。
+        当サイトの<Link href="/db/" className="underline text-blue-700">32都市・店舗データベース</Link>（各都市のGoogleマップの検索結果の上位・最大60件。2026年8月29日一斉取得）に収録した1,878店を集計した独自統計です。
         評点の高さだけでジムを選ぶ方法が機能しにくい理由を、数値で示しています。数値はすべて取得データにもとづくもので、推定・創作はありません。
       </p>
 
@@ -126,7 +126,7 @@ export default function DbStatsPage() {
       </div>
 
       <p className="mt-10 text-sm">
-        <Link href="/db/" className="underline text-blue-700">→ 32都市の全店データベース</Link>
+        <Link href="/db/" className="underline text-blue-700">→ 32都市の店舗データベース</Link>
         <span className="mx-2 text-gray-300">|</span>
         <Link href="/" className="underline text-blue-700">→ パーソナルジムの比較へ</Link>
       </p>

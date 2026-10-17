@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "全国49都市のパーソナルジム全データベース【約2,700店・実在確認済み】",
+  title: "全国49都市のパーソナルジム店舗データベース【約2,700店・実在確認済み】",
   description:
-    "全国49都市のパーソナルジム約2,700店を、Googleマップの掲載データ（評点・口コミ件数。取得日は各都市ページに記載）にもとづき都市別に一覧化した全店データベースです。提携の有無に関係なく、実在を確認できた店舗を口コミ件数順に掲載しています。評点・件数は取得時点の数値で、当サイトによる創作はありません。",
+    "全国49都市のパーソナルジム約2,700店を、Googleマップの掲載データ（評点・口コミ件数）にもとづき都市別に一覧化した店舗データベースです。各都市のGoogleマップ検索結果の上位（最大60件）のうち営業中の店舗を、提携の有無に関係なく口コミ件数順に掲載しています。評点・件数は取得時点の数値です。",
 };
 
 const CITIES: { slug: string; name: string; region: string }[] = [
@@ -86,10 +86,10 @@ export default function DbHubPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <h1 className="text-2xl font-bold sm:text-3xl">全国49都市のパーソナルジム全データベース</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl">全国49都市のパーソナルジム店舗データベース</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         全国49都市・約2,700店のパーソナルジムを、Googleマップの掲載データ（評点・口コミ件数。取得日は各都市ページに記載しています）にもとづき都市別に一覧化しています。
-        お住まいの地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく、実在を確認できた店舗を口コミ件数順に掲載しています。
+        お住まいの地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく、各都市のGoogleマップの検索結果の上位（最大60件）のうち営業中と確認できた店舗を口コミ件数順に掲載しています。
       </p>
       <p className="mt-3 text-sm">
         <Link href="/db/stats/" className="underline text-blue-700 font-medium">→ 32都市1,878店の全国統計（評点4.8以上が85.7%）を見る</Link>
