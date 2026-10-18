@@ -20,7 +20,8 @@ function matchBrand(gymName: string) {
 export default function AreaGymList({ area, areaName }: { area: string; areaName: string }) {
   const raw = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data-area-gyms.json"), "utf-8"));
   const all: Gym[] = raw[area] || [];
-  const gyms = all.filter((g) => g.count >= 5).slice(0, 30);
+  const eligible = all.filter((g) => g.count >= 5);
+  const gyms = eligible.slice(0, 30);
   const surveyedAt: string = raw.surveyedAt;
 
   const itemListLd = {
@@ -37,7 +38,7 @@ export default function AreaGymList({ area, areaName }: { area: string; areaName
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
         <h2 className="text-2xl font-bold text-center mb-3">{areaName}のパーソナルジム一覧【Googleマップの口コミデータ】</h2>
         <p className="text-center text-gray-500 text-sm mb-2">
-          {areaName}周辺で実在を確認したパーソナルジムを、<strong>Googleマップの掲載データ（評点・口コミ件数）</strong>にもとづき口コミ件数順に掲載しています（{jaDate(surveyedAt)}取得。全{all.length}件を調査し、口コミ5件以上の{gyms.length}件を掲載しています）。
+          {areaName}周辺で実在を確認したパーソナルジムを、<strong>Googleマップの掲載データ（評点・口コミ件数）</strong>にもとづき口コミ件数順に掲載しています（{jaDate(surveyedAt)}取得。Googleマップの検索結果から取得した{all.length}件のうち、{eligible.length > gyms.length ? `口コミ5件以上の${eligible.length}件から口コミ件数の多い順に${gyms.length}件` : `口コミ5件以上の${gyms.length}件`}を掲載しています）。
         </p>
         <p className="text-center text-gray-400 text-xs mb-8">出典：Googleマップ（Google Places API・{jaDate(surveyedAt)}取得）。評点・件数は当サイトの創作ではなく取得時点の数値で、その後変動する場合があります。料金は各ジムの公式サイトにてご確認ください。</p>
 
