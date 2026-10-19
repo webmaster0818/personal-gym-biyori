@@ -106,7 +106,7 @@ export default function AreaIndexPage() {
         <h2 className="text-base font-bold text-gray-900">エリア記事とデータベースの違い</h2>
         <p className="mt-2">
           エリア記事は、編集部がおすすめを絞り込み、料金・特徴を比較したページです。
-          <Link href="/db/" className="underline text-blue-700">都市別データベース</Link>は、提携の有無に関係なく実在を確認できた全店を口コミ件数順に掲載したページです。
+          <Link href="/db/" className="underline text-blue-700">都市別データベース</Link>は、提携の有無に関係なく、Googleマップに掲載されている店舗を口コミ件数順に掲載したページです。
           両方を併せてご覧いただくと、候補の絞り込みと見落としの確認を同時に行えます。
         </p>
       </section>

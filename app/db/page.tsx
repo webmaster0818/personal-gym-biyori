@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "全国49都市のパーソナルジム店舗データベース【約2,700店・実在確認済み】",
+  title: "全国49都市のパーソナルジム店舗データベース【約2,700店・Googleマップ掲載店】",
   description:
     "全国49都市のパーソナルジム約2,700店を、Googleマップの掲載データ（評点・口コミ件数）にもとづき都市別に一覧化した店舗データベースです。各都市のGoogleマップ検索結果の上位（最大60件）のうち営業中の店舗を、提携の有無に関係なく口コミ件数順に掲載しています。評点・件数は取得時点の数値です。",
 };

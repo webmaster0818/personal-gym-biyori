@@ -45,7 +45,7 @@ export default function SaitamaDbPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <h1 className="text-2xl font-bold sm:text-3xl">{cityLabel("saitama", db as CityDb)}のパーソナルジム{gyms.length >= 60 ? "上位" : ""}{gyms.length}店（口コミ件数順の一覧）</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
-        さいたま市(大宮・浦和)エリアで実在を確認したパーソナルジム{gyms.length}店の一覧です（Googleマップの掲載データ・{jaDate(db.fetchedAt)}取得・口コミ件数順）。
+        さいたま市(大宮・浦和)エリアでGoogleマップに掲載されているパーソナルジム{gyms.length}店の一覧です（{jaDate(db.fetchedAt)}取得・口コミ件数順）。
         編集部が絞り込んだおすすめは<Link href="/area/saitama/" className="underline text-blue-700">さいたま(大宮・浦和)のパーソナルジムおすすめ（編集部の絞り込み）</Link>でご紹介しています。
         当ページは、地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく、Googleマップの検索結果の上位（最大60件）のうち営業中と確認できた店舗を掲載しています。
       </p>

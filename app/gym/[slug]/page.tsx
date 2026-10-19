@@ -71,7 +71,7 @@ export default async function GymPage({ params }: { params: Promise<{ slug: stri
       </p>
       <h1 className="mt-2 text-2xl font-bold sm:text-3xl">{e.name}</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
-        {e.areaName}エリアで実在を確認したパーソナルジムです。以下の評点・口コミ件数は{jaDate(e.fetchedAt)}時点のGoogleマップの表示値をそのまま転記したもので、当サイトによる評価ではありません。
+        {e.areaName}エリアでGoogleマップに掲載されているパーソナルジムです。以下の評点・口コミ件数は{jaDate(e.fetchedAt)}時点のGoogleマップの表示値をそのまま転記したもので、当サイトによる評価ではありません。
       </p>
 
       <div className="mt-6 overflow-x-auto">

@@ -357,7 +357,7 @@ export default function FurdiReview() {
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
         <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">FURDI（ファディー）の店舗一覧(都道府県別)</h2>
-        <p className="text-xs text-gray-500 mb-4">当サイトのデータベース（Googleマップの掲載データ）で実在を確認できた店舗です。店舗名のリンクはFURDI（ファディー）公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
+        <p className="text-xs text-gray-500 mb-4">当サイトの店舗データベースに収録した、Googleマップに掲載されている店舗です。店舗名のリンクはFURDI（ファディー）公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
         <div className="mb-12">
           <div className="mb-4">
             <h3 className="font-bold text-sm text-gray-800 mb-2">青森県</h3>

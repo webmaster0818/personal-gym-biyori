@@ -407,7 +407,7 @@ export default function AppleGymReview() {
           </div>
         </section>
         <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">Apple GYM（アップルジム）の店舗一覧(都道府県別)</h2>
-        <p className="text-xs text-gray-500 mb-4">当サイトの店舗データベースで実在を確認できた店舗です。店舗名のリンクはApple GYM（アップルジム）公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
+        <p className="text-xs text-gray-500 mb-4">当サイトの店舗データベースに収録した、Googleマップに掲載されている店舗です。店舗名のリンクはApple GYM（アップルジム）公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
         <div className="mb-12">
           <div className="mb-4">
             <h3 className="font-bold text-sm text-gray-800 mb-2">東京都</h3>

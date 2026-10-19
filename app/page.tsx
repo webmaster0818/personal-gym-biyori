@@ -428,7 +428,7 @@ export default function Home() {
             ))}
           </div>
           <h3 className="text-sm font-bold text-gray-600 mt-6 mb-3">全店データベース（Googleマップの掲載データ・口コミ件数順）</h3>
-          <p className="text-xs text-gray-500 mb-3">提携の有無に関係なく、実在を確認できた各都市のパーソナルジム全店を一覧できるデータベースです。</p>
+          <p className="text-xs text-gray-500 mb-3">提携の有無に関係なく、Googleマップに掲載されている各都市のパーソナルジムを一覧できるデータベースです。</p>
           <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2">
             {[
               { name: "新宿", slug: "shinjuku" }, { name: "渋谷", slug: "shibuya" }, { name: "池袋", slug: "ikebukuro" },
