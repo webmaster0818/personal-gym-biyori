@@ -200,7 +200,7 @@ export default function YokohamaAreaPage() {
         <AreaGymList area="yokohama" areaName="横浜" />
 
         <p className="mb-8 text-sm">
-          <Link href="/db/yokohama/" className="underline text-teal-700 font-medium">→ 横浜のパーソナルジム全データベース(60店・Googleマップの掲載データ)を見る</Link>
+          <Link href="/db/yokohama/" className="underline text-teal-700 font-medium">→ 横浜のパーソナルジム店舗データベース(60店・Googleマップの掲載データ)を見る</Link>
         </p>
 
         <section>

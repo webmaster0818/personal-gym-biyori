@@ -164,7 +164,7 @@ export default function ChibaAreaPage() {
         </section>
 
         <AreaGymList area="chiba" areaName="千葉" />
-          <p className="mb-6 text-sm"><Link href="/db/chiba/" className="underline text-teal-700 font-medium">→ 千葉のパーソナルジム全データベース(Googleマップの掲載データ・口コミ件数順)を見る</Link></p>
+          <p className="mb-6 text-sm"><Link href="/db/chiba/" className="underline text-teal-700 font-medium">→ 千葉のパーソナルジム店舗データベース(Googleマップの掲載データ・口コミ件数順)を見る</Link></p>
 
         <section>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>

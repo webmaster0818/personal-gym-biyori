@@ -182,7 +182,7 @@ export default function IkebukuroAreaPage() {
         <AreaGymList area="ikebukuro" areaName="池袋" />
 
         <p className="mb-8 text-sm">
-          <Link href="/db/ikebukuro/" className="underline text-teal-700 font-medium">→ 池袋のパーソナルジム全データベース(56店・Googleマップの掲載データ)を見る</Link>
+          <Link href="/db/ikebukuro/" className="underline text-teal-700 font-medium">→ 池袋のパーソナルジム店舗データベース(56店・Googleマップの掲載データ)を見る</Link>
         </p>
 
         <section>

@@ -427,8 +427,8 @@ export default function Home() {
               </Link>
             ))}
           </div>
-          <h3 className="text-sm font-bold text-gray-600 mt-6 mb-3">全店データベース（Googleマップの掲載データ・口コミ件数順）</h3>
-          <p className="text-xs text-gray-500 mb-3">提携の有無に関係なく、Googleマップに掲載されている各都市のパーソナルジムを一覧できるデータベースです。</p>
+          <h3 className="text-sm font-bold text-gray-600 mt-6 mb-3">店舗データベース（Googleマップの掲載データ・口コミ件数順）</h3>
+          <p className="text-xs text-gray-500 mb-3">提携の有無に関係なく、各都市のGoogleマップ検索結果の上位（最大60件）のうち営業中の店舗を一覧できるデータベースです。</p>
           <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2">
             {[
               { name: "新宿", slug: "shinjuku" }, { name: "渋谷", slug: "shibuya" }, { name: "池袋", slug: "ikebukuro" },
@@ -481,7 +481,7 @@ export default function Home() {
       {/* All Gyms */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl font-bold text-center mb-2">全ジム一覧</h2>
+          <h2 className="text-2xl font-bold text-center mb-2">掲載ジム一覧</h2>
           <p className="text-gray-500 text-center text-sm mb-8">60社以上のパーソナルジムを掲載しています</p>
 
           <h3 className="text-sm font-bold text-accent mb-3">主要パーソナルジム</h3>

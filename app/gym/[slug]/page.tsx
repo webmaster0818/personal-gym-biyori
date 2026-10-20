@@ -61,13 +61,13 @@ export default async function GymPage({ params }: { params: Promise<{ slug: stri
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "全店データベース", "item": "https://personal-gym-biyori.com/db/" },
+          { "@type": "ListItem", "position": 1, "name": "店舗データベース", "item": "https://personal-gym-biyori.com/db/" },
           { "@type": "ListItem", "position": 2, "name": e.areaName, "item": `https://personal-gym-biyori.com/db/${e.area}/` },
           { "@type": "ListItem", "position": 3, "name": e.name },
         ],
       }) }} />
       <p className="text-xs text-gray-400">
-        <Link href="/db/" className="underline">全店データベース</Link> &gt; <Link href={`/db/${e.area}/`} className="underline">{e.areaName}</Link> &gt; {e.name}
+        <Link href="/db/" className="underline">店舗データベース</Link> &gt; <Link href={`/db/${e.area}/`} className="underline">{e.areaName}</Link> &gt; {e.name}
       </p>
       <h1 className="mt-2 text-2xl font-bold sm:text-3xl">{e.name}</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
@@ -138,7 +138,7 @@ export default async function GymPage({ params }: { params: Promise<{ slug: stri
       )}
 
       <p className="mt-10 text-sm">
-        <Link href={`/db/${e.area}/`} className="underline text-blue-700">→ {e.areaName}の全店データベースへ戻る</Link>
+        <Link href={`/db/${e.area}/`} className="underline text-blue-700">→ {e.areaName}の店舗データベースへ戻る</Link>
         <span className="mx-2 text-gray-300">|</span>
         <Link href="/" className="underline text-blue-700">→ パーソナルジムの比較へ</Link>
       </p>

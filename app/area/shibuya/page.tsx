@@ -191,7 +191,7 @@ export default function ShibuyaAreaPage() {
         <AreaGymList area="shibuya" areaName="渋谷" />
 
         <p className="mb-8 text-sm">
-          <Link href="/db/shibuya/" className="underline text-teal-700 font-medium">→ 渋谷のパーソナルジム全データベース(58店・Googleマップの掲載データ)を見る</Link>
+          <Link href="/db/shibuya/" className="underline text-teal-700 font-medium">→ 渋谷のパーソナルジム店舗データベース(58店・Googleマップの掲載データ)を見る</Link>
         </p>
 
         <section>

@@ -191,7 +191,7 @@ export default function ShinjukuAreaPage() {
         <AreaGymList area="shinjuku" areaName="新宿" />
 
         <p className="mb-8 text-sm">
-          <Link href="/db/shinjuku/" className="underline text-teal-700 font-medium">→ 新宿のパーソナルジム全データベース(58店・Googleマップの掲載データ)を見る</Link>
+          <Link href="/db/shinjuku/" className="underline text-teal-700 font-medium">→ 新宿のパーソナルジム店舗データベース(58店・Googleマップの掲載データ)を見る</Link>
         </p>
 
         <section>

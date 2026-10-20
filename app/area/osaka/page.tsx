@@ -215,7 +215,7 @@ export default function OsakaAreaPage() {
         </section>
 
         <p className="mb-8 text-sm">
-          <Link href="/db/osaka/" className="underline text-teal-700 font-medium">→ 大阪のパーソナルジム全データベース(60店・Googleマップの掲載データ)を見る</Link>
+          <Link href="/db/osaka/" className="underline text-teal-700 font-medium">→ 大阪のパーソナルジム店舗データベース(60店・Googleマップの掲載データ)を見る</Link>
         </p>
 
         <section>

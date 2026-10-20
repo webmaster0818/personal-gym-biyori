@@ -37,7 +37,7 @@ const footerLinks = [
     ],
   },
   {
-    title: `全店データベース(${SITE_SCALE.dbCities}都市)`,
+    title: `店舗データベース(${SITE_SCALE.dbCities}都市)`,
     links: [
       { href: '/db/sapporo/', label: '札幌' },
       { href: '/db/sendai/', label: '仙台' },
@@ -92,7 +92,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-600 mt-10 pt-8 text-xs text-gray-500">
           <p className="text-center leading-relaxed">
-            パーソナルジムびよりでは、{SITE_SCALE.reviews}ブランドのレビュー、全国{SITE_SCALE.dbCities}都市・{SITE_SCALE.dbStores}店のGoogleマップ掲載データにもとづく全店データベース、
+            パーソナルジムびよりでは、{SITE_SCALE.reviews}ブランドのレビュー、全国{SITE_SCALE.dbCities}都市・{SITE_SCALE.dbStores}店のGoogleマップ掲載データにもとづく店舗データベース、
             ジム個別ページ{SITE_SCALE.gymPages.toLocaleString('ja-JP')}件を掲載しています。
           </p>
           <p className="mt-2 text-center leading-relaxed">

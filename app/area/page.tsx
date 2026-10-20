@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "エリア別パーソナルジムおすすめ一覧【全国35エリア】",
   description:
-    "パーソナルジムのおすすめをエリア別にご紹介します。新宿・渋谷・銀座など東京主要エリアから、横浜・大阪・名古屋・福岡・札幌まで全国35エリアの料金相場と選び方をまとめています。都市別の全店データベースも公開しています。",
+    "パーソナルジムのおすすめをエリア別にご紹介します。新宿・渋谷・銀座など東京主要エリアから、横浜・大阪・名古屋・福岡・札幌まで全国35エリアの料金相場と選び方をまとめています。都市別の店舗データベースも公開しています。",
 };
 
 const REGIONS: { region: string; areas: { slug: string; name: string }[] }[] = [
@@ -81,8 +81,8 @@ export default function AreaIndexPage() {
       <h1 className="mt-2 text-2xl font-bold sm:text-3xl">エリア別パーソナルジムおすすめ一覧</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         パーソナルジムのおすすめと料金相場を、全国35エリア別にまとめています。
-        候補を絞り込みたい方は下記のエリア記事を、エリア内の全店を確認したい方は
-        <Link href="/db/" className="underline text-blue-700">都市別の全店データベース</Link>(Googleマップの掲載データ)をご覧ください。
+        候補を絞り込みたい方は下記のエリア記事を、Googleマップ上の店舗を一覧で確認したい方は
+        <Link href="/db/" className="underline text-blue-700">都市別の店舗データベース</Link>(Googleマップの掲載データ)をご覧ください。
       </p>
 
       {REGIONS.map((r) => (

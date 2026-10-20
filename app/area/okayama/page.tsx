@@ -164,7 +164,7 @@ export default function OkayamaAreaPage() {
         </section>
 
         <AreaGymList area="okayama" areaName="岡山" />
-          <p className="mb-6 text-sm"><Link href="/db/okayama/" className="underline text-teal-700 font-medium">→ 岡山のパーソナルジム全データベース(Googleマップの掲載データ・口コミ件数順)を見る</Link></p>
+          <p className="mb-6 text-sm"><Link href="/db/okayama/" className="underline text-teal-700 font-medium">→ 岡山のパーソナルジム店舗データベース(Googleマップの掲載データ・口コミ件数順)を見る</Link></p>
 
         <section>
           <h2 className="text-lg font-bold mb-4">関連エリアのパーソナルジム</h2>

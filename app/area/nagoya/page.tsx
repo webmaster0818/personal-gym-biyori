@@ -192,7 +192,7 @@ export default function NagoyaAreaPage() {
         <AreaGymList area="nagoya" areaName="名古屋" />
 
         <p className="mb-8 text-sm">
-          <Link href="/db/nagoya/" className="underline text-teal-700 font-medium">→ 名古屋のパーソナルジム全データベース(60店・Googleマップの掲載データ)を見る</Link>
+          <Link href="/db/nagoya/" className="underline text-teal-700 font-medium">→ 名古屋のパーソナルジム店舗データベース(60店・Googleマップの掲載データ)を見る</Link>
         </p>
 
         <section>
