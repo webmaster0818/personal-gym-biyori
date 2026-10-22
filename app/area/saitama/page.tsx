@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("saitama", "さいたま");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジムさいたまおすすめ5選",
-  description:
-    "さいたまでおすすめのパーソナルジム5選をご紹介します。大宮・浦和エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "さいたま";
@@ -34,54 +36,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "大宮駅近立地", "手ぶらで通える"],
-    access: "大宮店（大宮駅徒歩5分）",
-    point: "大宮エリアで低価格にパーソナルトレーニングを始めたい初心者に適しています。",
-    reviewed: true,
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "大宮西口店（大宮駅西口徒歩5分）",
-    point: "埼玉エリアでの実績も豊富です。確実に結果を出したい方に選ばれています。",
-    reviewed: true,
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "全額返金保証あり", "深夜まで営業"],
-    access: "大宮店（大宮駅徒歩5分）",
-    point: "大宮駅から徒歩圏内で完全個室のマンツーマントレーニングを受けられます。",
-    reviewed: true,
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "大宮店（大宮駅徒歩5分）",
-    point: "入会金無料のため、始めやすいジムです。本格的なボディメイクを目指す方におすすめです。",
-    reviewed: true,
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "大宮店（大宮駅徒歩5分）",
-    point: "さいたまで最も手軽に始められるパーソナルジムの一つです。1回20分で完了するため、忙しい方にも適しています。",
-    reviewed: true,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("saitama", areaName),
   { q: "さいたまのパーソナルジムの料金相場はいくらですか？", a: "さいたまのパーソナルジムの料金相場は、2ヶ月コースで20万〜35万円程度です。月額制では月1万〜6万円が目安で、東京と同程度か若干安い傾向にあります。" },
-  { q: "大宮エリアでおすすめのパーソナルジムを教えてください。", a: "大宮駅周辺にはチキンジム、RIZAP、24/7ワークアウト、BEYOND、エクササイズコーチなど主要ジムが揃っています。" },
-  { q: "さいたまで初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。いずれも大宮駅から徒歩圏内で低価格で始められます。" },
-  { q: "さいたまで安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）、チキンジム（月々6,800円〜/分割時）が低価格帯です。" },
   { q: "さいたまと東京、どちらのジムに通うべきですか？", a: "大宮在住・在勤なら大宮のジムが便利です。都内に通勤している方は、職場近くの都内ジムの方が通いやすい場合もあります。" },
   { q: "パーソナルジムの解約は簡単にできますか？", a: "月額制のジムは比較的簡単に解約できます。コース契約の場合はクーリングオフ期間内であれば無条件解約、それ以降は解約手数料がかかることがあります。契約前に解約条件をご確認ください。" },
 ];
@@ -110,11 +68,11 @@ export default function SaitamaAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジムさいたまおすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          さいたま市は大宮駅を中心にパーソナルジムが充実している埼玉県の中心エリアです。大手チェーンが大宮駅周辺に揃っており、都内に出なくても質の高いパーソナルトレーニングを受けられます。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          さいたま市は大宮駅を中心にパーソナルジムが充実している埼玉県の中心エリアです。大手チェーンが大宮駅周辺に揃っており、都内に出なくても質の高いパーソナルトレーニングを受けられます。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -135,15 +93,7 @@ export default function SaitamaAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="saitama" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

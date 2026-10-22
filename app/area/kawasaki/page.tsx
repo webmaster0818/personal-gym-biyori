@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("kawasaki", "川崎");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム川崎おすすめ5選",
-  description:
-    "川崎でおすすめのパーソナルジム5選をご紹介します。川崎駅周辺の料金相場・特徴・アクセスを比較しています。神奈川県で通えるジムについて解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "川崎";
@@ -34,59 +36,11 @@ const priceRange = [
   { category: "入会金", range: "0円〜5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "川崎駅徒歩3分", "朝7時〜夜23時営業"],
-    access: "川崎店（川崎駅徒歩3分）",
-    point: "低価格で、手ぶらで通えます。川崎で最も気軽に始められるジムです。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "川崎店（川崎駅徒歩5分）",
-    point: "入会金無料で、質の高いトレーニングを受けられます。川崎で本格的なボディメイクを目指す方に適しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "川崎店（川崎駅徒歩5分）",
-    point: "深夜まで営業しており、仕事帰りにも通えます。しっかり食べながらダイエットできます。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "川崎店（川崎駅徒歩3分）",
-    point: "1回20分で完了する時短トレーニングです。料金を重視する方に適しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "川崎店（川崎駅徒歩5分）",
-    point: "月額制のため、無理なく継続できます。姿勢改善や体の不調にも対応しています。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("kawasaki", areaName),
   { q: "川崎のパーソナルジムの料金相場はいくらですか？", a: "川崎のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円です。東京都心と比べてやや手頃な価格帯です。" },
-  { q: "川崎で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。低価格で気軽に始められます。" },
-  { q: "川崎で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）やチキンジム（月々6,800円〜/分割時）が低価格帯です。" },
   { q: "川崎のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが川崎駅徒歩5分以内にあり、JR・京急からのアクセスも良好です。" },
-  { q: "川崎で入会金無料のパーソナルジムを教えてください。", a: "BEYOND（ビヨンド）は入会金無料です。初期費用を抑えたい方におすすめです。" },
   { q: "川崎のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
 ];
 
@@ -115,11 +69,11 @@ export default function KawasakiAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "神奈川", href: "/area/yokohama/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム川崎おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          川崎は東京と横浜の中間に位置し、両方向へのアクセスが便利なエリアです。都心より手頃な料金設定のジムが多く、手頃な料金でパーソナルトレーニングを始められます。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          川崎は東京と横浜の中間に位置し、両方向へのアクセスが便利なエリアです。都心より手頃な料金設定のジムが多く、手頃な料金でパーソナルトレーニングを始められます。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -140,15 +94,7 @@ export default function KawasakiAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="kawasaki" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

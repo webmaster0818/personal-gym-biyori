@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("fukuoka", "福岡");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム福岡おすすめ6選",
-  description:
-    "福岡でおすすめのパーソナルジム6選をご紹介します。天神・博多エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "福岡";
@@ -34,66 +36,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "天神店・博多駅前店の2店舗", "手ぶらで通える"],
-    access: "天神店（天神駅徒歩3分）、博多駅前店（博多駅徒歩5分）",
-    point: "天神・博多の両エリアに店舗があり、低価格で始められるため初心者に人気です。",
-    reviewed: true,
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "天神店・博多店・小倉店",
-    point: "福岡県内に3店舗あります。短期集中で結果を出したい方に向けた実績があります。",
-    reviewed: true,
-    storeHref: "/review/rizap/fukuoka/",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜まで営業", "全額返金保証あり"],
-    access: "福岡天神店（天神駅徒歩5分）",
-    point: "天神エリアで完全個室のマンツーマントレーニングを受けられます。",
-    reviewed: true,
-    storeHref: "/review/247workout/fukuoka/",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "福岡天神店・博多店",
-    point: "入会金無料で、質の高いトレーニングを受けられます。ボディメイクを重視する方に人気です。",
-    reviewed: true,
-    storeHref: "/review/beyond/fukuoka/",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "天神店（天神駅徒歩3分）",
-    point: "福岡で最も手軽に始められるパーソナルジムの一つです。1回20分で完了するため、忙しい方でも通えます。",
-    reviewed: true,
-  },
-  {
-    name: "MAKE BODY（メイクボディー）",
-    price: "月38,500円〜（月4回）",
-    features: ["福岡発のパーソナルジム", "完全個室マンツーマン指導", "食事管理サポート付き", "天神エリアの立地"],
-    access: "天神店（天神駅徒歩5分）",
-    point: "福岡で人気の地元密着型ジムです。丁寧なカウンセリングと個別プログラムが好評です。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("fukuoka", areaName),
   { q: "福岡のパーソナルジムの料金相場はいくらですか？", a: "福岡のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。東京・大阪と比べてやや安い傾向にあります。" },
-  { q: "福岡で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。いずれも天神駅から徒歩圏内で、低価格で始められます。" },
-  { q: "天神エリアでおすすめのパーソナルジムを教えてください。", a: "天神エリアにはチキンジム、RIZAP、24/7ワークアウト、BEYOND、エクササイズコーチなど主要ジムが集結しています。" },
-  { q: "福岡で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）、チキンジム（月々6,800円〜/分割時）が低価格帯です。" },
-  { q: "博多駅周辺にパーソナルジムはありますか？", a: "はい、チキンジム博多駅前店やRIZAP博多店、BEYOND博多店など複数のジムがあります。" },
   { q: "パーソナルジムに通う期間はどのくらいが目安ですか？", a: "ダイエット目的であれば2〜3ヶ月、ボディメイクや体質改善が目的であれば3〜6ヶ月が一般的な目安です。継続的な運動習慣をつけたい方は月額制のジムが向いています。" },
 ];
 
@@ -120,11 +66,11 @@ export default function FukuokaAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム福岡おすすめ6選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          福岡は九州最大の都市で、天神・博多エリアを中心にパーソナルジムの出店が増加しています。大手チェーンが主要エリアに揃っているほか、地元発の実力派ジムもあり、選択肢が充実しています。本記事では、料金・実績・アクセスの観点から選定した6つのジムをご紹介します。
+          福岡は九州最大の都市で、天神・博多エリアを中心にパーソナルジムの出店が増加しています。大手チェーンが主要エリアに揃っているほか、地元発の実力派ジムもあり、選択肢が充実しています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -152,15 +98,7 @@ export default function FukuokaAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム6選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="fukuoka" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

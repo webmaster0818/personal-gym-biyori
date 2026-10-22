@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("kyoto", "京都");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム京都おすすめ5選",
-  description:
-    "京都でおすすめのパーソナルジム5選をご紹介します。河原町・四条エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "京都";
@@ -34,54 +36,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "河原町駅近立地", "手ぶらで通える"],
-    access: "京都河原町店（河原町駅徒歩3分）",
-    point: "河原町の立地で、低価格にパーソナルトレーニングを始められます。初心者に適しています。",
-    reviewed: true,
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "京都店（烏丸駅徒歩5分）",
-    point: "京都で確実に結果を出したい方に適しています。烏丸エリアの立地で通いやすい環境です。",
-    reviewed: true,
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "全額返金保証あり", "深夜まで営業"],
-    access: "京都河原町店（河原町駅徒歩5分）",
-    point: "京都の食文化を楽しみながらダイエットできます。3食食べるメソッドが、食事を楽しみたい方に人気です。",
-    reviewed: true,
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "京都四条店（烏丸駅徒歩3分）",
-    point: "四条烏丸エリアにあり、アクセスに優れています。入会金無料で質の高いトレーニングを受けられます。",
-    reviewed: true,
-  },
-  {
-    name: "BODY STOIC（ボディストイック）",
-    price: "月33,000円〜（月4回）",
-    features: ["京都発のパーソナルジム", "完全個室マンツーマン", "食事指導サポート付き", "月額制で通いやすい"],
-    access: "四条烏丸店（烏丸駅徒歩3分）",
-    point: "京都発の地元密着型ジムです。月額制で無理なく続けやすい料金設定が特徴です。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("kyoto", areaName),
   { q: "京都のパーソナルジムの料金相場はいくらですか？", a: "京都のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。月額制では月1万〜6万円が目安です。" },
-  { q: "京都で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジム京都河原町店が初心者に特におすすめです。低価格かつ手ぶらで通えるため、初めての方でも始めやすい環境です。" },
-  { q: "河原町エリアにパーソナルジムは多くありますか？", a: "はい、河原町・四条烏丸は京都のパーソナルジム集積地です。チキンジム、24/7ワークアウト、BEYONDなどが出店しています。" },
-  { q: "京都にエクササイズコーチはありますか？", a: "2026年4月時点で京都にエクササイズコーチの店舗はありません。低価格ジムをお探しの方はチキンジムが候補になります。" },
   { q: "京都と大阪、どちらのジムに通うべきですか？", a: "京都在住・在勤の方は、京都のジムを選ぶと通いやすくなります。大阪に通勤している方は、大阪のジムの方が選択肢が多く便利です。" },
   { q: "パーソナルジムの効果を高める方法を教えてください。", a: "週2回の通所、トレーナーによる食事アドバイスの実践、十分な睡眠の確保の3点が基本です。トレーニングだけでなく生活全体を見直すことで、効果を高められます。" },
 ];
@@ -109,11 +67,11 @@ export default function KyotoAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム京都おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          京都は四条河原町・烏丸エリアを中心にパーソナルジムが集まっています。大手チェーンが揃っているほか、地元密着型のジムも存在し、選択肢が広がっています。大阪へのアクセスも良いため、両エリアでの比較検討もおすすめです。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          京都は四条河原町・烏丸エリアを中心にパーソナルジムが集まっています。大手チェーンが揃っているほか、地元密着型のジムも存在し、選択肢が広がっています。大阪へのアクセスも良いため、両エリアでの比較検討もおすすめです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -134,15 +92,7 @@ export default function KyotoAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="kyoto" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("umeda", "梅田");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム梅田おすすめ7選",
-  description:
-    "梅田でおすすめのパーソナルジム7選をご紹介します。梅田駅周辺の料金相場・特徴・アクセスを比較しています。大阪キタで通えるジムについて解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "梅田";
@@ -34,76 +36,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "梅田駅徒歩3分", "朝7時〜夜23時営業"],
-    access: "梅田店（梅田駅徒歩3分）",
-    point: "低価格で、手ぶらで通えます。梅田で最も気軽に始められるジムです。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "梅田店（梅田駅徒歩5分）",
-    point: "大阪キタで確実に結果を出したい方に適しています。食事管理まで手厚くサポートしています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "梅田店（梅田駅徒歩5分）",
-    point: "入会金無料のため、始めやすいジムです。梅田で本格的なボディメイクを目指す方に人気です。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "梅田店（梅田駅徒歩5分）",
-    point: "深夜まで営業しており、残業後にも通えます。しっかり食べながらダイエットできます。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "梅田店（梅田駅徒歩3分）",
-    point: "1回20分で完了し、料金を抑えて通えるジムです。ランチタイムにも利用できます。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "梅田店（梅田駅徒歩5分）",
-    point: "月額制のため、無理なく続けられます。姿勢改善や腰痛持ちの方にもおすすめです。",
-    reviewed: false,
-  },
-  {
-    name: "UNDEUX SUPERBODY（アンドゥスーパーボディ）",
-    price: "月29,800円〜（月4回）",
-    features: ["女性専用パーソナルジム", "食事宅配サービス付き", "おしゃれな内装", "梅田駅徒歩5分"],
-    access: "梅田スタジオ（梅田駅徒歩5分）",
-    point: "女性専用で、食事まで含めてサポートしています。大阪の女性に人気のジムです。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("umeda", areaName),
   { q: "梅田のパーソナルジムの料金相場はいくらですか？", a: "梅田のパーソナルジムの料金相場は、2ヶ月コースで18万〜38万円です。ジムが多いエリアのためキャンペーンも多く、実質的にお得に通えることもあります。" },
-  { q: "梅田で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。低価格で気軽に始められます。" },
-  { q: "梅田で女性におすすめのパーソナルジムを教えてください。", a: "UNDEUX SUPERBODYは女性専用で食事宅配サービスも付いており、女性に特化したプログラムが人気です。" },
-  { q: "梅田で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）やチキンジム（月々6,800円〜/分割時）が低価格帯です。" },
-  { q: "梅田で入会金無料のパーソナルジムを教えてください。", a: "BEYOND（ビヨンド）は入会金無料です。初期費用を抑えたい方におすすめです。" },
   { q: "梅田のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
 ];
 
@@ -132,11 +68,11 @@ export default function UmedaAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "大阪", href: "/area/osaka/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム梅田おすすめ7選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          梅田は大阪キタの中心地で、JR大阪駅・阪急・阪神・地下鉄が集結する大阪最大のターミナルエリアです。パーソナルジムが多く集まるエリアで、各ジムがキャンペーンを積極的に展開しています。本記事では、料金・実績・アクセスの観点から選定した7つのジムをご紹介します。
+          梅田は大阪キタの中心地で、JR大阪駅・阪急・阪神・地下鉄が集結する大阪最大のターミナルエリアです。パーソナルジムが多く集まるエリアで、各ジムがキャンペーンを積極的に展開しています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -157,15 +93,7 @@ export default function UmedaAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム7選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="umeda" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

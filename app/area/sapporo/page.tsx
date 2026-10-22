@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("sapporo", "札幌");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム札幌おすすめ5選",
-  description:
-    "札幌でおすすめのパーソナルジム5選をご紹介します。大通・すすきの・札幌駅エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "札幌";
@@ -34,58 +36,11 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "札幌駅近立地", "手ぶらで通える"],
-    access: "札幌店（札幌駅徒歩5分）",
-    point: "札幌で低価格にパーソナルトレーニングを始めたい初心者に適しています。",
-    reviewed: true,
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "札幌店（大通駅徒歩5分）",
-    point: "北海道で唯一の店舗です。確実に結果を出したい方に選ばれています。",
-    reviewed: true,
-    storeHref: "/review/rizap/sapporo/",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "全額返金保証あり", "駅近立地"],
-    access: "札幌店（大通駅徒歩3分）",
-    point: "大通エリアにあり、アクセスに優れています。食事制限が緩やかで続けやすいと評判です。",
-    reviewed: true,
-    storeHref: "/review/247workout/sapporo/",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "札幌店（札幌駅徒歩5分）",
-    point: "入会金無料のため、始めやすいジムです。本格的なボディメイクを目指す方におすすめです。",
-    reviewed: true,
-    storeHref: "/review/beyond/sapporo/",
-  },
-  {
-    name: "ダイエットラボ",
-    price: "月35,200円〜（月4回）",
-    features: ["札幌発のパーソナルジム", "完全個室マンツーマン指導", "食事アドバイス付き", "駅近の立地"],
-    access: "大通店（大通駅徒歩3分）",
-    point: "札幌で長年の実績がある地元密着型ジムです。丁寧なカウンセリングが好評です。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("sapporo", areaName),
   { q: "札幌のパーソナルジムの料金相場はいくらですか？", a: "札幌のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。月額制では月1万〜6万円が目安です。" },
-  { q: "札幌で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムが初心者に特におすすめです。利用者の90%以上が初心者で、低価格かつ手ぶらで通えます。" },
   { q: "札幌のパーソナルジムは冬でも通いやすい環境ですか？", a: "札幌駅・大通エリアのジムは地下鉄でアクセスしやすく、地下通路を利用できる店舗もあります。冬場の通いやすさを考慮して駅近のジムを選ぶことをおすすめします。" },
-  { q: "札幌で安いパーソナルジムを教えてください。", a: "チキンジム（月々6,800円〜/分割時）が最も低価格帯です。大手の中ではBEYOND（入会金無料）も費用対効果が高いと評価されています。" },
-  { q: "札幌にエクササイズコーチはありますか？", a: "2026年4月時点で札幌にエクササイズコーチの店舗はありません。低価格ジムをお探しの方はチキンジムが候補になります。" },
   { q: "パーソナルジムを途中で辞めることはできますか？", a: "多くのジムで途中解約は可能ですが、コース契約の場合は解約手数料がかかることがあります。月額制のジムは比較的辞めやすい傾向にあります。契約前に解約条件を必ずご確認ください。" },
 ];
 
@@ -111,11 +66,11 @@ export default function SapporoAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム札幌おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          札幌は北海道最大の都市で、札幌駅・大通・すすきのエリアを中心にパーソナルジムが増加しています。積雪期が長い札幌では駅に近い店舗が特に重宝されます。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          札幌は北海道最大の都市で、札幌駅・大通・すすきのエリアを中心にパーソナルジムが増加しています。積雪期が長い札幌では駅に近い店舗が特に重宝されます。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -143,15 +98,7 @@ export default function SapporoAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="sapporo" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

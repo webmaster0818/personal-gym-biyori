@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("sendai", "仙台");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム仙台おすすめ5選",
-  description:
-    "仙台でおすすめのパーソナルジム5選をご紹介します。仙台駅周辺の料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "仙台";
@@ -34,56 +36,11 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "仙台駅近立地", "手ぶらで通える"],
-    access: "仙台店（仙台駅徒歩5分）",
-    point: "仙台で低価格にパーソナルトレーニングを始めたい方に適しています。手ぶらで通えるため、冬場も気軽に通えます。",
-    reviewed: true,
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "仙台店（仙台駅徒歩8分）",
-    point: "東北エリアでの実績も豊富です。短期集中で確実に結果を出したい方に選ばれています。",
-    reviewed: true,
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "全額返金保証あり", "駅近立地"],
-    access: "仙台店（仙台駅徒歩5分）",
-    point: "仙台駅から徒歩圏内にあります。食事制限が緩やかで、東北の食文化を楽しみながらダイエットできます。",
-    reviewed: true,
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "仙台店（仙台駅徒歩7分）",
-    point: "入会金無料で始めやすく、トレーナーの質が高いのが特徴です。仙台で本格的なボディメイクを目指す方に適しています。",
-    reviewed: true,
-  },
-  {
-    name: "リアルワークアウト",
-    price: "月26,400円〜（月4回）",
-    features: ["月額制で通いやすい", "完全個室マンツーマン", "食事アドバイス付き", "仙台に複数店舗"],
-    access: "仙台店（仙台駅徒歩5分）",
-    point: "月額制のため、無理なく続けやすいジムです。仙台で地域に密着した運営を行っています。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("sendai", areaName),
   { q: "仙台のパーソナルジムの料金相場はいくらですか？", a: "仙台のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。月額制では月1万〜6万円が目安です。" },
-  { q: "仙台で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムが初心者に特におすすめです。利用者の90%以上が初心者で、低価格かつ手ぶらで通えます。" },
-  { q: "仙台にエクササイズコーチはありますか？", a: "2026年4月時点で仙台にエクササイズコーチの店舗はありません。低価格ジムをお探しの方はチキンジムが候補になります。" },
   { q: "仙台のパーソナルジムは冬でも通いやすい環境ですか？", a: "仙台駅周辺のジムは駅から徒歩5〜8分程度の立地が多く、地下道やペデストリアンデッキを利用できる場合もあります。手ぶらで通えるジムなら荷物も少なく冬場も快適です。" },
-  { q: "仙台で安いパーソナルジムを教えてください。", a: "チキンジム（月々6,800円〜/分割時）が最も低価格帯です。リアルワークアウト（月26,400円〜）も月額制で始めやすい価格です。" },
-  { q: "パーソナルジムの食事指導は厳しい内容ですか？", a: "ジムによって異なります。RIZAPはやや厳格な食事管理、24/7ワークアウトは3食しっかり食べる方針、チキンジムはゆるやかなアドバイスが中心です。自分の食生活に合った方針のジムを選ぶことをおすすめします。" },
 ];
 
 const faqJsonLd = {
@@ -109,11 +66,11 @@ export default function SendaiAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム仙台おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          仙台は東北最大の都市で、仙台駅周辺を中心にパーソナルジムの出店が増えています。大手チェーンから地元密着型まで選べる環境が整いつつあり、東北在住でパーソナルジムを探している方の選択肢が広がっています。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          仙台は東北最大の都市で、仙台駅周辺を中心にパーソナルジムの出店が増えています。大手チェーンから地元密着型まで選べる環境が整いつつあり、東北在住でパーソナルジムを探している方の選択肢が広がっています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -141,15 +98,7 @@ export default function SendaiAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="sendai" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

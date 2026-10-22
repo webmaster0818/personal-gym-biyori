@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+
+const pickCopy = getAreaPickCopy("ueno", "上野");
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
-  title: "【2026最新】パーソナルジム上野おすすめ5選",
-  description:
-    "上野でおすすめのパーソナルジム5選をご紹介します。上野駅周辺の料金相場・特徴・アクセスを比較しています。初心者向けや料金を重視したジムについて解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "上野";
@@ -34,59 +36,11 @@ const priceRange = [
   { category: "入会金", range: "0円〜5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "上野駅徒歩3分", "朝7時〜夜23時営業"],
-    access: "上野店（上野駅徒歩3分）",
-    point: "低価格で、手ぶらで通えます。上野エリアでもっとも気軽に始められるジムです。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "上野店（上野駅徒歩5分）",
-    point: "入会金無料で、本格的なボディメイクに取り組めます。上野で質の高いトレーニングを受けたい方に適しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "上野店（上野駅徒歩3分）",
-    point: "1回20分で完了する時短トレーニングです。忙しい方でも続けやすい点が特徴です。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "上野店（上野駅徒歩5分）",
-    point: "深夜まで営業しており、仕事終わりにも通えます。食事管理も手厚くサポートしています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "上野店（上野駅徒歩5分）",
-    point: "月額制のため、無理なく続けられます。姿勢改善や腰痛持ちの方にもおすすめです。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("ueno", areaName),
   { q: "上野のパーソナルジムの料金相場はいくらですか？", a: "上野のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円です。都心部と比べてやや手頃な価格帯のジムが多いのが特徴です。" },
-  { q: "上野で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。低価格で気軽に始められ、手ぶらで通えます。" },
-  { q: "上野で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）やチキンジム（月々6,800円〜/分割時）が低価格帯です。" },
   { q: "上野のパーソナルジムは駅から近い立地にありますか？", a: "上野のパーソナルジムの多くは上野駅徒歩5分以内にあります。JR・地下鉄どちらからもアクセスしやすい立地です。" },
-  { q: "上野で入会金無料のパーソナルジムを教えてください。", a: "BEYOND（ビヨンド）は入会金無料です。初期費用を抑えたい方におすすめです。" },
   { q: "上野のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは気になるジムの体験トレーニングから始めることをおすすめします。" },
 ];
 
@@ -115,11 +69,11 @@ export default function UenoAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム上野おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          上野は東京の下町エリアとして親しまれ、JR各線や地下鉄が集まる交通の要所です。都心部と比べて手頃な料金のパーソナルジムが多く、初めてのジム通いにもおすすめのエリアです。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          上野は東京の下町エリアとして親しまれ、JR各線や地下鉄が集まる交通の要所です。都心部と比べて手頃な料金のパーソナルジムが多く、初めてのジム通いにもおすすめのエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -140,15 +94,7 @@ export default function UenoAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="ueno" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

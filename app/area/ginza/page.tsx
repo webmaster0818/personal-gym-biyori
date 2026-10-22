@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("ginza", "銀座");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム銀座おすすめ6選",
-  description:
-    "銀座でおすすめのパーソナルジム6選をご紹介します。銀座・有楽町・東銀座エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "銀座";
@@ -34,64 +36,9 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "銀座店（銀座駅徒歩3分）",
-    point: "銀座の一等地に立地しています。ラグジュアリーな空間で確実に結果を出したい方に適しています。",
-    reviewed: true,
-    storeHref: "/review/rizap/ginza/",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜まで営業", "全額返金保証あり"],
-    access: "銀座店（銀座駅徒歩3分）",
-    point: "銀座で食事を楽しみながらダイエットしたい方に適しています。3食食べるメソッドが人気です。",
-    reviewed: true,
-    storeHref: "/review/247workout/ginza/",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "銀座店（銀座駅徒歩5分）",
-    point: "入会金は無料です。銀座で質の高いボディメイクトレーニングを受けたい方に適しています。",
-    reviewed: true,
-    storeHref: "/review/beyond/ginza/",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "銀座店（銀座駅徒歩3分）",
-    point: "銀座で最も手軽に始められるパーソナルジムです。ランチ休憩中にトレーニングする方もいます。",
-    reviewed: true,
-  },
-  {
-    name: "Reborn myself（リボーンマイセルフ）",
-    price: "204,600円〜（2ヶ月コース）",
-    features: ["女性専用パーソナルジム", "女性トレーナーのみ在籍", "部分痩せプログラムあり", "完全個室"],
-    access: "東京店（有楽町駅徒歩5分）",
-    point: "女性トレーナーのみが在籍する女性専用ジムです。銀座・有楽町エリアの女性に人気です。",
-    reviewed: false,
-  },
-  {
-    name: "CREBIQ（クレビック）",
-    price: "149,800円〜（2ヶ月/16回）",
-    features: ["女性専用パーソナルジム", "フィットネスフィギュアチャンピオン監修", "完全個室", "食事管理サポート付き"],
-    access: "銀座店（銀座駅徒歩3分）",
-    point: "フィットネス大会チャンピオンが監修する女性専用ジムです。美しいボディラインを目指す方に適しています。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
-  { q: "銀座のパーソナルジムの料金相場はいくらですか？", a: "銀座のパーソナルジムの料金相場は、2ヶ月コースで22万〜40万円です。銀座エリアは全体的にやや高めの傾向がありますが、エクササイズコーチなど低価格のジムもあります。" },
-  { q: "銀座で初心者におすすめのパーソナルジムを教えてください。", a: "エクササイズコーチが初心者に適しています。1回20分と短時間で、月9,900円〜と低価格です。予約不要である点も始めやすいポイントです。" },
-  { q: "銀座で女性におすすめのパーソナルジムを教えてください。", a: "リボーンマイセルフやCREBIQ（クレビック）は女性専用ジムで安心して通えます。女性トレーナーによる指導を希望する方に適しています。" },
+  ...buildAreaPickFaq("ginza", areaName),
   { q: "銀座のパーソナルジムは高額ですか？", a: "大手ジムは全国統一料金のため、銀座だから高いということはありません。ただし、銀座特有の高級志向ジムは10万円/月を超えるところもあります。" },
   { q: "有楽町から通えるパーソナルジムはありますか？", a: "はい、銀座と有楽町は徒歩圏内のため、銀座エリアのジムはほぼすべて有楽町からも通えます。" },
   { q: "パーソナルジムの入会に必要なものを教えてください。", a: "一般的に身分証明書、支払い用のクレジットカードまたは口座情報が必要です。体験当日に入会する場合は持参しておくとスムーズです。" },
@@ -122,11 +69,11 @@ export default function GinzaAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム銀座おすすめ6選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          銀座は東京を代表する高級エリアで、パーソナルジムも質の高いサービスを提供する店舗が多いのが特徴です。大手チェーンから女性専用ジムまで揃っており、有楽町・新橋からもアクセスしやすい立地です。本記事では、料金・実績・アクセスの観点から選定した6つのジムをご紹介します。
+          銀座は東京を代表する高級エリアで、パーソナルジムも質の高いサービスを提供する店舗が多いのが特徴です。大手チェーンから女性専用ジムまで揃っており、有楽町・新橋からもアクセスしやすい立地です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -147,15 +94,7 @@ export default function GinzaAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム6選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="ginza" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

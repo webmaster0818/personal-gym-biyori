@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("shibuya", "渋谷");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム渋谷おすすめ8選",
-  description:
-    "渋谷でおすすめのパーソナルジム8選をご紹介します。渋谷駅・表参道・恵比寿エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "渋谷";
@@ -34,84 +36,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "渋谷駅徒歩5分", "朝7時〜夜23時営業"],
-    access: "渋谷店（渋谷駅徒歩5分）",
-    point: "渋谷で低価格にパーソナルトレーニングを始めたい方に適しています。手ぶらで通えるため、仕事帰りにも気軽に立ち寄れます。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "渋谷店（渋谷駅徒歩5分）",
-    point: "渋谷で確実に結果を出したい方に適しています。全額返金保証がある点も安心材料です。",
-    reviewed: true,
-    storeHref: "/review/rizap/shibuya/",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "渋谷店（渋谷駅徒歩5分）",
-    point: "深夜まで営業しているため、IT企業勤務の方など夜型の方にも通いやすい環境です。",
-    reviewed: true,
-    storeHref: "/review/247workout/shibuya/",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "渋谷店（渋谷駅徒歩5分）",
-    point: "入会金無料で、質の高いトレーニングを受けられます。本格的にボディメイクに取り組む渋谷の会社員に人気です。",
-    reviewed: true,
-    storeHref: "/review/beyond/shibuya/",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "渋谷店（渋谷駅徒歩3分）",
-    point: "渋谷駅から徒歩3分の立地です。ランチタイムに20分でトレーニングを済ませる方もいます。",
-    reviewed: true,
-    storeHref: "/review/exercise-coach/shibuya/",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "渋谷店・恵比寿店",
-    point: "渋谷・恵比寿に店舗があります。デスクワークによる姿勢の悩みを持つIT企業勤務者にも人気です。",
-    reviewed: false,
-  },
-  {
-    name: "MIYAZAKI GYM（ミヤザキジム）",
-    price: "8回96,800円（税込・1回12,100円）／都度払い1回13,200円",
-    features: ["採用基準にNSCA・NESTA等の資格", "都度払い・コース制に対応", "完全マンツーマン指導", "ウェアレンタル無料"],
-    access: "渋谷店（渋谷駅徒歩5分）",
-    point: "トレーナーの質にこだわりたい方に向いています。高品質なトレーニングを渋谷で受けられます。",
-    reviewed: false,
-  },
-  {
-    name: "Apple GYM（アップルジム）",
-    price: "月27,280円〜（月4回）",
-    features: ["海外式ボディメイク", "完全個室マンツーマン", "月額制で通いやすい", "姿勢改善にも注力"],
-    access: "渋谷店（渋谷駅徒歩3分）",
-    point: "海外式のボディメイクメソッドが特徴です。渋谷の若い世代に支持されています。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("shibuya", areaName),
   { q: "渋谷のパーソナルジムの料金相場はいくらですか？", a: "渋谷のパーソナルジムの料金相場は、2ヶ月コースで20万〜40万円です。月額制では月1万〜8万円が目安です。新宿と同程度の水準です。" },
-  { q: "渋谷で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。いずれも渋谷駅徒歩圏内で低価格で始められます。" },
-  { q: "渋谷で深夜まで営業しているパーソナルジムを教えてください。", a: "24/7ワークアウトが深夜24時まで営業しています。チキンジムも夜23時まで営業しています。" },
-  { q: "渋谷で女性におすすめのパーソナルジムを教えてください。", a: "かたぎり塾は女性利用者も多く、姿勢改善プログラムが好評です。女性専用ジムを希望する場合は新宿のOUTLINEも徒歩圏内です。" },
-  { q: "渋谷で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）、チキンジム（月々6,800円〜/分割時）、Apple GYM（月27,280円〜）が比較的リーズナブルです。" },
   { q: "渋谷と恵比寿、どちらのジムがおすすめですか？", a: "通いやすさで選ぶことをおすすめします。渋谷の方が選択肢が多く、恵比寿は落ち着いた雰囲気のジムが多い傾向にあります。両駅はJRで1駅（3分）のため、両方のジムを検討するのもおすすめです。" },
 ];
 
@@ -140,11 +68,11 @@ export default function ShibuyaAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム渋谷おすすめ8選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          渋谷はIT企業やスタートアップが集まるビジネスエリアで、再開発が進んでいます。パーソナルジムも新宿と並んで多く集まるエリアで、大手チェーンからおしゃれな個性派ジムまで多彩な選択肢があります。本記事では、料金・実績・アクセスの観点から選定した8つのジムをご紹介します。
+          渋谷はIT企業やスタートアップが集まるビジネスエリアで、再開発が進んでいます。パーソナルジムも新宿と並んで多く集まるエリアで、大手チェーンからおしゃれな個性派ジムまで多彩な選択肢があります。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -165,15 +93,7 @@ export default function ShibuyaAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム8選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="shibuya" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>
