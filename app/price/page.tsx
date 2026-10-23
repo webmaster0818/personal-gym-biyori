@@ -10,42 +10,16 @@ export const metadata: Metadata = {
   alternates: { canonical: "/price/" },
 };
 
-// 当サイトが各エリアページで調査・整理した料金相場（2026年時点）を横断集計
-const areaPrices = [
-  { name: "東京", big: "20万〜40万円", mid: "月3万〜8万円", low: "月1万〜3万円" },
-  { name: "横浜", big: "20万〜38万円", mid: "月3万〜7万円", low: "月1万〜3万円" },
-  { name: "さいたま", big: "20万〜35万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-  { name: "千葉", big: "18万〜35万円", mid: "月3万〜7万円", low: "月1万〜3万円" },
-  { name: "名古屋", big: "20万〜38万円", mid: "月3万〜7万円", low: "月1万〜3万円" },
-  { name: "大阪", big: "18万〜38万円", mid: "月3万〜7万円", low: "月1万〜3万円" },
-  { name: "神戸", big: "18万〜35万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-  { name: "京都", big: "18万〜35万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-  { name: "福岡", big: "18万〜35万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-  { name: "札幌", big: "18万〜35万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-  { name: "仙台", big: "18万〜35万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-  { name: "広島", big: "18万〜35万円", mid: "月3万〜7万円", low: "月1万〜3万円" },
-  { name: "岡山", big: "16万〜33万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-  { name: "新潟", big: "16万〜33万円", mid: "月3万〜6万円", low: "月1万〜3万円" },
-];
-
-const tokyoDistricts = [
-  { name: "渋谷", big: "20万〜40万円", mid: "月3万〜8万円" },
-  { name: "新宿", big: "20万〜40万円", mid: "月3万〜8万円" },
-  { name: "池袋", big: "20万〜38万円", mid: "月3万〜8万円" },
-  { name: "銀座", big: "22万〜40万円", mid: "月4万〜10万円" },
-];
-
 const tips = [
   { title: "総額と月々の支払いを分けて見る", desc: "大手は「2ヶ月◯◯万円」の総額表示、中〜低価格帯は月額表示が中心です。総額が大きく見えても分割で月々の負担は抑えられることがあり、逆に月額制でも長期間通えば総額が膨らみます。期間と総額・月額の両面で比較することをおすすめします。" },
-  { title: "入会金キャンペーンを活用する", desc: "入会金は0円〜5.5万円程度と幅があり、入会金無料キャンペーンを実施するジムも多くあります。タイミング次第で数万円の差になるため、お申し込み前にキャンペーンの有無をご確認ください。" },
-  { title: "地方は都市部より相場が低い傾向", desc: "大手2ヶ月コースの上限は、東京・渋谷で約40万円なのに対し、岡山・新潟では約33万円と、エリアによって差があります。近隣エリアも含めて検討すると選択肢が広がります。" },
+  { title: "入会金キャンペーンを活用する", desc: "当サイトが公式サイトで入会金を確認できたブランドでは、0円から55,000円（税込）まで幅がありました。「体験当日の入会で無料」などの条件付きキャンペーンを公式に掲載しているブランドもあるため、お申し込み前に条件をご確認ください。" },
+  { title: "「月々◯円〜」が分割払いの月額でないか確認する", desc: "「月々◯円〜」という表示には、コース料金を分割した場合の月額を示しているものがあります。例えば、チキンジムについて他サイトに掲載されている「月々6,800円〜」は分割払い時の月額で、公式の月額プランは月2回18,900円からです。コース総額・入会金・分割手数料を含めて比較してください。" },
   { title: "返金保証・分割払いの有無で実質負担が変わる", desc: "全額返金保証や分割払いに対応するジムなら、初期費用やリスクを抑えて始められます。料金表の数字だけでなく、保証・支払い方法まで含めて総合的に判断することをおすすめします。" },
 ];
 
-const faqs = [
-  { q: "パーソナルジムの料金相場はいくらですか？", a: "2026年時点の当サイト集計では、大手の2ヶ月コースで約18万〜40万円、中価格帯の月額制で月3万〜8万円、低価格帯の月額制で月1万〜3万円が目安です。これに入会金（0円〜5.5万円程度）が加わります。エリアやジムの方針によって幅があります。" },
+const baseFaqs = [
   { q: "なぜパーソナルジムは料金に幅があるのですか？", a: "トレーナーのマンツーマン度合い、食事管理の手厚さ、返金保証の有無、立地（家賃）などで価格が変わるためです。大手の結果コミット型は高め、月額制の通い放題型や地方の地域密着型は比較的リーズナブルな傾向があります。" },
-  { q: "エリアによって料金は変わりますか？", a: "はい。当サイトの集計では、大手2ヶ月コースの上限が東京・渋谷で約40万円、岡山・新潟で約33万円と、都市部ほど高め・地方ほど低めの傾向があります。通える範囲であれば、近隣エリアも比較すると費用を抑えやすくなります。" },
+  { q: "エリアによって料金は変わりますか？", a: "当サイトでは、エリア別の料金差を公式サイトの値で集計できていないため、エリア別の目安は掲載していません。同じブランドでも店舗によって料金が異なる場合があり、公式サイトに「一部店舗によって料金が異なります」（FURDI）、「北海道の店舗は一部料金形態が異なります」（BEYOND）と記載しているブランドもあります。通う店舗の料金は、公式サイトの店舗ページでご確認ください。" },
   { q: "費用をできるだけ抑える方法を教えてください。", a: "①入会金無料キャンペーンを活用する ②月額制・通い放題型や地域密着型を検討する ③分割払いで月々の負担を平準化する ④無料カウンセリングで複数社を比較する、といった方法が有効です。料金の数字だけでなく、保証・支払い方法も含めて選ぶことをおすすめします。" },
 ];
 
@@ -63,6 +37,16 @@ export default function PricePage() {
       return { kind, n: xs.length, med: median(xs), min: Math.min(...xs), max: Math.max(...xs) };
     })
     .filter((d) => d.n > 0);
+  const mo = dist.find((d) => d.kind === "月額制");
+  const co = dist.find((d) => d.kind === "コース制");
+  const y = (n: number) => n.toLocaleString();
+  const faqs = [
+    {
+      q: "パーソナルジムの料金相場はいくらですか？",
+      a: `当サイトが${FEE_SURVEYED_AT}に${BRAND_PRICES.length}ブランドの公式サイトで確認した各ブランドの最安プランでは、${mo ? `月額制（${mo.n}ブランド）が月${y(mo.min)}円〜${y(mo.max)}円（中央値${y(mo.med)}円）` : ""}${mo && co ? "、" : ""}${co ? `コース制（${co.n}ブランド）がコース総額${y(co.min)}円〜${y(co.max)}円（中央値${y(co.med)}円）` : ""}です。月額制にはAIマシンや個室ジムなど、トレーナーが毎回つかない形態も含まれます。金額を公表していないブランドが${unpublished.length}ブランドあるため、目安としてご覧ください。`,
+    },
+    ...baseFaqs,
+  ];
 
   return (
     <>
@@ -223,60 +207,6 @@ export default function PricePage() {
               「月々◯円〜」として<strong>分割払い時の月額</strong>を表示しているジムがあり、総額とは異なります。コース料金・入会金・分割手数料を含めた総額で比較してください。
               店舗・キャンペーンにより変動するため、お申し込み前に公式サイトまたは無料カウンセリングにて最新情報をご確認ください。
             </p>
-          </section>
-
-          {/* エリア別相場 */}
-          <section className="mb-10">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">エリア別の料金の目安（当サイトの概算）</h2>
-            <p className="text-sm text-gray-700 leading-relaxed mb-3">
-              ここから下は<strong>公式サイトの実査値ではなく、当サイトが各エリアページの情報を集計した概算</strong>です。上のブランド別一覧とは根拠の確度が異なるため、分けて掲載しています。
-            </p>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm border-collapse">
-                <thead>
-                  <tr className="bg-gray-100">
-                    <th className="border border-gray-200 p-2 text-left">エリア</th>
-                    <th className="border border-gray-200 p-2 text-left">大手（2ヶ月）</th>
-                    <th className="border border-gray-200 p-2 text-left">中価格帯（月額）</th>
-                    <th className="border border-gray-200 p-2 text-left">低価格（月額）</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {areaPrices.map((a) => (
-                    <tr key={a.name}>
-                      <td className="border border-gray-200 p-2 font-bold">{a.name}</td>
-                      <td className="border border-gray-200 p-2">{a.big}</td>
-                      <td className="border border-gray-200 p-2">{a.mid}</td>
-                      <td className="border border-gray-200 p-2">{a.low}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <p className="text-xs text-gray-500 mt-2">※低価格帯（月額制）は全エリアで月1万〜3万円が目安です。入会金は0円〜5.5万円程度です。</p>
-
-            <h3 className="font-bold text-gray-700 mt-6 mb-2">東京主要エリア</h3>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm border-collapse">
-                <thead>
-                  <tr className="bg-gray-100">
-                    <th className="border border-gray-200 p-2 text-left">エリア</th>
-                    <th className="border border-gray-200 p-2 text-left">大手（2ヶ月）</th>
-                    <th className="border border-gray-200 p-2 text-left">中価格帯（月額）</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {tokyoDistricts.map((a) => (
-                    <tr key={a.name}>
-                      <td className="border border-gray-200 p-2 font-bold">{a.name}</td>
-                      <td className="border border-gray-200 p-2">{a.big}</td>
-                      <td className="border border-gray-200 p-2">{a.mid}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <p className="text-xs text-gray-500 mt-2">銀座は中価格帯の上限が高く（月10万円）、立地により相場が上がる傾向があります。</p>
           </section>
 
           {/* 費用を抑えるコツ */}

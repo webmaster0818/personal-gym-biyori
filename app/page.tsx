@@ -1,7 +1,21 @@
 import Link from "next/link";
-import { BRAND_PRICES } from "@/data/brand-prices";
+import { BRAND_PRICES, FEE_SURVEYED_AT } from "@/data/brand-prices";
 
 const BRAND_COUNT = BRAND_PRICES.length;
+
+// 料金FAQは /price/ と同じ実査データ（data/brand-prices.ts）から算出する
+const PRICE_FAQ_ANSWER = (() => {
+  const stat = (kind: "月額制" | "コース制") => {
+    const xs = BRAND_PRICES.filter((b) => b.kind === kind && b.lowest !== null).map((b) => b.lowest as number).sort((x, y) => x - y);
+    const m = Math.floor(xs.length / 2);
+    const med = xs.length % 2 ? xs[m] : Math.round((xs[m - 1] + xs[m]) / 2);
+    return { n: xs.length, med, min: xs[0], max: xs[xs.length - 1] };
+  };
+  const mo = stat("月額制");
+  const co = stat("コース制");
+  const y = (n: number) => n.toLocaleString();
+  return `当サイトが${FEE_SURVEYED_AT}に${BRAND_COUNT}ブランドの公式サイトで確認した各ブランドの最安プランでは、月額制（${mo.n}ブランド）が月${y(mo.min)}円〜${y(mo.max)}円（中央値${y(mo.med)}円）、コース制（${co.n}ブランド）がコース総額${y(co.min)}円〜${y(co.max)}円（中央値${y(co.med)}円）です。月額制にはAIマシンや個室ジムなど、トレーナーが毎回つかない形態も含まれます。税込・税抜は公式の表記のままのため、詳しくは料金ページでご確認ください。`;
+})();
 
 const services = [
   {
@@ -9,9 +23,9 @@ const services = [
     name: "BEYOND",
     slug: "beyond",
     tagline: "ボディメイク特化のパーソナルジム",
-    price: "月額8,250円〜",
-    features: ["ボディメイク特化", "コンテスト入賞トレーナー在籍", "糖質制限なし", "全国75店舗以上"],
-    pros: ["トレーナーの質が非常に高い", "見た目の変化にこだわれる", "全プラン入会金無料"],
+    price: "月2回17,600円〜（税込）",
+    features: ["ボディメイク特化", "全コース入会金0円", "初回体験無料", "全国150店舗以上（公式表記）"],
+    pros: ["全コースで入会金が0円（公式料金ページ）", "見た目の変化にこだわれる", "月2回から回数を選べる"],
     cons: ["店舗が都市部に集中", "プラン料金がやや複雑"],
     recommend: "見た目を変えたい方、ボディメイクにこだわりたい方に適しています。",
     reviewPath: "/review/beyond/",
@@ -23,7 +37,7 @@ const services = [
     name: "RIZAP",
     slug: "rizap",
     tagline: "結果にコミットするパーソナルジム",
-    price: "月額9,900円〜",
+    price: "2ヶ月16回 総額382,800円（税込）",
     features: ["結果にコミット", "食事指導付き", "30日間全額返金保証", "専属トレーナー制"],
     pros: ["実績と知名度が高い", "食事管理まで手厚くサポート", "返金保証があり始めやすい"],
     cons: ["他社と比べて料金が高め", "食事制限を厳しいと感じる場合がある"],
@@ -37,10 +51,10 @@ const services = [
     name: "HABIT",
     slug: "habit",
     tagline: "東京の住宅街に展開するマンツーマンジム",
-    price: "月額制",
-    features: ["マンツーマン指導", "東京17店舗", "住宅街に近い", "食事指導付き"],
-    pros: ["住宅街に店舗があり通いやすい", "丁寧なマンツーマン指導", "月額制で続けやすい"],
-    cons: ["東京エリアに限定", "大阪以外の地方展開が少ない"],
+    price: "16回142,400円（税込）",
+    features: ["マンツーマン指導", "全18店舗（東京17・大阪1）", "住宅街に近い", "食事指導付き"],
+    pros: ["住宅街に店舗があり通いやすい", "丁寧なマンツーマン指導", "回数券・月額コースも選べる"],
+    cons: ["店舗は東京17・大阪1に限られる", "そのほかの地域には店舗がない"],
     recommend: "東京で自宅近くのパーソナルジムを探している方におすすめします。",
     reviewPath: "/review/habit/",
     comment: "自宅から通いやすい立地と丁寧な指導が特徴です。東京在住の方に特におすすめします。",
@@ -52,7 +66,7 @@ const services = [
     slug: "furdi",
     tagline: "AI×女性専用の月額7,678円〜サーキットジム",
     price: "月額7,678円〜",
-    features: ["AI指導", "女性専用", "予約不要", "通い放題", "全国59店舗"],
+    features: ["AI指導", "女性専用", "予約不要", "通い放題"],
     pros: ["月額7,678円〜の低価格", "AI指導のため人目を気にせず利用できる", "予約不要で好きな時に通える"],
     cons: ["対人指導がない", "本格的な筋トレには不向き"],
     recommend: "低価格で気軽に運動習慣をつけたい女性におすすめします。",
@@ -64,14 +78,14 @@ const services = [
     rank: 5,
     name: "Nexusジム",
     slug: "nexus",
-    tagline: "月額19,800円〜の格安パーソナルジム",
-    price: "月額19,800円〜",
-    features: ["格安月額制", "完全個室", "マンツーマン指導", "東京25店舗"],
-    pros: ["パーソナルジム業界最安級の料金", "月額制で辞めやすい", "完全個室で集中できる"],
+    tagline: "公式トップに「月額8,000円〜」と記載のあるパーソナルジム",
+    price: "月4回29,800円（税込・特商法表記）",
+    features: ["月額制", "完全個室", "マンツーマン指導", "無料体験あり"],
+    pros: ["入会金15,000円（税込・特商法表記）", "月額制で辞めやすい", "完全個室で集中できる"],
     cons: ["セッション時間が短め", "店舗数が限られる"],
     recommend: "パーソナルジムを試したいものの、費用が気になる方の入門に適しています。",
     reviewPath: "/review/nexus/",
-    comment: "月額2万円を下回るパーソナルジムは多くありません。初めて試したい方に適しています。",
+    comment: "公式トップの「月額8,000円〜」の条件は明記されていないため、総額はカウンセリングでご確認ください。",
     affiliateUrl: "https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L",
   },
 ];
@@ -79,7 +93,7 @@ const services = [
 const faqItems = [
   {
     q: "パーソナルジムの相場はいくらですか？",
-    a: "パーソナルジムの月額料金は、一般的に月額6,000円〜30,000円程度です。短期集中プランの場合は総額20万円〜40万円が相場となります。当サイトで紹介しているジムは月額6,800円〜9,900円と、比較的リーズナブルなプランを提供しています。",
+    a: PRICE_FAQ_ANSWER,
   },
   {
     q: "パーソナルジムは初心者でも大丈夫ですか？",
