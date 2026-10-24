@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("ebisu", "恵比寿");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム恵比寿おすすめ7選",
-  description:
-    "恵比寿でおすすめのパーソナルジム7選をご紹介します。恵比寿駅周辺の料金相場・特徴・アクセスを比較しています。女性向け・初心者向けなど目的別に解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "恵比寿";
@@ -34,76 +36,11 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "恵比寿駅徒歩3分", "朝7時〜夜23時営業"],
-    access: "恵比寿店（恵比寿駅徒歩3分）",
-    point: "低価格で、手ぶらで通えます。初めてパーソナルジムを利用する方に適しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "恵比寿店（恵比寿駅徒歩5分）",
-    point: "確実に結果を出したい方に適しています。食事管理まで手厚くサポートしています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "恵比寿店（恵比寿駅徒歩5分）",
-    point: "入会金無料で、本格的なボディメイクに取り組めます。恵比寿で人気の高いジムです。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "恵比寿・目黒店（恵比寿駅徒歩5分）",
-    point: "深夜まで営業で忙しいビジネスパーソンにも対応しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "恵比寿店（恵比寿駅徒歩2分）",
-    point: "1回20分で完了するため、忙しい日でも続けやすいジムです。費用対効果にも優れています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "UNDEUX SUPERBODY（アンドゥスーパーボディ）",
-    price: "月29,800円〜（月4回）",
-    features: ["女性専用パーソナルジム", "食事宅配サービス付き", "おしゃれな内装", "恵比寿駅徒歩3分"],
-    access: "恵比寿スタジオ（恵比寿駅徒歩3分）",
-    point: "女性専用で、食事まで含めてサポートしています。恵比寿の女性に人気のジムです。",
-    reviewed: false,
-  },
-  {
-    name: "Apple GYM（アップルジム）",
-    price: "月27,280円〜（月4回）",
-    features: ["海外式ボディメイク", "完全個室", "手ぶらで通える", "恵比寿駅徒歩2分"],
-    access: "恵比寿店（恵比寿駅徒歩2分）",
-    point: "駅から近く、モデル体型を目指せるジムです。姿勢改善にも定評があります。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("ebisu", areaName),
   { q: "恵比寿のパーソナルジムの料金相場はいくらですか？", a: "恵比寿のパーソナルジムの料金相場は、2ヶ月コースで20万〜40万円、月額制で3万〜9万円です。おしゃれなエリアのため、高品質なジムが多い傾向があります。" },
-  { q: "恵比寿で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。低価格で始めやすく、手ぶらで通えるため気軽に始められます。" },
-  { q: "恵比寿で女性におすすめのパーソナルジムを教えてください。", a: "UNDEUX SUPERBODYは女性専用で食事宅配サービスも付いており、女性に特化したプログラムが人気です。" },
   { q: "恵比寿のパーソナルジムは駅から近い立地にありますか？", a: "恵比寿のパーソナルジムの多くは恵比寿駅徒歩5分以内にあります。仕事帰りにも通いやすい立地が特徴です。" },
-  { q: "恵比寿で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）、チキンジム（月々6,800円〜/分割時）が低価格帯です。" },
   { q: "恵比寿のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは気になるジムの体験トレーニングから始めることをおすすめします。" },
 ];
 
@@ -132,11 +69,11 @@ export default function EbisuAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム恵比寿おすすめ7選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          恵比寿はおしゃれで感度の高いエリアとして知られ、質の高いパーソナルジムが集まっています。駅周辺に大手から個人経営まで多彩なジムが揃い、仕事帰りやショッピングのついでにも通いやすい環境です。本記事では、料金・実績・アクセスの観点から選定した7つのジムをご紹介します。
+          恵比寿はおしゃれで感度の高いエリアとして知られ、質の高いパーソナルジムが集まっています。駅周辺に大手から個人経営まで多彩なジムが揃い、仕事帰りやショッピングのついでにも通いやすい環境です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -157,15 +94,7 @@ export default function EbisuAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム7選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="ebisu" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

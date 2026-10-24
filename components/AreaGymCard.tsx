@@ -6,9 +6,21 @@ export type AreaGym = {
   price: string;
   features: string[];
   access: string;
-  point: string;
+  point?: string;
   reviewed: boolean;
   storeHref?: string;
+  /** 料金の補足（公式表記） */
+  priceNote?: string;
+  /** 入会金（公式表記） */
+  entryFee?: string;
+  /** 料金の出典（公式ページ） */
+  sourceUrl?: string;
+  /** 店舗の出典（公式の店舗一覧） */
+  storeListUrl?: string;
+  /** 確認日の表記 */
+  checkedNote?: string;
+  /** 営業時間は店舗ごとに異なり未照合のため表示しない */
+  hideHours?: boolean;
 };
 
 type Props = {
@@ -58,13 +70,17 @@ export default function AreaGymCard({ gym, index, areaName }: Props) {
             料金:{" "}
             <span className="font-medium text-gray-800">{gym.price}</span>
           </p>
+          {gym.priceNote && <p className="text-xs text-gray-500">{gym.priceNote}</p>}
+          {gym.entryFee && (
+            <p className="text-gray-600">{gym.entryFee}</p>
+          )}
           {meta?.type && (
             <p className="text-gray-600">
               タイプ:{" "}
               <span className="font-medium text-gray-800">{meta.type}</span>
             </p>
           )}
-          {meta?.hours && (
+          {!gym.hideHours && meta?.hours && (
             <p className="text-gray-600">
               営業時間:{" "}
               <span className="font-medium text-gray-800">{meta.hours}</span>
@@ -73,6 +89,7 @@ export default function AreaGymCard({ gym, index, areaName }: Props) {
         </div>
 
         {/* 特徴リスト */}
+        {gym.features.length > 0 && (
         <ul className="text-sm text-gray-700 space-y-1 mb-3">
           {gym.features.map((f, j) => (
             <li key={j} className="flex items-start gap-2">
@@ -81,17 +98,39 @@ export default function AreaGymCard({ gym, index, areaName }: Props) {
             </li>
           ))}
         </ul>
+        )}
 
         {/* アクセス */}
-        <p className="text-sm text-gray-600 mb-2">アクセス: {gym.access}</p>
+        <p className="text-sm text-gray-600 mb-2">{gym.checkedNote ? "店舗" : "アクセス"}: {gym.access}</p>
+
+        {/* 確認日・出典 */}
+        {gym.checkedNote && (
+          <p className="text-xs text-gray-500 mb-2">
+            {gym.checkedNote}（
+            {gym.sourceUrl && (
+              <a href={gym.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">
+                料金の出典
+              </a>
+            )}
+            {gym.sourceUrl && gym.storeListUrl && "・"}
+            {gym.storeListUrl && (
+              <a href={gym.storeListUrl} target="_blank" rel="noopener noreferrer" className="underline">
+                店舗一覧
+              </a>
+            )}
+            ）
+          </p>
+        )}
 
         {/* おすすめポイント */}
+        {gym.point && (
         <div className="bg-gray-50 rounded p-3 mt-3">
           <p className="text-sm text-gray-700">
             <span className="font-medium text-teal-700">おすすめポイント:</span>{" "}
             {gym.point}
           </p>
         </div>
+        )}
 
         {/* Google口コミリンク */}
         {googleUrl && (

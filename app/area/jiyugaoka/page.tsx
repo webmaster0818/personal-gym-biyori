@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+
+const pickCopy = getAreaPickCopy("jiyugaoka", "自由が丘");
 
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム自由が丘おすすめ5選",
-  description:
-    "自由が丘でおすすめのパーソナルジム5選をご紹介します。自由が丘駅周辺の料金相場・特徴・アクセスを比較しています。女性に人気のジムについても解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "自由が丘";
@@ -33,56 +35,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5万円" },
 ];
 
-const gyms = [
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "自由が丘店（自由が丘駅徒歩3分）",
-    point: "入会金無料で、質の高いトレーニングを受けられます。自由が丘で本格的なボディメイクを目指す方に適しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "自由が丘店（自由が丘駅徒歩2分）",
-    point: "1回20分で完了する時短トレーニングです。お買い物のついでに立ち寄れます。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "自由が丘店（自由が丘駅徒歩3分）",
-    point: "月額制のため、無理なく続けられます。姿勢改善や慢性的な不調の改善を目指す方にも適しています。",
-    reviewed: false,
-  },
-  {
-    name: "Apple GYM（アップルジム）",
-    price: "月27,280円〜（月4回）",
-    features: ["海外式ボディメイク", "完全個室", "手ぶらで通える", "自由が丘駅徒歩2分"],
-    access: "自由が丘店（自由が丘駅徒歩2分）",
-    point: "モデル体型を目指すメソッドが女性に人気です。駅から近く、通いやすい点も特徴です。",
-    reviewed: false,
-  },
-  {
-    name: "OUTLINE（アウトライン）",
-    price: "184,800円〜（2ヶ月/16回）",
-    features: ["女性専用パーソナルジム", "完全個室・完全予約制", "生涯アフターフォロー付き", "ベビーカーでの入店可"],
-    access: "自由が丘店（自由が丘駅徒歩5分）",
-    point: "女性専用のため、安心して通えます。子育て中の方にも通いやすい環境が整っています。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("jiyugaoka", areaName),
   { q: "自由が丘のパーソナルジムの料金相場はいくらですか？", a: "自由が丘のパーソナルジムの料金相場は、2ヶ月コースで20万〜38万円、月額制で3万〜8万円です。" },
-  { q: "自由が丘で女性におすすめのパーソナルジムを教えてください。", a: "OUTLINE（アウトライン）は完全個室の女性専用ジムです。ベビーカーでの入店も可能で、子育て中の方にも人気です。" },
-  { q: "自由が丘で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）が最も低価格です。短時間で通えるのもメリットです。" },
-  { q: "自由が丘で入会金無料のパーソナルジムを教えてください。", a: "BEYOND（ビヨンド）は入会金無料で始められます。初期費用を抑えたい方におすすめです。" },
   { q: "自由が丘のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが自由が丘駅徒歩5分以内にあり、アクセスは良好です。" },
   { q: "自由が丘のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは体験トレーニングから始めることをおすすめします。" },
 ];
@@ -112,11 +68,11 @@ export default function JiyugaokaAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム自由が丘おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          自由が丘はおしゃれな街並みと住みやすさで人気のエリアです。女性向けのプログラムやプライベートジムが充実しており、ライフスタイルに合わせた通い方ができます。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          自由が丘はおしゃれな街並みと住みやすさで人気のエリアです。女性向けのプログラムやプライベートジムが充実しており、ライフスタイルに合わせた通い方ができます。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -137,15 +93,7 @@ export default function JiyugaokaAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="jiyugaoka" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

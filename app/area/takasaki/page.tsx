@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+
+const pickCopy = getAreaPickCopy("takasaki", "高崎");
 
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム高崎おすすめ5選",
-  description:
-    "高崎でおすすめのパーソナルジム5選をご紹介します。高崎駅周辺の料金相場・特徴・アクセスを比較しています。群馬県で通えるジムについて解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "高崎";
@@ -33,59 +35,11 @@ const priceRange = [
   { category: "入会金", range: "0円〜5万円" },
 ];
 
-const gyms = [
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "高崎店（高崎駅徒歩5分）",
-    point: "群馬県で確実に結果を出したい方に適しています。全国展開のブランドである点も安心材料です。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "高崎店（高崎駅徒歩5分）",
-    point: "入会金無料のため、始めやすいジムです。高崎で本格的なボディメイクを目指す方に適しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "高崎駅徒歩5分", "朝7時〜夜23時営業"],
-    access: "高崎店（高崎駅徒歩5分）",
-    point: "低価格で、手ぶらで通えます。高崎で最も気軽に始められるパーソナルジムです。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "高崎店（高崎駅徒歩5分）",
-    point: "深夜まで営業しており、新幹線で通勤する方にも対応しています。食事管理も充実しています。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "高崎店（高崎駅徒歩5分）",
-    point: "月額制のため、無理なく続けられます。地方でも質の高い指導が受けられます。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("takasaki", areaName),
   { q: "高崎のパーソナルジムの料金相場はいくらですか？", a: "高崎のパーソナルジムの料金相場は、2ヶ月コースで16万〜33万円です。都心と比べて手頃な価格帯のジムが多い傾向にあります。" },
-  { q: "高崎で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムが初心者向けです。低価格で手ぶらで通え、初心者の利用者が90%以上です。" },
-  { q: "高崎で安いパーソナルジムを教えてください。", a: "チキンジム（月々6,800円〜/分割時）が低価格帯です。月額制のかたぎり塾（月30,800円〜）も費用対効果に優れています。" },
   { q: "高崎のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが高崎駅徒歩5分以内にあり、新幹線利用者にも便利です。" },
-  { q: "高崎で入会金無料のパーソナルジムを教えてください。", a: "BEYOND（ビヨンド）は入会金無料です。初期費用を抑えたい方におすすめです。" },
   { q: "高崎のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
 ];
 
@@ -114,11 +68,11 @@ export default function TakasakiAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム高崎おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          高崎は群馬県最大の都市で、上越新幹線・北陸新幹線の停車駅として東京方面へのアクセスも良好です。大手パーソナルジムチェーンも出店しており、地方でも質の高いトレーニングを受けられます。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          高崎は群馬県最大の都市で、上越新幹線・北陸新幹線の停車駅として東京方面へのアクセスも良好です。大手パーソナルジムチェーンも出店しており、地方でも質の高いトレーニングを受けられます。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -139,15 +93,7 @@ export default function TakasakiAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="takasaki" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

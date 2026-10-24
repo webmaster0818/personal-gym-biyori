@@ -5,6 +5,9 @@ import db from "@/data/gym-db/ikebukuro.json";
 
 import gymIdx from "@/data/gym-index.json";
 import { dbCityMetadata, DbCitySummary, DbCityPartners, cityLabel, type CityDb } from "@/components/DbCity";
+import { getAreaPickCopy } from "@/lib/area-picks";
+
+const areaPick = getAreaPickCopy("ikebukuro", "池袋");
 
 const gymSlugMap = new Map(
   (gymIdx.entries as { slug: string; name: string; address: string }[]).map((e) => [e.name + (e.address || ""), e.slug])
@@ -46,7 +49,7 @@ export default function IkebukuroDbPage() {
       <h1 className="text-2xl font-bold sm:text-3xl">{cityLabel("ikebukuro", db as CityDb)}のパーソナルジム{gyms.length >= 60 ? "上位" : ""}{gyms.length}店（口コミ件数順の一覧）</h1>
       <p className="mt-3 text-sm leading-relaxed text-gray-600">
         池袋エリアでGoogleマップに掲載されているパーソナルジム{gyms.length}店の一覧です（{jaDate(db.fetchedAt)}取得・口コミ件数順）。
-        編集部が絞り込んだおすすめは<Link href="/area/ikebukuro/" className="underline text-blue-700">池袋のパーソナルジムおすすめ8選</Link>でご紹介しています。
+        編集部が絞り込んだおすすめは<Link href="/area/ikebukuro/" className="underline text-blue-700">{areaPick.linkLabel}</Link>でご紹介しています。
         当ページは、地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく、Googleマップの検索結果の上位（最大60件）のうち営業中と確認できた店舗を掲載しています。
       </p>
       <DbCitySummary slug="ikebukuro" db={db as CityDb} />
@@ -100,7 +103,7 @@ export default function IkebukuroDbPage() {
       </div>
 
       <p className="mt-8 text-sm">
-        <Link href="/area/ikebukuro/" className="underline text-blue-700">→ 池袋のおすすめ8選（編集部の絞り込み）</Link>
+        <Link href="/area/ikebukuro/" className="underline text-blue-700">→ {areaPick.linkLabel}（公式で店舗・料金を確認）</Link>
         <span className="mx-2 text-gray-300">|</span>
         <Link href="/area/tokyo/" className="underline text-blue-700">→ 東京エリア一覧</Link>
       </p>

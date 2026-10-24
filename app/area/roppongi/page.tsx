@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+
+const pickCopy = getAreaPickCopy("roppongi", "六本木");
 
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム六本木おすすめ5選",
-  description:
-    "六本木でおすすめのパーソナルジム5選をご紹介します。六本木駅・麻布十番エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "六本木";
@@ -33,55 +35,9 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "六本木店（六本木駅徒歩3分）",
-    point: "六本木の一等地に立地しています。ハイクラスな環境で確実に結果を出したい方に適しています。",
-    reviewed: true,
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "六本木店（六本木駅徒歩5分）",
-    point: "深夜24時まで営業しており、不規則な生活リズムの方にも対応しています。食事を楽しみながらダイエットできます。",
-    reviewed: true,
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "六本木店（六本木駅徒歩5分）",
-    point: "入会金無料で、質の高いトレーニングを受けられます。六本木で本格的なボディメイクを目指す方に適しています。",
-    reviewed: true,
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "六本木店（六本木駅徒歩3分）",
-    point: "六本木エリアで最もリーズナブルなジムです。忙しいビジネスパーソンが隙間時間に通うのに適しています。",
-    reviewed: true,
-  },
-  {
-    name: "Dr.トレーニング",
-    price: "月35,200円〜（月4回）",
-    features: ["医学的根拠に基づくトレーニング", "理学療法士・柔道整復師が在籍", "完全マンツーマン指導", "都度払いにも対応"],
-    access: "六本木店（六本木駅徒歩3分）",
-    point: "医学的エビデンスに基づいたトレーニングが特徴です。体の不調改善も同時に目指せます。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
-  { q: "六本木のパーソナルジムの料金相場はいくらですか？", a: "六本木のパーソナルジムの料金相場は、2ヶ月コースで22万〜40万円です。高級ジムは月10万円以上のところもありますが、エクササイズコーチなど月1万円以下で通えるジムもあります。" },
-  { q: "六本木で初心者におすすめのパーソナルジムを教えてください。", a: "エクササイズコーチが初心者に適しています。1回20分・月9,900円〜と敷居が低く、AI主導のため気軽に始められます。" },
-  { q: "六本木で深夜まで営業しているジムを教えてください。", a: "24/7ワークアウトが深夜24時まで営業しています。六本木の不規則な生活リズムに合わせやすい営業時間です。" },
-  { q: "六本木にチキンジムはありますか？", a: "2026年4月時点で六本木にチキンジムの店舗はありません。近隣では渋谷店や恵比寿店が最寄りになります。" },
-  { q: "六本木で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）が最もリーズナブルです。BEYOND（入会金無料）も総額で考えると費用対効果の高い選択肢です。" },
+  ...buildAreaPickFaq("roppongi", areaName),
   { q: "パーソナルジムのトレーナーは選べますか？", a: "ジムによります。指名制度があるジムでは希望のトレーナーを選べますが、担当がランダムに変わるジムもあります。トレーナーとの相性は重要なため、体験時にご確認ください。" },
 ];
 
@@ -109,11 +65,11 @@ export default function RoppongiAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム六本木おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          六本木は外資系企業やIT企業が集まる国際的なビジネスエリアで、ハイクラスなパーソナルジムが充実しています。深夜まで営業する店舗も多く、不規則な生活リズムの方にも通いやすいのが特徴です。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          六本木は外資系企業やIT企業が集まる国際的なビジネスエリアで、ハイクラスなパーソナルジムが充実しています。深夜まで営業する店舗も多く、不規則な生活リズムの方にも通いやすいのが特徴です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -134,15 +90,7 @@ export default function RoppongiAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="roppongi" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

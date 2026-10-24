@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+
+const pickCopy = getAreaPickCopy("nakameguro", "中目黒");
 
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム中目黒おすすめ5選",
-  description:
-    "中目黒でおすすめのパーソナルジム5選をご紹介します。中目黒駅周辺の料金相場・特徴・アクセスを比較しています。おしゃれな街で通えるジムについて解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "中目黒";
@@ -33,57 +35,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "中目黒店（中目黒駅徒歩3分）",
-    point: "入会金無料で、質の高いトレーニングを受けられます。中目黒で本格的なボディメイクを目指す方に人気です。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "中目黒駅徒歩5分", "朝7時〜夜23時営業"],
-    access: "中目黒店（中目黒駅徒歩5分）",
-    point: "低価格で、手ぶらで通えます。初めてのパーソナルジムにおすすめです。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "中目黒店（中目黒駅徒歩2分）",
-    point: "1回20分で完了するため、気軽に通えます。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "中目黒店（中目黒駅徒歩3分）",
-    point: "月額制のため、無理なく続けられます。中目黒の落ち着いた雰囲気になじむジムです。",
-    reviewed: false,
-  },
-  {
-    name: "Apple GYM（アップルジム）",
-    price: "月27,280円〜（月4回）",
-    features: ["海外式ボディメイク", "完全個室", "手ぶらで通える", "中目黒駅徒歩3分"],
-    access: "中目黒店（中目黒駅徒歩3分）",
-    point: "モデル体型を目指す海外式メソッドを採用しています。おしゃれな中目黒の雰囲気になじむジムです。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("nakameguro", areaName),
   { q: "中目黒のパーソナルジムの料金相場はいくらですか？", a: "中目黒のパーソナルジムの料金相場は、2ヶ月コースで20万〜40万円、月額制で4万〜9万円です。質の高いジムが揃っているエリアです。" },
-  { q: "中目黒で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。低価格で始めやすく、手ぶらで通えます。" },
-  { q: "中目黒で入会金無料のパーソナルジムを教えてください。", a: "BEYOND（ビヨンド）は入会金無料です。初期費用を抑えて本格トレーニングを始められます。" },
-  { q: "中目黒で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）やチキンジム（月々6,800円〜/分割時）が低価格帯です。" },
   { q: "中目黒のパーソナルジムは駅から近い立地にありますか？", a: "中目黒のパーソナルジムの多くは中目黒駅徒歩5分以内にあります。駅から近く、通いやすい立地が特徴です。" },
   { q: "中目黒のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは気になるジムの体験トレーニングから始めることをおすすめします。" },
 ];
@@ -113,11 +68,11 @@ export default function NakameguroAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム中目黒おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          中目黒はおしゃれなカフェやショップが並ぶ人気エリアです。落ち着いた雰囲気の中でトレーニングできるプライベートジムが充実しています。恵比寿・代官山へも徒歩圏内で、ライフスタイルに合わせたジム選びが可能です。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          中目黒はおしゃれなカフェやショップが並ぶ人気エリアです。落ち着いた雰囲気の中でトレーニングできるプライベートジムが充実しています。恵比寿・代官山へも徒歩圏内で、ライフスタイルに合わせたジム選びが可能です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -138,15 +93,7 @@ export default function NakameguroAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="nakameguro" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

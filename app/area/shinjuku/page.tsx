@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("shinjuku", "新宿");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム新宿おすすめ8選",
-  description:
-    "新宿でおすすめのパーソナルジム8選をご紹介します。新宿駅周辺の料金相場・特徴・アクセスを比較しています。西口・東口・南口エリア別に解説します。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "新宿";
@@ -34,84 +36,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "新宿駅徒歩3分", "朝7時〜夜23時営業"],
-    access: "新宿店（新宿駅徒歩3分）",
-    point: "新宿駅から近く、低価格です。初めてパーソナルジムを利用する方に特におすすめです。",
-    reviewed: true,
-    storeHref: "",
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "新宿店・新宿三丁目店",
-    point: "新宿エリアに2店舗あります。費用をかけても結果を重視したい方に適しています。",
-    reviewed: true,
-    storeHref: "/review/rizap/shinjuku/",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "新宿東口店・新宿西口店",
-    point: "深夜24時まで営業しています。残業後でも通える環境が新宿のビジネスパーソンに支持されています。",
-    reviewed: true,
-    storeHref: "/review/247workout/shinjuku/",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "新宿店（新宿駅徒歩5分）",
-    point: "入会金無料で、質の高いトレーニングを受けられます。新宿で本格的なボディメイクを目指す方に人気です。",
-    reviewed: true,
-    storeHref: "/review/beyond/shinjuku/",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "新宿西口店（新宿駅西口徒歩3分）",
-    point: "20分で完了するため、ランチタイムや隙間時間にも通えます。",
-    reviewed: true,
-    storeHref: "/review/exercise-coach/shinjuku/",
-  },
-  {
-    name: "かたぎり塾",
-    price: "月30,800円〜（月4回）",
-    features: ["月額制で通いやすい料金", "理学療法士監修のプログラム", "姿勢改善にも対応", "完全個室"],
-    access: "新宿店（新宿駅徒歩5分）",
-    point: "月額制のため、無理なく続けられます。姿勢改善や慢性的な不調の改善を目指す方にも適しています。",
-    reviewed: false,
-  },
-  {
-    name: "ASPI（アスピ）",
-    price: "月7,600円〜（月2回）",
-    features: ["全トレーナーが有資格者", "月額7,600円〜の低コスト", "オンライン食事指導対応", "ストレッチ指導も充実"],
-    access: "新宿店（新宿三丁目駅徒歩3分）",
-    point: "米国資格を保有するトレーナーの指導を低価格で受けられます。料金を重視する方に適しています。",
-    reviewed: false,
-  },
-  {
-    name: "OUTLINE（アウトライン）",
-    price: "184,800円〜（2ヶ月/16回）",
-    features: ["女性専用パーソナルジム", "完全個室・完全予約制", "生涯アフターフォロー付き", "ベビーカーでの入店可"],
-    access: "新宿店（新宿駅徒歩5分）",
-    point: "女性専用のため、安心して通えます。新宿で女性がリラックスしてトレーニングできる環境です。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("shinjuku", areaName),
   { q: "新宿のパーソナルジムの料金相場はいくらですか？", a: "新宿のパーソナルジムの料金相場は、2ヶ月コースで20万〜40万円です。ジムが多いエリアのため割引キャンペーンが多く、実質的にはやや安くなることもあります。" },
-  { q: "新宿で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジムやエクササイズコーチが初心者向けです。チキンジムは手ぶらで通えて低価格、エクササイズコーチは1回20分で気軽に始められます。" },
-  { q: "新宿で深夜まで営業しているパーソナルジムを教えてください。", a: "24/7ワークアウトは深夜24時まで営業しています。残業が多いビジネスパーソンに特に人気です。" },
-  { q: "新宿で女性におすすめのパーソナルジムを教えてください。", a: "OUTLINE（アウトライン）は女性専用で完全個室のため安心して通えます。ベビーカーでの入店も可能です。" },
-  { q: "新宿で安いパーソナルジムを教えてください。", a: "ASPI（月7,600円〜）、エクササイズコーチ（月9,900円〜）、チキンジム（月々6,800円〜/分割時）が低価格帯です。" },
   { q: "新宿のパーソナルジムは予約が取りやすい状況ですか？", a: "ジムが多いエリアのため各ジムが顧客確保に積極的で、予約枠も十分用意されている傾向があります。ただし平日夜・土日は人気のため、早めの予約がおすすめです。" },
 ];
 
@@ -140,11 +68,11 @@ export default function ShinjukuAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: "東京", href: "/area/tokyo/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム新宿おすすめ8選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          新宿は日本屈指のターミナル駅で、パーソナルジムが多く集まるエリアです。西口のオフィス街から東口の繁華街まで、多種多様なジムが出店しています。競争が激しい分、料金やサービスの質が高い水準にあるのが新宿エリアの特徴です。本記事では、料金・実績・アクセスの観点から選定した8つのジムをご紹介します。
+          新宿は日本屈指のターミナル駅で、パーソナルジムが多く集まるエリアです。西口のオフィス街から東口の繁華街まで、多種多様なジムが出店しています。競争が激しい分、料金やサービスの質が高い水準にあるのが新宿エリアの特徴です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -165,15 +93,7 @@ export default function ShinjukuAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム8選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="shinjuku" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

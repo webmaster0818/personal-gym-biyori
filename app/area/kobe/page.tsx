@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("kobe", "神戸");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム神戸おすすめ5選",
-  description:
-    "神戸でおすすめのパーソナルジム5選をご紹介します。三宮・元町エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "神戸";
@@ -34,55 +36,11 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "三宮駅近立地", "手ぶらで通える"],
-    access: "神戸三宮店（三宮駅徒歩3分）",
-    point: "三宮エリアで低価格にパーソナルトレーニングを始めたい初心者に適しています。",
-    reviewed: true,
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "神戸店（三宮駅徒歩5分）",
-    point: "神戸エリアで確実に結果を出したい方に適しています。全額返金保証がある点も安心材料です。",
-    reviewed: true,
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "全額返金保証あり", "深夜まで営業"],
-    access: "三宮店（三宮駅徒歩3分）",
-    point: "三宮駅から徒歩3分の立地です。食事制限が緩やかで、神戸グルメを楽しみながらダイエットできます。",
-    reviewed: true,
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "神戸元町店（元町駅徒歩3分）",
-    point: "元町エリアに店舗があります。入会金無料で始めやすく、質の高いトレーニングが受けられます。",
-    reviewed: true,
-  },
-  {
-    name: "Bodyke（ボディーク）",
-    price: "215,600円〜（2ヶ月/16回）",
-    features: ["食べて痩せるメソッド", "完全個室トレーニング", "卒業後のサポートプログラム", "分割払い対応"],
-    access: "神戸三宮店（三宮駅徒歩5分）",
-    point: "「食べながら痩せる」独自メソッドが人気です。食事制限が苦手な方に支持されています。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("kobe", areaName),
   { q: "神戸のパーソナルジムの料金相場はいくらですか？", a: "神戸のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。月額制では月1万〜6万円が目安で、大阪と同程度の水準です。" },
-  { q: "神戸で初心者におすすめのパーソナルジムを教えてください。", a: "チキンジム神戸三宮店が初心者に特におすすめです。利用者の90%以上が初心者で、低価格かつ手ぶらで通えます。" },
-  { q: "三宮エリアにパーソナルジムは多くありますか？", a: "はい、三宮は神戸のパーソナルジム集積地です。チキンジム、RIZAP、24/7ワークアウトなど大手チェーンが揃っています。" },
   { q: "神戸と大阪、どちらのジムに通うべきですか？", a: "通いやすさを最優先に考えることをおすすめします。神戸在住・在勤なら三宮のジムが便利です。大阪に通勤している方は、大阪のジムの方が選択肢が多く、料金も比較しやすくなります。" },
-  { q: "神戸にエクササイズコーチはありますか？", a: "2026年4月時点で神戸にエクササイズコーチの店舗はありません。低価格ジムをお探しの方はチキンジムが候補になります。" },
   { q: "パーソナルジムに通う前に準備することはありますか？", a: "特別な準備は不要です。多くのジムで無料カウンセリングを受けられるため、まずは予約して足を運ぶことをおすすめします。手ぶらで通えるジムも多いため、ウェアなどを急いで購入する必要はありません。" },
 ];
 
@@ -109,11 +67,11 @@ export default function KobeAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム神戸おすすめ5選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          神戸は三宮・元町エリアを中心にパーソナルジムが増加している都市です。JR・阪急・阪神の3路線が集まる三宮はアクセスが良く、大手チェーンも出店しています。大阪にも近いため、両エリアで比較検討するのもおすすめです。本記事では、料金・実績・アクセスの観点から選定した5つのジムをご紹介します。
+          神戸は三宮・元町エリアを中心にパーソナルジムが増加している都市です。JR・阪急・阪神の3路線が集まる三宮はアクセスが良く、大手チェーンも出店しています。大阪にも近いため、両エリアで比較検討するのもおすすめです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -141,15 +99,7 @@ export default function KobeAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム5選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="kobe" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>

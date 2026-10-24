@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import AreaGymCard from "@/components/AreaGymCard";
+import AreaPicksSection from "@/components/AreaPicksSection";
+import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
+const pickCopy = getAreaPickCopy("yokohama", "横浜");
+
 export const metadata: Metadata = {
-  title: "【2026最新】パーソナルジム横浜おすすめ7選",
-  description:
-    "横浜でおすすめのパーソナルジム7選をご紹介します。横浜駅・みなとみらい・関内エリアの料金相場・特徴・アクセスを比較しています。",
+  title: pickCopy.title,
+  description: pickCopy.description,
 };
 
 const areaName = "横浜";
@@ -34,73 +36,10 @@ const priceRange = [
   { category: "入会金", range: "0円〜5.5万円" },
 ];
 
-const gyms = [
-  {
-    name: "チキンジム",
-    price: "月々6,800円〜（分割払い時）",
-    features: ["初心者の利用者90%以上", "ウェア・シューズ無料レンタル", "みなとみらい駅近立地", "手ぶらで通える"],
-    access: "横浜みなとみらい店（みなとみらい駅徒歩3分）",
-    point: "みなとみらいエリアで、低価格にパーソナルトレーニングを受けられます。初心者に特におすすめです。",
-    reviewed: true,
-  },
-  {
-    name: "RIZAP（ライザップ）",
-    price: "327,800円〜（2ヶ月/16回）",
-    features: ["「結果にコミット」の実績", "専属トレーナーのマンツーマン指導", "食事管理サポート充実", "30日間全額返金保証"],
-    access: "横浜西口店・横浜東口店・関内店",
-    point: "横浜エリアに3店舗を展開しています。自宅や職場に近い店舗を選べます。",
-    reviewed: true,
-    storeHref: "/review/rizap/yokohama/",
-  },
-  {
-    name: "24/7ワークアウト",
-    price: "257,400円〜（2ヶ月/16回）",
-    features: ["完全個室マンツーマン指導", "3食しっかり食べるダイエット", "深夜24時まで営業", "全額返金保証あり"],
-    access: "横浜店（横浜駅西口徒歩7分）",
-    point: "食事制限が緩やかなため、無理なく続けやすいと横浜エリアでも人気です。",
-    reviewed: true,
-    storeHref: "/review/247workout/yokohama/",
-  },
-  {
-    name: "BEYOND（ビヨンド）",
-    price: "290,400円〜（2ヶ月/16回）",
-    features: ["コンテスト入賞者多数在籍", "入会金無料", "糖質コントロールの食事指導", "回数券プランあり"],
-    access: "横浜店・横浜元町店",
-    point: "入会金無料のため、始めやすいジムです。本格的なボディメイクを目指す方に選ばれています。",
-    reviewed: true,
-    storeHref: "/review/beyond/yokohama/",
-  },
-  {
-    name: "エクササイズコーチ",
-    price: "9,900円〜/月（月4回）",
-    features: ["AI主導のマシントレーニング", "1回20分の短時間", "月額9,900円〜の低価格", "予約不要"],
-    access: "横浜店（横浜駅徒歩5分）",
-    point: "横浜で最もリーズナブルにパーソナルトレーニングを始められる選択肢の一つです。",
-    reviewed: true,
-  },
-  {
-    name: "OUTLINE（アウトライン）",
-    price: "184,800円〜（2ヶ月/16回）",
-    features: ["女性専用パーソナルジム", "完全個室・完全予約制", "生涯アフターフォロー付き", "横浜発のジム"],
-    access: "横浜店（横浜駅西口徒歩5分）",
-    point: "横浜発祥の女性専用パーソナルジムです。生涯リバウンドサポートが大きな強みです。",
-    reviewed: false,
-  },
-  {
-    name: "WHOEVER（フーエバー）",
-    price: "月92,400円〜（月8回）",
-    features: ["完全個室のマンツーマン指導", "キックボクシングも取り入れたトレーニング", "食事指導サポート付き", "横浜に複数店舗"],
-    access: "横浜店・武蔵小杉店",
-    point: "キックボクシングを取り入れたトレーニングが特徴です。飽きずに続けやすいと評判です。",
-    reviewed: false,
-  },
-];
 
 const faqItems = [
+  ...buildAreaPickFaq("yokohama", areaName),
   { q: "横浜のパーソナルジムの料金相場はいくらですか？", a: "横浜のパーソナルジムの料金相場は、2ヶ月コースで20万〜38万円程度です。月額制では月1万〜7万円が目安です。" },
-  { q: "横浜駅周辺でおすすめのパーソナルジムを教えてください。", a: "RIZAP、24/7ワークアウト、エクササイズコーチ、OUTLINEなどが横浜駅徒歩圏内にあります。選択肢が豊富なため、目的と予算に合わせて選べます。" },
-  { q: "横浜で女性におすすめのパーソナルジムを教えてください。", a: "横浜発祥の女性専用ジムOUTLINE（アウトライン）がおすすめです。完全個室で、生涯リバウンドサポートが付いています。" },
-  { q: "横浜で安いパーソナルジムを教えてください。", a: "エクササイズコーチ（月9,900円〜）やチキンジム（月々6,800円〜/分割時）が低価格帯です。" },
   { q: "横浜と東京、どちらのジムに通うべきですか？", a: "通いやすさを最優先に考えることをおすすめします。横浜在住・在勤の方は横浜のジムを選ぶと継続しやすくなります。ただし、東京の方が選択肢が多いため、横浜駅から都内に通勤している方は職場近くのジムも検討する価値があります。" },
   { q: "パーソナルジムの契約前に確認すべきことを教えてください。", a: "総額料金（分割の場合の手数料含む）、解約条件、予約の取りやすさ、トレーナーの変更可否を必ずご確認ください。無料カウンセリングで質問リストを持参すると漏れなく確認できます。" },
 ];
@@ -129,11 +68,11 @@ export default function YokohamaAreaPage() {
       <Breadcrumb items={[{ name: "エリア別", href: "/area/" }, { name: areaName }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">【2026最新】パーソナルジム横浜おすすめ7選</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          横浜は神奈川県の中心都市で、横浜駅・みなとみらい・関内エリアを中心にパーソナルジムが充実しています。東京に比べて相場がやや抑えめで、横浜発祥のジムもあるなど、地域ならではの選択肢が特徴です。本記事では、料金・実績・アクセスの観点から選定した7つのジムをご紹介します。
+          横浜は神奈川県の中心都市で、横浜駅・みなとみらい・関内エリアを中心にパーソナルジムが充実しています。東京に比べて相場がやや抑えめで、横浜発祥のジムもあるなど、地域ならではの選択肢が特徴です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
@@ -166,15 +105,7 @@ export default function YokohamaAreaPage() {
           <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-6 pb-2 border-b-2 border-teal-500">{areaName}のおすすめパーソナルジム7選</h2>
-          <div className="space-y-6">
-            {gyms.map((gym, i) => (
-              <AreaGymCard key={i} gym={gym} index={i} areaName={areaName} />
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 料金・店舗情報は2026年4月時点の公開情報に基づきます。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPicksSection slug="yokohama" areaName={areaName} />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジムに関するよくある質問</h2>
