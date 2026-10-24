@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
+import AreaPriceSection from "@/components/AreaPriceSection";
+import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
@@ -29,17 +31,11 @@ const selectionPoints = [
   },
 ];
 
-const priceRange = [
-  { category: "大手パーソナルジム（2ヶ月コース）", range: "20万〜35万円" },
-  { category: "中価格帯パーソナルジム（月額制）", range: "月3万〜6万円" },
-  { category: "低価格パーソナルジム（月額制）", range: "月1万〜3万円" },
-  { category: "入会金", range: "0円〜5.5万円" },
-];
 
 
 const faqItems = [
   ...buildAreaPickFaq("saitama", areaName),
-  { q: "さいたまのパーソナルジムの料金相場はいくらですか？", a: "さいたまのパーソナルジムの料金相場は、2ヶ月コースで20万〜35万円程度です。月額制では月1万〜6万円が目安で、東京と同程度か若干安い傾向にあります。" },
+  areaPriceFaq(areaName),
   { q: "さいたまと東京、どちらのジムに通うべきですか？", a: "大宮在住・在勤なら大宮のジムが便利です。都内に通勤している方は、職場近くの都内ジムの方が通いやすい場合もあります。" },
   { q: "パーソナルジムの解約は簡単にできますか？", a: "月額制のジムは比較的簡単に解約できます。コース契約の場合はクーリングオフ期間内であれば無条件解約、それ以降は解約手数料がかかることがあります。契約前に解約条件をご確認ください。" },
 ];
@@ -82,16 +78,7 @@ export default function SaitamaAreaPage() {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム料金相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
-              <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">カテゴリ</th><th className="px-4 py-3 text-left font-medium">料金目安</th></tr></thead>
-              <tbody>{priceRange.map((row) => (<tr key={row.category} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{row.category}</td><td className="px-4 py-3 text-gray-700">{row.range}</td></tr>))}</tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPriceSection areaName={areaName} />
 
         <AreaPicksSection slug="saitama" areaName={areaName} />
 

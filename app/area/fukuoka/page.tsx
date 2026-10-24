@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
+import AreaPriceSection from "@/components/AreaPriceSection";
+import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
@@ -29,17 +31,11 @@ const selectionPoints = [
   },
 ];
 
-const priceRange = [
-  { category: "大手パーソナルジム（2ヶ月コース）", range: "18万〜35万円" },
-  { category: "中価格帯パーソナルジム（月額制）", range: "月3万〜6万円" },
-  { category: "低価格パーソナルジム（月額制）", range: "月1万〜3万円" },
-  { category: "入会金", range: "0円〜5.5万円" },
-];
 
 
 const faqItems = [
   ...buildAreaPickFaq("fukuoka", areaName),
-  { q: "福岡のパーソナルジムの料金相場はいくらですか？", a: "福岡のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。東京・大阪と比べてやや安い傾向にあります。" },
+  areaPriceFaq(areaName),
   { q: "パーソナルジムに通う期間はどのくらいが目安ですか？", a: "ダイエット目的であれば2〜3ヶ月、ボディメイクや体質改善が目的であれば3〜6ヶ月が一般的な目安です。継続的な運動習慣をつけたい方は月額制のジムが向いています。" },
 ];
 
@@ -85,18 +81,7 @@ export default function FukuokaAreaPage() {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム料金相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
-              <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">カテゴリ</th><th className="px-4 py-3 text-left font-medium">料金目安</th></tr></thead>
-              <tbody>
-                {priceRange.map((row) => (<tr key={row.category} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{row.category}</td><td className="px-4 py-3 text-gray-700">{row.range}</td></tr>))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPriceSection areaName={areaName} />
 
         <AreaPicksSection slug="fukuoka" areaName={areaName} />
 

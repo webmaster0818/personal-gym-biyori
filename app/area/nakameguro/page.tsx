@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
+import AreaPriceSection from "@/components/AreaPriceSection";
+import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("nakameguro", "中目黒");
@@ -28,17 +30,11 @@ const selectionPoints = [
   },
 ];
 
-const priceRange = [
-  { category: "大手パーソナルジム（2ヶ月コース）", range: "20万〜40万円" },
-  { category: "中価格帯パーソナルジム（月額制）", range: "月4万〜9万円" },
-  { category: "低価格パーソナルジム（月額制）", range: "月1万〜3万円" },
-  { category: "入会金", range: "0円〜5.5万円" },
-];
 
 
 const faqItems = [
   ...buildAreaPickFaq("nakameguro", areaName),
-  { q: "中目黒のパーソナルジムの料金相場はいくらですか？", a: "中目黒のパーソナルジムの料金相場は、2ヶ月コースで20万〜40万円、月額制で4万〜9万円です。質の高いジムが揃っているエリアです。" },
+  areaPriceFaq(areaName),
   { q: "中目黒のパーソナルジムは駅から近い立地にありますか？", a: "中目黒のパーソナルジムの多くは中目黒駅徒歩5分以内にあります。駅から近く、通いやすい立地が特徴です。" },
   { q: "中目黒のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは気になるジムの体験トレーニングから始めることをおすすめします。" },
 ];
@@ -82,16 +78,7 @@ export default function NakameguroAreaPage() {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム料金相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
-              <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">カテゴリ</th><th className="px-4 py-3 text-left font-medium">料金目安</th></tr></thead>
-              <tbody>{priceRange.map((row) => (<tr key={row.category} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{row.category}</td><td className="px-4 py-3 text-gray-700">{row.range}</td></tr>))}</tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPriceSection areaName={areaName} />
 
         <AreaPicksSection slug="nakameguro" areaName={areaName} />
 

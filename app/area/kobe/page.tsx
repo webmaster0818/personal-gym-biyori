@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
+import AreaPriceSection from "@/components/AreaPriceSection";
+import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
@@ -29,17 +31,11 @@ const selectionPoints = [
   },
 ];
 
-const priceRange = [
-  { category: "大手パーソナルジム（2ヶ月コース）", range: "18万〜35万円" },
-  { category: "中価格帯パーソナルジム（月額制）", range: "月3万〜6万円" },
-  { category: "低価格パーソナルジム（月額制）", range: "月1万〜3万円" },
-  { category: "入会金", range: "0円〜5.5万円" },
-];
 
 
 const faqItems = [
   ...buildAreaPickFaq("kobe", areaName),
-  { q: "神戸のパーソナルジムの料金相場はいくらですか？", a: "神戸のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。月額制では月1万〜6万円が目安で、大阪と同程度の水準です。" },
+  areaPriceFaq(areaName),
   { q: "神戸と大阪、どちらのジムに通うべきですか？", a: "通いやすさを最優先に考えることをおすすめします。神戸在住・在勤なら三宮のジムが便利です。大阪に通勤している方は、大阪のジムの方が選択肢が多く、料金も比較しやすくなります。" },
   { q: "パーソナルジムに通う前に準備することはありますか？", a: "特別な準備は不要です。多くのジムで無料カウンセリングを受けられるため、まずは予約して足を運ぶことをおすすめします。手ぶらで通えるジムも多いため、ウェアなどを急いで購入する必要はありません。" },
 ];
@@ -86,18 +82,7 @@ export default function KobeAreaPage() {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム料金相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
-              <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">カテゴリ</th><th className="px-4 py-3 text-left font-medium">料金目安</th></tr></thead>
-              <tbody>
-                {priceRange.map((row) => (<tr key={row.category} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{row.category}</td><td className="px-4 py-3 text-gray-700">{row.range}</td></tr>))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPriceSection areaName={areaName} />
 
         <AreaPicksSection slug="kobe" areaName={areaName} />
 

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
+import AreaPriceSection from "@/components/AreaPriceSection";
+import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("tokyo", "東京");
@@ -20,7 +22,7 @@ const selectionPoints = [
   },
   {
     title: "料金体系と総額を必ず確認する",
-    desc: "東京のパーソナルジムは月額1万円台から50万円超まで価格帯が幅広いのが特徴です。月額表示だけでなく、入会金・コース総額・オプション料金を含めたトータルコストで比較することが重要です。",
+    desc: "パーソナルジムは、月額制・コース制・都度払いなど料金の形態がブランドによって異なります。月額表示だけでなく、入会金・コース総額・オプション料金を含めたトータルコストで比較することが重要です。",
   },
   {
     title: "無料カウンセリング・体験を複数社で受ける",
@@ -28,17 +30,11 @@ const selectionPoints = [
   },
 ];
 
-const priceRange = [
-  { category: "大手パーソナルジム（2ヶ月コース）", range: "20万〜40万円" },
-  { category: "中価格帯パーソナルジム（月額制）", range: "月3万〜8万円" },
-  { category: "低価格パーソナルジム（月額制）", range: "月1万〜3万円" },
-  { category: "入会金", range: "0円〜5.5万円" },
-];
 
 
 const faqItems = [
   ...buildAreaPickFaq("tokyo", areaName),
-  { q: "東京のパーソナルジムの料金相場はいくらですか？", a: "東京のパーソナルジムの料金相場は、2ヶ月コースで20万〜40万円が一般的です。月額制のジムでは月1万〜8万円程度で通えるところもあります。入会金は0円〜5.5万円が目安です。" },
+  areaPriceFaq(areaName),
   { q: "パーソナルジムは週何回通うのが効果的ですか？", a: "週2回が最も効果的とされています。週1回でも効果はありますが、結果が出るまでに時間がかかります。週3回以上は身体の回復が追いつかない場合があるため、トレーナーにご相談ください。" },
   { q: "パーソナルジムの無料体験は何をするのですか？", a: "一般的にカウンセリング（目標や体の状態の確認）、体組成測定、実際のトレーニング体験を30〜60分程度で行います。ジムによって内容は異なりますので、予約時にご確認ください。" },
 ];
@@ -91,28 +87,7 @@ export default function TokyoAreaPage() {
         </section>
 
         {/* 料金相場 */}
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム料金相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
-              <thead>
-                <tr className="bg-teal-500 text-white">
-                  <th className="px-4 py-3 text-left font-medium">カテゴリ</th>
-                  <th className="px-4 py-3 text-left font-medium">料金目安</th>
-                </tr>
-              </thead>
-              <tbody>
-                {priceRange.map((row) => (
-                  <tr key={row.category} className="border-b border-gray-100">
-                    <td className="px-4 py-3 font-medium text-gray-800">{row.category}</td>
-                    <td className="px-4 py-3 text-gray-700">{row.range}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。キャンペーンや時期により変動します。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPriceSection areaName={areaName} />
 
         {/* おすすめジム一覧 */}
         <AreaPicksSection slug="tokyo" areaName={areaName} />

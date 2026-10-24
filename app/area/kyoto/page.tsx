@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
+import AreaPriceSection from "@/components/AreaPriceSection";
+import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
@@ -29,17 +31,11 @@ const selectionPoints = [
   },
 ];
 
-const priceRange = [
-  { category: "大手パーソナルジム（2ヶ月コース）", range: "18万〜35万円" },
-  { category: "中価格帯パーソナルジム（月額制）", range: "月3万〜6万円" },
-  { category: "低価格パーソナルジム（月額制）", range: "月1万〜3万円" },
-  { category: "入会金", range: "0円〜5.5万円" },
-];
 
 
 const faqItems = [
   ...buildAreaPickFaq("kyoto", areaName),
-  { q: "京都のパーソナルジムの料金相場はいくらですか？", a: "京都のパーソナルジムの料金相場は、2ヶ月コースで18万〜35万円程度です。月額制では月1万〜6万円が目安です。" },
+  areaPriceFaq(areaName),
   { q: "京都と大阪、どちらのジムに通うべきですか？", a: "京都在住・在勤の方は、京都のジムを選ぶと通いやすくなります。大阪に通勤している方は、大阪のジムの方が選択肢が多く便利です。" },
   { q: "パーソナルジムの効果を高める方法を教えてください。", a: "週2回の通所、トレーナーによる食事アドバイスの実践、十分な睡眠の確保の3点が基本です。トレーニングだけでなく生活全体を見直すことで、効果を高められます。" },
 ];
@@ -81,16 +77,7 @@ export default function KyotoAreaPage() {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム料金相場</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
-              <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">カテゴリ</th><th className="px-4 py-3 text-left font-medium">料金目安</th></tr></thead>
-              <tbody>{priceRange.map((row) => (<tr key={row.category} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{row.category}</td><td className="px-4 py-3 text-gray-700">{row.range}</td></tr>))}</tbody>
-            </table>
-          </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は目安です。最新情報は各公式サイトでご確認ください。</p>
-        </section>
+        <AreaPriceSection areaName={areaName} />
 
         <AreaPicksSection slug="kyoto" areaName={areaName} />
 
