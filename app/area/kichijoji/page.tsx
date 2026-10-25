@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("kichijoji", "吉祥寺");
 
@@ -35,8 +35,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("kichijoji", areaName),
   areaPriceFaq(areaName),
-  { q: "吉祥寺のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが吉祥寺駅徒歩5分以内にあり、アクセス良好です。" },
-  { q: "吉祥寺のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("kichijoji", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,7 +64,7 @@ export default function KichijojiAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           吉祥寺は「住みたい街」として常に上位に挙がる人気エリアです。おしゃれなカフェやショップが立ち並ぶ中、質の高いパーソナルジムも充実しています。{pickCopy.intro}

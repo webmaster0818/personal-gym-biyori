@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("machida", "町田");
 
@@ -21,8 +21,8 @@ const selectionPoints = [
     desc: "町田にはJR横浜線と小田急線の2つの駅があり、利用する路線によって便利なジムが異なります。通勤・通学の路線に合わせて選ぶことをおすすめします。",
   },
   {
-    title: "都心と比べてリーズナブルな料金を活かす",
-    desc: "町田は都心エリアと比べてテナント料が抑えめのため、同クオリティのサービスをよりリーズナブルに受けられるジムが多いのが特徴です。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、町田と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
   {
     title: "駐車場完備のジムも検討する",
@@ -35,8 +35,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("machida", areaName),
   areaPriceFaq(areaName),
-  { q: "町田のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムがJR町田駅・小田急町田駅から徒歩5分以内にあります。" },
-  { q: "町田のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("machida", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,10 +64,10 @@ export default function MachidaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          町田は東京都南部に位置し、JR横浜線と小田急線が交差する交通の要所です。都心と比べてリーズナブルな料金設定のジムが多く、手頃な料金でパーソナルトレーニングを始められます。{pickCopy.intro}
+          町田は東京都南部に位置し、JR横浜線と小田急線が交差する交通の要所です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

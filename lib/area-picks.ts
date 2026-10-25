@@ -160,6 +160,26 @@ type Pick = {
   priceNote?: string;
   entryFee?: string;
   priceUrl?: string;
+  /** 店舗ページで無料体験の条件がブランド共通の記載と異なる場合の上書き */
+  trial?: Trial;
+};
+
+/*
+ * 無料体験・無料カウンセリング（2026-10-25 各公式サイトで確認）。
+ *   - "trial": 体験トレーニングを無料と記載／"counseling": 無料カウンセリングの記載のみ（体験トレーニングの無料記載は確認できず）
+ *   - ここに無いブランドは「確認できなかった」扱いで、FAQ の件数に含めない。
+ */
+export const TRIAL_CHECKED_ON = "2026年10月25日";
+type Trial = { free: "trial" | "counseling"; src: string };
+const TRIAL: Partial<Record<BrandKey, Trial>> = {
+  rizap: { free: "counseling", src: "https://www.rizap.jp/" },
+  beyond: { free: "trial", src: "https://beyond-gym.com/price/" },
+  w247: { free: "counseling", src: "https://247-sports.jp/workout/course/" },
+  ec: { free: "trial", src: "https://exercisecoach.co.jp/" },
+  dr: { free: "counseling", src: "https://drtraining.jp/" },
+  chicken: { free: "counseling", src: "https://chicken-gym.jp/" },
+  katagiri: { free: "trial", src: "https://katagirijuku.jp/price" },
+  apple: { free: "trial", src: "https://applegym.jp/faq/" },
 };
 
 const D22 = "2026年10月22日";
@@ -168,7 +188,7 @@ export const AREA_PICKS: Record<string, Pick[]> = {
   akasaka: [],
   azabu: [
     { brand: "beyond", stores: ["麻布十番店"] },
-    { brand: "dr", stores: ["麻布十番店"], storeCheckedOn: D22, entryFee: "入会費0円", priceUrl: "https://drtraining.jp/location/azabu/" },
+    { brand: "dr", stores: ["麻布十番店"], storeCheckedOn: D22, entryFee: "入会費0円", priceUrl: "https://drtraining.jp/location/azabu/", trial: { free: "trial", src: "https://drtraining.jp/location/azabu/" } },
   ],
   chiba: [
     { brand: "beyond", stores: ["千葉駅前店"] },
@@ -444,4 +464,35 @@ export function buildAreaPickFaq(slug: string, areaName: string): { q: string; a
     });
   }
   return items;
+}
+
+const shortName = (name: string) => name.replace(/（.*?）/g, "");
+
+/** 「体験できますか？」FAQ。掲載ブランドの公式サイトの記載（TRIAL）から件数を出す。掲載0件・確認できたブランドが無い場合は空配列 */
+export function buildAreaTrialFaq(slug: string, areaName: string): { q: string; a: string }[] {
+  const picks = AREA_PICKS[slug] ?? [];
+  const n = picks.length;
+  if (n === 0) return [];
+  const known = picks
+    .map((p) => ({ name: shortName(BRANDS[p.brand].name), t: p.trial ?? TRIAL[p.brand] }))
+    .filter((x): x is { name: string; t: Trial } => Boolean(x.t));
+  if (known.length === 0) return [];
+  const trial = known.filter((x) => x.t.free === "trial").map((x) => x.name);
+  const counsel = known.filter((x) => x.t.free === "counseling").map((x) => x.name);
+  const q = `${areaName}のパーソナルジムは体験できますか？`;
+  const tail = "体験の内容・所要時間・条件は店舗や時期により異なる場合があるため、予約時に公式サイトでご確認ください。";
+  if (n === 1) {
+    const x = known[0];
+    const what = x.t.free === "trial" ? "体験トレーニングを無料で受けられると" : "無料カウンセリングを";
+    return [{ q, a: `当サイトが${areaName}で掲載している1社（${x.name}）は、公式サイトで${what}案内しています（${TRIAL_CHECKED_ON}確認）。${tail}` }];
+  }
+  const head =
+    known.length === n
+      ? `当サイトが${areaName}で掲載している${n}社は、いずれも公式サイトで無料のカウンセリングまたは体験トレーニングを案内しています（${TRIAL_CHECKED_ON}確認）。`
+      : `当サイトが${areaName}で掲載している${n}社のうち、公式サイトで無料のカウンセリングまたは体験トレーニングを確認できたのは${known.length}社です（${TRIAL_CHECKED_ON}確認）。`;
+  const parts: string[] = [];
+  if (trial.length) parts.push(`体験トレーニングまで無料と記載しているのは${trial.join("・")}の${trial.length}社`);
+  if (counsel.length) parts.push(`${counsel.join("・")}の${counsel.length}社は無料カウンセリングの案内です`);
+  const body = parts.length === 2 ? `${parts[0]}で、${parts[1]}。` : trial.length ? `${parts[0]}です。` : `${parts[0]}。`;
+  return [{ q, a: head + body + tail }];
 }

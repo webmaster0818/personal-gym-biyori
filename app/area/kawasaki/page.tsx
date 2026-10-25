@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("kawasaki", "川崎");
@@ -26,8 +26,8 @@ const selectionPoints = [
     desc: "川崎駅西口のラゾーナ川崎周辺は商業施設が充実しています。買い物や食事と合わせてジムに通える通い方も可能です。",
   },
   {
-    title: "都心より手頃な料金設定に注目",
-    desc: "川崎は東京都心と比べて料金設定がやや手頃なジムが多く、手頃な料金でパーソナルトレーニングを始められます。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、川崎と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
 ];
 
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("kawasaki", areaName),
   areaPriceFaq(areaName),
-  { q: "川崎のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが川崎駅徒歩5分以内にあり、JR・京急からのアクセスも良好です。" },
-  { q: "川崎のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("kawasaki", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,10 +65,10 @@ export default function KawasakiAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          川崎は東京と横浜の中間に位置し、両方向へのアクセスが便利なエリアです。都心より手頃な料金設定のジムが多く、手頃な料金でパーソナルトレーニングを始められます。{pickCopy.intro}
+          川崎は東京と横浜の中間に位置し、両方向へのアクセスが便利なエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

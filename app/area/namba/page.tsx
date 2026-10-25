@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("namba", "なんば");
@@ -19,7 +19,7 @@ const areaName = "なんば";
 const selectionPoints = [
   {
     title: "ミナミの繁華街ならではの営業時間に注目",
-    desc: "なんばは大阪ミナミの中心地で、夜遅くまで賑わうエリアです。深夜まで営業するジムが多く、遅い時間からでもトレーニングに通えます。",
+    desc: "なんばは大阪ミナミの中心地で、夜遅くまで賑わうエリアです。営業時間は店舗ごとに異なるため、遅い時間に通いたい方は公式の店舗ページで営業時間をご確認ください。",
   },
   {
     title: "御堂筋線・南海・近鉄の複数路線を活かす",
@@ -36,7 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("namba", areaName),
   areaPriceFaq(areaName),
-  { q: "なんばのパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("namba", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,10 +65,10 @@ export default function NambaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          なんばは大阪ミナミの中心地で、御堂筋線・南海・近鉄が乗り入れる大阪有数のターミナルエリアです。繁華街ならではの深夜営業ジムや多彩なプログラムが揃っています。{pickCopy.intro}
+          なんばは大阪ミナミの中心地で、御堂筋線・南海・近鉄が乗り入れる大阪有数のターミナルエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

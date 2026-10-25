@@ -36,8 +36,6 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("nagoya", areaName),
   areaPriceFaq(areaName),
-  { q: "名古屋のパーソナルジムに駐車場はありますか？", a: "専用駐車場を持つジムは多くありませんが、栄・名駅エリアには近隣にコインパーキングが多数あります。駐車場サービスの有無は各ジムにお問い合わせください。" },
-  { q: "パーソナルジムの効果はいつから実感できますか？", a: "一般的に2〜3ヶ月で体型の変化を実感する方が多い傾向にあります。週2回の通いと食事管理を併せて行うことで、より早く効果を感じられます。" },
 ];
 
 const faqJsonLd = {
@@ -65,7 +63,7 @@ export default function NagoyaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           名古屋は名駅・栄を中心にパーソナルジムの出店が活発なエリアです。大手チェーンから地元密着型ジムまで選択肢が豊富で、車社会ならではの駐車場付き店舗もあります。{pickCopy.intro}

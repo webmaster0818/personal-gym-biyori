@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("nakameguro", "中目黒");
 
@@ -35,8 +35,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("nakameguro", areaName),
   areaPriceFaq(areaName),
-  { q: "中目黒のパーソナルジムは駅から近い立地にありますか？", a: "中目黒のパーソナルジムの多くは中目黒駅徒歩5分以内にあります。駅から近く、通いやすい立地が特徴です。" },
-  { q: "中目黒のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは気になるジムの体験トレーニングから始めることをおすすめします。" },
+  ...buildAreaTrialFaq("nakameguro", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,7 +64,7 @@ export default function NakameguroAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           中目黒はおしゃれなカフェやショップが並ぶ人気エリアです。落ち着いた雰囲気の中でトレーニングできるプライベートジムが充実しています。恵比寿・代官山へも徒歩圏内で、ライフスタイルに合わせたジム選びが可能です。{pickCopy.intro}

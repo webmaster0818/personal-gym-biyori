@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("jiyugaoka", "自由が丘");
 
@@ -35,8 +35,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("jiyugaoka", areaName),
   areaPriceFaq(areaName),
-  { q: "自由が丘のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが自由が丘駅徒歩5分以内にあり、アクセスは良好です。" },
-  { q: "自由が丘のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは体験トレーニングから始めることをおすすめします。" },
+  ...buildAreaTrialFaq("jiyugaoka", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,7 +64,7 @@ export default function JiyugaokaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           自由が丘はおしゃれな街並みと住みやすさで人気のエリアです。女性向けのプログラムやプライベートジムが充実しており、ライフスタイルに合わせた通い方ができます。{pickCopy.intro}

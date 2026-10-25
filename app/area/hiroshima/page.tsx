@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("hiroshima", "広島");
@@ -26,8 +26,8 @@ const selectionPoints = [
     desc: "広島は路面電車が発達しており、電停から近いジムなら車なしでも通いやすい環境です。駐車場の有無と合わせてご確認ください。",
   },
   {
-    title: "地方都市ならではの手頃な料金を活かす",
-    desc: "広島は東京・大阪と比べて料金設定が手頃なジムが多く、質の高いパーソナルトレーニングを手頃な料金で受けられます。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、広島と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
 ];
 
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("hiroshima", areaName),
   areaPriceFaq(areaName),
-  { q: "広島のパーソナルジムは駅から近い立地にありますか？", a: "広島駅や路面電車の電停から徒歩5分以内のジムが多く、アクセス良好です。" },
-  { q: "広島のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("hiroshima", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,10 +65,10 @@ export default function HiroshimaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          広島は中国地方の中心都市で、広島駅周辺と本通り・八丁堀エリアにパーソナルジムが集中しています。東京・大阪と比べてリーズナブルな料金設定が特徴です。{pickCopy.intro}
+          広島は中国地方の中心都市で、広島駅周辺と本通り・八丁堀エリアにパーソナルジムが集中しています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

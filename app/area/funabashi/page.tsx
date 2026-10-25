@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("funabashi", "船橋");
 
@@ -22,8 +22,8 @@ const selectionPoints = [
     desc: "船橋にはJR総武線・京成線・東武野田線が乗り入れ、千葉県内各地からのアクセスが良好です。利用路線に合わせてジムを選ぶと通いやすくなります。",
   },
   {
-    title: "都心と比べてリーズナブルな料金に注目",
-    desc: "船橋は東京都心と比べて料金設定が手頃なジムが多く、同品質のサービスを手頃な料金で受けられるのが大きなメリットです。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、船橋と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
   {
     title: "ららぽーと周辺の利便性も検討",
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("funabashi", areaName),
   areaPriceFaq(areaName),
-  { q: "船橋のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが船橋駅徒歩5分以内にあり、JR・京成からのアクセスも良好です。" },
-  { q: "船橋のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("funabashi", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,10 +65,10 @@ export default function FunabashiAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          船橋は千葉県内でも有数の繁華街で、JR・京成・東武の複数路線が乗り入れる交通の便の良いエリアです。都心より手頃な料金でパーソナルトレーニングを始められます。{pickCopy.intro}
+          船橋は千葉県内でも有数の繁華街で、JR・京成・東武の複数路線が乗り入れる交通の便の良いエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

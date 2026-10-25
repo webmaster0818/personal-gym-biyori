@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("chiba", "千葉");
@@ -22,8 +22,8 @@ const selectionPoints = [
     desc: "千葉駅はJR総武線・京成線・千葉モノレールが乗り入れ、大手パーソナルジムチェーンが集まっています。信頼性の高い大手ジムから選ぶのが安心です。",
   },
   {
-    title: "都心より手頃な料金設定に注目",
-    desc: "千葉は東京都心と比べてテナント料が抑えめのため、同品質のサービスをよりリーズナブルに受けられるのが大きな特徴です。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、千葉と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
   {
     title: "車通いを想定した駐車場の確認",
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("chiba", areaName),
   areaPriceFaq(areaName),
-  { q: "千葉のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが千葉駅徒歩5分以内にあり、JR・京成からのアクセスも良好です。" },
-  { q: "千葉のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("chiba", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,10 +65,10 @@ export default function ChibaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          千葉は千葉県の県庁所在地で、JR総武線・京成線が乗り入れる交通の便の良いエリアです。都心と比べて手頃な料金でパーソナルトレーニングを始められます。{pickCopy.intro}
+          千葉は千葉県の県庁所在地で、JR総武線・京成線が乗り入れる交通の便の良いエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

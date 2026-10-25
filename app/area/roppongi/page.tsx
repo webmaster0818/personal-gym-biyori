@@ -21,8 +21,8 @@ const selectionPoints = [
     desc: "六本木は外資系企業や大使館が多いエリアで、パーソナルジムもハイクラスな施設が充実しています。ラグジュアリーな空間でトレーニングしたい方に適したエリアです。",
   },
   {
-    title: "深夜営業のジムが多いエリア",
-    desc: "六本木はナイトライフの街でもあるため、深夜まで営業しているジムが多いのが特徴です。不規則な勤務形態の方や、夜遅くにトレーニングしたい方にとって便利なエリアです。",
+    title: "通いたい時間帯の営業時間を確認する",
+    desc: "営業時間は店舗ごとに異なります。不規則な勤務形態の方や、夜遅くにトレーニングしたい方は、通う店舗の公式ページで営業時間と最終予約の時刻をご確認ください。",
   },
   {
     title: "麻布十番・赤坂のジムも検討する",
@@ -63,10 +63,10 @@ export default function RoppongiAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          六本木は外資系企業やIT企業が集まる国際的なビジネスエリアで、ハイクラスなパーソナルジムが充実しています。深夜まで営業する店舗も多く、不規則な生活リズムの方にも通いやすいのが特徴です。{pickCopy.intro}
+          六本木は外資系企業やIT企業が集まる国際的なビジネスエリアで、ハイクラスなパーソナルジムが充実しています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

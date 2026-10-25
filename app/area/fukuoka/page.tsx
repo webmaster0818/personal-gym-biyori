@@ -19,11 +19,11 @@ const areaName = "福岡";
 const selectionPoints = [
   {
     title: "天神・博多駅エリアを中心に探す",
-    desc: "福岡のパーソナルジムは天神エリアと博多駅周辺に集中しています。地下鉄空港線沿線はアクセスが良く、仕事帰りにも通いやすい立地の店舗が多い傾向にあります。",
+    desc: "福岡のパーソナルジムは天神エリアと博多駅周辺に集中しています。地下鉄空港線沿線の店舗であれば、仕事帰りにも通いやすくなります。",
   },
   {
-    title: "九州エリアの料金相場を把握する",
-    desc: "福岡は九州最大の都市ですが、東京・大阪と比べると全体的に料金がやや安い傾向にあります。大手チェーンでも福岡限定のキャンペーンを実施していることがあるため、公式サイトをご確認ください。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、福岡と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
   {
     title: "地元で実績のあるジムにも注目する",
@@ -36,7 +36,6 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("fukuoka", areaName),
   areaPriceFaq(areaName),
-  { q: "パーソナルジムに通う期間はどのくらいが目安ですか？", a: "ダイエット目的であれば2〜3ヶ月、ボディメイクや体質改善が目的であれば3〜6ヶ月が一般的な目安です。継続的な運動習慣をつけたい方は月額制のジムが向いています。" },
 ];
 
 const faqJsonLd = {
@@ -63,10 +62,10 @@ export default function FukuokaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          福岡は九州最大の都市で、天神・博多エリアを中心にパーソナルジムの出店が増加しています。大手チェーンが主要エリアに揃っているほか、地元発の実力派ジムもあり、選択肢が充実しています。{pickCopy.intro}
+          福岡は九州最大の都市で、天神・博多エリアを中心にパーソナルジムが出店しています。大手チェーンが主要エリアに揃っているほか、地元発の実力派ジムもあり、選択肢が充実しています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

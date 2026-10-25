@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("akasaka", "赤坂");
 
@@ -36,7 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("akasaka", areaName),
   areaPriceFaq(areaName),
-  { q: "赤坂のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("akasaka", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,10 +65,10 @@ export default function AkasakaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          赤坂は東京を代表するビジネス街のひとつで、多忙なビジネスパーソンが効率的に通えるパーソナルジムが充実しています。駅近でアクセスが良く、早朝から深夜まで営業するジムも多いのが特徴です。{pickCopy.intro}
+          赤坂は東京を代表するビジネス街のひとつで、多忙なビジネスパーソンが効率的に通えるパーソナルジムが充実しています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

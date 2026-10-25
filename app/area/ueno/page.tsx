@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("ueno", "上野");
 
@@ -18,8 +18,8 @@ const areaName = "上野";
 
 const selectionPoints = [
   {
-    title: "下町エリアならではの手頃な料金に注目",
-    desc: "上野は新宿・渋谷と比べてテナント料が抑えめなため、同じ品質のサービスをより手頃な価格で受けられるジムが多い傾向があります。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、上野と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
   {
     title: "JR・地下鉄のアクセスの良さを活かす",
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("ueno", areaName),
   areaPriceFaq(areaName),
-  { q: "上野のパーソナルジムは駅から近い立地にありますか？", a: "上野のパーソナルジムの多くは上野駅徒歩5分以内にあります。JR・地下鉄どちらからもアクセスしやすい立地です。" },
-  { q: "上野のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは気になるジムの体験トレーニングから始めることをおすすめします。" },
+  ...buildAreaTrialFaq("ueno", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,10 +65,10 @@ export default function UenoAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          上野は東京の下町エリアとして親しまれ、JR各線や地下鉄が集まる交通の要所です。都心部と比べて手頃な料金のパーソナルジムが多く、初めてのジム通いにもおすすめのエリアです。{pickCopy.intro}
+          上野は東京の下町エリアとして親しまれ、JR各線や地下鉄が集まる交通の要所です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

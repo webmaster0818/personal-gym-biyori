@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("umeda", "梅田");
@@ -27,7 +27,7 @@ const selectionPoints = [
   },
   {
     title: "ジムが多いエリアならではのキャンペーンを比較する",
-    desc: "梅田はパーソナルジムが多く集まるエリアで、各ジムが入会金無料や初月割引などのキャンペーンを実施しています。キャンペーンの時期も含めて比較することをおすすめします。",
+    desc: "入会金の割引などのキャンペーンは、内容と期間がブランドごとに異なります。入会の時期も含めて比較することをおすすめします。",
   },
 ];
 
@@ -36,7 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("umeda", areaName),
   areaPriceFaq(areaName),
-  { q: "梅田のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("umeda", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,10 +65,10 @@ export default function UmedaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          梅田は大阪キタの中心地で、JR大阪駅・阪急・阪神・地下鉄が集結する大阪最大のターミナルエリアです。パーソナルジムが多く集まるエリアで、各ジムがキャンペーンを積極的に展開しています。{pickCopy.intro}
+          梅田は大阪キタの中心地で、JR大阪駅・阪急・阪神・地下鉄が集結する大阪最大のターミナルエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

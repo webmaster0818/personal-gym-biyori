@@ -23,7 +23,7 @@ const selectionPoints = [
   },
   {
     title: "ジムが多いエリアならではの価格競争を活かす",
-    desc: "新宿はパーソナルジムが多く集まるエリアのため、各ジムがキャンペーンや割引を積極的に実施しています。入会金無料・初月割引などの特典を比較し、キャンペーンの時期も含めて比較することをおすすめします。",
+    desc: "新宿はパーソナルジムが多く集まるエリアです。入会金の割引などのキャンペーンは内容と期間がブランドごとに異なるため、入会の時期も含めて比較することをおすすめします。",
   },
   {
     title: "通勤・通学の動線上にあるジムを選ぶ",
@@ -36,7 +36,6 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("shinjuku", areaName),
   areaPriceFaq(areaName),
-  { q: "新宿のパーソナルジムは予約が取りやすい状況ですか？", a: "ジムが多いエリアのため各ジムが顧客確保に積極的で、予約枠も十分用意されている傾向があります。ただし平日夜・土日は人気のため、早めの予約がおすすめです。" },
 ];
 
 const faqJsonLd = {
@@ -65,10 +64,10 @@ export default function ShinjukuAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          新宿は日本屈指のターミナル駅で、パーソナルジムが多く集まるエリアです。西口のオフィス街から東口の繁華街まで、多種多様なジムが出店しています。競争が激しい分、料金やサービスの質が高い水準にあるのが新宿エリアの特徴です。{pickCopy.intro}
+          新宿は日本屈指のターミナル駅で、パーソナルジムが多く集まるエリアです。西口のオフィス街から東口の繁華街まで、多種多様なジムが出店しています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

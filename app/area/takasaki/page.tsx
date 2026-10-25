@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("takasaki", "高崎");
 
@@ -35,8 +35,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("takasaki", areaName),
   areaPriceFaq(areaName),
-  { q: "高崎のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが高崎駅徒歩5分以内にあり、新幹線利用者にも便利です。" },
-  { q: "高崎のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("takasaki", areaName),
 ];
 
 const faqJsonLd = {
@@ -65,7 +64,7 @@ export default function TakasakiAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           高崎は群馬県最大の都市で、上越新幹線・北陸新幹線の停車駅として東京方面へのアクセスも良好です。大手パーソナルジムチェーンも出店しており、地方でも質の高いトレーニングを受けられます。{pickCopy.intro}

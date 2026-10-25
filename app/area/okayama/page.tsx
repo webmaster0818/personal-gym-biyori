@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("okayama", "岡山");
@@ -26,8 +26,8 @@ const selectionPoints = [
     desc: "岡山は中国・四国地方の交通ハブとして、広範囲からアクセスしやすい立地です。近隣県からも通える方は選択肢が広がります。",
   },
   {
-    title: "地方都市ならではの手頃な料金を活かす",
-    desc: "岡山は東京・大阪と比べて料金設定が手頃なジムが多く、質の高いパーソナルトレーニングを手頃な料金で受けられます。",
+    title: "料金は通う店舗の公式ページで確認する",
+    desc: "当サイトでは、岡山と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
 ];
 
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("okayama", areaName),
   areaPriceFaq(areaName),
-  { q: "岡山のパーソナルジムは駅から近い立地にありますか？", a: "ほとんどのジムが岡山駅徒歩5分以内にあり、新幹線利用者にも便利です。" },
-  { q: "岡山のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("okayama", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,10 +65,10 @@ export default function OkayamaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          岡山は中国・四国地方の交通ハブとして発展し、山陽新幹線や在来線のアクセスが良好なエリアです。都心より手頃な料金でパーソナルトレーニングを始められます。{pickCopy.intro}
+          岡山は中国・四国地方の交通ハブとして発展し、山陽新幹線や在来線のアクセスが良好なエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

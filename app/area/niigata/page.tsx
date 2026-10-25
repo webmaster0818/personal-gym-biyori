@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("niigata", "新潟");
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("niigata", areaName),
   areaPriceFaq(areaName),
-  { q: "新潟のパーソナルジムは冬でも通いやすい環境ですか？", a: "新潟駅徒歩5分以内のジムが多く、雪の日でも比較的通いやすい環境です。" },
-  { q: "新潟のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。" },
+  ...buildAreaTrialFaq("niigata", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,7 +65,7 @@ export default function NiigataAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           新潟は日本海側最大の都市で、新潟駅周辺にパーソナルジムが集まっています。冬場の運動不足解消にもパーソナルトレーニングが適しています。{pickCopy.intro}

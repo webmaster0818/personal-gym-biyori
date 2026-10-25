@@ -36,7 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("shibuya", areaName),
   areaPriceFaq(areaName),
-  { q: "渋谷と恵比寿、どちらのジムがおすすめですか？", a: "通いやすさで選ぶことをおすすめします。渋谷の方が選択肢が多く、恵比寿は落ち着いた雰囲気のジムが多い傾向にあります。両駅はJRで1駅（3分）のため、両方のジムを検討するのもおすすめです。" },
+  { q: "渋谷と恵比寿、どちらのジムがおすすめですか？", a: "通いやすさで選ぶことをおすすめします。両駅はJR山手線で隣り合う駅のため、両エリアのジムを比較して検討することもできます。" },
 ];
 
 const faqJsonLd = {
@@ -65,7 +65,7 @@ export default function ShibuyaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           渋谷はIT企業やスタートアップが集まるビジネスエリアで、再開発が進んでいます。パーソナルジムも新宿と並んで多く集まるエリアで、大手チェーンからおしゃれな個性派ジムまで多彩な選択肢があります。{pickCopy.intro}

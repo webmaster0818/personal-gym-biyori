@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("ebisu", "恵比寿");
@@ -23,7 +23,7 @@ const selectionPoints = [
   },
   {
     title: "駅近で仕事帰りに通いやすいか確認",
-    desc: "恵比寿駅はJRと日比谷線が交差するターミナル駅です。駅徒歩5分以内のジムが多く、仕事帰りにも手軽に通える環境が整っています。",
+    desc: "恵比寿駅はJRと日比谷線が交差するターミナル駅です。駅からの距離は店舗ごとに異なるため、仕事帰りに通う場合は公式の店舗ページで最寄り出口からの徒歩分数をご確認ください。",
   },
   {
     title: "女性専用・プライベート空間の有無を確認する",
@@ -36,8 +36,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("ebisu", areaName),
   areaPriceFaq(areaName),
-  { q: "恵比寿のパーソナルジムは駅から近い立地にありますか？", a: "恵比寿のパーソナルジムの多くは恵比寿駅徒歩5分以内にあります。仕事帰りにも通いやすい立地が特徴です。" },
-  { q: "恵比寿のパーソナルジムは体験できますか？", a: "ほとんどのジムで無料カウンセリングや体験トレーニングを実施しています。まずは気になるジムの体験トレーニングから始めることをおすすめします。" },
+  ...buildAreaTrialFaq("ebisu", areaName),
 ];
 
 const faqJsonLd = {
@@ -66,7 +65,7 @@ export default function EbisuAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           恵比寿はおしゃれで感度の高いエリアとして知られ、質の高いパーソナルジムが集まっています。駅周辺に大手から個人経営まで多彩なジムが揃い、仕事帰りやショッピングのついでにも通いやすい環境です。{pickCopy.intro}

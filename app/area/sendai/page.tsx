@@ -36,7 +36,6 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("sendai", areaName),
   areaPriceFaq(areaName),
-  { q: "仙台のパーソナルジムは冬でも通いやすい環境ですか？", a: "仙台駅周辺のジムは駅から徒歩5〜8分程度の立地が多く、地下道やペデストリアンデッキを利用できる場合もあります。手ぶらで通えるジムなら荷物も少なく冬場も快適です。" },
 ];
 
 const faqJsonLd = {
@@ -63,10 +62,10 @@ export default function SendaiAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          仙台は東北最大の都市で、仙台駅周辺を中心にパーソナルジムの出店が増えています。大手チェーンから地元密着型まで選べる環境が整いつつあり、東北在住でパーソナルジムを探している方の選択肢が広がっています。{pickCopy.intro}
+          仙台は東北最大の都市で、仙台駅周辺を中心にパーソナルジムが出店しています。大手チェーンから地元密着型まで選べる環境が整いつつあり、東北在住でパーソナルジムを探している方の選択肢が広がっています。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

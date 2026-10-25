@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("kobe", "神戸");
@@ -37,7 +37,7 @@ const faqItems = [
   ...buildAreaPickFaq("kobe", areaName),
   areaPriceFaq(areaName),
   { q: "神戸と大阪、どちらのジムに通うべきですか？", a: "通いやすさを最優先に考えることをおすすめします。神戸在住・在勤なら三宮のジムが便利です。大阪に通勤している方は、大阪のジムの方が選択肢が多く、料金も比較しやすくなります。" },
-  { q: "パーソナルジムに通う前に準備することはありますか？", a: "特別な準備は不要です。多くのジムで無料カウンセリングを受けられるため、まずは予約して足を運ぶことをおすすめします。手ぶらで通えるジムも多いため、ウェアなどを急いで購入する必要はありません。" },
+  ...buildAreaTrialFaq("kobe", areaName),
 ];
 
 const faqJsonLd = {
@@ -64,10 +64,10 @@ export default function KobeAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          神戸は三宮・元町エリアを中心にパーソナルジムが増加している都市です。JR・阪急・阪神の3路線が集まる三宮はアクセスが良く、大手チェーンも出店しています。大阪にも近いため、両エリアで比較検討するのもおすすめです。{pickCopy.intro}
+          神戸は三宮・元町エリアを中心にパーソナルジムが出店している都市です。JR・阪急・阪神の3路線が集まる三宮はアクセスが良く、大手チェーンも出店しています。大阪にも近いため、両エリアで比較検討するのもおすすめです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
