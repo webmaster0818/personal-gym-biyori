@@ -475,8 +475,11 @@ const stores: Store[] = [
     options: ['深夜営業', '月額制(解約しやすい)', 'AI・マシン主導'],
     affiliateUrl: FIT24_AFF,
   }, [
-    ['東京', '新宿', '/review/fit24/shinjuku/'],
-  ]),
+    ['北海道', '札幌', '/review/fit24/sapporo/'],
+    ['宮城', '仙台', '/review/fit24/sendai/'],
+    ['東京', '町田', '/review/fit24/machida/'],
+    ['千葉', '船橋', '/review/fit24/funabashi/'],
+  ]).map((s) => ({ ...s, storeName: `${s.area}エリア` })),
   /* ── MIYAZAKI GYM (no affiliate, mid) ────────────────── */
   ...mkStores('MIYAZAKI GYM', {
     price: '月額3万円〜',
