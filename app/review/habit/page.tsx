@@ -11,134 +11,127 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "HABIT PERSONAL GYM（ハビット）の口コミ・評判｜料金・返金条件を検証",
   description:
-    "HABIT PERSONAL GYM（ハビットパーソナルジム）の口コミ・評判を解説します。低価格帯の料金設定、全18店舗（東京17・大阪1）の基本情報、オリジナルプロテインの提供などのサービス、メリット・デメリット、Googleマップの口コミ傾向をまとめています。",
+    "HABIT PERSONAL GYM（ハビット）の口コミ・評判を、出典別の件数と公式情報で整理しました。公式掲載の全18店舗（東京17・大阪1）の区別分布、集中ダイエットコース16回142,400円などの料金、会員規約の休会・退会・返金条件をまとめています。",
 };
+
+/*
+ * 2026-10-26 改訂: 店舗・料金・規定は公式サイト（店舗一覧・料金・よくある質問・会員規約・特定商取引法の表記・会社概要・お知らせ）を2026-10-26に確認した値。
+ * 店舗一覧の表に公式に掲載のない店舗（三軒茶屋・自由が丘・駒沢大学・用賀・明大前・千歳船橋・心斎橋）が載っていたため、公式の18店舗に差し替えた。
+ * 出典のない口コミ傾向の要約10項目、「プロテインを無料で提供」「住宅街密着」等の確認できない記述は削除した。
+ */
+const CHECKED = "2026年10月26日";
+
+const SRC = {
+  top: "https://habit-training.com/",
+  studio: "https://habit-training.com/studio",
+  price: "https://habit-training.com/price",
+  faq: "https://habit-training.com/faq",
+  kiyaku: "https://habit-training.com/kiyaku",
+  company: "https://habit-training.com/company",
+  news: "https://habit-training.com/news",
+  concept: "https://habit-training.com/habit",
+  mybest: "https://my-best.com/products/17661713",
+};
+
+function Src({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <a href={href} target="_blank" rel="nofollow noopener noreferrer" className="underline hover:text-gray-700">
+      {children}
+    </a>
+  );
+}
 
 /* ---------- affiliate ---------- */
 const affiliateUrl = "https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A";
 
-/* ---------- 基本情報 ---------- */
-const basicInfo = [
-  { label: "運営会社", value: "株式会社Natural（公式会社概要）" },
-  { label: "店舗数", value: "全18店舗（東京17・大阪1、2026年10月 公式記載）" },
-  { label: "営業時間", value: "店舗により異なる" },
-  { label: "特徴", value: "低価格帯の料金 / 料金の透明性 / オリジナルプロテインの提供 / 栄養・休養アドバイス" },
-  { label: "公式URL", value: "https://habit-training.com/", isLink: true },
+const summary = [
+  { label: "どんなジムか", value: "株式会社Natural（東京都渋谷区恵比寿）が運営するマンツーマンのパーソナルジムです。1回50分のトレーニングに、LINEでの食事サポートとウェア・タオル・シューズのレンタルが含まれます。" },
+  { label: "店舗", value: "公式の店舗一覧は東京17店舗・大阪1店舗の計18店舗です。渋谷区と世田谷区が各5店舗で、全店舗を相互に利用できます。2026年に5店舗が開業しています。" },
+  { label: "料金", value: "集中ダイエットコースは10回99,800円・16回142,400円（1回8,900円）・32回278,400円（税込）です。入会金30,000円はキャンペーンで0円、体験は当日入会の場合に0円です。" },
+  { label: "規約", value: "会員規約では、入会後2ヶ月間は退会できず、入会金と2ヶ月分の月会費は返金しないと定めています。休会・退会は窓口で書面による手続きが必要です。" },
+  { label: "口コミ", value: "当サイトが収録したGoogleマップの3店舗は口コミ463件・平均評点4.97です。検索上位にHABITを個別に扱う口コミ記事は少なく、マイベストの検証ページが主な第三者情報です。" },
 ];
 
-/* ---------- 3つの強み ---------- */
-const strengths = [
-  {
-    title: "低価格帯の料金設定",
-    desc: "集中ダイエットコース16回（2ヶ月）が142,400円（1回8,900円・税込）で、RIZAPのBASIC 16回327,800円（税込）と比べて半額以下です。入会金30,000円も体験当日の入会で0円になるため、初期費用を抑えてパーソナルトレーニングを始められます。価格面でパーソナルジムを諦めていた方にも手が届きやすい料金体系です。",
-  },
-  {
-    title: "料金の透明性（公式サイトに全額掲載）",
-    desc: "HABIT PERSONAL GYMは公式サイトに全プランの料金を掲載しています。「カウンセリングを受けるまで料金を確認できない」というパーソナルジムにありがちな不安がなく、事前に総額を確認した上で来店できます。料金の透明性は信頼性の高さにつながっており、利用者からも高く評価されています。",
-  },
-  {
-    title: "オリジナルプロテイン×栄養指導",
-    desc: "トレーニング後にはHABIT独自のオリジナルプロテインが提供されます。さらにトレーナーから栄養面・休養面のアドバイスも受けられるため、ジムにいる時間だけでなく日常生活全体を通じたボディメイクが可能です。運動・栄養・休養の3つの柱で総合的にサポートする点が大きな強みです。",
-  },
+/* ---------- 基本情報 ---------- */
+const basicInfo = [
+  { label: "運営会社", value: "株式会社Natural（東京都渋谷区恵比寿西・代表取締役 小尾晋太郎）" },
+  { label: "店舗数", value: "全18店舗（東京17・大阪1、公式店舗一覧・2026年10月26日確認）。全店舗相互利用可" },
+  { label: "営業時間", value: "平日・土曜 7:00〜23:00、日曜・祝日 7:00〜20:00、年末年始のみ休業（全店共通）" },
+  { label: "1回の時間", value: "50分" },
+  { label: "支払い", value: "2026年4月1日から完全キャッシュレス（クレジットカード・電子マネー・QRコード決済）。カード分割は一括〜24回（月額コースを除く）" },
+  { label: "公式URL", value: "https://habit-training.com/", isLink: true },
 ];
 
 /* ---------- メリット ---------- */
 const merits = [
   {
-    title: "回数に応じて1回あたりの料金が下がる料金設定",
-    desc: "16回142,400円（1回8,900円）・32回なら1回8,700円と、回数が増えるほど1回あたりが下がる料金設定です（公式料金ページ）。入会金30,000円も体験当日入会で無料になるキャンペーンがあり、初期費用を最小限に抑えられます。低価格ながらマンツーマン指導の質は維持されており、費用対効果の高さが特徴です。",
+    title: "2ヶ月16回で142,400円、1回8,900円",
+    desc: "集中ダイエットコース16回は142,400円（税込）で、1回あたり8,900円です。同じ16回でRIZAPのBASIC（入会金込み382,800円）の約37%、BEYONDのライフプランニング16（290,400円）の約49%の金額です（各公式サイトの掲載値で当サイトが計算）。",
   },
   {
-    title: "料金が明朗会計で安心して契約できる",
-    desc: "公式サイトにすべてのプラン料金が明記されているため、カウンセリング前に総額を把握できます。パーソナルジムでは「来店するまで料金を確認できない」ことが多い中、HABIT PERSONAL GYMの透明性は契約前の不安を大きく軽減します。追加料金の心配が少なく、予算に合ったプランを事前に比較検討できるのも利点です。",
+    title: "食事サポートとレンタルがコース料金に含まれる",
+    desc: "公式料金ページでは「入会金・食事サポート・レンタルすべて込みの総額表示」とし、表示料金以外の追加費用はかからないと回答しています。ウェア上下・靴下・タオル・シューズを無料で借りられるため、手ぶらで通えます。",
   },
   {
-    title: "栄養・休養まで含めたトータルサポート",
-    desc: "トレーニング指導に加えて、食事内容のアドバイスや休養・睡眠に関するアドバイスも受けられます。オリジナルプロテインの提供もあり、トレーニング効果を最大化するための環境が整っています。「運動だけでなく生活習慣全体を改善したい」という方にとって、バランスの取れたサポート体制は大きな利点です。",
+    title: "早朝7時から夜23時まで、全店舗を相互利用できる",
+    desc: "営業時間は全店共通で平日・土曜7:00〜23:00、日曜・祝日7:00〜20:00です。18店舗すべてを相互に利用できるため、職場の近くと自宅の近くで使い分けることもできます。",
+  },
+  {
+    title: "ダイエットコースに全額返金制度がある",
+    desc: "公式料金ページに「全額返金制度あり（条件あり）」と記載されています。適用条件は入会時に説明され、入会後にコース途中で制度の利用を変更することはできません（会員規約）。",
   },
 ];
 
 /* ---------- デメリット ---------- */
 const demerits = [
   {
-    title: "店舗が東京・大阪に集中しており地方は少ない",
-    desc: "HABIT PERSONAL GYMは全18店舗（東京17・大阪1）を展開していますが、中目黒・代々木上原・白金高輪・桜新町・大阪梅田など、東京・大阪エリアが中心です。地方在住の方は通える店舗が見つからない可能性があるため、入会前に最寄り店舗の有無をご確認ください。",
+    title: "店舗は東京都心部と大阪梅田のみ",
+    desc: "18店舗のうち17店舗が東京都（渋谷区・世田谷区・目黒区・港区・千代田区）、1店舗が大阪市北区です。神奈川・埼玉・千葉を含め、その他の地域には店舗がありません。",
   },
   {
-    title: "大手と比べた知名度",
-    desc: "RIZAPやチキンジムなどの大手と比較すると、HABIT PERSONAL GYMの知名度は高くありません。口コミの絶対数が少ないため、情報収集に時間がかかることがあります。ただし、Google口コミでは高評価が多く、満足度95%と公表されていることから、実際の利用者からの評判は良好と考えられます。",
+    title: "入会後2ヶ月は退会できず、休会・退会は窓口で書面手続き",
+    desc: "会員規約では、入会後2ヶ月間は退会できず、入会金と2ヶ月分の月会費は返金しないと定めています。休会・退会は希望する時期の2ヶ月前までに、本人が店舗窓口で所定の届に記入する方法に限られ、電話・FAXなどでは手続きできません。",
   },
   {
-    title: "店舗による設備や広さの差",
-    desc: "18店舗それぞれの立地や物件が異なるため、店舗によってトレーニングスペースの広さやマシンのラインナップにばらつきがある可能性があります。体験トレーニングを利用して、実際の設備や雰囲気を確認してから入会を決めることをおすすめします。",
+    title: "全額返金制度の条件が公開されていない",
+    desc: "全額返金制度の適用条件は、公式サイトに掲載されておらず、入会時に説明する方式です。返金を前提に入会する場合は、条件を書面で受け取ってから契約されることをおすすめします。",
+  },
+  {
+    title: "2026年開業の店舗は口コミが少ない",
+    desc: "神田・学芸大学・大阪梅田（2026年3月1日）、梅ヶ丘（3月27日）、田町（7月22日）の5店舗は2026年の開業です。開業から日が浅い店舗は第三者の口コミが少ないため、体験で設備と担当者を確認されることをおすすめします。",
   },
 ];
 
 /* ---------- 料金プラン ---------- */
-// 2026-10-14: 公式料金ページ（habit-training.com/price）の掲載値に差し替え
+// 2026-10-26: 公式料金ページ（habit-training.com/price）で再確認
 const pricingPlans = [
-  { name: "集中ダイエットコース 10回", duration: "50分", price: "99,800円（1回9,980円）", note: "税込" },
-  { name: "集中ダイエットコース 16回（2ヶ月）", duration: "50分", price: "142,400円（1回8,900円）", note: "税込" },
-  { name: "集中ダイエットコース 32回", duration: "50分", price: "278,400円（1回8,700円）", note: "税込" },
-  { name: "回数券 4回", duration: "50分", price: "39,300円", note: "税込・有効期限3ヶ月" },
-  { name: "月額プラン 週1回", duration: "50分", price: "29,780円〜/月", note: "税込" },
-  { name: "入会金", duration: "—", price: "30,000円", note: "キャンペーンで0円（体験当日入会の方に限る）" },
+  { name: "集中ダイエットコース 10回", duration: "50分×10回", price: "99,800円（1回9,980円）", note: "税込・食事サポート・レンタル込み" },
+  { name: "集中ダイエットコース 16回（2ヶ月）", duration: "50分×16回", price: "142,400円（1回8,900円）", note: "税込・食事サポート・レンタル込み" },
+  { name: "集中ダイエットコース 32回", duration: "50分×32回", price: "278,400円（1回8,700円）", note: "税込・食事サポート・レンタル込み" },
+  { name: "回数券 4回", duration: "50分×4回", price: "39,300円（1回9,825円）", note: "税込・有効期限3ヶ月" },
+  { name: "月額プラン 週1回（月4回）", duration: "50分", price: "29,780円〜/月", note: "税込" },
+  { name: "入会金", duration: "—", price: "30,000円", note: "キャンペーンで0円" },
+  { name: "体験", duration: "約60分", price: "0円", note: "体験当日に入会する方に限る" },
 ];
 
-/* ---------- 口コミデータ ---------- */
-const reviewCategories = [
-  {
-    title: "トレーナーの質・対応",
-    summary: "トレーナーの質に関する口コミは好意的なものが多く見られます。「一人ひとりに合わせた指導」「モチベーションを上げてくれる声かけ」が高く評価されており、初心者でも安心して通えるとの声が目立ちます。",
-  },
-  {
-    title: "料金・費用対効果",
-    summary: "料金面では「パーソナルジムとしては安い」という評価が多く、費用対効果の高さが最大の利点として挙げられています。公式サイトでの料金明示も信頼感につながっています。",
-  },
-  {
-    title: "ダイエット・ボディメイク効果",
-    summary: "短期間での体型変化を実感している利用者が多く、ダイエット目的での入会に対する満足度は高い傾向にあります。栄養指導との相乗効果が成果につながっていると考えられます。",
-  },
-  {
-    title: "食事指導",
-    summary: "栄養面のアドバイスはトレーニングとセットで提供されており、実生活に取り入れやすい内容が好評です。オリジナルプロテインの提供も含め、食事面のサポートが充実しています。",
-  },
-  {
-    title: "設備・清潔感",
-    summary: "各店舗は清潔に保たれており、トレーニング環境に対する評価は良好です。マンツーマン指導のため、他の利用者を気にせずに集中できる点も好評です。",
-  },
-  {
-    title: "予約の取りやすさ",
-    summary: "予約は比較的取りやすいという声が多く、柔軟な時間帯で通える利便性が評価されています。ただし、人気店舗では混雑時間帯の予約が埋まりやすいとの指摘もあります。",
-  },
-  {
-    title: "勧誘・営業",
-    summary: "体験時の勧誘については「押し売り感がなく安心だった」という声が多く、入会を急かされる雰囲気は少ない傾向です。料金の透明性もあり、信頼感のある対応が評価されています。",
-  },
-  {
-    title: "立地・アクセス",
-    summary: "各店舗は駅から近い立地が多く、通いやすさが評価されています。ただし店舗数が18店舗と限られるため、最寄りに店舗があるかの確認が必要です。",
-  },
-  {
-    title: "初心者の使いやすさ",
-    summary: "運動経験が少ない方やジム初心者からの評価が特に高くなっています。マンツーマン指導ならではの丁寧な対応と、気軽に通える低価格設定が初心者の心理的ハードルを下げています。",
-  },
-  {
-    title: "継続のしやすさ",
-    summary: "低価格であること、トレーナーとの相性が良いこと、栄養面のサポートがあることが継続のしやすさにつながっています。公表されている満足度95%と整合する声が多く見られます。",
-  },
+/* ---------- 口コミの出典 ---------- */
+const reviewSources = [
+  { name: "Googleマップ（当サイト取得）", count: "3店舗・口コミ463件・平均評点4.97", note: "当サイトのデータベースに入っている恵比寿本店（4.9・286件）、大阪梅田店（5.0・94件）、渋谷松濤店（5.0・83件）の集計です（2026年8月29日〜9月8日取得）。18店舗のうち3店舗のみのため、ブランド全体の評価としては参考値です。" },
+  { name: "マイベスト「Natural HABIT PERSONAL GYM 検証レビュー評価」", count: "検証評価（口コミ件数の表示なし）", note: "2026年3月17日更新、料金は2026年5月8日時点の情報と記載。体験料3,000円、トレーナー指名可（指名料500円・1,000円）、キャンセルは18時間前まで無料、店舗数は関東16・関西1と掲載しています。体験料と指名料は、公式サイトでは確認できませんでした。" },
+  { name: "公式サイト「お客様満足度95%」", count: "自社アンケート", note: "公式料金ページの注記は「自社ユーザーアンケート調べ」です。調査人数・時期の記載はありません。" },
 ];
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "HABIT PERSONAL GYMの入会金はいくらですか？", a: "入会金は30,000円（税込）です。体験トレーニング当日に入会すると0円になるキャンペーンが実施されています。" },
-  { q: "HABIT PERSONAL GYMの料金は公式サイトで確認できますか？", a: "はい、全プランの料金が公式サイトに掲載されています。事前に総額を確認した上でカウンセリングに臨むことができます。" },
-  { q: "プロテインは無料で提供されますか？", a: "はい、トレーニング後にHABITオリジナルプロテインが提供されます。自分でプロテインを用意する必要はありません。" },
-  { q: "食事指導は受けられますか？", a: "はい、トレーナーから栄養面のアドバイスを受けられます。さらに休養や睡眠に関するアドバイスも含まれており、総合的なボディメイクのサポートを受けられます。" },
-  { q: "HABIT PERSONAL GYMはどこに店舗がありますか？", a: "東京（中目黒、代々木上原、白金高輪、桜新町、梅ヶ丘、神田、学芸大学など）と大阪（梅田）を中心に全18店舗（東京17・大阪1）を展開しています（2026年10月 公式記載）。詳細は本ページ下部の店舗一覧をご確認ください。" },
-  { q: "体験トレーニングはありますか？", a: "はい、体験トレーニングが用意されています。体験当日に入会すると入会金が0円になる特典もあるため、体験から始めることをおすすめします。" },
-  { q: "女性でも通いやすい環境ですか？", a: "はい、多くの女性が利用しています。マンツーマン指導のため周りの目を気にする必要がなく、トレーニング強度も個人に合わせて調整されます。" },
-  { q: "退会・解約はできますか？", a: "退会手続きは店舗で行います。詳細な条件は契約内容によって異なるため、入会時にご確認ください。" },
+  { q: "HABIT PERSONAL GYMの入会金はいくらですか？", a: "通常30,000円（税込）で、キャンペーンにより0円です（公式料金ページ・2026年10月26日確認）。体験料金0円は体験当日に入会する方に限られます。" },
+  { q: "料金以外に追加費用はかかりますか？", a: "公式料金ページでは「かかりません」と回答しており、食事サポート・ウェア・タオル・シューズのレンタルはコース料金に含まれます。" },
+  { q: "退会や休会はいつまでに手続きが必要ですか？", a: "会員規約では、休会・退会は希望する時期の2ヶ月前までに、本人が店舗窓口で所定の届に記入して手続きすると定めています。口頭・電話・FAX・郵便では手続きできません。また、入会後2ヶ月間は退会できず、入会金と2ヶ月分の月会費は返金されません。" },
+  { q: "休会中に費用はかかりますか？", a: "会員規約では、休会期間は最大6ヶ月で、休会中は月会費がかかりません。休会後は最低1ヶ月以上有料会員に復帰する必要があり、休会中に退会する場合は1ヶ月分の月会費相当額の解約手数料がかかります。" },
+  { q: "予約のキャンセルはいつまでできますか？", a: "予約日時の18時間前までです。それ以降の変更・キャンセルはレッスン消化となり、翌月への繰り越しや振り替えはできません（公式FAQ・会員規約）。" },
+  { q: "支払い方法を教えてください。", a: "2026年4月1日から完全キャッシュレスに移行し、現金は使えません。クレジットカード、交通系ICなどの電子マネー、PayPayなどのQRコード決済に対応しています。カード分割は一括〜24回で、月額コースは対象外です。月会費は口座自動引き落としです。" },
+  { q: "プロテインはありますか？", a: "公式FAQでは「Habitオリジナルプロテインのご用意がございます」と回答しています。料金に含まれるかどうかは公式サイトに明記がなく、マイベストは「有料：プロテインなど」と掲載しているため、店舗でご確認ください。" },
+  { q: "HABIT PERSONAL GYMはどこに店舗がありますか？", a: "東京17店舗（梅ヶ丘・田町・神田・学芸大学・恵比寿・白金高輪・池尻大橋・中目黒・代々木上原・代々木上原ANNEX・銀座・幡ヶ谷・桜新町・渋谷松濤・等々力・経堂・緑ヶ丘）と大阪梅田店の計18店舗です（2026年10月26日確認）。全店舗を相互に利用できます。" },
+  { q: "全額返金制度の条件を教えてください。", a: "ダイエットコースが対象で、適用条件は入会時に説明すると公式料金ページに記載されています。条件の詳細は公式サイトに掲載されていません。制度を利用するかどうかは入会時に確認し、入会後にコース途中で変更することはできません（会員規約）。" },
 ];
 
 const faqJsonLd = {
@@ -151,11 +144,15 @@ const faqJsonLd = {
   })),
 };
 
-/* ---------- 店舗一覧 ---------- */
+/* ---------- 店舗一覧（公式店舗一覧・2026-10-26確認。リンクは当サイトの店舗ページ） ---------- */
 type StoreItem = { name: string; href?: string };
 const storesByRegion: { region: string; stores: StoreItem[] }[] = [
-  { region: "東京", stores: [{ name: "中目黒店" }, { name: "代々木上原店" }, { name: "白金高輪店" }, { name: "桜新町店" }, { name: "梅ヶ丘店" }, { name: "神田店" }, { name: "学芸大学店" }, { name: "三軒茶屋店" }, { name: "経堂店" }, { name: "自由が丘店" }, { name: "駒沢大学店" }, { name: "用賀店" }, { name: "明大前店" }, { name: "千歳船橋店" }] },
-  { region: "大阪", stores: [{ name: "梅田店" }, { name: "心斎橋店" }] },
+  { region: "東京都渋谷区（5）", stores: [{ name: "恵比寿店", href: "/review/habit/ebisu/" }, { name: "渋谷松濤店", href: "/review/habit/shibuya/" }, { name: "代々木上原店", href: "/review/habit/yoyogiuehara/" }, { name: "代々木上原ANNEX店", href: "/review/habit/yoyogiuehara-annex/" }, { name: "幡ヶ谷店", href: "/review/habit/hatagaya/" }] },
+  { region: "東京都世田谷区（5）", stores: [{ name: "池尻大橋店", href: "/review/habit/ikejiriohashi/" }, { name: "桜新町店", href: "/review/habit/sakurashinmachi/" }, { name: "等々力店", href: "/review/habit/todoroki/" }, { name: "経堂店", href: "/review/habit/kyodo/" }, { name: "梅ヶ丘店", href: "/review/habit/umegaoka/" }] },
+  { region: "東京都目黒区（3）", stores: [{ name: "中目黒店", href: "/review/habit/nakameguro/" }, { name: "学芸大学店", href: "/review/habit/gakugeidaigaku/" }, { name: "緑ヶ丘店", href: "/review/habit/midorigaoka/" }] },
+  { region: "東京都港区（2）", stores: [{ name: "白金高輪店", href: "/review/habit/shirokanedai/" }, { name: "田町店" }] },
+  { region: "東京都千代田区（2）", stores: [{ name: "神田店", href: "/review/habit/kanda/" }, { name: "銀座店（所在地は千代田区有楽町）", href: "/review/habit/ginza/" }] },
+  { region: "大阪府大阪市北区（1）", stores: [{ name: "大阪梅田店", href: "/review/habit/umeda/" }] },
 ];
 
 /* ---------- 関連ジム ---------- */
@@ -168,16 +165,6 @@ const relatedReviews = [
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
 ];
 
-/* ---------- 目次 ---------- */
-const toc = [
-  { id: "basic-info", label: "HABIT PERSONAL GYMの基本情報" },
-  { id: "overview", label: "HABIT PERSONAL GYMの概要" },
-  { id: "merit-demerit", label: "HABIT PERSONAL GYMのメリット・デメリット" },
-  { id: "pricing", label: "HABIT PERSONAL GYMの料金" },
-  { id: "reviews", label: "HABIT PERSONAL GYMの口コミ分析" },
-  { id: "faq", label: "HABIT PERSONAL GYMのよくある質問" },
-  { id: "stores", label: "HABIT PERSONAL GYMの店舗一覧" },
-];
 
 export default function HabitReview() {
   return (
@@ -210,7 +197,7 @@ export default function HabitReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-14"
+        "dateModified": "2026-10-26"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "HABIT PERSONAL GYM" }]} />
 
@@ -223,7 +210,21 @@ export default function HabitReview() {
           <img src="/brand-ss/habit.jpg" alt="HABIT PERSONAL GYM（ハビット）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">HABIT PERSONAL GYM（ハビット） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月26日（店舗一覧・料金・会員規約の休会/退会/返金条件を公式サイトで再確認し、口コミの出典と件数を確認）</p>
+        <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="HABIT PERSONAL GYMとは">
+          <h2 className="font-bold text-gray-900 mb-3">HABIT PERSONAL GYM（ハビット）とは：要点のまとめ</h2>
+          <dl className="space-y-2 text-sm">
+            {summary.map((r) => (
+              <div key={r.label} className="sm:flex sm:gap-3">
+                <dt className="font-bold text-gray-800 sm:w-24 shrink-0">{r.label}</dt>
+                <dd className="text-gray-700 leading-relaxed">{r.value}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="text-xs text-gray-500 mt-3">
+            出典: <Src href={SRC.studio}>公式店舗一覧</Src>・<Src href={SRC.price}>公式料金ページ</Src>・<Src href={SRC.kiyaku}>会員規約</Src>・<Src href={SRC.news}>お知らせ</Src>（いずれも{CHECKED}確認）。Googleマップの数値は当サイトの取得データ（2026年8月29日〜9月8日）です。
+          </p>
+        </section>
         <GymCta slug="habit" name="HABIT PERSONAL GYM" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -232,13 +233,13 @@ export default function HabitReview() {
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
             <li><a href="#s2" className="text-teal-600 hover:underline">HABIT PERSONAL GYMの基本情報</a></li>
-            <li><a href="#s3" className="text-teal-600 hover:underline">HABIT PERSONAL GYMの概要</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">HABIT PERSONAL GYMのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">HABIT PERSONAL GYMの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">HABIT PERSONAL GYMの口コミ分析</a></li>
+            <li><a href="#s5b" className="text-teal-600 hover:underline">休会・退会・返金・キャンセルの規定</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">HABIT PERSONAL GYMの口コミ・評判（出典別）</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">他のジムと比較</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">HABIT PERSONAL GYMのよくある質問</a></li>
-            <li><a href="#s9" className="text-teal-600 hover:underline">HABIT PERSONAL GYMの店舗一覧</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">HABIT PERSONAL GYMの店舗一覧（全18店舗）</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">HABIT PERSONAL GYMが気になった方へ</a></li>
             <li><a href="#s11" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
@@ -252,7 +253,7 @@ export default function HabitReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          HABIT PERSONAL GYM（ハビットパーソナルジム）は、東京・大阪で全18店舗を展開するパーソナルトレーニングジムです。低価格帯の料金設定と料金の透明性を強みとし、オリジナルプロテインの提供や栄養・休養面のアドバイスなど、トレーニング以外のサポートも充実しています。本記事では、HABIT PERSONAL GYMの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          HABIT PERSONAL GYM（ハビットパーソナルジム）は、株式会社Naturalが東京17店舗・大阪1店舗で運営するパーソナルジムです。公式サイトでは、一般内科・外科医の知識にもとづく「医師監修」のトレーニングメソッドを掲げています（監修医師の氏名は記載されていません）。当ページでは、公式の料金・会員規約と、出典を確認できた口コミの件数をまとめています。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -285,19 +286,6 @@ export default function HabitReview() {
           </div>
         </section>
 
-        {/* ---------- 概要・3つの強み ---------- */}
-        <section id="overview" className="mb-12">
-          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの概要</h2>
-          <h3 className="text-lg font-bold mb-4">HABIT PERSONAL GYMの3つの強み</h3>
-          <div className="space-y-4">
-            {strengths.map((s, i) => (
-              <div key={i} className="bg-teal-50 rounded-lg p-5">
-                <h4 className="font-bold text-teal-800 mb-2">{i + 1}. {s.title}</h4>
-                <p className="text-sm text-gray-700 leading-relaxed">{s.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
 
         {/* ---------- メリット・デメリット ---------- */}
         <section id="merit-demerit" className="mb-12">
@@ -358,8 +346,30 @@ export default function HabitReview() {
               </tbody>
             </table>
           </div>
+          <ul className="space-y-1.5 text-sm text-gray-700 mt-3">
+            <li>・コース料金には、初回カウンセリング、LINEでの食事サポート、ウェア上下・靴下・タオル・シューズのレンタルが含まれます。</li>
+            <li>・計算例（当サイト試算）：16回コースを週2回ペースで受ける場合、2ヶ月で142,400円です。入会金のキャンペーンが終了している場合は、30,000円が加わります。</li>
+            <li>・月額プラン（週1回）は公式料金ページに「29,780円（税込）〜」と表示されています。会員規約の解約手数料の項には「週1回スタンダードコースの場合は税抜き22,800円」とあり、金額が一致しません。月額プランを検討する場合は、契約時の金額を書面でご確認ください。</li>
+          </ul>
+          <p className="text-xs text-gray-500 mt-3">出典: <Src href={SRC.price}>公式料金ページ</Src>・<Src href={SRC.kiyaku}>会員規約</Src>（{CHECKED}確認）。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 id="s5b" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの休会・退会・返金・キャンセルの規定</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <tbody>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">最低在籍期間</th><td className="px-4 py-3 text-gray-800">入会後2ヶ月間は退会不可。入会金と2ヶ月分の月会費は理由を問わず返金しない。キャンペーンでの入会は返金不可で、最低在籍期間が延長される場合がある</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">休会・退会の手続き</th><td className="px-4 py-3 text-gray-800">希望する時期の2ヶ月前までに、本人が店舗窓口で所定の届に記入（口頭・電話・FAX・郵便は不可）。未納会費がある場合は精算が必要</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">休会</th><td className="px-4 py-3 text-gray-800">最大6ヶ月・休会中の月会費なし。休会後は最低1ヶ月以上有料会員に復帰。休会中に退会する場合は1ヶ月分の月会費相当額の解約手数料</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">キャンセル</th><td className="px-4 py-3 text-gray-800">予約日時の18時間前まで。それ以降はレッスン消化で、翌月への繰り越し・振り替え不可</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">全額返金制度</th><td className="px-4 py-3 text-gray-800">ダイエットコースが対象。適用条件は入会時に説明（公式サイトに条件の記載なし）。入会後にコース途中で制度の利用を変更することは不可</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">滞納</th><td className="px-4 py-3 text-gray-800">月会費の滞納が6ヶ月分に達すると自動的に退会扱い（未払い分の支払い義務は残る）</td></tr>
+              </tbody>
+            </table>
+          </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 料金の詳細は<a href={affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline">公式サイト</a>に全プラン掲載されています。入会金30,000円は体験当日入会で0円になります。
+            出典: <Src href={SRC.kiyaku}>HABIT PERSONAL GYM 会員規約</Src>・<Src href={SRC.faq}>よくある質問</Src>・<Src href={SRC.price}>料金ページ</Src>（{CHECKED}確認）。会員規約は月会費制を前提とした書き方で、休会・退会の期限の文言（「2ヶ月前までに手続きを行うことで翌月1日をもって」）は読み取りにくい表現です。コースで契約する場合の扱いを含め、契約時に書面でご確認ください。
           </p>
         </section>
 
@@ -373,33 +383,46 @@ export default function HabitReview() {
         </section>
 
         {/* ---------- 口コミ分析 ---------- */}
-        <section id="reviews" className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの口コミ分析</h2>
-          <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            HABIT PERSONAL GYMのGoogleマップ口コミを分析すると、料金の費用対効果やトレーナーの質に関する好意的な評価が多く見られます。公表されている満足度95%と同様に、高い評価を得ています。以下では、カテゴリ別に口コミの傾向をまとめています。
+        <section id="reviews" className="mb-12 scroll-mt-20">
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの口コミ・評判（出典別）</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">
+            当サイトでは{CHECKED}に「HABIT PERSONAL GYM 口コミ」「ハビットパーソナルジム 評判」で検索し、上位に表示されるページを確認しました。HABITを個別に取り上げた口コミ記事は少なく、口コミサイト（みん評など）にもHABITのページは見当たりませんでした。件数や内容を確認できた情報は次のとおりです。
           </p>
-
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>多く見られる傾向を要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて掲載しない方針のためです）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証可能な数値は、上の「Googleマップの掲載データ」に掲載しています。</p>
-            <p className="text-xs text-yellow-700 mt-1">
-              出典: <a href="https://www.google.com/maps/search/HABIT+PERSONAL+GYM/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/HABIT PERSONAL GYM/</a>
-            </p>
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-gray-100 text-gray-800">
+                  <th className="px-4 py-2 text-left font-medium">出典</th>
+                  <th className="px-4 py-2 text-left font-medium">件数・評点</th>
+                  <th className="px-4 py-2 text-left font-medium">内容・注意点</th>
+                </tr>
+              </thead>
+              <tbody>
+                {reviewSources.map((r) => (
+                  <tr key={r.name} className="border-b border-gray-100 align-top">
+                    <td className="px-4 py-2 text-gray-800">{r.name.startsWith("マイベスト") ? <Src href={SRC.mybest}>{r.name}</Src> : r.name}</td>
+                    <td className="px-4 py-2 text-gray-700">{r.count}</td>
+                    <td className="px-4 py-2 text-gray-700">{r.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
 
           <GmapStats slug="habit" brand="HABIT PERSONAL GYM" />
 
-          {reviewCategories.map((cat) => (
-            <div key={cat.title} className="mb-10">
-              <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
-              <p className="text-sm text-gray-700 mb-4 leading-relaxed">{cat.summary}</p>
-            </div>
-          ))}
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+            <p className="text-xs text-yellow-800">※ 当サイトでは、口コミ本文の転載や、出典を示せない傾向の要約は行っていません。評点はいずれも高く店舗間の差が小さいため、店舗選びでは通いやすさと、体験時の担当者との相性を確認されることをおすすめします。実際の投稿は下記リンクからGoogleマップでご確認ください。</p>
+            <p className="text-xs text-yellow-700 mt-1">
+              出典: <a href="https://www.google.com/maps/search/HABIT+PERSONAL+GYM/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/HABIT PERSONAL GYM/</a>
+            </p>
+          </div>
         </section>
 
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">HABIT PERSONAL GYMと他の人気ジムを比較しました。</p>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">HABIT PERSONAL GYMと、当サイトで公式情報を確認している他のブランドを比較しました（税込）。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -413,44 +436,37 @@ export default function HabitReview() {
               </thead>
               <tbody>
                 <tr className="border-b border-gray-100">
-                  <td className="px-3 py-2 font-medium text-gray-800">料金体系</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">月額制</td>
-                  <td className="px-3 py-2 text-center text-gray-700">290,400円/16回</td>
-                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                  <td className="px-3 py-2 font-medium text-gray-800">代表的な料金</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">16回142,400円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">16回290,400円<br />（ライフプランニング）</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月4回29,800円<br />（特定商取引法の表記）</td>
                   <td className="px-3 py-2 text-center text-gray-700">月額7,678円〜</td>
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50">
+                  <td className="px-3 py-2 font-medium text-gray-800">入会金</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">30,000円（キャンペーンで0円）</td>
+                  <td className="px-3 py-2 text-center text-gray-700">0円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">15,000円（特定商取引法の表記）</td>
+                  <td className="px-3 py-2 text-center text-gray-700">なし（事務手数料5,500円）</td>
+                </tr>
+                <tr className="border-b border-gray-100">
                   <td className="px-3 py-2 font-medium text-gray-800">指導形式</td>
                   <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">マンツーマン</td>
                   <td className="px-3 py-2 text-center text-gray-700">マンツーマン</td>
                   <td className="px-3 py-2 text-center text-gray-700">マンツーマン</td>
-                  <td className="px-3 py-2 text-center text-gray-700">AI×サーキット</td>
-                </tr>
-                <tr className="border-b border-gray-100">
-                  <td className="px-3 py-2 font-medium text-gray-800">食事指導</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">あり</td>
-                  <td className="px-3 py-2 text-center text-gray-700">糖質制限なし</td>
-                  <td className="px-3 py-2 text-center text-gray-700">あり</td>
-                  <td className="px-3 py-2 text-center text-gray-700">なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700">AIマシンのサーキット</td>
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50">
-                  <td className="px-3 py-2 font-medium text-gray-800">店舗立地</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">住宅街密着</td>
-                  <td className="px-3 py-2 text-center text-gray-700">駅近</td>
-                  <td className="px-3 py-2 text-center text-gray-700">駅近</td>
-                  <td className="px-3 py-2 text-center text-gray-700">全国展開</td>
-                </tr>
-                <tr className="border-b border-gray-100">
-                  <td className="px-3 py-2 font-medium text-gray-800">特徴</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">住宅街密着</td>
-                  <td className="px-3 py-2 text-center text-gray-700">トレーナーの質に定評</td>
-                  <td className="px-3 py-2 text-center text-gray-700">格安パーソナル</td>
-                  <td className="px-3 py-2 text-center text-gray-700">予約不要</td>
+                  <td className="px-3 py-2 font-medium text-gray-800">返金保証</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">全額返金制度あり（条件は入会時に説明）</td>
+                  <td className="px-3 py-2 text-center text-gray-700">公式に記載なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700">記載なし（中途解約の返金規定あり）</td>
+                  <td className="px-3 py-2 text-center text-gray-700">公式に記載なし</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は各公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ HABIT・BEYONDは2026年10月26日、Nexus・FURDIは2026年10月14日に各公式サイトで確認した掲載値です。最新情報は各公式サイトでご確認ください。</p>
           <div className="flex flex-wrap gap-2 mt-3">
             <Link href="/review/beyond/" className="text-xs text-teal-600 hover:underline">BEYONDの口コミを見る →</Link>
             <Link href="/review/nexus/" className="text-xs text-teal-600 hover:underline">Nexusの口コミを見る →</Link>
@@ -480,13 +496,13 @@ export default function HabitReview() {
         <section id="stores" className="mb-12">
           <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">HABIT PERSONAL GYMの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            HABIT PERSONAL GYMは東京・大阪で全18店舗を展開しています（2026年10月 公式記載）。以下は当サイトに掲載している店舗の都道府県別一覧です。
+            公式の店舗一覧には、{CHECKED}時点で東京17店舗・大阪1店舗の計18店舗が掲載されています。所在地の区別に当サイトで整理すると、渋谷区と世田谷区が各5店舗、目黒区3店舗、港区と千代田区が各2店舗、大阪市北区1店舗です。全店舗を相互に利用でき、営業時間は全店共通です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-teal-500 text-white">
-                  <th className="px-4 py-3 text-left font-medium w-28">都道府県</th>
+                  <th className="px-4 py-3 text-left font-medium w-40">所在地（店舗数）</th>
                   <th className="px-4 py-3 text-left font-medium">店舗名</th>
                 </tr>
               </thead>
@@ -508,7 +524,7 @@ export default function HabitReview() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 店舗情報は2026年4月時点のものです。最新の店舗情報は<a href={affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline">公式サイト</a>でご確認ください。
+            ※ 出典: <Src href={SRC.studio}>HABIT公式 店舗一覧</Src>・<Src href={SRC.news}>お知らせ</Src>（{CHECKED}確認）。2026年の開業は神田・学芸大学・大阪梅田（3月1日）、梅ヶ丘（3月27日）、田町（7月22日）です。リンクは当サイトに店舗ページがある店舗です（田町店のページは未作成です）。
           </p>
         </section>
 

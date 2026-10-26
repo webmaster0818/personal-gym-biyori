@@ -115,6 +115,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "マンスリー 月2回17,600円・月4回35,200円・月8回69,300円／回数券10回102,300円・20回187,000円・30回264,000円／ライフプランニング16回290,400円・24回435,600円（すべて税込）",
     kind: "月額制", lowest: 17600, entry: "全コース0円",
     officialUrl: "https://beyond-gym.com/price/", area: "全国（公式に「北海道の店舗は一部料金形態が異なります」の注記）",
+    note: "マンスリーは、回数券またはライフプランニングコースの終了後に申し込む継続コースです（公式料金ページ・2026年10月26日確認）。",
   },
   {
     slug: "undeux-life", name: "UNDEUX SUPERBODY LIFE",
@@ -177,7 +178,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     slug: "vase", name: "VASE（ベイス）パーソナルジム",
     price: "月額 月4回32,000円・月6回45,000円・月8回56,000円／回数券5回45,000円・10回85,000円・15回120,000円（すべて税込・60分）",
     kind: "月額制", lowest: 32000, entry: "20,000円（税込）／体験当日入会で0円",
-    officialUrl: "https://personal-gym-vase.com/", area: "藤沢・八王子・亀戸・恵比寿",
+    officialUrl: "https://personal-gym-vase.com/", area: "藤沢・八王子・亀戸（公式の店舗一覧・2026年10月26日確認）",
     note: "月額制の最低契約期間は3ヶ月です。月額の有効期限は1ヶ月で、繰り越しはできません。",
   },
   {

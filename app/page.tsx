@@ -531,6 +531,7 @@ export default function Home() {
               { name: "ASPI", slug: "aspi" },
               { name: "CALORIE TRADE", slug: "calorie-trade" },
               { name: "RITA STYLE", slug: "rita-style" },
+              { name: "EXE（エグゼ）", slug: "exe" },
             ].map((gym) => (
               <Link key={gym.slug} href={`/review/${gym.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-3 text-center text-sm font-medium text-gray-700 hover:border-orange-400 hover:text-orange-600 transition-colors">
                 {gym.name}
