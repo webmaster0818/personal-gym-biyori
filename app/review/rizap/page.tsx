@@ -11,127 +11,137 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証",
   description:
-    "RIZAPの口コミ・評判をご紹介します。シェイプアッププログラム327,800円〜の料金体系、16万人の実績、30日間全額返金保証の基本情報からメリット・デメリット、Googleマップの口コミ分析について解説します。",
+    "RIZAP（ライザップ）の口コミ・評判を、公式の料金表・会則・店舗一覧で検証します。BASIC・PRIMEの期間別総額と1回あたりの料金、30日間全額返金保証と中途解約の返金計算、全国100店舗・45都道府県の一覧、Googleマップ31店舗の集計をまとめています。",
 };
 
-/* ---------- 基本情報 ---------- */
+/*
+ * 2026-10-27 改訂: 料金・返金・中途解約・入会条件・店舗・営業時間・運営会社は公式サイト（/plan・/guide/payment・会則PDF 2026.4.1改訂・/studios/prefectures/1〜47・rizap.co.jp/about）を2026-10-27に確認した値。
+ * 店舗一覧は公式の都道府県別ページ45件（鳥取・島根はページなし）の掲載店舗を当サイトで集計＝100店舗（公式サイトマップの店舗ページ数100件と一致）。
+ * 訂正: 「16万人」→公式「18万人以上（2022年8月末時点の累計会員数）」／営業時間「10:00〜22:00」→「7:00〜23:00（錦糸町のみ10:00〜22:00）」／
+ *       「管理栄養士が毎日チェック」→公式は専属トレーナーがLINEで指導・管理栄養士には相談可／「利用者の約4割が女性」は公式に記載がなく削除／
+ *       店舗表の公式に無い店舗（池袋東口・八王子・神楽坂・練馬・蒲田・横浜西口・戸塚・春日部・豊田・高槻・RIZAP WOMAN新宿など）を削除し、公式100店舗に差し替え。
+ * 出典のない口コミのカテゴリ別要約（10項目）は削除し、Googleマップ集計と検索上位記事の論点照合に置き換えた。
+ */
+const CHECKED = "2026年10月27日";
+
+const SRC = {
+  plan: "https://www.rizap.jp/plan",
+  payment: "https://www.rizap.jp/guide/payment",
+  rules: "https://www.rizap.jp/images/rizap_kaisoku.pdf",
+  meal: "https://www.rizap.jp/charm/meal",
+  flow: "https://www.rizap.jp/guide/flow",
+  studios: "https://www.rizap.jp/studios/search/area",
+  top: "https://www.rizap.jp/",
+  company: "https://rizap.co.jp/about",
+};
+
+function Src({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <a href={href} target="_blank" rel="nofollow noopener noreferrer" className="underline hover:text-gray-700">
+      {children}
+    </a>
+  );
+}
+
+const yen = (n: number) => `${n.toLocaleString()}円`;
+
+const summary = [
+  { label: "どんなジムか", value: "RIZAP株式会社（東京都新宿区）が運営する、完全個室・専属トレーナー制のパーソナルジムです。1回50分・週2回のトレーニングに、1日3食の食事指導（LINEで毎日報告）を組み合わせます。公式サイトは会員実績を「18万人以上（2022年8月末時点の累計）」と表記しています。" },
+  { label: "料金", value: "BASIC 2ヶ月16回はコース料金327,800円に入会金55,000円を加えた総額382,800円（税込）で、1回あたり23,925円です。月額制のPRIMEは月8回77,000円ですが、別途登録料440,000円と入会金がかかります。" },
+  { label: "返金・解約", value: "コース初回利用日から30日以内であれば、理由を問わず返金を受けられる全額返金保証があります。30日を過ぎた後の中途解約は、未実施分のコース費用から違約金（10%または2万円の低い方）を差し引いて返還されます。" },
+  { label: "店舗", value: "公式の店舗一覧に掲載されているのは全国100店舗・45都道府県です（鳥取県・島根県は店舗なし）。女性専用店舗は銀座（女性専用）の1店舗で、営業時間は錦糸町店を除き7:00〜23:00です。" },
+  { label: "向いている方", value: "費用をかけてでも、食事を含めた生活習慣を短期間で管理してもらいたい方に向いています。費用を抑えたい方や、糖質を段階的に調整する食事管理に抵抗がある方は、他のジムと比較してから判断されることをおすすめします。" },
+  { label: "口コミ", value: "当サイトが集計したGoogleマップの31店舗・1,057件の評点は、店舗単純平均4.49です。トレーナーの説明のわかりやすさや包括的なサポートを評価する声が多く、料金の高さと一部店舗の内装の古さが主な指摘です。" },
+];
+
 const basicInfo = [
-  { label: "運営会社", value: "RIZAP株式会社" },
-  { label: "店舗数", value: "全国展開（公式の店舗検索に総数の記載なし）" },
-  { label: "営業時間", value: "10:00〜22:00（店舗により異なる）" },
-  { label: "特徴", value: "完全個室 / 専属トレーナー / 管理栄養士サポート / 30日間全額返金保証" },
+  { label: "運営会社", value: "RIZAP株式会社（東京都新宿区西新宿8-17-1 住友不動産新宿グランドタワー36階・2010年5月設立・代表取締役社長 瀬戸健）" },
+  { label: "店舗数", value: "全国100店舗・45都道府県（公式の都道府県別店舗一覧を当サイトで集計・2026年10月27日確認）" },
+  { label: "営業時間", value: "7:00〜23:00（錦糸町店のみ10:00〜22:00）" },
+  { label: "トレーニング", value: "1回50分・週2回が基本。完全個室・専属トレーナー制" },
+  { label: "入会条件", value: "満16歳以上（18歳未満は親権者の同意が必要）。妊娠中の方は入会不可。小学生以下の子どもの同伴は不可（会則）" },
+  { label: "特典", value: "プログラム期間中は店内のマルチマシンルーム（要予約）と全国のchocoZAPを無料で利用可能。ウェア・タオルは無料貸出" },
   { label: "公式URL", value: "https://www.rizap.jp/", isLink: true },
 ];
 
-/* ---------- 3つの強み ---------- */
 const strengths = [
   {
-    title: "科学的メソッドで「結果にコミット」",
-    desc: "RIZAPは16万人以上の実績データに基づいた独自の科学的メソッドを採用しています。体組成や生活習慣を徹底的に分析し、個々の目標に最適化されたプログラムを設計しています。短期間で成果を出すための仕組みが整っており、「結果にコミット」というブランドメッセージを裏付ける体制です。",
+    title: "専属トレーナーが1日3食の食事まで指導",
+    desc: "公式サイトでは、2ヶ月で180食を専属トレーナーが指導すると説明しています。食事は写真付きでLINEから毎日報告し、糖質は「減量期」「筋肉向上期」「スタイルキープ期」の3段階で調整します。医師や管理栄養士を含む専門チームには、食事や健康面の相談ができます。",
   },
   {
-    title: "専属トレーナー＋管理栄養士のWサポート",
-    desc: "トレーニングは専属トレーナーがマンツーマンで指導し、食事面では管理栄養士が毎日の食事内容をチェックしてフィードバックを提供します。運動と食事の両面から専門家がサポートする体制は、RIZAPの大きな強みです。",
+    title: "全国100店舗・7時から23時まで営業",
+    desc: "公式の店舗一覧には45都道府県・100店舗が掲載されており、錦糸町店を除く99店舗が7:00〜23:00の営業です。出勤前や仕事帰りにも予約を入れやすい営業時間です。",
   },
   {
-    title: "30日間全額返金保証で安心",
-    desc: "プログラム開始から30日間は、いかなる理由でも全額返金に対応しています。高額な料金に不安を感じる方でも、まずは試すことができる制度です。返金保証により、入会時の心理的な負担が軽減されています。",
+    title: "30日間の全額返金保証を会則で定めている",
+    desc: "全額返金保証は会則第26条に定められており、コース初回利用日から30日以内に来店・書面で申し出ると、支払い済みの費用が返還されます。理由は問われませんが、適用を受けると退会扱いとなり、再入会はできません。",
   },
 ];
 
-/* ---------- メリット ---------- */
 const merits = [
   {
-    title: "結果につながりやすい（16万人の実績）",
-    desc: "RIZAPの最大の強みは「結果が出る」という点です。16万人以上の利用実績があり、体重減少・体脂肪率低下の成功事例が豊富です。科学的な根拠に基づいたプログラム設計と、専属トレーナーによる徹底した進捗管理により、自己流のダイエットでは達成できなかった目標の実現が期待できます。ただし、個人差はあるため、全員が同じ結果を得られるわけではありません。",
+    title: "トレーニング以外の時間も管理を受けられる",
+    desc: "週2回のセッションに加え、毎日の食事報告へのフィードバックがあるため、ジムにいない時間の行動も含めて管理を受けられます。当サイトが要約したGoogleマップの口コミでも、自分だけでは続かない方が強制力を求めて入会し、それを評価する声が多く見られました。",
   },
   {
-    title: "食事管理が徹底している（毎日3食報告）",
-    desc: "RIZAPでは毎日3食の食事内容をトレーナーに報告する仕組みがあります。管理栄養士の監修のもと、食事内容へのフィードバックを受けられるため、何をどれだけ食べればよいかが明確になります。自分一人では管理しきれない食事面を専門家に任せられるのは、大きな安心感につながります。",
+    title: "期間中はchocoZAPを無料で使える",
+    desc: "BASIC・PRIMEともに、プログラム期間中は全国のchocoZAPを無料で利用できます。セッションのない日の自主トレーニングに使えるため、週2回以外の運動の場所を別途契約する必要がありません。",
   },
   {
-    title: "30日間全額返金保証の安心感",
-    desc: "高額なプログラムであっても、30日間の全額返金保証があるため、万が一自分に合わないと感じた場合でもリスクを最小限に抑えられます。この保証制度は、入会を迷っている方にとって判断材料の一つとなっています。",
+    title: "勧誘をしない方針を公表している",
+    desc: "公式サイトのよくある質問では、カウンセリングのみの来店でも問題ないとし、無理な勧誘は一切行わないと記載しています。カウンセリングは約60〜90分で、体組成などの計測結果をその場で受け取れます。",
   },
 ];
 
-/* ---------- デメリット ---------- */
 const demerits = [
   {
-    title: "料金が高い（月額約16万円）",
-    desc: "RIZAPの料金は2ヶ月16回コースで327,800円（税込）に入会金55,000円が加わり、総額約38万円となります。パーソナルジム業界の中でもトップクラスの価格帯で、月額に換算すると約16万円です。結果を重視する方には検討の価値がありますが、費用面のハードルは低くありません。",
+    title: "総額が高く、2ヶ月以降も1ヶ月163,900円かかる",
+    desc: "BASICは2ヶ月16回で総額382,800円（税込）です。公式の料金表では月8回の継続が1ヶ月163,900円で、3ヶ月なら総額546,700円になります。一括払いは銀行振込またはJデビットで、分割払い（最大60回）は実質年率19.8%の手数料がかかります。",
   },
   {
-    title: "食事制限を厳しいと感じる方もいる",
-    desc: "RIZAPの食事指導は糖質制限をベースとしており、特にプログラム初期は炭水化物の摂取量が大きく制限されます。効果は高い一方で、「食事が楽しくなくなった」「付き合いの食事が困る」といった声も一定数あります。食事制限への耐性は個人差が大きいため、事前にカウンセリングで詳しく確認することをおすすめします。",
+    title: "糖質を段階的に制限する食事に慣れが必要",
+    desc: "食事指導は糖質量を段階的に調整する方式で、プログラム初期の減量期は糖質を控える内容です。外食や会食が多い方は、カウンセリングで具体的な食事の例を確認しておくと安心です。",
   },
   {
-    title: "リバウンドの報告がある",
-    desc: "プログラム終了後にリバウンドしたという報告は少なくありません。厳しい食事管理がトレーナーの管理下でなくなると、元の食生活に戻ってしまうケースがあります。RIZAPでは卒業後のサポートプログラムも用意されていますが、別途費用がかかります。長期的な体型維持のためには、自分自身で食事管理を続ける意識が必要です。",
+    title: "休会制度が会則にない",
+    desc: "会則（2026年4月1日改訂）には有効期限の延長手続き（第20条）はありますが、休会の条項はありません。延長期間や費用は「別途定める」とされているため、出張や転勤の予定がある方は契約前にご確認ください。",
   },
 ];
 
-/* ---------- 料金プラン ---------- */
-// 2026-10-14: 公式サイト掲載値（data/brand-prices.ts・2026-10-08実査）に差し替え
-const pricingPlans = [
-  { name: "BASIC（2ヶ月16回）", duration: "16回 / 2ヶ月", price: "327,800円", note: "税込・別途入会金55,000円＝総額382,800円" },
-  { name: "PRIME", duration: "月額制", price: "77,000円/月", note: "税込・別途登録料440,000円＋入会金55,000円" },
+const basicPlans = [
+  { term: "2ヶ月", n: 16, fee: 327800 },
+  { term: "3ヶ月", n: 24, fee: 491700 },
+  { term: "6ヶ月", n: 48, fee: 983400 },
+  { term: "12ヶ月", n: 96, fee: 1966800 },
+];
+const primePlans = [
+  { term: "2ヶ月", n: 16, fee: 154000 },
+  { term: "3ヶ月", n: 24, fee: 231000 },
+  { term: "6ヶ月", n: 48, fee: 462000 },
+  { term: "12ヶ月", n: 96, fee: 924000 },
+  { term: "20ヶ月", n: 160, fee: 1540000 },
+];
+const ENTRY = 55000;
+const PRIME_REG = 440000;
+
+const issueCheck = [
+  { issue: "料金が高い・やめたほうがいい", official: "BASIC 2ヶ月の総額は382,800円、1回あたり23,925円です。30日以内であれば全額返金保証を利用できるため、合わない場合の負担には上限があります。" },
+  { issue: "食事制限がつらい", official: "公式は糖質を3段階で調整する方式と説明しています。毎食へのフィードバックは専属トレーナーが行い、管理栄養士には相談できる体制です。" },
+  { issue: "卒業後にリバウンドする", official: "BASICは期間を定めたコースです。継続型のPRIMEは平均継続期間を20ヶ月（2021年度の契約者実績）と公表しています。" },
+  { issue: "返金保証は本当に使えるのか", official: "会則第26条で、初回利用日から30日以内・来店書面での手続きを条件に、支払い済みの諸費用の全額を返還すると定めています。" },
+  { issue: "店舗数（記事により119店舗など）", official: "2026年10月27日時点の公式店舗一覧は100店舗・45都道府県です。古い記事の店舗数は現在と一致しません。" },
 ];
 
-/* ---------- 口コミデータ ---------- */
-const reviewCategories = [
-  {
-    title: "トレーナーの質・対応",
-    summary: "トレーナーの質に関しては全体的に高い評価が集まっています。専属制のため信頼関係が築きやすく、モチベーション管理も含めた手厚いサポートが好評です。一方で、相性が合わない場合のトレーナー変更について不満を持つ利用者もいます。",
-  },
-  {
-    title: "料金・費用対効果",
-    summary: "料金の高さはRIZAPに対する最も多い指摘です。ただし、結果が出ることを考慮すると「投資に見合う」と評価する利用者も多く、費用対効果の捉え方は分かれます。",
-  },
-  {
-    title: "結果・効果",
-    summary: "結果への満足度は非常に高く、目標体重への到達率は他ジムと比較しても優れているとの声が多数です。ただし、短期間での急激な変化にはリスクも伴います。",
-  },
-  {
-    title: "食事指導",
-    summary: "食事指導はRIZAPの中核をなすサービスで、毎食の報告とフィードバックが徹底されています。糖質制限の効果は高い一方で、ストレスを感じる利用者も少なくありません。",
-  },
-  {
-    title: "リバウンド",
-    summary: "リバウンドに関する口コミは一定数存在し、プログラム終了後の自己管理が課題となっています。卒業後のサポートプログラムを活用するかどうかで、結果が分かれる傾向です。",
-  },
-  {
-    title: "施設・設備",
-    summary: "完全個室のプライベート空間は高く評価されており、清潔感についても好評な声が大半です。ただし、設備のバリエーションはフィットネスジムに比べると限定的です。",
-  },
-  {
-    title: "モチベーション管理",
-    summary: "トレーナーによるメンタルサポートが手厚く、挫折しそうな時でも続けられたという声が多くあります。定期的な測定による数値の可視化もモチベーション維持に効果的です。",
-  },
-  {
-    title: "予約・通いやすさ",
-    summary: "店舗数が多く、営業時間内であれば比較的予約が取りやすいとの評価です。ただし、人気トレーナーや繁忙時間帯は早めの予約が必要です。",
-  },
-  {
-    title: "返金保証",
-    summary: "30日間全額返金保証は入会前の安心材料として高く評価されています。実際に返金を利用した方の声は多くありませんが、制度があることが安心材料として評価されています。",
-  },
-  {
-    title: "卒業後",
-    summary: "プログラム卒業後の過ごし方については、自己管理で成功している人と、リバウンドに悩む人に二極化しています。卒業後のサポートプログラムの活用が重要です。",
-  },
-];
-
-/* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "RIZAPの入会金はいくらですか？", a: "入会金は55,000円（税込）です。キャンペーン期間中は割引になることもあるため、公式サイトで最新情報をご確認ください。" },
-  { q: "RIZAPは完全個室ですか？", a: "はい、すべてのトレーニングルームが完全個室です。他の利用者と顔を合わせることなく、プライベートな空間でトレーニングに集中できます。" },
-  { q: "30日間全額返金保証の条件を教えてください。", a: "公式の支払いガイドによると、入会時に契約したコースの初回利用日から30日間、理由を問わずコース料金が返金対象です。手続きは来店・書面のみ（電話・メール不可）で、利用すると再入会はできません。RIZAPで購入した物品は対象外で、入会金が対象かどうかは公式ページに明記がないため、カウンセリングでご確認ください（2026年10月14日確認）。" },
-  { q: "1回のトレーニング時間はどのくらいですか？", a: "1回あたり50分のマンツーマントレーニングです。着替えやシャワーの時間は含まれていません。" },
-  { q: "食事制限はどの程度の厳しさですか？", a: "糖質制限をベースとした食事指導が行われます。プログラムのフェーズにより制限の度合いは変わりますが、特に初期は炭水化物の摂取量が大きく制限されます。" },
-  { q: "リバウンドの心配はありませんか？", a: "プログラム中に正しい食事管理の知識を身につけることで、卒業後もリバウンドを防ぐことができます。ただし、自己管理が難しい方にはボディマネジメントプログラム（別途有料）も用意されています。" },
-  { q: "女性でも通いやすい環境ですか？", a: "利用者の約4割が女性とされています。完全個室のため周囲の目を気にせずトレーニングでき、女性専用のプログラムも用意されています。" },
-  { q: "無料体験やカウンセリングはありますか？", a: "無料カウンセリングが用意されています。体組成測定やカウンセリングを通じて、目的に合ったプログラムの提案を受けられます。公式サイトから予約できます。" },
+  { q: "RIZAPの入会金はいくらですか？", a: "入会金は55,000円（税込）で、BASIC・PRIME共通です。PRIMEでは別途登録料440,000円（税込）がかかります。キャンペーンにより変わる場合があるため、公式サイトで最新情報をご確認ください。" },
+  { q: "RIZAPは完全個室ですか？", a: "はい、トレーニングは完全個室で行います。店舗によっては、別途予約制のマルチマシンルームも利用できます。" },
+  { q: "30日間全額返金保証の条件を教えてください。", a: "会則第26条によると、入会時に契約したコースの初回利用日から30日以内（営業日でない場合は翌営業日）に来店し、書面で申し出ることが条件です。電話・FAX・メールでは受け付けていません。会則上は「支払い済みの諸費用の全額」を返還するとしており、諸費用は第9条で入会金とコース費用を含むと定義されています。一方、料金ページ等の表記は「コース料金」のため、入会金の扱いはカウンセリングで書面確認をおすすめします。適用を受けると退会扱いとなり、再適用・再入会はできません（2026年10月27日確認）。" },
+  { q: "30日を過ぎてから解約するといくら戻りますか？", a: "会則第21条では、コース費用を予定回数で割った金額に未実施の回数を掛けた額から、その10%または2万円のいずれか低い金額を差し引いて返還すると定めています。入会金などコース費用以外は返還されません。分割払いの場合は別の規定が適用されます。" },
+  { q: "1回のトレーニング時間はどのくらいですか？", a: "1回50分のマンツーマントレーニングを、週2回行うのが基本です。" },
+  { q: "食事制限はどの程度の厳しさですか？", a: "糖質を「減量期」「筋肉向上期」「スタイルキープ期」の3段階で調整する方式です。初期の減量期は糖質を控える内容で、その後は段階的に摂取量を戻していきます。食事は毎日LINEで写真付きで報告し、専属トレーナーからフィードバックを受けます。" },
+  { q: "女性専用の店舗はありますか？", a: "公式の店舗一覧では、女性専用店舗は「銀座（女性専用）」の1店舗です（東京都中央区銀座）。その他の店舗も完全個室のため、他の利用者と顔を合わせずにトレーニングできます。利用者の男女比は公式サイトに記載がありません。" },
+  { q: "無料カウンセリングでは何をしますか？", a: "所要時間は約60〜90分で、体組成などの計測とカウンセリングを行い、計測結果のシートを受け取れます。公式サイトでは、カウンセリングのみでも問題ないとし、無理な勧誘は行わないと記載しています。" },
 ];
 
 const faqJsonLd = {
@@ -144,22 +154,57 @@ const faqJsonLd = {
   })),
 };
 
-/* ---------- 店舗一覧 ---------- */
+/* ---------- 店舗一覧（公式の都道府県別店舗一覧・2026-10-27 集計） ---------- */
 type StoreItem = { name: string; href?: string };
 const storesByRegion: { region: string; stores: StoreItem[] }[] = [
-  { region: "北海道", stores: [{ name: "札幌店", href: "/review/rizap/sapporo/" }] },
-  { region: "宮城", stores: [{ name: "仙台店" }] },
-  { region: "東京", stores: [{ name: "銀座店", href: "/review/rizap/ginza/" }, { name: "新宿店", href: "/review/rizap/shinjuku/" }, { name: "池袋西口店", href: "/review/rizap/ikebukuro/" }, { name: "池袋東口店" }, { name: "渋谷店", href: "/review/rizap/shibuya/" }, { name: "品川店", href: "/review/rizap/shinagawa/" }, { name: "上野店" }, { name: "北千住店" }, { name: "立川店" }, { name: "町田店", href: "/review/rizap/machida/" }, { name: "吉祥寺店" }, { name: "八王子店" }, { name: "自由が丘店" }, { name: "恵比寿店", href: "/review/rizap/ebisu/" }, { name: "神楽坂店" }, { name: "六本木店", href: "/review/rizap/roppongi/" }, { name: "錦糸町店" }, { name: "聖蹟桜ヶ丘店" }, { name: "練馬店" }, { name: "蒲田店" }] },
-  { region: "神奈川", stores: [{ name: "横浜東口店", href: "/review/rizap/yokohama/" }, { name: "横浜西口店" }, { name: "川崎店", href: "/review/rizap/kawasaki/" }, { name: "藤沢店" }, { name: "戸塚店" }, { name: "本厚木店" }] },
-  { region: "埼玉", stores: [{ name: "大宮西口店" }, { name: "浦和店" }, { name: "川口店" }, { name: "所沢店" }, { name: "春日部店" }] },
-  { region: "千葉", stores: [{ name: "千葉店" }, { name: "船橋店" }, { name: "松戸店" }, { name: "柏店" }] },
-  { region: "愛知", stores: [{ name: "名古屋栄店", href: "/review/rizap/nagoya/" }, { name: "名駅南店" }, { name: "金山店" }, { name: "豊田店" }, { name: "刈谷店" }] },
-  { region: "大阪", stores: [{ name: "梅田店", href: "/review/rizap/umeda/" }, { name: "なんば店", href: "/review/rizap/namba/" }, { name: "京橋店" }, { name: "天王寺店" }, { name: "堺東店" }, { name: "枚方店" }, { name: "高槻店" }] },
-  { region: "京都", stores: [{ name: "京都河原町店" }, { name: "京都四条店" }] },
-  { region: "兵庫", stores: [{ name: "神戸三宮店" }, { name: "西宮北口店" }, { name: "尼崎店" }, { name: "明石店" }] },
-  { region: "広島", stores: [{ name: "広島店" }] },
-  { region: "福岡", stores: [{ name: "天神店", href: "/review/rizap/fukuoka/" }, { name: "博多店" }, { name: "小倉店" }] },
+  { region: "北海道", stores: [{ name: "札幌", href: "/review/rizap/sapporo/" }] },
+  { region: "青森県", stores: [{ name: "青森" }] },
+  { region: "岩手県", stores: [{ name: "盛岡" }] },
+  { region: "宮城県", stores: [{ name: "仙台", href: "/review/rizap/sendai/" }] },
+  { region: "秋田県", stores: [{ name: "秋田" }] },
+  { region: "山形県", stores: [{ name: "山形" }] },
+  { region: "福島県", stores: [{ name: "郡山" }] },
+  { region: "茨城県", stores: [{ name: "水戸" }, { name: "つくば" }, { name: "土浦" }] },
+  { region: "栃木県", stores: [{ name: "宇都宮" }, { name: "小山" }] },
+  { region: "群馬県", stores: [{ name: "高崎", href: "/review/rizap/takasaki/" }] },
+  { region: "埼玉県", stores: [{ name: "大宮西口", href: "/review/rizap/omiya/" }, { name: "浦和", href: "/review/rizap/urawa/" }, { name: "所沢", href: "/review/rizap/tokorozawa/" }, { name: "本川越" }, { name: "南越谷" }, { name: "川口", href: "/review/rizap/kawaguchi/" }] },
+  { region: "千葉県", stores: [{ name: "千葉", href: "/review/rizap/chiba/" }, { name: "柏", href: "/review/rizap/kashiwa/" }, { name: "松戸" }, { name: "船橋", href: "/review/rizap/funabashi/" }] },
+  { region: "東京都", stores: [{ name: "新宿", href: "/review/rizap/shinjuku/" }, { name: "池袋西口", href: "/review/rizap/ikebukuro/" }, { name: "銀座", href: "/review/rizap/ginza/" }, { name: "銀座（女性専用）" }, { name: "品川", href: "/review/rizap/shinagawa/" }, { name: "恵比寿", href: "/review/rizap/ebisu/" }, { name: "上野", href: "/review/rizap/ueno/" }, { name: "北千住", href: "/review/rizap/kitasenju/" }, { name: "錦糸町", href: "/review/rizap/kinshicho/" }, { name: "自由が丘", href: "/review/rizap/jiyugaoka/" }, { name: "二子玉川", href: "/review/rizap/futakotamagawa/" }, { name: "下北沢" }, { name: "吉祥寺" }, { name: "立川", href: "/review/rizap/tachikawa/" }, { name: "町田", href: "/review/rizap/machida/" }, { name: "聖蹟桜ヶ丘" }] },
+  { region: "神奈川県", stores: [{ name: "横浜東口", href: "/review/rizap/yokohama/" }, { name: "関内" }, { name: "川崎", href: "/review/rizap/kawasaki/" }, { name: "たまプラーザ" }, { name: "藤沢", href: "/review/rizap/fujisawa/" }, { name: "本厚木" }, { name: "小田原" }] },
+  { region: "新潟県", stores: [{ name: "新潟", href: "/review/rizap/niigata/" }] },
+  { region: "富山県", stores: [{ name: "富山" }] },
+  { region: "石川県", stores: [{ name: "金沢", href: "/review/rizap/kanazawa/" }] },
+  { region: "福井県", stores: [{ name: "福井" }] },
+  { region: "山梨県", stores: [{ name: "甲府" }] },
+  { region: "長野県", stores: [{ name: "長野" }, { name: "松本" }] },
+  { region: "岐阜県", stores: [{ name: "岐阜" }] },
+  { region: "静岡県", stores: [{ name: "静岡" }, { name: "浜松" }, { name: "沼津" }] },
+  { region: "愛知県", stores: [{ name: "名古屋栄", href: "/review/rizap/nagoya/" }, { name: "名駅南" }, { name: "金山", href: "/review/rizap/kanayama/" }, { name: "豊橋" }, { name: "刈谷" }] },
+  { region: "三重県", stores: [{ name: "四日市" }] },
+  { region: "滋賀県", stores: [{ name: "滋賀" }] },
+  { region: "京都府", stores: [{ name: "京都四条" }, { name: "京都河原町" }] },
+  { region: "大阪府", stores: [{ name: "梅田", href: "/review/rizap/umeda/" }, { name: "なんば", href: "/review/rizap/namba/" }, { name: "天王寺", href: "/review/rizap/tennoji/" }, { name: "京橋" }, { name: "江坂" }, { name: "枚方" }, { name: "堺東" }, { name: "岸和田" }] },
+  { region: "兵庫県", stores: [{ name: "神戸", href: "/review/rizap/kobe/" }, { name: "西宮北口" }, { name: "尼崎" }, { name: "明石" }, { name: "姫路" }] },
+  { region: "奈良県", stores: [{ name: "奈良" }] },
+  { region: "和歌山県", stores: [{ name: "和歌山" }] },
+  { region: "岡山県", stores: [{ name: "岡山" }] },
+  { region: "広島県", stores: [{ name: "広島", href: "/review/rizap/hiroshima/" }] },
+  { region: "山口県", stores: [{ name: "下関" }] },
+  { region: "徳島県", stores: [{ name: "徳島" }] },
+  { region: "香川県", stores: [{ name: "高松" }] },
+  { region: "愛媛県", stores: [{ name: "松山" }] },
+  { region: "高知県", stores: [{ name: "高知" }] },
+  { region: "福岡県", stores: [{ name: "天神", href: "/review/rizap/fukuoka/" }, { name: "博多", href: "/review/rizap/hakata/" }, { name: "小倉" }, { name: "久留米" }] },
+  { region: "佐賀県", stores: [{ name: "佐賀" }] },
+  { region: "長崎県", stores: [{ name: "長崎" }, { name: "佐世保" }] },
+  { region: "熊本県", stores: [{ name: "熊本", href: "/review/rizap/kumamoto/" }] },
+  { region: "大分県", stores: [{ name: "大分" }] },
+  { region: "宮崎県", stores: [{ name: "宮崎" }] },
+  { region: "鹿児島県", stores: [{ name: "鹿児島", href: "/review/rizap/kagoshima/" }] },
+  { region: "沖縄県", stores: [{ name: "那覇" }] },
 ];
+const storeTotal = storesByRegion.reduce((a, r) => a + r.stores.length, 0);
+const topRegions = [...storesByRegion].sort((a, b) => b.stores.length - a.stores.length).slice(0, 5);
 
 /* ---------- 関連ジム ---------- */
 const relatedReviews = [
@@ -171,18 +216,10 @@ const relatedReviews = [
   { name: "エクササイズコーチ", href: "/review/exercise-coach/" },
 ];
 
-/* ---------- 目次 ---------- */
-const toc = [
-  { id: "basic-info", label: "RIZAPの基本情報" },
-  { id: "overview", label: "RIZAPの概要" },
-  { id: "merit-demerit", label: "RIZAPのメリット・デメリット" },
-  { id: "pricing", label: "RIZAPの料金" },
-  { id: "reviews", label: "RIZAPの口コミ分析" },
-  { id: "faq", label: "RIZAPのよくある質問" },
-  { id: "stores", label: "RIZAPの店舗一覧" },
-];
-
 export default function RizapReview() {
+  const sampleUnit = 327800 / 16;
+  const sampleRemain = sampleUnit * 12;
+  const samplePenalty = Math.min(sampleRemain * 0.1, 20000);
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -213,20 +250,36 @@ export default function RizapReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-14"
+        "dateModified": "2026-10-27"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        {/* ---------- H1 + Hero ---------- */}
+        {/* ---------- H1 + 要点 ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証
         </h1>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月27日（料金・会則・店舗一覧・営業時間・運営会社を公式サイトで再確認し、検索上位記事の論点と照合）</p>
+
+        <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="RIZAPとは">
+          <h2 className="font-bold text-gray-900 mb-3">RIZAP（ライザップ）とは：要点のまとめ</h2>
+          <dl className="space-y-2 text-sm">
+            {summary.map((r) => (
+              <div key={r.label} className="sm:flex sm:gap-3">
+                <dt className="font-bold text-gray-800 sm:w-24 shrink-0">{r.label}</dt>
+                <dd className="text-gray-700 leading-relaxed">{r.value}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="text-xs text-gray-500 mt-3">
+            出典: <Src href={SRC.plan}>公式 料金プラン</Src>・<Src href={SRC.rules}>RIZAP会則（2026年4月1日改訂）</Src>・<Src href={SRC.studios}>公式 店舗一覧</Src>・<Src href={SRC.company}>会社概要</Src>（いずれも{CHECKED}確認）。料金・条件は変更される場合があります。
+          </p>
+        </section>
+
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/rizap.jpg" alt="RIZAPの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">RIZAP 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="rizap" name="RIZAP" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -235,15 +288,14 @@ export default function RizapReview() {
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
             <li><a href="#s2" className="text-teal-600 hover:underline">RIZAPの基本情報</a></li>
-            <li><a href="#s3" className="text-teal-600 hover:underline">RIZAPの概要</a></li>
+            <li><a href="#s3" className="text-teal-600 hover:underline">RIZAPの3つの特徴</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">RIZAPのメリット・デメリット</a></li>
-            <li><a href="#s5" className="text-teal-600 hover:underline">RIZAPの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">RIZAPの口コミ分析</a></li>
-            <li><a href="#s7" className="text-teal-600 hover:underline">RIZAPの店舗一覧（都道府県別）</a></li>
-            <li><a href="#s8" className="text-teal-600 hover:underline">他のジムと比較</a></li>
-            <li><a href="#s9" className="text-teal-600 hover:underline">RIZAPの口コミの傾向（編集部による要約・2026年9月6日取得）</a></li>
+            <li><a href="#s5" className="text-teal-600 hover:underline">RIZAPの料金（BASIC・PRIMEの期間別総額）</a></li>
+            <li><a href="#s5b" className="text-teal-600 hover:underline">返金保証と中途解約の返金額</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">RIZAPの口コミ・評判</a></li>
+            <li><a href="#s8" className="text-teal-600 hover:underline">他のジムと比較（2ヶ月16回の総額）</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">RIZAPのよくある質問</a></li>
-            <li><a href="#s11" className="text-teal-600 hover:underline">RIZAPの店舗一覧</a></li>
+            <li><a href="#s11" className="text-teal-600 hover:underline">RIZAPの店舗一覧（全国100店舗）</a></li>
             <li><a href="#s12" className="text-teal-600 hover:underline">RIZAPが気になった方へ</a></li>
             <li><a href="#s13" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
@@ -262,13 +314,6 @@ export default function RizapReview() {
           </a>
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
         </div>
-
-        <p className="text-gray-700 leading-relaxed mb-10">
-          RIZAPは「結果にコミット」のキャッチフレーズで知られる、国内最大手のパーソナルトレーニングジムです。全国に店舗を展開しています。専属トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士による食事サポートの二本柱で、短期間での体型変化を目指すプログラムを提供しています。<span className="font-bold bg-yellow-100 px-0.5">30日間全額返金保証</span>も大きな特徴です。本記事では、RIZAPの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
-        </p>
-
-        {/* ---------- 目次 ---------- */}
-        
 
         {/* ---------- 基本情報 ---------- */}
         <section id="basic-info" className="mb-12">
@@ -295,20 +340,23 @@ export default function RizapReview() {
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-gray-500 mt-3">
+            出典: <Src href={SRC.company}>RIZAP株式会社 会社概要</Src>・<Src href={SRC.studios}>公式 店舗一覧</Src>・<Src href={SRC.rules}>会則 第5条・第15条</Src>・<Src href={SRC.plan}>料金プラン</Src>（{CHECKED}確認）。お客様相談室は0120-363-628（9:30〜17:30・土日祝と年末年始を除く）です。
+          </p>
         </section>
 
-        {/* ---------- 概要・3つの強み ---------- */}
+        {/* ---------- 特徴 ---------- */}
         <section id="overview" className="mb-12">
-          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの概要</h2>
-          <h3 className="text-lg font-bold mb-4">RIZAPの3つの強み</h3>
+          <h2 id="s3" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの3つの特徴</h2>
           <div className="space-y-4">
             {strengths.map((s, i) => (
               <div key={i} className="bg-teal-50 rounded-lg p-5">
-                <h4 className="font-bold text-teal-800 mb-2">{i + 1}. {s.title}</h4>
+                <h3 className="font-bold text-teal-800 mb-2">{i + 1}. {s.title}</h3>
                 <p className="text-sm text-gray-700 leading-relaxed">{s.desc}</p>
               </div>
             ))}
           </div>
+          <p className="text-xs text-gray-500 mt-3">出典: <Src href={SRC.meal}>公式 食事指導</Src>・<Src href={SRC.plan}>料金プラン</Src>・<Src href={SRC.rules}>会則 第26条</Src>（{CHECKED}確認）。</p>
         </section>
 
         {/* ---------- メリット・デメリット ---------- */}
@@ -340,39 +388,71 @@ export default function RizapReview() {
               </div>
             ))}
           </div>
+          <p className="text-xs text-gray-500 mt-4">出典: <Src href={SRC.plan}>料金プラン</Src>・<Src href={SRC.payment}>お支払いについて</Src>・<Src href={SRC.flow}>ご入会までの流れ</Src>・<Src href={SRC.rules}>会則</Src>（{CHECKED}確認）。</p>
         </section>
 
         {/* ---------- 料金 ---------- */}
         <section id="pricing" className="mb-12">
-          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの料金</h2>
+          <h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの料金（BASIC・PRIMEの期間別総額）</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            RIZAPの料金はプログラムごとに設定されています。以下は代表的なプランの一覧です。いずれも入会金55,000円（税込）が別途必要です。
+            当サイトでは{CHECKED}に公式の料金プランページを確認し、期間ごとの総額と1回あたりの金額を計算しました。1回あたりは、入会金（PRIMEは登録料も）を含む総額を回数で割った金額です（1円未満四捨五入）。
           </p>
-          <div className="overflow-x-auto">
+          <h3 className="font-bold text-gray-800 mb-2">BASIC（月8回・期間を定めたコース）</h3>
+          <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-teal-500 text-white">
-                  <th className="px-4 py-3 text-left font-medium">プラン名</th>
-                  <th className="px-4 py-3 text-left font-medium">回数 / 期間</th>
-                  <th className="px-4 py-3 text-left font-medium">料金</th>
-                  <th className="px-4 py-3 text-left font-medium">備考</th>
+                  <th className="px-4 py-3 text-left font-medium">期間</th>
+                  <th className="px-4 py-3 text-left font-medium">回数</th>
+                  <th className="px-4 py-3 text-left font-medium">コース料金</th>
+                  <th className="px-4 py-3 text-left font-medium">総額（入会金込み）</th>
+                  <th className="px-4 py-3 text-left font-medium">1回あたり</th>
                 </tr>
               </thead>
               <tbody>
-                {pricingPlans.map((plan) => (
-                  <tr key={plan.name} className="border-b border-gray-100">
-                    <td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td>
-                    <td className="px-4 py-3 text-gray-700">{plan.duration}</td>
-                    <td className="px-4 py-3 text-gray-700">{plan.price}</td>
-                    <td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td>
+                {basicPlans.map((p) => (
+                  <tr key={p.term} className="border-b border-gray-100">
+                    <td className="px-4 py-3 font-medium text-gray-800">{p.term}</td>
+                    <td className="px-4 py-3 text-gray-700">{p.n}回</td>
+                    <td className="px-4 py-3 text-gray-700">{yen(p.fee)}</td>
+                    <td className="px-4 py-3 text-gray-800 font-medium">{yen(p.fee + ENTRY)}</td>
+                    <td className="px-4 py-3 text-gray-700">{yen(Math.round((p.fee + ENTRY) / p.n))}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">
-            ※ 料金は税込です。入会金55,000円（税込）が別途かかります。キャンペーンにより変動する場合があります。
-          </p>
+          <h3 className="font-bold text-gray-800 mb-2">PRIME（月8回77,000円の継続型・登録料440,000円）</h3>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-gray-100 text-gray-800">
+                  <th className="px-4 py-2 text-left font-medium">期間</th>
+                  <th className="px-4 py-2 text-left font-medium">回数</th>
+                  <th className="px-4 py-2 text-left font-medium">プラン料金</th>
+                  <th className="px-4 py-2 text-left font-medium">総額（登録料・入会金込み）</th>
+                  <th className="px-4 py-2 text-left font-medium">1回あたり</th>
+                </tr>
+              </thead>
+              <tbody>
+                {primePlans.map((p) => (
+                  <tr key={p.term} className="border-b border-gray-100">
+                    <td className="px-4 py-2 text-gray-800">{p.term}</td>
+                    <td className="px-4 py-2 text-gray-700">{p.n}回</td>
+                    <td className="px-4 py-2 text-gray-700">{yen(p.fee)}</td>
+                    <td className="px-4 py-2 text-gray-800">{yen(p.fee + PRIME_REG + ENTRY)}</td>
+                    <td className="px-4 py-2 text-gray-700">{yen(Math.round((p.fee + PRIME_REG + ENTRY) / p.n))}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1.5 text-sm text-gray-700 mb-3">
+            <li>・BASICの月8回の継続料金は1ヶ月163,900円です。2ヶ月で目標に届かず延長する場合の目安になります。</li>
+            <li>・PRIMEは登録料があるため短期では割高ですが、20ヶ月継続すると1回あたり12,719円となり、BASIC 2ヶ月（23,925円）の約53%になります（当サイト計算）。公式はPRIMEの平均継続期間を20ヶ月（2021年度の契約者実績）としています。</li>
+            <li>・支払いは一括の場合は銀行振込（前払い）またはJデビットです。クレジットカードは物販などに限られます。分割払いは最大60回・実質年率19.8%です。</li>
+          </ul>
+          <p className="text-xs text-gray-500">出典: <Src href={SRC.plan}>公式 料金プラン</Src>・<Src href={SRC.payment}>お支払いについて</Src>（{CHECKED}確認・税込）。キャンペーンにより変動する場合があります。</p>
         </section>
 
         {/* 中間CTA */}
@@ -384,159 +464,70 @@ export default function RizapReview() {
           </div>
         </section>
 
-        {/* ---------- 口コミ分析 ---------- */}
-        <section id="reviews" className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの口コミ分析</h2>
-          <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            RIZAPのGoogleマップ口コミを分析すると、結果への満足度が非常に高い一方で、料金の高さやリバウンドに関する指摘が一定数見られます。以下では、カテゴリ別に口コミの傾向をまとめています。
-          </p>
-
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どんな傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿内容を改変しない方針のためです）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証できる数値は、上記のGoogleマップのデータ欄に掲載しています。</p>
-            <p className="text-xs text-yellow-700 mt-1">
-              出典: <a href="https://www.google.com/maps/search/RIZAP/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/RIZAP/</a>
-            </p>
+        {/* ---------- 返金・中途解約 ---------- */}
+        <section className="mb-12">
+          <h2 id="s5b" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの返金保証と中途解約の返金額</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <tbody>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-36 whitespace-nowrap">30日間全額返金保証</th><td className="px-4 py-3 text-gray-800">コース初回利用日から30日以内に来店・書面で申し出（電話・FAX・メール不可）。支払い済みの諸費用の全額を返還。適用後は退会扱いで、再適用・再入会は不可（会則第26条）</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-36 whitespace-nowrap">初回トレーニング前の解約</th><td className="px-4 py-3 text-gray-800">支払い済みの諸費用を全額返還（会則第21条第2項）</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-36 whitespace-nowrap">それ以降の中途解約</th><td className="px-4 py-3 text-gray-800">書面で申し出。未実施分のコース費用から、その10%または2万円のいずれか低い金額を差し引いて返還。入会金などコース費用以外は返還なし。分割払いは別規定（会則第21条第3項・第4項）</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-36 whitespace-nowrap">有効期限の延長</th><td className="px-4 py-3 text-gray-800">所定の書面で手続き可能。延長期間等は別途定める（会則第20条）</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-36 whitespace-nowrap">休会</th><td className="px-4 py-3 text-gray-800">会則に休会の条項なし</td></tr>
+              </tbody>
+            </table>
           </div>
+          <p className="text-sm text-gray-700 leading-relaxed mt-3">
+            計算例（当サイト試算）：BASIC 2ヶ月16回（コース料金327,800円）を4回受けて31日目以降に解約する場合、未実施12回分のコース費用は{yen(sampleRemain)}です。その10%（{yen(sampleRemain * 0.1)}）は2万円より高いため、差し引かれるのは{yen(samplePenalty)}で、返還額は{yen(sampleRemain - samplePenalty)}となります。入会金55,000円は返還されません。
+          </p>
+          <p className="text-xs text-gray-500 mt-2">出典: <Src href={SRC.rules}>RIZAP会則（2026年4月1日改訂）第9条・第20条・第21条・第26条</Src>（{CHECKED}確認）。会則上の「諸費用」は入会金とコース費用等を合わせたものと定義されていますが、料金ページ等では返金対象を「コース料金」と表記しています。入会金の扱いは契約前に書面でご確認ください。</p>
+        </section>
+
+        {/* ---------- 口コミ ---------- */}
+        <section id="reviews" className="mb-12">
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの口コミ・評判</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">
+            当サイトでは、Googleマップに掲載されているRIZAPの店舗の評点と件数を集計し、直近の投稿を読んで傾向を要約しました。個別の投稿文は転載していません。口コミサイト「みん評」は当サイトからページを閲覧できなかったため、件数・点数は掲載していません（{CHECKED}確認）。
+          </p>
 
           <GmapStats slug="rizap" brand="RIZAP（ライザップ）" />
 
-          {reviewCategories.map((cat) => (
-            <div key={cat.title} className="mb-10">
-              <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
-              <p className="text-sm text-gray-700 mb-4 leading-relaxed">{cat.summary}</p>
-            </div>
-          ))}
+          <h3 className="font-bold text-gray-800 mb-2">Googleマップの口コミの傾向（編集部による要約・2026年9月6日取得）</h3>
+          <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700 mb-8">
+            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>：動作の理由から説明する指導のわかりやすさ、食事・生活習慣まで含めたサポート、当日の体調に合わせた重量調整など、個別対応への評価が中心です。自分に甘い性格だからこそ合っていたという、ご自身の性格を踏まえた声が多い点も特徴です。</p>
+            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>：店舗の内装の古さに触れる声があります。また、ルームレンタルの利用者による投稿が混在しているため、口コミの文脈を見分けて読む必要があります。料金は業界でも高い水準にあるため、管理の手厚さに対してどこまで費用をかけるかという観点で判断することをおすすめします。</p>
+            <p className="text-xs text-gray-400">※Googleマップの複数店舗（新宿・梅田・名古屋ほか）の直近の口コミを取得し、編集部が読んだうえで傾向を要約したものです。個々の体験は店舗・トレーナー・時期により異なります。出典: <a href="https://www.google.com/maps/search/RIZAP/" target="_blank" rel="noopener noreferrer" className="underline">Googleマップ</a></p>
+          </div>
+
+          <h3 className="font-bold text-gray-800 mb-2">検索上位記事で取り上げられる論点と公式情報の照合</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            「RIZAP 口コミ」「ライザップ 評判」で上位に表示される記事では、悪い評判、やめたほうがいいと言われる理由、リバウンドなどが主な見出しになっています。当サイトでは、各論点を{CHECKED}時点の公式情報と照合しました。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-gray-100 text-gray-800">
+                  <th className="px-3 py-2 text-left font-medium w-44">論点</th>
+                  <th className="px-3 py-2 text-left font-medium">公式情報で確認できること</th>
+                </tr>
+              </thead>
+              <tbody>
+                {issueCheck.map((r) => (
+                  <tr key={r.issue} className="border-b border-gray-100 align-top">
+                    <td className="px-3 py-2 text-gray-800">{r.issue}</td>
+                    <td className="px-3 py-2 text-gray-700">{r.official}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
 
         {/* ---------- 他のジムと比較 ---------- */}
         <section className="mb-12">
-        <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">RIZAPの店舗一覧（都道府県別）</h2>
-        <p className="text-xs text-gray-500 mb-4">当サイトの店舗データベースに収録した、Googleマップに掲載されている店舗です。店舗名のリンクはRIZAP公式の無料カウンセリング予約ページ(提携リンク・PR)へ移動します。</p>
-        <div className="mb-12">
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">青森県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)青森店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">岩手県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)盛岡店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">宮城県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)仙台店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">秋田県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)秋田店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">山形県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)山形店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">茨城県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)水戸店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">栃木県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)宇都宮店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">千葉県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)千葉店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">東京都</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップウーマン(RIZAP WOMAN)新宿店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">神奈川県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)横浜東口店</a> <a key="1" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)川崎店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">新潟県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)新潟店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">富山県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)富山店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">石川県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)金沢店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">福井県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)福井店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">山梨県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)甲府店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">長野県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)長野店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">岐阜県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ 岐阜店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">兵庫県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)神戸店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">奈良県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)奈良店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">和歌山県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)和歌山店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">広島県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)広島店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">徳島県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)徳島店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">香川県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)高松店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">愛媛県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)松山店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">高知県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)高知店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">佐賀県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)佐賀店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">長崎県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)長崎店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">大分県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)大分店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">鹿児島県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)鹿児島店</a></div>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-bold text-sm text-gray-800 mb-2">沖縄県</h3>
-            <div><a key="0" href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="sponsored nofollow noopener" className="inline-block rounded-full border border-orange-200 px-3 py-1 text-sm text-orange-600 hover:bg-orange-50 mr-2 mb-2">ライザップ(RIZAP)那覇店</a></div>
-          </div>
-        </div>
-
-          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較</h2>
-          <p className="text-sm text-gray-700 mb-4 leading-relaxed">RIZAPと他の主要ジムを比較しています。</p>
+          <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">他のジムと比較（2ヶ月16回の総額）</h2>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">16回のコースがある主要ジムを、入会金を含む総額で比較しています。各社の値は当サイトが公式サイトで確認した金額です。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
@@ -544,71 +535,54 @@ export default function RizapReview() {
                   <th className="px-3 py-2 text-left font-medium">比較項目</th>
                   <th className="px-3 py-2 text-center font-medium bg-teal-600">RIZAP</th>
                   <th className="px-3 py-2 text-center font-medium">BEYOND</th>
-                  <th className="px-3 py-2 text-center font-medium">24/7ワークアウト</th>
                   <th className="px-3 py-2 text-center font-medium">HABIT</th>
+                  <th className="px-3 py-2 text-center font-medium">RITA STYLE</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-gray-100">
-                  <td className="px-3 py-2 font-medium text-gray-800">2ヶ月料金</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">327,800円</td>
-                  <td className="px-3 py-2 text-center text-gray-700">290,400円</td>
-                  <td className="px-3 py-2 text-center text-gray-700">月額33,000円〜</td>
-                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                  <td className="px-3 py-2 font-medium text-gray-800">16回のコース</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">BASIC 2ヶ月</td>
+                  <td className="px-3 py-2 text-center text-gray-700">ライフプランニング16回</td>
+                  <td className="px-3 py-2 text-center text-gray-700">集中ダイエット16回</td>
+                  <td className="px-3 py-2 text-center text-gray-700">週2回 2ヶ月</td>
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50">
-                  <td className="px-3 py-2 font-medium text-gray-800">回数</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">16回</td>
-                  <td className="px-3 py-2 text-center text-gray-700">16回</td>
-                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
-                  <td className="px-3 py-2 text-center text-gray-700">月額制</td>
+                  <td className="px-3 py-2 font-medium text-gray-800">入会金</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">55,000円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">0円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">通常30,000円（体験当日入会で0円）</td>
+                  <td className="px-3 py-2 text-center text-gray-700">43,780円</td>
                 </tr>
                 <tr className="border-b border-gray-100">
-                  <td className="px-3 py-2 font-medium text-gray-800">食事指導</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">厳格な管理</td>
-                  <td className="px-3 py-2 text-center text-gray-700">糖質制限なし</td>
-                  <td className="px-3 py-2 text-center text-gray-700">3食しっかり</td>
-                  <td className="px-3 py-2 text-center text-gray-700">あり</td>
+                  <td className="px-3 py-2 font-medium text-gray-800">総額（税込）</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">382,800円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">290,400円</td>
+                  <td className="px-3 py-2 text-center text-gray-700">142,400円＋入会金</td>
+                  <td className="px-3 py-2 text-center text-gray-700">259,380円</td>
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50">
                   <td className="px-3 py-2 font-medium text-gray-800">返金保証</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">30日間</td>
-                  <td className="px-3 py-2 text-center text-gray-700">なし</td>
-                  <td className="px-3 py-2 text-center text-gray-700">あり</td>
-                  <td className="px-3 py-2 text-center text-gray-700">なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">30日以内・理由を問わない</td>
+                  <td className="px-3 py-2 text-center text-gray-700">公式に記載なし</td>
+                  <td className="px-3 py-2 text-center text-gray-700">ダイエットコースが対象（条件は入会時に説明）</td>
+                  <td className="px-3 py-2 text-center text-gray-700">減量目的で1ヶ月1kg超減らなかった場合</td>
                 </tr>
                 <tr className="border-b border-gray-100">
-                  <td className="px-3 py-2 font-medium text-gray-800">入会金</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">55,000円</td>
-                  <td className="px-3 py-2 text-center text-gray-700">無料</td>
-                  <td className="px-3 py-2 text-center text-gray-700">無料</td>
-                  <td className="px-3 py-2 text-center text-gray-700">-</td>
-                </tr>
-                <tr className="border-b border-gray-100 bg-gray-50">
-                  <td className="px-3 py-2 font-medium text-gray-800">特徴</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">結果コミット</td>
-                  <td className="px-3 py-2 text-center text-gray-700">トレーナー質◎</td>
-                  <td className="px-3 py-2 text-center text-gray-700">深夜営業</td>
-                  <td className="px-3 py-2 text-center text-gray-700">住宅街密着</td>
+                  <td className="px-3 py-2 font-medium text-gray-800">確認日</td>
+                  <td className="px-3 py-2 text-center text-gray-500 text-xs bg-teal-50">2026年10月27日</td>
+                  <td className="px-3 py-2 text-center text-gray-500 text-xs">2026年10月26日</td>
+                  <td className="px-3 py-2 text-center text-gray-500 text-xs">2026年10月26日</td>
+                  <td className="px-3 py-2 text-center text-gray-500 text-xs">2026年10月27日</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は各公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※HABITは入会金が体験当日の入会で0円になるキャンペーンがあります。最新情報は各公式サイトでご確認ください。</p>
           <div className="flex flex-wrap gap-2 mt-3">
             <Link href="/review/beyond/" className="text-xs text-teal-600 hover:underline">BEYONDの口コミを見る →</Link>
-            <Link href="/review/247workout/" className="text-xs text-teal-600 hover:underline">24/7ワークアウトの口コミを見る →</Link>
             <Link href="/review/habit/" className="text-xs text-teal-600 hover:underline">HABITの口コミを見る →</Link>
-          </div>
-        </section>
-
-        {/* 口コミの傾向(編集部要約) */}
-        <section className="mb-12">
-          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの口コミの傾向（編集部による要約・2026年9月6日取得）</h2>
-          <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
-            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「なぜその動きが必要か理由から説明してくれる」という指導の論理性、食事・生活習慣まで含めた包括サポート、当日の体調に合わせた重量調整など、マニュアルではない個別対応への評価が中心です。「自分に甘い性格だからこそ合っていた」というご自身の性格を踏まえた声が多いのも特徴で、強制力を求めて入会する層に支持されています。</p>
-            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——全体に高評価が並ぶ一方、店舗の年季(内装の古さ)に触れる声や、ルームレンタル利用者の混在で口コミの文脈が分かれる点は読み方に注意が必要です。料金は業界最高値クラスのため、「強制力・包括サポートにどの程度の費用をかけるか」という費用対効果の観点で判断することをおすすめします。</p>
-            <p className="text-xs text-gray-400">※Googleマップの複数店舗（新宿・梅田・名古屋ほか）の直近の口コミをPlaces APIで取得し、編集部が読んだうえで傾向を要約したものです（本文の転載は行っていません）。個々の体験は店舗・トレーナー・時期により異なります。</p>
+            <Link href="/review/rita-style/" className="text-xs text-teal-600 hover:underline">RITA STYLEの口コミを見る →</Link>
           </div>
         </section>
 
@@ -632,22 +606,22 @@ export default function RizapReview() {
 
         {/* ---------- 店舗一覧 ---------- */}
         <section id="stores" className="mb-12">
-          <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの店舗一覧</h2>
+          <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPの店舗一覧（全国{storeTotal}店舗）</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            RIZAPは全国に店舗を展開しています。以下は主要エリアの店舗一覧です。
+            公式の都道府県別店舗一覧に掲載されている店舗を、当サイトで都道府県ごとに集計しました（{CHECKED}確認）。店舗数が多いのは{topRegions.map((r) => `${r.region}（${r.stores.length}店舗）`).join("・")}です。リンクのある店舗は、当サイトの店舗別ページをご覧いただけます。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-teal-500 text-white">
-                  <th className="px-4 py-3 text-left font-medium w-28">エリア</th>
+                  <th className="px-4 py-3 text-left font-medium w-28">都道府県</th>
                   <th className="px-4 py-3 text-left font-medium">店舗名</th>
                 </tr>
               </thead>
               <tbody>
                 {storesByRegion.map((row) => (
                   <tr key={row.region} className="border-b border-gray-100">
-                    <td className="px-4 py-3 font-medium text-gray-800 whitespace-nowrap">{row.region}</td>
+                    <td className="px-4 py-3 font-medium text-gray-800 whitespace-nowrap">{row.region}（{row.stores.length}）</td>
                     <td className="px-4 py-3 text-gray-700">
                       {row.stores.map((s, i) => (
                         <span key={s.name}>
@@ -662,7 +636,7 @@ export default function RizapReview() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 店舗情報は2026年4月時点のものです。最新の店舗情報は公式サイトでご確認ください。
+            出典: <Src href={SRC.studios}>RIZAP公式 店舗検索（都道府県別一覧）</Src>（{CHECKED}確認）。鳥取県・島根県には店舗がありません。営業時間は錦糸町店が10:00〜22:00、その他の店舗は7:00〜23:00です。出店・閉店により変わる場合があるため、最新の店舗情報は公式サイトでご確認ください。
           </p>
         </section>
 
@@ -673,9 +647,6 @@ export default function RizapReview() {
           </a>
           <img src="https://www10.a8.net/0.gif?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" alt="" width="1" height="1" className="inline" />
         </section>
-
-        {/* ---------- Author Box ---------- */}
-        
 
         {/* ---------- CTA ---------- */}
         <section className="bg-teal-500 text-white rounded-xl p-8 text-center mb-10">

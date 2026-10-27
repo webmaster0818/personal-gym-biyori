@@ -163,7 +163,7 @@ export function DbCitySummary({ slug, db }: { slug: string; db: CityDb }) {
 
 function priceOf(brand: string): { text: string; src: string | null; checked: string } | null {
   const f = BRAND_FACTS[brand]?.facts.filter((x) => x.label.startsWith("料金"));
-  if (f && f.length) return { text: f.map((x) => x.value).join("／"), src: f[0].src ?? null, checked: FACTS_CHECKED_AT };
+  if (f && f.length) return { text: f.map((x) => x.value).join("／"), src: f[0].src ?? null, checked: BRAND_FACTS[brand]?.checkedAt ?? FACTS_CHECKED_AT };
   const p = BRAND_PRICES.find((b) => b.slug === brand);
   if (p) return { text: p.price, src: p.officialUrl, checked: FEE_SURVEYED_AT };
   return null;

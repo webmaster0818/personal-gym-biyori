@@ -271,10 +271,10 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "laststyle", name: "Lastyle（ラスタイル）",
-    price: "12回（2ヶ月）158,400円・16回211,200円・20回264,000円（税込）",
-    kind: "コース制", lowest: 158400, entry: "通常50,000円（税抜）／キャンペーンで25,000円（税抜）",
-    officialUrl: "https://www.last-style.com/lp/", area: "池袋東口・新宿（東京）",
-    note: "公式LPには金額の明示がなく、店舗ページに記載されています。上記は新宿店・池袋本店の掲載値です。",
+    price: "スタンダード16回コース 1回60分・1回13,200円（16回で211,200円・税込）",
+    kind: "コース制", lowest: 211200, entry: "通常50,000円（税抜）／キャンペーンで25,000円（税抜・税込27,500円）",
+    officialUrl: "https://www.last-style.com/ikebukuro/", area: "池袋東口（東京）・新宿代々木店ページあり",
+    note: "料金は池袋東口本店・新宿代々木店ページの料金表（画像）の掲載値です。16回の総額は1回単価から当サイトで計算しました。8回コースは料金の記載がありません。以前掲載していた12回・20回コースは公式に記載がないため削除しました（2026年10月27日確認）。",
   },
   {
     slug: "fis-ladys-dummy", name: "", price: "", kind: "未公表", lowest: null, entry: "", officialUrl: null, area: "",
