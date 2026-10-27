@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AreaTopSummary from "@/components/AreaTopSummary";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
@@ -69,6 +70,8 @@ export default function MachidaAreaPage() {
         <p className="text-gray-700 leading-relaxed mb-10">
           町田は東京都南部に位置し、JR横浜線と小田急線が交差する交通の要所です。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="machida" areaName="町田" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

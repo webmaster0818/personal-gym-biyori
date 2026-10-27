@@ -6,6 +6,7 @@ import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
+import AreaTopSummary from "@/components/AreaTopSummary";
 
 const pickCopy = getAreaPickCopy("sapporo", "札幌");
 
@@ -67,6 +68,8 @@ export default function SapporoAreaPage() {
         <p className="text-gray-700 leading-relaxed mb-10">
           札幌は北海道最大の都市で、札幌駅・大通・すすきのエリアを中心にパーソナルジムが出店しています。積雪期が長い札幌では駅に近い店舗が特に重宝されます。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="sapporo" areaName="札幌" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

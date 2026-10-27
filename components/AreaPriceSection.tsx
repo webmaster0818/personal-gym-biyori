@@ -10,7 +10,7 @@ export default function AreaPriceSection({ areaName }: { areaName: string }) {
     <section className="mb-12">
       <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">パーソナルジムの料金相場（公式サイトの掲載額・全国）</h2>
       <p className="text-sm text-gray-700 leading-relaxed mb-4">
-        当サイトでは、{areaName}に限定した料金相場は公式サイトの値で集計できていないため掲載していません。以下は、{FEE_SURVEYED_AT}に{BRAND_PRICES.length}ブランドの公式サイトで確認した、各ブランドの最安プランの集計（全国）です。
+        当サイトでは、{areaName}の全店舗を対象とした料金相場は公式サイトの値で集計できていないため掲載していません（ページ冒頭の目安は、当ページに掲載しているブランドのみの集計です）。以下は、{FEE_SURVEYED_AT}に{BRAND_PRICES.length}ブランドの公式サイトで確認した、各ブランドの最安プランの集計（全国）です。
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AreaTopSummary from "@/components/AreaTopSummary";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
@@ -67,6 +68,8 @@ export default function FukuokaAreaPage() {
         <p className="text-gray-700 leading-relaxed mb-10">
           福岡は九州最大の都市で、天神・博多エリアを中心にパーソナルジムが出店しています。大手チェーンが主要エリアに揃っているほか、地元発の実力派ジムもあり、選択肢が充実しています。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="fukuoka" areaName="福岡" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

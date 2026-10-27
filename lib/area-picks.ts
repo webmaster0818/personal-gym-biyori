@@ -20,6 +20,8 @@ type Brand = {
   features: string[];
   priceUrl: string;
   storeListUrl: string;
+  /** 冒頭の「料金の目安」用（上の price と同じ公式表記から、税込額が分かるものだけ数値化。2026-10-27） */
+  summary?: { kind: "monthly4" | "course"; yen: number; label: string };
 };
 
 const BRANDS = {
@@ -30,6 +32,7 @@ const BRANDS = {
     features: ["30日間全額返金保証（公式サイト記載）", "専属トレーナーによるマンツーマンサポート", "専属トレーナーによる食事法の提案・フィードバック"],
     priceUrl: "https://www.rizap.jp/plan",
     storeListUrl: "https://www.rizap.jp/",
+    summary: { kind: "course", yen: 327800, label: "BASICプラン 2ヶ月16回 税込327,800円〜" },
   },
   beyond: {
     name: "BEYOND（ビヨンド）",
@@ -39,6 +42,7 @@ const BRANDS = {
     features: ["全コース入会金無料", "回数券で通えるプランあり", "コンテスト入賞実績者を中心としたトレーナー"],
     priceUrl: "https://beyond-gym.com/price/",
     storeListUrl: "https://beyond-gym.com/gym/",
+    summary: { kind: "course", yen: 290400, label: "ライフプランニングコース16（16回/2ヶ月）税込290,400円" },
   },
   w247: {
     name: "24/7ワークアウト",
@@ -48,6 +52,7 @@ const BRANDS = {
     features: ["完全個室", "食事制限をしない「3食食べる」ダイエット", "全額返金制度あり（条件あり）"],
     priceUrl: "https://247-sports.jp/workout/course/",
     storeListUrl: "https://247-sports.jp/workout/gym/kantou/tokyo/",
+    summary: { kind: "monthly4", yen: 33440, label: "固定プラン 月4回 税込33,440円〜" },
   },
   ec: {
     name: "エクササイズコーチ",
@@ -57,6 +62,7 @@ const BRANDS = {
     features: ["AIを活用したマシン主導型のトレーニング", "1回20分", "アプリで当日予約可"],
     priceUrl: "https://exercisecoach.co.jp/store/",
     storeListUrl: "https://exercisecoach.co.jp/store/",
+    summary: { kind: "monthly4", yen: 17600, label: "スタンダード 月4回 税込17,600円" },
   },
   dr: {
     name: "Dr.トレーニング",
@@ -66,6 +72,7 @@ const BRANDS = {
     features: ["理学療法士など各分野の専門家が在籍（公式サイト記載）", "月会費なしのチケット購入制"],
     priceUrl: "https://drtraining.jp/location/",
     storeListUrl: "https://drtraining.jp/location/",
+    summary: { kind: "course", yen: 198400, label: "16回チケット 税込198,400円" },
   },
   chicken: {
     name: "チキンジム",
@@ -75,6 +82,7 @@ const BRANDS = {
     features: ["1回50分の月額制プラン", "ウェア・シューズ・靴下のレンタルがプランに含まれる"],
     priceUrl: "https://chicken-gym.jp/",
     storeListUrl: "https://chicken-gym.jp/",
+    summary: { kind: "monthly4", yen: 29700, label: "月額制 月4回 29,700円（税込・税別の表記なし）" },
   },
   katagiri: {
     name: "かたぎり塾",
@@ -84,6 +92,7 @@ const BRANDS = {
     features: ["完全個室（一部店舗を除く）", "月額制", "理学療法士監修のトレーニング"],
     priceUrl: "https://katagirijuku.jp/price",
     storeListUrl: "https://katagirijuku.jp/gyms",
+    summary: { kind: "monthly4", yen: 33000, label: "月4プラン 税込33,000円（料金ページの比較表の表記）" },
   },
   apple: {
     name: "Apple GYM（アップルジム）",
@@ -93,6 +102,7 @@ const BRANDS = {
     features: ["月額制プラン", "完全マンツーマンのプレミアムプランあり"],
     priceUrl: "https://applegym.jp/shop/",
     storeListUrl: "https://applegym.jp/shop/",
+    summary: { kind: "monthly4", yen: 11440, label: "個別指導 月4回 税込11,440円（最大2名までの指導）" },
   },
   outline: {
     name: "OUTLINE（アウトライン）",
@@ -102,6 +112,7 @@ const BRANDS = {
     features: ["女性専用・完全個室のマンツーマントレーニング", "卒業後の生涯サポート（公式サイト記載）"],
     priceUrl: "https://www.outline-gym.com/service",
     storeListUrl: "https://www.outline-gym.com/",
+    summary: { kind: "course", yen: 184800, label: "フルサポートコース 16回 税込184,800円" },
   },
   miyazaki: {
     name: "MIYAZAKI GYM（ミヤザキジム）",
@@ -111,6 +122,7 @@ const BRANDS = {
     features: ["完全個室", "都度払い・コース制の両方に対応"],
     priceUrl: "https://miyazaki-gym.jp/plan/",
     storeListUrl: "https://miyazaki-gym.jp/",
+    summary: { kind: "course", yen: 96800, label: "8回 総額 税込96,800円" },
   },
   aspi: {
     name: "ASPI（アスピ）",
@@ -120,6 +132,7 @@ const BRANDS = {
     features: ["全スタッフが米国の資格を保持（公式サイト記載）", "オンライン食事指導", "ストレッチ指導"],
     priceUrl: "https://aspirest.com/course",
     storeListUrl: "https://aspirest.com/access/",
+    summary: { kind: "course", yen: 109000, label: "シェイプアップ30プラン 全7回 税込109,000円" },
   },
   reborn: {
     name: "Reborn myself（リボーンマイセルフ）",
@@ -128,6 +141,7 @@ const BRANDS = {
     features: ["女性専用", "固定の女性トレーナーが専属で担当"],
     priceUrl: "https://reborn-myself.com/price/",
     storeListUrl: "https://reborn-myself.com/",
+    summary: { kind: "course", yen: 202400, label: "ショートコース（2ヶ月）16回 税込202,400円" },
   },
   mermake: {
     name: "メルメイク",
@@ -137,6 +151,7 @@ const BRANDS = {
     features: [],
     priceUrl: "https://mermake.co.jp/menu/",
     storeListUrl: "https://mermake.co.jp/shop-list/",
+    summary: { kind: "course", yen: 148500, label: "ショートコース 2ヶ月16回 税込148,500円" },
   },
   woot: {
     name: "Woot!（旧 Bodyke）",
@@ -145,6 +160,7 @@ const BRANDS = {
     features: ["旧パーソナルジムBodyke（公式サイト記載）"],
     priceUrl: "https://woot.fit/",
     storeListUrl: "https://woot.fit/",
+    summary: { kind: "monthly4", yen: 43560, label: "マンスリー4回 税込43,560円" },
   },
 } satisfies Record<string, Brand>;
 
@@ -403,6 +419,20 @@ export function getAreaPicks(slug: string): AreaGym[] {
       hideHours: true,
     };
   });
+}
+
+/** 冒頭の概要用: 掲載ブランドの料金（月4回の月額／コース総額）と店舗 */
+export function getAreaSummary(slug: string) {
+  const picks = AREA_PICKS[slug] ?? [];
+  const rows = picks.map((p) => {
+    const b: Brand = BRANDS[p.brand];
+    return { brandKey: p.brand as string, name: b.name, stores: p.stores, summary: b.summary ?? null, priceUrl: p.priceUrl ?? b.priceUrl };
+  });
+  const range = (kind: "monthly4" | "course") => {
+    const xs = rows.filter((r) => r.summary?.kind === kind).map((r) => r.summary!.yen);
+    return xs.length ? { n: xs.length, min: Math.min(...xs), max: Math.max(...xs) } : null;
+  };
+  return { rows, monthly4: range("monthly4"), course: range("course") };
 }
 
 export function getAreaPickCount(slug: string): number {

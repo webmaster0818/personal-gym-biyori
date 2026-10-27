@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AreaTopSummary from "@/components/AreaTopSummary";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
@@ -69,6 +70,8 @@ export default function TachikawaAreaPage() {
         <p className="text-gray-700 leading-relaxed mb-10">
           立川は多摩エリアの中心地として発展し、JR中央線・南武線・多摩モノレールが乗り入れる交通の便の良い街です。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="tachikawa" areaName="立川" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

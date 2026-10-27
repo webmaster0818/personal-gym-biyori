@@ -6,6 +6,7 @@ import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
+import AreaTopSummary from "@/components/AreaTopSummary";
 
 const pickCopy = getAreaPickCopy("ikebukuro", "池袋");
 
@@ -70,6 +71,8 @@ export default function IkebukuroAreaPage() {
         <p className="text-gray-700 leading-relaxed mb-10">
           池袋は新宿・渋谷と並ぶ東京の主要ターミナル駅で、埼玉方面からのアクセスが特に良好なエリアです。東口の商業エリアと西口のオフィス街にそれぞれパーソナルジムが出店しており、ライフスタイルに合わせた選択ができます。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="ikebukuro" areaName="池袋" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AreaTopSummary from "@/components/AreaTopSummary";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
@@ -69,6 +70,8 @@ export default function KichijojiAreaPage() {
         <p className="text-gray-700 leading-relaxed mb-10">
           吉祥寺は「住みたい街」として常に上位に挙がる人気エリアです。おしゃれなカフェやショップが立ち並ぶ中、質の高いパーソナルジムも充実しています。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="kichijoji" areaName="吉祥寺" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

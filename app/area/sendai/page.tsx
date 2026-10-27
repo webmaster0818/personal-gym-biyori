@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AreaTopSummary from "@/components/AreaTopSummary";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
@@ -67,6 +68,8 @@ export default function SendaiAreaPage() {
         <p className="text-gray-700 leading-relaxed mb-10">
           仙台は東北最大の都市で、仙台駅周辺を中心にパーソナルジムが出店しています。大手チェーンから地元密着型まで選べる環境が整いつつあり、東北在住でパーソナルジムを探している方の選択肢が広がっています。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="sendai" areaName="仙台" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>
