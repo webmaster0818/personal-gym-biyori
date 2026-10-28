@@ -55,7 +55,7 @@ export default function AreaTopSummary({
       </ul>
       <p className="mt-1 text-xs text-gray-600">
         {variant === "db"
-          ? `${areaName}に店舗がある大手${rows.length}ブランドの公式料金（${priceDate}確認）を、月4回の月額とコース総額に分けて集計しています。入会金は含みません。上の一覧（Googleマップ掲載店）全体の相場ではありません。`
+          ? `${areaName}に店舗がある大手${rows.length}ブランドの公式料金（${priceDate}確認）を、月4回の月額とコース総額に分けて集計しています。入会金は含みません。下の一覧（Googleマップ掲載店）全体の相場ではありません。`
           : `当ページに掲載している${rows.length}ブランドの公式料金（${priceDate}確認）を、月4回の月額とコース総額に分けて集計しています。入会金は含みません。`}
       </p>
       <div className="mt-3 overflow-x-auto">
