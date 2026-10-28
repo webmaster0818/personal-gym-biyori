@@ -365,19 +365,6 @@
     ]
    },
    {
-    "brand": "rizap",
-    "name": "RIZAP（ライザップ）",
-    "href": "/review/rizap/",
-    "stores": [
-     {
-      "href": "/review/rizap/kawasaki/",
-      "name": "RIZAP 川崎店",
-      "area": "川崎市川崎区",
-      "indexable": true
-     }
-    ]
-   },
-   {
     "brand": "furdi",
     "name": "FURDI（ファディー）",
     "href": "/review/furdi/",
