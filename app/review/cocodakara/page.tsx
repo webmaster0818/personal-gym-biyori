@@ -196,7 +196,7 @@ export default function CocodakaraReview() {
           <img src="/brand-ss/cocodakara.jpg" alt="CoCoDakara Body Designの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">CoCoDakara Body Design 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <GymCta slug="cocodakara" name="CoCoDakara Body Design" variant="top" />
+        <GymCta slug="cocodakara" name="CoCoDakara Body Design" variant="top" heading="CoCoDakara Body Designの初回体験のご案内" note="初回体験は約75分で、InBody（体組成）・姿勢・可動域・動作の評価とトレーニング45分を受けられます。料金は4,620円（税込・当日入会で0円）です（公式サイト 2026年10月28日確認）。" button="CoCoDakara Body Designの初回体験を予約する" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -351,7 +351,7 @@ export default function CocodakaraReview() {
         </section>
 
         {/* FAQ */}
-      <GymCta slug="cocodakara" name="CoCoDakara Body Design" />
+      <GymCta slug="cocodakara" name="CoCoDakara Body Design" heading="CoCoDakara Body Designの初回体験のご案内" note="初回体験は約75分で、InBody（体組成）・姿勢・可動域・動作の評価とトレーニング45分を受けられます。料金は4,620円（税込・当日入会で0円）です（公式サイト 2026年10月28日確認）。" button="CoCoDakara Body Designの初回体験を予約する" />
 
         <section className="mb-12">
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">CoCoDakara Body Designのよくある質問</h2>
