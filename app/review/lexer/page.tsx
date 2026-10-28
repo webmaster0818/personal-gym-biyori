@@ -9,15 +9,66 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "ReXeR（レクサー）の口コミ・評判｜料金・店舗・悪い口コミを検証",
   description:
-    "ReXeR（レクサーパーソナルジム）の口コミ・評判を検証します。月額9,900円〜の料金、6店舗の所在地、管理栄養士・提携医師のオプション、「効果実感96.1%」の調査条件、口コミに含まれる24時間ラウンジ（本町）との違いを公式情報で確認しています。",
+    "ReXeR（レクサー）の口コミ・評判を検証します。公式サイトに表示される店舗別Googleの評点と件数、赤坂店欄の口コミに本町の24時間ジムの投稿が多い点、回数券の1回あたり料金、月額9,900円〜の仕組み、6店舗を公式情報で確認しています。",
 };
+
+/*
+ * 2026-10-28 改訂: 公式トップ・料金ページ・FAQ・会社概要を2026-10-28に確認。
+ * 公式トップの「お客様の声」欄（Googleの口コミの埋め込み表示）から店舗別の評点・件数を転記し、赤坂店欄の投稿に本町の24時間ジムの投稿が多いことを確認。
+ * 食事管理オプションを料金ページの現行表記（管理栄養士による食事管理 2週間11,000円・オンライン健康相談5,500円）に訂正。
+ * 1回の時間は FAQ「50分」と料金ページ「約55分」の2通りの表記を併記。
+ */
+const CHECKED = "2026年10月28日";
+
+const SRC = {
+  top: "https://personal.rexer-group.com/",
+  plan: "https://personal.rexer-group.com/plan",
+  faq: "https://personal.rexer-group.com/faq",
+  about: "https://personal.rexer-group.com/about",
+};
+
+function Src({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <a href={href} target="_blank" rel="nofollow noopener noreferrer" className="underline hover:text-gray-700">
+      {children}
+    </a>
+  );
+}
+
+const summary = [
+  { label: "どんなジムか", value: "株式会社レクサー（大阪市中央区）が運営するパーソナルジムです。同じReXeRグループが大阪・本町などで運営する24時間フィットネスラウンジとは別の業態です。" },
+  { label: "店舗", value: "赤坂・五反田（東京）、梅田中津・天六（大阪）、芦屋・苦楽園・西宮（兵庫）の6店舗です。" },
+  { label: "料金", value: "月額コースは月9,900円＋1回5,060円〜（縛り期間・違約金なし）、回数券は8回64,240円〜40回272,800円です。回数券の1回あたりは8,030円〜6,820円です（当サイト計算）。入会金33,000円はキャンペーンで0円です。" },
+  { label: "返金", value: "公式の料金ページ・FAQに返金保証の記載はありません。" },
+  { label: "口コミ", value: "公式トップに表示されるGoogleの評点は、赤坂店欄を除く5店舗で4.9〜5.0（計280件）です。赤坂店欄（4.7・244件）に表示される投稿には本町の24時間ジムに関するものが多く、パーソナルジムの評価として読む際は注意が必要です。第三者の口コミサイトで件数を確認できるページは見つかりませんでした。" },
+  { label: "向いている方", value: "東京・大阪・兵庫の6店舗に通える方で、契約期間の縛りがない月額制で始めたい方に向いています。" },
+];
+
+// 公式トップ「お客様の声」欄の表示（Googleの口コミの埋め込み）。2026-10-28 閲覧時の値をそのまま転記
+const officialReviewWidget = [
+  { store: "赤坂店", label: "ReXeR", rating: "4.7", count: 244, note: "表示名は「ReXeR」。表示される投稿は本町の24時間ジムに関するものが中心" },
+  { store: "五反田店", label: "ReXeR PeRSoNaL GyM 五反田", rating: "5.0", count: 102, note: "" },
+  { store: "梅田中津店", label: "ReXeR PeRSoNaL GyM 梅田中津", rating: "4.9", count: 48, note: "" },
+  { store: "天六店", label: "ReXeR PeRSoNaL GyM 天六", rating: "5.0", count: 19, note: "当サイトのGoogle Places APIの取得値（2026年8〜9月）は26件" },
+  { store: "芦屋・苦楽園店", label: "ReXeR PeRSoNaL GyM 芦屋・苦楽園", rating: "5.0", count: 40, note: "" },
+  { store: "西宮店", label: "ReXeR PeRSoNaL GyM 西宮", rating: "4.9", count: 71, note: "" },
+];
+
+const ticketPlans = [
+  { n: 8, price: 64240 },
+  { n: 16, price: 123200 },
+  { n: 24, price: 179520 },
+  { n: 32, price: 228800 },
+  { n: 40, price: 272800 },
+];
+const yen = (n: number) => `${Math.round(n).toLocaleString()}円`;
 
 const basicInfo = [
   { label: "ジム名", value: "ReXeR PeRSoNaL GyM（レクサーパーソナルジム）" },
   { label: "タイプ", value: "高級パーソナルトレーニングジム" },
   { label: "料金帯", value: "月額9,900円〜" },
   { label: "エリア", value: "赤坂・五反田（東京）、梅田中津・天六（大阪）、苦楽園・西宮（兵庫）の6店" },
-  { label: "特徴", value: "ReXeRグループのパーソナルジム / 有資格・コンテスト入賞トレーナー / 管理栄養士の食事管理・提携医師のオンライン診療（オプション） / 1回50分" },
+  { label: "特徴", value: "ReXeRグループのパーソナルジム / 有資格・コンテスト入賞トレーナー / 管理栄養士による食事管理・オンライン健康相談（オプション） / 1回50分（料金ページの表記は約55分）" },
   { label: "公式サイト", value: "https://personal.rexer-group.com/" },
 ];
 
@@ -27,8 +78,8 @@ const strengths = [
     desc: "ReXeRにはフィットネスコンテストで優勝経験を持つトレーナーが多数在籍しています。実績に裏打ちされた高度な指導力で、初心者から上級者まで最適なトレーニングを提供します。トレーナー自身の身体づくりの経験にもとづいたアドバイスを受けられます。",
   },
   {
-    title: "管理栄養士の食事管理と提携医師のオンライン診療",
-    desc: "オプションで、管理栄養士による1か月間の食事管理（期間中いつでもLINEで相談）と提携医師とのオンライン診療を受けられます。食事は無理な制限をせずPFCバランスを整える方針です（公式FAQ）。公式の「効果実感96.1%」は会員152人への自社アンケート（2025年6月）の結果です。",
+    title: "管理栄養士による食事管理とオンライン健康相談のオプション",
+    desc: "料金ページのオプションは、管理栄養士による食事管理（2週間11,000円・税込）とオンライン健康相談（5,500円・税込）です。食事管理コースでは、LINEでの食事管理が含まれます。食事は無理な制限をせず、専属トレーナー・管理栄養士がアドバイスする方針です（公式）。公式の「効果実感96.1%」は会員152人への自社アンケート（2025年6月）の結果です。",
   },
   {
     title: "高級フィットネスラウンジ発の洗練された空間",
@@ -86,7 +137,9 @@ const faqItems = [
   { q: "ReXeR（レクサー）の月会費はいくらですか？", a: "月額コースは月9,900円（税込）＋1回5,060円（税込）〜、回数券は8回64,240円〜です。入会金は通常33,000円（キャンペーンで0円）です。最新の料金は公式サイトまたは無料カウンセリングでご確認ください。" },
   { q: "どのくらいで効果を実感できますか？", a: "公式FAQには「多くの方がトレーニングを開始してから2～3週間程度で体重や体型に変化を感じています」とあります。トップページの「効果実感96.1%」は、会員152人への自社アンケート（2025年6月）で「目的に対して効果を実感している」と答えた割合です。" },
   { q: "トレーナーの質について教えてください。", a: "公式では、国家資格保有者・トレーニング関連の専門資格取得者・コンテスト優勝者などが在籍しているとしています。トレーナーの資格・実績は店舗ページで確認できます。" },
-  { q: "食事管理はどのように行われますか？", a: "オプションで管理栄養士による1か月間の食事管理（期間中いつでもLINEで相談）を付けられます。全ての食事にトレーナーがコメントする「ライフマネジメントプラン」、食事管理を含む回数コースもあります。" },
+  { q: "食事管理はどのように行われますか？", a: "料金ページでは、オプションとして管理栄養士による食事管理（2週間11,000円・税込）とオンライン健康相談（5,500円・税込）が掲載されています。LINEでの食事管理を含む食事管理コース（16回256,080円〜）もあります（2026年10月28日確認）。" },
+  { q: "回数券と月額コースはどちらが安くなりますか？", a: "回数券の1回あたりは8回で8,030円、40回で6,820円です。月額コースは月9,900円に1回5,060円〜が加わるため、月4回なら30,140円（1回あたり7,535円）、月8回なら50,380円（1回あたり約6,298円）です（いずれも税込・当サイト計算。回数券の料金は店舗により異なると公式に記載があります）。" },
+  { q: "公式サイトに表示されている口コミは信頼できますか？", a: "公式トップの口コミ欄はGoogleの口コミを埋め込んで表示したもので、店舗別の評点と件数が出ます。ただし赤坂店の欄は表示名が「ReXeR」で、表示される投稿の多くは本町の24時間ジムに関するものでした（2026年10月28日確認）。パーソナルジムの評判を確かめる際は、Googleマップで店舗名「ReXeR PeRSoNaL GyM」を指定してご確認ください。" },
   { q: "無料体験や見学はできますか？", a: "無料カウンセリングのみの利用も可能と公式FAQに記載されています。体験はトップページに「体験3,960円・当日入会で0円」と「無料体験のご予約」の両方の表記があります（苦楽園・赤坂はキャンペーン内容が異なる）。" },
   { q: "店舗はどこにありますか？", a: "赤坂・五反田（東京）、梅田中津・天六（大阪）、芦屋苦楽園・西宮（兵庫）の6店舗です。本町・南青山はReXeRグループの24時間フィットネスラウンジなど別の拠点です。" },
 ];
@@ -126,7 +179,7 @@ export default function RexerReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-14"
+        "dateModified": "2026-10-28"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "ReXeR（レクサー）" }]} />
 
@@ -134,11 +187,27 @@ export default function RexerReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           ReXeR（レクサー）の口コミ・評判｜料金・店舗・悪い口コミを検証
         </h1>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月28日（料金・店舗・オプションを公式サイトで再確認し、公式サイトに表示される店舗別のGoogleの評点を集計）</p>
+
+        <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="ReXeR（レクサー）とは">
+          <h2 className="font-bold text-gray-900 mb-3">ReXeR（レクサー）の口コミ・評判と料金：要点のまとめ</h2>
+          <dl className="space-y-2 text-sm">
+            {summary.map((r) => (
+              <div key={r.label} className="sm:flex sm:gap-3">
+                <dt className="font-bold text-gray-800 sm:w-24 shrink-0">{r.label}</dt>
+                <dd className="text-gray-700 leading-relaxed">{r.value}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="text-xs text-gray-500 mt-3">
+            出典: <Src href={SRC.top}>公式トップ</Src>・<Src href={SRC.plan}>コース・料金</Src>・<Src href={SRC.faq}>よくある質問</Src>・<Src href={SRC.about}>会社概要</Src>（いずれも{CHECKED}確認）。料金・条件は変更される場合があります。
+          </p>
+        </section>
+
         <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
           <img src="/brand-ss/lexer.jpg" alt="ReXeR（レクサー）の公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">ReXeR（レクサー） 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月14日（料金・店舗・返金条件を公式サイトで再確認）</p>
         <GymCta slug="lexer" name="ReXeR（レクサー）" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -251,6 +320,38 @@ export default function RexerReview() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
+          <h3 className="font-bold text-gray-800 mt-8 mb-3">回数券の1回あたりの料金（当サイト計算）</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200">
+              <thead>
+                <tr className="bg-gray-50">
+                  <th className="px-3 py-2 text-left font-medium">回数券</th>
+                  <th className="px-3 py-2 text-left font-medium">料金（税込）</th>
+                  <th className="px-3 py-2 text-left font-medium">1回あたり</th>
+                </tr>
+              </thead>
+              <tbody>
+                {ticketPlans.map((t) => (
+                  <tr key={t.n} className="border-t border-gray-100">
+                    <td className="px-3 py-2">{t.n}回</td>
+                    <td className="px-3 py-2">{yen(t.price)}</td>
+                    <td className="px-3 py-2">{yen(t.price / t.n)}</td>
+                  </tr>
+                ))}
+                <tr className="border-t border-gray-100">
+                  <td className="px-3 py-2">月額コース 月4回</td>
+                  <td className="px-3 py-2">{yen(9900 + 5060 * 4)}/月</td>
+                  <td className="px-3 py-2">{yen((9900 + 5060 * 4) / 4)}</td>
+                </tr>
+                <tr className="border-t border-gray-100">
+                  <td className="px-3 py-2">月額コース 月8回</td>
+                  <td className="px-3 py-2">{yen(9900 + 5060 * 8)}/月</td>
+                  <td className="px-3 py-2">{yen((9900 + 5060 * 8) / 8)}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-2">出典: <Src href={SRC.plan}>コース・料金</Src>（{CHECKED}確認）。回数券は「〜」表記の最低額で、公式に「回数券の料金は店舗により異なります」と記載されています。月額コースは月額9,900円に都度料金5,060円〜を加えて計算しました。1回の時間はFAQでは50分、料金ページでは約55分と表記されています。</p>
         </section>
 
         {/* 中間CTA */}
@@ -268,7 +369,34 @@ export default function RexerReview() {
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
+          <h3 className="font-bold text-gray-800 mt-8 mb-3">公式サイトに表示されている店舗別のGoogleの評点</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            公式トップの「お客様の声」欄では、Googleの口コミが店舗別に埋め込み表示されています。当サイトでは{CHECKED}に表示内容を確認し、評点と件数を転記しました。赤坂店欄を除く5店舗の合計は280件で、口コミ数で加重した平均は4.96です（当サイト計算）。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200">
+              <thead>
+                <tr className="bg-gray-50">
+                  <th className="px-3 py-2 text-left font-medium">店舗欄</th>
+                  <th className="px-3 py-2 text-left font-medium">評点</th>
+                  <th className="px-3 py-2 text-left font-medium">件数</th>
+                  <th className="px-3 py-2 text-left font-medium">備考</th>
+                </tr>
+              </thead>
+              <tbody>
+                {officialReviewWidget.map((r) => (
+                  <tr key={r.store} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 whitespace-nowrap">{r.store}</td>
+                    <td className="px-3 py-2">{r.rating}</td>
+                    <td className="px-3 py-2">{r.count}件</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{r.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-2">出典: <Src href={SRC.top}>公式トップ「お客様の声」</Src>（{CHECKED}閲覧）。埋め込み表示の値は取得時点のもので、Googleマップ上の最新値と異なる場合があります。運営者が掲載する欄のため、第三者による集計ではありません。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 口コミの傾向は、上記の出典を当サイトで確認して要約したものです。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         {/* FAQ */}
