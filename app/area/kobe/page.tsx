@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq, getAreaPickCount } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("kobe", "神戸");
@@ -19,15 +19,15 @@ const areaName = "神戸";
 const selectionPoints = [
   {
     title: "三宮・元町エリアを中心に探す",
-    desc: "神戸のパーソナルジムは三宮駅・元町駅周辺に集中しています。JR・阪急・阪神の3路線が乗り入れる三宮はアクセスが良く、通いやすい環境が整っています。",
+    desc: "三宮にはJR・阪急・阪神の3路線が乗り入れています。通勤・通学の経路に合わせて、三宮周辺か元町周辺かを絞って探すと効率的です。",
   },
   {
     title: "大阪のジムも比較対象にする",
-    desc: "神戸から大阪（梅田・心斎橋）は電車で20〜30分程度とアクセスが良いため、大阪のジムも選択肢に入ります。特に大阪の方が選択肢が豊富なため、両エリアで比較検討することをおすすめします。",
+    desc: `神戸から大阪（梅田・心斎橋）は電車で20〜30分程度のため、大阪のジムも選択肢に入ります。当サイトの掲載数は神戸が${pickCopy.count}社、大阪が${getAreaPickCount("osaka")}社です。両エリアで比較検討することをおすすめします。`,
   },
   {
     title: "体験・カウンセリングを活用する",
-    desc: "神戸エリアのジムは店舗数が限られるため、選択肢を広げるためにも複数の無料カウンセリングに足を運び、トレーナーとの相性や施設の雰囲気を直接ご確認ください。",
+    desc: "複数の無料カウンセリングに足を運び、トレーナーとの相性や施設の雰囲気を直接ご確認ください。",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function KobeAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          神戸は三宮・元町エリアを中心にパーソナルジムが出店している都市です。JR・阪急・阪神の3路線が集まる三宮はアクセスが良く、大手チェーンも出店しています。大阪にも近いため、両エリアで比較検討するのもおすすめです。{pickCopy.intro}
+          神戸は、JR・阪急・阪神の3路線が集まる三宮と、元町を中心としたエリアです。大阪にも近いため、両エリアで比較検討するのもおすすめです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

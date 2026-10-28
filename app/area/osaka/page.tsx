@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("osaka", "大阪");
 
@@ -19,7 +19,7 @@ const areaName = "大阪";
 const selectionPoints = [
   {
     title: "梅田・心斎橋・なんばエリアを中心に探す",
-    desc: "大阪のパーソナルジムは梅田・心斎橋・なんばエリアに集中しています。通勤・通学の動線上にあるジムを選ぶと継続しやすくなります。御堂筋線沿線は特にジムの選択肢が豊富です。",
+    desc: `${areaStoreNameSentence("osaka", [["梅田", "心斎橋", "なんば", "難波"]])}通勤・通学の動線上にあるジムを選ぶと継続しやすくなります。`,
   },
   {
     title: "料金は通う店舗の公式ページで確認する",
@@ -67,7 +67,7 @@ export default function OsakaAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          大阪は東京に次いでパーソナルジムが多く集まるエリアで、梅田・心斎橋・なんばを中心に多数のジムが出店しています。大手チェーンから関西発の個性派ジムまで選択肢が豊富でです。{pickCopy.intro}
+          大阪は、梅田・心斎橋・なんばを中心としたエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

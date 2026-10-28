@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("saitama", "さいたま");
@@ -19,7 +19,7 @@ const areaName = "さいたま";
 const selectionPoints = [
   {
     title: "大宮駅周辺を中心に探す",
-    desc: "さいたま市のパーソナルジムは大宮駅周辺に最も集中しています。JR・東武・ニューシャトルが乗り入れるターミナル駅で、埼玉県内のどこからでもアクセスしやすいエリアです。",
+    desc: `${areaStoreNameSentence("saitama", [["大宮"]])}大宮駅はJR・東武・ニューシャトルが乗り入れるターミナル駅です。`,
   },
   {
     title: "東京のジムとの比較も視野に入れる",
@@ -27,7 +27,7 @@ const selectionPoints = [
   },
   {
     title: "駐車場の有無を確認する",
-    desc: "埼玉県は車利用が多い地域のため、駐車場完備や近隣にパーキングがあるジムを選ぶと通いやすくなります。大宮駅周辺は駐車場も豊富です。",
+    desc: "車で通う場合は、ジムの駐車場や近隣のコインパーキングの有無を、通う店舗の公式ページで事前にご確認ください。",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function SaitamaAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          さいたま市は大宮駅を中心にパーソナルジムが充実している埼玉県の中心エリアです。大手チェーンが大宮駅周辺に揃っており、都内に出なくても質の高いパーソナルトレーニングを受けられます。{pickCopy.intro}
+          さいたま市は埼玉県の県庁所在地で、JR・東武・ニューシャトルが乗り入れる大宮駅があります。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

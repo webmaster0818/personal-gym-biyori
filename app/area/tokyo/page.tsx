@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("tokyo", "東京");
 
@@ -18,7 +18,7 @@ const areaName = "東京";
 const selectionPoints = [
   {
     title: "通いやすいエリア・駅からの距離を重視する",
-    desc: "東京は交通網が発達しているため、自宅や職場の最寄り駅から通いやすい立地のジムを選ぶことが継続の鍵です。主要ターミナル駅（新宿・渋谷・池袋など）には多数のジムが集中しており、乗り換えなしで通える店舗を探すことをおすすめします。",
+    desc: `自宅や職場の最寄り駅から通いやすい立地のジムを選ぶことが、継続につながります。${areaStoreNameSentence("tokyo", [["新宿", "渋谷", "池袋"]])}乗り換えなしで通える店舗を探すことをおすすめします。`,
   },
   {
     title: "料金体系と総額を必ず確認する",
@@ -69,7 +69,7 @@ export default function TokyoAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          東京は日本で最もパーソナルジムが多く集まるエリアです。新宿・渋谷・池袋・銀座・六本木といった主要エリアを中心に、大手から個人経営まで多くのジムが出店しています。選択肢が豊富な反面、自分に合ったジムを見つけるのが難しいエリアでもあります。{pickCopy.intro}
+          当サイトでは、新宿・渋谷・池袋・銀座・六本木など東京都内の主要エリアごとにもページを設けています。{pickCopy.intro}
         </p>
 
         {/* 選び方のポイント */}

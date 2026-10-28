@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 import AreaTopSummary from "@/components/AreaTopSummary";
 
@@ -19,16 +19,16 @@ const areaName = "池袋";
 
 const selectionPoints = [
   {
-    title: "東口・西口の特色の違いを把握する",
-    desc: "池袋駅東口は商業施設が充実し賑やか、西口はオフィス街で落ち着いた雰囲気です。仕事帰りに通うなら西口、買い物ついでなら東口と、ライフスタイルに合わせてエリアを選ぶことをおすすめします。",
+    title: "東口・西口のどちらから通うかを決める",
+    desc: `${areaStoreNameSentence("ikebukuro", [["東口"], ["西口"]])}通勤経路や利用する出口に合わせて、通う店舗を選ぶことをおすすめします。`,
   },
   {
     title: "埼玉方面からのアクセスの良さを活かす",
-    desc: "池袋はJR・東武・西武・地下鉄が乗り入れるターミナル駅で、埼玉県からのアクセスが特に良好です。大宮やさいたま方面から通う場合、池袋は都内で最も通いやすいエリアの一つです。",
+    desc: "池袋駅はJR・東武・西武・地下鉄が乗り入れるターミナル駅で、東武東上線・西武池袋線・JR埼京線などの埼玉方面の路線も利用できます。",
   },
   {
     title: "複数社の体験を比較する",
-    desc: "池袋は主要チェーンが揃っているため、2〜3社の無料カウンセリングを受けて比較するのが効果的です。各ジムの雰囲気やトレーナーの相性を確かめてから決めることをおすすめします。",
+    desc: `当サイトでは池袋で${pickCopy.count}社を掲載しています。2〜3社の無料カウンセリングを受けて比較し、各ジムの雰囲気やトレーナーとの相性を確かめてから決めることをおすすめします。`,
   },
 ];
 
@@ -69,7 +69,7 @@ export default function IkebukuroAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          池袋は新宿・渋谷と並ぶ東京の主要ターミナル駅で、埼玉方面からのアクセスが特に良好なエリアです。東口の商業エリアと西口のオフィス街にそれぞれパーソナルジムが出店しており、ライフスタイルに合わせた選択ができます。{pickCopy.intro}
+          池袋は、JR・東武・西武・東京メトロが乗り入れるターミナル駅を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <AreaTopSummary slug="ikebukuro" areaName="池袋" />

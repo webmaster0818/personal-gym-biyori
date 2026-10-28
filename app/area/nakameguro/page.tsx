@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq, areaFeatureSentence } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("nakameguro", "中目黒");
 
@@ -17,8 +17,8 @@ const areaName = "中目黒";
 
 const selectionPoints = [
   {
-    title: "落ち着いた雰囲気のプライベートジムを選ぶ",
-    desc: "中目黒はおしゃれで落ち着いた雰囲気の街です。隠れ家的なプライベートジムが多く、リラックスした環境でトレーニングに集中できます。",
+    title: "個室の有無を確認する",
+    desc: `${areaFeatureSentence("nakameguro", "中目黒", "完全個室")}人目を気にせずトレーニングしたい方は、通う店舗の公式ページまたはカウンセリングで個室かどうかをご確認ください。`,
   },
   {
     title: "恵比寿・代官山エリアも合わせて検討",
@@ -26,7 +26,7 @@ const selectionPoints = [
   },
   {
     title: "ライフスタイルに合った通い方ができるか確認",
-    desc: "中目黒は住みたい街としても人気があります。自宅近くのジムに休日に通う方法もあります。営業時間や予約の取りやすさをご確認ください。",
+    desc: "自宅近くのジムに休日に通う方法もあります。営業時間や予約の取りやすさをご確認ください。",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function NakameguroAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          中目黒はおしゃれなカフェやショップが並ぶ人気エリアです。落ち着いた雰囲気の中でトレーニングできるプライベートジムが充実しています。恵比寿・代官山へも徒歩圏内で、ライフスタイルに合わせたジム選びが可能です。{pickCopy.intro}
+          中目黒は、東急東横線と東京メトロ日比谷線が乗り入れる中目黒駅を中心としたエリアです。恵比寿・代官山へも徒歩圏内で、ライフスタイルに合わせたジム選びが可能です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

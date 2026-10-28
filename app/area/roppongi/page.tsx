@@ -17,10 +17,6 @@ const areaName = "六本木";
 
 const selectionPoints = [
   {
-    title: "六本木のハイクラスなジムに注目する",
-    desc: "六本木は外資系企業や大使館が多いエリアで、パーソナルジムもハイクラスな施設が充実しています。ラグジュアリーな空間でトレーニングしたい方に適したエリアです。",
-  },
-  {
     title: "通いたい時間帯の営業時間を確認する",
     desc: "営業時間は店舗ごとに異なります。不規則な勤務形態の方や、夜遅くにトレーニングしたい方は、通う店舗の公式ページで営業時間と最終予約の時刻をご確認ください。",
   },
@@ -66,7 +62,7 @@ export default function RoppongiAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          六本木は外資系企業やIT企業が集まる国際的なビジネスエリアで、ハイクラスなパーソナルジムが充実しています。{pickCopy.intro}
+          六本木は、東京メトロ日比谷線と都営大江戸線が乗り入れる六本木駅を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq, areaFeatureSentence } from "@/lib/area-picks";
 
 const pickCopy = getAreaPickCopy("jiyugaoka", "自由が丘");
 
@@ -17,16 +17,12 @@ const areaName = "自由が丘";
 
 const selectionPoints = [
   {
-    title: "住宅街ならではの通いやすさを重視",
-    desc: "自由が丘は住宅街として人気のエリアです。自宅からの距離や通いやすさを最優先に考え、生活圏内のジムを選ぶことで長く続けられます。",
+    title: "自宅からの通いやすさを重視する",
+    desc: "自宅からの距離や通いやすさを優先し、生活圏内のジムを選ぶと継続しやすくなります。",
   },
   {
-    title: "女性向けプログラムが充実しているか確認",
-    desc: "自由が丘は女性人気の高いエリアで、女性向けのプログラムや女性専用ジムが充実しています。美容やダイエットを目的とする方に適しています。",
-  },
-  {
-    title: "アットホームな雰囲気のジムを選ぶ",
-    desc: "自由が丘には大手チェーンだけでなく、個人経営のアットホームなジムも多数あります。一人ひとりに寄り添った丁寧な指導を受けたい方におすすめです。",
+    title: "女性専用かどうかを確認する",
+    desc: `${areaFeatureSentence("jiyugaoka", "自由が丘", "女性専用")}女性専用のジムを希望する方は、関連エリアのページもあわせてご覧ください。`,
   },
 ];
 
@@ -67,7 +63,7 @@ export default function JiyugaokaAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          自由が丘はおしゃれな街並みと住みやすさで人気のエリアです。女性向けのプログラムやプライベートジムが充実しており、ライフスタイルに合わせた通い方ができます。{pickCopy.intro}
+          自由が丘は、東急東横線と東急大井町線が乗り入れる自由が丘駅を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

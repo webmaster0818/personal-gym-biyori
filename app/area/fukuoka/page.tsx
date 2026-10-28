@@ -5,7 +5,7 @@ import AreaTopSummary from "@/components/AreaTopSummary";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("fukuoka", "福岡");
@@ -20,15 +20,15 @@ const areaName = "福岡";
 const selectionPoints = [
   {
     title: "天神・博多駅エリアを中心に探す",
-    desc: "福岡のパーソナルジムは天神エリアと博多駅周辺に集中しています。地下鉄空港線沿線の店舗であれば、仕事帰りにも通いやすくなります。",
+    desc: `${areaStoreNameSentence("fukuoka", [["天神"], ["博多"]])}天神と博多は地下鉄空港線で結ばれており、沿線の店舗であれば仕事帰りにも通いやすくなります。`,
   },
   {
     title: "料金は通う店舗の公式ページで確認する",
     desc: "当サイトでは、福岡と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
   {
-    title: "地元で実績のあるジムにも注目する",
-    desc: "福岡には全国チェーンだけでなく、地元で長年の実績を持つパーソナルジムも存在します。口コミやGoogleマップの評価を参考に、地域密着型のジムも候補に入れることをおすすめします。",
+    title: "Googleマップの口コミも参考にする",
+    desc: "全国チェーン以外のパーソナルジムは、本ページ下部の「Googleマップの口コミデータ」の一覧に掲載しています。口コミの件数・評点を参考にしつつ、料金と所在地は各ジムの公式サイトでご確認ください。",
   },
 ];
 
@@ -66,7 +66,7 @@ export default function FukuokaAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          福岡は九州最大の都市で、天神・博多エリアを中心にパーソナルジムが出店しています。大手チェーンが主要エリアに揃っているほか、地元発の実力派ジムもあり、選択肢が充実しています。{pickCopy.intro}
+          福岡は九州最大の都市です。{pickCopy.intro}
         </p>
 
         <AreaTopSummary slug="fukuoka" areaName="福岡" />

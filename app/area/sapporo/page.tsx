@@ -20,7 +20,7 @@ const areaName = "札幌";
 const selectionPoints = [
   {
     title: "札幌駅・大通エリアを中心に探す",
-    desc: "札幌のパーソナルジムは札幌駅周辺と大通・すすきのエリアに集まっています。地下鉄南北線・東西線沿線のジムが特に通いやすく、冬場も地下通路でアクセスできる店舗がおすすめです。",
+    desc: "札幌駅周辺と大通・すすきのは地下鉄南北線で結ばれています。冬季は、地下通路でアクセスできるかどうかも店舗選びの判断材料になります。",
   },
   {
     title: "冬の通いやすさを考慮する",
@@ -66,7 +66,7 @@ export default function SapporoAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          札幌は北海道最大の都市で、札幌駅・大通・すすきのエリアを中心にパーソナルジムが出店しています。積雪期が長い札幌では駅に近い店舗が特に重宝されます。{pickCopy.intro}
+          札幌は北海道最大の都市です。{pickCopy.intro}
         </p>
 
         <AreaTopSummary slug="sapporo" areaName="札幌" />

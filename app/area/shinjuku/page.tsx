@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("shinjuku", "新宿");
@@ -19,11 +19,11 @@ const areaName = "新宿";
 const selectionPoints = [
   {
     title: "出口別にエリアを絞って探す",
-    desc: "新宿駅は西口・東口・南口と出口によって雰囲気が大きく異なります。西口はオフィス街でビジネスパーソン向けジムが多く、東口・南口は繁華街に近いため営業時間が長い店舗が充実しています。",
+    desc: `${areaStoreNameSentence("shinjuku", [["西口"], ["東口"]])}新宿駅は出口が多いため、店舗名に出口名を含まない店舗も含めて、通う店舗の公式ページで所在地と最寄り出口をご確認ください。`,
   },
   {
-    title: "ジムが多いエリアならではの価格競争を活かす",
-    desc: "新宿はパーソナルジムが多く集まるエリアです。入会金の割引などのキャンペーンは内容と期間がブランドごとに異なるため、入会の時期も含めて比較することをおすすめします。",
+    title: "キャンペーンの内容を比較する",
+    desc: `当サイトでは新宿で${pickCopy.count}社を掲載しています。入会金の割引などのキャンペーンは、内容と期間がブランドごとに異なります。入会の時期も含めて比較することをおすすめします。`,
   },
   {
     title: "通勤・通学の動線上にあるジムを選ぶ",
@@ -67,7 +67,7 @@ export default function ShinjukuAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          新宿は日本屈指のターミナル駅で、パーソナルジムが多く集まるエリアです。西口のオフィス街から東口の繁華街まで、多種多様なジムが出店しています。{pickCopy.intro}
+          新宿は、JR・小田急・京王・東京メトロ・都営地下鉄が乗り入れる新宿駅を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

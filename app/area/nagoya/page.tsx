@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("nagoya", "名古屋");
@@ -19,15 +19,15 @@ const areaName = "名古屋";
 const selectionPoints = [
   {
     title: "名駅・栄エリアを中心に探す",
-    desc: "名古屋のパーソナルジムは名古屋駅（名駅）周辺と栄エリアに集中しています。地下街から直結のビルに入っている店舗も多く、天候を気にせず通えるのが名古屋ならではの利点です。",
+    desc: `${areaStoreNameSentence("nagoya", [["名駅", "名古屋駅", "栄"]])}地下街と直結しているかどうかは店舗ごとに異なるため、通う店舗の公式ページでご確認ください。`,
   },
   {
     title: "車通いも視野に入れる",
-    desc: "名古屋は車社会のため、駐車場完備のジムや近隣にコインパーキングがあるジムを選ぶのも有効です。駅から離れていても車でアクセスしやすい店舗もあります。",
+    desc: "車で通う場合は、ジムの駐車場や近隣のコインパーキングの有無を、通う店舗の公式ページで事前にご確認ください。",
   },
   {
-    title: "地元密着型ジムも検討する",
-    desc: "名古屋には大手チェーンに加えて、地元密着型の質の高いパーソナルジムも多数あります。口コミ評価や実績を確認し、大手以外の選択肢も検討することをおすすめします。",
+    title: "Googleマップの口コミも参考にする",
+    desc: "全国チェーン以外のパーソナルジムは、本ページ下部の「Googleマップの口コミデータ」の一覧に掲載しています。口コミの件数・評点を参考にしつつ、料金と所在地は各ジムの公式サイトでご確認ください。",
   },
 ];
 
@@ -66,7 +66,7 @@ export default function NagoyaAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          名古屋は名駅・栄を中心にパーソナルジムの出店が活発なエリアです。大手チェーンから地元密着型ジムまで選択肢が豊富で、車社会ならではの駐車場付き店舗もあります。{pickCopy.intro}
+          名古屋は、名古屋駅（名駅）周辺と栄を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

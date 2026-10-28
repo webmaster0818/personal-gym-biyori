@@ -5,7 +5,7 @@ import AreaTopSummary from "@/components/AreaTopSummary";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, getAreaPickCount } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("sendai", "仙台");
@@ -20,15 +20,15 @@ const areaName = "仙台";
 const selectionPoints = [
   {
     title: "仙台駅・青葉通エリアを中心に探す",
-    desc: "仙台のパーソナルジムは仙台駅西口から青葉通一番町にかけてのエリアに集中しています。アーケード街に近い店舗は天候を気にせず通えるのが利点です。",
+    desc: "仙台駅西口から一番町にかけてはアーケード街があります。アーケードに近い店舗は、雨や雪の日でも通いやすくなります。",
   },
   {
-    title: "東北の料金相場を把握する",
-    desc: "仙台は東北最大の都市ですが、東京と比べるとパーソナルジムの選択肢はやや少なめです。その分、大手チェーンのキャンペーンが充実していることもあるため、入会時期も含めて比較することをおすすめします。",
+    title: "掲載数とキャンペーンを比較する",
+    desc: `当サイトの掲載数は仙台が${pickCopy.count}社、東京全域が${getAreaPickCount("tokyo")}社です。入会金の割引などのキャンペーンは、内容と期間がブランドごとに異なります。入会の時期も含めて比較することをおすすめします。`,
   },
   {
     title: "継続しやすい環境かどうかを重視する",
-    desc: "仙台は冬場の寒さが厳しいため、駅からの距離や施設内の快適さが継続のポイントになります。シャワー完備で手ぶらで通えるジムは特に冬場の通いやすさにつながります。",
+    desc: "冬季に通う場合は、駅からの距離や施設の設備が継続のポイントになります。シャワーの有無や、手ぶらで通えるかを通う店舗の公式ページでご確認ください。",
   },
 ];
 
@@ -66,7 +66,7 @@ export default function SendaiAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          仙台は東北最大の都市で、仙台駅周辺を中心にパーソナルジムが出店しています。大手チェーンから地元密着型まで選べる環境が整いつつあり、東北在住でパーソナルジムを探している方の選択肢が広がっています。{pickCopy.intro}
+          仙台は東北最大の都市です。{pickCopy.intro}
         </p>
 
         <AreaTopSummary slug="sendai" areaName="仙台" />

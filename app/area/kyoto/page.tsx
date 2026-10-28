@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("kyoto", "京都");
@@ -19,7 +19,7 @@ const areaName = "京都";
 const selectionPoints = [
   {
     title: "四条河原町・烏丸エリアを中心に探す",
-    desc: "京都のパーソナルジムは四条河原町・烏丸エリアに多く集まっています。阪急・地下鉄の交差する四条烏丸は、京都市内のどこからでもアクセスしやすいエリアです。",
+    desc: `${areaStoreNameSentence("kyoto", [["四条", "河原町"]])}四条烏丸では阪急京都線と地下鉄烏丸線が交差しています。`,
   },
   {
     title: "大阪のジムとの比較も検討する",
@@ -27,7 +27,7 @@ const selectionPoints = [
   },
   {
     title: "生活リズムに合った営業時間を確認する",
-    desc: "京都は観光都市としての性格もあり、ジムの営業時間帯が店舗によって異なります。早朝や夜遅くに通いたい方は営業時間を事前にご確認ください。",
+    desc: "ジムの営業時間は店舗によって異なります。早朝や夜遅くに通いたい方は、通う店舗の公式ページで営業時間を事前にご確認ください。",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function KyotoAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          京都は四条河原町・烏丸エリアを中心にパーソナルジムが集まっています。大手チェーンが揃っているほか、地元密着型のジムも存在し、選択肢が広がっています。大阪へのアクセスも良いため、両エリアでの比較検討もおすすめです。{pickCopy.intro}
+          京都は、四条河原町・四条烏丸を中心としたエリアです。大阪へのアクセスも良いため、両エリアでの比較検討もおすすめです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

@@ -68,7 +68,7 @@ export default function FunabashiAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          船橋は千葉県内でも有数の繁華街で、JR・京成・東武の複数路線が乗り入れる交通の便の良いエリアです。{pickCopy.intro}
+          船橋は、JR・京成・東武の複数路線が乗り入れるエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

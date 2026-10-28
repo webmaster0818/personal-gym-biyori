@@ -23,11 +23,7 @@ const selectionPoints = [
   },
   {
     title: "JR・地下鉄のアクセスの良さを活かす",
-    desc: "上野駅はJR各線・銀座線・日比谷線が乗り入れる交通の要所です。近隣エリアからのアクセスも良好で、広範囲から通いやすいジムが見つかります。",
-  },
-  {
-    title: "アットホームな個人ジムも検討する",
-    desc: "上野エリアには大手だけでなく、地域密着型の個人経営ジムも多数あります。アットホームな雰囲気で丁寧な指導を受けたい方におすすめです。",
+    desc: "上野駅はJR各線・銀座線・日比谷線が乗り入れる交通の要所で、近隣エリアからもアクセスしやすい駅です。",
   },
 ];
 
@@ -68,7 +64,7 @@ export default function UenoAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          上野は東京の下町エリアとして親しまれ、JR各線や地下鉄が集まる交通の要所です。{pickCopy.intro}
+          上野は、JR各線や地下鉄が集まる交通の要所です。{pickCopy.intro}
         </p>
 
         <section className="mb-12">

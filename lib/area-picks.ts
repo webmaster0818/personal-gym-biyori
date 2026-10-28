@@ -526,3 +526,33 @@ export function buildAreaTrialFaq(slug: string, areaName: string): { q: string; 
   const body = parts.length === 2 ? `${parts[0]}で、${parts[1]}。` : trial.length ? `${parts[0]}です。` : `${parts[0]}。`;
   return [{ q, a: head + body + tail }];
 }
+
+/*
+ * /area/ 本文の事実文（2026-10-28）。出典のない「〇〇エリアは女性専用が充実」等の一般化を、
+ * この配列（公式の店舗一覧・公式サイトの記載）から機械的に数えた件数に置き換えるための関数。
+ */
+
+/** 掲載店舗のうち、店舗名に指定の語を含む店舗数。groups ごとに件数を出す（例: [["西口"], ["東口"]]） */
+export function areaStoreNameSentence(slug: string, groups: string[][]): string {
+  const stores = (AREA_PICKS[slug] ?? []).flatMap((p) => p.stores);
+  if (stores.length === 0) return "";
+  const parts = groups.map((kws, i) => {
+    const hit = stores.filter((s) => kws.some((k) => s.includes(k))).length;
+    return `${i === 0 ? "店舗名に" : ""}${kws.map((k) => `「${k}」`).join("")}を含むのは${hit}店舗`;
+  });
+  return `当サイトの掲載${stores.length}店舗のうち、${parts.join("、")}です。`;
+}
+
+/** 掲載ブランドのうち、公式サイトの記載から抜き出した特徴（features）に指定の語を含むブランド */
+export function areaFeatureSentence(slug: string, areaName: string, keyword: string, followUp = false): string {
+  const picks = AREA_PICKS[slug] ?? [];
+  if (picks.length === 0) return "";
+  const hits = picks.flatMap((p) => {
+    const f = (BRANDS[p.brand] as Brand).features.find((x) => x.includes(keyword));
+    return f ? [{ name: shortName(BRANDS[p.brand].name), feature: f }] : [];
+  });
+  if (hits.length === 0) return `当サイトが${areaName}で掲載している${picks.length}社に、${keyword}のブランドは含まれていません。`;
+  const names = hits.map((h) => (h.feature === keyword ? h.name : `${h.name}（「${h.feature}」）`)).join("、");
+  if (followUp) return `公式サイトの記載で${keyword}としているのは${names}の${hits.length}社です。`;
+  return `当サイトが${areaName}で掲載している${picks.length}社のうち、公式サイトの記載で${keyword}としているのは${names}の${hits.length}社です。`;
+}

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("omiya", "大宮");
@@ -19,15 +19,15 @@ const areaName = "大宮";
 const selectionPoints = [
   {
     title: "埼玉県最大のターミナル駅の利便性を活かす",
-    desc: "大宮駅はJR・東武・ニューシャトルなど多数の路線が乗り入れる埼玉県最大のターミナル駅です。県内各地からアクセスしやすく、広範囲の方が通えるジムが揃っています。",
+    desc: "大宮駅はJR・東武・ニューシャトルなど多数の路線が乗り入れる埼玉県最大のターミナル駅で、県内各地からアクセスしやすい駅です。",
   },
   {
     title: "料金は通う店舗の公式ページで確認する",
     desc: "当サイトでは、大宮と都心部の料金差を公式サイトの値で集計できていないため、エリアによる料金の高低は掲載していません。同じブランドでも店舗によって料金や入会金が異なる場合があるため、掲載ジムの料金とあわせて、通う店舗の公式ページをご確認ください。",
   },
   {
-    title: "東口・西口のエリア特性を理解して選ぶ",
-    desc: "大宮駅の東口は商業施設が充実し、西口はオフィス街です。ライフスタイルや通い方に合わせてエリアを絞ると効率的にジムを見つけられます。",
+    title: "東口・西口のどちら側かを確認する",
+    desc: `${areaStoreNameSentence("omiya", [["西口"]])}店舗名に出口名を含まない店舗もあるため、通う店舗の公式ページで所在地と最寄り出口をご確認ください。`,
   },
 ];
 

@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq, areaFeatureSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 
 const pickCopy = getAreaPickCopy("ebisu", "恵比寿");
@@ -18,16 +18,12 @@ const areaName = "恵比寿";
 
 const selectionPoints = [
   {
-    title: "おしゃれな街ならではの高品質ジムを選ぶ",
-    desc: "恵比寿は感度の高い層が多いエリアのため、内装やサービスにこだわったハイクオリティなジムが充実しています。トレーニング環境の質を重視する方に適しています。",
-  },
-  {
     title: "駅近で仕事帰りに通いやすいか確認",
     desc: "恵比寿駅はJRと日比谷線が交差するターミナル駅です。駅からの距離は店舗ごとに異なるため、仕事帰りに通う場合は公式の店舗ページで最寄り出口からの徒歩分数をご確認ください。",
   },
   {
     title: "女性専用・プライベート空間の有無を確認する",
-    desc: "恵比寿には女性専用や完全個室のジムが多数あります。人目を気にせずトレーニングしたい方は、プライベート空間が確保されているかをご確認ください。",
+    desc: `${areaFeatureSentence("ebisu", "恵比寿", "女性専用")}${areaFeatureSentence("ebisu", "恵比寿", "完全個室", true)}人目を気にせずトレーニングしたい方は、プライベート空間が確保されているかを通う店舗の公式ページでご確認ください。`,
   },
 ];
 
@@ -68,7 +64,7 @@ export default function EbisuAreaPage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          恵比寿はおしゃれで感度の高いエリアとして知られ、質の高いパーソナルジムが集まっています。駅周辺に大手から個人経営まで多彩なジムが揃い、仕事帰りやショッピングのついでにも通いやすい環境です。{pickCopy.intro}
+          恵比寿は、JRと東京メトロ日比谷線が乗り入れる恵比寿駅を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <section className="mb-12">
