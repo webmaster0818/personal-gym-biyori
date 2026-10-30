@@ -122,7 +122,7 @@ const stores: Store[] = [
     ['神奈川', '横浜', '/review/rizap/yokohama/'],
     ['大阪', '梅田', '/review/rizap/umeda/'],
     ['愛知', '名古屋', '/review/rizap/nagoya/'],
-    ['福岡', '天神', '/review/rizap/tenjin/'],
+    ['福岡', '天神', '/review/rizap/fukuoka/'],
   ]),
   /* ── 24/7ワークアウト (no affiliate, premium) ─────────── */
   ...mkStores('24/7ワークアウト', {
@@ -142,7 +142,7 @@ const stores: Store[] = [
     ['神奈川', '横浜', '/review/247workout/yokohama/'],
     ['大阪', '梅田', '/review/247workout/umeda/'],
     ['愛知', '名古屋', '/review/247workout/nagoya/'],
-    ['福岡', '天神', '/review/247workout/tenjin/'],
+    ['福岡', '天神', '/review/247workout/fukuoka/'],
     ['北海道', '札幌', '/review/247workout/sapporo/'],
   ]),
   /* ── チキンジム (no affiliate, budget) ───────────────── */
@@ -341,13 +341,13 @@ const stores: Store[] = [
     options: ['食事指導あり', '駅近(徒歩5分以内)'],
     affiliateUrl: CALORIE_TRADE_AFF,
   }, [
-    ['愛知', '名古屋瑞穂', '/review/calorie-trade-japan/mizuho/'],
-    ['愛知', '一宮', '/review/calorie-trade-japan/ichinomiya/'],
-    ['愛知', '名古屋緑', '/review/calorie-trade-japan/midori/'],
-    ['千葉', '松戸', '/review/calorie-trade-japan/matsudo/'],
-    ['宮城', '仙台', '/review/calorie-trade-japan/sendai/'],
-    ['大分', '別府', '/review/calorie-trade-japan/beppu/'],
-    ['沖縄', '宜野湾', '/review/calorie-trade-japan/ginowan/'],
+    ['愛知', '名古屋瑞穂', '/review/calorie-trade/nagoya-mizuho/'],
+    ['愛知', '一宮', '/review/calorie-trade/ichinomiya/'],
+    ['愛知', '名古屋緑', '/review/calorie-trade/nagoya-midori/'],
+    ['千葉', '松戸', '/review/calorie-trade/matsudo/'],
+    ['宮城', '仙台', '/review/calorie-trade/sendai/'],
+    ['大分', '別府', '/review/calorie-trade/beppu/'],
+    ['沖縄', '宜野湾', '/review/calorie-trade/ginowan/'],
   ]),
   /* ── RITA STYLE (affiliate, budget) ──────────────────── */
   ...mkStores('RITA STYLE', {
@@ -361,7 +361,7 @@ const stores: Store[] = [
     options: ['食事指導あり', '完全個室', '駅近(徒歩5分以内)'],
     affiliateUrl: RITA_STYLE_AFF,
   }, [
-    ['福岡', '天神', '/review/rita-style/tenjin/'],
+    ['福岡', '天神', '/review/rita-style/fukuoka-tenjin/'],
     ['福岡', '小倉', '/review/rita-style/kokura/'],
     ['熊本', '熊本', '/review/rita-style/kumamoto/'],
   ]),
