@@ -38,12 +38,6 @@ const faqJsonLd = {
   })),
 };
 
-/* ---------- 関連店舗 ---------- */
-const relatedStores = [
-  { name: "Laststyle 新宿店", href: "/review/laststyle/shinjuku/" },
-  { name: "Laststyle 町田店", href: "/review/laststyle/machida/" },
-];
-
 export default function StorePage() {
   return (
     <>
@@ -176,24 +170,6 @@ export default function StorePage() {
                 公式サイトへ
               </a>
             </div>
-          </div>
-        </section>
-
-        {/* ---------- 関連店舗 ---------- */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            関連店舗
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            {relatedStores.map((store) => (
-              <Link
-                key={store.href}
-                href={store.href}
-                className="block bg-gray-50 rounded-lg px-4 py-3 text-sm text-teal-700 hover:bg-teal-50 hover:text-teal-800 transition-colors text-center"
-              >
-                {store.name}
-              </Link>
-            ))}
           </div>
         </section>
       </div>

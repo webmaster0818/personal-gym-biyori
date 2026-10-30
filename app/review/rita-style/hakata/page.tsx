@@ -43,7 +43,6 @@ const relatedStores = [
   { name: "RITA STYLE 福岡天神店", href: "/review/rita-style/fukuoka-tenjin/" },
   { name: "RITA STYLE 小倉店", href: "/review/rita-style/kokura/" },
   { name: "RITA STYLE 熊本店", href: "/review/rita-style/kumamoto/" },
-  { name: "RITA STYLE 岡山店", href: "/review/rita-style/okayama/" },
 ];
 
 export default function StorePage() {

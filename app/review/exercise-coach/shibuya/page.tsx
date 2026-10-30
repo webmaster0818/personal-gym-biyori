@@ -42,7 +42,6 @@ const faqJsonLd = {
 /* ---------- 関連店舗 ---------- */
 const relatedStores = [
   { name: "エクササイズコーチ 新宿店", href: "/review/exercise-coach/shinjuku/" },
-  { name: "RIZAP 渋谷店", href: "/review/rizap/shibuya/" },
   { name: "BEYOND 渋谷店", href: "/review/beyond/shibuya/" },
 ];
 

@@ -42,7 +42,6 @@ const faqJsonLd = {
 const relatedStores = [
   { name: "RITA STYLE 福岡天神店", href: "/review/rita-style/fukuoka-tenjin/" },
   { name: "RITA STYLE 熊本店", href: "/review/rita-style/kumamoto/" },
-  { name: "RITA STYLE 佐賀店", href: "/review/rita-style/saga/" },
 ];
 
 export default function StorePage() {

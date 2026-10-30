@@ -41,7 +41,6 @@ const faqJsonLd = {
 /* ---------- 関連店舗 ---------- */
 const relatedStores = [
   { name: "RIZAP 銀座店", href: "/review/rizap/ginza/" },
-  { name: "RIZAP 渋谷店", href: "/review/rizap/shibuya/" },
   { name: "RIZAP 池袋店", href: "/review/rizap/ikebukuro/" },
 ];
 

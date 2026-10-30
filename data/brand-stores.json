@@ -1203,22 +1203,6 @@
   {
    "href": "/review/laststyle/ikebukuro/",
    "name": "池袋店"
-  },
-  {
-   "href": "/review/laststyle/machida/",
-   "name": "町田店"
-  },
-  {
-   "href": "/review/laststyle/shibuya/",
-   "name": "渋谷店"
-  },
-  {
-   "href": "/review/laststyle/shinjuku-2/",
-   "name": "新宿2号店"
-  },
-  {
-   "href": "/review/laststyle/shinjuku/",
-   "name": "新宿店"
   }
  ],
  "lino-u": [
@@ -1491,29 +1475,9 @@
   {
    "href": "/review/rita-style/kumamoto/",
    "name": "熊本店"
-  },
-  {
-   "href": "/review/rita-style/nagasaki/",
-   "name": "長崎店"
-  },
-  {
-   "href": "/review/rita-style/okayama/",
-   "name": "岡山店"
-  },
-  {
-   "href": "/review/rita-style/saga/",
-   "name": "佐賀店"
   }
  ],
  "rizap": [
-  {
-   "href": "/review/rizap/akasaka/",
-   "name": "赤坂店"
-  },
-  {
-   "href": "/review/rizap/azabujuban/",
-   "name": "麻布十番店"
-  },
   {
    "href": "/review/rizap/chiba/",
    "name": "千葉店"
@@ -1543,24 +1507,12 @@
    "name": "銀座店"
   },
   {
-   "href": "/review/rizap/gotanda/",
-   "name": "五反田店"
-  },
-  {
-   "href": "/review/rizap/hachioji/",
-   "name": "八王子店"
-  },
-  {
    "href": "/review/rizap/hakata/",
    "name": "博多店"
   },
   {
    "href": "/review/rizap/hiroshima/",
    "name": "広島店"
-  },
-  {
-   "href": "/review/rizap/ikebukuro-east/",
-   "name": "池袋東口店"
   },
   {
    "href": "/review/rizap/ikebukuro/",
@@ -1573,10 +1525,6 @@
   {
    "href": "/review/rizap/kagoshima/",
    "name": "鹿児島店"
-  },
-  {
-   "href": "/review/rizap/kamata/",
-   "name": "蒲田店"
   },
   {
    "href": "/review/rizap/kanayama/",
@@ -1627,24 +1575,12 @@
    "name": "名駅店"
   },
   {
-   "href": "/review/rizap/musashikosugi/",
-   "name": "武蔵小杉店"
-  },
-  {
    "href": "/review/rizap/nagoya/",
    "name": "名古屋店"
   },
   {
-   "href": "/review/rizap/nakameguro/",
-   "name": "中目黒店"
-  },
-  {
    "href": "/review/rizap/namba/",
    "name": "なんば店"
-  },
-  {
-   "href": "/review/rizap/nerima/",
-   "name": "練馬店"
   },
   {
    "href": "/review/rizap/niigata/",
@@ -1655,18 +1591,6 @@
    "name": "大宮店"
   },
   {
-   "href": "/review/rizap/roppongi/",
-   "name": "六本木店"
-  },
-  {
-   "href": "/review/rizap/sangenjaya/",
-   "name": "三軒茶屋店"
-  },
-  {
-   "href": "/review/rizap/sannomiya/",
-   "name": "神戸三宮店"
-  },
-  {
    "href": "/review/rizap/sapporo/",
    "name": "札幌店"
   },
@@ -1675,24 +1599,12 @@
    "name": "仙台店"
   },
   {
-   "href": "/review/rizap/shibuya/",
-   "name": "渋谷店"
-  },
-  {
    "href": "/review/rizap/shinagawa/",
    "name": "品川店"
   },
   {
-   "href": "/review/rizap/shinjuku-3chome/",
-   "name": "新宿三丁目店"
-  },
-  {
    "href": "/review/rizap/shinjuku/",
    "name": "新宿店"
-  },
-  {
-   "href": "/review/rizap/shinsaibashi/",
-   "name": "心斎橋店"
   },
   {
    "href": "/review/rizap/tachikawa/",

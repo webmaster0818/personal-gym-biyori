@@ -40,7 +40,6 @@ const relatedStores = [
   { name: "RIZAP 銀座店", href: "/review/rizap/ginza/" },
   { name: "RIZAP 新宿店", href: "/review/rizap/shinjuku/" },
   { name: "RIZAP 大宮店", href: "/review/rizap/omiya/" },
-  { name: "RIZAP 新宿三丁目店", href: "/review/rizap/shinjuku-3chome/" },
 ];
 
 export default function StorePage() {

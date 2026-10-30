@@ -14,6 +14,8 @@ type Store = {
   prefecture: string;
   area: string;
   price: string;
+  /** 料金を表示せず公式の料金掲載ページへ案内する場合のURL（price は表示しない） */
+  priceUrl?: string;
   priceCategory: 'budget' | 'mid' | 'premium' | 'luxury';
   hours: string;
   lateNight: boolean;
@@ -115,7 +117,6 @@ const stores: Store[] = [
     affiliateUrl: RIZAP_AFF,
   }, [
     ['東京', '新宿', '/review/rizap/shinjuku/'],
-    ['東京', '渋谷', '/review/rizap/shibuya/'],
     ['東京', '池袋', '/review/rizap/ikebukuro/'],
     ['東京', '銀座', '/review/rizap/ginza/'],
     ['神奈川', '横浜', '/review/rizap/yokohama/'],
@@ -363,9 +364,6 @@ const stores: Store[] = [
     ['福岡', '天神', '/review/rita-style/tenjin/'],
     ['福岡', '小倉', '/review/rita-style/kokura/'],
     ['熊本', '熊本', '/review/rita-style/kumamoto/'],
-    ['佐賀', '佐賀', '/review/rita-style/saga/'],
-    ['長崎', '長崎', '/review/rita-style/nagasaki/'],
-    ['岡山', '岡山', '/review/rita-style/okayama/'],
   ]),
   /* ── REXER (affiliate, luxury) ───────────────────────── */
   ...mkStores('REXER', {
@@ -445,9 +443,6 @@ const stores: Store[] = [
     affiliateUrl: LASTSTYLE_AFF,
   }, [
     ['東京', '池袋', '/review/laststyle/ikebukuro/'],
-    ['東京', '町田', '/review/laststyle/machida/'],
-    ['東京', '新宿', '/review/laststyle/shinjuku/'],
-    ['東京', '渋谷', '/review/laststyle/shibuya/'],
   ]),
   /* ── Plez (affiliate, budget, online) ────────────────── */
   ...mkStores('Plez', {
@@ -465,7 +460,9 @@ const stores: Store[] = [
   ]),
   /* ── FIT24 (affiliate, budget) ───────────────────────── */
   ...mkStores('FIT24', {
-    price: '月額3,980円〜',
+    // 料金は店舗ページの料金表で公開されているため、当サイトでは金額を表示せず公式へ案内（施主承認 2026-10-30）
+    price: '',
+    priceUrl: 'https://www.fit24.jp/shop.html',
     priceCategory: 'budget',
     hours: '24時間営業',
     lateNight: true,
@@ -1192,7 +1189,11 @@ export default function ConciergePage() {
                       </p>
 
                       <div className="flex items-center gap-2 text-xs text-gray-500 mb-3">
-                        <span className="inline-block bg-gray-100 px-2 py-0.5 rounded">料金: {r.price}</span>
+                        {r.priceUrl ? (
+                          <a href={r.priceUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-100 px-2 py-0.5 rounded text-teal-700 underline">料金: 公式の店舗ページで確認</a>
+                        ) : (
+                          <span className="inline-block bg-gray-100 px-2 py-0.5 rounded">料金: {r.price}</span>
+                        )}
                         <span className="inline-block bg-gray-100 px-2 py-0.5 rounded">{r.hours}</span>
                       </div>
 
