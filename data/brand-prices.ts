@@ -35,6 +35,8 @@ export type BrandPrice = {
   area: string;
   /** 読み違えやすい点の注記 */
   note?: string;
+  /** lowest がどのコース種別の金額か（例: マンツーマン）。priceSummary の表記に括弧で付ける */
+  lowestLabel?: string;
 };
 
 /** 全ブランドの公式サイトを確認した日 */
@@ -391,7 +393,7 @@ export const BRAND_PRICES: BrandPrice[] = [
   {
     slug: "nexus", name: "Nexusジム",
     price: "ライト30分 月4回18,000円・月6回25,800円・月8回32,800円／ベーシック60分 月4回34,000円〜月12回94,800円／プレミアム90分 月4回48,000円〜月12回129,600円／セミパーソナル 1人1回5,500円〜（すべて税込・月会費は東日本と西日本で共通）",
-    kind: "月額制", lowest: 18000, entry: "東日本55,000円・西日本33,000円（税込）／無料体験当日の入会で東日本15,000円・西日本10,000円（西日本のライトコースは15,000円）",
+    kind: "月額制", lowest: 18000, lowestLabel: "マンツーマン", entry: "東日本55,000円・西日本33,000円（税込）／無料体験当日の入会で東日本15,000円・西日本10,000円（西日本のライトコースは15,000円）",
     officialUrl: "https://nexus-gym.com/new_lp/include-parts/price.html", area: "東京都・神奈川県・大阪府・愛知県・福岡県・埼玉県・群馬県・栃木県（公式の店舗一覧）",
     note: "各コースとも原則2ヶ月の継続が必要です。特定商取引法の表記には「入会金15,000円・60分月4回コース29,800円」と記載されており、料金表の金額と異なります（公式料金表・2026年10月29日確認）。",
   },
@@ -437,7 +439,7 @@ export function brandsByKind(kind: FeeKind): BrandPrice[] {
 /** カード・店舗ページ・構造化データ用の短い表記。公式が出していない場合はその旨を返す。 */
 export function priceSummary(b: BrandPrice): string {
   if (b.kind === "未公表" || b.lowest === null) return "公式サイトで料金を公表していません";
-  const yen = b.lowest.toLocaleString() + "円〜";
+  const yen = b.lowest.toLocaleString() + "円〜" + (b.lowestLabel ? `（${b.lowestLabel}）` : "");
   if (b.kind === "月額制") return "月額" + yen;
   if (b.kind === "都度払い") return "1回" + yen;
   return "コース総額" + yen;

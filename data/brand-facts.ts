@@ -182,7 +182,7 @@ export const BRAND_FACTS: Record<string, BrandFacts> = {
     checkedAt: "2026年10月28日",
     facts: [
       { label: "運営会社", value: "株式会社N-group（横浜市中区）", src: "https://nexus-gym.com/company.html" },
-      { label: "料金（公式料金表）", value: "ライト30分 月4回18,000円〜、ベーシック60分 月4回34,000円〜、プレミアム90分 月4回48,000円〜（税込・東日本と西日本で共通）", src: "https://nexus-gym.com/new_lp/include-parts/price.html" },
+      { label: "料金（公式料金表）", value: "マンツーマン：ライト30分 月4回18,000円〜、ベーシック60分 月4回34,000円〜、プレミアム90分 月4回48,000円〜／少人数のセミパーソナル：60分 月2回11,000円〜・1人分（税込・東日本と西日本で共通）", src: "https://nexus-gym.com/new_lp/include-parts/price.html" },
       { label: "入会金", value: "東日本55,000円・西日本33,000円（無料体験当日の入会で15,000円／10,000円）。特定商取引法の表記は15,000円", src: "https://nexus-gym.com/new_lp/include-parts/price.html" },
       { label: "契約条件", value: "各コース原則2ヶ月の継続が必要。料金表の支払い方法はクレジットカードのみ", src: "https://nexus-gym.com/new_lp/include-parts/price.html" },
       { label: "中途解約", value: "特商法表記に返金例「60分月4回コース（29,800円）で2回消化済みなら14,900円返金」", src: "https://nexus-gym.com/legal-notice.html" },

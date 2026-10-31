@@ -55,7 +55,7 @@ const basicInfo = [
   { label: "運営会社", value: "株式会社N-group（神奈川県横浜市中区山手町）代表取締役 長谷川俊弘" },
   { label: "タイプ", value: "完全個室・マンツーマンの月額制パーソナルジム（セミパーソナルコースあり）" },
   { label: "1回の時間", value: "ライト30分／ベーシック60分／プレミアム90分／セミパーソナル60・90・120分（着替え・シャワーを含む時間）" },
-  { label: "料金", value: "月4回18,000円〜（ライトコース・税込）" },
+  { label: "料金", value: "マンツーマンは月4回18,000円〜（ライトコース30分・税込）、セミパーソナルは月2回11,000円〜（60分・1人分・税込）" },
   { label: "店舗", value: "公式店舗一覧に68店舗（東京都37・神奈川県17・大阪府7・愛知県2・福岡県2・埼玉県1・群馬県1・栃木県1）" },
   { label: "無料提供", value: "ウェア・水・タオル・バスタオル・プロテイン" },
 ];
@@ -457,7 +457,7 @@ export default function NexusReview() {
               <tbody>
                 <tr className="border-b border-gray-100">
                   <td className="px-3 py-2 font-medium text-gray-800">料金体系</td>
-                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">月18,000円〜</td>
+                  <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">月18,000円〜（マンツーマン30分×月4回）</td>
                   <td className="px-3 py-2 text-center text-gray-700">月額7,678円〜</td>
                   <td className="px-3 py-2 text-center text-gray-700">月額制</td>
                   <td className="px-3 py-2 text-center text-gray-700">月額9,900円〜</td>
