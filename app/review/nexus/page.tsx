@@ -255,7 +255,7 @@ export default function NexusReview() {
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s2" className="font-bold text-gray-900 mb-3">Nexusジムが適している方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>費用を抑えて</strong>パーソナル指導を試したい方に向いています（30分コース月4回18,000円）</li>
+            <li>・<strong>費用を抑えて</strong>パーソナル指導を試したい方に向いています（マンツーマンのライトコース30分 月4回18,000円）</li>
             <li>・高額なコースの一括払いに不安があり、<strong>月額制で始めたい</strong>方に向いています（原則2ヶ月の継続が必要）</li>
             <li>・東京都・神奈川県・大阪府に店舗が多く、<strong>複数店舗を使い分けたい</strong>方に向いています</li>
             <li>・入会金は無料体験の当日に入会するかどうかで最大40,000円変わるため、<strong>体験前に総額を確認</strong>しておくことをおすすめします</li>
