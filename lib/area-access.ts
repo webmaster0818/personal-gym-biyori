@@ -11,9 +11,16 @@ export const ACCESS_CHECKED_ON_BY_SLUG: Record<string, string> = {
   hiroshima: "2026年10月28日",
   kawasaki: "2026年10月28日",
   nagoya: "2026年10月31日",
+  saitama: "2026年11月2日",
 };
 
 export const AREA_ACCESS: Record<string, Record<string, string>> = {
+  // 2026-11-02 追加（/area/saitama/）。各店舗の公式ページで確認
+  saitama: {
+    "rizap:大宮西口店": "JR・東武野田線・ニューシャトル 大宮駅 西口 徒歩8分（公式店舗ページの最寄駅欄。道順の案内では徒歩7分）",
+    "w247:大宮店": "JR大宮駅 徒歩2分",
+    "beyond:大宮店": "JR大宮駅 東口 徒歩2分",
+  },
   nagoya: {
     "rizap:名駅南店": "JR・地下鉄東山線/桜通線・名鉄・近鉄 名古屋駅 徒歩8分（JRは桜通口）",
     "rizap:名古屋栄店": "名古屋市営地下鉄 栄駅 7A番出口 徒歩6分",

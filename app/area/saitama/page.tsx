@@ -6,6 +6,7 @@ import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
+import AreaTopSummary from "@/components/AreaTopSummary";
 
 const pickCopy = getAreaPickCopy("saitama", "さいたま");
 
@@ -64,11 +65,13 @@ export default function SaitamaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月2日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           さいたま市は埼玉県の県庁所在地で、JR・東武・ニューシャトルが乗り入れる大宮駅があります。{pickCopy.intro}
         </p>
+
+        <AreaTopSummary slug="saitama" areaName="さいたま" priceCheckedOn="2026年11月2日" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>
