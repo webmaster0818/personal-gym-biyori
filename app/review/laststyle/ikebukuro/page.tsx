@@ -161,6 +161,12 @@ export default function StorePage() {
               >
                 Laststyleの総合レビューを見る
               </Link>
+              <Link
+                href="/review/laststyle/shinjuku-yoyogi/"
+                className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors"
+              >
+                新宿・代々木店のページを見る
+              </Link>
               <a
                 href="https://t.felmat.net/fmcl?ak=S3174N.1.E62551G.Q136169A"
                 target="_blank"

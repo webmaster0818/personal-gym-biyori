@@ -41,7 +41,6 @@ const gymImages: Record<string, string> = {
   'Dr.トレーニング': '/ss-dr-training.jpg',
   'ASPI': '/ss-exercise-coach.jpg',
   'ビーコンセプト': '/ss-b-concept.jpg',
-  'REXER': '/ss-lexer.jpg',
   'Lastyle': '/ss-laststyle.jpg',
   'MIYAZAKI GYM': '/ss-miyazaki-gym.jpg',
   'element': '/ss-element.jpg',
@@ -72,7 +71,6 @@ const HABIT_AFF = 'https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A';
 const NEXUS_AFF = 'https://t.felmat.net/fmcl?ak=S7941C.1.L119607K.A132329L';
 const CALORIE_TRADE_AFF = 'https://t.felmat.net/fmcl?ak=S9777P.1.F142081F.Q136169A';
 const RITA_STYLE_AFF = 'https://t.felmat.net/fmcl?ak=Q8343U.1.31275172.Q136169A';
-const REXER_AFF = 'https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A';
 const EXE_AFF = 'https://t.felmat.net/fmcl?ak=H9594M.1.O142710U.Q136169A';
 const VASE_AFF = 'https://t.felmat.net/fmcl?ak=I94614.1.91387816.Q136169A';
 const COCODAKARA_AFF = 'https://t.felmat.net/fmcl?ak=L10446X.1.C147837Q.Q136169A';
@@ -156,13 +154,7 @@ const stores: Store[] = [
     intensity: ['無理なく楽しく', '体験から始めたい'],
     options: ['手ぶらで通える', '駅近(徒歩5分以内)', '月額制(解約しやすい)'],
   }, [
-    ['東京', '新宿', '/review/chicken-gym/shinjuku/'],
-    ['東京', '渋谷', '/review/chicken-gym/shibuya/'],
     ['東京', '池袋', '/review/chicken-gym/ikebukuro/'],
-    ['大阪', '心斎橋', '/review/chicken-gym/shinsaibashi/'],
-    ['愛知', '名古屋', '/review/chicken-gym/nagoya/'],
-    ['福岡', '天神', '/review/chicken-gym/tenjin/'],
-    ['神奈川', '横浜', '/review/chicken-gym/yokohama/'],
   ]),
   /* ── エクササイズコーチ (no affiliate, budget) ────────── */
   ...mkStores('エクササイズコーチ', {
@@ -177,7 +169,7 @@ const stores: Store[] = [
   }, [
     ['東京', '新宿', '/review/exercise-coach/shinjuku/'],
     ['東京', '渋谷', '/review/exercise-coach/shibuya/'],
-    ['東京', '池袋', '/review/exercise-coach/ikebukuro/'],
+    ['東京', '池袋', '/review/exercise-coach/'],
     ['東京', '銀座', '/review/exercise-coach/ginza/'],
     ['大阪', '梅田', '/review/exercise-coach/umeda/'],
     ['愛知', '名古屋', '/review/exercise-coach/nagoya/'],
@@ -216,7 +208,6 @@ const stores: Store[] = [
   }, [
     ['東京', '新宿', '/review/furdi/shinjuku/'],
     ['東京', '池袋', '/review/furdi/ikebukuro/'],
-    ['東京', '品川', '/review/furdi/shinagawa/'],
     ['神奈川', '横浜', '/review/furdi/yokohama/'],
     ['埼玉', '大宮', '/review/furdi/omiya/'],
     ['千葉', '船橋', '/review/furdi/funabashi/'],
@@ -275,7 +266,7 @@ const stores: Store[] = [
     ['東京', '銀座', '/review/undeux/ginza/'],
     ['大阪', '梅田', '/review/undeux/umeda/'],
     ['大阪', '心斎橋', '/review/undeux/shinsaibashi/'],
-    ['京都', '四条', '/review/undeux/shijo/'],
+    ['京都', '京都', '/review/undeux/'],
   ]),
   /* ── Dr.トレーニング (no affiliate, mid) ─────────────── */
   ...mkStores('Dr.トレーニング', {
@@ -326,7 +317,7 @@ const stores: Store[] = [
     ['東京', '渋谷', '/review/b-concept/shibuya/'],
     ['東京', '池袋', '/review/b-concept/ikebukuro/'],
     ['東京', '銀座', '/review/b-concept/ginza/'],
-    ['大阪', '梅田', '/review/b-concept/umeda/'],
+    ['大阪', '梅田', '/review/b-concept/'],
     ['愛知', '名古屋', '/review/b-concept/nagoya/'],
   ]),
   /* ── CALORIE TRADE JAPAN (affiliate, mid) ────────────── */
@@ -364,25 +355,6 @@ const stores: Store[] = [
     ['福岡', '天神', '/review/rita-style/fukuoka-tenjin/'],
     ['福岡', '小倉', '/review/rita-style/kokura/'],
     ['熊本', '熊本', '/review/rita-style/kumamoto/'],
-  ]),
-  /* ── REXER (affiliate, luxury) ───────────────────────── */
-  ...mkStores('REXER', {
-    price: '月額15万円〜',
-    priceCategory: 'luxury',
-    hours: '7:00〜23:00',
-    lateNight: true,
-    features: ['プレミアム空間', 'オーダーメイドプログラム', '完全個室', 'トップトレーナー'],
-    purpose: ['筋肥大・ボディメイク', 'ダイエット・減量', 'ブライダル準備'],
-    intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
-    options: ['食事指導あり', '手ぶらで通える', '完全個室', '駅近(徒歩5分以内)'],
-    affiliateUrl: REXER_AFF,
-  }, [
-    ['東京', '西麻布', '/review/rexer/nishiazabu/'],
-    ['東京', '渋谷', '/review/rexer/shibuya/'],
-    ['東京', '目黒', '/review/rexer/meguro/'],
-    ['東京', '赤坂', '/review/rexer/akasaka/'],
-    ['東京', '五反田', '/review/rexer/gotanda/'],
-    ['大阪', '梅田中津', '/review/rexer/umeda-nakatsu/'],
   ]),
   /* ── EXE (affiliate, mid) ────────────────────────────── */
   ...mkStores('EXE', {
@@ -443,6 +415,7 @@ const stores: Store[] = [
     affiliateUrl: LASTSTYLE_AFF,
   }, [
     ['東京', '池袋', '/review/laststyle/ikebukuro/'],
+    ['東京', '代々木', '/review/laststyle/shinjuku-yoyogi/'],
   ]),
   /* ── Plez (affiliate, budget, online) ────────────────── */
   ...mkStores('Plez', {
@@ -583,9 +556,9 @@ const stores: Store[] = [
     intensity: ['無理なく楽しく', 'しっかり追い込みたい'],
     options: ['食事指導あり', '女性専用/女性トレーナー', '完全個室', '駅近(徒歩5分以内)'],
   }, [
-    ['埼玉', '大宮', '/review/reprecious/omiya/'],
-    ['埼玉', '浦和', '/review/reprecious/urawa/'],
-    ['埼玉', '川口', '/review/reprecious/kawaguchi/'],
+    ['埼玉', '大宮', '/review/reprecious/'],
+    ['埼玉', '浦和', '/review/reprecious/'],
+    ['埼玉', '川口', '/review/reprecious/'],
   ]),
   /* ── Apple GYM (affiliate, mid) ─────────────────────── */
   ...mkStores('Apple GYM', {

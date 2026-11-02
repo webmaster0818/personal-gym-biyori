@@ -246,7 +246,7 @@ export default function LastyleReview() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            店舗数について、公式のシニア向けページには「東京・大阪に4店舗」との記載がありますが、店舗一覧とサイトマップに掲載されているのは池袋東口本店のみです。第三者の記事に掲載されている荻窪・阿佐ヶ谷店、町田店などのページは、公式サイト上で確認できませんでした（{CHECKED}確認）。出典: <Src href={SRC.gym}>公式店舗一覧</Src>・<Src href={SRC.ikebukuro}>池袋東口本店</Src>・<Src href={SRC.shinjuku}>新宿・代々木店</Src>・<Src href={SRC.company}>会社概要</Src>。
+            店舗数について、公式のシニア向けページには「東京・大阪に4店舗」との記載がありますが、店舗一覧とサイトマップに掲載されているのは池袋東口本店のみです。第三者の記事に掲載されている荻窪・阿佐ヶ谷店、町田店などのページは、公式サイト上で確認できませんでした（{CHECKED}確認）。出典: <Src href={SRC.gym}>公式店舗一覧</Src>・<Src href={SRC.ikebukuro}>池袋東口本店</Src>・<Src href={SRC.shinjuku}>新宿・代々木店</Src>・<Src href={SRC.company}>会社概要</Src>。新宿・代々木店の住所・営業時間・アクセスは、<Link href="/review/laststyle/shinjuku-yoyogi/" className="underline">新宿・代々木店のページ</Link>にまとめています。
           </p>
         </section>
 
