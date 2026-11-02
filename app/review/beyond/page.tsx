@@ -282,7 +282,7 @@ export default function BeyondReview() {
             出典: <Src href={SRC.top}>公式トップ（店舗一覧）</Src>・<Src href={SRC.price}>公式料金ページ</Src>・<Src href={SRC.help}>よくある質問</Src>・<Src href={SRC.company}>会社概要</Src>（いずれも{CHECKED}確認）。Googleマップの数値は当サイトの取得データ（2026年8月29日〜9月8日）です。
           </p>
         </section>
-        <GymCta slug="beyond" name="BEYOND" variant="top" />
+        <GymCta slug="beyond" name="BEYOND" variant="top" note="公式サイトによると、無料カウンセリングではお体の悩みや食生活・運動習慣についての相談と、体組成診断（体重・体脂肪率・基礎代謝・筋肉量など）を受けられ、希望すれば体験トレーニングも受けられます（2026年11月2日確認）。" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -699,7 +699,7 @@ export default function BeyondReview() {
         </section>
 
         {/* ---------- FAQ ---------- */}
-      <GymCta slug="beyond" name="BEYOND" />
+      <GymCta slug="beyond" name="BEYOND" note="公式サイトによると、無料カウンセリングではお体の悩みや食生活・運動習慣についての相談と、体組成診断（体重・体脂肪率・基礎代謝・筋肉量など）を受けられ、希望すれば体験トレーニングも受けられます（2026年11月2日確認）。" />
 
         <section id="faq" className="mb-12">
           <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BEYONDのよくある質問</h2>

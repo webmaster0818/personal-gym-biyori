@@ -280,7 +280,7 @@ export default function RizapReview() {
           <img src="/brand-ss/rizap.jpg" alt="RIZAPの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">RIZAP 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <GymCta slug="rizap" name="RIZAP" variant="top" />
+        <GymCta slug="rizap" name="RIZAP" variant="top" note="公式の「申し込みの流れ」によると、無料カウンセリング（約60〜90分）では、体重・体脂肪に加えて筋肉量や体のバランスを計測し、計測結果シートをその場で受け取れます（2026年11月2日確認）。" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -587,7 +587,7 @@ export default function RizapReview() {
         </section>
 
         {/* ---------- FAQ ---------- */}
-      <GymCta slug="rizap" name="RIZAP" />
+      <GymCta slug="rizap" name="RIZAP" note="公式の「申し込みの流れ」によると、無料カウンセリング（約60〜90分）では、体重・体脂肪に加えて筋肉量や体のバランスを計測し、計測結果シートをその場で受け取れます（2026年11月2日確認）。" />
 
         <section id="faq" className="mb-12">
           <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RIZAPのよくある質問</h2>
