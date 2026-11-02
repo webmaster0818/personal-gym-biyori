@@ -216,7 +216,7 @@ export default function Home() {
               { value: "60社+", label: "掲載ブランド" },
               { value: "全国", label: "対応エリア" },
               { value: "料金", label: "公式サイトで確認" },
-              { value: "口コミ", label: "多数掲載" },
+              { value: "約2,700店", label: "Googleマップの評点・口コミ件数（取得日つき）" },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-4">
                 <p className="text-2xl sm:text-3xl font-bold text-accent">{stat.value}</p>
