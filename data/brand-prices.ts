@@ -167,7 +167,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     slug: "chicken-gym", name: "チキンジム",
     price: "月2回18,900円・月4回29,700円・月6回39,600円（1回50分）",
     kind: "月額制", lowest: 18900, entry: "35,000円",
-    officialUrl: "https://chicken-gym.jp/price/", area: "全国",
+    officialUrl: "https://chicken-gym.jp/", area: "池袋・町田（東京都）・岡山（公式サイトの店舗一覧に掲載の3店舗）",
     note: "他サイトに掲載されている「月々6,800円〜」は分割払い時の月額で、公式の月額プランとは異なります。",
   },
   {

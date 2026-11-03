@@ -411,7 +411,7 @@ export default function Workout247Review() {
                 </tr>
                 <tr className="border-b border-gray-100 align-top">
                   <td className="px-4 py-3 font-medium text-gray-800"><Link href="/review/chicken-gym/" className="text-teal-600 hover:underline">チキンジム</Link></td>
-                  <td className="px-4 py-3 text-gray-700">月々6,800円〜（分割払い時の目安）</td>
+                  <td className="px-4 py-3 text-gray-700">月額制 月2回18,900円〜（入会金35,000円・公式 2026年11月3日確認）</td>
                   <td className="px-4 py-3 text-gray-700">月々の負担を最優先したい初心者の方</td>
                 </tr>
                 <tr className="border-b border-gray-100 align-top">
