@@ -12,9 +12,16 @@ export const ACCESS_CHECKED_ON_BY_SLUG: Record<string, string> = {
   kawasaki: "2026年10月28日",
   nagoya: "2026年10月31日",
   saitama: "2026年11月2日",
+  shibuya: "2026年11月3日",
 };
 
 export const AREA_ACCESS: Record<string, Record<string, string>> = {
+  // 2026-11-03 追加（/db/shibuya/）。各店舗の公式ページで確認
+  shibuya: {
+    "w247:渋谷・南青山店": "渋谷駅 徒歩7分（渋谷区渋谷2丁目）",
+    "beyond:渋谷表参道店": "渋谷駅 B5出口から徒歩5分／表参道駅から徒歩8分",
+    "miyazaki:渋谷店": "渋谷駅 JR東口・宮益坂口 徒歩7分／地下鉄12番出口 徒歩5分／表参道駅 B2出口 徒歩7分",
+  },
   // 2026-11-02 追加（/area/saitama/）。各店舗の公式ページで確認
   saitama: {
     "rizap:大宮西口店": "JR・東武野田線・ニューシャトル 大宮駅 西口 徒歩8分（公式店舗ページの最寄駅欄。道順の案内では徒歩7分）",

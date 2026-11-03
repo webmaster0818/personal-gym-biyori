@@ -6,6 +6,7 @@ import db from "@/data/gym-db/shibuya.json";
 import gymIdx from "@/data/gym-index.json";
 import { dbCityMetadata, DbCitySummary, DbCityPartners, cityLabel, type CityDb } from "@/components/DbCity";
 import { getAreaPickCopy } from "@/lib/area-picks";
+import AreaTopSummary from "@/components/AreaTopSummary";
 
 const areaPick = getAreaPickCopy("shibuya", "渋谷");
 
@@ -53,6 +54,7 @@ export default function ShibuyaDbPage() {
         当ページは、地域のパーソナルジムを一覧で確認したい方に向けて、提携の有無に関係なく、Googleマップの検索結果の上位（最大60件）のうち営業中と確認できた店舗を掲載しています。
       </p>
       <DbCitySummary slug="shibuya" db={db as CityDb} />
+      <AreaTopSummary slug="shibuya" areaName="渋谷" variant="db" priceCheckedOn="2026年11月3日" />
 
       <div className="mt-6 overflow-x-auto">
         <table className="w-full min-w-[640px] text-sm border border-gray-200">

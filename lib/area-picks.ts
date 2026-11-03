@@ -336,7 +336,8 @@ export const AREA_PICKS: Record<string, Pick[]> = {
   ],
   shibuya: [
     { brand: "w247", stores: ["渋谷・南青山店"] },
-    { brand: "beyond", stores: ["渋谷宮益坂店"] },
+    // 2026-11-03: 公式の店舗一覧では「渋谷表参道店」（旧URL /gym/gym-miyamasuzaka/ は /gym/gym-shibuyaomotesando/ へ転送）
+    { brand: "beyond", stores: ["渋谷表参道店"], storeCheckedOn: "2026年11月3日" },
     { brand: "miyazaki", stores: ["渋谷店"] },
   ],
   shinagawa: [
