@@ -145,14 +145,14 @@ const stores: Store[] = [
   ]),
   /* ── チキンジム (no affiliate, budget) ───────────────── */
   ...mkStores('チキンジム', {
-    price: '月額6,800円〜',
-    priceCategory: 'budget',
-    hours: '7:00〜23:00',
-    lateNight: true,
-    features: ['初心者向け', '手ぶらで通える', 'プロテイン付き', '全国34店舗'],
+    price: '月額制 月2回18,900円〜（入会金35,000円・公式11/3確認）',
+    priceCategory: 'mid',
+    hours: '営業時間は公式サイトに記載なし',
+    lateNight: false,
+    features: ['初心者向け', '手ぶらで通える', '30分ストレッチ', '公式掲載3店舗（池袋・町田・岡山）'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消', 'ストレス発散'],
     intensity: ['無理なく楽しく', '体験から始めたい'],
-    options: ['手ぶらで通える', '駅近(徒歩5分以内)', '月額制(解約しやすい)'],
+    options: ['手ぶらで通える', '食事指導あり', '月額制(解約しやすい)'],
   }, [
     ['東京', '池袋', '/review/chicken-gym/ikebukuro/'],
   ]),
@@ -404,9 +404,9 @@ const stores: Store[] = [
   ]),
   /* ── Lastyle (affiliate, mid) ──────────────────────── */
   ...mkStores('Lastyle', {
-    price: '月額4万円〜',
+    price: '16回コース 1回13,200円・入会金27,500円（公式11/3確認）',
     priceCategory: 'mid',
-    hours: '10:00〜22:00',
+    hours: '平日9:00〜22:30／土日祝10:00〜20:30',
     lateNight: false,
     features: ['ボクシング融合', 'ストレス発散', '楽しくトレーニング', 'ダイエット効果大'],
     purpose: ['ダイエット・減量', 'ストレス発散', '筋肥大・ボディメイク'],
