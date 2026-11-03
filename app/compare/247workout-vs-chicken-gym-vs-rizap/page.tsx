@@ -208,6 +208,9 @@ export default function CompareThreeGyms() {
             <p className="text-xs text-gray-500 mt-3">
               ※ 料金は税込・目安です。プランやキャンペーンにより変動します。各社の詳しい料金・口コミは各レビューをご覧ください。
             </p>
+            <p className="text-xs text-gray-500 mt-1">
+              ※ チキンジムの店舗は公式サイトの店舗一覧に掲載されている3店舗です。所在地は<Link href="/review/chicken-gym/" className="text-teal-600 underline">チキンジムのレビュー</Link>の店舗一覧と、<Link href="/review/chicken-gym/ikebukuro/" className="text-teal-600 underline">池袋店のページ</Link>でご説明しています。
+            </p>
           </section>
 
           {/* ---------- こんな人におすすめ ---------- */}
