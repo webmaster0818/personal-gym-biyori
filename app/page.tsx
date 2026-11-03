@@ -183,6 +183,8 @@ export default function Home() {
                 decoding="async"
               />
             </picture>
+            {/* 窓からの光の揺らぎ（2026-11-03・写真の動きとあわせて動画のように見せる） */}
+            <div className="gb-hero-light" aria-hidden="true" />
             {/* 上下の暗がり。上はヘッダーを溶け込ませるため、下は見出しを読ませるため */}
             <div className="gb-hero-veil" />
           </div>
