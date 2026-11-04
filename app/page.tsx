@@ -172,19 +172,37 @@ export default function Home() {
           画面の短い端末で文字が切れるので使わない。 */}
       <section className="gb-hero" data-hero>
         <div className="gb-hero-inner">
-          <div className="absolute inset-0 overflow-hidden">
-            <picture>
+          <div className="absolute inset-0 overflow-hidden bg-[#111]">
+            {/* 写真3枚を順に切り替える（2026-11-04 施主指示「画像を動かすより、複数枚を切り替える方が良い」・B案＝今ある3枚で先に公開）。
+                1枚6秒・フェード1.2秒・18秒で一巡。動かすのは opacity だけ。視差効果を減らす設定では1枚目だけを表示する */}
+            <picture className="gb-hero-slide">
               <source media="(min-width: 768px)" srcSet="/hero-gym-pc.jpg" />
               <img
                 src="/hero-gym-sp.jpg"
                 alt="大きな窓から自然光が入る広いスタジオで、ダンベルを持って立つ女性"
-                className="gb-hero-img h-full w-full object-cover object-[62%_center] md:object-center"
+                className="h-full w-full object-cover object-[62%_center] md:object-center"
                 fetchPriority="high"
                 decoding="async"
               />
             </picture>
-            {/* 窓からの光の揺らぎ（2026-11-03・写真の動きとあわせて動画のように見せる） */}
-            <div className="gb-hero-light" aria-hidden="true" />
+            <picture className="gb-hero-slide">
+              <img
+                src="/hero-energy.jpg"
+                alt="オレンジの照明のトレーニングジムで、ダンベルを持ち上げる男性"
+                className="h-full w-full object-cover object-[60%_center] md:object-center"
+                fetchPriority="low"
+                decoding="async"
+              />
+            </picture>
+            <picture className="gb-hero-slide">
+              <img
+                src="/hero-stylish.jpg"
+                alt="窓の大きいスタジオで、脚を前後に開いてストレッチをする女性"
+                className="h-full w-full object-cover object-[52%_center] md:object-center"
+                fetchPriority="low"
+                decoding="async"
+              />
+            </picture>
             {/* 上下の暗がり。上はヘッダーを溶け込ませるため、下は見出しを読ませるため */}
             <div className="gb-hero-veil" />
           </div>

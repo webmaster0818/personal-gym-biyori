@@ -180,37 +180,28 @@ h1, h2, h3, h4 { font-weight: 700; letter-spacing: .02em; line-height: 1.45; }
   transition: opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);
   transition-delay: var(--reveal-delay, 0ms);
 }
-/* ヒーロー写真を「動画っぽく」動かす（2026-11-03 施主指示・B案＝費用のかからない CSS の動き）。
-   写真がゆっくり寄りながら左右に流れ、窓からの光がゆっくり揺らぐ。どちらも繰り返し続ける。
-   動かすのは transform / opacity だけ（レイアウト・文字は動かない）。視差効果を減らす設定では止める。 */
-.gb-hero-img {
-  transform-origin: 62% 55%;
-  animation: gb-hero-drift 28s ease-in-out infinite alternate;
-  will-change: transform;
-}
-@keyframes gb-hero-drift {
-  0%   { transform: scale(1.04) translate3d(0, 0, 0); }
-  50%  { transform: scale(1.12) translate3d(-1.6%, -1%, 0); }
-  100% { transform: scale(1.08) translate3d(1.6%, .6%, 0); }
-}
-.gb-hero-light {
-  position: absolute; inset: -25%; pointer-events: none;
-  background: radial-gradient(ellipse 40% 30% at 45% 32%, rgba(255, 238, 210, .2) 0%, rgba(255, 238, 210, 0) 70%);
-  mix-blend-mode: screen;
-  animation: gb-hero-light 16s ease-in-out infinite alternate;
-  will-change: transform, opacity;
-}
-@keyframes gb-hero-light {
-  0%   { transform: translate3d(14%, -8%, 0); opacity: .35; }
-  50%  { transform: translate3d(0, 0, 0); opacity: .9; }
-  100% { transform: translate3d(-12%, 6%, 0); opacity: .5; }
+/* ヒーロー写真の切り替え（2026-11-04 施主指示・11/3 の「写真がゆっくり寄る・光が揺らぐ」動きは置き換え）。
+   3枚を重ね、1枚6秒・フェード1.2秒・18秒で一巡。1枚目は最初から表示(遅延 -1.2s で表示済みの位置から始める)。
+   2・3枚目は開始前 opacity:0(fill-mode both)。動かすのは opacity だけ。 */
+.gb-hero-slide { position: absolute; inset: 0; display: block; opacity: 0; animation: gb-hero-fade 18s linear infinite both; }
+.gb-hero-slide:nth-of-type(1) { animation-delay: -1.2s; }
+.gb-hero-slide:nth-of-type(2) { animation-delay: 4.8s; }
+.gb-hero-slide:nth-of-type(3) { animation-delay: 10.8s; }
+@keyframes gb-hero-fade {
+  0%      { opacity: 0; }
+  6.667%  { opacity: 1; }
+  33.333% { opacity: 1; }
+  40%     { opacity: 0; }
+  100%    { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   [data-reveal="out"], [data-reveal="in"] { opacity: 1 !important; transform: none !important; transition: none !important; }
   .gb-rule { width: 44px !important; transition: none !important; }
-  .gb-hero-img { transform: none !important; transition: none !important; animation: none !important; }
-  .gb-hero-light { display: none; }
+  /* 下の * の .001ms 指定で最終フレーム(opacity:0)に落ちて全部消えるので、1枚目を固定表示・2枚目以降は出さない */
+  .gb-hero-slide { animation: none !important; }
+  .gb-hero-slide:nth-of-type(1) { opacity: 1 !important; }
+  .gb-hero-slide:nth-of-type(n+2) { display: none !important; }
   * { animation-duration: .001ms !important; transition-duration: .001ms !important; }
 }
 
