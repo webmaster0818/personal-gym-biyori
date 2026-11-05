@@ -43,7 +43,7 @@ const relatedStores = [
   { name: "BEYOND 渋谷店", href: "/review/beyond/shibuya/" },
   { name: "BEYOND 六本木店", href: "/review/beyond/roppongi/" },
   { name: "BEYOND 銀座店", href: "/review/beyond/ginza/" },
-  { name: "BEYOND 渋谷宮益坂店", href: "/review/beyond/shibuya-miyamasuzaka/" },
+  { name: "BEYOND 渋谷表参道店", href: "/review/beyond/shibuya-omotesando/" },
 ];
 
 export default function StorePage() {

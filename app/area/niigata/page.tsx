@@ -10,7 +10,7 @@ import AreaGymList from "@/components/AreaGymList";
 const pickCopy = getAreaPickCopy("niigata", "新潟");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 
@@ -52,7 +52,7 @@ const faqJsonLd = {
 const relatedAreas = [
   { name: "高崎", href: "/area/takasaki/" },
   { name: "仙台", href: "/area/sendai/" },
-  { name: "大宮", href: "/area/omiya/" },
+  { name: "さいたま", href: "/area/saitama/" },
   { name: "札幌", href: "/area/sapporo/" },
   { name: "東京全域", href: "/area/tokyo/" },
 ];

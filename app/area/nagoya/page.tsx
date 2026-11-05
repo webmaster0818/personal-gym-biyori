@@ -11,7 +11,7 @@ import AreaTopSummary from "@/components/AreaTopSummary";
 const pickCopy = getAreaPickCopy("nagoya", "名古屋");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 

@@ -10,7 +10,7 @@ const pickCopy = getAreaPickCopy("funabashi", "船橋");
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 
@@ -51,7 +51,7 @@ const faqJsonLd = {
 
 const relatedAreas = [
   { name: "千葉", href: "/area/chiba/" },
-  { name: "大宮", href: "/area/omiya/" },
+  { name: "さいたま", href: "/area/saitama/" },
   { name: "川崎", href: "/area/kawasaki/" },
   { name: "新宿", href: "/area/shinjuku/" },
   { name: "東京全域", href: "/area/tokyo/" },

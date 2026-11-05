@@ -9,7 +9,7 @@ import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/
 const pickCopy = getAreaPickCopy("tokyo", "東京");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 

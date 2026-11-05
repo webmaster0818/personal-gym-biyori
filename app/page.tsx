@@ -451,7 +451,7 @@ export default function Home() {
           <h3 className="text-sm font-bold text-gray-600 mb-3">その他のエリア</h3>
           <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-2">
             {[
-              { name: "大宮", slug: "omiya" }, { name: "川崎", slug: "kawasaki" }, { name: "船橋", slug: "funabashi" },
+              { name: "川崎", slug: "kawasaki" }, { name: "船橋", slug: "funabashi" },
               { name: "広島", slug: "hiroshima" }, { name: "なんば", slug: "namba" }, { name: "梅田", slug: "umeda" },
               { name: "高崎", slug: "takasaki" }, { name: "千葉", slug: "chiba" }, { name: "新潟", slug: "niigata" },
               { name: "岡山", slug: "okayama" },

@@ -10,7 +10,7 @@ const pickCopy = getAreaPickCopy("ueno", "上野");
 
 export const metadata: Metadata = {
   robots: { index: false, follow: true },
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 

@@ -4,14 +4,14 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AreaPicksSection from "@/components/AreaPicksSection";
 import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
-import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
+import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 import AreaTopSummary from "@/components/AreaTopSummary";
 
 const pickCopy = getAreaPickCopy("saitama", "さいたま");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 
@@ -37,6 +37,7 @@ const selectionPoints = [
 const faqItems = [
   ...buildAreaPickFaq("saitama", areaName),
   areaPriceFaq(areaName),
+  ...buildAreaTrialFaq("saitama", areaName),
   { q: "さいたまと東京、どちらのジムに通うべきですか？", a: "大宮在住・在勤なら大宮のジムが便利です。都内に通勤している方は、職場近くの都内ジムの方が通いやすい場合もあります。" },
 ];
 
@@ -65,7 +66,7 @@ export default function SaitamaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月2日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月5日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           さいたま市は埼玉県の県庁所在地で、JR・東武・ニューシャトルが乗り入れる大宮駅があります。{pickCopy.intro}

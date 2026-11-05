@@ -11,7 +11,7 @@ import AreaGymList from "@/components/AreaGymList";
 const pickCopy = getAreaPickCopy("fukuoka", "福岡");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 

@@ -7,25 +7,30 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "BEYOND 渋谷宮益坂店の口コミ・評判",
+  title: "BEYOND 渋谷表参道店の口コミ・評判",
   description:
-    "BEYOND 渋谷宮益坂店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
+    "BEYOND 渋谷表参道店の口コミ・評判をご紹介します。公式サイトに掲載の住所・アクセス・営業時間などの基本情報と、Googleマップの掲載データをまとめています。",
 };
 
-/* ---------- 基本情報 ---------- */
+/* ---------- 基本情報（BEYOND公式 店舗ページ https://beyond-gym.com/gym/gym-shibuyaomotesando/ を2026年11月5日に確認） ----------
+ * 旧「渋谷宮益坂店」ページ（/review/beyond/shibuya-miyamasuzaka/）は同じ所在地（渋谷区渋谷2-10-9）のため、このページへ301で統合した。
+ * 公式の旧URL /gym/gym-miyamasuzaka/ も /gym/gym-shibuyaomotesando/ へ転送されている。 */
+const OFFICIAL_STORE_URL = "https://beyond-gym.com/gym/gym-shibuyaomotesando/";
 const basicInfo = [
-  { label: "店舗名", value: "BEYOND 渋谷宮益坂店" },
-  { label: "エリア", value: "東京都渋谷区渋谷（正確な所在地は公式サイト・Googleマップでご確認ください）" },
-  { label: "営業時間（ブランド標準）", value: "10:00〜22:00（店舗により異なります。公式サイトでご確認ください）" },
-  { label: "電話番号", value: "※公式サイトでご確認ください" },
+  { label: "店舗名", value: "BEYOND 渋谷表参道店" },
+  { label: "住所", value: "〒150-0002 東京都渋谷区渋谷2丁目10-9 210野村ビル B1F" },
+  { label: "アクセス", value: "渋谷駅B5出口から徒歩5分／表参道駅から徒歩8分" },
+  { label: "営業時間", value: "10:00〜22:00" },
+  { label: "定休日", value: "なし" },
+  { label: "電話番号", value: "03-3797-1150" },
 ];
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "BEYOND渋谷宮益坂店の料金はいくらですか？", a: "回数券制で、STANDARD 10プラン（10回）が96,800円（税込）が目安です。入会金は無料です。最新の料金は公式サイトでご確認ください。" },
-  { q: "BEYOND渋谷宮益坂店の営業時間を教えてください。", a: "10:00〜22:00です。最新情報は公式サイトでご確認ください。" },
-  { q: "BEYOND渋谷宮益坂店のトレーナーの特徴を教えてください。", a: "ボディメイクコンテストの入賞経験者や有資格者のトレーナーが在籍しています。一人ひとりの目標に合わせた指導が特徴です。" },
-  { q: "BEYOND渋谷宮益坂店は入会金がかかりますか？", a: "いいえ、BEYONDは全店舗入会金無料です。コース料金のみでパーソナルトレーニングを始められます。" },
+  { q: "BEYOND渋谷表参道店はどこにありますか？", a: "公式サイトの店舗ページでは、所在地は東京都渋谷区渋谷2丁目10-9 210野村ビル B1F、アクセスは「渋谷駅B5出口から徒歩5分／表参道駅から徒歩8分」と案内されています（2026年11月5日確認）。" },
+  { q: "BEYOND渋谷表参道店の料金はいくらですか？", a: "公式サイトの店舗ページでは、回数券のSTANDARD 10（10回）が102,300円（税込）と案内されています（2026年11月5日確認）。入会金は全コース無料です。最新の料金は公式サイトでご確認ください。" },
+  { q: "BEYOND渋谷表参道店の営業時間を教えてください。", a: "公式サイトの店舗ページでは、営業時間は10:00〜22:00、定休日はなしと案内されています（2026年11月5日確認）。" },
+  { q: "BEYOND渋谷表参道店は入会金がかかりますか？", a: "いいえ、BEYONDの公式料金ページでは全コース入会金無料と案内されています。" },
 ];
 
 const faqJsonLd = {
@@ -40,8 +45,6 @@ const faqJsonLd = {
 
 /* ---------- 関連店舗 ---------- */
 const relatedStores = [
-  { name: "BEYOND 渋谷店", href: "/review/beyond/shibuya/" },
-  { name: "BEYOND 表参道店", href: "/review/beyond/omotesando/" },
   { name: "BEYOND 恵比寿店", href: "/review/beyond/ebisu/" },
 ];
 
@@ -49,22 +52,22 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <StoreJsonLd k="beyond/shibuya-miyamasuzaka" storeName="BEYOND 渋谷宮益坂店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/shibuya-miyamasuzaka/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+渋谷宮益坂店" />
+      <StoreJsonLd k="beyond/shibuya-omotesando" storeName="BEYOND 渋谷表参道店" brandSlug="beyond" brandName="BEYOND" pageUrl="https://personal-gym-biyori.com/review/beyond/shibuya-omotesando/" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+渋谷表参道店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
           { name: "BEYOND", href: "/review/beyond/" },
-          { name: "渋谷宮益坂店" },
+          { name: "渋谷表参道店" },
         ]}
       />
-      <ReviewSummary gymName="渋谷宮益坂店" />
+      <ReviewSummary gymName="渋谷表参道店" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          BEYOND 渋谷宮益坂店の口コミ・評判
+          BEYOND 渋谷表参道店の口コミ・評判
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月5日</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+1FSQEQ+4AOW+62ENL" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             BEYOND の公式サイトはこちら
@@ -90,6 +93,11 @@ export default function StorePage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-2 text-xs text-gray-500">
+            ※ 2026年11月5日に
+            <a href={OFFICIAL_STORE_URL} target="_blank" rel="nofollow noopener" className="underline">BEYOND公式サイトの渋谷表参道店ページ</a>
+            で確認した内容です。最新情報は公式サイトでご確認ください。
+          </p>
         </section>
         {/* CTA ボタン */}
         <div className="mb-10 text-center">
@@ -103,10 +111,10 @@ export default function StorePage() {
           </h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
             <p className="text-gray-600 mb-4">
-              BEYOND 渋谷宮益坂店の所在地をGoogleマップで確認できます。
+              BEYOND 渋谷表参道店の所在地をGoogleマップで確認できます。
             </p>
             <a
-              href="https://www.google.com/maps/search/BEYOND+渋谷宮益坂店"
+              href="https://www.google.com/maps/search/BEYOND+渋谷表参道店"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
@@ -122,12 +130,13 @@ export default function StorePage() {
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND渋谷宮益坂店は渋谷駅から徒歩3分の立地にある店舗です。宮益坂方面からアクセスしやすく、渋谷エリアで働くビジネスパーソンに人気があります。経験豊富なトレーナーによる丁寧な指導と、明るく開放的な店内が好評です。ダイエットからボディメイクまで幅広い目的に対応しています。
+            BEYOND渋谷表参道店は、公式サイトの店舗ページで「渋谷駅B5出口から徒歩5分／表参道駅から徒歩8分」と案内されている店舗です（所在地は渋谷区渋谷2丁目）。当サイトでは店舗の口コミ本文は掲載せず、下の「Googleマップの掲載データ」で、Googleマップ上で確認できる評価・件数のみをご紹介しています。
+            BEYOND公式サイトでは、旧「渋谷宮益坂店」のURL（/gym/gym-miyamasuzaka/）が渋谷表参道店のページへ転送されています（2026年11月5日確認）。
           </p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />
-<StoreGmapBox k="beyond/shibuya-miyamasuzaka" storeName="BEYOND 渋谷宮益坂店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+渋谷宮益坂店" />
+<StoreGmapBox k="beyond/shibuya-omotesando" storeName="BEYOND 渋谷表参道店" brandSlug="beyond" brandName="BEYOND" mapsSearchUrl="https://www.google.com/maps/search/BEYOND+渋谷表参道店" />
 
 
         {/* ---------- FAQ ---------- */}

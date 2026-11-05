@@ -9,7 +9,7 @@ import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area
 const pickCopy = getAreaPickCopy("takasaki", "高崎");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 
@@ -49,7 +49,6 @@ const faqJsonLd = {
 };
 
 const relatedAreas = [
-  { name: "大宮", href: "/area/omiya/" },
   { name: "埼玉", href: "/area/saitama/" },
   { name: "新潟", href: "/area/niigata/" },
   { name: "新宿", href: "/area/shinjuku/" },

@@ -10,7 +10,7 @@ import AreaGymList from "@/components/AreaGymList";
 const pickCopy = getAreaPickCopy("chiba", "千葉");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 
@@ -51,7 +51,7 @@ const faqJsonLd = {
 
 const relatedAreas = [
   { name: "船橋", href: "/area/funabashi/" },
-  { name: "大宮", href: "/area/omiya/" },
+  { name: "さいたま", href: "/area/saitama/" },
   { name: "川崎", href: "/area/kawasaki/" },
   { name: "新宿", href: "/area/shinjuku/" },
   { name: "東京全域", href: "/area/tokyo/" },

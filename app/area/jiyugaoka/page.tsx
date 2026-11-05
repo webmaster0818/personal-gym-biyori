@@ -9,7 +9,7 @@ import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq, areaFeatureSenten
 const pickCopy = getAreaPickCopy("jiyugaoka", "自由が丘");
 
 export const metadata: Metadata = {
-  title: pickCopy.title,
+  title: pickCopy.metaTitle,
   description: pickCopy.description,
 };
 

@@ -38,7 +38,6 @@ const REGIONS: { region: string; areas: { slug: string; name: string }[] }[] = [
       { slug: "chiba", name: "千葉" },
       { slug: "funabashi", name: "船橋" },
       { slug: "saitama", name: "さいたま" },
-      { slug: "omiya", name: "大宮" },
       { slug: "takasaki", name: "高崎" },
     ],
   },

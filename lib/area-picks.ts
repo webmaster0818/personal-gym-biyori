@@ -304,11 +304,6 @@ export const AREA_PICKS: Record<string, Pick[]> = {
     { brand: "beyond", stores: ["岡山店"] },
     { brand: "w247", stores: ["岡山店"] },
   ],
-  omiya: [
-    { brand: "rizap", stores: ["大宮西口店"] },
-    { brand: "beyond", stores: ["大宮店"] },
-    { brand: "w247", stores: ["大宮店"] },
-  ],
   osaka: [
     { brand: "rizap", stores: ["梅田店", "なんば店", "京橋店", "天王寺店", "堺東店"] },
     { brand: "w247", stores: ["梅田店", "大阪心斎橋店", "難波店", "堺東店"] },
@@ -367,7 +362,7 @@ export const AREA_PICKS: Record<string, Pick[]> = {
     { brand: "chicken", stores: ["池袋店", "町田店"] },
     { brand: "rizap", stores: ["新宿店", "池袋西口店", "銀座店", "恵比寿店"] },
     { brand: "w247", stores: ["新宿東口店", "新宿西口店", "渋谷・南青山店", "池袋店", "新橋・銀座店"] },
-    { brand: "beyond", stores: ["新宿店", "渋谷宮益坂店", "池袋店", "銀座店", "六本木店"] },
+    { brand: "beyond", stores: ["新宿店", "渋谷表参道店", "池袋店", "銀座店", "六本木店"] },
     { brand: "ec", stores: ["新宿西口店", "池袋東口店", "池袋西口店", "銀座店"], storeCheckedOn: D22 },
     { brand: "outline", stores: ["新宿店"], storeCheckedOn: D22 },
     { brand: "aspi", stores: ["新宿三丁目御苑", "恵比寿東口", "恵比寿西口", "吉祥寺"], storeCheckedOn: D22 },
@@ -447,6 +442,8 @@ export function getAreaPickCopy(slug: string, areaName: string) {
     return {
       count: n,
       title: `【2026最新】パーソナルジム${areaName}おすすめ${n}選`,
+      /** <title> 用（2026-11-05 施主判断: 本文に当エリア店舗の料金を載せているページのみ「料金」を付ける。h1 は title のまま） */
+      metaTitle: `【2026最新】パーソナルジム${areaName}おすすめ${n}選と料金`,
       heading: `${areaName}のおすすめパーソナルジム${n}選`,
       linkLabel: `${areaName}のパーソナルジムおすすめ${n}選`,
       intro: `本記事では、各ブランドの公式サイトで${areaName}の店舗と料金を確認できた${n}つのジムをご紹介します。`,
@@ -456,6 +453,7 @@ export function getAreaPickCopy(slug: string, areaName: string) {
   return {
     count: n,
     title: `【2026最新】${areaName}のパーソナルジム｜公式で店舗を確認できたジムと料金相場`,
+    metaTitle: `【2026最新】${areaName}のパーソナルジム｜公式で店舗を確認できたジムと料金相場`,
     heading: `${areaName}で公式に店舗を確認できたパーソナルジム`,
     linkLabel: `${areaName}のパーソナルジム（公式で店舗を確認できたジム）`,
     intro: `主要ブランドの公式店舗一覧を確認した結果、当エリアで店舗を確認できたブランドは${n}件でした（2026年10月時点）。周辺の店舗は店舗データベースもあわせてご覧ください。`,
