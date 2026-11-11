@@ -13,9 +13,17 @@ export const ACCESS_CHECKED_ON_BY_SLUG: Record<string, string> = {
   nagoya: "2026年10月31日",
   saitama: "2026年11月2日",
   shibuya: "2026年11月3日",
+  okayama: "2026年11月11日",
 };
 
 export const AREA_ACCESS: Record<string, Record<string, string>> = {
+  // 2026-11-11 追加（/area/okayama/）。各店舗の公式ページで確認（RIZAP は公式店舗ページ /studios/studio027 の最寄駅欄）
+  okayama: {
+    "chicken:岡山店": "公式サイトは所在地のみ記載（岡山市北区錦町6-17 アウルスタイル錦町2 2F）",
+    "rizap:岡山店": "岡山電気軌道 城下駅 徒歩2分／JR岡山駅 東口 徒歩15分（岡山市北区表町1-3-50）",
+    "beyond:岡山店": "岡山電軌 郵便局前駅 徒歩2分／県庁通り駅 徒歩5分／JR岡山駅 徒歩15分（岡山市北区中山下2-1-22）",
+    "w247:岡山店": "岡山電気軌道 県庁通り駅 徒歩2分（岡山市北区表町1-8-61 ABCビルディング2F）",
+  },
   // 2026-11-03 追加（/db/shibuya/）。各店舗の公式ページで確認
   shibuya: {
     "w247:渋谷・南青山店": "渋谷駅 徒歩7分（渋谷区渋谷2丁目）",

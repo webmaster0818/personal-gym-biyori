@@ -6,12 +6,15 @@ import AreaPriceSection from "@/components/AreaPriceSection";
 import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq, buildAreaTrialFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
+import AreaTopSummary from "@/components/AreaTopSummary";
 
 const pickCopy = getAreaPickCopy("okayama", "岡山");
 
 export const metadata: Metadata = {
   title: pickCopy.metaTitle,
-  description: pickCopy.description,
+  // 2026-11-11: 冒頭の料金・店舗の場所（公式11/11確認）に合わせて岡山専用の description に
+  description:
+    "岡山のパーソナルジム4社（RIZAP・BEYOND・24/7ワークアウト・チキンジム）の岡山店の料金と場所を公式サイトで確認して掲載しています（2026年11月11日確認）。月4回の月額制は29,700〜33,440円、2ヶ月16回のコースは総額290,400〜327,800円で、3店舗は路面電車の駅から徒歩2分です。",
 };
 
 const areaName = "岡山";
@@ -65,10 +68,15 @@ export default function OkayamaAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
 
-        <p className="text-gray-700 leading-relaxed mb-10">
+        <p className="text-gray-700 leading-relaxed mb-6">
           岡山は中国・四国地方の交通ハブとして発展し、山陽新幹線や在来線のアクセスが良好なエリアです。{pickCopy.intro}
+        </p>
+
+        <AreaTopSummary slug="okayama" areaName={areaName} priceCheckedOn="2026年11月11日" />
+        <p className="-mt-6 mb-10 text-xs text-gray-600">
+          RIZAP・BEYOND・24/7ワークアウトの3店舗は、JR岡山駅からは徒歩15分前後の表町・中山下エリアにあり、路面電車（岡山電気軌道）の城下駅・郵便局前駅・県庁通り駅から徒歩2分です（各店舗の公式ページ、2026年11月11日確認）。チキンジム岡山店は錦町にあり、公式サイトには所在地のみが記載されています。
         </p>
 
         <section className="mb-12">

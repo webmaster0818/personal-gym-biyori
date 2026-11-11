@@ -8,9 +8,9 @@ import GymCta from "@/components/GymCta";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "FiT24（フィット24）の口コミ・評判｜月会費・店舗ごとの評価を検証",
+  title: "FiT24（フィット24）の口コミ・評判｜オリコン2026年総合3位・月会費と店舗を検証",
   description:
-    "FiT24（フィット24）の口コミ・評判を、オリコン調査の利用者コメント18件のテーマ別集計と公式情報で整理しました。プラン別料金（通常月7,678円〜）、入会時費用、休会・退会の条件、公式店舗検索の122店舗の分布をまとめています。",
+    "FiT24（フィット24）の口コミ・評判を、2026年オリコン顧客満足度調査（24時間ジム 総合3位・72.0点）の項目別得点と利用者コメント18件のテーマ別集計、公式情報で整理しました。通常月7,678円〜の料金、入会時費用、退会の条件、公式店舗検索の124店舗の分布をまとめています。",
 };
 
 /*
@@ -22,11 +22,11 @@ const CHECKED = "2026年10月25日";
 
 const summary = [
   { label: "どんなジムか", value: "株式会社快活フロンティア（AOKIグループ）が運営する24時間営業・セルフ型のフィットネスジムです。トレーナーがつくパーソナルジムではありません。" },
-  { label: "月会費", value: "通常プランは月6,980円（税込7,678円）の店舗が115店舗、7,480円（税込8,228円）の店舗が7店舗です（全122店舗の店舗ページを確認）。" },
+  { label: "月会費", value: "通常プランは月6,980円（税込7,678円）の店舗が117店舗、7,480円（税込8,228円）の店舗が7店舗です（2026年11月11日に全124店舗の店舗ページを確認）。" },
   { label: "入会時", value: "事務手数料と月会費2ヶ月分（初月は日割り）を一括でクレジットカード決済します。現金払いには対応していません。" },
-  { label: "店舗数", value: "公式の店舗検索に122店舗・30都道府県が掲載されています（うち2店舗はオープン前）。" },
+  { label: "店舗数", value: "公式の店舗検索に124店舗・30都道府県が掲載されています（2026年11月11日確認。うち3店舗はオープン前）。" },
   { label: "退会", value: "毎月10日までにマイページで手続きを完了すると当月末、11日以降は翌月末の退会です。電話・メールでは受け付けていません。" },
-  { label: "口コミ", value: "オリコン顧客満足度調査の総合得点は72.0点です。利用者コメント18件では、良い点は「設備・マシン」「清潔さ」、気になる点は「他の利用者のマナー」に関するものが最多でした。" },
+  { label: "口コミ", value: "2026年オリコン顧客満足度調査「24時間ジム」で総合3位（72.0点・ランクイン5社）、項目別では「通いやすさ」が79.3点で最も高い評価です。利用者コメント18件では、良い点は「設備・マシン」「清潔さ」、気になる点は「他の利用者のマナー」に関するものが最多でした。" },
 ];
 
 const basicInfo = [
@@ -34,7 +34,7 @@ const basicInfo = [
   { label: "運営会社", value: "株式会社快活フロンティア（AOKIグループ）" },
   { label: "タイプ", value: "24時間営業のセルフ型フィットネスジム（トレーナーの専属指導なし）" },
   { label: "月会費", value: "通常プラン月7,678円〜（税込）。家族・U22・高校生プランあり" },
-  { label: "店舗", value: "122店舗・30都道府県（公式店舗検索・2026年10月25日確認）" },
+  { label: "店舗", value: "124店舗・30都道府県（公式店舗検索・2026年11月11日確認。うち3店舗はオープン前）" },
   { label: "主な設備", value: "HAMMER STRENGTH中心のマシン・フリーウェイト・有酸素マシン・ストレッチエリア・InBody・シャワー" },
 ];
 
@@ -96,12 +96,12 @@ const options = [
 
 const higherPriceStores = "BiVi仙台駅東口店・長野若槻店・長野南バイパス店・長野昭和通り店・千曲屋代店・西宮丸橋店・夙川店";
 
-// 公式店舗検索データ（shop/data/shop.js）に掲載のFiT24 122店舗の都道府県別内訳（2026-10-25 集計）
+// 公式店舗検索データ（shop/data/shop.js）に掲載のFiT24 124店舗の都道府県別内訳（2026-11-11 再集計。10/25 の122店舗から 羽村店・新潟寺尾店 が増加）
 const prefCounts: [string, number][] = [
-  ["埼玉県", 16], ["神奈川県", 14], ["千葉県", 12], ["北海道", 7], ["茨城県", 7], ["東京都", 7], ["静岡県", 6],
+  ["埼玉県", 16], ["神奈川県", 14], ["千葉県", 12], ["東京都", 8], ["北海道", 7], ["茨城県", 7], ["静岡県", 6],
   ["長野県", 5], ["兵庫県", 5], ["宮城県", 4], ["群馬県", 4], ["福岡県", 4], ["沖縄県", 4], ["愛知県", 3],
-  ["大阪府", 3], ["熊本県", 3], ["山形県", 2], ["福島県", 2], ["山口県", 2], ["高知県", 2], ["青森県", 1],
-  ["岩手県", 1], ["秋田県", 1], ["新潟県", 1], ["石川県", 1], ["福井県", 1], ["滋賀県", 1], ["和歌山県", 1],
+  ["大阪府", 3], ["熊本県", 3], ["山形県", 2], ["福島県", 2], ["新潟県", 2], ["山口県", 2], ["高知県", 2], ["青森県", 1],
+  ["岩手県", 1], ["秋田県", 1], ["石川県", 1], ["福井県", 1], ["滋賀県", 1], ["和歌山県", 1],
   ["広島県", 1], ["香川県", 1],
 ];
 
@@ -126,6 +126,16 @@ const badThemes: [string, number][] = [
   ["女性用シャワーの数が少ない", 1],
 ];
 
+// 2026年オリコン顧客満足度調査「24時間ジム」（2026-11-11 閲覧）。得点はオリコンの公開値をそのまま転記
+const oriconItems: [string, string][] = [
+  ["入会手続き", "73.7点"], ["コストパフォーマンス", "73.8点"], ["衛生管理", "72.4点"],
+  ["施設の充実さ", "65.6点"], ["通いやすさ", "79.3点"], ["セキュリティ体制", "71.7点"],
+];
+const oriconRanking: [string, string, string][] = [
+  ["1位", "FIT-EASY", "73.1点"], ["2位", "エニタイムフィットネス", "72.4点"], ["3位", "FiT24", "72.0点"],
+  ["4位", "ジョイフィット24", "70.7点"], ["5位", "chocoZAP", "68.0点"],
+];
+
 const faqItems = [
   { q: "FiT24の入会時にかかる費用はいくらですか？", a: "公式FAQによると、新規契約時に事務手数料と月会費2ヶ月分（初月と翌月）を一括で請求されます。初月は利用開始日からの日割りです。事務手数料は2026年7月の新店リリースで2,200円（税込）と記載されています。通常プラン（税込7,678円）で月初に利用を始める場合、7,678円×2＋2,200円＝17,556円が目安です（キャンペーン適用時は異なります）。" },
   { q: "退会はいつまでに手続きすればよいですか？", a: "利用規約では、毎月10日までに退会手続きを完了すると当月末、11日以降は翌月末の退会となります。手続きはマイページの「契約管理」から行い、電話・メールでの申し出は受け付けていません。退会日までの会費は利用の有無にかかわらず発生します。" },
@@ -134,7 +144,8 @@ const faqItems = [
   { q: "シャワーはありますか？", a: "公式FAQでは、シャワーは24時間・追加料金なしで利用でき、店舗により4〜6室あると説明されています。リンスインシャンプーとボディソープがあり、タオルの用意はありません。なお、店舗ページの施設案内に「シャワー・更衣室」の写真がある店舗は122店舗中109店舗で、残る13店舗はページ上で確認できなかったため、通う店舗でご確認ください。" },
   { q: "初心者でも利用できますか？", a: "セルフ型ですが、入会後にマシンの使い方などを教わる無料サポート「スタサポ」があると運営会社のリリースに記載されています。無料体験会（施設説明・施設利用体験・料金説明）は全店で実施しており、事前予約制です。毎回の指導を受けたい方にはパーソナルジムが向いています。" },
   { q: "見学はできますか？", a: "スタッフ対応時間内であれば、予約なしで見学できます。夜間の見学は受け付けていません（公式FAQ）。" },
-  { q: "店舗はどこにありますか？", a: "公式の店舗検索には122店舗・30都道府県が掲載されています（2026年10月25日確認）。最も多いのは埼玉県16店舗、神奈川県14店舗、千葉県12店舗です。東京都は7店舗で、都心の繁華街ではなく武蔵境・瑞江・立川などに出店しています。" },
+  { q: "FiT24の評判は？オリコンでは何位ですか？", a: "2026年オリコン顧客満足度調査「24時間ジム」では、ランクイン5社中3位（総合72.0点）です。1位はFIT-EASY（73.1点）、2位はエニタイムフィットネス（72.4点）でした。FiT24は評価項目のうち「通いやすさ」が79.3点で最も高く、「施設の充実さ」が65.6点で最も低い得点です（2026年11月11日閲覧）。" },
+  { q: "店舗はどこにありますか？", a: "公式の店舗検索には124店舗・30都道府県が掲載されています（2026年11月11日確認。うち3店舗はオープン前）。最も多いのは埼玉県16店舗、神奈川県14店舗、千葉県12店舗です。東京都は8店舗（オープン予定の羽村店を含む）で、都心の繁華街ではなく武蔵境・瑞江・立川などに出店しています。" },
 ];
 
 const faqJsonLd = {
@@ -171,6 +182,7 @@ const SRC = {
   payment: "https://www.fit24.jp/information/fit24_payment.html",
   release: "https://prtimes.jp/main/html/rd/p/000000145.000075275.html",
   oricon: "https://life.oricon.co.jp/rank_fitness/24hours/company/fit24/",
+  oriconRank: "https://life.oricon.co.jp/rank_fitness/24hours/",
 };
 
 function Src({ href, children }: { href: string; children: React.ReactNode }) {
@@ -188,7 +200,7 @@ export default function Fit24Review() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "FiT24（フィット24）の口コミ・評判｜月会費・店舗ごとの評価を検証",
+        "headline": "FiT24（フィット24）の口コミ・評判｜オリコン2026年総合3位・月会費と店舗を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -199,15 +211,15 @@ export default function Fit24Review() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-25"
+        "dateModified": "2026-11-11"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "FiT24" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          FiT24（フィット24）の口コミ・評判｜月会費・店舗ごとの評価を検証
+          FiT24（フィット24）の口コミ・評判｜オリコン2026年総合3位・月会費と店舗を検証
         </h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月25日（料金・店舗数・休会/退会の条件・設備を公式サイトで再確認し、口コミをテーマ別に集計）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月11日（オリコン2026年調査の項目別得点・他社比較、店舗数124店舗・月会費を公式サイトで再確認。休会/退会の条件・設備は10月25日確認）</p>
 
         <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="FiT24とは">
           <h2 className="font-bold text-gray-900 mb-3">FiT24（フィット24）とは：要点のまとめ</h2>
@@ -304,7 +316,7 @@ export default function Fit24Review() {
         <section id="pricing" className="mb-12 scroll-mt-20">
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FiT24のプラン別料金・入会時費用</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            当サイトでは{CHECKED}に、公式の店舗検索に掲載されている全122店舗の店舗ページを開き、料金表の金額を集計しました。家族・U22・高校生プランとオプションは全店で同じ金額です。通常プランは115店舗が月6,980円、次の7店舗が月7,480円（税込8,228円）です：{higherPriceStores}。
+            当サイトでは{CHECKED}に、公式の店舗検索に掲載されている全122店舗の店舗ページを開き、料金表の金額を集計しました。家族・U22・高校生プランとオプションは全店で同じ金額です。通常プランは115店舗が月6,980円、次の7店舗が月7,480円（税込8,228円）です：{higherPriceStores}。2026年11月11日に全124店舗で再確認したところ、増えた2店舗（羽村店・新潟寺尾店）も月6,980円で、117店舗が月6,980円、上記7店舗が月7,480円でした。
           </p>
           <h3 className="font-bold text-gray-800 mb-2">プラン料金（月額）</h3>
           <div className="overflow-x-auto mb-6">
@@ -412,7 +424,7 @@ export default function Fit24Review() {
         <section className="mb-12">
           <h2 id="s7d" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">FiT24の店舗数と都道府県別の分布</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            公式の店舗検索データには、{CHECKED}時点でFiT24（ジム）が<strong>122店舗・30都道府県</strong>掲載されています。このうち春日井店（11月1日）と大阪千里店（12月10日）はオープン予定の店舗です。運営会社のリリースでは、2026年7月開業の立川幸町店が「全国115店舗目」とされています。同じ公式サイトにある「FiT24インドアゴルフ」は別サービスのため、数に含めていません。
+            公式の店舗検索データには、2026年11月11日時点でFiT24（ジム）が<strong>124店舗・30都道府県</strong>掲載されています（10月25日の確認時は122店舗）。このうち大阪千里店（12月10日）・羽村店（12月16日）・新潟寺尾店（2027年1月8日）は、店舗検索にオープン予定日が表示されている店舗です。最近では茂原店（10月16日）・いずみ中央店（10月23日）・春日井店（11月1日）がオープンしています。運営会社のリリースでは、2026年7月開業の立川幸町店が「全国115店舗目」とされています。同じ公式サイトにある「FiT24インドアゴルフ」は別サービスのため、数に含めていません。
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 text-sm">
             {prefCounts.map(([pref, n]) => (
@@ -423,7 +435,7 @@ export default function Fit24Review() {
             ))}
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            関東の1都6県で60店舗（約49%）です。東京都の7店舗は武蔵境駅前・瑞穂・瑞江駅前・町田忠生・調布国領・立川幸町・大田千鳥で、渋谷・新宿・池袋などの都心には出店していません。お近くの店舗は<Src href={SRC.shop}>公式の店舗検索</Src>でご確認ください。
+            関東の1都6県で61店舗（約49%）です。東京都の8店舗は武蔵境駅前・瑞穂・瑞江駅前・町田忠生・調布国領・立川幸町・大田千鳥と、オープン予定の羽村で、渋谷・新宿・池袋などの都心には出店していません。お近くの店舗は<Src href={SRC.shop}>公式の店舗検索</Src>でご確認ください。
           </p>
         </section>
 
@@ -442,7 +454,7 @@ export default function Fit24Review() {
                 <tr className="border-b border-gray-100 align-top">
                   <td className="px-4 py-2 text-gray-800"><Src href={SRC.oricon}>オリコン顧客満足度調査「24時間ジム」</Src></td>
                   <td className="px-4 py-2 text-gray-700">総合得点72.0点。利用者コメント18件（良い点12件・気になる点6件）</td>
-                  <td className="px-4 py-2 text-gray-700">過去3年以内に24時間ジムを利用し料金を把握している3,438人の調査。調査年はページに表示なし</td>
+                  <td className="px-4 py-2 text-gray-700">2026年発表の調査。過去3年以内に24時間ジムを利用し料金を把握している3,438人が対象で、2023年・2024年・2025年（直近は10月20日〜11月7日）の回答を集計（オリコンのランキングページの調査概要）</td>
                 </tr>
                 <tr className="border-b border-gray-100 align-top">
                   <td className="px-4 py-2 text-gray-800">Googleマップ</td>
@@ -475,6 +487,38 @@ export default function Fit24Review() {
           </div>
           <p className="text-sm text-gray-700 leading-relaxed mt-4">
             オリコンの評価項目では「通いやすさ」が79.3点で最も高く、「施設の充実さ」が65.6点で最も低くなっています。一方、コメントの良い点では設備・マシンへの言及が最も多く、店舗によって受け止め方が分かれていることがうかがえます。気になる点で多い利用者のマナーやスタッフ不在時の不安は、セルフ型24時間ジムに共通しやすい論点です。入会前に、通う予定の店舗をスタッフ対応時間内に見学されることをおすすめします。
+          </p>
+          {/* 2026-11-11 追加: 競合（オリコン本体・比較メディア）にある「項目別得点・他社との比較」を、オリコンの公開値そのままで掲載（11/11 閲覧） */}
+          <h3 className="font-bold text-gray-900 mt-8 mb-3">オリコン2026年調査の項目別得点と他社との比較</h3>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-200">
+                <caption className="text-left text-xs text-gray-500 mb-1">FiT24の評価項目別得点</caption>
+                <thead><tr className="bg-gray-100 text-gray-800"><th className="px-3 py-2 text-left font-medium">評価項目</th><th className="px-3 py-2 text-right font-medium">得点</th></tr></thead>
+                <tbody>
+                  {oriconItems.map(([k, v]) => (
+                    <tr key={k} className="border-t border-gray-100"><td className="px-3 py-1.5 text-gray-700">{k}</td><td className="px-3 py-1.5 text-right font-medium text-gray-900">{v}</td></tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-200">
+                <caption className="text-left text-xs text-gray-500 mb-1">24時間ジム 総合ランキング（ランクイン5社）</caption>
+                <thead><tr className="bg-gray-100 text-gray-800"><th className="px-3 py-2 text-left font-medium">順位</th><th className="px-3 py-2 text-left font-medium">ブランド</th><th className="px-3 py-2 text-right font-medium">総合得点</th></tr></thead>
+                <tbody>
+                  {oriconRanking.map(([r, n, v]) => (
+                    <tr key={n} className={`border-t border-gray-100 ${n === "FiT24" ? "bg-teal-50 font-bold" : ""}`}><td className="px-3 py-1.5 text-gray-700">{r}</td><td className="px-3 py-1.5 text-gray-800">{n}</td><td className="px-3 py-1.5 text-right text-gray-900">{v}</td></tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p className="text-sm text-gray-700 leading-relaxed mt-4">
+            FiT24は総合72.0点で、1位のFIT-EASY（73.1点）との差は1.1点です。項目別では「通いやすさ」79.3点が最も高く、オリコンのFiT24ページでは「施設の充実さ」65.6点が4位と表示されています。友人・知人に「推奨したい」とした割合（推奨意向）は76.4%、「継続したい」とした割合（継続意向）は88.2%です。総合得点は、各項目の得点に利用者が重視する度合いを掛け合わせ、他者推奨得点（FiT24は68.5点）を加味して算出されています。
+          </p>
+          <p className="text-xs text-gray-500 mt-2">
+            出典: <Src href={SRC.oricon}>オリコン「FiT24 24時間ジムの評判・口コミ」</Src>・<Src href={SRC.oriconRank}>オリコン「24時間ジム」総合ランキング</Src>（2026年11月11日閲覧）。調査対象9社のうち、オリコンの規定（展開地域・回答数100人以上など）を満たした5社がランクインしています。
           </p>
           <p className="text-xs text-gray-500 mt-3">※ 18件は少数のサンプルで、評価には個人差があります。分類は当サイトによるもので、オリコンの見解ではありません（{CHECKED}閲覧）。</p>
         </section>

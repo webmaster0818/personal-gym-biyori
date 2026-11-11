@@ -6,9 +6,9 @@ import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 
 export const metadata: Metadata = {
-  title: "リアルボディの口コミ・評判｜料金・効果と坂戸店の店舗情報【2026年】",
+  title: "リアルボディの口コミ・評判｜坂戸店（坂戸市）のレビュー・料金・店舗情報【2026年】",
   description:
-    "リアルボディの口コミ・評判をご紹介します。1回3,500円〜の回数券制・食事指導無料・契約縛りなしという特徴、料金総額の目安、口コミの傾向、目的別の向き不向き、よくある質問を解説します。坂戸店（埼玉）などの店舗情報も掲載しており、仙台・東北・千葉・埼玉でのパーソナルジム選びにご活用いただけます。",
+    "リアルボディ坂戸店（埼玉県坂戸市・坂戸駅徒歩4分）の住所・営業時間・料金と、口コミ・レビューの確認先を公式サイトで確認して掲載しています（2026年11月11日確認）。回数券は2回券12,000円〜16回券56,000円（税込・1回45分）、全19店舗の所在地もまとめています。",
 };
 
 const basicInfo = [
@@ -173,18 +173,21 @@ export default function RealBodyReview() {
           <img src="/brand-ss/real-body.jpg" alt="リアルボディの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">リアルボディ 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月27日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
         {/* 2026-10-27: 検索語「リアルボディ坂戸店 坂戸市 レビュー」(10.5位)向けに、坂戸店の公式情報を冒頭に（公式店舗ページ・料金ページを同日確認） */}
         <div className="mb-8 rounded-xl border border-teal-200 bg-teal-50 p-5 text-sm leading-relaxed text-gray-800">
-          <p className="font-bold text-teal-900">リアルボディ坂戸店の概要（2026年10月27日 公式サイトで確認）</p>
+          <p className="font-bold text-teal-900">リアルボディ坂戸店（坂戸市）の概要とレビューの確認先（2026年11月11日 公式サイトで再確認）</p>
           <ul className="mt-2 space-y-1">
             <li>・<strong>所在地</strong>：埼玉県坂戸市南町12-12 幸陽ビル102（2026年5月22日オープン）</li>
             <li>・<strong>アクセス</strong>：東武鉄道 坂戸駅から徒歩4分／駐車場2台</li>
             <li>・<strong>営業時間</strong>：平日 9:00〜21:00、土日祝 8:00〜19:00（年中無休）</li>
-            <li>・<strong>料金</strong>：全店共通の回数券制で、2回券 税込12,000円から限定16回券 税込56,000円（1回3,500円）まで。1回45分のトレーニングです。</li>
+            <li>・<strong>料金</strong>：全店共通の回数券制で、2回券 税込12,000円から限定16回券 税込56,000円（1回3,500円）まで。1回45分のトレーニングです。公式の料金ページでは、使い切れなかった回数券は翌月に繰り越せると案内されています。</li>
+            <li>・<strong>支払い・持ち物</strong>：坂戸店のページでは現金・クレジットカード・PayPayに対応と記載されています（料金ページではローンは扱っていないと記載）。持ち物は動きやすい服とタオルのみで、シューズと水は不要です。</li>
+            <li>・<strong>レビュー（口コミ）</strong>：坂戸店の公式ページには、Googleのカスタマーレビューから抜粋した口コミ5件が画像で掲載されています（店舗が掲載許可を得て選んだものです）。当サイトでは坂戸店の口コミ件数・評価点を独自に集計していないため、点数は掲載していません。投稿全体はGoogleマップの坂戸店のページでご確認ください。</li>
+            <li>・<strong>店舗数</strong>：公式の店舗一覧は全19店舗（宮城県8・千葉県5・福島県2・山形県・青森県・岩手県・埼玉県 各1）です。埼玉県の店舗は坂戸店のみです。</li>
           </ul>
           <p className="mt-2 text-xs text-gray-600">
-            出典：リアルボディ公式サイトの坂戸店ページ・料金ページ。このページの口コミの傾向はリアルボディ全体についてのもので、坂戸店に限定したものではありません。
+            出典：<a href="https://personalgym-realbody.com/sakado/" target="_blank" rel="nofollow noopener noreferrer" className="underline">リアルボディ公式サイトの坂戸店ページ</a>・<a href="https://personalgym-realbody.com/price/" target="_blank" rel="nofollow noopener noreferrer" className="underline">料金ページ</a>・店舗一覧（2026年11月11日確認）。このページの口コミの傾向はリアルボディ全体についてのもので、坂戸店に限定したものではありません。
             店舗の詳細は<a href="#sakado" className="underline text-teal-700">坂戸店の店舗情報</a>をご覧ください。
           </p>
         </div>

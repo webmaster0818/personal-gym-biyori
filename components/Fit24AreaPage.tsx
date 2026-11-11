@@ -125,7 +125,7 @@ export default function Fit24AreaPage({ slug }: { slug: string }) {
           <div className="bg-teal-50 rounded-lg p-6 text-center space-y-4">
             <p className="font-bold text-gray-800">FIT24の料金プラン・入会時の費用・口コミの傾向はこちら</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/review/fit24/" className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">FIT24の総合レビューを見る</Link>
+              <Link href="/review/fit24/" className="inline-block border border-teal-600 text-teal-600 px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">FiT24（フィット24）の口コミ・評判を見る</Link>
               <a href={FELMAT} target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">公式サイトへ</a>
             </div>
           </div>
