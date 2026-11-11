@@ -40,7 +40,6 @@ const faqJsonLd = {
 
 /* ---------- 関連店舗 ---------- */
 const relatedStores = [
-  { name: "BEYOND 渋谷店", href: "/review/beyond/shibuya/" },
   { name: "BEYOND 六本木店", href: "/review/beyond/roppongi/" },
   { name: "BEYOND 銀座店", href: "/review/beyond/ginza/" },
   { name: "BEYOND 渋谷表参道店", href: "/review/beyond/shibuya-omotesando/" },

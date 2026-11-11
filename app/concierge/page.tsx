@@ -93,7 +93,7 @@ const stores: Store[] = [
     affiliateUrl: BEYOND_AFF,
   }, [
     ['東京', '新宿', '/review/beyond/shinjuku/'],
-    ['東京', '渋谷', '/review/beyond/shibuya/'],
+    ['東京', '渋谷', '/review/beyond/shibuya-omotesando/'],
     ['東京', '池袋', '/review/beyond/ikebukuro/'],
     ['東京', '銀座', '/review/beyond/ginza/'],
     ['東京', '六本木', '/review/beyond/roppongi/'],

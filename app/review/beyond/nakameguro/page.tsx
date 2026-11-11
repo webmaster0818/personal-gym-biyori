@@ -43,7 +43,7 @@ const faqJsonLd = {
 const relatedStores = [
   { name: "BEYOND 自由が丘店", href: "/review/beyond/jiyugaoka/" },
   { name: "BEYOND 恵比寿店", href: "/review/beyond/ebisu/" },
-  { name: "BEYOND 渋谷店", href: "/review/beyond/shibuya/" },
+  { name: "BEYOND 渋谷表参道店", href: "/review/beyond/shibuya-omotesando/" },
 ];
 
 export default function StorePage() {

@@ -42,7 +42,7 @@ const faqJsonLd = {
 /* ---------- 関連店舗 ---------- */
 const relatedStores = [
   { name: "エクササイズコーチ 新宿店", href: "/review/exercise-coach/shinjuku/" },
-  { name: "BEYOND 渋谷店", href: "/review/beyond/shibuya/" },
+  { name: "BEYOND 渋谷表参道店", href: "/review/beyond/shibuya-omotesando/" },
 ];
 
 export default function StorePage() {
