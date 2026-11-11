@@ -199,6 +199,8 @@ const TRIAL: Partial<Record<BrandKey, Trial>> = {
 };
 
 const D22 = "2026年10月22日";
+/** 2026-11-11 追加分（札幌・池袋・立川・吉祥寺・福岡・名古屋・新潟）: 各ブランド公式の店舗一覧・店舗ページで確認 */
+const D1111 = "2026年11月11日";
 
 export const AREA_PICKS: Record<string, Pick[]> = {
   akasaka: [],
@@ -219,7 +221,9 @@ export const AREA_PICKS: Record<string, Pick[]> = {
   fukuoka: [
     { brand: "rizap", stores: ["天神店", "博多店", "小倉店"] },
     { brand: "w247", stores: ["福岡薬院・天神店"] },
-    { brand: "beyond", stores: ["福岡天神店", "博多店"] },
+    { brand: "beyond", stores: ["福岡天神店", "博多店", "香椎駅前店"], storeCheckedOn: D1111 },
+    { brand: "aspi", stores: ["福岡天神", "博多"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/fukuoka/fukuoka/" },
+    { brand: "ec", stores: ["博多マルイ店"], storeCheckedOn: D1111, priceUrl: "https://exercisecoach.co.jp/store/hakata/" },
   ],
   funabashi: [
     { brand: "beyond", stores: ["船橋店"] },
@@ -242,9 +246,11 @@ export const AREA_PICKS: Record<string, Pick[]> = {
     { brand: "chicken", stores: ["池袋店"] },
     { brand: "rizap", stores: ["池袋西口店"] },
     { brand: "w247", stores: ["池袋店", "池袋東口店"] },
-    { brand: "beyond", stores: ["池袋店"] },
+    { brand: "beyond", stores: ["池袋店", "池袋ANNEX店"], storeCheckedOn: D1111 },
     { brand: "ec", stores: ["池袋東口店", "池袋西口店"], storeCheckedOn: D22 },
     { brand: "woot", stores: ["池袋（旧 Bodyke 池袋店）"], storeCheckedOn: D22 },
+    { brand: "aspi", stores: ["池袋"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/tokyo/ikebukuro/" },
+    { brand: "katagiri", stores: ["池袋店"], storeCheckedOn: D1111, priceUrl: "https://katagirijuku.jp/gyms/ikebukuro", entryFee: "入会金50,000円（税込55,000円）※体験当日の入会で無料のキャンペーンあり（割引額は店舗により異なる）" },
   ],
   jiyugaoka: [
     { brand: "beyond", stores: ["自由が丘店"] },
@@ -256,9 +262,10 @@ export const AREA_PICKS: Record<string, Pick[]> = {
     { brand: "ec", stores: ["川崎ダイス店"], storeCheckedOn: D22 },
   ],
   kichijoji: [
-    { brand: "beyond", stores: ["吉祥寺店"] },
+    { brand: "beyond", stores: ["吉祥寺店", "吉祥寺ANNEX店"], storeCheckedOn: D1111 },
     { brand: "katagiri", stores: ["吉祥寺店"] },
     { brand: "apple", stores: ["吉祥寺店"], storeCheckedOn: D22, priceUrl: "https://applegym.jp/shop/kichijoji/", priceNote: "個別指導は最大2名までの指導です。別途共用設備費330円（税込）がかかります。" },
+    { brand: "aspi", stores: ["吉祥寺"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/tokyo/kichijoji/" },
   ],
   kobe: [
     { brand: "rizap", stores: ["神戸店"] },
@@ -280,9 +287,10 @@ export const AREA_PICKS: Record<string, Pick[]> = {
   nagoya: [
     { brand: "rizap", stores: ["名駅南店", "名古屋栄店", "金山店"] },
     { brand: "w247", stores: ["名古屋栄店", "名古屋久屋大通店"] },
-    { brand: "beyond", stores: ["名古屋栄店", "名古屋駅前店"] },
+    { brand: "beyond", stores: ["名古屋栄店", "名古屋駅前店", "金山店"], storeCheckedOn: D1111 },
     { brand: "ec", stores: ["名古屋栄店"], storeCheckedOn: D22 },
     { brand: "mermake", stores: ["名駅店"], storeCheckedOn: D22 },
+    { brand: "aspi", stores: ["名古屋栄", "金山店"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/aichi/nagoya_sakae/" },
   ],
   nakameguro: [
     { brand: "katagiri", stores: ["中目黒店"] },
@@ -297,6 +305,7 @@ export const AREA_PICKS: Record<string, Pick[]> = {
     { brand: "rizap", stores: ["新潟店"] },
     { brand: "beyond", stores: ["新潟店"] },
     { brand: "w247", stores: ["新潟店"] },
+    { brand: "aspi", stores: ["新潟本町"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/niigata/niigata-honcho/" },
   ],
   okayama: [
     { brand: "chicken", stores: ["岡山店"] },
@@ -323,6 +332,9 @@ export const AREA_PICKS: Record<string, Pick[]> = {
   sapporo: [
     { brand: "rizap", stores: ["札幌店"] },
     { brand: "w247", stores: ["札幌店"] },
+    // 2026-11-11 追加: BEYOND 公式の店舗一覧（北海道）のうち札幌市内の5店舗（函館店は除外）。札幌の各店舗ページには月額プランも掲載
+    { brand: "beyond", stores: ["札幌駅前店", "札幌ANNEX店", "札幌大通店", "札幌円山店", "豊平店"], storeCheckedOn: D1111, priceUrl: "https://beyond-gym.com/gym/gym-sapporoekimae/", priceNote: "札幌の各店舗ページには、回数券（STANDARD 10：10回102,300円・税込）のほか、月4回の月額プラン（マンスリー4：35,200円・税込）も掲載されています。" },
+    { brand: "aspi", stores: ["札幌", "円山"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/hokkaido/sapporo/", priceNote: "90食分のオンライン食事指導が含まれます。札幌・円山の店舗ページには月4回17,680円の月額プランも掲載されています（月額プランの税込・税別の表記はありません）。" },
   ],
   sendai: [
     { brand: "rizap", stores: ["仙台店"] },
@@ -348,9 +360,10 @@ export const AREA_PICKS: Record<string, Pick[]> = {
     { brand: "outline", stores: ["新宿店"], storeCheckedOn: D22 },
   ],
   tachikawa: [
-    { brand: "beyond", stores: ["立川店"] },
+    { brand: "beyond", stores: ["立川店", "立川ANNEX店"], storeCheckedOn: D1111 },
     { brand: "w247", stores: ["立川店"] },
     { brand: "ec", stores: ["立川店"], storeCheckedOn: D22 },
+    { brand: "aspi", stores: ["立川"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/tokyo/tachikawa/" },
   ],
   takasaki: [
     { brand: "rizap", stores: ["高崎店"] },
@@ -478,7 +491,7 @@ export function buildAreaPickFaq(slug: string, areaName: string): { q: string; a
   const items = [
     {
       q: `${areaName}で公式サイトに店舗が掲載されているパーソナルジムはどこですか？`,
-      a: `当サイトが2026年10月に各ブランドの公式店舗一覧で確認した範囲では、${gyms.map((g) => `${g.name}（${g.access}）`).join("、")}の${n}件です。`,
+      a: `当サイトが2026年10月〜11月に各ブランドの公式店舗一覧で確認した範囲では、${gyms.map((g) => `${g.name}（${g.access}）`).join("、")}の${n}件です。`,
     },
     {
       q: `${areaName}の掲載ジムの料金はいくらですか？`,

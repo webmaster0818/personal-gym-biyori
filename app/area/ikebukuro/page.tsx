@@ -66,7 +66,7 @@ export default function IkebukuroAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月22日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           池袋は、JR・東武・西武・東京メトロが乗り入れるターミナル駅を中心としたエリアです。{pickCopy.intro}

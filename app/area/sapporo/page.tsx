@@ -63,7 +63,7 @@ export default function SapporoAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年10月25日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           札幌は北海道最大の都市です。{pickCopy.intro}
