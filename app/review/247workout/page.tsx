@@ -6,7 +6,7 @@ import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
-import { WORKOUT247_PLANS as W, WORKOUT247_CHECKED_AT } from "@/data/brand-prices";
+import { WORKOUT247_PLANS as W, WORKOUT247_CHECKED_AT, RIZAP_PLANS, RIZAP_CHECKED_AT } from "@/data/brand-prices";
 
 const yen = (n: number) => n.toLocaleString() + "円";
 
@@ -422,7 +422,7 @@ export default function Workout247Review() {
                 </tr>
                 <tr className="border-b border-gray-100 align-top">
                   <td className="px-4 py-3 font-medium text-gray-800"><Link href="/review/rizap/" className="text-teal-600 hover:underline">RIZAP</Link></td>
-                  <td className="px-4 py-3 text-gray-700">16回327,800円（2ヶ月）/ 月額22,000円〜</td>
+                  <td className="px-4 py-3 text-gray-700">BASIC 2ヶ月16回 {yen(RIZAP_PLANS.basic16Course)}＋入会金{yen(RIZAP_PLANS.entry)} / PRIME 月8回 月額{yen(RIZAP_PLANS.primeMonthly8)}（別途登録料{yen(RIZAP_PLANS.primeRegistration)}・公式 {RIZAP_CHECKED_AT}確認）</td>
                   <td className="px-4 py-3 text-gray-700">費用がかかっても確実に結果を出したい方（30日間返金保証）</td>
                 </tr>
               </tbody>

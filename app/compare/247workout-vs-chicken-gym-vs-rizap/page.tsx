@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { WORKOUT247_PLANS, WORKOUT247_CHECKED_AT } from "@/data/brand-prices";
+import { WORKOUT247_PLANS, WORKOUT247_CHECKED_AT, RIZAP_PLANS, RIZAP_CHECKED_AT } from "@/data/brand-prices";
+
+const yen = (n: number) => n.toLocaleString() + "円";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト・チキンジム・RIZAPを比較【2026年】料金・特徴・どちらがおすすめか",
@@ -31,7 +33,7 @@ const gyms: GymRow[] = [
     hours: "7:00〜24:00（店舗により異なる）",
     priceShort: `固定プラン 月4回 月額${WORKOUT247_PLANS.fixed[4].toLocaleString()}円〜（1回50分・入会金不要※一部店舗で異なる・公式 ${WORKOUT247_CHECKED_AT}確認）`,
     feature: "深夜24時まで営業 / 3食食べる食事指導 / 完全個室",
-    refund: "公式サイトにてご確認ください",
+    refund: "全額返金制度あり（初回トレーニングから30日以内の申請など3つの条件をすべて満たす場合）",
   },
   {
     name: "チキンジム",
@@ -48,8 +50,8 @@ const gyms: GymRow[] = [
     slug: "rizap",
     company: "RIZAP株式会社",
     stores: "全国100店舗以上",
-    hours: "10:00〜22:00（店舗により異なる）",
-    priceShort: "シェイプアップ16回 327,800円（2ヶ月）/ PRIMEプラン 月額22,000円〜",
+    hours: `7:00〜23:00（公式の店舗情報で100店舗中99店舗・${RIZAP_CHECKED_AT}確認。店舗により異なる）`,
+    priceShort: `BASIC 2ヶ月16回 ${yen(RIZAP_PLANS.basic16Course)}＋入会金${yen(RIZAP_PLANS.entry)} / PRIME 月8回 月額${yen(RIZAP_PLANS.primeMonthly8)}（別途登録料${yen(RIZAP_PLANS.primeRegistration)}・入会金${yen(RIZAP_PLANS.entry)}。公式 ${RIZAP_CHECKED_AT}確認）`,
     feature: "専属トレーナー / 管理栄養士サポート / 結果にコミット",
     refund: "30日間全額返金保証（条件は公式サイトにてご確認ください）",
   },
@@ -128,11 +130,11 @@ const faqs = [
   },
   {
     q: "返金保証があるのはどれですか？",
-    a: "3社の中ではRIZAPが30日間全額返金保証を設けています。24/7ワークアウト・チキンジムの保証については、各公式サイトにてご確認ください。保証は「30日以内」「条件あり」など範囲がジムごとに異なります。",
+    a: "RIZAPは30日間全額返金保証を設けています。24/7ワークアウトも全額返金制度を設けており、初回トレーニングから30日以内の申請、予約変更が3回未満、無断欠席や24時間以内の予約変更・キャンセルがないことの3条件をすべて満たす場合に適用されます。物品の購入代金は対象外で、利用後は再入会できません（24/7ワークアウト公式 コース・料金ページ・2026年11月12日確認）。チキンジムの保証については、公式サイトにてご確認ください。保証は「30日以内」「条件あり」など範囲がジムごとに異なります。",
   },
   {
     q: "深夜まで通えるのはどれですか？",
-    a: "3社の中では24/7ワークアウトが最も遅く、多くの店舗で24時まで営業しています（店舗により異なる）。チキンジムの営業時間は公式サイトに記載がありません。RIZAPは22時までが目安です。利用予定の店舗の営業時間は、公式サイトにてご確認ください。",
+    a: "3社の中では24/7ワークアウトが最も遅く、多くの店舗で24時まで営業しています（店舗により異なる）。チキンジムの営業時間は公式サイトに記載がありません。RIZAPは公式の店舗情報で100店舗中99店舗が7:00〜23:00です（2026年11月12日確認）。利用予定の店舗の営業時間は、公式サイトにてご確認ください。",
   },
 ];
 

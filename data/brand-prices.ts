@@ -458,3 +458,16 @@ export const WORKOUT247_PLANS = {
   ticketPerSession: 10450,
   entry: "入会金は不要（一部店舗で異なる）",
 } as const;
+
+/*
+ * RIZAP の料金（公式 料金プランページの掲載値・税込）。
+ * 2026-11-12 確認: https://www.rizap.jp/plan
+ * 比較ページはこの値を参照する（以前は「PRIMEプラン 月額22,000円〜」と直書きしていたが、公式に該当する金額はない）。
+ */
+export const RIZAP_CHECKED_AT = "2026年11月12日";
+export const RIZAP_PLANS = {
+  basic16Course: 327800,
+  entry: 55000,
+  primeMonthly8: 77000,
+  primeRegistration: 440000,
+} as const;
