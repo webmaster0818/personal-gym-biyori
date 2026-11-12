@@ -40,7 +40,7 @@ const faqJsonLd = {
 
 /* ---------- 関連店舗 ---------- */
 const relatedStores = [
-  { name: "RIZAP 池袋店", href: "/review/rizap/ikebukuro/" },
+  { name: "RIZAP 池袋西口店", href: "/review/rizap/ikebukuro/" },
 ];
 
 export default function StorePage() {

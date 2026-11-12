@@ -7,23 +7,23 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "RIZAP 名駅店の口コミ・評判",
+  title: "RIZAP 名駅南店の口コミ・評判",
   description:
-    "RIZAP 名駅店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
+    "RIZAP 名駅南店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
-  { label: "店舗名", value: "RIZAP 名駅店" },
-  { label: "エリア", value: "愛知県名古屋市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "店舗名", value: "RIZAP 名駅南店" },
+  { label: "エリア", value: "愛知県名古屋市中村区名駅南1-12-9 グランスクエア名駅南1F（RIZAP公式の店舗ページ・2026年11月12日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 const faqItems = [
-  { q: "RIZAP名駅店の料金はいくらですか？", a: "RIZAP名駅店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "RIZAP名駅店は結果にコミットできますか？", a: "はい、RIZAPは「結果にコミット」をコンセプトに、専属トレーナーがマンツーマンで指導します。食事指導・トレーニング・メンタルサポートの三位一体で目標達成を目指します。" },
-  { q: "RIZAP名駅店に30日間返金保証はありますか？", a: "はい、RIZAPでは30日間返金保証制度があります。プログラム開始から30日間、いかなる理由でも全額返金が可能です。詳細は公式サイトでご確認ください。" },
-  { q: "RIZAP名駅店のアクセスを教えてください。", a: "JR・名鉄・近鉄・地下鉄の名古屋駅から徒歩5分です。東海地方最大のターミナル駅に位置し、愛知県内のみならず岐阜・三重からも通いやすい立地です。" },
+  { q: "RIZAP名駅南店の料金はいくらですか？", a: "RIZAP名駅南店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
+  { q: "RIZAP名駅南店は結果にコミットできますか？", a: "はい、RIZAPは「結果にコミット」をコンセプトに、専属トレーナーがマンツーマンで指導します。食事指導・トレーニング・メンタルサポートの三位一体で目標達成を目指します。" },
+  { q: "RIZAP名駅南店に30日間返金保証はありますか？", a: "はい、RIZAPでは30日間返金保証制度があります。プログラム開始から30日間、いかなる理由でも全額返金が可能です。詳細は公式サイトでご確認ください。" },
+  { q: "RIZAP名駅南店のアクセスを教えてください。", a: "JR名古屋駅の桜通口から徒歩8分です（RIZAP公式の店舗ページ・2026年11月12日確認）。地下鉄・名鉄・近鉄の名古屋駅からも徒歩8分です。東海地方最大のターミナル駅に位置し、愛知県内のみならず岐阜・三重からも通いやすい立地です。" },
 ];
 
 const faqJsonLd = {
@@ -37,27 +37,27 @@ const faqJsonLd = {
 };
 
 const relatedStores = [
-  { name: "RIZAP 名古屋店", href: "/review/rizap/nagoya/" },
+  { name: "RIZAP 名古屋栄店", href: "/review/rizap/nagoya/" },
   { name: "RIZAP 金山店", href: "/review/rizap/kanayama/" },
-  { name: "RIZAP 京都店", href: "/review/rizap/kyoto/" },
+  { name: "RIZAP 京都河原町店", href: "/review/rizap/kyoto/" },
 ];
 
 export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <StoreJsonLd k="rizap/meieki" storeName="RIZAP 名駅店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/meieki/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名駅店+名古屋" />
+      <StoreJsonLd k="rizap/meieki" storeName="RIZAP 名駅南店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/meieki/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名駅南店+名古屋" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
           { name: "RIZAP", href: "/review/rizap/" },
-          { name: "名駅店" },
+          { name: "名駅南店" },
         ]}
       />
-      <ReviewSummary gymName="名駅店" />
+      <ReviewSummary gymName="名駅南店" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 名駅店の口コミ・評判</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 名駅南店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">RIZAP の公式サイトはこちら</a>
@@ -86,20 +86,20 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
-            <p className="text-gray-600 mb-4">RIZAP 名駅店の所在地をGoogleマップで確認できます。</p>
-            <a href="https://www.google.com/maps/search/RIZAP+名駅店+名古屋" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
+            <p className="text-gray-600 mb-4">RIZAP 名駅南店の所在地をGoogleマップで確認できます。</p>
+            <a href="https://www.google.com/maps/search/RIZAP+名駅南店+名古屋" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
           </div>
         </section>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP名駅店は、東海地方の玄関口・名古屋駅から徒歩5分のビジネス街に位置する店舗です。名古屋駅周辺の再開発で注目を集めるエリアにあり、ビジネスパーソンの利用が非常に多いのが特徴です。新幹線利用で出張が多い方にも通いやすい立地です。トレーナーの専門性が高く、科学的根拠に基づいたトレーニングプログラムが評価されています。短期間で効率的に成果を出したい方から特に支持を集めています。
+            RIZAP名駅南店は、東海地方の玄関口・名古屋駅から徒歩8分のビジネス街に位置する店舗です。名古屋駅周辺の再開発で注目を集めるエリアにあり、ビジネスパーソンの利用が非常に多いのが特徴です。新幹線利用で出張が多い方にも通いやすい立地です。トレーナーの専門性が高く、科学的根拠に基づいたトレーニングプログラムが評価されています。短期間で効率的に成果を出したい方から特に支持を集めています。
           </p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />
-<StoreGmapBox k="rizap/meieki" storeName="RIZAP 名駅店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名駅店+名古屋" />
+<StoreGmapBox k="rizap/meieki" storeName="RIZAP 名駅南店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名駅南店+名古屋" />
 
 
         <section className="mb-10">

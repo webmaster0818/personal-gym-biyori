@@ -7,25 +7,25 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "RIZAP 名古屋店の口コミ・評判",
+  title: "RIZAP 名古屋栄店の口コミ・評判",
   description:
-    "RIZAP 名古屋店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
+    "RIZAP 名古屋栄店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
-  { label: "店舗名", value: "RIZAP 名古屋店" },
-  { label: "エリア", value: "名古屋市中区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "店舗名", value: "RIZAP 名古屋栄店" },
+  { label: "エリア", value: "愛知県名古屋市東区東桜1-9-19 成田栄ビル6F（RIZAP公式の店舗ページ・2026年11月12日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "RIZAP名古屋店の料金はいくらですか？", a: "RIZAP名古屋店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "RIZAP名古屋店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
-  { q: "RIZAP名古屋店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
-  { q: "RIZAP名古屋店のアクセスを教えてください。", a: "地下鉄東山線・名城線の栄駅から徒歩約5分の立地です。名古屋市中区の繁華街に位置しており、アクセスが良好です。" },
+  { q: "RIZAP名古屋栄店の料金はいくらですか？", a: "RIZAP名古屋栄店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
+  { q: "RIZAP名古屋栄店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
+  { q: "RIZAP名古屋栄店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
+  { q: "RIZAP名古屋栄店のアクセスを教えてください。", a: "名古屋市営地下鉄の栄駅7A番出口から徒歩6分です（RIZAP公式の店舗ページ・2026年11月12日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -42,27 +42,27 @@ const faqJsonLd = {
 const relatedStores = [
   { name: "RIZAP 新宿店", href: "/review/rizap/shinjuku/" },
   { name: "RIZAP なんば店", href: "/review/rizap/namba/" },
-  { name: "RIZAP 横浜店", href: "/review/rizap/yokohama/" },
+  { name: "RIZAP 横浜東口店", href: "/review/rizap/yokohama/" },
 ];
 
 export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <StoreJsonLd k="rizap/nagoya" storeName="RIZAP 名古屋店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/nagoya/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名古屋店" />
+      <StoreJsonLd k="rizap/nagoya" storeName="RIZAP 名古屋栄店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/nagoya/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名古屋栄店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
           { name: "RIZAP", href: "/review/rizap/" },
-          { name: "名古屋店" },
+          { name: "名古屋栄店" },
         ]}
       />
-      <ReviewSummary gymName="名古屋店" />
+      <ReviewSummary gymName="名古屋栄店" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          RIZAP 名古屋店の口コミ・評判
+          RIZAP 名古屋栄店の口コミ・評判
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <p className="text-sm mb-6">
@@ -103,10 +103,10 @@ export default function StorePage() {
           </h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
             <p className="text-gray-600 mb-4">
-              RIZAP 名古屋店の所在地をGoogleマップで確認できます。
+              RIZAP 名古屋栄店の所在地をGoogleマップで確認できます。
             </p>
             <a
-              href="https://www.google.com/maps/search/RIZAP+名古屋店"
+              href="https://www.google.com/maps/search/RIZAP+名古屋栄店"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
@@ -122,12 +122,12 @@ export default function StorePage() {
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP名古屋店は、栄駅から徒歩圏内に位置する東海地区の主要店舗です。完全個室のマンツーマントレーニング環境が整い、名古屋市内のビジネスパーソンを中心に支持されています。中部エリアでの知名度が高く、結果にコミットするプログラムで多くの利用者が目標を達成しています。トレーナーの質の高さと、栄エリアの立地が高く評価されています。
+            RIZAP名古屋栄店は、栄駅から徒歩圏内に位置する東海地区の主要店舗です。完全個室のマンツーマントレーニング環境が整い、名古屋市内のビジネスパーソンを中心に支持されています。中部エリアでの知名度が高く、結果にコミットするプログラムで多くの利用者が目標を達成しています。トレーナーの質の高さと、栄エリアの立地が高く評価されています。
           </p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />
-<StoreGmapBox k="rizap/nagoya" storeName="RIZAP 名古屋店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名古屋店" />
+<StoreGmapBox k="rizap/nagoya" storeName="RIZAP 名古屋栄店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+名古屋栄店" />
 
 
         {/* ---------- FAQ ---------- */}

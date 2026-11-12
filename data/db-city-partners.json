@@ -186,8 +186,8 @@
     "stores": [
      {
       "href": "/review/rizap/ikebukuro/",
-      "name": "RIZAP 池袋店",
-      "area": "東京都豊島区南池袋",
+      "name": "RIZAP 池袋西口店",
+      "area": "東京都豊島区池袋",
       "indexable": true
      }
     ]
@@ -293,8 +293,8 @@
     "stores": [
      {
       "href": "/review/rizap/yokohama/",
-      "name": "RIZAP 横浜店",
-      "area": "横浜市西区",
+      "name": "RIZAP 横浜東口店",
+      "area": "横浜市神奈川区",
       "indexable": true
      }
     ]
@@ -528,14 +528,14 @@
      },
      {
       "href": "/review/rizap/meieki/",
-      "name": "RIZAP 名駅店",
-      "area": "愛知県名古屋市",
+      "name": "RIZAP 名駅南店",
+      "area": "名古屋市中村区",
       "indexable": true
      },
      {
       "href": "/review/rizap/nagoya/",
-      "name": "RIZAP 名古屋店",
-      "area": "名古屋市中区",
+      "name": "RIZAP 名古屋栄店",
+      "area": "名古屋市東区",
       "indexable": true
      }
     ]
@@ -594,7 +594,7 @@
     "stores": [
      {
       "href": "/review/rizap/kyoto/",
-      "name": "RIZAP 京都店",
+      "name": "RIZAP 京都河原町店",
       "area": "京都市中京区",
       "indexable": true
      }
@@ -683,7 +683,7 @@
      {
       "href": "/review/rizap/fukuoka/",
       "name": "RIZAP 天神店",
-      "area": "福岡市中央区天神",
+      "area": "福岡市中央区大名",
       "indexable": true
      },
      {
@@ -864,7 +864,7 @@
     "stores": [
      {
       "href": "/review/rizap/omiya/",
-      "name": "RIZAP 大宮店",
+      "name": "RIZAP 大宮西口店",
       "area": "さいたま市大宮区",
       "indexable": true
      },

@@ -172,9 +172,10 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "247workout", name: "24/7ワークアウト",
-    price: "固定プラン 月4回 税込33,440円・月8回66,880円・月12回100,320円・月16回133,760円／フリープラン 月4回 税込36,784円／一括プランは1回あたり税込10,450円（1回50分）",
-    kind: "月額制", lowest: 33440, entry: "記載なし",
-    officialUrl: "https://247-sports.jp/workout/", area: "全国",
+    price: "固定プラン 月4回 税込33,440円・月8回65,120円・月12回95,040円・月16回123,200円／フリープラン 月4回 税込36,784円・月8回71,632円・月12回104,544円・月16回135,520円／一括プラン 1回 税込10,450円〜（いずれも1回50分）",
+    kind: "月額制", lowest: 33440, lowestLabel: "固定プラン 月4回", entry: "不要（一部店舗で異なる）",
+    officialUrl: "https://247-sports.jp/workout/course/", area: "全国",
+    note: "固定プランは曜日と時間を固定するプラン、フリープランは日時を選べるプランです（公式コース・料金ページ・2026年11月12日確認）。",
   },
   {
     slug: "vase", name: "VASE（ベイス）パーソナルジム",
@@ -315,7 +316,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     slug: "rita-style", name: "RITA STYLE",
     price: "週1回 1ヶ月4回97,680円・2ヶ月8回151,580円・3ヶ月12回205,480円／週2回 2ヶ月16回259,380円・3ヶ月24回345,290円・6ヶ月48回646,800円（いずれも入会金込みの総額・税込）／卒業後 メンテナンス月21,560〜64,680円・平日通い放題29,800円",
     kind: "コース制", lowest: 97680, entry: "43,780円（コースにより0円。上記総額に含む）",
-    officialUrl: "https://rita-style.co.jp/price/", area: "福岡・熊本・佐賀・長崎・岡山など",
+    officialUrl: "https://rita-style.co.jp/price/", area: "福岡・熊本・鹿児島・長崎・岡山（公式トップ・特定商取引法の表記は7店舗、店舗一覧の掲載は4店舗・2026年11月12日確認）",
   },
   {
     slug: "outline", name: "OUTLINE",
@@ -444,3 +445,16 @@ export function priceSummary(b: BrandPrice): string {
   if (b.kind === "都度払い") return "1回" + yen;
   return "コース総額" + yen;
 }
+
+/*
+ * 24/7ワークアウトの月額プラン（公式コース・料金ページの掲載値・税込・1回50分）。
+ * 2026-11-12 確認: https://247-sports.jp/workout/course/
+ * レビュー・比較ページはこの値を参照する（以前は「月額33,000円〜」「月8回55,000円〜」と直書きしていた）。
+ */
+export const WORKOUT247_CHECKED_AT = "2026年11月12日";
+export const WORKOUT247_PLANS = {
+  fixed: { 4: 33440, 8: 65120, 12: 95040, 16: 123200 },
+  free: { 4: 36784, 8: 71632, 12: 104544, 16: 135520 },
+  ticketPerSession: 10450,
+  entry: "入会金は不要（一部店舗で異なる）",
+} as const;

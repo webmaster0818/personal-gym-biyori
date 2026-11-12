@@ -7,23 +7,23 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "RIZAP 大宮店の口コミ・評判",
+  title: "RIZAP 大宮西口店の口コミ・評判",
   description:
-    "RIZAP 大宮店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
+    "RIZAP 大宮西口店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
-  { label: "店舗名", value: "RIZAP 大宮店" },
-  { label: "エリア", value: "さいたま市大宮区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "店舗名", value: "RIZAP 大宮西口店" },
+  { label: "エリア", value: "埼玉県さいたま市大宮区桜木町4-248 ミヤサカビル 2F（RIZAP公式の店舗ページ・2026年11月12日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 const faqItems = [
-  { q: "RIZAP大宮店の料金はいくらですか？", a: "RIZAPのベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "RIZAP大宮店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
-  { q: "RIZAP大宮店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
-  { q: "RIZAP大宮店のアクセスを教えてください。", a: "JR大宮駅から徒歩約5分の立地です。JR各線・東武野田線・ニューシャトルなど複数路線が利用でき、埼玉県内各地からのアクセスが良好です。" },
+  { q: "RIZAP大宮西口店の料金はいくらですか？", a: "RIZAPのベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
+  { q: "RIZAP大宮西口店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
+  { q: "RIZAP大宮西口店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
+  { q: "RIZAP大宮西口店のアクセスを教えてください。", a: "大宮駅西口から徒歩8分です（RIZAP公式の店舗ページ・2026年11月12日確認）。JR各線・東武野田線・ニューシャトルなど複数路線が利用でき、埼玉県内各地からのアクセスが良好です。" },
 ];
 
 const faqJsonLd = {
@@ -37,7 +37,7 @@ const faqJsonLd = {
 };
 
 const relatedStores = [
-  { name: "RIZAP 池袋店", href: "/review/rizap/ikebukuro/" },
+  { name: "RIZAP 池袋西口店", href: "/review/rizap/ikebukuro/" },
   { name: "RIZAP 新宿店", href: "/review/rizap/shinjuku/" },
   { name: "RIZAP 船橋店", href: "/review/rizap/funabashi/" }
 ];
@@ -46,11 +46,11 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <StoreJsonLd k="rizap/omiya" storeName="RIZAP 大宮店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/omiya/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+大宮店" />
-      <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP", href: "/review/rizap/" }, { name: "大宮店" }]} />
-      <ReviewSummary gymName="大宮店" />
+      <StoreJsonLd k="rizap/omiya" storeName="RIZAP 大宮西口店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/omiya/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+大宮西口店" />
+      <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP", href: "/review/rizap/" }, { name: "大宮西口店" }]} />
+      <ReviewSummary gymName="大宮西口店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 大宮店の口コミ・評判</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 大宮西口店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
@@ -68,17 +68,17 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
-            <p className="text-gray-600 mb-4">RIZAP 大宮店の所在地をGoogleマップで確認できます。</p>
-            <a href="https://www.google.com/maps/search/RIZAP+大宮店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
+            <p className="text-gray-600 mb-4">RIZAP 大宮西口店の所在地をGoogleマップで確認できます。</p>
+            <a href="https://www.google.com/maps/search/RIZAP+大宮西口店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
           </div>
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP大宮店は、埼玉県の主要ターミナル・大宮駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。さいたま市内をはじめ、埼玉県内各地からの利用者が多く、都心まで出なくても本格的なRIZAPプログラムを受けられると好評です。食事指導の丁寧さとトレーナーのモチベーション管理が高く評価されています。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP大宮西口店は、埼玉県の主要ターミナル・大宮駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。さいたま市内をはじめ、埼玉県内各地からの利用者が多く、都心まで出なくても本格的なRIZAPプログラムを受けられると好評です。食事指導の丁寧さとトレーナーのモチベーション管理が高く評価されています。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />
-<StoreGmapBox k="rizap/omiya" storeName="RIZAP 大宮店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+大宮店" />
+<StoreGmapBox k="rizap/omiya" storeName="RIZAP 大宮西口店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+大宮西口店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>

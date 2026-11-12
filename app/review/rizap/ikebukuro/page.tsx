@@ -7,25 +7,25 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "RIZAP 池袋店の口コミ・評判",
+  title: "RIZAP 池袋西口店の口コミ・評判",
   description:
-    "RIZAP 池袋店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
+    "RIZAP 池袋西口店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
-  { label: "店舗名", value: "RIZAP 池袋店" },
-  { label: "エリア", value: "東京都豊島区南池袋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "店舗名", value: "RIZAP 池袋西口店" },
+  { label: "エリア", value: "東京都豊島区池袋2-40-13 デュープレックスビズ 3F（RIZAP公式の店舗ページ・2026年11月12日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "RIZAP池袋店の料金はいくらですか？", a: "ベーシックコース全16回（2ヶ月）で327,800円（税込）が目安です。入会金55,000円（税込）が別途かかります。最新の料金は公式サイトでご確認ください。" },
-  { q: "RIZAP池袋店の営業時間を教えてください。", a: "7:00〜23:00で年中無休です。最新情報は公式サイトでご確認ください。" },
-  { q: "RIZAP池袋店へのアクセスを教えてください。", a: "JR池袋駅東口から徒歩約5分です。東武東上線・西武池袋線からもアクセスしやすい立地です。" },
-  { q: "RIZAP池袋店の無料カウンセリングは予約制ですか？", a: "はい、完全予約制です。公式サイトのフォームまたは電話から予約できます。" },
+  { q: "RIZAP池袋西口店の料金はいくらですか？", a: "ベーシックコース全16回（2ヶ月）で327,800円（税込）が目安です。入会金55,000円（税込）が別途かかります。最新の料金は公式サイトでご確認ください。" },
+  { q: "RIZAP池袋西口店の営業時間を教えてください。", a: "7:00〜23:00で年中無休です。最新情報は公式サイトでご確認ください。" },
+  { q: "RIZAP池袋西口店へのアクセスを教えてください。", a: "池袋駅西口のC6出口から徒歩5分です（RIZAP公式の店舗ページ・2026年11月12日確認）。JR・東武東上線・西武池袋線・東京メトロ各線の池袋駅を利用できます。" },
+  { q: "RIZAP池袋西口店の無料カウンセリングは予約制ですか？", a: "はい、完全予約制です。公式サイトのフォームまたは電話から予約できます。" },
 ];
 
 const faqJsonLd = {
@@ -48,20 +48,20 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <StoreJsonLd k="rizap/ikebukuro" storeName="RIZAP 池袋店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/ikebukuro/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+池袋店" />
+      <StoreJsonLd k="rizap/ikebukuro" storeName="RIZAP 池袋西口店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/ikebukuro/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+池袋西口店" />
       <Breadcrumb
         items={[
           { name: "口コミ・レビュー", href: "/#ranking" },
           { name: "RIZAP", href: "/review/rizap/" },
-          { name: "池袋店" },
+          { name: "池袋西口店" },
         ]}
       />
-      <ReviewSummary gymName="池袋店" />
+      <ReviewSummary gymName="池袋西口店" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          RIZAP 池袋店の口コミ・評判
+          RIZAP 池袋西口店の口コミ・評判
         </h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <p className="text-sm mb-6">
@@ -102,10 +102,10 @@ export default function StorePage() {
           </h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
             <p className="text-gray-600 mb-4">
-              RIZAP 池袋店の所在地をGoogleマップで確認できます。
+              RIZAP 池袋西口店の所在地をGoogleマップで確認できます。
             </p>
             <a
-              href="https://www.google.com/maps/search/RIZAP+池袋店"
+              href="https://www.google.com/maps/search/RIZAP+池袋西口店"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
@@ -121,12 +121,12 @@ export default function StorePage() {
             口コミ概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP池袋店は池袋駅東口から徒歩圏内に位置しています。副都心エリアのターミナル駅近くに位置し、埼玉方面からのアクセスも良好です。完全個室の環境でトレーニングに集中でき、食事指導も手厚いと評価されています。ダイエット目的の利用者を中心に、確実な成果を求める方に選ばれています。
+            RIZAP池袋西口店は池袋駅西口から徒歩5分の場所にあります。副都心エリアのターミナル駅近くに位置し、埼玉方面からのアクセスも良好です。完全個室の環境でトレーニングに集中でき、食事指導も手厚いと評価されています。ダイエット目的の利用者を中心に、確実な成果を求める方に選ばれています。
           </p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />
-<StoreGmapBox k="rizap/ikebukuro" storeName="RIZAP 池袋店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+池袋店" />
+<StoreGmapBox k="rizap/ikebukuro" storeName="RIZAP 池袋西口店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+池袋西口店" />
 
 
         {/* ---------- FAQ ---------- */}

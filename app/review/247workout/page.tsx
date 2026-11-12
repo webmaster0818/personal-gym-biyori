@@ -6,6 +6,9 @@ import AuthorBox from "@/components/AuthorBox";
 import ReviewSummary from "@/components/ReviewSummary";
 import GymCta from "@/components/GymCta";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
+import { WORKOUT247_PLANS as W, WORKOUT247_CHECKED_AT } from "@/data/brand-prices";
+
+const yen = (n: number) => n.toLocaleString() + "円";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウトの口コミ・評判｜料金総額と「痩せない・失敗」と言われる理由の解説【2026年】",
@@ -33,8 +36,8 @@ const strengths = [
     desc: "極端な糖質制限や食事制限ではなく、3食しっかり食べながら痩せるメソッドを採用しています。管理栄養士の監修による食事指導で、日常生活を大きく変えることなく無理のないダイエットが可能です。食事を我慢する必要がないため、挫折しにくいと評価されています。",
   },
   {
-    title: "月額7,500円〜の手頃な価格設定",
-    desc: "大手パーソナルジムのRIZAPと比較すると半額以下の料金設定で、パーソナルトレーニングを始められます。分割払いにも対応しており、月額7,500円〜（分割時）というパーソナルジムとしては手頃な価格帯が、幅広い層に支持されています。",
+    title: `月4回 税込${yen(W.fixed[4])}〜の月額制`,
+    desc: `公式サイトでは、曜日と時間を固定する固定プランが月4回 税込${yen(W.fixed[4])}、日時を選べるフリープランが月4回 税込${yen(W.free[4])}と掲載されています（${WORKOUT247_CHECKED_AT}確認）。高額なコース料金を一括で支払う形式ではなく、月ごとの料金でパーソナルトレーニングを始められます。`,
   },
 ];
 
@@ -50,7 +53,7 @@ const merits = [
   },
   {
     title: "RIZAPの半額以下で本格パーソナルトレーニング",
-    desc: "月額33,000円〜の月額制プランで、入会金無料でパーソナルトレーニングを始められます。RIZAPと比較して手頃な価格設定で、「パーソナルジムに興味はあるものの、高額な一括払いは避けたい」という方に人気を集めています。",
+    desc: `固定プランの月4回 税込${yen(W.fixed[4])}から始められ、入会金は公式サイトで「不要（一部店舗で異なる）」とされています。RIZAPと比較して手頃な価格設定で、「パーソナルジムに興味はあるものの、高額な一括払いは避けたい」という方に人気を集めています。`,
   },
 ];
 
@@ -72,8 +75,11 @@ const demerits = [
 
 /* ---------- 料金プラン ---------- */
 const pricingPlans = [
-  { name: "月額プラン（月4回）", duration: "50分/回", price: "月額33,000円〜", note: "税込・入会金無料" },
-  { name: "月額プラン（月8回）", duration: "50分/回", price: "月額55,000円〜", note: "税込・入会金無料" },
+  { name: "固定プラン（月4回）", duration: "50分/回", price: `月額${yen(W.fixed[4])}`, note: "税込・曜日と時間を固定" },
+  { name: "固定プラン（月8回）", duration: "50分/回", price: `月額${yen(W.fixed[8])}`, note: "税込・曜日と時間を固定" },
+  { name: "フリープラン（月4回）", duration: "50分/回", price: `月額${yen(W.free[4])}`, note: "税込・日時を選べる" },
+  { name: "フリープラン（月8回）", duration: "50分/回", price: `月額${yen(W.free[8])}`, note: "税込・日時を選べる" },
+  { name: "一括プラン", duration: "50分/回", price: `1回${yen(W.ticketPerSession)}〜`, note: "税込・1〜100枚から選択" },
 ];
 
 /* ---------- 口コミデータ ---------- */
@@ -122,7 +128,7 @@ const reviewCategories = [
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "24/7ワークアウトの入会金はいくらですか？", a: "現在、入会金は無料です。月額制のプランで始められます。最新情報は公式サイトでご確認ください。" },
+  { q: "24/7ワークアウトの入会金はいくらですか？", a: `公式のコース・料金ページでは、入会金は「不要（一部店舗で異なる）」と記載されています（${WORKOUT247_CHECKED_AT}確認）。通う予定の店舗でご確認ください。` },
   { q: "深夜24時まで本当に営業していますか？", a: "はい、多くの店舗で24時まで営業しています。ただし、店舗により営業時間が異なる場合がありますので、ご利用予定の店舗の営業時間を事前にご確認ください。" },
   { q: "食事制限は厳しい内容ですか？", a: "3食しっかり食べるスタイルの食事指導です。極端な糖質制限は行わず、食べるものの質とタイミングを調整する方法のため、比較的続けやすいと評判です。" },
   { q: "1回のトレーニング時間はどのくらいですか？", a: "1回あたり50分です。効率的に全身を鍛えるプログラムが組まれています。" },
@@ -322,7 +328,7 @@ export default function Workout247Review() {
         <section id="pricing" className="mb-12">
           <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの料金</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            24/7ワークアウトの料金はコースごとに設定されています。以下は代表的なプランの一覧です。入会金は無料です。
+            24/7ワークアウトの料金は月ごとの回数で決まります。以下は公式のコース・料金ページに掲載されている主なプランです（{WORKOUT247_CHECKED_AT}確認）。月12回・16回のプランもあり、固定プランは月12回{yen(W.fixed[12])}・月16回{yen(W.fixed[16])}、フリープランは月12回{yen(W.free[12])}・月16回{yen(W.free[16])}です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
@@ -347,7 +353,7 @@ export default function Workout247Review() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 料金は税込です。入会金は無料です。料金はキャンペーンにより変動する場合があります。
+            ※ 料金は税込です。入会金は不要です（一部店舗で異なります）。料金はキャンペーンにより変動する場合があります。出典: <a href="https://247-sports.jp/workout/course/" target="_blank" rel="noopener noreferrer" className="underline">24/7ワークアウト公式 コース・料金</a>
           </p>
         </section>
 
@@ -355,7 +361,7 @@ export default function Workout247Review() {
         <section id="total-cost" className="mb-12">
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの月額と総額の目安（料金シミュレーション）</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「月額7,500円〜」という広告表示は<strong>分割払い時の月々の支払い額</strong>を指すことが多く、契約の総額とは異なります。口コミでも「月額だけ見て契約したら総額は20万円以上だった」という声が見られます。実際に検討するときは、<strong>月々の支払い</strong>と<strong>コース総額</strong>の両方を必ずご確認ください。以下は当ページ掲載のプランをもとにした概算の目安です。
+            「月々◯◯円〜」という広告表示は<strong>分割払い時の月々の支払い額</strong>を指すことが多く、契約の総額とは異なります。口コミでも「月額だけ見て契約したら総額は20万円以上だった」という声が見られます。実際に検討するときは、<strong>月々の支払い</strong>と<strong>コース総額</strong>の両方を必ずご確認ください。以下は当ページ掲載のプランをもとにした概算の目安です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
@@ -371,20 +377,20 @@ export default function Workout247Review() {
                 <tr className="border-b border-gray-100">
                   <td className="px-4 py-3 font-medium text-gray-800">週1回ペース</td>
                   <td className="px-4 py-3 text-gray-700">月4回・50分/回</td>
-                  <td className="px-4 py-3 text-gray-700">月額33,000円〜</td>
-                  <td className="px-4 py-3 text-gray-700">約66,000円〜</td>
+                  <td className="px-4 py-3 text-gray-700">月額{yen(W.fixed[4])}〜</td>
+                  <td className="px-4 py-3 text-gray-700">約{yen(W.fixed[4] * 2)}〜</td>
                 </tr>
                 <tr className="border-b border-gray-100">
                   <td className="px-4 py-3 font-medium text-gray-800">週2回ペース</td>
                   <td className="px-4 py-3 text-gray-700">月8回・50分/回</td>
-                  <td className="px-4 py-3 text-gray-700">月額55,000円〜</td>
-                  <td className="px-4 py-3 text-gray-700">約110,000円〜</td>
+                  <td className="px-4 py-3 text-gray-700">月額{yen(W.fixed[8])}〜</td>
+                  <td className="px-4 py-3 text-gray-700">約{yen(W.fixed[8] * 2)}〜</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 上記は当ページ掲載の月額プランから算出した概算の目安です（税込・入会金無料）。実際の総額はコース・回数・期間・キャンペーン・分割手数料の有無により変わります。正確な金額は、無料カウンセリングまたは公式サイトにてご確認ください。
+            ※ 上記は固定プランの月額を2倍して当サイトで算出した目安です（税込・入会金不要の店舗の場合）。実際の総額はコース・回数・期間・キャンペーン・分割手数料の有無により変わります。正確な金額は、無料カウンセリングまたは公式サイトにてご確認ください。
           </p>
         </section>
 
@@ -406,7 +412,7 @@ export default function Workout247Review() {
               <tbody>
                 <tr className="border-b border-gray-100 align-top">
                   <td className="px-4 py-3 font-medium text-gray-800">24/7ワークアウト</td>
-                  <td className="px-4 py-3 text-gray-700">月額33,000円〜（入会金無料）</td>
+                  <td className="px-4 py-3 text-gray-700">固定プラン 月4回 月額{yen(W.fixed[4])}〜（入会金不要・一部店舗で異なる・公式 {WORKOUT247_CHECKED_AT}確認）</td>
                   <td className="px-4 py-3 text-gray-700">深夜まで通い、3食食べながら手頃な料金で続けたい方</td>
                 </tr>
                 <tr className="border-b border-gray-100 align-top">

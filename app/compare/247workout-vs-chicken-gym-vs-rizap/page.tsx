@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { WORKOUT247_PLANS, WORKOUT247_CHECKED_AT } from "@/data/brand-prices";
 
 export const metadata: Metadata = {
   title: "24/7ワークアウト・チキンジム・RIZAPを比較【2026年】料金・特徴・どちらがおすすめか",
@@ -28,7 +29,7 @@ const gyms: GymRow[] = [
     company: "株式会社トゥエンティーフォーセブン",
     stores: "全国80店舗以上",
     hours: "7:00〜24:00（店舗により異なる）",
-    priceShort: "月額33,000円〜（月4回・入会金無料）",
+    priceShort: `固定プラン 月4回 月額${WORKOUT247_PLANS.fixed[4].toLocaleString()}円〜（1回50分・入会金不要※一部店舗で異なる・公式 ${WORKOUT247_CHECKED_AT}確認）`,
     feature: "深夜24時まで営業 / 3食食べる食事指導 / 完全個室",
     refund: "公式サイトにてご確認ください",
   },

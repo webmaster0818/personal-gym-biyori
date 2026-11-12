@@ -7,23 +7,23 @@ import StorePrice from "@/components/StorePrice";
 import StoreJsonLd from "@/components/StoreJsonLd";
 
 export const metadata: Metadata = {
-  title: "RIZAP 京都店の口コミ・評判",
+  title: "RIZAP 京都河原町店の口コミ・評判",
   description:
-    "RIZAP 京都店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
+    "RIZAP 京都河原町店の口コミ・評判をご紹介します。住所・アクセス・営業時間などの基本情報と、利用者の評価の傾向をご説明します。",
 };
 
 const basicInfo = [
-  { label: "店舗名", value: "RIZAP 京都店" },
-  { label: "エリア", value: "京都市中京区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "店舗名", value: "RIZAP 京都河原町店" },
+  { label: "エリア", value: "京都府京都市中京区河原町通三条下る二丁目山崎町235 FORECAST京都河原町 3F（RIZAP公式の店舗ページ・2026年11月12日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
 
 const faqItems = [
-  { q: "RIZAP京都店の料金はいくらですか？", a: "RIZAPのベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
-  { q: "RIZAP京都店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
-  { q: "RIZAP京都店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
-  { q: "RIZAP京都店のアクセスを教えてください。", a: "阪急京都河原町駅から徒歩約5分の立地です。京都市の中心部に位置し、地下鉄やバスでのアクセスも良好です。" },
+  { q: "RIZAP京都河原町店の料金はいくらですか？", a: "RIZAPのベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
+  { q: "RIZAP京都河原町店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
+  { q: "RIZAP京都河原町店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
+  { q: "RIZAP京都河原町店のアクセスを教えてください。", a: "阪急京都本線の京都河原町駅4番出口、京阪本線の三条駅6番出口、地下鉄東西線の京都市役所前駅から、いずれも徒歩5分です（RIZAP公式の店舗ページ・2026年11月12日確認）。京都市内には別に「RIZAP 京都四条店」もあります。" },
 ];
 
 const faqJsonLd = {
@@ -46,11 +46,11 @@ export default function StorePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <StoreJsonLd k="rizap/kyoto" storeName="RIZAP 京都店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kyoto/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+京都店" />
-      <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP", href: "/review/rizap/" }, { name: "京都店" }]} />
-      <ReviewSummary gymName="京都店" />
+      <StoreJsonLd k="rizap/kyoto" storeName="RIZAP 京都河原町店" brandSlug="rizap" brandName="RIZAP" pageUrl="https://personal-gym-biyori.com/review/rizap/kyoto/" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+京都河原町店" />
+      <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP", href: "/review/rizap/" }, { name: "京都河原町店" }]} />
+      <ReviewSummary gymName="京都河原町店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 京都店の口コミ・評判</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 京都河原町店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
@@ -68,17 +68,17 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2>
           <div className="bg-gray-100 rounded-lg p-8 text-center">
-            <p className="text-gray-600 mb-4">RIZAP 京都店の所在地をGoogleマップで確認できます。</p>
-            <a href="https://www.google.com/maps/search/RIZAP+京都店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
+            <p className="text-gray-600 mb-4">RIZAP 京都河原町店の所在地をGoogleマップで確認できます。</p>
+            <a href="https://www.google.com/maps/search/RIZAP+京都河原町店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a>
           </div>
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP京都店は、京都市の中心部に位置する関西エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。京都市内在住の方に加え、滋賀県や大阪北部からの利用者もいます。歴史ある街並みの中で、本格的なボディメイクに集中して取り組める環境が評価されています。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP京都河原町店は、京都市の中心部に位置する関西エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。京都市内在住の方に加え、滋賀県や大阪北部からの利用者もいます。歴史ある街並みの中で、本格的なボディメイクに集中して取り組める環境が評価されています。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />
-<StoreGmapBox k="rizap/kyoto" storeName="RIZAP 京都店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+京都店" />
+<StoreGmapBox k="rizap/kyoto" storeName="RIZAP 京都河原町店" brandSlug="rizap" brandName="RIZAP" mapsSearchUrl="https://www.google.com/maps/search/RIZAP+京都河原町店" />
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">よくある質問</h2>
