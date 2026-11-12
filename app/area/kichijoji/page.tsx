@@ -61,13 +61,16 @@ export default function KichijojiAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月12日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           吉祥寺は、JR中央線と京王井の頭線が乗り入れる吉祥寺駅を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <AreaTopSummary slug="kichijoji" areaName="吉祥寺" />
+        <p className="-mt-8 mb-10 text-xs text-gray-600 leading-relaxed">
+          ※ BEYOND 吉祥寺店・吉祥寺ANNEX店の公式ページは、「アクセス情報」「店舗情報」欄が「中央線・京王井の頭線 吉祥寺駅北口から徒歩6分」、ページ下部のよくある質問が「吉祥寺駅西口（アトレ本館正面）から徒歩約6分」と、出口の表記が異なっています。当サイトでは店舗情報欄の表記（北口）を掲載しています（2026年11月12日確認・出典：<a href="https://beyond-gym.com/gym/gym-kichijoji/" target="_blank" rel="noopener" className="underline">吉祥寺店</a>／<a href="https://beyond-gym.com/gym/gym-kichijoji-annex/" target="_blank" rel="noopener" className="underline">吉祥寺ANNEX店</a>）。
+        </p>
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

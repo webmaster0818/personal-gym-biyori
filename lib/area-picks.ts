@@ -10,6 +10,16 @@ import type { AreaGym } from "@/components/AreaGymCard";
 import { getGymMeta } from "@/lib/gym-metadata";
 
 export const PRICE_CHECKED_ON = "2026年10月22日";
+/**
+ * 都市ごとに料金を再確認した日（2026-11-12 追加）。ここに無い都市は PRICE_CHECKED_ON。
+ * 札幌・吉祥寺・仙台は、掲載ブランドの公式料金ページ・店舗ページを 2026-11-12 に照合し、掲載値と一致を確認。
+ */
+export const PRICE_CHECKED_ON_BY_SLUG: Record<string, string> = {
+  sapporo: "2026年11月12日",
+  kichijoji: "2026年11月12日",
+  sendai: "2026年11月12日",
+};
+export const getPriceCheckedOn = (slug: string): string => PRICE_CHECKED_ON_BY_SLUG[slug] ?? PRICE_CHECKED_ON;
 const STORE_CHECKED_DEFAULT = "2026年10月21日";
 
 type Brand = {
@@ -334,7 +344,7 @@ export const AREA_PICKS: Record<string, Pick[]> = {
     { brand: "w247", stores: ["札幌店"] },
     // 2026-11-11 追加: BEYOND 公式の店舗一覧（北海道）のうち札幌市内の5店舗（函館店は除外）。札幌の各店舗ページには月額プランも掲載
     { brand: "beyond", stores: ["札幌駅前店", "札幌ANNEX店", "札幌大通店", "札幌円山店", "豊平店"], storeCheckedOn: D1111, priceUrl: "https://beyond-gym.com/gym/gym-sapporoekimae/", priceNote: "札幌の各店舗ページには、回数券（STANDARD 10：10回102,300円・税込）のほか、月4回の月額プラン（マンスリー4：35,200円・税込）も掲載されています。" },
-    { brand: "aspi", stores: ["札幌", "円山"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/hokkaido/sapporo/", priceNote: "90食分のオンライン食事指導が含まれます。札幌・円山の店舗ページには月4回17,680円の月額プランも掲載されています（月額プランの税込・税別の表記はありません）。" },
+    { brand: "aspi", stores: ["札幌", "円山"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/hokkaido/sapporo/", priceNote: "90食分のオンライン食事指導が含まれます。札幌・円山の店舗ページには月4回17,680円（税込）の月額プランも掲載されています（2026年11月12日確認）。" },
   ],
   sendai: [
     { brand: "rizap", stores: ["仙台店"] },
@@ -424,7 +434,7 @@ export function getAreaPicks(slug: string): AreaGym[] {
       reviewed: Boolean(getGymMeta(b.name)?.reviewHref),
       sourceUrl: p.priceUrl ?? b.priceUrl,
       storeListUrl: b.storeListUrl,
-      checkedNote: `料金: ${PRICE_CHECKED_ON}／店舗: ${p.storeCheckedOn ?? STORE_CHECKED_DEFAULT}に公式サイトで確認`,
+      checkedNote: `料金: ${getPriceCheckedOn(slug)}／店舗: ${p.storeCheckedOn ?? STORE_CHECKED_DEFAULT}に公式サイトで確認`,
       hideHours: true,
     };
   });
@@ -495,14 +505,14 @@ export function buildAreaPickFaq(slug: string, areaName: string): { q: string; a
     },
     {
       q: `${areaName}の掲載ジムの料金はいくらですか？`,
-      a: `${gyms.map((g) => `${g.name}は${g.price}`).join("、")}です（${PRICE_CHECKED_ON}に各公式サイトで確認）。店舗やキャンペーンにより異なる場合があるため、申し込み前に公式サイトでご確認ください。`,
+      a: `${gyms.map((g) => `${g.name}は${g.price}`).join("、")}です（${getPriceCheckedOn(slug)}に各公式サイトで確認）。店舗やキャンペーンにより異なる場合があるため、申し込み前に公式サイトでご確認ください。`,
     },
   ];
   const free = gyms.filter((g) => g.entryFee && FREE_ENTRY.test(g.entryFee));
   if (free.length > 0) {
     items.push({
       q: `${areaName}で入会金がかからないパーソナルジムはありますか？`,
-      a: `掲載ジムのうち、公式サイトで入会金が0円・無料・不要と記載されているのは${free.map((g) => g.name).join("、")}です（${PRICE_CHECKED_ON}確認）。`,
+      a: `掲載ジムのうち、公式サイトで入会金が0円・無料・不要と記載されているのは${free.map((g) => g.name).join("、")}です（${getPriceCheckedOn(slug)}確認）。`,
     });
   }
   return items;

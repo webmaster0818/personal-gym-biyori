@@ -1,4 +1,4 @@
-import { getAreaSummary, PRICE_CHECKED_ON } from "@/lib/area-picks";
+import { getAreaSummary, getPriceCheckedOn } from "@/lib/area-picks";
 import { AREA_ACCESS, ACCESS_CHECKED_ON, ACCESS_CHECKED_ON_BY_SLUG } from "@/lib/area-access";
 
 const y = (n: number) => n.toLocaleString();
@@ -32,7 +32,7 @@ export default function AreaTopSummary({
   const { monthly4, course } = base;
   if (rows.length === 0) return null;
   const access = AREA_ACCESS[slug] ?? {};
-  const priceDate = priceCheckedOn ?? PRICE_CHECKED_ON;
+  const priceDate = priceCheckedOn ?? getPriceCheckedOn(slug);
   const accessDate = ACCESS_CHECKED_ON_BY_SLUG[slug] ?? ACCESS_CHECKED_ON;
   const hasNoTax = rows.some((r) => r.summary?.kind === "monthly4" && /表記なし/.test(r.summary.label));
   return (

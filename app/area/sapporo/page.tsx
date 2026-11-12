@@ -7,6 +7,7 @@ import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 import AreaTopSummary from "@/components/AreaTopSummary";
+import AreaPerSessionTable, { type PerSessionRow } from "@/components/AreaPerSessionTable";
 
 const pickCopy = getAreaPickCopy("sapporo", "札幌");
 
@@ -34,10 +35,22 @@ const selectionPoints = [
 
 
 
+// 2026-11-12 追加: 掲載4ブランドの札幌の店舗ページ・料金ページの公式料金（税込）を当サイトが1回あたりに換算
+const perSession: PerSessionRow[] = [
+  { gym: "ASPI 札幌・円山", plan: "マンスリープラン 月4回 17,680円（税込）", yen: 17680, times: 4, src: "https://aspirest.com/access/hokkaido/sapporo/" },
+  { gym: "24/7ワークアウト 札幌店", plan: "固定プラン 月4回 税込33,440円〜", yen: 33440, times: 4, src: "https://247-sports.jp/workout/gym/hokkaido/sapporo.html" },
+  { gym: "BEYOND 札幌の5店舗", plan: "マンスリー4 月4回 35,200円（税込）", yen: 35200, times: 4, src: "https://beyond-gym.com/gym/gym-sapporoekimae/" },
+  { gym: "BEYOND 札幌の5店舗", plan: "STANDARD 10（回数券10回）102,300円（税込）", yen: 102300, times: 10, src: "https://beyond-gym.com/gym/gym-sapporoekimae/" },
+  { gym: "ASPI 札幌・円山", plan: "シェイプアップ30プラン 全7回 109,000円（税込）", yen: 109000, times: 7, note: "30日分の食事アドバイスを含みます。", src: "https://aspirest.com/access/hokkaido/sapporo/" },
+  { gym: "BEYOND 札幌の5店舗", plan: "ライフプランニング16（16回/2ヶ月）290,400円（税込）", yen: 290400, times: 16, note: "2ヶ月の食事管理を含みます。", src: "https://beyond-gym.com/gym/gym-sapporoekimae/" },
+  { gym: "RIZAP 札幌店", plan: "BASICプラン 2ヶ月16回 税込327,800円〜", yen: 327800, times: 16, note: "入会金（税込55,000円）を含めると1回あたり約23,925円です。", src: "https://www.rizap.jp/plan" },
+];
+
 const faqItems = [
   ...buildAreaPickFaq("sapporo", areaName),
   areaPriceFaq(areaName),
-  { q: "札幌のパーソナルジムは冬でも通いやすい環境ですか？", a: "札幌駅・大通エリアのジムは地下鉄でアクセスしやすく、地下通路を利用できる店舗もあります。冬場の通いやすさを考慮して駅近のジムを選ぶことをおすすめします。" },
+  // 2026-11-12: 出典のない「地下通路を利用できる店舗もあります」を削除し、各店舗の公式ページで確認できた事実だけに改めた
+  { q: "札幌のパーソナルジムは冬でも通いやすい環境ですか？", a: "当ページの掲載店舗のうち、公式ページに「札幌駅直結」と記載しているのはBEYOND 札幌駅前店です。そのほかの掲載店舗は、公式ページの記載で地下鉄駅から徒歩3〜8分です（2026年11月12日確認）。地下通路だけで店舗まで行けるかどうかは当サイトでは確認できていないため、冬季の経路は通う店舗に直接ご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -63,13 +76,18 @@ export default function SapporoAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月12日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           札幌は北海道最大の都市です。{pickCopy.intro}
         </p>
 
         <AreaTopSummary slug="sapporo" areaName="札幌" />
+        <p className="-mt-8 mb-10 text-xs text-gray-600 leading-relaxed">
+          ※ BEYOND の札幌の店舗ページは、「アクセス情報」欄とページ下部のよくある質問で最寄駅の表記が異なる店舗があります（札幌大通店：アクセス情報は「東西線 大通駅から徒歩3分」、よくある質問は「東豊線 大通駅から徒歩約1分」。豊平店：アクセス情報は「東豊線 豊平公園駅から徒歩4分」、よくある質問は「東西線 西28丁目駅から徒歩3分」。札幌ANNEX店：アクセス情報は「西11丁目駅出口から徒歩5分」、よくある質問は「西11丁目駅3番出口から徒歩約3分」）。当サイトでは各店舗のアクセス情報欄の表記を掲載しています。なお、豊平店の所在地は札幌市豊平区美園7条で、よくある質問にある西28丁目駅（中央区）とは別の地域です（2026年11月12日確認・出典：<a href="https://beyond-gym.com/gym/gym-sapporo-oodouri/" target="_blank" rel="noopener" className="underline">札幌大通店</a>／<a href="https://beyond-gym.com/gym/gym-toyohira/" target="_blank" rel="noopener" className="underline">豊平店</a>／<a href="https://beyond-gym.com/gym/gym-sapporoannex/" target="_blank" rel="noopener" className="underline">札幌ANNEX店</a>）。
+        </p>
+
+        <AreaPerSessionTable areaName={areaName} rows={perSession} checkedOn="2026年11月12日" footnote="1回のトレーニング時間は、24/7ワークアウト・ASPIが50分と公式サイトに記載されています。" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>

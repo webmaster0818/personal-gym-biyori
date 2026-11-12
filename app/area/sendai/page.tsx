@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const areaName = "仙台";
 
-// 2026-11-12 追加: 「仙台 パーソナルトレーニング」向け。料金は当ページ掲載3ブランドの公式料金（2026-10-22確認）から当サイトが1回あたりを計算。
+// 2026-11-12 追加: 「仙台 パーソナルトレーニング」向け。料金は当ページ掲載3ブランドの公式料金（2026-10-22確認・2026-11-12 再照合で一致）から当サイトが1回あたりを計算。
 // 区別の分布は data/gym-db/sendai.json（Googleマップ「パーソナルジム 仙台」上位60件・2026-08-29取得）を当サイトが集計。
 const perSession = [
   { gym: "24/7ワークアウト 仙台店", plan: "固定プラン 月4回 税込33,440円〜", per: "約8,360円〜", entry: "入会金不要" },
@@ -89,7 +89,7 @@ export default function SendaiAreaPage() {
         <section className="mb-12" aria-label="仙台のパーソナルトレーニングの1回あたり料金">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">仙台でパーソナルトレーニングを受ける場合の1回あたりの料金と店舗の分布</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            当ページに掲載している3ブランドの仙台店について、公式料金（2026年10月22日確認）をトレーニング1回あたりの金額に換算しました。月額制とコース制で料金の形が異なるため、1回あたりで比べると目安をつかみやすくなります。
+            当ページに掲載している3ブランドの仙台店について、公式料金（2026年11月12日確認）をトレーニング1回あたりの金額に換算しました。月額制とコース制で料金の形が異なるため、1回あたりで比べると目安をつかみやすくなります。
           </p>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border border-gray-200">

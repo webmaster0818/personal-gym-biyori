@@ -7,6 +7,7 @@ import { areaPriceFaq } from "@/lib/area-price";
 import { getAreaPickCopy, buildAreaPickFaq, areaStoreNameSentence } from "@/lib/area-picks";
 import AreaGymList from "@/components/AreaGymList";
 import AreaTopSummary from "@/components/AreaTopSummary";
+import AreaPerSessionTable, { type PerSessionRow } from "@/components/AreaPerSessionTable";
 
 const pickCopy = getAreaPickCopy("ikebukuro", "池袋");
 
@@ -33,6 +34,18 @@ const selectionPoints = [
 ];
 
 
+
+// 2026-11-12 追加: 掲載8ブランドの池袋の店舗ページ・料金ページの公式料金を当サイトが1回あたりに換算（月4回の月額があるブランドは月4回、ないブランドはコース）
+const perSession: PerSessionRow[] = [
+  { gym: "エクササイズコーチ 池袋東口店・池袋西口店", plan: "月4回 17,600円（税込）", yen: 17600, times: 4, src: "https://exercisecoach.co.jp/store/ikebukuro/" },
+  { gym: "ASPI 池袋", plan: "マンスリープラン 月4回 17,680円（税込）", yen: 17680, times: 4, src: "https://aspirest.com/access/tokyo/ikebukuro/" },
+  { gym: "チキンジム 池袋店", plan: "月額制プラン 月4回 29,700円", yen: 29700, times: 4, note: "公式サイトに税込・税別の表記はありません。", src: "https://chicken-gym.jp/" },
+  { gym: "かたぎり塾 池袋店", plan: "月4プラン 合計 税込33,000円", yen: 33000, times: 4, src: "https://katagirijuku.jp/gyms/ikebukuro" },
+  { gym: "24/7ワークアウト 池袋店・池袋東口店", plan: "固定プラン 月4回 税込33,440円〜", yen: 33440, times: 4, src: "https://247-sports.jp/workout/gym/kantou/tokyo/ikebukuro.html" },
+  { gym: "BEYOND 池袋店・池袋ANNEX店", plan: "マンスリー4 月4回 35,200円（税込）", yen: 35200, times: 4, src: "https://beyond-gym.com/gym/gym-ikebukuro/" },
+  { gym: "Woot! 池袋（旧 Bodyke 池袋店）", plan: "マンスリー4回 43,560円（税込）", yen: 43560, times: 4, src: "https://woot.fit/" },
+  { gym: "RIZAP 池袋西口店", plan: "BASICプラン 2ヶ月16回 税込327,800円〜", yen: 327800, times: 16, note: "入会金（税込55,000円）を含めると1回あたり約23,925円です。", src: "https://www.rizap.jp/plan" },
+];
 
 const faqItems = [
   ...buildAreaPickFaq("ikebukuro", areaName),
@@ -66,13 +79,15 @@ export default function IkebukuroAreaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">{pickCopy.title}</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月12日</p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
           池袋は、JR・東武・西武・東京メトロが乗り入れるターミナル駅を中心としたエリアです。{pickCopy.intro}
         </p>
 
         <AreaTopSummary slug="ikebukuro" areaName="池袋" />
+
+        <AreaPerSessionTable areaName={areaName} rows={perSession} checkedOn="2026年11月12日" footnote="1回のトレーニング時間はブランドによって異なり、公式サイトの記載では、24/7ワークアウト・チキンジム・ASPIが50分、かたぎり塾が60分です。" />
 
         <section className="mb-12">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">{areaName}のパーソナルジム選びのポイント</h2>
