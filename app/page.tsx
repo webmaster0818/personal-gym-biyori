@@ -50,14 +50,14 @@ const services = [
     rank: 3,
     name: "HABIT",
     slug: "habit",
-    tagline: "東京の住宅街に展開するマンツーマンジム",
+    tagline: "東京17店舗・大阪2店舗のマンツーマンジム（1回50分）",
     price: "16回142,400円（税込）",
-    features: ["マンツーマン指導", "全18店舗（東京17・大阪1）", "住宅街に近い", "食事指導付き"],
-    pros: ["住宅街に店舗があり通いやすい", "丁寧なマンツーマン指導", "回数券・月額コースも選べる"],
-    cons: ["店舗は東京17・大阪1に限られる", "そのほかの地域には店舗がない"],
-    recommend: "東京で自宅近くのパーソナルジムを探している方におすすめします。",
+    features: ["マンツーマン指導", "全19店舗（東京17・大阪2）", "全店舗相互利用可", "食事サポート付き"],
+    pros: ["16回142,400円（1回8,900円・税込）", "食事サポートとウェア・シューズのレンタルが料金に含まれる", "回数券・月額コースも選べる"],
+    cons: ["店舗は東京17・大阪2に限られる", "入会後2ヶ月は退会できない（会員規約）"],
+    recommend: "東京都心部・大阪市内で、コース総額を抑えてマンツーマン指導を受けたい方に適しています。",
     reviewPath: "/review/habit/",
-    comment: "自宅から通いやすい立地と丁寧な指導が特徴です。東京在住の方に特におすすめします。",
+    comment: "店舗・料金は公式サイトで2026年11月12日に確認しました。体験料は当日入会で0円、入会しない場合は3,000円（税込）です。",
     affiliateUrl: "https://t.felmat.net/fmcl?ak=D113571.1.L156651H.Q136169A",
   },
   {
@@ -390,7 +390,7 @@ export default function Home() {
                       href={service.reviewPath}
                       className="inline-block bg-accent hover:bg-accent-dark text-white font-bold py-2.5 px-6 rounded-lg transition-colors text-sm shadow-sm"
                     >
-                      口コミ・詳細を見る
+                      {service.name}の口コミ・評判を見る
                     </Link>
                   </div>
                 </div>

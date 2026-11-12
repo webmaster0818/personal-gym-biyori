@@ -84,6 +84,7 @@ export const BRAND_FACTS: Record<string, BrandFacts> = {
   },
   habit: {
     name: "HABIT PERSONAL GYM（ハビット）",
+    checkedAt: "2026年11月12日",
     facts: [
       { label: "運営会社", value: "株式会社Natural（東京都渋谷区恵比寿）", src: "https://habit-training.com/company" },
       { label: "入会金", value: "通常30,000円 → キャンペーンで0円（体験当日入会の方に限る）", src: "https://habit-training.com/price" },
@@ -91,13 +92,13 @@ export const BRAND_FACTS: Record<string, BrandFacts> = {
       { label: "全額返金制度", value: "ダイエットコースが対象。適用条件は入会時に説明（公式ページに条件の詳細なし）", src: "https://habit-training.com/price" },
       { label: "会員規約の返金条項", value: "「理由の如何にかかわらず入会金及び2ヶ月分の月会費は返金いたしません」", src: "https://habit-training.com/kiyaku" },
       { label: "休会・退会", value: "希望する時期の2ヶ月前までに本人が店舗窓口で書面手続き（電話・FAX等は不可）。入会後2ヶ月間は退会不可。休会は最大6ヶ月（2026年10月26日確認）", src: "https://habit-training.com/kiyaku" },
-      { label: "店舗数", value: "全18店舗（東京17・大阪1）。全店舗相互利用可", src: "https://habit-training.com/" },
+      { label: "店舗数", value: "全19店舗（東京17・大阪2）。全店舗相互利用可", src: "https://habit-training.com/studio" },
       { label: "営業時間", value: "平日・土曜7:00〜23:00、日曜・祝日7:00〜20:00", src: "https://habit-training.com/faq" },
-      { label: "支払い", value: "2026年4月から完全キャッシュレス。カード分割は最大24回（月額コースを除く）", src: "https://habit-training.com/faq" },
+      { label: "支払い", value: "2026年4月から完全キャッシュレス。カード分割は最大24回・月々4,300円〜（月額コースを除く）", src: "https://habit-training.com/price" },
     ],
     qa: [
       { q: "HABITの料金水準を教えてください。", a: "集中ダイエットコース16回が142,400円（1回8,900円・税込）で、RIZAPのBASIC 16回（入会金込み382,800円）の半額以下です。" },
-      { q: "体験は無料ですか？", a: "公式料金ページは「体験0円（体験当日入会の方限定）」の表記です。当日に入会しない場合の体験料は公式ページで確認できなかったため、予約時に確認してください。" },
+      { q: "体験は無料ですか？", a: "体験当日に入会する方は0円です。当日に入会しない場合の体験料は3,000円（税込）と公式料金ページに記載されています（2026年11月12日確認）。" },
     ],
   },
   exe: {
