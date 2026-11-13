@@ -274,7 +274,7 @@ export const AREA_PICKS: Record<string, Pick[]> = {
   kichijoji: [
     { brand: "beyond", stores: ["吉祥寺店", "吉祥寺ANNEX店"], storeCheckedOn: D1111 },
     { brand: "katagiri", stores: ["吉祥寺店"] },
-    { brand: "apple", stores: ["吉祥寺店"], storeCheckedOn: D22, priceUrl: "https://applegym.jp/shop/kichijoji/", priceNote: "個別指導は最大2名までの指導です。別途共用設備費330円（税込）がかかります。吉祥寺店の公式ページには「入会金半額（15,000円お得）」「最大30,000円キャッシュバック」の特典（2026年11月30日までに入会した方が対象・プラチナ会員の通常価格が対象・併用不可）が掲載されています。同じページに「入会金無料キャンペーン実施中」との表記もあり内容が一致しないため、適用される特典は申し込み前に店舗でご確認ください（2026年11月13日確認）。" },
+    { brand: "apple", stores: ["吉祥寺店"], storeCheckedOn: D22, priceUrl: "https://applegym.jp/shop/kichijoji/", priceNote: "個別指導は最大2名までの指導です。別途共用設備費330円（税込）がかかります。吉祥寺店の公式店舗ページ中ほどの「冬到来キャンペーン」欄には「入会金半額（15,000円お得）」「最大30,000円キャッシュバック」の特典（2026年11月30日までに入会した方が対象・プラチナ会員の通常価格が対象・併用不可）が掲載されており、当サイトの記載はこの欄に基づいています。ただし、同じ欄の見出しには「9月限定」、ページ上部には「入会金無料キャンペーン実施中」とも表記されており、同じページ内で特典の内容・期間の表記が3通りに分かれています。適用される特典の詳細は、申し込み前に店舗にご確認ください（2026年11月13日確認）。" },
     { brand: "aspi", stores: ["吉祥寺"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/tokyo/kichijoji/" },
   ],
   kobe: [
