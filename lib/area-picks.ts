@@ -68,7 +68,7 @@ const BRANDS = {
     name: "エクササイズコーチ",
     price: "スタンダード 月4回 17,600円（税込）",
     priceNote: "平日日中のデイプランなど、店舗によりコース体系が異なります。",
-    entryFee: "入会金0円",
+    entryFee: "入会金19,800円（税込）※公式トップページに「初回限定 入会金0円」の表記があります（2026年11月13日確認）",
     features: ["AIを活用したマシン主導型のトレーニング", "1回20分", "アプリで当日予約可"],
     priceUrl: "https://exercisecoach.co.jp/store/",
     storeListUrl: "https://exercisecoach.co.jp/store/",
@@ -274,7 +274,7 @@ export const AREA_PICKS: Record<string, Pick[]> = {
   kichijoji: [
     { brand: "beyond", stores: ["吉祥寺店", "吉祥寺ANNEX店"], storeCheckedOn: D1111 },
     { brand: "katagiri", stores: ["吉祥寺店"] },
-    { brand: "apple", stores: ["吉祥寺店"], storeCheckedOn: D22, priceUrl: "https://applegym.jp/shop/kichijoji/", priceNote: "個別指導は最大2名までの指導です。別途共用設備費330円（税込）がかかります。" },
+    { brand: "apple", stores: ["吉祥寺店"], storeCheckedOn: D22, priceUrl: "https://applegym.jp/shop/kichijoji/", priceNote: "個別指導は最大2名までの指導です。別途共用設備費330円（税込）がかかります。吉祥寺店の公式ページには「入会金半額（15,000円お得）」「最大30,000円キャッシュバック」の特典（2026年11月30日までに入会した方が対象・プラチナ会員の通常価格が対象・併用不可）が掲載されています。同じページに「入会金無料キャンペーン実施中」との表記もあり内容が一致しないため、適用される特典は申し込み前に店舗でご確認ください（2026年11月13日確認）。" },
     { brand: "aspi", stores: ["吉祥寺"], storeCheckedOn: D1111, priceUrl: "https://aspirest.com/access/tokyo/kichijoji/" },
   ],
   kobe: [
@@ -418,6 +418,22 @@ const DB_CITY_PAGES = new Set([
 
 export function getAreaDbHref(slug: string): string {
   return DB_CITY_PAGES.has(slug) ? `/db/${slug}/` : "/db/";
+}
+
+/** 共通注記用: 掲載店舗の確認日の範囲（各カードの店舗確認日から算出。2026-11-13 追加） */
+export function getStoreCheckedRange(slug: string): string | null {
+  const days = (AREA_PICKS[slug] ?? [])
+    .map((p) => p.storeCheckedOn ?? STORE_CHECKED_DEFAULT)
+    .map((d) => d.match(/^(\d+)年(\d+)月(\d+)日$/))
+    .filter((m): m is RegExpMatchArray => m !== null)
+    .map((m) => ({ y: +m[1], mo: +m[2], d: +m[3] }))
+    .sort((a, b) => a.y - b.y || a.mo - b.mo || a.d - b.d);
+  if (days.length === 0) return null;
+  const f = days[0];
+  const l = days[days.length - 1];
+  const head = `${f.y}年${f.mo}月${f.d}日`;
+  if (f.y === l.y && f.mo === l.mo && f.d === l.d) return head;
+  return `${head}〜${f.y === l.y ? "" : `${l.y}年`}${l.mo}月${l.d}日`;
 }
 
 export function getAreaPicks(slug: string): AreaGym[] {

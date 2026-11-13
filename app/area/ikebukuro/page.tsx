@@ -50,7 +50,6 @@ const perSession: PerSessionRow[] = [
 const faqItems = [
   ...buildAreaPickFaq("ikebukuro", areaName),
   areaPriceFaq(areaName),
-  { q: "埼玉から池袋のジムに通うのは現実的ですか？", a: "はい、池袋は埼玉方面からのアクセスが良好です。JR・東武・西武各線で乗り換えなしで来られるため、大宮や所沢方面から通う方も多くいます。" },
 ];
 
 const faqJsonLd = {

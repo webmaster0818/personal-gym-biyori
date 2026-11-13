@@ -1,12 +1,13 @@
 import Link from "next/link";
 import AreaGymCard from "@/components/AreaGymCard";
-import { getAreaPicks, getAreaPickCopy, getAreaDbHref, getPriceCheckedOn } from "@/lib/area-picks";
+import { getAreaPicks, getAreaPickCopy, getAreaDbHref, getPriceCheckedOn, getStoreCheckedRange } from "@/lib/area-picks";
 
 /** /area/ 各ページの「おすすめ」セクション（掲載件数・見出しはデータから自動生成） */
 export default function AreaPicksSection({ slug, areaName }: { slug: string; areaName: string }) {
   const gyms = getAreaPicks(slug);
   const copy = getAreaPickCopy(slug, areaName);
   const dbHref = getAreaDbHref(slug);
+  const storeRange = getStoreCheckedRange(slug);
 
   return (
     <section className="mb-12">
@@ -32,7 +33,7 @@ export default function AreaPicksSection({ slug, areaName }: { slug: string; are
         </div>
       )}
       <p className="text-xs text-gray-500 mt-4">
-        ※ 料金は{getPriceCheckedOn(slug)}、店舗は2026年10月20〜22日に各公式サイトで確認した内容です。店舗・料金・キャンペーンは変更される場合があるため、最新情報は各公式サイトでご確認ください。駅からの所要時間は各店舗の公式ページでご確認ください。
+        ※ 料金は{getPriceCheckedOn(slug)}、{storeRange ? `店舗は${storeRange}に各公式サイトで確認した内容です（店舗ごとの確認日は各ジムの欄に記載しています）。` : "店舗は2026年10月20〜22日に各公式サイトで確認した内容です。"}店舗・料金・キャンペーンは変更される場合があるため、最新情報は各公式サイトでご確認ください。駅からの所要時間は各店舗の公式ページでご確認ください。
       </p>
     </section>
   );
