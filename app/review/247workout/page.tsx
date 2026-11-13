@@ -19,8 +19,8 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "運営会社", value: "株式会社トゥエンティーフォーセブン" },
-  { label: "店舗数", value: "全国80店舗以上（2026年4月時点）" },
-  { label: "営業時間", value: "7:00〜24:00（店舗により異なる）" },
+  { label: "店舗数", value: "全国90店舗以上（公式表記。公式の店舗一覧で営業中の店舗は96店舗・2026年11月13日確認）" },
+  { label: "営業時間", value: "7:00〜24:00（公式の店舗ページで営業中の96店舗すべて・2026年11月13日確認。トレーナーの勤務時間やテナントにより変動する場合があります）" },
   { label: "特徴", value: "完全個室 / 深夜営業 / 3食食べるダイエット / ウェア無料レンタル" },
   { label: "公式URL", value: "https://247-workout.jp/", isLink: true },
 ];
@@ -114,7 +114,7 @@ const reviewCategories = [
   },
   {
     title: "立地・アクセス",
-    summary: "主要駅の近くに出店しているため、アクセスの良さは高く評価されています。全国80店舗以上の展開で、地方でも通いやすくなっています。",
+    summary: "主要駅の近くに出店しているため、アクセスの良さは高く評価されています。全国90店舗以上（公式表記）を展開しており、地方でも通いやすくなっています。",
   },
   {
     title: "解約・手続き",
@@ -202,7 +202,7 @@ export default function Workout247Review() {
           <img src="/brand-ss/247workout.jpg" alt="24/7ワークアウトの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">24/7ワークアウト 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年6月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月13日</p>
         <GymCta slug="247workout" name="24/7ワークアウト" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -234,14 +234,14 @@ export default function Workout247Review() {
         </div>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          24/7ワークアウトは全国80店舗以上を展開する大手パーソナルトレーニングジムです。深夜24時までの長い営業時間と、3食しっかり食べるダイエット指導が特徴です。RIZAPの半額以下という手頃な料金設定で、「パーソナルジムは高くて手が出ない」と感じていた層にも支持されています。本記事では、24/7ワークアウトの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          24/7ワークアウトは全国90店舗以上（公式表記・2026年11月13日確認）を展開する大手パーソナルトレーニングジムです。深夜24時までの長い営業時間と、3食しっかり食べるダイエット指導が特徴です。RIZAPの半額以下という手頃な料金設定で、「パーソナルジムは高くて手が出ない」と感じていた層にも支持されています。本記事では、24/7ワークアウトの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
         </p>
 
         {/* ---------- 結論ボックス ---------- */}
         <div id="conclusion" className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s2" className="font-bold text-gray-900 mb-3">24/7ワークアウトをおすすめできる方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>仕事帰りや深夜</strong>に通いたい方に向いています（多くの店舗で7:00〜24:00営業）</li>
+            <li>・<strong>仕事帰りや深夜</strong>に通いたい方に向いています（公式の店舗ページでは営業中の全店舗が7:00〜24:00営業・2026年11月13日確認）</li>
             <li>・<strong>3食食べながら</strong>無理のない食事指導で痩せたい方に向いています（極端な糖質制限が苦手な方）</li>
             <li>・大手の中では<strong>比較的手頃な料金</strong>で本格的なパーソナルトレーニングを試したい方に向いています</li>
             <li>・口コミは「続けやすい」「結果が出た」が中心です。一方で「トレーナーの質に差」「解約条件が分かりにくい」という声もあります</li>
@@ -512,7 +512,7 @@ export default function Workout247Review() {
         <section id="stores" className="mb-12">
           <h2 id="s13" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            24/7ワークアウトは全国80店舗以上を展開しています（2026年4月時点）。以下は主要エリアの店舗一覧です。
+            24/7ワークアウトは全国90店舗以上を展開しています（公式表記。公式の店舗一覧で営業中の店舗は96店舗・2026年11月13日確認）。以下は主要エリアの店舗一覧です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
