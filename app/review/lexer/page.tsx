@@ -19,13 +19,26 @@ export const metadata: Metadata = {
  * 1回の時間は FAQ「50分」と料金ページ「約55分」の2通りの表記を併記。
  */
 const CHECKED = "2026年10月28日";
+// 2026-11-14: 店舗一覧（住所・最寄駅）を追加。公式トップ・店舗一覧・料金ページを再確認（料金・評点の表示は10/28から変更なし）
+const CHECKED2 = "2026年11月14日";
 
 const SRC = {
   top: "https://personal.rexer-group.com/",
   plan: "https://personal.rexer-group.com/plan",
   faq: "https://personal.rexer-group.com/faq",
   about: "https://personal.rexer-group.com/about",
+  store: "https://personal.rexer-group.com/store",
 };
+
+// 公式トップ・店舗一覧の掲載内容（2026-11-14確認）。営業時間・定休日は店舗一覧に記載なし
+const stores = [
+  { name: "赤坂店", pref: "東京都", address: "東京都港区赤坂3丁目10-5 赤坂クインビル B1F", access: "赤坂見附駅（銀座線・丸ノ内線）徒歩2分／赤坂駅（千代田線）徒歩5分" },
+  { name: "五反田店", pref: "東京都", address: "東京都品川区東五反田1丁目14-11 須賀ビル B1F", access: "五反田駅（JR山手線・都営浅草線・東急池上線）徒歩1分" },
+  { name: "梅田中津店", pref: "大阪府", address: "大阪府大阪市北区中津1丁目2-20", access: "中津駅（Osaka Metro御堂筋線）徒歩1分／大阪梅田駅（阪急）徒歩6分／JR大阪駅 徒歩10分" },
+  { name: "天六店", pref: "大阪府", address: "大阪府大阪市北区天神橋7丁目2-13 サンキョウ天六ビル2階・3階", access: "天神橋筋六丁目駅（Osaka Metro堺筋線）徒歩1分" },
+  { name: "芦屋・苦楽園店", pref: "兵庫県", address: "兵庫県西宮市南越木岩町11-6 エクセルビル102号", access: "苦楽園口駅（阪急甲陽線）徒歩2分" },
+  { name: "西宮店", pref: "兵庫県", address: "兵庫県西宮市大畑町6-10 テクノ21ビル2F・3F", access: "西宮北口駅（阪急神戸本線）徒歩12分" },
+];
 
 function Src({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -37,7 +50,7 @@ function Src({ href, children }: { href: string; children: React.ReactNode }) {
 
 const summary = [
   { label: "どんなジムか", value: "株式会社レクサー（大阪市中央区）が運営するパーソナルジムです。同じReXeRグループが大阪・本町などで運営する24時間フィットネスラウンジとは別の業態です。" },
-  { label: "店舗", value: "赤坂・五反田（東京）、梅田中津・天六（大阪）、芦屋・苦楽園・西宮（兵庫）の6店舗です。" },
+  { label: "店舗", value: "赤坂・五反田（東京）、梅田中津・天六（大阪）、芦屋・苦楽園・西宮（兵庫）の6店舗です。西宮店（西宮北口駅 徒歩12分）を除く5店舗は駅から徒歩2分以内です（2026年11月14日 公式店舗一覧で確認）。" },
   { label: "料金", value: "月額コースは月9,900円＋1回5,060円〜（縛り期間・違約金なし）、回数券は8回64,240円〜40回272,800円です。回数券の1回あたりは8,030円〜6,820円です（当サイト計算）。入会金33,000円はキャンペーンで0円です。" },
   { label: "返金", value: "公式の料金ページ・FAQに返金保証の記載はありません。" },
   { label: "口コミ", value: "公式トップに表示されるGoogleの評点は、赤坂店欄を除く5店舗で4.9〜5.0（計280件）です。赤坂店欄（4.7・244件）に表示される投稿には本町の24時間ジムに関するものが多く、パーソナルジムの評価として読む際は注意が必要です。第三者の口コミサイトで件数を確認できるページは見つかりませんでした。" },
@@ -141,7 +154,9 @@ const faqItems = [
   { q: "回数券と月額コースはどちらが安くなりますか？", a: "回数券の1回あたりは8回で8,030円、40回で6,820円です。月額コースは月9,900円に1回5,060円〜が加わるため、月4回なら30,140円（1回あたり7,535円）、月8回なら50,380円（1回あたり約6,298円）です（いずれも税込・当サイト計算。回数券の料金は店舗により異なると公式に記載があります）。" },
   { q: "公式サイトに表示されている口コミは信頼できますか？", a: "公式トップの口コミ欄はGoogleの口コミを埋め込んで表示したもので、店舗別の評点と件数が出ます。ただし赤坂店の欄は表示名が「ReXeR」で、表示される投稿の多くは本町の24時間ジムに関するものでした（2026年10月28日確認）。パーソナルジムの評判を確かめる際は、Googleマップで店舗名「ReXeR PeRSoNaL GyM」を指定してご確認ください。" },
   { q: "無料体験や見学はできますか？", a: "無料カウンセリングのみの利用も可能と公式FAQに記載されています。体験はトップページに「体験3,960円・当日入会で0円」と「無料体験のご予約」の両方の表記があります（苦楽園・赤坂はキャンペーン内容が異なる）。" },
-  { q: "店舗はどこにありますか？", a: "赤坂・五反田（東京）、梅田中津・天六（大阪）、芦屋苦楽園・西宮（兵庫）の6店舗です。本町・南青山はReXeRグループの24時間フィットネスラウンジなど別の拠点です。" },
+  { q: "店舗はどこにありますか？", a: "赤坂・五反田（東京）、梅田中津・天六（大阪）、芦屋・苦楽園・西宮（兵庫）の6店舗です。最寄駅からの距離は、五反田店（五反田駅）・梅田中津店（中津駅）・天六店（天神橋筋六丁目駅）が徒歩1分、赤坂店（赤坂見附駅）・芦屋・苦楽園店（苦楽園口駅）が徒歩2分、西宮店（西宮北口駅）が徒歩12分です（2026年11月14日 公式店舗一覧で確認）。本町・南青山はReXeRグループの24時間フィットネスラウンジなど別の拠点です。" },
+  { q: "「ReXeR」と「レクサー」「REXER」は同じジムですか？", a: "はい。運営会社は株式会社レクサーで、パーソナルジムの正式な表記は「ReXeR PeRSoNaL GyM」です。検索では「レクサー」「REXER」と表記されることもあります。なお、同じReXeRグループの24時間フィットネスラウンジ（大阪・本町など）は別の業態で、口コミを調べる際は店舗名に「PeRSoNaL GyM」が入っているかをご確認ください。" },
+  { q: "入会金0円・体験料0円のキャンペーンに期限はありますか？", a: "公式トップには「体験キャンペーン実施中」として、入会金33,000円→0円、体験料3,960円→当日入会で0円と掲載されていますが、終了日は記載されていません。苦楽園・赤坂の2店舗はキャンペーン内容が異なると注記されています（2026年11月14日確認）。予約時に店舗へご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -179,7 +194,7 @@ export default function RexerReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-28"
+        "dateModified": "2026-11-14"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "ReXeR（レクサー）" }]} />
 
@@ -187,7 +202,7 @@ export default function RexerReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           ReXeR（レクサー）の口コミ・評判｜料金・店舗・悪い口コミを検証
         </h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月28日（料金・店舗・オプションを公式サイトで再確認し、公式サイトに表示される店舗別のGoogleの評点を集計）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月14日（6店舗の住所・最寄駅を公式の店舗一覧で確認して追加。料金・キャンペーン・公式サイトに表示される店舗別のGoogleの評点も同日に再確認し、10月28日から変更はありませんでした）</p>
 
         <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="ReXeR（レクサー）とは">
           <h2 className="font-bold text-gray-900 mb-3">ReXeR（レクサー）の口コミ・評判と料金：要点のまとめ</h2>
@@ -216,6 +231,7 @@ export default function RexerReview() {
           <ol className="space-y-1.5 text-sm list-decimal pl-5">
             <li><a href="#s1" className="text-teal-600 hover:underline">この記事を書いた人</a></li>
             <li><a href="#s2" className="text-teal-600 hover:underline">ReXeR（レクサー）の基本情報</a></li>
+            <li><a href="#stores" className="text-teal-600 hover:underline">ReXeR（レクサー）の店舗一覧（住所・最寄駅）</a></li>
             <li><a href="#s3" className="text-teal-600 hover:underline">ReXeR（レクサー）の3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">ReXeR（レクサー）のメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">ReXeR（レクサー）の料金</a></li>
@@ -252,6 +268,35 @@ export default function RexerReview() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        {/* 店舗一覧 2026-11-14 追加 */}
+        <section className="mb-12">
+          <h2 id="stores" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ReXeR（レクサー）の店舗一覧（住所・最寄駅）</h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            公式の店舗一覧に掲載されている6店舗です。西宮店を除く5店舗は最寄駅から徒歩2分以内です。営業時間・定休日は店舗一覧に記載がないため、各店舗へご確認ください。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200">
+              <thead>
+                <tr className="bg-gray-50">
+                  <th className="px-3 py-2 text-left font-medium">店舗</th>
+                  <th className="px-3 py-2 text-left font-medium">住所</th>
+                  <th className="px-3 py-2 text-left font-medium">最寄駅（公式表記）</th>
+                </tr>
+              </thead>
+              <tbody>
+                {stores.map((st) => (
+                  <tr key={st.name} className="border-t border-gray-100 align-top">
+                    <td className="px-3 py-2 whitespace-nowrap">{st.name}<span className="block text-xs text-gray-500">{st.pref}</span></td>
+                    <td className="px-3 py-2">{st.address}</td>
+                    <td className="px-3 py-2 text-gray-700">{st.access}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-2">出典: <Src href={SRC.store}>店舗一覧</Src>・<Src href={SRC.top}>公式トップ</Src>（{CHECKED2}確認）。芦屋・苦楽園店の所在地は西宮市です。</p>
         </section>
 
         {/* 3つの強み */}

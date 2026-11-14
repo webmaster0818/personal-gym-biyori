@@ -8,7 +8,7 @@ import GymCta from "@/components/GymCta";
 export const metadata: Metadata = {
   title: "リアルボディの口コミ・評判｜坂戸店（坂戸市）のレビュー・料金・店舗情報【2026年】",
   description:
-    "リアルボディ坂戸店（埼玉県坂戸市・坂戸駅徒歩4分）の住所・営業時間・料金と、口コミ・レビューの確認先を公式サイトで確認して掲載しています（2026年11月11日確認）。回数券は2回券12,000円〜16回券56,000円（税込・1回45分）、全19店舗の所在地もまとめています。",
+    "リアルボディ坂戸店（埼玉県坂戸市・坂戸駅徒歩4分）の住所・営業時間・料金と、口コミ・レビューの確認先を公式サイトで確認して掲載しています（2026年11月14日確認）。回数券は2回券12,000円〜16回券56,000円（税込・1回45分）、全19店舗の県別店舗数もまとめています。",
 };
 
 const basicInfo = [
@@ -169,28 +169,30 @@ export default function RealBodyReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判｜料金・効果と坂戸店の店舗情報</h1>
-        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
-          <img src="/brand-ss/real-body.jpg" alt="リアルボディの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
-        </figure>
-        <p className="text-xs text-gray-400 mb-6">リアルボディ 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月11日</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月14日（坂戸店ページ・料金ページを公式サイトで再確認）</p>
         {/* 2026-10-27: 検索語「リアルボディ坂戸店 坂戸市 レビュー」(10.5位)向けに、坂戸店の公式情報を冒頭に（公式店舗ページ・料金ページを同日確認） */}
         <div className="mb-8 rounded-xl border border-teal-200 bg-teal-50 p-5 text-sm leading-relaxed text-gray-800">
-          <p className="font-bold text-teal-900">リアルボディ坂戸店（坂戸市）の概要とレビューの確認先（2026年11月11日 公式サイトで再確認）</p>
+          <p className="font-bold text-teal-900">リアルボディ坂戸店（坂戸市）の概要とレビューの確認先（2026年11月14日 公式サイトで再確認）</p>
           <ul className="mt-2 space-y-1">
             <li>・<strong>所在地</strong>：埼玉県坂戸市南町12-12 幸陽ビル102（2026年5月22日オープン）</li>
-            <li>・<strong>アクセス</strong>：東武鉄道 坂戸駅から徒歩4分／駐車場2台</li>
+            <li>・<strong>アクセス</strong>：東武鉄道 坂戸駅から徒歩4分／店舗横の専用駐車場2台</li>
+            <li>・<strong>電話番号</strong>：070-6505-8933（坂戸店ページに掲載）</li>
             <li>・<strong>営業時間</strong>：平日 9:00〜21:00、土日祝 8:00〜19:00（年中無休）</li>
             <li>・<strong>料金</strong>：全店共通の回数券制で、2回券 税込12,000円から限定16回券 税込56,000円（1回3,500円）まで。1回45分のトレーニングです。公式の料金ページでは、使い切れなかった回数券は翌月に繰り越せると案内されています。</li>
             <li>・<strong>支払い・持ち物</strong>：坂戸店のページでは現金・クレジットカード・PayPayに対応と記載されています（料金ページではローンは扱っていないと記載）。持ち物は動きやすい服とタオルのみで、シューズと水は不要です。</li>
+            <li>・<strong>体験・入会</strong>：坂戸店のページには、無料体験（0円）、1ヶ月のお試し利用（即時解約可・違約金なし）、新規受付は毎月10名限定、全店舗の相互利用が可能と記載されています。キャンペーンの終了日は記載されていません。坂戸店の担当として紹介されているトレーナーは福田壮汰氏です。</li>
             <li>・<strong>レビュー（口コミ）</strong>：坂戸店の公式ページには、Googleのカスタマーレビューから抜粋した口コミ5件が画像で掲載されています（店舗が掲載許可を得て選んだものです）。当サイトでは坂戸店の口コミ件数・評価点を独自に集計していないため、点数は掲載していません。投稿全体はGoogleマップの坂戸店のページでご確認ください。</li>
             <li>・<strong>店舗数</strong>：公式の店舗一覧は全19店舗（宮城県8・千葉県5・福島県2・山形県・青森県・岩手県・埼玉県 各1）です。埼玉県の店舗は坂戸店のみです。</li>
           </ul>
           <p className="mt-2 text-xs text-gray-600">
-            出典：<a href="https://personalgym-realbody.com/sakado/" target="_blank" rel="nofollow noopener noreferrer" className="underline">リアルボディ公式サイトの坂戸店ページ</a>・<a href="https://personalgym-realbody.com/price/" target="_blank" rel="nofollow noopener noreferrer" className="underline">料金ページ</a>・店舗一覧（2026年11月11日確認）。このページの口コミの傾向はリアルボディ全体についてのもので、坂戸店に限定したものではありません。
+            出典：<a href="https://personalgym-realbody.com/sakado/" target="_blank" rel="nofollow noopener noreferrer" className="underline">リアルボディ公式サイトの坂戸店ページ</a>・<a href="https://personalgym-realbody.com/price/" target="_blank" rel="nofollow noopener noreferrer" className="underline">料金ページ</a>・店舗一覧（坂戸店ページ・料金ページは2026年11月14日、店舗一覧は2026年11月11日確認）。坂戸店ページの「総口コミ件数1500件突破」「ダイエット成功率94％」などの数値は算出方法・対象期間の記載がないため、当サイトでは引用していません。このページの口コミの傾向はリアルボディ全体についてのもので、坂戸店に限定したものではありません。
             店舗の詳細は<a href="#sakado" className="underline text-teal-700">坂戸店の店舗情報</a>をご覧ください。
           </p>
         </div>
+        <figure className="mt-4 mb-2 overflow-hidden rounded-xl border border-gray-200">
+          <img src="/brand-ss/real-body.jpg" alt="リアルボディの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
+        </figure>
+        <p className="text-xs text-gray-400 mb-6">リアルボディ 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
         <nav className="mb-10 rounded-xl border border-gray-200 bg-gray-50 p-5">
@@ -281,13 +283,13 @@ export default function RealBodyReview() {
         <section id="pricing" className="mb-12 scroll-mt-20">
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの料金（回数券制・総額の目安）</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            リアルボディは月額の継続契約ではなく、必要な回数の券を購入する<strong>回数券制</strong>です。1回のセッションは45分で、まとめ買いするほど1回あたりの単価が下がります。下表は公式サイト掲載の全券種です（2026年8月3日確認）。
+            リアルボディは月額の継続契約ではなく、必要な回数の券を購入する<strong>回数券制</strong>です。1回のセッションは45分で、まとめ買いするほど1回あたりの単価が下がります。下表は公式サイト掲載の全券種です（2026年11月14日確認・8月3日の確認時から変更はありません）。
           </p>
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
             <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン</th><th className="px-4 py-3 text-left font-medium">時間・回数</th><th className="px-4 py-3 text-left font-medium">料金（総額・1回あたり）</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead>
             <tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody>
           </table></div>
-          <p className="text-xs text-gray-500 mt-3">※ 上表は公式サイト掲載の回数券プランです（2026年8月3日当サイト確認）。食事指導は無料、契約縛り・違約金なしと案内されています。入会金の有無・キャンペーンを含む最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 上表は公式サイト掲載の回数券プランです（2026年11月14日当サイト確認）。料金ページの支払い方法はクレジットカード（Visa・Mastercard・SAISON）とPayPayで、ローンは扱っていません。食事指導は無料、契約縛り・違約金なしと案内されています。入会金の有無・キャンペーンを含む最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section id="sakado" className="mb-12 scroll-mt-20">
@@ -300,6 +302,9 @@ export default function RealBodyReview() {
               ["住所", "埼玉県坂戸市南町12-12 幸陽ビル102"],
               ["アクセス", "東武東上線 坂戸駅 徒歩4分"],
               ["営業時間", "平日 9:00〜21:00／土日祝 8:00〜19:00（年中無休）"],
+              ["電話番号", "070-6505-8933"],
+              ["駐車場", "店舗横の専用駐車場 2台"],
+              ["支払い方法", "現金・クレジットカード・PayPay（坂戸店ページの記載）"],
               ["料金", "全店共通の回数券制（上の料金表参照・1回45分）"],
               ["体験", "無料体験あり（公式の無料体験ページに記載）"],
             ].map((row) => (<tr key={row[0]} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row[0]}</th><td className="px-4 py-3 text-gray-800">{row[1]}</td></tr>))}
