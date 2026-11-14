@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "運営会社", value: "株式会社トゥエンティーフォーセブン" },
   { label: "店舗数", value: "全国90店舗以上（公式表記。公式の店舗一覧で営業中の店舗は96店舗・2026年11月13日確認）" },
-  { label: "営業時間", value: "7:00〜24:00（公式の店舗ページで営業中の96店舗すべて・2026年11月13日確認。トレーナーの勤務時間やテナントにより変動する場合があります）" },
+  { label: "営業時間", value: "7:00〜24:00が基本です（公式の店舗ページで営業中の96店舗中93店舗。天王洲アイル店は7:00〜23:00、岐阜駅前店は8:00〜23:00、一宮店は10:00〜23:00と記載・2026年11月14日確認。トレーナーの勤務時間により変動する場合があります）" },
   { label: "特徴", value: "完全個室 / 深夜営業 / 3食食べるダイエット / ウェア無料レンタル" },
   { label: "公式URL", value: "https://247-workout.jp/", isLink: true },
 ];
@@ -152,17 +152,32 @@ const faqJsonLd = {
 type StoreItem = { name: string; href?: string };
 const storesByRegion: { region: string; stores: StoreItem[] }[] = [
   { region: "北海道", stores: [{ name: "札幌店", href: "/review/247workout/sapporo/" }] },
+  { region: "岩手", stores: [{ name: "盛岡店" }] },
   { region: "宮城", stores: [{ name: "仙台店" }] },
-  { region: "東京", stores: [{ name: "新宿店", href: "/review/247workout/shinjuku/" }, { name: "池袋店", href: "/review/247workout/ikebukuro/" }, { name: "渋谷店", href: "/review/247workout/shibuya/" }, { name: "上野店" }, { name: "秋葉原店" }, { name: "銀座店", href: "/review/247workout/ginza/" }, { name: "六本木店", href: "/review/247workout/roppongi/" }, { name: "赤坂店" }, { name: "北千住店" }, { name: "錦糸町店" }, { name: "町田店", href: "/review/247workout/machida/" }, { name: "立川店" }, { name: "八王子店" }, { name: "吉祥寺店" }, { name: "自由が丘店" }, { name: "恵比寿店" }, { name: "中目黒店" }, { name: "蒲田店" }, { name: "西葛西店" }, { name: "三軒茶屋店" }] },
-  { region: "神奈川", stores: [{ name: "横浜店", href: "/review/247workout/yokohama/" }, { name: "川崎店", href: "/review/247workout/kawasaki/" }, { name: "藤沢店" }, { name: "戸塚店" }, { name: "溝の口店" }, { name: "本厚木店" }] },
-  { region: "埼玉", stores: [{ name: "大宮店", href: "/review/247workout/saitama/" }, { name: "浦和店" }, { name: "川口店" }, { name: "所沢店" }, { name: "川越店" }] },
-  { region: "千葉", stores: [{ name: "千葉店" }, { name: "船橋店" }, { name: "柏店" }, { name: "松戸店" }] },
-  { region: "愛知", stores: [{ name: "名古屋栄店", href: "/review/247workout/nagoya/" }, { name: "名駅店" }, { name: "金山店" }, { name: "豊田店" }] },
-  { region: "大阪", stores: [{ name: "梅田店", href: "/review/247workout/umeda/" }, { name: "なんば店", href: "/review/247workout/namba/" }, { name: "天王寺店" }, { name: "心斎橋店" }, { name: "堺東店" }, { name: "高槻店" }] },
+  { region: "福島", stores: [{ name: "郡山店" }] },
+  { region: "東京", stores: [{ name: "赤羽店" }, { name: "秋葉原・神田店" }, { name: "恵比寿・目黒店" }, { name: "二子玉川店" }, { name: "八王子店" }, { name: "池袋店", href: "/review/247workout/ikebukuro/" }, { name: "池袋東口店" }, { name: "自由が丘店" }, { name: "神楽坂店" }, { name: "蒲田店" }, { name: "吉祥寺店" }, { name: "錦糸町店" }, { name: "錦糸町四ツ目通店" }, { name: "北千住店" }, { name: "町田店", href: "/review/247workout/machida/" }, { name: "目黒店" }, { name: "日暮里店" }, { name: "西葛西店" }, { name: "荻窪店" }, { name: "押上店" }, { name: "六町店" }, { name: "三軒茶屋店" }, { name: "笹塚店" }, { name: "渋谷・南青山店" }, { name: "下北沢店" }, { name: "新橋・銀座店" }, { name: "新宿東口店" }, { name: "新宿西口店" }, { name: "立川店" }, { name: "天王洲アイル店" }, { name: "上野店" }, { name: "牛込神楽坂店" }] },
+  { region: "神奈川", stores: [{ name: "藤沢店" }, { name: "橋本店" }, { name: "関内店" }, { name: "川崎店", href: "/review/247workout/kawasaki/" }, { name: "武蔵中原店" }, { name: "たまプラーザ・鷺沼店" }, { name: "横浜店", href: "/review/247workout/yokohama/" }] },
+  { region: "埼玉", stores: [{ name: "東川口店" }, { name: "春日部店" }, { name: "加須大利根店" }, { name: "南越谷店" }, { name: "大宮店", href: "/review/247workout/saitama/" }, { name: "志木店" }, { name: "戸田店" }, { name: "所沢店" }, { name: "浦和店" }] },
+  { region: "千葉", stores: [{ name: "千葉店" }, { name: "船橋店" }, { name: "稲毛店" }, { name: "柏店" }, { name: "南柏店" }, { name: "本八幡店" }, { name: "津田沼店" }] },
+  { region: "茨城", stores: [{ name: "水戸店" }] },
+  { region: "栃木", stores: [{ name: "宇都宮店" }] },
+  { region: "群馬", stores: [{ name: "前橋朝倉店" }, { name: "高崎店" }] },
+  { region: "山梨", stores: [{ name: "甲府店" }] },
+  { region: "新潟", stores: [{ name: "新潟店" }] },
+  { region: "石川", stores: [{ name: "金沢店" }] },
+  { region: "愛知", stores: [{ name: "千種店" }, { name: "一宮店" }, { name: "金山店" }, { name: "蟹江店" }, { name: "名古屋久屋大通店" }, { name: "名古屋栄店", href: "/review/247workout/nagoya/" }] },
+  { region: "岐阜", stores: [{ name: "岐阜駅前店" }] },
+  { region: "静岡", stores: [{ name: "浜松店" }, { name: "静岡店" }, { name: "浜松天王店" }] },
+  { region: "大阪", stores: [{ name: "茨木店" }, { name: "難波店" }, { name: "大阪心斎橋店" }, { name: "堺東店" }, { name: "高槻店" }, { name: "天王寺店" }, { name: "梅田店", href: "/review/247workout/umeda/" }] },
   { region: "京都", stores: [{ name: "京都河原町店" }] },
-  { region: "兵庫", stores: [{ name: "神戸三宮店" }, { name: "西宮店" }] },
-  { region: "広島", stores: [{ name: "広島店" }] },
-  { region: "福岡", stores: [{ name: "天神店", href: "/review/247workout/fukuoka/" }, { name: "博多店" }] },
+  { region: "兵庫", stores: [{ name: "西宮店" }, { name: "三宮店" }] },
+  { region: "和歌山", stores: [{ name: "和歌山店" }] },
+  { region: "岡山", stores: [{ name: "岡山店" }] },
+  { region: "広島", stores: [{ name: "福山店" }, { name: "広島店" }] },
+  { region: "福岡", stores: [{ name: "福岡薬院・天神店" }, { name: "博多店" }, { name: "小倉店" }] },
+  { region: "熊本", stores: [{ name: "熊本店" }] },
+  { region: "大分", stores: [{ name: "大分店" }] },
+  { region: "鹿児島", stores: [{ name: "鹿児島店" }] },
 ];
 
 /* ---------- 関連ジム ---------- */
@@ -241,7 +256,7 @@ export default function Workout247Review() {
         <div id="conclusion" className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s2" className="font-bold text-gray-900 mb-3">24/7ワークアウトをおすすめできる方</h2>
           <ul className="space-y-1.5 text-sm text-gray-700">
-            <li>・<strong>仕事帰りや深夜</strong>に通いたい方に向いています（公式の店舗ページでは営業中の全店舗が7:00〜24:00営業・2026年11月13日確認）</li>
+            <li>・<strong>仕事帰りや深夜</strong>に通いたい方に向いています（公式の店舗ページでは営業中の96店舗中93店舗が7:00〜24:00営業・2026年11月14日確認）</li>
             <li>・<strong>3食食べながら</strong>無理のない食事指導で痩せたい方に向いています（極端な糖質制限が苦手な方）</li>
             <li>・大手の中では<strong>比較的手頃な料金</strong>で本格的なパーソナルトレーニングを試したい方に向いています</li>
             <li>・口コミは「続けやすい」「結果が出た」が中心です。一方で「トレーナーの質に差」「解約条件が分かりにくい」という声もあります</li>
@@ -512,7 +527,7 @@ export default function Workout247Review() {
         <section id="stores" className="mb-12">
           <h2 id="s13" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの店舗一覧</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            24/7ワークアウトは全国90店舗以上を展開しています（公式表記。公式の店舗一覧で営業中の店舗は96店舗・2026年11月13日確認）。以下は主要エリアの店舗一覧です。
+            24/7ワークアウトは全国90店舗以上を展開しています（公式表記）。以下は、<a href="https://247-sports.jp/workout/gym/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式の店舗一覧</a>から各店舗ページを開き、営業中と確認できた96店舗を都道府県別にまとめたものです（店舗名は公式表記・2026年11月14日確認）。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
@@ -540,7 +555,8 @@ export default function Workout247Review() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            ※ 店舗情報は2026年4月時点のものです。最新の店舗情報は公式サイトでご確認ください。
+            ※ 2026年11月14日に公式の店舗一覧と照合し、店舗名を公式表記に改めました（例：新宿店→新宿東口店・新宿西口店、渋谷店→渋谷・南青山店、銀座店→新橋・銀座店）。公式の店舗一覧に掲載のない六本木・赤坂・中目黒・戸塚・溝の口・本厚木・川口・川越・松戸・名駅・豊田の11店舗は一覧から外しています。<br />
+            ※ 営業時間は93店舗が7:00〜24:00、天王洲アイル店が7:00〜23:00、岐阜駅前店が8:00〜23:00、一宮店が10:00〜23:00です（各店舗ページの「対応時間」）。十三店は公式の一覧にリンクがあるものの店舗ページが表示されないため、蒲郡店は2027年春オープン予定のため、上表に含めていません。最新の店舗情報は公式サイトでご確認ください。
           </p>
         </section>
 

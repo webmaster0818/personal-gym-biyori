@@ -132,7 +132,7 @@ const goalGuide = [
 
 const faqItems = [
   { q: "リアルボディの料金はいくらですか？", a: "回数券制で、2回券12,000円（1回6,000円）から16回券56,000円（1回3,500円）まで8券種があります（2026年8月3日公式確認）。まとめ買いするほど1回あたりが安くなり、1回のセッションは45分です。最新の料金・プランは公式サイトでご確認ください。" },
-  { q: "リアルボディ坂戸店の営業時間・アクセスを教えてください。", a: "坂戸店（埼玉県坂戸市南町12-12 幸陽ビル102）は東武東上線・坂戸駅から徒歩4分、営業時間は平日9:00〜21:00・土日祝8:00〜19:00で年中無休です（2026年10月27日公式確認）。埼玉県内のリアルボディは坂戸店のみで、無料体験から始められます。" },
+  { q: "リアルボディ坂戸店の営業時間・アクセスを教えてください。", a: "坂戸店（埼玉県坂戸市南町12-12 幸陽ビル102）は東武東上線・坂戸駅から徒歩4分、営業時間は平日9:00〜21:00・土日祝8:00〜19:00で年中無休です（2026年11月14日公式確認）。埼玉県内のリアルボディは坂戸店のみで、無料体験から始められます。" },
   { q: "リアルボディの入会金はいくらですか？", a: "入会金については公式サイトに明確な記載が確認できない場合があります。キャンペーンの有無も含め、最新の費用は公式サイトまたは無料体験時にご確認ください。" },
   { q: "食事指導は受けられますか？追加料金はかかりますか？", a: "食事指導は無料と案内されています。希望しない場合は食事管理なしのプランも選べるとされています。詳細は公式サイトでご確認ください。" },
   { q: "契約の縛りや解約手数料はありますか？", a: "契約の縛りはなく、解約時の違約金もないと案内されています。回数券制のため、必要な分だけ購入できます。最新の規約は公式サイトでご確認ください。" },
@@ -293,7 +293,7 @@ export default function RealBodyReview() {
         <section id="sakado" className="mb-12 scroll-mt-20">
           <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディ坂戸店の店舗情報（埼玉県唯一の店舗）</h2>
           <p className="text-sm text-gray-700 mb-4 leading-relaxed">
-            埼玉県で通えるリアルボディは<strong>坂戸店</strong>です。東武東上線・坂戸駅から<strong>徒歩4分</strong>（公式表記は「東武鉄道坂戸駅徒歩4分」）で、駐車場は2台、<strong>年中無休</strong>の店舗です（2026年10月27日公式確認）。
+            埼玉県で通えるリアルボディは<strong>坂戸店</strong>です。東武東上線・坂戸駅から<strong>徒歩4分</strong>（公式表記は「東武鉄道坂戸駅徒歩4分」）で、駐車場は2台、<strong>年中無休</strong>の店舗です（2026年11月14日公式確認）。
           </p>
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>
             {[
@@ -304,7 +304,7 @@ export default function RealBodyReview() {
               ["体験", "無料体験あり（公式の無料体験ページに記載）"],
             ].map((row) => (<tr key={row[0]} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row[0]}</th><td className="px-4 py-3 text-gray-800">{row[1]}</td></tr>))}
           </tbody></table></div>
-          <p className="text-xs text-gray-500 mt-3">※ 2026年10月27日時点の公式サイト掲載情報です。予約状況・最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 2026年11月14日時点の公式サイト掲載情報です。予約状況・最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
