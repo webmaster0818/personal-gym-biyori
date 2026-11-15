@@ -420,14 +420,34 @@ export function getAreaDbHref(slug: string): string {
   return DB_CITY_PAGES.has(slug) ? `/db/${slug}/` : "/db/";
 }
 
-/** 共通注記用: 掲載店舗の確認日の範囲（各カードの店舗確認日から算出。2026-11-13 追加） */
-export function getStoreCheckedRange(slug: string): string | null {
-  const days = (AREA_PICKS[slug] ?? [])
+/**
+ * 掲載店舗の確認日（各カードの店舗確認日）を古い順に返す。
+ * storeCheckedOn が無い店舗は STORE_CHECKED_DEFAULT（2026-10-21 の公式照合監査 growth/gym-area-audit-20261021.md の確認日）を使う。
+ * 日付として読めない値は除外する（根拠の無い既定値で埋めない）。
+ */
+function getStoreCheckedDays(slug: string): { y: number; mo: number; d: number }[] {
+  return (AREA_PICKS[slug] ?? [])
     .map((p) => p.storeCheckedOn ?? STORE_CHECKED_DEFAULT)
     .map((d) => d.match(/^(\d+)年(\d+)月(\d+)日$/))
     .filter((m): m is RegExpMatchArray => m !== null)
     .map((m) => ({ y: +m[1], mo: +m[2], d: +m[3] }))
     .sort((a, b) => a.y - b.y || a.mo - b.mo || a.d - b.d);
+}
+
+/** FAQ 用: 掲載店舗の確認日の範囲を月単位で返す（例「2026年11月」「2026年10月〜11月」）。確認日のある店舗が0件なら null（2026-11-15 追加） */
+export function getStoreCheckedMonthRange(slug: string): string | null {
+  const days = getStoreCheckedDays(slug);
+  if (days.length === 0) return null;
+  const f = days[0];
+  const l = days[days.length - 1];
+  const head = `${f.y}年${f.mo}月`;
+  if (f.y === l.y && f.mo === l.mo) return head;
+  return `${head}〜${f.y === l.y ? "" : `${l.y}年`}${l.mo}月`;
+}
+
+/** 共通注記用: 掲載店舗の確認日の範囲（各カードの店舗確認日から算出。2026-11-13 追加） */
+export function getStoreCheckedRange(slug: string): string | null {
+  const days = getStoreCheckedDays(slug);
   if (days.length === 0) return null;
   const f = days[0];
   const l = days[days.length - 1];
@@ -514,11 +534,17 @@ export function buildAreaPickFaq(slug: string, areaName: string): { q: string; a
       },
     ];
   }
+  const checkedMonths = getStoreCheckedMonthRange(slug);
   const items = [
-    {
-      q: `${areaName}で公式サイトに店舗が掲載されているパーソナルジムはどこですか？`,
-      a: `当サイトが2026年10月〜11月に各ブランドの公式店舗一覧で確認した範囲では、${gyms.map((g) => `${g.name}（${g.access}）`).join("、")}の${n}件です。`,
-    },
+    // 確認期間は掲載店舗の確認日から自動算出（2026-11-15 B案）。確認日のある店舗が0件ならこの設問は出さない
+    ...(checkedMonths
+      ? [
+          {
+            q: `${areaName}で公式サイトに店舗が掲載されているパーソナルジムはどこですか？`,
+            a: `当サイトが${checkedMonths}に各ブランドの公式店舗一覧で確認した範囲では、${gyms.map((g) => `${g.name}（${g.access}）`).join("、")}の${n}件です。`,
+          },
+        ]
+      : []),
     {
       q: `${areaName}の掲載ジムの料金はいくらですか？`,
       a: `${gyms.map((g) => `${g.name}は${g.price}`).join("、")}です（${getPriceCheckedOn(slug)}に各公式サイトで確認）。店舗やキャンペーンにより異なる場合があるため、申し込み前に公式サイトでご確認ください。`,
