@@ -8,7 +8,7 @@ import GymCta from "@/components/GymCta";
 export const metadata: Metadata = {
   title: "リアルボディの口コミ・評判｜坂戸店（坂戸市）のレビュー・料金・店舗情報【2026年】",
   description:
-    "リアルボディ坂戸店（埼玉県坂戸市・坂戸駅徒歩4分）の住所・営業時間・料金と、口コミ・レビューの確認先を公式サイトで確認して掲載しています（2026年11月14日確認）。回数券は2回券12,000円〜16回券56,000円（税込・1回45分）、全19店舗の県別店舗数もまとめています。",
+    "リアルボディ坂戸店（埼玉県坂戸市・坂戸駅徒歩4分）の住所・営業時間・料金と、口コミ・レビューの確認先を公式サイトで確認して掲載しています（2026年11月14日確認）。回数券は2回券12,000円〜16回券56,000円（税込・1回45分）です。公式の店舗一覧に掲載されている店舗数（全19店舗）と県別の内訳も記載しています（2026年11月16日確認）。",
 };
 
 const basicInfo = [
@@ -169,7 +169,7 @@ export default function RealBodyReview() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">リアルボディの口コミ・評判｜料金・効果と坂戸店の店舗情報</h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月14日（坂戸店ページ・料金ページを公式サイトで再確認）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月16日（公式の店舗一覧を再確認。坂戸店ページ・料金ページは2026年11月14日に確認）</p>
         {/* 2026-10-27: 検索語「リアルボディ坂戸店 坂戸市 レビュー」(10.5位)向けに、坂戸店の公式情報を冒頭に（公式店舗ページ・料金ページを同日確認） */}
         <div className="mb-8 rounded-xl border border-teal-200 bg-teal-50 p-5 text-sm leading-relaxed text-gray-800">
           <p className="font-bold text-teal-900">リアルボディ坂戸店（坂戸市）の概要とレビューの確認先（2026年11月14日 公式サイトで再確認）</p>
@@ -185,7 +185,7 @@ export default function RealBodyReview() {
             <li>・<strong>店舗数</strong>：公式の店舗一覧は全19店舗（宮城県8・千葉県5・福島県2・山形県・青森県・岩手県・埼玉県 各1）です。埼玉県の店舗は坂戸店のみです。</li>
           </ul>
           <p className="mt-2 text-xs text-gray-600">
-            出典：<a href="https://personalgym-realbody.com/sakado/" target="_blank" rel="nofollow noopener noreferrer" className="underline">リアルボディ公式サイトの坂戸店ページ</a>・<a href="https://personalgym-realbody.com/price/" target="_blank" rel="nofollow noopener noreferrer" className="underline">料金ページ</a>・店舗一覧（坂戸店ページ・料金ページは2026年11月14日、店舗一覧は2026年11月11日確認）。坂戸店ページの「総口コミ件数1500件突破」「ダイエット成功率94％」などの数値は算出方法・対象期間の記載がないため、当サイトでは引用していません。このページの口コミの傾向はリアルボディ全体についてのもので、坂戸店に限定したものではありません。
+            出典：<a href="https://personalgym-realbody.com/sakado/" target="_blank" rel="nofollow noopener noreferrer" className="underline">リアルボディ公式サイトの坂戸店ページ</a>・<a href="https://personalgym-realbody.com/price/" target="_blank" rel="nofollow noopener noreferrer" className="underline">料金ページ</a>・店舗一覧（坂戸店ページ・料金ページは2026年11月14日、店舗一覧は2026年11月16日確認）。坂戸店ページの「総口コミ件数1500件突破」「ダイエット成功率94％」などの数値は算出方法・対象期間の記載がないため、当サイトでは引用していません。このページの口コミの傾向はリアルボディ全体についてのもので、坂戸店に限定したものではありません。
             店舗の詳細は<a href="#sakado" className="underline text-teal-700">坂戸店の店舗情報</a>をご覧ください。
           </p>
         </div>

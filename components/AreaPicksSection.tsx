@@ -1,6 +1,6 @@
 import Link from "next/link";
 import AreaGymCard from "@/components/AreaGymCard";
-import { getAreaPicks, getAreaPickCopy, getAreaDbHref, getPriceCheckedOn, getStoreCheckedRange } from "@/lib/area-picks";
+import { getAreaPicks, getAreaPickCopy, getAreaDbHref, getPriceCheckedOn, getStoreCheckedRange, getStoreCheckedMonthRange } from "@/lib/area-picks";
 
 /** /area/ 各ページの「おすすめ」セクション（掲載件数・見出しはデータから自動生成） */
 export default function AreaPicksSection({ slug, areaName }: { slug: string; areaName: string }) {
@@ -8,6 +8,8 @@ export default function AreaPicksSection({ slug, areaName }: { slug: string; are
   const copy = getAreaPickCopy(slug, areaName);
   const dbHref = getAreaDbHref(slug);
   const storeRange = getStoreCheckedRange(slug);
+  // 確認時期は掲載店舗の確認日から月単位で自動表示。確認日のある店舗が無い（0件）ページは日付を出さない（2026-11-16）
+  const storeMonths = getStoreCheckedMonthRange(slug);
 
   return (
     <section className="mb-12">
@@ -18,7 +20,7 @@ export default function AreaPicksSection({ slug, areaName }: { slug: string; are
       {gyms.length <= 1 && (
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
           <p className="text-sm text-gray-700 leading-relaxed">
-            2026年10月に主要ブランドの公式店舗一覧を確認した結果、当エリアの店舗を確認できたブランドは{gyms.length}件でした。周辺の店舗は、Googleマップ掲載データをもとにした店舗データベースでご確認いただけます。
+            {storeMonths ? `${storeMonths}に` : ""}主要ブランドの公式店舗一覧を確認した結果、当エリアの店舗を確認できたブランドは{gyms.length}件でした。周辺の店舗は、Googleマップ掲載データをもとにした店舗データベースでご確認いただけます。
           </p>
           <Link href={dbHref} className="inline-block mt-3 text-sm text-teal-700 font-medium underline">
             店舗データベースを見る →
@@ -33,7 +35,7 @@ export default function AreaPicksSection({ slug, areaName }: { slug: string; are
         </div>
       )}
       <p className="text-xs text-gray-500 mt-4">
-        ※ 料金は{getPriceCheckedOn(slug)}、{storeRange ? `店舗は${storeRange}に各公式サイトで確認した内容です（店舗ごとの確認日は各ジムの欄に記載しています）。` : "店舗は2026年10月20〜22日に各公式サイトで確認した内容です。"}店舗・料金・キャンペーンは変更される場合があるため、最新情報は各公式サイトでご確認ください。駅からの所要時間は各店舗の公式ページでご確認ください。
+        ※ 料金は{getPriceCheckedOn(slug)}{storeRange ? `、店舗は${storeRange}に各公式サイトで確認した内容です（店舗ごとの確認日は各ジムの欄に記載しています）。` : "に各公式サイトで確認した内容です。"}店舗・料金・キャンペーンは変更される場合があるため、最新情報は各公式サイトでご確認ください。駅からの所要時間は各店舗の公式ページでご確認ください。
       </p>
     </section>
   );
