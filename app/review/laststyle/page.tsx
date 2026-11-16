@@ -8,9 +8,9 @@ import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "Lastyle（ラスタイル）の口コミ・評判｜料金・返金条件・悪い口コミ",
+  title: "Lastyle（ラスタイル）の口コミ・評判｜2サイト31件の内訳・料金・返金条件",
   description:
-    "Lastyle（ラスタイル）の口コミ・評判を、Getfitの口コミ21件の内訳と公式情報で整理しました。スタンダード16回コースの総額238,700円（入会金込み・税込）、キャッシュバック適用後の試算、返金規定の対象外条件、池袋東口本店・新宿代々木店の掲載状況をまとめています。",
+    "Lastyle（ラスタイル）の口コミ・評判を、GetfitとHOT PEPPER Beautyの計31件の内訳と公式情報で整理しました。16回コースの総額238,700円（入会金込み・税込）、キャッシュバック適用後の試算、返金規定の対象外条件をまとめています。",
 };
 
 /*
@@ -21,6 +21,8 @@ export const metadata: Metadata = {
  * 口コミは Getfit 池袋東口本店ページ（21件）の内訳とテーマを当サイトが確認したもの（本文は転載しない）。
  */
 const CHECKED = "2026年10月27日";
+// 2026-11-16 追記: 公式 池袋東口本店ページ（トレーニング内容にピラティス）・HOT PEPPER Beauty 口コミ10件・ZeroBody・Getfit（21件・4.6 変わらず）を確認。
+const CHECKED2 = "2026年11月16日";
 
 const SRC = {
   top: "https://www.last-style.com/",
@@ -29,6 +31,8 @@ const SRC = {
   gym: "https://www.last-style.com/gym/",
   company: "https://www.last-style.com/company/",
   getfit: "https://getfit.jp/shop/lastyle-ikebukuro",
+  hpb: "https://beauty.hotpepper.jp/kr/slnH000710358/review/",
+  zerobody: "https://zerobody.jp/store/14526/",
 };
 
 function Src({ href, children }: { href: string; children: React.ReactNode }) {
@@ -40,12 +44,12 @@ function Src({ href, children }: { href: string; children: React.ReactNode }) {
 }
 
 const summary = [
-  { label: "どんなジムか", value: "株式会社ラスタイル（東京都豊島区）が運営するパーソナルジムです。筋力トレーニングにボクシングと有酸素運動を組み合わせた1回60分のセッションを、担当トレーナーが入会から終了まで指導します。ボクシングを含まないコースも用意されています。" },
+  { label: "どんなジムか", value: "株式会社ラスタイル（東京都豊島区）が運営するパーソナルジムです。筋力トレーニングにボクシングと有酸素運動を組み合わせた1回60分のセッションを、担当トレーナーが入会から終了まで指導します。2026年11月16日時点の公式の池袋東口本店ページでは、トレーニング内容に「ピラティス」も挙げられています。ボクシングを含まないコースも用意されています。" },
   { label: "店舗", value: "公式の店舗一覧に掲載されているのは池袋東口本店（豊島区東池袋）の1店舗です。このほか「新宿・代々木店」（渋谷区代々木）の店舗ページが公開されていますが、店舗一覧には掲載されていません。" },
   { label: "料金", value: "スタンダード16回コースは1回13,200円（税込）で、16回211,200円です。入会金はキャンペーン価格27,500円（税込・通常55,000円）のため、入会金込みの総額は238,700円です（当サイト計算）。" },
   { label: "返金・特典", value: "全コースに30日以内の返金規定がありますが、2%以上減量した場合などは対象外です。2ヶ月で1kg減るごとに1万円（16回コース・上限10万円）が戻るキャッシュバック制度があります。" },
   { label: "向いている方", value: "単調な筋力トレーニングだけでは続かない方、池袋・代々木周辺に通える方に向いています。休会・退会の規定は公式サイトに記載がないため、長期の中断が想定される方は契約前に書面での確認をおすすめします。" },
-  { label: "口コミ", value: "Getfitの池袋東口本店ページは21件・平均4.6です。うち15件が利用者の投稿、6件がジム提供の口コミです。トレーナーの対応と清潔さを評価する声が多く、人気時間帯の予約の取りにくさが主な指摘です。" },
+  { label: "口コミ", value: "Getfitの池袋東口本店ページは21件・平均4.6（うち6件はジム提供）、HOT PEPPER Beautyは10件（★5が7件・★4が3件、単純平均4.7）です。トレーナーの対応と清潔さを評価する声が多く、料金の高さ、入口のわかりにくさ、人気時間帯の予約の取りにくさが主な指摘です。" },
 ];
 
 const basicInfo = [
@@ -54,7 +58,7 @@ const basicInfo = [
   { label: "店舗", value: "池袋東口本店（豊島区東池袋1-23-13 第一岡村ビル 2階・地下1階）／新宿・代々木店（渋谷区代々木1-31-17 麻緒ビル3F・店舗ページのみ公開）" },
   { label: "営業時間", value: "平日9:00〜22:30（最終受付21:00）、土日祝10:00〜20:30（最終受付19:00）" },
   { label: "1回の時間", value: "60分" },
-  { label: "プログラム", value: "ダイエット（筋力トレーニング・ボクシング・有酸素運動）、ボディメイク、ウェディング、産後ダイエット" },
+  { label: "プログラム", value: "ダイエット（筋力トレーニング・ボクシング・有酸素運動）、ボディメイク、ウェディング、産後ダイエット。公式の池袋東口本店ページでは、ボディメイクと産後ダイエットのメソッドにピラティスが含まれています（2026年11月16日確認）" },
   { label: "支払い方法", value: "銀行振込・クレジットカード" },
 ];
 
@@ -120,12 +124,14 @@ const getfitThemes = {
     "LINEでの食事のフィードバック",
     "個室の清潔さ、他の利用者と顔を合わせにくい点",
     "駅からの近さ",
+    "ピラティスを体験して満足したという投稿（HOT PEPPER Beauty・2件）",
   ],
   bad: [
     "人気の時間帯は予約が取りにくい",
     "建物が古い、入口がわかりにくい、トイレが室外にある",
     "食事指導をより詳しく受けたかった",
     "成果に対して料金が高いと感じた（主に古い投稿）",
+    "ビルの一角にあり場所がわかりにくい（HOT PEPPER Beauty）",
   ],
 };
 
@@ -137,6 +143,8 @@ const faqItems = [
   { q: "ボクシング未経験でも通えますか？", a: "公式サイトではボクシング経験を入会条件としていません。ボクシングを含まないコースも用意されているため、体験時に内容をご確認ください。" },
   { q: "食事指導は管理栄養士が担当しますか？", a: "公式サイトに管理栄養士の記載はありません。食事は毎日LINEで担当トレーナーに報告し、セッション時に指導を受ける方式です。代表トレーナーは栄養コンシェルジュ一ツ星の資格を公表しています。" },
   { q: "女性トレーナーは在籍していますか？", a: "公式サイトにトレーナーの性別に関する記載はありません。希望がある場合は、体験予約の際に店舗へご確認ください。" },
+  { q: "Lastyleでピラティスはできますか？", a: "2026年11月16日時点の公式の池袋東口本店ページでは、トレーニング内容として筋トレ・ピラティス・ボクシング・有酸素運動が挙げられ、ボディメイクと産後ダイエットのメソッドにピラティスが含まれています。HOT PEPPER Beautyでは「ピラティス&フィットネススタジオ」として掲載されており、マシンピラティスを体験したという投稿もあります。一方、無料体験の説明は筋トレ・ボクシング・有酸素運動のみのため、ピラティスを体験したい方は予約時にご確認ください。" },
+  { q: "ホットペッパービューティーの口コミ評価はどうですか？", a: "2026年11月16日時点で10件、★5が7件・★4が3件で、当サイトの単純平均は4.7です（サイト上の表示は直近1年間の平均で5.00）。トレーナーの説明のわかりやすさを評価する声が多い一方、「メニュー・料金」の項目を3点とした投稿が3件あります。ジム検索サイトZeroBodyの91件は、GoogleマップとHOT PEPPER Beautyの口コミを集めて掲載したものです。" },
   { q: "休会や退会はできますか？", a: "公式サイトに休会・退会・中途解約の規定は記載されていません（2026年10月27日確認）。返金規定に「自己都合退会は返金対象外」とあるのみです。契約前に、中途解約時の精算方法を書面でご確認ください。" },
 ];
 
@@ -164,7 +172,7 @@ export default function LastyleReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Lastyle（ラスタイル）の口コミ・評判｜料金・返金条件・悪い口コミ",
+        "headline": "Lastyle（ラスタイル）の口コミ・評判｜2サイト31件の内訳・料金・返金条件",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -175,15 +183,15 @@ export default function LastyleReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-27"
+        "dateModified": "2026-11-16"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Lastyle" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Lastyle（ラスタイル）の口コミ・評判｜料金・返金条件・悪い口コミ
+          Lastyle（ラスタイル）の口コミ・評判｜2サイト31件の内訳・料金・返金条件
         </h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月27日（料金・店舗・返金規定・キャッシュバック・営業時間を公式サイトで再確認し、口コミの出典と件数を確認）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月16日（HOT PEPPER Beautyの口コミ10件の内訳と公式のピラティスの記載を追加。料金・返金規定・キャッシュバックは2026年10月27日に公式サイトで確認）</p>
 
         <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="Lastyleとは">
           <h2 className="font-bold text-gray-900 mb-3">Lastyle（ラスタイル）とは：要点のまとめ</h2>
@@ -312,7 +320,7 @@ export default function LastyleReview() {
                 <tr className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">16回のコース料金</td><td className="px-4 py-3 text-gray-700">192,000円</td><td className="px-4 py-3 text-gray-700">211,200円</td><td className="px-4 py-3 text-gray-500 text-xs">当サイト計算（1回単価×16回）</td></tr>
                 <tr className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">入会金</td><td className="px-4 py-3 text-gray-700">25,000円</td><td className="px-4 py-3 text-gray-700">27,500円</td><td className="px-4 py-3 text-gray-500 text-xs">キャンペーン価格（通常50,000円・税込55,000円）</td></tr>
                 <tr className="border-b border-gray-100 bg-teal-50"><td className="px-4 py-3 font-bold text-gray-800">入会金込みの総額</td><td className="px-4 py-3 font-bold text-gray-800">217,000円</td><td className="px-4 py-3 font-bold text-gray-800">238,700円</td><td className="px-4 py-3 text-gray-500 text-xs">当サイト計算</td></tr>
-                <tr className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">8回コース</td><td className="px-4 py-3 text-gray-700" colSpan={2}>公式に記載なし</td><td className="px-4 py-3 text-gray-500 text-xs">キャッシュバックの説明に8回コースの記載あり</td></tr>
+                <tr className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">8回コース</td><td className="px-4 py-3 text-gray-700" colSpan={2}>公式に記載なし</td><td className="px-4 py-3 text-gray-500 text-xs">キャッシュバックの説明に8回コースの記載あり。ジム検索サイトZeroBodyには8回105,600円（税込）と掲載されています（1回13,200円×8回と一致・{CHECKED2}確認）</td></tr>
               </tbody>
             </table>
           </div>
@@ -379,7 +387,7 @@ export default function LastyleReview() {
         <section className="mb-12">
           <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lastyleの口コミ・評判（出典別の件数）</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            当サイトでは{CHECKED}に、パーソナルジム検索サイトGetfitの池袋東口本店ページに掲載されている口コミを確認し、件数の内訳と、複数の投稿に共通するテーマを整理しました。個別の投稿文は転載していません。
+            当サイトでは、パーソナルジム検索サイトGetfit（{CHECKED}確認・{CHECKED2}再確認）とHOT PEPPER Beauty（{CHECKED2}確認）の池袋東口本店ページに掲載されている口コミを確認し、件数の内訳と、複数の投稿に共通するテーマを整理しました。個別の投稿文は転載していません。
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
@@ -393,6 +401,8 @@ export default function LastyleReview() {
               </thead>
               <tbody>
                 <tr className="border-b border-gray-100"><td className="px-4 py-3 text-gray-800"><Src href={SRC.getfit}>Getfit 池袋東口本店</Src></td><td className="px-4 py-3 text-gray-700">21件</td><td className="px-4 py-3 text-gray-700">4.6</td><td className="px-4 py-3 text-gray-700 text-xs">Getfit利用者の投稿15件（項目別評価あり）／ジム提供の口コミ6件</td></tr>
+                <tr className="border-b border-gray-100"><td className="px-4 py-3 text-gray-800"><Src href={SRC.hpb}>HOT PEPPER Beauty 池袋東口本店</Src></td><td className="px-4 py-3 text-gray-700">10件</td><td className="px-4 py-3 text-gray-700">4.7<span className="block text-xs text-gray-500">（当サイトの単純平均）</span></td><td className="px-4 py-3 text-gray-700 text-xs">★5が7件・★4が3件・★3以下0件。投稿は2024年11月〜2026年10月、全員が女性。項目別では「メニュー・料金」を3点とした投稿が3件あり、他の項目より低めです。サイト上の表示は5.00（直近1年間・10件以下の平均）</td></tr>
+                <tr className="border-b border-gray-100"><td className="px-4 py-3 text-gray-800"><Src href={SRC.zerobody}>ZeroBody 池袋東口本店</Src></td><td className="px-4 py-3 text-gray-700">91件</td><td className="px-4 py-3 text-gray-700">表示なし</td><td className="px-4 py-3 text-gray-700 text-xs">各口コミにGoogleマップまたはHOT PEPPER Beautyへのリンクがあり、外部の口コミを集めて掲載したものです。上記と重複するため、合計件数には含めていません</td></tr>
                 <tr className="border-b border-gray-100"><td className="px-4 py-3 text-gray-800">みん評</td><td className="px-4 py-3 text-gray-700" colSpan={3}>当サイトからページを閲覧できなかったため、件数・点数は掲載していません</td></tr>
               </tbody>
             </table>
