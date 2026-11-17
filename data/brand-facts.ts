@@ -70,7 +70,7 @@ export const BRAND_FACTS: Record<string, BrandFacts> = {
       { label: "正式名称", value: "女性専用パーソナルジム FURDI（ファディー）", src: "https://furdi.jp/" },
       { label: "運営会社", value: "株式会社FURDI（東京都千代田区）", src: "https://furdi.jp/company" },
       { label: "入会金", value: "なし。事務手数料5,500円（カード発行手数料3,300円の記載はトップページのみ）", src: "https://furdi.jp/about" },
-      { label: "月会費（税込）", value: "プレミアム（年間契約）7,678円・スタンダード（月契約）8,778円・U-18 5,428円（親権者が同じ店舗の会員の場合のみ）", src: "https://furdi.jp/about" },
+      { label: "月会費（税込）", value: "公式の料金ページはプレミアム（年間契約）7,678円・スタンダード（月契約）8,778円・U-18 5,428円（親権者が同じ店舗の会員の場合のみ）。ただし店舗により異なり、46店舗の店舗ページでは36店舗が8,778円・9,878円、9店舗が7,678円・8,778円、京都北山店が9,878円・10,978円（2026年11月17日確認）", src: "https://furdi.jp/studio_list" },
       { label: "解約", value: "希望月の前月末までに店舗で手続き。入会後3ヶ月は在籍が必要。プレミアム会員が1年以内に退会すると、スタンダードとの差額を契約解除料として支払う", src: "https://furdi.jp/faq" },
       { label: "休会", value: "月1,100円（税込）・最長6ヶ月。休会明けの復会料なし", src: "https://furdi.jp/faq" },
       { label: "店舗", value: "公式店舗一覧に46店舗（22都道府県）。利用できるのは登録店舗のみ", src: "https://furdi.jp/studio_list" },

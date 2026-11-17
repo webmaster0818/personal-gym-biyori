@@ -9,9 +9,9 @@ import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "Nexusジム（ネクサス）の口コミ・評判｜東日本・西日本の料金表と入会金を検証",
+  title: "Nexusジム（ネクサス）の口コミ・評判｜料金・入会金と60日のボディメイク保証を公式で確認",
   description:
-    "Nexusジム（NEXUSパーソナルジム）の口コミ・評判を、Googleマップの集計とマイベストの検証結果で整理しました。公式料金表の東日本・西日本の入会金の違い、30分4,500円からのコース別料金、2ヶ月の総額試算、公式店舗一覧68店舗の内訳をまとめています。",
+    "Nexusジム（NEXUSパーソナルジム）の口コミ・評判を、Googleマップの集計とマイベストの検証結果で整理しました。東日本・西日本の入会金の違い、30分4,500円からの料金、60日後のボディメイク保証制度、公式店舗一覧68店舗と検索上位記事の記載の違いをまとめています。",
 };
 
 /*
@@ -21,8 +21,14 @@ export const metadata: Metadata = {
  * 「月4回・月8回・月12回の各プラン」→ライト・ベーシック・プレミアム・セミパーソナルの4コース、
  * 「食事アドバイスがプランに含まれる」→AI食事指導は月3,000円（一部コースで2ヶ月無料）。
  * 出典のない記述（業界最安級・違約金なし・前月までの退会申告・口コミの観点別要約）は削除した。
+ *
+ * 2026-11-17 追記（12:00成長ルーチン）: 公式料金表・店舗一覧（68店舗・内訳同じ）・特商法表記を再確認（変更なし）。
+ * 公式トップの「ボディメイク保証制度」（画像 img/service_guarantee02.jpg の文言）を追加。
+ * マイベストの評価が 3.88・26位 → 3.85・24位（料金4.12・施設4.60）に変わっていたため更新。
+ * 検索上位記事（The Choice・FIT RIKE・tomikikaku・マイベスト）の店舗数・料金・口コミ出典の記載を比較表に。
  */
 const CHECKED = "2026年10月28日";
+const CHECKED2 = "2026年11月17日";
 
 const SRC = {
   top: "https://nexus-gym.com/",
@@ -31,6 +37,9 @@ const SRC = {
   legal: "https://nexus-gym.com/legal-notice.html",
   company: "https://nexus-gym.com/company.html",
   mybest: "https://my-best.com/products/3818896",
+  choice: "https://oceans.tokyo.jp/choice/?p=34784",
+  fitrike: "https://rubadubstyle.co.jp/fitrike/personalgym/nexus/",
+  tomikikaku: "http://tomikikaku.jp/nexus-gym-review/",
 };
 
 function Src({ href, children }: { href: string; children: React.ReactNode }) {
@@ -47,7 +56,8 @@ const summary = [
   { label: "入会金", value: "東日本55,000円・西日本33,000円（税込）です。無料体験の当日に入会すると、東日本は15,000円、西日本は10,000円（ライトコースは15,000円）になります。" },
   { label: "契約条件", value: "各コースとも原則2ヶ月の継続が必要です。料金表の支払い方法はクレジットカードのみで、翌月分は前月20日に決済されます。" },
   { label: "店舗", value: "公式の店舗一覧に掲載されているのは68店舗です。東京都37店舗・神奈川県17店舗・大阪府7店舗のほか、愛知県・福岡県・埼玉県・群馬県・栃木県にあります。料金表には「全国50店舗相互利用可能」と記載されています。" },
-  { label: "口コミ", value: "当サイトがGoogleマップで確認できた4店舗の口コミは計210件、店舗評価の平均は4.97でした。マイベストの検証（2026年3月更新）では39サービス中26位で、予約・キャンセルのしやすさが5.00、トレーナーの専門性が3.00でした。" },
+  { label: "口コミ", value: "当サイトがGoogleマップで確認できた4店舗の口コミは計210件、店舗評価の平均は4.97でした。マイベストの検証では検証スコア3.85・39サービス中24位で、予約・キャンセルのしやすさが5.00、トレーナーの専門性が3.00でした（2026年11月17日確認）。" },
+  { label: "保証制度", value: "公式サイトに「ボディメイク保証制度」があり、トレーニング開始から60日後に体重・体脂肪率の変化が著しく見られない場合、4回目の支払いの50%をNEXUSが負担すると記載されています。「著しく」の基準は公式サイトでは確認できませんでした。" },
 ];
 
 const basicInfo = [
@@ -79,6 +89,10 @@ const merits = [
   {
     title: "時間と回数を選べる",
     desc: "30分・60分・90分のコースと、月4回〜12回の回数から選べます。60分のベーシックコースは回数が多いほど1回あたりの料金が下がり、月12回で1回7,900円です。",
+  },
+  {
+    title: "60日後のボディメイク保証制度がある",
+    desc: "公式サイトによると、トレーニング開始から60日後に体重・体脂肪率の変化が著しく見られない場合、4回目の支払いの50%をNEXUSが負担します（2026年11月17日確認）。対象となる変化の基準は記載がないため、契約時にご確認ください。",
   },
   {
     title: "店舗の相互利用ができる",
@@ -126,8 +140,17 @@ const costRows = [
 
 const sourceRows = [
   { source: "Googleマップ（当サイト集計）", count: "4店舗・計210件", score: "店舗評価の平均4.97（件数加重4.95）", note: "2026年8月29日〜9月8日取得。福岡平尾店・名古屋今池店が各100件程度で、他の2店舗は5件以下です。公式店舗一覧68店舗のうち、当サイトのデータベースで確認できた4店舗の集計です" },
-  { source: "マイベスト（N-group NEXUS 検証レビュー）", count: "—", score: "3.88（39サービス中26位）", note: "2026年3月17日更新。料金の安さ4.13、トレーナーの専門性の高さ3.00、食事指導の充実度4.48、施設や備品の充実度4.90、予約・キャンセルのしやすさ5.00。公式サイトにトレーナーの保有資格の記載がない点を指摘しています" },
-  { source: "公式サイトの表記", count: "—", score: "—", note: "トップページの画像に「平均評価4.9」「総口コミ3500件以上」「継続率93.5%」と記載されています。運営会社による表記であり、集計方法は当サイトでは確認できませんでした" },
+  { source: "マイベスト（N-group NEXUS 検証レビュー）", count: "—", score: "3.85（39サービス中24位）", note: "2026年11月17日確認（ページ表示は2026年3月17日更新・料金は2026年10月23日時点）。料金の安さ4.12、トレーナーの専門性の高さ3.00、食事指導の充実度4.48、施設や備品の充実度4.60、予約・キャンセルのしやすさ5.00。10月28日の確認時（3.88・26位、施設4.90）から変わっています。検証した店舗の公式サイトにトレーナーの保有資格の記載がない点を指摘しています。利用者の口コミ件数の表示はありません" },
+  { source: "みん評", count: "—", score: "—", note: "当サイトからページを閲覧できなかったため（アクセス拒否・2026年11月17日確認）、件数・点数は掲載していません" },
+  { source: "公式サイトの表記", count: "—", score: "—", note: "トップページの画像に「平均評価4.9」「総口コミ3500件以上」「継続率93.5%」「これまで5800人の改善実績」と記載され、注記として「2026年2月現在」「2025年平均数値」「2026年3月15日時点」が並んでいます（2026年11月17日確認）。どの数値がどの時点かの対応と集計方法は、当サイトでは確認できませんでした。運営会社による表記です" },
+];
+
+// 2026-11-17: 検索上位の記事が掲載している内容（各ページを2026年11月17日に確認）
+const serpRows = [
+  { site: "The Choice", href: SRC.choice, date: "2026年9月16日公開", store: "41店舗（2024年2月現在と記載）", price: "3,500円/回〜・入会金33,000円", reviews: "Googleの口コミ9件を引用" },
+  { site: "FIT RIKE", href: SRC.fitrike, date: "2024年4月7日公開", store: "41店舗", price: "30分4,000円/回〜・入会金30,000円", reviews: "Googleマップの口コミ10件を引用・独自アンケート197名（NEXUS利用者かは記載なし）" },
+  { site: "tomikikaku", href: SRC.tomikikaku, date: "記載なし", store: "記載なし", price: "1回3,500円〜", reviews: "Googleマップの口コミ29件を引用" },
+  { site: "マイベスト", href: SRC.mybest, date: "料金は2026年10月23日時点", store: "65店舗", price: "月額18,000円〜・入会金55,000円／33,000円", reviews: "口コミの件数表示なし（編集部の検証スコア）" },
 ];
 
 const faqItems = [
@@ -141,6 +164,8 @@ const faqItems = [
   { q: "食事指導は受けられますか？", a: "AI食事指導（月3,000円・税込）があり、写真やテキストで入力した食事のカロリー・PFCバランスをAIが管理します。東日本のベーシック・プレミアム・セミパーソナルコースは2ヶ月無料と記載されています。" },
   { q: "他の店舗も利用できますか？", a: "公式料金表に「全国50店舗相互利用可能」と記載されています。" },
   { q: "持ち物は何が必要ですか？", a: "ウェア・水・タオル・バスタオル・プロテインは無料で提供されるため、手ぶらで通えます。" },
+  { q: "ボディメイク保証制度とは何ですか？", a: "公式サイトに、トレーニング開始から60日後に体重・体脂肪率の変化が著しく見られない場合、4回目の支払いの50%をNEXUSが負担すると記載されています（2026年11月17日確認）。「著しく」の基準や申請方法は公式サイトに記載がないため、契約時にご確認ください。一部の比較記事には「30日目」などと異なる条件が記載されています。" },
+  { q: "比較記事の料金や店舗数が公式サイトと違うのはなぜですか？", a: "記事の作成時期が古いためと考えられます。たとえば、店舗数を「41店舗（2024年2月現在）」、料金を「3,500円/回〜」と記載している記事がありますが、2026年11月17日時点の公式店舗一覧は68店舗、公式料金表の最安は30分1回4,500円（ライトコース月4回）です。" },
 ];
 
 const faqJsonLd = {
@@ -178,7 +203,7 @@ export default function NexusReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Nexusジム（ネクサス）の口コミ・評判｜東日本・西日本の料金表と入会金を検証",
+        "headline": "Nexusジム（ネクサス）の口コミ・評判｜料金・入会金と60日のボディメイク保証を公式で確認",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -189,15 +214,15 @@ export default function NexusReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-28"
+        "dateModified": "2026-11-17"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Nexusジム" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          Nexusジム（ネクサス）の口コミ・評判｜東日本・西日本の料金表と入会金を検証
+          Nexusジム（ネクサス）の口コミ・評判｜料金・入会金と60日のボディメイク保証を公式で確認
         </h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月28日（公式料金表・店舗一覧・特定商取引法の表記を再確認し、口コミの出典と件数を整理）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月17日（公式料金表・店舗一覧を再確認し、ボディメイク保証制度・マイベストの最新評価・検索上位記事との記載の違いを追加）</p>
 
         <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="Nexusジムとは">
           <h2 className="font-bold text-gray-900 mb-3">Nexusジム（NEXUSパーソナルジム）とは：要点のまとめ</h2>
@@ -210,7 +235,7 @@ export default function NexusReview() {
             ))}
           </dl>
           <p className="text-xs text-gray-500 mt-3">
-            出典: <Src href={SRC.top}>公式サイト</Src>（<Src href={SRC.price}>料金表</Src>・<Src href={SRC.shops}>店舗一覧</Src>）・<Src href={SRC.legal}>特定商取引法に基づく表記</Src>・<Src href={SRC.company}>会社概要</Src>（いずれも{CHECKED}確認）・<Src href={SRC.mybest}>マイベスト</Src>。Googleマップの数値は当サイトの集計（2026年8月29日〜9月8日取得）です。料金・条件は変更される場合があります。
+            出典: <Src href={SRC.top}>公式サイト</Src>（<Src href={SRC.price}>料金表</Src>・<Src href={SRC.shops}>店舗一覧</Src>）・<Src href={SRC.legal}>特定商取引法に基づく表記</Src>・<Src href={SRC.company}>会社概要</Src>（{CHECKED}確認・料金表と店舗一覧は{CHECKED2}に再確認）・<Src href={SRC.mybest}>マイベスト</Src>（{CHECKED2}確認）。Googleマップの数値は当サイトの集計（2026年8月29日〜9月8日取得）です。料金・条件は変更される場合があります。
           </p>
           <p className="text-xs text-gray-500 mt-2">※「Nexus 口コミ」で検索すると、学習塾「個別指導NEXUS」など別事業者の口コミが表示されます。当ページは株式会社N-groupが運営するパーソナルジムについての記事です。</p>
         </section>
@@ -437,6 +462,43 @@ export default function NexusReview() {
           <p className="text-xs text-gray-500 mt-3">
             ※Googleマップの評価は店舗単位の数値で、件数の少ない店舗も含みます。通う予定の店舗の口コミを個別にご確認ください。<a href="https://www.google.com/maps/search/NEXUS%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline">GoogleマップでNEXUSパーソナルジムの口コミを見る</a>
           </p>
+
+          <h3 className="text-lg font-bold mt-8 mb-3">検索上位の記事との記載の違い</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            「Nexusジム 口コミ」「Nexusジム 評判」で上位に表示される記事の多くは、Googleマップの口コミを数件から数十件引用する形式で、全体の件数や平均点は掲載していません。また、店舗数や料金が現在の公式サイトと異なる記事があります（{CHECKED2}確認）。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-gray-100 text-gray-800">
+                  <th className="px-3 py-2 text-left font-medium">記事</th>
+                  <th className="px-3 py-2 text-left font-medium">日付</th>
+                  <th className="px-3 py-2 text-left font-medium">店舗数</th>
+                  <th className="px-3 py-2 text-left font-medium">料金</th>
+                  <th className="px-3 py-2 text-left font-medium">口コミの出典</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100 align-top bg-teal-50">
+                  <td className="px-3 py-2 font-medium text-gray-800 whitespace-nowrap"><Src href={SRC.shops}>公式サイト</Src></td>
+                  <td className="px-3 py-2 text-gray-700">{CHECKED2}確認</td>
+                  <td className="px-3 py-2 text-gray-700">68店舗</td>
+                  <td className="px-3 py-2 text-gray-700">30分4,500円/回〜（月4回18,000円）・入会金55,000円／33,000円</td>
+                  <td className="px-3 py-2 text-gray-600 text-xs">—</td>
+                </tr>
+                {serpRows.map((r) => (
+                  <tr key={r.site} className="border-b border-gray-100 align-top">
+                    <td className="px-3 py-2 text-gray-800 whitespace-nowrap"><Src href={r.href}>{r.site}</Src></td>
+                    <td className="px-3 py-2 text-gray-700">{r.date}</td>
+                    <td className="px-3 py-2 text-gray-700">{r.store}</td>
+                    <td className="px-3 py-2 text-gray-700">{r.price}</td>
+                    <td className="px-3 py-2 text-gray-600 text-xs">{r.reviews}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500">※ 各記事の記載内容をそのまま掲載しています。料金・店舗数は<Src href={SRC.price}>公式料金表</Src>と<Src href={SRC.shops}>公式店舗一覧</Src>でご確認ください。</p>
         </section>
 
         {/* ---------- 他のジムと比較 ---------- */}
@@ -458,7 +520,7 @@ export default function NexusReview() {
                 <tr className="border-b border-gray-100">
                   <td className="px-3 py-2 font-medium text-gray-800">料金体系</td>
                   <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">月18,000円〜（マンツーマン30分×月4回）</td>
-                  <td className="px-3 py-2 text-center text-gray-700">月額7,678円〜</td>
+                  <td className="px-3 py-2 text-center text-gray-700">月額7,678円〜（店舗により異なる）</td>
                   <td className="px-3 py-2 text-center text-gray-700">月額制</td>
                   <td className="px-3 py-2 text-center text-gray-700">月額9,900円〜</td>
                 </tr>

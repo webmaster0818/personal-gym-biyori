@@ -9,9 +9,9 @@ import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "ファディー（FURDI）の口コミ・評判｜料金・解約金・全46店舗を公式情報で検証",
+  title: "ファディー（FURDI）の口コミ・評判｜月7,678円は46店舗中9店舗・店舗別の料金と解約金を検証",
   description:
-    "ファディー（FURDI）の口コミ・評判を、Googleマップ9店舗906件の集計と公式の会員規約で検証しました。月7,678円のプレミアム会員を途中解約した場合の総額、最低3ヶ月の在籍条件、休会・他店舗利用の可否、公式店舗一覧46店舗の都道府県別内訳をまとめています。",
+    "ファディー（FURDI）の口コミ・評判を、Googleマップ9店舗906件・FIT Search 21件の内訳と公式情報で検証しました。公式46店舗の店舗ページを確認すると、月7,678円は9店舗で、36店舗は月8,778円〜です。途中解約の総額と在籍条件もまとめています。",
 };
 
 /*
@@ -21,8 +21,14 @@ export const metadata: Metadata = {
  * 「200種類以上」→200種類、「1回15〜30分」→1回30分のプログラム。
  * 出典のない記述（混雑時間帯・推奨頻度・食事指導は別途オプション・口コミの観点別要約）は削除した。
  * 口コミは当サイトのGoogleマップ集計（data/brand-gmap-stats.ts）の数値のみを掲載し、本文は転載しない。
+ *
+ * 2026-11-17 追記（12:00成長ルーチン）: 公式46店舗の店舗ページ（/studio/{slug}/）のFAQ欄の月会費を全件確認。
+ * プレミアム8,778円・スタンダード9,878円が36店舗、7,678円・8,778円が9店舗、9,878円・10,978円が1店舗（京都北山）。
+ * 「月7,678円」は /about・/faq の表記で、全店舗共通ではない。プライベート会員（ファディーPlus+）月14,960円（年間契約）は24店舗のページに掲載。
+ * FIT Search の口コミ21件（2021年9月〜2023年9月）の内訳、みん評は11/17も403、検索上位記事の掲載値の比較を追加。
  */
 const CHECKED = "2026年10月28日";
+const CHECKED2 = "2026年11月17日";
 
 const SRC = {
   top: "https://furdi.jp/",
@@ -30,6 +36,13 @@ const SRC = {
   faq: "https://furdi.jp/faq",
   studios: "https://furdi.jp/studio_list",
   aomori: "https://furdi.jp/studio/aomori/",
+  koiwa: "https://furdi.jp/studio/koiwa/",
+  hitachinaka: "https://furdi.jp/studio/hitachinaka/",
+  kyotokitayama: "https://furdi.jp/studio/kyotokitayama/",
+  fitsearch: "https://fitsearch.jp/group/FURDI/recommends",
+  kurashikaru: "https://kurashikaru.co.jp/prgym/furdi/",
+  wellulu: "https://wellulu.com/moderate-exercise/73513/",
+  komachi: "https://gym-komachi.jp/personal-gym/furdi/",
   terms: "https://furdi.jp/wp/wp-content/uploads/2025/12/membership-terms_8.0.pdf",
   company: "https://furdi.jp/company",
 };
@@ -44,10 +57,10 @@ function Src({ href, children }: { href: string; children: React.ReactNode }) {
 
 const summary = [
   { label: "どんなジムか", value: "AIマシンを使う女性専用のサーキット型ジムです。1回30分のプログラムで、マンツーマンのパーソナルトレーニングではありません。入会資格は15歳以上の女性で、18歳未満はU-18会員（保護者が同じ店舗の会員の場合）に限られます。" },
-  { label: "料金", value: "プレミアム会員（1年契約前提）月7,678円、スタンダード会員（月契約）月8,778円です（税込）。入会金はなく、入会時に事務手数料5,500円とカード発行手数料3,300円がかかります。" },
+  { label: "料金", value: "店舗によって異なります。公式46店舗の店舗ページを当サイトで確認したところ、36店舗がプレミアム会員（1年契約前提）月8,778円・スタンダード会員（月契約）月9,878円、9店舗が月7,678円・月8,778円、京都北山店が月9,878円・月10,978円でした（税込・2026年11月17日確認）。入会金はなく、入会時に事務手数料5,500円とカード発行手数料3,300円がかかります。" },
   { label: "解約・休会", value: "退会は希望月の前月末日までに店舗で手続きします。入会後3ヶ月は在籍が必要です。プレミアム会員が1年未満で退会すると、スタンダード会員との差額（月1,100円×在籍月数）が契約解除料になります。休会は月1,100円で最長6ヶ月です。" },
   { label: "店舗", value: "公式の店舗一覧に掲載されているのは46店舗（22都道府県）です。最も多いのは東京都の7店舗、次いで茨城県の6店舗です。会員が利用できるのは登録した店舗のみで、他店舗は利用できません。" },
-  { label: "口コミ", value: "当サイトがGoogleマップで集計した9店舗の口コミは計906件、店舗評価の平均は4.86で、全店舗が4.5以上でした。口コミサイト「みん評」は当サイトから閲覧できなかったため、件数・点数は掲載していません。" },
+  { label: "口コミ", value: "当サイトがGoogleマップで集計した9店舗の口コミは計906件、店舗評価の平均は4.86で、全店舗が4.5以上でした。フィットネス口コミサイト「FIT Search」の口コミは21件（2021年9月〜2023年9月）で、総合評価の単純平均は4.50です（当サイト計算）。「みん評」は当サイトから閲覧できなかったため、件数・点数は掲載していません。" },
   { label: "向いている方", value: "1回30分の運動を予約なしで習慣にしたい女性に向いています。トレーナーの付きっきりの指導や、複数店舗の利用を希望する方には向いていません。" },
 ];
 
@@ -55,7 +68,7 @@ const basicInfo = [
   { label: "ジム名", value: "FURDI（ファディー）" },
   { label: "運営会社", value: "株式会社FURDI（東京都千代田区）。店舗は運営会社またはパートナー（加盟店）が運営" },
   { label: "タイプ", value: "AIマシンを使う女性専用のサーキット型フィットネス（1回30分のプログラム）" },
-  { label: "料金", value: "プレミアム会員 月7,678円／スタンダード会員 月8,778円／U-18会員 月5,428円（税込）" },
+  { label: "料金", value: "プレミアム会員 月7,678円〜9,878円／スタンダード会員 月8,778円〜10,978円（店舗により異なり、46店舗中36店舗は月8,778円・月9,878円）／U-18会員 月5,428円（税込）" },
   { label: "店舗", value: "公式店舗一覧に46店舗（22都道府県）。利用できるのは登録店舗のみ" },
   { label: "営業時間", value: "店舗により異なります（例: 青森浜田店は5:00〜23:00、日曜・祝日は無人営業）" },
   { label: "入会資格", value: "15歳以上の女性（18歳未満はU-18会員のみ）。入会は店舗での手続きに限られ、電話・Webでは受け付けていません" },
@@ -67,8 +80,8 @@ const strengths = [
     desc: "公式サイトによると、AIマシンの内蔵カメラが動きを「角度・速度・タイミング」から分析し、リアルタイムに助言します。トレーニングはストレッチからダイエットまで200種類が用意されています。",
   },
   {
-    title: "月7,678円から通い放題",
-    desc: "プレミアム会員は月7,678円、スタンダード会員は月8,778円（税込）の定額です。たとえば週2回（月8回程度）通う場合、プレミアム会員の1回あたりの費用は約960円です（当サイト計算）。",
+    title: "月1万円以下から通い放題",
+    desc: "プレミアム会員は月7,678円〜9,878円（税込）の定額で、46店舗中36店舗は月8,778円です。たとえば週2回（月8回程度）通う場合、月8,778円の店舗では1回あたり約1,097円、月7,678円の店舗では約960円です（当サイト計算）。",
   },
   {
     title: "予約不要で1回30分",
@@ -112,23 +125,33 @@ const demerits = [
 
 // 2026-10-28: 公式（/about の料金画像の代替テキスト・/faq・会員規約）で再確認
 const pricingPlans = [
-  { name: "プレミアム会員", duration: "1年契約前提・通い放題", price: "月7,678円", note: "税込（税抜6,980円）。1年未満の退会は差額を契約解除料として支払い" },
-  { name: "スタンダード会員", duration: "月契約・通い放題", price: "月8,778円", note: "税込（税抜7,980円）。契約解除料なし" },
+  { name: "プレミアム会員", duration: "1年契約前提・通い放題", price: "月7,678円／8,778円／9,878円", note: "税込。店舗により異なります（下表）。1年未満の退会は差額を契約解除料として支払い" },
+  { name: "スタンダード会員", duration: "月契約・通い放題", price: "月8,778円／9,878円／10,978円", note: "税込。店舗により異なります（下表）。契約解除料なし" },
+  { name: "プライベート会員（ファディーPlus+）", duration: "年間契約", price: "月14,960円", note: "税込（税抜13,600円）。24店舗の店舗ページに掲載。遺伝子検査の結果に基づく個別メニュー、月2回までのマンツーマンサポート予約など。1店舗あたりの人数限定" },
   { name: "U-18会員", duration: "月契約", price: "月5,428円", note: "税込。親権者が同じ店舗の会員の場合のみ" },
   { name: "入会時の費用", duration: "—", price: "事務手数料5,500円＋カード発行手数料3,300円", note: "入会金なし" },
   { name: "休会", duration: "最長6ヶ月", price: "月1,100円", note: "税込。休会明けの復会料なし" },
 ];
 
 // 当サイト計算: 入会時費用8,800円＋月会費（日割り月・キャンペーン月を除く）
+// 2026-11-17: 36店舗の料金（8,778円/9,878円）の列を追加
 const costRows = [
-  { months: "3ヶ月（最短）", standard: "35,134円", premium: "35,134円", note: "プレミアムは契約解除料3,300円を含む" },
-  { months: "6ヶ月", standard: "61,468円", premium: "61,468円", note: "プレミアムは契約解除料6,600円を含む" },
-  { months: "12ヶ月", standard: "114,136円", premium: "100,936円", note: "1年継続でプレミアムが13,200円安くなります" },
+  { months: "3ヶ月（最短）", standard36: "38,434円", premium36: "38,434円", standard: "35,134円", premium: "35,134円", note: "プレミアムは契約解除料3,300円を含む" },
+  { months: "6ヶ月", standard36: "68,068円", premium36: "68,068円", standard: "61,468円", premium: "61,468円", note: "プレミアムは契約解除料6,600円を含む" },
+  { months: "12ヶ月", standard36: "127,336円", premium36: "114,136円", standard: "114,136円", premium: "100,936円", note: "1年継続でプレミアムが13,200円安くなります" },
+];
+
+// 2026-11-17: 公式46店舗の店舗ページ（FAQ欄「プレミアム会員とスタンダード会員の違いはなんですか？」）の月会費
+const storePriceRows = [
+  { premium: "8,778円", standard: "9,878円", n: 36, stores: "青森浜田・MEGAドン・キホーテ旭川・千歳烏山・コープ府中寿町・小岩・葛西・西友大森・梅屋敷・西友ひばりヶ丘・北浦和・武蔵浦和駅前・MEGAドン・キホーテ三郷・武蔵小杉医大通り・湘南台・名古屋本郷・甲南山手駅前 など", src: SRC.koiwa },
+  { premium: "7,678円", standard: "8,778円", n: 9, stores: "ひたちなか・水戸赤塚・水戸千波・郡山鶴見坦・八山田・出雲下古志・西宮門戸厄神駅前・南海堺駅・岡山野田", src: SRC.hitachinaka },
+  { premium: "9,878円", standard: "10,978円", n: 1, stores: "京都北山", src: SRC.kyotokitayama },
 ];
 
 const sourceRows = [
   { source: "Googleマップ（当サイト集計）", count: "9店舗・計906件", score: "店舗評価の平均4.86（件数加重4.84）", note: "2026年8月29日〜9月8日取得。4.5未満の店舗はありませんでした。公式店舗一覧46店舗のうち、当サイトのデータベースで確認できた9店舗の集計です" },
-  { source: "みん評", count: "—", score: "—", note: "当サイトからページを閲覧できなかったため（アクセス拒否）、件数・点数は掲載していません" },
+  { source: "FIT Search（フィットネス口コミサイト）", count: "21件", score: "総合評価の単純平均4.50（当サイト計算）", note: "2026年11月17日確認。投稿時期は2021年9月〜2023年9月で、2024年以降の投稿はありません。総合評価の内訳は5.00が12件・4.50が4件・4.30が2件・3.50が2件・1.00が1件です。1.00の1件は見学予約後に連絡がつかなかったという内容です。また1件に「面談の際にGoogleの口コミ投稿を求められた」との記述があります（投稿者の記述であり、当サイトでは事実関係を確認していません）。同サイトの掲載施設数は82件で、公式店舗一覧の46店舗と一致しません" },
+  { source: "みん評", count: "—", score: "—", note: "当サイトからページを閲覧できなかったため（アクセス拒否・2026年11月17日に再確認）、件数・点数は掲載していません" },
   { source: "公式サイト「VOICE」", count: "—", score: "—", note: "会員の体験談と減量の数値を掲載しています。運営会社が選んで掲載したものであり、第三者の口コミとは性質が異なります" },
 ];
 
@@ -138,6 +161,16 @@ const issueRows = [
   { issue: "やめにくいのではないですか", answer: "入会後3ヶ月は在籍が必要で、退会手続きは原則としてスタッフのいる時間に来店して行います。プレミアム会員は1年未満の退会で差額の支払いが必要です。ドクターストップ（診断書等の提出）の場合は契約解除料が免除されます。", src: SRC.terms },
   { issue: "引っ越したら別の店舗に通えますか", answer: "利用できるのは登録店舗のみです。会員規約には移籍の手続き（各月1日〜20日に店舗で申し込み）が定められています。", src: SRC.terms },
   { issue: "払った会費は返ってきますか", answer: "会員規約に「一度納入された会費は原則として返還しません」と記載されています。返金保証制度の記載はありません。", src: SRC.terms },
+  { issue: "体験のあとに勧誘されますか", answer: "公式の「料金と入会について」には、体験後に入会を希望する場合に手続きを行い、日を改めて入会手続きをすることも可能で、無理な勧誘はしないと記載されています（2026年11月17日確認）。入会はスタッフ対応時間に来店して書面で申し込む方式で、電話・Webでは受け付けていません。", src: SRC.about },
+  { issue: "料金が高いという口コミは本当ですか", answer: "料金は店舗によって異なります。公式46店舗の店舗ページを確認したところ、月7,678円（プレミアム会員）の店舗は9店舗で、36店舗は月8,778円、京都北山店は月9,878円でした（2026年11月17日確認）。口コミや比較記事の金額と比べる際は、通う店舗のページをご確認ください。", src: SRC.studios },
+];
+
+// 2026-11-17: 検索上位の記事が掲載している数値（各ページを2026年11月17日に確認）
+const serpRows = [
+  { site: "くらしかる", href: SRC.kurashikaru, reviews: "Googleマップの口コミ4,074件を集計（70店舗・2024年12月調査と記載）", store: "70店舗（2024年12月時点）", note: "★5が84.4%と記載。調査時点から約2年が経過しています" },
+  { site: "Wellulu", href: SRC.wellulu, reviews: "Googleマップの口コミ21件・みん評3件を引用", store: "約52店舗", note: "2026年9月23日更新。編集部の体験レポートあり。料金は記事内に複数の金額が記載されています" },
+  { site: "ジム小町", href: SRC.komachi, reviews: "Googleレビュー6件のほか、X・Instagramの投稿を引用", store: "全国25店舗〜", note: "入会金19,800円と記載されていますが、公式サイトには「入会金はございません」と記載されています" },
+  { site: "FIT Search", href: SRC.fitsearch, reviews: "利用者の投稿21件（2021年9月〜2023年9月）", store: "掲載施設82件", note: "閉店した店舗を含むかどうかは記載がありません" },
 ];
 
 const studioCounts = [
@@ -158,6 +191,10 @@ const faqItems = [
   { q: "何歳から入会できますか？", a: "会員規約上の入会資格は15歳以上の女性です。18歳未満の方は、保護者が同じ店舗の会員である場合にU-18会員として利用できます。" },
   { q: "ウェアやシューズは借りられますか？", a: "一部店舗を除き、貸し出しはありません。ウェア・室内シューズ・飲み物をご持参ください。" },
   { q: "見学や体験はできますか？", a: "無料体験があります。事前予約制で、所要時間は約60分です。会員以外の方の見学は、無料体験の予約後に可能です。" },
+  { q: "FURDIの月会費は店舗によって違いますか？", a: "違います。公式46店舗の店舗ページを確認したところ、プレミアム会員・スタンダード会員の月会費は、36店舗が8,778円・9,878円、9店舗が7,678円・8,778円、京都北山店が9,878円・10,978円でした（税込・2026年11月17日確認）。公式サイトにも「一部店舗によって料金が異なります。料金は各店舗ページでご確認ください」と記載されています。" },
+  { q: "プライベート会員（ファディーPlus+）とは何ですか？", a: "遺伝子検査の結果に基づく個別メニューでのトレーニング、食事・栄養の個別レポート、月2回までのマンツーマンサポート予約、LINEでのAIコーチへの相談がついたプランです。月額14,960円（税込・年間契約）で、1店舗あたりの人数が限られています。2026年11月17日時点で、46店舗中24店舗のページに掲載されています。" },
+  { q: "退会したあとに再入会できますか？", a: "公式FAQに、退会後に復会する場合は復会料5,500円（税込）で再び利用できると記載されています。休会の場合は、休会期間が終わったあとの復会料は不要です（2026年11月17日確認）。" },
+  { q: "どのような年齢の方が通っていますか？", a: "公式FAQに、店舗や時間帯により異なるものの、15歳から85歳までの会員が通っていると記載されています（2026年11月17日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -199,7 +236,7 @@ export default function FurdiReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "ファディー（FURDI）の口コミ・評判｜料金・解約金・全46店舗を公式情報で検証",
+        "headline": "ファディー（FURDI）の口コミ・評判｜月7,678円は46店舗中9店舗・店舗別の料金と解約金を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -210,15 +247,15 @@ export default function FurdiReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-28"
+        "dateModified": "2026-11-17"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "FURDI" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          ファディー（FURDI）の口コミ・評判｜料金・解約金・全46店舗を公式情報で検証
+          ファディー（FURDI）の口コミ・評判｜月7,678円は46店舗中9店舗・店舗別の料金と解約金を検証
         </h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月28日（料金・退会・休会・店舗数を公式サイトと会員規約で再確認し、口コミの出典と件数を整理）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月17日（公式46店舗の店舗別の月会費・プライベート会員・FIT Searchの口コミ21件の内訳・検索上位記事の掲載値を追加）</p>
 
         <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="ファディーとは">
           <h2 className="font-bold text-gray-900 mb-3">ファディー（FURDI）とは：要点のまとめ</h2>
@@ -231,7 +268,7 @@ export default function FurdiReview() {
             ))}
           </dl>
           <p className="text-xs text-gray-500 mt-3">
-            出典: <Src href={SRC.about}>公式 料金と入会について</Src>・<Src href={SRC.faq}>公式FAQ</Src>・<Src href={SRC.terms}>会員利用規約（PDF）</Src>・<Src href={SRC.studios}>公式店舗一覧</Src>（いずれも{CHECKED}確認）。Googleマップの数値は当サイトの集計（2026年8月29日〜9月8日取得）です。料金・条件は変更される場合があります。
+            出典: <Src href={SRC.about}>公式 料金と入会について</Src>・<Src href={SRC.faq}>公式FAQ</Src>・<Src href={SRC.terms}>会員利用規約（PDF）</Src>（{CHECKED}確認）、<Src href={SRC.studios}>公式店舗一覧</Src>と各店舗ページ・<Src href={SRC.fitsearch}>FIT Search</Src>（{CHECKED2}確認）。Googleマップの数値は当サイトの集計（2026年8月29日〜9月8日取得）です。料金・条件は変更される場合があります。
           </p>
         </section>
 
@@ -269,7 +306,7 @@ export default function FurdiReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          FURDI（ファディー）はAIマシンを使う<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>のサーキット型ジムです。月額<span className="font-bold bg-yellow-100 px-0.5">7,678円</span>〜（税込）で、店舗ページには<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>と記載されています。本記事では、公式サイトと会員規約で確認した料金・退会条件と、口コミの出典別の件数をご説明します。
+          FURDI（ファディー）はAIマシンを使う<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>のサーキット型ジムです。月額<span className="font-bold bg-yellow-100 px-0.5">7,678円</span>〜（税込・46店舗中36店舗は8,778円〜）で、店舗ページには<span className="font-bold bg-yellow-100 px-0.5">予約不要</span>・<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>と記載されています。本記事では、公式サイトと会員規約で確認した料金・退会条件と、口コミの出典別の件数をご説明します。
         </p>
 
         <section className="mb-12">
@@ -376,35 +413,67 @@ export default function FurdiReview() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">出典: <Src href={SRC.about}>公式 料金と入会について</Src>・<Src href={SRC.faq}>公式FAQ</Src>（{CHECKED}確認）。公式サイトには「一部店舗によって料金が異なります」と記載されています。</p>
+          <p className="text-xs text-gray-500 mt-3">出典: <Src href={SRC.about}>公式 料金と入会について</Src>・<Src href={SRC.faq}>公式FAQ</Src>（{CHECKED}確認）・各店舗ページ（{CHECKED2}確認）。公式サイトには「一部店舗によって料金が異なります。料金は各店舗ページでご確認ください」と記載されています。</p>
 
-          <h3 className="text-lg font-bold mt-8 mb-3">退会した時期別の支払総額（当サイト計算）</h3>
+          <h3 className="text-lg font-bold mt-8 mb-3">店舗別の月会費（公式46店舗の店舗ページを確認）</h3>
           <p className="text-sm text-gray-700 leading-relaxed mb-3">
-            「ファディー 解約金」で調べる方が多いため、入会時費用8,800円と月会費、プレミアム会員の契約解除料を合計した総額を試算しました。会員規約では、契約解除料は在籍期間中のスタンダード会員との差額と定められています。このため、1年未満で退会した場合の総額は、プレミアム会員とスタンダード会員で同じになります。
+            公式の「料金と入会について」とFAQでは、プレミアム会員を月7,678円、スタンダード会員を月8,778円と案内しています。当サイトで公式店舗一覧の46店舗すべての店舗ページを確認したところ、この金額の店舗は9店舗で、36店舗はそれぞれ1,100円高い金額でした（{CHECKED2}確認）。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-gray-100 text-gray-800">
-                  <th className="px-4 py-3 text-left font-medium">在籍期間</th>
-                  <th className="px-4 py-3 text-left font-medium">スタンダード会員</th>
-                  <th className="px-4 py-3 text-left font-medium">プレミアム会員</th>
-                  <th className="px-4 py-3 text-left font-medium">備考</th>
+                  <th className="px-3 py-2 text-left font-medium">プレミアム会員</th>
+                  <th className="px-3 py-2 text-left font-medium">スタンダード会員</th>
+                  <th className="px-3 py-2 text-left font-medium">店舗数</th>
+                  <th className="px-3 py-2 text-left font-medium">該当する店舗</th>
                 </tr>
               </thead>
               <tbody>
-                {costRows.map((r) => (
-                  <tr key={r.months} className="border-b border-gray-100">
-                    <td className="px-4 py-3 font-medium text-gray-800">{r.months}</td>
-                    <td className="px-4 py-3 text-gray-700">{r.standard}</td>
-                    <td className="px-4 py-3 text-gray-700">{r.premium}</td>
-                    <td className="px-4 py-3 text-gray-500 text-xs">{r.note}</td>
+                {storePriceRows.map((r) => (
+                  <tr key={r.premium} className="border-b border-gray-100 align-top">
+                    <td className="px-3 py-2 font-medium text-gray-800 whitespace-nowrap">月{r.premium}</td>
+                    <td className="px-3 py-2 text-gray-700 whitespace-nowrap">月{r.standard}</td>
+                    <td className="px-3 py-2 text-gray-700 whitespace-nowrap">{r.n}店舗</td>
+                    <td className="px-3 py-2 text-gray-600 text-xs">{r.stores}（<Src href={r.src}>店舗ページ例</Src>）</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 税込。日割りの入会月・入会キャンペーン月・休会月は計算に含めていません。キャンペーンの適用により実際の金額は変わります。出典: <Src href={SRC.terms}>会員利用規約 第6条・第11条</Src>（{CHECKED}確認）。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 税込。各店舗ページのFAQ欄「プレミアム会員とスタンダード会員の違いはなんですか？」に記載された金額を集計しました（当サイト調べ・{CHECKED2}確認）。キャンペーン期間中は割引される場合があります。料金は変更される場合があるため、通う店舗のページでご確認ください。</p>
+
+          <h3 className="text-lg font-bold mt-8 mb-3">退会した時期別の支払総額（当サイト計算）</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            「ファディー 解約金」で調べる方が多いため、入会時費用8,800円と月会費、プレミアム会員の契約解除料を合計した総額を試算しました。会員規約では、契約解除料は在籍期間中のスタンダード会員との差額と定められています。このため、1年未満で退会した場合の総額は、プレミアム会員とスタンダード会員で同じになります。どの店舗でも両会員の差額は月1,100円です。
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-gray-100 text-gray-800">
+                  <th className="px-3 py-2 text-left font-medium">在籍期間</th>
+                  <th className="px-3 py-2 text-left font-medium">36店舗：スタンダード（月9,878円）</th>
+                  <th className="px-3 py-2 text-left font-medium">36店舗：プレミアム（月8,778円）</th>
+                  <th className="px-3 py-2 text-left font-medium">9店舗：スタンダード（月8,778円）</th>
+                  <th className="px-3 py-2 text-left font-medium">9店舗：プレミアム（月7,678円）</th>
+                  <th className="px-3 py-2 text-left font-medium">備考</th>
+                </tr>
+              </thead>
+              <tbody>
+                {costRows.map((r) => (
+                  <tr key={r.months} className="border-b border-gray-100">
+                    <td className="px-3 py-2 font-medium text-gray-800">{r.months}</td>
+                    <td className="px-3 py-2 text-gray-700">{r.standard36}</td>
+                    <td className="px-3 py-2 text-gray-700">{r.premium36}</td>
+                    <td className="px-3 py-2 text-gray-700">{r.standard}</td>
+                    <td className="px-3 py-2 text-gray-700">{r.premium}</td>
+                    <td className="px-3 py-2 text-gray-500 text-xs">{r.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">※ 税込。日割りの入会月・入会キャンペーン月・休会月は計算に含めていません。京都北山店（月9,878円・10,978円）は、36店舗の列にそれぞれ月1,100円を加えた金額になります。キャンペーンの適用により実際の金額は変わります。出典: <Src href={SRC.terms}>会員利用規約 第6条・第11条</Src>（{CHECKED}確認）・各店舗ページ（{CHECKED2}確認）。</p>
         </section>
 
         {/* 中間CTA */}
@@ -447,11 +516,39 @@ export default function FurdiReview() {
           <p className="text-xs text-gray-500 mt-3">
             ※Googleマップの評価は店舗単位の数値です。店舗ごとに運営者（運営会社または加盟店）やスタッフの在店時間が異なるため、通う予定の店舗の口コミを個別にご確認ください。<a href="https://www.google.com/maps/search/FURDI+%E3%83%95%E3%82%A1%E3%83%87%E3%82%A3%E3%83%BC/" target="_blank" rel="noopener noreferrer" className="underline">Googleマップでファディーの口コミを見る</a>
           </p>
+
+          <h3 className="text-lg font-bold mt-8 mb-3">検索上位の記事が掲載している口コミ件数・店舗数</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            「ファディー 口コミ」「ファディー 評判」で上位に表示される記事について、口コミの出典と店舗数の記載を確認しました（{CHECKED2}確認）。店舗数は記事により25店舗から82件まで差があり、公式店舗一覧の46店舗と一致する記事はありませんでした。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-gray-100 text-gray-800">
+                  <th className="px-3 py-2 text-left font-medium">記事</th>
+                  <th className="px-3 py-2 text-left font-medium">口コミの出典・件数</th>
+                  <th className="px-3 py-2 text-left font-medium">店舗数の記載</th>
+                  <th className="px-3 py-2 text-left font-medium">備考</th>
+                </tr>
+              </thead>
+              <tbody>
+                {serpRows.map((r) => (
+                  <tr key={r.site} className="border-b border-gray-100 align-top">
+                    <td className="px-3 py-2 text-gray-800 whitespace-nowrap"><Src href={r.href}>{r.site}</Src></td>
+                    <td className="px-3 py-2 text-gray-700">{r.reviews}</td>
+                    <td className="px-3 py-2 text-gray-700 whitespace-nowrap">{r.store}</td>
+                    <td className="px-3 py-2 text-gray-600 text-xs">{r.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500">※ 各記事の記載内容をそのまま掲載しています。店舗数・料金は、<Src href={SRC.studios}>公式店舗一覧</Src>と各店舗ページでご確認ください。</p>
         </section>
 
         <section className="mb-12">
           <h2 id="s8" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミで多い疑問と公式情報の照合</h2>
-          <p className="text-sm text-gray-700 leading-relaxed mb-4">「ファディー 評判」で調べる方が確認したい点について、公式サイトと会員規約の記載をまとめています（{CHECKED}確認）。</p>
+          <p className="text-sm text-gray-700 leading-relaxed mb-4">「ファディー 評判」で調べる方が確認したい点について、公式サイトと会員規約の記載をまとめています（{CHECKED}確認・一部{CHECKED2}確認）。</p>
           <div className="space-y-4">
             {issueRows.map((r) => (
               <div key={r.issue} className="rounded-lg border border-gray-200 p-4">
