@@ -37,10 +37,20 @@ export type BrandPrice = {
   note?: string;
   /** lowest がどのコース種別の金額か（例: マンツーマン）。priceSummary の表記に括弧で付ける */
   lowestLabel?: string;
+  /**
+   * 料金を公式で確認した日（FEE_SURVEYED_AT より後に料金を再確認したブランドだけ記入。2026-11-17 追加）。
+   * 根拠は本ファイルの note・*_CHECKED_AT、または各 /review/<slug>/ の料金の確認日。根拠の無い日付は入れない。
+   * 画面の確認日は brandCheckedOn() で出す（未記入のブランドは FEE_SURVEYED_AT）。
+   */
+  checkedOn?: string;
 };
 
-/** 全ブランドの公式サイトを確認した日 */
+/** 全ブランドの公式サイトを確認した日（全件実査の日） */
 export const FEE_SURVEYED_AT = "2026年10月8日";
+
+/** 24/7ワークアウト・RIZAP の料金の確認日（下の WORKOUT247_PLANS・RIZAP_PLANS と BRAND_PRICES の checkedOn で共用するため先に定義） */
+export const WORKOUT247_CHECKED_AT = "2026年11月12日";
+export const RIZAP_CHECKED_AT = "2026年11月12日";
 
 export const BRAND_PRICES: BrandPrice[] = [
   // ---------- 月額制 ----------
@@ -99,6 +109,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "月額コース 月9,900円（税込）＋1回5,060円（税込）〜／回数券 8回64,240円・16回123,200円・24回179,520円・32回228,800円・40回272,800円（税込）",
     kind: "月額制", lowest: 9900, entry: "通常33,000円（税込）／キャンペーンで0円",
     officialUrl: "https://personal.rexer-group.com/", area: "赤坂・五反田（東京）、梅田中津・天六（大阪）、苦楽園・西宮（兵庫）の6店",
+    checkedOn: "2026年11月14日",
   },
   {
     slug: "fis-ladys", name: "fis.lady's",
@@ -118,13 +129,14 @@ export const BRAND_PRICES: BrandPrice[] = [
     kind: "月額制", lowest: 17600, entry: "全コース0円",
     officialUrl: "https://beyond-gym.com/price/", area: "全国（公式に「北海道の店舗は一部料金形態が異なります」の注記）",
     note: "マンスリーは、回数券またはライフプランニングコースの終了後に申し込む継続コースです（公式料金ページ・2026年10月26日確認）。",
+    checkedOn: "2026年10月26日",
   },
   {
     slug: "undeux-life", name: "UNDEUX SUPERBODY LIFE",
     price: "スタンダードプラン 月2〜8回 月額18,200円〜／コミットプラン 月6回 79,200円（全国一律）",
     kind: "月額制", lowest: 18200, entry: "公式の料金ページに記載なし（初回体験0円）",
     officialUrl: "https://www.diet-undeux.jp/price/", area: "全国40店舗以上",
-    note: "2026年10月時点の公式料金ページは SUPERBODY と LIFE を分けておらず、上記の2プランのみ掲載されています。",
+    note: `公式料金ページ（${FEE_SURVEYED_AT}確認）は SUPERBODY と LIFE を分けておらず、上記の2プランのみ掲載されています。`,
   },
   {
     slug: "undeux", name: "UNDEUX SUPERBODY",
@@ -169,6 +181,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     kind: "月額制", lowest: 18900, entry: "35,000円",
     officialUrl: "https://chicken-gym.jp/", area: "池袋・町田（東京都）・岡山（公式サイトの店舗一覧に掲載の3店舗）",
     note: "他サイトに掲載されている「月々6,800円〜」は分割払い時の月額で、公式の月額プランとは異なります。",
+    checkedOn: "2026年11月3日",
   },
   {
     slug: "247workout", name: "24/7ワークアウト",
@@ -176,6 +189,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     kind: "月額制", lowest: 33440, lowestLabel: "固定プラン 月4回", entry: "不要（一部店舗で異なる）",
     officialUrl: "https://247-sports.jp/workout/course/", area: "全国",
     note: "固定プランは曜日と時間を固定するプラン、フリープランは日時を選べるプランです（公式コース・料金ページ・2026年11月12日確認）。",
+    checkedOn: WORKOUT247_CHECKED_AT,
   },
   {
     slug: "vase", name: "VASE（ベイス）パーソナルジム",
@@ -183,6 +197,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     kind: "月額制", lowest: 32000, entry: "20,000円（税込）／体験当日入会で0円",
     officialUrl: "https://personal-gym-vase.com/", area: "藤沢・八王子・亀戸（公式の店舗一覧・2026年10月26日確認）",
     note: "月額制の最低契約期間は3ヶ月です。月額の有効期限は1ヶ月で、繰り越しはできません。",
+    checkedOn: "2026年10月26日",
   },
   {
     slug: "katagiri", name: "かたぎり塾",
@@ -278,6 +293,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     kind: "コース制", lowest: 211200, entry: "通常50,000円（税抜）／キャンペーンで25,000円（税抜・税込27,500円）",
     officialUrl: "https://www.last-style.com/ikebukuro/", area: "池袋東口（東京）・新宿代々木店ページあり",
     note: "料金は池袋東口本店・新宿代々木店ページの料金表（画像）の掲載値です。16回の総額は1回単価から当サイトで計算しました。8回コースは料金の記載がありません。以前掲載していた12回・20回コースは公式に記載がないため削除しました（2026年10月27日確認）。",
+    checkedOn: "2026年10月27日",
   },
   {
     slug: "fis-ladys-dummy", name: "", price: "", kind: "未公表", lowest: null, entry: "", officialUrl: null, area: "",
@@ -317,6 +333,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "週1回 1ヶ月4回97,680円・2ヶ月8回151,580円・3ヶ月12回205,480円／週2回 2ヶ月16回259,380円・3ヶ月24回345,290円・6ヶ月48回646,800円（いずれも入会金込みの総額・税込）／卒業後 メンテナンス月21,560〜64,680円・平日通い放題29,800円",
     kind: "コース制", lowest: 97680, entry: "43,780円（コースにより0円。上記総額に含む）",
     officialUrl: "https://rita-style.co.jp/price/", area: "福岡・熊本・鹿児島・長崎・岡山（公式トップ・特定商取引法の表記は7店舗、店舗一覧の掲載は4店舗・2026年11月12日確認）",
+    checkedOn: "2026年10月27日",
   },
   {
     slug: "outline", name: "OUTLINE",
@@ -337,6 +354,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "BASIC 2ヶ月16回 コース料金327,800円（税込）＋入会金55,000円＝総額382,800円／PRIME 月額77,000円＋登録料440,000円＋入会金55,000円",
     kind: "コース制", lowest: 382800, entry: "55,000円（税込）",
     officialUrl: "https://www.rizap.jp/plan", area: "全国",
+    checkedOn: RIZAP_CHECKED_AT,
   },
   {
     slug: "plez", name: "プレズ（Plez）",
@@ -397,6 +415,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     kind: "月額制", lowest: 18000, lowestLabel: "マンツーマン", entry: "東日本55,000円・西日本33,000円（税込）／無料体験当日の入会で東日本15,000円・西日本10,000円（西日本のライトコースは15,000円）",
     officialUrl: "https://nexus-gym.com/new_lp/include-parts/price.html", area: "東京都・神奈川県・大阪府・愛知県・福岡県・埼玉県・群馬県・栃木県（公式の店舗一覧）",
     note: "最安プランの集計には、マンツーマンのライトコース（30分・月4回18,000円）を使っています。月額だけで見ると、公式料金表ではセミパーソナル（60分・月2回11,000円・1人分）がもっとも低い金額です（2026年11月2日確認）。各コースとも原則2ヶ月の継続が必要です。特定商取引法の表記には「入会金15,000円・60分月4回コース29,800円」と記載されており、料金表の金額と異なります（公式料金表・2026年10月29日確認）。",
+    checkedOn: "2026年11月2日",
   },
   {
     slug: "carat", name: "Carat",
@@ -446,12 +465,51 @@ export function priceSummary(b: BrandPrice): string {
   return "コース総額" + yen;
 }
 
+/** そのブランドの料金の確認日（再確認したブランドは checkedOn、それ以外は全件実査の FEE_SURVEYED_AT）。2026-11-17 追加 */
+export function brandCheckedOn(b: BrandPrice): string {
+  return b.checkedOn ?? FEE_SURVEYED_AT;
+}
+
+const parseJa = (d: string) => {
+  const m = d.match(/^(\d+)年(\d+)月(\d+)日$/);
+  return m ? { y: +m[1], mo: +m[2], d: +m[3] } : null;
+};
+
+/** 日付（「2026年10月8日」形式）の配列を範囲表記にする（例「2026年10月8日〜11月14日」）。読めない値は除外し、0件なら null */
+function jaDateRange(dates: string[]): string | null {
+  const ds = dates
+    .map(parseJa)
+    .filter((x): x is { y: number; mo: number; d: number } => x !== null)
+    .sort((a, b) => a.y - b.y || a.mo - b.mo || a.d - b.d);
+  if (ds.length === 0) return null;
+  const f = ds[0];
+  const l = ds[ds.length - 1];
+  const head = `${f.y}年${f.mo}月${f.d}日`;
+  if (f.y === l.y && f.mo === l.mo && f.d === l.d) return head;
+  return `${head}〜${f.y === l.y ? "" : `${l.y}年`}${l.mo}月${l.d}日`;
+}
+
+/** 全ブランドの料金の確認日の範囲（例「2026年10月8日〜11月14日」）。集計（相場・分布）の確認時期の表記に使う */
+export function feeCheckedRange(): string {
+  return jaDateRange(BRAND_PRICES.map(brandCheckedOn)) ?? FEE_SURVEYED_AT;
+}
+
+/** 全件実査の後に料金を再確認したブランド数と、その確認日の範囲（/price/ の実査日の注記用） */
+export function feeRecheckSummary(): { n: number; range: string } | null {
+  const xs = BRAND_PRICES.filter((b) => b.checkedOn);
+  const range = jaDateRange(xs.map((b) => b.checkedOn as string));
+  return range ? { n: xs.length, range } : null;
+}
+
+/** 全件実査の月（例「2026年10月」）。/price/ の title・見出し用 */
+export const FEE_SURVEYED_MONTH = FEE_SURVEYED_AT.replace(/^(\d+年\d+月).*$/, "$1");
+
 /*
  * 24/7ワークアウトの月額プラン（公式コース・料金ページの掲載値・税込・1回50分）。
  * 2026-11-12 確認: https://247-sports.jp/workout/course/
  * レビュー・比較ページはこの値を参照する（以前は「月額33,000円〜」「月8回55,000円〜」と直書きしていた）。
+ * 確認日は WORKOUT247_CHECKED_AT（ファイル冒頭で定義）。
  */
-export const WORKOUT247_CHECKED_AT = "2026年11月12日";
 export const WORKOUT247_PLANS = {
   fixed: { 4: 33440, 8: 65120, 12: 95040, 16: 123200 },
   free: { 4: 36784, 8: 71632, 12: 104544, 16: 135520 },
@@ -463,8 +521,8 @@ export const WORKOUT247_PLANS = {
  * RIZAP の料金（公式 料金プランページの掲載値・税込）。
  * 2026-11-12 確認: https://www.rizap.jp/plan
  * 比較ページはこの値を参照する（以前は「PRIMEプラン 月額22,000円〜」と直書きしていたが、公式に該当する金額はない）。
+ * 確認日は RIZAP_CHECKED_AT（ファイル冒頭で定義）。
  */
-export const RIZAP_CHECKED_AT = "2026年11月12日";
 export const RIZAP_PLANS = {
   basic16Course: 327800,
   entry: 55000,

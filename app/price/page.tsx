@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import { BRAND_PRICES, FEE_SURVEYED_AT, brandsByKind } from "@/data/brand-prices";
+import { BRAND_PRICES, FEE_SURVEYED_AT, FEE_SURVEYED_MONTH, brandsByKind, brandCheckedOn, feeCheckedRange, feeRecheckSummary } from "@/data/brand-prices";
+
+// 料金の確認日は data/brand-prices.ts から表示する（2026-11-17: 固定の日付表記をやめ、全件実査日と各ブランドの再確認日から算出）
+const RECHECK = feeRecheckSummary();
+const NEXUS = BRAND_PRICES.find((b) => b.slug === "nexus");
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "パーソナルジムの料金を60ブランド実査【2026年10月】公式サイトの掲載額一覧",
+  title: `パーソナルジムの料金を60ブランド実査【${FEE_SURVEYED_MONTH}】公式サイトの掲載額一覧`,
   description:
-    "パーソナルジム60ブランドの公式サイトを1件ずつ確認し、掲載されている金額のみを転記しています（2026年10月8日実査）。月額制・コース制・都度払いに分けて安い順に掲載し、入会金と公式ページのリンクも併記しています。金額が公表されていない8ブランドは、推定せず「公表していない」と記載しています。",
+    `パーソナルジム60ブランドの公式サイトを1件ずつ確認し、掲載されている金額のみを転記しています（${FEE_SURVEYED_AT}実査）。月額制・コース制・都度払いに分けて安い順に掲載し、入会金と公式ページのリンクも併記しています。金額が公表されていない8ブランドは、推定せず「公表していない」と記載しています。`,
   alternates: { canonical: "/price/" },
 };
 
@@ -43,7 +47,7 @@ export default function PricePage() {
   const faqs = [
     {
       q: "パーソナルジムの料金相場はいくらですか？",
-      a: `当サイトが${FEE_SURVEYED_AT}に${BRAND_PRICES.length}ブランドの公式サイトで確認した各ブランドの最安プランでは、${mo ? `月額制（${mo.n}ブランド）が月${y(mo.min)}円〜${y(mo.max)}円（中央値${y(mo.med)}円）` : ""}${mo && co ? "、" : ""}${co ? `コース制（${co.n}ブランド）がコース総額${y(co.min)}円〜${y(co.max)}円（中央値${y(co.med)}円）` : ""}です。月額制にはAIマシンや個室ジムなど、トレーナーが毎回つかない形態も含まれます。金額を公表していないブランドが${unpublished.length}ブランドあるため、目安としてご覧ください。`,
+      a: `当サイトが${feeCheckedRange()}に${BRAND_PRICES.length}ブランドの公式サイトで確認した各ブランドの最安プランでは、${mo ? `月額制（${mo.n}ブランド）が月${y(mo.min)}円〜${y(mo.max)}円（中央値${y(mo.med)}円）` : ""}${mo && co ? "、" : ""}${co ? `コース制（${co.n}ブランド）がコース総額${y(co.min)}円〜${y(co.max)}円（中央値${y(co.med)}円）` : ""}です。月額制にはAIマシンや個室ジムなど、トレーナーが毎回つかない形態も含まれます。金額を公表していないブランドが${unpublished.length}ブランドあるため、目安としてご覧ください。`,
     },
     ...baseFaqs,
   ];
@@ -54,12 +58,12 @@ export default function PricePage() {
       <main className="min-h-screen">
         <header className="bg-orange-50 py-10">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h1 className="text-2xl md:text-3xl font-bold mb-3">パーソナルジムの料金を{BRAND_PRICES.length}ブランド実査【2026年10月】</h1>
+            <h1 className="text-2xl md:text-3xl font-bold mb-3">パーソナルジムの料金を{BRAND_PRICES.length}ブランド実査【{FEE_SURVEYED_MONTH}】</h1>
             <p className="text-gray-700 leading-relaxed">
               当ページでは、料金の出典を明確にするため、<strong>{BRAND_PRICES.length}ブランドの公式サイトを1件ずつ確認し、掲載されていた金額のみ</strong>を掲載しています。
               各ブランドには公式ページへのリンクを付けているため、その場で金額をご確認いただけます。
             </p>
-            <p className="text-xs text-gray-500 mt-3">実査日：{FEE_SURVEYED_AT}。税込・税抜の表記はジムにより異なるため、公式サイトの表記のまま掲載しています。料金・キャンペーンは変更される場合がありますので、お申し込み前に公式サイトまたは無料カウンセリングにて最新情報をご確認ください。</p>
+            <p className="text-xs text-gray-500 mt-3">実査日：{FEE_SURVEYED_AT}{RECHECK && `（うち${RECHECK.n}ブランドは${RECHECK.range}に料金を再確認。各ブランドの確認日は一覧に記載）`}。税込・税抜の表記はジムにより異なるため、公式サイトの表記のまま掲載しています。料金・キャンペーンは変更される場合がありますので、お申し込み前に公式サイトまたは無料カウンセリングにて最新情報をご確認ください。</p>
           </div>
         </header>
 
@@ -96,7 +100,7 @@ export default function PricePage() {
                 </p>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mt-3">※「最安プラン」は、月額制では最も安い月額、コース制では最も安いコース総額、都度払いでは1回あたりの金額を指します。方式をまたいだ比較はできないため、分けて集計しています。Nexusジムは、マンツーマンの料金（ライト30分 月4回18,000円）を最安プランとして集計しています。同ジムのセミパーソナル（60分・月2回11,000円・1人分）は月額としてはより低い金額ですが、この集計には含めていません（2026年11月2日に公式料金表で確認）。</p>
+            <p className="text-xs text-gray-500 mt-3">※「最安プラン」は、月額制では最も安い月額、コース制では最も安いコース総額、都度払いでは1回あたりの金額を指します。方式をまたいだ比較はできないため、分けて集計しています。Nexusジムは、マンツーマンの料金（ライト30分 月4回18,000円）を最安プランとして集計しています。同ジムのセミパーソナル（60分・月2回11,000円・1人分）は月額としてはより低い金額ですが、この集計には含めていません{NEXUS && `（${brandCheckedOn(NEXUS)}に公式料金表で確認）`}。</p>
           </section>
 
           {/* ブランド別の公表料金（2026-10-08 全ブランド再実査） */}
@@ -106,7 +110,7 @@ export default function PricePage() {
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed mb-3">
               {FEE_SURVEYED_AT}に、{BRAND_PRICES.length}ブランドすべての公式サイトを1件ずつ確認し、
-              <strong>掲載されている金額のみ</strong>を転記しました。各行の「公式」のリンク先が、その金額を掲載しているページです。
+              <strong>掲載されている金額のみ</strong>を転記しました。{RECHECK && `その後、${RECHECK.n}ブランドは${RECHECK.range}に料金を再確認しています。`}各行の「公式」のリンク先が、その金額を掲載しているページで、各行に料金の確認日を記載しています。
               公式サイトで金額が公表されていないブランドは、推定で補完せず
               <strong>「公表していない」と記載しています</strong>（{unpublished.length}ブランド）。
             </p>
@@ -141,6 +145,7 @@ export default function PricePage() {
                             <td className="border border-gray-200 p-2 font-bold whitespace-nowrap align-top">
                               <a href={`/review/${b.slug}/`} className="text-orange-600 hover:underline">{b.name}</a>
                               <span className="block font-normal text-[11px] text-gray-500 mt-1">{b.area}</span>
+                              <span className="block font-normal text-[11px] text-gray-500 mt-0.5">確認日：{brandCheckedOn(b)}</span>
                               {b.officialUrl && (
                                 <a
                                   href={b.officialUrl}
@@ -186,6 +191,7 @@ export default function PricePage() {
                           <td className="border border-gray-200 p-2 font-bold whitespace-nowrap align-top">
                             <a href={`/review/${b.slug}/`} className="text-orange-600 hover:underline">{b.name}</a>
                             <span className="block font-normal text-[11px] text-gray-500 mt-1">{b.area}</span>
+                            <span className="block font-normal text-[11px] text-gray-500 mt-0.5">確認日：{brandCheckedOn(b)}</span>
                             {b.officialUrl && (
                               <a href={b.officialUrl} target="_blank" rel="nofollow noopener" className="block font-normal text-[11px] text-gray-500 underline mt-0.5">公式</a>
                             )}
@@ -203,7 +209,7 @@ export default function PricePage() {
             )}
 
             <p className="text-xs text-gray-500 mt-3 leading-relaxed">
-              ※{FEE_SURVEYED_AT}に各ブランドの公式サイトで確認した掲載値です。税込・税抜の表記はジムにより異なるため、公式サイトの表記のまま掲載しています。
+              ※各行に記載した確認日に、各ブランドの公式サイトで確認した掲載値です。税込・税抜の表記はジムにより異なるため、公式サイトの表記のまま掲載しています。
               「月々◯円〜」として<strong>分割払い時の月額</strong>を表示しているジムがあり、総額とは異なります。コース料金・入会金・分割手数料を含めた総額で比較してください。
               店舗・キャンペーンにより変動するため、お申し込み前に公式サイトまたは無料カウンセリングにて最新情報をご確認ください。
             </p>

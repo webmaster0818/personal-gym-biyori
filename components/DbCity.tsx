@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import cityPartners from "@/data/db-city-partners.json";
 import { BRAND_FACTS, FACTS_CHECKED_AT } from "@/data/brand-facts";
-import { BRAND_PRICES, FEE_SURVEYED_AT } from "@/data/brand-prices";
+import { BRAND_PRICES, brandCheckedOn } from "@/data/brand-prices";
 
 /*
  * /db/<都市>/ の共通部品（2026-10-15 打ち手3）。
@@ -10,7 +10,7 @@ import { BRAND_PRICES, FEE_SURVEYED_AT } from "@/data/brand-prices";
  *   （店舗数・口コミ100件以上の店舗数・評点の中央値・区/市ごとの件数・店名に「女性専用」等を含む店舗数）。
  * - 提携ブランドの導線は data/db-city-partners.json（scripts/gen-db-city-partners.py が作る。
  *   10/15 の公式店舗一覧との照合で存在を確認できた店舗だけ）。料金は data/brand-facts.ts（10/14確認）
- *   → 無ければ data/brand-prices.ts（10/8確認）の公式掲載値。
+ *   → 無ければ data/brand-prices.ts の公式掲載値（確認日は brandCheckedOn: 再確認したブランドはその日、それ以外は10/8）。
  */
 
 export type DbGym = { name: string; rating?: number; reviews?: number; address?: string; maps?: string };
@@ -165,7 +165,7 @@ function priceOf(brand: string): { text: string; src: string | null; checked: st
   const f = BRAND_FACTS[brand]?.facts.filter((x) => x.label.startsWith("料金"));
   if (f && f.length) return { text: f.map((x) => x.value).join("／"), src: f[0].src ?? null, checked: BRAND_FACTS[brand]?.checkedAt ?? FACTS_CHECKED_AT };
   const p = BRAND_PRICES.find((b) => b.slug === brand);
-  if (p) return { text: p.price, src: p.officialUrl, checked: FEE_SURVEYED_AT };
+  if (p) return { text: p.price, src: p.officialUrl, checked: brandCheckedOn(p) };
   return null;
 }
 

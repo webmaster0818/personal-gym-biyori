@@ -63,7 +63,7 @@ export default function StorePage() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           REXER 渋谷店の口コミ・評判
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        {/* 2026-11-17: 「最終更新: 2026年5月」は確認日の根拠が無く実際の更新日（10/17）とも異なるため削除 */}
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=U99728.1.M157545O.Q136169A" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             REXER の公式サイトはこちら

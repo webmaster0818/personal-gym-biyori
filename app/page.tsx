@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BRAND_PRICES, FEE_SURVEYED_AT } from "@/data/brand-prices";
+import { BRAND_PRICES, feeCheckedRange } from "@/data/brand-prices";
 
 const BRAND_COUNT = BRAND_PRICES.length;
 
@@ -14,7 +14,7 @@ const PRICE_FAQ_ANSWER = (() => {
   const mo = stat("月額制");
   const co = stat("コース制");
   const y = (n: number) => n.toLocaleString();
-  return `当サイトが${FEE_SURVEYED_AT}に${BRAND_COUNT}ブランドの公式サイトで確認した各ブランドの最安プランでは、月額制（${mo.n}ブランド）が月${y(mo.min)}円〜${y(mo.max)}円（中央値${y(mo.med)}円）、コース制（${co.n}ブランド）がコース総額${y(co.min)}円〜${y(co.max)}円（中央値${y(co.med)}円）です。月額制にはAIマシンや個室ジムなど、トレーナーが毎回つかない形態も含まれます。税込・税抜は公式の表記のままのため、詳しくは料金ページでご確認ください。`;
+  return `当サイトが${feeCheckedRange()}に${BRAND_COUNT}ブランドの公式サイトで確認した各ブランドの最安プランでは、月額制（${mo.n}ブランド）が月${y(mo.min)}円〜${y(mo.max)}円（中央値${y(mo.med)}円）、コース制（${co.n}ブランド）がコース総額${y(co.min)}円〜${y(co.max)}円（中央値${y(co.med)}円）です。月額制にはAIマシンや個室ジムなど、トレーナーが毎回つかない形態も含まれます。税込・税抜は公式の表記のままのため、詳しくは料金ページでご確認ください。`;
 })();
 
 const services = [

@@ -1,4 +1,4 @@
-import { BRAND_PRICES, FEE_SURVEYED_AT } from "@/data/brand-prices";
+import { BRAND_PRICES, feeCheckedRange } from "@/data/brand-prices";
 
 // /area/ 各ページの料金相場は、/price/ と同じ公式実査データ（全国のブランド単位）から算出する。
 // エリア別の料金差は公式の値で集計できていないため、エリア別の目安は出さない。
@@ -34,6 +34,6 @@ export function areaPriceFaq(areaName: string) {
   ].filter(Boolean);
   return {
     q: `${areaName}のパーソナルジムの料金相場はいくらですか？`,
-    a: `当サイトでは、エリア別の料金差を公式サイトの値で集計できていないため、${areaName}に限定した相場は掲載していません。参考として、当サイトが${FEE_SURVEYED_AT}に${BRAND_PRICES.length}ブランドの公式サイトで確認した各ブランドの最安プランは、${parts.join("、")}です（全国の値）。同じブランドでも店舗によって料金が異なる場合があるため、通う店舗の料金は公式サイトでご確認ください。`,
+    a: `当サイトでは、エリア別の料金差を公式サイトの値で集計できていないため、${areaName}に限定した相場は掲載していません。参考として、当サイトが${feeCheckedRange()}に${BRAND_PRICES.length}ブランドの公式サイトで確認した各ブランドの最安プランは、${parts.join("、")}です（全国の値）。同じブランドでも店舗によって料金が異なる場合があるため、通う店舗の料金は公式サイトでご確認ください。`,
   };
 }

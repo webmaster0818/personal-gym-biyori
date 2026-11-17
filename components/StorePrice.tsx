@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BRAND_PRICES, FEE_SURVEYED_AT } from "@/data/brand-prices";
+import { BRAND_PRICES, brandCheckedOn } from "@/data/brand-prices";
 
 /*
  * ブランドの公表料金を店舗ページにも出す(2026-10-01 施主指示「不足している情報の追記」)。
@@ -17,7 +17,7 @@ export default function StorePrice({ brandSlug, brandName }: { brandSlug: string
         {p.note && <p className="mt-2 text-sm text-gray-600">※{p.note}</p>}
         <p className="mt-2 text-sm text-gray-700">入会金：{p.entry}</p>
         <p className="mt-2 text-xs leading-relaxed text-gray-500">
-          {FEE_SURVEYED_AT}に{p.officialUrl ? "公式サイト" : "公開情報"}で確認した掲載値です。
+          {brandCheckedOn(p)}に{p.officialUrl ? "公式サイト" : "公開情報"}で確認した掲載値です。
           <strong>店舗・プラン・時期によって異なる場合があります。</strong>
           入会金・事務手数料・オプションが別にかかることがあるため、総額は無料カウンセリングでご確認ください。
           {p.officialUrl && (
