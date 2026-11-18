@@ -37,7 +37,6 @@ const faqJsonLd = {
 };
 
 const relatedStores = [
-  { name: "24/7ワークアウト 大宮店", href: "/review/247workout/omiya/" },
   { name: "24/7ワークアウト 新潟店", href: "/review/247workout/niigata/" },
   { name: "24/7ワークアウト 浦和店", href: "/review/247workout/urawa/" },
 ];

@@ -7,10 +7,6 @@
  ],
  "247workout": [
   {
-   "href": "/review/247workout/akasaka/",
-   "name": "赤坂店"
-  },
-  {
    "href": "/review/247workout/chiba/",
    "name": "千葉店"
   },
@@ -37,10 +33,6 @@
   {
    "href": "/review/247workout/ginza/",
    "name": "銀座店"
-  },
-  {
-   "href": "/review/247workout/gotanda/",
-   "name": "五反田店"
   },
   {
    "href": "/review/247workout/hachioji/",
@@ -71,10 +63,6 @@
    "name": "柏店"
   },
   {
-   "href": "/review/247workout/kawaguchi/",
-   "name": "川口店"
-  },
-  {
    "href": "/review/247workout/kawasaki/",
    "name": "川崎店"
   },
@@ -91,10 +79,6 @@
    "name": "北千住店"
   },
   {
-   "href": "/review/247workout/kobe/",
-   "name": "神戸店"
-  },
-  {
    "href": "/review/247workout/kumamoto/",
    "name": "熊本店"
   },
@@ -107,40 +91,16 @@
    "name": "町田店"
   },
   {
-   "href": "/review/247workout/meieki/",
-   "name": "名駅店"
-  },
-  {
-   "href": "/review/247workout/musashikosugi/",
-   "name": "武蔵小杉店"
-  },
-  {
    "href": "/review/247workout/nagoya/",
    "name": "名古屋店"
-  },
-  {
-   "href": "/review/247workout/nakameguro/",
-   "name": "中目黒店"
   },
   {
    "href": "/review/247workout/namba/",
    "name": "なんば店"
   },
   {
-   "href": "/review/247workout/nerima/",
-   "name": "練馬店"
-  },
-  {
    "href": "/review/247workout/niigata/",
    "name": "新潟店"
-  },
-  {
-   "href": "/review/247workout/omiya/",
-   "name": "大宮西口店"
-  },
-  {
-   "href": "/review/247workout/roppongi/",
-   "name": "六本木店"
   },
   {
    "href": "/review/247workout/saitama/",
@@ -165,10 +125,6 @@
   {
    "href": "/review/247workout/shibuya/",
    "name": "渋谷店"
-  },
-  {
-   "href": "/review/247workout/shinagawa/",
-   "name": "品川店"
   },
   {
    "href": "/review/247workout/shinjuku/",

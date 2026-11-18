@@ -11,8 +11,6 @@ export default function ReviewSummary({ gymName }: Props) {
     <section className="my-6 rounded-xl border border-slate-200 bg-slate-50 p-5" aria-label="口コミサマリー">
       <h2 className="text-base font-bold text-slate-900 mb-2">{gymName}の口コミ・評判まとめ</h2>
       <p className="text-sm text-slate-600 leading-relaxed mb-3">
-        当ページでは、Googleマップや各種口コミサイトに投稿された{gymName}の評判を、
-        <span className="font-medium">トレーナーの質・料金・清潔さ・通いやすさ</span>などの観点別に傾向を整理しています（下部の口コミ分析セクションをご覧ください）。
         最新の口コミや評点は、Googleマップでご確認いただけます。
       </p>
       <p className="text-xs text-slate-400 mb-3">
