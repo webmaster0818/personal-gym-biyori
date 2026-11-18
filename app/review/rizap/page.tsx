@@ -9,9 +9,9 @@ import AuthorBox from "@/components/AuthorBox";
 import BrandStoreLinks from "@/components/BrandStoreLinks";
 
 export const metadata: Metadata = {
-  title: "RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証",
+  title: "RIZAP（ライザップ）の口コミ・評判｜Googleマップ1,057件の集計と「満足度99.6%」の中身、総額382,800円を検証",
   description:
-    "RIZAP（ライザップ）の口コミ・評判を、公式の料金表・会則・店舗一覧で検証します。BASIC・PRIMEの期間別総額と1回あたりの料金、30日間全額返金保証と中途解約の返金計算、全国100店舗・45都道府県の一覧、Googleマップ31店舗の集計をまとめています。",
+    "RIZAP（ライザップ）の口コミ・評判を、公式の料金表・会則・店舗一覧で検証します。BASIC・PRIMEの期間別総額と1回あたりの料金、30日間全額返金保証と中途解約の返金計算、全国100店舗の一覧、Googleマップ31店舗・1,057件の集計、公式「満足度99.6%」の調査条件をまとめています。",
 };
 
 /*
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
  * 出典のない口コミのカテゴリ別要約（10項目）は削除し、Googleマップ集計と検索上位記事の論点照合に置き換えた。
  */
 const CHECKED = "2026年10月27日";
+const RECHECKED = "2026年11月18日"; // 料金・支払い方法・店舗数（都道府県別ページ45件の合計100）・公式トップの満足度表記を再確認
 
 const SRC = {
   plan: "https://www.rizap.jp/plan",
@@ -134,6 +135,8 @@ const issueCheck = [
 ];
 
 const faqItems = [
+  { q: "公式サイトの「満足度99.6%」はどのような調査ですか？", a: "公式トップの注記によると、RIZAPとRIZAP WOMANの会員4,538人に2022年3月に行った自社調査で、質問は「RIZAPのサービスを通じて、期待されていた結果にコミットしましたか？もしくはできそうですか？」です。表示は「トレーニング満足度」ですが、質問は結果を出せたか（出せそうか）を尋ねるもので、在籍中の会員が対象です。退会者や卒業後の状態は含まれていません（2026年11月18日確認）。" },
+  { q: "RIZAPを卒業した後のリバウンド率は公表されていますか？", a: "当サイトが確認した範囲では、公式サイトの効果・よくある質問・プログラムのページにリバウンド率の数値は見当たりませんでした（2026年11月18日確認）。他サイトで見られる「リバウンド率7%」は、公式の掲載ページを確認できていません。公式が公表しているのは、継続型のPRIMEの平均継続期間20ヶ月（2021年度の契約者実績）です。" },
   { q: "RIZAPの入会金はいくらですか？", a: "入会金は55,000円（税込）で、BASIC・PRIME共通です。PRIMEでは別途登録料440,000円（税込）がかかります。キャンペーンにより変わる場合があるため、公式サイトで最新情報をご確認ください。" },
   { q: "RIZAPは完全個室ですか？", a: "はい、トレーニングは完全個室で行います。店舗によっては、別途予約制のマルチマシンルームも利用できます。" },
   { q: "30日間全額返金保証の条件を教えてください。", a: "会則第26条によると、入会時に契約したコースの初回利用日から30日以内（営業日でない場合は翌営業日）に来店し、書面で申し出ることが条件です。電話・FAX・メールでは受け付けていません。会則上は「支払い済みの諸費用の全額」を返還するとしており、諸費用は第9条で入会金とコース費用を含むと定義されています。一方、料金ページ等の表記は「コース料金」のため、入会金の扱いはカウンセリングで書面確認をおすすめします。適用を受けると退会扱いとなり、再適用・再入会はできません（2026年10月27日確認）。" },
@@ -239,7 +242,7 @@ export default function RizapReview() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証",
+        "headline": "RIZAP（ライザップ）の口コミ・評判｜Googleマップ1,057件の集計と「満足度99.6%」の中身、総額382,800円を検証",
         "author": {
           "@type": "Organization",
           "name": "パーソナルジムびより編集部",
@@ -250,16 +253,16 @@ export default function RizapReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-27"
+        "dateModified": "2026-11-18"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "RIZAP" }]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         {/* ---------- H1 + 要点 ---------- */}
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-          RIZAP（ライザップ）の口コミ・評判｜総額382,800円・返金保証の条件を検証
+          RIZAP（ライザップ）の口コミ・評判｜Googleマップ1,057件の集計と「満足度99.6%」の中身、総額382,800円を検証
         </h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月27日（料金・会則・店舗一覧・営業時間・運営会社を公式サイトで再確認し、検索上位記事の論点と照合）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月18日（料金・支払い方法・店舗数100を公式サイトで再確認し、公式の「満足度99.6%」の調査条件、卒業後・リバウンドの論点、検索上位記事の調査規模の比較を追加。会則・営業時間・運営会社は2026年10月27日確認）</p>
 
         <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="RIZAPとは">
           <h2 className="font-bold text-gray-900 mb-3">RIZAP（ライザップ）とは：要点のまとめ</h2>
@@ -293,6 +296,7 @@ export default function RizapReview() {
             <li><a href="#s5" className="text-teal-600 hover:underline">RIZAPの料金（BASIC・PRIMEの期間別総額）</a></li>
             <li><a href="#s5b" className="text-teal-600 hover:underline">返金保証と中途解約の返金額</a></li>
             <li><a href="#s6" className="text-teal-600 hover:underline">RIZAPの口コミ・評判</a></li>
+            <li><a href="#s6b" className="text-teal-600 hover:underline">公式の「満足度99.6%」と卒業後・リバウンドの論点</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">他のジムと比較（2ヶ月16回の総額）</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">RIZAPのよくある質問</a></li>
             <li><a href="#s11" className="text-teal-600 hover:underline">RIZAPの店舗一覧（全国100店舗）</a></li>
@@ -450,9 +454,9 @@ export default function RizapReview() {
           <ul className="space-y-1.5 text-sm text-gray-700 mb-3">
             <li>・BASICの月8回の継続料金は1ヶ月163,900円です。2ヶ月で目標に届かず延長する場合の目安になります。</li>
             <li>・PRIMEは登録料があるため短期では割高ですが、20ヶ月継続すると1回あたり12,719円となり、BASIC 2ヶ月（23,925円）の約53%になります（当サイト計算）。公式はPRIMEの平均継続期間を20ヶ月（2021年度の契約者実績）としています。</li>
-            <li>・支払いは一括の場合は銀行振込（前払い）またはJデビットです。クレジットカードは物販などに限られます。分割払いは最大60回・実質年率19.8%です。</li>
+            <li>・支払いは一括の場合は銀行振込（前払い）またはJデビットです。クレジットカードは物販などに限られます。分割払いは最大60回・実質年率19.8%です（公式の注記は「一部例外あり」）。</li>
           </ul>
-          <p className="text-xs text-gray-500">出典: <Src href={SRC.plan}>公式 料金プラン</Src>・<Src href={SRC.payment}>お支払いについて</Src>（{CHECKED}確認・税込）。キャンペーンにより変動する場合があります。</p>
+          <p className="text-xs text-gray-500">出典: <Src href={SRC.plan}>公式 料金プラン</Src>・<Src href={SRC.payment}>お支払いについて</Src>（{RECHECKED}再確認・10月27日から変更なし・税込）。キャンペーンにより変動する場合があります。</p>
         </section>
 
         {/* 中間CTA */}
@@ -522,6 +526,52 @@ export default function RizapReview() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        {/* ---------- 満足度・リバウンド・上位記事の調査規模（2026-11-18 追加） ---------- */}
+        <section className="mb-12">
+          <h2 id="s6b" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">公式の「満足度99.6%」と卒業後・リバウンドの論点</h2>
+          <h3 className="font-bold text-gray-800 mb-2">「トレーニング満足度99.6%」の調査条件</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            公式サイトのトップには「トレーニング満足度 99.6%」と表示されています。注記に書かれた調査条件は次のとおりです（{RECHECKED}確認）。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <tbody>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-2 text-left font-medium text-gray-700 w-32">調査主体</th><td className="px-4 py-2 text-gray-800">RIZAP（自社調査）</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-2 text-left font-medium text-gray-700">時期・人数</th><td className="px-4 py-2 text-gray-800">2022年3月・4,538人</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-2 text-left font-medium text-gray-700">対象</th><td className="px-4 py-2 text-gray-800">RIZAPおよびRIZAP WOMANの会員</td></tr>
+                <tr className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-2 text-left font-medium text-gray-700">質問</th><td className="px-4 py-2 text-gray-800">「RIZAPのサービスを通じて、期待されていた結果にコミットしましたか？もしくはできそうですか？」</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-gray-700 leading-relaxed mb-6">
+            表示は「トレーニング満足度」ですが、質問は「結果を出せたか、出せそうか」を尋ねる内容で、「できそう」と答えた在籍中の会員も含まれます。退会した方や卒業後の体重の推移は対象外のため、この数字だけで卒業後の成果を判断することはできません。また、公式の店舗ページに掲載されている会員の体験談には「依頼の上インタビュー実施したもの」「薬機法にしたがって一部改変」と注記されており、第三者の口コミとは性質が異なります。
+          </p>
+          <h3 className="font-bold text-gray-800 mb-2">卒業後・リバウンドについて公式で確認できること</h3>
+          <ul className="space-y-1.5 text-sm text-gray-700 mb-6">
+            <li>・公式サイトの効果・よくある質問・プログラムのページには、卒業後のリバウンド率の数値は見当たりませんでした（{RECHECKED}確認）。他サイトで引用される「リバウンド率7%」は、公式の掲載箇所を確認できていません。</li>
+            <li>・公式が公表している継続に関する数値は、PRIMEの平均継続期間20ヶ月（2021年度の契約者実績）です。BASICの2ヶ月で終える場合は、終了後の食事を自分で管理することになります。</li>
+            <li>・リバウンドが心配な方は、カウンセリングで「BASIC終了後の食事の戻し方の指導があるか」「PRIMEへ移る場合の登録料440,000円の扱い」を確認されることをおすすめします。</li>
+          </ul>
+          <h3 className="font-bold text-gray-800 mb-2">検索上位記事の口コミ調査の規模（当サイト比較）</h3>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">
+            「RIZAP 口コミ」「ライザップ 評判」で表示される記事のうち、口コミの件数や調査人数を示している記事を、当サイトで本文を読んで比較しました（{RECHECKED}閲覧）。件数の多さだけでなく、集め方による偏りにご注意ください。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
+              <thead><tr className="bg-gray-100 text-gray-800"><th className="px-3 py-2 text-left font-medium">記事（運営サイト）</th><th className="px-3 py-2 text-left font-medium">件数・人数</th><th className="px-3 py-2 text-left font-medium">集め方と読み方の注意</th></tr></thead>
+              <tbody>
+                <tr className="border-b border-gray-100 align-top"><td className="px-3 py-2">coaching-by-web.com</td><td className="px-3 py-2">Googleクチコミ515件（103店舗）</td><td className="px-3 py-2">内容を分類（トレーナーへの言及84.1%など）。星5が約9割で高評価に偏った標本であることを記事自身が明記しています</td></tr>
+                <tr className="border-b border-gray-100 align-top"><td className="px-3 py-2">Getfit（getfit.jp）</td><td className="px-3 py-2">455名のアンケート</td><td className="px-3 py-2">自社サイト経由の入会者が対象。総合4.5に対し、価格の評価は3.07です</td></tr>
+                <tr className="border-b border-gray-100 align-top"><td className="px-3 py-2">goodlifegym.jp</td><td className="px-3 py-2">約200件</td><td className="px-3 py-2">みん評約140件とYahoo!知恵袋約70件を筆者が目視で確認。平均点は示されていません</td></tr>
+                <tr className="border-b border-gray-100 align-top"><td className="px-3 py-2">body-make.jp</td><td className="px-3 py-2">35人のアンケート</td><td className="px-3 py-2">記事にRIZAPの協力・提供（sponsored）の表示があります</td></tr>
+                <tr className="border-b border-gray-100 align-top"><td className="px-3 py-2">yu-mattyo.com</td><td className="px-3 py-2">卒業生20名</td><td className="px-3 py-2">クラウドソーシングで募集。20名中12名がリバウンドしたと回答。人数が少なく、全体の傾向とは言えません</td></tr>
+                <tr className="align-top bg-teal-50/50"><td className="px-3 py-2 font-medium">当サイト</td><td className="px-3 py-2">Googleマップ31店舗・1,057件</td><td className="px-3 py-2">店舗ごとの評点と件数を集計（店舗単純平均4.49）。個別の投稿文は転載せず、傾向のみ要約しています</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500">出典: <Src href={SRC.top}>RIZAP公式トップ（満足度の注記）</Src>・<Src href="https://www.rizap.jp/studios/prefectures/13">公式 東京都の店舗一覧（体験談の注記）</Src>（{RECHECKED}確認）。他サイトの件数は各記事の記載です。口コミサイト「みん評」は当サイトから閲覧できないため（403）、件数・点数は掲載していません。</p>
         </section>
 
         {/* ---------- 他のジムと比較 ---------- */}
