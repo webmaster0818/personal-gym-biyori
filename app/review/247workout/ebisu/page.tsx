@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 恵比寿店" },
-  { label: "エリア", value: "東京都渋谷区恵比寿（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "東京都渋谷区恵比寿南2丁目19-7 VORT恵比寿dual's 301（受付）、501（公式サイトでの店舗名は「恵比寿・目黒店」。公式店舗ページ・2026年11月19日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -23,7 +23,7 @@ const faqItems = [
   { q: "24/7ワークアウト恵比寿店の料金はいくらですか？", a: "公式サイトのコース・料金ページ（2026年11月12日確認）では、曜日と時間を固定する固定プランが月4回 税込33,440円、日時を選べるフリープランが月4回 税込36,784円です（1回50分）。入会金は不要と記載されていますが、一部店舗で異なるため、店舗で最新の料金をご確認ください。" },
   { q: "24/7ワークアウト恵比寿店の営業時間を教えてください。", a: "7:00〜24:00です。最新情報は公式サイトでご確認ください。" },
   { q: "24/7ワークアウト恵比寿店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。目標に応じたプランの提案や、トレーニング内容の説明を受けられます。公式サイトから予約可能です。" },
-  { q: "24/7ワークアウト恵比寿店のアクセスを教えてください。", a: "JR恵比寿駅から徒歩約5分の立地です。東京メトロ日比谷線も利用でき、渋谷区周辺からのアクセスが便利です。" },
+  { q: "24/7ワークアウト恵比寿店のアクセスを教えてください。", a: "公式店舗ページに掲載されている所在地は東京都渋谷区恵比寿南2丁目19-7 VORT恵比寿dual's 301（受付）、501です（2026年11月19日確認）。最寄り駅と所要時間は公式サイト・Googleマップでご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -51,7 +51,7 @@ export default function StorePage() {
       <ReviewSummary gymName="恵比寿店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">24/7ワークアウト 恵比寿店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月19日</p>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">基本情報</h2>
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div>

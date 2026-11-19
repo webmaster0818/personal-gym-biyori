@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "24/7ワークアウト 三軒茶屋店" },
-  { label: "エリア", value: "東京都世田谷区三軒茶屋（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "東京都世田谷区太子堂1丁目12-39 三軒茶屋ビル5F（公式店舗ページ・2026年11月19日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜24:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -57,7 +57,7 @@ export default function StorePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">24/7ワークアウト 三軒茶屋店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月19日</p>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">基本情報</h2>
