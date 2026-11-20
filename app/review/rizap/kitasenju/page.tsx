@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 北千住店" },
-  { label: "エリア", value: "東京都足立区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "東京都足立区千住仲町19-6 和光ビル 2F（RIZAP公式の店舗ページ・2026年11月20日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -23,7 +23,7 @@ const faqItems = [
   { q: "RIZAP北千住店の料金はいくらですか？", a: "RIZAP北千住店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
   { q: "RIZAP北千住店は結果にコミットできますか？", a: "はい、RIZAPは「結果にコミット」をコンセプトに、専属トレーナーがマンツーマンで指導します。食事指導・トレーニング・メンタルサポートの三位一体で目標達成を目指します。" },
   { q: "RIZAP北千住店に30日間返金保証はありますか？", a: "はい、RIZAPでは30日間返金保証制度があります。プログラム開始から30日間、いかなる理由でも全額返金が可能です。詳細は公式サイトでご確認ください。" },
-  { q: "RIZAP北千住店のアクセスを教えてください。", a: "北千住駅から徒歩5分の立地です。JR常磐線、東京メトロ千代田線・日比谷線、東武スカイツリーライン、つくばエクスプレスが利用でき、アクセスが非常に良好です。" },
+  { q: "RIZAP北千住店のアクセスを教えてください。", a: "東京メトロ千代田線北千住駅1番出口から徒歩5分です（RIZAP公式の店舗ページ・2026年11月20日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -58,7 +58,7 @@ export default function StorePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 北千住店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月20日</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">RIZAP の公式サイトはこちら</a>
         </p>
@@ -94,7 +94,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP北千住店は、5路線が乗り入れる北千住駅から徒歩5分に位置する店舗です。足立区・葛飾区・荒川区など城東エリアからのアクセスが良く、地元の利用者から高い支持を得ています。アットホームな雰囲気のトレーナーが多く、リラックスしてトレーニングに臨めるとの口コミが目立ちます。初心者でも無理なく続けられるプログラム設計が好評です。
+            RIZAP北千住店は、北千住駅（東京メトロ千代田線1番出口）から徒歩5分の場所にある店舗です。足立区・葛飾区・荒川区など城東エリアからのアクセスが良く、地元の利用者から高い支持を得ています。アットホームな雰囲気のトレーナーが多く、リラックスしてトレーニングに臨めるとの口コミが目立ちます。初心者でも無理なく続けられるプログラム設計が好評です。
           </p>
         </section>
                 

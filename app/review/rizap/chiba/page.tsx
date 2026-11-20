@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 千葉店" },
-  { label: "エリア", value: "千葉県千葉市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "千葉県千葉市中央区中央3-5-1 千葉中央トーセイビル 3F・4F（RIZAP公式の店舗ページ・2026年11月20日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -23,7 +23,7 @@ const faqItems = [
   { q: "RIZAP千葉店の料金はいくらですか？", a: "RIZAP千葉店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
   { q: "RIZAP千葉店は結果にコミットできますか？", a: "はい、RIZAPは「結果にコミット」をコンセプトに、専属トレーナーがマンツーマンで指導します。食事指導・トレーニング・メンタルサポートの三位一体で目標達成を目指します。" },
   { q: "RIZAP千葉店に30日間返金保証はありますか？", a: "はい、RIZAPでは30日間返金保証制度があります。プログラム開始から30日間、いかなる理由でも全額返金が可能です。詳細は公式サイトでご確認ください。" },
-  { q: "RIZAP千葉店のアクセスを教えてください。", a: "JR総武線・京成千葉線の千葉駅から徒歩5分です。千葉県の県庁所在地に位置し、千葉市内や房総方面からのアクセスが良好です。" },
+  { q: "RIZAP千葉店のアクセスを教えてください。", a: "京成千葉中央駅東口から徒歩5分、千葉都市モノレール葭川公園駅から徒歩2分、JR千葉駅東口から徒歩10分です（RIZAP公式の店舗ページ・2026年11月20日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -59,7 +59,7 @@ export default function StorePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 千葉店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月20日</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">RIZAP の公式サイトはこちら</a>
         </p>
@@ -95,7 +95,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP千葉店は、千葉県の中心地・千葉駅から徒歩5分に位置する店舗です。千葉県内でRIZAPの本格的なプログラムを受けられる拠点として、幅広い利用者から支持されています。都心まで通わずに済む利便性が好評で、地元在住の方を中心に安定した利用者を抱えています。トレーナーが個人の体力レベルに合わせた段階的なプログラムを組んでくれるため、無理なく成果を実感できるとの口コミが多い傾向にあります。
+            RIZAP千葉店は、京成千葉中央駅から徒歩5分、JR千葉駅から徒歩10分の場所にある店舗です。千葉県内でRIZAPの本格的なプログラムを受けられる拠点として、幅広い利用者から支持されています。都心まで通わずに済む利便性が好評で、地元在住の方を中心に安定した利用者を抱えています。トレーナーが個人の体力レベルに合わせた段階的なプログラムを組んでくれるため、無理なく成果を実感できるとの口コミが多い傾向にあります。
           </p>
         </section>
                 

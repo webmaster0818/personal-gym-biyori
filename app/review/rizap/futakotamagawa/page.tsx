@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 二子玉川店" },
-  { label: "エリア", value: "東京都世田谷区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "東京都世田谷区玉川2-24-1 キュープラザ二子玉川B1F（RIZAP公式の店舗ページ・2026年11月20日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -23,7 +23,7 @@ const faqItems = [
   { q: "RIZAP二子玉川店の料金はいくらですか？", a: "RIZAP二子玉川店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
   { q: "RIZAP二子玉川店は結果にコミットできますか？", a: "はい、RIZAPは「結果にコミット」をコンセプトに、専属トレーナーがマンツーマンで指導します。食事指導・トレーニング・メンタルサポートの三位一体で目標達成を目指します。" },
   { q: "RIZAP二子玉川店に30日間返金保証はありますか？", a: "はい、RIZAPでは30日間返金保証制度があります。プログラム開始から30日間、いかなる理由でも全額返金が可能です。詳細は公式サイトでご確認ください。" },
-  { q: "RIZAP二子玉川店のアクセスを教えてください。", a: "東急田園都市線・東急大井町線の二子玉川駅から徒歩5分です。二子玉川ライズ周辺に位置し、ショッピングと合わせて通いやすい環境です。" },
+  { q: "RIZAP二子玉川店のアクセスを教えてください。", a: "東急田園都市線二子玉川駅から徒歩1分です（RIZAP公式の店舗ページ・2026年11月20日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -56,7 +56,7 @@ export default function StorePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 二子玉川店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月20日</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">RIZAP の公式サイトはこちら</a>
         </p>

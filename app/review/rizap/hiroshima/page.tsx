@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 広島店" },
-  { label: "エリア", value: "広島市中区（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "広島県広島市中区上八丁堀4-1 アーバンビューグランドタワー1F（RIZAP公式の店舗ページ・2026年11月20日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -23,7 +23,7 @@ const faqItems = [
   { q: "RIZAP広島店の料金はいくらですか？", a: "RIZAPのベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
   { q: "RIZAP広島店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
   { q: "RIZAP広島店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
-  { q: "RIZAP広島店のアクセスを教えてください。", a: "広島電鉄の八丁堀電停から徒歩約3分の立地です。広島市の繁華街に位置し、バスや路面電車でのアクセスも便利です。" },
+  { q: "RIZAP広島店のアクセスを教えてください。", a: "広島電鉄の縮景園前駅から徒歩1分、JR広島駅から徒歩15分です（RIZAP公式の店舗ページ・2026年11月20日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -51,7 +51,7 @@ export default function StorePage() {
       <ReviewSummary gymName="広島店" />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 広島店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月20日</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             RIZAP の公式サイトはこちら
@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP広島店は、広島市の中心部・八丁堀エリアに位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標に合わせたプログラムを提供します。広島市内はもちろん、広島県内各地からの利用者も多く、中国地方でRIZAPの本格的なボディメイクプログラムを受けられると評価されています。トレーナーの専門性の高さと食事管理の手厚さが好評です。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP広島店は、広島市の中心部・上八丁堀に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標に合わせたプログラムを提供します。広島市内はもちろん、広島県内各地からの利用者も多く、中国地方でRIZAPの本格的なボディメイクプログラムを受けられると評価されています。トレーナーの専門性の高さと食事管理の手厚さが好評です。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

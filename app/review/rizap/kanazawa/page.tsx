@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 金沢店" },
-  { label: "エリア", value: "石川県金沢市（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "石川県金沢市竪町45-2 CoCoTTo KANAZAWA 2階（RIZAP公式の店舗ページ・2026年11月20日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -23,7 +23,7 @@ const faqItems = [
   { q: "RIZAP金沢店の料金はいくらですか？", a: "RIZAP金沢店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
   { q: "RIZAP金沢店は結果にコミットできますか？", a: "はい、RIZAPは「結果にコミット」をコンセプトに、専属トレーナーがマンツーマンで指導します。食事指導・トレーニング・メンタルサポートの三位一体で目標達成を目指します。" },
   { q: "RIZAP金沢店に30日間返金保証はありますか？", a: "はい、RIZAPでは30日間返金保証制度があります。プログラム開始から30日間、いかなる理由でも全額返金が可能です。詳細は公式サイトでご確認ください。" },
-  { q: "RIZAP金沢店のアクセスを教えてください。", a: "北陸新幹線・JR北陸本線の金沢駅から徒歩5分です。北陸地方の中心都市に位置し、富山・福井方面からもアクセスしやすい立地です。" },
+  { q: "RIZAP金沢店のアクセスを教えてください。", a: "JR金沢駅からバスで香林坊下車、徒歩7分（金沢駅東口から徒歩の場合は33分）です（RIZAP公式の店舗ページ・2026年11月20日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -58,7 +58,7 @@ export default function StorePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">RIZAP 金沢店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月20日</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">RIZAP の公式サイトはこちら</a>
         </p>
@@ -94,7 +94,7 @@ export default function StorePage() {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP金沢店は、北陸新幹線の開通で注目を集める金沢駅から徒歩5分に位置する店舗です。北陸三県でRIZAPの本格プログラムを受けられる拠点として、金沢市内のみならず富山・福井からの利用者も訪れます。観光地としても人気のエリアですが、地元の利用者が中心で落ち着いた雰囲気です。トレーナーが北陸の食文化を理解した上での食事指導を行うため、地元の食材を活かしながら無理なくダイエットに取り組めると好評です。
+            RIZAP金沢店は、金沢市竪町（香林坊バス停から徒歩7分）にある店舗です。北陸三県でRIZAPの本格プログラムを受けられる拠点として、金沢市内のみならず富山・福井からの利用者も訪れます。観光地としても人気のエリアですが、地元の利用者が中心で落ち着いた雰囲気です。トレーナーが北陸の食文化を理解した上での食事指導を行うため、地元の食材を活かしながら無理なくダイエットに取り組めると好評です。
           </p>
         </section>
                 

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 /* ---------- 基本情報 ---------- */
 const basicInfo = [
   { label: "店舗名", value: "RIZAP 恵比寿店" },
-  { label: "エリア", value: "東京都渋谷区恵比寿（正確な所在地は公式サイト・Googleマップでご確認ください）" },
+  { label: "所在地", value: "東京都渋谷区恵比寿南2-3-14 キュープラザ恵比寿南4F（RIZAP公式の店舗ページ・2026年11月20日確認）" },
   { label: "営業時間（ブランド標準）", value: "7:00〜23:00（店舗により異なります。公式サイトでご確認ください）" },
   { label: "電話番号", value: "※公式サイトでご確認ください" },
 ];
@@ -25,7 +25,7 @@ const faqItems = [
   { q: "RIZAP恵比寿店の料金はいくらですか？", a: "RIZAP恵比寿店の料金はコースにより異なりますが、ベーシックコースは全16回（2ヶ月）で327,800円（税込）が目安です。入会金は55,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
   { q: "RIZAP恵比寿店の営業時間を教えてください。", a: "7:00〜23:00です。年中無休で営業していますが、年末年始など一部例外があります。最新情報は公式サイトでご確認ください。" },
   { q: "RIZAP恵比寿店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリングが用意されています。体組成計を使った測定や、目標に応じたプラン提案を受けられます。公式サイトから予約可能です。" },
-  { q: "RIZAP恵比寿店のアクセスを教えてください。", a: "JR恵比寿駅から徒歩約5分の立地です。東京メトロ日比谷線の恵比寿駅からもアクセス可能です。" },
+  { q: "RIZAP恵比寿店のアクセスを教えてください。", a: "JR恵比寿駅西口から徒歩3分、東京メトロ日比谷線恵比寿駅5番出口から徒歩1分です（RIZAP公式の店舗ページ・2026年11月20日確認）。" },
 ];
 
 const faqJsonLd = {
@@ -62,7 +62,7 @@ export default function StorePage() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           RIZAP 恵比寿店の口コミ・評判
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月20日</p>
         <p className="text-sm mb-6">
           <a href="https://px.a8.net/svt/ejp?a8mat=45E3Q1+EF60AA+3D3Q+6ARKX" target="_blank" rel="noopener noreferrer nofollow" className="text-teal-600 hover:underline font-medium">
             RIZAP の公式サイトはこちら
