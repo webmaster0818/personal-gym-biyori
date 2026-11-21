@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP仙台店は、東北地方の中心都市・仙台の主要エリアに位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる丁寧な指導が特徴です。仙台市内だけでなく、宮城県内各地からの利用者もおり、東北でRIZAPのプログラムを受けられる貴重な拠点として評価されています。結果重視の指導とトレーナーの熱意を評価する声が目立ちます。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP仙台店は、東北地方の中心都市・仙台の主要エリアに位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる丁寧な指導が特徴です。結果重視の指導とトレーナーの熱意を評価する声が目立ちます。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

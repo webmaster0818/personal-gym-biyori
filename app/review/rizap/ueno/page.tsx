@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP上野店は、JR上野駅から徒歩圏内に位置する店舗です。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。台東区や文京区、荒川区など下町エリアからの利用者が多く、アクセスの良さが好評です。トレーナーの親しみやすさと的確な指導を評価する口コミが見られます。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP上野店は、JR上野駅から徒歩圏内に位置する店舗です。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。トレーナーの親しみやすさと的確な指導を評価する口コミが見られます。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

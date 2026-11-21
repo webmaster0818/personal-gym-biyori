@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP広島店は、広島市の中心部・上八丁堀に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標に合わせたプログラムを提供します。広島市内はもちろん、広島県内各地からの利用者も多く、中国地方でRIZAPの本格的なボディメイクプログラムを受けられると評価されています。トレーナーの専門性の高さと食事管理の手厚さが好評です。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP広島店は、広島市の中心部・上八丁堀に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標に合わせたプログラムを提供します。トレーナーの専門性の高さと食事管理の手厚さが好評です。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

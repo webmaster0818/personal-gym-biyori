@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP船橋店は、千葉県の主要都市・船橋に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが丁寧にサポートします。船橋市内だけでなく、習志野市や市川市など近隣エリアからの利用者も多く、都心まで出ずに本格的なパーソナルトレーニングを受けられると好評です。駅からのアクセスの良さと、トレーナーの質の高さが評価されています。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP船橋店は、千葉県の主要都市・船橋に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが丁寧にサポートします。駅からのアクセスの良さと、トレーナーの質の高さが評価されています。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

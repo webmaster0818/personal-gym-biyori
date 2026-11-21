@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP大宮西口店は、埼玉県の主要ターミナル・大宮駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。さいたま市内をはじめ、埼玉県内各地からの利用者が多く、都心まで出なくても本格的なRIZAPプログラムを受けられると好評です。食事指導の丁寧さとトレーナーのモチベーション管理が高く評価されています。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP大宮西口店は、埼玉県の主要ターミナル・大宮駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。食事指導の丁寧さとトレーナーのモチベーション管理が高く評価されています。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

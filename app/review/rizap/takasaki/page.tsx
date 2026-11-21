@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP高崎店は、群馬県の主要都市・高崎に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標達成まできめ細かくサポートします。高崎市内はもちろん、前橋市や群馬県内各地からの利用者もおり、北関東エリアでRIZAPの本格的なプログラムを受けられる拠点として評価されています。地方店舗ならではのアットホームな雰囲気と、トレーナーの丁寧な対応が好評です。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP高崎店は、群馬県の主要都市・高崎に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標達成まできめ細かくサポートします。地方店舗ならではのアットホームな雰囲気と、トレーナーの丁寧な対応が好評です。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

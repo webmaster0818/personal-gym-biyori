@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP京都河原町店は、京都市の中心部に位置する関西エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。京都市内在住の方に加え、滋賀県や大阪北部からの利用者もいます。歴史ある街並みの中で、本格的なボディメイクに集中して取り組める環境が評価されています。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP京都河原町店は、京都市の中心部に位置する関西エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。歴史ある街並みの中で、本格的なボディメイクに集中して取り組める環境が評価されています。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

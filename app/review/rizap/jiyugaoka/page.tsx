@@ -74,7 +74,7 @@ export default function StorePage() {
         </section>
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP自由が丘店は、おしゃれな街として知られる自由が丘エリアに位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーによるきめ細やかな指導が受けられます。目黒区・世田谷区周辺の住宅地から通う利用者が多く、落ち着いた雰囲気の中で集中してトレーニングできると好評です。女性利用者の割合が比較的高く、美容目的のボディメイクに取り組む方も多い傾向があります。</p>
+          <p className="text-gray-700 leading-relaxed">RIZAP自由が丘店は、おしゃれな街として知られる自由が丘エリアに位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーによるきめ細やかな指導が受けられます。女性利用者の割合が比較的高く、美容目的のボディメイクに取り組む方も多い傾向があります。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />
