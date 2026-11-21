@@ -22,7 +22,7 @@ const basicInfo = [
 const faqItems = [
   { q: "HABIT 梅田店の料金はいくらですか？", a: "業界最安級の月額制で通いやすい料金体系です。最新の料金は公式サイトでご確認ください。" },
   { q: "HABIT 梅田店の営業時間を教えてください。", a: "7:00〜23:00です。最新情報は公式サイトでご確認ください。" },
-  { q: "HABIT 梅田店は初心者でも大丈夫ですか？", a: "はい、初心者の方も多く通われています。トレーナーが一から丁寧に指導します。" },
+  { q: "HABIT 梅田店は初心者でも大丈夫ですか？", a: "はい、初心者の方も利用できます。トレーナーが一から丁寧に指導します。" },
   { q: "HABIT 梅田店の体験トレーニングはありますか？", a: "はい、体験トレーニングが用意されています。公式サイトから予約できます。" },
 ];
 
@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            HABIT梅田店は大阪・梅田エリアにあるHABIT初の関西店舗です。業界最安級の料金設定はそのままに、梅田駅から好アクセスで通いやすいと評判です。オリジナルプロテイン付きのサービスや、栄養・休養アドバイスも含まれた充実した内容が好評です。関西エリアで費用対効果の高いパーソナルジムを探している方から高い支持を得ています。
+            HABIT梅田店は大阪・梅田エリアにあるHABIT初の関西店舗です。
           </p>
         </section>
 

@@ -117,10 +117,10 @@ export default function StorePage() {
 <StoreGmapBox k="rita-style/kumamoto" storeName="RITA STYLE 熊本店" brandSlug="rita-style" brandName="RITA STYLE" mapsSearchUrl="https://www.google.com/maps/search/RITA+STYLE+熊本店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RITA STYLE熊本店は、通町筋駅から徒歩5分の立地にある熊本エリアの人気パーソナルジムです。2ヶ月156,200円〜という低価格ながら食事指導付きのフルサポートが受けられる点が好評です。完全個室でのマンツーマン指導により、周囲の目を気にせずトレーニングに集中できます。熊本市内でパーソナルジムを探している方にとって、価格と指導内容のバランスが良いと評価されています。
+            RITA STYLE熊本店は、通町筋駅から徒歩5分の立地にある熊本エリアのパーソナルジムです。完全個室でのマンツーマン指導により、周囲の目を気にせずトレーニングに集中できます。
           </p>
         </section>
 

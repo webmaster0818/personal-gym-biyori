@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI仙台店は、仙台駅から徒歩5分の女性専用AIフィットネスジムです。東北エリアの拠点店舗として、仙台市内の女性を中心に利用されています。月額7,678円〜の低価格で、AIサーキットトレーニングを通い放題で提供しています。東北地方でも最新のAIフィットネスが体験でき、駅近で通いやすいと好評です。予約不要で自分のスケジュールに合わせて利用できます。
+            FURDI仙台店は、仙台駅から徒歩5分の女性専用AIフィットネスジムです。月額7,678円〜の低価格で、AIサーキットトレーニングを通い放題で提供しています。予約不要で自分のスケジュールに合わせて利用できます。
           </p>
         </section>
 

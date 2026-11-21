@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            STUDIO KOMPAS渋谷店は、渋谷駅から徒歩圏内にあるパーソナルジムです。機能的なトレーニングに力を入れており、日常生活での動作改善やスポーツパフォーマンス向上を目指す方に支持されています。トレーナーの専門知識が豊富で、体の使い方から丁寧に指導してもらえると好評です。
+            STUDIO KOMPAS渋谷店は、渋谷駅から徒歩圏内にあるパーソナルジムです。
           </p>
         </section>
 

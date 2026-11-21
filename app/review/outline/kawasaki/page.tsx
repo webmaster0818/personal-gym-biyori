@@ -86,8 +86,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">OUTLINE川崎店は、川崎駅近くにある女性専用パーソナルジムです。完全個室・完全予約制で、プライベートな空間でのマンツーマン指導が受けられます。採用率3%以下の厳選されたトレーナーによる指導と、生涯アフターフォロー制度が口コミで高評価です。神奈川エリアで本格的な女性向けパーソナルジムを探している方に支持されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">OUTLINE川崎店は、川崎駅近くにある女性専用パーソナルジムです。完全個室・完全予約制で、プライベートな空間でのマンツーマン指導が受けられます。</p>
         </section>
 
         <section className="mb-10">

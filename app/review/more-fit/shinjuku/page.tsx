@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            more fit新宿店は手頃な価格帯でパーソナルトレーニングが受けられるジムです。初めてパーソナルジムに通う方でも負担の少ない料金設定が好評で、コストを抑えながら本格的な指導を受けたい方に支持されています。トレーナーの対応も親切で、継続して通いやすい環境が整っています。
+            more fit新宿店は手頃な価格帯でパーソナルトレーニングが受けられるジムです。
           </p>
         </section>
 

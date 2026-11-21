@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND錦糸町店は錦糸町駅から徒歩5分に位置する店舗です。墨田区・江東区エリアの方に利用されており、落ち着いた環境でトレーニングに集中できると好評です。ボディメイクの実績が豊富なトレーナーが在籍し、理想の体型に向けた的確なアドバイスが口コミで高く評価されています。
+            BEYOND錦糸町店は錦糸町駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

@@ -98,9 +98,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI千歳烏山店は、千歳烏山駅から徒歩3分の女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。世田谷区エリアで気軽にフィットネスを始めたい女性に人気です。AIトレーナーによるフォーム指導で、初心者でも安心して取り組めます。
+            FURDI千歳烏山店は、千歳烏山駅から徒歩3分の女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。
           </p>
         </section>
 

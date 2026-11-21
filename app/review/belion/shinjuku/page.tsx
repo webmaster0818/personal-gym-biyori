@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            BELION新宿店は高級感のある内装と質の高いサービスが特徴のパーソナルジムです。完全個室のプライベート空間でトレーニングでき、周囲を気にせず集中できる環境が評価されています。トレーナーの指導力が高く、目標達成に向けた的確なアドバイスが受けられると利用者から好評です。
+            BELION新宿店は、新宿エリアのパーソナルジムです。
           </p>
         </section>
 

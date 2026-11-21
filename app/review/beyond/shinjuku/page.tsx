@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND新宿店はボディメイクコンテスト入賞経験を持つトレーナーが在籍する人気店舗です。入会金無料で、回数券制のため自分のペースで通える点が好評です。トレーニング指導の質が高く、筋肉をつけたい方やボディラインを整えたい方に特に支持されています。新宿駅からのアクセスも良好で、仕事帰りの利用者が多い店舗です。
+            BEYOND新宿店は、新宿エリアの店舗です。
           </p>
         </section>
                 

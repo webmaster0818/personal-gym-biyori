@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP名駅南店は、東海地方の玄関口・名古屋駅から徒歩8分のビジネス街に位置する店舗です。名古屋駅周辺の再開発で注目を集めるエリアにあり、ビジネスパーソンの利用が非常に多いのが特徴です。新幹線利用で出張が多い方にも通いやすい立地です。トレーナーの専門性が高く、科学的根拠に基づいたトレーニングプログラムが評価されています。短期間で効率的に成果を出したい方から特に支持を集めています。
+            RIZAP名駅南店は、東海地方の玄関口・名古屋駅から徒歩8分のビジネス街に位置する店舗です。
           </p>
         </section>
                 

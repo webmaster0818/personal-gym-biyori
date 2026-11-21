@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY横浜店は、横浜駅から徒歩圏内にある女性専用パーソナルジムです。トレーニングと食事宅配がセットになったプランが神奈川エリアの女性に人気です。清潔感のある空間とトレーナーの質の高さが口コミで評価されています。
+            UNDEUX SUPERBODY横浜店は、横浜駅から徒歩圏内にある女性専用パーソナルジムです。
           </p>
         </section>
 

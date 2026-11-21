@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND所沢店は所沢駅から徒歩5分に位置する店舗です。所沢市エリアの方に利用されており、埼玉県西部で本格的なパーソナルトレーニングを受けたい方に選ばれています。トレーナーの親身な対応と、目標達成に向けた計画的な指導が口コミで高く評価されています。
+            BEYOND所沢店は所沢駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

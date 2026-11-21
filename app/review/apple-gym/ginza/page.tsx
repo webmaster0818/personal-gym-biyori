@@ -75,8 +75,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">Apple GYM銀座店は銀座駅から徒歩5分の立地にある海外式ボディメイクパーソナルジムです。仕事帰りの利用者に人気があります。姿勢改善をベースにした独自メソッドが特徴です（食事サポートは別料金のオプション）。銀座エリアで質の高いパーソナルトレーニングを手頃な価格で受けたい方に選ばれています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">Apple GYM銀座店は銀座駅から徒歩5分の立地にある海外式ボディメイクパーソナルジムです。姿勢改善をベースにした独自メソッドが特徴です（食事サポートは別料金のオプション）。</p>
         </section>
 
                 

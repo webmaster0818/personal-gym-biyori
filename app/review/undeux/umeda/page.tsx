@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY梅田店は、梅田駅から徒歩圏内にある女性専用パーソナルジムです。関西エリアの女性に人気で、トレーニングと食事宅配サービスの組み合わせが特徴です。おしゃれな空間と丁寧なカウンセリングが口コミで好評です。
+            UNDEUX SUPERBODY梅田店は、梅田駅から徒歩圏内にある女性専用パーソナルジムです。
           </p>
         </section>
 

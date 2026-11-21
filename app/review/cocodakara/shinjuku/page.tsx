@@ -114,10 +114,10 @@ export default function StorePage() {
 <StoreGmapBox k="cocodakara/shinjuku" storeName="CoCoDakara 新宿店" brandSlug="cocodakara" brandName="CoCoDakara 総合レビュー" mapsSearchUrl="https://www.google.com/maps/search/CoCoDakara+新宿店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CoCoDakara新宿店は、新宿駅から徒歩5分というアクセスの良い立地にある完全個室パーソナルジムです。仕事帰りにも通いやすく、忙しいビジネスパーソンからの支持を集めています。完全マンツーマン指導で、トレーナーが一人ひとりの体質や目標に合わせたプログラムを組んでくれるため、効率的にボディメイクが進められると評判です。
+            CoCoDakara新宿店は、新宿駅から徒歩5分というアクセスの良い立地にある完全個室パーソナルジムです。
           </p>
         </section>
 

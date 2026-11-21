@@ -109,10 +109,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ASPI池袋店は池袋駅から徒歩5分のアクセスの良さが特徴です。有資格トレーナーによる質の高い指導が受けられ、月額7,600円からの低価格帯が好評です。ダイエット目的や健康維持を目指す方に支持されています。オンライン食事指導やストレッチ指導も含まれ、総合的な体づくりをサポートしてくれます。
+            ASPI池袋店は池袋駅から徒歩5分のアクセスの良さが特徴です。オンライン食事指導やストレッチ指導も含まれ、総合的な体づくりをサポートしてくれます。
           </p>
         </section>
 

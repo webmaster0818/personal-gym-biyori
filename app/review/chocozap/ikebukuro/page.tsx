@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            chocoZAP池袋店は、池袋駅から徒歩圏内にあるコンビニジムです。月額3,278円（税込）で24時間利用可能、セルフエステやセルフ脱毛も使い放題です。運動初心者でも気軽に始められる敷居の低さが口コミで評価されています。
+            chocoZAP池袋店は、池袋駅から徒歩圏内にあるコンビニジムです。月額3,278円（税込）で24時間利用可能、セルフエステやセルフ脱毛も使い放題です。
           </p>
         </section>
 

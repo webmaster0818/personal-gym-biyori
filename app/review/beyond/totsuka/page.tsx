@@ -131,10 +131,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND戸塚店はJR戸塚駅西口から徒歩2分の場所にある店舗です。横浜市戸塚区エリアの方に利用されており、住宅街に位置する落ち着いた雰囲気が特徴です。トレーナーが利用者の目標達成に向けて親身にサポートしてくれると好評で、長期的に通い続ける会員が多い店舗です。
+            BEYOND戸塚店はJR戸塚駅西口から徒歩2分の場所にある店舗です。
           </p>
         </section>
                 

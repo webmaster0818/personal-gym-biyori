@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            TRIPLE M新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。ボディメイクに特化したトレーニングプログラムが特徴で、筋力アップと脂肪燃焼を効率的に両立できると好評です。トレーナーの指導が熱心で、モチベーションを維持しやすい環境づくりに力を入れています。
+            TRIPLE M新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。トレーナーの指導が熱心で、モチベーションを維持しやすい環境づくりに力を入れています。
           </p>
         </section>
 

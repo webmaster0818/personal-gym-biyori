@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            ASmake新宿店は体型を整えることに特化したパーソナルジムです。無理な食事制限をせず、体のラインを美しくするためのトレーニング指導が特徴です。女性利用者からの評価が高く、姿勢改善や部分痩せに効果を感じたという口コミが多く見られます。駅近で通いやすい立地も特徴です。
+            ASmake新宿店は体型を整えることに特化したパーソナルジムです。無理な食事制限をせず、体のラインを美しくするためのトレーニング指導が特徴です。
           </p>
         </section>
 

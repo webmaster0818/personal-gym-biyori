@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND町田店は、東京都町田市の中心部に位置しています。ボディメイクコンテスト入賞経験者のトレーナーによる本格的な指導が受けられます。入会金無料・回数券制で、自分のペースで通えるのが特徴です。町田市内だけでなく、相模原市や横浜市北部からの利用者も多く、多摩南部エリアの拠点として支持されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND町田店は、東京都町田市の中心部に位置しています。ボディメイクコンテスト入賞経験者のトレーナーによる本格的な指導が受けられます。入会金無料・回数券制で、自分のペースで通えるのが特徴です。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

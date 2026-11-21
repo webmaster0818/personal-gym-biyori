@@ -84,9 +84,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            ハコジム広島店は、広島市の本通駅近くにある完全個室型のパーソナルジムです。「ハコ」の名前の通り、個室のボックス空間で周囲を気にせずトレーニングできるのが特徴です。24時間利用可能な店舗もあり、自分のペースで通えると広島エリアの利用者に好評です。
+            ハコジム広島店は、広島市の本通駅近くにある完全個室型のパーソナルジムです。「ハコ」の名前の通り、個室のボックス空間で周囲を気にせずトレーニングできるのが特徴です。
           </p>
         </section>
 

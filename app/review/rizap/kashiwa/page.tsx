@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP柏店は、千葉県北西部の商業拠点である柏駅東口から徒歩3分の場所にある店舗です。柏エリアは若い世代の居住者が多く、ダイエットやボディメイクへの関心が高い利用者が集まっています。常磐線で都心へ通勤する方が仕事帰りに立ち寄れる利便性も特徴です。トレーナーが目標達成に向けて粘り強くサポートしてくれると好評で、途中で諦めずに最後までやり遂げられたという声が多く聞かれます。
+            RIZAP柏店は、千葉県北西部の商業拠点である柏駅東口から徒歩3分の場所にある店舗です。常磐線で都心へ通勤する方が仕事帰りに立ち寄れる利便性も特徴です。
           </p>
         </section>
                 

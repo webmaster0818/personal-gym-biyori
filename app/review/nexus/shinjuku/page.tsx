@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/shinjuku" storeName="Nexusジム 新宿店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+新宿店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム新宿店は新宿駅から徒歩5分というアクセスの良さが特徴のパーソナルジムです。仕事帰りに通う利用者が多く、忙しいビジネスパーソンに人気があります。トレーナーが親切でモチベーションを維持しやすいという口コミが目立ちます。短期間での体型変化を実感したという声も多く、効率的なトレーニング指導が評価されています。新宿エリアの激戦区の中でもコストパフォーマンスの高さが支持されています。
+            Nexusジム新宿店は新宿駅から徒歩5分というアクセスの良さが特徴のパーソナルジムです。
           </p>
         </section>
 

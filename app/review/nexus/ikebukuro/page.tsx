@@ -120,10 +120,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/ikebukuro" storeName="Nexusジム 池袋店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+池袋店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム池袋店は池袋駅から徒歩5分の立地にあるパーソナルジムです。利用者からはトレーナーの親しみやすさと専門知識の両立が評価されています。初心者でも無理なく始められるプログラム設計が特徴で、運動習慣のない方からの支持が特に高い店舗です。池袋エリアの中でもリーズナブルな価格帯で本格的なパーソナルトレーニングを受けられると好評です。
+            Nexusジム池袋店は池袋駅から徒歩5分の立地にあるパーソナルジムです。
           </p>
         </section>
 

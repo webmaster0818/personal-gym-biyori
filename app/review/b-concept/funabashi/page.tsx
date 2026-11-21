@@ -87,8 +87,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">ビーコンセプト船橋店は、船橋駅近くに位置する女性専用パーソナルジムです。下半身・脚痩せに特化した独自のトレーニングメソッドが特徴で、千葉エリアで本格的な脚痩せプログラムを受けられる貴重な店舗です。完全個室で人目を気にせずトレーニングでき、アフターフォローの充実度も高く評価されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">ビーコンセプト船橋店は、船橋駅近くに位置する女性専用パーソナルジムです。下半身・脚痩せに特化した独自のトレーニングメソッドが特徴で、千葉エリアで本格的な脚痩せプログラムを受けられる貴重な店舗です。</p>
         </section>
 
         <section className="mb-10">

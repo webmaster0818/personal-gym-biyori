@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND荻窪店は荻窪駅から徒歩5分に位置する店舗です。杉並区エリアの閑静な住宅街にあり、落ち着いた環境でトレーニングに集中できます。地元の方を中心に、健康維持やボディメイクを目的とした利用者が多い店舗です。トレーナーの知識が豊富で、科学的根拠に基づいた指導が口コミで評価されています。
+            BEYOND荻窪店は荻窪駅から徒歩5分に位置する店舗です。杉並区エリアの閑静な住宅街にあり、落ち着いた環境でトレーニングに集中できます。
           </p>
         </section>
                 

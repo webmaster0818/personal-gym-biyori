@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND金山店は金山駅から徒歩5分に位置する店舗です。名古屋市中区エリアの方を中心に利用されており、金山駅は複数路線が乗り入れるためアクセスが非常に便利です。トレーナーの指導力が高く、短期間での体の変化を実感する利用者が多い傾向にあります。明るい店内と充実した設備が好評です。
+            BEYOND金山店は金山駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

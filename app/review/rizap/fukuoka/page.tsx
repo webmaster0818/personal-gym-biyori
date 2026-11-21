@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP天神店は、地下鉄赤坂駅から徒歩5分の場所にある九州の主要店舗です。完全個室のマンツーマントレーニング環境が整っています。天神エリアの立地で仕事帰りに通いやすく、九州エリアでの利用者満足度が高い店舗です。トレーナーの熱心な指導と食事管理サポートが高く評価されています。
+            RIZAP天神店は、地下鉄赤坂駅から徒歩5分の場所にある九州の主要店舗です。完全個室のマンツーマントレーニング環境が整っています。
           </p>
         </section>
                 

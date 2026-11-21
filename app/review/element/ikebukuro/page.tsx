@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ELEMENT池袋店は、池袋駅から徒歩圏内にある通い放題型パーソナルジムです。月額定額制で何回でもパーソナルトレーニングが受けられるため、週に複数回通う利用者が多い傾向にあります。30分の短時間セッションで効率的にボディメイクできると好評です。
+            ELEMENT池袋店は、池袋駅から徒歩圏内にある通い放題型パーソナルジムです。
           </p>
         </section>
 

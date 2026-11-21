@@ -96,9 +96,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT西船橋店は、複数路線が乗り入れる西船橋駅から徒歩5分に位置するパーソナルジムです。船橋エリアで完全個室のパーソナルトレーニングをリーズナブルに受けたい女性に支持されています。ウェアやタオルのレンタルが無料で手ぶら通いができるため、通勤経路上にある方が仕事帰りに利用するケースが多いようです。
+            RAT西船橋店は、複数路線が乗り入れる西船橋駅から徒歩5分に位置するパーソナルジムです。
           </p>
         </section>
 

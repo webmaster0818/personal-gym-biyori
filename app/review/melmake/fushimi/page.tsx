@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            メルメイク伏見店は、伏見駅から徒歩1分という良好なアクセスが特徴のパーソナルジムです。名古屋の中心部に位置しており、仕事帰りやランチタイムに通いやすいと好評です。リーズナブルな料金でありながら、トレーナーの質が高く、効率的なボディメイクが可能と口コミで支持されています。
+            メルメイク伏見店は、伏見駅から徒歩1分という良好なアクセスが特徴のパーソナルジムです。
           </p>
         </section>
 

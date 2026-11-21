@@ -120,10 +120,10 @@ export default function StorePage() {
 <StoreGmapBox k="calorie-trade/beppu" storeName="CALORIE TRADE JAPAN 別府店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+別府店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CALORIE TRADE JAPAN 別府店は、大分県別府市の石垣東エリアに位置するパーソナルジムです。温泉地として知られる別府市において、健康意識の高い地元の方々に利用されています。カロリー管理を軸にした食事指導とパーソナルトレーニングの組み合わせで、生活習慣の改善からダイエットまで幅広いニーズに対応しています。大分県内でダイエット特化型のパーソナルジムを探している方に注目されています。
+            CALORIE TRADE JAPAN 別府店は、大分県別府市の石垣東エリアに位置するパーソナルジムです。カロリー管理を軸にした食事指導とパーソナルトレーニングの組み合わせで、生活習慣の改善からダイエットまで幅広いニーズに対応しています。
           </p>
         </section>
 

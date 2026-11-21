@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="rita-style/kokura" storeName="RITA STYLE 小倉店" brandSlug="rita-style" brandName="RITA STYLE" mapsSearchUrl="https://www.google.com/maps/search/RITA+STYLE+小倉店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RITA STYLE小倉店は、小倉駅から徒歩5分の立地にある北九州エリアの人気パーソナルジムです。2ヶ月156,200円〜という低価格ながら食事指導付きのフルサポートが受けられる点が好評です。完全個室でのマンツーマン指導により、トレーニング初心者でも安心して取り組めると評価されています。北九州エリアでパーソナルジムの選択肢が限られる中、費用対効果の高さで支持を集めています。
+            RITA STYLE小倉店は、小倉駅から徒歩5分の立地にある北九州エリアのパーソナルジムです。
           </p>
         </section>
 

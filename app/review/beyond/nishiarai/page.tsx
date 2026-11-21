@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND西新井店は西新井駅から徒歩5分に位置する店舗です。足立区西部エリアの方に利用されており、アットホームな雰囲気が特徴です。トレーナーが利用者の体力レベルや目標に合わせて段階的にプログラムを調整してくれるため、無理なく続けられると好評です。ダイエット成功の口コミが多い店舗です。
+            BEYOND西新井店は西新井駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

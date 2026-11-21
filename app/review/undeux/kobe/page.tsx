@@ -90,8 +90,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY神戸店は、三宮駅近くにある女性専用パーソナルジムです。神戸エリアで女性専用の本格パーソナルジムとして人気があり、洗練された空間でトレーニングに集中できます。管理栄養士監修の食事指導と宅配食サービスのセットプランが特徴で、トータルなボディメイクが可能です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY神戸店は、三宮駅近くにある女性専用パーソナルジムです。管理栄養士監修の食事指導と宅配食サービスのセットプランが特徴で、トータルなボディメイクが可能です。</p>
         </section>
 
         

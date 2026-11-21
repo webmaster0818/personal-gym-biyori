@@ -109,10 +109,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ASPI錦糸町店は錦糸町駅から徒歩3分の好アクセスが特徴の店舗です。全トレーナーが有資格者で、運動初心者でも安心して通えると評判です。月額7,600円からのリーズナブルな料金設定で、長期的に続けやすい点が支持されています。食事指導やストレッチ指導も含まれたトータルサポートが特徴です。
+            ASPI錦糸町店は錦糸町駅から徒歩3分の好アクセスが特徴の店舗です。食事指導やストレッチ指導も含まれたトータルサポートが特徴です。
           </p>
         </section>
 

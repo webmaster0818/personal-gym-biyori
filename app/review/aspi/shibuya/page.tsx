@@ -109,10 +109,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ASPI渋谷店は渋谷エリアで有資格トレーナーの指導を受けられる人気店舗です。月額7,600円からという価格設定と、全トレーナーが資格保有者という品質の高さが特徴です。渋谷駅から徒歩5分の立地で、仕事帰りや休日に通いやすいと好評です。ストレッチ指導も含まれ、身体の柔軟性改善にも取り組めます。
+            ASPI渋谷店は、ASPIの渋谷エリアの店舗です。ストレッチ指導も含まれ、身体の柔軟性改善にも取り組めます。
           </p>
         </section>
 

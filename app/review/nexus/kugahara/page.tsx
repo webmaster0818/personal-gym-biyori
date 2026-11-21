@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/kugahara" storeName="Nexusジム 久が原店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+久が原店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム久が原店は久が原駅から徒歩2分という駅近のパーソナルジムです。月額19,800円〜の格安料金でマンツーマン指導が受けられると好評です。閑静な住宅街に位置し、落ち着いた環境でトレーニングに集中できる点が口コミで評価されています。大田区で格安パーソナルジムを探している方におすすめです。
+            Nexusジム久が原店は久が原駅から徒歩2分という駅近のパーソナルジムです。
           </p>
         </section>
 

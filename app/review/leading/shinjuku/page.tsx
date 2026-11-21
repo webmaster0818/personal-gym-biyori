@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            LEADING新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。トレーナーのリーダーシップある指導スタイルが特徴で、目標達成に向けて力強くサポートしてくれると好評です。ダイエットから筋力アップまで幅広い目的に対応しており、結果にこだわるトレーニングプログラムが支持されています。
+            LEADING新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。
           </p>
         </section>
 

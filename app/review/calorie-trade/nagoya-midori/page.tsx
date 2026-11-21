@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="calorie-trade/nagoya-midori" storeName="CALORIE TRADE JAPAN 名古屋緑区店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+名古屋緑区店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CALORIE TRADE JAPAN 名古屋緑区店は、名古屋市緑区の大将ヶ根エリアに位置するパーソナルジムです。緑区は名古屋市内でもファミリー層が多い住宅地で、子育て世代の利用者も見られます。カロリーに着目した科学的な食事指導とトレーニングの組み合わせで、無理のないダイエットを実現できると評判です。車でのアクセスも良く、郊外型ならではの落ち着いた環境でトレーニングに集中できます。
+            CALORIE TRADE JAPAN 名古屋緑区店は、名古屋市緑区の大将ヶ根エリアに位置するパーソナルジムです。車でのアクセスも良く、郊外型ならではの落ち着いた環境でトレーニングに集中できます。
           </p>
         </section>
 

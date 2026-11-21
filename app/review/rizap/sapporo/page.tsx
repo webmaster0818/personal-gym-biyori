@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP札幌店は、地下鉄大通駅から徒歩8分の場所にある北海道の店舗です。完全個室のマンツーマントレーニング環境が整っています。トレーナーの指導力を高く評価する声が多い店舗です。
+            RIZAP札幌店は、地下鉄大通駅から徒歩8分の場所にある北海道の店舗です。完全個室のマンツーマントレーニング環境が整っています。
           </p>
         </section>
                 

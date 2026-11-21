@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAPなんば店は、なんば駅から徒歩圏内に位置する大阪の主要店舗です。完全個室のマンツーマントレーニング環境が整い、関西エリアのビジネスパーソンや買い物ついでに通う利用者から支持されています。なんばの立地で通いやすく、結果にコミットするプログラムが好評です。トレーナーの親しみやすさと指導の手厚さを評価する口コミが多い店舗です。
+            RIZAPなんば店は、なんば駅から徒歩圏内に位置する大阪の主要店舗です。
           </p>
         </section>
                 

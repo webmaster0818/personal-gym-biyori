@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND船橋店は、千葉県船橋市の中心部に位置しています。入会金無料・回数券制で、気軽にパーソナルトレーニングを始められます。ボディメイクコンテスト経験者のトレーナーが在籍し、専門的な指導が受けられます。船橋市内はもちろん、習志野市や市川市など近隣エリアからの利用者も多く、千葉県内で本格的なトレーニングを求める方に支持されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND船橋店は、千葉県船橋市の中心部に位置しています。入会金無料・回数券制で、気軽にパーソナルトレーニングを始められます。ボディメイクコンテスト経験者のトレーナーが在籍し、専門的な指導が受けられます。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

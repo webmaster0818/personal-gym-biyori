@@ -107,10 +107,10 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング自由が丘店は、自由が丘駅から徒歩3分の立地にある店舗です。おしゃれな街並みに馴染む清潔感のある空間で、リラックスしてトレーニングに取り組めると好評です。地域の主婦層やOLからの支持が高く、ダイエットや産後ケアを目的とした利用者が多いのが特徴です。都度払いで気軽に始められる点も人気の理由です。
+            Dr.トレーニング自由が丘店は、自由が丘駅から徒歩3分の立地にある店舗です。
           </p>
         </section>
 

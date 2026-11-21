@@ -111,10 +111,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング池袋店は、池袋駅から徒歩圏内に位置する店舗です。医学的根拠に基づいた指導で、身体の仕組みを理解しながらトレーニングできると評判です。都度払い制のため、まとまった費用が不要な点が支持されています。肩こりや腰痛改善を目的に通う利用者も多い傾向にあります。
+            Dr.トレーニング池袋店は、池袋駅から徒歩圏内に位置する店舗です。
           </p>
         </section>
 

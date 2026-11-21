@@ -112,10 +112,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            OUTLINE銀座店は、銀座駅から好アクセスの女性専用パーソナルジムです。女性トレーナーによる完全個室指導で、女性特有の身体の悩みに寄り添ったプログラムが特徴です。生涯アフターフォロー付きで、卒業後のリバウンド防止まできめ細かくサポートしてくれると好評です。
+            OUTLINE銀座店は、銀座駅から好アクセスの女性専用パーソナルジムです。女性トレーナーによる完全個室指導で、女性特有の身体の悩みに寄り添ったプログラムが特徴です。
           </p>
         </section>
 

@@ -116,10 +116,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Laststyle池袋店は、池袋駅から徒歩圏内に位置するパーソナルジムです。リーズナブルな価格帯ながら質の高い指導が受けられると評判です。トレーナーが親身になって目標設定をサポートしてくれるため、初心者でも安心して通えるという口コミが多い傾向にあります。
+            Laststyle池袋店は、池袋駅から徒歩圏内に位置するパーソナルジムです。
           </p>
         </section>
 

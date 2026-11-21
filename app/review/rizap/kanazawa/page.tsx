@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP金沢店は、金沢市竪町（香林坊バス停から徒歩7分）にある店舗です。トレーナーが北陸の食文化を理解した上での食事指導を行うため、地元の食材を活かしながら無理なくダイエットに取り組めると好評です。
+            RIZAP金沢店は、金沢市竪町（香林坊バス停から徒歩7分）にある店舗です。
           </p>
         </section>
                 

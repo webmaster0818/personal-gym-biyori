@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/nishikasai" storeName="Nexusジム 西葛西店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+西葛西店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム西葛西店は西葛西駅から徒歩2分の立地にあるパーソナルジムです。江戸川区エリアで月額19,800円〜の格安料金でマンツーマン指導が受けられる貴重な存在です。駅に近く仕事帰りにも通いやすい点と、トレーナーの親切な指導が口コミで好評です。江戸川区でパーソナルジムデビューを考えている方に特に支持されています。
+            Nexusジム西葛西店は西葛西駅から徒歩2分の立地にあるパーソナルジムです。江戸川区エリアで月額19,800円〜の格安料金でマンツーマン指導が受けられる貴重な存在です。
           </p>
         </section>
 

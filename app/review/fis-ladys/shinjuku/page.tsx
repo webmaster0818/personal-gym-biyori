@@ -84,9 +84,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            fis.lady&apos;s新宿店は女性専用のパーソナルトレーニングジムです。女性特有の悩みに寄り添ったプログラムが特徴で、産後ダイエットやブライダルボディメイクにも対応しています。女性トレーナーが在籍しており、安心して相談できる環境が整っていると好評です。
+            fis.lady&apos;s新宿店は女性専用のパーソナルトレーニングジムです。女性特有の悩みに寄り添ったプログラムが特徴で、産後ダイエットやブライダルボディメイクにも対応しています。
           </p>
         </section>
 

@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY下北沢店は、下北沢駅から徒歩4分の女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。下北沢エリアの活気ある街並みの中、楽しくトレーニングに通えると好評です。
+            UNDEUX SUPERBODY下北沢店は、下北沢駅から徒歩4分の女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。
           </p>
         </section>
 

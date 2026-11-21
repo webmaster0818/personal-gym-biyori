@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト金山店は、金山駅から徒歩圏内に位置する名古屋市の店舗です。JR・名鉄・地下鉄が乗り入れる金山駅は交通の要所で、名古屋市内各方面からのアクセスに優れています。完全個室でのマンツーマン指導で、仕事帰りに気軽に立ち寄れると評判です。3食しっかり食べるダイエットメソッドで名古屋めしを楽しみながらも健康的に体重管理でき、深夜24時まで営業しているため柔軟に通えます。
+            24/7ワークアウト金山店は、金山駅から徒歩圏内に位置する名古屋市の店舗です。JR・名鉄・地下鉄が乗り入れる金山駅は交通の要所で、名古屋市内各方面からのアクセスに優れています。
           </p>
         </section>
                 

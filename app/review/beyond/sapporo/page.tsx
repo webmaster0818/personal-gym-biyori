@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND札幌店は、札幌駅から徒歩圏内に位置する北海道の店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、札幌市内の利用者を中心に支持されています。入会金無料・回数券制で始めやすく、北海道で本格的なパーソナルトレーニングを受けられる貴重な店舗として評価されています。冬場でも駅近で通いやすい点が好評です。
+            BEYOND札幌店は、札幌駅から徒歩圏内に位置する北海道の店舗です。
           </p>
         </section>
                 

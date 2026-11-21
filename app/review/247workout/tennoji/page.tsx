@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト天王寺店は、天王寺駅から徒歩圏内に位置する大阪南部エリアの店舗です。あべのハルカスやショッピング施設が集まる活気あるエリアで、買い物ついでに通える利便性が好評です。完全個室でのマンツーマン指導で、3食しっかり食べるダイエットメソッドにより無理なく健康的にダイエットできます。深夜24時まで営業しており、大阪南部にお住まいの方や沿線利用者に支持されています。
+            24/7ワークアウト天王寺店は、天王寺駅から徒歩圏内に位置する大阪南部エリアの店舗です。完全個室でのマンツーマン指導で、3食しっかり食べるダイエットメソッドにより無理なく健康的にダイエットできます。
           </p>
         </section>
                 

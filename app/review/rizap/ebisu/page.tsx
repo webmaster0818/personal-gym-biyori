@@ -117,10 +117,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP恵比寿店は、恵比寿駅から徒歩圏内の落ち着いたエリアに位置しています。完全個室のマンツーマントレーニングが特徴で、プライバシーを重視する利用者から高い評価を得ています。おしゃれな街並みの中にあり、トレーニング前後の時間を楽しめる点も好評です。トレーナーの対応が丁寧で、初心者にも通いやすいという声が多く聞かれます。
+            RIZAP恵比寿店は、恵比寿駅から徒歩圏内の落ち着いたエリアに位置しています。
           </p>
         </section>
                 

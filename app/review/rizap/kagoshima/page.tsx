@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP鹿児島店は、鹿児島最大の繁華街・天文館エリアに位置する店舗です。南国らしい明るくフレンドリーなトレーナーが多く、楽しみながらも確実に結果を出すプログラムが好評です。地元の食文化に配慮した食事指導も評価が高く、無理なく食生活を改善できたという声が多い傾向にあります。
+            RIZAP鹿児島店は、鹿児島最大の繁華街・天文館エリアに位置する店舗です。
           </p>
         </section>
                 

@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            OUTLINE新宿店は、新宿駅から徒歩圏内にある女性専用パーソナルジムです。完全個室・完全予約制のプライベート空間で、女性トレーナーによるマンツーマン指導が特徴です。リバウンド防止のためのアフターフォローが生涯無料という点が口コミで高く評価されています。
+            OUTLINE新宿店は、新宿駅から徒歩圏内にある女性専用パーソナルジムです。完全個室・完全予約制のプライベート空間で、女性トレーナーによるマンツーマン指導が特徴です。
           </p>
         </section>
 

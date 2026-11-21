@@ -117,10 +117,10 @@ export default function StorePage() {
         {/* 口コミ概要 */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CoCoDakara渋谷店は、渋谷駅から徒歩5分の好アクセスに位置する完全個室パーソナルジムです。完全マンツーマン指導とオーダーメイドプログラムが特徴で、プライベート空間でじっくりトレーニングに集中できると好評です。食事指導も含まれており、運動と食事の両面からボディメイクをサポートしてくれる点が高く評価されています。
+            CoCoDakara渋谷店は、渋谷駅から徒歩5分の好アクセスに位置する完全個室パーソナルジムです。
           </p>
         </section>
 

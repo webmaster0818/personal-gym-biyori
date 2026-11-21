@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/shin-nakano" storeName="Nexusジム 新中野店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+新中野店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム新中野店は新中野駅から徒歩6分のパーソナルジムです。中野区エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられます。経験豊富なトレーナーの丁寧な指導と、落ち着いた環境でのトレーニングが口コミで好評です。中野区で格安のパーソナルジムを探している方に支持されています。
+            Nexusジム新中野店は新中野駅から徒歩6分のパーソナルジムです。中野区エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられます。
           </p>
         </section>
 

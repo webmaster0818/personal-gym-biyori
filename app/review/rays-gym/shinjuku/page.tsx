@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            Rays GyM新宿店は筋力トレーニングに力を入れたパーソナルジムです。本格的なウェイトトレーニングの指導が受けられ、筋肉量の増加やパフォーマンス向上を目指す方に人気があります。トレーナー自身がトレーニング経験豊富で、実体験に基づいた的確なアドバイスが好評です。
+            Rays GyM新宿店は筋力トレーニングに力を入れたパーソナルジムです。
           </p>
         </section>
 

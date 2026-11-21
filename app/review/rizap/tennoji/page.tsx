@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP天王寺店は、あべのハルカスがそびえる天王寺エリアに位置する店舗です。梅田やなんばの店舗と比べて予約が取りやすいと評判で、自分の都合に合わせた柔軟なスケジュールでトレーニングを進められます。トレーナーが生活習慣全体を見直すサポートをしてくれるため、プログラム終了後もリバウンドしにくいとの口コミが多い傾向にあります。
+            RIZAP天王寺店は、あべのハルカスがそびえる天王寺エリアに位置する店舗です。
           </p>
         </section>
                 

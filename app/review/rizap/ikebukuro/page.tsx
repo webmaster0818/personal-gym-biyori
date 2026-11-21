@@ -118,10 +118,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP池袋西口店は池袋駅西口から徒歩5分の場所にあります。副都心エリアのターミナル駅近くに位置し、埼玉方面からのアクセスも良好です。完全個室の環境でトレーニングに集中でき、食事指導も手厚いと評価されています。ダイエット目的の利用者を中心に、確実な成果を求める方に選ばれています。
+            RIZAP池袋西口店は池袋駅西口から徒歩5分の場所にあります。副都心エリアのターミナル駅近くに位置し、埼玉方面からのアクセスも良好です。
           </p>
         </section>
                 

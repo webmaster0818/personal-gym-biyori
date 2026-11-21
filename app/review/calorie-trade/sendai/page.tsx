@@ -120,10 +120,10 @@ export default function StorePage() {
 <StoreGmapBox k="calorie-trade/sendai" storeName="CALORIE TRADE JAPAN 仙台泉区店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+仙台泉区店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CALORIE TRADE JAPAN 仙台泉区店は、仙台市泉区のみずほ台エリアに位置するパーソナルジムです。泉区は仙台市北部のベッドタウンとして発展しており、落ち着いた住宅環境の中でトレーニングに取り組めます。東北地方でダイエット特化型のパーソナルジムを探している方に選ばれており、カロリー管理に基づく食事指導とマンツーマンのトレーニングが好評です。寒冷地ならではの室内運動需要にも応えています。
+            CALORIE TRADE JAPAN 仙台泉区店は、仙台市泉区のみずほ台エリアに位置するパーソナルジムです。泉区は仙台市北部のベッドタウンとして発展しており、落ち着いた住宅環境の中でトレーニングに取り組めます。寒冷地ならではの室内運動需要にも応えています。
           </p>
         </section>
 

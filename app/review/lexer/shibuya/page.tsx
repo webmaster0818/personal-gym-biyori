@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="lexer/shibuya" storeName="REXER 渋谷店" brandSlug="lexer" brandName="REXER" mapsSearchUrl="https://www.google.com/maps/search/REXER+渋谷店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            REXER渋谷店は渋谷駅から徒歩5分の好アクセスに位置するパーソナルジムです。完全個室のトレーニング空間で、周りの目を気にせず集中してトレーニングに取り組めると好評です。特にダイエット目的の利用者からの支持が高く、食事管理と運動の両面からサポートしてもらえる点が評価されています。渋谷エリアで働くビジネスパーソンの利用が多い店舗です。
+            REXER渋谷店は渋谷駅から徒歩5分の好アクセスに位置するパーソナルジムです。
           </p>
         </section>
 

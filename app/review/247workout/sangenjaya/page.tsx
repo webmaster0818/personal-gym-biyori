@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト三軒茶屋店は、三軒茶屋駅から徒歩圏内に位置し、世田谷区エリアの方に利用しやすい店舗です。住宅街に近い立地ながら本格的なパーソナルトレーニングを受けられる環境が整っており、完全個室でリラックスしてトレーニングに取り組めます。3食しっかり食べるダイエットメソッドで日常生活に無理なく取り入れられる点が好評で、深夜24時まで営業しているため忙しい日でも柔軟にスケジュールを組めます。
+            24/7ワークアウト三軒茶屋店は、三軒茶屋駅から徒歩圏内に位置し、世田谷区エリアの方に利用しやすい店舗です。
           </p>
         </section>
                 

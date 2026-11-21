@@ -9,7 +9,7 @@ import StoreJsonLd from "@/components/StoreJsonLd";
 export const metadata: Metadata = {
   title: "Nexusジム 大船店の口コミ・評判｜料金・アクセスの解説【2026年】",
   description:
-    "Nexusジム大船店（横浜市栄区・JR大船駅徒歩約5分）の口コミ・評判をご説明します。月額制の格安パーソナルジムの料金目安、営業時間などの基本情報、評価する口コミと指摘のある口コミの傾向、向いている方、よくある質問を掲載しています。大船・栄区でパーソナルジムを探す際の判断材料としてご活用ください。",
+    "Nexusジム大船店（横浜市栄区・JR大船駅徒歩約5分）について、月額制の格安パーソナルジムの料金目安、営業時間などの基本情報、向いている方、よくある質問を掲載しています。大船・栄区でパーソナルジムを探す際の判断材料としてご活用ください。",
 };
 
 const basicInfo = [
@@ -21,7 +21,7 @@ const basicInfo = [
   { label: "料金帯", value: "月額19,800円〜（目安・最新情報は公式サイトでご確認ください）" },
 ];
 
-// 目的・悩み別の向き不向き（公開情報および口コミ傾向にもとづく一般的な整理）
+// 目的・悩み別の向き不向き（公開情報にもとづく一般的な整理）
 const goalGuide = [
   {
     goal: "大船・栄区で近くに通いたい",
@@ -54,11 +54,11 @@ const faqItems = [
   { q: "Nexusジム大船店の料金はいくらですか？", a: "Nexusジムは月額19,800円〜の格安パーソナルとされています。プランや入会金、大船店のキャンペーンの有無を含む最新の料金は公式サイトでご確認ください。" },
   { q: "Nexusジム大船店の場所・アクセスを教えてください。", a: "神奈川県横浜市栄区笠間2丁目20-7 K.C笠間1階にあり、JR大船駅から徒歩約5分です。詳しい行き方はGoogleマップでご確認ください。" },
   { q: "Nexusジム大船店の営業時間を教えてください。", a: "8:00〜22:00です。朝から夜まで幅広い時間帯でトレーニングが可能です。最新の営業時間・定休日は公式サイトでご確認ください。" },
-  { q: "Nexusジム大船店は初心者でも大丈夫ですか？", a: "はい。Nexusジムの利用者には筋トレ初心者も多く、器具の使い方やフォームから丁寧に指導するとされています。運動経験がない方も安心して始めやすい環境です。" },
+  { q: "Nexusジム大船店は初心者でも大丈夫ですか？", a: "はい。初心者の方も利用できます。指導内容は無料カウンセリング・体験で確認できます。" },
   { q: "Nexusジム大船店の体験・カウンセリングはありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。実際の指導内容やジムの雰囲気を確認してから入会を検討できます。予約は公式サイトから可能です。" },
-  { q: "Nexusジム大船店は女性も通えますか？", a: "はい。Nexusジムは完全個室でのマンツーマン指導のため、他の会員と顔を合わせにくく、女性の利用者もいます。詳しい設備は公式サイトでご確認ください。" },
+  { q: "Nexusジム大船店は女性も通えますか？", a: "はい。Nexusジムは完全個室でのマンツーマン指導のため、他の会員と顔を合わせにくい環境です。詳しい設備は公式サイトでご確認ください。" },
   { q: "Nexusジム大船店の退会に違約金はかかりますか？", a: "Nexusジムは月額制のため、基本的に違約金はないとされています。退会の申告時期など詳細は入会時・公式サイトでご確認ください。" },
-  { q: "Nexusジム大船店の口コミ・評判を教えてください。", a: "大船店は比較的新しい店舗のため、個別の口コミは今後蓄積されていく段階です。Nexusジム全体では「この価格でこの指導は驚き」「トレーナーが丁寧」という声が中心です。最新の個別レビューはGoogleマップでご確認ください。" },
+  { q: "Nexusジム大船店の口コミ・評判を教えてください。", a: "最新の口コミや評点はGoogleマップでご確認いただけます。当サイトでは、出典を確認できない口コミの要約は掲載していません。" },
 ];
 
 const faqJsonLd = {
@@ -116,7 +116,7 @@ export default function StorePage() {
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年7月</p>
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          Nexusジム大船店は、<span className="font-bold bg-yellow-100 px-0.5">JR大船駅から徒歩約5分</span>（神奈川県横浜市栄区笠間）にある<span className="font-bold bg-yellow-100 px-0.5">格安・月額制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額19,800円〜</span>の料金目安と、8:00〜22:00の通いやすい営業時間が特徴です。本記事では、大船店の基本情報・料金目安・口コミの傾向・向いている人を解説します。
+          Nexusジム大船店は、<span className="font-bold bg-yellow-100 px-0.5">JR大船駅から徒歩約5分</span>（神奈川県横浜市栄区笠間）にある<span className="font-bold bg-yellow-100 px-0.5">格安・月額制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">月額19,800円〜</span>の料金目安と、8:00〜22:00の通いやすい営業時間が特徴です。本記事では、大船店の基本情報・料金目安・向いている人をご説明します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
@@ -144,7 +144,7 @@ export default function StorePage() {
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 口コミ・評判を教えてください。</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">大船店は比較的新しい店舗のため、個別の口コミは少数です。Nexusジム全体では「安いのに丁寧」という評価が中心です。<a href="#reviews" className="text-teal-600 underline">口コミの傾向</a>をご覧ください。</dd>
+              <dd className="text-gray-700 mt-1 leading-relaxed">最新の口コミや評点はGoogleマップでご確認いただけます。当サイトでは、出典を確認できない口コミの要約は掲載していません。</dd>
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. どのような方に向いていますか？</dt>
@@ -205,38 +205,11 @@ export default function StorePage() {
           </div>
         </section>
 
-        <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Nexusジム大船店の口コミの傾向</h2>
-          <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            大船店は比較的新しい店舗のため、個別の口コミは今後蓄積されていく段階です。ここではNexusジム全体で見られる口コミの傾向を「評価する声」「指摘のある声」に分けて整理しました。個別の投稿を引用したものではありません。大船店の最新レビューは<a href="https://www.google.com/maps/search/Nexus%E3%82%B8%E3%83%A0%20%E5%A4%A7%E8%88%B9%E5%BA%97%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
-          </p>
-          <div className="grid sm:grid-cols-2 gap-4">
-            <div className="rounded-lg p-5 border bg-green-50 border-green-100">
-              <h3 className="font-bold mb-2 text-green-800">評価する口コミ・評判の傾向</h3>
-              <p className="text-sm text-gray-700 mb-3 leading-relaxed">格安ながら指導が丁寧・月額制で始めやすい、という費用対効果と手軽さへの評価が中心です。</p>
-              <ul className="space-y-2">
-                <li className="text-sm text-gray-700 leading-relaxed">・この価格でマンツーマン指導が受けられるのは驚き、という費用対効果への評価</li>
-                <li className="text-sm text-gray-700 leading-relaxed">・トレーナーが丁寧で、初心者にもフォームから教えてくれるという声</li>
-                <li className="text-sm text-gray-700 leading-relaxed">・月額制で家計管理がしやすく、合わなければ辞めやすい安心感</li>
-              </ul>
-            </div>
-            <div className="rounded-lg p-5 border bg-orange-50 border-orange-100">
-              <h3 className="font-bold mb-2 text-orange-800">指摘のある口コミ・評判の傾向</h3>
-              <p className="text-sm text-gray-700 mb-3 leading-relaxed">セッション時間や設備のシンプルさに関する指摘が中心です。</p>
-              <ul className="space-y-2">
-                <li className="text-sm text-gray-700 leading-relaxed">・低価格ゆえセッション時間が短めの場合があるという指摘</li>
-                <li className="text-sm text-gray-700 leading-relaxed">・設備・アメニティは大手ほど充実していない場合があるという声</li>
-                <li className="text-sm text-gray-700 leading-relaxed">・人気の時間帯は予約が埋まりやすいことがあるという指摘</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 口コミの傾向を要約したものです。評価には個人差があり、効果を保証するものではありません。最新情報は公式サイトでご確認ください。</p>
-        </section>
 
         <section id="goal" className="mb-12 scroll-mt-20">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 大船店の向き不向き</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            Nexusジム大船店が自分の目的に合うかを、よくある目的・悩み別に整理しました。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
+            Nexusジム大船店が自分の目的に合うかを、よくある目的・悩み別に整理しました。以下は公開情報にもとづく一般的な整理で、効果を保証するものではありません。
           </p>
           <div className="space-y-3">
             {goalGuide.map((g) => (

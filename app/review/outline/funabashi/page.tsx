@@ -111,10 +111,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            OUTLINE船橋店は、船橋駅から徒歩圏内にある女性専用パーソナルジムです。千葉エリアの女性に人気で、女性トレーナーによる完全個室指導が受けられます。生涯アフターフォローが無料で付いており、長期的なボディメイクをサポートしてくれると評判です。
+            OUTLINE船橋店は、船橋駅から徒歩圏内にある女性専用パーソナルジムです。
           </p>
         </section>
 

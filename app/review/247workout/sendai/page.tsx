@@ -68,8 +68,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">24/7ワークアウト仙台店は、仙台市の中心部に位置する東北エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しています。大手パーソナルジムと比較して手頃な価格設定で、東北地方でコストパフォーマンスの高いパーソナルトレーニングを求める利用者に支持されています。食事管理のアドバイスが丁寧で、初心者にも通いやすいと好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">24/7ワークアウト仙台店は、仙台市の中心部に位置する東北エリアの店舗です。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しています。</p>
         </section>
                 
         <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />

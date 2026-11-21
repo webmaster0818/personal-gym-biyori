@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYONDなんば店は、なんば駅から徒歩圏内に位置する関西エリアの店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、大阪市内の利用者を中心に支持されています。入会金無料・回数券制で、なんばの立地で仕事帰りや買い物ついでに通いやすいと好評です。トレーナーの指導の質と、フレンドリーな雰囲気が評価されています。
+            BEYONDなんば店は、なんば駅から徒歩圏内に位置する関西エリアの店舗です。
           </p>
         </section>
                 

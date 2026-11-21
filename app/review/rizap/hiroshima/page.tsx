@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP広島店は、広島市の中心部・上八丁堀に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標に合わせたプログラムを提供します。トレーナーの専門性の高さと食事管理の手厚さが好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">RIZAP広島店は、広島市の中心部・上八丁堀に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標に合わせたプログラムを提供します。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP熊本店は、熊本市の繁華街・通町筋エリアに位置する店舗です。地方都市ならではのアットホームな雰囲気が好評で、トレーナーとの距離が近く、何でも相談しやすい環境が整っています。食事指導では地元の食材を活かしたメニュー提案が喜ばれています。
+            RIZAP熊本店は、熊本市の繁華街・通町筋エリアに位置する店舗です。
           </p>
         </section>
                 

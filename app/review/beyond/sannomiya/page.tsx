@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND神戸三宮店は三宮駅から徒歩5分に位置する店舗です。神戸の中心地に位置し、おしゃれな港町の雰囲気の中で本格的なパーソナルトレーニングを受けられます。神戸エリアで美意識の高い利用者に支持されており、ボディメイクの実績が豊富なトレーナーが在籍しています。
+            BEYOND神戸三宮店は三宮駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

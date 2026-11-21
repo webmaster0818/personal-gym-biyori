@@ -98,9 +98,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI西友ひばりヶ丘店は、ひばりヶ丘駅から徒歩2分の西友内にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。買い物ついでにトレーニングできる利便性が好評で、西東京市エリアの女性に支持されています。
+            FURDI西友ひばりヶ丘店は、ひばりヶ丘駅から徒歩2分の西友内にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。
           </p>
         </section>
 

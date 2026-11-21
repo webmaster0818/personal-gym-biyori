@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND三軒茶屋店は三軒茶屋駅から徒歩5分に位置する店舗です。世田谷区の人気エリアにあり、おしゃれな街並みの中で本格的なパーソナルトレーニングを受けられます。トレーナーのコミュニケーション力が高く、楽しみながらトレーニングを続けられると好評です。ダイエットやボディメイクの成果を実感している利用者が多い傾向にあります。
+            BEYOND三軒茶屋店は三軒茶屋駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

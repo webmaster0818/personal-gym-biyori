@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            base BODY新宿店は科学的根拠に基づいたトレーニングメソッドが特徴のパーソナルジムです。身体の土台づくりを重視し、筋力アップとともに日常生活の動作改善にも取り組めると好評です。トレーナーの丁寧な説明とフォーム指導に定評があり、怪我なく効率的にトレーニングしたい方に人気があります。
+            base BODY新宿店は科学的根拠に基づいたトレーニングメソッドが特徴のパーソナルジムです。
           </p>
         </section>
 

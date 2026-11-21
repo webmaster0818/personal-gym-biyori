@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM新宿店は、新宿駅から徒歩5分の立地にある月額制パーソナルジムです。有資格トレーナーによるマンツーマン指導が好評で、特にフォームの丁寧な修正や食事指導の的確さに高い評価が集まっています。月額制のため予算管理がしやすく、継続しやすい点が多くの利用者に支持されています。仕事帰りに通うビジネスパーソンが多い店舗です。
+            MIYAZAKI GYM新宿店は、新宿駅から徒歩5分の立地にある月額制パーソナルジムです。
           </p>
         </section>
 

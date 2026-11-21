@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング梅田店は、梅田駅から徒歩5分のパーソナルジムです。医学的根拠に基づいたトレーニングプログラムが特徴で、関西エリアでも本格的なパーソナルトレーニングが受けられます。有資格トレーナーの質の高い指導が好評です。
+            Dr.トレーニング梅田店は、梅田駅から徒歩5分のパーソナルジムです。医学的根拠に基づいたトレーニングプログラムが特徴で、関西エリアでも本格的なパーソナルトレーニングが受けられます。
           </p>
         </section>
 

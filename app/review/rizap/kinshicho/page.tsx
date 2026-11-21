@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP錦糸町店は、JR総武線と東京メトロ半蔵門線が利用できる錦糸町駅から徒歩2分の場所にあります。下町エリアの温かみのある雰囲気と、RIZAPならではの本格的なトレーニング環境が両立した店舗として評価されています。トレーナーの熱意が高く、モチベーションを維持しやすいという声が多く、特に体重管理と筋力アップを同時に実現できたという成功体験の口コミが目立ちます。
+            RIZAP錦糸町店は、JR総武線と東京メトロ半蔵門線が利用できる錦糸町駅から徒歩2分の場所にあります。
           </p>
         </section>
                 

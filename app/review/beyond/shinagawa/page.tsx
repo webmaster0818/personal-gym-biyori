@@ -74,8 +74,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND品川店は、品川駅から徒歩圏内に位置する都心型店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、本格的な指導を受けられます。入会金無料・回数券制のため、自分のペースで通える点が好評です。品川エリアで働くビジネスパーソンに人気があり、仕事帰りや休日のトレーニングに利用されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND品川店は、品川駅から徒歩圏内に位置する都心型店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、本格的な指導を受けられます。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

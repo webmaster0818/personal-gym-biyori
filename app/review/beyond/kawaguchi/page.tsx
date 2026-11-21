@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND川口店は川口駅から徒歩5分に位置する店舗です。川口市エリアの方を中心に、東京都北部からもアクセスしやすい立地が特徴です。トレーナーが利用者の生活リズムに合わせた無理のないプログラムを提案してくれるため、忙しい方でも継続しやすいと好評です。
+            BEYOND川口店は川口駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="lexer/meguro" storeName="REXER 目黒店" brandSlug="lexer" brandName="REXER" mapsSearchUrl="https://www.google.com/maps/search/REXER+目黒店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            REXER目黒店は目黒駅から徒歩5分に位置するパーソナルジムです。落ち着いた雰囲気の目黒エリアにふさわしい、上質なトレーニング環境が整っています。利用者からはトレーナーの知識の豊富さや、丁寧なカウンセリングが好評です。筋力アップだけでなく、姿勢改善や体質改善を目的とした利用者も多く、幅広いニーズに対応できる店舗として評価されています。
+            REXER目黒店は目黒駅から徒歩5分に位置するパーソナルジムです。
           </p>
         </section>
 

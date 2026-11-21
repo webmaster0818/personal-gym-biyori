@@ -123,10 +123,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CALORIE TRADE JAPAN 名古屋瑞穂区店は、名古屋市瑞穂区に位置するダイエット特化型パーソナルジムです。瑞穂通沿いのアクセスしやすい立地で、周辺には住宅街が広がるため地元の利用者が多い店舗です。カロリーコントロールに基づいた食事指導と、個々の体力に合わせたトレーニングプログラムが好評です。運動初心者やダイエット目的の方に特に支持されています。
+            CALORIE TRADE JAPAN 名古屋瑞穂区店は、名古屋市瑞穂区に位置するダイエット特化型パーソナルジムです。
           </p>
         </section>
 

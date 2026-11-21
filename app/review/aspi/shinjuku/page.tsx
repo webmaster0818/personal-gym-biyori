@@ -109,10 +109,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ASPI新宿代々木店は有資格トレーナーによる丁寧な指導が好評の店舗です。代々木駅から徒歩3分と通いやすく、月額7,600円からの手頃な料金で本格的なパーソナルトレーニングが受けられます。初心者にも分かりやすい指導が特徴で、運動経験がない方にも安心と評判です。オンライン食事指導との組み合わせで、効率的なボディメイクを実現できます。
+            ASPI新宿代々木店は、ASPIの新宿・代々木エリアの店舗です。オンライン食事指導との組み合わせで、効率的なボディメイクを実現できます。
           </p>
         </section>
 

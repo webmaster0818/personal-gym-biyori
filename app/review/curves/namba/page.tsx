@@ -90,9 +90,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            カーブスなんば店は、なんば駅から徒歩5分の女性専用フィットネスです。大阪ミナミの繁華街に近い立地ながら、落ち着いた雰囲気でトレーニングに集中できると好評です。買い物や食事の前後に30分の運動を済ませられる手軽さが人気の理由です。コーチが明るく元気に声をかけてくれるので、運動が苦手な方でも楽しく続けられると評判です。健康診断の数値が改善したという喜びの声も多く聞かれます。
+            カーブスなんば店は、なんば駅から徒歩5分の女性専用フィットネスです。
           </p>
         </section>
 

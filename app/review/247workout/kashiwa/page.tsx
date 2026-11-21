@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト柏店は、柏駅から徒歩圏内に位置し、千葉県北西部エリアの方に便利な店舗です。都心まで出なくても地元で本格的なパーソナルトレーニングを受けられると好評で、完全個室でのマンツーマン指導により集中してボディメイクに取り組めます。3食しっかり食べるダイエットメソッドで食事制限のストレスなく健康的に痩せられ、深夜24時まで営業しているため通勤帰りにも立ち寄りやすい環境です。
+            24/7ワークアウト柏店は、柏駅から徒歩圏内に位置し、千葉県北西部エリアの方に便利な店舗です。3食しっかり食べるダイエットメソッドで食事制限のストレスなく健康的に痩せられ、深夜24時まで営業しているため通勤帰りにも立ち寄りやすい環境です。
           </p>
         </section>
                 

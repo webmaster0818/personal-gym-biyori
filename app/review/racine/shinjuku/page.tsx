@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RACINE新宿店は根本的な体質改善を目指すパーソナルジムです。トレーニングだけでなく栄養指導や生活習慣の見直しまで含めた包括的なアプローチが特徴で、長期的な健康維持を重視する方に支持されています。カウンセリングが丁寧で、一人ひとりに合った最適なプランを提案してくれると好評です。
+            RACINE新宿店は根本的な体質改善を目指すパーソナルジムです。
           </p>
         </section>
 

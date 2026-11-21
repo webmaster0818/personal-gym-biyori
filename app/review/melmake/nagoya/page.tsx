@@ -84,9 +84,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            メルメイク名駅店は、名古屋駅から徒歩3分の立地にあるパーソナルジムです。名古屋エリアでリーズナブルにパーソナルトレーニングを受けたい方に人気があります。トレーナーが親身に相談に乗ってくれるため、ダイエットの悩みを抱える方にも安心と好評です。食事指導も含まれたプランが充実しています。
+            メルメイク名駅店は、名古屋駅から徒歩3分の立地にあるパーソナルジムです。食事指導も含まれたプランが充実しています。
           </p>
         </section>
 

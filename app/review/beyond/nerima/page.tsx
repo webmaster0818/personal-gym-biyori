@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND練馬店は練馬駅から徒歩5分に位置する店舗です。練馬区エリアの方を中心に、健康維持やダイエット目的で通う利用者が多い店舗です。トレーナーが丁寧にフォームを指導してくれるため、ケガのリスクを抑えた安全なトレーニングが可能です。完全個室でプライバシーが守られる点も好評です。
+            BEYOND練馬店は練馬駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

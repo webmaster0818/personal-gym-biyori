@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI郡山八山田店は、福島県郡山市にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。AIトレーナーが画面上でフォームを指導してくれるため、人目を気にせず自分のペースでトレーニングできると好評です。郡山市の八山田エリアにあり、車でのアクセスも便利です。
+            FURDI郡山八山田店は、福島県郡山市にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。郡山市の八山田エリアにあり、車でのアクセスも便利です。
           </p>
         </section>
 

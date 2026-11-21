@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND博多店は博多駅から徒歩5分の立地にある店舗です。福岡エリア2店舗目として、博多駅周辺で働くビジネスパーソンに人気があります。九州最大のビジネス街に位置し、仕事帰りの利用者が多い傾向にあります。トレーナーの明るく前向きな指導スタイルが好評で、モチベーションを維持しやすいと口コミで評価されています。
+            BEYOND博多店は博多駅から徒歩5分の立地にある店舗です。
           </p>
         </section>
                 

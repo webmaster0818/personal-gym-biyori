@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM池袋店は、池袋駅から徒歩5分の場所にある月額制パーソナルジムです。豊島区エリアで本格的なパーソナルトレーニングを受けたい方に人気があります。有資格トレーナーによる的確な指導と、月額制ならではの通いやすさが好評です。筋力アップからダイエットまで、幅広い目的に対応したプログラムが用意されています。
+            MIYAZAKI GYM池袋店は、池袋駅から徒歩5分の場所にある月額制パーソナルジムです。筋力アップからダイエットまで、幅広い目的に対応したプログラムが用意されています。
           </p>
         </section>
 

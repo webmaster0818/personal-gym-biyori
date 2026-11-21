@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND名駅店は名古屋駅から徒歩5分の立地にある店舗です。名古屋の中心地で働くビジネスパーソンに人気があり、仕事帰りに通う利用者が多い傾向にあります。名古屋エリア2店舗目として、名古屋店とは異なるトレーナーも在籍しています。駅近で複数路線からアクセスしやすい利便性が口コミで好評です。
+            BEYOND名駅店は名古屋駅から徒歩5分の立地にある店舗です。名古屋エリア2店舗目として、名古屋店とは異なるトレーナーも在籍しています。
           </p>
         </section>
                 

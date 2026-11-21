@@ -96,9 +96,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT高槻店は、大阪と京都の中間に位置する高槻駅から徒歩3分のパーソナルジムです。関西エリアでリーズナブルに完全個室パーソナルトレーニングを始めたい女性に選ばれています。トレーナーが一人ひとりの目標に合わせたメニューを作成してくれるため、ダイエット目的から体力づくりまで幅広いニーズに対応しています。
+            RAT高槻店は、大阪と京都の中間に位置する高槻駅から徒歩3分のパーソナルジムです。トレーナーが一人ひとりの目標に合わせたメニューを作成してくれるため、ダイエット目的から体力づくりまで幅広いニーズに対応しています。
           </p>
         </section>
 

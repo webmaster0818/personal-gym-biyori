@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="calorie-trade/ginowan" storeName="CALORIE TRADE JAPAN 宜野湾店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+宜野湾店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CALORIE TRADE JAPAN 宜野湾店は、沖縄県宜野湾市の我如古エリアに位置するパーソナルジムです。沖縄本島中部の利便性の高い立地で、宜野湾市や近隣の北谷町・中城村からも通いやすい環境です。沖縄の食文化に合わせたカロリー管理と食事指導が特徴で、地元の方の健康づくりやダイエットをサポートしています。暑い気候でも快適な室内環境でトレーニングに取り組めると好評です。
+            CALORIE TRADE JAPAN 宜野湾店は、沖縄県宜野湾市の我如古エリアに位置するパーソナルジムです。沖縄の食文化に合わせたカロリー管理と食事指導が特徴で、地元の方の健康づくりやダイエットをサポートしています。
           </p>
         </section>
 

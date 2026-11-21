@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI名古屋店は、名古屋駅から徒歩5分の女性専用AIフィットネスジムです。東海エリアの拠点店舗として、名古屋市内の女性を中心に利用されています。月額7,678円〜という低価格で、AIサーキットトレーニングに通い放題で取り組めます。予約不要で好きな時間に通えるため、仕事帰りにも立ち寄りやすいと好評です。
+            FURDI名古屋店は、名古屋駅から徒歩5分の女性専用AIフィットネスジムです。月額7,678円〜という低価格で、AIサーキットトレーニングに通い放題で取り組めます。
           </p>
         </section>
 

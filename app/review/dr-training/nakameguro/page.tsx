@@ -111,10 +111,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング中目黒店は、中目黒駅から徒歩圏内の落ち着いた雰囲気の店舗です。医学的アプローチに基づいた指導が特徴で、一人ひとりの身体に合わせたオーダーメイドプログラムが好評です。都度払い制で気軽に通えるため、長期的に利用する顧客が多いと評判です。
+            Dr.トレーニング中目黒店は、中目黒駅から徒歩圏内にある店舗です。
           </p>
         </section>
 

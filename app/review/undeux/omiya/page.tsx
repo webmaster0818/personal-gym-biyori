@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY大宮店は、大宮駅から徒歩7分の女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。大宮エリアのターミナル駅から通える利便性が好評です。
+            UNDEUX SUPERBODY大宮店は、大宮駅から徒歩7分の女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。
           </p>
         </section>
 

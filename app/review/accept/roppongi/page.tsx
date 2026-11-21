@@ -84,9 +84,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            ACCEPT六本木店は、六本木駅から徒歩圏内に位置するパーソナルジムです。六本木エリアで働くビジネスパーソンや外国人利用者にも対応した柔軟なプログラムが特徴です。個室空間でのマンツーマン指導により、集中してトレーニングに取り組めると好評です。
+            ACCEPT六本木店は、六本木駅から徒歩圏内に位置するパーソナルジムです。
           </p>
         </section>
 

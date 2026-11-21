@@ -67,8 +67,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">24/7ワークアウト京都店は、京都市の中心部に位置しています。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しています。RIZAPよりもリーズナブルな料金で本格的なパーソナルトレーニングを受けられるため、コスト面を重視する利用者に支持されています。京都市内在住の方を中心に、トレーナーの丁寧な食事指導と無理のないトレーニングプログラムが評価されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">24/7ワークアウト京都店は、京都市の中心部に位置しています。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しています。</p>
         </section>
                 
         <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />

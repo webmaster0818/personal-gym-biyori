@@ -68,8 +68,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">24/7ワークアウト立川店は、多摩エリアの主要ターミナルであるJR立川駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。都心と比較してもリーズナブルな価格で本格的なパーソナルトレーニングを受けられるため、多摩地域在住の利用者に支持されています。トレーナーの親しみやすさと的確な指導が好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">24/7ワークアウト立川店は、多摩エリアの主要ターミナルであるJR立川駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。</p>
         </section>
                 
         <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />

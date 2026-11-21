@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM川崎店は、川崎駅から徒歩5分にある月額制パーソナルジムです。神奈川県内で有資格トレーナーによるマンツーマントレーニングを受けたい方に選ばれています。東京方面へ通勤する方が仕事帰りに立ち寄ることも多く、ライフスタイルに合わせた通い方ができると好評です。丁寧なフォーム指導でケガのリスクを抑えた安全なトレーニングが特徴です。
+            MIYAZAKI GYM川崎店は、川崎駅から徒歩5分にある月額制パーソナルジムです。
           </p>
         </section>
 

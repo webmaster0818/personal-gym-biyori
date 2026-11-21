@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト北千住店は、北千住駅から徒歩圏内でアクセス良好な店舗です。足立区エリアで本格的なパーソナルトレーニングを受けられる貴重な拠点として、地元の方を中心に利用されています。完全個室のマンツーマン指導で、3食しっかり食べるダイエットメソッドにより無理のない食事管理ができると評判です。深夜24時まで営業しており、ライフスタイルに合わせて柔軟に通える点も好評です。
+            24/7ワークアウト北千住店は、北千住駅から徒歩圏内でアクセス良好な店舗です。
           </p>
         </section>
                 

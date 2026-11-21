@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト二子玉川店は、二子玉川駅から徒歩圏内に位置する世田谷区の人気店舗です。ファミリー層も多いエリアで、健康的なボディメイクを求める方に支持されています。完全個室でのマンツーマン指導により周囲を気にせずトレーニングでき、3食しっかり食べるダイエットメソッドで家族と同じ食事を楽しみながらダイエットできると好評です。深夜24時まで営業しているため、ライフスタイルに合わせた通い方が可能です。
+            24/7ワークアウト二子玉川店は、二子玉川駅から徒歩圏内に位置する世田谷区の店舗です。深夜24時まで営業しているため、ライフスタイルに合わせた通い方が可能です。
           </p>
         </section>
                 

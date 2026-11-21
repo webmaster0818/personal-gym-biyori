@@ -59,7 +59,7 @@ export default function StorePage() {
           <Link href="/review/outline/" className="inline-block bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-sm">総合レビューを見る</Link>
         </div>
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2><div className="bg-gray-100 rounded-lg p-8 text-center"><p className="text-gray-600 mb-4">OUTLINE 錦糸町店の所在地をGoogleマップで確認できます。</p><a href="https://www.google.com/maps/search/OUTLINE+錦糸町店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a></div></section>
-        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">OUTLINE錦糸町店は、錦糸町駅から徒歩6分にある女性専用パーソナルジムです。完全個室で女性トレーナーがマンツーマン指導を行い、墨田区エリアの女性に支持されています。リバウンド防止のアフターフォローが生涯無料で、長期的なボディメイクをサポートします。</p></section>
+        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2><p className="text-gray-700 leading-relaxed">OUTLINE錦糸町店は、錦糸町駅から徒歩6分にある女性専用パーソナルジムです。リバウンド防止のアフターフォローが生涯無料で、長期的なボディメイクをサポートします。</p></section>
         
         
         <StorePrice brandSlug="outline" brandName="OUTLINE" />

@@ -68,8 +68,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">24/7ワークアウト上野店は、JR上野駅から徒歩圏内に位置する店舗です。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。RIZAPと比較してリーズナブルな料金設定で、台東区や文京区、荒川区など下町エリアの利用者に支持されています。初心者にも丁寧な指導が受けられ、食事管理のサポートも充実していると好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">24/7ワークアウト上野店は、JR上野駅から徒歩圏内に位置する店舗です。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。</p>
         </section>
                 
         <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />

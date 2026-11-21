@@ -102,10 +102,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            1to1新宿店は完全マンツーマン指導に特化したパーソナルジムです。一人ひとりの目標や体質に合わせたオーダーメイドのトレーニングプログラムが好評で、トレーナーとの距離が近く丁寧な指導が受けられると評価されています。新宿駅からアクセスしやすく、仕事帰りにも通いやすい立地です。
+            1to1新宿店は完全マンツーマン指導に特化したパーソナルジムです。
           </p>
         </section>
 

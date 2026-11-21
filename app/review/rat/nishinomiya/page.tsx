@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT西宮北口店は、阪急西宮北口駅から徒歩5分に位置する女性向けパーソナルジムです。西宮エリアは住宅地が多く、子育て中のママや主婦の方にも利用されています。完全個室でリーズナブルな価格設定のため、初めてパーソナルジムに挑戦する方にもハードルが低いと評判です。手ぶらで通えるサービスも好評で、日常の買い物ついでに通う方も多い傾向にあります。
+            RAT西宮北口店は、阪急西宮北口駅から徒歩5分に位置する女性向けパーソナルジムです。
           </p>
         </section>
 

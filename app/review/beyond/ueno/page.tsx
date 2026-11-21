@@ -74,8 +74,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND上野店は、JR上野駅から徒歩圏内に位置する店舗です。入会金無料・回数券制で気軽にパーソナルトレーニングを始められます。コンテスト経験者のトレーナーが在籍し、専門的な指導が受けられます。台東区や文京区、荒川区など下町エリアからの利用者が多く、アクセスの良さと手頃な価格設定が評価されています。初心者から上級者まで幅広い層に対応しています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND上野店は、JR上野駅から徒歩圏内に位置する店舗です。入会金無料・回数券制で気軽にパーソナルトレーニングを始められます。コンテスト経験者のトレーナーが在籍し、専門的な指導が受けられます。初心者から上級者まで幅広い層に対応しています。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

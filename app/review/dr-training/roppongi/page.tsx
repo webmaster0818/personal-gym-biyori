@@ -107,10 +107,10 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング六本木店は、六本木駅から徒歩圏内にある店舗です。医学的根拠に基づいたトレーニングプログラムが特徴で、海外経験のあるトレーナーも在籍しています。六本木エリアで働くビジネスパーソンからの支持が高く、仕事帰りや休日に通う利用者が多い店舗です。パフォーマンスアップや体質改善を目的とした指導が好評です。
+            Dr.トレーニング六本木店は、六本木駅から徒歩圏内にある店舗です。医学的根拠に基づいたトレーニングプログラムが特徴で、海外経験のあるトレーナーも在籍しています。
           </p>
         </section>
 

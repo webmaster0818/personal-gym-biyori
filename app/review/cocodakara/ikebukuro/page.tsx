@@ -114,10 +114,10 @@ export default function StorePage() {
 <StoreGmapBox k="cocodakara/ikebukuro" storeName="CoCoDakara 池袋店" brandSlug="cocodakara" brandName="CoCoDakara 総合レビュー" mapsSearchUrl="https://www.google.com/maps/search/CoCoDakara+池袋店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CoCoDakara池袋店は、池袋駅から徒歩5分の便利な立地にある完全個室パーソナルジムです。豊島区エリアで質の高いパーソナルトレーニングを探している方に支持されています。完全プライベート空間で他の会員と顔を合わせることなく、集中してトレーニングできる環境が整っています。食事指導付きのプログラムで、トータルなボディメイクが可能です。
+            CoCoDakara池袋店は、池袋駅から徒歩5分の便利な立地にある完全個室パーソナルジムです。完全プライベート空間で他の会員と顔を合わせることなく、集中してトレーニングできる環境が整っています。食事指導付きのプログラムで、トータルなボディメイクが可能です。
           </p>
         </section>
 

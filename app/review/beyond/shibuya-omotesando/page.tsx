@@ -127,7 +127,7 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
             BEYOND渋谷表参道店は、公式サイトの店舗ページで「渋谷駅B5出口から徒歩5分／表参道駅から徒歩8分」と案内されている店舗です（所在地は渋谷区渋谷2丁目）。当サイトでは店舗の口コミ本文は掲載せず、下の「Googleマップの掲載データ」で、Googleマップ上で確認できる評価・件数のみをご紹介しています。

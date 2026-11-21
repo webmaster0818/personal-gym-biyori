@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP金山店は、名古屋市の副都心・金山駅から徒歩8分の場所にある店舗です。JR・名鉄・地下鉄が乗り入れる交通の要所にあるため、名古屋市南部や東海市・大府市方面からの利用者にとってアクセスが便利です。名駅エリアの店舗と比べて落ち着いた雰囲気で、じっくりとトレーニングに集中できると評判です。トレーナーの指導が丁寧で分かりやすく、特に筋トレ初心者からの評価が高い傾向にあります。
+            RIZAP金山店は、名古屋市の副都心・金山駅から徒歩8分の場所にある店舗です。
           </p>
         </section>
                 

@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト博多店は、博多駅から徒歩圏内に位置する福岡市の主要店舗です。九州の玄関口である博多エリアで、ビジネスパーソンや地元の方に広く利用されています。完全個室でのマンツーマン指導で、周囲を気にせず集中してトレーニングに取り組めます。3食しっかり食べるダイエットメソッドで博多グルメを楽しみながらも健康的に痩せられると評判で、深夜24時まで営業しているため忙しい方にも通いやすい環境です。
+            24/7ワークアウト博多店は、博多駅から徒歩圏内に位置する福岡市の主要店舗です。完全個室でのマンツーマン指導で、周囲を気にせず集中してトレーニングに取り組めます。
           </p>
         </section>
                 

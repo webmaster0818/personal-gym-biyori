@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト蒲田店は、蒲田駅から徒歩圏内に位置し、大田区エリアの方に便利な店舗です。完全個室でのマンツーマントレーニングにより、集中して取り組める環境が整っています。3食しっかり食べるダイエットメソッドで健康的にボディメイクを目指せる点や、深夜24時まで営業しているためシフト勤務の方にも通いやすい点が支持されています。川崎方面からのアクセスも良好です。
+            24/7ワークアウト蒲田店は、蒲田駅から徒歩圏内に位置し、大田区エリアの方に便利な店舗です。完全個室でのマンツーマントレーニングにより、集中して取り組める環境が整っています。川崎方面からのアクセスも良好です。
           </p>
         </section>
                 

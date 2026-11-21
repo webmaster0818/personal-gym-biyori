@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND赤羽店は赤羽駅から徒歩5分の場所にある店舗です。北区エリアの方に利用されており、下町の親しみやすい雰囲気の中で本格的なパーソナルトレーニングを受けられます。トレーナーのモチベーションを高める声かけが好評で、トレーニングが楽しいと感じる利用者が多い傾向にあります。初心者からの評価も高い店舗です。
+            BEYOND赤羽店は赤羽駅から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

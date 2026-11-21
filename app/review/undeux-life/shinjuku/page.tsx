@@ -84,9 +84,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY LIFE新宿店は女性専用のパーソナルトレーニングジムです。管理栄養士監修の宅配食サービスが付帯するプランがあり、食事管理の手間を省けると好評です。おしゃれで清潔感のある空間と、女性のボディラインに特化したトレーニングプログラムが支持されています。
+            UNDEUX SUPERBODY LIFE新宿店は女性専用のパーソナルトレーニングジムです。
           </p>
         </section>
 

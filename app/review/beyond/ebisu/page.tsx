@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND恵比寿店は、恵比寿駅から徒歩圏内に位置するおしゃれなエリアの店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、筋肉をつけたい方やボディラインを整えたい方に支持されています。入会金無料・回数券制で始めやすく、恵比寿の落ち着いた雰囲気の中でトレーニングに集中できると好評です。
+            BEYOND恵比寿店は、恵比寿駅から徒歩圏内に位置するおしゃれなエリアの店舗です。
           </p>
         </section>
                 

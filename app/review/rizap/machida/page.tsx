@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP町田店は、町田駅から徒歩圏内に位置する多摩エリアの店舗です。完全個室のマンツーマントレーニング環境が整っています。トレーナーの対応の丁寧さと、地域密着型のサービスが評価されています。
+            RIZAP町田店は、町田駅から徒歩圏内に位置する多摩エリアの店舗です。完全個室のマンツーマントレーニング環境が整っています。
           </p>
         </section>
                 

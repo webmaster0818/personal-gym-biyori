@@ -85,8 +85,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">chocoZAP名古屋店は、名古屋駅近くにある24時間営業のコンビニジムです。中部エリアで月額3,278円という手頃な価格で本格的なトレーニングマシンが使えると人気です。セルフエステ・セルフ脱毛も追加料金なしで利用できます。名古屋エリアで気軽にフィットネスを始めたい方におすすめです。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">chocoZAP名古屋店は、名古屋駅近くにある24時間営業のコンビニジムです。セルフエステ・セルフ脱毛も追加料金なしで利用できます。</p>
         </section>
 
         <section className="mb-10">

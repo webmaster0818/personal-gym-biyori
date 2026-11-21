@@ -90,9 +90,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            カーブス大宮店は、大宮駅から徒歩5分の女性専用フィットネスです。埼玉県のターミナル駅である大宮駅近くに位置し、通勤・通学途中の女性や近隣の主婦層に利用されています。30分で完結するトレーニングは時間効率が良く、予約不要で思い立ったときにすぐ通える点が高く評価されています。会員同士の交流も自然に生まれ、楽しく運動を続けられる環境が整っています。
+            カーブス大宮店は、大宮駅から徒歩5分の女性専用フィットネスです。会員同士の交流も自然に生まれ、楽しく運動を続けられる環境が整っています。
           </p>
         </section>
 

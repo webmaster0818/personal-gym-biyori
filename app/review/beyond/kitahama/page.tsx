@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND北浜店は北浜駅から徒歩5分の場所にある店舗です。大阪のビジネス街に位置し、オフィスワーカーを中心に利用されています。仕事帰りにトレーニングに取り組む利用者が多く、効率的なプログラムが好評です。落ち着いたビジネスエリアで、集中してトレーニングに取り組める環境が特徴です。
+            BEYOND北浜店は北浜駅から徒歩5分の場所にある店舗です。落ち着いたビジネスエリアで、集中してトレーニングに取り組める環境が特徴です。
           </p>
         </section>
                 

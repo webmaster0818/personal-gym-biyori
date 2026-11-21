@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ELEMENT新宿店は、新宿駅から徒歩圏内にある通い放題型パーソナルジムです。月額定額で何度でもパーソナルトレーニングが受けられるシステムが最大の特徴で、費用対効果の高さを評価する口コミが多数見られます。1回30分の短時間セッションで効率的にトレーニングできます。
+            ELEMENT新宿店は、新宿駅から徒歩圏内にある通い放題型パーソナルジムです。1回30分の短時間セッションで効率的にトレーニングできます。
           </p>
         </section>
 

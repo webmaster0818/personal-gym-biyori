@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト千葉店は、千葉駅から徒歩圏内に位置する千葉県の主要店舗です。千葉市内でパーソナルトレーニングを検討している方に人気があり、完全個室での丁寧なマンツーマン指導が高く評価されています。3食しっかり食べるダイエットメソッドで無理のない食生活を維持しながら痩せられる点が好評で、深夜24時まで営業しているため仕事帰りにも気軽に通えます。
+            24/7ワークアウト千葉店は、千葉駅から徒歩圏内に位置する千葉県の主要店舗です。
           </p>
         </section>
                 

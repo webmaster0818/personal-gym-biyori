@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            Alesco新宿店はリバウンド防止に力を入れたパーソナルジムです。卒業後も継続できる食事習慣やトレーニング方法を重視した指導が特徴で、長期的な体型維持を目指す方から支持されています。完全個室でプライバシーが守られる環境も好評で、人目を気にせずトレーニングに集中できます。
+            Alesco新宿店はリバウンド防止に力を入れたパーソナルジムです。
           </p>
         </section>
 

@@ -85,8 +85,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">ビーコンセプト大宮店は、大宮駅近くに位置する女性専用パーソナルジムです。下半身太りや脚のラインに悩む女性に特化したトレーニングプログラムが特徴です。埼玉エリアで脚痩せ・下半身ダイエットに特化したパーソナルジムとして、大宮周辺にお住まいの女性から支持を集めています。アフターフォロー制度も充実しています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">ビーコンセプト大宮店は、大宮駅近くに位置する女性専用パーソナルジムです。アフターフォロー制度も充実しています。</p>
         </section>
 
         <section className="mb-10">

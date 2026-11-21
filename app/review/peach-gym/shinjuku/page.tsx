@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            PEACH GYM新宿店は女性向けのボディメイクに強みを持つパーソナルジムです。ヒップアップやくびれづくりなど、女性が気になる部位に特化したトレーニングメニューが充実しています。おしゃれな内装と清潔感のある空間が好評で、トレーニングのモチベーション維持にもつながると評価されています。
+            PEACH GYM新宿店は女性向けのボディメイクに強みを持つパーソナルジムです。ヒップアップやくびれづくりなど、女性が気になる部位に特化したトレーニングメニューが充実しています。
           </p>
         </section>
 

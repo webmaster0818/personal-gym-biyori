@@ -111,10 +111,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ビーコンセプト池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。脚痩せに特化したメソッドで、太もも・ヒップラインの改善を目指すプログラムが好評です。トレーナーの知識が豊富で、個々の体型に合わせた指導が受けられると口コミで評価されています。
+            ビーコンセプト池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。
           </p>
         </section>
 

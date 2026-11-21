@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND池袋店は池袋駅からアクセスしやすい立地にある店舗です。埼玉方面からの利用者も多く、通いやすさが評価されています。コンテスト出場経験を持つトレーナーが在籍し、本格的なボディメイク指導が受けられます。回数券制で入会金無料のため、初期費用を抑えてパーソナルトレーニングを始めたい方に選ばれています。
+            BEYOND池袋店は池袋駅からアクセスしやすい立地にある店舗です。コンテスト出場経験を持つトレーナーが在籍し、本格的なボディメイク指導が受けられます。
           </p>
         </section>
                 

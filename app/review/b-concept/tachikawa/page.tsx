@@ -59,7 +59,7 @@ export default function StorePage() {
           <Link href="/review/b-concept/" className="inline-block bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-sm">総合レビューを見る</Link>
         </div>
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2><div className="bg-gray-100 rounded-lg p-8 text-center"><p className="text-gray-600 mb-4">ビーコンセプト 立川店の所在地をGoogleマップで確認できます。</p><a href="https://www.google.com/maps/search/ビーコンセプト+立川店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a></div></section>
-        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">ビーコンセプト立川店は、立川駅から徒歩4分の女性専用パーソナルジムです。立川市エリアで美脚を目指すトレーニングが受けられます。脚痩せ・下半身ダイエットに特化したプログラムが好評です。</p></section>
+        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2><p className="text-gray-700 leading-relaxed">ビーコンセプト立川店は、立川駅から徒歩4分の女性専用パーソナルジムです。立川市エリアで美脚を目指すトレーニングが受けられます。</p></section>
         
         
         <StorePrice brandSlug="b-concept" brandName="ビーコンセプト" />

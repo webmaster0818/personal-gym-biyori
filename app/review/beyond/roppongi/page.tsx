@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND六本木店は、六本木駅から徒歩圏内に位置する都心型店舗です。ボディメイクコンテスト入賞経験を持つトレーナーによる質の高い指導が特徴です。入会金無料・回数券制で、六本木エリアで働くビジネスパーソンを中心に利用されています。トレーニング環境の充実度と、トレーナーの専門性の高さが評価されています。
+            BEYOND六本木店は、六本木駅から徒歩圏内に位置する都心型店舗です。
           </p>
         </section>
                 

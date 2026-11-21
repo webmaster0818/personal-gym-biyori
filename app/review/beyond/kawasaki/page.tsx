@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND川崎店は、JR川崎駅から徒歩圏内に位置しています。入会金無料・回数券制で始めやすく、ボディメイクコンテスト経験者のトレーナーによる本格的な指導が特徴です。川崎市内をはじめ、横浜市鶴見区や東京都大田区からの利用者もおり、アクセスの良さが評価されています。初心者にも丁寧な指導で、楽しくトレーニングを続けられると好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND川崎店は、JR川崎駅から徒歩圏内に位置しています。入会金無料・回数券制で始めやすく、ボディメイクコンテスト経験者のトレーナーによる本格的な指導が特徴です。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング下北沢店は、下北沢駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングとストレッチ指導が特徴です。下北沢エリアの活気ある環境で楽しくトレーニングに通えると好評です。
+            Dr.トレーニング下北沢店は、下北沢駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングとストレッチ指導が特徴です。
           </p>
         </section>
 

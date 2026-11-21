@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            PLUME新宿店は上質な空間でトレーニングを楽しめるパーソナルジムです。洗練された内装とアメニティが充実しており、トレーニング後のケアまで含めた快適な体験が高く評価されています。トレーナーの技術力と接客の質が両立しており、リラックスしながら本格的なボディメイクに取り組めます。
+            PLUME新宿店は上質な空間でトレーニングを楽しめるパーソナルジムです。
           </p>
         </section>
 

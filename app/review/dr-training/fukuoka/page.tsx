@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング福岡天神店は、天神駅から徒歩5分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴で、九州エリアでも本格的なパーソナルトレーニングが受けられます。有資格トレーナーの知識量と指導力が好評です。
+            Dr.トレーニング福岡天神店は、天神駅から徒歩5分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴で、九州エリアでも本格的なパーソナルトレーニングが受けられます。
           </p>
         </section>
 

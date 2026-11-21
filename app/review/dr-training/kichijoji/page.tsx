@@ -111,10 +111,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング吉祥寺店は、吉祥寺駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴で、都度払い制のため自分のペースで通えます。人気エリア吉祥寺で楽しくトレーニングに取り組めると好評です。
+            Dr.トレーニング吉祥寺店は、吉祥寺駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴で、都度払い制のため自分のペースで通えます。
           </p>
         </section>
 

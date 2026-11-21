@@ -84,9 +84,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            LALA FIT新宿店は楽しみながらボディメイクができるパーソナルジムです。明るく清潔感のある空間でモチベーションを保ちやすく、継続率が高いと評判です。トレーナーが親しみやすく、トレーニングだけでなく日常生活のアドバイスも含めた総合的なサポートが好評です。
+            LALA FIT新宿店は、新宿エリアのパーソナルジムです。
           </p>
         </section>
 

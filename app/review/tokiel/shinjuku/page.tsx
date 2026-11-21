@@ -86,9 +86,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            トキエル新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。短時間で効率的なトレーニングが特徴で、忙しいビジネスパーソンに支持されています。科学的なアプローチに基づいたトレーニングプログラムで、無駄のないボディメイクが可能だと好評です。
+            トキエル新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。
           </p>
         </section>
 

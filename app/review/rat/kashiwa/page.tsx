@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT柏店は、柏駅から徒歩わずか2分という良好なアクセスが特徴のパーソナルジムです。千葉県内でリーズナブルに完全個室パーソナルトレーニングを受けたい方に人気があります。手ぶらで通えるレンタルサービスが充実しており、買い物ついでや仕事帰りに気軽に立ち寄れると好評です。トレーナーの丁寧な指導で、運動初心者の女性からも高い支持を得ています。
+            RAT柏店は、柏駅から徒歩わずか2分という良好なアクセスが特徴のパーソナルジムです。
           </p>
         </section>
 

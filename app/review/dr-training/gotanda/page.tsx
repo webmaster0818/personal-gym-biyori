@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング五反田店は、五反田駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴で、ダイエットからボディメイクまで幅広いニーズに対応しています。トレーナーの知識量と丁寧な指導が好評です。
+            Dr.トレーニング五反田店は、五反田駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴で、ダイエットからボディメイクまで幅広いニーズに対応しています。
           </p>
         </section>
 

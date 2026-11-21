@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/nishimagome" storeName="Nexusジム 西馬込店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+西馬込店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム西馬込店は西馬込駅から徒歩4分の立地にあるパーソナルジムです。月額19,800円〜という格安料金でマンツーマン指導が受けられる点が好評です。大田区エリアで手頃な価格のパーソナルジムを探している方に特に支持されています。トレーナーの丁寧な指導と落ち着いた環境が口コミで高評価を得ています。
+            Nexusジム西馬込店は西馬込駅から徒歩4分の立地にあるパーソナルジムです。
           </p>
         </section>
 

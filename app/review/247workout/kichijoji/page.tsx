@@ -68,8 +68,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">24/7ワークアウト吉祥寺店は、住みたい街として人気の吉祥寺エリアに位置しています。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しています。リーズナブルな料金設定で、武蔵野市や三鷹市、杉並区からの利用者が多くいます。おしゃれな街の中で気軽にパーソナルトレーニングを始められると好評で、トレーナーの親しみやすさと的確な食事指導が評価されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">24/7ワークアウト吉祥寺店は、吉祥寺エリアに位置しています。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しています。</p>
         </section>
                 
         <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />

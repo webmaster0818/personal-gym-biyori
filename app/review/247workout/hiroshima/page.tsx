@@ -67,8 +67,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">24/7ワークアウト広島店は、広島市の中心部・八丁堀エリアに位置しています。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。大手パーソナルジムと比較してリーズナブルな料金設定が特徴で、広島市内を中心に広島県内各地からの利用者がいます。トレーナーの明るい雰囲気と、食事管理を含めた総合的なサポートが評価されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">24/7ワークアウト広島店は、広島市の中心部・八丁堀エリアに位置しています。完全個室のマンツーマントレーニングで、早朝から深夜まで営業しています。</p>
         </section>
                 
         <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />

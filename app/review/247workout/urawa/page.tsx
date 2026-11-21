@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト浦和店は、浦和駅から徒歩圏内に位置し、さいたま市浦和区エリアで通いやすい店舗です。埼玉県内で質の高いパーソナルトレーニングを求める方に人気があり、完全個室でのマンツーマン指導でしっかりと結果を出せると好評です。3食しっかり食べるダイエットメソッドで家庭の食事を楽しみながら健康的に痩せられる点や、深夜24時まで営業しているため都心通勤の帰りにも立ち寄れる点が評価されています。
+            24/7ワークアウト浦和店は、浦和駅から徒歩圏内に位置する店舗です。
           </p>
         </section>
                 

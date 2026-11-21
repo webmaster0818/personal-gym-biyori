@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM吉祥寺店は、吉祥寺駅から徒歩5分に位置する月額制パーソナルジムです。武蔵野市エリアで質の高いマンツーマントレーニングを求める方に選ばれています。有資格トレーナーが運動経験や体の状態に合わせてメニューをカスタマイズしてくれるため、初心者でも安心です。おしゃれな吉祥寺の街でトレーニング後の時間も楽しめると好評です。
+            MIYAZAKI GYM吉祥寺店は、吉祥寺駅から徒歩5分に位置する月額制パーソナルジムです。有資格トレーナーが運動経験や体の状態に合わせてメニューをカスタマイズしてくれるため、初心者でも安心です。
           </p>
         </section>
 

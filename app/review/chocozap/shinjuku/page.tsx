@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            chocoZAP新宿店は、新宿駅から徒歩圏内にあるコンビニジムです。月額3,278円（税込）で24時間いつでも利用でき、私服のまま気軽にトレーニングできるのが最大の特徴です。セルフエステやセルフ脱毛も使い放題で、費用対効果の高さを評価する口コミが多数見られます。
+            chocoZAP新宿店は、新宿駅から徒歩圏内にあるコンビニジムです。月額3,278円（税込）で24時間いつでも利用でき、私服のまま気軽にトレーニングできるのが最大の特徴です。
           </p>
         </section>
 

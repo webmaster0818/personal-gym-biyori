@@ -114,10 +114,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            OUTLINE横浜店は、横浜駅から徒歩圏内にある女性専用パーソナルジムです。完全個室で女性トレーナーが指導するため、男性の目が気になる方にも安心です。生涯アフターフォローが無料で受けられるため、卒業後も安心してボディメイクを続けられると口コミで評判です。
+            OUTLINE横浜店は、横浜駅から徒歩圏内にある女性専用パーソナルジムです。
           </p>
         </section>
 

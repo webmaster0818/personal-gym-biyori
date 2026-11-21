@@ -94,9 +94,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            VASE恵比寿店は恵比寿駅から徒歩圏内にあるパーソナルジムです。オーダーメイドのトレーニングプログラムと食事管理サポートが特徴で、ダイエットやボディメイクを目指す方から高い評価を得ています。落ち着いた恵比寿の街並みにマッチしたおしゃれな空間で、トレーニングのモチベーションが上がると好評です。トレーナーの対応が親切丁寧で、初心者でも安心して通えると評判の店舗です。
+            VASE恵比寿店は恵比寿駅から徒歩圏内にあるパーソナルジムです。
           </p>
         </section>
 

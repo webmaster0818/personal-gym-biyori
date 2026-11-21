@@ -111,10 +111,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング学芸大学店は、学芸大学駅から徒歩3分のパーソナルジムです。医学的根拠に基づいたトレーニングとストレッチ指導が特徴です。地域密着型の環境で、継続しやすいと好評です。
+            Dr.トレーニング学芸大学店は、学芸大学駅から徒歩3分のパーソナルジムです。医学的根拠に基づいたトレーニングとストレッチ指導が特徴です。
           </p>
         </section>
 

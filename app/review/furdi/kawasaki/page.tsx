@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI川崎店は、川崎駅から徒歩5分の女性専用AIフィットネスジムです。川崎エリアで手頃な価格のフィットネスを探している女性に支持されています。月額7,678円〜で通い放題のサーキット型AIトレーニングが受けられ、予約不要で気軽に利用できます。横浜方面からのアクセスも良く、近隣エリアの女性にも利用されています。
+            FURDI川崎店は、川崎駅から徒歩5分の女性専用AIフィットネスジムです。月額7,678円〜で通い放題のサーキット型AIトレーニングが受けられ、予約不要で気軽に利用できます。
           </p>
         </section>
 

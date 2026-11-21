@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND下北沢店は下北沢駅から徒歩5分に位置する店舗です。サブカルチャーの街として知られる下北沢で、個性的な街の雰囲気に合った居心地の良い空間でトレーニングができます。若い世代の利用者が多く、初めてのパーソナルトレーニングとして選ばれることも多い傾向にあります。トレーナーの親しみやすさが好評です。
+            BEYOND下北沢店は下北沢駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

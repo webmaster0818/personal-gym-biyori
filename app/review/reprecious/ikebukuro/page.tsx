@@ -85,9 +85,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            リプレシャス池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。女性の体型の悩みに特化したトレーニングプログラムが充実しており、ダイエットだけでなく姿勢改善やヒップアップなど細かな要望にも対応してくれると好評です。アットホームな雰囲気で通いやすいとの声が多い傾向にあります。
+            リプレシャス池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。
           </p>
         </section>
 

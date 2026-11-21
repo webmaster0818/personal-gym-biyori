@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP川崎店は、川崎駅から徒歩圏内に位置する神奈川県の店舗です。完全個室のマンツーマントレーニング環境が整っています。トレーナーの質の高さと、結果にコミットするプログラムが評価されています。
+            RIZAP川崎店は、川崎駅から徒歩圏内に位置する神奈川県の店舗です。完全個室のマンツーマントレーニング環境が整っています。
           </p>
         </section>
                 

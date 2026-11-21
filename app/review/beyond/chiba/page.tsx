@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND千葉店は千葉駅から徒歩5分に位置する店舗です。千葉県の中心都市で本格的なパーソナルトレーニングを受けたい方に人気があります。経験豊富なトレーナーが在籍し、初心者から上級者まで幅広いレベルに対応しています。駅近で通いやすく、仕事帰りの利用者も多い店舗です。
+            BEYOND千葉店は千葉駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

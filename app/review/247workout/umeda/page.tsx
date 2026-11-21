@@ -114,10 +114,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト梅田店は大阪・梅田エリアに位置する関西圏の主要店舗です。JR大阪駅や梅田駅から徒歩圏内で、関西のビジネスパーソンに利用されています。3食食べるダイエット指導と完全個室環境が特徴で、深夜24時まで営業しているため、残業が多い方でも通いやすい環境です。
+            24/7ワークアウト梅田店は大阪・梅田エリアに位置する関西圏の主要店舗です。
           </p>
         </section>
                 

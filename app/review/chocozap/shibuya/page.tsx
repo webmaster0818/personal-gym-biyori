@@ -114,10 +114,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            chocoZAP渋谷店は、渋谷駅近くに位置するコンビニジムです。24時間営業で月額3,278円（税込）という低価格が特徴です。着替え不要・靴履き替え不要で、5分だけでも気軽に利用できるスタイルが忙しい若者を中心に好評です。
+            chocoZAP渋谷店は、渋谷駅近くに位置するコンビニジムです。24時間営業で月額3,278円（税込）という低価格が特徴です。
           </p>
         </section>
 

@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング銀座店は、銀座駅から好アクセスの店舗です。洗練された空間で医学的根拠に基づいたトレーニングを受けられます。仕事帰りのビジネスパーソンや美意識の高い女性利用者が多く、ボディメイクや姿勢改善に関する口コミが好評です。都度払い制で費用対効果が高いと評価されています。
+            Dr.トレーニング銀座店は、銀座駅から好アクセスの店舗です。洗練された空間で医学的根拠に基づいたトレーニングを受けられます。
           </p>
         </section>
 

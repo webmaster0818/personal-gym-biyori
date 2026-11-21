@@ -107,10 +107,10 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング目黒店は、目黒駅から徒歩圏内にある落ち着いた雰囲気の店舗です。医学的知見に基づいたトレーニング指導が特徴で、姿勢改善や慢性的な痛みの解消を目的に通う利用者が多い店舗です。都度払い制のため、自分のペースで無理なく続けられると好評です。
+            Dr.トレーニング目黒店は、目黒駅から徒歩圏内にある店舗です。
           </p>
         </section>
 

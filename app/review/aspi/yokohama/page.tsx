@@ -109,10 +109,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ASPI横浜店は横浜駅から徒歩5分のアクセスの良い店舗です。全トレーナーが有資格者で、横浜エリアで質の高いパーソナルトレーニングを提供しています。月額7,600円からの手頃な料金と、オンライン食事指導を組み合わせた効果的なプログラムが好評です。神奈川エリアで信頼性の高いジムを探している方におすすめです。
+            ASPI横浜店は横浜駅から徒歩5分のアクセスの良い店舗です。
           </p>
         </section>
 

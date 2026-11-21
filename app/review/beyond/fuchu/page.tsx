@@ -121,10 +121,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND府中店は府中駅から徒歩5分に位置する店舗です。府中市エリアで本格的なパーソナルトレーニングを受けられる貴重な店舗として人気があります。落ち着いた住宅街に位置し、地元の方を中心に利用されています。トレーナーの的確なアドバイスと親身な対応が口コミで高く評価されています。
+            BEYOND府中店は府中駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

@@ -59,7 +59,7 @@ export default function StorePage() {
           <Link href="/review/outline/" className="inline-block bg-teal-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-teal-700 transition-colors text-sm">総合レビューを見る</Link>
         </div>
         <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">アクセス・地図</h2><div className="bg-gray-100 rounded-lg p-8 text-center"><p className="text-gray-600 mb-4">OUTLINE 恵比寿店の所在地をGoogleマップで確認できます。</p><a href="https://www.google.com/maps/search/OUTLINE+恵比寿店" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors">Googleマップで見る</a></div></section>
-        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2><p className="text-gray-700 leading-relaxed">OUTLINE恵比寿店は、恵比寿駅から徒歩8分にある女性専用パーソナルジムです。渋谷区エリアのおしゃれな街並みの中にあり、完全個室で女性トレーナーがマンツーマン指導を行います。リバウンド防止のアフターフォローが生涯無料です。</p></section>
+        <section className="mb-10"><h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2><p className="text-gray-700 leading-relaxed">OUTLINE恵比寿店は、恵比寿駅から徒歩8分にある女性専用パーソナルジムです。渋谷区エリアのおしゃれな街並みの中にあり、完全個室で女性トレーナーがマンツーマン指導を行います。リバウンド防止のアフターフォローが生涯無料です。</p></section>
         
         
         <StorePrice brandSlug="outline" brandName="OUTLINE" />

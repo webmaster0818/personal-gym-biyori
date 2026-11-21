@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="exe/fujisawa" storeName="EXE 藤沢店" brandSlug="exe" brandName="EXE" mapsSearchUrl="https://www.google.com/maps/search/EXE+藤沢店+パーソナルジム" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            EXE 藤沢店は、神奈川県藤沢市の藤沢駅から徒歩わずか1分というアクセスの良いパーソナルジムです。湘南エリアの中心地に位置し、藤沢駅を利用する通勤・通学の方にも通いやすい立地が特徴です。駅に近いため仕事帰りや買い物ついでに立ち寄れる利便性が好評で、継続率の高さにつながっています。マンツーマンの丁寧な指導で、ダイエットからボディメイクまで幅広い目標に対応しています。
+            EXE 藤沢店は、神奈川県藤沢市の藤沢駅から徒歩わずか1分というアクセスの良いパーソナルジムです。
           </p>
         </section>
 

@@ -85,8 +85,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">chocoZAP横浜店は、横浜駅近くに位置する24時間営業のコンビニジムです。月額3,278円（税込）という低価格で、トレーニングマシンに加えてセルフエステ・セルフ脱毛も利用できます。着替え不要で気軽に立ち寄れるスタイルが、横浜エリアで働くビジネスパーソンや学生から好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">chocoZAP横浜店は、横浜駅近くに位置する24時間営業のコンビニジムです。月額3,278円（税込）という低価格で、トレーニングマシンに加えてセルフエステ・セルフ脱毛も利用できます。</p>
         </section>
 
         <section className="mb-10">

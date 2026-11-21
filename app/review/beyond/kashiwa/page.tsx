@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND柏店は柏駅から徒歩5分の場所にある店舗です。千葉県北西部エリアの方に利用されており、常磐線沿線からのアクセスも良好です。トレーナーが一人ひとりの目標に合わせた丁寧なカウンセリングを行い、最適なプログラムを提供しています。清潔感のある店内と親しみやすい雰囲気が好評です。
+            BEYOND柏店は柏駅から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

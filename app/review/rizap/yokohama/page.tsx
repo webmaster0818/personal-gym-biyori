@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP横浜東口店は、横浜駅から徒歩圏内に位置する神奈川県の主要店舗です。完全個室のマンツーマントレーニング環境が整っています。駅近の立地で通いやすく、結果にコミットするプログラムで着実なボディメイクを実現できると評判です。トレーナーの熱意と知識量を評価する口コミが多い店舗です。
+            RIZAP横浜東口店は、横浜駅から徒歩圏内に位置する神奈川県の主要店舗です。完全個室のマンツーマントレーニング環境が整っています。
           </p>
         </section>
                 

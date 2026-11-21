@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM中野店は、中野駅から徒歩5分にある月額制パーソナルジムです。中野区エリアで手頃な月額料金でパーソナルトレーニングを受けたい方に人気があります。有資格トレーナーがトレーニングだけでなく、日常生活での姿勢や動作のアドバイスもしてくれるため、トレーニング以外の時間も含めた総合的な体づくりができると評判です。
+            MIYAZAKI GYM中野店は、中野駅から徒歩5分にある月額制パーソナルジムです。
           </p>
         </section>
 

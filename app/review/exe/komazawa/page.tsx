@@ -117,10 +117,10 @@ export default function StorePage() {
 <StoreGmapBox k="exe/komazawa" storeName="EXE 駒沢大学店" brandSlug="exe" brandName="EXE" mapsSearchUrl="https://www.google.com/maps/search/EXE+駒沢大学店+パーソナルジム" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            EXE 駒沢大学店は、東京都世田谷区の駒沢エリアに位置するパーソナルジムです。駒沢大学駅から徒歩8分のアクセスで、駒沢公園にも近い健康的な環境が特徴です。世田谷区は健康意識が高い住民が多く、本格的なボディメイクやダイエットを目指す方に利用されています。マンツーマンの丁寧な指導と、個々の目標に合わせたプログラム設計が好評です。
+            EXE 駒沢大学店は、東京都世田谷区の駒沢エリアに位置するパーソナルジムです。駒沢大学駅から徒歩8分のアクセスで、駒沢公園にも近い健康的な環境が特徴です。
           </p>
         </section>
 

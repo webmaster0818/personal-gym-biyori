@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP藤沢店は、湘南エリアの玄関口である藤沢駅から徒歩8分の場所にある店舗です。海沿いの開放的なライフスタイルを送る方が多いエリアらしく、健康的な体づくりへの意識が高い利用者が中心です。夏に向けたボディメイクの需要が特に高く、短期集中で成果を出したいという目的意識の明確な方が多いとの口コミが見られます。トレーナーの指導力とコミュニケーション力が高く評価されています。
+            RIZAP藤沢店は、湘南エリアの玄関口である藤沢駅から徒歩8分の場所にある店舗です。
           </p>
         </section>
                 

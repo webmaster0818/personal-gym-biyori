@@ -114,10 +114,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト渋谷店は渋谷駅から徒歩圏内にあり、若年層からビジネスパーソンまで幅広い利用者がいます。3食食べるダイエット指導と完全個室の環境が好評で、深夜24時まで営業しているため仕事帰りでも通いやすいと評価されています。トレーナーの丁寧な指導とリバウンド防止のアフターフォローも支持されています。
+            24/7ワークアウト渋谷店は、渋谷駅から徒歩圏内にある店舗です。
           </p>
         </section>
                 

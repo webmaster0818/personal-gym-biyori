@@ -75,8 +75,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">Apple GYM町田店は町田駅から徒歩5分にある海外式ボディメイクパーソナルジムです。姿勢改善をベースとしたトレーニングが受けられます。月会費は月4回9,900円〜（個別指導・税込）で、食事サポートは別料金のオプションです。町田エリアで手頃な価格のパーソナルジムを探している方に選ばれています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">Apple GYM町田店は町田駅から徒歩5分にある海外式ボディメイクパーソナルジムです。姿勢改善をベースとしたトレーニングが受けられます。月会費は月4回9,900円〜（個別指導・税込）で、食事サポートは別料金のオプションです。</p>
         </section>
 
                 

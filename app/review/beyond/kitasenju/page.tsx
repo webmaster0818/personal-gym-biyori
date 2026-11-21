@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND北千住店は北千住駅から徒歩5分の場所にある店舗です。足立区エリアでパーソナルトレーニングを受けたい方に人気があります。アットホームな雰囲気の中で、一人ひとりの体力レベルに合わせたトレーニングプログラムを提供しています。食事指導も丁寧で、ダイエット目的の方からの評価が高い店舗です。
+            BEYOND北千住店は北千住駅から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

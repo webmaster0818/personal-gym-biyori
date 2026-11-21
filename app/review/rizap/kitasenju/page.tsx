@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP北千住店は、北千住駅（東京メトロ千代田線1番出口）から徒歩5分の場所にある店舗です。アットホームな雰囲気のトレーナーが多く、リラックスしてトレーニングに臨めるとの口コミが目立ちます。初心者でも無理なく続けられるプログラム設計が好評です。
+            RIZAP北千住店は、北千住駅（東京メトロ千代田線1番出口）から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

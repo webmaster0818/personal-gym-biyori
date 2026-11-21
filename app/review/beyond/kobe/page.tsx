@@ -74,8 +74,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND三宮店は、神戸市の中心部・三宮エリアに位置しています。入会金無料・回数券制で気軽に始められ、ボディメイクコンテスト経験者のトレーナーによる本格的な指導が特徴です。神戸市内はもちろん、阪神間からの利用者もおり、関西圏で質の高いパーソナルトレーニングを求める方に支持されています。おしゃれな港町の雰囲気の中でモチベーション高くトレーニングに取り組めると好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND三宮店は、神戸市の中心部・三宮エリアに位置しています。入会金無料・回数券制で気軽に始められ、ボディメイクコンテスト経験者のトレーナーによる本格的な指導が特徴です。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

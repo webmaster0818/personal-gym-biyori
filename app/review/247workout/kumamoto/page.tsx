@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト熊本店は、通町筋駅から徒歩圏内に位置する熊本市中心部の店舗です。九州エリアで本格的なパーソナルトレーニングを受けられる数少ない店舗として、地元の方に支持されています。完全個室でのマンツーマン指導で、初心者でも安心してトレーニングを始められます。3食しっかり食べるダイエットメソッドで地元の食文化を楽しみながら健康的に痩せられ、深夜24時まで営業しているため生活スタイルに合わせて通えます。
+            24/7ワークアウト熊本店は、通町筋駅から徒歩圏内に位置する熊本市中心部の店舗です。
           </p>
         </section>
                 

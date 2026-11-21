@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="calorie-trade/ichinomiya" storeName="CALORIE TRADE JAPAN 一宮本町店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+一宮本町店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CALORIE TRADE JAPAN 一宮本町店は、愛知県一宮市の中心部・本町エリアに位置するパーソナルジムです。一宮駅からもアクセスしやすく、地元の方を中心に利用されています。ダイエットに特化したプログラムと丁寧な食事指導が特徴で、運動が苦手な方でも無理なく続けられると評判です。落ち着いた雰囲気の中でマンツーマン指導を受けられる点が好評です。
+            CALORIE TRADE JAPAN 一宮本町店は、愛知県一宮市の中心部・本町エリアに位置するパーソナルジムです。
           </p>
         </section>
 

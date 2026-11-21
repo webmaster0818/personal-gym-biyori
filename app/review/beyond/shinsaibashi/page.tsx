@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND心斎橋店は心斎橋駅から徒歩5分の場所にある店舗です。大阪の中心地であるミナミエリアに位置し、ショッピングや食事の合間にトレーニングを楽しむ利用者も多い傾向にあります。おしゃれな街並みにふさわしい洗練された店内で、質の高いパーソナルトレーニングを受けられると好評です。
+            BEYOND心斎橋店は心斎橋駅から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

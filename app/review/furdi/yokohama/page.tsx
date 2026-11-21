@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI横浜店は、横浜駅から徒歩5分に位置する女性専用AIフィットネスジムです。神奈川エリア最大のターミナル駅から好アクセスで、通勤・通学途中の女性や主婦層から幅広い支持を得ています。AIトレーナーが体力レベルに応じたメニューを自動提案してくれるため、ジム初心者でも迷わずトレーニングに取り組めます。月額7,678円〜で通い放題、予約不要という手軽さも人気の理由です。
+            FURDI横浜店は、横浜駅から徒歩5分に位置する女性専用AIフィットネスジムです。AIトレーナーが体力レベルに応じたメニューを自動提案してくれるため、ジム初心者でも迷わずトレーニングに取り組めます。
           </p>
         </section>
 

@@ -113,10 +113,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ASPI自由が丘店は自由が丘駅から徒歩3分のアクセスの良い店舗です。有資格トレーナーが一人ひとりに合わせたプログラムを作成し、丁寧に指導してくれます。月額7,600円からの価格帯で、おしゃれな自由が丘エリアで本格的なパーソナルトレーニングを受けられると好評です。ストレッチ指導も充実しています。
+            ASPI自由が丘店は自由が丘駅から徒歩3分のアクセスの良い店舗です。ストレッチ指導も充実しています。
           </p>
         </section>
 

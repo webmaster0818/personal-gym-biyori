@@ -90,9 +90,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト藤沢店は、藤沢駅から徒歩圏内に位置し、湘南エリアで本格的なパーソナルトレーニングを受けられる店舗です。海沿いの健康的なライフスタイルを求める方や、藤沢市周辺にお住まいの方に支持されています。完全個室でのマンツーマン指導で集中してトレーニングでき、3食しっかり食べるダイエットメソッドで無理なく継続できると好評です。深夜24時まで営業しており、仕事帰りにも通いやすい環境です。
+            24/7ワークアウト藤沢店は、藤沢駅から徒歩圏内に位置し、湘南エリアで本格的なパーソナルトレーニングを受けられる店舗です。
           </p>
         </section>
                 

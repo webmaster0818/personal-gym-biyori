@@ -74,8 +74,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND京都店は、京都市の中心部に位置しています。入会金無料・回数券制で始めやすく、コンテスト経験者のトレーナーによる専門的な指導が受けられます。京都市内在住の方を中心に、滋賀県からの利用者もいます。歴史ある街の中で、本格的なボディメイクに取り組める環境が整っています。トレーナーの知識の豊富さと丁寧なカウンセリングが評価されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND京都店は、京都市の中心部に位置しています。入会金無料・回数券制で始めやすく、コンテスト経験者のトレーナーによる専門的な指導が受けられます。歴史ある街の中で、本格的なボディメイクに取り組める環境が整っています。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

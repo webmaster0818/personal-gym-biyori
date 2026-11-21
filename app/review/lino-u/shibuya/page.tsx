@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            リノユー渋谷店は、渋谷駅から徒歩圏内にあるパーソナルジムです。「リニューアル・ユー」のコンセプト通り、体だけでなくライフスタイル全体の改善を目指すプログラムが特徴です。食事指導やメンタルケアも含めた総合的なサポートで、根本からの体質改善を目指す利用者に支持されています。
+            リノユー渋谷店は、渋谷駅から徒歩圏内にあるパーソナルジムです。「リニューアル・ユー」のコンセプト通り、体だけでなくライフスタイル全体の改善を目指すプログラムが特徴です。
           </p>
         </section>
 

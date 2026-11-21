@@ -90,9 +90,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            カーブス三宮店は、三宮駅から徒歩5分の女性専用フィットネスです。神戸の中心地に位置し、オフィスワーカーや近隣住民の方に利用されています。おしゃれな街・神戸で気軽に運動できるスポットとして親しまれており、30分で完結するトレーニングが忙しい女性に支持されています。コーチの対応が温かく、体の変化を一緒に喜んでくれるのでモチベーション維持につながると好評です。
+            カーブス三宮店は、三宮駅から徒歩5分の女性専用フィットネスです。
           </p>
         </section>
 

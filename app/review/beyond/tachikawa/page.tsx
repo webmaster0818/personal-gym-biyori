@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND立川店は、多摩エリアの主要ターミナルであるJR立川駅から徒歩圏内に位置しています。入会金無料・回数券制で始めやすく、コンテスト経験者のトレーナーによる本格的な指導が受けられます。立川市内だけでなく、多摩地域各地からの利用者があり、都心まで出なくても質の高いパーソナルトレーニングを受けられると好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND立川店は、多摩エリアの主要ターミナルであるJR立川駅から徒歩圏内に位置しています。入会金無料・回数券制で始めやすく、コンテスト経験者のトレーナーによる本格的な指導が受けられます。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

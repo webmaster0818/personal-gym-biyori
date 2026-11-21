@@ -84,9 +84,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            ACCEPT新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。一人ひとりの体質や目標に合わせたオーダーメイドのトレーニングプログラムが特徴で、ダイエットだけでなく姿勢改善や体力向上にも対応しています。丁寧なカウンセリングとアットホームな雰囲気で、初心者でも安心して通えると評判です。
+            ACCEPT新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。一人ひとりの体質や目標に合わせたオーダーメイドのトレーニングプログラムが特徴で、ダイエットだけでなく姿勢改善や体力向上にも対応しています。
           </p>
         </section>
 

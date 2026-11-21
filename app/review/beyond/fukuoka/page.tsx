@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND福岡天神店は、天神駅から徒歩圏内に位置する九州エリアの店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、福岡市内のビジネスパーソンを中心に利用されています。入会金無料・回数券制で始めやすく、天神エリアの立地で仕事帰りに通いやすいと好評です。九州で本格的なパーソナルトレーニングを受けたい方に支持されています。
+            BEYOND福岡天神店は、天神駅から徒歩圏内に位置する九州エリアの店舗です。
           </p>
         </section>
                 

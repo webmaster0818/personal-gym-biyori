@@ -86,9 +86,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            カーブス上野店は、上野駅から徒歩5分の女性専用フィットネスです。下町エリアならではのアットホームな雰囲気が特徴で、地元の主婦やシニア層を中心に愛されています。30分のサーキットトレーニングは体力に自信がない方でも取り組みやすく、膝や腰に不安がある方にも配慮したプログラムが好評です。スタッフが名前を覚えて声をかけてくれるので、通うのが楽しみになったという声が多く寄せられています。
+            カーブス上野店は、上野駅から徒歩5分の女性専用フィットネスです。
           </p>
         </section>
 

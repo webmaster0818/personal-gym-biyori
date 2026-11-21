@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            BBB新宿店はトレーニングと整体を組み合わせた独自のメソッドが特徴のパーソナルジムです。体の歪みを整えながら効率的にボディメイクできると好評で、肩こりや腰痛の改善も期待できるという声が多く見られます。女性トレーナーも在籍しており、女性利用者が安心して通える環境が整っています。
+            BBB新宿店はトレーニングと整体を組み合わせた独自のメソッドが特徴のパーソナルジムです。
           </p>
         </section>
 

@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト錦糸町店は、錦糸町駅から徒歩圏内の立地にあります。墨田区エリアでパーソナルトレーニングを検討している方に人気の店舗で、完全個室の環境でしっかりとトレーニングに取り組めます。3食しっかり食べるダイエットメソッドで健康的に痩せたい方に支持されており、深夜24時まで営業しているため仕事終わりにも無理なく通えると評判です。
+            24/7ワークアウト錦糸町店は、錦糸町駅から徒歩圏内の立地にあります。
           </p>
         </section>
                 

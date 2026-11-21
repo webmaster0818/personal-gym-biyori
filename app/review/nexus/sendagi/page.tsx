@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/sendagi" storeName="Nexusジム 千駄木店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+千駄木店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム千駄木店は千駄木駅から徒歩わずか1分の立地にあるパーソナルジムです。文京区エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられます。下町の落ち着いた環境と駅からの近さが口コミで高評価です。文京区で格安パーソナルジムを探している方に特におすすめのジムです。
+            Nexusジム千駄木店は千駄木駅から徒歩わずか1分の立地にあるパーソナルジムです。文京区エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられます。
           </p>
         </section>
 

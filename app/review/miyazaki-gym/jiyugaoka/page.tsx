@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM自由が丘店は、自由が丘駅から徒歩わずか3分にある月額制パーソナルジムです。おしゃれな街並みに溶け込む洗練された店舗で、特に女性利用者から高い人気を集めています。有資格トレーナーが美しいボディラインづくりや姿勢改善など、見た目の変化にもこだわった指導をしてくれると好評です。
+            MIYAZAKI GYM自由が丘店は、自由が丘駅から徒歩わずか3分にある月額制パーソナルジムです。
           </p>
         </section>
 

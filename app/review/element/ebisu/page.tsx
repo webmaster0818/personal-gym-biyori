@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            ELEMENT恵比寿店は、恵比寿駅から徒歩圏内にある通い放題型パーソナルジムです。おしゃれな恵比寿エリアに立地しており、美意識の高い利用者に支持されています。月額定額制で30分の短時間セッションを何度でも受けられるため、忙しい方でも無理なく通い続けられると好評です。
+            ELEMENT恵比寿店は、恵比寿駅から徒歩圏内にある通い放題型パーソナルジムです。
           </p>
         </section>
 

@@ -22,7 +22,7 @@ const basicInfo = [
 const faqItems = [
   { q: "HABIT 代々木上原ANNEX店の料金はいくらですか？", a: "月額制で通いやすい料金体系です。最新の料金は公式サイトでご確認ください。" },
   { q: "HABIT 代々木上原ANNEX店の営業時間を教えてください。", a: "7:00〜23:00です。最新情報は公式サイトでご確認ください。" },
-  { q: "HABIT 代々木上原ANNEX店は初心者でも大丈夫ですか？", a: "はい、初心者の方も多く通われています。トレーナーが一から丁寧に指導します。" },
+  { q: "HABIT 代々木上原ANNEX店は初心者でも大丈夫ですか？", a: "はい、初心者の方も利用できます。トレーナーが一から丁寧に指導します。" },
   { q: "HABIT 代々木上原ANNEX店の体験トレーニングはありますか？", a: "はい、体験トレーニングが用意されています。公式サイトから予約できます。" },
 ];
 
@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            HABIT代々木上原ANNEX店は、代々木上原店の姉妹店として同じく駅徒歩1分の立地にオープンした店舗です。本店の人気により予約が取りづらくなったことを受けて開設されたため、予約の取りやすさが大きなメリットです。設備やサービスの質は本店と同等で、代々木上原エリアで柔軟にスケジュールを組みたい方に選ばれています。2店舗あることで、急な予定変更にも対応しやすい点が利用者から好評です。
+            HABIT代々木上原ANNEX店は、代々木上原店の姉妹店として同じく駅徒歩1分の立地にオープンした店舗です。
           </p>
         </section>
 

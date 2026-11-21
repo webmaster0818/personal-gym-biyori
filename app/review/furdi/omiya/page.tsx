@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI大宮店は、大宮駅から徒歩5分の女性専用AIフィットネスジムです。埼玉県エリアの拠点店舗として、さいたま市周辺の女性に利用されています。月額7,678円〜の手頃な価格で、AIサーキットトレーニングに通い放題で取り組めます。都心に出なくても地元で本格的なフィットネスが楽しめると好評です。予約不要で仕事や家事の合間に気軽に通えます。
+            FURDI大宮店は、大宮駅から徒歩5分の女性専用AIフィットネスジムです。月額7,678円〜の手頃な価格で、AIサーキットトレーニングに通い放題で取り組めます。予約不要で仕事や家事の合間に気軽に通えます。
           </p>
         </section>
 

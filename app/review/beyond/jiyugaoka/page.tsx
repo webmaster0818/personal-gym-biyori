@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND自由が丘店は自由が丘駅から徒歩3分の立地にある店舗です。おしゃれな街並みにふさわしい洗練された店内で、質の高いパーソナルトレーニングを受けられます。女性の利用者が多く、美しいボディライン作りやダイエットに関する指導が充実しています。トレーナーの対応が親切で通いやすいと好評です。
+            BEYOND自由が丘店は自由が丘駅から徒歩3分の立地にある店舗です。
           </p>
         </section>
                 

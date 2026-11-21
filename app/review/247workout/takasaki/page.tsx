@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト高崎店は、高崎駅から徒歩圏内に位置する群馬県の店舗です。北関東エリアで大手パーソナルトレーニングジムの指導を受けられる希少な拠点として、高崎市内はもちろん群馬県内各地から利用されています。完全個室でのマンツーマン指導で初心者でも安心して始められ、3食しっかり食べるダイエットメソッドで無理なく健康的にダイエットに取り組めます。深夜24時まで営業しているため、仕事帰りにも余裕を持って通えます。
+            24/7ワークアウト高崎店は、高崎駅から徒歩圏内に位置する群馬県の店舗です。深夜24時まで営業しているため、仕事帰りにも余裕を持って通えます。
           </p>
         </section>
                 

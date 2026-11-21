@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND横浜元町店は元町・中華街駅から徒歩5分の場所にある店舗です。横浜の人気観光エリアに位置し、おしゃれな街並みの中で本格的なパーソナルトレーニングを受けられます。横浜エリアで美意識の高い方に支持されており、ボディラインの美しさを追求するトレーニングに定評があります。
+            BEYOND横浜元町店は元町・中華街駅から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

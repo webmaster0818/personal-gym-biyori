@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT北千住店は、北千住駅から徒歩5分のアクセス良好な立地にある女性向けパーソナルジムです。完全個室のプライベート空間で、人目を気にせずトレーニングできると好評です。リーズナブルな料金設定ながら、手ぶらで通える充実のレンタルサービスも整っており、仕事帰りに気軽に立ち寄れる点が多くの利用者から支持されています。
+            RAT北千住店は、北千住駅から徒歩5分のアクセス良好な立地にある女性向けパーソナルジムです。
           </p>
         </section>
 

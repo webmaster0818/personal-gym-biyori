@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/ikenoue" storeName="Nexusジム 池ノ上店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+池ノ上店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム池ノ上店は池ノ上駅から徒歩4分のパーソナルジムです。下北沢エリアからもアクセスしやすく、月額19,800円〜の格安料金でマンツーマン指導が受けられます。落ち着いた環境でのトレーニングが好評で、初心者にも通いやすいと口コミで評価されています。世田谷区で格安パーソナルジムを探している方におすすめです。
+            Nexusジム池ノ上店は池ノ上駅から徒歩4分のパーソナルジムです。下北沢エリアからもアクセスしやすく、月額19,800円〜の格安料金でマンツーマン指導が受けられます。
           </p>
         </section>
 

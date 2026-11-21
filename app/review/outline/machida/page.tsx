@@ -85,8 +85,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">OUTLINE町田店は、町田駅近くにある女性専用パーソナルジムです。完全個室で人目を気にせずトレーニングでき、女性トレーナーによる指導が受けられます。生涯アフターフォロー制度で卒業後もサポートが続く安心感が好評です。多摩エリアで女性専用パーソナルジムを探している方に特に人気の店舗です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">OUTLINE町田店は、町田駅近くにある女性専用パーソナルジムです。完全個室で人目を気にせずトレーニングでき、女性トレーナーによる指導が受けられます。</p>
         </section>
 
         <section className="mb-10">

@@ -86,8 +86,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。トレーニングと食事宅配サービスがセットになったプログラムが特徴で、忙しい女性でも手軽にボディメイクに取り組めます。おしゃれで清潔感のある空間で、モチベーション高くトレーニングを続けられると好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY池袋店は、池袋駅から徒歩圏内にある女性専用パーソナルジムです。トレーニングと食事宅配サービスがセットになったプログラムが特徴で、忙しい女性でも手軽にボディメイクに取り組めます。</p>
         </section>
 
         <section className="mb-10">

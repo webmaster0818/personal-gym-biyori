@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP船橋店は、千葉県の主要都市・船橋に位置しています。完全個室のマンツーマントレーニング環境で、専属トレーナーが丁寧にサポートします。駅からのアクセスの良さと、トレーナーの質の高さが評価されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">RIZAP船橋店は、千葉県の主要都市・船橋に位置しています。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

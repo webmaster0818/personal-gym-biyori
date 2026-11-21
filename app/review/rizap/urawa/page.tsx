@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP浦和店は、文教都市として知られる浦和駅から徒歩4分の場所にある店舗です。教育熱心なエリア特性から、健康意識の高いファミリー層やビジネスパーソンの利用が中心です。大宮店と比較して落ち着いた雰囲気で、じっくりとトレーニングに取り組めると評判です。トレーナーが目標設定から逆算したプログラムを丁寧に組んでくれるため、計画的にボディメイクを進められるとの声が多く寄せられています。
+            RIZAP浦和店は、文教都市として知られる浦和駅から徒歩4分の場所にある店舗です。
           </p>
         </section>
                 

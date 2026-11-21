@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/magome" storeName="Nexusジム 馬込店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+馬込店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム馬込店は馬込駅から徒歩わずか1分の立地にあるパーソナルジムです。月額19,800円〜という格安料金でマンツーマン指導が受けられる点が最大の特徴です。駅に近く、天候に左右されず通いやすいという口コミが多く、継続率の高さにつながっています。大田区エリアのパーソナルジムの中でもアクセスの良い店舗です。
+            Nexusジム馬込店は馬込駅から徒歩わずか1分の立地にあるパーソナルジムです。月額19,800円〜という格安料金でマンツーマン指導が受けられる点が最大の特徴です。大田区エリアのパーソナルジムの中でもアクセスの良い店舗です。
           </p>
         </section>
 

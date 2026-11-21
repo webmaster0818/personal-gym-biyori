@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM渋谷店は、渋谷駅から徒歩5分のアクセス良好な月額制パーソナルジムです。若い世代の利用者が多く、ボディメイクやダイエット目的で通う方から高い評価を得ています。有資格トレーナーが個々の目標に合わせたプログラムを組んでくれるため、効率的にトレーニングを進められると好評です。清潔感のある店内も人気のポイントです。
+            MIYAZAKI GYM渋谷店は、渋谷駅から徒歩5分のアクセス良好な月額制パーソナルジムです。
           </p>
         </section>
 

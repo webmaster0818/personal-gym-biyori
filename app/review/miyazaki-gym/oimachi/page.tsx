@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM大井町店は、大井町駅から徒歩5分に位置する月額制パーソナルジムです。品川区エリアで質の高いパーソナルトレーニングを求める方に支持されています。有資格トレーナーの丁寧なカウンセリングと個別プログラムが特徴で、目標に向けた着実な身体づくりをサポートしてくれます。アットホームな雰囲気で継続しやすいと好評です。
+            MIYAZAKI GYM大井町店は、大井町駅から徒歩5分に位置する月額制パーソナルジムです。
           </p>
         </section>
 

@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP博多店は、九州最大の交通拠点・博多駅筑紫口から徒歩6分の場所にある店舗です。福岡市中央区大名にある天神店とともに、九州地方のRIZAP拠点として多くの利用者を抱えています。博多のビジネス街に位置するため、ビジネスパーソンの利用が中心です。新幹線利用で出張が多い方にも好評で、出張前後の時間を活用してトレーニングに通うというスタイルも見られます。トレーナーの元気の良さと九州らしい温かみのある対応が好評です。
+            RIZAP博多店は、九州最大の交通拠点・博多駅筑紫口から徒歩6分の場所にある店舗です。
           </p>
         </section>
                 

@@ -80,9 +80,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            Bellpha新宿店は美容とフィットネスを融合させたパーソナルジムです。ボディメイクだけでなく美肌や美容面のケアも含めたトータルサポートが特徴で、見た目の変化を重視する女性から高い評価を得ています。清潔感のある施設と丁寧な接客も好評です。
+            Bellpha新宿店は美容とフィットネスを融合させたパーソナルジムです。
           </p>
         </section>
 

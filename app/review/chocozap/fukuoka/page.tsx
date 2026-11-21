@@ -86,8 +86,8 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">chocoZAP福岡店は、博多駅近くにある24時間営業のコンビニジムです。九州エリアでRIZAP監修のトレーニングを月額3,278円で利用できると好評です。着替え不要・靴履き替え不要で、仕事帰りにスーツのままでも気軽に運動できるスタイルが、福岡の忙しいビジネスパーソンから支持されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">chocoZAP福岡店は、博多駅近くにある24時間営業のコンビニジムです。</p>
         </section>
 
         <section className="mb-10">

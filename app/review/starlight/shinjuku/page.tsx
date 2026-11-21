@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            スターライト新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。少人数制でアットホームな雰囲気が特徴で、トレーナーとの距離が近いため、気軽に相談しながらトレーニングを進められると好評です。個人の体質や目標に寄り添った丁寧な指導が特徴です。
+            スターライト新宿店は、新宿駅から徒歩圏内にあるパーソナルジムです。
           </p>
         </section>
 

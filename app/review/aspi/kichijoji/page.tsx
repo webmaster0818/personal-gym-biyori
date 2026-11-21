@@ -109,10 +109,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ASPI吉祥寺店は吉祥寺駅から徒歩5分の立地にある店舗です。有資格トレーナーによる質の高い指導が受けられ、月額7,600円からの料金で続けやすいと好評です。武蔵野エリアで本格的なパーソナルトレーニングを求める方に支持されています。食事指導やストレッチ指導も含まれた包括的なプログラムが特徴です。
+            ASPI吉祥寺店は吉祥寺駅から徒歩5分の立地にある店舗です。食事指導やストレッチ指導も含まれた包括的なプログラムが特徴です。
           </p>
         </section>
 

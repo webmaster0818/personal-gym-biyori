@@ -108,10 +108,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            THE PERSONAL GYM新宿店は、新宿駅から徒歩圏内に位置するパーソナルジムです。トレーナーの質が高く、一人ひとりの目標に合わせたオーダーメイドのトレーニングメニューが好評です。初心者から上級者まで幅広い層に対応しており、丁寧なカウンセリングで無理のないプランを提案してくれると評判です。
+            THE PERSONAL GYM新宿店は、新宿駅から徒歩圏内に位置するパーソナルジムです。
           </p>
         </section>
 

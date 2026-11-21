@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="calorie-trade/matsudo" storeName="CALORIE TRADE JAPAN 松戸八柱店" brandSlug="calorie-trade" brandName="CALORIE TRADE JAPAN" mapsSearchUrl="https://www.google.com/maps/search/CALORIE+TRADE+JAPAN+松戸八柱店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            CALORIE TRADE JAPAN 松戸八柱店は、千葉県松戸市に位置するダイエット特化型パーソナルジムです。八柱エリアは千葉県北西部の住宅地で、ファミリー層や働く世代が多いエリアです。カロリー管理に基づいた食事指導と効率的なトレーニングメニューが特徴で、短期間での体型変化を目指す方に支持されています。完全個室のプライベート空間で周囲を気にせずトレーニングに集中できます。
+            CALORIE TRADE JAPAN 松戸八柱店は、千葉県松戸市に位置するダイエット特化型パーソナルジムです。完全個室のプライベート空間で周囲を気にせずトレーニングに集中できます。
           </p>
         </section>
 

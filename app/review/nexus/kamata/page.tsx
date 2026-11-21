@@ -119,10 +119,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/kamata" storeName="Nexusジム 蒲田/蓮沼店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+蒲田/蓮沼店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム蒲田/蓮沼店は蓮沼駅から徒歩6分のパーソナルジムです。蒲田エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられる点が口コミで高評価です。仕事帰りに通う利用者が多く、トレーナーの丁寧な指導が支持されています。大田区エリアで費用対効果の高いパーソナルジムとして人気があります。
+            Nexusジム蒲田/蓮沼店は蓮沼駅から徒歩6分のパーソナルジムです。
           </p>
         </section>
 

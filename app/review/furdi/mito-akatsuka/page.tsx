@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI水戸赤塚店は、茨城県水戸市にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。AIトレーナーが画面上でフォームを指導してくれるため、人目を気にせず自分のペースでトレーニングできると好評です。赤塚駅エリアにあり、電車でも車でもアクセスしやすい立地です。
+            FURDI水戸赤塚店は、茨城県水戸市にある女性専用AIフィットネスジムです。月額7,678円〜という低価格で、サーキット型トレーニングに通い放題で取り組める点が特徴です。赤塚駅エリアにあり、電車でも車でもアクセスしやすい立地です。
           </p>
         </section>
 

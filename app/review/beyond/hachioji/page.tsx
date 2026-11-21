@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND八王子店は八王子駅から徒歩5分に位置する店舗です。八王子市エリアで本格的なパーソナルトレーニングジムを探している方に人気があります。多摩地区最大級の都市に位置し、学生からビジネスパーソンまで幅広い層が利用しています。トレーナーの丁寧な指導と充実した設備が口コミで高く評価されています。
+            BEYOND八王子店は八王子駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP大宮西口店は、埼玉県の主要ターミナル・大宮駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。食事指導の丁寧さとトレーナーのモチベーション管理が高く評価されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">RIZAP大宮西口店は、埼玉県の主要ターミナル・大宮駅から徒歩圏内に位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる結果にコミットするプログラムが特徴です。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

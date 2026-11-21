@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM錦糸町店は、錦糸町駅から徒歩5分の場所にある月額制パーソナルジムです。墨田区・江東区エリアの利用者に人気があり、地域密着型の丁寧なサービスが特徴です。有資格トレーナーが初回カウンセリングでしっかりと目標をヒアリングし、最適なプランを提案してくれます。リーズナブルな月額制で継続しやすいと好評です。
+            MIYAZAKI GYM錦糸町店は、錦糸町駅から徒歩5分の場所にある月額制パーソナルジムです。有資格トレーナーが初回カウンセリングでしっかりと目標をヒアリングし、最適なプランを提案してくれます。
           </p>
         </section>
 

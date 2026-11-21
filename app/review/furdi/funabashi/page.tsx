@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI船橋店は、船橋駅から徒歩5分の女性専用AIフィットネスジムです。千葉県エリアで低価格のフィットネスジムを探している女性に利用されています。月額7,678円〜の通い放題で、AIによるサーキット型トレーニングを提供しています。都心まで出なくても地元で手軽に運動習慣を作れると好評で、予約不要のシステムも日常に取り入れやすいと支持されています。
+            FURDI船橋店は、船橋駅から徒歩5分の女性専用AIフィットネスジムです。月額7,678円〜の通い放題で、AIによるサーキット型トレーニングを提供しています。
           </p>
         </section>
 

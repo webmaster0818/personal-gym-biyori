@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM勝どき店は、勝どき駅から徒歩5分に位置する月額制パーソナルジムです。中央区の湾岸エリアにお住まいの方を中心に利用されており、タワーマンション住民からの支持も厚い店舗です。有資格トレーナーが目標体重や理想の体型に合わせた具体的なプランを提示してくれるため、モチベーションを保ちやすいと好評です。
+            MIYAZAKI GYM勝どき店は、勝どき駅から徒歩5分に位置する月額制パーソナルジムです。
           </p>
         </section>
 

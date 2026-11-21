@@ -114,10 +114,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト札幌店は、札幌駅から徒歩圏内に位置する北海道の店舗です。早朝から深夜まで営業しており、札幌市内のビジネスパーソンに適しています。完全個室のマンツーマントレーニングで、北海道で手頃な価格で本格的なパーソナルトレーニングを受けたい方に支持されています。冬場でも駅近で通いやすい点が好評です。
+            24/7ワークアウト札幌店は、札幌駅から徒歩圏内に位置する北海道の店舗です。
           </p>
         </section>
                 

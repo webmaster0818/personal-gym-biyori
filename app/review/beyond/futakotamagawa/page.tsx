@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND二子玉川店は二子玉川駅から徒歩5分の場所にある店舗です。世田谷区の住宅エリアに位置し、地元の方を中心に利用されています。家族連れの多いエリアならではの親しみやすい雰囲気で、産後ダイエットや健康維持を目的とした方にも人気です。トレーナーの知識が豊富で、安心して任せられると好評です。
+            BEYOND二子玉川店は二子玉川駅から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

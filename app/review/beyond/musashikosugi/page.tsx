@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND武蔵小杉店は武蔵小杉駅から徒歩5分に位置する店舗です。再開発で人気が高まった武蔵小杉エリアで、タワーマンション住民を中心に利用されています。トレーナーの質が高く、効率的なトレーニングで短期間の変化を実感する利用者が多い傾向にあります。駅近で複数路線が利用できるアクセスの良さも特徴です。
+            BEYOND武蔵小杉店は武蔵小杉駅から徒歩5分に位置する店舗です。駅近で複数路線が利用できるアクセスの良さも特徴です。
           </p>
         </section>
                 

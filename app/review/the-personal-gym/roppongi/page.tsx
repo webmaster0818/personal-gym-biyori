@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            THE PERSONAL GYM六本木店は、六本木駅から徒歩圏内にあるパーソナルジムです。高級感のある落ち着いた空間でトレーニングできると評判で、ビジネスパーソンや美意識の高い利用者に支持されています。トレーナーの丁寧な指導に加え、食事指導も充実しており、ボディメイクに本格的に取り組みたい方に好評です。
+            THE PERSONAL GYM六本木店は、六本木駅から徒歩圏内にあるパーソナルジムです。
           </p>
         </section>
 

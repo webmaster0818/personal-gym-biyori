@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI渋谷店は、渋谷駅から徒歩5分の女性専用AIフィットネスジムです。トレンドの街・渋谷で、月額7,678円〜の手頃な価格でサーキット型トレーニングが受けられます。AIトレーナーによる画面指導で、人に見られるのが苦手な方でも気兼ねなくトレーニングできると評判です。予約不要のため、買い物ついでや仕事帰りに気軽に立ち寄れる利便性が人気です。
+            FURDI渋谷店は、渋谷駅から徒歩5分の女性専用AIフィットネスジムです。トレンドの街・渋谷で、月額7,678円〜の手頃な価格でサーキット型トレーニングが受けられます。
           </p>
         </section>
 

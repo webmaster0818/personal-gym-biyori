@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト心斎橋店は、心斎橋駅から徒歩圏内にある大阪ミナミの人気店舗です。ショッピングや食事のついでに立ち寄れる立地で、完全個室でのマンツーマン指導が好評です。3食しっかり食べるダイエットメソッドで大阪グルメを楽しみながらも健康的にボディメイクできると支持されています。深夜24時まで営業しているため、接客業など夜型の生活をされている方にも通いやすい環境です。
+            24/7ワークアウト心斎橋店は、心斎橋駅から徒歩圏内にある店舗です。
           </p>
         </section>
                 

@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト八王子店は、八王子駅から徒歩圏内にあり、多摩エリアで本格的なパーソナルトレーニングを受けられる店舗です。都心まで出なくても質の高いマンツーマン指導が受けられると地元の方に支持されています。完全個室でプライバシーが保たれた環境で、3食しっかり食べるダイエットメソッドにより無理のない体重管理が可能です。深夜24時まで営業しているため、帰宅後にトレーニングしたい方にも最適です。
+            24/7ワークアウト八王子店は、八王子駅から徒歩圏内にあり、多摩エリアで本格的なパーソナルトレーニングを受けられる店舗です。完全個室でプライバシーが保たれた環境で、3食しっかり食べるダイエットメソッドにより無理のない体重管理が可能です。
           </p>
         </section>
                 

@@ -96,9 +96,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT福岡天神店は、天神駅から徒歩わずか2分という駅に近い立地にある女性向けパーソナルジムです。九州エリアで完全個室のパーソナルトレーニングをリーズナブルに始めたい女性に注目されています。天神の繁華街に位置するため、ショッピングや食事の前後にトレーニングを組み込みやすいと好評です。初心者にも丁寧に指導してくれるトレーナーの質の高さも口コミで評価されています。
+            RAT福岡天神店は、天神駅から徒歩わずか2分という駅に近い立地にある女性向けパーソナルジムです。
           </p>
         </section>
 

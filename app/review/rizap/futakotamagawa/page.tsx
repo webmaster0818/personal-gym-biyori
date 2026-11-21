@@ -90,9 +90,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP二子玉川店は、人気の商業施設が集まる二子玉川エリアに位置する店舗です。周辺は高級住宅街として知られ、健康意識の高い利用者が多いのが特徴です。ショッピングや食事と組み合わせて通う方も多く、ライフスタイルの一部としてトレーニングを楽しめると好評です。トレーナーの知識が豊富で、栄養学に基づいた食事指導が具体的で分かりやすいとの声が多く見られます。
+            RIZAP二子玉川店は、商業施設が集まる二子玉川エリアに位置する店舗です。
           </p>
         </section>
                 

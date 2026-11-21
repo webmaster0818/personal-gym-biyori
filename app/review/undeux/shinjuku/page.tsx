@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY新宿店は、新宿駅から徒歩圏内にある女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。忙しい女性でも食事管理に困らない仕組みが好評で、仕事帰りに通う利用者が多い傾向にあります。
+            UNDEUX SUPERBODY新宿店は、新宿駅から徒歩圏内にある女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。
           </p>
         </section>
 

@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP所沢店は、西武池袋線と西武新宿線が交差するターミナル駅・所沢駅から徒歩5分に位置する店舗です。所沢・入間・飯能エリアの利用者が多く、都心まで出なくても本格的なパーソナルトレーニングを受けられると好評です。地域密着の温かい雰囲気があり、トレーナーとの信頼関係を築きやすい環境が特徴です。中高年の健康管理目的での利用も多く、幅広い年齢層に対応しています。
+            RIZAP所沢店は、西武池袋線と西武新宿線が交差するターミナル駅・所沢駅から徒歩5分に位置する店舗です。
           </p>
         </section>
                 

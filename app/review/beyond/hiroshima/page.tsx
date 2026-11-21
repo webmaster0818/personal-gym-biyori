@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">BEYOND広島店は、広島市の中心部に位置しています。入会金無料・回数券制で気軽に始められ、コンテスト経験者のトレーナーによる本格的な指導が特徴です。広島市内はもちろん、広島県内各地からの利用者もおり、中国地方で質の高いパーソナルトレーニングを受けられる拠点として支持されています。トレーナーの明るい雰囲気と的確な指導が好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">BEYOND広島店は、広島市の中心部に位置しています。入会金無料・回数券制で気軽に始められ、コンテスト経験者のトレーナーによる本格的な指導が特徴です。</p>
         </section>
                 
         <StorePrice brandSlug="beyond" brandName="BEYOND" />

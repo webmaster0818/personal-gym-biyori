@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND大井町店は、大井町駅から徒歩圏内に位置する品川区の店舗です。ボディメイクコンテスト入賞経験を持つトレーナーが在籍し、地域密着型の質の高い指導を提供しています。入会金無料・回数券制で始めやすく、品川区や大田区から通う利用者が多い店舗です。駅近の利便性と、アットホームな雰囲気が好評です。
+            BEYOND大井町店は、大井町駅から徒歩圏内に位置する品川区の店舗です。
           </p>
         </section>
                 

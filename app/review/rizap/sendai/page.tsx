@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP仙台店は、東北地方の中心都市・仙台の主要エリアに位置しています。完全個室のマンツーマントレーニング環境が整い、専属トレーナーによる丁寧な指導が特徴です。結果重視の指導とトレーナーの熱意を評価する声が目立ちます。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">RIZAP仙台店は、東北地方の中心都市・仙台の主要エリアに位置しています。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

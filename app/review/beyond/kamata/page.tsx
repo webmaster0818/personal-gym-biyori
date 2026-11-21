@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND蒲田店は蒲田駅から徒歩5分に位置する店舗です。大田区エリアで本格的なパーソナルトレーニングを受けたい方に選ばれています。トレーナーが一人ひとりの生活スタイルに合わせた食事指導を行い、無理なく続けられるプログラムを提供しています。駅近で仕事帰りにも通いやすいと好評です。
+            BEYOND蒲田店は蒲田駅から徒歩5分に位置する店舗です。トレーナーが一人ひとりの生活スタイルに合わせた食事指導を行い、無理なく続けられるプログラムを提供しています。
           </p>
         </section>
                 

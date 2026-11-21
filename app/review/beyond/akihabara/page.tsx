@@ -120,10 +120,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND秋葉原店は秋葉原駅から徒歩5分の立地にある店舗です。千代田区エリアで働くビジネスパーソンや近隣にお住まいの方に利用されています。初心者にも丁寧に指導してくれるトレーナーが在籍しており、運動経験が少ない方でも安心して通えると評判です。清潔な設備と親しみやすい雰囲気が好評です。
+            BEYOND秋葉原店は秋葉原駅から徒歩5分の立地にある店舗です。
           </p>
         </section>
                 

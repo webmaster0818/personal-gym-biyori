@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RAT中目黒店は、中目黒駅から徒歩圏内にあるパーソナルジムです。おしゃれな中目黒エリアに立地しており、トレンドに敏感な若い世代に人気があります。完全予約制のプライベート空間で、一人ひとりに合ったトレーニングプランを提供してもらえると好評です。
+            RAT中目黒店は、中目黒駅から徒歩圏内にあるパーソナルジムです。
           </p>
         </section>
 

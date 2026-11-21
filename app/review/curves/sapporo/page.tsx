@@ -90,9 +90,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            カーブス札幌店は、札幌駅から徒歩5分の女性専用フィットネスです。北海道の寒い冬でも室内で快適に運動できるため、冬場の運動不足解消に利用する方が多いのが特徴です。30分のサーキットトレーニングは予約不要で、雪の日でも駅近なので通いやすいと好評です。コーチが親身になってサポートしてくれるので、運動が苦手な方や久しぶりに体を動かす方も安心して始められます。会員同士の仲も良く、通うことが楽しみになったという声が寄せられています。
+            カーブス札幌店は、札幌駅から徒歩5分の女性専用フィットネスです。
           </p>
         </section>
 

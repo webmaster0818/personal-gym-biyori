@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY青山店は、表参道駅から徒歩1分の立地にある女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。表参道エリアでおしゃれな環境の中ボディメイクに取り組めると好評で、仕事帰りや休日に通う利用者が多い傾向にあります。
+            UNDEUX SUPERBODY青山店は、表参道駅から徒歩1分の立地にある女性専用パーソナルジムです。パーソナルトレーニングと食事宅配サービスを組み合わせたプログラムが特徴です。
           </p>
         </section>
 

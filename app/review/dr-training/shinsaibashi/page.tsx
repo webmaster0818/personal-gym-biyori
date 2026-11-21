@@ -110,10 +110,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング心斎橋店は、心斎橋駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴です。心斎橋エリアでショッピングのついでに通う利用者も多く、都度払い制の柔軟さが好評です。
+            Dr.トレーニング心斎橋店は、心斎橋駅から徒歩3分のパーソナルジムです。医学的アプローチを取り入れたトレーニングが特徴です。
           </p>
         </section>
 

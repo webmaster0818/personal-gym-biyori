@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND溝の口店は溝の口駅から徒歩5分に位置する店舗です。川崎市高津区エリアの方に利用されており、東急田園都市線沿線からのアクセスが便利です。トレーナーの指導力が高く、筋力アップからダイエットまで幅広い目的に対応しています。アットホームな雰囲気で継続しやすいと口コミで評判です。
+            BEYOND溝の口店は溝の口駅から徒歩5分に位置する店舗です。トレーナーの指導力が高く、筋力アップからダイエットまで幅広い目的に対応しています。
           </p>
         </section>
                 

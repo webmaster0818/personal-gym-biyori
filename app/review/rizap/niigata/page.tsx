@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP新潟店は、新潟駅万代口から徒歩15分の場所にある店舗です。冬場の運動不足解消を目的とした利用者も多く、季節を問わず快適にトレーニングできる環境が好評です。トレーナーの温かい人柄と粘り強い指導が評価されています。
+            RIZAP新潟店は、新潟駅万代口から徒歩15分の場所にある店舗です。
           </p>
         </section>
                 

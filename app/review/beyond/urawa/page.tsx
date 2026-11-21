@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND浦和店は浦和駅から徒歩5分の場所にある店舗です。さいたま市浦和区エリアの方に利用されており、埼玉県南部で本格的なパーソナルトレーニングを受けたい方に人気です。トレーナーの専門知識が豊富で、科学的根拠に基づいたトレーニングプログラムが好評です。
+            BEYOND浦和店は浦和駅から徒歩5分の場所にある店舗です。
           </p>
         </section>
                 

@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM練馬店は、練馬駅から徒歩5分に位置する月額制パーソナルジムです。練馬区で本格的なパーソナルトレーニングを受けたい方に選ばれています。有資格トレーナーが食事面のアドバイスも含めた総合的なサポートを行い、健康的な体づくりを支援してくれます。地域に根ざした温かみのあるサービスが利用者から好評です。
+            MIYAZAKI GYM練馬店は、練馬駅から徒歩5分に位置する月額制パーソナルジムです。有資格トレーナーが食事面のアドバイスも含めた総合的なサポートを行い、健康的な体づくりを支援してくれます。
           </p>
         </section>
 

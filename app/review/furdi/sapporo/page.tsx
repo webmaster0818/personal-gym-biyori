@@ -97,9 +97,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            FURDI札幌店は、札幌駅から徒歩5分の女性専用AIフィットネスジムです。北海道エリアの拠点店舗として、札幌市内の女性に利用されています。月額7,678円〜の低価格で、AIサーキットトレーニングを通い放題で提供しています。冬場は外での運動が難しい北海道において、駅近で室内トレーニングができる環境が特に重宝されています。予約不要で気軽に通えます。
+            FURDI札幌店は、札幌駅から徒歩5分の女性専用AIフィットネスジムです。月額7,678円〜の低価格で、AIサーキットトレーニングを通い放題で提供しています。冬場は外での運動が難しい北海道において、駅近で室内トレーニングができる環境が特に重宝されています。予約不要で気軽に通えます。
           </p>
         </section>
 

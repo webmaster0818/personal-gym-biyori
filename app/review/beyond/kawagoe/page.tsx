@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND川越店は川越駅から徒歩5分に位置する店舗です。小江戸として知られる川越エリアで、地元の方を中心に利用されています。歴史ある街の中で、最新のトレーニング知識を持つトレーナーが効果的なボディメイクをサポートしてくれます。アットホームな雰囲気と丁寧な食事指導が好評です。
+            BEYOND川越店は川越駅から徒歩5分に位置する店舗です。歴史ある街の中で、最新のトレーニング知識を持つトレーナーが効果的なボディメイクをサポートしてくれます。
           </p>
         </section>
                 

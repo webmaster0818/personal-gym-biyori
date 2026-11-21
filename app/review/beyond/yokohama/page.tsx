@@ -119,10 +119,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            BEYOND横浜店は横浜駅近くに位置し、神奈川県内でBEYONDを検討する方の候補として人気の店舗です。ボディメイクコンテスト経験者のトレーナーが在籍しており、筋トレ初心者から上級者まで対応可能なプログラムが用意されています。入会金無料で回数券制という分かりやすい料金体系が好評です。
+            BEYOND横浜店は、横浜駅近くに位置する店舗です。ボディメイクコンテスト経験者のトレーナーが在籍しており、筋トレ初心者から上級者まで対応可能なプログラムが用意されています。
           </p>
         </section>
                 

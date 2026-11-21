@@ -89,9 +89,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            リプレシャス横浜店は、横浜駅から徒歩圏内にある女性専用パーソナルジムです。神奈川エリアで女性専用ジムを探している方に人気があります。丁寧なカウンセリングと食事指導が含まれたプランが充実しており、産後ダイエットやブライダルボディメイクにも対応していると好評です。
+            リプレシャス横浜店は、横浜駅から徒歩圏内にある女性専用パーソナルジムです。
           </p>
         </section>
 

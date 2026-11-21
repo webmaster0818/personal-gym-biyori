@@ -93,9 +93,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP千葉店は、京成千葉中央駅から徒歩5分、JR千葉駅から徒歩10分の場所にある店舗です。千葉県内でRIZAPの本格的なプログラムを受けられる拠点として、幅広い利用者から支持されています。都心まで通わずに済む利便性が好評で、地元在住の方を中心に安定した利用者を抱えています。トレーナーが個人の体力レベルに合わせた段階的なプログラムを組んでくれるため、無理なく成果を実感できるとの口コミが多い傾向にあります。
+            RIZAP千葉店は、京成千葉中央駅から徒歩5分、JR千葉駅から徒歩10分の場所にある店舗です。
           </p>
         </section>
                 

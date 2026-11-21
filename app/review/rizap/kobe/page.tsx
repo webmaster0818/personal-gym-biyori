@@ -73,8 +73,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">RIZAP神戸店は、三ノ宮駅から徒歩圏内に位置する関西エリアの主要店舗です。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標達成まできめ細かくサポートします。港町の洗練された雰囲気の中で、集中してトレーニングに取り組めると好評です。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">RIZAP神戸店は、三ノ宮駅から徒歩圏内に位置する関西エリアの主要店舗です。完全個室のマンツーマントレーニング環境で、専属トレーナーが目標達成まできめ細かくサポートします。</p>
         </section>
                 
         <StorePrice brandSlug="rizap" brandName="RIZAP" />

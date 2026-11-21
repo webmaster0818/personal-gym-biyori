@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM田町店は、田町駅から徒歩5分の港区エリアにある月額制パーソナルジムです。オフィス街に近く、昼休みや仕事帰りに利用するビジネスパーソンから好評を得ています。有資格トレーナーが体の状態をしっかり評価した上でメニューを組むため、無理なく効果的にトレーニングを続けられると評判です。
+            MIYAZAKI GYM田町店は、田町駅から徒歩5分の港区エリアにある月額制パーソナルジムです。
           </p>
         </section>
 

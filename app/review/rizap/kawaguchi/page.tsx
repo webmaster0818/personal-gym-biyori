@@ -92,9 +92,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            RIZAP川口店は、東京と埼玉の境に位置する川口駅東口から徒歩2分の店舗です。都内に通勤する方が仕事帰りに地元で通えることから人気があります。比較的新しい店舗で設備が充実しており、清潔感のある施設環境が好評です。トレーナーの対応が温かく、挫折しそうな時も寄り添ってサポートしてくれるという口コミが多く、リピート率の高さにつながっています。
+            RIZAP川口店は、東京と埼玉の境に位置する川口駅東口から徒歩2分の店舗です。
           </p>
         </section>
                 

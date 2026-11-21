@@ -114,10 +114,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Dr.トレーニング天王寺店は、天王寺駅から徒歩3分のパーソナルジムです。医学的根拠に基づいたトレーニングが特徴で、有資格トレーナーが丁寧に指導します。天王寺エリアで駅近のアクセスの良さが好評です。
+            Dr.トレーニング天王寺店は、天王寺駅から徒歩3分のパーソナルジムです。
           </p>
         </section>
 

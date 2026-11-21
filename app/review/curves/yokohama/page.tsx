@@ -86,9 +86,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            カーブス横浜店は、横浜駅から徒歩5分の女性専用フィットネスです。神奈川県内でも利便性の高い横浜駅前に位置し、通勤途中や買い物帰りに立ち寄る会員が多いのが特徴です。30分のサーキットトレーニングで効率よく全身を動かせると好評で、体力に自信がない方も安心して始められます。スタッフの丁寧なサポートと温かい雰囲気が、長く続けられる理由として挙げられています。
+            カーブス横浜店は、横浜駅から徒歩5分の女性専用フィットネスです。
           </p>
         </section>
 

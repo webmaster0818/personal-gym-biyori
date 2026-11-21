@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/taishido" storeName="Nexusジム 太子堂店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+太子堂店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム太子堂店は西太子堂駅から徒歩4分のパーソナルジムです。世田谷区・三軒茶屋エリアから通いやすく、月額19,800円〜の格安料金でマンツーマン指導が受けられます。トレーナーの経験豊富な指導と落ち着いた環境が口コミで好評です。世田谷エリアで費用対効果の高いパーソナルジムを探している方に支持されています。
+            Nexusジム太子堂店は西太子堂駅から徒歩4分のパーソナルジムです。
           </p>
         </section>
 

@@ -90,9 +90,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            カーブス名古屋店は、名古屋駅から徒歩5分の女性専用フィットネスです。中部地方の中心都市にあり、仕事帰りや買い物途中に通う会員が多く見られます。30分のサーキットトレーニングは効率的で、限られた時間の中でしっかり運動できると好評です。コーチが個々の体力レベルに合わせた指導をしてくれるため、運動初心者でも安心して通えます。明るく活気のある店内の雰囲気が長続きの秘訣だと評判です。
+            カーブス名古屋店は、名古屋駅から徒歩5分の女性専用フィットネスです。中部地方の中心都市にあり、仕事帰りや買い物途中に通う会員が多く見られます。
           </p>
         </section>
 

@@ -111,10 +111,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            ビーコンセプト渋谷店は、渋谷駅近くに位置する女性専用パーソナルジムです。下半身太りや脚のラインに悩む女性に特化したトレーニングプログラムが特徴です。完全個室で人目を気にせずトレーニングでき、アフターフォローの充実度を評価する口コミが多い傾向にあります。
+            ビーコンセプト渋谷店は、渋谷駅近くに位置する女性専用パーソナルジムです。
           </p>
         </section>
 

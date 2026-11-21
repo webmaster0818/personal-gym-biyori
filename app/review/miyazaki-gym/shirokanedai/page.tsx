@@ -91,9 +91,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            MIYAZAKI GYM白金高輪店は、白金高輪駅から徒歩5分の港区エリアにある月額制パーソナルジムです。上質な住環境に位置し、健康意識の高い利用者が多い店舗です。有資格トレーナーが体組成データを活用した科学的なアプローチでトレーニングを指導してくれると好評です。プライベート感のある空間で、リラックスしてトレーニングに取り組めます。
+            MIYAZAKI GYM白金高輪店は、白金高輪駅から徒歩5分の港区エリアにある月額制パーソナルジムです。
           </p>
         </section>
 

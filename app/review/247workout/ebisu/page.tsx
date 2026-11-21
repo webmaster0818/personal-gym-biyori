@@ -68,8 +68,8 @@ export default function StorePage() {
           </div>
         </section>
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
-          <p className="text-gray-700 leading-relaxed">24/7ワークアウト恵比寿店は、JR恵比寿駅から徒歩圏内に位置する都心型店舗です。完全個室のマンツーマントレーニング環境が整い、早朝から深夜まで営業しているため、忙しいビジネスパーソンにも通いやすいと好評です。渋谷区や目黒区周辺からの利用者が多く、おしゃれなエリアでありながらリーズナブルな価格設定が評価されています。トレーナーの丁寧な指導と食事管理が支持されています。</p>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
+          <p className="text-gray-700 leading-relaxed">24/7ワークアウト恵比寿店は、JR恵比寿駅から徒歩圏内に位置する都心型店舗です。</p>
         </section>
                 
         <StorePrice brandSlug="247workout" brandName="24/7ワークアウト" />

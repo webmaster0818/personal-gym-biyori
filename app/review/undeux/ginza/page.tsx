@@ -115,10 +115,10 @@ export default function StorePage() {
         {/* ---------- 口コミ概要 ---------- */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            UNDEUX SUPERBODY銀座店は、銀座駅から好アクセスの女性専用パーソナルジムです。トレーニングに加え、食事の宅配サービスが含まれたプランが特徴で、栄養管理の手間を省きたい女性に人気です。おしゃれな空間と質の高いトレーナーが口コミで好評です。
+            UNDEUX SUPERBODY銀座店は、銀座駅から好アクセスの女性専用パーソナルジムです。
           </p>
         </section>
 

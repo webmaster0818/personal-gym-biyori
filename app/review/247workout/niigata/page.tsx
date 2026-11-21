@@ -88,9 +88,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            24/7ワークアウト新潟店は、新潟駅から徒歩圏内に位置する新潟県唯一の店舗です。地方都市で大手パーソナルトレーニングジムの質の高い指導を受けられる貴重な拠点として、新潟市内を中心に広く利用されています。完全個室でのマンツーマン指導で安心してトレーニングに取り組め、3食しっかり食べるダイエットメソッドで新潟のおいしいお米を楽しみながらも健康的にダイエットできます。深夜24時まで営業しているため通いやすい環境です。
+            24/7ワークアウト新潟店は、新潟駅から徒歩圏内に位置する新潟県唯一の店舗です。
           </p>
         </section>
                 

@@ -87,9 +87,9 @@ export default function StorePage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">口コミ概要</h2>
+          <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
           <p className="text-gray-700 leading-relaxed">
-            ELEMENT銀座店は、銀座駅から徒歩圏内にある通い放題型パーソナルジムです。月額定額制で回数を気にせずパーソナルトレーニングが受けられるため、銀座エリアで働くビジネスパーソンに人気があります。30分の短時間セッションで効率的にトレーニングでき、ランチタイムや仕事帰りに通いやすいと好評です。
+            ELEMENT銀座店は、銀座駅から徒歩圏内にある通い放題型パーソナルジムです。
           </p>
         </section>
 

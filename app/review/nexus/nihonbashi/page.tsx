@@ -118,10 +118,10 @@ export default function StorePage() {
 <StoreGmapBox k="nexus/nihonbashi" storeName="Nexusジム 日本橋店" brandSlug="nexus" brandName="Nexusジム" mapsSearchUrl="https://www.google.com/maps/search/Nexus+ジム+日本橋店" />
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">
-            口コミ概要
+            店舗の概要
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Nexusジム日本橋店は馬喰町駅から徒歩3分のパーソナルジムです。中央区・日本橋エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられる貴重な存在です。オフィス街に近く、仕事帰りに通うビジネスパーソンから特に支持されています。格安ながら質の高い指導が口コミで評価されています。
+            Nexusジム日本橋店は馬喰町駅から徒歩3分のパーソナルジムです。中央区・日本橋エリアで月額19,800円〜という格安料金でマンツーマン指導が受けられる貴重な存在です。
           </p>
         </section>
 
