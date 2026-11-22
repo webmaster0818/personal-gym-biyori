@@ -8,7 +8,7 @@ import GymCta from "@/components/GymCta";
 export const metadata: Metadata = {
   title: "PLUMEの口コミ・評判｜料金・メリット・デメリットの解説",
   description:
-    "PLUME（プリュム）の口コミ・評判をご紹介します。おしゃれ空間で女性人気の高いパーソナルジムの料金、メリット・デメリットについて解説します。",
+    "PLUME（プリュム）の口コミ・評判をご紹介します。おしゃれな空間が特徴のパーソナルジムの料金、メリット・デメリットについて解説します。",
 };
 
 const basicInfo = [
@@ -25,7 +25,7 @@ const strengths = [
     desc: "インテリアデザイナーが手がけたおしゃれな空間で、一般的なジムとは異なる居心地の良さが特徴です。トレーニングの時間を前向きに過ごせるため、モチベーション維持につながります。",
   },
   {
-    title: "女性に支持される細やかなサービス",
+    title: "女性向けのアメニティ・設備",
     desc: "パウダールームやアメニティの充実、清潔感のある設備など、女性が心地よく過ごせるサービスが充実しています。トレーニング後もそのまま外出できる環境が整っています。",
   },
   {
@@ -41,7 +41,7 @@ const merits = [
   },
   {
     title: "SNS映えする空間で成果を共有",
-    desc: "洗練された空間はSNSでの発信にも適しています。トレーニングの成果を記録・共有し、モチベーション維持に役立てている利用者も多くいます。",
+    desc: "洗練された空間はSNSでの発信にも適しています。",
   },
   {
     title: "パウダールーム・アメニティが充実",
@@ -70,15 +70,14 @@ const pricingPlans = [
   { name: "プレミアムプラン", duration: "75分/回・月8回", price: "月額75,000円〜", note: "ストレッチ＋カウンセリング付き" },
 ];
 
-const reviewSummary = "PLUMEの口コミでは「空間がおしゃれでテンションが上がる」「女性スタッフが多くて安心」と高評価が目立ちます。特に20〜30代の女性からの支持が厚く、「ジム通いが楽しくなった」という声が多く見られます。一方で「料金が高い」「空間重視で設備は普通」という意見もあります。";
+const reviewSummary = "PLUMEの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
-  { q: "PLUMEは女性専用ですか？", a: "女性専用ではありませんが、女性利用者が多い傾向にあります。男性も利用可能です。" },
+  { q: "PLUMEは女性専用ですか？", a: "女性専用ではありません。男性も利用可能です。" },
   { q: "入会金はいくらですか？", a: "入会金は30,000円程度です。キャンペーンで割引になることもあります。最新情報は公式サイトでご確認ください。" },
   { q: "ウェアのレンタルはありますか？", a: "はい、ウェア・タオルのレンタルサービスが用意されています。手ぶらで通えます。" },
   { q: "パウダールームはありますか？", a: "はい、ドライヤーやアメニティを完備したパウダールームがあります。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・施設見学が用意されています。公式サイトから予約できます。" },
-  { q: "どのような方が通っていますか？", a: "20〜40代の女性が中心ですが、男性の利用者もいます。ボディメイクやダイエット目的の方が多い傾向にあります。" },
 ];
 
 const faqJsonLd = {
@@ -118,7 +117,7 @@ export default function PlumeReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">PLUMEの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">PLUMEのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">PLUMEの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">PLUMEの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">PLUMEの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">PLUMEのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">PLUMEが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -127,7 +126,7 @@ export default function PlumeReview() {
         <ReviewSummary gymName="PLUME" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          PLUME（プリュム）はおしゃれなデザイナーズ空間が特徴のパーソナルジムです。女性を中心に人気が高く、ボディメイクに特化した指導と充実したアメニティが特徴です。本記事では、PLUMEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          PLUME（プリュム）はおしゃれなデザイナーズ空間が特徴のパーソナルジムです。ボディメイクに特化した指導と充実したアメニティも特徴です。本記事では、PLUMEの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -166,9 +165,8 @@ export default function PlumeReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">PLUMEの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">PLUMEの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="plume" name="PLUME" />
 

@@ -70,11 +70,11 @@ const pricingPlans = [
   { name: "短期集中コース（16回）", duration: "50分/回", price: "総額176,000円〜", note: "2ヶ月・食事指導付き" },
 ];
 
-const reviewSummary = "THE PERSONAL GYMの口コミでは「低価格なのにトレーナーの質が高い」「ボディメイクの結果が出た」という声が見られます。費用対効果の高さとトレーナーの専門性が評価されています。一方で「店舗が少なくて通いにくい」「もう少しセッション時間が長いと嬉しい」という意見もあります。費用を抑えてボディメイクをしたい方に適しています。";
+const reviewSummary = "THE PERSONAL GYMの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "THE PERSONAL GYMの入会金はいくらですか？", a: "入会金は22,000円です。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
-  { q: "ダイエット目的でも通えますか？", a: "はい、ダイエット目的の方が多数在籍しています。体重減量からボディメイクまで幅広い目的に対応しています。" },
+  { q: "ダイエット目的でも通えますか？", a: "はい、ダイエット目的でも利用できます。体重減量からボディメイクまで幅広い目的に対応しています。" },
   { q: "食事指導は受けられますか？", a: "はい、プランに応じて食事アドバイスが含まれています。LINEでのサポートに対応している場合もあります。" },
   { q: "レンタルはありますか？", a: "ウェアやタオルのレンタルが用意されています。手ぶらで通える環境です。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
@@ -120,7 +120,7 @@ export default function ThePersonalGymReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">THE PERSONAL GYMの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">THE PERSONAL GYMのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">THE PERSONAL GYMの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">THE PERSONAL GYMの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">THE PERSONAL GYMの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">THE PERSONAL GYMのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">THE PERSONAL GYMが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -129,7 +129,7 @@ export default function ThePersonalGymReview() {
         <ReviewSummary gymName="THE PERSONAL GYM" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          THE PERSONAL GYM（ザ パーソナルジム）はダイエットとボディメイクに特化したパーソナルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">26,400円</span>〜の低価格で、経験豊富なトレーナーから本格的な指導が受けられます。本記事では、THE PERSONAL GYMの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          THE PERSONAL GYM（ザ パーソナルジム）はダイエットとボディメイクに特化したパーソナルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">26,400円</span>〜の低価格で、経験豊富なトレーナーから本格的な指導が受けられます。本記事では、THE PERSONAL GYMの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -214,11 +214,10 @@ export default function ThePersonalGymReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">THE PERSONAL GYMの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">THE PERSONAL GYMの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="the-personal-gym" name="THE PERSONAL GYM" />
 

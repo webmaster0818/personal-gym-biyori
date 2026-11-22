@@ -61,7 +61,7 @@ const demerits = [
   },
   {
     title: "人気トレーナーの予約が取りにくい場合がある",
-    desc: "質の高いトレーナーに人気が集中し、希望の時間帯に予約が取れないことがあります。",
+    desc: "トレーナーや時間帯によっては予約が集中し、希望の時間帯に予約が取れないことがあります。",
   },
 ];
 
@@ -73,7 +73,7 @@ const pricingPlans = [
   { name: "パーフェクトプラン", duration: "50分/回", price: "総額310,200円（税込）", note: "全21回・270食分" },
 ];
 
-const reviewSummary = "ASPIの口コミでは「トレーナーの知識量がすごい」「科学的なアプローチで納得感がある」という声が多く見られます。一方で「回数が足りないと感じた」「通える店舗が限られる」といった指摘もあります。";
+const reviewSummary = "ASPIの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "ASPIの入会金はいくらですか？", a: "入会金は11,000円〜55,000円程度です。プランによって異なります。キャンペーンで割引になることもあります。" },
@@ -127,7 +127,7 @@ export default function AspiReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">ASPIの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">ASPIのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">ASPIの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">ASPIの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">ASPIの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">ASPIのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">ASPIが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -136,7 +136,7 @@ export default function AspiReview() {
         <ReviewSummary gymName="ASPI" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ASPI（アスピ）は、公式サイトに「全米認証資格【NSCA】／米国最高位資格【NASM】保持者のみが在籍」と明記されているパーソナルジムです。料金は全7回<span className="font-bold bg-yellow-100 px-0.5">109,000円</span>（税込）のシェイプアップ30から、全21回310,200円のパーフェクトプランまでの3コース制です（2026年10月8日に公式サイトで確認）。本記事では、ASPIの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ASPI（アスピ）は、公式サイトに「全米認証資格【NSCA】／米国最高位資格【NASM】保持者のみが在籍」と明記されているパーソナルジムです。料金は全7回<span className="font-bold bg-yellow-100 px-0.5">109,000円</span>（税込）のシェイプアップ30から、全21回310,200円のパーフェクトプランまでの3コース制です（2026年10月8日に公式サイトで確認）。本記事では、ASPIの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -221,11 +221,10 @@ export default function AspiReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASPIの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASPIの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="aspi" name="ASPI" />
 

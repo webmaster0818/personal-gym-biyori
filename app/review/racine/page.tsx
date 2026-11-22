@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "集中ボディメイクコース", duration: "50分/回", price: "総額200,000円〜", note: "2ヶ月16回" },
 ];
 
-const reviewSummary = "RACINEの口コミでは「女性専用で安心して通える」「ボディラインが変わった」という声が多く見られます。栄養士による食事指導の質の高さも好評です。一方で「料金が高い」「店舗が少ない」といった指摘もあります。女性特化のきめ細やかなサービスに満足する方が多い傾向です。";
+const reviewSummary = "RACINEの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "RACINEの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -120,7 +120,7 @@ export default function RacineReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">RACINEの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">RACINEのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">RACINEの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">RACINEの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">RACINEの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">RACINEのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">RACINEが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -129,7 +129,7 @@ export default function RacineReview() {
         <ReviewSummary gymName="RACINE" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          RACINE（ラシーヌ）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・ボディメイク特化のパーソナルジムです。女性トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士監修の食事プログラムで、美しいボディラインづくりをサポートしています。本記事では、RACINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          RACINE（ラシーヌ）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・ボディメイク特化のパーソナルジムです。女性トレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と管理栄養士監修の食事プログラムで、美しいボディラインづくりをサポートしています。本記事では、RACINEの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         {/* 基本情報 */}
@@ -219,11 +219,10 @@ export default function RacineReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RACINEの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">RACINEの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         {/* FAQ */}

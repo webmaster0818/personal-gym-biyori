@@ -70,12 +70,12 @@ const pricingPlans = [
   { name: "プレミアムプラン", duration: "90分/回・月8回", price: "月額65,000円〜", note: "コンディショニング強化" },
 ];
 
-const reviewSummary = "base BODYの口コミでは「ボディメイクだけでなく身体の調子も良くなった」「ストレッチが気持ちいい」と好評です。特にデスクワークの多い方からの支持が高く、肩こりや腰痛の改善を実感する声が多く見られます。一方で「もっとハードにトレーニングしたい」「店舗が少ない」という意見もあります。";
+const reviewSummary = "base BODYの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "base BODYの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーンで割引になることもあります。最新情報は公式サイトでご確認ください。" },
   { q: "コンディショニングとは何ですか？", a: "身体の機能を整えるためのストレッチ、姿勢矯正、可動域改善などのアプローチです。トレーニングの効果を高め、怪我を予防します。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、身体の状態に合わせて無理のないプログラムが組まれます。初心者の方も多く利用しています。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、身体の状態に合わせて無理のないプログラムが組まれます。初心者の方も利用できます。" },
   { q: "肩こりや腰痛の改善にも効果がありますか？", a: "はい、コンディショニングを通じて姿勢改善や筋バランスの調整を行うため、肩こりや腰痛の軽減が期待できます。" },
   { q: "無料体験はありますか？", a: "初回カウンセリング・体験セッションが用意されています。公式サイトから予約できます。" },
   { q: "ウェアのレンタルはありますか？", a: "店舗によりレンタルサービスが異なります。詳細は公式サイトでご確認ください。" },
@@ -123,7 +123,7 @@ export default function BaseBodyReview() {
             <li><a href="#s4" className="text-teal-600 hover:underline">base BODYの3つの強み</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">base BODYのメリット・デメリット</a></li>
             <li><a href="#s6" className="text-teal-600 hover:underline">base BODYの料金</a></li>
-            <li><a href="#s7" className="text-teal-600 hover:underline">base BODYの口コミ概要</a></li>
+            <li><a href="#s7" className="text-teal-600 hover:underline">base BODYの口コミについて</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">base BODYのよくある質問</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">base BODYが気になった方へ</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -132,7 +132,7 @@ export default function BaseBodyReview() {
         <ReviewSummary gymName="base BODY" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          base BODY（ベースボディ）はボディメイクとコンディショニングを融合したパーソナルジムです。見た目の変化だけでなく、身体の機能改善にも注力しています。本記事では、base BODYの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          base BODY（ベースボディ）はボディメイクとコンディショニングを融合したパーソナルジムです。見た目の変化だけでなく、身体の機能改善にも注力しています。本記事では、base BODYの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
@@ -182,9 +182,8 @@ export default function BaseBodyReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">base BODYの口コミ概要</h2>
+          <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">base BODYの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="base-body" name="base BODY" />
 

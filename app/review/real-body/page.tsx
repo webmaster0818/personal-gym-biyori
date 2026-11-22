@@ -38,7 +38,7 @@ const strengths = [
 const merits = [
   {
     title: "地域最安値クラスの費用対効果",
-    desc: "1回あたり3,500円〜のプランもあり、都内大手パーソナルジムの相場と比べて手頃です。食事指導が含まれ、続けやすい費用対効果の高さが評価されています。",
+    desc: "1回あたり3,500円〜のプランもあり、都内大手パーソナルジムの相場と比べて手頃です。食事指導も料金に含まれています。",
   },
   {
     title: "東北で会員数・店舗数の多いパーソナルジム",
@@ -46,7 +46,7 @@ const merits = [
   },
   {
     title: "初心者・運動が苦手な方も始めやすい",
-    desc: "「運動に自信がない」「ダイエットでリバウンドを繰り返してきた」という方にも向くと案内されており、アットホームな雰囲気で通いやすいと好評です。",
+    desc: "「運動に自信がない」「ダイエットでリバウンドを繰り返してきた」という方にも向くと公式サイトで案内されています。",
   },
 ];
 
@@ -61,7 +61,7 @@ const demerits = [
   },
   {
     title: "予約状況により希望時間が取りにくい場合がある",
-    desc: "人気の時間帯は予約が埋まりやすいという声があります。通いたい時間が決まっている場合は、事前に空き状況を確認しておくと安心です。",
+    desc: "通いたい時間が決まっている場合は、事前に空き状況を確認しておくと安心です。",
   },
 ];
 
@@ -77,31 +77,10 @@ const pricingPlans = [
   { name: "16回券", duration: "45分/回・16回", price: "56,000円（1回3,500円）", note: "1回あたり最安クラス" },
 ];
 
-const reviewSummary = "リアルボディの口コミでは「料金が安いのにしっかり指導してくれる」「食事の管理も無料で助かる」「気軽に通える雰囲気」と、費用対効果と続けやすさを評価する声が中心です。トレーナーのアドバイスを受けながら自信を持って取り組めるという感想も見られます。一方で「店舗があるエリアが限られる」「ネット上の情報が少なくて最初は不安だった」という声もあります。";
+const reviewSummary = "リアルボディの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
-const reviewCategories = [
-  {
-    title: "良い口コミ・評判の傾向",
-    summary: "「料金が手頃」「食事指導が無料」「気軽に通える」という費用対効果・続けやすさへの評価が中心です。地域密着ならではのアットホームさを挙げる声も目立ちます。",
-    items: [
-      "料金が安いのにしっかり指導してくれて、食事管理も無料という声",
-      "都内大手と比べて手頃で、回数券制なので通った分だけで分かりやすいという評価",
-      "トレーナーが親身で、運動が苦手・初心者でも気軽に通えたという声",
-      "リバウンドを繰り返していたが、食事のアドバイスで生活習慣を見直せたという評価",
-    ],
-  },
-  {
-    title: "気になる口コミ・評判の傾向",
-    summary: "店舗のあるエリアの限られ方や、情報量の少なさに関する指摘が中心です。地方中心の展開のため、選択肢が限られる点に触れる声が見られます。",
-    items: [
-      "店舗が仙台・東北・千葉中心で、他エリアからは通いづらいという指摘",
-      "全国的な知名度が低く、事前にネットの口コミ情報を集めにくかったという声",
-      "人気の時間帯は予約が取りにくいことがあるという指摘",
-    ],
-  },
-];
 
-// 目的・悩み別の向き不向き（公開情報および口コミ傾向にもとづく一般的な整理）
+// 目的・悩み別の向き不向き（公開情報にもとづく一般的な整理）
 const goalGuide = [
   {
     goal: "ダイエット・減量したい",
@@ -140,7 +119,7 @@ const faqItems = [
   { q: "リアルボディに新宿店はありますか？", a: "2026年時点で新宿店・東京都内の店舗はありません。新宿で探す方への最寄り店舗案内と代替ジム比較は別ページにまとめています。" },
   { q: "トレーニング初心者でも大丈夫ですか？", a: "はい。運動に自信がない方やダイエット初心者の方も対象と案内されており、基礎から指導を受けられます。" },
   { q: "無料体験はありますか？", a: "無料体験が用意されています。雰囲気やトレーナーとの相性を確かめてから入会を検討できます。" },
-  { q: "リアルボディの口コミ・評判の傾向を教えてください。", a: "「料金が安いのにしっかり指導してくれる」「食事指導も無料」「気軽に通える」といった好意的な口コミが中心です。一方で「店舗のあるエリアが限られる」「情報が少ない」という声もあります。最新の個別の口コミはGoogleマップでご確認ください。" },
+  { q: "リアルボディの口コミ・評判の傾向を教えてください。", a: "当サイトでは、掲載先のURLと取得日を示せる形で口コミを集計していないため、傾向の要約は掲載していません。実際の口コミはGoogleマップでご確認ください。" },
   { q: "リアルボディは女性も通えますか？", a: "はい、女性の利用者もいます。詳しい設備やプランは公式サイトでご確認ください。" },
 ];
 
@@ -206,8 +185,7 @@ export default function RealBodyReview() {
             <li><a href="#s6" className="text-teal-600 hover:underline">リアルボディのメリット・デメリット</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">リアルボディの料金（回数券制・総額の目安）</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">リアルボディ坂戸店の店舗情報（埼玉県唯一の店舗）</a></li>
-            <li><a href="#s9" className="text-teal-600 hover:underline">リアルボディの口コミ概要</a></li>
-            <li><a href="#s10" className="text-teal-600 hover:underline">リアルボディの口コミ・評判の傾向</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">リアルボディの口コミについて</a></li>
             <li><a href="#s11" className="text-teal-600 hover:underline">目的・悩み別 リアルボディの向き不向き</a></li>
             <li><a href="#s12" className="text-teal-600 hover:underline">リアルボディのよくある質問</a></li>
             <li><a href="#s13" className="text-teal-600 hover:underline">リアルボディが気になった方へ</a></li>
@@ -217,7 +195,7 @@ export default function RealBodyReview() {
         <ReviewSummary gymName="リアルボディ" />
 
         <p className="text-gray-700 leading-relaxed mb-6">
-          リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約期間の縛りがない点が特徴です。本記事では、リアルボディの口コミ・評判の傾向、料金総額の目安、目的別の向き不向きを詳しく解説します。
+          リアルボディ（REAL BODY）は仙台・東北を中心に展開する<span className="font-bold bg-yellow-100 px-0.5">回数券制</span>のパーソナルジムです。<span className="font-bold bg-yellow-100 px-0.5">1回3,500円〜</span>の地域最安値クラスの料金と<span className="font-bold bg-yellow-100 px-0.5">食事指導無料</span>・契約期間の縛りがない点が特徴です。本記事では、リアルボディの料金総額の目安、目的別の向き不向きを詳しく解説します。
         </p>
 
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
@@ -226,7 +204,6 @@ export default function RealBodyReview() {
             <li>・<strong>費用を抑えたい方</strong>に向いています（1回3,500円〜の回数券制・食事指導も無料）</li>
             <li>・<strong>継続できるか不安な初心者の方</strong>に向いています（契約期間の縛り・違約金なし、少ない回数から試せる）</li>
             <li>・<strong>仙台・東北/千葉エリア</strong>で通いやすいパーソナルジムを探している方に向いています</li>
-            <li>・口コミは「安いのに指導が丁寧」「気軽に通える」という声が中心で、「店舗のエリアが限られる」という声もあります</li>
             <li>・料金・入会金・店舗はキャンペーンや時期で変わるため、<strong>公式サイトでのご確認が必要</strong>です</li>
           </ul>
           <p className="text-xs text-gray-500 mt-3">本ページの料金は公開情報をもとにした目安です。最新情報は公式サイトでご確認ください。他ジムとの比較は<a href="/compare/" className="text-teal-600 underline">目的別おすすめ比較</a>もご覧ください。</p>
@@ -241,7 +218,7 @@ export default function RealBodyReview() {
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 口コミ・評判の傾向を教えてください。</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">「安いのに指導が丁寧」「食事管理も無料」「気軽に通える」という声が中心です。一方で「店舗のエリアが限られる」という声もあります。<a href="#reviews" className="text-teal-600 underline">口コミ概要を見る</a>。</dd>
+              <dd className="text-gray-700 mt-1 leading-relaxed">当サイトでは、出典を示せる形で口コミを集計していないため、傾向の要約は掲載していません。<a href="#reviews" className="text-teal-600 underline">口コミの確認方法を見る</a>。</dd>
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 店舗はどこにありますか？</dt>
@@ -313,36 +290,14 @@ export default function RealBodyReview() {
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">
-          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ概要</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは公開情報全般の一般的な傾向をまとめたものです。特定の投稿を引用したものではありません。最新情報は公式サイトでご確認ください。</p>
-        </section>
-
-        <section className="mb-12">
-          <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">リアルボディの口コミ・評判の傾向</h2>
-          <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            リアルボディの口コミを「良い評判」「気になる評判」に分けて傾向を整理しています。以下は公開されている口コミ全般から見られる傾向をまとめたもので、個別の投稿を引用したものではありません。最新の個別レビューは<a href="https://www.google.com/maps/search/%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%9C%E3%83%87%E3%82%A3%20%E5%8F%A3%E3%82%B3%E3%83%9F" target="_blank" rel="noopener noreferrer nofollow" className="underline hover:text-gray-700">Googleマップ</a>でご確認ください。
-          </p>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {reviewCategories.map((cat, idx) => (
-              <div key={cat.title} className={`rounded-lg p-5 border ${idx === 0 ? "bg-green-50 border-green-100" : "bg-orange-50 border-orange-100"}`}>
-                <h3 className={`font-bold mb-2 ${idx === 0 ? "text-green-800" : "text-orange-800"}`}>{cat.title}</h3>
-                <p className="text-sm text-gray-700 mb-3 leading-relaxed">{cat.summary}</p>
-                <ul className="space-y-2">
-                  {cat.items.map((it, i) => (
-                    <li key={i} className="text-sm text-gray-700 leading-relaxed">・{it}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-gray-500 mt-4">※ 口コミの傾向を要約したものです。評価には個人差があります。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section id="goal" className="mb-12 scroll-mt-20">
           <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">目的・悩み別 リアルボディの向き不向き</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            リアルボディがご自身の目的に合うかどうかを、よくある目的・悩み別に整理しています。以下は公開情報と口コミ傾向にもとづく一般的な整理で、効果を保証するものではありません。
+            リアルボディがご自身の目的に合うかどうかを、よくある目的・悩み別に整理しています。以下は公開情報にもとづく一般的な整理で、効果を保証するものではありません。
           </p>
           <div className="space-y-3">
             {goalGuide.map((g) => (

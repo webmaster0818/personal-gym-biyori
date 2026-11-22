@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "ライフスタイルコース", duration: "60分/回", price: "月額45,000円〜", note: "月6回・柔軟スケジュール" },
 ];
 
-const reviewSummary = "Lino Uの口コミでは「無理なく続けられる」「トレーナーが親切で相談しやすい」「生活に運動が定着した」という声が見られます。一方で「もう少しハードなメニューも欲しい」「店舗が少ない」といった指摘もあります。長期的に運動習慣を身につけたい方に向いています。";
+const reviewSummary = "Lino Uの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "Lino Uの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーンで割引になることがあります。" },
@@ -123,14 +123,14 @@ export default function LinoUReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">Lino Uの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">Lino Uのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">Lino Uの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">Lino Uの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">Lino Uの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">Lino Uのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">Lino Uが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
         <ReviewSummary gymName="Lino U" />
-        <p className="text-gray-700 leading-relaxed mb-10">Lino U（リノユー）はライフスタイルに寄り添ったパーソナルトレーニングジムです。短期的なダイエットではなく、長期的な健康維持と運動習慣の定着を目指したプログラムが特徴です。無理なく続けられるトレーニングにより、長く続けられる運動習慣を身につけることを目指します。本記事では、Lino Uの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">Lino U（リノユー）はライフスタイルに寄り添ったパーソナルトレーニングジムです。短期的なダイエットではなく、長期的な健康維持と運動習慣の定着を目指したプログラムが特徴です。無理なく続けられるトレーニングにより、長く続けられる運動習慣を身につけることを目指します。本記事では、Lino Uの料金体系、メリット・デメリットを詳しく解説します。</p>
 
         <section className="mb-12"><h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lino Uの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>
 
@@ -146,7 +146,7 @@ export default function LinoUReview() {
 
         <section className="mb-12"><h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lino Uの料金</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン名</th><th className="px-4 py-3 text-left font-medium">時間</th><th className="px-4 py-3 text-left font-medium">料金</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead><tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody></table></div><p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p></section>
 
-        <section className="mb-12"><h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lino Uの口コミ概要</h2><div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div><p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p></section>
+        <section className="mb-12"><h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lino Uの口コミについて</h2><div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div></section>
 
         <section className="mb-12"><h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Lino Uのよくある質問</h2><div className="space-y-3">{faqItems.map((item, i) => (<details key={i} className="bg-white border border-gray-200 rounded-lg group"><summary className="px-5 py-3 cursor-pointer text-sm font-medium text-gray-800 flex items-center justify-between list-none"><span>Q. {item.q}</span><span className="text-gray-400 group-open:rotate-180 transition-transform ml-4 shrink-0">&#9660;</span></summary><div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed">A. {item.a}</div></details>))}</div></section>
 

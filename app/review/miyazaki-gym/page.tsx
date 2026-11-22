@@ -71,13 +71,13 @@ const pricingPlans = [
   { name: "月8回プラン", duration: "60分/回", price: "月額52,000円〜", note: "1回あたり6,500円〜" },
 ];
 
-const reviewSummary = "MIYAZAKI GYMの口コミでは「トレーナーの知識量がすごい」「この価格でこの品質は破格」と品質と価格のバランスが高く評価されています。科学的なアプローチに納得感を持って通えるという声が多く見られます。一方で「知名度が低いので最初は不安だった」「店舗がもっと増えてほしい」という声もあります。";
+const reviewSummary = "MIYAZAKI GYMの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "MIYAZAKI GYMの入会金はいくらですか？", a: "入会金は20,000円程度です。都度払いの場合は入会金不要の場合もあります。最新情報は公式サイトでご確認ください。" },
-  { q: "都度払いと月額制、どちらがお得ですか？", a: "定期的に通う場合は月額制のほうが1回あたりの料金がお得です。まずは都度払いで試してから月額制に切り替える方も多い傾向にあります。" },
+  { q: "都度払いと月額制、どちらがお得ですか？", a: "定期的に通う場合は月額制のほうが1回あたりの料金がお得です。まず都度払いで試してから月額制を検討する方法もあります。" },
   { q: "トレーナーの資格は何を持っていますか？", a: "公式サイトは個々のトレーナーの保有資格を公開していませんが、採用基準として「NSCAやNESTA等の資格保有や体育系の学校卒」を挙げています（2026年10月8日確認）。担当トレーナーの資格は無料カウンセリングで確認できます。" },
-  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も多く利用しています。基礎から丁寧な指導を受けられます。" },
+  { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も利用できます。基礎から丁寧な指導を受けられます。" },
   { q: "無料体験はありますか？", a: "初回カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
   { q: "食事指導は受けられますか？", a: "プランによって食事アドバイスが含まれます。詳細はカウンセリング時にご確認ください。" },
 ];
@@ -123,7 +123,7 @@ export default function MiyazakiGymReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">MIYAZAKI GYMの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">MIYAZAKI GYMのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">MIYAZAKI GYMの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">MIYAZAKI GYMの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">MIYAZAKI GYMの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">MIYAZAKI GYMのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">MIYAZAKI GYMが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -132,7 +132,7 @@ export default function MiyazakiGymReview() {
         <ReviewSummary gymName="MIYAZAKI GYM" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          MIYAZAKI GYM（ミヤザキジム）は高品質なトレーニングを低価格で提供するパーソナルジムです。科学的根拠に基づいた指導と有資格トレーナーの在籍が特徴です。本記事では、MIYAZAKI GYMの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          MIYAZAKI GYM（ミヤザキジム）は高品質なトレーニングを低価格で提供するパーソナルジムです。科学的根拠に基づいた指導と有資格トレーナーの在籍が特徴です。本記事では、MIYAZAKI GYMの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -171,9 +171,8 @@ export default function MiyazakiGymReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">MIYAZAKI GYMの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">MIYAZAKI GYMの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="miyazaki-gym" name="MIYAZAKI GYM" />
 

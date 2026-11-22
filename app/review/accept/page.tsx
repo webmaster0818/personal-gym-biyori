@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "通い放題プラン", duration: "60分/回", price: "月額80,000円〜", note: "回数無制限" },
 ];
 
-const reviewSummary = "ACCEPTの口コミでは「完全個室で集中できる」「月額制で安心」という声が多く見られます。トレーナーの指導が丁寧で初心者にも好評です。一方で「店舗が少ない」「人気の時間帯は予約が取りにくい」といった指摘もあります。全体的に満足度は高い傾向です。";
+const reviewSummary = "ACCEPTの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "ACCEPTの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -125,7 +125,7 @@ export default function AcceptReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">ACCEPTの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">ACCEPTのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">ACCEPTの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">ACCEPTの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">ACCEPTの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">ACCEPTのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">ACCEPTが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -134,7 +134,7 @@ export default function AcceptReview() {
         <ReviewSummary gymName="ACCEPT" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ACCEPT（アクセプト）は<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・<span className="font-bold bg-yellow-100 px-0.5">月額制</span>を特徴とするパーソナルジムです。一人ひとりの目標に合わせたオーダーメイドプログラムで、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、ACCEPTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ACCEPT（アクセプト）は<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・<span className="font-bold bg-yellow-100 px-0.5">月額制</span>を特徴とするパーソナルジムです。一人ひとりの目標に合わせたオーダーメイドプログラムで、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、ACCEPTの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         {/* 基本情報 */}
@@ -224,11 +224,10 @@ export default function AcceptReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ACCEPTの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ACCEPTの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         {/* FAQ */}

@@ -42,7 +42,7 @@ const merits = [
   },
   {
     title: "宅配食で食事管理の手間を削減",
-    desc: "提携の宅配食サービスを利用すれば、自炊の手間をかけずに適切な食事管理ができます。忙しい女性に特に好評のサービスです。",
+    desc: "提携の宅配食サービスを利用すれば、自炊の手間をかけずに適切な食事管理ができます。",
   },
   {
     title: "卒業後のサポートプランも用意",
@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "アフターコース", duration: "50分/回", price: "月額18,000円〜", note: "月2回・卒業後プラン" },
 ];
 
-const reviewSummary = "UNDEUX SUPERBODYの口コミでは「女性専用で気楽に通える」「食事管理の宅配食が便利」「トレーナーが親身で続けやすい」という声が多く見られます。一方で「料金がやや高い」「店舗が遠い」といった指摘もあります。女性のボディメイクに本格的に取り組みたい方に支持されています。";
+const reviewSummary = "UNDEUX SUPERBODYの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "UNDEUX SUPERBODYの入会金はいくらですか？", a: "入会金は33,000円程度です。キャンペーンで割引になることがあります。" },
@@ -125,7 +125,7 @@ export default function UndeuxReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">UNDEUX SUPERBODYの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">UNDEUX SUPERBODYのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">UNDEUX SUPERBODYの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">UNDEUX SUPERBODYの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">UNDEUX SUPERBODYの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">UNDEUX SUPERBODYのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">UNDEUX SUPERBODYが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -134,7 +134,7 @@ export default function UndeuxReview() {
         <ReviewSummary gymName="UNDEUX SUPERBODY" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          UNDEUX SUPERBODY（アンドゥスーパーボディ）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>のパーソナルジムです。ボディメイクに特化したトレーニングと充実の食事管理サービスで、理想の体型づくりを総合的にサポートしています。本記事では、UNDEUX SUPERBODYの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          UNDEUX SUPERBODY（アンドゥスーパーボディ）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>のパーソナルジムです。ボディメイクに特化したトレーニングと充実の食事管理サービスで、理想の体型づくりを総合的にサポートしています。本記事では、UNDEUX SUPERBODYの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -219,11 +219,10 @@ export default function UndeuxReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">UNDEUX SUPERBODYの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">UNDEUX SUPERBODYの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="undeux" name="UNDEUX SUPERBODY" />
 

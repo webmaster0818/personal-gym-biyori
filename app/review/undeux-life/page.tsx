@@ -70,12 +70,12 @@ const pricingPlans = [
   { name: "プレミアムプラン（月12回）", duration: "50分/回", price: "月額55,000円〜", note: "週3回ペース" },
 ];
 
-const reviewSummary = "UNDEUX SUPERBODY LIFEの口コミでは「無理なく続けられる」「生活習慣が変わった」という声が多く見られます。UNDEUXの品質を維持しながらリーズナブルな点も好評です。一方で「短期で劇的に痩せたい人には物足りない」「店舗がまだ少ない」といった指摘もあります。長期的に健康的な体を目指す方に支持されています。";
+const reviewSummary = "UNDEUX SUPERBODY LIFEの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "UNDEUX SUPERBODY LIFEの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーン期間中は割引や無料になることがあります。最新情報は公式サイトでご確認ください。" },
   { q: "UNDEUX SUPERBODYとの違いは何ですか？", a: "UNDEUX SUPERBODY LIFEはライフスタイル重視・長期継続型のプランが中心で、より手頃な料金設定になっています。指導ノウハウはUNDEUX SUPERBODYがベースです。" },
-  { q: "どのくらいで効果を実感できますか？", a: "個人差はありますが、2〜3ヶ月程度で体の変化を実感する方が多い傾向にあります。長期継続型のため、焦らず取り組むことが推奨されています。" },
+  { q: "どのくらいで効果を実感できますか？", a: "効果の出方には個人差があります。長期継続型のため、焦らず取り組むことが推奨されています。" },
   { q: "食事制限は厳しい内容ですか？", a: "極端な制限は行わず、日常に取り入れやすい食事改善を提案しています。無理のない範囲で生活習慣を見直します。" },
   { q: "体験トレーニングはありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
   { q: "退会に違約金はかかりますか？", a: "月額制のため、基本的に違約金はありません。退会を希望する場合は前月までに申告が必要です。" },
@@ -124,7 +124,7 @@ export default function UndeuxLifeReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">UNDEUX SUPERBODY LIFEの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">UNDEUX SUPERBODY LIFEのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">UNDEUX SUPERBODY LIFEの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">UNDEUX SUPERBODY LIFEの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">UNDEUX SUPERBODY LIFEの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">UNDEUX SUPERBODY LIFEのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">UNDEUX SUPERBODY LIFEが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -133,7 +133,7 @@ export default function UndeuxLifeReview() {
         <ReviewSummary gymName="UNDEUX SUPERBODY LIFE" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          UNDEUX SUPERBODY LIFE（アンドゥスーパーボディライフ）は、UNDEUX SUPERBODYから派生したライフスタイル重視のパーソナルジムです。短期集中ではなく長期継続型のアプローチで、日常生活に運動を取り入れながら健康的な体づくりを目指します。本記事では、UNDEUX SUPERBODY LIFEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          UNDEUX SUPERBODY LIFE（アンドゥスーパーボディライフ）は、UNDEUX SUPERBODYから派生したライフスタイル重視のパーソナルジムです。短期集中ではなく長期継続型のアプローチで、日常生活に運動を取り入れながら健康的な体づくりを目指します。本記事では、UNDEUX SUPERBODY LIFEの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         {/* 基本情報 */}
@@ -223,11 +223,10 @@ export default function UndeuxLifeReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">UNDEUX SUPERBODY LIFEの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">UNDEUX SUPERBODY LIFEの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         {/* FAQ */}

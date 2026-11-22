@@ -37,7 +37,7 @@ const strengths = [
 const merits = [
   {
     title: "初心者でも安心のサポート体制",
-    desc: "運動経験がなくても基礎から丁寧な指導を受けられるため、ジム通いが初めての方にも好評です。無理なく段階的にレベルアップできるプログラムが特徴です。",
+    desc: "運動経験がなくても基礎から丁寧な指導を受けられるため、ジム通いが初めての方も始めやすい内容です。無理なく段階的にレベルアップできるプログラムが特徴です。",
   },
   {
     title: "リーズナブルな料金設定",
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "集中コース（16回）", duration: "50分/回", price: "総額120,000円〜", note: "2ヶ月短期集中" },
 ];
 
-const reviewSummary = "more fitの口コミでは「初心者でも分かりやすい指導」「料金が良心的」という声が多く見られます。トレーナーの人柄やコミュニケーション力に関する高評価も目立ちます。一方で「店舗が少ない」「上級者向けメニューが少ない」といった指摘もあります。全体的に初心者からの満足度が高い傾向です。";
+const reviewSummary = "more fitの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "more fitの入会金はいくらですか？", a: "入会金は20,000円〜30,000円程度です。キャンペーン期間中は無料になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -125,7 +125,7 @@ export default function MoreFitReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">more fitの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">more fitのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">more fitの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">more fitの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">more fitの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">more fitのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">more fitが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -134,7 +134,7 @@ export default function MoreFitReview() {
         <ReviewSummary gymName="more fit" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          more fit（モアフィット）は初心者歓迎を掲げるパーソナルトレーニングジムです。運動未経験の方でも安心して通えるよう、丁寧な指導と無理のない食事アドバイスを特徴としています。本記事では、more fitの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          more fit（モアフィット）は初心者歓迎を掲げるパーソナルトレーニングジムです。運動未経験の方でも安心して通えるよう、丁寧な指導と無理のない食事アドバイスを特徴としています。本記事では、more fitの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         {/* 基本情報 */}
@@ -224,11 +224,10 @@ export default function MoreFitReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">more fitの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">more fitの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         {/* FAQ */}

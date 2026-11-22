@@ -79,7 +79,7 @@ const pricingPlans = [
   { name: "入会金", duration: "—", price: "33,000円", note: "税込" },
 ];
 
-const reviewSummary = "EXEの口コミでは「高級感のある空間で気持ちよくトレーニングできる」「トレーナーの質が高い」「食事指導が的確」といった声が多く見られます。ラグジュアリーな環境と質の高い指導が高く評価されています。一方で「料金が高い」「店舗が少ない」という点は事前に理解しておく必要があります。全体的に満足度は非常に高い傾向です。";
+const reviewSummary = "EXEの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "EXEの入会金はいくらですか？", a: "入会金は33,000円（税込）です（公式記載）。キャンペーン期間中は割引になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -149,7 +149,7 @@ export default function ExeReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">EXEの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">EXEのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">EXEの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">EXEの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">EXEの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">EXEのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">EXEが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -164,7 +164,7 @@ export default function ExeReview() {
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          EXE（エグゼ）は高級感のある<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>で、経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が受けられるパーソナルジムです。ラグジュアリーな空間と質の高いサービスで、ワンランク上のトレーニング体験を提供しています。本記事では、EXEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          EXE（エグゼ）は高級感のある<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>で、経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>が受けられるパーソナルジムです。ラグジュアリーな空間と質の高いサービスで、ワンランク上のトレーニング体験を提供しています。本記事では、EXEの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         {/* 基本情報 */}
@@ -263,11 +263,10 @@ export default function ExeReview() {
 
         {/* 口コミ概要 */}
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">EXEの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">EXEの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         {/* FAQ */}

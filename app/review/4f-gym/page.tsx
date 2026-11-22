@@ -40,8 +40,8 @@ const strengths = [
 
 const merits = [
   {
-    title: "アットホームな雰囲気で続けやすい",
-    desc: "大型ジムの緊張感が苦手な方にも好評です。トレーナーとの距離が近く、気軽に相談できる環境です。",
+    title: "トレーナーに相談しやすい環境",
+    desc: "トレーナーとの距離が近く、気軽に相談できる環境です。",
   },
   {
     title: "プライベート感が高い",
@@ -79,7 +79,7 @@ const pricingPlans = [
   { name: "MONTHLY 8", duration: "60分/回", price: "月額76,450円", note: "月8回・継続プラン" },
 ];
 
-const reviewSummary = "4Fのパーソナルジムの口コミでは「隠れ家的な雰囲気が好き」「トレーナーが親切でアットホーム」という声が見られます。一方で「店舗が用賀の1店舗のみ」「ネット上の情報が少なく事前に判断しにくい」といった指摘もあります。用賀駅周辺でプライベート感を重視してじっくり取り組みたい方に向いています。";
+const reviewSummary = "4Fのパーソナルジムの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "4Fのパーソナルジムの入会金はいくらですか？", a: "公式サイトに入会金の記載はありません（2026年8月3日確認）。無料カウンセリングの際にご確認ください。" },
@@ -131,14 +131,14 @@ export default function FourFGymReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">4Fのパーソナルジムの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">4Fのパーソナルジムのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">4Fのパーソナルジムの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">4Fのパーソナルジムの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">4Fのパーソナルジムの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">4Fのパーソナルジムのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">4Fのパーソナルジムが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
         <ReviewSummary gymName="4Fのパーソナルジム" />
-        <p className="text-gray-700 leading-relaxed mb-10">4Fのパーソナルジムは、<span className="font-bold bg-yellow-100 px-0.5">用賀駅徒歩2分</span>（東京都世田谷区用賀・公式サイト内に徒歩5分の表記もあり）のビル4階に位置する隠れ家的なパーソナルジムです。朝7時〜21時・年中無休で通いやすく、プライベート感の高い空間でアットホームな<span className="font-bold bg-yellow-100 px-0.5">マンツーマン</span>トレーニングが受けられます。25歳以下割引・モニター割引（20%オフ）も用意されています。本記事では、4Fのパーソナルジムの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">4Fのパーソナルジムは、<span className="font-bold bg-yellow-100 px-0.5">用賀駅徒歩2分</span>（東京都世田谷区用賀・公式サイト内に徒歩5分の表記もあり）のビル4階に位置する隠れ家的なパーソナルジムです。朝7時〜21時・年中無休で通いやすく、プライベート感の高い空間で<span className="font-bold bg-yellow-100 px-0.5">マンツーマン</span>トレーニングが受けられます。25歳以下割引・モニター割引（20%オフ）も用意されています。本記事では、4Fのパーソナルジムの料金体系、メリット・デメリットを詳しく解説します。</p>
 
         <section className="mb-12">
           <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">4Fのパーソナルジムの基本情報</h2>
@@ -165,9 +165,8 @@ export default function FourFGymReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">4Fのパーソナルジムの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">4Fのパーソナルジムの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="4f-gym" name="4Fのパーソナルジム" />
 

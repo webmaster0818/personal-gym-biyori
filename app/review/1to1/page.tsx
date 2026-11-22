@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "集中コース（2ヶ月）", duration: "60分/回", price: "総額160,000円〜", note: "16回集中" },
 ];
 
-const reviewSummary = "1to1の口コミでは「ピラティスと筋トレの両方ができるのが嬉しい」「姿勢が改善して周りから褒められた」という声が多く見られます。トレーナーの知識の深さも好評です。一方で「もっと筋トレ寄りのメニューも欲しい」「店舗が少ない」といった指摘もあります。";
+const reviewSummary = "1to1の口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "ピラティス経験がなくても大丈夫ですか？", a: "はい、初心者の方も始められます。マンツーマンで丁寧な指導を受けられます。" },
@@ -125,7 +125,7 @@ export default function OneToOneReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">1to1の3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">1to1のメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">1to1の料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">1to1の口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">1to1の口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">1to1のよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">1to1が気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -134,7 +134,7 @@ export default function OneToOneReview() {
         <ReviewSummary gymName="1to1" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ピラティス&ジム1to1は、ピラティスとパーソナルトレーニングを融合させた新しいタイプのジムです。姿勢改善から本格的なボディメイクまで、一人ひとりの目標に合わせた<span className="font-bold bg-yellow-100 px-0.5">マンツーマン</span>プログラムを提供しています。本記事では、1to1の料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ピラティス&ジム1to1は、ピラティスとパーソナルトレーニングを融合させた新しいタイプのジムです。姿勢改善から本格的なボディメイクまで、一人ひとりの目標に合わせた<span className="font-bold bg-yellow-100 px-0.5">マンツーマン</span>プログラムを提供しています。本記事では、1to1の料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -219,11 +219,10 @@ export default function OneToOneReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">1to1の口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">1to1の口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="1to1" name="1to1" />
 

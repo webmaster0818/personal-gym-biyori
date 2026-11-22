@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "下半身SPコース（2ヶ月）", duration: "75分/回", price: "総額184,800円〜", note: "16回・下半身特化" },
 ];
 
-const reviewSummary = "OUTLINEの口コミでは「生涯アフターフォローが心強い」「完全個室で安心」「トレーナーの質が高い」という声が多く見られます。女性専用ならではの配慮も好評です。一方で「料金がもう少し安ければ」「店舗が限られている」といった指摘もあります。";
+const reviewSummary = "OUTLINEの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "OUTLINEの入会金はいくらですか？", a: "入会金は33,000円〜55,000円程度です。キャンペーンで無料になることもあります。" },
@@ -126,7 +126,7 @@ export default function OutlineReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">OUTLINEの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">OUTLINEのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">OUTLINEの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">OUTLINEの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">OUTLINEの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">OUTLINEのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">OUTLINEが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -135,7 +135,7 @@ export default function OutlineReview() {
         <ReviewSummary gymName="OUTLINE" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          OUTLINE（アウトライン）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>のパーソナルジムです。最大の特徴は、業界でも珍しい「生涯アフターフォロー」制度です。コース卒業後もサポートが続くため、リバウンドが心配な方にも適しています。本記事では、OUTLINEの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          OUTLINE（アウトライン）は<span className="font-bold bg-yellow-100 px-0.5">女性専用</span>・<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>のパーソナルジムです。最大の特徴は、業界でも珍しい「生涯アフターフォロー」制度です。コース卒業後もサポートが続くため、リバウンドが心配な方にも適しています。本記事では、OUTLINEの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -173,9 +173,8 @@ export default function OutlineReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">OUTLINEの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">OUTLINEの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="outline" name="OUTLINE" />
 

@@ -37,7 +37,7 @@ const strengths = [
 const merits = [
   {
     title: "ボディラインの変化を実感しやすい",
-    desc: "見た目の美しさを重視したプログラムにより、体重以上に見た目の変化を実感しやすいと評価されています。",
+    desc: "見た目の美しさを重視したプログラムで、体重だけでなくボディラインの変化を目標にできます。",
   },
   {
     title: "マンツーマンで丁寧な指導",
@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "集中コース（2ヶ月）", duration: "50分/回", price: "総額120,000円〜", note: "16回" },
 ];
 
-const reviewSummary = "Bellphaの口コミでは「体のラインが変わった」「トレーナーが丁寧で続けやすい」「食事指導も参考になる」という声が見られます。一方で「もう少し店舗数が多ければ」「口コミが少なくて不安だった」といった指摘もあります。";
+const reviewSummary = "Bellphaの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "Bellphaの入会金はいくらですか？", a: "入会金は20,000円〜40,000円程度です。キャンペーンで割引になることがあります。" },
@@ -122,14 +122,14 @@ export default function BellphaReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">Bellphaの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">Bellphaのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">Bellphaの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">Bellphaの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">Bellphaの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">Bellphaのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">Bellphaが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
         <ReviewSummary gymName="Bellpha" />
-        <p className="text-gray-700 leading-relaxed mb-10">Bellpha（ベルファ）は美しいボディラインの形成を重視したパーソナルトレーニングジムです。経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と食事サポートで、見た目の変化を実感できるボディメイクを提供しています。本記事では、Bellphaの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">Bellpha（ベルファ）は美しいボディラインの形成を重視したパーソナルトレーニングジムです。経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>と食事サポートで、見た目の変化を実感できるボディメイクを提供しています。本記事では、Bellphaの料金体系、メリット・デメリットを詳しく解説します。</p>
 
         <section className="mb-12"><h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Bellphaの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>
 
@@ -145,7 +145,7 @@ export default function BellphaReview() {
 
         <section className="mb-12"><h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Bellphaの料金</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン名</th><th className="px-4 py-3 text-left font-medium">時間</th><th className="px-4 py-3 text-left font-medium">料金</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead><tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody></table></div><p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p></section>
 
-        <section className="mb-12"><h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Bellphaの口コミ概要</h2><div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div><p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p></section>
+        <section className="mb-12"><h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Bellphaの口コミについて</h2><div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div></section>
 
         <section className="mb-12"><h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">Bellphaのよくある質問</h2><div className="space-y-3">{faqItems.map((item, i) => (<details key={i} className="bg-white border border-gray-200 rounded-lg group"><summary className="px-5 py-3 cursor-pointer text-sm font-medium text-gray-800 flex items-center justify-between list-none"><span>Q. {item.q}</span><span className="text-gray-400 group-open:rotate-180 transition-transform ml-4 shrink-0">&#9660;</span></summary><div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed">A. {item.a}</div></details>))}</div></section>
 

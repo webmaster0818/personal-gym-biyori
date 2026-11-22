@@ -14,7 +14,7 @@ export default function ReviewSummary({ gymName }: Props) {
         最新の口コミや評点は、Googleマップでご確認いただけます。
       </p>
       <p className="text-xs text-slate-400 mb-3">
-        当サイトは<a href="/content-policy/" className="underline hover:text-slate-600">記事制作ポリシー</a>にもとづき、実在する投稿の傾向のみを整理しており、評点の自作や口コミの創作は行っていません。料金・店舗情報は公式サイトを確認したうえで掲載しています。
+        当サイトは<a href="/content-policy/" className="underline hover:text-slate-600">記事制作ポリシー</a>にもとづき、出典（掲載先・取得日）を示せる口コミのみを扱っており、評点の自作や口コミの創作は行っていません。料金・店舗情報は公式サイトを確認したうえで掲載しています。
       </p>
       <a
         href={`https://www.google.com/maps/search/${q}`}

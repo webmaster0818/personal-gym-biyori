@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "集中コース（2ヶ月）", duration: "60分/回", price: "総額150,000円〜", note: "16回" },
 ];
 
-const reviewSummary = "BELIONの口コミでは「トレーナーが丁寧で続けやすい」「オーダーメイドのプログラムが効果的」という声が見られます。一方で「もう少し知名度があれば安心」「店舗が少ない」といった指摘もあります。丁寧な指導を重視する方に向いています。";
+const reviewSummary = "BELIONの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "BELIONの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーン期間中は割引になることがあります。" },
@@ -122,14 +122,14 @@ export default function BelionReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">BELIONの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">BELIONのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">BELIONの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">BELIONの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">BELIONの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">BELIONのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">BELIONが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
         <ReviewSummary gymName="BELION" />
-        <p className="text-gray-700 leading-relaxed mb-10">BELION（ベリオン）は一人ひとりに最適化されたオーダーメイドプログラムが特徴のパーソナルトレーニングジムです。経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>で、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、BELIONの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">BELION（ベリオン）は一人ひとりに最適化されたオーダーメイドプログラムが特徴のパーソナルトレーニングジムです。経験豊富なトレーナーによる<span className="font-bold bg-yellow-100 px-0.5">マンツーマン指導</span>で、ダイエットから筋力アップまで幅広い目的に対応しています。本記事では、BELIONの料金体系、メリット・デメリットを詳しく解説します。</p>
 
         <section className="mb-12">
           <h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BELIONの基本情報</h2>
@@ -156,9 +156,8 @@ export default function BelionReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BELIONの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">BELIONの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="belion" name="BELION" />
 

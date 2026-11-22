@@ -70,7 +70,7 @@ const pricingPlans = [
   { name: "プレミアムプラン", duration: "使い放題+オプション", price: "月額8,800円〜", note: "全店舗利用可など" },
 ];
 
-const reviewSummary = "ハコジムの口コミでは「この料金で個室を使えるのは良い」「人目を気にせず集中できる」など、低価格と個室の組み合わせが好評です。自分のペースでトレーニングしたい経験者から特に支持されています。一方で「初心者にはフォーム指導がないのが不安」「設備が限定的」という声もあります。";
+const reviewSummary = "ハコジムの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "ハコジムにトレーナーはいますか？", a: "基本的にセルフ型のため常駐のトレーナーはいません。ただし、オプションでパーソナルトレーニングが受けられる場合もあります。詳細は公式サイトでご確認ください。" },
@@ -123,7 +123,7 @@ export default function HakogymReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">ハコジムの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">ハコジムのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">ハコジムの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">ハコジムの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">ハコジムの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">ハコジムのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">ハコジムが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -132,7 +132,7 @@ export default function HakogymReview() {
         <ReviewSummary gymName="ハコジム" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ハコジムは<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・セルフ型のレンタルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">3,800円</span>〜という低価格で、人目を気にせずトレーニングできる個室空間を提供しています。本記事では、ハコジムの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ハコジムは<span className="font-bold bg-yellow-100 px-0.5">完全個室</span>・セルフ型のレンタルジムです。月額<span className="font-bold bg-yellow-100 px-0.5">3,800円</span>〜という低価格で、人目を気にせずトレーニングできる個室空間を提供しています。本記事では、ハコジムの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -171,9 +171,8 @@ export default function HakogymReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ハコジムの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ハコジムの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="hakogym" name="ハコジム" />
 

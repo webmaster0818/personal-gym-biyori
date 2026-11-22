@@ -26,7 +26,7 @@ const strengths = [
   },
   {
     title: "一人ひとりに寄り添うオーダーメイドプログラム",
-    desc: "体力レベルや生活環境、メンタルの状態まで考慮したオーダーメイドのプログラムを作成します。無理なく続けられるメニューが好評です。",
+    desc: "体力レベルや生活環境、メンタルの状態まで考慮したオーダーメイドのプログラムを作成します。",
   },
   {
     title: "トレーナーの質が高い",
@@ -41,7 +41,7 @@ const merits = [
   },
   {
     title: "ストレスフリーなトレーニング環境",
-    desc: "追い込みすぎない適度な運動強度と、リラックスできる環境づくりにこだわっています。運動が苦手な方にも好評です。",
+    desc: "追い込みすぎない適度な運動強度と、リラックスできる環境づくりにこだわっています。",
   },
   {
     title: "食事指導が柔軟",
@@ -70,12 +70,12 @@ const pricingPlans = [
   { name: "短期集中2ヶ月プラン", duration: "60分×16回", price: "総額250,000円〜", note: "食事指導・メンタルサポート付き" },
 ];
 
-const reviewSummary = "トリプルMの口コミでは「精神面もケアしてくれるので続けやすい」「トレーナーが優しくて安心」という声が特徴的です。ストレスを感じずにトレーニングに取り組める環境が高く評価されています。一方で「もっと追い込んでほしい」「料金が高め」という意見も見られます。メンタル面に不安がある方に適しています。";
+const reviewSummary = "トリプルMの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "トリプルMの入会金はいくらですか？", a: "入会金は30,000円〜50,000円程度です。キャンペーンで割引になることがあります。" },
   { q: "メンタルケアとは具体的に何をしますか？", a: "カウンセリング要素を含むヒアリングや、ストレス管理のアドバイス、モチベーション維持のための目標設定サポートなどを行います。" },
-  { q: "運動経験がなくても大丈夫ですか？", a: "はい、運動初心者の方も多く通われています。個人の体力レベルに合わせたプログラムを組むため安心です。" },
+  { q: "運動経験がなくても大丈夫ですか？", a: "はい、運動初心者の方も利用できます。個人の体力レベルに合わせたプログラムを組むため安心です。" },
   { q: "食事指導はありますか？", a: "はい、プランに応じて食事アドバイスが含まれています。厳しい制限ではなく、生活に合わせた提案を行います。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
   { q: "退会方法を教えてください。", a: "退会希望の場合は前月までに申告が必要です。詳細は入会時にご確認ください。" },
@@ -120,7 +120,7 @@ export default function TripleMReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">トリプルMの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">トリプルMのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">トリプルMの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">トリプルMの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">トリプルMの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">トリプルMのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">トリプルMが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -129,7 +129,7 @@ export default function TripleMReview() {
         <ReviewSummary gymName="トリプルM" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          トリプルM（Triple M）はボディメイクとメンタルケアを融合させた新しいタイプのパーソナルジムです。心身の健康を同時にサポートするアプローチで、無理なく続けられるトレーニングを提供しています。本記事では、トリプルMの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          トリプルM（Triple M）はボディメイクとメンタルケアを融合させた新しいタイプのパーソナルジムです。心身の健康を同時にサポートするアプローチで、無理なく続けられるトレーニングを提供しています。本記事では、トリプルMの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -214,11 +214,10 @@ export default function TripleMReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">トリプルMの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">トリプルMの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="triple-m" name="トリプルM" />
 

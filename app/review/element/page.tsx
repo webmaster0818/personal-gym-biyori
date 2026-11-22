@@ -71,7 +71,7 @@ const pricingPlans = [
   { name: "デイタイムプラン", duration: "30分/回", price: "月額32,780円〜", note: "平日日中限定・通い放題" },
 ];
 
-const reviewSummary = "ELEMENTの口コミでは「通い放題で費用対効果が高い」「ピラティスで姿勢が改善された」という声が目立ちます。30分セッションで手軽に通える点も高評価です。一方で「店舗が少ない」「予約が埋まりやすい」といった声も見られます。運動習慣をしっかり身につけたい方に特に人気です。";
+const reviewSummary = "ELEMENTの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "ELEMENTの入会金はいくらですか？", a: "入会金は33,000円です。キャンペーンで割引になることがあります。最新情報は公式サイトでご確認ください。" },
@@ -125,7 +125,7 @@ export default function ElementReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">ELEMENTの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">ELEMENTのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">ELEMENTの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">ELEMENTの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">ELEMENTの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">ELEMENTのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">ELEMENTが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -134,7 +134,7 @@ export default function ElementReview() {
         <ReviewSummary gymName="ELEMENT" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          ELEMENT（エレメント）はマシンピラティスとパーソナルトレーニングを融合させた<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>型のジムです。30分の短時間セッションで効率的にボディメイクができるため、忙しい方にも人気があります。本記事では、ELEMENTの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          ELEMENT（エレメント）はマシンピラティスとパーソナルトレーニングを融合させた<span className="font-bold bg-yellow-100 px-0.5">通い放題</span>型のジムです。1回30分の短時間セッションのため、忙しい方でも通いやすい仕組みです。本記事では、ELEMENTの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -219,11 +219,10 @@ export default function ElementReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ELEMENTの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ELEMENTの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5">
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="element" name="ELEMENT" />
 

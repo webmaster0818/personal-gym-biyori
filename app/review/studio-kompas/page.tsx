@@ -38,7 +38,7 @@ const strengths = [
 const merits = [
   {
     title: "身体の不調を根本から改善できる",
-    desc: "デスクワークで固まった身体、慢性的な肩こりや腰痛など、日常生活で感じる不調を専門的なアプローチで改善できます。病院や整体では改善しなかった症状が改善したという声もあります。",
+    desc: "デスクワークで固まった身体、慢性的な肩こりや腰痛など、日常生活で感じる不調を専門的なアプローチで改善できます。",
   },
   {
     title: "医学的根拠に基づいた安全な指導",
@@ -46,7 +46,7 @@ const merits = [
   },
   {
     title: "日常生活の質（QOL）が向上する",
-    desc: "姿勢改善や可動域の拡大により、日常の動作が楽になります。「階段が楽になった」「長時間座っても疲れにくくなった」という声が多数あります。",
+    desc: "姿勢改善や可動域の拡大により、日常の動作が楽になります。",
   },
 ];
 
@@ -71,13 +71,13 @@ const pricingPlans = [
   { name: "集中改善プラン", duration: "60分/回・月12回", price: "月額80,000円〜", note: "短期集中改善" },
 ];
 
-const reviewSummary = "STUDIO KOMPASの口コミでは「長年の腰痛が改善した」「姿勢が良くなって見た目が変わった」と身体の変化を実感する声が多く見られます。理学療法士の専門的な指導に対する信頼感も高評価です。一方で「ダイエット目的には向かない」「料金が高い」という声もあります。";
+const reviewSummary = "STUDIO KOMPASの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "STUDIO KOMPASは医療機関ですか？", a: "いいえ、医療機関ではありません。ただし理学療法士などの有資格者が在籍しており、医学的知識に基づいた指導を行っています。" },
   { q: "慢性的な腰痛でも通えますか？", a: "はい、腰痛改善は得意分野の一つです。ただし、急性期の症状がある場合はまず医療機関の受診をおすすめします。" },
   { q: "ダイエット目的でも利用できますか？", a: "はい、姿勢改善や機能改善を通じて基礎代謝を向上させるアプローチでダイエットにも対応しています。" },
-  { q: "どのくらいで効果を実感できますか？", a: "個人差がありますが、多くの方が2〜3ヶ月程度で身体の変化を実感されています。" },
+  { q: "どのくらいで効果を実感できますか？", a: "効果の出方には個人差があります。目標と期間はカウンセリングでご相談ください。" },
   { q: "無料体験はありますか？", a: "初回カウンセリング・体験セッションが用意されています。公式サイトから予約できます。" },
   { q: "高齢者でも利用できますか？", a: "はい、年齢に関係なく利用可能です。身体の状態に合わせた安全なプログラムの提案を受けられます。" },
 ];
@@ -119,7 +119,7 @@ export default function StudioKompasReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">STUDIO KOMPASの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">STUDIO KOMPASのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">STUDIO KOMPASの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">STUDIO KOMPASの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">STUDIO KOMPASの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">STUDIO KOMPASのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">STUDIO KOMPASが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
@@ -128,7 +128,7 @@ export default function StudioKompasReview() {
         <ReviewSummary gymName="STUDIO KOMPAS" />
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          STUDIO KOMPAS（スタジオコンパス）は機能改善・姿勢矯正に特化したパーソナルジムです。理学療法士などの専門家が、身体の不調を根本から改善するプログラムを提供しています。本記事では、STUDIO KOMPASの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。
+          STUDIO KOMPAS（スタジオコンパス）は機能改善・姿勢矯正に特化したパーソナルジムです。理学療法士などの専門家が、身体の不調を根本から改善するプログラムを提供しています。本記事では、STUDIO KOMPASの料金体系、メリット・デメリットを詳しく解説します。
         </p>
 
         <section className="mb-12">
@@ -167,9 +167,8 @@ export default function StudioKompasReview() {
         </section>
 
         <section className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">STUDIO KOMPASの口コミ概要</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">STUDIO KOMPASの口コミについて</h2>
           <div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div>
-          <p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p>
         </section>
       <GymCta slug="studio-kompas" name="STUDIO KOMPAS" />
 

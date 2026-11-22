@@ -41,7 +41,7 @@ const merits = [
   },
   {
     title: "体の不調改善にも効果的",
-    desc: "肩こり・腰痛・冷え性など、姿勢に起因する体の不調が改善されたという声が多く寄せられています。",
+    desc: "姿勢の改善を通じて、肩こり・腰痛など姿勢に起因する不調へのアプローチを目指すプログラムです。",
   },
   {
     title: "リバウンドしにくい体づくり",
@@ -70,12 +70,12 @@ const pricingPlans = [
   { name: "集中コース（3ヶ月）", duration: "60分/回", price: "総額200,000円〜", note: "24回・体質改善" },
 ];
 
-const reviewSummary = "ASmakeの口コミでは「姿勢が良くなって周りから褒められた」「肩こりが改善した」「体重よりも見た目の変化が大きい」という声が多く見られます。一方で「もう少し筋トレ要素も欲しい」「店舗が少ない」といった指摘もあります。";
+const reviewSummary = "ASmakeの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
   { q: "ASmakeの入会金はいくらですか？", a: "入会金は30,000円程度です。キャンペーンで割引になることがあります。" },
   { q: "姿勢改善だけでも通えますか？", a: "はい、ダイエット目的でなくても姿勢改善や体の不調改善を目的として通うことができます。" },
-  { q: "どのくらいで効果を実感できますか？", a: "姿勢の変化は1〜2ヶ月程度、体型の変化は3ヶ月程度で実感される方が多い傾向にあります。" },
+  { q: "どのくらいで効果を実感できますか？", a: "効果の出方には個人差があります。目標と期間は無料カウンセリングでご相談ください。" },
   { q: "運動経験がなくても大丈夫ですか？", a: "はい、姿勢改善から始めるため、運動が苦手な方も取り組みやすい内容です。" },
   { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約可能です。" },
   { q: "オンライン指導はありますか？", a: "店舗によりオンライン対応している場合があります。詳細は各店舗にお問い合わせください。" },
@@ -122,14 +122,14 @@ export default function AsmakeReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">ASmakeの3つの強み</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">ASmakeのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">ASmakeの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">ASmakeの口コミ概要</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">ASmakeの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">ASmakeのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">ASmakeが気になった方へ</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">他のパーソナルジムも見る</a></li>
           </ol>
         </nav>
         <ReviewSummary gymName="ASmake" />
-        <p className="text-gray-700 leading-relaxed mb-10">ASmake（アズメイク）は姿勢改善とボディメイクを同時に実現するパーソナルジムです。体の歪みや不調の根本原因にアプローチし、見た目だけでなく体の機能も改善する独自のプログラムが特徴です。本記事では、ASmakeの料金体系、メリット・デメリット、口コミ傾向を詳しく解説します。</p>
+        <p className="text-gray-700 leading-relaxed mb-10">ASmake（アズメイク）は姿勢改善とボディメイクを同時に実現するパーソナルジムです。体の歪みや不調の根本原因にアプローチし、見た目だけでなく体の機能も改善する独自のプログラムが特徴です。本記事では、ASmakeの料金体系、メリット・デメリットを詳しく解説します。</p>
 
         <section className="mb-12"><h2 id="s2" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASmakeの基本情報</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><tbody>{basicInfo.map((row) => (<tr key={row.label} className="border-b border-gray-100"><th className="bg-gray-50 px-4 py-3 text-left font-medium text-gray-700 w-32 whitespace-nowrap">{row.label}</th><td className="px-4 py-3 text-gray-800">{row.value}</td></tr>))}</tbody></table></div></section>
 
@@ -145,7 +145,7 @@ export default function AsmakeReview() {
 
         <section className="mb-12"><h2 id="s5" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASmakeの料金</h2><div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン名</th><th className="px-4 py-3 text-left font-medium">時間</th><th className="px-4 py-3 text-left font-medium">料金</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead><tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody></table></div><p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p></section>
 
-        <section className="mb-12"><h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASmakeの口コミ概要</h2><div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div><p className="text-xs text-gray-500 mt-3">※ 口コミは一般的な傾向をまとめたものです。最新情報は公式サイトでご確認ください。</p></section>
+        <section className="mb-12"><h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASmakeの口コミについて</h2><div className="bg-gray-50 rounded-lg p-5"><p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p></div></section>
 
         <section className="mb-12"><h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">ASmakeのよくある質問</h2><div className="space-y-3">{faqItems.map((item, i) => (<details key={i} className="bg-white border border-gray-200 rounded-lg group"><summary className="px-5 py-3 cursor-pointer text-sm font-medium text-gray-800 flex items-center justify-between list-none"><span>Q. {item.q}</span><span className="text-gray-400 group-open:rotate-180 transition-transform ml-4 shrink-0">&#9660;</span></summary><div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed">A. {item.a}</div></details>))}</div></section>
 
