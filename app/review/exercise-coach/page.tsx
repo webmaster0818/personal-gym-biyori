@@ -10,7 +10,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "エクササイズコーチの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "エクササイズコーチの口コミ・評判を解説します。1回20分のAI×マシンによる時短トレーニング、月額9,900円〜の料金体系、メリット・デメリット、Googleマップの口コミ傾向をまとめています。",
+    "エクササイズコーチの口コミ・評判を解説します。1回20分のAI×マシンによる時短トレーニング、月額9,900円〜の料金体系、メリット・デメリット、Googleマップの評点データ（取得日つき）を掲載しています。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -77,50 +77,6 @@ const pricingPlans = [
   { name: "デイプラン", duration: "月4回（12:00-17:00限定）", price: "14,960円/月", note: "税込・平日昼間限定" },
 ];
 
-/* ---------- 口コミデータ ---------- */
-const reviewCategories = [
-  {
-    title: "トレーナーの質・対応",
-    summary: "トレーナーの対応は全体的に好評ですが、AIマシン中心のシステムのため、トレーナーの関わり方は他のパーソナルジムとは異なります。サポート的な役割を評価する声が多い一方、もう少し踏み込んだ指導を求める声もあります。",
-  },
-  {
-    title: "料金・費用対効果",
-    summary: "パーソナルジムとしては安い料金設定が最大の特徴です。「この価格でパーソナルトレーニングが受けられる」という声が多く見られます。",
-  },
-  {
-    title: "AIマシンの効果",
-    summary: "AIマシンの自動負荷調整機能は利用者から高い関心を集めています。データに基づいた客観的なフィードバックが、トレーニングの質を高めると評価されています。",
-  },
-  {
-    title: "時短トレーニングの効果",
-    summary: "20分という短時間でも効果を実感している利用者が多い傾向にあります。ただし、劇的な体型変化を求める場合は、食事管理との組み合わせが重要です。",
-  },
-  {
-    title: "食事指導",
-    summary: "食事指導は簡易的なアドバイスが中心で、RIZAPやBEYONDのような本格的な栄養管理は含まれていません。食事管理は自己管理が基本となります。",
-  },
-  {
-    title: "施設・設備",
-    summary: "AIマシンを中心としたコンパクトな施設設計が特徴です。清潔感は保たれていますが、従来型のジムと比べると設備はシンプルです。",
-  },
-  {
-    title: "予約の取りやすさ",
-    summary: "予約はWebやアプリから簡単に行えます。20分という短い枠のため、回転率が高く、比較的予約が取りやすい環境です。",
-  },
-  {
-    title: "立地・アクセス",
-    summary: "主要駅の近くに出店しており、アクセスの良さは評価されています。ただし、店舗数は大手と比べると少なめです。",
-  },
-  {
-    title: "初心者への対応",
-    summary: "AIマシンが負荷を自動調整するため、運動初心者でも安全にトレーニングを始められます。難しい操作は不要で、初回から効果的なトレーニングが可能です。",
-  },
-  {
-    title: "継続のしやすさ",
-    summary: "20分の時短、手ぶらで通える利便性、低価格な料金という3つの要素が、継続のハードルを大幅に下げています。運動習慣を定着させたい方に適しています。",
-  },
-];
-
 /* ---------- FAQ ---------- */
 const faqItems = [
   { q: "エクササイズコーチの入会金はいくらですか？", a: "入会金は19,800円（税込）です。キャンペーン期間中は無料になることもあるため、公式サイトで最新情報をご確認ください。" },
@@ -171,7 +127,7 @@ const toc = [
   { id: "overview", label: "エクササイズコーチの概要" },
   { id: "merit-demerit", label: "エクササイズコーチのメリット・デメリット" },
   { id: "pricing", label: "エクササイズコーチの料金" },
-  { id: "reviews", label: "エクササイズコーチの口コミ分析" },
+  { id: "reviews", label: "エクササイズコーチの口コミについて" },
   { id: "faq", label: "エクササイズコーチのよくある質問" },
   { id: "stores", label: "エクササイズコーチの店舗一覧" },
 ];
@@ -203,7 +159,7 @@ export default function ExerciseCoachReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">エクササイズコーチの概要</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">エクササイズコーチのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">エクササイズコーチの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">エクササイズコーチの口コミ分析</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">エクササイズコーチの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">エクササイズコーチのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">エクササイズコーチの店舗一覧</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">エクササイズコーチが気になった方へ</a></li>
@@ -218,7 +174,7 @@ export default function ExerciseCoachReview() {
         </div>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          エクササイズコーチは「1回20分」の時短トレーニングとAIマシンによる自動負荷調整が特徴のパーソナルトレーニングジムです。全国40店舗以上を展開し、月額<span className="font-bold bg-yellow-100 px-0.5">9,900円</span>〜という、パーソナルジムとしては低価格な料金設定です。忙しい方でもスキマ時間に通える手軽さと、テクノロジーを活用した効率的なトレーニングが特徴です。本記事では、エクササイズコーチの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          エクササイズコーチは「1回20分」の時短トレーニングとAIマシンによる自動負荷調整が特徴のパーソナルトレーニングジムです。全国40店舗以上を展開し、月額<span className="font-bold bg-yellow-100 px-0.5">9,900円</span>〜という、パーソナルジムとしては低価格な料金設定です。忙しい方でもスキマ時間に通える手軽さと、テクノロジーを活用した効率的なトレーニングが特徴です。本記事では、エクササイズコーチの料金体系、メリット・デメリット、Googleマップの評点データを解説します。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -331,26 +287,16 @@ export default function ExerciseCoachReview() {
 
         {/* ---------- 口コミ分析 ---------- */}
         <section id="reviews" className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">エクササイズコーチの口コミ分析</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">エクササイズコーチの口コミについて</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            エクササイズコーチのGoogleマップ口コミを分析すると、20分の時短トレーニングと低価格な料金設定への満足度が高い一方で、トレーニングのボリュームや食事指導の不足を指摘する声も見られます。以下では、カテゴリ別に口コミの傾向をまとめています。
+            エクササイズコーチの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で個別の口コミを集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、Googleマップでご確認ください。検証できる数値として、当サイトが取得したGoogleマップの評点・口コミ件数（取得日つき）を下に掲載しています。
           </p>
-
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>多く見られる傾向を要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて掲載しない方針のためです）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証可能な数値は、上の「Googleマップの掲載データ」に掲載しています。</p>
-            <p className="text-xs text-yellow-700 mt-1">
-              出典: <a href="https://www.google.com/maps/search/%E3%82%A8%E3%82%AF%E3%82%B5%E3%82%B5%E3%82%A4%E3%82%BA%E3%82%B3%E3%83%BC%E3%83%81/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/エクササイズコーチ/</a>
-            </p>
-          </div>
+          <p className="text-xs text-gray-500 mb-8">
+            Googleマップの検索結果: <a href="https://www.google.com/maps/search/%E3%82%A8%E3%82%AF%E3%82%B5%E3%82%B5%E3%82%A4%E3%82%BA%E3%82%B3%E3%83%BC%E3%83%81/" target="_blank" rel="noopener noreferrer" className="underline">https://www.google.com/maps/search/エクササイズコーチ/</a>
+          </p>
 
           <GmapStats slug="exercise-coach" brand="エクササイズコーチ" />
 
-          {reviewCategories.map((cat) => (
-            <div key={cat.title} className="mb-10">
-              <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
-              <p className="text-sm text-gray-700 mb-4 leading-relaxed">{cat.summary}</p>
-            </div>
-          ))}
         </section>
 
         {/* ---------- FAQ ---------- */}

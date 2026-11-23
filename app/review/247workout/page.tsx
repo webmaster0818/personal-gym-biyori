@@ -13,7 +13,7 @@ const yen = (n: number) => n.toLocaleString() + "円";
 export const metadata: Metadata = {
   title: "24/7ワークアウトの口コミ・評判｜料金総額と「痩せない・失敗」と言われる理由の解説【2026年】",
   description:
-    "24/7ワークアウトの口コミ・評判をご紹介します。深夜24時までの営業、3食食べるダイエット指導、月額と総額の目安（料金シミュレーション）、痩せない・失敗と言われる理由と対策、Googleマップの口コミ分析、全国の店舗一覧を掲載しています。",
+    "24/7ワークアウトの口コミ・評判をご紹介します。深夜24時までの営業、3食食べるダイエット指導、月額と総額の目安（料金シミュレーション）、痩せない・失敗と言われる理由と対策、Googleマップの評点データ、全国の店舗一覧を掲載しています。",
 };
 
 /* ---------- 基本情報 ---------- */
@@ -60,8 +60,8 @@ const merits = [
 /* ---------- デメリット ---------- */
 const demerits = [
   {
-    title: "トレーナーの質にばらつきがある",
-    desc: "店舗数が多い分、トレーナーの経験や指導力にばらつきがあるとの声が見られます。経験豊富なトレーナーに当たれば質の高い指導を受けられますが、新人トレーナーの場合は説明が不十分だったり、メニューが画一的に感じられたりする場合があるとの声があります。相性が合わない場合はトレーナー変更を依頼することも可能です。",
+    title: "店舗によって評点に差がある",
+    desc: "当サイトが取得したGoogleマップのデータ（29店舗・2026年8月29日〜9月8日取得）では、24/7ワークアウトの店舗の評点に4.2〜5.0の幅があります。トレーナーの構成は店舗ごとに異なるため、通う予定の店舗の口コミをGoogleマップでご確認ください。",
   },
   {
     title: "施設が狭い店舗がある",
@@ -69,7 +69,7 @@ const demerits = [
   },
   {
     title: "解約条件が複雑",
-    desc: "契約期間中の途中解約については、解約手数料が発生する場合があります。また、解約申請の期限や手続き方法が分かりにくいとの声もあります。契約前に解約条件を確認し、不明点はカウンセリング時に質問しておくことが重要です。",
+    desc: "契約期間中の途中解約については、解約手数料が発生する場合があります。契約前に解約条件を確認し、不明点はカウンセリング時に質問しておくことが重要です。",
   },
 ];
 
@@ -82,55 +82,11 @@ const pricingPlans = [
   { name: "一括プラン", duration: "50分/回", price: `1回${yen(W.ticketPerSession)}〜`, note: "税込・1〜100枚から選択" },
 ];
 
-/* ---------- 口コミデータ ---------- */
-const reviewCategories = [
-  {
-    title: "トレーナーの質・対応",
-    summary: "トレーナーの対応に関しては「親切で丁寧」という好意的な声が多い一方で、店舗や担当者による差を指摘する口コミも見られます。担当制ではない店舗もあるため、指導の一貫性に課題を感じる方もいます。",
-  },
-  {
-    title: "料金・費用対効果",
-    summary: "RIZAPと比較して手頃な価格設定が評価される一方で、「安い=良い」とは限らないという意見もあります。費用対効果の評価は、求めるサービス内容によって分かれる傾向にあります。",
-  },
-  {
-    title: "結果・効果",
-    summary: "食事制限が緩やかでありながら、結果が出ているという口コミが多く見られます。ただし、効果の出方には個人差があり、期待値の管理が重要です。",
-  },
-  {
-    title: "食事指導",
-    summary: "3食食べるスタイルの食事指導は多くの利用者から支持されています。過度な制限がないため続けやすく、プログラム終了後も実践しやすい内容と評価されています。",
-  },
-  {
-    title: "施設・設備",
-    summary: "完全個室でプライバシーが守られている点は高評価です。一方で、スペースの広さや設備の充実度は店舗によってばらつきがあります。",
-  },
-  {
-    title: "予約の取りやすさ",
-    summary: "深夜まで営業している分、予約枠は比較的多い傾向にあります。ただし、人気の時間帯は早めの予約が必要との声もあります。",
-  },
-  {
-    title: "勧誘・営業",
-    summary: "カウンセリング時の対応は店舗により異なります。丁寧で押し売り感がないという声がある一方、契約を急かされたと感じた方もいます。",
-  },
-  {
-    title: "立地・アクセス",
-    summary: "主要駅の近くに出店しているため、アクセスの良さは高く評価されています。全国90店舗以上（公式表記）を展開しており、地方でも通いやすくなっています。",
-  },
-  {
-    title: "解約・手続き",
-    summary: "解約手続きに関しては、条件が分かりにくいとの指摘が多く見られます。契約前に解約条件を十分に確認しておくことが重要です。",
-  },
-  {
-    title: "継続のしやすさ",
-    summary: "深夜営業と3食食べられる食事指導が、継続のしやすさに大きく貢献しています。無理のないペースで通える点が、多くの利用者に支持されています。",
-  },
-];
-
 /* ---------- FAQ ---------- */
 const faqItems = [
   { q: "24/7ワークアウトの入会金はいくらですか？", a: `公式のコース・料金ページでは、入会金は「不要（一部店舗で異なる）」と記載されています（${WORKOUT247_CHECKED_AT}確認）。通う予定の店舗でご確認ください。` },
   { q: "深夜24時まで本当に営業していますか？", a: "はい、多くの店舗で24時まで営業しています。ただし、店舗により営業時間が異なる場合がありますので、ご利用予定の店舗の営業時間を事前にご確認ください。" },
-  { q: "食事制限は厳しい内容ですか？", a: "3食しっかり食べるスタイルの食事指導です。極端な糖質制限は行わず、食べるものの質とタイミングを調整する方法のため、比較的続けやすいと評判です。" },
+  { q: "食事制限は厳しい内容ですか？", a: "3食しっかり食べるスタイルの食事指導です。極端な糖質制限は行わず、食べるものの質とタイミングを調整する方法です。" },
   { q: "1回のトレーニング時間はどのくらいですか？", a: "1回あたり50分です。効率的に全身を鍛えるプログラムが組まれています。" },
   { q: "途中解約はできますか？", a: "途中解約は可能ですが、手数料が発生する場合があります。契約前に解約条件を確認し、不明点はカウンセリング時に質問しておくことをおすすめします。" },
   { q: "トレーナーの変更はできますか？", a: "トレーナーとの相性が合わない場合は、変更を申し出ることが可能です。スタッフに相談してください。" },
@@ -196,7 +152,7 @@ const toc = [
   { id: "pricing", label: "24/7ワークアウトの料金" },
   { id: "total-cost", label: "月額と総額の目安（料金シミュレーション）" },
   { id: "vs", label: "他社（チキンジム・RIZAP）との比較" },
-  { id: "reviews", label: "24/7ワークアウトの口コミ分析" },
+  { id: "reviews", label: "24/7ワークアウトの口コミについて" },
   { id: "fail", label: "「痩せない・失敗」の理由と対策" },
   { id: "faq", label: "24/7ワークアウトのよくある質問" },
   { id: "stores", label: "24/7ワークアウトの店舗一覧" },
@@ -232,9 +188,8 @@ export default function Workout247Review() {
             <li><a href="#s6" className="text-teal-600 hover:underline">24/7ワークアウトの料金</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">24/7ワークアウトの月額と総額の目安（料金シミュレーション）</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">他社（チキンジム・RIZAP）との比較</a></li>
-            <li><a href="#s9" className="text-teal-600 hover:underline">24/7ワークアウトの口コミ分析</a></li>
+            <li><a href="#s9" className="text-teal-600 hover:underline">24/7ワークアウトの口コミについて</a></li>
             <li><a href="#s10" className="text-teal-600 hover:underline">24/7ワークアウトで「痩せない・失敗」と言われる理由と対策</a></li>
-            <li><a href="#s11" className="text-teal-600 hover:underline">24/7ワークアウトの口コミの傾向（実際の口コミを編集部が読んで要約・2026年9月6日取得）</a></li>
             <li><a href="#s12" className="text-teal-600 hover:underline">24/7ワークアウトのよくある質問</a></li>
             <li><a href="#s13" className="text-teal-600 hover:underline">24/7ワークアウトの店舗一覧</a></li>
             <li><a href="#s14" className="text-teal-600 hover:underline">24/7ワークアウトが気になった方へ</a></li>
@@ -249,7 +204,7 @@ export default function Workout247Review() {
         </div>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          24/7ワークアウトは全国90店舗以上（公式表記・2026年11月13日確認）を展開する大手パーソナルトレーニングジムです。深夜24時までの長い営業時間と、3食しっかり食べるダイエット指導が特徴です。RIZAPの半額以下という手頃な料金設定です。本記事では、24/7ワークアウトの料金体系、メリット・デメリット、実際の口コミ傾向を詳しく解説します。
+          24/7ワークアウトは全国90店舗以上（公式表記・2026年11月13日確認）を展開する大手パーソナルトレーニングジムです。深夜24時までの長い営業時間と、3食しっかり食べるダイエット指導が特徴です。RIZAPの半額以下という手頃な料金設定です。本記事では、24/7ワークアウトの料金体系、メリット・デメリット、Googleマップの評点データを解説します。
         </p>
 
         {/* ---------- 結論ボックス ---------- */}
@@ -259,7 +214,7 @@ export default function Workout247Review() {
             <li>・<strong>仕事帰りや深夜</strong>に通いたい方に向いています（公式の店舗ページでは営業中の96店舗中93店舗が7:00〜24:00営業・2026年11月14日確認）</li>
             <li>・<strong>3食食べながら</strong>無理のない食事指導で痩せたい方に向いています（極端な糖質制限が苦手な方）</li>
             <li>・大手の中では<strong>比較的手頃な料金</strong>で本格的なパーソナルトレーニングを試したい方に向いています</li>
-            <li>・口コミは「続けやすい」「結果が出た」が中心です。一方で「トレーナーの質に差」「解約条件が分かりにくい」という声もあります</li>
+            <li>・Googleマップの評点は店舗により4.2〜5.0の幅があります（当サイトが取得した29店舗のデータ・2026年8月29日〜9月8日取得）。通う予定の店舗の口コミをご確認ください</li>
           </ul>
           <p className="text-xs text-gray-500 mt-3">料金・営業時間・キャンペーンは店舗で異なります。ご利用前に、公式サイトにて最新情報をご確認ください。<a href="/compare/247workout-vs-chicken-gym-vs-rizap/" className="text-teal-600 underline">チキンジム・RIZAPとの比較</a>や<a href="/compare/" className="text-teal-600 underline">目的別比較</a>もご覧ください。</p>
         </div>
@@ -376,7 +331,7 @@ export default function Workout247Review() {
         <section id="total-cost" className="mb-12">
           <h2 id="s7" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの月額と総額の目安（料金シミュレーション）</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「月々◯◯円〜」という広告表示は<strong>分割払い時の月々の支払い額</strong>を指すことが多く、契約の総額とは異なります。口コミでも「月額だけ見て契約したら総額は20万円以上だった」という声が見られます。実際に検討するときは、<strong>月々の支払い</strong>と<strong>コース総額</strong>の両方を必ずご確認ください。以下は当ページ掲載のプランをもとにした概算の目安です。
+            「月々◯◯円〜」という広告表示は<strong>分割払い時の月々の支払い額</strong>を指すことが多く、契約の総額とは異なります。実際に検討するときは、<strong>月々の支払い</strong>と<strong>コース総額</strong>の両方を必ずご確認ください。以下は当ページ掲載のプランをもとにした概算の目安です。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
@@ -451,33 +406,23 @@ export default function Workout247Review() {
 
         {/* ---------- 口コミ分析 ---------- */}
         <section id="reviews" className="mb-12">
-          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミ分析</h2>
+          <h2 id="s9" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミについて</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            24/7ワークアウトのGoogleマップ口コミを分析すると、費用対効果の高さと深夜営業の利便性が好評な一方で、トレーナーの質のばらつきや解約条件への指摘が見られます。以下では、カテゴリ別に口コミの傾向をまとめています。
+            24/7ワークアウトの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で個別の口コミを集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、Googleマップでご確認ください。検証できる数値として、当サイトが取得したGoogleマップの評点・口コミ件数（取得日つき）を下に掲載しています。
           </p>
-
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>どのような傾向の声が多いかを要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて掲載しない方針のためです）。実際の投稿は、下記リンクからGoogleマップでご確認ください。検証できる数値は、下のGoogleマップのデータに掲載しています。</p>
-            <p className="text-xs text-yellow-700 mt-1">
-              出典: <a href="https://www.google.com/maps/search/24%2F7%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/24/7ワークアウト/</a>
-            </p>
-          </div>
+          <p className="text-xs text-gray-500 mb-8">
+            Googleマップの検索結果: <a href="https://www.google.com/maps/search/24%2F7%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88/" target="_blank" rel="noopener noreferrer" className="underline">https://www.google.com/maps/search/24/7ワークアウト/</a>
+          </p>
 
           <GmapStats slug="247workout" brand="24/7ワークアウト" />
 
-          {reviewCategories.map((cat) => (
-            <div key={cat.title} className="mb-10">
-              <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
-              <p className="text-sm text-gray-700 mb-4 leading-relaxed">{cat.summary}</p>
-            </div>
-          ))}
         </section>
 
         {/* ---------- 痩せない・失敗の対策 ---------- */}
         <section id="fail" className="mb-12">
           <h2 id="s10" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトで「痩せない・失敗」と言われる理由と対策</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
-            「24/7ワークアウトで痩せない」「失敗した」という声も一部に見られます。多くは<strong>取り組み方やジムとの相性のミスマッチ</strong>が原因です。失敗を避けるための注意点を以下にまとめました。
+            パーソナルジムで期待した結果が出ない原因としては、<strong>取り組み方やジムとの相性のミスマッチ</strong>が考えられます。失敗を避けるための注意点を以下にまとめました。
           </p>
           <div className="space-y-4">
             {[
@@ -493,16 +438,6 @@ export default function Workout247Review() {
             ))}
           </div>
           <p className="text-xs text-gray-500 mt-3">※効果には個人差があります。上記は一般的な注意点で、特定の結果を保証するものではありません。</p>
-        </section>
-
-        {/* 口コミの傾向(編集部要約) */}
-        <section className="mb-12">
-          <h2 id="s11" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">24/7ワークアウトの口コミの傾向（実際の口コミを編集部が読んで要約・2026年9月6日取得）</h2>
-          <div className="bg-white border border-gray-200 rounded-lg p-6 space-y-3 text-sm leading-relaxed text-gray-700">
-            <p><span className="font-semibold text-emerald-700">よく見られる好意的な声</span>——「2ヶ月で10kg」「3ヶ月で7kg」など具体的な減量報告が多い点が最大の特徴です。「1人だと追い込めない・客観的なフィードバックが欲しい」という経験者の入会理由や、毎週の計測で身が引き締まるという仕組み面の評価、体調に合わせたメニュー調整の声もあります。</p>
-            <p><span className="font-semibold text-rose-700">気になる点・読み方の注意</span>——「体重はさほど落ちていないが体型・姿勢は変わった」という中立的な声もあり、成果の出方には個人差があります。個室のフリー利用(別サービス会員)の口コミが混在する店舗もあるため、パーソナル指導の評価とは分けてお読みください。</p>
-            <p className="text-xs text-gray-400">※Googleマップの複数店舗(新宿・梅田・横浜ほか)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・トレーナー・時期により異なります。</p>
-          </div>
         </section>
 
         {/* ---------- FAQ ---------- */}

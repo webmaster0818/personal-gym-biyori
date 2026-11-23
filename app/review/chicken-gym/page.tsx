@@ -8,7 +8,7 @@ import GymCta from "@/components/GymCta";
 export const metadata: Metadata = {
   title: "チキンジムの口コミ・評判｜料金・メリット・デメリットを解説",
   description:
-    "チキンジムの口コミ・評判を解説します。公式サイトに掲載されている料金（月2回18,900円から・入会金35,000円）と3店舗（池袋・町田・岡山）を2026年11月3日に確認し、メリット・デメリットとGoogleマップの口コミ傾向をまとめています。",
+    "チキンジムの口コミ・評判を解説します。公式サイトに掲載されている料金（月2回18,900円から・入会金35,000円）と3店舗（池袋・町田・岡山）を2026年11月3日に確認し、メリット・デメリットと口コミの確認方法をまとめています。",
 };
 
 /* 公式サイト https://chicken-gym.jp/ （1ページ構成。/price/ などの下層URLもトップに転送）を 2026-11-03 に確認した値 */
@@ -62,10 +62,6 @@ const demerits = [
     desc: "他サイトや過去の広告で見られる「月々3,400円〜」「月々6,800円〜」は分割払い時の月額で、公式サイトに掲載されている月額制プラン（月2回18,900円から）とは異なります。料金は入会金35,000円を含めて、無料カウンセリングで確認されることをおすすめします。",
   },
   {
-    title: "体験時の勧誘に関する指摘",
-    desc: "無料カウンセリング後の入会勧誘について、「しつこかった」「その場で決めるよう促された」という口コミが一部見られます。丁寧だったという声も多くありますが、即決を避けたい場合は「一度持ち帰って検討します」とはっきり伝えることをおすすめします。",
-  },
-  {
     title: "混雑時の施設の狭さ",
     desc: "チキンジムの店舗は駅近でコンパクトな設計が多いため、人気の時間帯（平日夜・土日午前）は予約が取りにくかったり、トレーニングスペースが窮屈に感じることがあります。余裕をもってスケジュールを組むか、比較的空いている時間帯を選ぶと快適に利用できます。",
   },
@@ -76,50 +72,6 @@ const pricingPlans = [
   { name: "月額制 月2回", duration: "50分/回", price: "18,900円", note: "1回あたり9,450円" },
   { name: "月額制 月4回", duration: "50分/回", price: "29,700円", note: "1回あたり7,425円" },
   { name: "月額制 月6回", duration: "50分/回", price: "39,600円", note: "1回あたり6,600円" },
-];
-
-/* ---------- 口コミデータ ---------- */
-const reviewCategories = [
-  {
-    title: "トレーナーの質・対応",
-    summary: "トレーナーの質に関する口コミは全体的に好意的な傾向があります。特に「初心者への対応が丁寧」「フォームを細かく修正してくれる」という声が目立ちます。一方で、トレーナーの指名ができない・担当が毎回変わるという点に不満を感じる利用者もいます。",
-  },
-  {
-    title: "料金・費用対効果",
-    summary: "料金面ではパーソナルジムとしてのコストパフォーマンスの高さが評価されています。ただし、広告の月額表示と実際の総額のギャップに対する指摘も少なくありません。",
-  },
-  {
-    title: "設備・清潔感",
-    summary: "店舗の清潔さは高く評価されており、特にシャワー室やトレーニングスペースの手入れが行き届いているとの声が多く見られます。ただし、スペースの狭さに言及する口コミもあります。",
-  },
-  {
-    title: "ダイエット・ボディメイク効果",
-    summary: "短期間での体重減少やボディラインの変化を実感している利用者が多く、ダイエット目的での満足度は高い傾向にあります。ただし、食事管理を自分でもしっかり行うことが成果の鍵になります。",
-  },
-  {
-    title: "食事指導",
-    summary: "公式サイトでは、すべての月額制プランに食事サポートが含まれると記載されています。口コミでは、基本的なアドバイスを受けられるとの評価が多い傾向にあります。",
-  },
-  {
-    title: "予約の取りやすさ",
-    summary: "人気の時間帯（平日夜・土日午前）は予約が埋まりやすいという声が見られます。スケジュールを柔軟に調整できる場合は、予約を取りやすい傾向です。",
-  },
-  {
-    title: "勧誘・営業",
-    summary: "無料カウンセリング時の勧誘については、体験者の間で評価が分かれています。「丁寧で押し売り感がなかった」という声がある一方で、「その場での契約を強く勧められた」という報告も見られます。",
-  },
-  {
-    title: "立地・アクセス",
-    summary: "アクセスの良さを評価する口コミが見られます。ただし、公式サイトの店舗一覧に掲載されているのは池袋店・町田店・岡山店の3店舗のため、通える店舗があるか事前にご確認ください。",
-  },
-  {
-    title: "初心者の使いやすさ",
-    summary: "チキンジムは「続けられるトレーニング」を重視しており、運動未経験者やジム初心者から特に高い評価を得ています。威圧感のない雰囲気づくりが支持の理由です。",
-  },
-  {
-    title: "継続のしやすさ",
-    summary: "手ぶらで通える利便性、柔軟な営業時間、トレーナーの励ましなど、継続を後押しする仕組みが整っている点が評価されています。ただし、モチベーションの維持は本人次第という声もあります。",
-  },
 ];
 
 /* ---------- FAQ ---------- */
@@ -169,7 +121,7 @@ const toc = [
   { id: "overview", label: "チキンジムの概要" },
   { id: "merit-demerit", label: "チキンジムのメリット・デメリット" },
   { id: "pricing", label: "チキンジムの料金" },
-  { id: "reviews", label: "チキンジムの口コミ分析" },
+  { id: "reviews", label: "チキンジムの口コミについて" },
   { id: "faq", label: "チキンジムのよくある質問" },
   { id: "stores", label: "チキンジムの店舗一覧" },
 ];
@@ -201,7 +153,7 @@ export default function ChickenGymReview() {
             <li><a href="#s3" className="text-teal-600 hover:underline">チキンジムの概要</a></li>
             <li><a href="#s4" className="text-teal-600 hover:underline">チキンジムのメリット・デメリット</a></li>
             <li><a href="#s5" className="text-teal-600 hover:underline">チキンジムの料金</a></li>
-            <li><a href="#s6" className="text-teal-600 hover:underline">チキンジムの口コミ分析</a></li>
+            <li><a href="#s6" className="text-teal-600 hover:underline">チキンジムの口コミについて</a></li>
             <li><a href="#s7" className="text-teal-600 hover:underline">チキンジムのよくある質問</a></li>
             <li><a href="#s8" className="text-teal-600 hover:underline">チキンジムの店舗一覧</a></li>
             <li><a href="#s9" className="text-teal-600 hover:underline">チキンジムが気になった方へ</a></li>
@@ -216,7 +168,7 @@ export default function ChickenGymReview() {
         </div>
 
         <p className="text-gray-700 leading-relaxed mb-10">
-          チキンジムは「続けられるトレーニング」を軸にしたパーソナルトレーニングジムです。公式サイトの料金は月額制で、月2回<span className="font-bold bg-yellow-100 px-0.5">18,900円</span>から（1回50分・入会金35,000円）です。公式サイトの店舗一覧に掲載されているのは池袋店・町田店・岡山店の3店舗です（いずれも{CHECKED}確認）。本記事では、チキンジムの料金体系、メリット・デメリット、口コミの傾向をご説明します。
+          チキンジムは「続けられるトレーニング」を軸にしたパーソナルトレーニングジムです。公式サイトの料金は月額制で、月2回<span className="font-bold bg-yellow-100 px-0.5">18,900円</span>から（1回50分・入会金35,000円）です。公式サイトの店舗一覧に掲載されているのは池袋店・町田店・岡山店の3店舗です（いずれも{CHECKED}確認）。本記事では、チキンジムの料金体系、メリット・デメリット、口コミの確認方法をご説明します。
         </p>
 
         {/* ---------- 目次 ---------- */}
@@ -329,24 +281,14 @@ export default function ChickenGymReview() {
 
         {/* ---------- 口コミ分析 ---------- */}
         <section id="reviews" className="mb-12">
-          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの口コミ分析</h2>
+          <h2 id="s6" className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">チキンジムの口コミについて</h2>
           <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-            チキンジムのGoogleマップ口コミを分析すると、全体的に好意的な評価が多い一方で、料金の表示方法や勧誘に関する指摘も一定数見られます。以下では、カテゴリ別に口コミの傾向をまとめています。
+            チキンジムの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で個別の口コミを集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、Googleマップでご確認ください。
+          </p>
+          <p className="text-xs text-gray-500 mb-8">
+            Googleマップの検索結果: <a href="https://www.google.com/maps/search/%E3%83%81%E3%82%AD%E3%83%B3%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline">https://www.google.com/maps/search/チキンジム/</a>
           </p>
 
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
-            <p className="text-xs text-yellow-800">※ 以下は、Googleマップに投稿された口コミを当サイト編集部が読み、<strong>多く見られる傾向を要約したもの</strong>です。個別の投稿文は掲載していません（投稿を書き換えて掲載しない方針のためです）。実際の投稿は下記リンクからGoogleマップでご確認ください。検証可能な数値は、上の「Googleマップの掲載データ」に掲載しています。</p>
-            <p className="text-xs text-yellow-700 mt-1">
-              出典: <a href="https://www.google.com/maps/search/%E3%83%81%E3%82%AD%E3%83%B3%E3%82%B8%E3%83%A0/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-900">https://www.google.com/maps/search/チキンジム/</a>
-            </p>
-          </div>
-
-          {reviewCategories.map((cat) => (
-            <div key={cat.title} className="mb-10">
-              <h3 className="text-lg font-bold mb-3">{cat.title}</h3>
-              <p className="text-sm text-gray-700 mb-4 leading-relaxed">{cat.summary}</p>
-            </div>
-          ))}
         </section>
 
         {/* ---------- FAQ ---------- */}
