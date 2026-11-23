@@ -381,7 +381,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     slug: "tokiel", name: "TOKIEL",
     price: "フリータイム（9〜23時・30分/日）月59,400円・デイタイム（平日9〜18時）月47,000円／回数券4回29,920円・8回58,960円・12回87,120円・16回114,400円・20回140,800円／SUPREMACY 16回220,000円（すべて税込）",
     kind: "月額制", lowest: 29920, entry: "22,000円（税込・SUPREMACY会員を除く）",
-    officialUrl: "https://tokiel.jp/price/", area: "浅草・本所吾妻橋押上（東京）、横浜鶴見、岐阜",
+    officialUrl: "https://tokiel.jp/price/", area: "東京都・神奈川県を中心に青森・埼玉・千葉・岐阜・静岡・愛知・三重・京都・岡山（公式の店舗一覧・2026年11月23日確認）",
   },
 
   // ---------- 都度払い ----------

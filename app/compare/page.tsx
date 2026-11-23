@@ -37,7 +37,7 @@ const categories: Category[] = [
       { name: "OUTLINE", slug: "outline" },
       { name: "RACINE（ラシーヌ）", slug: "racine" },
       { name: "リプレシャス", slug: "reprecious" },
-      { name: "TOKIEL", slug: "tokiel" },
+      { name: "TOKIEL（女性専用は一部店舗）", slug: "tokiel" },
       { name: "UNDEUX SUPERBODY", slug: "undeux" },
     ],
   },
@@ -98,7 +98,7 @@ const selectionPoints = [
 ];
 
 const faqs = [
-  { q: "女性専用のパーソナルジムはどこがありますか？", a: "当サイト掲載では、ビーコンセプト・カーブス・FURDI・fis.lady's・メルメイク・PLUME・OUTLINE・RACINE・リプレシャス・TOKIEL・UNDEUX SUPERBODY などが女性専用または女性向けに対応しています。各ジムのレビューで料金や特徴を確認できます。" },
+  { q: "女性専用のパーソナルジムはどこがありますか？", a: "当サイト掲載では、ビーコンセプト・カーブス・FURDI・fis.lady's・メルメイク・PLUME・OUTLINE・RACINE・リプレシャス・UNDEUX SUPERBODY などが女性専用または女性向けに対応しています。TOKIELは公式のよくある質問で男女とも利用でき店舗により異なると案内されており、公式の店舗一覧で「女性専用」と表示されているのは本所吾妻橋店・綱島店・元住吉店・岐阜店の4店舗です（2026年11月23日確認）。各ジムのレビューで料金や特徴を確認できます。" },
   { q: "全額返金保証があるパーソナルジムはどこですか？", a: "BEYOND・RIZAP・RITA STYLE などが返金保証を設けています。ただし「30日以内」「条件あり」など保証の範囲はジムごとに異なるため、契約前に必ず公式の保証条件を確認してください。" },
   { q: "分割払いできるパーソナルジムはありますか？", a: "24/7ワークアウト・Alesco・ビーコンセプト・チキンジム・CALORIE TRADE JAPAN・OUTLINE・RIZAP・RITA STYLE などが分割払いや月額制に対応しています。月々の負担額と分割手数料の有無をご確認ください。" },
   { q: "通い放題のパーソナルジムはどこですか？", a: "ACCEPT・カーブス・ELEMENT・スターライトフィットネス・FURDI などに通い放題プランがあります。短期集中や習慣化を重視する方に向いています。" },
