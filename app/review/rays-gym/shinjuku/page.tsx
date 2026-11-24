@@ -50,6 +50,11 @@ export default function StorePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">Rays GyM 新宿店の口コミ・評判</h1>
         <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        {/* 2026-11-24 施主 mi26rock 判断（③ 1574578078385176651）：公式の店舗一覧に新宿店がないことを注記（削除・noindex変更・301はしない） */}
+        <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-gray-800">
+          <p className="font-bold">ご注意：Rays GyMの公式サイトの店舗一覧に、新宿店の掲載がありません（2026年11月24日確認）</p>
+          <p className="mt-1">当サイトで公式サイトの店舗紹介（川越店・川越アカシア通り店の2店舗）を確認したところ、新宿店は掲載されていませんでした。このページの情報は以前のものです。ご利用の前に、<a href="https://www.raysgym.jp/" target="_blank" rel="noopener nofollow" className="underline">公式サイト</a>で店舗の有無をご確認ください。</p>
+        </div>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">基本情報</h2>
