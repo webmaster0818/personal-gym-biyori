@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "TOKIEL（トキエル）" },
   { label: "タイプ", value: "パーソナルトレーニングジム（公式の店舗一覧で「女性専用」と表示されている店舗は本所吾妻橋店・綱島店・元住吉店・岐阜店・2026年11月23日確認）" },
-  { label: "料金帯", value: "月額29,920円〜" },
+  { label: "料金帯", value: "回数券4回29,920円〜／通い放題 月額47,000円〜（税込・公式料金ページ・2026年11月25日確認）" },
   { label: "エリア", value: "東京都・神奈川県を中心に、青森・埼玉・千葉・岐阜・静岡・愛知・三重・京都・岡山（公式の店舗一覧・2026年11月23日確認）" },
   { label: "特徴", value: "女性専用店舗あり / 男女のトレーナーが在籍 / ボディメイク / ウェア・シューズのレンタル無料" },
 ];
@@ -66,9 +66,17 @@ const demerits = [
 ];
 
 const pricingPlans = [
-  { name: "ライトプラン", duration: "50分/回・月4回", price: "月額28,000円〜", note: "週1回ペース" },
-  { name: "スタンダードプラン", duration: "50分/回・月8回", price: "月額50,000円〜", note: "週2回ペース・人気" },
-  { name: "プレミアムプラン", duration: "50分/回・月12回", price: "月額70,000円〜", note: "しっかり結果を出したい方" },
+  { name: "入会金", duration: "−", price: "22,000円", note: "SUPREMACYの方は無料" },
+  { name: "体験", duration: "60〜90分", price: "6,600円", note: "カウンセリング込み。即日入会の場合は返金" },
+  { name: "フリータイム会員", duration: "30分/日", price: "月額59,400円", note: "全日9:00〜23:00の通い放題（定員制限あり）" },
+  { name: "デイタイム会員", duration: "30分/日", price: "月額47,000円", note: "平日9:00〜18:00の通い放題（定員制限あり）" },
+  { name: "回数券 4回", duration: "40分/回", price: "29,920円", note: "有効期限1ヵ月" },
+  { name: "回数券 8回", duration: "40分/回", price: "58,960円", note: "有効期限2ヵ月" },
+  { name: "回数券 12回", duration: "40分/回", price: "87,120円", note: "有効期限3ヵ月" },
+  { name: "回数券 16回", duration: "40分/回", price: "114,400円", note: "有効期限4ヵ月" },
+  { name: "回数券 20回", duration: "40分/回", price: "140,800円", note: "有効期限5ヵ月" },
+  { name: "SUPREMACY（短期集中）", duration: "50分/回・16回", price: "220,000円", note: "入会金込み・食事サポート付き・毎月1名まで" },
+  { name: "MEAL SALON（食事サポート）", duration: "−", price: "月額11,000円", note: "食事の写真を送ってアドバイスを受けるサポートプラン" },
 ];
 
 const reviewSummary = "TOKIELの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
@@ -78,7 +86,7 @@ const faqItems = [
   { q: "産後でも通えますか？", a: "はい、産後のボディケアに対応したプログラムがあります。産後2ヶ月以降から利用可能な場合が多いものの、医師の許可を得てからの利用をおすすめします。" },
   { q: "生理中でもトレーニングできますか？", a: "はい、体調に合わせてトレーニング内容を調整します。無理をせず、トレーナーにご相談ください。" },
   { q: "ウェアのレンタルはありますか？", a: "公式サイトでは、ウェア・ドリンク・シューズのレンタルが無料と案内されています（2026年11月23日確認）。キャンペーン内容は店舗により異なります。" },
-  { q: "無料体験はありますか？", a: "無料カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
+  { q: "体験の料金はいくらですか？", a: "公式の料金ページでは、カウンセリング込みの体験（60〜90分）が6,600円（税込）で、即日入会した場合は体験料金を返金すると案内されています（2026年11月25日確認）。" },
   { q: "退会方法を教えてください。", a: "公式のよくある質問では、退会方法はメニューにより異なるため問い合わせるよう案内されています（2026年11月23日確認）。契約時にご確認ください。" },
 ];
 
@@ -111,7 +119,7 @@ export default function TokielReview() {
           <img src="/brand-ss/tokiel.jpg" alt="TOKIELの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">TOKIEL 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月25日</p>
         <GymCta slug="tokiel" name="TOKIEL" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -168,7 +176,7 @@ export default function TokielReview() {
             <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン名</th><th className="px-4 py-3 text-left font-medium">時間</th><th className="px-4 py-3 text-left font-medium">料金</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead>
             <tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody>
           </table></div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 金額はすべて税込です。公式サイトでは、新規入会は2026年9月1日から、回数券は2026年10月1日以降の購入分から上記の料金が適用されると案内されています。出典: <a href="https://tokiel.jp/price/" target="_blank" rel="noopener noreferrer" className="underline">TOKIEL 公式サイト 料金プラン</a>（2026年11月25日確認）。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section className="mb-12">

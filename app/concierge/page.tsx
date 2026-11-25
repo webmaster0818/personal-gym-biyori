@@ -252,9 +252,9 @@ const stores: Store[] = [
   ]),
   /* ── UNDEUX SUPERBODY (no affiliate, mid, women-only) ── */
   ...mkStores('UNDEUX SUPERBODY', {
-    price: '2ヶ月 約22万円〜',
+    price: '月額18,200円〜（スタンダードプラン・店舗により異なる・公式11/25確認）',
     priceCategory: 'mid',
-    hours: '9:00〜22:00',
+    hours: '8:00〜22:00',
     lateNight: false,
     features: ['女性専用', 'ボディメイク特化', '宅配食サービス連携', '食事管理付き'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', 'ブライダル準備'],
@@ -532,9 +532,9 @@ const stores: Store[] = [
   ]),
   /* ── THE PERSONAL GYM (no affiliate, mid) ────────────── */
   ...mkStores('THE PERSONAL GYM', {
-    price: '月額4万円〜',
+    price: '月額17,600円〜（月2回・入会金無料・公式11/25確認）',
     priceCategory: 'mid',
-    hours: '10:00〜22:00',
+    hours: '7:00〜23:00（多くの店舗）',
     lateNight: false,
     features: ['パーソナルトレーニング', '丁寧な指導', '都内主要駅'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],

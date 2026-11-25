@@ -121,9 +121,10 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "the-personal-gym", name: "THE PERSONAL GYM",
-    price: "月額 月2回17,600円・月4回33,000円・月6回47,850円・月8回61,600円／回数券10回88,000円〜40回286,000円／Bodyメイクコンサル 2ヶ月16回281,600円・3ヶ月24回408,000円・6ヶ月48回720,000円",
-    kind: "月額制", lowest: 17600, entry: "キャンペーン期間中は無料",
-    officialUrl: "https://the-personal-gym.com/", area: "全国50店舗以上（東京・大阪・名古屋・福岡ほか）",
+    price: "月額 月2回17,600円・月4回33,000円・月6回47,850円・月8回61,600円／回数券10回88,000円・20回165,000円・30回231,000円・40回286,000円／ボディメイクコンサル 2ヶ月16回281,600円・3ヶ月24回408,000円・6ヶ月48回720,000円（すべて税込・1回約60分）",
+    kind: "月額制", lowest: 17600, entry: "現在無料（公式のよくある質問）",
+    officialUrl: "https://the-personal-gym.com/price/", area: "全国50店舗以上（東京・大阪・名古屋・福岡ほか）",
+    checkedOn: "2026年11月25日",
   },
   {
     slug: "beyond", name: "BEYOND",
@@ -142,10 +143,11 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "undeux", name: "UNDEUX SUPERBODY",
-    price: "スタンダードプラン 月2〜8回 月額18,200円〜／コミットプラン 月6回 79,200円（全国一律）",
-    kind: "月額制", lowest: 18200, entry: "公式の料金ページに記載なし（初回体験0円）",
+    price: "スタンダードプラン 月2〜8回 月額18,200円〜（店舗のグレードA〜D・回数・時間帯で異なり、月2回は18,200〜21,300円）／コミットプラン 月6回 月額79,200円（全国一律）（すべて税込・1回50分）",
+    kind: "月額制", lowest: 18200, entry: "公式の料金ページ・よくある質問に記載なし（体験トレーニング0円）",
     officialUrl: "https://www.diet-undeux.jp/price/", area: "全国40店舗以上",
     note: "UNDEUX SUPERBODY LIFE と同じ料金ページです。公式サイトには現在この2プランのみ掲載されています。",
+    checkedOn: "2026年11月25日",
   },
   {
     slug: "lala-fit", name: "LALA FIT",
@@ -156,8 +158,9 @@ export const BRAND_PRICES: BrandPrice[] = [
   {
     slug: "rays-gym", name: "Rays GyM（レイズジム）",
     price: "月額 月2回19,800円・月4回37,400円・月6回52,800円／回数券10回99,000円・20回187,000円・30回264,000円／食事指導付16回236,500円・24回316,800円（すべて税込・60分）",
-    kind: "月額制", lowest: 19800, entry: "5,500円（キャンペーンで0円）",
+    kind: "月額制", lowest: 19800, entry: "5,500円（税込・公式料金表では無料キャンペーン中）",
     officialUrl: "https://www.raysgym.jp/raysgymprice", area: "埼玉県川越市（川越駅徒歩3分）",
+    checkedOn: "2026年11月25日",
   },
   {
     slug: "calorie-trade", name: "CALORIE TRADE JAPAN",
@@ -382,6 +385,7 @@ export const BRAND_PRICES: BrandPrice[] = [
     price: "フリータイム（9〜23時・30分/日）月59,400円・デイタイム（平日9〜18時）月47,000円／回数券4回29,920円・8回58,960円・12回87,120円・16回114,400円・20回140,800円／SUPREMACY 16回220,000円（すべて税込）",
     kind: "月額制", lowest: 29920, entry: "22,000円（税込・SUPREMACY会員を除く）",
     officialUrl: "https://tokiel.jp/price/", area: "東京都・神奈川県を中心に青森・埼玉・千葉・岐阜・静岡・愛知・三重・京都・岡山（公式の店舗一覧・2026年11月23日確認）",
+    checkedOn: "2026年11月25日",
   },
 
   // ---------- 都度払い ----------
