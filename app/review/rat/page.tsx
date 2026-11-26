@@ -11,7 +11,7 @@ import BrandStoreLinks from "@/components/BrandStoreLinks";
 export const metadata: Metadata = {
   title: "パーソナルジムRat（ラット）の口コミ・評判｜料金・返金条件を検証",
   description:
-    "パーソナルジムRat（ラット）の口コミ・評判を、Googleマップ12店舗・2,130件の集計と検索上位記事の出典確認で検証します。公式の店舗一覧33店舗と駅からの距離、3コースの1回あたり料金、食事指導の違い、返金保証の表記の違いもまとめています。",
+    "パーソナルジムRat（ラット）の口コミ・評判を、Googleマップ26店舗・2,486件（2026年11月26日取得）の集計と検索上位記事の出典確認で検証します。公式の店舗一覧33店舗と駅からの距離、3コースの1回あたり料金、食事指導の違い、返金保証の表記の違いもまとめています。",
 };
 
 /*
@@ -41,7 +41,7 @@ const summary = [
   { label: "店舗", value: "公式トップ下部の店舗一覧で33店舗（北海道1・関東22・東海3・関西6・九州1）です。" },
   { label: "料金", value: "全コース8回・1回50分で、シェイプアップ・美ボディメイク131,150円、短期ダイエット集中147,780円（税込）です。1回あたり16,394円〜18,473円で、当日入会の10%OFFを適用すると14,754円〜16,625円です（当サイト計算）。入会金29,800円は現在無料です。" },
   { label: "返金", value: "公式トップに「30日間で満足できなかったら全額返金保証」とありますが、条件の記載はありません。特定商取引法の表記では入会時諸費用は返金不可とされています。" },
-  { label: "口コミ", value: "当サイトが集計したGoogleマップの12店舗・2,130件では、評点は全店舗4.8〜5.0（口コミ数で加重した平均4.87）です。検索上位の記事には、混雑で予約時間に始められない、体験後の連絡がなかった、という投稿の引用もあります。" },
+  { label: "口コミ", value: "当サイトが2026年11月26日に取得したGoogleマップの26店舗・2,486件では、評点は4.7〜5.0（口コミ数で加重した平均4.87）です。検索上位の記事には、混雑で予約時間に始められない、体験後の連絡がなかった、という投稿の引用もあります。" },
   { label: "向いている方", value: "手ぶらで通いたい方、早朝・夜に通いたい方に向いています。食事指導を重視する場合は、LINE食事指導がつく短期ダイエット集中コースを選ぶ必要があります。" },
 ];
 
@@ -128,13 +128,13 @@ const pricingPlans = [
   { name: "入会金", duration: "—", price: "29,800円", note: "現在無料キャンペーン" },
 ];
 
-const reviewSummary = "当サイトが集計したGoogleマップの12店舗・2,130件（2026年8〜9月取得）では、全店舗の評点が4.8〜5.0でした。検索上位の第三者記事が引用しているGoogleマップの投稿では、トレーナーの指導や食事のアドバイスを評価する声がある一方、混雑で予約時間に始められない、体験後に約束の連絡がなかった、という投稿も紹介されています。上位記事のうち2本は2022〜2023年の情報で、料金・店舗数が現行の公式表記と異なります。";
+const reviewSummary = "当サイトが2026年11月26日にGoogle Places APIで取得した26店舗・2,486件では、評点が4.7〜5.0（口コミ数で加重した平均4.87）でした。検索上位の第三者記事が引用しているGoogleマップの投稿では、トレーナーの指導や食事のアドバイスを評価する声がある一方、混雑で予約時間に始められない、体験後に約束の連絡がなかった、という投稿も紹介されています。上位記事のうち2本は2022〜2023年の情報で、料金・店舗数が現行の公式表記と異なります。";
 
 
 const faqItems = [
   { q: "Ratの入会金はいくらですか？", a: "入会金は29,800円で、2026年10月28日時点の公式では無料と記載されています。当日入会では全コースが10%OFFになります。" },
   { q: "Ratの店舗はいくつありますか？", a: "公式トップ下部の店舗一覧では33店舗です（北海道1・関東22・東海3・関西6・九州1、2026年10月28日確認）。公式トップでは「全店舗駅から徒歩5分圏内」とされていますが、同じページの店舗紹介では中野店（徒歩10分）など徒歩6分以上の店舗も8店舗あります。" },
-  { q: "Ratの口コミの評点はどのくらいですか？", a: "当サイトがGoogle Places APIで取得した12店舗・2,130件（2026年8〜9月）では、評点は4.8〜5.0、口コミ数で加重した平均は4.87でした。店舗ごとの値は本ページの「Googleマップの掲載データ」でご確認いただけます。" },
+  { q: "Ratの口コミの評点はどのくらいですか？", a: "当サイトがGoogle Places APIで2026年11月26日に取得した26店舗・2,486件では、評点は4.7〜5.0、口コミ数で加重した平均は4.87でした。店舗ごとの値は本ページの「Googleマップの店舗別クチコミ」の表でご確認いただけます。件数が10件未満の店舗もあるため、評点は店舗ごとの件数とあわせてご覧ください。" },
   { q: "手ぶらで通えますか？", a: "はい。ウェア・タオルは無料レンタル、ミネラルウォーターは飲み放題、シューズはレンタル可能と公式のコース内容に書かれています。" },
   { q: "シャワーはありますか？", a: "2026年10月14日時点の公式サイトのコース内容・FAQにはシャワーの記載がありません（2023年の第三者記事にはシャワールームの記載があります）。利用を希望する方は、希望店舗にご確認ください。" },
   { q: "食事指導は受けられますか？", a: "コースによります。LINE食事指導は短期ダイエット集中コース、美ボディメイクコースは「食事指導」、シェイプアップコースは食事指導の記載がありません（公式のコース内容）。" },
@@ -184,7 +184,7 @@ export default function RatReview() {
           "name": "パーソナルジムびより"
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-10-28"
+        "dateModified": "2026-11-26"
       }) }} />
       <Breadcrumb items={[{ name: "口コミ・レビュー", href: "/#ranking" }, { name: "Rat" }]} />
 
@@ -192,7 +192,7 @@ export default function RatReview() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           パーソナルジムRat（ラット）の口コミ・評判｜料金・返金条件を検証
         </h1>
-        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年10月28日（料金・店舗一覧を公式サイトで再確認し、検索上位記事の口コミの出典を照合）</p>
+        <p className="text-gray-500 text-sm mb-4">最終更新: 2026年11月26日（Googleマップの店舗別クチコミを再取得。料金・店舗一覧は2026年10月28日に公式サイトで確認）</p>
 
         <section className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-6" aria-label="パーソナルジムRatとは">
           <h2 className="font-bold text-gray-900 mb-3">パーソナルジムRat（ラット）の口コミ・評判と料金：要点のまとめ</h2>
@@ -387,6 +387,42 @@ export default function RatReview() {
             <p className="text-sm text-gray-700 leading-relaxed">{reviewSummary}</p>
           </div>
           <p className="text-xs text-gray-500 mt-3">※ 上記は、当サイトの集計値と下記の出典を確認して要約したものです。</p>
+          <h3 className="font-bold text-gray-900 mt-6 mb-2">Googleマップの店舗別クチコミ（2026年11月26日取得）</h3>
+          <p className="text-sm text-gray-700 mb-3 leading-relaxed">公式の店舗一覧（33店舗）のうち、Googleマップで「パーソナルジムRat」の名称で登録が見つかった26店舗の評点と件数です。件数の多い順に並べています。件数が10件未満の店舗は、評点が少数の投稿で決まる点にご注意ください。</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200">
+              <thead><tr className="bg-gray-50"><th className="text-left px-3 py-1.5 border-b">店舗</th><th className="text-right px-3 py-1.5 border-b">評点</th><th className="text-right px-3 py-1.5 border-b">件数</th></tr></thead>
+              <tbody>
+              <tr><td className="px-3 py-1.5 border-b">新宿南口店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">344件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">名古屋栄店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">244件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">横浜西口店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">242件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">立川店</td><td className="px-3 py-1.5 border-b text-right">4.8</td><td className="px-3 py-1.5 border-b text-right">199件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">高槻店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">192件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">梅田店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">179件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">新宿三丁目店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">173件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">北千住店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">161件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">大宮店</td><td className="px-3 py-1.5 border-b text-right">4.8</td><td className="px-3 py-1.5 border-b text-right">156件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">川崎店</td><td className="px-3 py-1.5 border-b text-right">4.7</td><td className="px-3 py-1.5 border-b text-right">121件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">柏店</td><td className="px-3 py-1.5 border-b text-right">4.8</td><td className="px-3 py-1.5 border-b text-right">117件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">西船橋店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">104件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">福岡天神店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">95件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">二俣川店</td><td className="px-3 py-1.5 border-b text-right">4.8</td><td className="px-3 py-1.5 border-b text-right">30件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">藤沢店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">26件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">錦糸町店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">20件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">吉祥寺店</td><td className="px-3 py-1.5 border-b text-right">5</td><td className="px-3 py-1.5 border-b text-right">14件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">高崎店</td><td className="px-3 py-1.5 border-b text-right">5</td><td className="px-3 py-1.5 border-b text-right">13件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">府中店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">12件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">町田店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">10件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">上尾店</td><td className="px-3 py-1.5 border-b text-right">5</td><td className="px-3 py-1.5 border-b text-right">10件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">川口店</td><td className="px-3 py-1.5 border-b text-right">5</td><td className="px-3 py-1.5 border-b text-right">9件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">八王子店</td><td className="px-3 py-1.5 border-b text-right">4.9</td><td className="px-3 py-1.5 border-b text-right">7件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">中野店</td><td className="px-3 py-1.5 border-b text-right">5</td><td className="px-3 py-1.5 border-b text-right">5件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">春日部店</td><td className="px-3 py-1.5 border-b text-right">5</td><td className="px-3 py-1.5 border-b text-right">2件</td></tr>
+              <tr><td className="px-3 py-1.5 border-b">熊谷店</td><td className="px-3 py-1.5 border-b text-right">5</td><td className="px-3 py-1.5 border-b text-right">1件</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-2">出典：Googleマップ（Google Places API で2026年11月26日に取得）。合計2,486件・口コミ数で加重した平均4.87。下の「Googleマップの掲載データ」は、当サイトの店舗データベース（全国49市区）から抽出した集計で、取得日と対象店舗が異なります。</p>
         </section>
 
         <section className="mb-12">
