@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "カーブス（Curves）" },
   { label: "タイプ", value: "女性専用30分フィットネス" },
-  { label: "料金帯", value: "月額7,150円〜" },
+  { label: "料金帯", value: "店舗に通う月会費 7,150円〜8,360円／おうちでカーブス 6,050円〜7,260円／店舗とおうちの両方 9,130円（いずれも税込・入会金は通常16,500円・公式の料金ページとよくある質問・2026年11月26日確認）" },
   { label: "営業時間の目安", value: "平日 10:00〜13:00・15:00〜19:00／土曜 10:00〜13:00（日曜・祝日は概ね休み。店舗により異なる・2026年8月3日確認）" },
   { label: "エリア", value: "全国" },
   { label: "特徴", value: "女性専用 / 30分 / 予約不要 / 全国展開 / サーキット型" },
@@ -38,7 +38,7 @@ const strengths = [
 const merits = [
   {
     title: "手頃な料金設定",
-    desc: "月額制で通い放題のため、頻繁に通うほどお得になります。料金の詳細は公式サイトをご確認ください。",
+    desc: "公式の料金ページでは、月会費（税込7,150円〜8,360円）だけで1か月に何日でも通えると案内されています。月の途中から始める場合、初月の会費は日割りです（2026年11月26日確認）。",
   },
   {
     title: "幅広い方が安心して利用可能",
@@ -66,17 +66,18 @@ const demerits = [
 ];
 
 const pricingPlans = [
-  { name: "店舗プラン", duration: "30分/回・通い放題", price: "実額は公式サイトに掲載（店舗により異なる）", note: "店舗でのワークアウト" },
-  { name: "おうちプラン", duration: "詳細は公式サイト参照", price: "実額は公式サイトに掲載（店舗により異なる）", note: "詳細は公式サイト参照" },
-  { name: "Wプラン", duration: "詳細は公式サイト参照", price: "実額は公式サイトに掲載（店舗により異なる）", note: "詳細は公式サイト参照" },
+  { name: "店舗に通うプラン", duration: "1回30分・1か月に何日でも", price: "月額7,150円〜8,360円（税抜6,500円〜7,600円）", note: "コースにより金額が異なります" },
+  { name: "おうちでカーブス（おうちプラン）", duration: "1日6分から・アプリで24時間利用", price: "月額6,050円〜7,260円（税抜5,500円〜6,600円）", note: "初回のみ店舗で無料体験が必要。一部未実施の店舗あり" },
+  { name: "店舗とおうちプランの両方を利用", duration: "—", price: "月額9,130円（税抜8,300円）", note: "" },
+  { name: "入会金", duration: "—", price: "16,500円（通常価格・税抜15,000円）", note: "時期によりキャンペーンあり" },
 ];
 
 const reviewSummary = "カーブスの口コミでは「30分で終わるから続けやすい」「予約不要で気軽」「スタッフが親切」という声が多く見られます。幅広い年齢層の女性から支持されています。一方で「本格的なトレーニングには物足りない」という意見もあります。健康維持・体力づくりを目的とする方に適しています。";
 
 const faqItems = [
-  { q: "カーブスの料金はいくらですか？", a: "月会費は店舗とプラン（店舗プラン／おうちプラン／Wプラン）により異なり、実額は公式サイトで公開されています。通う店舗によって金額が変わるため、無料体験のときにご自身の店舗の正確な料金を確認するのが確実です（2026年8月3日確認）。" },
-  { q: "カーブスの入会金はいくらですか？", a: "入会金の詳細は公式サイトをご確認ください。キャンペーンを実施している場合もあります。" },
-  { q: "何歳から何歳まで通えますか？", a: "年齢制限は特にありません。10代から80代以上の方まで幅広い年齢層が通っています。" },
+  { q: "カーブスの料金はいくらですか？", a: "公式の料金ページ・よくある質問では、店舗に通う月会費は税込7,150円〜8,360円、おうちでカーブスは税込6,050円〜7,260円、店舗とおうちプランの両方を利用する場合は税込9,130円です。金額はコースにより異なるため、通う店舗の金額は無料体験の際にご確認ください（2026年11月26日確認）。" },
+  { q: "カーブスの入会金はいくらですか？", a: "公式の料金ページでは、入会金の通常価格は16,500円（税込）です。時期によりキャンペーンを実施していることがあると案内されています（2026年11月26日確認）。" },
+  { q: "何歳から何歳まで通えますか？", a: "公式のよくある質問では、10代・20代から100歳まで幅広い年代の方が通っており、最も多いのは50代・60代と案内されています（2026年11月26日確認）。" },
   { q: "運動経験がなくても大丈夫ですか？", a: "はい、油圧式マシンが自動で負荷を調整するため、体力に合わせたトレーニングが可能です。" },
   { q: "見学や体験はできますか？", a: "はい、無料体験が用意されています。お近くの店舗に直接お問い合わせください。" },
   { q: "どのくらいの頻度で通うのが理想ですか？", a: "週2〜3回が推奨されています。1回30分のため、日常生活に無理なく組み込めます。" },
@@ -134,7 +135,7 @@ export default function CurvesReview() {
           <img src="/brand-ss/curves.jpg" alt="カーブスの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">カーブス 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年8月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月26日</p>
         <GymCta slug="curves" name="カーブス" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -177,12 +178,12 @@ export default function CurvesReview() {
         <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5 mb-10">
           <h2 id="s3" className="font-bold text-gray-900 mb-3">カーブスの料金と確認方法</h2>
           <p className="text-sm text-gray-700 leading-relaxed mb-2">
-            カーブスの月会費は<strong>店舗とプラン（店舗プラン／おうちプラン／Wプラン）により異なり</strong>、実額は<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>で公開されています。
+            カーブスの月会費は、<a href="https://www.curves.co.jp/price/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式の料金ページ</a>・<a href="https://www.curves.co.jp/faq/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">よくある質問</a>で、<strong>店舗に通う場合 税込7,150円〜8,360円</strong>、<strong>おうちでカーブス 税込6,050円〜7,260円</strong>、<strong>店舗とおうちプランの両方 税込9,130円</strong>と案内されています。入会金の通常価格は16,500円（税込）です。
           </p>
           <p className="text-sm text-gray-700 leading-relaxed">
-            通う店舗によって金額が変わるため、<strong>無料体験の際に、通う店舗の正確な料金を確認する</strong>方法が最も確実です。体験は無料のため、料金の確認を兼ねてご利用いただけます。
+            金額はコースにより異なり、公式サイトには店舗ごとの金額の記載がないため、<strong>無料体験の際に、通う店舗の正確な料金を確認する</strong>方法が最も確実です。体験は無料のため、料金の確認を兼ねてご利用いただけます。
           </p>
-          <p className="text-xs text-gray-500 mt-3">※2026年8月3日 公式サイト確認。キャンペーン等で変わる場合があります。</p>
+          <p className="text-xs text-gray-500 mt-3">※2026年11月26日 公式サイト確認。キャンペーン等で変わる場合があります。</p>
         </div>
 
         <div className="mb-12">
@@ -198,7 +199,7 @@ export default function CurvesReview() {
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. 料金はいくらですか？</dt>
-              <dd className="text-gray-700 mt-1 leading-relaxed">月会費は店舗・プラン（店舗プラン／おうちプラン／Wプラン）により異なり、実額は<a href="https://www.curves.co.jp/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式サイト</a>で公開されています。無料体験の際に、通う店舗の正確な料金をご確認ください。</dd>
+              <dd className="text-gray-700 mt-1 leading-relaxed">店舗に通う月会費は税込7,150円〜8,360円、おうちでカーブスは税込6,050円〜7,260円、店舗とおうちプランの両方は税込9,130円です（<a href="https://www.curves.co.jp/price/" target="_blank" rel="noopener noreferrer" className="text-teal-600 underline">公式の料金ページ</a>・よくある質問、2026年11月26日確認）。金額はコースにより異なるため、無料体験の際に通う店舗の料金をご確認ください。</dd>
             </div>
             <div className="px-4 py-3">
               <dt className="font-bold text-gray-800">Q. どのような方に向いていますか？</dt>
@@ -285,7 +286,7 @@ export default function CurvesReview() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 月会費の実額は公式サイトで公開されています（店舗・プランにより異なる）。無料体験時にご自身の店舗の正確な料金をご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 出典: <a href="https://www.curves.co.jp/price/" target="_blank" rel="noopener noreferrer" className="underline">カーブス公式サイト 料金プラン</a>・<a href="https://www.curves.co.jp/faq/" target="_blank" rel="noopener noreferrer" className="underline">よくあるご質問</a>・<a href="https://www.curves.co.jp/ouchi/" target="_blank" rel="noopener noreferrer" className="underline">おうちでカーブス</a>（2026年11月26日確認）。金額はコースにより異なり、店舗ごとの金額は公式サイトに記載がありません。無料体験時にご自身の店舗の料金をご確認ください。</p>
         </section>
 
         <section id="reviews" className="mb-12 scroll-mt-20">

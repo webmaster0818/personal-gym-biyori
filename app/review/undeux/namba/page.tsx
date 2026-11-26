@@ -21,7 +21,7 @@ const faqItems = [
   { q: "UNDEUX SUPERBODY難波店の料金はいくらですか？", a: "公式の料金ページ（2026年11月25日確認）では、スタンダードプランの月額料金は店舗のグレードにより異なり、月2回（ALL 2）は18,200円〜21,300円です。コミットプランは全国一律の月額79,200円です（いずれも税込）。この店舗の料金グレードは公式の料金ページで確認できなかったため、店舗にお問い合わせください。入会金は公式の料金ページ・よくある質問に記載がありません。" },
   { q: "UNDEUX SUPERBODY難波店の営業時間を教えてください。", a: "8:00〜22:00です。最新情報は公式サイトでご確認ください。" },
   { q: "UNDEUX SUPERBODY難波店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。" },
-  { q: "UNDEUX SUPERBODY難波店のアクセスを教えてください。", a: "なんば駅 徒歩約5分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "UNDEUX SUPERBODY難波店のアクセスを教えてください。", a: "公式サイトの店舗一覧に難波店の掲載がないため（2026年11月26日確認）、当サイトでは所在地・アクセスを確認できていません。大阪府内の店舗は公式サイトの店舗一覧でご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -56,7 +56,12 @@ export default function StorePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">UNDEUX SUPERBODY 難波店の口コミ・評判</h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年5月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月26日</p>
+        {/* 2026-11-26 saburo-2 判断：公式の店舗一覧に難波店がないことを注記（削除・noindex変更・301はしない） */}
+        <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-gray-800">
+          <p className="font-bold">ご注意：UNDEUX SUPERBODY（アンドゥスーパーボディ）の公式サイトの店舗一覧に、難波店の掲載がありません（2026年11月26日確認）</p>
+          <p className="mt-1">当サイトで公式サイトの店舗一覧を確認したところ、難波店は掲載されていませんでした。大阪府内では梅田・心斎橋・天王寺・江坂・堺の各店が掲載されています。このページの情報は以前のものです。ご利用の前に、<a href="https://www.diet-undeux.jp/studio/" target="_blank" rel="noopener nofollow" className="underline">公式サイト</a>で店舗の有無をご確認ください。</p>
+        </div>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">基本情報</h2>
@@ -88,7 +93,7 @@ export default function StorePage() {
 
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4 pb-2 border-b-2 border-teal-500">店舗の概要</h2>
-          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODY難波店は、なんば駅近くにある女性専用パーソナルジムです。</p>
+          <p className="text-gray-700 leading-relaxed">UNDEUX SUPERBODYは女性専用のパーソナルジムです。難波店は、2026年11月26日時点で公式サイトの店舗一覧に掲載がありません。</p>
         </section>
 
         <section className="mb-10">

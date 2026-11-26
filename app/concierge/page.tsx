@@ -452,14 +452,14 @@ const stores: Store[] = [
   ]).map((s) => ({ ...s, storeName: `${s.area}エリア` })),
   /* ── MIYAZAKI GYM (no affiliate, mid) ────────────────── */
   ...mkStores('MIYAZAKI GYM', {
-    price: '月額3万円〜',
+    price: 'コース 8回96,800円〜（1回7,700円〜12,100円・税込）',
     priceCategory: 'mid',
     hours: '10:00〜22:00',
     lateNight: false,
-    features: ['月額制', '有資格トレーナー', '継続しやすい', '丁寧な指導'],
+    features: ['回数制コース', '有資格トレーナー', '継続しやすい', '丁寧な指導'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
     intensity: ['しっかり追い込みたい', '体験から始めたい'],
-    options: ['食事指導あり', '駅近(徒歩5分以内)', '月額制(解約しやすい)'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)'],
   }, [
     ['東京', '新宿', '/review/miyazaki-gym/shinjuku/'],
     ['東京', '渋谷', '/review/miyazaki-gym/shibuya/'],
@@ -471,9 +471,9 @@ const stores: Store[] = [
   ]),
   /* ── カーブス (no affiliate, budget, women-only) ──────── */
   ...mkStores('カーブス', {
-    price: '月額6,820円〜',
+    price: '月額7,150円〜8,360円（税込）',
     priceCategory: 'budget',
-    hours: '10:00〜19:00（平日）/ 10:00〜13:00（土）',
+    hours: '10:00〜13:00・15:00〜19:00（平日）/ 10:00〜13:00（土）※店舗により異なる',
     lateNight: false,
     features: ['女性専用', '1回30分', '予約不要', '全国2,000+店舗'],
     purpose: ['健康維持・運動不足解消', 'ダイエット・減量', '姿勢改善・腰痛改善'],

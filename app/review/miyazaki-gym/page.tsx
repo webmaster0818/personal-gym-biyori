@@ -41,8 +41,8 @@ const merits = [
     desc: "有資格者のみが在籍するため、フォーム指導の正確さや怪我予防の配慮が行き届いています。質の高い指導をリーズナブルな価格で受けられる点が大きな特徴です。",
   },
   {
-    title: "都度払いに対応で始めやすい",
-    desc: "月額制だけでなく都度払いにも対応しているため、まずは試してみたいという方や、不定期に通いたい方にも利用しやすい料金体系です。",
+    title: "都度払いにも対応している",
+    desc: "公式の料金ページでは、8回〜48回の回数制コースのほかに、1回13,200円（税込）の都度払いが案内されています。入会金とコース料金以外の費用は0円と記載されています（2026年11月26日確認）。",
   },
   {
     title: "エビデンスに基づく信頼性の高い指導",
@@ -66,19 +66,24 @@ const demerits = [
 ];
 
 const pricingPlans = [
-  { name: "都度払い", duration: "60分/回", price: "1回13,000円〜", note: "入会金不要の場合あり" },
-  { name: "月4回プラン", duration: "60分/回", price: "月額28,000円〜", note: "1回あたり7,000円〜" },
-  { name: "月8回プラン", duration: "60分/回", price: "月額52,000円〜", note: "1回あたり6,500円〜" },
+  { name: "8回コース", duration: "60分/回", price: "総額96,800円", note: "1回12,100円" },
+  { name: "16回コース", duration: "60分/回", price: "総額176,000円", note: "1回11,000円" },
+  { name: "24回コース", duration: "60分/回", price: "総額211,200円", note: "1回8,800円" },
+  { name: "48回コース", duration: "60分/回", price: "総額369,600円", note: "1回7,700円" },
+  { name: "都度払い", duration: "60分/回", price: "1回13,200円", note: "" },
+  { name: "継続コース（8回）", duration: "60分/回", price: "総額70,400円", note: "1回8,800円。16回以上のコース終了後に適用" },
+  { name: "入会金", duration: "—", price: "33,000円", note: "入会時のみ。キャンペーンで割引の場合あり" },
+  { name: "体験レッスン", duration: "60〜90分（カウンセリング含む）", price: "5,500円", note: "SNS・口コミ投稿で0円" },
 ];
 
 const reviewSummary = "MIYAZAKI GYMの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
-  { q: "MIYAZAKI GYMの入会金はいくらですか？", a: "入会金は20,000円程度です。都度払いの場合は入会金不要の場合もあります。最新情報は公式サイトでご確認ください。" },
-  { q: "都度払いと月額制、どちらがお得ですか？", a: "定期的に通う場合は月額制のほうが1回あたりの料金がお得です。まず都度払いで試してから月額制を検討する方法もあります。" },
+  { q: "MIYAZAKI GYMの入会金はいくらですか？", a: "公式の料金ページでは、入会金は33,000円（税込）で、入会時のみ必要です（更新・再入会時は不要）。キャンペーンにより割引となる場合があると案内されています（2026年11月26日確認）。" },
+  { q: "都度払いとコース、どちらがお得ですか？", a: "公式の料金ページでは、都度払いは1回13,200円、コースは1回あたり8回で12,100円、24回で8,800円、48回で7,700円です（いずれも税込・2026年11月26日確認）。回数の多いコースほど1回あたりの金額は下がります。月額制のプランは公式の料金ページに掲載されていません。" },
   { q: "トレーナーの資格は何を持っていますか？", a: "公式サイトは個々のトレーナーの保有資格を公開していませんが、採用基準として「NSCAやNESTA等の資格保有や体育系の学校卒」を挙げています（2026年10月8日確認）。担当トレーナーの資格は無料カウンセリングで確認できます。" },
   { q: "トレーニング初心者でも大丈夫ですか？", a: "はい、初心者の方も利用できます。基礎から丁寧な指導を受けられます。" },
-  { q: "無料体験はありますか？", a: "初回カウンセリング・体験トレーニングが用意されています。公式サイトから予約できます。" },
+  { q: "無料体験はありますか？", a: "公式の料金ページでは、無料カウンセリングとは別に体験レッスン（5,500円・税込、カウンセリングを含めて60〜90分程度）が案内されています。SNS・口コミ投稿で0円になると記載されています（2026年11月26日確認）。" },
   { q: "食事指導は受けられますか？", a: "プランによって食事アドバイスが含まれます。詳細はカウンセリング時にご確認ください。" },
 ];
 
@@ -111,7 +116,7 @@ export default function MiyazakiGymReview() {
           <img src="/brand-ss/miyazaki-gym.jpg" alt="MIYAZAKI GYMの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">MIYAZAKI GYM 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月26日</p>
         <GymCta slug="miyazaki-gym" name="MIYAZAKI GYM" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -167,7 +172,7 @@ export default function MiyazakiGymReview() {
             <thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン名</th><th className="px-4 py-3 text-left font-medium">時間</th><th className="px-4 py-3 text-left font-medium">料金</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead>
             <tbody>{pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}</tbody>
           </table></div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 金額はすべて税込です。1回60分は着替えを含む時間で、トレーニングは約50〜55分と案内されています。ペアレッスン（2人目＋2,200円／回）・モニターコース（24回まで10%オフ）・分割払いの案内もあります。出典: <a href="https://miyazaki-gym.jp/plan/" target="_blank" rel="noopener noreferrer" className="underline">MIYAZAKI GYM 公式サイト 料金・コース</a>（2026年11月26日確認）。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section className="mb-12">

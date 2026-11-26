@@ -84,9 +84,10 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "curves", name: "カーブス",
-    price: "月会費7,150円〜8,360円（税込）／1回30分・回数無制限",
-    kind: "月額制", lowest: 7150, entry: "16,500円（税込）",
-    officialUrl: "https://fitness.curves.co.jp/price/", area: "全国",
+    price: "店舗に通う月会費7,150円〜8,360円・おうちでカーブス6,050円〜7,260円・店舗とおうちの両方9,130円（すべて税込）／1回30分・1か月に何日でも",
+    kind: "月額制", lowest: 7150, entry: "16,500円（税込・通常価格）",
+    officialUrl: "https://www.curves.co.jp/price/", area: "全国",
+    checkedOn: "2026年11月26日",
   },
   {
     slug: "starlight", name: "スターライトフィットネス",
@@ -263,9 +264,10 @@ export const BRAND_PRICES: BrandPrice[] = [
   },
   {
     slug: "miyazaki-gym", name: "MIYAZAKI GYM",
-    price: "スタンダード 8回96,800円（1回12,100円）・16回176,000円・24回211,200円（1回8,800円）・48回369,600円／都度払い1回13,200円／プレミアム1回16,500円（すべて税込）",
-    kind: "コース制", lowest: 96800, entry: "33,000円（税込・48回コースは無料）",
+    price: "コース 8回96,800円（1回12,100円）・16回176,000円（1回11,000円）・24回211,200円（1回8,800円）・48回369,600円（1回7,700円）／都度払い1回13,200円／継続コース8回70,400円（16回以上のコース終了後）（すべて税込・1回60分）",
+    kind: "コース制", lowest: 96800, entry: "33,000円（税込・キャンペーンで割引の場合あり）",
     officialUrl: "https://miyazaki-gym.jp/plan/", area: "渋谷・新宿・神楽坂ほか（本社：東京都渋谷区）",
+    checkedOn: "2026年11月26日",
   },
   {
     slug: "racine", name: "RACINE（ラシーヌ）",

@@ -623,7 +623,7 @@ export default function FurdiReview() {
                   <td className="px-3 py-2 font-medium text-gray-800">月額料金</td>
                   <td className="px-3 py-2 text-center text-gray-700 bg-teal-50">7,678円〜</td>
                   <td className="px-3 py-2 text-center text-gray-700">月18,000円〜（マンツーマン30分×月4回）</td>
-                  <td className="px-3 py-2 text-center text-gray-700">6,820円〜</td>
+                  <td className="px-3 py-2 text-center text-gray-700">7,150円〜8,360円（税込・公式 2026年11月26日確認）</td>
                   <td className="px-3 py-2 text-center text-gray-700">9,900円〜</td>
                 </tr>
                 <tr className="border-b border-gray-100 bg-gray-50">
