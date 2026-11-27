@@ -66,9 +66,10 @@ const demerits = [
 ];
 
 const pricingPlans = [
-  { name: "通い放題プラン", duration: "30分/回", price: "月額38,280円〜", note: "回数無制限" },
-  { name: "月8回プラン", duration: "30分/回", price: "月額28,600円〜", note: "週2回ペース" },
-  { name: "デイタイムプラン", duration: "30分/回", price: "月額32,780円〜", note: "平日日中限定・通い放題" },
+  { name: "全日通い放題プラン", duration: "30分/回", price: "月額43,780円〜", note: "1日1回まで・全日10:00〜22:00" },
+  { name: "平日通い放題プラン", duration: "30分/回", price: "月額38,280円〜", note: "月〜金（祝日を含む）10:00〜18:00" },
+  { name: "月8回プラン", duration: "30分/回", price: "月額31,200円〜", note: "1日1回まで・全日10:00〜22:00" },
+  { name: "ハイブリッド月8回プラン", duration: "30分または60分", price: "月額43,100円〜", note: "同日に2枠まで予約可能" },
 ];
 
 const reviewSummary = "ELEMENTの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
@@ -113,7 +114,7 @@ export default function ElementReview() {
           <img src="/brand-ss/element.jpg" alt="ELEMENTの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">ELEMENT 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月27日</p>
         <GymCta slug="element" name="ELEMENT" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -215,7 +216,7 @@ export default function ElementReview() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">※ 金額はすべて税込です。食事指導はオプション（月16,500円）です。出典: <a href="https://element-gym.com/" target="_blank" rel="noopener noreferrer" className="underline">ELEMENT 公式サイト 料金プラン</a>（2026年11月27日確認）。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section className="mb-12">

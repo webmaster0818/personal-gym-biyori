@@ -158,11 +158,11 @@ const stores: Store[] = [
   ]),
   /* ── エクササイズコーチ (no affiliate, budget) ────────── */
   ...mkStores('エクササイズコーチ', {
-    price: '月額9,900円〜',
+    price: '1対1 月4回17,600円〜（税込・月額会費制）',
     priceCategory: 'budget',
     hours: '10:00〜22:00',
     lateNight: false,
-    features: ['1回20分', 'AI自動調整マシン', '手ぶらで通える', '全国40+店舗'],
+    features: ['1回20分', 'AI自動調整マシン', '手ぶらで通える', '全国25店舗'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
     intensity: ['無理なく楽しく', '体験から始めたい'],
     options: ['手ぶらで通える', 'AI・マシン主導', '月額制(解約しやすい)', '駅近(徒歩5分以内)'],
@@ -270,11 +270,11 @@ const stores: Store[] = [
   ]),
   /* ── Dr.トレーニング (no affiliate, mid) ─────────────── */
   ...mkStores('Dr.トレーニング', {
-    price: '1回6,700円〜 / 都度払い',
+    price: '月4回29,700円〜（関東のSTANDARD店舗・税込）',
     priceCategory: 'mid',
     hours: '9:00〜22:00',
     lateNight: false,
-    features: ['医学的アプローチ', '都度払い可', '管理栄養士在籍', '都内20+店舗'],
+    features: ['医学的アプローチ', '定額制・チケット制', '管理栄養士在籍', '都内中心'],
     purpose: ['健康維持・運動不足解消', '姿勢改善・腰痛改善', '筋肥大・ボディメイク'],
     intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
     options: ['食事指導あり', '駅近(徒歩5分以内)'],
@@ -454,8 +454,8 @@ const stores: Store[] = [
   ...mkStores('MIYAZAKI GYM', {
     price: 'コース 8回96,800円〜（1回7,700円〜12,100円・税込）',
     priceCategory: 'mid',
-    hours: '10:00〜22:00',
-    lateNight: false,
+    hours: '7:00〜23:00',
+    lateNight: true,
     features: ['回数制コース', '有資格トレーナー', '継続しやすい', '丁寧な指導'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '健康維持・運動不足解消'],
     intensity: ['しっかり追い込みたい', '体験から始めたい'],
@@ -494,7 +494,7 @@ const stores: Store[] = [
   ]),
   /* ── element (no affiliate, mid) ─────────────────────── */
   ...mkStores('element', {
-    price: '月額3万円〜',
+    price: '月8回 月額31,200円〜・全日通い放題 月額43,780円〜（税込）',
     priceCategory: 'mid',
     hours: '10:00〜22:00',
     lateNight: false,
