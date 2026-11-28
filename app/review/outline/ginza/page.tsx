@@ -20,10 +20,10 @@ const basicInfo = [
 
 /* ---------- FAQ ---------- */
 const faqItems = [
-  { q: "OUTLINE銀座店の料金はいくらですか？", a: "OUTLINE銀座店の料金は、2ヶ月コースで184,800円（税込）〜が目安です。入会金は33,000円（税込）です。最新の料金は公式サイトでご確認ください。" },
+  { q: "OUTLINE銀座店の料金はいくらですか？", a: "公式サイトの店舗一覧に銀座店の掲載がないため（2026年11月28日確認）、当サイトでは銀座店の料金を確認できていません。公式の料金ページでは、フルサポートコースが16回184,800円〜（税込）、入会金は0円です。" },
   { q: "OUTLINE銀座店の営業時間を教えてください。", a: "8:00〜23:00です。※最新情報は公式サイトでご確認ください。" },
   { q: "OUTLINE銀座店は無料カウンセリングを受けられますか？", a: "はい、無料カウンセリング（体験）が用意されています。公式サイトから予約可能です。最新情報は公式サイトでご確認ください。" },
-  { q: "OUTLINE銀座店のアクセスを教えてください。", a: "東京メトロ銀座駅 徒歩約3分の立地です。詳しいアクセスは公式サイトでご確認ください。" },
+  { q: "OUTLINE銀座店のアクセスを教えてください。", a: "公式サイトの店舗一覧に銀座店の掲載がないため（2026年11月28日確認）、当サイトでは所在地・アクセスを確認できていません。営業している店舗は公式サイトの店舗一覧でご確認ください。" },
 ];
 
 const faqJsonLd = {
@@ -62,7 +62,12 @@ export default function StorePage() {
         <h1 className="text-2xl sm:text-3xl font-bold mb-2">
           OUTLINE 銀座店の口コミ・評判
         </h1>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月28日</p>
+        {/* 2026-11-28 saburo-2 判断：公式の店舗一覧に銀座店がないことを注記（削除・noindex変更・301はしない） */}
+        <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-gray-800">
+          <p className="font-bold">ご注意：OUTLINEの公式サイトの店舗一覧に、銀座店の掲載がありません（2026年11月28日確認）</p>
+          <p className="mt-1">当サイトで公式サイトの店舗一覧を確認したところ、銀座店は掲載されていませんでした。このページの情報は以前のものです。ご利用の前に、<a href="https://www.outline-gym.com/gym" target="_blank" rel="noopener nofollow" className="underline">公式サイトの店舗一覧</a>で店舗の有無をご確認ください。</p>
+        </div>
 
         {/* ---------- 基本情報テーブル ---------- */}
         <section className="mb-10">

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "ジム名", value: "OUTLINE（アウトライン）" },
   { label: "タイプ", value: "女性専用完全個室パーソナルジム" },
-  { label: "料金帯", value: "コース総額17,000円〜" },
+  { label: "料金帯", value: "フルサポートコース16回184,800円〜（税込・入会金0円・公式の料金ページ 2026年11月28日確認）" },
   { label: "エリア", value: "東京・神奈川ほか" },
   { label: "特徴", value: "女性専用 / 完全個室 / 生涯アフターフォロー / 女性トレーナー在籍" },
 ];
@@ -66,15 +66,16 @@ const demerits = [
 ];
 
 const pricingPlans = [
-  { name: "クイックコース（1ヶ月）", duration: "75分/回", price: "総額92,400円〜", note: "8回" },
-  { name: "ダイエットコース（2ヶ月）", duration: "75分/回", price: "総額184,800円〜", note: "16回・人気プラン" },
-  { name: "下半身SPコース（2ヶ月）", duration: "75分/回", price: "総額184,800円〜", note: "16回・下半身特化" },
+  { name: "フルサポートコース", duration: "16回／24回／32回", price: "184,800円／264,000円／334,400円", note: "1回11,550円／11,000円／10,450円。終了後はクラブメンバーへ自動移行（月2回以上・最低3ヶ月の継続が必要）" },
+  { name: "通常コース", duration: "16回／24回／32回", price: "220,000円／316,800円／404,800円", note: "1回13,750円／13,200円／12,650円。終了後のクラブメンバー移行は任意" },
+  { name: "クラブメンバー（コース終了後の月額）", duration: "月2回〜月5回", price: "月2回18,700円〜20,900円", note: "1回単価は最初のコースにより9,350円〜10,450円" },
+  { name: "ミニマムコース", duration: "30分", price: "1回5,500円", note: "遺伝子検査・よもぎ蒸しは含まれません" },
 ];
 
 const reviewSummary = "OUTLINEの口コミについて、当サイトでは掲載先のURLと取得日を示せる形で集計していないため、口コミの傾向の要約は掲載していません。実際の口コミは、ページ上部の「Googleマップで最新の口コミを見る」からご確認ください。";
 
 const faqItems = [
-  { q: "OUTLINEの入会金はいくらですか？", a: "入会金は33,000円〜55,000円程度です。キャンペーンで無料になることもあります。" },
+  { q: "OUTLINEの入会金はいくらですか？", a: "公式の料金ページでは、入会金は0円です（2026年11月28日確認）。" },
   { q: "生涯アフターフォローとは何ですか？", a: "コース卒業後も無期限でLINEによる食事・トレーニングアドバイスが受けられるサービスです。追加料金はかかりません。" },
   { q: "女性トレーナーを指名できますか？", a: "はい、女性トレーナーの指名が可能です。希望がある場合はカウンセリング時にご相談ください。" },
   { q: "子連れでも通えますか？", a: "店舗によりベビーサークルを用意しているところがあります。事前に各店舗にご確認ください。" },
@@ -114,7 +115,7 @@ export default function OutlineReview() {
           <img src="/brand-ss/outline.jpg" alt="OUTLINEの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">OUTLINE 公式サイトのスクリーンショットです（2026年9月16日取得）。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年4月</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月28日</p>
         <GymCta slug="outline" name="OUTLINE" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
@@ -169,7 +170,7 @@ export default function OutlineReview() {
           <div className="overflow-x-auto"><table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden"><thead><tr className="bg-teal-500 text-white"><th className="px-4 py-3 text-left font-medium">プラン名</th><th className="px-4 py-3 text-left font-medium">時間</th><th className="px-4 py-3 text-left font-medium">料金</th><th className="px-4 py-3 text-left font-medium">備考</th></tr></thead><tbody>
             {pricingPlans.map((plan) => (<tr key={plan.name} className="border-b border-gray-100"><td className="px-4 py-3 font-medium text-gray-800">{plan.name}</td><td className="px-4 py-3 text-gray-700">{plan.duration}</td><td className="px-4 py-3 text-gray-700">{plan.price}</td><td className="px-4 py-3 text-gray-500 text-xs">{plan.note}</td></tr>))}
           </tbody></table></div>
-          <p className="text-xs text-gray-500 mt-3">※ 料金は税込の目安です。最新情報は公式サイトでご確認ください。</p>
+          <p className="text-xs text-gray-500 mt-3">出典: <a href="https://www.outline-gym.com/service" target="_blank" rel="noopener nofollow" className="underline">OUTLINE 料金・コースのご案内</a>（2026年11月28日確認）。金額はすべて税込です。学割・モニター割・乗り換え割（15%OFF）は含めていません。最新情報は公式サイトでご確認ください。</p>
         </section>
 
         <section className="mb-12">

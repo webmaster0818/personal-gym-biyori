@@ -160,7 +160,7 @@ const stores: Store[] = [
   ...mkStores('エクササイズコーチ', {
     price: '1対1 月4回17,600円〜（税込・月額会費制）',
     priceCategory: 'budget',
-    hours: '10:00〜22:00',
+    hours: '店舗により異なる（8:00〜22:00の範囲・公式11/28確認）',
     lateNight: false,
     features: ['1回20分', 'AI自動調整マシン', '手ぶらで通える', '全国25店舗'],
     purpose: ['ダイエット・減量', '健康維持・運動不足解消'],
@@ -234,7 +234,7 @@ const stores: Store[] = [
   ]),
   /* ── OUTLINE (no affiliate, mid, women-only) ─────────── */
   ...mkStores('OUTLINE', {
-    price: '月額9,900円〜',
+    price: 'フルサポートコース16回184,800円〜（税込・入会金0円・公式11/28確認）',
     priceCategory: 'mid',
     hours: '8:00〜23:00',
     lateNight: true,
@@ -562,14 +562,14 @@ const stores: Store[] = [
   ]),
   /* ── Apple GYM (affiliate, mid) ─────────────────────── */
   ...mkStores('Apple GYM', {
-    price: '月額24,200円〜',
+    price: '個別指導（最大2名）月4回9,900円〜・完全マンツーマン月4回14,850円〜（税込・共用設備費330円別途・公式11/28確認）',
     priceCategory: 'mid',
     hours: '7:00〜23:00',
     lateNight: true,
-    features: ['海外式ボディメイク', '姿勢改善', '食事指導付き', '完全個室'],
+    features: ['海外式ボディメイク', '姿勢改善', '食事指導（別料金オプション）'],
     purpose: ['ダイエット・減量', '筋肥大・ボディメイク', '姿勢改善・腰痛改善'],
     intensity: ['しっかり追い込みたい', '本格的に結果を出したい'],
-    options: ['食事指導あり', '完全個室', '駅近(徒歩5分以内)'],
+    options: ['食事指導あり', '駅近(徒歩5分以内)'],
     affiliateUrl: APPLE_GYM_AFF,
   }, [
     ['東京', '新宿', '/review/apple-gym/shinjuku/'],

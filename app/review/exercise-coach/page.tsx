@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const basicInfo = [
   { label: "運営会社", value: "株式会社エクササイズコーチジャパン" },
   { label: "店舗数", value: "25店舗（公式サイトの店舗一覧・2026年11月27日確認）" },
-  { label: "営業時間", value: "10:00〜22:00（店舗により異なる）" },
+  { label: "営業時間", value: "店舗・曜日により異なります（公式の各店舗ページでは、開店は8:00〜12:00、閉店は18:00〜22:00の範囲。2026年11月28日確認）" },
   { label: "特徴", value: "1回20分 / AI×マシンによる自動負荷調整 / 手ぶらで利用可能 / 1対1は月4回17,600円〜" },
   { label: "公式URL", value: "https://exercisecoach.co.jp/", isLink: true },
 ];
@@ -149,7 +149,7 @@ export default function ExerciseCoachReview() {
           <img src="/brand-ss/exercise-coach.jpg" alt="エクササイズコーチの公式サイト(スクリーンショット)" className="w-full h-auto" loading="lazy" />
         </figure>
         <p className="text-xs text-gray-400 mb-6">エクササイズコーチ 公式サイトのスクリーンショット(2026年9月16日取得)。最新の料金・キャンペーンは公式サイトをご確認ください。</p>
-        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月27日</p>
+        <p className="text-gray-500 text-sm mb-6">最終更新: 2026年11月28日</p>
         <GymCta slug="exercise-coach" name="エクササイズコーチ" variant="top" />
         <h2 id="s1" className="text-xl font-bold mb-4 pb-2 border-b border-gray-200">この記事を書いた人</h2>
         <AuthorBox />
